@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block og_extra %}<meta property="og:type" content="article">
+<meta property="og:image" content="{{ base_url }}{{ post.hero_image }}">
+<meta property="article:published_time" content="{{ post.date }}">{% endblock %}
+{% block content %}
+<article class="post">
+  <header class="post-header">
+    <a class="kicker" href="{{ post.pillar_url }}">{{ post.pillar_name }}</a>
+    <h1>{{ post.title }}</h1>
+    <p class="post-meta">{{ post.date }} · {{ post.reading_time }} min read · By {{ site.author }}</p>
+  </header>
+  <figure class="post-hero"><img src="{{ post.hero_image }}" alt="" loading="eager"></figure>
+
+  <div class="post-body">
+    {{ post.html | safe }}
+  </div>
+
+  {% if related %}
+  <aside class="related">
+    <h2 class="section-title">Keep reading</h2>
+    <div class="post-grid">
+      {% for r in related %}
+      <a class="post-card" href="{{ r.url }}">
+        <div class="card-media"><img src="{{ r.hero_image }}" alt="" loading="lazy"></div>
+        <div class="card-body">
+          <span class="kicker">{{ r.pillar_name }}</span>
+          <h3>{{ r.title }}</h3>
+          <span class="meta">{{ r.reading_time }} min read</span>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </aside>
+  {% endif %}
+</article>
+{% endblock %}

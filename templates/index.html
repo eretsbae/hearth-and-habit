@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+{% if posts %}
+{% set featured = posts[0] %}
+<section class="featured">
+  <a class="featured-card" href="{{ featured.url }}">
+    <div class="featured-media"><img src="{{ featured.hero_image }}" alt="" loading="eager"></div>
+    <div class="featured-body">
+      <span class="kicker">{{ featured.pillar_name }}</span>
+      <h1>{{ featured.title }}</h1>
+      <p>{{ featured.description }}</p>
+      <span class="meta">{{ featured.date }} · {{ featured.reading_time }} min read</span>
+    </div>
+  </a>
+</section>
+{% endif %}
+
+<section class="post-grid-section">
+  <h2 class="section-title">Latest guides</h2>
+  <div class="post-grid">
+    {% for post in posts[1:] %}
+    <a class="post-card" href="{{ post.url }}">
+      <div class="card-media"><img src="{{ post.hero_image }}" alt="" loading="lazy"></div>
+      <div class="card-body">
+        <span class="kicker">{{ post.pillar_name }}</span>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.description }}</p>
+        <span class="meta">{{ post.date }} · {{ post.reading_time }} min read</span>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="pillar-strip">
+  <h2 class="section-title">Browse by topic</h2>
+  <div class="pillar-links">
+    {% for p in pillars %}
+    <a class="pillar-chip" href="{{ prefix }}/topics/{{ p.slug }}/"><strong>{{ p.name }}</strong><span>{{ p.description }}</span></a>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}

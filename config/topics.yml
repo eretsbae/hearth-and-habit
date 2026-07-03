@@ -1,0 +1,161 @@
+# ─────────────────────────────────────────────────────────────
+# Content topic queue — anti-drift by design.
+#
+# 블로그가 트렌드를 쫓아 주제가 중구난방이 되는 것을 막기 위해,
+# 모든 글은 아래 5개의 고정 필러(pillar) 안에서만 생성됩니다.
+# 대기 주제가 부족해지면 Claude가 "필러 범위 안에서만" 새 주제를
+# 보충하므로, 장기 운영해도 니치가 흔들리지 않습니다.
+#
+# status: pending(대기) | published(발행됨)
+# ─────────────────────────────────────────────────────────────
+
+pillars:
+  - name: "Home Maintenance & Repairs"
+    slug: "home-maintenance"
+    description: "Seasonal upkeep, small fixes, and knowing when to call a pro — for North American homeowners and renters."
+  - name: "Cleaning & Organization"
+    slug: "cleaning-organization"
+    description: "Realistic cleaning routines, decluttering systems, and storage that actually sticks."
+  - name: "Energy & Utility Savings"
+    slug: "energy-savings"
+    description: "Cutting electric, gas, and water bills with practical habits and smart upgrades."
+  - name: "Kitchen & Food Habits"
+    slug: "kitchen-habits"
+    description: "Meal planning systems, appliance care, food storage, and reducing kitchen waste."
+  - name: "Yard & Outdoor Basics"
+    slug: "yard-outdoor"
+    description: "Low-effort lawn care, gutters, decks, and seasonal outdoor prep."
+
+topics:
+  # ── Home Maintenance & Repairs ──
+  - title: "Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)"
+    pillar: "home-maintenance"
+    status: published
+    published_slug: "furnace-filter-basics"
+  - title: "The 10 Home Maintenance Tasks Most People Forget (Seasonal Checklist)"
+    pillar: "home-maintenance"
+    status: pending
+  - title: "How to Fix a Running Toilet in 15 Minutes Without Calling a Plumber"
+    pillar: "home-maintenance"
+    status: pending
+  - title: "Caulking 101: Where to Caulk, What to Buy, and How to Get a Clean Line"
+    pillar: "home-maintenance"
+    status: pending
+  - title: "What That Sound Means: A Homeowner's Guide to Common House Noises"
+    pillar: "home-maintenance"
+    status: pending
+  - title: "Water Heater Maintenance: The One Annual Task That Doubles Its Lifespan"
+    pillar: "home-maintenance"
+    status: pending
+  - title: "Renter-Friendly Fixes: 12 Repairs You Can Do Without Losing Your Deposit"
+    pillar: "home-maintenance"
+    status: pending
+  - title: "When to DIY vs. When to Call a Pro: An Honest Decision Guide"
+    pillar: "home-maintenance"
+    status: pending
+  - title: "How to Prevent Frozen Pipes (and What to Do If They Freeze Anyway)"
+    pillar: "home-maintenance"
+    status: pending
+
+  # ── Cleaning & Organization ──
+  - title: "The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control"
+    pillar: "cleaning-organization"
+    status: published
+    published_slug: "15-minute-weekly-home-reset"
+  - title: "The One-Touch Rule: The Single Habit That Ends Clutter Pile-Up"
+    pillar: "cleaning-organization"
+    status: pending
+  - title: "How to Declutter When You're Overwhelmed: Start With One Drawer"
+    pillar: "cleaning-organization"
+    status: pending
+  - title: "Cleaning Supplies You Actually Need (and 10 You Can Skip)"
+    pillar: "cleaning-organization"
+    status: pending
+  - title: "The Entryway System: Stop Losing Keys, Mail, and Your Mind"
+    pillar: "cleaning-organization"
+    status: pending
+  - title: "How to Clean Your Bathroom in 20 Minutes Flat (Top-to-Bottom Method)"
+    pillar: "cleaning-organization"
+    status: pending
+  - title: "Closet Organization on a Budget: What Works Without Custom Shelving"
+    pillar: "cleaning-organization"
+    status: pending
+  - title: "The Sunday Basket: A Paper Clutter System That Takes 30 Minutes a Week"
+    pillar: "cleaning-organization"
+    status: pending
+
+  # ── Energy & Utility Savings ──
+  - title: "How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work"
+    pillar: "energy-savings"
+    status: published
+    published_slug: "cut-electric-bill-no-cost-habits"
+  - title: "Phantom Power: How Much Your Idle Electronics Really Cost You Each Year"
+    pillar: "energy-savings"
+    status: pending
+  - title: "The Right Thermostat Settings for Every Season (and How Much They Save)"
+    pillar: "energy-savings"
+    status: pending
+  - title: "Do Smart Thermostats Actually Pay for Themselves? A Real Math Breakdown"
+    pillar: "energy-savings"
+    status: pending
+  - title: "How to Read Your Electric Bill (and Spot the Charges You Can Control)"
+    pillar: "energy-savings"
+    status: pending
+  - title: "Water Bill Too High? The 7 Most Common Culprits, Ranked"
+    pillar: "energy-savings"
+    status: pending
+  - title: "Weatherstripping for Beginners: A $25 Weekend Project That Cuts Drafts"
+    pillar: "energy-savings"
+    status: pending
+  - title: "LED vs. Everything Else: The Last Lightbulb Guide You'll Ever Need"
+    pillar: "energy-savings"
+    status: pending
+
+  # ── Kitchen & Food Habits ──
+  - title: "The 30-Minute Sunday Meal Plan That Ends the 'What's for Dinner?' Spiral"
+    pillar: "kitchen-habits"
+    status: pending
+  - title: "How to Store Produce So It Actually Lasts: A Fridge Map"
+    pillar: "kitchen-habits"
+    status: pending
+  - title: "Your Dishwasher Is Probably Loaded Wrong: The Method That Gets Everything Clean"
+    pillar: "kitchen-habits"
+    status: pending
+  - title: "Freezer Inventory 101: Stop Buying Food You Already Own"
+    pillar: "kitchen-habits"
+    status: pending
+  - title: "How to Deep-Clean Your Oven Without Harsh Chemicals"
+    pillar: "kitchen-habits"
+    status: pending
+  - title: "The Pantry Zones Method: Organize Once, Find Everything Forever"
+    pillar: "kitchen-habits"
+    status: pending
+  - title: "Cast Iron Care Made Simple: Season, Clean, and Stop Worrying"
+    pillar: "kitchen-habits"
+    status: pending
+  - title: "Grocery Shopping Once a Week: The System That Makes It Work"
+    pillar: "kitchen-habits"
+    status: pending
+
+  # ── Yard & Outdoor Basics ──
+  - title: "Lawn Care for People Who Don't Care About Lawns: The Bare Minimum That Looks Good"
+    pillar: "yard-outdoor"
+    status: pending
+  - title: "Gutter Cleaning: How Often, How To, and What Happens If You Skip It"
+    pillar: "yard-outdoor"
+    status: pending
+  - title: "Fall Yard Cleanup Checklist: What Actually Matters Before Winter"
+    pillar: "yard-outdoor"
+    status: pending
+  - title: "How to Pressure-Wash Your Driveway, Deck, and Siding Without Damage"
+    pillar: "yard-outdoor"
+    status: pending
+  - title: "Spring Lawn Wake-Up: The First 5 Things to Do When the Snow Melts"
+    pillar: "yard-outdoor"
+    status: pending
+  - title: "Deck Maintenance: Sealing, Staining, and the 5-Year Plan"
+    pillar: "yard-outdoor"
+    status: pending
+  - title: "Mosquito Control That Actually Works (and the Gimmicks That Don't)"
+    pillar: "yard-outdoor"
+    status: pending

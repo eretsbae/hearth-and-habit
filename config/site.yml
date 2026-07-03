@@ -1,0 +1,45 @@
+# ─────────────────────────────────────────────────────────────
+# Hearth & Habit — site configuration
+# 사용자가 직접 수정해야 하는 값은 [사용자 입력] 표시가 되어 있습니다.
+# ─────────────────────────────────────────────────────────────
+
+site_name: "Hearth & Habit"
+tagline: "Practical home care and everyday routines, made simple."
+
+# [사용자 입력] 커스텀 도메인 구매 후 여기에 입력하세요 (예: hearthandhabit.com)
+# 비워두면 GitHub Pages 기본 주소(username.github.io/repo)로 빌드됩니다.
+custom_domain: ""
+
+# custom_domain이 비어있을 때 사용되는 기본 URL (마이그레이션 후 자동 계산됨)
+fallback_url: "https://eretsbae.github.io/hearth-and-habit"
+
+language: "en"
+locale: "en_US"
+author: "Hearth & Habit Editorial"
+contact_email: "hello@hearthandhabit.example"  # [사용자 입력] 실제 이메일로 교체
+
+# ── Google AdSense ───────────────────────────────────────────
+adsense:
+  # [사용자 입력] 애드센스 승인 후 발급받은 게시자 ID를 입력하세요.
+  # 형식: ca-pub-1234567890123456
+  # 비워두면 광고 코드가 삽입되지 않습니다 (승인 전 상태).
+  publisher_id: ""
+  # 자동 광고 사용 (권장). 애드센스 대시보드에서 자동 광고를 켜면
+  # head 스크립트만으로 광고가 배치됩니다.
+  auto_ads: true
+
+# ── Google Search Console ────────────────────────────────────
+# [사용자 입력] Search Console의 HTML 태그 인증 코드 (content 값만)
+google_site_verification: ""
+
+# ── Content generation ──────────────────────────────────────
+generation:
+  # Claude 모델 (글 생성용)
+  model: "claude-sonnet-5"
+  # 한 번 실행할 때 생성할 글 수
+  posts_per_run: 1
+  # 대기 중인 주제가 이 수 미만이면 필러 범위 안에서 새 주제를 자동 보충
+  refill_threshold: 5
+  refill_count: 10
+  # 글 길이 가이드 (단어 수)
+  target_words: 1400

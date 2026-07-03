@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ site.language }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page_title }}</title>
+<meta name="description" content="{{ page_description }}">
+<link rel="canonical" href="{{ canonical }}">
+<link rel="alternate" type="application/rss+xml" title="{{ site.site_name }}" href="{{ base_url }}/rss.xml">
+<meta property="og:site_name" content="{{ site.site_name }}">
+<meta property="og:title" content="{{ page_title }}">
+<meta property="og:description" content="{{ page_description }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:locale" content="{{ site.locale }}">
+{% block og_extra %}<meta property="og:type" content="website">{% endblock %}
+{% if site.google_site_verification %}<meta name="google-site-verification" content="{{ site.google_site_verification }}">
+{% endif %}<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23B85C38'/%3E%3Cpath d='M25 55 L50 30 L75 55 L75 78 L58 78 L58 60 L42 60 L42 78 L25 78 Z' fill='%23F6EFE6'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="{{ prefix }}/static/style.css">
+{% if site.adsense.publisher_id %}<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ site.adsense.publisher_id }}" crossorigin="anonymous"></script>
+{% endif %}</head>
+<body>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ prefix }}/">
+      <svg class="brand-mark" viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" rx="20" fill="#B85C38"/><path d="M25 55 L50 30 L75 55 L75 78 L58 78 L58 60 L42 60 L42 78 L25 78 Z" fill="#F6EFE6"/></svg>
+      <span class="brand-name">{{ site.site_name }}</span>
+    </a>
+    <nav class="site-nav" aria-label="Topics">
+      {% for p in pillars %}<a href="{{ prefix }}/topics/{{ p.slug }}/">{{ p.name.split(' &')[0] }}</a>{% endfor %}
+      <a href="{{ prefix }}/about/">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+{% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p class="footer-brand">{{ site.site_name }} — {{ site.tagline }}</p>
+    <nav class="footer-nav" aria-label="Site pages">
+      <a href="{{ prefix }}/about/">About</a>
+      <a href="{{ prefix }}/privacy-policy/">Privacy Policy</a>
+      <a href="{{ prefix }}/terms/">Terms</a>
+      <a href="{{ prefix }}/contact/">Contact</a>
+      <a href="{{ prefix }}/rss.xml">RSS</a>
+    </nav>
+    <p class="footer-copy">&copy; {{ current_year }} {{ site.site_name }}. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>

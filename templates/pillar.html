@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<header class="pillar-header">
+  <span class="kicker">Topic</span>
+  <h1>{{ pillar.name }}</h1>
+  <p>{{ pillar.description }}</p>
+</header>
+
+{% if posts %}
+<div class="post-grid">
+  {% for post in posts %}
+  <a class="post-card" href="{{ post.url }}">
+    <div class="card-media"><img src="{{ post.hero_image }}" alt="" loading="lazy"></div>
+    <div class="card-body">
+      <span class="kicker">{{ post.date }}</span>
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.description }}</p>
+      <span class="meta">{{ post.reading_time }} min read</span>
+    </div>
+  </a>
+  {% endfor %}
+</div>
+{% else %}
+<p class="empty-note">Guides for this topic are on the way — check back soon.</p>
+{% endif %}
+{% endblock %}

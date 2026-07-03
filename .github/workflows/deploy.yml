@@ -1,0 +1,50 @@
+# 수동 편집(설정 변경, 글 수정 등)을 main에 푸시하면 사이트를 다시 빌드/배포합니다.
+# (자동 생성 워크플로우의 봇 커밋은 GITHUB_TOKEN 푸시라 이 워크플로우를
+#  중복 트리거하지 않습니다 — 그쪽 파이프라인이 스스로 배포합니다.)
+
+name: Deploy Site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build site
+        run: python generator/build_site.py
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

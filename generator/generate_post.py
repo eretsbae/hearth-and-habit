@@ -69,11 +69,22 @@ def sanitize_svg(svg: str) -> str:
 
 
 def parse_article(raw: str) -> tuple[dict, str]:
-    """Parse the ===META=== / ===BODY=== / ===END=== response format."""
-    meta_m = re.search(r"===META===\s*([\s\S]*?)\s*===BODY===", raw)
-    body_m = re.search(r"===BODY===\s*([\s\S]*?)\s*===END===", raw)
+    """Parse the ===META=== / ===BODY=== / ===END=== response format.
+
+    Tolerates the model wrapping its whole answer in a markdown code fence
+    (```...```), which otherwise leaves the delimiters intact but can trip up
+    a naive strip() elsewhere; re.search finds them regardless of wrapping.
+    """
+    text = raw.strip()
+    fence_m = re.match(r"^```[a-zA-Z]*\n([\s\S]*)\n```$", text)
+    if fence_m:
+        text = fence_m.group(1)
+
+    meta_m = re.search(r"===META===\s*([\s\S]*?)\s*===BODY===", text)
+    body_m = re.search(r"===BODY===\s*([\s\S]*?)\s*===END===", text)
     if not meta_m or not body_m:
-        raise ValueError("Model response missing META/BODY delimiters")
+        preview = text[:500].replace("\n", " ")
+        raise ValueError(f"Model response missing META/BODY delimiters. First 500 chars: {preview!r}")
     meta = json.loads(meta_m.group(1))
     return meta, body_m.group(1).strip()
 
@@ -365,11 +376,20 @@ def main() -> int:
             hero_svg, inline_svg = DRY_SVG, None
             score: int | None = None
         else:
-            angle_instruction = pick_angle(len(published_titles))
-            meta, body = generate_article(client, cfg, topic, pillar, published_titles, angle_instruction)
-            body, passed, score, issues = enforce_quality_gate(
-                client, cfg, meta, body, pillar, published_titles
-            )
+            try:
+                angle_instruction = pick_angle(len(published_titles))
+                meta, body = generate_article(client, cfg, topic, pillar, published_titles, angle_instruction)
+                body, passed, score, issues = enforce_quality_gate(
+                    client, cfg, meta, body, pillar, published_titles
+                )
+            except Exception as exc:  # malformed/unexpected model response, API hiccup, etc.
+                # Leave the topic's status untouched (still "pending") so a future
+                # scheduled run retries it automatically — this is a technical
+                # generation failure, not a content-quality verdict, and it must
+                # not take down the whole run (other topics may still succeed).
+                print(f"  SKIPPED (generation error, will retry next run): {exc}")
+                continue
+
             if not passed:
                 topic["status"] = "needs_review"
                 topic["quality_score"] = score
@@ -377,10 +397,14 @@ def main() -> int:
                 print(f"  SKIPPED (quality gate failed, score={score}): {'; '.join(issues[:2]) or 'no details'}")
                 continue
 
-            hero_svg = generate_svg(client, cfg, meta["hero_image_brief"], meta["title"])
-            inline_svg = None
-            if meta.get("inline_image_brief") and "[INLINE_IMAGE]" in body:
-                inline_svg = generate_svg(client, cfg, meta["inline_image_brief"], meta["title"])
+            try:
+                hero_svg = generate_svg(client, cfg, meta["hero_image_brief"], meta["title"])
+                inline_svg = None
+                if meta.get("inline_image_brief") and "[INLINE_IMAGE]" in body:
+                    inline_svg = generate_svg(client, cfg, meta["inline_image_brief"], meta["title"])
+            except Exception as exc:
+                print(f"  SKIPPED (image generation error, will retry next run): {exc}")
+                continue
 
         out = write_post(meta, body, topic, hero_svg, inline_svg)
         generated.append(out)
@@ -392,9 +416,12 @@ def main() -> int:
             topic["quality_score"] = score
 
     if not args.dry_run and client is not None:
-        added = refill_topics(client, cfg, topics_data)
-        if added:
-            print(f"Refilled topic queue with {added} new on-niche topics.")
+        try:
+            added = refill_topics(client, cfg, topics_data)
+            if added:
+                print(f"Refilled topic queue with {added} new on-niche topics.")
+        except Exception as exc:
+            print(f"WARN: topic refill failed, skipping this run: {exc}")
 
     if not args.dry_run:
         save_yaml(TOPICS_CONFIG, topics_data)

@@ -49,3 +49,17 @@ generation:
   refill_count: 10
   # 글 길이 가이드 (단어 수)
   target_words: 1400
+
+  # ── 품질 게이트 (구글 "scaled content abuse" / 애드센스 콘텐츠 품질 심사 대응) ──
+  # 발행 전 (1) 프로그래매틱 체크(글자수/구조/의심스러운 통계/금지 문구) +
+  # (2) 별도 Claude 크리틱 채점을 통과해야 발행됩니다. 실패하면 1회 자동
+  # 재작성 후 재검사하고, 그래도 실패하면 발행하지 않고 topics.yml에
+  # status: needs_review 로 남겨(사람이 나중에 검토) 다음 대기 주제로 넘어갑니다.
+  quality_gate:
+    enabled: true
+    min_words: 700
+    min_score: 75
+    max_revision_rounds: 1
+    # 한 회차에서 게이트 탈락으로 건너뛸 수 있는 추가 주제 수
+    # (posts_per_run + 이 값 만큼 시도한 뒤 포기)
+    max_topic_attempts_extra: 3

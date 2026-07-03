@@ -2,3 +2,5 @@ _site/
 __pycache__/
 *.pyc
 .env
+generator/client_secret.json
+generator/token.json

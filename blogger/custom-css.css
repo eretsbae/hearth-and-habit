@@ -1,0 +1,140 @@
+/* ─────────────────────────────────────────────────────────────
+   Hearth & Habit — Blogger custom skin
+   설치: Blogger 관리 화면 → 테마(Theme) → 맞춤설정(Customize)
+        → 고급(Advanced) → 왼쪽 목록 맨 아래 "CSS 추가"(Add CSS)
+        → 이 파일 전체를 붙여넣고 저장.
+
+   베이스 테마로 "Soho"(또는 다른 미니멀/반응형 테마)를 먼저 적용한 뒤
+   이 CSS를 추가하는 것을 권장합니다. 레이아웃 그리드는 건드리지 않고
+   타이포그래피/색상/여백/카드 요소만 재정의하므로 어떤 기본 테마에도
+   비교적 안전하게 얹을 수 있습니다.
+   ───────────────────────────────────────────────────────────── */
+
+:root {
+  --hh-bg: #F6EFE6;
+  --hh-surface: #FDFAF5;
+  --hh-ink: #2E2A24;
+  --hh-ink-soft: #6B6259;
+  --hh-accent: #B85C38;
+  --hh-accent-deep: #96482B;
+  --hh-sage: #5C6E58;
+  --hh-gold: #D9A441;
+  --hh-line: #E4D9C9;
+}
+
+body {
+  background-color: var(--hh-bg) !important;
+  color: var(--hh-ink) !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+a {
+  color: var(--hh-accent-deep) !important;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+/* ── headings: warm serif for a magazine feel ── */
+h1, h2, h3, h4,
+.post-title, .entry-title,
+.blog-title, .Header h1 {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif !important;
+  letter-spacing: -0.01em;
+  color: var(--hh-ink) !important;
+}
+
+.post-title, .entry-title { font-size: 1.9rem !important; line-height: 1.25 !important; }
+
+/* ── header / blog title bar ── */
+header, .header, #header {
+  background-color: var(--hh-surface) !important;
+  border-bottom: 1px solid var(--hh-line);
+}
+.blog-title a, .Header .title a { color: var(--hh-ink) !important; text-decoration: none !important; }
+.blog-description, .Header .description { color: var(--hh-ink-soft) !important; }
+
+/* ── post card / article body ── */
+.post, .post-outer, .hentry {
+  background-color: var(--hh-surface);
+  border: 1px solid var(--hh-line);
+  border-radius: 14px;
+  padding: 28px 30px;
+  margin-bottom: 28px;
+}
+
+.post-body, .entry-content {
+  font-size: 1.05rem;
+}
+.post-body p { margin: 0 0 1.1em; }
+.post-body h2 { font-size: 1.5rem !important; margin: 1.8em 0 0.6em !important; }
+.post-body h3 { font-size: 1.2rem !important; margin: 1.5em 0 0.5em !important; }
+.post-body ul, .post-body ol { padding-left: 1.4em; margin: 0 0 1.2em; }
+.post-body li { margin-bottom: 0.4em; }
+.post-body img {
+  border-radius: 14px;
+  border: 1px solid var(--hh-line);
+  max-width: 100%;
+  height: auto;
+}
+.post-body blockquote {
+  margin: 1.5em 0;
+  padding: 0.8em 1.2em;
+  border-left: 4px solid var(--hh-gold);
+  background: var(--hh-bg);
+  border-radius: 0 12px 12px 0;
+  color: var(--hh-ink-soft);
+}
+.post-body strong { color: var(--hh-ink); }
+.post-body table { border-collapse: collapse; width: 100%; margin: 1.5em 0; }
+.post-body th, .post-body td { border: 1px solid var(--hh-line); padding: 8px 12px; text-align: left; }
+.post-body th { background: var(--hh-bg); }
+
+/* ── post meta (date, labels) ── */
+.post-header, .post-meta, .date-header, .post-timestamp, .post-labels {
+  color: var(--hh-ink-soft) !important;
+  font-size: 0.85rem;
+}
+.post-labels a {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--hh-accent) !important;
+  margin-right: 10px;
+}
+
+/* ── sidebar widgets ── */
+.sidebar .widget, #sidebar .widget {
+  background-color: var(--hh-surface);
+  border: 1px solid var(--hh-line);
+  border-radius: 14px;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+}
+.widget .title, .widget h2, .widget h3 {
+  font-family: "Iowan Old Style", Georgia, serif !important;
+  font-size: 1.05rem !important;
+}
+
+/* ── pager / footer ── */
+.blog-pager, #blog-pager { padding: 24px 0; }
+.blog-pager a {
+  display: inline-block;
+  padding: 8px 16px;
+  border: 1px solid var(--hh-line);
+  border-radius: 999px;
+  color: var(--hh-accent-deep) !important;
+}
+.blog-pager a:hover { background: var(--hh-surface); text-decoration: none; }
+
+footer, .footer, #footer {
+  border-top: 1px solid var(--hh-line);
+  color: var(--hh-ink-soft);
+  padding: 24px 0;
+}
+
+/* ── comments (kept minimal / unobtrusive) ── */
+.comments .comment-content { color: var(--hh-ink); }

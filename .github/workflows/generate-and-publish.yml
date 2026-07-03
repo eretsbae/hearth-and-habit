@@ -1,10 +1,14 @@
-# 자동 글 생성 + 배포 파이프라인
-# - 월/수/금 오전(북미 동부 기준)에 Claude로 새 글을 1개 생성하고
-#   커밋한 뒤 사이트를 빌드해 GitHub Pages로 배포합니다.
+# 자동 글 생성 + Blogger 발행 파이프라인
+# - 월/수/금 오전(북미 동부 기준)에 Claude로 새 글 1편(글 + SVG 일러스트)을
+#   생성해 이 리포에 커밋/푸시한 뒤, Blogger API로 peterpb.blogspot.com에
+#   자동 게시합니다.
 # - Actions 탭에서 "Run workflow"로 수동 실행도 가능합니다.
 #
-# 필요 설정: 리포지토리 Settings → Secrets → Actions 에
-#   ANTHROPIC_API_KEY 시크릿 등록
+# 필요한 리포지토리 시크릿 (Settings → Secrets and variables → Actions):
+#   ANTHROPIC_API_KEY     Claude API 키
+#   GOOGLE_CLIENT_ID      generator/blogger_auth.py 실행 결과
+#   GOOGLE_CLIENT_SECRET  generator/blogger_auth.py 실행 결과
+#   GOOGLE_REFRESH_TOKEN  generator/blogger_auth.py 실행 결과
 
 name: Generate & Publish Post
 
@@ -15,15 +19,13 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: publish
   cancel-in-progress: false
 
 jobs:
-  generate:
+  publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -48,20 +50,15 @@ jobs:
           git diff --cached --quiet || git commit -m "content: add scheduled post ($(date -u +%Y-%m-%d))"
           git push
 
-      - name: Build site
-        run: python generator/build_site.py
+      - name: Publish to Blogger
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+        run: python generator/blogger_publish.py
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-
-  deploy:
-    needs: generate
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Commit Blogger publish record
+        run: |
+          git add config/topics.yml
+          git diff --cached --quiet || git commit -m "chore: record Blogger publish URLs"
+          git push

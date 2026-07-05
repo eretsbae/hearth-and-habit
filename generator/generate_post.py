@@ -207,13 +207,25 @@ def pick_next_topic(topics_data: dict) -> dict | None:
 
 # ── Claude calls ─────────────────────────────────────────────────────────────
 
-def call_claude(client, model: str, system: str, user: str, max_tokens: int = 8000) -> str:
+def call_claude(client, model: str, system: str, user: str, max_tokens: int = 12000) -> str:
+    # Claude Sonnet 5 turns on adaptive thinking by default when `thinking` is
+    # omitted (unlike Sonnet 4.6). Our prompts need a literal ===META===/
+    # ===BODY===/===END=== (or plain-JSON / plain-Markdown) response, not
+    # reasoning, and thinking tokens count against max_tokens — silently
+    # eating the budget meant for the actual output and truncating it before
+    # the closing delimiter. Disable thinking explicitly for these calls.
     resp = client.messages.create(
         model=model,
         max_tokens=max_tokens,
         system=system,
+        thinking={"type": "disabled"},
         messages=[{"role": "user", "content": user}],
     )
+    if resp.stop_reason == "max_tokens":
+        raise ValueError(
+            f"Response truncated at max_tokens={max_tokens} (stop_reason=max_tokens). "
+            "Increase max_tokens for this call."
+        )
     return "".join(b.text for b in resp.content if b.type == "text")
 
 

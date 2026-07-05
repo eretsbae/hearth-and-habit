@@ -69,7 +69,15 @@ def sanitize_svg(svg: str) -> str:
 
 
 def parse_article(raw: str) -> tuple[dict, str]:
-    """Parse the ===META=== / ===BODY=== / ===END=== response format.
+    """Parse the ===META=== / ===BODY=== response format.
+
+    ===END=== is treated as optional: in production, Claude reliably writes
+    ===META=== and ===BODY=== but frequently omits the trailing ===END===
+    marker once it's naturally done (stop_reason="end_turn", not truncation)
+    — confirmed by diagnostics on real runs where all three markers were
+    checked directly. Requiring it caused every real article to be rejected.
+    Everything after ===BODY=== is the body; an ===END=== marker, if present
+    anywhere after it, is stripped as a trailing sentinel rather than required.
 
     Tolerates the model wrapping its whole answer in a markdown code fence
     (```...```), which otherwise leaves the delimiters intact but can trip up
@@ -81,8 +89,7 @@ def parse_article(raw: str) -> tuple[dict, str]:
         text = fence_m.group(1)
 
     meta_m = re.search(r"===META===\s*([\s\S]*?)\s*===BODY===", text)
-    body_m = re.search(r"===BODY===\s*([\s\S]*?)\s*===END===", text)
-    if not meta_m or not body_m:
+    if not meta_m:
         markers = {m: (m in text) for m in ("===META===", "===BODY===", "===END===")}
         head = text[:400].replace("\n", " ")
         tail = text[-400:].replace("\n", " ")
@@ -91,8 +98,15 @@ def parse_article(raw: str) -> tuple[dict, str]:
             f"length={len(text)} markers_found={markers}\n"
             f"HEAD: {head!r}\nTAIL: {tail!r}"
         )
+    body_text = text[meta_m.end():]
+    end_m = re.search(r"===END===\s*$", body_text)
+    if end_m:
+        body_text = body_text[:end_m.start()]
+    body_text = body_text.strip()
+    if not body_text:
+        raise ValueError("Model response had an empty body after ===BODY===")
     meta = json.loads(meta_m.group(1))
-    return meta, body_m.group(1).strip()
+    return meta, body_text
 
 
 # ── quality gate: keep the site from reading as "scaled content abuse" ──────

@@ -150,10 +150,22 @@ are appropriately hedged ("typically", ranges) rather than suspiciously precise.
 5. Natural structure — reads like a real article, not a template mechanically \
 filled in section by section.
 
+Calibrate the score against a real published magazine article, not against an \
+imagined perfect piece — most genuinely fine articles score in the 75-90 range \
+with small, fixable notes, not 95+. Reserve a failing score (below 75) for \
+actual problems that would embarrass the site: fabricated-sounding statistics, \
+thin or generic filler, substantial overlap with an already-published title, or \
+incoherent structure. A minor stylistic quibble, an optional hedge, or a small \
+precision nitpick on an otherwise solid piece should show up in "issues" as \
+low-priority feedback — it should NOT by itself pull the score below 75.
+
+"pass" must track the score directly: "pass" is true whenever score >= 75, and \
+false whenever score < 75. Do not fail a piece independently of its score.
+
 Return exactly this JSON shape, nothing else:
-{{"score": <0-100 integer>, "pass": <true only if score >= 75 AND no dimension is a clear failure>,
+{{"score": <0-100 integer>, "pass": <score >= 75>,
  "issues": ["specific, actionable issue 1", "issue 2", "..."]}}
-If it fully passes, return "issues": [].
+If it fully passes, "issues" may still list minor optional suggestions, or be [].
 """
 
 REVISE_SYSTEM = """\

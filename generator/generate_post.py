@@ -180,25 +180,41 @@ def revise_article(client, cfg: dict, body: str, issues: list[str]) -> str:
 def enforce_quality_gate(
     client, cfg: dict, meta: dict, body: str, pillar: dict, published_titles: list[str]
 ) -> tuple[str, bool, int | None, list[str]]:
-    """Returns (possibly-revised body, passed, last_score, remaining_issues)."""
+    """Returns (possibly-revised body, passed, last_score, remaining_issues).
+
+    Programmatic checks (thin content, fabricated-looking stats, banned
+    phrases) are objective and always block. The critic's numeric score is
+    the other hard gate — trusted over its own "pass" boolean, since in
+    production the model has returned an internally inconsistent verdict
+    (e.g. score=82 with pass=false) despite the prompt asking it to keep
+    them in sync; a numeric threshold is a more reliable control signal than
+    trusting the model to always self-report consistently. The critic's
+    free-text "issues" are advisory once the score clears the bar — real
+    editors ship pieces with a couple of minor notes; requiring the issues
+    list to be literally empty on top of a passing score rejected every
+    real article in production.
+    """
     qcfg = cfg["generation"].get("quality_gate", {})
     if not qcfg.get("enabled", True):
         return body, True, None, []
 
-    max_rounds = qcfg.get("max_revision_rounds", 1)
+    max_rounds = qcfg.get("max_revision_rounds", 2)
     min_score = qcfg.get("min_score", 75)
 
     score = None
     issues: list[str] = []
     for attempt in range(max_rounds + 1):
-        issues = programmatic_checks(cfg, body)
+        prog_issues = programmatic_checks(cfg, body)
         verdict = quality_review(client, cfg, meta, body, pillar, published_titles)
         score = verdict.get("score")
-        issues += [i for i in verdict.get("issues", []) if i]
-        passed = not issues and bool(verdict.get("pass")) and (score is None or score >= min_score)
+        crit_issues = [i for i in verdict.get("issues", []) if i]
+        issues = prog_issues + crit_issues
+        critic_ok = (score >= min_score) if score is not None else bool(verdict.get("pass"))
+        passed = not prog_issues and critic_ok
 
         if passed:
-            return body, True, score, []
+            return body, True, score, crit_issues
+
         if attempt == max_rounds:
             return body, False, score, issues
 

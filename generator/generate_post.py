@@ -83,8 +83,14 @@ def parse_article(raw: str) -> tuple[dict, str]:
     meta_m = re.search(r"===META===\s*([\s\S]*?)\s*===BODY===", text)
     body_m = re.search(r"===BODY===\s*([\s\S]*?)\s*===END===", text)
     if not meta_m or not body_m:
-        preview = text[:500].replace("\n", " ")
-        raise ValueError(f"Model response missing META/BODY delimiters. First 500 chars: {preview!r}")
+        markers = {m: (m in text) for m in ("===META===", "===BODY===", "===END===")}
+        head = text[:400].replace("\n", " ")
+        tail = text[-400:].replace("\n", " ")
+        raise ValueError(
+            "Model response missing META/BODY delimiters. "
+            f"length={len(text)} markers_found={markers}\n"
+            f"HEAD: {head!r}\nTAIL: {tail!r}"
+        )
     meta = json.loads(meta_m.group(1))
     return meta, body_m.group(1).strip()
 
@@ -226,7 +232,9 @@ def call_claude(client, model: str, system: str, user: str, max_tokens: int = 12
             f"Response truncated at max_tokens={max_tokens} (stop_reason=max_tokens). "
             "Increase max_tokens for this call."
         )
-    return "".join(b.text for b in resp.content if b.type == "text")
+    text = "".join(b.text for b in resp.content if b.type == "text")
+    print(f"    [call_claude] model={model} stop_reason={resp.stop_reason} chars={len(text)}")
+    return text
 
 
 def pick_angle(published_count: int) -> str:

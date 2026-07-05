@@ -1,0 +1,99 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft morning light glow -->
+  <circle cx="1000" cy="90" r="260" fill="#D9A441" opacity="0.12"/>
+  <circle cx="1000" cy="90" r="160" fill="#D9A441" opacity="0.12"/>
+
+  <!-- wall -->
+  <rect x="0" y="0" width="1200" height="380" fill="#F0E6D8"/>
+
+  <!-- counter -->
+  <rect x="0" y="380" width="1200" height="250" fill="#E4C7B2"/>
+  <rect x="0" y="380" width="1200" height="14" fill="#D9A441" opacity="0.5"/>
+
+  <!-- shadow under items strip -->
+  <rect x="0" y="600" width="1200" height="30" fill="#2E2A24" opacity="0.05"/>
+
+  <!-- window hint on wall -->
+  <rect x="70" y="60" width="220" height="260" rx="8" fill="#F6EFE6"/>
+  <rect x="70" y="60" width="220" height="260" rx="8" fill="none" stroke="#5C6E58" stroke-width="6"/>
+  <line x1="180" y1="60" x2="180" y2="320" stroke="#5C6E58" stroke-width="6"/>
+  <line x1="70" y1="190" x2="290" y2="190" stroke="#5C6E58" stroke-width="6"/>
+
+  <!-- small plant on window sill -->
+  <ellipse cx="240" cy="300" rx="30" ry="10" fill="#2E2A24" opacity="0.08"/>
+  <path d="M240 290 Q225 250 235 220 Q240 250 240 290 Z" fill="#5C6E58"/>
+  <path d="M240 290 Q255 245 250 210 Q245 250 240 290 Z" fill="#5C6E58"/>
+  <path d="M240 290 Q240 240 240 200 Q245 245 240 290 Z" fill="#5C6E58"/>
+  <rect x="220" y="290" width="40" height="30" rx="4" fill="#B85C38"/>
+
+  <!-- ================= NOTEPAD ================= -->
+  <g transform="translate(430,430)">
+    <rect x="0" y="10" width="230" height="150" rx="6" fill="#2E2A24" opacity="0.08"/>
+    <rect x="-6" y="0" width="230" height="150" rx="6" fill="#F6EFE6" stroke="#2E2A24" stroke-width="3"/>
+    <!-- lines -->
+    <line x1="20" y1="35" x2="195" y2="35" stroke="#D9A441" stroke-width="3"/>
+    <line x1="20" y1="60" x2="195" y2="60" stroke="#D9A441" stroke-width="3"/>
+    <line x1="20" y1="85" x2="150" y2="85" stroke="#D9A441" stroke-width="3"/>
+    <line x1="20" y1="110" x2="170" y2="110" stroke="#D9A441" stroke-width="3"/>
+    <!-- spiral binding -->
+    <g fill="#B85C38">
+      <circle cx="10" cy="15" r="4"/>
+      <circle cx="10" cy="45" r="4"/>
+      <circle cx="10" cy="75" r="4"/>
+      <circle cx="10" cy="105" r="4"/>
+      <circle cx="10" cy="135" r="4"/>
+    </g>
+  </g>
+
+  <!-- ================= PEN ================= -->
+  <g transform="translate(560,420) rotate(28)">
+    <rect x="0" y="0" width="140" height="14" rx="7" fill="#5C6E58"/>
+    <rect x="0" y="0" width="30" height="14" rx="7" fill="#D9A441"/>
+    <polygon points="140,0 160,7 140,14" fill="#2E2A24"/>
+  </g>
+
+  <!-- ================= BOWL OF PRODUCE ================= -->
+  <g transform="translate(790,395)">
+    <ellipse cx="90" cy="150" rx="120" ry="18" fill="#2E2A24" opacity="0.08"/>
+    <!-- bowl -->
+    <path d="M-20 90 Q90 190 200 90 L185 130 Q90 200 -5 130 Z" fill="#B85C38"/>
+    <path d="M-20 90 Q90 150 200 90 Q90 130 -20 90 Z" fill="#E4C7B2"/>
+
+    <!-- produce: tomatoes -->
+    <circle cx="40" cy="70" r="26" fill="#B85C38"/>
+    <path d="M40 44 q6 -10 14 -4 q-4 8 -14 4Z" fill="#5C6E58"/>
+    <circle cx="90" cy="55" r="30" fill="#B85C38"/>
+    <path d="M90 25 q7 -10 15 -3 q-5 9 -15 3Z" fill="#5C6E58"/>
+
+    <!-- lemon -->
+    <circle cx="140" cy="72" r="24" fill="#D9A441"/>
+    <ellipse cx="140" cy="72" rx="24" ry="24" fill="#D9A441"/>
+
+    <!-- greens -->
+    <path d="M60 55 Q50 20 90 15 Q70 40 60 55Z" fill="#5C6E58"/>
+    <path d="M120 50 Q130 15 165 25 Q140 45 120 50Z" fill="#5C6E58"/>
+
+    <!-- little carrot peeking -->
+    <path d="M25 80 L5 130 L35 90 Z" fill="#D9A441"/>
+    <path d="M25 80 q-5 -12 8 -16 q4 10 -8 16Z" fill="#5C6E58"/>
+  </g>
+
+  <!-- ================= MUG OF COFFEE ================= -->
+  <g transform="translate(220,440)">
+    <ellipse cx="70" cy="150" rx="90" ry="16" fill="#2E2A24" opacity="0.08"/>
+    <!-- steam -->
+    <path d="M50 30 Q40 10 55 -5 Q65 -20 55 -35" fill="none" stroke="#5C6E58" stroke-width="5" stroke-linecap="round" opacity="0.4"/>
+    <path d="M90 30 Q100 10 85 -5 Q75 -20 90 -35" fill="none" stroke="#5C6E58" stroke-width="5" stroke-linecap="round" opacity="0.4"/>
+    <!-- mug body -->
+    <rect x="0" y="30" width="140" height="110" rx="18" fill="#F6EFE6" stroke="#2E2A24" stroke-width="4"/>
+    <ellipse cx="70" cy="30" rx="70" ry="16" fill="#B85C38"/>
+    <ellipse cx="70" cy="30" rx="55" ry="10" fill="#2E2A24" opacity="0.5"/>
+    <!-- handle -->
+    <path d="M140 55 Q185 60 185 90 Q185 120 140 118" fill="none" stroke="#2E2A24" stroke-width="10"/>
+    <!-- decorative band -->
+    <rect x="0" y="95" width="140" height="14" fill="#5C6E58"/>
+  </g>
+
+</svg>

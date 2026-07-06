@@ -1,0 +1,100 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soil band -->
+  <rect x="0" y="500" width="1200" height="130" fill="#E4C7B2"/>
+  <rect x="0" y="500" width="1200" height="14" fill="#B85C38" opacity="0.5"/>
+
+  <!-- soil texture dots -->
+  <circle cx="90" cy="555" r="6" fill="#B85C38" opacity="0.4"/>
+  <circle cx="220" cy="590" r="5" fill="#2E2A24" opacity="0.3"/>
+  <circle cx="360" cy="540" r="7" fill="#B85C38" opacity="0.3"/>
+  <circle cx="500" cy="600" r="5" fill="#2E2A24" opacity="0.25"/>
+  <circle cx="650" cy="560" r="6" fill="#B85C38" opacity="0.35"/>
+  <circle cx="800" cy="590" r="5" fill="#2E2A24" opacity="0.3"/>
+  <circle cx="950" cy="545" r="7" fill="#B85C38" opacity="0.3"/>
+  <circle cx="1100" cy="600" r="5" fill="#2E2A24" opacity="0.25"/>
+  <circle cx="150" cy="615" r="4" fill="#2E2A24" opacity="0.2"/>
+  <circle cx="1000" cy="620" r="4" fill="#2E2A24" opacity="0.2"/>
+
+  <!-- dividing line: cut height guide -->
+  <line x1="0" y1="330" x2="1200" y2="330" stroke="#D9A441" stroke-width="3" stroke-dasharray="10 10"/>
+  <circle cx="60" cy="330" r="7" fill="#D9A441"/>
+  <circle cx="1140" cy="330" r="7" fill="#D9A441"/>
+
+  <!-- LEFT SIDE: tall grass (before mowing), one third above line -->
+  <g>
+    <rect x="0" y="0" width="600" height="630" fill="#F6EFE6"/>
+
+    <!-- tall blades -->
+    <path d="M80 500 C70 400 90 300 78 230" stroke="#5C6E58" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M110 500 C120 410 100 320 118 240" stroke="#5C6E58" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <path d="M150 500 C160 420 145 340 160 260" stroke="#5C6E58" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <path d="M190 500 C180 400 200 320 185 250" stroke="#5C6E58" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <path d="M230 500 C240 410 225 330 245 260" stroke="#5C6E58" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M270 500 C260 400 280 320 265 245" stroke="#5C6E58" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <path d="M310 500 C320 410 305 330 325 260" stroke="#5C6E58" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <path d="M350 500 C340 400 360 320 345 250" stroke="#5C6E58" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <path d="M390 500 C400 410 385 330 405 255" stroke="#5C6E58" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M430 500 C420 400 440 320 425 245" stroke="#5C6E58" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <path d="M470 500 C480 410 465 330 485 260" stroke="#5C6E58" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <path d="M510 500 C500 400 520 320 505 250" stroke="#5C6E58" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.85"/>
+
+    <!-- top third highlighted as excess to cut (terracotta tint) -->
+    <path d="M78 330 C74 300 82 265 78 230" stroke="#B85C38" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <path d="M118 330 C112 300 105 265 118 240" stroke="#B85C38" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <path d="M160 330 C155 300 148 280 160 260" stroke="#B85C38" stroke-width="16" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <path d="M185 330 C182 300 190 270 185 250" stroke="#B85C38" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <path d="M245 330 C240 300 250 275 245 260" stroke="#B85C38" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <path d="M265 330 C262 300 268 270 265 245" stroke="#B85C38" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <path d="M325 330 C320 300 328 280 325 260" stroke="#B85C38" stroke-width="16" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <path d="M345 330 C342 300 350 270 345 250" stroke="#B85C38" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <path d="M405 330 C400 300 408 280 405 255" stroke="#B85C38" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <path d="M425 330 C422 300 430 270 425 245" stroke="#B85C38" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <path d="M485 330 C480 300 488 280 485 260" stroke="#B85C38" stroke-width="16" fill="none" stroke-linecap="round" opacity="0.55"/>
+    <path d="M505 330 C502 300 510 270 505 250" stroke="#B85C38" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.55"/>
+  </g>
+
+  <!-- RIGHT SIDE: mowed grass, cut only a third -->
+  <g>
+    <path d="M680 500 C674 440 686 400 680 375" stroke="#5C6E58" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M715 500 C720 445 710 405 718 380" stroke="#5C6E58" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <path d="M755 500 C760 440 750 400 762 370" stroke="#5C6E58" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <path d="M795 500 C788 445 800 405 790 378" stroke="#5C6E58" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <path d="M835 500 C840 440 832 400 845 372" stroke="#5C6E58" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M875 500 C868 445 878 405 870 378" stroke="#5C6E58" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <path d="M915 500 C920 440 912 400 925 372" stroke="#5C6E58" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <path d="M955 500 C948 445 958 405 950 378" stroke="#5C6E58" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <path d="M995 500 C1000 440 992 400 1005 372" stroke="#5C6E58" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M1035 500 C1028 445 1038 405 1030 378" stroke="#5C6E58" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <path d="M1075 500 C1080 440 1072 400 1085 372" stroke="#5C6E58" stroke-width="16" fill="none" stroke-linecap="round"/>
+    <path d="M1115 500 C1108 445 1118 405 1110 378" stroke="#5C6E58" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.85"/>
+
+    <!-- gold cut-tip flat caps to show clean mowed ends -->
+    <ellipse cx="680" cy="375" rx="8" ry="4" fill="#D9A441"/>
+    <ellipse cx="718" cy="380" rx="7" ry="4" fill="#D9A441"/>
+    <ellipse cx="762" cy="370" rx="9" ry="4" fill="#D9A441"/>
+    <ellipse cx="790" cy="378" rx="7" ry="4" fill="#D9A441"/>
+    <ellipse cx="845" cy="372" rx="8" ry="4" fill="#D9A441"/>
+    <ellipse cx="870" cy="378" rx="7" ry="4" fill="#D9A441"/>
+    <ellipse cx="925" cy="372" rx="9" ry="4" fill="#D9A441"/>
+    <ellipse cx="950" cy="378" rx="7" ry="4" fill="#D9A441"/>
+    <ellipse cx="1005" cy="372" rx="8" ry="4" fill="#D9A441"/>
+    <ellipse cx="1030" cy="378" rx="7" ry="4" fill="#D9A441"/>
+    <ellipse cx="1085" cy="372" rx="9" ry="4" fill="#D9A441"/>
+    <ellipse cx="1110" cy="378" rx="7" ry="4" fill="#D9A441"/>
+  </g>
+
+  <!-- small mower icon suggestion top right, simple geometric -->
+  <g transform="translate(1020,60)">
+    <rect x="0" y="30" width="110" height="34" rx="10" fill="#B85C38"/>
+    <circle cx="15" cy="70" r="16" fill="#2E2A24"/>
+    <circle cx="95" cy="70" r="16" fill="#2E2A24"/>
+    <circle cx="15" cy="70" r="6" fill="#D9A441"/>
+    <circle cx="95" cy="70" r="6" fill="#D9A441"/>
+    <rect x="40" y="0" width="12" height="34" rx="6" fill="#5C6E58"/>
+  </g>
+
+  <!-- subtle arrows indicating one third cut -->
+  <path d="M600 250 L640 250 L625 235 M640 250 L625 265" stroke="#2E2A24" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+</svg>

@@ -126,7 +126,9 @@ topics:
   status: pending
 - title: 'Lawn Care for People Who Don''t Care About Lawns: The Bare Minimum That Looks Good'
   pillar: yard-outdoor
-  status: pending
+  status: published
+  published_slug: low-effort-lawn-care-bare-minimum
+  quality_score: 85
 - title: 'Gutter Cleaning: How Often, How To, and What Happens If You Skip It'
   pillar: yard-outdoor
   status: pending

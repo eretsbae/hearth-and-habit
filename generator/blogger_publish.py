@@ -24,6 +24,7 @@ import os
 import re
 import sys
 from pathlib import Path
+from urllib.parse import quote
 
 import requests
 import yaml
@@ -100,6 +101,51 @@ def hero_image_tag(cfg: dict, hero_image: str) -> str:
     )
 
 
+def pillar_label_url(blog_url: str, pillar_name: str) -> str:
+    return f"{blog_url.rstrip('/')}/search/label/{quote(pillar_name)}"
+
+
+def related_posts_html(
+    topics_data: dict, pillar: dict, current_slug: str | None, blog_url: str, limit: int = 3
+) -> str:
+    """Internal links to other published posts in the same pillar, plus a
+    link to the pillar's Blogger label archive. More pages/session and
+    stronger topical-authority signal than a standalone post with no
+    outbound links to the rest of the site.
+    """
+    if not pillar:
+        return ""
+    pillar_slug = pillar.get("slug")
+    siblings = [
+        t
+        for t in topics_data.get("topics", [])
+        if t.get("pillar") == pillar_slug
+        and t.get("blogger_url")
+        and t.get("published_slug") != current_slug
+    ]
+    items = "".join(
+        f'<li style="margin:0 0 6px;"><a href="{t["blogger_url"]}">{t["title"]}</a></li>'
+        for t in siblings[:limit]
+    )
+    hub_link = ""
+    if blog_url:
+        hub_url = pillar_label_url(blog_url, pillar.get("name", ""))
+        hub_link = (
+            f'<p style="margin:0 0 24px;"><a href="{hub_url}">'
+            f'Browse all {pillar.get("name", "")} posts &rarr;</a></p>'
+        )
+    if not items and not hub_link:
+        return ""
+    section = '<hr style="margin:40px 0 24px;border:none;border-top:1px solid #e4c7b2;" />\n'
+    if items:
+        section += (
+            f'<div style="margin:0 0 8px;font-weight:600;color:#2e2a24;">Keep reading</div>\n'
+            f'<ul style="margin:0 0 16px;padding-left:20px;">{items}</ul>\n'
+        )
+    section += hub_link
+    return section
+
+
 def find_post_file(slug: str) -> Path | None:
     matches = list(POSTS_DIR.glob(f"*-{slug}.md"))
     return matches[0] if matches else None
@@ -153,9 +199,13 @@ def main() -> int:
 
         fm, body = parse_frontmatter(path)
         html = rewrite_image_urls(cfg, md_to_html(body))
-        full_html = hero_image_tag(cfg, fm.get("hero_image", "")) + html
-
         pillar = pillar_by_slug.get(fm.get("pillar"), {})
+        full_html = (
+            hero_image_tag(cfg, fm.get("hero_image", ""))
+            + html
+            + related_posts_html(topics_data, pillar, slug, blog_url)
+        )
+
         labels = list(dict.fromkeys([pillar.get("name", "")] + fm.get("tags", [])))[:20]
         labels = [l for l in labels if l]
 

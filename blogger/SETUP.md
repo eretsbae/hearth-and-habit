@@ -74,3 +74,34 @@ GOOGLE_REFRESH_TOKEN = ...
 3. `config/topics.yml`의 각 항목에 `blogger_url`이 기록됩니다
 
 블로그 주소에서 바로 확인 가능합니다.
+
+## D. 트래픽 확보 (검색 유입 극대화, 5분 + 지속 자동)
+
+애드센스 수익 = 트래픽 × RPM 이라, 글 품질 다음으로 중요한 건 검색 유입입니다. Blogger의
+`customMetaData`(검색 설명) API 필드는 커뮤니티에서 반영이 안 된다는 보고가 많아 신뢰할 수 없는
+것으로 확인되어, 이 프로젝트는 대신 아래처럼 **직접 통제 가능한 부분**에 집중합니다.
+
+### D-1. 자동으로 이미 되는 것 (코드 레벨)
+
+- **내부 링크(관련 글)**: `generator/blogger_publish.py`가 발행할 때마다 같은 필러(카테고리)의
+  기존 발행 글 링크를 본문 하단에 자동으로 붙입니다 ("Keep reading"). 방문자가 한 번에 여러
+  페이지를 보게 되어 세션당 광고 노출이 늘고, 같은 주제를 서로 링크하는 사이트는 구글이 그
+  분야의 "토픽 권위"를 더 쳐줍니다.
+- **필러 허브 링크**: 각 글 하단에 Blogger가 라벨(label)마다 자동으로 만들어주는 아카이브 페이지
+  (`/search/label/<필러 이름>`)로 가는 링크도 함께 붙습니다 — 별도 페이지 제작 없이 카테고리
+  허브 역할을 합니다.
+- **자동 sitemap**: Blogger 블로그는 별도 설정 없이 `/sitemap.xml`을 자동 생성합니다.
+
+### D-2. 최초 1회만 사람이 할 일 (5분)
+
+1. Blogger 관리 화면 → **설정(Settings) → 크롤링 및 색인 생성(Crawling and indexing)**
+   - "커스텀 robots.txt 사용"은 켤 필요 없음(기본값으로 충분)
+   - **Search Console** 항목에서 "지금 연결(Connect now)" 클릭 → Google Search Console에
+     `peterpb.blogspot.com`이 URL 접두어 속성으로 자동 등록됩니다 (도메인 소유권 인증 불필요,
+     Blogger 소유 계정으로 로그인만 하면 됨)
+2. Search Console에 등록되면 사이트맵(`sitemap.xml`)을 제출해 새 글이 더 빨리 색인됩니다 —
+   Search Console → **Sitemaps** → `sitemap.xml` 입력 후 제출 (한 번만 하면 이후 새 글은 자동
+   포함됩니다)
+3. (선택) 몇 주 후 Search Console **실적(Performance)** 탭에서 어떤 필러가 검색 유입이 많은지
+   확인 — 잘 되는 필러 비중을 `config/topics.yml`에서 늘리는 식으로 반영 가능
+   (`docs/CONTENT_STRATEGY.md`의 성장 로드맵 참고)

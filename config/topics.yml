@@ -23,7 +23,9 @@ topics:
   blogger_url: https://peterpb.blogspot.com/2026/07/furnace-filter-basics-how-often-to.html
 - title: The 10 Home Maintenance Tasks Most People Forget (Seasonal Checklist)
   pillar: home-maintenance
-  status: pending
+  status: published
+  published_slug: forgotten-home-maintenance-tasks-seasonal-checklist
+  quality_score: 82
 - title: How to Fix a Running Toilet in 15 Minutes Without Calling a Plumber
   pillar: home-maintenance
   status: pending

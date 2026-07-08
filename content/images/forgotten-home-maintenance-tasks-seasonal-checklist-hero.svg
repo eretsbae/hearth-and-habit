@@ -1,0 +1,102 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- four season quadrant background blocks -->
+  <rect x="0" y="0" width="600" height="315" fill="#E4C7B2" opacity="0.35"/>
+  <rect x="600" y="0" width="600" height="315" fill="#5C6E58" opacity="0.12"/>
+  <rect x="0" y="315" width="600" height="315" fill="#D9A441" opacity="0.18"/>
+  <rect x="600" y="315" width="600" height="315" fill="#B85C38" opacity="0.14"/>
+
+  <!-- center divider lines -->
+  <line x1="600" y1="0" x2="600" y2="630" stroke="#2E2A24" stroke-width="2" opacity="0.15"/>
+  <line x1="0" y1="315" x2="1200" y2="315" stroke="#2E2A24" stroke-width="2" opacity="0.15"/>
+
+  <!-- Central cutaway house -->
+  <g>
+    <!-- roof -->
+    <polygon points="600,140 460,260 740,260" fill="#B85C38"/>
+    <polygon points="600,155 480,260 720,260" fill="#E4C7B2" opacity="0.4"/>
+    <!-- chimney -->
+    <rect x="660" y="150" width="30" height="55" fill="#5C6E58"/>
+
+    <!-- house body cutaway -->
+    <rect x="470" y="260" width="260" height="220" fill="#F6EFE6" stroke="#2E2A24" stroke-width="3"/>
+    <!-- interior floor divider -->
+    <line x1="470" y1="370" x2="730" y2="370" stroke="#2E2A24" stroke-width="2" opacity="0.5"/>
+
+    <!-- upstairs room -->
+    <rect x="495" y="285" width="70" height="70" fill="#D9A441" opacity="0.5"/>
+    <circle cx="630" cy="320" r="18" fill="#5C6E58" opacity="0.6"/>
+
+    <!-- water heater icon downstairs -->
+    <rect x="500" y="395" width="45" height="65" rx="8" fill="#B85C38"/>
+    <rect x="512" y="385" width="21" height="12" rx="3" fill="#2E2A24"/>
+    <circle cx="522" cy="425" r="6" fill="#F6EFE6"/>
+
+    <!-- dryer vent icon downstairs -->
+    <rect x="600" y="410" width="55" height="45" rx="6" fill="#5C6E58"/>
+    <circle cx="627" cy="432" r="14" fill="#F6EFE6"/>
+    <circle cx="627" cy="432" r="7" fill="#5C6E58"/>
+
+    <!-- ground line -->
+    <rect x="440" y="480" width="320" height="14" fill="#2E2A24" opacity="0.15"/>
+  </g>
+
+  <!-- Gutter icon along the roof edge -->
+  <g>
+    <rect x="450" y="258" width="300" height="10" rx="5" fill="#5C6E58"/>
+    <circle cx="465" cy="272" r="4" fill="#5C6E58"/>
+    <circle cx="500" cy="278" r="4" fill="#5C6E58"/>
+    <circle cx="535" cy="284" r="4" fill="#5C6E58"/>
+  </g>
+
+  <!-- SPRING quadrant: leafy sprig + roof icon -->
+  <g transform="translate(150,120)">
+    <circle cx="0" cy="0" r="46" fill="#5C6E58" opacity="0.15"/>
+    <path d="M0,25 Q-6,-10 0,-30" stroke="#5C6E58" stroke-width="4" fill="none"/>
+    <ellipse cx="-12" cy="-5" rx="12" ry="7" fill="#5C6E58" transform="rotate(-30 -12 -5)"/>
+    <ellipse cx="10" cy="-15" rx="12" ry="7" fill="#5C6E58" transform="rotate(25 10 -15)"/>
+    <ellipse cx="-10" cy="-25" rx="10" ry="6" fill="#D9A441" transform="rotate(-10 -10 -25)"/>
+  </g>
+
+  <!-- roof icon top right (SUMMER) -->
+  <g transform="translate(1010,110)">
+    <circle cx="0" cy="0" r="46" fill="#D9A441" opacity="0.2"/>
+    <polygon points="0,-25 -30,10 30,10" fill="#B85C38"/>
+    <rect x="-30" y="10" width="60" height="18" fill="#E4C7B2"/>
+    <circle cx="45" cy="-40" r="20" fill="#D9A441" opacity="0.6"/>
+  </g>
+
+  <!-- gutter icon bottom left (FALL) -->
+  <g transform="translate(150,500)">
+    <circle cx="0" cy="0" r="46" fill="#D9A441" opacity="0.18"/>
+    <rect x="-35" y="-5" width="70" height="10" rx="5" fill="#B85C38"/>
+    <circle cx="-20" cy="8" r="4" fill="#B85C38"/>
+    <circle cx="0" cy="12" r="4" fill="#B85C38"/>
+    <circle cx="20" cy="8" r="4" fill="#B85C38"/>
+    <!-- falling leaves -->
+    <ellipse cx="-25" cy="-25" rx="8" ry="5" fill="#B85C38" transform="rotate(20 -25 -25)"/>
+    <ellipse cx="15" cy="-30" rx="8" ry="5" fill="#D9A441" transform="rotate(-15 15 -30)"/>
+  </g>
+
+  <!-- dryer vent / water heater icon bottom right (WINTER) -->
+  <g transform="translate(1010,510)">
+    <circle cx="0" cy="0" r="46" fill="#5C6E58" opacity="0.15"/>
+    <rect x="-15" y="-25" width="30" height="45" rx="6" fill="#B85C38"/>
+    <rect x="-8" y="-35" width="16" height="10" rx="3" fill="#2E2A24"/>
+    <circle cx="0" cy="0" r="5" fill="#F6EFE6"/>
+    <!-- snowflake accents -->
+    <circle cx="35" cy="-30" r="4" fill="#F6EFE6"/>
+    <circle cx="45" cy="-15" r="3" fill="#F6EFE6"/>
+    <circle cx="30" cy="-10" r="3" fill="#F6EFE6"/>
+  </g>
+
+  <!-- small scattered accent dots for texture -->
+  <circle cx="250" cy="230" r="5" fill="#B85C38" opacity="0.4"/>
+  <circle cx="950" cy="230" r="5" fill="#5C6E58" opacity="0.4"/>
+  <circle cx="250" cy="400" r="5" fill="#D9A441" opacity="0.4"/>
+  <circle cx="950" cy="400" r="5" fill="#B85C38" opacity="0.4"/>
+
+  <!-- outer frame accent -->
+  <rect x="20" y="20" width="1160" height="590" fill="none" stroke="#2E2A24" stroke-width="2" opacity="0.1"/>
+</svg>

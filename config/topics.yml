@@ -84,7 +84,9 @@ topics:
   blogger_url: https://peterpb.blogspot.com/2026/07/how-to-cut-your-electric-bill-without.html
 - title: 'Phantom Power: How Much Your Idle Electronics Really Cost You Each Year'
   pillar: energy-savings
-  status: pending
+  status: published
+  published_slug: phantom-power-idle-electronics-cost
+  quality_score: 83
 - title: The Right Thermostat Settings for Every Season (and How Much They Save)
   pillar: energy-savings
   status: pending

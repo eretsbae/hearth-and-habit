@@ -1,0 +1,114 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- desk -->
+  <rect x="0" y="470" width="1200" height="20" fill="#D9A441" opacity="0.35"/>
+  <rect x="0" y="490" width="1200" height="140" fill="#E4C7B2"/>
+
+  <!-- wall accent shapes -->
+  <circle cx="1030" cy="120" r="130" fill="#5C6E58" opacity="0.12"/>
+  <rect x="80" y="60" width="220" height="220" rx="16" fill="#B85C38" opacity="0.08"/>
+
+  <!-- desk lamp -->
+  <g>
+    <rect x="150" y="440" width="10" height="50" fill="#2E2A24"/>
+    <rect x="120" y="480" width="70" height="10" rx="4" fill="#2E2A24"/>
+    <path d="M100 400 L210 400 L180 350 L130 350 Z" fill="#5C6E58"/>
+    <rect x="150" y="400" width="10" height="40" fill="#2E2A24"/>
+  </g>
+
+  <!-- monitor -->
+  <g>
+    <rect x="330" y="330" width="220" height="140" rx="10" fill="#2E2A24"/>
+    <rect x="345" y="345" width="190" height="110" rx="4" fill="#5C6E58"/>
+    <rect x="415" y="470" width="50" height="20" fill="#2E2A24"/>
+    <rect x="395" y="490" width="90" height="10" rx="4" fill="#2E2A24"/>
+  </g>
+
+  <!-- laptop -->
+  <g>
+    <rect x="600" y="410" width="150" height="10" rx="4" fill="#2E2A24"/>
+    <path d="M610 410 L740 410 L720 340 L630 340 Z" fill="#B85C38"/>
+    <rect x="630" y="350" width="90" height="55" fill="#E4C7B2" opacity="0.7"/>
+  </g>
+
+  <!-- speaker -->
+  <g>
+    <rect x="800" y="380" width="50" height="90" rx="8" fill="#D9A441"/>
+    <circle cx="825" cy="405" r="12" fill="#F6EFE6"/>
+    <circle cx="825" cy="440" r="10" fill="#F6EFE6"/>
+  </g>
+
+  <!-- power strip on desk -->
+  <g>
+    <rect x="300" y="500" width="480" height="60" rx="14" fill="#2E2A24"/>
+    <!-- switch -->
+    <g>
+      <rect x="320" y="515" width="60" height="30" rx="6" fill="#B85C38"/>
+      <circle cx="335" cy="530" r="8" fill="#F6EFE6"/>
+      <path d="M330 524 L330 534" stroke="#2E2A24" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <!-- outlets -->
+    <g fill="#5C6E58">
+      <rect x="420" y="518" width="34" height="24" rx="4"/>
+      <rect x="480" y="518" width="34" height="24" rx="4"/>
+      <rect x="540" y="518" width="34" height="24" rx="4"/>
+      <rect x="600" y="518" width="34" height="24" rx="4"/>
+      <rect x="660" y="518" width="34" height="24" rx="4"/>
+      <rect x="720" y="518" width="34" height="24" rx="4"/>
+    </g>
+    <!-- outlet holes -->
+    <g fill="#2E2A24">
+      <circle cx="432" cy="526" r="2.5"/>
+      <circle cx="444" cy="526" r="2.5"/>
+      <circle cx="492" cy="526" r="2.5"/>
+      <circle cx="504" cy="526" r="2.5"/>
+      <circle cx="552" cy="526" r="2.5"/>
+      <circle cx="564" cy="526" r="2.5"/>
+      <circle cx="612" cy="526" r="2.5"/>
+      <circle cx="624" cy="526" r="2.5"/>
+      <circle cx="672" cy="526" r="2.5"/>
+      <circle cx="684" cy="526" r="2.5"/>
+      <circle cx="732" cy="526" r="2.5"/>
+      <circle cx="744" cy="526" r="2.5"/>
+    </g>
+  </g>
+
+  <!-- cords from devices down to strip -->
+  <g fill="none" stroke="#2E2A24" stroke-width="4" stroke-linecap="round">
+    <path d="M437 530 C 437 490, 420 470, 415 469"/>
+    <path d="M497 530 C 497 490, 460 470, 440 470"/>
+    <path d="M557 530 C 557 490, 650 450, 675 415"/>
+    <path d="M617 530 C 617 490, 680 420, 700 415"/>
+    <path d="M677 530 C 677 490, 820 460, 825 470"/>
+  </g>
+
+  <!-- cord from strip to wall outlet, going slack since off -->
+  <path d="M300 530 C 200 540, 120 560, 60 560" fill="none" stroke="#2E2A24" stroke-width="5" stroke-linecap="round"/>
+  <g>
+    <rect x="30" y="545" width="30" height="40" rx="4" fill="#5C6E58"/>
+    <circle cx="40" cy="560" r="2.5" fill="#2E2A24"/>
+    <circle cx="50" cy="560" r="2.5" fill="#2E2A24"/>
+  </g>
+
+  <!-- small zzz sleep dots showing devices are idle/off -->
+  <g fill="#5C6E58" opacity="0.5">
+    <circle cx="440" cy="300" r="4"/>
+    <circle cx="455" cy="285" r="5"/>
+    <circle cx="472" cy="268" r="6"/>
+  </g>
+
+  <!-- plant decor -->
+  <g>
+    <rect x="1000" y="440" width="60" height="50" rx="8" fill="#B85C38"/>
+    <path d="M1030 440 C 1010 400, 1010 370, 1030 350" stroke="#5C6E58" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M1030 440 C 1050 400, 1050 370, 1030 350" stroke="#5C6E58" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M1030 440 C 1030 390, 1030 360, 1030 340" stroke="#5C6E58" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- mug -->
+  <g>
+    <rect x="890" y="500" width="50" height="40" rx="8" fill="#D9A441"/>
+    <path d="M940 510 q20 0 20 15 q0 15 -20 15" fill="none" stroke="#D9A441" stroke-width="6"/>
+  </g>
+</svg>

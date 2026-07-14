@@ -1,0 +1,109 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- background -->
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- wall -->
+  <rect x="0" y="0" width="1200" height="400" fill="#F6EFE6"/>
+  <!-- backsplash accent -->
+  <rect x="0" y="330" width="1200" height="20" fill="#E4C7B2" opacity="0.6"/>
+
+  <!-- counter -->
+  <rect x="0" y="350" width="1200" height="280" fill="#E4C7B2"/>
+  <rect x="0" y="350" width="1200" height="16" fill="#B85C38" opacity="0.5"/>
+
+  <!-- soft shadow strip under counter edge -->
+  <rect x="0" y="360" width="1200" height="6" fill="#2E2A24" opacity="0.08"/>
+
+  <!-- ===== Basket of potatoes and onions (left) ===== -->
+  <g transform="translate(190,420)">
+    <!-- basket body -->
+    <path d="M -110 40 Q -110 130 0 130 Q 110 130 110 40 Z" fill="#D9A441"/>
+    <!-- basket weave lines -->
+    <path d="M -100 55 Q 0 85 100 55" stroke="#B85C38" stroke-width="5" fill="none" opacity="0.5"/>
+    <path d="M -95 80 Q 0 108 95 80" stroke="#B85C38" stroke-width="5" fill="none" opacity="0.5"/>
+    <path d="M -103 30 Q 0 60 103 30" stroke="#B85C38" stroke-width="5" fill="none" opacity="0.5"/>
+    <!-- basket rim -->
+    <ellipse cx="0" cy="38" rx="112" ry="22" fill="#B85C38"/>
+    <ellipse cx="0" cy="35" rx="100" ry="16" fill="#E4C7B2"/>
+
+    <!-- potatoes -->
+    <ellipse cx="-55" cy="20" rx="34" ry="24" fill="#D9A441"/>
+    <ellipse cx="-55" cy="20" rx="34" ry="24" fill="#C98F35" opacity="0.3"/>
+    <ellipse cx="10" cy="10" rx="38" ry="26" fill="#D9A441"/>
+    <ellipse cx="55" cy="24" rx="30" ry="22" fill="#D9A441"/>
+    <circle cx="-60" cy="18" r="2.5" fill="#5C6E58" opacity="0.5"/>
+    <circle cx="-45" cy="26" r="2" fill="#5C6E58" opacity="0.5"/>
+    <circle cx="15" cy="6" r="2.5" fill="#5C6E58" opacity="0.5"/>
+    <circle cx="50" cy="20" r="2" fill="#5C6E58" opacity="0.5"/>
+
+    <!-- onions -->
+    <circle cx="-15" cy="-8" r="26" fill="#E4C7B2"/>
+    <circle cx="-15" cy="-8" r="26" fill="#B85C38" opacity="0.25"/>
+    <path d="M -15 -34 Q -10 -46 -2 -52" stroke="#5C6E58" stroke-width="4" fill="none"/>
+    <circle cx="30" cy="-2" r="22" fill="#E4C7B2"/>
+    <circle cx="30" cy="-2" r="22" fill="#B85C38" opacity="0.2"/>
+    <path d="M 30 -24 Q 36 -36 44 -40" stroke="#5C6E58" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- ===== Bowl of tomatoes (center) ===== -->
+  <g transform="translate(560,470)">
+    <!-- bowl -->
+    <path d="M -120 0 Q -120 70 0 70 Q 120 70 120 0 Z" fill="#5C6E58"/>
+    <ellipse cx="0" cy="0" rx="120" ry="20" fill="#4B5A47"/>
+    <ellipse cx="0" cy="-3" rx="105" ry="14" fill="#E4C7B2"/>
+
+    <!-- tomatoes -->
+    <circle cx="-55" cy="-35" r="38" fill="#B85C38"/>
+    <circle cx="10" cy="-50" r="42" fill="#C96A45"/>
+    <circle cx="65" cy="-30" r="34" fill="#B85C38"/>
+    <circle cx="-5" cy="-15" r="30" fill="#C96A45"/>
+
+    <!-- tomato tops -->
+    <path d="M -55 -70 l -6 -10 l 10 4 l 5 -12 l 6 12 l 10 -4 l -6 10 Z" fill="#5C6E58"/>
+    <path d="M 10 -88 l -7 -11 l 11 4 l 6 -13 l 7 13 l 11 -4 l -7 11 Z" fill="#5C6E58"/>
+    <path d="M 65 -60 l -6 -9 l 9 3 l 5 -10 l 5 10 l 9 -3 l -6 9 Z" fill="#5C6E58"/>
+
+    <!-- highlights -->
+    <ellipse cx="-65" cy="-45" rx="8" ry="12" fill="#E4C7B2" opacity="0.35"/>
+    <ellipse cx="0" cy="-62" rx="9" ry="14" fill="#E4C7B2" opacity="0.35"/>
+    <ellipse cx="55" cy="-38" rx="7" ry="10" fill="#E4C7B2" opacity="0.3"/>
+  </g>
+
+  <!-- ===== Jar of celery in water (right) ===== -->
+  <g transform="translate(880,430)">
+    <!-- water in jar -->
+    <path d="M -50 60 L -55 150 Q -55 175 0 175 Q 55 175 55 150 L 50 60 Z" fill="#CDEAE6" opacity="0.55"/>
+    <!-- jar body -->
+    <path d="M -55 30 L -60 150 Q -60 180 0 180 Q 60 180 60 150 L 55 30 Z" fill="none" stroke="#2E2A24" stroke-width="4" opacity="0.7"/>
+    <!-- jar rim -->
+    <rect x="-45" y="10" width="90" height="22" rx="6" fill="#D9A441" opacity="0.85"/>
+    <rect x="-50" y="0" width="100" height="14" rx="5" fill="#B85C38"/>
+
+    <!-- celery base -->
+    <path d="M -20 60 Q -22 40 -18 25 L 18 25 Q 22 40 20 60 Z" fill="#E4C7B2"/>
+
+    <!-- celery stalks -->
+    <path d="M -18 30 Q -30 -60 -35 -110" stroke="#5C6E58" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M -6 28 Q -8 -70 -10 -125" stroke="#5C6E58" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M 6 28 Q 8 -65 12 -118" stroke="#5C6E58" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M 18 30 Q 28 -55 34 -105" stroke="#5C6E58" stroke-width="10" fill="none" stroke-linecap="round"/>
+
+    <!-- celery leaves -->
+    <ellipse cx="-35" cy="-115" rx="10" ry="16" fill="#5C6E58" transform="rotate(-20 -35 -115)"/>
+    <ellipse cx="-10" cy="-132" rx="10" ry="18" fill="#5C6E58"/>
+    <ellipse cx="12" cy="-125" rx="10" ry="17" fill="#5C6E58" transform="rotate(15 12 -125)"/>
+    <ellipse cx="34" cy="-110" rx="9" ry="15" fill="#5C6E58" transform="rotate(25 34 -110)"/>
+  </g>
+
+  <!-- small decorative garlic bulb near basket -->
+  <g transform="translate(345,540)">
+    <path d="M 0 -20 Q -18 -20 -18 0 Q -18 20 0 24 Q 18 20 18 0 Q 18 -20 0 -20 Z" fill="#E4C7B2"/>
+    <path d="M 0 -20 Q -2 -30 2 -38" stroke="#D9A441" stroke-width="3" fill="none"/>
+    <path d="M -8 -14 Q -10 4 -3 18" stroke="#B85C38" stroke-width="2" opacity="0.4" fill="none"/>
+    <path d="M 8 -14 Q 10 4 3 18" stroke="#B85C38" stroke-width="2" opacity="0.4" fill="none"/>
+  </g>
+
+  <!-- soft ambient shapes for warmth (top area) -->
+  <circle cx="1080" cy="90" r="60" fill="#D9A441" opacity="0.12"/>
+  <circle cx="120" cy="70" r="45" fill="#B85C38" opacity="0.08"/>
+</svg>

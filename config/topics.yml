@@ -113,7 +113,9 @@ topics:
   blogger_url: https://peterpb.blogspot.com/2026/07/the-30-minute-sunday-meal-plan-that.html
 - title: 'How to Store Produce So It Actually Lasts: A Fridge Map'
   pillar: kitchen-habits
-  status: pending
+  status: published
+  published_slug: how-to-store-produce-fridge-map
+  quality_score: 84
 - title: 'Your Dishwasher Is Probably Loaded Wrong: The Method That Gets Everything Clean'
   pillar: kitchen-habits
   status: pending

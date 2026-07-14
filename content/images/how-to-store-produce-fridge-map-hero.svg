@@ -1,0 +1,109 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft background circle accent -->
+  <circle cx="1000" cy="120" r="140" fill="#E4C7B2" opacity="0.5"/>
+  <circle cx="150" cy="520" r="110" fill="#D9A441" opacity="0.25"/>
+
+  <!-- fridge outer body -->
+  <rect x="300" y="60" width="600" height="520" rx="18" fill="#2E2A24"/>
+  <rect x="316" y="76" width="568" height="488" rx="12" fill="#E4C7B2"/>
+
+  <!-- left door open, revealing interior: interior back panel -->
+  <rect x="336" y="96" width="528" height="448" rx="8" fill="#F6EFE6"/>
+
+  <!-- door swung open shape (left side hinge, door panel visible attached) -->
+  <rect x="130" y="96" width="60" height="448" rx="8" fill="#B85C38"/>
+  <rect x="160" y="96" width="10" height="448" fill="#2E2A24" opacity="0.2"/>
+  <circle cx="178" cy="320" r="6" fill="#D9A441"/>
+
+  <!-- top shelf zone -->
+  <rect x="356" y="116" width="488" height="90" rx="6" fill="#F6EFE6" stroke="#5C6E58" stroke-width="2"/>
+  <!-- shelf label chip -->
+  <rect x="366" y="126" width="90" height="24" rx="12" fill="#5C6E58"/>
+
+  <!-- fruits on top shelf -->
+  <circle cx="420" cy="180" r="20" fill="#B85C38"/>
+  <rect x="416" y="158" width="6" height="12" fill="#5C6E58"/>
+  <circle cx="470" cy="185" r="18" fill="#D9A441"/>
+  <circle cx="520" cy="180" r="20" fill="#5C6E58"/>
+  <rect x="516" y="158" width="6" height="12" fill="#2E2A24"/>
+  <ellipse cx="580" cy="188" rx="24" ry="16" fill="#D9A441"/>
+  <ellipse cx="580" cy="188" rx="24" ry="16" fill="none" stroke="#B85C38" stroke-width="2"/>
+  <circle cx="650" cy="182" r="19" fill="#B85C38"/>
+  <circle cx="700" cy="184" r="17" fill="#D9A441"/>
+  <circle cx="750" cy="180" r="20" fill="#B85C38"/>
+  <rect x="746" y="158" width="6" height="12" fill="#5C6E58"/>
+  <circle cx="800" cy="185" r="18" fill="#5C6E58"/>
+
+  <!-- middle shelf zone -->
+  <rect x="356" y="222" width="488" height="90" rx="6" fill="#F6EFE6" stroke="#5C6E58" stroke-width="2"/>
+  <rect x="366" y="232" width="90" height="24" rx="12" fill="#B85C38"/>
+
+  <!-- jars/veg on middle shelf -->
+  <rect x="410" y="260" width="34" height="46" rx="6" fill="#5C6E58"/>
+  <rect x="410" y="260" width="34" height="10" rx="4" fill="#2E2A24"/>
+  <rect x="460" y="255" width="34" height="51" rx="6" fill="#D9A441"/>
+  <rect x="460" y="255" width="34" height="10" rx="4" fill="#2E2A24"/>
+  <rect x="510" y="262" width="30" height="44" rx="6" fill="#B85C38"/>
+  <rect x="510" y="262" width="30" height="10" rx="4" fill="#2E2A24"/>
+  <!-- broccoli shapes -->
+  <circle cx="580" cy="270" r="14" fill="#5C6E58"/>
+  <circle cx="596" cy="266" r="12" fill="#5C6E58"/>
+  <circle cx="588" cy="280" r="12" fill="#5C6E58"/>
+  <rect x="584" y="288" width="8" height="16" fill="#D9A441"/>
+  <!-- carrots -->
+  <polygon points="650,264 662,300 638,300" fill="#B85C38"/>
+  <polygon points="672,264 684,300 660,300" fill="#B85C38"/>
+  <rect x="652" y="256" width="4" height="12" fill="#5C6E58"/>
+  <rect x="674" y="256" width="4" height="12" fill="#5C6E58"/>
+  <!-- peppers -->
+  <ellipse cx="740" cy="282" rx="20" ry="22" fill="#D9A441"/>
+  <rect x="736" y="258" width="6" height="14" fill="#5C6E58"/>
+  <ellipse cx="790" cy="282" rx="18" ry="20" fill="#B85C38"/>
+  <rect x="786" y="260" width="6" height="12" fill="#5C6E58"/>
+
+  <!-- lower open shelf zone -->
+  <rect x="356" y="328" width="488" height="80" rx="6" fill="#F6EFE6" stroke="#5C6E58" stroke-width="2"/>
+  <rect x="366" y="338" width="90" height="24" rx="12" fill="#D9A441"/>
+
+  <!-- eggs and misc -->
+  <ellipse cx="420" cy="380" rx="14" ry="18" fill="#F6EFE6" stroke="#2E2A24" stroke-width="2"/>
+  <ellipse cx="450" cy="380" rx="14" ry="18" fill="#F6EFE6" stroke="#2E2A24" stroke-width="2"/>
+  <ellipse cx="480" cy="380" rx="14" ry="18" fill="#F6EFE6" stroke="#2E2A24" stroke-width="2"/>
+  <rect x="540" y="360" width="60" height="36" rx="6" fill="#5C6E58"/>
+  <rect x="620" y="358" width="50" height="40" rx="6" fill="#B85C38"/>
+  <circle cx="730" cy="378" r="16" fill="#D9A441"/>
+  <circle cx="770" cy="378" r="16" fill="#B85C38"/>
+
+  <!-- drawers at bottom -->
+  <rect x="356" y="424" width="234" height="100" rx="8" fill="#5C6E58"/>
+  <rect x="376" y="440" width="70" height="18" rx="9" fill="#F6EFE6" opacity="0.85"/>
+  <rect x="356" y="524" width="234" height="16" fill="#2E2A24" opacity="0.15"/>
+  <!-- veg peeking from drawer -->
+  <circle cx="410" cy="432" r="10" fill="#B85C38"/>
+  <circle cx="440" cy="430" r="9" fill="#D9A441"/>
+  <circle cx="470" cy="432" r="10" fill="#5C6E58"/>
+  <ellipse cx="510" cy="434" rx="14" ry="9" fill="#D9A441"/>
+
+  <rect x="610" y="424" width="234" height="100" rx="8" fill="#B85C38"/>
+  <rect x="630" y="440" width="70" height="18" rx="9" fill="#F6EFE6" opacity="0.85"/>
+  <rect x="610" y="524" width="234" height="16" fill="#2E2A24" opacity="0.15"/>
+  <!-- fruit peeking from drawer -->
+  <circle cx="660" cy="432" r="10" fill="#5C6E58"/>
+  <circle cx="690" cy="430" r="9" fill="#D9A441"/>
+  <circle cx="720" cy="432" r="10" fill="#F6EFE6"/>
+  <ellipse cx="770" cy="434" rx="14" ry="9" fill="#5C6E58"/>
+
+  <!-- door bins on inside of open door (left flap) -->
+  <rect x="140" y="140" width="40" height="60" rx="6" fill="#D9A441"/>
+  <rect x="140" y="210" width="40" height="60" rx="6" fill="#F6EFE6"/>
+  <rect x="140" y="280" width="40" height="60" rx="6" fill="#D9A441"/>
+  <circle cx="160" cy="160" r="7" fill="#B85C38"/>
+  <circle cx="160" cy="230" r="7" fill="#5C6E58"/>
+  <circle cx="160" cy="300" r="7" fill="#B85C38"/>
+
+  <!-- fridge feet -->
+  <rect x="330" y="580" width="20" height="14" rx="3" fill="#2E2A24"/>
+  <rect x="850" y="580" width="20" height="14" rx="3" fill="#2E2A24"/>
+</svg>

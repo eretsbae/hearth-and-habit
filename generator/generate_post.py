@@ -226,9 +226,26 @@ def enforce_quality_gate(
 
 # ── topic selection (anti-drift rotation) ────────────────────────────────────
 
-def pick_next_topic(topics_data: dict) -> dict | None:
+def season_priority(topic: dict, today: datetime.date | None = None) -> int:
+    """0 = in season window (publish now, ahead of peak search demand),
+    1 = non-seasonal (anytime), 2 = out of season (hold until its window).
+
+    A topic opts in with `season_months: [9, 10]` in topics.yml. The window is
+    treated as "current or next month", so seasonal guides go live 4+ weeks
+    before readers start searching for them.
+    """
+    months = topic.get("season_months")
+    if not months:
+        return 1
+    today = today or datetime.date.today()
+    window = {today.month, today.month % 12 + 1}
+    return 0 if window & set(months) else 2
+
+
+def pick_next_topic(topics_data: dict, today: datetime.date | None = None) -> dict | None:
     """Pick the pending topic from the pillar with the fewest published posts,
-    so coverage stays balanced across the fixed pillars."""
+    so coverage stays balanced across the fixed pillars. Within that balance,
+    in-season topics jump the queue and out-of-season ones wait."""
     published_counts = {p["slug"]: 0 for p in topics_data["pillars"]}
     for t in topics_data["topics"]:
         if t["status"] == "published":
@@ -237,7 +254,9 @@ def pick_next_topic(topics_data: dict) -> dict | None:
     pending = [t for t in topics_data["topics"] if t["status"] == "pending"]
     if not pending:
         return None
-    pending.sort(key=lambda t: published_counts.get(t["pillar"], 0))
+    pending.sort(
+        key=lambda t: (season_priority(t, today), published_counts.get(t["pillar"], 0))
+    )
     return pending[0]
 
 
@@ -363,12 +382,20 @@ def write_post(meta: dict, body: str, topic: dict, hero_svg: str, inline_svg: st
     hero_name = f"{slug}-hero.svg"
     (IMAGES_DIR / hero_name).write_text(hero_svg, encoding="utf-8")
 
+    # Image alt text: reuse the art-direction briefs Claude already wrote.
+    # Descriptive alt is an image-SEO and accessibility signal we get for free.
+    def clean_alt(text: str) -> str:
+        return re.sub(r'[\[\]()"<>]', "", text).strip()[:125]
+
+    hero_alt = clean_alt(meta.get("hero_image_brief") or meta["title"])
+    inline_alt = clean_alt(meta.get("inline_image_brief") or meta["title"])
+
     if inline_svg:
         inline_name = f"{slug}-inline.svg"
         (IMAGES_DIR / inline_name).write_text(inline_svg, encoding="utf-8")
         body = body.replace(
             "[INLINE_IMAGE]",
-            f"![Illustration](/images/{inline_name})",
+            f"![{inline_alt}](/images/{inline_name})",
         )
     else:
         body = body.replace("[INLINE_IMAGE]", "")
@@ -381,6 +408,7 @@ def write_post(meta: dict, body: str, topic: dict, hero_svg: str, inline_svg: st
         "tags": meta.get("tags", []),
         "pillar": topic["pillar"],
         "hero_image": f"/images/{hero_name}",
+        "hero_alt": hero_alt,
     }
     fm = yaml.safe_dump(frontmatter, allow_unicode=True, sort_keys=False).strip()
     out = POSTS_DIR / f"{date}-{slug}.md"

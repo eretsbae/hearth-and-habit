@@ -48,6 +48,11 @@ topics:
 - title: How to Prevent Frozen Pipes (and What to Do If They Freeze Anyway)
   pillar: home-maintenance
   status: pending
+  season_months:
+  - 10
+  - 11
+  - 12
+  - 1
 - title: 'The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control'
   pillar: cleaning-organization
   status: published
@@ -102,6 +107,10 @@ topics:
 - title: 'Weatherstripping for Beginners: A $25 Weekend Project That Cuts Drafts'
   pillar: energy-savings
   status: pending
+  season_months:
+  - 9
+  - 10
+  - 11
 - title: 'LED vs. Everything Else: The Last Lightbulb Guide You''ll Ever Need'
   pillar: energy-savings
   status: pending
@@ -143,18 +152,43 @@ topics:
 - title: 'Gutter Cleaning: How Often, How To, and What Happens If You Skip It'
   pillar: yard-outdoor
   status: pending
+  season_months:
+  - 3
+  - 4
+  - 9
+  - 10
 - title: 'Fall Yard Cleanup Checklist: What Actually Matters Before Winter'
   pillar: yard-outdoor
   status: pending
+  season_months:
+  - 8
+  - 9
+  - 10
 - title: How to Pressure-Wash Your Driveway, Deck, and Siding Without Damage
   pillar: yard-outdoor
   status: pending
+  season_months:
+  - 4
+  - 5
+  - 6
 - title: 'Spring Lawn Wake-Up: The First 5 Things to Do When the Snow Melts'
   pillar: yard-outdoor
   status: pending
+  season_months:
+  - 2
+  - 3
+  - 4
 - title: 'Deck Maintenance: Sealing, Staining, and the 5-Year Plan'
   pillar: yard-outdoor
   status: pending
+  season_months:
+  - 4
+  - 5
 - title: Mosquito Control That Actually Works (and the Gimmicks That Don't)
   pillar: yard-outdoor
   status: pending
+  season_months:
+  - 4
+  - 5
+  - 6
+  - 7

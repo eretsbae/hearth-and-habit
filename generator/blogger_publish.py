@@ -20,11 +20,12 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import re
 import sys
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urlparse
 
 import requests
 import yaml
@@ -97,19 +98,106 @@ def rewrite_image_urls(cfg: dict, html: str) -> str:
     return re.sub(r'src="(/images/[^"]+)"', repl, html)
 
 
-def hero_image_tag(cfg: dict, hero_image: str) -> str:
+def hero_image_tag(cfg: dict, hero_image: str, alt: str = "") -> str:
     if not hero_image:
         return ""
     url = raw_asset_url(cfg, "content" + hero_image)
+    alt_esc = (alt or "").replace('"', "&quot;")
     return (
-        f'<img src="{url}" alt="" '
+        f'<img src="{url}" alt="{alt_esc}" '
         f'style="width:100%;max-width:900px;border-radius:14px;'
         f'margin:0 0 24px;display:block;" /><br/>\n'
     )
 
 
+# ── Structured data (JSON-LD) ────────────────────────────────────────────────
+# FAQPage + Article schema make posts eligible for rich results in Google
+# Search (expandable Q&A, article thumbnails) — same ranking, higher CTR.
+
+FAQ_HEADING_RE = re.compile(r"^##\s+.*\b(faq|frequently asked|common questions)\b", re.I)
+
+
+def parse_faq(md_body: str) -> list[tuple[str, str]]:
+    """Extract (question, answer) pairs from a '## FAQ'-style section where
+    each question is an H3. Answers are the plain text until the next heading."""
+    lines = md_body.splitlines()
+    pairs: list[tuple[str, str]] = []
+    in_faq = False
+    question: str | None = None
+    answer: list[str] = []
+
+    def flush():
+        nonlocal question, answer
+        if question and answer:
+            text = " ".join(l.strip() for l in answer if l.strip())
+            text = re.sub(r"[*_`]|\[([^\]]*)\]\([^)]*\)", lambda m: m.group(1) or "", text)
+            if text:
+                pairs.append((question, text.strip()))
+        question, answer = None, []
+
+    for line in lines:
+        if line.startswith("## ") and not line.startswith("### "):
+            flush()
+            in_faq = bool(FAQ_HEADING_RE.match(line))
+            continue
+        if not in_faq:
+            continue
+        if line.startswith("### "):
+            flush()
+            question = line[4:].strip().rstrip("?") + "?"
+        elif question is not None:
+            answer.append(line)
+    flush()
+    return pairs
+
+
+def json_ld_block(cfg: dict, fm: dict, hero_url: str, page_url: str, faq_pairs: list) -> str:
+    graph: list[dict] = [
+        {
+            "@type": "Article",
+            "headline": fm.get("title", ""),
+            "description": fm.get("description", ""),
+            "datePublished": str(fm.get("date", "")),
+            "image": [hero_url] if hero_url else [],
+            "author": {"@type": "Organization", "name": cfg.get("site_name", "Hearth & Habit")},
+            "publisher": {"@type": "Organization", "name": cfg.get("site_name", "Hearth & Habit")},
+            **({"mainEntityOfPage": page_url} if page_url else {}),
+        }
+    ]
+    if len(faq_pairs) >= 2:
+        graph.append(
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": q,
+                        "acceptedAnswer": {"@type": "Answer", "text": a},
+                    }
+                    for q, a in faq_pairs
+                ],
+            }
+        )
+    data = {"@context": "https://schema.org", "@graph": graph}
+    return (
+        '<script type="application/ld+json">'
+        + json.dumps(data, ensure_ascii=False)
+        + "</script>\n"
+    )
+
+
 def pillar_label_url(blog_url: str, pillar_name: str) -> str:
     return f"{blog_url.rstrip('/')}/search/label/{quote(pillar_name)}"
+
+
+# Sentinels around the related-posts block so later runs can find and replace
+# it in already-published posts (bidirectional linking: old posts learn about
+# new ones instead of only new -> old).
+RELATED_START = "<!-- hh:related -->"
+RELATED_END = "<!-- /hh:related -->"
+# The first publish batch (before sentinels existed) appended the block bare;
+# it was always the last thing in the post, so replace from this marker on.
+LEGACY_RELATED_MARKER = '<hr style="margin:40px 0 24px;border:none;border-top:1px solid #e4c7b2;" />'
 
 
 def related_posts_html(
@@ -150,7 +238,78 @@ def related_posts_html(
             f'<ul style="margin:0 0 16px;padding-left:20px;">{items}</ul>\n'
         )
     section += hub_link
-    return section
+    return f"{RELATED_START}\n{section}{RELATED_END}"
+
+
+def replace_related_block(content: str, new_block: str) -> str:
+    """Swap the related-posts block inside existing post HTML (sentinel-aware,
+    with a fallback for the pre-sentinel format); append if absent."""
+    start = content.find(RELATED_START)
+    if start != -1:
+        end = content.find(RELATED_END)
+        tail = content[end + len(RELATED_END):] if end != -1 else ""
+        return content[:start] + new_block + tail
+    legacy = content.rfind(LEGACY_RELATED_MARKER)
+    if legacy != -1:
+        return content[:legacy] + new_block
+    return content + "\n" + new_block
+
+
+def blogger_post_path(blogger_url: str) -> str:
+    return urlparse(blogger_url).path
+
+
+def refresh_related_on_published(
+    access_token: str, blog_id: str, blog_url: str, topics_data: dict,
+    pillar_by_slug: dict, touched_pillars: set[str], skip_slugs: set[str],
+) -> None:
+    """After new posts go live, rewrite the related-posts block of the other
+    live posts in the same pillars so old posts link forward to new ones."""
+    headers = {"Authorization": f"Bearer {access_token}", "Content-Type": "application/json"}
+    for topic in topics_data.get("topics", []):
+        if (
+            topic.get("pillar") not in touched_pillars
+            or not topic.get("blogger_url")
+            or topic.get("published_slug") in skip_slugs
+        ):
+            continue
+        post_id = topic.get("blogger_post_id")
+        if not post_id:
+            resp = requests.get(
+                f"{API_BASE}/blogs/{blog_id}/posts/bypath",
+                params={"path": blogger_post_path(topic["blogger_url"])},
+                headers=headers,
+                timeout=30,
+            )
+            if not resp.ok:
+                print(f"WARN: could not resolve post id for '{topic['title']}'; skipping refresh")
+                continue
+            post_id = resp.json()["id"]
+            topic["blogger_post_id"] = post_id
+
+        resp = requests.get(f"{API_BASE}/blogs/{blog_id}/posts/{post_id}", headers=headers, timeout=30)
+        if not resp.ok:
+            print(f"WARN: could not fetch post {post_id} for '{topic['title']}'; skipping refresh")
+            continue
+        content = resp.json().get("content", "")
+
+        pillar = pillar_by_slug.get(topic["pillar"], {})
+        block = related_posts_html(topics_data, pillar, topic.get("published_slug"), blog_url)
+        if not block:
+            continue
+        updated = replace_related_block(content, block)
+        if updated == content:
+            continue
+        resp = requests.patch(
+            f"{API_BASE}/blogs/{blog_id}/posts/{post_id}",
+            json={"content": updated},
+            headers=headers,
+            timeout=30,
+        )
+        if resp.ok:
+            print(f"  refreshed related links on: {topic['title']}")
+        else:
+            print(f"WARN: failed to refresh '{topic['title']}' ({resp.status_code}): {resp.text[:200]}")
 
 
 def find_post_file(slug: str) -> Path | None:
@@ -209,6 +368,8 @@ def main() -> int:
     blog_id = (cfg["blogger"].get("blog_id") or "").strip() or get_blog_id(access_token, blog_url)
 
     published_any = False
+    touched_pillars: set[str] = set()
+    new_slugs: set[str] = set()
     for topic in to_publish:
         slug = topic.get("published_slug")
         path = find_post_file(slug) if slug else None
@@ -219,8 +380,10 @@ def main() -> int:
         fm, body = parse_frontmatter(path)
         html = rewrite_image_urls(cfg, md_to_html(body))
         pillar = pillar_by_slug.get(fm.get("pillar"), {})
+        hero_url = raw_asset_url(cfg, "content" + fm["hero_image"]) if fm.get("hero_image") else ""
         full_html = (
-            hero_image_tag(cfg, fm.get("hero_image", ""))
+            json_ld_block(cfg, fm, hero_url, "", parse_faq(body))
+            + hero_image_tag(cfg, fm.get("hero_image", ""), fm.get("hero_alt", fm.get("title", "")))
             + html
             + related_posts_html(topics_data, pillar, slug, blog_url)
         )
@@ -231,10 +394,19 @@ def main() -> int:
         print(f"Publishing to Blogger: {fm['title']}")
         result = create_post(access_token, blog_id, fm["title"], full_html, labels, args.draft)
         topic["blogger_url"] = result.get("url", "")
+        if result.get("id"):
+            topic["blogger_post_id"] = result["id"]
         print(f"  -> {topic['blogger_url']}")
         published_any = True
+        touched_pillars.add(fm.get("pillar"))
+        new_slugs.add(slug)
 
     if published_any:
+        if not args.draft:
+            refresh_related_on_published(
+                access_token, blog_id, blog_url, topics_data,
+                pillar_by_slug, touched_pillars, new_slugs,
+            )
         save_yaml(TOPICS_CONFIG, topics_data)
     return 0
 

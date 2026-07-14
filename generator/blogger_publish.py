@@ -63,7 +63,14 @@ def get_access_token() -> str:
         },
         timeout=30,
     )
-    resp.raise_for_status()
+    if not resp.ok:
+        raise SystemExit(
+            f"ERROR: Google token exchange failed ({resp.status_code}): {resp.text.strip()}\n"
+            "If the error above says 'invalid_grant', the GOOGLE_REFRESH_TOKEN secret has\n"
+            "expired or been revoked. Re-run generator/blogger_auth.py locally to mint a new\n"
+            "refresh token and update the repository secret. See blogger/SETUP.md section B-5\n"
+            "(publish the OAuth consent screen so tokens stop expiring after 7 days)."
+        )
     return resp.json()["access_token"]
 
 
@@ -167,7 +174,19 @@ def create_post(access_token: str, blog_id: str, title: str, html: str, labels: 
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--draft", action="store_true", help="Create posts as drafts instead of publishing live")
+    ap.add_argument(
+        "--check-auth",
+        action="store_true",
+        help="Only verify the Google credentials work (token exchange), then exit. "
+        "Run before the Claude generation step so a dead refresh token fails the "
+        "workflow before any generation cost is incurred.",
+    )
     args = ap.parse_args()
+
+    if args.check_auth:
+        get_access_token()
+        print("Blogger credentials OK (token exchange succeeded).")
+        return 0
 
     cfg = load_yaml(SITE_CONFIG)
     topics_data = load_yaml(TOPICS_CONFIG)

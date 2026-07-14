@@ -37,6 +37,15 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      # 인증이 죽어 있으면(만료된 refresh token 등) 글 생성에 Claude API 비용을
+      # 쓰기 전에 여기서 즉시 실패시킨다.
+      - name: Verify Blogger credentials
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+        run: python generator/blogger_publish.py --check-auth
+
       - name: Generate new post with Claude
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

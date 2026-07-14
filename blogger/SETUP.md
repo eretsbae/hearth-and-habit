@@ -66,6 +66,22 @@ GOOGLE_REFRESH_TOKEN = ...
 
 `generator/client_secret.json`은 `.gitignore`에 등록되어 있어 실수로 커밋되지 않습니다. 인증이 끝났다면 로컬에서 삭제해도 무방합니다.
 
+### B-5. 중요: OAuth 동의 화면을 "프로덕션"으로 전환하세요 (안 하면 7일마다 재인증 필요)
+
+B-2에서 만든 OAuth 동의 화면은 기본적으로 **"테스트(Testing)"** 상태입니다. Google은 테스트
+상태인 앱이 발급한 refresh token을 **7일 뒤 자동 만료**시킵니다 — B-3에서 발급받은
+`GOOGLE_REFRESH_TOKEN`이 일주일쯤 지나면 조용히 무효화되고, 자동 발행 워크플로우의
+"Publish to Blogger" 단계가 `400 Bad Request` (`invalid_grant`)로 실패하기 시작합니다
+(이미 생성된 글은 리포에 커밋까지는 되고, `config/topics.yml`에 `blogger_url`만 비어 있는
+상태로 남습니다 — 재인증 후 다음 실행 때 자동으로 발행됩니다).
+
+**한 번만 하면 되는 해결책**: Google Cloud Console → **API 및 서비스 → OAuth 동의 화면** →
+상단의 **"게시(Publish App)"** 버튼 클릭 → 확인. Blogger 범위는 "민감한 범위"라 Google 인증
+심사 없이 게시해도 로그인 시 "확인되지 않은 앱" 경고가 계속 뜨지만(본인 소유 앱이라 문제
+없음), **이 상태로 전환하면 7일 만료 제한이 사라지고 refresh token이 계속 유효**합니다.
+게시하지 않고 테스트 상태로 유지하려면 대신 7일 이내마다 `python generator/blogger_auth.py`를
+재실행해 `GOOGLE_REFRESH_TOKEN` 시크릿을 갱신해야 합니다 (권장하지 않음 — 자동화 취지에 반함).
+
 ## C. 동작 확인
 
 **Actions 탭 → "Generate & Publish Post" → Run workflow** 로 수동 실행해 보세요. 성공하면:

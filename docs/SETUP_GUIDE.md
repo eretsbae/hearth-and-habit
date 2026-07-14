@@ -69,6 +69,7 @@
 |---|---|
 | Actions "Generate new post" 단계 실패 | `ANTHROPIC_API_KEY` 시크릿 확인, 콘솔 크레딧 잔액 확인 |
 | Actions "Publish to Blogger" 단계 실패 (401/403) | `GOOGLE_REFRESH_TOKEN` 등이 정확한지 확인. `generator/blogger_auth.py`를 다시 실행해 새 토큰 발급 |
+| `get_access_token` 단계에서 `400 Client Error` (`oauth2.googleapis.com/token`) | OAuth 동의 화면이 "테스트" 상태면 refresh token이 7일 뒤 자동 만료됩니다. `blogger/SETUP.md`의 B-5 참고 — Google Cloud Console에서 앱을 "게시(Publish)"하면 재발 방지, 아니면 `blogger_auth.py`로 토큰을 재발급해 `GOOGLE_REFRESH_TOKEN` 시크릿을 갱신하세요. 이미 생성된 글은 리포에 남아 있으니 재인증 후 다음 실행에서 자동으로 발행됩니다 |
 | 이미지가 블로그에서 깨져 보임 | raw.githubusercontent.com 반영에 수십 초~수 분 지연이 있을 수 있음. 잠시 후 새로고침 |
 | 디자인이 하나도 안 바뀜 | `blogger/custom-css.css`를 정확히 Customize → Advanced → Add CSS에 붙여넣었는지, 저장을 눌렀는지 확인 |
 | 광고가 하나도 안 보임 | 애드센스 승인 여부와 Blogger "수익" 탭에서 광고가 켜져 있는지 확인 |

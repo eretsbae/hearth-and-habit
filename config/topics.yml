@@ -87,11 +87,14 @@ topics:
   status: published
   published_slug: cut-electric-bill-no-cost-habits
   blogger_url: https://peterpb.blogspot.com/2026/07/how-to-cut-your-electric-bill-without.html
+  blogger_post_id: '7724986856908663020'
 - title: 'Phantom Power: How Much Your Idle Electronics Really Cost You Each Year'
   pillar: energy-savings
   status: published
   published_slug: phantom-power-idle-electronics-cost
   quality_score: 83
+  blogger_url: https://peterpb.blogspot.com/2026/07/phantom-power-how-much-your-idle.html
+  blogger_post_id: '2644869432849979589'
 - title: The Right Thermostat Settings for Every Season (and How Much They Save)
   pillar: energy-savings
   status: pending
@@ -120,11 +123,14 @@ topics:
   published_slug: 30-minute-sunday-meal-plan
   quality_score: 82
   blogger_url: https://peterpb.blogspot.com/2026/07/the-30-minute-sunday-meal-plan-that.html
+  blogger_post_id: '2188836539659591013'
 - title: 'How to Store Produce So It Actually Lasts: A Fridge Map'
   pillar: kitchen-habits
   status: published
   published_slug: how-to-store-produce-fridge-map
   quality_score: 84
+  blogger_url: https://peterpb.blogspot.com/2026/07/how-to-store-produce-so-it-actually.html
+  blogger_post_id: '8989987011885463449'
 - title: 'Your Dishwasher Is Probably Loaded Wrong: The Method That Gets Everything Clean'
   pillar: kitchen-habits
   status: pending
@@ -149,6 +155,7 @@ topics:
   published_slug: low-effort-lawn-care-bare-minimum
   quality_score: 85
   blogger_url: https://peterpb.blogspot.com/2026/07/lawn-care-for-people-who-dont-care.html
+  blogger_post_id: '795620399306360578'
 - title: 'Gutter Cleaning: How Often, How To, and What Happens If You Skip It'
   pillar: yard-outdoor
   status: pending
@@ -166,6 +173,8 @@ topics:
   - 10
   published_slug: fall-yard-cleanup-checklist-before-winter
   quality_score: 84
+  blogger_url: https://peterpb.blogspot.com/2026/07/fall-yard-cleanup-checklist-what.html
+  blogger_post_id: '7603145943155615164'
 - title: How to Pressure-Wash Your Driveway, Deck, and Siding Without Damage
   pillar: yard-outdoor
   status: pending

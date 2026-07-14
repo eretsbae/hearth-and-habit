@@ -1,0 +1,89 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- center divider -->
+  <rect x="595" y="80" width="10" height="470" fill="#E4C7B2"/>
+
+  <!-- LEFT PANEL: Clogged gutter -->
+  <g>
+    <circle cx="300" cy="150" r="90" fill="#E4C7B2" opacity="0.4"/>
+    <!-- roof edge -->
+    <rect x="80" y="140" width="440" height="40" fill="#5C6E58"/>
+    <polygon points="80,140 520,140 520,120 80,150" fill="#3F4C3C"/>
+
+    <!-- gutter trough -->
+    <path d="M100 180 L500 180 L500 260 L470 260 L470 210 L130 210 L130 260 L100 260 Z" fill="#B85C38"/>
+    <rect x="100" y="180" width="400" height="14" fill="#94472A"/>
+
+    <!-- clogged leaves and debris filling gutter -->
+    <g>
+      <ellipse cx="150" cy="200" rx="22" ry="14" fill="#D9A441"/>
+      <ellipse cx="185" cy="195" rx="20" ry="13" fill="#B85C38"/>
+      <ellipse cx="220" cy="202" rx="24" ry="15" fill="#5C6E58"/>
+      <ellipse cx="255" cy="196" rx="20" ry="13" fill="#D9A441"/>
+      <ellipse cx="290" cy="204" rx="22" ry="14" fill="#94472A"/>
+      <ellipse cx="325" cy="197" rx="20" ry="13" fill="#5C6E58"/>
+      <ellipse cx="360" cy="203" rx="23" ry="14" fill="#D9A441"/>
+      <ellipse cx="395" cy="196" rx="20" ry="13" fill="#B85C38"/>
+      <ellipse cx="430" cy="202" rx="22" ry="14" fill="#5C6E58"/>
+      <ellipse cx="460" cy="197" rx="18" ry="12" fill="#D9A441"/>
+    </g>
+
+    <!-- overflowing water dripping -->
+    <path d="M140 260 Q140 280 130 300 Q120 320 135 340" stroke="#5C6E58" stroke-width="6" fill="none" opacity="0.5"/>
+    <circle cx="135" cy="350" r="6" fill="#5C6E58" opacity="0.5"/>
+    <path d="M460 260 Q460 280 450 300 Q440 320 455 340" stroke="#5C6E58" stroke-width="6" fill="none" opacity="0.5"/>
+    <circle cx="455" cy="350" r="6" fill="#5C6E58" opacity="0.5"/>
+
+    <!-- downspout blocked, water pooling -->
+    <rect x="440" y="260" width="30" height="180" fill="#94472A"/>
+    <ellipse cx="455" cy="450" rx="60" ry="16" fill="#5C6E58" opacity="0.35"/>
+
+    <!-- extra scattered leaves around -->
+    <ellipse cx="90" cy="230" rx="18" ry="11" fill="#D9A441" transform="rotate(20 90 230)"/>
+    <ellipse cx="530" cy="220" rx="16" ry="10" fill="#B85C38" transform="rotate(-15 530 220)"/>
+    <ellipse cx="150" cy="470" rx="20" ry="12" fill="#5C6E58" transform="rotate(10 150 470)"/>
+    <ellipse cx="200" cy="500" rx="18" ry="11" fill="#D9A441" transform="rotate(-25 200 500)"/>
+  </g>
+
+  <!-- RIGHT PANEL: Clear gutter -->
+  <g>
+    <circle cx="900" cy="150" r="90" fill="#5C6E58" opacity="0.15"/>
+    <!-- roof edge -->
+    <rect x="680" y="140" width="440" height="40" fill="#5C6E58"/>
+    <polygon points="680,140 1120,140 1120,120 680,150" fill="#3F4C3C"/>
+
+    <!-- gutter trough clean -->
+    <path d="M700 180 L1100 180 L1100 260 L1070 260 L1070 210 L730 210 L730 260 L700 260 Z" fill="#B85C38"/>
+    <rect x="700" y="180" width="400" height="14" fill="#94472A"/>
+
+    <!-- clean interior showing empty trough -->
+    <path d="M730 210 L1070 210 L1070 250 L730 250 Z" fill="#D9A441" opacity="0.2"/>
+
+    <!-- water flowing smoothly through downspout -->
+    <rect x="1040" y="260" width="30" height="180" fill="#94472A"/>
+    <path d="M1055 260 L1055 430" stroke="#5C6E58" stroke-width="8" opacity="0.4"/>
+    <ellipse cx="1055" cy="450" rx="30" ry="8" fill="#5C6E58" opacity="0.3"/>
+
+    <!-- a couple leaves neatly swept aside on ground -->
+    <ellipse cx="760" cy="500" rx="18" ry="11" fill="#D9A441" transform="rotate(15 760 500)"/>
+    <ellipse cx="800" cy="515" rx="16" ry="10" fill="#B85C38" transform="rotate(-10 800 515)"/>
+
+    <!-- small broom leaning, simple geometric -->
+    <g transform="translate(950,380)">
+      <rect x="0" y="0" width="8" height="120" rx="4" fill="#5C6E58"/>
+      <path d="M-25 110 L33 110 L20 150 L-12 150 Z" fill="#D9A441"/>
+    </g>
+
+    <!-- sun rays subtle to indicate clear/clean -->
+    <g stroke="#D9A441" stroke-width="4" opacity="0.5">
+      <line x1="900" y1="60" x2="900" y2="90"/>
+      <line x1="840" y1="80" x2="860" y2="100"/>
+      <line x1="960" y1="80" x2="940" y2="100"/>
+    </g>
+  </g>
+
+  <!-- ground line both panels -->
+  <rect x="60" y="560" width="500" height="10" fill="#E4C7B2"/>
+  <rect x="640" y="560" width="500" height="10" fill="#E4C7B2"/>
+</svg>

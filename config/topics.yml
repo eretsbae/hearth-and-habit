@@ -159,11 +159,13 @@ topics:
   - 10
 - title: 'Fall Yard Cleanup Checklist: What Actually Matters Before Winter'
   pillar: yard-outdoor
-  status: pending
+  status: published
   season_months:
   - 8
   - 9
   - 10
+  published_slug: fall-yard-cleanup-checklist-before-winter
+  quality_score: 84
 - title: How to Pressure-Wash Your Driveway, Deck, and Siding Without Damage
   pillar: yard-outdoor
   status: pending

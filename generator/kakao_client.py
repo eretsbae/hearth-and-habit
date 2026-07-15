@@ -4,19 +4,23 @@ Kakao refresh tokens expire after ~60 days and get ROTATED when refreshed
 with under ~30 days left, so unattended weekly use must persist the newest
 refresh token somewhere. GitHub Actions can't update repository secrets with
 the default token, and this repo is public — so the token lives in
-.secrets/kakao_token.enc, AES-256 encrypted via openssl with a passphrase
-that stays in the KAKAO_TOKEN_PASSPHRASE repository secret. The workflow
-decrypts it, refreshes, and commits the re-encrypted file when Kakao rotates
-the token.
+.secrets/kakao_token.enc, encrypted (PBKDF2 + Fernet/AES via the
+`cryptography` package, pure Python so it works on Windows too) with a
+passphrase that stays in the KAKAO_TOKEN_PASSPHRASE repository secret. The
+workflow decrypts it, refreshes, and commits the re-encrypted file when
+Kakao rotates the token.
 """
 
 from __future__ import annotations
 
+import base64
+import hashlib
 import json
-import subprocess
+import os
 from pathlib import Path
 
 import requests
+from cryptography.fernet import Fernet
 
 AUTH_HOST = "https://kauth.kakao.com"
 API_HOST = "https://kapi.kakao.com"
@@ -24,25 +28,33 @@ API_HOST = "https://kapi.kakao.com"
 ROOT = Path(__file__).resolve().parents[1]
 TOKEN_FILE = ROOT / ".secrets" / "kakao_token.enc"
 
+_MAGIC = b"HHKT1"  # file format marker + version
+_SALT_LEN = 16
+_PBKDF2_ITERATIONS = 600_000
+
+
+def _fernet(passphrase: str, salt: bytes) -> Fernet:
+    key = hashlib.pbkdf2_hmac("sha256", passphrase.encode(), salt, _PBKDF2_ITERATIONS)
+    return Fernet(base64.urlsafe_b64encode(key))
+
 
 def encrypt_token_file(data: dict, passphrase: str, path: Path = TOKEN_FILE) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    subprocess.run(
-        ["openssl", "enc", "-aes-256-cbc", "-pbkdf2", "-salt",
-         "-pass", f"pass:{passphrase}", "-out", str(path)],
-        input=json.dumps(data).encode(),
-        check=True,
-    )
+    salt = os.urandom(_SALT_LEN)
+    token = _fernet(passphrase, salt).encrypt(json.dumps(data).encode())
+    path.write_bytes(_MAGIC + salt + token)
 
 
 def decrypt_token_file(passphrase: str, path: Path = TOKEN_FILE) -> dict:
-    out = subprocess.run(
-        ["openssl", "enc", "-aes-256-cbc", "-pbkdf2", "-d",
-         "-pass", f"pass:{passphrase}", "-in", str(path)],
-        capture_output=True,
-        check=True,
-    )
-    return json.loads(out.stdout)
+    raw = path.read_bytes()
+    if not raw.startswith(_MAGIC):
+        raise SystemExit(
+            f"ERROR: {path} is not in the expected format (bad header). "
+            "Re-create it with: python generator/kakao_auth.py"
+        )
+    salt = raw[len(_MAGIC):len(_MAGIC) + _SALT_LEN]
+    token = raw[len(_MAGIC) + _SALT_LEN:]
+    return json.loads(_fernet(passphrase, salt).decrypt(token))
 
 
 def refresh_tokens(rest_api_key: str, refresh_token: str, client_secret: str = "") -> dict:

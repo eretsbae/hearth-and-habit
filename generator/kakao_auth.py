@@ -58,6 +58,9 @@ def main() -> int:
     if not rest_key:
         print("REST API 키가 필요합니다.")
         return 1
+    client_secret = input(
+        "클라이언트 시크릿 (콘솔의 REST API 키에서 '사용함'인 경우만 입력, 아니면 Enter): "
+    ).strip()
 
     server = http.server.HTTPServer(("localhost", PORT), _Handler)
     thread = threading.Thread(target=server.handle_request, daemon=True)
@@ -76,16 +79,15 @@ def main() -> int:
         print(f"인증 실패: {_code_holder.get('error') or 'no code received (timeout?)'}")
         return 1
 
-    resp = requests.post(
-        f"{AUTH_HOST}/oauth/token",
-        data={
-            "grant_type": "authorization_code",
-            "client_id": rest_key,
-            "redirect_uri": REDIRECT_URI,
-            "code": _code_holder["code"],
-        },
-        timeout=30,
-    )
+    data = {
+        "grant_type": "authorization_code",
+        "client_id": rest_key,
+        "redirect_uri": REDIRECT_URI,
+        "code": _code_holder["code"],
+    }
+    if client_secret:
+        data["client_secret"] = client_secret
+    resp = requests.post(f"{AUTH_HOST}/oauth/token", data=data, timeout=30)
     resp.raise_for_status()
     tokens = resp.json()
     if "refresh_token" not in tokens:
@@ -97,7 +99,9 @@ def main() -> int:
         print("passphrase가 필요합니다.")
         return 1
 
-    encrypt_token_file({"refresh_token": tokens["refresh_token"]}, passphrase)
+    encrypt_token_file(
+        {"refresh_token": tokens["refresh_token"], "client_secret": client_secret}, passphrase
+    )
     print(f"\n저장 완료: {TOKEN_FILE.relative_to(TOKEN_FILE.parents[1])}")
     print("\n남은 일 (한 번만):")
     print("  1. GitHub 리포 → Settings → Secrets and variables → Actions에 등록:")

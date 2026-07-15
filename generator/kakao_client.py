@@ -45,18 +45,19 @@ def decrypt_token_file(passphrase: str, path: Path = TOKEN_FILE) -> dict:
     return json.loads(out.stdout)
 
 
-def refresh_tokens(rest_api_key: str, refresh_token: str) -> dict:
+def refresh_tokens(rest_api_key: str, refresh_token: str, client_secret: str = "") -> dict:
     """Exchange the refresh token for a fresh access token. The response
-    includes a new refresh_token only when Kakao decides to rotate it."""
-    resp = requests.post(
-        f"{AUTH_HOST}/oauth/token",
-        data={
-            "grant_type": "refresh_token",
-            "client_id": rest_api_key,
-            "refresh_token": refresh_token,
-        },
-        timeout=30,
-    )
+    includes a new refresh_token only when Kakao decides to rotate it.
+    client_secret is required only when it is enabled on the app's REST API
+    key in the Kakao console (KOE010 errors mean it's enabled but missing)."""
+    data = {
+        "grant_type": "refresh_token",
+        "client_id": rest_api_key,
+        "refresh_token": refresh_token,
+    }
+    if client_secret:
+        data["client_secret"] = client_secret
+    resp = requests.post(f"{AUTH_HOST}/oauth/token", data=data, timeout=30)
     if not resp.ok:
         raise SystemExit(
             f"ERROR: Kakao token refresh failed ({resp.status_code}): {resp.text.strip()}\n"

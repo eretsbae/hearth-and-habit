@@ -1,0 +1,127 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft background circles -->
+  <circle cx="1050" cy="110" r="90" fill="#E4C7B2" opacity="0.35"/>
+  <circle cx="120" cy="500" r="120" fill="#5C6E58" opacity="0.12"/>
+
+  <!-- GUTTER CROSS-SECTION (left half) -->
+  <g>
+    <!-- roof edge -->
+    <rect x="60" y="90" width="380" height="40" fill="#B85C38"/>
+    <polygon points="60,90 440,90 460,130 40,130" fill="#8f4529"/>
+
+    <!-- fascia board -->
+    <rect x="60" y="130" width="30" height="130" fill="#5C6E58"/>
+
+    <!-- gutter trough -->
+    <path d="M90,240 
+             Q90,290 140,290 
+             L370,290 
+             Q420,290 420,240 
+             L420,220 
+             L380,220 
+             L380,240 
+             Q380,250 370,250 
+             L140,250 
+             Q130,250 130,240 
+             L130,220 
+             L90,220 Z" fill="#D9A441"/>
+
+    <!-- gutter outer shell -->
+    <path d="M80,200 
+             L430,200 
+             L430,240 
+             Q430,300 370,300 
+             L140,300 
+             Q80,300 80,240 Z" 
+          fill="none" stroke="#2E2A24" stroke-width="6"/>
+
+    <!-- standing water in gutter -->
+    <path d="M110,235
+             Q110,260 145,260
+             L365,260
+             Q400,260 400,235
+             L400,238
+             Q400,270 365,270
+             L145,270
+             Q110,270 110,238 Z" fill="#7C9A92" opacity="0.85"/>
+    <ellipse cx="255" cy="252" rx="115" ry="10" fill="#a9c4bb" opacity="0.6"/>
+
+    <!-- leaf debris -->
+    <ellipse cx="180" cy="245" rx="18" ry="8" fill="#5C6E58" transform="rotate(-15 180 245)"/>
+    <ellipse cx="320" cy="240" rx="16" ry="7" fill="#5C6E58" transform="rotate(20 320 240)"/>
+
+    <!-- mosquito larvae dots -->
+    <circle cx="200" cy="255" r="3" fill="#2E2A24"/>
+    <circle cx="230" cy="258" r="3" fill="#2E2A24"/>
+    <circle cx="300" cy="256" r="3" fill="#2E2A24"/>
+
+    <!-- downspout -->
+    <rect x="200" y="300" width="40" height="150" fill="#D9A441"/>
+    <rect x="200" y="300" width="40" height="150" fill="none" stroke="#2E2A24" stroke-width="5"/>
+  </g>
+
+  <!-- ground line -->
+  <rect x="0" y="560" width="1200" height="70" fill="#E4C7B2" opacity="0.5"/>
+
+  <!-- PLANT SAUCER CROSS-SECTION (right half) -->
+  <g>
+    <!-- pot -->
+    <path d="M760,330 L920,330 L900,470 L780,470 Z" fill="#B85C38"/>
+    <rect x="755" y="315" width="170" height="25" rx="6" fill="#8f4529"/>
+
+    <!-- soil -->
+    <path d="M775,345 L905,345 L895,365 L785,365 Z" fill="#5C6E58"/>
+
+    <!-- little plant -->
+    <path d="M840,315 Q820,280 800,290" stroke="#5C6E58" stroke-width="6" fill="none"/>
+    <path d="M840,315 Q860,270 890,285" stroke="#5C6E58" stroke-width="6" fill="none"/>
+    <path d="M840,315 Q840,260 840,250" stroke="#5C6E58" stroke-width="6" fill="none"/>
+    <ellipse cx="798" cy="286" rx="14" ry="8" fill="#5C6E58"/>
+    <ellipse cx="892" cy="281" rx="14" ry="8" fill="#5C6E58"/>
+    <ellipse cx="840" cy="246" rx="14" ry="9" fill="#5C6E58"/>
+
+    <!-- saucer -->
+    <path d="M700,470 
+             Q700,510 740,510 
+             L940,510 
+             Q980,510 980,470 
+             L980,460 
+             L700,460 Z" fill="#D9A441"/>
+    <path d="M700,460 L980,460 L980,470 Q980,510 940,510 L740,510 Q700,510 700,470 Z"
+          fill="none" stroke="#2E2A24" stroke-width="6"/>
+
+    <!-- standing water in saucer -->
+    <path d="M720,472 
+             Q720,495 745,495 
+             L935,495 
+             Q960,495 960,472 
+             L960,478
+             Q960,500 935,500
+             L745,500
+             Q720,500 720,478 Z" fill="#7C9A92" opacity="0.85"/>
+    <ellipse cx="840" cy="486" rx="120" ry="9" fill="#a9c4bb" opacity="0.6"/>
+
+    <!-- mosquito larvae dots -->
+    <circle cx="780" cy="490" r="3" fill="#2E2A24"/>
+    <circle cx="820" cy="493" r="3" fill="#2E2A24"/>
+    <circle cx="900" cy="489" r="3" fill="#2E2A24"/>
+  </g>
+
+  <!-- two simple flying mosquito icons -->
+  <g stroke="#2E2A24" stroke-width="3" fill="none">
+    <g transform="translate(500,150)">
+      <ellipse cx="0" cy="0" rx="10" ry="5" fill="#2E2A24" stroke="none"/>
+      <line x1="-8" y1="-6" x2="-20" y2="-14"/>
+      <line x1="8" y1="-6" x2="20" y2="-14"/>
+      <line x1="0" y1="4" x2="0" y2="14"/>
+    </g>
+    <g transform="translate(1000,220) scale(0.8)">
+      <ellipse cx="0" cy="0" rx="10" ry="5" fill="#2E2A24" stroke="none"/>
+      <line x1="-8" y1="-6" x2="-20" y2="-14"/>
+      <line x1="8" y1="-6" x2="20" y2="-14"/>
+      <line x1="0" y1="4" x2="0" y2="14"/>
+    </g>
+  </g>
+</svg>

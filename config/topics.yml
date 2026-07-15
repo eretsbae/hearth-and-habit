@@ -197,9 +197,11 @@ topics:
   - 5
 - title: Mosquito Control That Actually Works (and the Gimmicks That Don't)
   pillar: yard-outdoor
-  status: pending
+  status: published
   season_months:
   - 4
   - 5
   - 6
   - 7
+  published_slug: mosquito-control-that-actually-works
+  quality_score: 85

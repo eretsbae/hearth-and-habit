@@ -24,6 +24,7 @@ from __future__ import annotations
 import datetime
 import json
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -58,6 +59,47 @@ def fetch_pageviews(access_token: str, blog_id: str) -> dict:
         key = RANGE_KEYS.get(c.get("timeRange", ""))
         if key:
             out[key] = int(c.get("count", 0))
+    return out
+
+
+def fetch_recent_comments(access_token: str, blog_id: str, topics_data: dict, since: datetime.date) -> list[dict]:
+    """New reader comments across the blog since `since`, with the post they
+    belong to. Blogger API has no comment-insert endpoint, so replies stay a
+    manual (1-minute) job — this just makes sure new comments never go
+    unnoticed between logins."""
+    try:
+        resp = requests.get(
+            f"{API_BASE}/blogs/{blog_id}/comments",
+            params={
+                "startDate": f"{since.isoformat()}T00:00:00Z",
+                "maxResults": 50,
+                "fetchBodies": "true",
+            },
+            headers={"Authorization": f"Bearer {access_token}"},
+            timeout=30,
+        )
+        resp.raise_for_status()
+    except Exception as e:  # non-fatal: the report is still useful without comments
+        print(f"WARN: comment fetch failed ({e}); skipping comment section")
+        return []
+
+    title_by_post_id = {
+        str(t.get("blogger_post_id")): t
+        for t in topics_data.get("topics", [])
+        if t.get("blogger_post_id")
+    }
+    out = []
+    for c in resp.json().get("items", []):
+        post_id = str((c.get("post") or {}).get("id", ""))
+        topic = title_by_post_id.get(post_id, {})
+        body = re.sub(r"<[^>]+>", "", c.get("content", "")).strip()
+        out.append({
+            "author": ((c.get("author") or {}).get("displayName")) or "익명",
+            "snippet": body[:90] + ("…" if len(body) > 90 else ""),
+            "post_title": topic.get("title", "(제목 확인 필요)"),
+            "post_url": topic.get("blogger_url", ""),
+            "published": c.get("published", ""),
+        })
     return out
 
 
@@ -98,7 +140,9 @@ def fmt_delta(cur: int | None, prev: int | None) -> str:
     return f" ({'+' if d >= 0 else ''}{d})"
 
 
-def build_report_md(today: datetime.date, pv: dict, stats: dict, prev: dict | None) -> str:
+def build_report_md(
+    today: datetime.date, pv: dict, stats: dict, prev: dict | None, comments: list[dict] | None = None
+) -> str:
     prev_pv = (prev or {}).get("pageviews", {})
     lines = [
         f"# 주간 트래픽 리포트 — {today.isoformat()}",
@@ -120,6 +164,12 @@ def build_report_md(today: datetime.date, pv: dict, stats: dict, prev: dict | No
     if stats["new_this_week"]:
         lines += ["", "### 이번 주 발행"]
         lines += [f"- [{t['title']}]({t['blogger_url']})" for t in stats["new_this_week"]]
+    if comments:
+        lines += ["", "## 새 댓글 — 답변해주세요 (Blogger 글에서 직접)", ""]
+        lines += [
+            f"- **{c['author']}** · [{c['post_title']}]({c['post_url']}): {c['snippet']}"
+            for c in comments
+        ]
     lines += [
         "",
         "---",
@@ -130,7 +180,9 @@ def build_report_md(today: datetime.date, pv: dict, stats: dict, prev: dict | No
     return "\n".join(lines) + "\n"
 
 
-def build_kakao_text(today: datetime.date, pv: dict, stats: dict, prev: dict | None) -> str:
+def build_kakao_text(
+    today: datetime.date, pv: dict, stats: dict, prev: dict | None, comments: list[dict] | None = None
+) -> str:
     prev_pv = (prev or {}).get("pageviews", {})
     return (
         f"📊 Hearth&Habit 주간 ({today.month}/{today.day})\n"
@@ -138,6 +190,7 @@ def build_kakao_text(today: datetime.date, pv: dict, stats: dict, prev: dict | N
         f"30일: {pv['pv_30d']} · 누적: {pv['pv_all']}\n"
         f"발행 {stats['live_posts']}편 (신규 {len(stats['new_this_week'])}) · 대기 {stats['pending']}"
         + (f"\n⚠️ 미발행 {stats['unsynced']}편" if stats["unsynced"] else "")
+        + (f"\n💬 새 댓글 {len(comments)}개 — 답변 필요!" if comments else "")
     )
 
 
@@ -171,8 +224,10 @@ def main() -> int:
     blog_url = cfg["blogger"]["blog_url"].strip()
     blog_id = (cfg["blogger"].get("blog_id") or "").strip() or get_blog_id(access_token, blog_url)
 
+    since = today - datetime.timedelta(days=7)
     pv = fetch_pageviews(access_token, blog_id)
-    stats = content_stats(topics_data, since=today - datetime.timedelta(days=7))
+    stats = content_stats(topics_data, since=since)
+    comments = fetch_recent_comments(access_token, blog_id, topics_data, since)
     history = load_history()
     prev = history[-1] if history else None
 
@@ -187,7 +242,7 @@ def main() -> int:
 
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     report_path = REPORTS_DIR / f"weekly-{today.isoformat()}.md"
-    report_path.write_text(build_report_md(today, pv, stats, prev), encoding="utf-8")
+    report_path.write_text(build_report_md(today, pv, stats, prev, comments), encoding="utf-8")
     print(f"Report written: {report_path.relative_to(ROOT)}")
 
     gh = cfg["github"]
@@ -195,7 +250,7 @@ def main() -> int:
         f"https://github.com/{gh['owner']}/{gh['repo']}/blob/{gh['branch']}/"
         f"docs/reports/weekly-{today.isoformat()}.md"
     )
-    text = build_kakao_text(today, pv, stats, prev)
+    text = build_kakao_text(today, pv, stats, prev, comments)
     print("--- kakao text ---\n" + text + "\n------------------")
     send_kakao(text, report_url)
     return 0

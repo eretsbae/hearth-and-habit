@@ -29,7 +29,9 @@ topics:
   blogger_url: https://peterpb.blogspot.com/2026/07/10-home-maintenance-tasks-most-people.html
 - title: How to Fix a Running Toilet in 15 Minutes Without Calling a Plumber
   pillar: home-maintenance
-  status: pending
+  status: published
+  published_slug: fix-running-toilet-without-plumber
+  quality_score: 85
 - title: 'Caulking 101: Where to Caulk, What to Buy, and How to Get a Clean Line'
   pillar: home-maintenance
   status: pending

@@ -1,0 +1,106 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- decorative background elements -->
+  <circle cx="100" cy="100" r="60" fill="#E4C7B2" opacity="0.4"/>
+  <circle cx="1120" cy="540" r="80" fill="#5C6E58" opacity="0.15"/>
+  <rect x="0" y="580" width="1200" height="50" fill="#5C6E58" opacity="0.12"/>
+
+  <!-- divider line -->
+  <line x1="600" y1="90" x2="600" y2="540" stroke="#B85C38" stroke-width="3" stroke-dasharray="10 10" opacity="0.5"/>
+
+  <!-- LEFT: worn flapper panel -->
+  <g>
+    <rect x="120" y="90" width="360" height="450" rx="20" fill="#E4C7B2" opacity="0.3"/>
+
+    <!-- worn flapper base ring (warped, irregular) -->
+    <ellipse cx="300" cy="330" rx="140" ry="130" fill="#B85C38" opacity="0.85"/>
+    <path d="M 175 330
+             C 170 250, 220 190, 300 200
+             C 385 195, 435 260, 428 335
+             C 432 405, 375 460, 300 458
+             C 220 462, 180 400, 175 330 Z"
+          fill="#8f4a2c"/>
+
+    <!-- warped, cracked texture lines -->
+    <path d="M 210 260 Q 300 240 390 275" stroke="#2E2A24" stroke-width="4" fill="none" opacity="0.4"/>
+    <path d="M 200 320 Q 300 300 400 330" stroke="#2E2A24" stroke-width="4" fill="none" opacity="0.4"/>
+    <path d="M 215 390 Q 300 415 385 385" stroke="#2E2A24" stroke-width="4" fill="none" opacity="0.4"/>
+
+    <!-- cracks -->
+    <path d="M 260 250 L 245 300 L 270 340" stroke="#2E2A24" stroke-width="3" fill="none" opacity="0.5"/>
+    <path d="M 350 270 L 370 310 L 340 350" stroke="#2E2A24" stroke-width="3" fill="none" opacity="0.5"/>
+
+    <!-- warped center hole, off-center to show warping -->
+    <ellipse cx="310" cy="335" rx="55" ry="48" fill="#F6EFE6" opacity="0.9"/>
+    <ellipse cx="310" cy="335" rx="55" ry="48" fill="none" stroke="#2E2A24" stroke-width="3" opacity="0.3"/>
+
+    <!-- discoloration spots -->
+    <ellipse cx="230" cy="400" rx="18" ry="12" fill="#5C6E58" opacity="0.3"/>
+    <ellipse cx="370" cy="240" rx="14" ry="10" fill="#5C6E58" opacity="0.3"/>
+
+    <!-- hinge tabs, drooping/broken -->
+    <path d="M 195 290 Q 160 300 155 340 Q 160 360 190 350" fill="#8f4a2c" stroke="#2E2A24" stroke-width="2" opacity="0.8"/>
+    <path d="M 405 290 Q 440 305 442 345 Q 435 365 410 350" fill="#8f4a2c" stroke="#2E2A24" stroke-width="2" opacity="0.8"/>
+
+    <!-- chain, tangled/rusty -->
+    <circle cx="300" cy="140" r="6" fill="#D9A441"/>
+    <circle cx="292" cy="155" r="6" fill="#D9A441"/>
+    <circle cx="304" cy="170" r="6" fill="#D9A441"/>
+    <circle cx="295" cy="185" r="6" fill="#D9A441"/>
+    <circle cx="305" cy="200" r="5" fill="#D9A441" opacity="0.7"/>
+
+    <!-- X mark indicating "bad" -->
+    <g transform="translate(400,120)">
+      <circle cx="0" cy="0" r="26" fill="#B85C38"/>
+      <line x1="-11" y1="-11" x2="11" y2="11" stroke="#F6EFE6" stroke-width="5" stroke-linecap="round"/>
+      <line x1="11" y1="-11" x2="-11" y2="11" stroke="#F6EFE6" stroke-width="5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- RIGHT: new flapper panel -->
+  <g>
+    <rect x="720" y="90" width="360" height="450" rx="20" fill="#5C6E58" opacity="0.12"/>
+
+    <!-- clean flapper base ring -->
+    <ellipse cx="900" cy="330" rx="140" ry="130" fill="#5C6E58"/>
+
+    <!-- smooth surface with subtle sheen lines -->
+    <path d="M 800 260 Q 900 240 1000 270" stroke="#F6EFE6" stroke-width="4" fill="none" opacity="0.25"/>
+    <path d="M 790 330 Q 900 310 1010 335" stroke="#F6EFE6" stroke-width="4" fill="none" opacity="0.25"/>
+    <path d="M 800 400 Q 900 420 1000 390" stroke="#F6EFE6" stroke-width="4" fill="none" opacity="0.25"/>
+
+    <!-- centered clean hole -->
+    <ellipse cx="900" cy="330" rx="55" ry="48" fill="#F6EFE6"/>
+    <ellipse cx="900" cy="330" rx="55" ry="48" fill="none" stroke="#2E2A24" stroke-width="2" opacity="0.2"/>
+
+    <!-- neat hinge tabs -->
+    <path d="M 790 290 Q 760 300 758 335 Q 762 350 792 342" fill="#3f4d3d"/>
+    <path d="M 1010 290 Q 1040 300 1042 335 Q 1038 350 1008 342" fill="#3f4d3d"/>
+
+    <!-- clean chain -->
+    <circle cx="900" cy="140" r="6" fill="#D9A441"/>
+    <circle cx="900" cy="155" r="6" fill="#D9A441"/>
+    <circle cx="900" cy="170" r="6" fill="#D9A441"/>
+    <circle cx="900" cy="185" r="6" fill="#D9A441"/>
+
+    <!-- shine highlight -->
+    <ellipse cx="860" cy="280" rx="30" ry="15" fill="#F6EFE6" opacity="0.2"/>
+
+    <!-- checkmark indicating "good" -->
+    <g transform="translate(1000,120)">
+      <circle cx="0" cy="0" r="26" fill="#5C6E58"/>
+      <path d="M -11 0 L -3 9 L 12 -10" stroke="#F6EFE6" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <!-- small arrow indicating replacement direction -->
+  <g transform="translate(600,330)">
+    <path d="M -35 0 L 35 0" stroke="#D9A441" stroke-width="5" stroke-linecap="round"/>
+    <path d="M 20 -15 L 40 0 L 20 15" fill="none" stroke="#D9A441" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- base ground shadow accents -->
+  <ellipse cx="300" cy="560" rx="150" ry="14" fill="#2E2A24" opacity="0.08"/>
+  <ellipse cx="900" cy="560" rx="150" ry="14" fill="#2E2A24" opacity="0.08"/>
+</svg>

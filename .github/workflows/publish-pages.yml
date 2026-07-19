@@ -1,0 +1,33 @@
+# 정적 페이지(About/Contact/Privacy/Terms)를 Blogger에 게시/갱신
+# - 수동 실행 전용. content/pages/*.md 수정 후 다시 실행하면 같은 페이지가
+#   제자리에서 업데이트됩니다 (제목 기준 매칭).
+# - 애드센스 "가치가 별로 없는 콘텐츠" 심사 대응: 필수 페이지가 라이브에
+#   존재해야 사이트 완성도 요건을 충족합니다.
+
+name: Publish Static Pages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Publish pages to Blogger
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+        run: python generator/blogger_pages.py

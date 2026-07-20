@@ -1,0 +1,45 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- ground shadow strip -->
+  <rect x="0" y="470" width="1200" height="160" fill="#E4C7B2" opacity="0.35"/>
+
+  <!-- decorative arc backdrop -->
+  <circle cx="600" cy="230" r="270" fill="#E4C7B2" opacity="0.3"/>
+
+  <!-- Box 1: KEEP - sage box with circle (heart-like keep symbol) -->
+  <g>
+    <rect x="150" y="300" width="280" height="200" rx="10" fill="#5C6E58"/>
+    <rect x="150" y="300" width="280" height="40" rx="10" fill="#4B5A48"/>
+    <rect x="170" y="255" width="240" height="50" rx="8" fill="#5C6E58"/>
+    <circle cx="290" cy="400" r="55" fill="#F6EFE6"/>
+    <circle cx="290" cy="400" r="30" fill="#D9A441"/>
+  </g>
+
+  <!-- Box 2: DONATE - terracotta box with triangle (arrow-like giving symbol) -->
+  <g>
+    <rect x="460" y="280" width="280" height="220" rx="10" fill="#B85C38"/>
+    <rect x="460" y="280" width="280" height="40" rx="10" fill="#9E4B2E"/>
+    <rect x="480" y="235" width="240" height="50" rx="8" fill="#B85C38"/>
+    <polygon points="600,340 660,430 540,430" fill="#F6EFE6"/>
+    <polygon points="600,370 635,420 565,420" fill="#D9A441"/>
+  </g>
+
+  <!-- Box 3: TRASH - ink/gray box with square-diamond (discard symbol) -->
+  <g>
+    <rect x="770" y="310" width="280" height="190" rx="10" fill="#2E2A24"/>
+    <rect x="770" y="310" width="280" height="40" rx="10" fill="#221F1A"/>
+    <rect x="790" y="265" width="240" height="50" rx="8" fill="#2E2A24"/>
+    <rect x="855" y="365" width="90" height="90" fill="#F6EFE6" transform="rotate(45 900 410)"/>
+    <rect x="880" y="390" width="40" height="40" fill="#B85C38" transform="rotate(45 900 410)"/>
+  </g>
+
+  <!-- little floating dots for whimsy -->
+  <circle cx="120" cy="180" r="8" fill="#D9A441"/>
+  <circle cx="1080" cy="160" r="10" fill="#5C6E58"/>
+  <circle cx="1000" cy="540" r="7" fill="#B85C38"/>
+  <circle cx="180" cy="540" r="7" fill="#5C6E58"/>
+
+  <!-- subtle shelf line beneath boxes -->
+  <rect x="100" y="500" width="1000" height="14" rx="7" fill="#D9A441" opacity="0.5"/>
+</svg>

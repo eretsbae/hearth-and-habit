@@ -1,0 +1,96 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- wall panel accent -->
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+  <rect x="350" y="90" width="500" height="470" rx="16" fill="#E4C7B2" opacity="0.35"/>
+
+  <!-- decorative wall shelf line -->
+  <rect x="250" y="480" width="700" height="10" rx="4" fill="#D9A441" opacity="0.5"/>
+
+  <!-- Sun icon (left, summer) -->
+  <g transform="translate(230,240)">
+    <circle cx="0" cy="0" r="55" fill="#D9A441"/>
+    <circle cx="0" cy="0" r="40" fill="#E4C7B2"/>
+    <g stroke="#D9A441" stroke-width="10" stroke-linecap="round">
+      <line x1="0" y1="-85" x2="0" y2="-105"/>
+      <line x1="0" y1="85" x2="0" y2="105"/>
+      <line x1="-85" y1="0" x2="-105" y2="0"/>
+      <line x1="85" y1="0" x2="105" y2="0"/>
+      <line x1="-60" y1="-60" x2="-74" y2="-74"/>
+      <line x1="60" y1="60" x2="74" y2="74"/>
+      <line x1="-60" y1="60" x2="-74" y2="74"/>
+      <line x1="60" y1="-60" x2="74" y2="-74"/>
+    </g>
+  </g>
+
+  <!-- Snowflake icon (right, winter) -->
+  <g transform="translate(975,240)">
+    <circle cx="0" cy="0" r="55" fill="#5C6E58" opacity="0.15"/>
+    <g stroke="#5C6E58" stroke-width="9" stroke-linecap="round">
+      <line x1="0" y1="-45" x2="0" y2="45"/>
+      <line x1="-39" y1="-22" x2="39" y2="22"/>
+      <line x1="-39" y1="22" x2="39" y2="-22"/>
+      <line x1="0" y1="-45" x2="-14" y2="-28"/>
+      <line x1="0" y1="-45" x2="14" y2="-28"/>
+      <line x1="0" y1="45" x2="-14" y2="28"/>
+      <line x1="0" y1="45" x2="14" y2="28"/>
+      <line x1="-39" y1="-22" x2="-30" y2="-4"/>
+      <line x1="-39" y1="-22" x2="-19" y2="-27"/>
+      <line x1="39" y1="22" x2="30" y2="4"/>
+      <line x1="39" y1="22" x2="19" y2="27"/>
+      <line x1="-39" y1="22" x2="-30" y2="4"/>
+      <line x1="-39" y1="22" x2="-19" y2="27"/>
+      <line x1="39" y1="-22" x2="30" y2="-4"/>
+      <line x1="39" y1="-22" x2="19" y2="-27"/>
+    </g>
+  </g>
+
+  <!-- Thermostat mounting plate -->
+  <circle cx="600" cy="290" r="150" fill="#E4C7B2"/>
+  <circle cx="600" cy="290" r="150" fill="none" stroke="#2E2A24" stroke-width="3" opacity="0.15"/>
+
+  <!-- Outer ring -->
+  <circle cx="600" cy="290" r="128" fill="#F6EFE6"/>
+  <circle cx="600" cy="290" r="128" fill="none" stroke="#B85C38" stroke-width="10"/>
+
+  <!-- Inner face -->
+  <circle cx="600" cy="290" r="98" fill="#5C6E58"/>
+  <circle cx="600" cy="290" r="80" fill="#4E5E4B"/>
+
+  <!-- Temperature display circle -->
+  <circle cx="600" cy="290" r="46" fill="#F6EFE6"/>
+  <circle cx="600" cy="290" r="4" fill="#2E2A24"/>
+
+  <!-- Tick marks around dial -->
+  <g stroke="#D9A441" stroke-width="4" stroke-linecap="round">
+    <line x1="600" y1="168" x2="600" y2="182"/>
+    <line x1="600" y1="398" x2="600" y2="412"/>
+    <line x1="478" y1="290" x2="492" y2="290"/>
+    <line x1="708" y1="290" x2="722" y2="290"/>
+    <line x1="516" y1="206" x2="526" y2="216"/>
+    <line x1="684" y1="374" x2="674" y2="364"/>
+    <line x1="684" y1="206" x2="674" y2="216"/>
+    <line x1="516" y1="374" x2="526" y2="364"/>
+  </g>
+
+  <!-- Indicator dot on dial ring -->
+  <circle cx="695" cy="230" r="9" fill="#D9A441"/>
+
+  <!-- Base plate screws -->
+  <circle cx="600" cy="180" r="5" fill="#2E2A24" opacity="0.3"/>
+  <circle cx="600" cy="400" r="5" fill="#2E2A24" opacity="0.3"/>
+
+  <!-- subtle shadow under thermostat -->
+  <ellipse cx="600" cy="452" rx="120" ry="14" fill="#2E2A24" opacity="0.08"/>
+
+  <!-- Small decorative leaves bottom for warmth -->
+  <g fill="#5C6E58" opacity="0.5">
+    <ellipse cx="150" cy="560" rx="20" ry="9" transform="rotate(-20 150 560)"/>
+    <ellipse cx="185" cy="575" rx="18" ry="8" transform="rotate(10 185 575)"/>
+  </g>
+  <g fill="#B85C38" opacity="0.5">
+    <ellipse cx="1050" cy="560" rx="20" ry="9" transform="rotate(20 1050 560)"/>
+    <ellipse cx="1015" cy="575" rx="18" ry="8" transform="rotate(-10 1015 575)"/>
+  </g>
+</svg>

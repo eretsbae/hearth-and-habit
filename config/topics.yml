@@ -109,7 +109,9 @@ topics:
   blogger_post_id: '2644869432849979589'
 - title: The Right Thermostat Settings for Every Season (and How Much They Save)
   pillar: energy-savings
-  status: pending
+  status: published
+  published_slug: thermostat-settings-by-season-savings
+  quality_score: 84
 - title: Do Smart Thermostats Actually Pay for Themselves? A Real Math Breakdown
   pillar: energy-savings
   status: pending

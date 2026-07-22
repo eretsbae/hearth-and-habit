@@ -149,7 +149,9 @@ topics:
   blogger_post_id: '8989987011885463449'
 - title: 'Your Dishwasher Is Probably Loaded Wrong: The Method That Gets Everything Clean'
   pillar: kitchen-habits
-  status: pending
+  status: published
+  published_slug: dishwasher-loading-mistakes-troubleshooting
+  quality_score: 85
 - title: 'Freezer Inventory 101: Stop Buying Food You Already Own'
   pillar: kitchen-habits
   status: pending

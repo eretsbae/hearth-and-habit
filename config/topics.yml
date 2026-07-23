@@ -38,7 +38,9 @@ topics:
   blogger_post_id: '1498582864107403612'
 - title: 'Caulking 101: Where to Caulk, What to Buy, and How to Get a Clean Line'
   pillar: home-maintenance
-  status: pending
+  status: published
+  published_slug: caulking-101-how-to-caulk
+  quality_score: 87
 - title: 'What That Sound Means: A Homeowner''s Guide to Common House Noises'
   pillar: home-maintenance
   status: pending

@@ -1,0 +1,91 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- Center divider -->
+  <rect x="595" y="60" width="10" height="500" fill="#E4C7B2"/>
+
+  <!-- LEFT SIDE: Cluttered shelf -->
+  <g>
+    <!-- Shelf 1 top -->
+    <rect x="80" y="180" width="440" height="18" fill="#5C6E58"/>
+    <rect x="80" y="380" width="440" height="18" fill="#5C6E58"/>
+    <rect x="80" y="560" width="440" height="18" fill="#5C6E58"/>
+
+    <!-- Top shelf clutter -->
+    <rect x="95" y="120" width="34" height="60" rx="4" fill="#B85C38"/>
+    <rect x="135" y="105" width="30" height="75" rx="6" fill="#D9A441"/>
+    <rect x="170" y="130" width="26" height="50" rx="3" fill="#E4C7B2"/>
+    <rect x="202" y="100" width="22" height="80" rx="8" fill="#5C6E58"/>
+    <rect x="230" y="115" width="36" height="65" rx="4" fill="#B85C38"/>
+    <rect x="272" y="95" width="28" height="85" rx="5" fill="#D9A441"/>
+    <rect x="306" y="125" width="24" height="55" rx="3" fill="#E4C7B2"/>
+    <rect x="336" y="108" width="30" height="72" rx="6" fill="#5C6E58"/>
+    <rect x="372" y="118" width="26" height="62" rx="4" fill="#B85C38"/>
+    <rect x="404" y="98" width="32" height="82" rx="5" fill="#D9A441"/>
+    <rect x="442" y="130" width="22" height="50" rx="3" fill="#E4C7B2"/>
+    <rect x="470" y="110" width="28" height="70" rx="4" fill="#5C6E58"/>
+
+    <!-- Middle shelf clutter -->
+    <rect x="95" y="310" width="30" height="70" rx="4" fill="#D9A441"/>
+    <rect x="130" y="295" width="26" height="85" rx="6" fill="#B85C38"/>
+    <ellipse cx="180" cy="345" rx="20" ry="35" fill="#5C6E58"/>
+    <rect x="205" y="300" width="24" height="80" rx="5" fill="#E4C7B2"/>
+    <rect x="235" y="320" width="34" height="60" rx="4" fill="#B85C38"/>
+    <rect x="275" y="290" width="22" height="90" rx="8" fill="#D9A441"/>
+    <rect x="303" y="312" width="28" height="68" rx="4" fill="#5C6E58"/>
+    <ellipse cx="365" cy="345" rx="18" ry="35" fill="#B85C38"/>
+    <rect x="390" y="300" width="26" height="80" rx="5" fill="#E4C7B2"/>
+    <rect x="422" y="318" width="30" height="62" rx="4" fill="#D9A441"/>
+    <rect x="458" y="295" width="24" height="85" rx="6" fill="#5C6E58"/>
+
+    <!-- Bottom shelf clutter (bottles + spray tops) -->
+    <rect x="95" y="480" width="36" height="80" rx="4" fill="#5C6E58"/>
+    <rect x="103" y="465" width="8" height="18" fill="#2E2A24"/>
+    <rect x="140" y="495" width="30" height="65" rx="5" fill="#B85C38"/>
+    <rect x="148" y="480" width="7" height="16" fill="#2E2A24"/>
+    <rect x="180" y="470" width="34" height="90" rx="4" fill="#D9A441"/>
+    <rect x="225" y="490" width="28" height="70" rx="6" fill="#E4C7B2"/>
+    <rect x="233" y="475" width="7" height="16" fill="#2E2A24"/>
+    <rect x="265" y="475" width="32" height="85" rx="4" fill="#5C6E58"/>
+    <rect x="273" y="460" width="7" height="16" fill="#2E2A24"/>
+    <rect x="310" y="500" width="26" height="60" rx="5" fill="#B85C38"/>
+    <rect x="348" y="480" width="34" height="80" rx="4" fill="#D9A441"/>
+    <rect x="356" y="465" width="7" height="16" fill="#2E2A24"/>
+    <rect x="393" y="495" width="28" height="65" rx="5" fill="#E4C7B2"/>
+    <rect x="433" y="470" width="32" height="90" rx="4" fill="#5C6E58"/>
+    <rect x="441" y="455" width="7" height="16" fill="#2E2A24"/>
+    <rect x="475" y="500" width="26" height="60" rx="6" fill="#B85C38"/>
+  </g>
+
+  <!-- RIGHT SIDE: Minimal shelf -->
+  <g>
+    <rect x="680" y="380" width="440" height="18" fill="#5C6E58"/>
+
+    <!-- Three simple essential items, well spaced -->
+    <g>
+      <rect x="770" y="260" width="46" height="140" rx="6" fill="#5C6E58"/>
+      <rect x="782" y="235" width="22" height="30" rx="4" fill="#2E2A24"/>
+      <rect x="778" y="290" width="34" height="16" rx="2" fill="#F6EFE6" opacity="0.5"/>
+    </g>
+
+    <g>
+      <rect x="860" y="285" width="56" height="115" rx="8" fill="#D9A441"/>
+      <rect x="880" y="260" width="16" height="30" rx="4" fill="#2E2A24"/>
+      <rect x="870" y="315" width="36" height="14" rx="2" fill="#F6EFE6" opacity="0.5"/>
+    </g>
+
+    <g>
+      <rect x="960" y="300" width="120" height="12" rx="6" fill="#B85C38"/>
+      <rect x="1000" y="230" width="40" height="70" rx="20" fill="#E4C7B2"/>
+      <rect x="1010" y="220" width="20" height="18" rx="6" fill="#B85C38"/>
+    </g>
+  </g>
+
+  <!-- Soft ground shadow accents -->
+  <rect x="80" y="598" width="440" height="6" fill="#E4C7B2" opacity="0.5"/>
+  <rect x="680" y="398" width="440" height="6" fill="#E4C7B2" opacity="0.5"/>
+
+  <!-- Decorative small motif top corners -->
+  <circle cx="60" cy="40" r="14" fill="#D9A441" opacity="0.6"/>
+  <circle cx="1140" cy="40" r="14" fill="#B85C38" opacity="0.6"/>
+</svg>

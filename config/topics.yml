@@ -85,7 +85,9 @@ topics:
   blogger_post_id: '6224473847764059253'
 - title: Cleaning Supplies You Actually Need (and 10 You Can Skip)
   pillar: cleaning-organization
-  status: pending
+  status: published
+  published_slug: cleaning-supplies-you-actually-need
+  quality_score: 84
 - title: 'The Entryway System: Stop Losing Keys, Mail, and Your Mind'
   pillar: cleaning-organization
   status: pending

@@ -273,43 +273,49 @@ def refresh_related_on_published(
             or topic.get("published_slug") in skip_slugs
         ):
             continue
-        post_id = topic.get("blogger_post_id")
-        if not post_id:
-            resp = requests.get(
-                f"{API_BASE}/blogs/{blog_id}/posts/bypath",
-                params={"path": blogger_post_path(topic["blogger_url"])},
+        try:
+            post_id = topic.get("blogger_post_id")
+            if not post_id:
+                resp = requests.get(
+                    f"{API_BASE}/blogs/{blog_id}/posts/bypath",
+                    params={"path": blogger_post_path(topic["blogger_url"])},
+                    headers=headers,
+                    timeout=30,
+                )
+                if not resp.ok:
+                    print(f"WARN: could not resolve post id for '{topic['title']}'; skipping refresh")
+                    continue
+                post_id = resp.json()["id"]
+                topic["blogger_post_id"] = post_id
+
+            resp = requests.get(f"{API_BASE}/blogs/{blog_id}/posts/{post_id}", headers=headers, timeout=30)
+            if not resp.ok:
+                print(f"WARN: could not fetch post {post_id} for '{topic['title']}'; skipping refresh")
+                continue
+            content = resp.json().get("content", "")
+
+            pillar = pillar_by_slug.get(topic["pillar"], {})
+            block = related_posts_html(topics_data, pillar, topic.get("published_slug"), blog_url)
+            if not block:
+                continue
+            updated = replace_related_block(content, block)
+            if updated == content:
+                continue
+            resp = requests.patch(
+                f"{API_BASE}/blogs/{blog_id}/posts/{post_id}",
+                json={"content": updated},
                 headers=headers,
                 timeout=30,
             )
-            if not resp.ok:
-                print(f"WARN: could not resolve post id for '{topic['title']}'; skipping refresh")
-                continue
-            post_id = resp.json()["id"]
-            topic["blogger_post_id"] = post_id
-
-        resp = requests.get(f"{API_BASE}/blogs/{blog_id}/posts/{post_id}", headers=headers, timeout=30)
-        if not resp.ok:
-            print(f"WARN: could not fetch post {post_id} for '{topic['title']}'; skipping refresh")
-            continue
-        content = resp.json().get("content", "")
-
-        pillar = pillar_by_slug.get(topic["pillar"], {})
-        block = related_posts_html(topics_data, pillar, topic.get("published_slug"), blog_url)
-        if not block:
-            continue
-        updated = replace_related_block(content, block)
-        if updated == content:
-            continue
-        resp = requests.patch(
-            f"{API_BASE}/blogs/{blog_id}/posts/{post_id}",
-            json={"content": updated},
-            headers=headers,
-            timeout=30,
-        )
-        if resp.ok:
-            print(f"  refreshed related links on: {topic['title']}")
-        else:
-            print(f"WARN: failed to refresh '{topic['title']}' ({resp.status_code}): {resp.text[:200]}")
+            if resp.ok:
+                print(f"  refreshed related links on: {topic['title']}")
+            else:
+                print(f"WARN: failed to refresh '{topic['title']}' ({resp.status_code}): {resp.text[:200]}")
+        except requests.exceptions.RequestException as e:
+            # A single transient network error (timeout, connection reset,
+            # etc.) shouldn't stop the other posts in this pass from being
+            # refreshed — skip and keep going.
+            print(f"WARN: network error refreshing '{topic['title']}', skipping ({e})")
 
 
 def find_post_file(slug: str) -> Path | None:
@@ -402,12 +408,30 @@ def main() -> int:
         new_slugs.add(slug)
 
     if published_any:
-        if not args.draft:
-            refresh_related_on_published(
-                access_token, blog_id, blog_url, topics_data,
-                pillar_by_slug, touched_pillars, new_slugs,
-            )
+        # Persist the new blogger_url/blogger_post_id records BEFORE the
+        # best-effort related-links refresh below. That refresh does one
+        # extra API round-trip per already-live post and is purely cosmetic;
+        # a transient network blip there must never cost us the record of
+        # posts we just created, or the next run will re-publish them as
+        # duplicates (to_publish selects on status=="published" and no
+        # blogger_url).
         save_yaml(TOPICS_CONFIG, topics_data)
+        if not args.draft:
+            try:
+                refresh_related_on_published(
+                    access_token, blog_id, blog_url, topics_data,
+                    pillar_by_slug, touched_pillars, new_slugs,
+                )
+            except requests.exceptions.RequestException as e:
+                # Cosmetic step (backfilling links on already-live posts);
+                # never let a transient network error fail the whole run
+                # after the actual publish record is already safely saved.
+                print(f"WARN: refresh_related_on_published failed, skipping ({e})")
+            else:
+                # Re-save to persist any blogger_post_id values resolved
+                # and cached during the refresh (avoids re-resolving them
+                # via bypath on every future run).
+                save_yaml(TOPICS_CONFIG, topics_data)
     return 0
 
 

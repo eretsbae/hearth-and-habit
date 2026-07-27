@@ -197,11 +197,13 @@ topics:
   status: pending
 - title: Does Turning the AC Off While You're at Work Actually Save Money?
   pillar: energy-savings
-  status: pending
+  status: published
   season_months:
   - 6
   - 7
   - 8
+  published_slug: turning-ac-off-at-work-save-money
+  quality_score: 82
 - title: Why Did My Electric Bill Double With No Change in How I Use Power?
   pillar: energy-savings
   status: pending

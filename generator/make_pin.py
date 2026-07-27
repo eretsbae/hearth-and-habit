@@ -185,39 +185,51 @@ def build_manifest() -> int:
             "pillar": names.get(fm.get("pillar"), ""),
             "url": topic["blogger_url"],
             "date": str(fm.get("date", "")),
+            "auto_pinned": bool(topic.get("pinterest_pin_id")),
         })
 
+    # Group by board: pinning is done board by board, so a date-ordered list
+    # makes the manual pass jump around between boards for every item.
+    by_board: dict[str, list[dict]] = {}
+    for r in rows:
+        by_board.setdefault(r["pillar"] or "기타", []).append(r)
+
+    auto_done = sum(1 for r in rows if r["auto_pinned"])
     lines = [
         "# Pinterest 핀 큐",
         "",
-        "이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집하지 마세요.",
+        "이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.",
         "",
-        "## 사용법 (주 1회, 5분)",
+        f"핀 {len(rows)}개 준비됨 · API 자동 게시 완료 {auto_done}개",
         "",
-        "1. Pinterest에서 보드를 만듭니다 — 필러별로 5개 추천",
-        "   (Home Maintenance / Cleaning & Organization / Energy Savings /",
-        "   Kitchen Habits / Yard & Outdoor). 보드 설명에도 키워드를 넣으세요.",
-        "2. 아래 표에서 아직 안 올린 글의 **핀 이미지**를 내려받고 (`content/pins/` 폴더),",
-        "   **설명**을 복사, **연결 URL**을 붙여넣어 핀을 만듭니다.",
-        "3. 한 번에 몰아서 올리지 말고 하루 3~5개씩 나눠 올리는 편이 노출에 유리합니다.",
+        "## 수동으로 올리는 법",
         "",
-        f"현재 {len(rows)}개 핀 준비됨.",
+        "1. **이미지 위치**: 로컬 리포의 `content/pins/` 폴더 (최신화: `git pull`).",
+        "   Windows 탐색기에서 그 폴더를 열어두고 작업하면 편합니다.",
+        "2. **보드 먼저 생성** — 아래 소제목과 **똑같은 이름**으로 만드세요. 이름이 같아야",
+        "   나중에 API 자동 게시가 켜졌을 때 기존 보드를 그대로 씁니다(중복 생성 방지).",
+        "   보드는 반드시 **공개(비공개 해제)** 상태여야 검색에 노출됩니다.",
+        "3. **핀 만들기**: Pinterest → 만들기 → 핀 만들기 → 이미지 끌어다 놓기 →",
+        "   제목·설명·링크 붙여넣기 → 보드 선택 → 게시.",
+        "4. **하루 3~5개씩** 나눠 올리세요. 신규 계정이 한 번에 몰아 올리면 스팸으로 취급됩니다.",
+        "",
+        "`[x]`로 표시된 항목은 API가 이미 자동 게시한 것이니 **수동으로 다시 올리지 마세요.**",
         "",
         "---",
         "",
     ]
-    for r in rows:
-        lines += [
-            f"## {r['title']}",
-            "",
-            f"- **핀 이미지**: `content/pins/{r['slug']}.png`",
-            f"- **보드**: {r['pillar']}",
-            f"- **연결 URL**: {r['url']}",
-            "- **설명** (복사해서 붙여넣기):",
-            "",
-            f"  > {r['desc']}",
-            "",
-        ]
+    for board in sorted(by_board):
+        items = by_board[board]
+        lines += [f"## 보드: {board}", "", f"({len(items)}개)", ""]
+        for r in items:
+            mark = "x" if r["auto_pinned"] else " "
+            lines += [
+                f"- [{mark}] **{r['title']}**",
+                f"  - 이미지: `content/pins/{r['slug']}.png`",
+                f"  - 링크: {r['url']}",
+                f"  - 설명: {r['desc']}",
+                "",
+            ]
     PINS_DIR.mkdir(parents=True, exist_ok=True)
     (PINS_DIR / "PINS.md").write_text("\n".join(lines), encoding="utf-8")
     print(f"manifest: {len(rows)} pins -> content/pins/PINS.md")

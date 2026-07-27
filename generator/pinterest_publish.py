@@ -97,11 +97,29 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=3,
                     help="Max pins to create this run (default 3; paced on purpose)")
     ap.add_argument("--dry-run", action="store_true", help="List what would be pinned, no API calls")
+    ap.add_argument("--mark-pinned", nargs="+", metavar="SLUG",
+                    help="Record these slugs as already pinned by hand, so the "
+                         "automation skips them and never double-posts")
     args = ap.parse_args()
 
     cfg = load_yaml(SITE_CONFIG)
     topics_data = load_yaml(TOPICS_CONFIG)
     pillars = {p["slug"]: p for p in topics_data["pillars"]}
+
+    if args.mark_pinned:
+        wanted = set(args.mark_pinned)
+        marked = []
+        for t in topics_data["topics"]:
+            if t.get("published_slug") in wanted:
+                t["pinterest_pin_id"] = "manual"
+                marked.append(t["published_slug"])
+        missing = wanted - set(marked)
+        if missing:
+            raise SystemExit(f"ERROR: no published post found for: {', '.join(sorted(missing))}")
+        save_yaml(TOPICS_CONFIG, topics_data)
+        for slug in marked:
+            print(f"marked as manually pinned: {slug}")
+        return 0
 
     todo = candidates(topics_data)
     if not todo:

@@ -36,6 +36,7 @@ topics:
   quality_score: 85
   blogger_url: https://peterpb.blogspot.com/2026/07/how-to-fix-running-toilet-in-15-minutes.html
   blogger_post_id: '1498582864107403612'
+  pinterest_pin_id: manual
 - title: 'Caulking 101: Where to Caulk, What to Buy, and How to Get a Clean Line'
   pillar: home-maintenance
   status: published
@@ -63,6 +64,7 @@ topics:
   quality_score: 84
   blogger_url: https://peterpb.blogspot.com/2026/07/how-to-declutter-when-youre-overwhelmed.html
   blogger_post_id: '6224473847764059253'
+  pinterest_pin_id: manual
 - title: Cleaning Supplies You Actually Need (and 10 You Can Skip)
   pillar: cleaning-organization
   status: published
@@ -75,6 +77,7 @@ topics:
   published_slug: cut-electric-bill-no-cost-habits
   blogger_url: https://peterpb.blogspot.com/2026/07/how-to-cut-your-electric-bill-without.html
   blogger_post_id: '7724986856908663020'
+  pinterest_pin_id: manual
 - title: 'Phantom Power: How Much Your Idle Electronics Really Cost You Each Year'
   pillar: energy-savings
   status: published
@@ -103,6 +106,7 @@ topics:
   quality_score: 84
   blogger_url: https://peterpb.blogspot.com/2026/07/how-to-store-produce-so-it-actually.html
   blogger_post_id: '8989987011885463449'
+  pinterest_pin_id: manual
 - title: 'Your Dishwasher Is Probably Loaded Wrong: The Method That Gets Everything Clean'
   pillar: kitchen-habits
   status: published
@@ -140,6 +144,7 @@ topics:
   quality_score: 85
   blogger_url: https://peterpb.blogspot.com/2026/07/mosquito-control-that-actually-works.html
   blogger_post_id: '3522779672896905417'
+  pinterest_pin_id: manual
 - title: Why Does My Toilet Run for a Few Seconds Then Stop on Its Own?
   pillar: home-maintenance
   status: pending

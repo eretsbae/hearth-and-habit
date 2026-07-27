@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 17개 준비됨 · API 자동 게시 완료 0개
+핀 17개 준비됨 · API 자동 게시 완료 5개
 
 ## 수동으로 올리는 법
 
@@ -33,7 +33,7 @@
   - 링크: https://peterpb.blogspot.com/2026/07/the-one-touch-rule-single-habit-that.html
   - 설명: The one-touch rule promises to stop clutter before it starts. Here's how it compares to other decluttering habits, and when to bend it.
 
-- [ ] **How to Declutter When You're Overwhelmed: Start With One Drawer**
+- [x] **How to Declutter When You're Overwhelmed: Start With One Drawer**
   - 이미지: `content/pins/declutter-when-overwhelmed-start-one-drawer.png`
   - 링크: https://peterpb.blogspot.com/2026/07/how-to-declutter-when-youre-overwhelmed.html
   - 설명: Overwhelmed by clutter? Skip the whole-house overhaul. This checklist shows you how to start with one drawer and actually keep going.
@@ -47,7 +47,7 @@
 
 (3개)
 
-- [ ] **How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work**
+- [x] **How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work**
   - 이미지: `content/pins/cut-electric-bill-no-cost-habits.png`
   - 링크: https://peterpb.blogspot.com/2026/07/how-to-cut-your-electric-bill-without.html
   - 설명: Nine zero-cost habits that lower your electric bill — thermostat strategy, laundry timing, phantom-load control, and more — ranked by real impact.
@@ -76,7 +76,7 @@
   - 링크: https://peterpb.blogspot.com/2026/07/10-home-maintenance-tasks-most-people.html
   - 설명: A step-by-step seasonal checklist covering the 10 home maintenance tasks homeowners overlook most, from gutters to water heaters, with when-to-call-a-pro tips.
 
-- [ ] **How to Fix a Running Toilet in 15 Minutes (No Plumber Needed)**
+- [x] **How to Fix a Running Toilet in 15 Minutes (No Plumber Needed)**
   - 이미지: `content/pins/fix-running-toilet-without-plumber.png`
   - 링크: https://peterpb.blogspot.com/2026/07/how-to-fix-running-toilet-in-15-minutes.html
   - 설명: A running toilet almost always comes down to one of four cheap parts. Here's how to diagnose the cause and fix it yourself in about 15 minutes.
@@ -95,7 +95,7 @@
   - 링크: https://peterpb.blogspot.com/2026/07/the-30-minute-sunday-meal-plan-that.html
   - 설명: Debunking common meal-planning myths with a realistic 30-minute Sunday system that actually survives a busy week — no color-coded spreadsheets required.
 
-- [ ] **How to Store Produce So It Actually Lasts: A Fridge Map**
+- [x] **How to Store Produce So It Actually Lasts: A Fridge Map**
   - 이미지: `content/pins/how-to-store-produce-fridge-map.png`
   - 링크: https://peterpb.blogspot.com/2026/07/how-to-store-produce-so-it-actually.html
   - 설명: Bust common produce-storage myths and learn exactly where fruits and vegetables should live in your kitchen so they stay fresh longer and waste less food.
@@ -119,7 +119,7 @@
   - 링크: https://peterpb.blogspot.com/2026/07/fall-yard-cleanup-checklist-what.html
   - 설명: Not sure what fall yard work actually matters? This troubleshooting guide covers the situations worth your time before winter hits — and what to skip.
 
-- [ ] **Mosquito Control That Actually Works (and the Gimmicks That Don't)**
+- [x] **Mosquito Control That Actually Works (and the Gimmicks That Don't)**
   - 이미지: `content/pins/mosquito-control-that-actually-works.png`
   - 링크: https://peterpb.blogspot.com/2026/07/mosquito-control-that-actually-works.html
   - 설명: Skip the bug zappers and citronella candles. Here's the step-by-step mosquito control routine that actually reduces bites in your yard, backed by simple logic.

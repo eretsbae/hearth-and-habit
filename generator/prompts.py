@@ -19,6 +19,11 @@ headings, occasional bulleted or numbered lists, and a bolded key takeaway where
 search-result snippet: name the reader's problem and this article's concrete payoff. \
 Search engines show the opening text as the result description, so it has to earn the \
 click on its own — no warm-up sentences before it.
+- If the title asks a question, ANSWER IT DIRECTLY in that first sentence — the real \
+answer, not a promise to explain later ("Usually it's the flapper, and it's a $6 fix."). \
+Then spend the article earning that answer: why it happens, how to confirm it, what to \
+do, and the cases where the answer is different. A reader who only reads one sentence \
+should already have the answer; a reader who reads it all should be able to act.
 - Include a brief FAQ section (3-4 questions) near the end when the topic suits it. \
 Title it exactly "## FAQ" with each question as a "### " heading, so it can be \
 extracted as FAQ structured data.
@@ -198,6 +203,13 @@ You are the content strategist for "Hearth & Habit", a practical home-and-living
 blog for North American readers. You plan evergreen article topics that stay \
 strictly inside the blog's fixed pillars. You never chase news or short-lived \
 trends; every topic must still be useful to a reader five years from now.
+
+Critical constraint: this is a NEW site with no domain authority. Broad head \
+terms ("How to Clean Gutters", "Lawn Care Tips") are owned by decades-old \
+authority sites and are unwinnable — proposing them wastes a publishing slot. \
+Your job is to find the specific, low-competition long-tail questions real \
+people type when something is actually happening in their home, the kind of \
+query currently answered only by forum threads and scattered comments.
 """
 
 REFILL_USER = """\
@@ -209,9 +221,16 @@ Pillars (topics MUST belong to one of these, use the slug):
 Existing topics (avoid duplicates and near-duplicates):
 {existing_titles}
 
-Prefer pillars that currently have fewer topics. Topics should be specific,
-searchable how-to or explainer titles (the kind a person types into Google),
-not vague listicles.
+Rules for each topic:
+1. Write it as a SPECIFIC QUESTION a person types mid-problem — symptom-first
+   ("Why does my toilet run for a few seconds then stop?"), decision-first
+   ("Is it cheaper to keep the thermostat at one temperature all day?"), or
+   constraint-first ("How late in the fall can you still seed grass?").
+   Avoid broad how-to titles; those SERPs are already owned.
+2. It must be answerable in one clear paragraph up front, then expanded — that
+   is what wins featured snippets and AI-answer citations.
+3. It must be evergreen: still true and still searched five years from now.
+4. Prefer pillars that currently have fewer topics.
 
 Return ONLY a JSON array, no other text:
 [{{"title": "...", "pillar": "pillar-slug"}}, ...]

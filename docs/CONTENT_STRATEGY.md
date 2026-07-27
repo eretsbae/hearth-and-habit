@@ -66,10 +66,45 @@
 설정은 `config/site.yml`의 `generation.quality_gate`에서 조정 가능 (임계 점수, 최소 단어수,
 재작성 횟수, 한 회차에 추가로 시도할 주제 수 등).
 
+## 키워드 전략 전환: 헤드 텀 → 롱테일 질문 (2026-07-27)
+
+**문제**: 3주간 17편을 발행했는데 조회수가 사실상 0. 원인은 콘텐츠 품질이 아니라
+**키워드 선택**이었다. 초기 주제 큐는 "How to Fix a Running Toilet", "Gutter Cleaning",
+"Lawn Care Tips" 같은 **헤드 텀**이었는데, 이 검색어들의 1페이지는 The Spruce, Family
+Handyman, Bob Vila, Home Depot 같은 수십 년 된 고권위 사이트가 점유하고 있다. 도메인
+권위가 없는 신규 blogspot 사이트가 이런 SERP에 진입할 확률은 사실상 없다 — 좋은 글을
+써도 아무도 볼 수 없는 자리에 놓이는 셈이다.
+
+**전환**: 대기 주제 전체를 **롱테일 질문형**으로 교체했다.
+
+| 이전 (헤드 텀) | 이후 (롱테일 질문) |
+|---|---|
+| How to Fix a Running Toilet | Why does my toilet run for a few seconds then stop on its own? |
+| The Right Thermostat Settings | Is it cheaper to hold one thermostat setting all day or adjust it? |
+| Gutter Cleaning: How Often | Do you still need to clean gutters if you have gutter guards? |
+
+롱테일 질문이 신규 사이트에 유리한 이유:
+1. **경쟁 희박** — 이런 구체적 증상 질문은 대개 포럼 스레드나 흩어진 댓글만 답하고 있어,
+   제대로 쓴 글 하나가 상위에 올라갈 여지가 있다.
+2. **의도가 강함** — 지금 집에서 문제가 발생한 사람이 검색하는 말이라 이탈률이 낮다.
+3. **피처드 스니펫 / AI 답변 인용** — 질문형 제목 + 첫 문단 직답 구조는 구글 스니펫과
+   AI Overviews·챗봇 인용에 그대로 들어간다. 신규 사이트가 상위 순위 없이도 노출되는
+   거의 유일한 경로다.
+
+코드 반영:
+- `config/topics.yml` 대기 주제 31개를 전부 롱테일 질문으로 교체 (5개 필러 균형 유지)
+- `prompts.REFILL_*` — 자동 보충 시에도 헤드 텀 금지, 증상/결정/제약 기반 질문만 제안
+- `prompts.ARTICLE_SYSTEM` — 제목이 질문이면 **첫 문장에서 곧바로 답**하도록 규칙 추가
+  ("나중에 설명하겠다"가 아니라 실제 답). 스니펫 확보의 핵심.
+
+기존 발행 17편은 그대로 둔다 — 삭제하면 사이트 볼륨이 줄어 애드센스 심사에 불리하고,
+내부 링크 자산으로서의 가치는 유지된다.
+
 ## 발행 케이던스
 
-- **주 3회 (월/수/금)** — 애드센스 승인에 필요한 콘텐츠 볼륨을 4~6주 안에 확보하면서도, "대량 스팸" 신호를 피하는 균형점.
-- 승인 후 안정되면 주 2회로 낮춰 품질 관리 여력을 높이는 것도 고려할 것.
+- **현재: 주 5회 (월~금)** — 애드센스 "최소 콘텐츠 요건" 대응을 위한 한시 상향. 30편 도달
+  + 승인 후에는 주 3회로 되돌려 품질 관리 여력을 확보한다 (`generate-and-publish.yml` 참고).
+- 원래 기준선은 **주 3회 (월/수/금)** — 볼륨과 "대량 스팸" 신호 회피의 균형점.
 
 ## 성장 로드맵 (자동화 이후의 선택지)
 

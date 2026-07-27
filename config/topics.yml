@@ -43,26 +43,6 @@ topics:
   quality_score: 87
   blogger_url: https://peterpb.blogspot.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html
   blogger_post_id: '2726198831966571497'
-- title: 'What That Sound Means: A Homeowner''s Guide to Common House Noises'
-  pillar: home-maintenance
-  status: pending
-- title: 'Water Heater Maintenance: The One Annual Task That Doubles Its Lifespan'
-  pillar: home-maintenance
-  status: pending
-- title: 'Renter-Friendly Fixes: 12 Repairs You Can Do Without Losing Your Deposit'
-  pillar: home-maintenance
-  status: pending
-- title: 'When to DIY vs. When to Call a Pro: An Honest Decision Guide'
-  pillar: home-maintenance
-  status: pending
-- title: How to Prevent Frozen Pipes (and What to Do If They Freeze Anyway)
-  pillar: home-maintenance
-  status: pending
-  season_months:
-  - 10
-  - 11
-  - 12
-  - 1
 - title: 'The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control'
   pillar: cleaning-organization
   status: published
@@ -89,18 +69,6 @@ topics:
   published_slug: cleaning-supplies-you-actually-need
   blogger_url: https://peterpb.blogspot.com/2026/07/cleaning-supplies-you-actually-need-and.html
   quality_score: 84
-- title: 'The Entryway System: Stop Losing Keys, Mail, and Your Mind'
-  pillar: cleaning-organization
-  status: pending
-- title: How to Clean Your Bathroom in 20 Minutes Flat (Top-to-Bottom Method)
-  pillar: cleaning-organization
-  status: pending
-- title: 'Closet Organization on a Budget: What Works Without Custom Shelving'
-  pillar: cleaning-organization
-  status: pending
-- title: 'The Sunday Basket: A Paper Clutter System That Takes 30 Minutes a Week'
-  pillar: cleaning-organization
-  status: pending
 - title: 'How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work'
   pillar: energy-savings
   status: published
@@ -121,25 +89,6 @@ topics:
   quality_score: 84
   blogger_url: https://peterpb.blogspot.com/2026/07/the-right-thermostat-settings-for-every.html
   blogger_post_id: '7078177947834195627'
-- title: Do Smart Thermostats Actually Pay for Themselves? A Real Math Breakdown
-  pillar: energy-savings
-  status: pending
-- title: How to Read Your Electric Bill (and Spot the Charges You Can Control)
-  pillar: energy-savings
-  status: pending
-- title: Water Bill Too High? The 7 Most Common Culprits, Ranked
-  pillar: energy-savings
-  status: pending
-- title: 'Weatherstripping for Beginners: A $25 Weekend Project That Cuts Drafts'
-  pillar: energy-savings
-  status: pending
-  season_months:
-  - 9
-  - 10
-  - 11
-- title: 'LED vs. Everything Else: The Last Lightbulb Guide You''ll Ever Need'
-  pillar: energy-savings
-  status: pending
 - title: The 30-Minute Sunday Meal Plan That Ends the 'What's for Dinner?' Spiral
   pillar: kitchen-habits
   status: published
@@ -161,21 +110,6 @@ topics:
   quality_score: 85
   blogger_url: https://peterpb.blogspot.com/2026/07/your-dishwasher-is-probably-loaded.html
   blogger_post_id: '3375765176388233441'
-- title: 'Freezer Inventory 101: Stop Buying Food You Already Own'
-  pillar: kitchen-habits
-  status: pending
-- title: How to Deep-Clean Your Oven Without Harsh Chemicals
-  pillar: kitchen-habits
-  status: pending
-- title: 'The Pantry Zones Method: Organize Once, Find Everything Forever'
-  pillar: kitchen-habits
-  status: pending
-- title: 'Cast Iron Care Made Simple: Season, Clean, and Stop Worrying'
-  pillar: kitchen-habits
-  status: pending
-- title: 'Grocery Shopping Once a Week: The System That Makes It Work'
-  pillar: kitchen-habits
-  status: pending
 - title: 'Lawn Care for People Who Don''t Care About Lawns: The Bare Minimum That Looks Good'
   pillar: yard-outdoor
   status: published
@@ -183,14 +117,6 @@ topics:
   quality_score: 85
   blogger_url: https://peterpb.blogspot.com/2026/07/lawn-care-for-people-who-dont-care.html
   blogger_post_id: '795620399306360578'
-- title: 'Gutter Cleaning: How Often, How To, and What Happens If You Skip It'
-  pillar: yard-outdoor
-  status: pending
-  season_months:
-  - 3
-  - 4
-  - 9
-  - 10
 - title: 'Fall Yard Cleanup Checklist: What Actually Matters Before Winter'
   pillar: yard-outdoor
   status: published
@@ -202,26 +128,6 @@ topics:
   quality_score: 84
   blogger_url: https://peterpb.blogspot.com/2026/07/fall-yard-cleanup-checklist-what.html
   blogger_post_id: '7603145943155615164'
-- title: How to Pressure-Wash Your Driveway, Deck, and Siding Without Damage
-  pillar: yard-outdoor
-  status: pending
-  season_months:
-  - 4
-  - 5
-  - 6
-- title: 'Spring Lawn Wake-Up: The First 5 Things to Do When the Snow Melts'
-  pillar: yard-outdoor
-  status: pending
-  season_months:
-  - 2
-  - 3
-  - 4
-- title: 'Deck Maintenance: Sealing, Staining, and the 5-Year Plan'
-  pillar: yard-outdoor
-  status: pending
-  season_months:
-  - 4
-  - 5
 - title: Mosquito Control That Actually Works (and the Gimmicks That Don't)
   pillar: yard-outdoor
   status: published
@@ -234,3 +140,129 @@ topics:
   quality_score: 85
   blogger_url: https://peterpb.blogspot.com/2026/07/mosquito-control-that-actually-works.html
   blogger_post_id: '3522779672896905417'
+- title: Why Does My Toilet Run for a Few Seconds Then Stop on Its Own?
+  pillar: home-maintenance
+  status: pending
+- title: Is It Normal for a Water Heater to Make a Popping or Rumbling Sound?
+  pillar: home-maintenance
+  status: pending
+- title: Why Is One Room in My House Always Colder Than the Rest?
+  pillar: home-maintenance
+  status: pending
+  season_months:
+  - 10
+  - 11
+  - 12
+- title: Can You Caulk Over Old Caulk, or Do You Have to Remove It First?
+  pillar: home-maintenance
+  status: pending
+- title: What Does It Mean When My Furnace Filter Turns Gray in Two Weeks?
+  pillar: home-maintenance
+  status: pending
+- title: Why Do My Pipes Make a Banging Noise When I Turn Off the Faucet?
+  pillar: home-maintenance
+  status: pending
+- title: How Do I Know If a Repair Is Actually Worth Calling a Pro For?
+  pillar: home-maintenance
+  status: pending
+- title: At What Outdoor Temperature Do Pipes Actually Start to Freeze?
+  pillar: home-maintenance
+  status: pending
+  season_months:
+  - 11
+  - 12
+  - 1
+- title: How Often Should You Really Wash Bath Towels Before They Smell?
+  pillar: cleaning-organization
+  status: pending
+- title: Why Does My Dishwasher Smell Even After I Run It Empty?
+  pillar: cleaning-organization
+  status: pending
+- title: What Do You Do With Clothes You Wore Once But Aren't Dirty Yet?
+  pillar: cleaning-organization
+  status: pending
+- title: How Do You Get Rid of Things You Spent Good Money On?
+  pillar: cleaning-organization
+  status: pending
+- title: Why Does My House Get Messy Again Two Days After I Clean It?
+  pillar: cleaning-organization
+  status: pending
+- title: Is It Worth Buying Separate Cleaners for Every Surface?
+  pillar: cleaning-organization
+  status: pending
+- title: Does Turning the AC Off While You're at Work Actually Save Money?
+  pillar: energy-savings
+  status: pending
+  season_months:
+  - 6
+  - 7
+  - 8
+- title: Why Did My Electric Bill Double With No Change in How I Use Power?
+  pillar: energy-savings
+  status: pending
+- title: Is It Cheaper to Hold One Thermostat Setting All Day or Adjust It?
+  pillar: energy-savings
+  status: pending
+- title: How Much Does It Actually Cost to Run a Space Heater for 8 Hours?
+  pillar: energy-savings
+  status: pending
+  season_months:
+  - 11
+  - 12
+  - 1
+  - 2
+- title: Does Closing Vents in Unused Rooms Save Energy or Cost More?
+  pillar: energy-savings
+  status: pending
+- title: Which Appliance in My House Is Quietly Using the Most Electricity?
+  pillar: energy-savings
+  status: pending
+- title: Why Does My Bread Go Moldy So Much Faster in the Summer?
+  pillar: kitchen-habits
+  status: pending
+  season_months:
+  - 6
+  - 7
+  - 8
+- title: Why Do My Greens Wilt Two Days After I Buy Them?
+  pillar: kitchen-habits
+  status: pending
+- title: Is It Safe to Refreeze Meat That Thawed in the Fridge?
+  pillar: kitchen-habits
+  status: pending
+- title: What Actually Happens If You Put Cast Iron in the Dishwasher Once?
+  pillar: kitchen-habits
+  status: pending
+- title: Why Does My Fridge Have a Smell I Can't Find the Source Of?
+  pillar: kitchen-habits
+  status: pending
+- title: How Long Do Leftovers Really Last Before They Stop Being Safe?
+  pillar: kitchen-habits
+  status: pending
+- title: Why Are Mushrooms Suddenly Growing All Over My Lawn After Rain?
+  pillar: yard-outdoor
+  status: pending
+- title: How Late in the Fall Can You Still Seed Grass and Have It Take?
+  pillar: yard-outdoor
+  status: pending
+  season_months:
+  - 8
+  - 9
+  - 10
+- title: Do You Still Need to Clean Gutters If You Have Gutter Guards?
+  pillar: yard-outdoor
+  status: pending
+  season_months:
+  - 9
+  - 10
+  - 11
+- title: Why Does Water Pool in One Spot in My Yard Every Time It Rains?
+  pillar: yard-outdoor
+  status: pending
+- title: Why Does Part of My Lawn Stay Brown Even Though I Water It?
+  pillar: yard-outdoor
+  status: pending
+  season_months:
+  - 5
+  - 6
+  - 7

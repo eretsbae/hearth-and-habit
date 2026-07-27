@@ -13,14 +13,12 @@ Kakao rotates the token.
 
 from __future__ import annotations
 
-import base64
-import hashlib
 import json
-import os
 from pathlib import Path
 
 import requests
-from cryptography.fernet import Fernet
+
+import token_store
 
 AUTH_HOST = "https://kauth.kakao.com"
 API_HOST = "https://kapi.kakao.com"
@@ -28,33 +26,15 @@ API_HOST = "https://kapi.kakao.com"
 ROOT = Path(__file__).resolve().parents[1]
 TOKEN_FILE = ROOT / ".secrets" / "kakao_token.enc"
 
-_MAGIC = b"HHKT1"  # file format marker + version
-_SALT_LEN = 16
-_PBKDF2_ITERATIONS = 600_000
-
-
-def _fernet(passphrase: str, salt: bytes) -> Fernet:
-    key = hashlib.pbkdf2_hmac("sha256", passphrase.encode(), salt, _PBKDF2_ITERATIONS)
-    return Fernet(base64.urlsafe_b64encode(key))
+_HINT = "Re-create it with: python generator/kakao_auth.py"
 
 
 def encrypt_token_file(data: dict, passphrase: str, path: Path = TOKEN_FILE) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    salt = os.urandom(_SALT_LEN)
-    token = _fernet(passphrase, salt).encrypt(json.dumps(data).encode())
-    path.write_bytes(_MAGIC + salt + token)
+    token_store.encrypt_token_file(data, passphrase, path)
 
 
 def decrypt_token_file(passphrase: str, path: Path = TOKEN_FILE) -> dict:
-    raw = path.read_bytes()
-    if not raw.startswith(_MAGIC):
-        raise SystemExit(
-            f"ERROR: {path} is not in the expected format (bad header). "
-            "Re-create it with: python generator/kakao_auth.py"
-        )
-    salt = raw[len(_MAGIC):len(_MAGIC) + _SALT_LEN]
-    token = raw[len(_MAGIC) + _SALT_LEN:]
-    return json.loads(_fernet(passphrase, salt).decrypt(token))
+    return token_store.decrypt_token_file(passphrase, path, _HINT)
 
 
 def refresh_tokens(rest_api_key: str, refresh_token: str, client_secret: str = "") -> dict:

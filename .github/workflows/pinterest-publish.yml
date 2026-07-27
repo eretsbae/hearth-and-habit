@@ -1,0 +1,55 @@
+# 생성된 핀 이미지를 Pinterest에 자동 게시
+# - 매일 소량(기본 3개)씩만 올립니다. Pinterest는 꾸준한 활동을 선호하고,
+#   신규 계정이 한 번에 수십 개를 올리면 스팸으로 취급합니다.
+# - 각 글은 한 번만 핀됩니다 (config/topics.yml의 pinterest_pin_id로 추적).
+# - 설정 방법: docs/PINTEREST_SETUP.md
+#
+# 필요한 시크릿: PINTEREST_APP_ID / PINTEREST_APP_SECRET / PINTEREST_TOKEN_PASSPHRASE
+# (+ 커밋된 .secrets/pinterest_token.enc)
+
+name: Publish Pins to Pinterest
+
+on:
+  schedule:
+    - cron: "43 22 * * *" # 매일 22:43 UTC ≈ 미국 동부 저녁 6시대(홈 콘텐츠 소비 시간대)
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "이번 실행에서 올릴 핀 개수"
+        required: false
+        default: "3"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pinterest
+  cancel-in-progress: false
+
+jobs:
+  pin:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Publish pins
+        env:
+          PINTEREST_APP_ID: ${{ secrets.PINTEREST_APP_ID }}
+          PINTEREST_APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+          PINTEREST_TOKEN_PASSPHRASE: ${{ secrets.PINTEREST_TOKEN_PASSPHRASE }}
+        run: python generator/pinterest_publish.py --limit ${{ github.event.inputs.limit || '3' }}
+
+      - name: Commit pin records
+        run: |
+          git config user.name "hearth-habit-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add config/topics.yml .secrets/ 2>/dev/null || git add config/topics.yml
+          git diff --cached --quiet || git commit -m "chore: record Pinterest pins ($(date -u +%Y-%m-%d))"
+          git push

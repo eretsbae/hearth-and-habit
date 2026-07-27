@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 17개 준비됨 · API 자동 게시 완료 5개
+핀 18개 준비됨 · API 자동 게시 완료 5개
 
 ## 수동으로 올리는 법
 
@@ -45,7 +45,7 @@
 
 ## 보드: Energy & Utility Savings
 
-(3개)
+(4개)
 
 - [x] **How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work**
   - 이미지: `content/pins/cut-electric-bill-no-cost-habits.png`
@@ -61,6 +61,11 @@
   - 이미지: `content/pins/thermostat-settings-by-season-savings.png`
   - 링크: https://peterpb.blogspot.com/2026/07/the-right-thermostat-settings-for-every.html
   - 설명: Cut through the thermostat myths. Here's what temperature actually saves money each season, and how much you can realistically expect to save.
+
+- [ ] **Does Turning the AC Off While You're at Work Actually Save Money?**
+  - 이미지: `content/pins/turning-ac-off-at-work-save-money.png`
+  - 링크: https://peterpb.blogspot.com/2026/07/does-turning-ac-off-while-youre-at-work.html
+  - 설명: Yes, but not always as much as you'd think. Here's the real math on turning your AC off during work hours, plus when a setback beats shutting it off entirely.
 
 ## 보드: Home Maintenance & Repairs
 

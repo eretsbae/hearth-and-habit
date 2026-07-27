@@ -69,8 +69,14 @@ jobs:
           GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
         run: python generator/blogger_publish.py
 
+      # Pinterest 핀 이미지 + 핀 큐(PINS.md) 갱신. 발행 뒤에 실행해야
+      # 새 글의 blogger_url이 핀 큐에 들어갑니다. --all은 멱등이라
+      # 이미 만든 핀은 같은 결과로 다시 그려질 뿐입니다.
+      - name: Render Pinterest pins
+        run: python generator/make_pin.py --all
+
       - name: Commit Blogger publish record
         run: |
-          git add config/topics.yml
-          git diff --cached --quiet || git commit -m "chore: record Blogger publish URLs"
+          git add config/topics.yml content/pins/
+          git diff --cached --quiet || git commit -m "chore: record Blogger publish URLs + refresh pins"
           git push

@@ -21,15 +21,22 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import io
 import textwrap
 from pathlib import Path
 
 import yaml
 from PIL import Image, ImageDraw, ImageFont
 
+try:  # rasterizes the post's hero illustration into the pin
+    import cairosvg
+except Exception:  # missing system cairo — fall back to the drawn motif
+    cairosvg = None
+
 ROOT = Path(__file__).resolve().parents[1]
 POSTS_DIR = ROOT / "content" / "posts"
 PINS_DIR = ROOT / "content" / "pins"
+IMAGES_DIR = ROOT / "content" / "images"
 TOPICS_CONFIG = ROOT / "config" / "topics.yml"
 
 W, H = 1000, 1500
@@ -80,25 +87,74 @@ def fit_title(draw: ImageDraw.ImageDraw, title: str, max_w: int, max_h: int) -> 
     return font, textwrap.wrap(title, width=30)[:7], 44
 
 
+ART_H = 560  # height of the illustration band at the top of the pin
+
+# Chip color per pillar. Identical pins are a Pinterest liability — the feed
+# rewards visually distinct ("fresh") images and its vision models use the
+# artwork to categorize a pin — so the hero illustration below carries the
+# real differentiation and this just reinforces it.
+CHIP_COLORS = {
+    "home-maintenance": TERRACOTTA,
+    "cleaning-organization": SAGE,
+    "energy-savings": "#A8752B",
+    "kitchen-habits": "#9C4F30",
+    "yard-outdoor": "#4A5A47",
+}
+
+
 def draw_motif(d: ImageDraw.ImageDraw) -> None:
-    """Abstract roof/home motif — brand colors, no text, no external assets."""
-    d.rectangle([0, 0, W, 300], fill=SAGE)
-    d.polygon([(500, 96), (690, 250), (310, 250)], fill=CREAM)
-    d.rectangle([395, 250, 605, 300], fill=CLAY)
-    d.ellipse([120, 120, 220, 220], fill=GOLD)
-    d.ellipse([812, 150, 892, 230], fill=TERRACOTTA)
-    for i, x in enumerate(range(60, W, 150)):
-        d.rectangle([x, 286 - (i % 3) * 6, x + 70, 300], fill="#4A5A47")
+    """Fallback art when the post has no hero SVG (or cairo is unavailable):
+    an abstract roof/home motif in brand colors."""
+    d.rectangle([0, 0, W, ART_H], fill=SAGE)
+    d.polygon([(500, 150), (720, 380), (280, 380)], fill=CREAM)
+    d.rectangle([380, 380, 620, 470], fill=CLAY)
+    d.ellipse([110, 170, 230, 290], fill=GOLD)
+    d.ellipse([800, 200, 900, 300], fill=TERRACOTTA)
+    for i, x in enumerate(range(50, W, 150)):
+        d.rectangle([x, 520 - (i % 3) * 10, x + 80, ART_H], fill="#4A5A47")
 
 
-def render_pin(title: str, pillar_name: str, out_path: Path) -> None:
+def hero_band(slug: str) -> Image.Image | None:
+    """The post's own hero SVG, rasterized and cropped to the art band.
+
+    Each post already has a unique Claude-drawn illustration; reusing it here
+    is what makes every pin a distinct image instead of one template with
+    swapped text.
+    """
+    svg = IMAGES_DIR / f"{slug}-hero.svg"
+    if cairosvg is None or not svg.exists():
+        return None
+    try:
+        # Render ~25% taller than the band, then crop back into it. The hero
+        # SVGs carry generous negative space at the top; trimming it lets the
+        # actual subject fill the thumbnail, which is what stops a scroll.
+        png = cairosvg.svg2png(url=str(svg), output_height=int(ART_H * 1.25))
+        art = Image.open(io.BytesIO(png)).convert("RGB")
+    except Exception as e:
+        print(f"  WARN: could not rasterize {svg.name} ({e}); using fallback motif")
+        return None
+    if art.width < W:
+        art = art.resize((W, int(art.height * W / art.width)), Image.LANCZOS)
+    left = max(0, (art.width - W) // 2)
+    # Bias the vertical crop downward: these compositions put the subject in
+    # the lower-middle and sky/wall in the upper third.
+    top = int(max(0, art.height - ART_H) * 0.62)
+    return art.crop((left, top, left + W, top + ART_H))
+
+
+def render_pin(title: str, pillar_name: str, out_path: Path,
+               slug: str = "", pillar_slug: str = "") -> None:
     img = Image.new("RGB", (W, H), CREAM)
     d = ImageDraw.Draw(img)
 
-    draw_motif(d)
+    art = hero_band(slug) if slug else None
+    if art is not None:
+        img.paste(art, (0, 0))
+    else:
+        draw_motif(d)
 
-    # title card
-    card_top, card_bottom = 360, 1240
+    # Title card overlaps the artwork slightly so the two read as one layout.
+    card_top, card_bottom = ART_H - 40, 1290
     d.rounded_rectangle([56, card_top, W - 56, card_bottom], radius=28,
                         fill=CARD, outline=CLAY, width=3)
 
@@ -106,13 +162,13 @@ def render_pin(title: str, pillar_name: str, out_path: Path) -> None:
     chip_font = load_font(SANS_BOLD, 26)
     label = pillar_name.upper()
     tw = d.textlength(label, font=chip_font)
-    d.rounded_rectangle([(W - tw) / 2 - 26, card_top + 52, (W + tw) / 2 + 26, card_top + 110],
-                        radius=29, fill=TERRACOTTA)
-    d.text((W / 2, card_top + 81), label, font=chip_font, fill=CREAM, anchor="mm")
+    d.rounded_rectangle([(W - tw) / 2 - 26, card_top + 44, (W + tw) / 2 + 26, card_top + 102],
+                        radius=29, fill=CHIP_COLORS.get(pillar_slug, TERRACOTTA))
+    d.text((W / 2, card_top + 73), label, font=chip_font, fill=CREAM, anchor="mm")
 
     # Title box stops well clear of the gold rule at card_bottom-150, so even a
     # six-line title can't collide with the wordmark block below it.
-    box_top, box_bottom = card_top + 170, card_bottom - 190
+    box_top, box_bottom = card_top + 150, card_bottom - 190
     box_w, box_h = W - 200, box_bottom - box_top
     font, lines, line_h = fit_title(d, title, box_w, box_h)
     block_h = len(lines) * line_h
@@ -122,18 +178,16 @@ def render_pin(title: str, pillar_name: str, out_path: Path) -> None:
         y += line_h
 
     # rule + wordmark inside the card
-    d.rectangle([W / 2 - 70, card_bottom - 150, W / 2 + 70, card_bottom - 146], fill=GOLD)
+    d.rectangle([W / 2 - 70, card_bottom - 148, W / 2 + 70, card_bottom - 144], fill=GOLD)
     d.text((W / 2, card_bottom - 108), "HEARTH & HABIT",
            font=load_font(SANS_BOLD, 30), fill=SAGE, anchor="ma")
     d.text((W / 2, card_bottom - 64), "peterpb.blogspot.com",
            font=load_font(SANS, 24), fill="#8A8078", anchor="ma")
 
     # footer band
-    d.rectangle([0, H - 200, W, H], fill=TERRACOTTA)
-    d.text((W / 2, H - 128), "Practical home care,",
-           font=load_font(SANS, 32), fill=CREAM, anchor="mm")
-    d.text((W / 2, H - 80), "made simple.",
-           font=load_font(SANS, 32), fill=CREAM, anchor="mm")
+    d.rectangle([0, H - 160, W, H], fill=TERRACOTTA)
+    d.text((W / 2, H - 80), "Practical home care, made simple.",
+           font=load_font(SANS, 30), fill=CREAM, anchor="mm")
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     img.save(out_path, optimize=True)
@@ -158,7 +212,8 @@ def pin_for_post(path: Path, names: dict) -> Path | None:
         return None
     slug = fm.get("slug") or path.stem[11:]
     out = PINS_DIR / f"{slug}.png"
-    render_pin(fm["title"], names.get(fm.get("pillar"), "Home & Living"), out)
+    render_pin(fm["title"], names.get(fm.get("pillar"), "Home & Living"), out,
+               slug=slug, pillar_slug=fm.get("pillar", ""))
     return out
 
 

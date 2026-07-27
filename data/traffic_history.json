@@ -28,5 +28,15 @@
     },
     "live_posts": 12,
     "new_this_week": 5
+  },
+  {
+    "date": "2026-07-27",
+    "pageviews": {
+      "pv_7d": 0,
+      "pv_30d": 30,
+      "pv_all": 42
+    },
+    "live_posts": 17,
+    "new_this_week": 5
   }
 ]

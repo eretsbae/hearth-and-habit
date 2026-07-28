@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 18개 준비됨 · API 자동 게시 완료 5개
+핀 19개 준비됨 · API 자동 게시 완료 5개
 
 ## 수동으로 올리는 법
 
@@ -93,7 +93,7 @@
 
 ## 보드: Kitchen & Food Habits
 
-(3개)
+(4개)
 
 - [ ] **The 30-Minute Sunday Meal Plan That Ends the 'What's for Dinner?' Spiral**
   - 이미지: `content/pins/30-minute-sunday-meal-plan.png`
@@ -109,6 +109,11 @@
   - 이미지: `content/pins/dishwasher-loading-mistakes-troubleshooting.png`
   - 링크: https://peterpb.blogspot.com/2026/07/your-dishwasher-is-probably-loaded.html
   - 설명: Cloudy glasses, gritty plates, wet dishes at the end of the cycle? Fix the exact loading mistake causing it with this room-by-room troubleshooting guide.
+
+- [ ] **Why Bread Goes Moldy Faster in Summer (It's Not the Heat Alone)**
+  - 이미지: `content/pins/why-bread-molds-faster-in-summer.png`
+  - 링크: https://peterpb.blogspot.com/2026/07/why-bread-goes-moldy-faster-in-summer.html
+  - 설명: Bread molds faster in summer mainly because of humidity, not heat. Learn what actually causes it and the storage habits that add days back.
 
 ## 보드: Yard & Outdoor Basics
 

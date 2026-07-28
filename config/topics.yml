@@ -228,11 +228,13 @@ topics:
   status: pending
 - title: Why Does My Bread Go Moldy So Much Faster in the Summer?
   pillar: kitchen-habits
-  status: pending
+  status: published
   season_months:
   - 6
   - 7
   - 8
+  published_slug: why-bread-molds-faster-in-summer
+  quality_score: 84
 - title: Why Do My Greens Wilt Two Days After I Buy Them?
   pillar: kitchen-habits
   status: pending

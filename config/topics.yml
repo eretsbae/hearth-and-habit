@@ -257,11 +257,13 @@ topics:
   status: pending
 - title: How Late in the Fall Can You Still Seed Grass and Have It Take?
   pillar: yard-outdoor
-  status: pending
+  status: published
   season_months:
   - 8
   - 9
   - 10
+  published_slug: how-late-can-you-seed-grass-in-fall
+  quality_score: 84
 - title: Do You Still Need to Clean Gutters If You Have Gutter Guards?
   pillar: yard-outdoor
   status: pending

@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 20개 준비됨 · API 자동 게시 완료 5개
+핀 20개 준비됨 · API 자동 게시 완료 8개
 
 ## 수동으로 올리는 법
 
@@ -23,7 +23,7 @@
 
 (4개)
 
-- [ ] **The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control**
+- [x] **The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control**
   - 이미지: `content/pins/15-minute-weekly-home-reset.png`
   - 링크: https://peterpb.blogspot.com/2026/07/the-15-minute-weekly-home-reset-simple.html
   - 설명: A realistic 15-minute weekly routine that keeps clutter, laundry, and mess from piling up — no deep cleaning, no perfectionism, just a system that sticks.
@@ -52,7 +52,7 @@
   - 링크: https://peterpb.blogspot.com/2026/07/how-to-cut-your-electric-bill-without.html
   - 설명: Nine zero-cost habits that lower your electric bill — thermostat strategy, laundry timing, phantom-load control, and more — ranked by real impact.
 
-- [ ] **Phantom Power: How Much Your Idle Electronics Really Cost You**
+- [x] **Phantom Power: How Much Your Idle Electronics Really Cost You**
   - 이미지: `content/pins/phantom-power-idle-electronics-cost.png`
   - 링크: https://peterpb.blogspot.com/2026/07/phantom-power-how-much-your-idle.html
   - 설명: Phantom power from idle electronics quietly adds to your electric bill. Here's a room-by-room checklist of the worst offenders and how to fix them.
@@ -71,7 +71,7 @@
 
 (4개)
 
-- [ ] **Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)**
+- [x] **Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)**
   - 이미지: `content/pins/furnace-filter-basics.png`
   - 링크: https://peterpb.blogspot.com/2026/07/furnace-filter-basics-how-often-to.html
   - 설명: How often to change your furnace filter, what MERV ratings really mean, which filter to buy, and the step-by-step swap — a 5-minute task that protects a $5,000 system.

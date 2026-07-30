@@ -1,0 +1,84 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- Lawn base -->
+  <rect x="80" y="120" width="1040" height="440" rx="24" fill="#5C6E58"/>
+
+  <!-- Subtle mowing stripes -->
+  <rect x="80" y="120" width="1040" height="440" rx="24" fill="none"/>
+  <g opacity="0.12">
+    <rect x="80" y="140" width="1040" height="40" fill="#F6EFE6"/>
+    <rect x="80" y="220" width="1040" height="40" fill="#F6EFE6"/>
+    <rect x="80" y="300" width="1040" height="40" fill="#F6EFE6"/>
+    <rect x="80" y="380" width="1040" height="40" fill="#F6EFE6"/>
+    <rect x="80" y="460" width="1040" height="40" fill="#F6EFE6"/>
+  </g>
+
+  <!-- Lighter sage patches for texture -->
+  <ellipse cx="220" cy="200" rx="90" ry="40" fill="#6B7C64" opacity="0.5"/>
+  <ellipse cx="950" cy="480" rx="120" ry="50" fill="#6B7C64" opacity="0.5"/>
+  <ellipse cx="1000" cy="180" rx="80" ry="35" fill="#4E5E4A" opacity="0.5"/>
+  <ellipse cx="180" cy="470" rx="100" ry="45" fill="#4E5E4A" opacity="0.4"/>
+
+  <!-- Brown patch -->
+  <ellipse cx="620" cy="380" rx="150" ry="80" fill="#B85C38"/>
+  <ellipse cx="600" cy="360" rx="110" ry="55" fill="#C97A50" opacity="0.7"/>
+  <ellipse cx="660" cy="410" rx="60" ry="30" fill="#8F4429" opacity="0.6"/>
+  <ellipse cx="580" cy="410" rx="40" ry="20" fill="#D9A441" opacity="0.3"/>
+
+  <!-- Grass blade tufts scattered on lawn -->
+  <g stroke="#3F4B3D" stroke-width="4" stroke-linecap="round" opacity="0.6">
+    <path d="M250 260 q4 -18 0 -30"/>
+    <path d="M262 262 q6 -14 4 -26"/>
+    <path d="M300 340 q4 -18 0 -30"/>
+    <path d="M312 342 q6 -14 4 -26"/>
+    <path d="M840 260 q4 -18 0 -30"/>
+    <path d="M852 262 q6 -14 4 -26"/>
+    <path d="M880 420 q4 -18 0 -30"/>
+    <path d="M892 422 q6 -14 4 -26"/>
+    <path d="M180 380 q4 -18 0 -30"/>
+    <path d="M192 382 q6 -14 4 -26"/>
+    <path d="M760 500 q4 -18 0 -30"/>
+    <path d="M772 502 q6 -14 4 -26"/>
+  </g>
+
+  <!-- Sprinkler in background -->
+  <g transform="translate(960,150)">
+    <!-- shadow -->
+    <ellipse cx="0" cy="34" rx="34" ry="10" fill="#2E2A24" opacity="0.15"/>
+    <!-- base -->
+    <rect x="-10" y="10" width="20" height="26" rx="4" fill="#2E2A24"/>
+    <!-- stem -->
+    <rect x="-5" y="-14" width="10" height="26" rx="3" fill="#5C6E58"/>
+    <!-- head -->
+    <circle cx="0" cy="-20" r="12" fill="#D9A441"/>
+    <!-- spray arms -->
+    <g stroke="#D9A441" stroke-width="4" stroke-linecap="round">
+      <line x1="0" y1="-20" x2="34" y2="-34"/>
+      <line x1="0" y1="-20" x2="-34" y2="-34"/>
+      <line x1="0" y1="-20" x2="0" y2="-46"/>
+    </g>
+    <!-- water droplets -->
+    <g fill="#9FC2CE" opacity="0.7">
+      <circle cx="40" cy="-40" r="3"/>
+      <circle cx="50" cy="-30" r="2.5"/>
+      <circle cx="-40" cy="-40" r="3"/>
+      <circle cx="-50" cy="-30" r="2.5"/>
+      <circle cx="0" cy="-56" r="3"/>
+      <circle cx="8" cy="-64" r="2.5"/>
+    </g>
+  </g>
+
+  <!-- Faint water arcs suggesting spray direction toward patch -->
+  <g stroke="#9FC2CE" stroke-width="3" fill="none" opacity="0.35">
+    <path d="M900 200 Q780 260 700 330"/>
+    <path d="M880 220 Q760 280 680 350"/>
+  </g>
+
+  <!-- Sun-scorch highlight rays near patch to hint at cause -->
+  <g stroke="#D9A441" stroke-width="3" opacity="0.3" stroke-linecap="round">
+    <line x1="560" y1="260" x2="600" y2="300"/>
+    <line x1="620" y1="250" x2="630" y2="300"/>
+    <line x1="680" y1="260" x2="660" y2="305"/>
+  </g>
+</svg>

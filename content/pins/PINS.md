@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 20개 준비됨 · API 자동 게시 완료 8개
+핀 21개 준비됨 · API 자동 게시 완료 8개
 
 ## 수동으로 올리는 법
 
@@ -117,7 +117,7 @@
 
 ## 보드: Yard & Outdoor Basics
 
-(4개)
+(5개)
 
 - [ ] **Lawn Care for People Who Don't Care About Lawns: The Bare Minimum That Actually Works**
   - 이미지: `content/pins/low-effort-lawn-care-bare-minimum.png`
@@ -138,3 +138,8 @@
   - 이미지: `content/pins/how-late-can-you-seed-grass-in-fall.png`
   - 링크: https://peterpb.blogspot.com/2026/07/how-late-can-you-seed-grass-in-fall-and.html
   - 설명: The cutoff is roughly 45 days before your first hard frost. Here's how to tell if you've still got time, and what to do if you've missed the window.
+
+- [ ] **Why Does Part of My Lawn Stay Brown Even Though I Water It?**
+  - 이미지: `content/pins/brown-patch-lawn-still-watering.png`
+  - 링크: https://peterpb.blogspot.com/2026/07/why-does-part-of-my-lawn-stay-brown.html
+  - 설명: Watering isn't the problem — coverage, compaction, or damage usually is. Follow these steps to find the real cause and fix the brown patch for good.

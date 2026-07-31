@@ -1,0 +1,88 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- divider -->
+  <line x1="600" y1="90" x2="600" y2="540" stroke="#E4C7B2" stroke-width="3" stroke-dasharray="10 10"/>
+
+  <!-- Left panel: worn flapper -->
+  <g>
+    <circle cx="300" cy="300" r="220" fill="#E4C7B2" opacity="0.3"/>
+    <!-- tank base ring -->
+    <ellipse cx="300" cy="420" rx="150" ry="30" fill="#5C6E58" opacity="0.15"/>
+
+    <!-- warped flapper shape (irregular, drooping) -->
+    <path d="M 180 260 
+             Q 170 320 190 380 
+             Q 210 440 300 450 
+             Q 390 440 400 370 
+             Q 405 300 380 250 
+             Q 340 220 300 225 
+             Q 230 230 180 260 Z"
+          fill="#B85C38"/>
+    <!-- warp cracks/lines -->
+    <path d="M 210 280 Q 250 310 230 360" stroke="#2E2A24" stroke-width="4" fill="none" opacity="0.4"/>
+    <path d="M 340 270 Q 360 320 330 400" stroke="#2E2A24" stroke-width="4" fill="none" opacity="0.4"/>
+    <path d="M 260 240 Q 300 260 300 300" stroke="#2E2A24" stroke-width="3" fill="none" opacity="0.3"/>
+
+    <!-- chipped edge -->
+    <path d="M 190 380 L 180 400 L 200 405 L 195 385 Z" fill="#2E2A24" opacity="0.5"/>
+    <path d="M 385 350 L 400 365 L 385 375 Z" fill="#2E2A24" opacity="0.4"/>
+
+    <!-- hinge -->
+    <rect x="270" y="215" width="60" height="16" rx="8" fill="#5C6E58"/>
+
+    <!-- chain, slack/tangled -->
+    <path d="M 300 225 Q 320 200 300 180 Q 280 160 305 145 Q 325 130 310 110"
+          stroke="#2E2A24" stroke-width="4" fill="none" opacity="0.6"/>
+    <circle cx="300" cy="225" r="4" fill="#2E2A24" opacity="0.6"/>
+    <circle cx="305" cy="145" r="4" fill="#2E2A24" opacity="0.6"/>
+
+    <!-- water stain -->
+    <ellipse cx="300" cy="450" rx="100" ry="15" fill="#5C6E58" opacity="0.2"/>
+  </g>
+
+  <!-- Right panel: new flapper -->
+  <g>
+    <circle cx="900" cy="300" r="220" fill="#D9A441" opacity="0.15"/>
+    <ellipse cx="900" cy="420" rx="150" ry="30" fill="#5C6E58" opacity="0.15"/>
+
+    <!-- clean symmetric flapper -->
+    <path d="M 800 250
+             Q 790 320 800 390
+             Q 810 445 900 450
+             Q 990 445 1000 390
+             Q 1010 320 1000 250
+             Q 950 220 900 220
+             Q 850 220 800 250 Z"
+          fill="#5C6E58"/>
+
+    <!-- subtle sheen highlight -->
+    <path d="M 850 240 Q 900 235 950 240 Q 960 300 950 380 Q 900 400 850 380 Q 840 300 850 240 Z"
+          fill="#F6EFE6" opacity="0.12"/>
+
+    <!-- hinge -->
+    <rect x="870" y="212" width="60" height="16" rx="8" fill="#2E2A24" opacity="0.7"/>
+
+    <!-- neat straight chain -->
+    <path d="M 900 220 L 900 130" stroke="#D9A441" stroke-width="4"/>
+    <circle cx="900" cy="220" r="4" fill="#D9A441"/>
+    <circle cx="900" cy="180" r="4" fill="#D9A441"/>
+    <circle cx="900" cy="140" r="4" fill="#D9A441"/>
+
+    <!-- small shine dots to indicate "new" -->
+    <circle cx="960" cy="260" r="6" fill="#F6EFE6" opacity="0.5"/>
+    <circle cx="975" cy="280" r="4" fill="#F6EFE6" opacity="0.4"/>
+  </g>
+
+  <!-- decorative water drop icons above each panel -->
+  <path d="M 300 90 Q 285 115 300 130 Q 315 115 300 90 Z" fill="#B85C38" opacity="0.5"/>
+  <path d="M 900 90 Q 885 115 900 130 Q 915 115 900 90 Z" fill="#5C6E58" opacity="0.5"/>
+
+  <!-- small arrows suggesting comparison -->
+  <path d="M 560 300 L 590 300 M 580 292 L 590 300 L 580 308" stroke="#2E2A24" stroke-width="3" fill="none" opacity="0.3"/>
+  <path d="M 640 300 L 610 300 M 620 292 L 610 300 L 620 308" stroke="#2E2A24" stroke-width="3" fill="none" opacity="0.3"/>
+
+  <!-- ground line decoration -->
+  <rect x="60" y="560" width="480" height="6" rx="3" fill="#5C6E58" opacity="0.2"/>
+  <rect x="660" y="560" width="480" height="6" rx="3" fill="#D9A441" opacity="0.2"/>
+</svg>

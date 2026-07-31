@@ -1,0 +1,77 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft background circle -->
+  <circle cx="600" cy="315" r="270" fill="#E4C7B2" opacity="0.35"/>
+
+  <!-- tank body cutaway -->
+  <rect x="420" y="90" width="360" height="380" rx="18" fill="#FFFFFF" stroke="#2E2A24" stroke-width="4"/>
+  <rect x="420" y="90" width="360" height="380" rx="18" fill="none" stroke="#5C6E58" stroke-width="4" opacity="0.15"/>
+
+  <!-- water level -->
+  <rect x="432" y="220" width="336" height="238" rx="10" fill="#5C6E58" opacity="0.18"/>
+  <line x1="432" y1="220" x2="768" y2="220" stroke="#5C6E58" stroke-width="3" stroke-dasharray="8 6" opacity="0.5"/
+
+  >
+
+  <!-- tank lid -->
+  <rect x="405" y="66" width="390" height="34" rx="14" fill="#B85C38"/>
+  <rect x="405" y="66" width="390" height="14" rx="7" fill="#D9A441" opacity="0.5"/>
+
+  <!-- overflow tube (fill valve stack) -->
+  <rect x="520" y="150" width="26" height="300" rx="8" fill="#5C6E58"/>
+  <rect x="520" y="150" width="26" height="300" rx="8" fill="none" stroke="#2E2A24" stroke-width="2"/>
+  <circle cx="533" cy="150" r="20" fill="#5C6E58" stroke="#2E2A24" stroke-width="2"/>
+
+  <!-- fill valve cap -->
+  <rect x="510" y="128" width="46" height="22" rx="6" fill="#D9A441" stroke="#2E2A24" stroke-width="2"/>
+
+  <!-- refill tube (small hose to overflow) -->
+  <path d="M546 165 Q600 165 600 200 Q600 230 570 230" fill="none" stroke="#B85C38" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- float arm + float ball -->
+  <path d="M546 260 Q660 250 700 300" fill="none" stroke="#2E2A24" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="705" cy="305" r="34" fill="#D9A441" stroke="#2E2A24" stroke-width="3"/>
+  <circle cx="695" cy="295" r="8" fill="#F6EFE6" opacity="0.6"/>
+
+  <!-- flush valve base / flapper seat -->
+  <ellipse cx="600" cy="450" rx="90" ry="26" fill="#5C6E58"/>
+  <ellipse cx="600" cy="450" rx="90" ry="26" fill="none" stroke="#2E2A24" stroke-width="3"/>
+
+  <!-- flapper (closed, hinged) -->
+  <path d="M520 430 Q600 400 680 430 L680 452 Q600 478 520 452 Z" fill="#B85C38" stroke="#2E2A24" stroke-width="3"/>
+  <circle cx="600" cy="435" r="5" fill="#2E2A24"/>
+
+  <!-- chain from flapper to flush lever -->
+  <circle cx="600" cy="410" r="4" fill="#2E2A24"/>
+  <circle cx="600" cy="398" r="4" fill="#2E2A24"/>
+  <circle cx="600" cy="386" r="4" fill="#2E2A24"/>
+  <circle cx="600" cy="374" r="4" fill="#2E2A24"/>
+
+  <!-- flush lever arm -->
+  <rect x="580" y="356" width="60" height="12" rx="6" fill="#B85C38" stroke="#2E2A24" stroke-width="2"/>
+  <circle cx="795" cy="362" r="10" fill="#B85C38" stroke="#2E2A24" stroke-width="2"/>
+  <rect x="783" y="358" width="16" height="8" rx="4" fill="#B85C38"/>
+
+  <!-- lever handle outside tank -->
+  <rect x="780" y="356" width="20" height="14" rx="6" fill="#D9A441" stroke="#2E2A24" stroke-width="2"/>
+
+  <!-- water supply line entering base -->
+  <path d="M480 610 L480 500 Q480 470 520 470" fill="none" stroke="#5C6E58" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="480" cy="610" r="10" fill="#5C6E58"/>
+
+  <!-- small indicator arrows suggesting brief water movement -->
+  <path d="M560 245 q10 -14 20 0" fill="none" stroke="#B85C38" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <path d="M580 260 q10 -14 20 0" fill="none" stroke="#B85C38" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- decorative bubbles indicating water settling -->
+  <circle cx="470" cy="400" r="5" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="490" cy="380" r="4" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="460" cy="350" r="3" fill="#FFFFFF" opacity="0.5"/>
+
+  <!-- tank base shadow -->
+  <ellipse cx="600" cy="480" rx="200" ry="14" fill="#2E2A24" opacity="0.08"/>
+
+  <!-- subtle floor line -->
+  <rect x="150" y="560" width="900" height="6" fill="#5C6E58" opacity="0.2"/>
+</svg>

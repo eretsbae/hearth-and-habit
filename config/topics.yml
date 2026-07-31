@@ -150,7 +150,9 @@ topics:
   pinterest_pin_id: manual
 - title: Why Does My Toilet Run for a Few Seconds Then Stop on Its Own?
   pillar: home-maintenance
-  status: pending
+  status: published
+  published_slug: toilet-runs-few-seconds-then-stops
+  quality_score: 82
 - title: Is It Normal for a Water Heater to Make a Popping or Rumbling Sound?
   pillar: home-maintenance
   status: pending

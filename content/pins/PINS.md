@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 21개 준비됨 · API 자동 게시 완료 8개
+핀 22개 준비됨 · API 자동 게시 완료 8개
 
 ## 수동으로 올리는 법
 
@@ -69,7 +69,7 @@
 
 ## 보드: Home Maintenance & Repairs
 
-(4개)
+(5개)
 
 - [x] **Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -90,6 +90,11 @@
   - 이미지: `content/pins/caulking-101-how-to-caulk.png`
   - 링크: https://peterpb.blogspot.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html
   - 설명: Learn exactly where to caulk, which caulk to buy for each spot, and the simple technique that gets a straight, clean bead every time.
+
+- [ ] **Why Does My Toilet Run for a Few Seconds Then Stop? (Not the Same as a Running Toilet)**
+  - 이미지: `content/pins/toilet-runs-few-seconds-then-stops.png`
+  - 링크: https://peterpb.blogspot.com/2026/07/why-does-my-toilet-run-for-few-seconds.html
+  - 설명: A toilet that runs briefly every few minutes usually means a slow leak past the flapper or float. Here's how to tell which part is failing and how to fix it.
 
 ## 보드: Kitchen & Food Habits
 

@@ -1,0 +1,88 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- sky negative space accents -->
+  <circle cx="1050" cy="110" r="70" fill="#E4C7B2" opacity="0.4"/>
+  <circle cx="140" cy="90" r="45" fill="#D9A441" opacity="0.25"/>
+
+  <!-- roof/eave structure -->
+  <g>
+    <!-- upper roof slope -->
+    <polygon points="120,260 1080,260 950,150 250,150" fill="#B85C38"/>
+    <polygon points="120,260 1080,260 950,150 250,150" fill="#2E2A24" opacity="0.05"/>
+
+    <!-- roof shingle lines -->
+    <line x1="300" y1="180" x2="1000" y2="180" stroke="#2E2A24" stroke-width="3" opacity="0.15"/>
+    <line x1="270" y1="210" x2="1030" y2="210" stroke="#2E2A24" stroke-width="3" opacity="0.15"/>
+    <line x1="240" y1="240" x2="1060" y2="240" stroke="#2E2A24" stroke-width="3" opacity="0.15"/>
+
+    <!-- fascia board -->
+    <rect x="100" y="260" width="1000" height="30" fill="#5C6E58"/>
+
+    <!-- wall below eave -->
+    <rect x="100" y="290" width="1000" height="340" fill="#E4C7B2"/>
+  </g>
+
+  <!-- gutter -->
+  <g>
+    <rect x="130" y="292" width="940" height="40" rx="6" fill="#D9A441"/>
+    <rect x="130" y="292" width="940" height="14" rx="4" fill="#B85C38"/>
+  </g>
+
+  <!-- gutter guard mesh -->
+  <g stroke="#2E2A24" stroke-width="2" opacity="0.55">
+    <line x1="150" y1="296" x2="180" y2="326"/>
+    <line x1="190" y1="296" x2="220" y2="326"/>
+    <line x1="230" y1="296" x2="260" y2="326"/>
+    <line x1="270" y1="296" x2="300" y2="326"/>
+    <line x1="310" y1="296" x2="340" y2="326"/>
+    <line x1="350" y1="296" x2="380" y2="326"/>
+    <line x1="390" y1="296" x2="420" y2="326"/>
+    <line x1="430" y1="296" x2="460" y2="326"/>
+    <line x1="470" y1="296" x2="500" y2="326"/>
+    <line x1="510" y1="296" x2="540" y2="326"/>
+    <line x1="550" y1="296" x2="580" y2="326"/>
+    <line x1="590" y1="296" x2="620" y2="326"/>
+    <line x1="630" y1="296" x2="660" y2="326"/>
+    <line x1="670" y1="296" x2="700" y2="326"/>
+    <line x1="710" y1="296" x2="740" y2="326"/>
+    <line x1="750" y1="296" x2="780" y2="326"/>
+    <line x1="790" y1="296" x2="820" y2="326"/>
+    <line x1="830" y1="296" x2="860" y2="326"/>
+    <line x1="870" y1="296" x2="900" y2="326"/>
+    <line x1="910" y1="296" x2="940" y2="326"/>
+  </g>
+  <rect x="130" y="292" width="940" height="40" rx="6" fill="none" stroke="#2E2A24" stroke-width="3" opacity="0.3"/>
+
+  <!-- leaves resting on gutter guard -->
+  <g>
+    <ellipse cx="260" cy="300" rx="20" ry="12" fill="#5C6E58" transform="rotate(-20 260 300)"/>
+    <ellipse cx="470" cy="302" rx="18" ry="10" fill="#B85C38" transform="rotate(15 470 302)"/>
+    <ellipse cx="640" cy="298" rx="22" ry="12" fill="#D9A441" transform="rotate(-10 640 298)"/>
+    <ellipse cx="800" cy="304" rx="16" ry="9" fill="#5C6E58" transform="rotate(25 800 304)"/>
+  </g>
+
+  <!-- downspout -->
+  <rect x="990" y="330" width="34" height="260" fill="#D9A441"/>
+  <rect x="985" y="330" width="44" height="16" rx="4" fill="#B85C38"/>
+
+  <!-- ladder leaning nearby -->
+  <g>
+    <line x1="230" y1="600" x2="380" y2="270" stroke="#5C6E58" stroke-width="16" stroke-linecap="round"/>
+    <line x1="290" y1="600" x2="440" y2="270" stroke="#5C6E58" stroke-width="16" stroke-linecap="round"/>
+    <line x1="255" y1="530" x2="405" y2="500" stroke="#5C6E58" stroke-width="10"/>
+    <line x1="270" y1="470" x2="420" y2="440" stroke="#5C6E58" stroke-width="10"/>
+    <line x1="285" y1="410" x2="435" y2="380" stroke="#5C6E58" stroke-width="10"/>
+    <line x1="300" y1="350" x2="450" y2="320" stroke="#5C6E58" stroke-width="10"/>
+  </g>
+
+  <!-- ground line -->
+  <rect x="0" y="600" width="1200" height="30" fill="#E4C7B2" opacity="0.6"/>
+
+  <!-- small plant decoration -->
+  <g>
+    <ellipse cx="1120" cy="600" rx="8" ry="20" fill="#5C6E58" transform="rotate(-15 1120 600)"/>
+    <ellipse cx="1135" cy="600" rx="8" ry="22" fill="#5C6E58" transform="rotate(10 1135 600)"/>
+    <ellipse cx="1128" cy="605" rx="7" ry="18" fill="#5C6E58" transform="rotate(-2 1128 605)"/>
+  </g>
+</svg>

@@ -275,11 +275,13 @@ topics:
   blogger_post_id: '461016079727154375'
 - title: Do You Still Need to Clean Gutters If You Have Gutter Guards?
   pillar: yard-outdoor
-  status: pending
+  status: published
   season_months:
   - 9
   - 10
   - 11
+  published_slug: do-you-need-to-clean-gutters-with-gutter-guards
+  quality_score: 84
 - title: Why Does Water Pool in One Spot in My Yard Every Time It Rains?
   pillar: yard-outdoor
   status: pending

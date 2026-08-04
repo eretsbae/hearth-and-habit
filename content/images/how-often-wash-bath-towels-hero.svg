@@ -1,0 +1,144 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- wall shadow band -->
+  <rect x="0" y="0" width="1200" height="430" fill="#EFE3D3"/>
+  <rect x="0" y="430" width="1200" height="200" fill="#F6EFE6"/>
+
+  <!-- open shelving unit -->
+  <g>
+    <!-- vertical side supports -->
+    <rect x="120" y="90" width="18" height="440" fill="#5C6E58"/>
+    <rect x="760" y="90" width="18" height="440" fill="#5C6E58"/>
+
+    <!-- shelves -->
+    <rect x="120" y="150" width="658" height="16" fill="#5C6E58"/>
+    <rect x="120" y="320" width="658" height="16" fill="#5C6E58"/>
+    <rect x="120" y="490" width="658" height="16" fill="#5C6E58"/>
+
+    <!-- shelf shadows -->
+    <rect x="120" y="166" width="658" height="8" fill="#2E2A24" opacity="0.06"/>
+    <rect x="120" y="336" width="658" height="8" fill="#2E2A24" opacity="0.06"/>
+    <rect x="120" y="506" width="658" height="8" fill="#2E2A24" opacity="0.06"/>
+  </g>
+
+  <!-- TOP SHELF: rolled towels standing -->
+  <g>
+    <ellipse cx="185" cy="145" rx="34" ry="14" fill="#D9A441"/>
+    <rect x="151" y="80" width="68" height="65" fill="#D9A441"/>
+    <ellipse cx="185" cy="80" rx="34" ry="14" fill="#E7C878"/>
+
+    <ellipse cx="270" cy="145" rx="34" ry="14" fill="#B85C38"/>
+    <rect x="236" y="85" width="68" height="60" fill="#B85C38"/>
+    <ellipse cx="270" cy="85" rx="34" ry="14" fill="#C97A58"/>
+
+    <ellipse cx="355" cy="145" rx="34" ry="14" fill="#5C6E58"/>
+    <rect x="321" y="78" width="68" height="67" fill="#5C6E58"/>
+    <ellipse cx="355" cy="78" rx="34" ry="14" fill="#75876F"/>
+  </g>
+
+  <!-- folded flat stack of towels top shelf -->
+  <g>
+    <rect x="430" y="115" width="150" height="16" rx="4" fill="#E4C7B2"/>
+    <rect x="430" y="99" width="150" height="16" rx="4" fill="#D9A441"/>
+    <rect x="430" y="83" width="150" height="16" rx="4" fill="#B85C38"/>
+  </g>
+
+  <g>
+    <rect x="610" y="120" width="130" height="14" rx="4" fill="#5C6E58"/>
+    <rect x="610" y="106" width="130" height="14" rx="4" fill="#E4C7B2"/>
+  </g>
+
+  <!-- MIDDLE SHELF: neatly folded stacked towels -->
+  <g>
+    <rect x="150" y="255" width="170" height="20" rx="5" fill="#E4C7B2"/>
+    <rect x="150" y="235" width="170" height="20" rx="5" fill="#B85C38"/>
+    <rect x="150" y="215" width="170" height="20" rx="5" fill="#D9A441"/>
+    <rect x="150" y="195" width="170" height="20" rx="5" fill="#5C6E58"/>
+  </g>
+
+  <g>
+    <rect x="350" y="265" width="150" height="18" rx="5" fill="#D9A441"/>
+    <rect x="350" y="247" width="150" height="18" rx="5" fill="#E4C7B2"/>
+    <rect x="350" y="229" width="150" height="18" rx="5" fill="#B85C38"/>
+  </g>
+
+  <!-- small stack of washcloths -->
+  <g>
+    <rect x="540" y="270" width="90" height="14" rx="4" fill="#5C6E58"/>
+    <rect x="540" y="256" width="90" height="14" rx="4" fill="#E4C7B2"/>
+    <rect x="540" y="242" width="90" height="14" rx="4" fill="#D9A441"/>
+  </g>
+
+  <!-- rolled towels leaning group -->
+  <g>
+    <ellipse cx="680" cy="283" rx="30" ry="12" fill="#B85C38"/>
+    <rect x="650" y="228" width="60" height="55" fill="#B85C38"/>
+    <ellipse cx="680" cy="228" rx="30" ry="12" fill="#C97A58"/>
+
+    <ellipse cx="730" cy="283" rx="26" ry="11" fill="#5C6E58"/>
+    <rect x="704" y="238" width="52" height="45" fill="#5C6E58"/>
+    <ellipse cx="730" cy="238" rx="26" ry="11" fill="#75876F"/>
+  </g>
+
+  <!-- BOTTOM SHELF: baskets with rolled towels -->
+  <g>
+    <path d="M150 400 L165 460 L280 460 L295 400 Z" fill="#E4C7B2"/>
+    <rect x="145" y="392" width="155" height="14" rx="6" fill="#D9A441"/>
+    <ellipse cx="185" cy="425" rx="16" ry="16" fill="#B85C38"/>
+    <ellipse cx="220" cy="428" rx="16" ry="16" fill="#5C6E58"/>
+    <ellipse cx="255" cy="425" rx="16" ry="16" fill="#D9A441"/>
+  </g>
+
+  <!-- flat folded stack bottom shelf right -->
+  <g>
+    <rect x="340" y="440" width="180" height="18" rx="5" fill="#5C6E58"/>
+    <rect x="340" y="422" width="180" height="18" rx="5" fill="#E4C7B2"/>
+    <rect x="340" y="404" width="180" height="18" rx="5" fill="#B85C38"/>
+  </g>
+
+  <g>
+    <ellipse cx="580" cy="458" rx="28" ry="11" fill="#D9A441"/>
+    <rect x="552" y="405" width="56" height="53" fill="#D9A441"/>
+    <ellipse cx="580" cy="405" rx="28" ry="11" fill="#E7C878"/>
+
+    <ellipse cx="640" cy="458" rx="28" ry="11" fill="#B85C38"/>
+    <rect x="612" y="410" width="56" height="48" fill="#B85C38"/>
+    <ellipse cx="640" cy="410" rx="28" ry="11" fill="#C97A58"/>
+
+    <ellipse cx="700" cy="458" rx="28" ry="11" fill="#5C6E58"/>
+    <rect x="672" y="400" width="56" height="58" fill="#5C6E58"/>
+    <ellipse cx="700" cy="400" rx="28" ry="11" fill="#75876F"/>
+  </g>
+
+  <!-- LAUNDRY HAMPER beside shelf -->
+  <g>
+    <!-- hamper body -->
+    <path d="M840 340 L1050 340 L1030 560 L860 560 Z" fill="#B85C38"/>
+    <path d="M840 340 L1050 340 L1045 375 L845 375 Z" fill="#C97A58"/>
+
+    <!-- weave texture lines -->
+    <line x1="855" y1="400" x2="1035" y2="400" stroke="#8F4227" stroke-width="4" opacity="0.4"/>
+    <line x1="852" y1="440" x2="1038" y2="440" stroke="#8F4227" stroke-width="4" opacity="0.4"/>
+    <line x1="858" y1="480" x2="1032" y2="480" stroke="#8F4227" stroke-width="4" opacity="0.4"/>
+    <line x1="861" y1="520" x2="1029" y2="520" stroke="#8F4227" stroke-width="4" opacity="0.4"/>
+
+    <!-- lid rim -->
+    <ellipse cx="945" cy="340" rx="105" ry="16" fill="#A34F30"/>
+    <ellipse cx="945" cy="336" rx="95" ry="13" fill="#E4C7B2"/>
+
+    <!-- towel spilling out of hamper -->
+    <path d="M880 336 Q900 290 960 300 Q1010 308 1000 340 Z" fill="#5C6E58"/>
+    <path d="M900 335 Q915 305 955 312 Q985 318 978 336 Z" fill="#75876F"/>
+  </g>
+
+  <!-- small potted plant accent on top shelf -->
+  <g>
+    <rect x="700" y="105" width="40" height="35" rx="4" fill="#E4C7B2"/>
+    <path d="M720 105 Q700 70 715 55 Q722 80 720 105 Z" fill="#5C6E58"/>
+    <path d="M720 105 Q740 65 730 50 Q722 78 720 105 Z" fill="#75876F"/>
+  </g>
+
+  <!-- floor line -->
+  <rect x="0" y="600" width="1200" height="30" fill="#E4C7B2" opacity="0.5"/>
+</svg>

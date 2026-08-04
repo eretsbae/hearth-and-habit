@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 23개 준비됨 · API 자동 게시 완료 8개
+핀 23개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -62,7 +62,7 @@
   - 링크: https://peterpb.blogspot.com/2026/07/the-right-thermostat-settings-for-every.html
   - 설명: Cut through the thermostat myths. Here's what temperature actually saves money each season, and how much you can realistically expect to save.
 
-- [ ] **Does Turning the AC Off While You're at Work Actually Save Money?**
+- [x] **Does Turning the AC Off While You're at Work Actually Save Money?**
   - 이미지: `content/pins/turning-ac-off-at-work-save-money.png`
   - 링크: https://peterpb.blogspot.com/2026/07/does-turning-ac-off-while-youre-at-work.html
   - 설명: Yes, but not always as much as you'd think. Here's the real math on turning your AC off during work hours, plus when a setback beats shutting it off entirely.
@@ -115,7 +115,7 @@
   - 링크: https://peterpb.blogspot.com/2026/07/your-dishwasher-is-probably-loaded.html
   - 설명: Cloudy glasses, gritty plates, wet dishes at the end of the cycle? Fix the exact loading mistake causing it with this room-by-room troubleshooting guide.
 
-- [ ] **Why Bread Goes Moldy Faster in Summer (It's Not the Heat Alone)**
+- [x] **Why Bread Goes Moldy Faster in Summer (It's Not the Heat Alone)**
   - 이미지: `content/pins/why-bread-molds-faster-in-summer.png`
   - 링크: https://peterpb.blogspot.com/2026/07/why-bread-goes-moldy-faster-in-summer.html
   - 설명: Bread molds faster in summer mainly because of humidity, not heat. Learn what actually causes it and the storage habits that add days back.
@@ -129,7 +129,7 @@
   - 링크: https://peterpb.blogspot.com/2026/07/lawn-care-for-people-who-dont-care.html
   - 설명: Don't love yard work? Here's the troubleshooting guide to a decent-looking lawn with minimal effort — organized by whatever problem you're actually facing.
 
-- [ ] **Fall Yard Cleanup Checklist: What Actually Matters Before Winter**
+- [x] **Fall Yard Cleanup Checklist: What Actually Matters Before Winter**
   - 이미지: `content/pins/fall-yard-cleanup-checklist-before-winter.png`
   - 링크: https://peterpb.blogspot.com/2026/07/fall-yard-cleanup-checklist-what.html
   - 설명: Not sure what fall yard work actually matters? This troubleshooting guide covers the situations worth your time before winter hits — and what to skip.

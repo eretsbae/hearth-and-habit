@@ -137,9 +137,20 @@ def main() -> int:
             print(f"            link={t['blogger_url']}")
         return 0
 
-    app_id = os.environ["PINTEREST_APP_ID"]
-    app_secret = os.environ["PINTEREST_APP_SECRET"]
-    passphrase = os.environ["PINTEREST_TOKEN_PASSPHRASE"]
+    app_id = os.environ.get("PINTEREST_APP_ID", "").strip()
+    app_secret = os.environ.get("PINTEREST_APP_SECRET", "").strip()
+    passphrase = os.environ.get("PINTEREST_TOKEN_PASSPHRASE", "").strip()
+
+    # Skip quietly rather than failing when the app isn't set up yet. This
+    # workflow is on a daily cron and Pinterest developer apps sit in "trial
+    # access pending" for a week or more, so a hard error here just produces
+    # a daily failure notification for a state that is expected and fine.
+    # Mirrors how the weekly report handles an unconfigured KakaoTalk.
+    if not (app_id and app_secret and passphrase and pc.TOKEN_FILE.exists()):
+        print("Pinterest not configured — skipping send. To enable, set "
+              "PINTEREST_APP_ID / PINTEREST_APP_SECRET / PINTEREST_TOKEN_PASSPHRASE "
+              "and commit .secrets/pinterest_token.enc (docs/PINTEREST_SETUP.md).")
+        return 0
 
     stored = pc.load_tokens(passphrase)
     tokens = pc.refresh_access_token(app_id, app_secret, stored["refresh_token"])

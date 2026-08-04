@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 23개 준비됨 · API 자동 게시 완료 11개
+핀 24개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -21,7 +21,7 @@
 
 ## 보드: Cleaning & Organization
 
-(4개)
+(5개)
 
 - [x] **The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control**
   - 이미지: `content/pins/15-minute-weekly-home-reset.png`
@@ -42,6 +42,11 @@
   - 이미지: `content/pins/cleaning-supplies-you-actually-need.png`
   - 링크: https://peterpb.blogspot.com/2026/07/cleaning-supplies-you-actually-need-and.html
   - 설명: Under-sink clutter isn't cleaning power. Here's the small, real list of supplies that work, and 10 popular products you can skip entirely.
+
+- [ ] **How Often Should You Really Wash Bath Towels Before They Smell?**
+  - 이미지: `content/pins/how-often-wash-bath-towels.png`
+  - 링크: https://peterpb.blogspot.com/2026/08/how-often-should-you-really-wash-bath.html
+  - 설명: Every 2-3 uses is the real rule for bath towels, not weekly. Here's the science of towel smell and the myths that get this wrong.
 
 ## 보드: Energy & Utility Savings
 

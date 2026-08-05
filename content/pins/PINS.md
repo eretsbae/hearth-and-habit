@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 24개 준비됨 · API 자동 게시 완료 11개
+핀 25개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -50,7 +50,7 @@
 
 ## 보드: Energy & Utility Savings
 
-(4개)
+(5개)
 
 - [x] **How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work**
   - 이미지: `content/pins/cut-electric-bill-no-cost-habits.png`
@@ -71,6 +71,11 @@
   - 이미지: `content/pins/turning-ac-off-at-work-save-money.png`
   - 링크: https://peterpb.blogspot.com/2026/07/does-turning-ac-off-while-youre-at-work.html
   - 설명: Yes, but not always as much as you'd think. Here's the real math on turning your AC off during work hours, plus when a setback beats shutting it off entirely.
+
+- [ ] **Why Did My Electric Bill Double With No Change in How I Use Power?**
+  - 이미지: `content/pins/electric-bill-doubled-no-change-in-usage.png`
+  - 링크: https://peterpb.blogspot.com/2026/08/why-did-my-electric-bill-double-with-no.html
+  - 설명: Your bill likely jumped from rate hikes, seasonal weather, a billing estimate correction, or a hidden appliance problem. Here's how to find which one.
 
 ## 보드: Home Maintenance & Repairs
 

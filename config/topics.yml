@@ -222,7 +222,9 @@ topics:
   pinterest_pin_id: manual
 - title: Why Did My Electric Bill Double With No Change in How I Use Power?
   pillar: energy-savings
-  status: pending
+  status: published
+  published_slug: electric-bill-doubled-no-change-in-usage
+  quality_score: 83
 - title: Is It Cheaper to Hold One Thermostat Setting All Day or Adjust It?
   pillar: energy-savings
   status: pending

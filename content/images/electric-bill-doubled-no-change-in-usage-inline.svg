@@ -1,0 +1,75 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- ground line -->
+  <rect x="0" y="490" width="1200" height="6" fill="#E4C7B2"/>
+
+  <!-- subtle background circles -->
+  <circle cx="150" cy="120" r="70" fill="#E4C7B2" opacity="0.5"/>
+  <circle cx="1080" cy="150" r="90" fill="#D9A441" opacity="0.15"/>
+
+  <!-- FRIDGE -->
+  <g>
+    <rect x="120" y="220" width="150" height="270" rx="12" fill="#F0E4D6" stroke="#2E2A24" stroke-width="3"/>
+    <line x1="120" y1="330" x2="270" y2="330" stroke="#2E2A24" stroke-width="3"/>
+    <rect x="240" y="245" width="8" height="40" rx="3" fill="#5C6E58"/>
+    <rect x="240" y="355" width="8" height="40" rx="3" fill="#5C6E58"/>
+    <rect x="130" y="465" width="30" height="12" rx="3" fill="#2E2A24"/>
+    <rect x="230" y="465" width="30" height="12" rx="3" fill="#2E2A24"/>
+  </g>
+
+  <!-- WATER HEATER -->
+  <g>
+    <rect x="360" y="180" width="110" height="310" rx="55" fill="#E4C7B2" stroke="#2E2A24" stroke-width="3"/>
+    <rect x="360" y="230" width="110" height="14" fill="#5C6E58"/>
+    <circle cx="415" cy="300" r="20" fill="#F6EFE6" stroke="#2E2A24" stroke-width="2.5"/>
+    <circle cx="415" cy="300" r="6" fill="#B85C38"/>
+    <rect x="395" y="470" width="40" height="10" rx="3" fill="#2E2A24"/>
+    <!-- warning icon -->
+    <g transform="translate(455,150)">
+      <polygon points="20,0 40,36 0,36" fill="#D9A441" stroke="#2E2A24" stroke-width="2.5"/>
+      <rect x="18" y="12" width="4" height="12" fill="#2E2A24"/>
+      <circle cx="20" cy="29" r="2.2" fill="#2E2A24"/>
+    </g>
+  </g>
+
+  <!-- AC UNIT -->
+  <g>
+    <rect x="560" y="260" width="220" height="110" rx="14" fill="#F0E4D6" stroke="#2E2A24" stroke-width="3"/>
+    <rect x="580" y="285" width="180" height="10" rx="4" fill="#5C6E58"/>
+    <rect x="580" y="305" width="180" height="10" rx="4" fill="#5C6E58"/>
+    <rect x="580" y="325" width="180" height="10" rx="4" fill="#5C6E58"/>
+    <circle cx="740" cy="350" r="10" fill="#B85C38"/>
+    <!-- warning icon -->
+    <g transform="translate(790,220)">
+      <polygon points="20,0 40,36 0,36" fill="#D9A441" stroke="#2E2A24" stroke-width="2.5"/>
+      <rect x="18" y="12" width="4" height="12" fill="#2E2A24"/>
+      <circle cx="20" cy="29" r="2.2" fill="#2E2A24"/>
+    </g>
+  </g>
+
+  <!-- SPACE HEATER -->
+  <g>
+    <rect x="900" y="360" width="150" height="90" rx="16" fill="#E4C7B2" stroke="#2E2A24" stroke-width="3"/>
+    <circle cx="935" cy="405" r="22" fill="#F6EFE6" stroke="#2E2A24" stroke-width="2.5"/>
+    <circle cx="985" cy="405" r="22" fill="#F6EFE6" stroke="#2E2A24" stroke-width="2.5"/>
+    <circle cx="1035" cy="405" r="22" fill="#F6EFE6" stroke="#2E2A24" stroke-width="2.5"/>
+    <path d="M935 405 a10 10 0 1 1 0.1 0" fill="#B85C38" opacity="0.7"/>
+    <path d="M985 405 a10 10 0 1 1 0.1 0" fill="#B85C38" opacity="0.7"/>
+    <path d="M1035 405 a10 10 0 1 1 0.1 0" fill="#B85C38" opacity="0.7"/>
+    <rect x="960" y="450" width="30" height="16" rx="4" fill="#2E2A24"/>
+    <rect x="945" y="466" width="60" height="10" rx="4" fill="#5C6E58"/>
+    <!-- warning icon -->
+    <g transform="translate(1010,300)">
+      <polygon points="20,0 40,36 0,36" fill="#D9A441" stroke="#2E2A24" stroke-width="2.5"/>
+      <rect x="18" y="12" width="4" height="12" fill="#2E2A24"/>
+      <circle cx="20" cy="29" r="2.2" fill="#2E2A24"/>
+    </g>
+  </g>
+
+  <!-- small decorative plug icons on ground -->
+  <g fill="none" stroke="#5C6E58" stroke-width="3">
+    <path d="M300 490 v-20" />
+    <path d="M700 490 v-20" />
+  </g>
+</svg>

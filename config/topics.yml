@@ -258,7 +258,9 @@ topics:
   pinterest_pin_id: manual
 - title: Why Do My Greens Wilt Two Days After I Buy Them?
   pillar: kitchen-habits
-  status: pending
+  status: published
+  published_slug: why-greens-wilt-fast-how-to-store-them
+  quality_score: 84
 - title: Is It Safe to Refreeze Meat That Thawed in the Fridge?
   pillar: kitchen-habits
   status: pending

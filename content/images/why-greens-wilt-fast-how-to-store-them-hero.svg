@@ -1,0 +1,78 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- Fridge drawer, open, right side -->
+  <g>
+    <rect x="760" y="140" width="380" height="400" rx="18" fill="#E4C7B2"/>
+    <rect x="790" y="330" width="320" height="150" rx="10" fill="#F6EFE6"/>
+    <rect x="790" y="330" width="320" height="150" rx="10" fill="none" stroke="#5C6E58" stroke-width="3" opacity="0.3"/>
+    <!-- drawer handle -->
+    <rect x="880" y="300" width="140" height="14" rx="7" fill="#2E2A24" opacity="0.6"/>
+    <!-- items inside fridge drawer -->
+    <circle cx="850" cy="400" r="28" fill="#B85C38"/>
+    <circle cx="910" cy="410" r="24" fill="#5C6E58"/>
+    <circle cx="965" cy="395" r="20" fill="#D9A441"/>
+    <rect x="1020" y="370" width="55" height="70" rx="8" fill="#5C6E58" opacity="0.85"/>
+    <!-- fridge top shadow -->
+    <rect x="760" y="140" width="380" height="40" rx="18" fill="#2E2A24" opacity="0.06"/>
+  </g>
+
+  <!-- Kitchen counter line -->
+  <rect x="0" y="540" width="1200" height="90" fill="#E4C7B2" opacity="0.5"/>
+  <rect x="0" y="540" width="1200" height="6" fill="#2E2A24" opacity="0.1"/>
+
+  <!-- Glass container on counter -->
+  <g>
+    <rect x="560" y="410" width="150" height="150" rx="14" fill="#F6EFE6" stroke="#5C6E58" stroke-width="4" opacity="0.9"/>
+    <rect x="560" y="410" width="150" height="150" rx="14" fill="#D9A441" opacity="0.08"/>
+    <rect x="575" y="392" width="120" height="26" rx="8" fill="#5C6E58"/>
+    <!-- greens inside jar -->
+    <path d="M600 460 Q590 430 615 415 Q612 445 630 460 Z" fill="#5C6E58"/>
+    <path d="M630 470 Q635 435 660 420 Q655 450 670 470 Z" fill="#5C6E58" opacity="0.85"/>
+    <path d="M620 500 Q615 470 645 455 Q640 485 660 505 Z" fill="#5C6E58" opacity="0.7"/>
+  </g>
+
+  <!-- Kitchen towel wrapped bundle of greens, main focus left/center -->
+  <g>
+    <!-- towel base -->
+    <path d="M120 470 Q120 400 220 390 Q420 370 470 430 Q500 470 460 520 Q380 570 260 560 Q140 550 120 470 Z" fill="#F6EFE6"/>
+    <path d="M120 470 Q120 400 220 390 Q420 370 470 430 Q500 470 460 520 Q380 570 260 560 Q140 550 120 470 Z" fill="none" stroke="#B85C38" stroke-width="5"/>
+    <!-- towel stripe detail -->
+    <path d="M150 420 Q280 390 430 420" stroke="#B85C38" stroke-width="8" fill="none" opacity="0.6"/>
+    <path d="M140 500 Q280 530 440 495" stroke="#D9A441" stroke-width="8" fill="none" opacity="0.5"/>
+
+    <!-- greens peeking out top -->
+    <g>
+      <path d="M230 400 Q210 320 260 270 Q270 340 300 380 Z" fill="#5C6E58"/>
+      <path d="M270 395 Q260 300 320 250 Q315 330 340 380 Z" fill="#5C6E58" opacity="0.9"/>
+      <path d="M320 400 Q325 310 380 270 Q365 340 380 390 Z" fill="#5C6E58" opacity="0.85"/>
+      <path d="M360 410 Q380 330 430 300 Q410 360 410 400 Z" fill="#5C6E58" opacity="0.75"/>
+      <!-- stems -->
+      <path d="M260 380 Q262 420 258 440" stroke="#5C6E58" stroke-width="10" fill="none" opacity="0.9"/>
+      <path d="M310 385 Q312 420 306 445" stroke="#5C6E58" stroke-width="10" fill="none" opacity="0.85"/>
+      <path d="M355 395 Q358 425 352 450" stroke="#5C6E58" stroke-width="10" fill="none" opacity="0.8"/>
+      <!-- leaf veins -->
+      <path d="M245 350 Q255 330 270 310" stroke="#F6EFE6" stroke-width="3" fill="none" opacity="0.4"/>
+      <path d="M295 340 Q305 320 320 295" stroke="#F6EFE6" stroke-width="3" fill="none" opacity="0.4"/>
+      <path d="M340 350 Q350 330 365 310" stroke="#F6EFE6" stroke-width="3" fill="none" opacity="0.4"/>
+    </g>
+
+    <!-- twine tie around towel -->
+    <path d="M200 445 Q290 480 400 440" stroke="#2E2A24" stroke-width="4" fill="none" opacity="0.4"/>
+  </g>
+
+  <!-- small terracotta bowl accent -->
+  <g>
+    <ellipse cx="530" cy="565" rx="55" ry="22" fill="#B85C38"/>
+    <ellipse cx="530" cy="558" rx="55" ry="20" fill="#E4C7B2"/>
+    <circle cx="515" cy="550" r="10" fill="#5C6E58"/>
+    <circle cx="535" cy="546" r="8" fill="#5C6E58" opacity="0.8"/>
+    <circle cx="550" cy="552" r="9" fill="#5C6E58" opacity="0.9"/>
+  </g>
+
+  <!-- soft decorative circles top area for balance -->
+  <circle cx="150" cy="120" r="6" fill="#D9A441" opacity="0.5"/>
+  <circle cx="180" cy="90" r="4" fill="#B85C38" opacity="0.4"/>
+  <circle cx="1000" cy="90" r="8" fill="#5C6E58" opacity="0.3"/>
+  <circle cx="1050" cy="60" r="5" fill="#D9A441" opacity="0.4"/>
+</svg>

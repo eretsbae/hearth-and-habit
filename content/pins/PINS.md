@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 25개 준비됨 · API 자동 게시 완료 11개
+핀 26개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -108,7 +108,7 @@
 
 ## 보드: Kitchen & Food Habits
 
-(4개)
+(5개)
 
 - [ ] **The 30-Minute Sunday Meal Plan That Ends the 'What's for Dinner?' Spiral**
   - 이미지: `content/pins/30-minute-sunday-meal-plan.png`
@@ -129,6 +129,11 @@
   - 이미지: `content/pins/why-bread-molds-faster-in-summer.png`
   - 링크: https://peterpb.blogspot.com/2026/07/why-bread-goes-moldy-faster-in-summer.html
   - 설명: Bread molds faster in summer mainly because of humidity, not heat. Learn what actually causes it and the storage habits that add days back.
+
+- [ ] **Why Do My Greens Wilt Two Days After I Buy Them? (And How to Fix It)**
+  - 이미지: `content/pins/why-greens-wilt-fast-how-to-store-them.png`
+  - 링크: https://peterpb.blogspot.com/2026/08/why-do-my-greens-wilt-two-days-after-i.html
+  - 설명: Greens usually wilt fast because of trapped moisture and warm air, not age. Here's the exact storage fix that keeps lettuce and spinach crisp for a week or more.
 
 ## 보드: Yard & Outdoor Basics
 

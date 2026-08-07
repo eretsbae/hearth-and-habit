@@ -1,0 +1,109 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- basement corner walls -->
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+  <polygon points="0,0 500,0 380,430 0,430" fill="#E4C7B2" opacity="0.5"/>
+  <polygon points="500,0 1200,0 1200,430 380,430" fill="#E4C7B2" opacity="0.3"/>
+
+  <!-- floor -->
+  <rect x="0" y="430" width="1200" height="200" fill="#5C6E58" opacity="0.25"/>
+  <line x1="0" y1="430" x2="1200" y2="430" stroke="#2E2A24" stroke-width="3" opacity="0.3"/>
+
+  <!-- floor tile lines -->
+  <g stroke="#2E2A24" stroke-width="1.5" opacity="0.15">
+    <line x1="0" y1="480" x2="1200" y2="480"/>
+    <line x1="0" y1="530" x2="1200" y2="530"/>
+    <line x1="0" y1="580" x2="1200" y2="580"/>
+    <line x1="150" y1="430" x2="80" y2="630"/>
+    <line x1="350" y1="430" x2="300" y2="630"/>
+    <line x1="550" y1="430" x2="520" y2="630"/>
+    <line x1="750" y1="430" x2="740" y2="630"/>
+    <line x1="950" y1="430" x2="960" y2="630"/>
+    <line x1="1150" y1="430" x2="1180" y2="630"/>
+  </g>
+
+  <!-- corner shadow -->
+  <ellipse cx="620" cy="560" rx="230" ry="40" fill="#2E2A24" opacity="0.08"/>
+
+  <!-- pipes going up wall -->
+  <rect x="560" y="60" width="14" height="220" fill="#5C6E58"/>
+  <rect x="600" y="80" width="10" height="200" fill="#5C6E58" opacity="0.8"/>
+  <circle cx="567" cy="90" r="10" fill="#2E2A24" opacity="0.6"/>
+  <circle cx="605" cy="110" r="7" fill="#2E2A24" opacity="0.5"/>
+
+  <!-- water heater tank body -->
+  <rect x="470" y="230" width="220" height="330" rx="26" fill="#B85C38"/>
+  <rect x="470" y="230" width="220" height="330" rx="26" fill="none" stroke="#2E2A24" stroke-width="3" opacity="0.15"/>
+
+  <!-- top dome -->
+  <ellipse cx="580" cy="235" rx="110" ry="30" fill="#B85C38"/>
+  <ellipse cx="580" cy="222" rx="90" ry="22" fill="#D9A441"/>
+
+  <!-- top cap detail -->
+  <ellipse cx="580" cy="210" rx="60" ry="14" fill="#E4C7B2"/>
+  <rect x="560" y="180" width="40" height="34" rx="8" fill="#5C6E58"/>
+
+  <!-- horizontal bands -->
+  <rect x="470" y="330" width="220" height="14" fill="#2E2A24" opacity="0.15"/>
+  <rect x="470" y="430" width="220" height="14" fill="#2E2A24" opacity="0.15"/>
+
+  <!-- control panel -->
+  <rect x="500" y="470" width="70" height="60" rx="8" fill="#D9A441"/>
+  <circle cx="535" cy="500" r="16" fill="#F6EFE6"/>
+  <circle cx="535" cy="500" r="6" fill="#2E2A24"/>
+  <rect x="590" y="480" width="60" height="14" rx="4" fill="#5C6E58"/>
+  <rect x="590" y="505" width="40" height="10" rx="3" fill="#5C6E58"/>
+
+  <!-- drain valve -->
+  <rect x="640" y="540" width="30" height="16" rx="4" fill="#5C6E58"/>
+  <circle cx="655" cy="548" r="5" fill="#2E2A24"/>
+
+  <!-- legs -->
+  <rect x="490" y="558" width="18" height="30" fill="#2E2A24" opacity="0.7"/>
+  <rect x="650" y="558" width="18" height="30" fill="#2E2A24" opacity="0.7"/>
+
+  <!-- small pressure relief pipe on side -->
+  <path d="M690 300 Q740 300 740 350 L740 560" fill="none" stroke="#5C6E58" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- motion / vibration lines from tank -->
+  <g stroke="#D9A441" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M310 300 Q350 300 350 330"/>
+    <path d="M290 340 Q340 340 345 380"/>
+    <path d="M300 400 Q345 405 340 440"/>
+  </g>
+
+  <g stroke="#B85C38" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.7">
+    <path d="M780 290 Q820 300 815 330"/>
+    <path d="M800 340 Q840 350 825 385"/>
+    <path d="M785 400 Q830 415 810 445"/>
+  </g>
+
+  <!-- small sound burst near top -->
+  <g stroke="#5C6E58" stroke-width="4" stroke-linecap="round" opacity="0.8">
+    <line x1="420" y1="240" x2="395" y2="220"/>
+    <line x1="420" y1="260" x2="388" y2="255"/>
+    <line x1="420" y1="280" x2="395" y2="290"/>
+  </g>
+  <g stroke="#5C6E58" stroke-width="4" stroke-linecap="round" opacity="0.8">
+    <line x1="740" y1="240" x2="765" y2="220"/>
+    <line x1="740" y1="260" x2="772" y2="255"/>
+    <line x1="740" y1="280" x2="765" y2="290"/>
+  </g>
+
+  <!-- small floor rug/mat for warmth -->
+  <ellipse cx="580" cy="600" rx="180" ry="18" fill="#5C6E58" opacity="0.15"/>
+
+  <!-- decorative shelf with jars in corner, background context -->
+  <rect x="60" y="330" width="160" height="14" fill="#5C6E58" opacity="0.6"/>
+  <circle cx="90" cy="315" r="18" fill="#E4C7B2"/>
+  <rect x="80" y="297" width="20" height="10" fill="#2E2A24" opacity="0.4"/>
+  <circle cx="140" cy="312" r="22" fill="#D9A441" opacity="0.9"/>
+  <rect x="130" y="290" width="20" height="10" fill="#2E2A24" opacity="0.4"/>
+  <circle cx="190" cy="316" r="16" fill="#B85C38" opacity="0.8"/>
+
+  <!-- small window hint upper right -->
+  <rect x="1020" y="60" width="120" height="90" rx="6" fill="#E4C7B2" opacity="0.5"/>
+  <line x1="1080" y1="60" x2="1080" y2="150" stroke="#2E2A24" stroke-width="3" opacity="0.2"/>
+  <line x1="1020" y1="105" x2="1140" y2="105" stroke="#2E2A24" stroke-width="3" opacity="0.2"/>
+</svg>

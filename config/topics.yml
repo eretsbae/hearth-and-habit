@@ -159,7 +159,9 @@ topics:
   blogger_post_id: '4804160931433309712'
 - title: Is It Normal for a Water Heater to Make a Popping or Rumbling Sound?
   pillar: home-maintenance
-  status: pending
+  status: published
+  published_slug: water-heater-popping-rumbling-sound
+  quality_score: 84
 - title: Why Is One Room in My House Always Colder Than the Rest?
   pillar: home-maintenance
   status: pending

@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 26개 준비됨 · API 자동 게시 완료 11개
+핀 27개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -79,7 +79,7 @@
 
 ## 보드: Home Maintenance & Repairs
 
-(5개)
+(6개)
 
 - [x] **Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -105,6 +105,11 @@
   - 이미지: `content/pins/toilet-runs-few-seconds-then-stops.png`
   - 링크: https://peterpb.blogspot.com/2026/07/why-does-my-toilet-run-for-few-seconds.html
   - 설명: A toilet that runs briefly every few minutes usually means a slow leak past the flapper or float. Here's how to tell which part is failing and how to fix it.
+
+- [ ] **Water Heater Popping or Rumbling? Here's What It Means**
+  - 이미지: `content/pins/water-heater-popping-rumbling-sound.png`
+  - 링크: https://peterpb.blogspot.com/2026/08/water-heater-popping-or-rumbling-heres.html
+  - 설명: Yes, popping or rumbling usually means sediment buildup, not a failing water heater. Here's how to tell if it's harmless or a sign to call a plumber.
 
 ## 보드: Kitchen & Food Habits
 

@@ -1,0 +1,110 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- ground line -->
+  <rect x="0" y="500" width="1200" height="130" fill="#E4C7B2" opacity="0.35"/>
+
+  <!-- divider -->
+  <line x1="600" y1="90" x2="600" y2="500" stroke="#2E2A24" stroke-width="1.5" stroke-dasharray="6 10" opacity="0.3"/>
+
+  <!-- ===== LEFT HOUSE: steady glow ===== -->
+  <g>
+    <!-- ambient steady glow -->
+    <circle cx="290" cy="330" r="230" fill="#D9A441" opacity="0.18"/>
+    <circle cx="290" cy="330" r="160" fill="#D9A441" opacity="0.18"/>
+
+    <!-- house body -->
+    <rect x="170" y="300" width="240" height="200" fill="#B85C38"/>
+    <polygon points="150,300 290,190 430,300" fill="#5C6E58"/>
+    <rect x="270" y="230" width="40" height="40" fill="#5C6E58"/>
+
+    <!-- door -->
+    <rect x="270" y="410" width="40" height="90" fill="#2E2A24"/>
+
+    <!-- windows, all glowing evenly -->
+    <rect x="195" y="330" width="55" height="55" fill="#D9A441"/>
+    <rect x="330" y="330" width="55" height="55" fill="#D9A441"/>
+    <rect x="195" y="410" width="55" height="55" fill="#D9A441"/>
+    <rect x="330" y="410" width="55" height="55" fill="#D9A441"/>
+
+    <!-- window frames -->
+    <rect x="195" y="330" width="55" height="55" fill="none" stroke="#2E2A24" stroke-width="3"/>
+    <rect x="330" y="330" width="55" height="55" fill="none" stroke="#2E2A24" stroke-width="3"/>
+    <rect x="195" y="410" width="55" height="55" fill="none" stroke="#2E2A24" stroke-width="3"/>
+    <rect x="330" y="410" width="55" height="55" fill="none" stroke="#2E2A24" stroke-width="3"/>
+
+    <!-- chimney -->
+    <rect x="360" y="210" width="26" height="60" fill="#5C6E58"/>
+
+    <!-- small sun icon for "all day steady" -->
+    <circle cx="120" cy="150" r="24" fill="#D9A441"/>
+    <g stroke="#D9A441" stroke-width="4">
+      <line x1="120" y1="105" x2="120" y2="118"/>
+      <line x1="120" y1="182" x2="120" y2="195"/>
+      <line x1="75" y1="150" x2="88" y2="150"/>
+      <line x1="152" y1="150" x2="165" y2="150"/>
+      <line x1="90" y1="120" x2="99" y2="129"/>
+      <line x1="141" y1="171" x2="150" y2="180"/>
+      <line x1="150" y1="120" x2="141" y2="129"/>
+      <line x1="99" y1="171" x2="90" y2="180"/>
+    </g>
+
+    <!-- moon icon showing consistent glow at night too -->
+    <path d="M 440 150 A 24 24 0 1 0 440 198 A 18 18 0 1 1 440 150 Z" fill="#5C6E58"/>
+    <g opacity="0.8">
+      <circle cx="440" cy="150" r="6" fill="#D9A441"/>
+    </g>
+  </g>
+
+  <!-- ===== RIGHT HOUSE: variable glow ===== -->
+  <g>
+    <!-- dim daytime ambient glow, small -->
+    <circle cx="900" cy="330" r="130" fill="#D9A441" opacity="0.06"/>
+    <!-- stronger evening glow overlay on one side -->
+    <circle cx="1000" cy="330" r="150" fill="#D9A441" opacity="0.22"/>
+
+    <!-- house body -->
+    <rect x="780" y="300" width="240" height="200" fill="#B85C38"/>
+    <polygon points="760,300 900,190 1040,300" fill="#5C6E58"/>
+    <rect x="880" y="230" width="40" height="40" fill="#5C6E58"/>
+
+    <!-- door -->
+    <rect x="880" y="410" width="40" height="90" fill="#2E2A24"/>
+
+    <!-- windows: left side dim (daytime empty), right side bright (evening) -->
+    <rect x="805" y="330" width="55" height="55" fill="#D9A441" opacity="0.25"/>
+    <rect x="940" y="330" width="55" height="55" fill="#D9A441" opacity="0.95"/>
+    <rect x="805" y="410" width="55" height="55" fill="#D9A441" opacity="0.25"/>
+    <rect x="940" y="410" width="55" height="55" fill="#D9A441" opacity="0.95"/>
+
+    <!-- window frames -->
+    <rect x="805" y="330" width="55" height="55" fill="none" stroke="#2E2A24" stroke-width="3"/>
+    <rect x="940" y="330" width="55" height="55" fill="none" stroke="#2E2A24" stroke-width="3"/>
+    <rect x="805" y="410" width="55" height="55" fill="none" stroke="#2E2A24" stroke-width="3"/>
+    <rect x="940" y="410" width="55" height="55" fill="none" stroke="#2E2A24" stroke-width="3"/>
+
+    <!-- chimney -->
+    <rect x="970" y="210" width="26" height="60" fill="#5C6E58"/>
+
+    <!-- sun icon dimmed, representing low daytime setting -->
+    <circle cx="730" cy="150" r="24" fill="#D9A441" opacity="0.35"/>
+    <g stroke="#D9A441" stroke-width="4" opacity="0.35">
+      <line x1="730" y1="105" x2="730" y2="118"/>
+      <line x1="730" y1="182" x2="730" y2="195"/>
+      <line x1="685" y1="150" x2="698" y2="150"/>
+      <line x1="762" y1="150" x2="775" y2="150"/>
+      <line x1="700" y1="120" x2="709" y2="129"/>
+      <line x1="751" y1="171" x2="760" y2="180"/>
+      <line x1="760" y1="120" x2="751" y2="129"/>
+      <line x1="709" y1="171" x2="700" y2="180"/>
+    </g>
+
+    <!-- moon icon bright, representing higher evening setting -->
+    <path d="M 1050 150 A 24 24 0 1 0 1050 198 A 18 18 0 1 1 1050 150 Z" fill="#5C6E58"/>
+    <circle cx="1050" cy="150" r="7" fill="#D9A441"/>
+  </g>
+
+  <!-- ground shadows -->
+  <ellipse cx="290" cy="502" rx="130" ry="10" fill="#2E2A24" opacity="0.08"/>
+  <ellipse cx="900" cy="502" rx="130" ry="10" fill="#2E2A24" opacity="0.08"/>
+</svg>

@@ -1,0 +1,91 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- clock face ring behind everything -->
+  <circle cx="600" cy="330" r="230" fill="none" stroke="#E4C7B2" stroke-width="2" opacity="0.6"/>
+  <circle cx="600" cy="330" r="180" fill="none" stroke="#E4C7B2" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- 24-hour tick marks -->
+  <g stroke="#D9A441" stroke-width="2" opacity="0.55">
+    <line x1="600" y1="100" x2="600" y2="118"/>
+    <line x1="600" y1="542" x2="600" y2="560"/>
+    <line x1="370" y1="330" x2="388" y2="330"/>
+    <line x1="812" y1="330" x2="830" y2="330"/>
+    <line x1="437" y1="167" x2="449" y2="180"/>
+    <line x1="751" y1="480" x2="763" y2="493"/>
+    <line x1="751" y1="180" x2="763" y2="167"/>
+    <line x1="437" y1="493" x2="449" y2="480"/>
+  </g>
+
+  <!-- temperature line graph rising and falling over the day -->
+  <g>
+    <polyline points="300,420 340,410 380,395 420,360 460,300 500,250 540,220 580,210 620,225 660,260 700,310 740,360 780,400 820,415 860,420 900,415"
+      fill="none" stroke="#B85C38" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+    <!-- flat alternative reference line -->
+    <line x1="300" y1="340" x2="900" y2="340" stroke="#5C6E58" stroke-width="3" stroke-dasharray="10 10" opacity="0.5"/>
+  </g>
+
+  <!-- small dots marking hour points on curve -->
+  <g fill="#D9A441">
+    <circle cx="380" cy="395" r="6"/>
+    <circle cx="500" cy="250" r="6"/>
+    <circle cx="620" cy="225" r="6"/>
+    <circle cx="740" cy="360" r="6"/>
+    <circle cx="860" cy="420" r="6"/>
+  </g>
+
+  <!-- thermostat: wall plate shadow -->
+  <ellipse cx="600" cy="345" rx="130" ry="140" fill="#2E2A24" opacity="0.06"/>
+
+  <!-- thermostat outer plate -->
+  <circle cx="600" cy="335" r="120" fill="#F6EFE6" stroke="#2E2A24" stroke-width="3"/>
+  <circle cx="600" cy="335" r="120" fill="#E4C7B2" opacity="0.35"/>
+
+  <!-- thermostat inner ring -->
+  <circle cx="600" cy="335" r="95" fill="#FFFFFF" opacity="0"/>
+  <circle cx="600" cy="335" r="95" fill="#F6EFE6" stroke="#5C6E58" stroke-width="3"/>
+
+  <!-- inner dial ticks -->
+  <g stroke="#2E2A24" stroke-width="2" opacity="0.5">
+    <line x1="600" y1="248" x2="600" y2="260"/>
+    <line x1="600" y1="410" x2="600" y2="422"/>
+    <line x1="513" y1="335" x2="525" y2="335"/>
+    <line x1="675" y1="335" x2="687" y2="335"/>
+    <line x1="537" y1="272" x2="546" y2="281"/>
+    <line x1="654" y1="389" x2="663" y2="398"/>
+    <line x1="654" y1="281" x2="663" y2="272"/>
+    <line x1="537" y1="398" x2="546" y2="389"/>
+  </g>
+
+  <!-- center display circle -->
+  <circle cx="600" cy="335" r="55" fill="#B85C38"/>
+  <circle cx="600" cy="335" r="55" fill="none" stroke="#2E2A24" stroke-width="2" opacity="0.3"/>
+
+  <!-- degree indicator marks around center (in place of numeral text) -->
+  <g fill="#F6EFE6">
+    <rect x="596" y="292" width="8" height="16" rx="3"/>
+    <circle cx="600" cy="335" r="5"/>
+  </g>
+
+  <!-- dial pointer/needle -->
+  <line x1="600" y1="335" x2="640" y2="300" stroke="#D9A441" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="600" cy="335" r="10" fill="#D9A441"/>
+
+  <!-- small mounting screws -->
+  <circle cx="600" cy="225" r="4" fill="#2E2A24" opacity="0.4"/>
+  <circle cx="600" cy="445" r="4" fill="#2E2A24" opacity="0.4"/>
+
+  <!-- decorative small leaves bottom corner for warmth/home motif -->
+  <g fill="#5C6E58" opacity="0.8">
+    <ellipse cx="1090" cy="560" rx="22" ry="12" transform="rotate(-25 1090 560)"/>
+    <ellipse cx="1120" cy="580" rx="22" ry="12" transform="rotate(15 1120 580)"/>
+    <ellipse cx="1075" cy="590" rx="18" ry="10" transform="rotate(60 1075 590)"/>
+  </g>
+  <g fill="#B85C38" opacity="0.7">
+    <circle cx="1105" cy="575" r="7"/>
+  </g>
+
+  <!-- top-left subtle decorative circles -->
+  <circle cx="90" cy="80" r="34" fill="#D9A441" opacity="0.25"/>
+  <circle cx="150" cy="60" r="18" fill="#B85C38" opacity="0.2"/>
+</svg>

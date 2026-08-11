@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 28개 준비됨 · API 자동 게시 완료 11개
+핀 29개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -55,7 +55,7 @@
 
 ## 보드: Energy & Utility Savings
 
-(5개)
+(6개)
 
 - [x] **How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work**
   - 이미지: `content/pins/cut-electric-bill-no-cost-habits.png`
@@ -81,6 +81,11 @@
   - 이미지: `content/pins/electric-bill-doubled-no-change-in-usage.png`
   - 링크: https://peterpb.blogspot.com/2026/08/why-did-my-electric-bill-double-with-no.html
   - 설명: Your bill likely jumped from rate hikes, seasonal weather, a billing estimate correction, or a hidden appliance problem. Here's how to find which one.
+
+- [ ] **Is It Cheaper to Hold One Thermostat Setting All Day or Adjust It?**
+  - 이미지: `content/pins/hold-thermostat-setting-vs-adjusting.png`
+  - 링크: https://peterpb.blogspot.com/2026/08/is-it-cheaper-to-hold-one-thermostat.html
+  - 설명: Adjusting your thermostat almost always beats holding one temperature all day. Here's the myth, the physics, and the exact setback that saves the most.
 
 ## 보드: Home Maintenance & Repairs
 

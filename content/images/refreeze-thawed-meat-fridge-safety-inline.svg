@@ -1,0 +1,64 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- Divider -->
+  <rect x="595" y="90" width="10" height="440" fill="#E4C7B2"/>
+
+  <!-- Left panel: fresh meat -->
+  <g>
+    <rect x="130" y="110" width="400" height="330" rx="18" fill="#E4C7B2" opacity="0.4"/>
+    <!-- plate -->
+    <ellipse cx="330" cy="280" rx="190" ry="150" fill="#F6EFE6"/>
+    <ellipse cx="330" cy="280" rx="170" ry="132" fill="#F6EFE6" stroke="#D9A441" stroke-width="4"/>
+    <!-- ground meat mound (fresh pink, terracotta tones) -->
+    <ellipse cx="330" cy="300" rx="130" ry="80" fill="#B85C38"/>
+    <ellipse cx="280" cy="270" rx="55" ry="35" fill="#c96f4e"/>
+    <ellipse cx="380" cy="260" rx="48" ry="30" fill="#c56a49"/>
+    <ellipse cx="330" cy="330" rx="60" ry="34" fill="#a94f30"/>
+    <ellipse cx="250" cy="320" rx="40" ry="26" fill="#b85c38"/>
+    <ellipse cx="400" cy="320" rx="42" ry="26" fill="#bd6242"/>
+    <!-- texture flecks -->
+    <circle cx="300" cy="290" r="6" fill="#E4C7B2"/>
+    <circle cx="360" cy="280" r="5" fill="#E4C7B2"/>
+    <circle cx="330" cy="315" r="6" fill="#8f4327"/>
+    <circle cx="290" cy="330" r="4" fill="#8f4327"/>
+    <circle cx="370" cy="310" r="5" fill="#8f4327"/>
+    <!-- checkmark badge -->
+    <circle cx="480" cy="150" r="34" fill="#5C6E58"/>
+    <path d="M465 150 L477 162 L497 138" stroke="#F6EFE6" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Right panel: discolored meat -->
+  <g>
+    <rect x="670" y="110" width="400" height="330" rx="18" fill="#E4C7B2" opacity="0.4"/>
+    <ellipse cx="870" cy="280" rx="190" ry="150" fill="#F6EFE6"/>
+    <ellipse cx="870" cy="280" rx="170" ry="132" fill="#F6EFE6" stroke="#D9A441" stroke-width="4"/>
+    <!-- ground meat mound (grayish, desaturated tones using ink/sage/clay mix) -->
+    <ellipse cx="870" cy="300" rx="130" ry="80" fill="#8a8175"/>
+    <ellipse cx="820" cy="270" rx="55" ry="35" fill="#96907f"/>
+    <ellipse cx="920" cy="260" rx="48" ry="30" fill="#7d7869"/>
+    <ellipse cx="870" cy="330" rx="60" ry="34" fill="#6f6a5d"/>
+    <ellipse cx="790" cy="320" rx="40" ry="26" fill="#88837299"/>
+    <ellipse cx="940" cy="320" rx="42" ry="26" fill="#9c9585"/>
+    <!-- discoloration blotches (sage-tinted gray) -->
+    <ellipse cx="850" cy="290" rx="20" ry="14" fill="#5C6E58" opacity="0.5"/>
+    <ellipse cx="900" cy="310" rx="16" ry="12" fill="#5C6E58" opacity="0.4"/>
+    <ellipse cx="820" cy="330" rx="14" ry="10" fill="#5C6E58" opacity="0.45"/>
+    <!-- texture flecks -->
+    <circle cx="840" cy="280" r="5" fill="#5C6E58" opacity="0.6"/>
+    <circle cx="900" cy="270" r="5" fill="#3f3b34"/>
+    <circle cx="870" cy="315" r="6" fill="#3f3b34"/>
+    <circle cx="830" cy="330" r="4" fill="#5C6E58" opacity="0.6"/>
+    <!-- warning badge -->
+    <circle cx="1020" cy="150" r="34" fill="#B85C38"/>
+    <path d="M1020 132 L1020 156" stroke="#F6EFE6" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="1020" cy="168" r="4" fill="#F6EFE6"/>
+  </g>
+
+  <!-- small decorative snowflake icon for fridge/freezer context -->
+  <g stroke="#5C6E58" stroke-width="4" stroke-linecap="round">
+    <line x1="600" y1="500" x2="600" y2="540"/>
+    <line x1="582" y1="510" x2="618" y2="530"/>
+    <line x1="618" y1="510" x2="582" y2="530"/>
+  </g>
+</svg>

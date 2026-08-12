@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 29개 준비됨 · API 자동 게시 완료 11개
+핀 30개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -123,7 +123,7 @@
 
 ## 보드: Kitchen & Food Habits
 
-(5개)
+(6개)
 
 - [ ] **The 30-Minute Sunday Meal Plan That Ends the 'What's for Dinner?' Spiral**
   - 이미지: `content/pins/30-minute-sunday-meal-plan.png`
@@ -149,6 +149,11 @@
   - 이미지: `content/pins/why-greens-wilt-fast-how-to-store-them.png`
   - 링크: https://peterpb.blogspot.com/2026/08/why-do-my-greens-wilt-two-days-after-i.html
   - 설명: Greens usually wilt fast because of trapped moisture and warm air, not age. Here's the exact storage fix that keeps lettuce and spinach crisp for a week or more.
+
+- [ ] **Is It Safe to Refreeze Meat That Thawed in the Fridge?**
+  - 이미지: `content/pins/refreeze-thawed-meat-fridge-safety.png`
+  - 링크: https://peterpb.blogspot.com/2026/08/is-it-safe-to-refreeze-meat-that-thawed.html
+  - 설명: Yes, meat thawed in the fridge is safe to refreeze in most cases. Here's how to tell when it's fine, when to cook it first, and when to toss it.
 
 ## 보드: Yard & Outdoor Basics
 

@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 30개 준비됨 · API 자동 게시 완료 11개
+핀 31개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -89,7 +89,7 @@
 
 ## 보드: Home Maintenance & Repairs
 
-(6개)
+(7개)
 
 - [x] **Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -120,6 +120,11 @@
   - 이미지: `content/pins/water-heater-popping-rumbling-sound.png`
   - 링크: https://peterpb.blogspot.com/2026/08/water-heater-popping-or-rumbling-heres.html
   - 설명: Yes, popping or rumbling usually means sediment buildup, not a failing water heater. Here's how to tell if it's harmless or a sign to call a plumber.
+
+- [ ] **Can You Caulk Over Old Caulk, or Do You Have to Remove It First?**
+  - 이미지: `content/pins/can-you-caulk-over-old-caulk.png`
+  - 링크: https://peterpb.blogspot.com/2026/08/can-you-caulk-over-old-caulk-or-do-you.html
+  - 설명: No, you shouldn't caulk over old caulk in most cases. Here's how to tell when you can skip the removal step and when it'll fail fast.
 
 ## 보드: Kitchen & Food Habits
 

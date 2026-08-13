@@ -173,7 +173,9 @@ topics:
   - 12
 - title: Can You Caulk Over Old Caulk, or Do You Have to Remove It First?
   pillar: home-maintenance
-  status: pending
+  status: published
+  published_slug: can-you-caulk-over-old-caulk
+  quality_score: 82
 - title: What Does It Mean When My Furnace Filter Turns Gray in Two Weeks?
   pillar: home-maintenance
   status: pending

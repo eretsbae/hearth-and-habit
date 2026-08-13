@@ -1,0 +1,87 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- Tile grid background, subtle -->
+  <g opacity="0.5">
+    <rect x="80" y="80" width="300" height="300" fill="none" stroke="#E4C7B2" stroke-width="3"/>
+    <rect x="380" y="80" width="300" height="300" fill="none" stroke="#E4C7B2" stroke-width="3"/>
+    <rect x="680" y="80" width="300" height="300" fill="none" stroke="#E4C7B2" stroke-width="3"/>
+    <rect x="80" y="380" width="300" height="150" fill="none" stroke="#E4C7B2" stroke-width="3"/>
+    <rect x="380" y="380" width="300" height="150" fill="none" stroke="#E4C7B2" stroke-width="3"/>
+    <rect x="680" y="380" width="300" height="150" fill="none" stroke="#E4C7B2" stroke-width="3"/>
+  </g>
+
+  <!-- Two large tile panels forming a corner joint -->
+  <rect x="0" y="0" width="1200" height="330" fill="#E4C7B2"/>
+  <rect x="0" y="345" width="1200" height="285" fill="#F1E4D6"/>
+
+  <!-- Tile grout lines -->
+  <line x1="0" y1="110" x2="1200" y2="110" stroke="#D9A441" stroke-width="2" opacity="0.35"/>
+  <line x1="0" y1="220" x2="1200" y2="220" stroke="#D9A441" stroke-width="2" opacity="0.35"/>
+  <line x1="300" y1="0" x2="300" y2="330" stroke="#D9A441" stroke-width="2" opacity="0.25"/>
+  <line x1="600" y1="0" x2="600" y2="330" stroke="#D9A441" stroke-width="2" opacity="0.25"/>
+  <line x1="900" y1="0" x2="900" y2="330" stroke="#D9A441" stroke-width="2" opacity="0.25"/>
+
+  <line x1="300" y1="345" x2="300" y2="630" stroke="#D9A441" stroke-width="2" opacity="0.2"/>
+  <line x1="600" y1="345" x2="600" y2="630" stroke="#D9A441" stroke-width="2" opacity="0.2"/>
+  <line x1="900" y1="345" x2="900" y2="630" stroke="#D9A441" stroke-width="2" opacity="0.2"/>
+
+  <!-- Old caulk line, cracked and lifting away -->
+  <path d="M0,330 Q150,338 300,332 Q450,326 600,336 Q750,344 900,330 Q1050,320 1200,334 L1200,352 Q1050,338 900,348 Q750,362 600,354 Q450,344 300,350 Q150,356 0,348 Z"
+        fill="#B85C38"/>
+
+  <!-- Lifted section of caulk peeling up from tile -->
+  <path d="M430,332 Q460,300 500,296 Q540,292 560,320 Q555,340 520,345 Q470,350 430,332 Z"
+        fill="#B85C38"/>
+  <path d="M430,332 Q460,300 500,296 Q540,292 560,320"
+        fill="none" stroke="#8C4127" stroke-width="3" opacity="0.5"/>
+
+  <!-- Gap/shadow beneath lifted caulk showing separation from tile -->
+  <path d="M432,335 Q462,306 498,300 Q536,296 556,322 Q525,315 495,318 Q460,322 432,335 Z"
+        fill="#2E2A24" opacity="0.35"/>
+
+  <!-- Cracks along the caulk line -->
+  <g stroke="#8C4127" stroke-width="2" opacity="0.55" fill="none">
+    <path d="M120,340 q4,6 -2,10"/>
+    <path d="M220,336 q5,7 -1,11"/>
+    <path d="M700,340 q4,6 -3,9"/>
+    <path d="M820,335 q6,6 0,11"/>
+    <path d="M960,332 q5,7 -2,10"/>
+  </g>
+
+  <!-- Mold/discoloration flecks on old caulk -->
+  <g fill="#5C6E58" opacity="0.4">
+    <circle cx="150" cy="345" r="3"/>
+    <circle cx="165" cy="350" r="2"/>
+    <circle cx="740" cy="348" r="3"/>
+    <circle cx="755" cy="343" r="2"/>
+    <circle cx="880" cy="344" r="2.5"/>
+  </g>
+
+  <!-- Plastic scraper tool resting near the joint -->
+  <g transform="translate(870,470) rotate(-18)">
+    <!-- handle -->
+    <rect x="-20" y="-14" width="150" height="28" rx="14" fill="#5C6E58"/>
+    <rect x="-14" y="-8" width="60" height="16" rx="8" fill="#4A5A46"/>
+    <!-- blade -->
+    <path d="M130,-16 L200,-24 L210,0 L200,24 L130,16 Z" fill="#D9A441"/>
+    <path d="M200,-24 L210,0 L200,24" fill="none" stroke="#B8863A" stroke-width="2"/>
+  </g>
+
+  <!-- Small scraped-off caulk debris near tool -->
+  <g fill="#B85C38" opacity="0.85">
+    <ellipse cx="1030" cy="500" rx="14" ry="6" transform="rotate(15 1030 500)"/>
+    <ellipse cx="1055" cy="515" rx="10" ry="5" transform="rotate(-10 1055 515)"/>
+    <ellipse cx="1000" cy="520" rx="8" ry="4" transform="rotate(25 1000 520)"/>
+  </g>
+
+  <!-- Subtle dust particles -->
+  <g fill="#2E2A24" opacity="0.25">
+    <circle cx="960" cy="460" r="2"/>
+    <circle cx="985" cy="440" r="1.5"/>
+    <circle cx="1010" cy="470" r="2"/>
+  </g>
+
+  <!-- Fresh caulk bead suggestion on far left, clean and even, for contrast -->
+  <path d="M0,600 Q60,592 120,598 Q180,604 240,598" fill="none" stroke="#D9A441" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
+</svg>

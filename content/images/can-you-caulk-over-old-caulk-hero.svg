@@ -1,0 +1,103 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- wall tile background -->
+  <rect x="0" y="0" width="1200" height="380" fill="#E4C7B2"/>
+  <g stroke="#F6EFE6" stroke-width="3">
+    <line x1="0" y1="80" x2="1200" y2="80"/>
+    <line x1="0" y1="160" x2="1200" y2="160"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+    <line x1="0" y1="320" x2="1200" y2="320"/>
+    <line x1="150" y1="0" x2="150" y2="380"/>
+    <line x1="300" y1="0" x2="300" y2="380"/>
+    <line x1="450" y1="0" x2="450" y2="380"/>
+    <line x1="600" y1="0" x2="600" y2="380"/>
+    <line x1="750" y1="0" x2="750" y2="380"/>
+    <line x1="900" y1="0" x2="900" y2="380"/>
+    <line x1="1050" y1="0" x2="1050" y2="380"/>
+  </g>
+
+  <!-- floor -->
+  <rect x="0" y="380" width="1200" height="250" fill="#D9A441" opacity="0.18"/>
+
+  <!-- tub -->
+  <rect x="0" y="380" width="1200" height="130" fill="#F6EFE6"/>
+  <rect x="0" y="380" width="1200" height="18" fill="#E4C7B2"/>
+
+  <!-- tub inner shadow -->
+  <rect x="0" y="398" width="1200" height="12" fill="#5C6E58" opacity="0.15"/>
+
+  <!-- old peeling caulk line along seam -->
+  <g>
+    <rect x="0" y="392" width="1200" height="10" fill="#F6EFE6"/>
+    <path d="M0,394 
+      Q40,388 80,394 
+      Q120,400 160,393 
+      Q210,386 250,395 
+      Q300,402 340,393 
+      Q380,387 420,394 
+      Q470,401 510,393 
+      Q560,386 600,394 
+      Q650,401 690,393 
+      Q730,387 770,394 
+      Q820,401 860,393 
+      Q900,386 940,394 
+      Q990,401 1030,393 
+      Q1070,387 1110,394 
+      Q1150,400 1200,393"
+      fill="none" stroke="#E4C7B2" stroke-width="9" stroke-linecap="round"/>
+    <!-- peeling flaps -->
+    <path d="M120,395 Q135,378 150,393 Z" fill="#E4C7B2" stroke="#2E2A24" stroke-width="1.5"/>
+    <path d="M310,398 Q328,378 344,395 Z" fill="#E4C7B2" stroke="#2E2A24" stroke-width="1.5"/>
+    <path d="M540,394 Q556,376 572,392 Z" fill="#E4C7B2" stroke="#2E2A24" stroke-width="1.5"/>
+    <path d="M780,395 Q796,377 812,393 Z" fill="#E4C7B2" stroke="#2E2A24" stroke-width="1.5"/>
+    <path d="M980,396 Q996,378 1012,393 Z" fill="#E4C7B2" stroke="#2E2A24" stroke-width="1.5"/>
+    <!-- small cracks -->
+    <line x1="200" y1="393" x2="210" y2="400" stroke="#2E2A24" stroke-width="1"/>
+    <line x1="460" y1="394" x2="468" y2="401" stroke="#2E2A24" stroke-width="1"/>
+    <line x1="700" y1="393" x2="708" y2="400" stroke="#2E2A24" stroke-width="1"/>
+    <line x1="900" y1="394" x2="908" y2="401" stroke="#2E2A24" stroke-width="1"/>
+  </g>
+
+  <!-- tub front panel lines -->
+  <rect x="0" y="410" width="1200" height="200" fill="#F6EFE6"/>
+  <line x1="0" y1="410" x2="1200" y2="410" stroke="#E4C7B2" stroke-width="3"/>
+
+  <!-- caulk gun resting on tub edge -->
+  <g transform="translate(760,330) rotate(-8)">
+    <!-- barrel -->
+    <rect x="0" y="20" width="230" height="26" rx="6" fill="#5C6E58"/>
+    <!-- cartridge tube (caulk tube) -->
+    <rect x="140" y="12" width="110" height="42" rx="8" fill="#D9A441"/>
+    <circle cx="250" cy="33" r="10" fill="#B85C38"/>
+    <!-- nozzle -->
+    <path d="M250,26 L275,20 L275,46 L250,40 Z" fill="#2E2A24"/>
+    <!-- trigger frame -->
+    <path d="M0,20 L0,46 L-18,46 L-18,60 L-30,60 L-30,74 L-14,74 L-14,60 L0,60 Z" fill="#B85C38"/>
+    <!-- handle grip -->
+    <rect x="-40" y="46" width="16" height="46" rx="4" fill="#2E2A24"/>
+    <!-- rod -->
+    <rect x="0" y="30" width="140" height="6" fill="#2E2A24" opacity="0.6"/>
+    <!-- plunger disk -->
+    <circle cx="140" cy="33" r="10" fill="#2E2A24"/>
+  </g>
+
+  <!-- soft shadow under gun -->
+  <ellipse cx="900" cy="405" rx="150" ry="10" fill="#2E2A24" opacity="0.12"/>
+
+  <!-- small decorative plant on tub ledge -->
+  <g transform="translate(1080,300)">
+    <rect x="-20" y="30" width="40" height="30" rx="6" fill="#B85C38"/>
+    <path d="M0,30 Q-25,-10 -10,-40 Q0,-10 0,30 Z" fill="#5C6E58"/>
+    <path d="M0,30 Q25,-5 12,-38 Q2,-8 0,30 Z" fill="#5C6E58"/>
+    <path d="M0,30 Q0,-20 0,-45 Q6,-15 0,30 Z" fill="#5C6E58"/>
+  </g>
+
+  <!-- faucet accent top left -->
+  <g transform="translate(70,60)">
+    <rect x="-10" y="0" width="20" height="90" rx="8" fill="#5C6E58"/>
+    <rect x="-40" y="0" width="80" height="18" rx="9" fill="#5C6E58"/>
+    <circle cx="0" cy="9" r="7" fill="#D9A441"/>
+  </g>
+
+</svg>

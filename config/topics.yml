@@ -210,7 +210,9 @@ topics:
   blogger_post_id: '2603527390008889495'
 - title: What Do You Do With Clothes You Wore Once But Aren't Dirty Yet?
   pillar: cleaning-organization
-  status: pending
+  status: published
+  published_slug: clothes-worn-once-not-dirty-what-to-do
+  quality_score: 82
 - title: How Do You Get Rid of Things You Spent Good Money On?
   pillar: cleaning-organization
   status: pending

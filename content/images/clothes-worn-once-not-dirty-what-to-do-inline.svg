@@ -1,0 +1,71 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- ground line -->
+  <rect x="80" y="470" width="1040" height="6" fill="#E4C7B2"/>
+
+  <!-- Zone divider circles behind each panel -->
+  <circle cx="260" cy="300" r="190" fill="#F6EFE6"/>
+  <circle cx="600" cy="300" r="190" fill="#F6EFE6"/>
+  <circle cx="940" cy="300" r="190" fill="#F6EFE6"/>
+
+  <!-- soft background blobs for each zone -->
+  <ellipse cx="260" cy="300" rx="175" ry="175" fill="#E4C7B2" opacity="0.35"/>
+  <ellipse cx="600" cy="300" rx="175" ry="175" fill="#D9A441" opacity="0.22"/>
+  <ellipse cx="940" cy="300" rx="175" ry="175" fill="#5C6E58" opacity="0.18"/>
+
+  <!-- ===== ZONE 1: HOOK ===== -->
+  <!-- wall mount plate -->
+  <rect x="230" y="150" width="60" height="14" rx="4" fill="#2E2A24"/>
+  <!-- hook arm -->
+  <path d="M260 164 L260 210 Q260 240 232 240" stroke="#2E2A24" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- hanger on hook -->
+  <path d="M232 244 Q210 220 232 200 Q254 220 232 244" fill="none" stroke="#B85C38" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="232" cy="196" r="5" fill="#B85C38"/>
+  <!-- shirt hanging -->
+  <path d="M195 250 L232 220 L269 250 L262 340 Q232 355 202 340 Z" fill="#B85C38"/>
+  <path d="M215 250 L232 235 L249 250 L244 260 L232 250 L220 260 Z" fill="#F6EFE6"/>
+
+  <!-- floor shadow -->
+  <ellipse cx="260" cy="472" rx="70" ry="10" fill="#2E2A24" opacity="0.1"/>
+
+  <!-- ===== ZONE 2: SHELF ===== -->
+  <!-- shelf bracket -->
+  <rect x="500" y="330" width="200" height="14" fill="#5C6E58"/>
+  <rect x="510" y="344" width="10" height="30" fill="#5C6E58"/>
+  <rect x="680" y="344" width="10" height="30" fill="#5C6E58"/>
+
+  <!-- folded clothes stack -->
+  <rect x="530" y="290" width="80" height="20" rx="4" fill="#D9A441"/>
+  <rect x="530" y="270" width="80" height="20" rx="4" fill="#E4C7B2"/>
+  <rect x="530" y="250" width="80" height="20" rx="4" fill="#B85C38"/>
+
+  <!-- folded sweater second stack -->
+  <rect x="625" y="300" width="70" height="18" rx="4" fill="#5C6E58"/>
+  <rect x="625" y="282" width="70" height="18" rx="4" fill="#D9A441"/>
+
+  <ellipse cx="600" cy="472" rx="80" ry="10" fill="#2E2A24" opacity="0.1"/>
+
+  <!-- ===== ZONE 3: HAMPER ===== -->
+  <!-- hamper body -->
+  <path d="M880 360 L1000 360 L985 460 Q940 475 895 460 Z" fill="#5C6E58"/>
+  <ellipse cx="940" cy="360" rx="60" ry="16" fill="#4b5b47"/>
+  <ellipse cx="940" cy="360" rx="60" ry="16" fill="none" stroke="#2E2A24" stroke-width="2" opacity="0.15"/>
+
+  <!-- weave lines -->
+  <path d="M888 380 Q940 392 992 380" stroke="#2E2A24" stroke-width="2" fill="none" opacity="0.2"/>
+  <path d="M885 405 Q940 418 995 405" stroke="#2E2A24" stroke-width="2" fill="none" opacity="0.2"/>
+  <path d="M890 430 Q940 442 990 430" stroke="#2E2A24" stroke-width="2" fill="none" opacity="0.2"/>
+
+  <!-- clothes peeking out -->
+  <path d="M905 345 Q920 315 945 335 Q960 310 975 340 Q965 355 940 350 Q925 358 905 345Z" fill="#B85C38"/>
+  <circle cx="930" cy="330" r="6" fill="#E4C7B2"/>
+
+  <ellipse cx="940" cy="472" rx="85" ry="10" fill="#2E2A24" opacity="0.1"/>
+
+  <!-- small connecting dots to suggest a diagram flow -->
+  <circle cx="410" cy="470" r="6" fill="#2E2A24" opacity="0.3"/>
+  <circle cx="450" cy="470" r="6" fill="#2E2A24" opacity="0.3"/>
+  <circle cx="750" cy="470" r="6" fill="#2E2A24" opacity="0.3"/>
+  <circle cx="790" cy="470" r="6" fill="#2E2A24" opacity="0.3"/>
+</svg>

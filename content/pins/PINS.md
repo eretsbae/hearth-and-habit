@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 31개 준비됨 · API 자동 게시 완료 11개
+핀 32개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -21,7 +21,7 @@
 
 ## 보드: Cleaning & Organization
 
-(6개)
+(7개)
 
 - [x] **The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control**
   - 이미지: `content/pins/15-minute-weekly-home-reset.png`
@@ -52,6 +52,11 @@
   - 이미지: `content/pins/why-does-dishwasher-smell-after-running-empty.png`
   - 링크: https://peterpb.blogspot.com/2026/08/why-does-my-dishwasher-smell-even-after.html
   - 설명: A smelly dishwasher usually means trapped food gunk, not a broken machine. Work through this checklist to find the source and clear it for good.
+
+- [ ] **What to Do With Clothes You Wore Once But Aren't Dirty Yet**
+  - 이미지: `content/pins/clothes-worn-once-not-dirty-what-to-do.png`
+  - 링크: https://peterpb.blogspot.com/2026/08/what-to-do-with-clothes-you-wore-once.html
+  - 설명: Not dirty enough to wash, not clean enough to shelve? Here's a real decision guide for handling worn-once clothes without adding to laundry piles.
 
 ## 보드: Energy & Utility Savings
 

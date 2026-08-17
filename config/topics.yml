@@ -260,7 +260,9 @@ topics:
   - 2
 - title: Does Closing Vents in Unused Rooms Save Energy or Cost More?
   pillar: energy-savings
-  status: pending
+  status: published
+  published_slug: closing-vents-unused-rooms-energy
+  quality_score: 84
 - title: Which Appliance in My House Is Quietly Using the Most Electricity?
   pillar: energy-savings
   status: pending

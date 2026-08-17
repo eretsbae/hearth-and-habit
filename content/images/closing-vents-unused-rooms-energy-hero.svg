@@ -1,0 +1,90 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- outer house cutaway shape -->
+  <rect x="150" y="120" width="900" height="420" fill="#F0E4D6"/>
+
+  <!-- roof -->
+  <polygon points="600,60 190,200 1010,200" fill="#B85C38"/>
+  <rect x="185" y="195" width="830" height="20" fill="#93472A"/>
+
+  <!-- attic space -->
+  <rect x="200" y="215" width="800" height="90" fill="#E4C7B2"/>
+
+  <!-- main floor room dividers -->
+  <rect x="200" y="305" width="800" height="235" fill="#F6EFE6"/>
+  <line x1="600" y1="305" x2="600" y2="540" stroke="#2E2A24" stroke-width="3"/>
+  <line x1="200" y1="420" x2="1000" y2="420" stroke="#2E2A24" stroke-width="3"/>
+
+  <!-- basement -->
+  <rect x="200" y="540" width="800" height="80" fill="#DCCBB9"/>
+
+  <!-- ductwork trunk in attic -->
+  <rect x="240" y="235" width="720" height="40" fill="#5C6E58"/>
+  <rect x="240" y="235" width="720" height="8" fill="#4A5A46"/>
+
+  <!-- branch ducts going down -->
+  <rect x="330" y="275" width="30" height="45" fill="#5C6E58"/>
+  <rect x="560" y="275" width="30" height="45" fill="#5C6E58"/>
+  <rect x="760" y="275" width="30" height="45" fill="#5C6E58"/>
+  <rect x="900" y="275" width="30" height="45" fill="#5C6E58"/>
+
+  <!-- duct down into rooms -->
+  <rect x="330" y="320" width="30" height="90" fill="#5C6E58"/>
+  <rect x="900" y="320" width="30" height="90" fill="#5C6E58"/>
+  <rect x="560" y="320" width="30" height="200" fill="#5C6E58"/>
+
+  <!-- room furniture minimal shapes -->
+  <!-- left room: chair -->
+  <rect x="250" y="360" width="70" height="60" rx="8" fill="#D9A441"/>
+  <rect x="250" y="345" width="70" height="20" rx="8" fill="#D9A441"/>
+
+  <!-- right upper room: small table -->
+  <rect x="850" y="380" width="90" height="12" fill="#B85C38"/>
+  <rect x="860" y="392" width="8" height="28" fill="#B85C38"/>
+  <rect x="922" y="392" width="8" height="28" fill="#B85C38"/>
+
+  <!-- lower left room: rug -->
+  <ellipse cx="300" cy="490" rx="70" ry="18" fill="#E4C7B2"/>
+
+  <!-- lower right room: plant -->
+  <rect x="880" y="470" width="20" height="30" fill="#B85C38"/>
+  <circle cx="890" cy="455" r="22" fill="#5C6E58"/>
+
+  <!-- floor vent register with hand adjusting it - center bottom room -->
+  <g>
+    <rect x="530" y="500" width="140" height="30" rx="4" fill="#D9A441"/>
+    <!-- vent slats -->
+    <rect x="540" y="507" width="120" height="4" fill="#93701F"/>
+    <rect x="540" y="515" width="120" height="4" fill="#93701F"/>
+    <rect x="540" y="523" width="120" height="4" fill="#93701F"/>
+
+    <!-- hand -->
+    <g>
+      <!-- forearm -->
+      <rect x="640" y="440" width="34" height="90" rx="16" fill="#E4C7B2" transform="rotate(18 657 485)"/>
+      <!-- palm -->
+      <ellipse cx="612" cy="512" rx="26" ry="20" fill="#E4C7B2"/>
+      <!-- fingers -->
+      <rect x="585" y="495" width="14" height="34" rx="7" fill="#E4C7B2" transform="rotate(-10 592 512)"/>
+      <rect x="600" y="490" width="14" height="38" rx="7" fill="#E4C7B2" transform="rotate(-3 607 509)"/>
+      <rect x="616" y="490" width="14" height="38" rx="7" fill="#E4C7B2" transform="rotate(5 623 509)"/>
+      <rect x="631" y="495" width="14" height="34" rx="7" fill="#E4C7B2" transform="rotate(12 638 512)"/>
+      <!-- thumb -->
+      <rect x="595" y="515" width="14" height="26" rx="7" fill="#E4C7B2" transform="rotate(60 602 528)"/>
+    </g>
+  </g>
+
+  <!-- warm air arrows near vent -->
+  <path d="M700 470 q10 -15 0 -30" stroke="#B85C38" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M720 480 q10 -15 0 -30" stroke="#B85C38" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- windows on house facade decoration -->
+  <rect x="220" y="230" width="0" height="0" fill="none"/>
+
+  <!-- ground line -->
+  <rect x="120" y="620" width="960" height="10" fill="#5C6E58"/>
+
+  <!-- subtle sun circle -->
+  <circle cx="1080" cy="90" r="40" fill="#D9A441" opacity="0.7"/>
+</svg>

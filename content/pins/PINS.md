@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 32개 준비됨 · API 자동 게시 완료 11개
+핀 33개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -60,7 +60,7 @@
 
 ## 보드: Energy & Utility Savings
 
-(6개)
+(7개)
 
 - [x] **How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work**
   - 이미지: `content/pins/cut-electric-bill-no-cost-habits.png`
@@ -91,6 +91,11 @@
   - 이미지: `content/pins/hold-thermostat-setting-vs-adjusting.png`
   - 링크: https://peterpb.blogspot.com/2026/08/is-it-cheaper-to-hold-one-thermostat.html
   - 설명: Adjusting your thermostat almost always beats holding one temperature all day. Here's the myth, the physics, and the exact setback that saves the most.
+
+- [ ] **Does Closing Vents in Unused Rooms Save Energy or Cost More?**
+  - 이미지: `content/pins/closing-vents-unused-rooms-energy.png`
+  - 링크: https://peterpb.blogspot.com/2026/08/does-closing-vents-in-unused-rooms-save.html
+  - 설명: Closing vents in unused rooms usually backfires with forced-air systems. Here's the checklist to know when it helps, when it hurts, and what to do instead.
 
 ## 보드: Home Maintenance & Repairs
 

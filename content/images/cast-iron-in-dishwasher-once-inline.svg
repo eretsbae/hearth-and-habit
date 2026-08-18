@@ -1,0 +1,74 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- background decorative arch -->
+  <circle cx="600" cy="330" r="290" fill="#E4C7B2" opacity="0.4"/>
+
+  <!-- stovetop base -->
+  <rect x="0" y="480" width="1200" height="150" fill="#5C6E58"/>
+  <rect x="0" y="470" width="1200" height="14" fill="#2E2A24"/>
+
+  <!-- stovetop burner ring -->
+  <ellipse cx="600" cy="500" rx="260" ry="34" fill="#4a594a"/>
+  <ellipse cx="600" cy="497" rx="230" ry="26" fill="#2E2A24"/>
+  <ellipse cx="600" cy="494" rx="200" ry="18" fill="#3a4538"/>
+
+  <!-- burner grates -->
+  <rect x="420" y="490" width="360" height="8" rx="4" fill="#2E2A24"/>
+  <rect x="420" y="505" width="360" height="8" rx="4" fill="#2E2A24"/>
+  <rect x="440" y="470" width="8" height="45" rx="4" fill="#2E2A24"/>
+  <rect x="600" y="465" width="8" height="50" rx="4" fill="#2E2A24"/>
+  <rect x="760" y="470" width="8" height="45" rx="4" fill="#2E2A24"/>
+
+  <!-- skillet shadow -->
+  <ellipse cx="590" cy="500" rx="215" ry="30" fill="#2E2A24" opacity="0.25"/>
+
+  <!-- skillet body -->
+  <ellipse cx="590" cy="480" rx="210" ry="70" fill="#2E2A24"/>
+  <ellipse cx="590" cy="470" rx="210" ry="66" fill="#3a352d"/>
+  <ellipse cx="590" cy="462" rx="185" ry="52" fill="#2E2A24"/>
+
+  <!-- skillet interior sheen -->
+  <ellipse cx="590" cy="458" rx="150" ry="38" fill="#4a433a"/>
+  <ellipse cx="560" cy="450" rx="70" ry="18" fill="#5c5348" opacity="0.6"/>
+
+  <!-- oil sheen highlight -->
+  <ellipse cx="640" cy="440" rx="40" ry="10" fill="#D9A441" opacity="0.5"/>
+
+  <!-- skillet handle -->
+  <path d="M 800 460 Q 940 440 1000 480 Q 1010 495 995 505 Q 935 475 800 485 Z" fill="#2E2A24"/>
+  <ellipse cx="1000" cy="490" rx="18" ry="12" fill="#2E2A24"/>
+
+  <!-- cloth wiping the skillet -->
+  <path d="M 470 400 Q 520 380 590 400 Q 650 415 660 450 Q 620 470 560 460 Q 500 450 470 400 Z" fill="#B85C38"/>
+  <path d="M 490 405 Q 540 395 600 415 Q 630 425 640 445 Q 600 455 560 445 Q 510 435 490 405 Z" fill="#c96f49" opacity="0.7"/>
+
+  <!-- hand holding cloth -->
+  <ellipse cx="440" cy="380" rx="45" ry="30" fill="#E4C7B2"/>
+  <path d="M 400 375 Q 420 350 460 355 Q 495 360 500 390 Q 480 405 440 405 Q 405 400 400 375 Z" fill="#E4C7B2"/>
+
+  <!-- oil bottle nearby -->
+  <rect x="240" y="380" width="60" height="100" rx="10" fill="#5C6E58"/>
+  <rect x="255" y="355" width="30" height="35" rx="6" fill="#5C6E58"/>
+  <rect x="262" y="340" width="16" height="20" rx="4" fill="#2E2A24"/>
+  <ellipse cx="270" cy="410" rx="20" ry="30" fill="#D9A441" opacity="0.55"/>
+
+  <!-- small drip of oil -->
+  <ellipse cx="680" cy="430" rx="6" ry="9" fill="#D9A441"/>
+
+  <!-- steam / warmth wisps above skillet -->
+  <path d="M 540 340 Q 550 310 535 285" stroke="#5C6E58" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 600 330 Q 615 300 600 270" stroke="#5C6E58" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <path d="M 660 340 Q 670 315 658 290" stroke="#5C6E58" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- decorative small elements: dish towel folded on counter left -->
+  <rect x="120" y="470" width="90" height="18" rx="6" fill="#E4C7B2"/>
+  <rect x="130" y="458" width="70" height="16" rx="6" fill="#B85C38" opacity="0.8"/>
+
+  <!-- small terracotta jar right side for balance -->
+  <rect x="960" y="410" width="70" height="80" rx="14" fill="#B85C38"/>
+  <rect x="975" y="395" width="40" height="20" rx="8" fill="#5C6E58"/>
+
+  <!-- subtle floor line -->
+  <rect x="0" y="614" width="1200" height="16" fill="#2E2A24" opacity="0.15"/>
+</svg>

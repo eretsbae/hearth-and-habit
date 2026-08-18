@@ -296,7 +296,9 @@ topics:
   blogger_post_id: '1685997837434237533'
 - title: What Actually Happens If You Put Cast Iron in the Dishwasher Once?
   pillar: kitchen-habits
-  status: pending
+  status: published
+  published_slug: cast-iron-in-dishwasher-once
+  quality_score: 84
 - title: Why Does My Fridge Have a Smell I Can't Find the Source Of?
   pillar: kitchen-habits
   status: pending

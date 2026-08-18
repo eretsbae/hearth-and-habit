@@ -1,0 +1,70 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- background soft shapes -->
+  <circle cx="150" cy="120" r="90" fill="#E4C7B2" opacity="0.4"/>
+  <circle cx="1080" cy="500" r="120" fill="#5C6E58" opacity="0.15"/>
+
+  <!-- dishwasher rack (right side) -->
+  <g>
+    <rect x="720" y="150" width="380" height="380" rx="18" fill="#D9A441" opacity="0.15"/>
+    <rect x="740" y="180" width="340" height="320" rx="10" fill="#E4C7B2" opacity="0.35"/>
+
+    <!-- rack tines vertical -->
+    <g stroke="#5C6E58" stroke-width="6" stroke-linecap="round">
+      <line x1="770" y1="210" x2="770" y2="470"/>
+      <line x1="810" y1="210" x2="810" y2="470"/>
+      <line x1="850" y1="210" x2="850" y2="470"/>
+      <line x1="890" y1="210" x2="890" y2="470"/>
+      <line x1="930" y1="210" x2="930" y2="470"/>
+      <line x1="970" y1="210" x2="970" y2="470"/>
+      <line x1="1010" y1="210" x2="1010" y2="470"/>
+      <line x1="1050" y1="210" x2="1050" y2="470"/>
+    </g>
+    <!-- rack rails horizontal -->
+    <g stroke="#5C6E58" stroke-width="8" stroke-linecap="round">
+      <line x1="760" y1="230" x2="1060" y2="230"/>
+      <line x1="760" y1="450" x2="1060" y2="450"/>
+    </g>
+
+    <!-- a plate resting in rack for context -->
+    <ellipse cx="960" cy="340" rx="70" ry="16" fill="#F6EFE6" stroke="#B85C38" stroke-width="4"/>
+    <ellipse cx="960" cy="336" rx="55" ry="10" fill="#E4C7B2" opacity="0.5"/>
+  </g>
+
+  <!-- skillet on left -->
+  <g>
+    <!-- handle -->
+    <rect x="130" y="330" width="220" height="42" rx="20" fill="#2E2A24"/>
+    <circle cx="150" cy="351" r="24" fill="#2E2A24"/>
+    <circle cx="150" cy="351" r="9" fill="#F6EFE6"/>
+
+    <!-- pan body -->
+    <ellipse cx="470" cy="360" rx="230" ry="150" fill="#2E2A24"/>
+    <ellipse cx="470" cy="345" rx="230" ry="150" fill="#3a352c"/>
+
+    <!-- inner cooking surface -->
+    <ellipse cx="470" cy="345" rx="190" ry="118" fill="#4a4438"/>
+
+    <!-- dulled/stripped seasoning patch -->
+    <ellipse cx="410" cy="320" rx="80" ry="50" fill="#8f8879" opacity="0.55"/>
+    <ellipse cx="430" cy="330" rx="55" ry="34" fill="#B7AE9C" opacity="0.5"/>
+
+    <!-- subtle sheen on rest of pan to show seasoning -->
+    <ellipse cx="560" cy="380" rx="70" ry="40" fill="#5C6E58" opacity="0.18"/>
+    <ellipse cx="500" cy="410" rx="50" ry="26" fill="#B85C38" opacity="0.12"/>
+
+    <!-- rim highlight -->
+    <ellipse cx="470" cy="345" rx="230" ry="150" fill="none" stroke="#D9A441" stroke-width="3" opacity="0.3"/>
+  </g>
+
+  <!-- small water droplets near dishwasher suggesting rinse cycle -->
+  <g fill="#5C6E58" opacity="0.5">
+    <ellipse cx="700" cy="500" rx="7" ry="10"/>
+    <ellipse cx="680" cy="530" rx="5" ry="8"/>
+    <ellipse cx="720" cy="540" rx="6" ry="9"/>
+  </g>
+
+  <!-- ground line -->
+  <rect x="0" y="560" width="1200" height="70" fill="#E4C7B2" opacity="0.25"/>
+</svg>

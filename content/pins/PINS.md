@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 34개 준비됨 · API 자동 게시 완료 11개
+핀 35개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -177,7 +177,7 @@
 
 ## 보드: Yard & Outdoor Basics
 
-(6개)
+(7개)
 
 - [ ] **Lawn Care for People Who Don't Care About Lawns: The Bare Minimum That Actually Works**
   - 이미지: `content/pins/low-effort-lawn-care-bare-minimum.png`
@@ -208,3 +208,8 @@
   - 이미지: `content/pins/do-you-need-to-clean-gutters-with-gutter-guards.png`
   - 링크: https://peterpb.blogspot.com/2026/08/do-you-still-need-to-clean-gutters-if.html
   - 설명: Yes, even with gutter guards you still need occasional cleaning. Here's exactly what guards stop, what they don't, and a realistic upkeep checklist.
+
+- [ ] **Why Are Mushrooms Suddenly Growing All Over My Lawn After Rain?**
+  - 이미지: `content/pins/mushrooms-growing-in-lawn-after-rain.png`
+  - 링크: https://peterpb.blogspot.com/2026/08/why-are-mushrooms-suddenly-growing-all.html
+  - 설명: Mushrooms after rain mean your soil has healthy fungi feeding on decaying organic matter underground. Here's when to ignore them and when to act.

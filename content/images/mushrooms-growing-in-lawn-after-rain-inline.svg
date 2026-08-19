@@ -1,0 +1,118 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- sky area above ground -->
+  <rect x="0" y="0" width="1200" height="300" fill="#F6EFE6"/>
+
+  <!-- soil cross-section -->
+  <rect x="0" y="300" width="1200" height="330" fill="#E4C7B2"/>
+  <rect x="0" y="380" width="1200" height="250" fill="#D9A441" opacity="0.25"/>
+  <rect x="0" y="470" width="1200" height="160" fill="#B85C38" opacity="0.18"/>
+
+  <!-- grass line -->
+  <rect x="0" y="292" width="1200" height="10" fill="#5C6E58"/>
+
+  <!-- little grass tufts -->
+  <g fill="#5C6E58">
+    <path d="M60 292 q4 -22 8 0 z"/>
+    <path d="M80 292 q4 -18 8 0 z"/>
+    <path d="M160 292 q4 -20 8 0 z"/>
+    <path d="M180 292 q4 -16 8 0 z"/>
+    <path d="M950 292 q4 -20 8 0 z"/>
+    <path d="M970 292 q4 -16 8 0 z"/>
+    <path d="M1080 292 q4 -22 8 0 z"/>
+    <path d="M1100 292 q4 -18 8 0 z"/>
+    <path d="M420 292 q4 -18 8 0 z"/>
+    <path d="M440 292 q4 -14 8 0 z"/>
+    <path d="M760 292 q4 -16 8 0 z"/>
+    <path d="M780 292 q4 -20 8 0 z"/>
+  </g>
+
+  <!-- decaying stump underground -->
+  <g>
+    <ellipse cx="600" cy="330" rx="120" ry="40" fill="#8B4A2E"/>
+    <ellipse cx="600" cy="330" rx="120" ry="40" fill="none" stroke="#2E2A24" stroke-width="2" opacity="0.2"/>
+    <!-- concentric decay rings -->
+    <ellipse cx="600" cy="330" rx="90" ry="30" fill="#B85C38" opacity="0.5"/>
+    <ellipse cx="600" cy="330" rx="55" ry="18" fill="#8B4A2E" opacity="0.6"/>
+    <ellipse cx="600" cy="330" rx="24" ry="8" fill="#2E2A24" opacity="0.4"/>
+
+    <!-- roots spreading and decaying -->
+    <path d="M500 340 q-80 20 -160 70 q-30 20 -20 40" stroke="#8B4A2E" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M520 355 q-60 40 -90 110" stroke="#8B4A2E" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M700 340 q80 20 160 70 q30 20 20 45" stroke="#8B4A2E" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M680 355 q60 40 95 115" stroke="#8B4A2E" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M600 355 q0 60 30 130" stroke="#8B4A2E" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M600 355 q-10 70 -50 140" stroke="#8B4A2E" stroke-width="9" fill="none" stroke-linecap="round"/>
+
+    <!-- decay spots / rot patches on roots -->
+    <circle cx="380" cy="440" r="9" fill="#2E2A24" opacity="0.3"/>
+    <circle cx="820" cy="450" r="10" fill="#2E2A24" opacity="0.3"/>
+    <circle cx="600" cy="470" r="8" fill="#2E2A24" opacity="0.3"/>
+    <circle cx="470" cy="410" r="6" fill="#5C6E58" opacity="0.35"/>
+    <circle cx="740" cy="415" r="7" fill="#5C6E58" opacity="0.35"/>
+
+    <!-- fine mycelium threads -->
+    <path d="M420 380 q40 -10 80 10" stroke="#F6EFE6" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M700 385 q-40 -12 -80 8" stroke="#F6EFE6" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M540 420 q30 20 70 5" stroke="#F6EFE6" stroke-width="2" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- underground mycelium connecting to mushrooms -->
+  <g stroke="#F6EFE6" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M600 330 q-60 -10 -140 -8"/>
+    <path d="M600 330 q40 -8 130 -4"/>
+    <path d="M600 330 q10 -12 40 -18"/>
+    <path d="M600 330 q-100 5 -190 20"/>
+  </g>
+
+  <!-- mushroom clusters above ground -->
+  <g>
+    <!-- big terracotta mushroom -->
+    <rect x="440" y="255" width="14" height="40" rx="6" fill="#F6EFE6"/>
+    <path d="M400 255 q47 -55 94 0 z" fill="#B85C38"/>
+    <path d="M400 255 q47 -55 94 0" fill="none" stroke="#2E2A24" stroke-width="2" opacity="0.15"/>
+
+    <!-- medium gold mushroom -->
+    <rect x="500" y="270" width="10" height="30" rx="5" fill="#F6EFE6"/>
+    <path d="M472 270 q33 -38 66 0 z" fill="#D9A441"/>
+
+    <!-- small sage mushroom -->
+    <rect x="540" y="278" width="8" height="22" rx="4" fill="#F6EFE6"/>
+    <path d="M518 278 q26 -30 52 0 z" fill="#5C6E58"/>
+
+    <!-- cluster near right -->
+    <rect x="660" y="262" width="12" height="38" rx="6" fill="#F6EFE6"/>
+    <path d="M626 262 q40 -48 80 0 z" fill="#B85C38"/>
+
+    <rect x="700" y="278" width="9" height="24" rx="4" fill="#F6EFE6"/>
+    <path d="M680 278 q24 -28 48 0 z" fill="#D9A441"/>
+
+    <rect x="620" y="282" width="7" height="18" rx="3" fill="#F6EFE6"/>
+    <path d="M602 282 q20 -22 40 0 z" fill="#5C6E58"/>
+
+    <!-- tiny scattered mushrooms further out -->
+    <rect x="340" y="285" width="6" height="16" rx="3" fill="#F6EFE6"/>
+    <path d="M325 285 q18 -18 32 0 z" fill="#D9A441"/>
+
+    <rect x="770" y="288" width="6" height="14" rx="3" fill="#F6EFE6"/>
+    <path d="M757 288 q16 -16 28 0 z" fill="#B85C38"/>
+
+    <rect x="820" y="278" width="8" height="24" rx="4" fill="#F6EFE6"/>
+    <path d="M800 278 q24 -26 48 0 z" fill="#5C6E58"/>
+  </g>
+
+  <!-- soft rain drops for context, upper area -->
+  <g fill="#5C6E58" opacity="0.4">
+    <path d="M200 80 q6 14 0 20 q-6 -6 0 -20"/>
+    <path d="M260 130 q6 14 0 20 q-6 -6 0 -20"/>
+    <path d="M950 70 q6 14 0 20 q-6 -6 0 -20"/>
+    <path d="M900 140 q6 14 0 20 q-6 -6 0 -20"/>
+    <path d="M600 60 q6 14 0 20 q-6 -6 0 -20"/>
+    <path d="M700 110 q6 14 0 20 q-6 -6 0 -20"/>
+    <path d="M400 90 q6 14 0 20 q-6 -6 0 -20"/>
+  </g>
+
+  <!-- sun-like soft circle for warmth, minimal -->
+  <circle cx="1080" cy="90" r="36" fill="#D9A441" opacity="0.25"/>
+</svg>

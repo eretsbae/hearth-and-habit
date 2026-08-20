@@ -180,7 +180,9 @@ topics:
   blogger_post_id: '8666646156656961287'
 - title: What Does It Mean When My Furnace Filter Turns Gray in Two Weeks?
   pillar: home-maintenance
-  status: pending
+  status: published
+  published_slug: furnace-filter-turns-gray-in-two-weeks
+  quality_score: 82
 - title: Why Do My Pipes Make a Banging Noise When I Turn Off the Faucet?
   pillar: home-maintenance
   status: pending

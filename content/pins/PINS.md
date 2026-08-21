@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 36개 준비됨 · API 자동 게시 완료 11개
+핀 37개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -21,7 +21,7 @@
 
 ## 보드: Cleaning & Organization
 
-(7개)
+(8개)
 
 - [x] **The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control**
   - 이미지: `content/pins/15-minute-weekly-home-reset.png`
@@ -57,6 +57,11 @@
   - 이미지: `content/pins/clothes-worn-once-not-dirty-what-to-do.png`
   - 링크: https://peterpb.blogspot.com/2026/08/what-to-do-with-clothes-you-wore-once.html
   - 설명: Not dirty enough to wash, not clean enough to shelve? Here's a real decision guide for handling worn-once clothes without adding to laundry piles.
+
+- [ ] **How to Get Rid of Things You Spent Good Money On (Without the Guilt)**
+  - 이미지: `content/pins/get-rid-of-things-you-spent-money-on.png`
+  - 링크: https://peterpb.blogspot.com/2026/08/how-to-get-rid-of-things-you-spent-good.html
+  - 설명: Struggling to declutter expensive items? Compare your real options — resell, return, donate, repurpose — and the math that makes letting go easier.
 
 ## 보드: Energy & Utility Savings
 

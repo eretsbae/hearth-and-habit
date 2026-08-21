@@ -221,7 +221,9 @@ topics:
   blogger_post_id: '8180329699747089612'
 - title: How Do You Get Rid of Things You Spent Good Money On?
   pillar: cleaning-organization
-  status: pending
+  status: published
+  published_slug: get-rid-of-things-you-spent-money-on
+  quality_score: 82
 - title: Why Does My House Get Messy Again Two Days After I Clean It?
   pillar: cleaning-organization
   status: pending

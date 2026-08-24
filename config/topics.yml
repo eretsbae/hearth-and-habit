@@ -275,7 +275,9 @@ topics:
   blogger_post_id: '552547310808485878'
 - title: Which Appliance in My House Is Quietly Using the Most Electricity?
   pillar: energy-savings
-  status: pending
+  status: published
+  published_slug: appliance-using-most-electricity
+  quality_score: 81
 - title: Why Does My Bread Go Moldy So Much Faster in the Summer?
   pillar: kitchen-habits
   status: published

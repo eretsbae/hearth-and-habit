@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- ground line -->
+  <rect x="0" y="500" width="1200" height="4" fill="#E4C7B2"/>
+
+  <!-- Electric meter (left) -->
+  <g transform="translate(150,300)">
+    <rect x="-70" y="-40" width="140" height="170" rx="10" fill="#5C6E58"/>
+    <circle cx="0" cy="20" r="75" fill="#F6EFE6" stroke="#2E2A24" stroke-width="6"/>
+    <circle cx="0" cy="20" r="60" fill="#E4C7B2"/>
+    <!-- dial ticks -->
+    <g stroke="#2E2A24" stroke-width="3">
+      <line x1="0" y1="-35" x2="0" y2="-25"/>
+      <line x1="35" y1="20" x2="25" y2="20"/>
+      <line x1="-35" y1="20" x2="-25" y2="20"/>
+      <line x1="0" y1="75" x2="0" y2="65"/>
+      <line x1="25" y1="-13" x2="18" y2="-6"/>
+      <line x1="-25" y1="-13" x2="-18" y2="-6"/>
+      <line x1="25" y1="53" x2="18" y2="46"/>
+      <line x1="-25" y1="53" x2="-18" y2="46"/>
+    </g>
+    <!-- needle pointing high -->
+    <line x1="0" y1="20" x2="30" y2="-15" stroke="#B85C38" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="0" cy="20" r="6" fill="#2E2A24"/>
+    <!-- top small display -->
+    <rect x="-40" y="-25" width="80" height="30" rx="4" fill="#2E2A24"/>
+    <rect x="-32" y="-18" width="64" height="16" rx="2" fill="#D9A441"/>
+    <!-- base -->
+    <rect x="-90" y="130" width="180" height="18" rx="4" fill="#2E2A24"/>
+  </g>
+
+  <!-- Water heater (medium size) -->
+  <g transform="translate(430,340)">
+    <rect x="-45" y="-90" width="90" height="230" rx="20" fill="#B85C38"/>
+    <rect x="-45" y="-100" width="90" height="20" rx="10" fill="#8f4429"/>
+    <rect x="-15" y="-60" width="30" height="10" rx="3" fill="#F6EFE6"/>
+    <circle cx="0" cy="0" r="14" fill="#D9A441"/>
+    <circle cx="0" cy="0" r="6" fill="#2E2A24"/>
+    <rect x="-45" y="50" width="90" height="10" fill="#8f4429"/>
+    <rect x="-10" y="140" width="20" height="20" fill="#2E2A24"/>
+  </g>
+
+  <!-- Dryer (largest, showing high draw) -->
+  <g transform="translate(680,300)">
+    <rect x="-100" y="-130" width="200" height="270" rx="18" fill="#5C6E58"/>
+    <circle cx="0" cy="-10" r="80" fill="#F6EFE6"/>
+    <circle cx="0" cy="-10" r="65" fill="#E4C7B2"/>
+    <circle cx="0" cy="-10" r="65" fill="none" stroke="#2E2A24" stroke-width="4"/>
+    <circle cx="-55" cy="-100" r="10" fill="#D9A441"/>
+    <circle cx="-20" cy="-100" r="10" fill="#D9A441"/>
+    <rect x="-100" y="120" width="200" height="20" fill="#2E2A24"/>
+  </g>
+
+  <!-- Fridge (smallest, low draw) -->
+  <g transform="translate(940,370)">
+    <rect x="-45" y="-160" width="90" height="200" rx="14" fill="#D9A441"/>
+    <rect x="-45" y="-90" width="90" height="6" fill="#2E2A24"/>
+    <rect x="-38" y="-140" width="8" height="30" rx="3" fill="#2E2A24"/>
+    <rect x="-38" y="-70" width="8" height="60" rx="3" fill="#2E2A24"/>
+    <rect x="-45" y="40" width="90" height="10" fill="#8a6a1f"/>
+  </g>
+
+  <!-- subtle size-comparison arcs/labels-free indicators (dashes above each icon showing draw level) -->
+  <g stroke="#2E2A24" stroke-width="3" stroke-linecap="round" opacity="0.5">
+    <line x1="430" y1="-140" x2="430" y2="-140"/>
+  </g>
+
+  <!-- small energy sparks near dryer to hint high consumption -->
+  <g fill="#B85C38">
+    <path d="M700 130 l10 -25 l-8 2 l10 -22 l-4 20 l7 -2 z" transform="translate(0,10) scale(0.9)"/>
+  </g>
+
+  <!-- decorative small dots for balance -->
+  <circle cx="1080" cy="150" r="8" fill="#D9A441"/>
+  <circle cx="1120" cy="200" r="5" fill="#B85C38"/>
+  <circle cx="60" cy="120" r="6" fill="#5C6E58"/>
+  <circle cx="100" cy="90" r="4" fill="#D9A441"/>
+</svg>

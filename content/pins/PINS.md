@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 37개 준비됨 · API 자동 게시 완료 11개
+핀 38개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -65,7 +65,7 @@
 
 ## 보드: Energy & Utility Savings
 
-(7개)
+(8개)
 
 - [x] **How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work**
   - 이미지: `content/pins/cut-electric-bill-no-cost-habits.png`
@@ -101,6 +101,11 @@
   - 이미지: `content/pins/closing-vents-unused-rooms-energy.png`
   - 링크: https://peterpb.blogspot.com/2026/08/does-closing-vents-in-unused-rooms-save.html
   - 설명: Closing vents in unused rooms usually backfires with forced-air systems. Here's the checklist to know when it helps, when it hurts, and what to do instead.
+
+- [ ] **Which Appliance in Your House Is Quietly Draining the Most Electricity?**
+  - 이미지: `content/pins/appliance-using-most-electricity.png`
+  - 링크: https://peterpb.blogspot.com/2026/08/which-appliance-in-your-house-is.html
+  - 설명: The biggest electricity users are usually heating and cooling appliances, not electronics. Here's a checklist to find your home's real energy hogs.
 
 ## 보드: Home Maintenance & Repairs
 

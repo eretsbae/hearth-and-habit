@@ -315,7 +315,9 @@ topics:
   blogger_post_id: '2800411118827623395'
 - title: Why Does My Fridge Have a Smell I Can't Find the Source Of?
   pillar: kitchen-habits
-  status: pending
+  status: published
+  published_slug: fridge-smell-cant-find-source
+  quality_score: 84
 - title: How Long Do Leftovers Really Last Before They Stop Being Safe?
   pillar: kitchen-habits
   status: pending

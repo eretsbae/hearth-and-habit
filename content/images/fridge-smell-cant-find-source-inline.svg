@@ -1,0 +1,92 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- Decorative background circles -->
+  <circle cx="1080" cy="90" r="70" fill="#E4C7B2" opacity="0.5"/>
+  <circle cx="90" cy="540" r="90" fill="#D9A441" opacity="0.2"/>
+
+  <!-- Fridge outer body -->
+  <rect x="330" y="70" width="420" height="490" rx="18" fill="#E4C7B2"/>
+  <rect x="330" y="70" width="420" height="490" rx="18" fill="none" stroke="#2E2A24" stroke-width="4"/>
+
+  <!-- Freezer section divider -->
+  <line x1="330" y1="210" x2="750" y2="210" stroke="#2E2A24" stroke-width="4"/>
+
+  <!-- Door gasket zone (top door edge) -->
+  <rect x="345" y="85" width="390" height="110" rx="10" fill="#F6EFE6"/>
+  <rect x="345" y="85" width="390" height="110" rx="10" fill="none" stroke="#5C6E58" stroke-width="3" stroke-dasharray="6 5"/>
+  <!-- gasket rubber seal ring -->
+  <rect x="360" y="100" width="360" height="80" rx="14" fill="none" stroke="#5C6E58" stroke-width="10"/>
+  <rect x="378" y="118" width="324" height="44" rx="10" fill="#B85C38" opacity="0.85"/>
+  <!-- little smell wisps at gasket -->
+  <circle cx="400" cy="95" r="5" fill="#5C6E58" opacity="0.6"/>
+  <circle cx="415" cy="82" r="4" fill="#5C6E58" opacity="0.5"/>
+  <circle cx="690" cy="95" r="5" fill="#5C6E58" opacity="0.6"/>
+
+  <!-- Main fridge body interior shelves -->
+  <rect x="345" y="225" width="390" height="120" rx="6" fill="#F6EFE6"/>
+  <line x1="345" y1="280" x2="735" y2="280" stroke="#2E2A24" stroke-width="2" opacity="0.4"/>
+
+  <!-- Drawer track zone -->
+  <rect x="345" y="355" width="390" height="90" rx="10" fill="#F6EFE6"/>
+  <rect x="345" y="355" width="390" height="90" rx="10" fill="none" stroke="#D9A441" stroke-width="3" stroke-dasharray="6 5"/>
+  <!-- drawer -->
+  <rect x="365" y="368" width="350" height="60" rx="8" fill="#D9A441" opacity="0.8"/>
+  <rect x="365" y="368" width="350" height="14" rx="6" fill="#B85C38"/>
+  <!-- track rails -->
+  <rect x="360" y="425" width="360" height="8" rx="4" fill="#5C6E58"/>
+  <circle cx="380" cy="429" r="4" fill="#2E2A24"/>
+  <circle cx="700" cy="429" r="4" fill="#2E2A24"/>
+  <!-- crumbs / hidden gunk -->
+  <circle cx="500" cy="435" r="3" fill="#B85C38"/>
+  <circle cx="520" cy="438" r="2.5" fill="#2E2A24"/>
+  <circle cx="560" cy="434" r="3" fill="#5C6E58"/>
+
+  <!-- Drip pan zone (bottom) -->
+  <rect x="345" y="465" width="390" height="80" rx="10" fill="#F6EFE6"/>
+  <rect x="345" y="465" width="390" height="80" rx="10" fill="none" stroke="#B85C38" stroke-width="3" stroke-dasharray="6 5"/>
+  <!-- pan shape -->
+  <path d="M370 480 h340 v20 q0 30 -30 30 h-280 q-30 0 -30 -30 z" fill="#5C6E58" opacity="0.7"/>
+  <!-- water droplets in pan -->
+  <ellipse cx="480" cy="510" rx="30" ry="8" fill="#2E2A24" opacity="0.3"/>
+  <ellipse cx="560" cy="515" rx="40" ry="9" fill="#2E2A24" opacity="0.25"/>
+  <ellipse cx="640" cy="508" rx="25" ry="7" fill="#2E2A24" opacity="0.3"/>
+
+  <!-- Fridge handle -->
+  <rect x="716" y="230" width="14" height="90" rx="7" fill="#2E2A24"/>
+
+  <!-- Feet -->
+  <rect x="360" y="558" width="30" height="14" rx="4" fill="#2E2A24"/>
+  <rect x="690" y="558" width="30" height="14" rx="4" fill="#2E2A24"/>
+
+  <!-- Callout leader lines pointing to zones (label-free) -->
+  <circle cx="900" cy="140" r="10" fill="none" stroke="#5C6E58" stroke-width="3"/>
+  <path d="M735 140 h150" stroke="#5C6E58" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <circle cx="900" cy="400" r="10" fill="none" stroke="#D9A441" stroke-width="3"/>
+  <path d="M735 400 h150" stroke="#D9A441" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <circle cx="900" cy="505" r="10" fill="none" stroke="#B85C38" stroke-width="3"/>
+  <path d="M735 505 h150" stroke="#B85C38" stroke-width="2" stroke-dasharray="4 4"/>
+
+  <!-- small floating scent motifs near callouts -->
+  <g opacity="0.7">
+    <circle cx="950" cy="120" r="5" fill="#5C6E58"/>
+    <circle cx="965" cy="105" r="4" fill="#5C6E58"/>
+    <circle cx="940" cy="100" r="3" fill="#5C6E58"/>
+  </g>
+  <g opacity="0.7">
+    <circle cx="950" cy="380" r="5" fill="#D9A441"/>
+    <circle cx="965" cy="365" r="4" fill="#D9A441"/>
+    <circle cx="940" cy="360" r="3" fill="#D9A441"/>
+  </g>
+  <g opacity="0.7">
+    <circle cx="950" cy="485" r="5" fill="#B85C38"/>
+    <circle cx="965" cy="470" r="4" fill="#B85C38"/>
+    <circle cx="940" cy="465" r="3" fill="#B85C38"/>
+  </g>
+
+  <!-- subtle top magnifying flourish -->
+  <circle cx="150" cy="120" r="46" fill="none" stroke="#2E2A24" stroke-width="6" opacity="0.15"/>
+  <line x1="184" y1="154" x2="215" y2="185" stroke="#2E2A24" stroke-width="8" stroke-linecap="round" opacity="0.15"/>
+</svg>

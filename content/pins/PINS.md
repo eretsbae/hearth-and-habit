@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 38개 준비됨 · API 자동 게시 완료 11개
+핀 39개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -153,7 +153,7 @@
 
 ## 보드: Kitchen & Food Habits
 
-(7개)
+(8개)
 
 - [ ] **The 30-Minute Sunday Meal Plan That Ends the 'What's for Dinner?' Spiral**
   - 이미지: `content/pins/30-minute-sunday-meal-plan.png`
@@ -189,6 +189,11 @@
   - 이미지: `content/pins/cast-iron-in-dishwasher-once.png`
   - 링크: https://peterpb.blogspot.com/2026/08/what-happens-if-you-put-cast-iron-in.html
   - 설명: One cycle won't ruin cast iron, but it will strip the seasoning. Here's what actually happens, why the myths are wrong, and how to fix it fast.
+
+- [ ] **Why Does My Fridge Smell But I Can't Find the Source?**
+  - 이미지: `content/pins/fridge-smell-cant-find-source.png`
+  - 링크: https://peterpb.blogspot.com/2026/08/why-does-my-fridge-smell-but-i-cant.html
+  - 설명: A hidden fridge smell is usually trapped in porous surfaces or a spot you're not checking. Here's what's really causing it and how to fix it for good.
 
 ## 보드: Yard & Outdoor Basics
 

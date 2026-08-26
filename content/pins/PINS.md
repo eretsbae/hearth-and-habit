@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 39개 준비됨 · API 자동 게시 완료 11개
+핀 40개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -197,7 +197,7 @@
 
 ## 보드: Yard & Outdoor Basics
 
-(7개)
+(8개)
 
 - [ ] **Lawn Care for People Who Don't Care About Lawns: The Bare Minimum That Actually Works**
   - 이미지: `content/pins/low-effort-lawn-care-bare-minimum.png`
@@ -233,3 +233,8 @@
   - 이미지: `content/pins/mushrooms-growing-in-lawn-after-rain.png`
   - 링크: https://peterpb.blogspot.com/2026/08/why-are-mushrooms-suddenly-growing-all.html
   - 설명: Mushrooms after rain mean your soil has healthy fungi feeding on decaying organic matter underground. Here's when to ignore them and when to act.
+
+- [ ] **Why Does Water Pool in One Spot in My Yard Every Time It Rains?**
+  - 이미지: `content/pins/why-does-water-pool-in-one-spot-in-yard.png`
+  - 링크: https://peterpb.blogspot.com/2026/08/why-does-water-pool-in-one-spot-in-my.html
+  - 설명: Usually it's a low spot, compacted soil, or a grading problem near your house. Here's how to identify which one you have and fix it.

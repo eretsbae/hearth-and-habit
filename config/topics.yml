@@ -354,7 +354,9 @@ topics:
   blogger_post_id: '1413287008714781218'
 - title: Why Does Water Pool in One Spot in My Yard Every Time It Rains?
   pillar: yard-outdoor
-  status: pending
+  status: published
+  published_slug: why-does-water-pool-in-one-spot-in-yard
+  quality_score: 82
 - title: Why Does Part of My Lawn Stay Brown Even Though I Water It?
   pillar: yard-outdoor
   status: published

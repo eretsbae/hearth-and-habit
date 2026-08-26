@@ -1,0 +1,83 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- lawn base -->
+  <rect x="0" y="0" width="1200" height="630" fill="#5C6E58"/>
+
+  <!-- subtle lawn texture strips (mowing pattern) -->
+  <rect x="0" y="0" width="1200" height="90" fill="#63765E"/>
+  <rect x="0" y="180" width="1200" height="90" fill="#63765E"/>
+  <rect x="0" y="360" width="1200" height="90" fill="#63765E"/>
+  <rect x="0" y="540" width="1200" height="90" fill="#63765E"/>
+
+  <!-- house corner top right (overhead angle) -->
+  <polygon points="1200,0 1200,260 940,120 940,0" fill="#E4C7B2"/>
+  <polygon points="940,120 1200,260 1200,340 940,200" fill="#D9A441"/>
+
+  <!-- foundation edge -->
+  <polygon points="940,0 940,200 900,220 900,0" fill="#C9AC91"/>
+
+  <!-- downspout -->
+  <rect x="895" y="60" width="34" height="170" rx="6" fill="#B85C38"/>
+  <rect x="895" y="60" width="34" height="20" rx="4" fill="#9c4a2c"/>
+  <rect x="890" y="220" width="60" height="26" rx="8" fill="#B85C38"/>
+
+  <!-- water streaming from downspout -->
+  <path d="M905 246 Q900 280 890 310" stroke="#8FAFC8" stroke-width="10" fill="none" opacity="0.7" stroke-linecap="round"/>
+
+  <!-- low spot depression shading -->
+  <ellipse cx="800" cy="410" rx="260" ry="150" fill="#4d5c4a" opacity="0.55"/>
+  <ellipse cx="800" cy="420" rx="200" ry="115" fill="#465343" opacity="0.5"/>
+
+  <!-- main puddle -->
+  <ellipse cx="790" cy="430" rx="150" ry="82" fill="#8FAFC8"/>
+  <ellipse cx="790" cy="430" rx="150" ry="82" fill="#7DA0BE" opacity="0.4"/>
+
+  <!-- puddle highlight reflections -->
+  <ellipse cx="740" cy="405" rx="45" ry="14" fill="#C9DDEA" opacity="0.7"/>
+  <ellipse cx="840" cy="450" rx="30" ry="9" fill="#C9DDEA" opacity="0.5"/>
+  <ellipse cx="790" cy="470" rx="20" ry="6" fill="#F6EFE6" opacity="0.35"/>
+
+  <!-- ripple rings -->
+  <ellipse cx="880" cy="400" rx="18" ry="10" fill="none" stroke="#F6EFE6" stroke-width="2" opacity="0.4"/>
+  <ellipse cx="880" cy="400" rx="30" ry="16" fill="none" stroke="#F6EFE6" stroke-width="2" opacity="0.25"/>
+
+  <!-- damp soil ring around puddle -->
+  <ellipse cx="790" cy="430" rx="185" ry="102" fill="none" stroke="#3E4A3B" stroke-width="14" opacity="0.35"/>
+
+  <!-- scattered grass tuft clusters -->
+  <g fill="#4B5A47" opacity="0.6">
+    <ellipse cx="150" cy="120" rx="22" ry="10"/>
+    <ellipse cx="300" cy="500" rx="26" ry="11"/>
+    <ellipse cx="120" cy="480" rx="20" ry="9"/>
+    <ellipse cx="500" cy="90" rx="24" ry="10"/>
+    <ellipse cx="640" cy="540" rx="22" ry="9"/>
+    <ellipse cx="1050" cy="470" rx="24" ry="10"/>
+    <ellipse cx="200" cy="300" rx="20" ry="9"/>
+    <ellipse cx="1000" cy="60" rx="18" ry="8"/>
+  </g>
+
+  <!-- small clover/leaf accents -->
+  <g fill="#D9A441" opacity="0.85">
+    <circle cx="180" cy="130" r="5"/>
+    <circle cx="320" cy="510" r="5"/>
+    <circle cx="520" cy="100" r="4"/>
+    <circle cx="1060" cy="480" r="4"/>
+  </g>
+
+  <!-- terracotta garden edging stones near house -->
+  <g fill="#B85C38">
+    <ellipse cx="960" cy="260" rx="16" ry="9"/>
+    <ellipse cx="1000" cy="275" rx="16" ry="9"/>
+    <ellipse cx="1040" cy="290" rx="16" ry="9"/>
+    <ellipse cx="1080" cy="305" rx="16" ry="9"/>
+  </g>
+
+  <!-- flow path lines showing water direction toward puddle -->
+  <path d="M900 250 Q850 300 800 350" stroke="#8FAFC8" stroke-width="4" fill="none" opacity="0.4" stroke-dasharray="10 10"/>
+  <path d="M910 260 Q880 320 820 370" stroke="#8FAFC8" stroke-width="4" fill="none" opacity="0.3" stroke-dasharray="10 10"/>
+
+  <!-- small stray leaves floating in puddle -->
+  <ellipse cx="760" cy="415" rx="7" ry="4" fill="#5C6E58" opacity="0.8"/>
+  <ellipse cx="830" cy="445" rx="6" ry="3" fill="#B85C38" opacity="0.7"/>
+</svg>

@@ -187,7 +187,9 @@ topics:
   blogger_post_id: '99500692492896163'
 - title: Why Do My Pipes Make a Banging Noise When I Turn Off the Faucet?
   pillar: home-maintenance
-  status: pending
+  status: published
+  published_slug: pipes-banging-noise-turn-off-faucet
+  quality_score: 84
 - title: How Do I Know If a Repair Is Actually Worth Calling a Pro For?
   pillar: home-maintenance
   status: pending

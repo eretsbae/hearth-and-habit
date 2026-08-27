@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 40개 준비됨 · API 자동 게시 완료 11개
+핀 41개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -109,7 +109,7 @@
 
 ## 보드: Home Maintenance & Repairs
 
-(8개)
+(9개)
 
 - [x] **Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -150,6 +150,11 @@
   - 이미지: `content/pins/furnace-filter-turns-gray-in-two-weeks.png`
   - 링크: https://peterpb.blogspot.com/2026/08/furnace-filter-turns-gray-in-two-weeks.html
   - 설명: A furnace filter that grays fast usually means high dust load, a leaky duct, or a filter that's too thin. Here's how to find the cause, step by step.
+
+- [ ] **Why Do My Pipes Bang When I Turn Off the Faucet?**
+  - 이미지: `content/pins/pipes-banging-noise-turn-off-faucet.png`
+  - 링크: https://peterpb.blogspot.com/2026/08/why-do-my-pipes-bang-when-i-turn-off.html
+  - 설명: That bang is usually water hammer, a pressure shockwave from valves closing fast. Here's how to confirm it and fix it, step by step.
 
 ## 보드: Kitchen & Food Habits
 

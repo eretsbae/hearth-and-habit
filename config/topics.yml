@@ -232,7 +232,9 @@ topics:
   blogger_post_id: '3807829291445731801'
 - title: Why Does My House Get Messy Again Two Days After I Clean It?
   pillar: cleaning-organization
-  status: pending
+  status: published
+  published_slug: why-house-gets-messy-again-after-cleaning
+  quality_score: 82
 - title: Is It Worth Buying Separate Cleaners for Every Surface?
   pillar: cleaning-organization
   status: pending

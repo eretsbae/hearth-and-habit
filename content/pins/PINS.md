@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 41개 준비됨 · API 자동 게시 완료 11개
+핀 42개 준비됨 · API 자동 게시 완료 11개
 
 ## 수동으로 올리는 법
 
@@ -21,7 +21,7 @@
 
 ## 보드: Cleaning & Organization
 
-(8개)
+(9개)
 
 - [x] **The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control**
   - 이미지: `content/pins/15-minute-weekly-home-reset.png`
@@ -62,6 +62,11 @@
   - 이미지: `content/pins/get-rid-of-things-you-spent-money-on.png`
   - 링크: https://peterpb.blogspot.com/2026/08/how-to-get-rid-of-things-you-spent-good.html
   - 설명: Struggling to declutter expensive items? Compare your real options — resell, return, donate, repurpose — and the math that makes letting go easier.
+
+- [ ] **Why Does My House Get Messy Again Two Days After I Clean It?**
+  - 이미지: `content/pins/why-house-gets-messy-again-after-cleaning.png`
+  - 링크: https://peterpb.blogspot.com/2026/08/why-does-my-house-get-messy-again-two.html
+  - 설명: Your house doesn't have a mess problem, it has an input problem. Compare the real fixes: better systems, less stuff, or a faster reset routine.
 
 ## 보드: Energy & Utility Savings
 

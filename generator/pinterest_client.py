@@ -6,9 +6,15 @@ are real crawlable links AND send actual readers, and Pinterest ranks pins
 without caring about domain authority — the one channel a three-week-old
 blogspot can compete in today.
 
-Access model: a Pinterest developer app starts in "Trial access", which is
-limited to the app owner's own account. That is exactly this use case
-(posting our own pins to our own boards), so no app review is needed.
+Access model: "Trial access" limits an app to the app owner's own account,
+which is exactly this use case (posting our own pins to our own boards) --
+so no *standard* access review is needed. But trial access is itself
+granted by review, not automatic on app creation, and Pinterest's queue has
+run long (multi-week waits are common; ours has sat pending for two months
+as of 2026-08). While an app is pending, the portal does not reveal the app
+secret, so the OAuth flow in pinterest_auth.py cannot even be started.
+See docs/PINTEREST_SETUP.md for how to escalate and how to keep the channel
+running by hand in the meantime.
 
 Token storage follows the same encrypted-file pattern as Kakao — see
 token_store.py for why repository secrets alone don't work.

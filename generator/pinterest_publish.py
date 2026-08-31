@@ -52,6 +52,20 @@ def save_yaml(path: Path, data: dict) -> None:
         yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False, width=100)
 
 
+def step_summary(markdown: str) -> None:
+    """Append to the GitHub Actions run summary when running on a runner.
+
+    A skipped run still reports as a green check, which is exactly how four
+    weeks of no-op runs went unnoticed. Anything that makes a run a no-op
+    belongs on the run's own page, not only in the step log nobody opens.
+    """
+    path = os.environ.get("GITHUB_STEP_SUMMARY")
+    if not path:
+        return
+    with open(path, "a", encoding="utf-8") as f:
+        f.write(markdown.rstrip() + "\n")
+
+
 def pin_image_url(cfg: dict, slug: str) -> str:
     gh = cfg["github"]
     return (f"https://raw.githubusercontent.com/{gh['owner']}/{gh['repo']}/"
@@ -141,15 +155,32 @@ def main() -> int:
     app_secret = os.environ.get("PINTEREST_APP_SECRET", "").strip()
     passphrase = os.environ.get("PINTEREST_TOKEN_PASSPHRASE", "").strip()
 
-    # Skip quietly rather than failing when the app isn't set up yet. This
-    # workflow is on a daily cron and Pinterest developer apps sit in "trial
-    # access pending" for a week or more, so a hard error here just produces
-    # a daily failure notification for a state that is expected and fine.
-    # Mirrors how the weekly report handles an unconfigured KakaoTalk.
+    # Skip without failing when the app isn't set up yet: this workflow is on
+    # a daily cron and Pinterest apps sit in "trial access pending" for weeks,
+    # so a hard error here is a daily failure notification for a state that is
+    # expected. Skip loudly, though — the first version of this was silent, and
+    # a month of green-but-no-op runs went unnoticed because a skipped run is
+    # indistinguishable from a working one on the Actions list.
     if not (app_id and app_secret and passphrase and pc.TOKEN_FILE.exists()):
-        print("Pinterest not configured — skipping send. To enable, set "
-              "PINTEREST_APP_ID / PINTEREST_APP_SECRET / PINTEREST_TOKEN_PASSPHRASE "
-              "and commit .secrets/pinterest_token.enc (docs/PINTEREST_SETUP.md).")
+        missing = [name for name, present in (
+            ("PINTEREST_APP_ID", app_id),
+            ("PINTEREST_APP_SECRET", app_secret),
+            ("PINTEREST_TOKEN_PASSPHRASE", passphrase),
+            (".secrets/pinterest_token.enc", pc.TOKEN_FILE.exists()),
+        ) if not present]
+        summary = (f"Pinterest not configured — skipping send; {len(todo)} post(s) "
+                   f"waiting. Missing: {', '.join(missing)}.")
+        print(summary + " See docs/PINTEREST_SETUP.md.")
+        print(f"::warning::{summary}")
+        step_summary(
+            "## ⚠️ Pinterest 미설정 — 핀을 하나도 올리지 않았습니다\n\n"
+            f"- 대기 중인 글: **{len(todo)}편**\n"
+            "- 빠진 항목: " + ", ".join(f"`{m}`" for m in missing) + "\n"
+            "- 설정 방법: `docs/PINTEREST_SETUP.md`\n\n"
+            "앱이 아직 trial access 승인 대기 중이라면 이 상태가 정상입니다. "
+            "그동안은 `content/pins/PINS.md`를 보고 수동으로 올리고, "
+            "`pinterest_publish.py --mark-pinned` 로 기록하세요.\n"
+        )
         return 0
 
     stored = pc.load_tokens(passphrase)
@@ -189,6 +220,11 @@ def main() -> int:
     if pinned_any:
         remaining = len(todo) - len(batch)
         print(f"Done. {remaining} post(s) still queued for future runs.")
+        step_summary(
+            f"## 📌 핀 {len(batch)}개 게시\n\n"
+            + "".join(f"- {t['title']}\n" for t in batch)
+            + f"\n남은 대기: **{remaining}편**\n"
+        )
     return 0
 
 

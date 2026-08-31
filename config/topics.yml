@@ -330,7 +330,9 @@ topics:
   blogger_post_id: '8272820989671949864'
 - title: How Long Do Leftovers Really Last Before They Stop Being Safe?
   pillar: kitchen-habits
-  status: pending
+  status: published
+  published_slug: how-long-do-leftovers-really-last
+  quality_score: 83
 - title: Why Are Mushrooms Suddenly Growing All Over My Lawn After Rain?
   pillar: yard-outdoor
   status: published

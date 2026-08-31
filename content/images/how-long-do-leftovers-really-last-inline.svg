@@ -1,0 +1,80 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft background shapes -->
+  <circle cx="150" cy="100" r="90" fill="#E4C7B2" opacity="0.5"/>
+  <circle cx="1080" cy="520" r="120" fill="#5C6E58" opacity="0.12"/>
+
+  <!-- ground shelf line -->
+  <rect x="80" y="480" width="1040" height="10" fill="#E4C7B2"/>
+
+  <!-- LEFT CONTAINER (with tape/date, fresh) -->
+  <g>
+    <!-- container body -->
+    <rect x="220" y="260" width="260" height="220" rx="18" fill="#F6EFE6" stroke="#2E2A24" stroke-width="4"/>
+    <!-- lid -->
+    <rect x="205" y="230" width="290" height="45" rx="14" fill="#5C6E58"/>
+    <rect x="205" y="230" width="290" height="45" rx="14" fill="none" stroke="#2E2A24" stroke-width="3"/>
+    <!-- food inside -->
+    <path d="M235 300 Q350 275 465 300 L465 460 Q350 480 235 460 Z" fill="#B85C38"/>
+    <circle cx="290" cy="330" r="14" fill="#D9A441"/>
+    <circle cx="350" cy="345" r="10" fill="#5C6E58"/>
+    <circle cx="410" cy="325" r="12" fill="#D9A441"/>
+    <circle cx="330" cy="400" r="9" fill="#5C6E58"/>
+    <circle cx="400" cy="410" r="11" fill="#D9A441"/>
+
+    <!-- masking tape label -->
+    <g transform="rotate(-6 350 220)">
+      <rect x="290" y="190" width="140" height="55" rx="4" fill="#D9A441" opacity="0.9"/>
+      <rect x="290" y="190" width="140" height="55" rx="4" fill="none" stroke="#B85C38" stroke-width="2" opacity="0.5"/>
+      <!-- date marks -->
+      <rect x="308" y="210" width="34" height="6" rx="3" fill="#2E2A24"/>
+      <rect x="350" y="210" width="24" height="6" rx="3" fill="#2E2A24"/>
+      <rect x="382" y="210" width="30" height="6" rx="3" fill="#2E2A24"/>
+      <rect x="318" y="225" width="80" height="5" rx="2.5" fill="#2E2A24" opacity="0.6"/>
+    </g>
+
+    <!-- small check icon indicating freshness -->
+    <circle cx="465" cy="255" r="20" fill="#5C6E58"/>
+    <path d="M456 255 L463 262 L475 247" stroke="#F6EFE6" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- RIGHT CONTAINER (no label, spoiled) -->
+  <g>
+    <rect x="720" y="260" width="260" height="220" rx="18" fill="#F6EFE6" stroke="#2E2A24" stroke-width="4"/>
+    <!-- lid slightly askew -->
+    <rect x="710" y="228" width="290" height="45" rx="14" fill="#5C6E58" transform="rotate(-3 855 250)"/>
+    <rect x="710" y="228" width="290" height="45" rx="14" fill="none" stroke="#2E2A24" stroke-width="3" transform="rotate(-3 855 250)"/>
+
+    <!-- food inside, murky/spoiled tones -->
+    <path d="M735 305 Q850 280 965 305 L965 460 Q850 480 735 460 Z" fill="#5C6E58" opacity="0.85"/>
+    <circle cx="790" cy="335" r="16" fill="#2E2A24" opacity="0.6"/>
+    <circle cx="850" cy="350" r="12" fill="#2E2A24" opacity="0.5"/>
+    <circle cx="910" cy="330" r="14" fill="#2E2A24" opacity="0.55"/>
+    <circle cx="830" cy="405" r="10" fill="#2E2A24" opacity="0.5"/>
+    <circle cx="900" cy="415" r="13" fill="#2E2A24" opacity="0.6"/>
+
+    <!-- fuzzy mold-ish dots -->
+    <circle cx="800" cy="320" r="4" fill="#B85C38" opacity="0.6"/>
+    <circle cx="880" cy="360" r="3.5" fill="#B85C38" opacity="0.6"/>
+    <circle cx="930" cy="390" r="4" fill="#B85C38" opacity="0.6"/>
+
+    <!-- faint squiggly smell lines -->
+    <path d="M760 235 Q770 220 760 205 Q750 190 760 175" stroke="#5C6E58" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.5"/>
+    <path d="M960 235 Q970 220 960 205 Q950 190 960 175" stroke="#5C6E58" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.5"/>
+
+    <!-- warning icon -->
+    <g>
+      <polygon points="965,235 985,270 945,270" fill="#B85C38"/>
+      <rect x="962" y="245" width="6" height="14" fill="#F6EFE6"/>
+      <circle cx="965" cy="263" r="3" fill="#F6EFE6"/>
+    </g>
+  </g>
+
+  <!-- subtle divider between the two scenes -->
+  <rect x="595" y="200" width="4" height="300" fill="#E4C7B2" opacity="0.6"/>
+
+  <!-- decorative small leaf accents -->
+  <path d="M120 560 Q140 540 160 560 Q140 575 120 560 Z" fill="#5C6E58"/>
+  <path d="M1050 590 Q1070 570 1090 590 Q1070 605 1050 590 Z" fill="#B85C38"/>
+</svg>

@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 43개 준비됨 · API 자동 게시 완료 11개
+핀 44개 준비됨 · API 자동 게시 완료 15개
 
 ## 수동으로 올리는 법
 
@@ -38,7 +38,7 @@
   - 링크: https://peterpb.blogspot.com/2026/07/how-to-declutter-when-youre-overwhelmed.html
   - 설명: Overwhelmed by clutter? Skip the whole-house overhaul. This checklist shows you how to start with one drawer and actually keep going.
 
-- [ ] **Cleaning Supplies You Actually Need (and 10 You Can Skip)**
+- [x] **Cleaning Supplies You Actually Need (and 10 You Can Skip)**
   - 이미지: `content/pins/cleaning-supplies-you-actually-need.png`
   - 링크: https://peterpb.blogspot.com/2026/07/cleaning-supplies-you-actually-need-and.html
   - 설명: Under-sink clutter isn't cleaning power. Here's the small, real list of supplies that work, and 10 popular products you can skip entirely.
@@ -92,7 +92,7 @@
   - 링크: https://peterpb.blogspot.com/2026/07/does-turning-ac-off-while-youre-at-work.html
   - 설명: Yes, but not always as much as you'd think. Here's the real math on turning your AC off during work hours, plus when a setback beats shutting it off entirely.
 
-- [ ] **Why Did My Electric Bill Double With No Change in How I Use Power?**
+- [x] **Why Did My Electric Bill Double With No Change in How I Use Power?**
   - 이미지: `content/pins/electric-bill-doubled-no-change-in-usage.png`
   - 링크: https://peterpb.blogspot.com/2026/08/why-did-my-electric-bill-double-with-no.html
   - 설명: Your bill likely jumped from rate hikes, seasonal weather, a billing estimate correction, or a hidden appliance problem. Here's how to find which one.
@@ -114,7 +114,7 @@
 
 ## 보드: Home Maintenance & Repairs
 
-(9개)
+(10개)
 
 - [x] **Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -131,7 +131,7 @@
   - 링크: https://peterpb.blogspot.com/2026/07/how-to-fix-running-toilet-in-15-minutes.html
   - 설명: A running toilet almost always comes down to one of four cheap parts. Here's how to diagnose the cause and fix it yourself in about 15 minutes.
 
-- [ ] **Caulking 101: Where to Caulk, What to Buy, and How to Get a Clean Line**
+- [x] **Caulking 101: Where to Caulk, What to Buy, and How to Get a Clean Line**
   - 이미지: `content/pins/caulking-101-how-to-caulk.png`
   - 링크: https://peterpb.blogspot.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html
   - 설명: Learn exactly where to caulk, which caulk to buy for each spot, and the simple technique that gets a straight, clean bead every time.
@@ -160,6 +160,11 @@
   - 이미지: `content/pins/pipes-banging-noise-turn-off-faucet.png`
   - 링크: https://peterpb.blogspot.com/2026/08/why-do-my-pipes-bang-when-i-turn-off.html
   - 설명: That bang is usually water hammer, a pressure shockwave from valves closing fast. Here's how to confirm it and fix it, step by step.
+
+- [ ] **Why Is One Room in My House Always Colder Than the Rest?**
+  - 이미지: `content/pins/why-is-one-room-always-colder-than-rest.png`
+  - 링크: https://peterpb.blogspot.com/2026/09/why-is-one-room-in-my-house-always.html
+  - 설명: Usually it's airflow, not insulation. Here's how to tell what's really causing your cold room and which fixes actually work versus waste money.
 
 ## 보드: Kitchen & Food Habits
 
@@ -214,7 +219,7 @@
 
 (8개)
 
-- [ ] **Lawn Care for People Who Don't Care About Lawns: The Bare Minimum That Actually Works**
+- [x] **Lawn Care for People Who Don't Care About Lawns: The Bare Minimum That Actually Works**
   - 이미지: `content/pins/low-effort-lawn-care-bare-minimum.png`
   - 링크: https://peterpb.blogspot.com/2026/07/lawn-care-for-people-who-dont-care.html
   - 설명: Don't love yard work? Here's the troubleshooting guide to a decent-looking lawn with minimal effort — organized by whatever problem you're actually facing.

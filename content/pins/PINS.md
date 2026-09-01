@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 43개 준비됨 · 게시 완료 15개(수동 15 · API 0) · 대기 28개
+핀 44개 준비됨 · 게시 완료 15개(수동 15 · API 0) · 대기 29개
 
 ## 수동으로 올리는 법
 
@@ -119,7 +119,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Home Maintenance & Repairs
 
-(9개)
+(10개)
 
 - [x] **Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -165,6 +165,11 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 이미지: `content/pins/pipes-banging-noise-turn-off-faucet.png`
   - 링크: https://peterpb.blogspot.com/2026/08/why-do-my-pipes-bang-when-i-turn-off.html
   - 설명: That bang is usually water hammer, a pressure shockwave from valves closing fast. Here's how to confirm it and fix it, step by step.
+
+- [ ] **Why Is One Room in My House Always Colder Than the Rest?**
+  - 이미지: `content/pins/why-is-one-room-always-colder-than-rest.png`
+  - 링크: https://peterpb.blogspot.com/2026/09/why-is-one-room-in-my-house-always.html
+  - 설명: Usually it's airflow, not insulation. Here's how to tell what's really causing your cold room and which fixes actually work versus waste money.
 
 ## 보드: Kitchen & Food Habits
 

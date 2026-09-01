@@ -170,11 +170,15 @@ topics:
   blogger_post_id: '523214778718667147'
 - title: Why Is One Room in My House Always Colder Than the Rest?
   pillar: home-maintenance
-  status: pending
+  status: published
   season_months:
   - 10
   - 11
   - 12
+  published_slug: why-is-one-room-always-colder-than-rest
+  quality_score: 80
+  blogger_url: https://peterpb.blogspot.com/2026/09/why-is-one-room-in-my-house-always.html
+  blogger_post_id: '2865993573681148622'
 - title: Can You Caulk Over Old Caulk, or Do You Have to Remove It First?
   pillar: home-maintenance
   status: published
@@ -386,3 +390,33 @@ topics:
   quality_score: 85
   blogger_url: https://peterpb.blogspot.com/2026/07/why-does-part-of-my-lawn-stay-brown.html
   blogger_post_id: '4695721979522329912'
+- title: Why Does My Deck Feel Spongy in Some Spots But Not Others?
+  pillar: yard-outdoor
+  status: pending
+- title: Why Does My Garbage Disposal Hum But Not Spin?
+  pillar: home-maintenance
+  status: pending
+- title: Is It Normal for a New LED Bulb to Flicker With a Dimmer Switch?
+  pillar: home-maintenance
+  status: pending
+- title: Why Does My Basement Smell Musty Only in the Summer?
+  pillar: home-maintenance
+  status: pending
+- title: Why Does My Onion and Garlic Storage Keep Sprouting Indoors?
+  pillar: kitchen-habits
+  status: pending
+- title: Why Does My Cutting Board Warp After Washing It?
+  pillar: kitchen-habits
+  status: pending
+- title: Is It Cheaper to Air-Dry Dishes or Use the Dishwasher's Heated Dry?
+  pillar: energy-savings
+  status: pending
+- title: Why Does My Closet Smell Musty Even Though Everything Looks Clean?
+  pillar: cleaning-organization
+  status: pending
+- title: Why Do I Keep Losing the Same 15 Minutes to Finding Things Before I Leave the House?
+  pillar: cleaning-organization
+  status: pending
+- title: Why Does Grass Along the Sidewalk Die Every Winter but Grow Back Everywhere Else?
+  pillar: yard-outdoor
+  status: pending

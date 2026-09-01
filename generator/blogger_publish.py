@@ -406,15 +406,19 @@ def main() -> int:
         published_any = True
         touched_pillars.add(fm.get("pillar"))
         new_slugs.add(slug)
+        # Save after each post, not after the loop: if create_post raises on
+        # the next topic, the ones already live must stay recorded or the
+        # next run re-publishes them as duplicates. Same rule as
+        # pinterest_publish.py. Normally one post per run, but a backlog
+        # (e.g. after an auth outage) publishes several in one go.
+        save_yaml(TOPICS_CONFIG, topics_data)
 
     if published_any:
-        # Persist the new blogger_url/blogger_post_id records BEFORE the
-        # best-effort related-links refresh below. That refresh does one
-        # extra API round-trip per already-live post and is purely cosmetic;
-        # a transient network blip there must never cost us the record of
-        # posts we just created, or the next run will re-publish them as
-        # duplicates (to_publish selects on status=="published" and no
-        # blogger_url).
+        # Every post was saved as it was created (above); this is just the
+        # belt to that suspenders before the best-effort related-links
+        # refresh below, which is purely cosmetic and must never cost us a
+        # publish record (to_publish selects on status=="published" and no
+        # blogger_url, so a lost record means a duplicate next run).
         save_yaml(TOPICS_CONFIG, topics_data)
         if not args.draft:
             try:

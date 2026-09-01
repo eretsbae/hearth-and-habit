@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 43개 준비됨 · 게시 완료 11개(수동 11 · API 0) · 대기 32개
+핀 43개 준비됨 · 게시 완료 15개(수동 15 · API 0) · 대기 28개
 
 ## 수동으로 올리는 법
 
@@ -33,7 +33,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/07/the-15-minute-weekly-home-reset-simple.html
   - 설명: A realistic 15-minute weekly routine that keeps clutter, laundry, and mess from piling up — no deep cleaning, no perfectionism, just a system that sticks.
 
-- [ ] **The One-Touch Rule: The Single Habit That Ends Clutter Pile-Up**
+- [x] **The One-Touch Rule: The Single Habit That Ends Clutter Pile-Up**
   - 이미지: `content/pins/one-touch-rule-clutter.png`
   - 링크: https://peterpb.blogspot.com/2026/07/the-one-touch-rule-single-habit-that.html
   - 설명: The one-touch rule promises to stop clutter before it starts. Here's how it compares to other decluttering habits, and when to bend it.
@@ -87,7 +87,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/07/phantom-power-how-much-your-idle.html
   - 설명: Phantom power from idle electronics quietly adds to your electric bill. Here's a room-by-room checklist of the worst offenders and how to fix them.
 
-- [ ] **The Right Thermostat Settings for Every Season (and What They Really Save)**
+- [x] **The Right Thermostat Settings for Every Season (and What They Really Save)**
   - 이미지: `content/pins/thermostat-settings-by-season-savings.png`
   - 링크: https://peterpb.blogspot.com/2026/07/the-right-thermostat-settings-for-every.html
   - 설명: Cut through the thermostat myths. Here's what temperature actually saves money each season, and how much you can realistically expect to save.
@@ -126,7 +126,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/07/furnace-filter-basics-how-often-to.html
   - 설명: How often to change your furnace filter, what MERV ratings really mean, which filter to buy, and the step-by-step swap — a 5-minute task that protects a $5,000 system.
 
-- [ ] **10 Home Maintenance Tasks Most People Forget (Seasonal Checklist)**
+- [x] **10 Home Maintenance Tasks Most People Forget (Seasonal Checklist)**
   - 이미지: `content/pins/forgotten-home-maintenance-tasks-seasonal-checklist.png`
   - 링크: https://peterpb.blogspot.com/2026/07/10-home-maintenance-tasks-most-people.html
   - 설명: A step-by-step seasonal checklist covering the 10 home maintenance tasks homeowners overlook most, from gutters to water heaters, with when-to-call-a-pro tips.
@@ -170,7 +170,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 (9개)
 
-- [ ] **The 30-Minute Sunday Meal Plan That Ends the 'What's for Dinner?' Spiral**
+- [x] **The 30-Minute Sunday Meal Plan That Ends the 'What's for Dinner?' Spiral**
   - 이미지: `content/pins/30-minute-sunday-meal-plan.png`
   - 링크: https://peterpb.blogspot.com/2026/07/the-30-minute-sunday-meal-plan-that.html
   - 설명: Debunking common meal-planning myths with a realistic 30-minute Sunday system that actually survives a busy week — no color-coded spreadsheets required.

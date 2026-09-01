@@ -152,7 +152,17 @@ Energy & Utility Savings / Kitchen & Food Habits / Yard & Outdoor Basics).
    ```
 
    슬러그는 `PINS.md`의 이미지 경로(`content/pins/<슬러그>.png`)에서 그대로 가져오면
-   됩니다.
+   됩니다. `make_bulk_csv.py`는 배치마다 이 명령을 슬러그까지 채워서 출력하므로 그대로
+   복사하면 됩니다.
+
+   > **Windows PowerShell 주의**: `--mark-pinned`는 **반드시 한 줄로** 붙여넣으세요.
+   > bash의 줄바꿈 문자 `\`는 PowerShell에서 동작하지 않고(PowerShell은 백틱 `` ` ``),
+   > 그대로 인자로 넘어가 `ERROR: no published post found for: \`로 실패합니다. 이때
+   > 파일은 저장되지 않으니 다시 실행하면 됩니다. `&&`도 Windows PowerShell 5.1에서는
+   > 안 되므로 `git commit`과 `git push`를 각각 실행하세요.
+
+   기록을 빠뜨리면 승인 후 API가 같은 글을 다시 올립니다. 반대로 **업로드 전에** 찍으면
+   그 글이 큐에서 영영 빠지므로, 업로드가 끝난 뒤에 실행하세요.
 
 ## 문제 해결
 

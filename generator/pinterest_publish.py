@@ -114,25 +114,46 @@ def main() -> int:
     ap.add_argument("--mark-pinned", nargs="+", metavar="SLUG",
                     help="Record these slugs as already pinned by hand, so the "
                          "automation skips them and never double-posts")
+    ap.add_argument("--unmark-pinned", nargs="+", metavar="SLUG",
+                    help="Undo --mark-pinned, returning these slugs to the queue. "
+                         "For when a batch was recorded before its upload actually "
+                         "went through")
     args = ap.parse_args()
 
     cfg = load_yaml(SITE_CONFIG)
     topics_data = load_yaml(TOPICS_CONFIG)
     pillars = {p["slug"]: p for p in topics_data["pillars"]}
 
-    if args.mark_pinned:
-        wanted = set(args.mark_pinned)
-        marked = []
+    if args.mark_pinned or args.unmark_pinned:
+        marking = bool(args.mark_pinned)
+        wanted = set(args.mark_pinned or args.unmark_pinned)
+        hit, from_api = [], []
         for t in topics_data["topics"]:
-            if t.get("published_slug") in wanted:
+            if t.get("published_slug") not in wanted:
+                continue
+            if marking:
                 t["pinterest_pin_id"] = "manual"
-                marked.append(t["published_slug"])
-        missing = wanted - set(marked)
+            else:
+                # Clearing a real pin id would have the next run create a
+                # second pin for a post that already has one. Only bookkeeping
+                # entries ("manual") are safe to undo here.
+                if (t.get("pinterest_pin_id") or "manual") != "manual":
+                    from_api.append(t["published_slug"])
+                    continue
+                t.pop("pinterest_pin_id", None)
+            hit.append(t["published_slug"])
+        missing = wanted - set(hit) - set(from_api)
         if missing:
             raise SystemExit(f"ERROR: no published post found for: {', '.join(sorted(missing))}")
+        if from_api:
+            raise SystemExit(
+                "ERROR: these carry a real Pinterest pin id, not a manual record, so "
+                f"clearing them would double-post: {', '.join(sorted(from_api))}. "
+                "Delete the pin on Pinterest first if you really want it re-created.")
         save_yaml(TOPICS_CONFIG, topics_data)
-        for slug in marked:
-            print(f"marked as manually pinned: {slug}")
+        verb = "marked as manually pinned" if marking else "returned to the queue"
+        for slug in hit:
+            print(f"{verb}: {slug}")
         return 0
 
     todo = candidates(topics_data)

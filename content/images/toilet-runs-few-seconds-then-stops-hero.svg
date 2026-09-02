@@ -10,7 +10,7 @@
 
   <!-- water level -->
   <rect x="432" y="220" width="336" height="238" rx="10" fill="#5C6E58" opacity="0.18"/>
-  <line x1="432" y1="220" x2="768" y2="220" stroke="#5C6E58" stroke-width="3" stroke-dasharray="8 6" opacity="0.5"/
+  <line x1="432" y1="220" x2="768" y2="220" stroke="#5C6E58" stroke-width="3" stroke-dasharray="8 6" opacity="0.5"/>
 
   >
 

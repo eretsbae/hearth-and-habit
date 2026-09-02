@@ -18,8 +18,9 @@ on:
 permissions:
   contents: write
 
+# generate-and-publish / pinterest-publish와 같은 그룹 (이유는 generate-and-publish.yml 참고).
 concurrency:
-  group: weekly-report
+  group: repo-write
   cancel-in-progress: false
 
 jobs:
@@ -50,4 +51,5 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add data/ docs/reports/ .secrets/ 2>/dev/null || git add data/ docs/reports/
           git diff --cached --quiet || git commit -m "report: weekly traffic snapshot ($(date -u +%Y-%m-%d))"
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME"
           git push

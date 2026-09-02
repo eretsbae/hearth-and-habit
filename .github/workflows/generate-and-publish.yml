@@ -1,5 +1,5 @@
 # 자동 글 생성 + Blogger 발행 파이프라인
-# - 월/수/금 오전(북미 동부 기준)에 Claude로 새 글 1편(글 + SVG 일러스트)을
+# - 평일(월~금) 오전(북미 동부 기준)에 Claude로 새 글 1편(글 + SVG 일러스트)을
 #   생성해 이 리포에 커밋/푸시한 뒤, Blogger API로 peterpb.blogspot.com에
 #   자동 게시합니다.
 # - Actions 탭에서 "Run workflow"로 수동 실행도 가능합니다.
@@ -23,8 +23,13 @@ on:
 permissions:
   contents: write
 
+# main에 커밋하는 워크플로우 3개(이것, pinterest-publish, weekly-report)가 같은
+# 그룹을 씁니다. 그룹이 다르면 동시에 돌 수 있고, 둘 다 topics.yml을 통째로
+# 다시 쓰기 때문에 늦게 push하는 쪽이 non-fast-forward로 거부됩니다 — 그러면
+# Blogger/Pinterest에는 이미 올라갔는데 기록만 유실되어 다음 실행에서 중복
+# 게시됩니다. 같은 그룹 + push 직전 rebase로 그 경로를 막습니다.
 concurrency:
-  group: publish
+  group: repo-write
   cancel-in-progress: false
 
 jobs:
@@ -60,6 +65,7 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add content/ config/topics.yml
           git diff --cached --quiet || git commit -m "content: add scheduled post ($(date -u +%Y-%m-%d))"
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME"
           git push
 
       - name: Publish to Blogger
@@ -69,14 +75,27 @@ jobs:
           GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
         run: python generator/blogger_publish.py
 
+      # 발행 기록(blogger_url)은 핀 렌더 전에 먼저 커밋합니다. 글은 이미
+      # Blogger에 라이브인데 뒤 단계(핀 렌더)가 죽어서 이 기록이 안 남으면,
+      # 다음 실행이 같은 글을 다시 발행합니다(blogger_url 없는 글을 발행
+      # 대상으로 고르므로). 핀은 실패해도 다시 그리면 그만이지만 중복 발행은
+      # 되돌리기 어렵습니다.
+      - name: Commit Blogger publish record
+        run: |
+          git add config/topics.yml
+          git diff --cached --quiet || git commit -m "chore: record Blogger publish URLs"
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME"
+          git push
+
       # Pinterest 핀 이미지 + 핀 큐(PINS.md) 갱신. 발행 뒤에 실행해야
       # 새 글의 blogger_url이 핀 큐에 들어갑니다. --all은 멱등이라
       # 이미 만든 핀은 같은 결과로 다시 그려질 뿐입니다.
       - name: Render Pinterest pins
         run: python generator/make_pin.py --all
 
-      - name: Commit Blogger publish record
+      - name: Commit refreshed pins
         run: |
-          git add config/topics.yml content/pins/
-          git diff --cached --quiet || git commit -m "chore: record Blogger publish URLs + refresh pins"
+          git add content/pins/
+          git diff --cached --quiet || git commit -m "chore: refresh pins"
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME"
           git push

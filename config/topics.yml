@@ -396,7 +396,9 @@ topics:
   blogger_post_id: '4695721979522329912'
 - title: Why Does My Deck Feel Spongy in Some Spots But Not Others?
   pillar: yard-outdoor
-  status: pending
+  status: published
+  published_slug: deck-feels-spongy-in-spots
+  quality_score: 85
 - title: Why Does My Garbage Disposal Hum But Not Spin?
   pillar: home-maintenance
   status: pending

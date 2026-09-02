@@ -1,0 +1,93 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft background band -->
+  <rect x="0" y="0" width="1200" height="220" fill="#E4C7B2" opacity="0.35"/>
+
+  <!-- house wall block on left -->
+  <rect x="60" y="180" width="120" height="330" fill="#5C6E58"/>
+  <rect x="60" y="180" width="120" height="18" fill="#2E2A24" opacity="0.15"/>
+
+  <!-- ledger board attached to house -->
+  <rect x="178" y="300" width="40" height="70" fill="#B85C38"/>
+  <rect x="178" y="300" width="40" height="10" fill="#2E2A24" opacity="0.2"/>
+
+  <!-- bolts on ledger -->
+  <circle cx="198" cy="315" r="4" fill="#2E2A24"/>
+  <circle cx="198" cy="335" r="4" fill="#2E2A24"/>
+  <circle cx="198" cy="355" r="4" fill="#2E2A24"/>
+
+  <!-- ground -->
+  <rect x="0" y="500" width="1200" height="130" fill="#D9A441" opacity="0.25"/>
+
+  <!-- support posts -->
+  <rect x="330" y="400" width="30" height="130" fill="#5C6E58"/>
+  <rect x="700" y="400" width="30" height="130" fill="#5C6E58"/>
+  <rect x="1000" y="400" width="30" height="130" fill="#5C6E58"/>
+
+  <!-- joists (cross-section end view, evenly spaced blocks) -->
+  <rect x="210" y="360" width="60" height="40" fill="#B85C38"/>
+  <rect x="330" y="360" width="60" height="40" fill="#B85C38"/>
+  <rect x="450" y="360" width="60" height="40" fill="#B85C38"/>
+  <rect x="570" y="360" width="60" height="40" fill="#B85C38"/>
+  <rect x="690" y="360" width="60" height="40" fill="#B85C38"/>
+  <rect x="810" y="360" width="60" height="40" fill="#B85C38"/>
+  <rect x="930" y="360" width="60" height="40" fill="#B85C38"/>
+  <rect x="1050" y="360" width="60" height="40" fill="#B85C38"/>
+
+  <!-- joist top shading -->
+  <rect x="210" y="360" width="60" height="8" fill="#2E2A24" opacity="0.15"/>
+  <rect x="330" y="360" width="60" height="8" fill="#2E2A24" opacity="0.15"/>
+  <rect x="450" y="360" width="60" height="8" fill="#2E2A24" opacity="0.15"/>
+  <rect x="570" y="360" width="60" height="8" fill="#2E2A24" opacity="0.15"/>
+  <rect x="690" y="360" width="60" height="8" fill="#2E2A24" opacity="0.15"/>
+  <rect x="810" y="360" width="60" height="8" fill="#2E2A24" opacity="0.15"/>
+  <rect x="930" y="360" width="60" height="8" fill="#2E2A24" opacity="0.15"/>
+  <rect x="1050" y="360" width="60" height="8" fill="#2E2A24" opacity="0.15"/>
+
+  <!-- deck boards on top, with visible gaps -->
+  <rect x="150" y="320" width="90" height="36" fill="#D9A441"/>
+  <rect x="250" y="320" width="90" height="36" fill="#D9A441"/>
+  <rect x="350" y="320" width="90" height="36" fill="#D9A441"/>
+  <rect x="450" y="320" width="90" height="36" fill="#D9A441"/>
+  <rect x="550" y="320" width="90" height="36" fill="#D9A441"/>
+  <rect x="650" y="320" width="90" height="36" fill="#D9A441"/>
+  <rect x="750" y="320" width="90" height="36" fill="#D9A441"/>
+  <rect x="850" y="320" width="90" height="36" fill="#D9A441"/>
+  <rect x="950" y="320" width="90" height="36" fill="#D9A441"/>
+  <rect x="1050" y="320" width="90" height="36" fill="#D9A441"/>
+
+  <!-- board top highlight lines -->
+  <rect x="150" y="320" width="90" height="6" fill="#F6EFE6" opacity="0.35"/>
+  <rect x="250" y="320" width="90" height="6" fill="#F6EFE6" opacity="0.35"/>
+  <rect x="350" y="320" width="90" height="6" fill="#F6EFE6" opacity="0.35"/>
+  <rect x="450" y="320" width="90" height="6" fill="#F6EFE6" opacity="0.35"/>
+  <rect x="550" y="320" width="90" height="6" fill="#F6EFE6" opacity="0.35"/>
+  <rect x="650" y="320" width="90" height="6" fill="#F6EFE6" opacity="0.35"/>
+  <rect x="750" y="320" width="90" height="6" fill="#F6EFE6" opacity="0.35"/>
+  <rect x="850" y="320" width="90" height="6" fill="#F6EFE6" opacity="0.35"/>
+  <rect x="950" y="320" width="90" height="6" fill="#F6EFE6" opacity="0.35"/>
+  <rect x="1050" y="320" width="90" height="6" fill="#F6EFE6" opacity="0.35"/>
+
+  <!-- highlighted problem gap area -->
+  <rect x="538" y="315" width="16" height="46" fill="#2E2A24" opacity="0.3"/>
+
+  <!-- water droplet near the gap -->
+  <g transform="translate(546,270)">
+    <path d="M0,-28 C14,-6 16,10 0,24 C-16,10 -14,-6 0,-28 Z" fill="#5C6E58"/>
+    <ellipse cx="-4" cy="6" rx="4" ry="6" fill="#F6EFE6" opacity="0.4"/>
+  </g>
+
+  <!-- small drip line down into gap -->
+  <rect x="544" y="298" width="4" height="18" fill="#5C6E58" opacity="0.6"/>
+
+  <!-- subtle rot/damp mark near joist under gap -->
+  <ellipse cx="546" cy="402" rx="30" ry="10" fill="#2E2A24" opacity="0.15"/>
+
+  <!-- decorative sun-like circle for negative space balance -->
+  <circle cx="1080" cy="90" r="46" fill="#E4C7B2" opacity="0.5"/>
+  <circle cx="1080" cy="90" r="26" fill="#D9A441" opacity="0.4"/>
+
+  <!-- small leaf accent -->
+  <path d="M90 80 C120 60 150 80 140 110 C110 120 80 110 90 80 Z" fill="#5C6E58" opacity="0.3"/>
+</svg>

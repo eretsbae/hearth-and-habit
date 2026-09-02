@@ -240,7 +240,9 @@ def build_manifest() -> int:
             "pillar": names.get(fm.get("pillar"), ""),
             "url": topic["blogger_url"],
             "date": str(fm.get("date", "")),
-            "auto_pinned": bool(topic.get("pinterest_pin_id")),
+            # "manual" means a human pinned it and recorded it with
+            # --mark-pinned; anything else is a real pin id from the API.
+            "pin_id": topic.get("pinterest_pin_id") or "",
         })
 
     # Group by board: pinning is done board by board, so a date-ordered list
@@ -249,13 +251,16 @@ def build_manifest() -> int:
     for r in rows:
         by_board.setdefault(r["pillar"] or "기타", []).append(r)
 
-    auto_done = sum(1 for r in rows if r["auto_pinned"])
+    by_hand = sum(1 for r in rows if r["pin_id"] == "manual")
+    by_api = sum(1 for r in rows if r["pin_id"] and r["pin_id"] != "manual")
+    waiting = len(rows) - by_hand - by_api
     lines = [
         "# Pinterest 핀 큐",
         "",
         "이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.",
         "",
-        f"핀 {len(rows)}개 준비됨 · API 자동 게시 완료 {auto_done}개",
+        f"핀 {len(rows)}개 준비됨 · 게시 완료 {by_hand + by_api}개"
+        f"(수동 {by_hand} · API {by_api}) · 대기 {waiting}개",
         "",
         "## 수동으로 올리는 법",
         "",
@@ -268,7 +273,12 @@ def build_manifest() -> int:
         "   제목·설명·링크 붙여넣기 → 보드 선택 → 게시.",
         "4. **하루 3~5개씩** 나눠 올리세요. 신규 계정이 한 번에 몰아 올리면 스팸으로 취급됩니다.",
         "",
-        "`[x]`로 표시된 항목은 API가 이미 자동 게시한 것이니 **수동으로 다시 올리지 마세요.**",
+        "`[x]`는 이미 게시된 핀입니다(수동·API 구분 없음) — **다시 올리지 마세요.**",
+        "손으로 올린 뒤에는 반드시 기록해서 나중에 API가 중복 게시하지 않게 하세요:",
+        "",
+        "```bash",
+        "python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]",
+        "```",
         "",
         "---",
         "",
@@ -277,7 +287,7 @@ def build_manifest() -> int:
         items = by_board[board]
         lines += [f"## 보드: {board}", "", f"({len(items)}개)", ""]
         for r in items:
-            mark = "x" if r["auto_pinned"] else " "
+            mark = "x" if r["pin_id"] else " "
             lines += [
                 f"- [{mark}] **{r['title']}**",
                 f"  - 이미지: `content/pins/{r['slug']}.png`",

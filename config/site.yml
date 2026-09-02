@@ -14,7 +14,9 @@ tagline: "Practical home care and everyday routines, made simple."
 language: "en"
 locale: "en_US"
 author: "Hearth & Habit Editorial"
-contact_email: "hello@hearthandhabit.example"  # [사용자 입력] 실제 이메일로 교체
+# 연락처 이메일 항목은 없습니다. AdSense 1차 심사에서 플레이스홀더 이메일
+# (@example)이 감점 요인이었고, content/pages/contact.md는 그 뒤로 글 댓글을
+# 통한 연락으로 안내하고 있습니다. 코드 어디서도 이메일을 읽지 않습니다.
 
 # ── Blogger (실제 발행 대상) ────────────────────────────────
 blogger:

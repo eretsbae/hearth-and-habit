@@ -4,3 +4,4 @@ __pycache__/
 .env
 generator/client_secret.json
 generator/token.json
+bulk-upload/

@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 45개 준비됨 · 게시 완료 19개(수동 19 · API 0) · 대기 26개
+핀 46개 준비됨 · 게시 완료 19개(수동 19 · API 0) · 대기 27개
 
 ## 수동으로 올리는 법
 
@@ -75,7 +75,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Energy & Utility Savings
 
-(8개)
+(9개)
 
 - [x] **How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work**
   - 이미지: `content/pins/cut-electric-bill-no-cost-habits.png`
@@ -116,6 +116,11 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 이미지: `content/pins/appliance-using-most-electricity.png`
   - 링크: https://peterpb.blogspot.com/2026/08/which-appliance-in-your-house-is.html
   - 설명: The biggest electricity users are usually heating and cooling appliances, not electronics. Here's a checklist to find your home's real energy hogs.
+
+- [ ] **Air-Dry or Heated Dry: Which One Actually Costs Less?**
+  - 이미지: `content/pins/air-dry-vs-heated-dry-dishwasher-cost.png`
+  - 링크: https://peterpb.blogspot.com/2026/09/air-dry-or-heated-dry-which-one.html
+  - 설명: Air-drying dishes typically costs just pennies less per load than heated dry. Here's how to check your own dishwasher and decide if it's worth the habit change.
 
 ## 보드: Home Maintenance & Repairs
 

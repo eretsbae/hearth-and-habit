@@ -418,7 +418,9 @@ topics:
   status: pending
 - title: Is It Cheaper to Air-Dry Dishes or Use the Dishwasher's Heated Dry?
   pillar: energy-savings
-  status: pending
+  status: published
+  published_slug: air-dry-vs-heated-dry-dishwasher-cost
+  quality_score: 84
 - title: Why Does My Closet Smell Musty Even Though Everything Looks Clean?
   pillar: cleaning-organization
   status: pending

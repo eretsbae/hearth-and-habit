@@ -1,0 +1,73 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- Decorative background circles -->
+  <circle cx="1080" cy="80" r="90" fill="#E4C7B2" opacity="0.4"/>
+  <circle cx="90" cy="560" r="110" fill="#5C6E58" opacity="0.12"/>
+
+  <!-- Dishwasher body -->
+  <rect x="180" y="120" width="480" height="400" rx="18" fill="#E4C7B2"/>
+  <rect x="180" y="120" width="480" height="400" rx="18" fill="none" stroke="#2E2A24" stroke-width="3"/>
+
+  <!-- Door panel -->
+  <rect x="210" y="150" width="420" height="330" rx="10" fill="#F6EFE6" stroke="#2E2A24" stroke-width="2"/>
+
+  <!-- Control panel strip -->
+  <rect x="210" y="150" width="420" height="90" rx="8" fill="#5C6E58"/>
+
+  <!-- Control panel buttons -->
+  <circle cx="255" cy="195" r="20" fill="#F6EFE6" stroke="#2E2A24" stroke-width="2"/>
+  <circle cx="255" cy="195" r="8" fill="#5C6E58"/>
+
+  <circle cx="315" cy="195" r="20" fill="#F6EFE6" stroke="#2E2A24" stroke-width="2"/>
+  <circle cx="315" cy="195" r="8" fill="#5C6E58"/>
+
+  <!-- Highlighted Heat Dry button -->
+  <circle cx="385" cy="195" r="28" fill="#B85C38" stroke="#2E2A24" stroke-width="3"/>
+  <circle cx="385" cy="195" r="12" fill="#D9A441"/>
+  <circle cx="385" cy="195" r="40" fill="none" stroke="#D9A441" stroke-width="3" stroke-dasharray="6 6"/>
+
+  <circle cx="455" cy="195" r="20" fill="#F6EFE6" stroke="#2E2A24" stroke-width="2"/>
+  <circle cx="455" cy="195" r="8" fill="#5C6E58"/>
+
+  <circle cx="515" cy="195" r="20" fill="#F6EFE6" stroke="#2E2A24" stroke-width="2"/>
+  <circle cx="515" cy="195" r="8" fill="#5C6E58"/>
+
+  <circle cx="575" cy="195" r="20" fill="#F6EFE6" stroke="#2E2A24" stroke-width="2"/>
+  <circle cx="575" cy="195" r="8" fill="#5C6E58"/>
+
+  <!-- Handle -->
+  <rect x="210" y="270" width="420" height="14" rx="7" fill="#2E2A24"/>
+
+  <!-- Lower door decorative panel lines -->
+  <rect x="240" y="320" width="360" height="130" rx="8" fill="#F6EFE6" stroke="#E4C7B2" stroke-width="2"/>
+  <line x1="270" y1="350" x2="570" y2="350" stroke="#E4C7B2" stroke-width="4"/>
+  <line x1="270" y1="390" x2="570" y2="390" stroke="#E4C7B2" stroke-width="4"/>
+  <line x1="270" y1="430" x2="570" y2="430" stroke="#E4C7B2" stroke-width="4"/>
+
+  <!-- Base kick plate -->
+  <rect x="180" y="500" width="480" height="20" fill="#2E2A24"/>
+
+  <!-- Arrow from heat dry button to lightning icon -->
+  <path d="M 420 195 C 620 150, 780 160, 900 260" fill="none" stroke="#2E2A24" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="900,260 878,248 884,272" fill="#2E2A24"/>
+
+  <!-- Cost icon circle -->
+  <circle cx="970" cy="330" r="140" fill="#D9A441" opacity="0.25"/>
+  <circle cx="970" cy="330" r="100" fill="#F6EFE6" stroke="#D9A441" stroke-width="4"/>
+
+  <!-- Lightning bolt -->
+  <polygon points="990,235 920,345 965,345 950,430 1030,300 980,300" fill="#B85C38" stroke="#2E2A24" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Small dollar-like accent circles around cost icon -->
+  <circle cx="1080" cy="230" r="14" fill="#5C6E58"/>
+  <circle cx="1090" cy="420" r="10" fill="#B85C38"/>
+  <circle cx="860" cy="420" r="12" fill="#5C6E58"/>
+
+  <!-- Small steam wisps near heat dry to suggest heat -->
+  <path d="M 385 130 C 375 115, 395 105, 385 90" fill="none" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 405 130 C 395 115, 415 105, 405 90" fill="none" stroke="#D9A441" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Ground shadow -->
+  <ellipse cx="420" cy="560" rx="260" ry="20" fill="#2E2A24" opacity="0.08"/>
+</svg>

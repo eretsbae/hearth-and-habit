@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 47개 준비됨 · 게시 완료 19개(수동 19 · API 0) · 대기 28개
+핀 47개 준비됨 · 게시 완료 27개(수동 27 · API 0) · 대기 20개
 
 ## 수동으로 올리는 법
 
@@ -48,7 +48,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/07/cleaning-supplies-you-actually-need-and.html
   - 설명: Under-sink clutter isn't cleaning power. Here's the small, real list of supplies that work, and 10 popular products you can skip entirely.
 
-- [ ] **How Often Should You Really Wash Bath Towels Before They Smell?**
+- [x] **How Often Should You Really Wash Bath Towels Before They Smell?**
   - 이미지: `content/pins/how-often-wash-bath-towels.png`
   - 링크: https://peterpb.blogspot.com/2026/08/how-often-should-you-really-wash-bath.html
   - 설명: Every 2-3 uses is the real rule for bath towels, not weekly. Here's the science of towel smell and the myths that get this wrong.
@@ -107,7 +107,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/08/why-did-my-electric-bill-double-with-no.html
   - 설명: Your bill likely jumped from rate hikes, seasonal weather, a billing estimate correction, or a hidden appliance problem. Here's how to find which one.
 
-- [ ] **Is It Cheaper to Hold One Thermostat Setting All Day or Adjust It?**
+- [x] **Is It Cheaper to Hold One Thermostat Setting All Day or Adjust It?**
   - 이미지: `content/pins/hold-thermostat-setting-vs-adjusting.png`
   - 링크: https://peterpb.blogspot.com/2026/08/is-it-cheaper-to-hold-one-thermostat.html
   - 설명: Adjusting your thermostat almost always beats holding one temperature all day. Here's the myth, the physics, and the exact setback that saves the most.
@@ -151,12 +151,12 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html
   - 설명: Learn exactly where to caulk, which caulk to buy for each spot, and the simple technique that gets a straight, clean bead every time.
 
-- [ ] **Why Does My Toilet Run for a Few Seconds Then Stop? (Not the Same as a Running Toilet)**
+- [x] **Why Does My Toilet Run for a Few Seconds Then Stop? (Not the Same as a Running Toilet)**
   - 이미지: `content/pins/toilet-runs-few-seconds-then-stops.png`
   - 링크: https://peterpb.blogspot.com/2026/07/why-does-my-toilet-run-for-few-seconds.html
   - 설명: A toilet that runs briefly every few minutes usually means a slow leak past the flapper or float. Here's how to tell which part is failing and how to fix it.
 
-- [ ] **Water Heater Popping or Rumbling? Here's What It Means**
+- [x] **Water Heater Popping or Rumbling? Here's What It Means**
   - 이미지: `content/pins/water-heater-popping-rumbling-sound.png`
   - 링크: https://peterpb.blogspot.com/2026/08/water-heater-popping-or-rumbling-heres.html
   - 설명: Yes, popping or rumbling usually means sediment buildup, not a failing water heater. Here's how to tell if it's harmless or a sign to call a plumber.
@@ -195,7 +195,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/07/how-to-store-produce-so-it-actually.html
   - 설명: Bust common produce-storage myths and learn exactly where fruits and vegetables should live in your kitchen so they stay fresh longer and waste less food.
 
-- [ ] **Your Dishwasher Is Probably Loaded Wrong: A Troubleshooting Guide**
+- [x] **Your Dishwasher Is Probably Loaded Wrong: A Troubleshooting Guide**
   - 이미지: `content/pins/dishwasher-loading-mistakes-troubleshooting.png`
   - 링크: https://peterpb.blogspot.com/2026/07/your-dishwasher-is-probably-loaded.html
   - 설명: Cloudy glasses, gritty plates, wet dishes at the end of the cycle? Fix the exact loading mistake causing it with this room-by-room troubleshooting guide.
@@ -205,7 +205,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/07/why-bread-goes-moldy-faster-in-summer.html
   - 설명: Bread molds faster in summer mainly because of humidity, not heat. Learn what actually causes it and the storage habits that add days back.
 
-- [ ] **Why Do My Greens Wilt Two Days After I Buy Them? (And How to Fix It)**
+- [x] **Why Do My Greens Wilt Two Days After I Buy Them? (And How to Fix It)**
   - 이미지: `content/pins/why-greens-wilt-fast-how-to-store-them.png`
   - 링크: https://peterpb.blogspot.com/2026/08/why-do-my-greens-wilt-two-days-after-i.html
   - 설명: Greens usually wilt fast because of trapped moisture and warm air, not age. Here's the exact storage fix that keeps lettuce and spinach crisp for a week or more.
@@ -249,7 +249,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/07/mosquito-control-that-actually-works.html
   - 설명: Skip the bug zappers and citronella candles. Here's the step-by-step mosquito control routine that actually reduces bites in your yard, backed by simple logic.
 
-- [ ] **How Late Can You Seed Grass in Fall and Still Have It Grow?**
+- [x] **How Late Can You Seed Grass in Fall and Still Have It Grow?**
   - 이미지: `content/pins/how-late-can-you-seed-grass-in-fall.png`
   - 링크: https://peterpb.blogspot.com/2026/07/how-late-can-you-seed-grass-in-fall-and.html
   - 설명: The cutoff is roughly 45 days before your first hard frost. Here's how to tell if you've still got time, and what to do if you've missed the window.
@@ -264,7 +264,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/08/do-you-still-need-to-clean-gutters-if.html
   - 설명: Yes, even with gutter guards you still need occasional cleaning. Here's exactly what guards stop, what they don't, and a realistic upkeep checklist.
 
-- [ ] **Why Are Mushrooms Suddenly Growing All Over My Lawn After Rain?**
+- [x] **Why Are Mushrooms Suddenly Growing All Over My Lawn After Rain?**
   - 이미지: `content/pins/mushrooms-growing-in-lawn-after-rain.png`
   - 링크: https://peterpb.blogspot.com/2026/08/why-are-mushrooms-suddenly-growing-all.html
   - 설명: Mushrooms after rain mean your soil has healthy fungi feeding on decaying organic matter underground. Here's when to ignore them and when to act.

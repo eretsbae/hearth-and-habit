@@ -432,7 +432,9 @@ topics:
   status: pending
 - title: Why Does My Onion and Garlic Storage Keep Sprouting Indoors?
   pillar: kitchen-habits
-  status: pending
+  status: published
+  published_slug: why-onions-garlic-sprout-indoors
+  quality_score: 84
 - title: Why Does My Cutting Board Warp After Washing It?
   pillar: kitchen-habits
   status: pending

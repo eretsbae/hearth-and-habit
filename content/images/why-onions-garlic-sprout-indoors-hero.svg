@@ -1,0 +1,109 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- window -->
+  <rect x="750" y="0" width="450" height="380" fill="#E4C7B2" opacity="0.35"/>
+  <rect x="800" y="40" width="350" height="300" fill="#F6EFE6"/>
+  <rect x="800" y="40" width="350" height="300" fill="none" stroke="#5C6E58" stroke-width="10"/>
+  <line x1="975" y1="40" x2="975" y2="340" stroke="#5C6E58" stroke-width="8"/>
+  <line x1="800" y1="190" x2="1150" y2="190" stroke="#5C6E58" stroke-width="8"/>
+  <!-- window sill hint of sky tint -->
+  <rect x="800" y="40" width="350" height="300" fill="#5C6E58" opacity="0.06"/>
+
+  <!-- wooden counter -->
+  <rect x="0" y="430" width="1200" height="200" fill="#D9A441" opacity="0.25"/>
+  <rect x="0" y="430" width="1200" height="14" fill="#B85C38" opacity="0.4"/>
+  <line x1="0" y1="470" x2="1200" y2="470" stroke="#B85C38" stroke-width="3" opacity="0.2"/>
+  <line x1="0" y1="520" x2="1200" y2="520" stroke="#B85C38" stroke-width="3" opacity="0.2"/>
+  <line x1="0" y1="575" x2="1200" y2="575" stroke="#B85C38" stroke-width="3" opacity="0.2"/>
+
+  <!-- WIRE BASKET on left -->
+  <g>
+    <!-- basket body as wire lattice ellipses -->
+    <ellipse cx="330" cy="480" rx="190" ry="46" fill="none" stroke="#2E2A24" stroke-width="4" opacity="0.55"/>
+    <path d="M150 470 Q160 560 260 590 Q330 605 400 590 Q500 560 510 470" fill="none" stroke="#2E2A24" stroke-width="4" opacity="0.55"/>
+    <!-- vertical wires -->
+    <path d="M170 475 Q185 555 250 585" fill="none" stroke="#2E2A24" stroke-width="3" opacity="0.45"/>
+    <path d="M240 480 Q245 570 290 598" fill="none" stroke="#2E2A24" stroke-width="3" opacity="0.45"/>
+    <path d="M330 484 Q330 575 330 600" fill="none" stroke="#2E2A24" stroke-width="3" opacity="0.45"/>
+    <path d="M420 480 Q415 570 370 598" fill="none" stroke="#2E2A24" stroke-width="3" opacity="0.45"/>
+    <path d="M490 475 Q475 555 410 585" fill="none" stroke="#2E2A24" stroke-width="3" opacity="0.45"/>
+    <!-- horizontal wire bands -->
+    <path d="M165 500 Q330 535 495 500" fill="none" stroke="#2E2A24" stroke-width="3" opacity="0.4"/>
+    <path d="M190 540 Q330 570 470 540" fill="none" stroke="#2E2A24" stroke-width="3" opacity="0.4"/>
+    <!-- basket handle -->
+    <path d="M255 440 Q330 370 405 440" fill="none" stroke="#2E2A24" stroke-width="5" opacity="0.6"/>
+  </g>
+
+  <!-- Onions inside wire basket -->
+  <g>
+    <ellipse cx="270" cy="450" rx="42" ry="40" fill="#D9A441"/>
+    <path d="M240 428 Q270 405 300 428" fill="none" stroke="#B85C38" stroke-width="3" opacity="0.5"/>
+    <path d="M270 410 L266 385" stroke="#5C6E58" stroke-width="5" stroke-linecap="round"/>
+    <path d="M270 410 L276 380" stroke="#5C6E58" stroke-width="5" stroke-linecap="round"/>
+
+    <ellipse cx="340" cy="440" rx="46" ry="44" fill="#B85C38"/>
+    <path d="M305 415 Q340 392 375 415" fill="none" stroke="#2E2A24" stroke-width="3" opacity="0.3"/>
+    <path d="M340 396 L336 368" stroke="#5C6E58" stroke-width="5" stroke-linecap="round"/>
+
+    <ellipse cx="405" cy="455" rx="38" ry="36" fill="#E4C7B2"/>
+    <path d="M380 435 Q405 415 430 435" fill="none" stroke="#B85C38" stroke-width="3" opacity="0.5"/>
+  </g>
+
+  <!-- MESH BAG on right side of counter with garlic -->
+  <g>
+    <path d="M600 420 Q595 500 620 560 Q660 600 710 560 Q735 500 730 420 Z" fill="#E4C7B2" opacity="0.5"/>
+    <!-- mesh lines diagonal -->
+    <g stroke="#2E2A24" stroke-width="2" opacity="0.35">
+      <path d="M600 430 L680 560"/>
+      <path d="M615 420 L710 570"/>
+      <path d="M635 415 L730 550"/>
+      <path d="M660 415 L735 500"/>
+      <path d="M730 430 L640 570"/>
+      <path d="M710 418 L610 560"/>
+      <path d="M685 415 L605 530"/>
+      <path d="M660 415 L600 490"/>
+    </g>
+    <!-- bag tie top -->
+    <ellipse cx="665" cy="418" rx="35" ry="10" fill="#5C6E58"/>
+    <path d="M645 415 Q665 400 685 415" fill="none" stroke="#5C6E58" stroke-width="5"/>
+  </g>
+
+  <!-- garlic bulbs inside mesh bag -->
+  <g>
+    <ellipse cx="635" cy="500" rx="30" ry="32" fill="#F6EFE6"/>
+    <path d="M615 485 Q635 470 655 485" fill="none" stroke="#D9A441" stroke-width="2" opacity="0.6"/>
+    <path d="M635 470 L633 450" stroke="#5C6E58" stroke-width="4" stroke-linecap="round"/>
+    <path d="M620 505 Q635 515 650 505" fill="none" stroke="#D9A441" stroke-width="2" opacity="0.5"/>
+
+    <ellipse cx="690" cy="520" rx="34" ry="36" fill="#F6EFE6"/>
+    <path d="M665 502 Q690 486 715 502" fill="none" stroke="#D9A441" stroke-width="2" opacity="0.6"/>
+    <path d="M690 484 L692 460" stroke="#5C6E58" stroke-width="4" stroke-linecap="round"/>
+    <path d="M675 528 Q690 540 706 528" fill="none" stroke="#D9A441" stroke-width="2" opacity="0.5"/>
+
+    <ellipse cx="660" cy="555" rx="26" ry="28" fill="#E4C7B2"/>
+    <path d="M642 542 Q660 530 678 542" fill="none" stroke="#D9A441" stroke-width="2" opacity="0.5"/>
+  </g>
+
+  <!-- extra loose onion and garlic on counter -->
+  <g>
+    <ellipse cx="500" cy="565" rx="40" ry="38" fill="#D9A441"/>
+    <path d="M470 545 Q500 525 530 545" fill="none" stroke="#B85C38" stroke-width="3" opacity="0.5"/>
+    <path d="M500 528 L493 500" stroke="#5C6E58" stroke-width="5" stroke-linecap="round"/>
+    <path d="M500 528 L509 498" stroke="#5C6E58" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <ellipse cx="810" cy="575" rx="30" ry="32" fill="#F6EFE6"/>
+    <path d="M790 560 Q810 546 830 560" fill="none" stroke="#D9A441" stroke-width="2" opacity="0.6"/>
+    <path d="M810 545 L805 518" stroke="#5C6E58" stroke-width="5" stroke-linecap="round"/>
+    <path d="M810 545 L818 520" stroke="#5C6E58" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- small decorative jar in background near window -->
+  <g opacity="0.9">
+    <rect x="1000" y="470" width="70" height="90" rx="10" fill="#5C6E58" opacity="0.7"/>
+    <rect x="1010" y="455" width="50" height="20" rx="6" fill="#2E2A24" opacity="0.5"/>
+  </g>
+
+</svg>

@@ -1,0 +1,102 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft divider -->
+  <line x1="600" y1="80" x2="600" y2="560" stroke="#E4C7B2" stroke-width="2" stroke-dasharray="6 10"/>
+
+  <!-- LEFT SIDE: sealed plastic bag, cramped -->
+  <g>
+    <ellipse cx="300" cy="500" rx="180" ry="20" fill="#E4C7B2" opacity="0.4"/>
+    <!-- plastic bag shape -->
+    <path d="M170 220 
+             Q160 400 200 470 
+             Q300 510 400 470 
+             Q440 400 430 220 
+             Q400 190 300 190 
+             Q200 190 170 220 Z"
+          fill="#F6EFE6" stroke="#2E2A24" stroke-width="4" opacity="0.9"/>
+    <!-- bag sheen -->
+    <path d="M190 240 Q185 380 210 450" stroke="#FFFFFF" stroke-width="6" opacity="0.5" fill="none"/>
+    <!-- twist tie top -->
+    <path d="M270 190 Q300 160 330 190" stroke="#2E2A24" stroke-width="5" fill="none"/>
+    <ellipse cx="300" cy="165" rx="10" ry="14" fill="#5C6E58"/>
+
+    <!-- onions crammed inside -->
+    <g>
+      <circle cx="240" cy="300" r="42" fill="#B85C38"/>
+      <circle cx="320" cy="290" r="46" fill="#D9A441"/>
+      <circle cx="270" cy="370" r="44" fill="#B85C38"/>
+      <circle cx="350" cy="370" r="40" fill="#D9A441"/>
+      <circle cx="230" cy="390" r="36" fill="#D9A441"/>
+      <circle cx="300" cy="430" r="38" fill="#B85C38"/>
+      <!-- sprouts poking out -->
+      <path d="M320 244 Q330 210 345 190" stroke="#5C6E58" stroke-width="5" fill="none"/>
+      <path d="M270 326 Q265 300 280 275" stroke="#5C6E58" stroke-width="5" fill="none"/>
+      <path d="M350 330 Q365 300 380 280" stroke="#5C6E58" stroke-width="5" fill="none"/>
+      <!-- onion top lines -->
+      <path d="M240 270 L240 258" stroke="#2E2A24" stroke-width="3"/>
+      <path d="M320 258 L320 244" stroke="#2E2A24" stroke-width="3"/>
+      <path d="M270 336 L270 326" stroke="#2E2A24" stroke-width="3"/>
+      <path d="M350 340 L350 330" stroke="#2E2A24" stroke-width="3"/>
+    </g>
+
+    <!-- condensation dots to show trapped moisture -->
+    <circle cx="200" cy="260" r="3" fill="#5C6E58" opacity="0.5"/>
+    <circle cx="220" cy="320" r="3" fill="#5C6E58" opacity="0.5"/>
+    <circle cx="400" cy="280" r="3" fill="#5C6E58" opacity="0.5"/>
+    <circle cx="410" cy="350" r="3" fill="#5C6E58" opacity="0.5"/>
+    <circle cx="180" cy="400" r="3" fill="#5C6E58" opacity="0.5"/>
+  </g>
+
+  <!-- RIGHT SIDE: open wire basket, airflow -->
+  <g>
+    <ellipse cx="900" cy="520" rx="190" ry="20" fill="#E4C7B2" opacity="0.4"/>
+
+    <!-- basket body: wire lattice via ellipses/lines -->
+    <g stroke="#5C6E58" stroke-width="4" fill="none">
+      <path d="M760 350 Q760 480 800 500 Q900 530 1000 500 Q1040 480 1040 350"/>
+      <path d="M780 360 Q780 470 810 495"/>
+      <path d="M1020 360 Q1020 470 990 495"/>
+      <!-- horizontal wire rings -->
+      <path d="M765 380 Q900 410 1035 380"/>
+      <path d="M770 420 Q900 452 1030 420"/>
+      <path d="M785 460 Q900 488 1015 460"/>
+      <!-- vertical wires -->
+      <path d="M820 355 Q815 460 830 498"/>
+      <path d="M860 350 Q858 465 862 505"/>
+      <path d="M900 348 Q900 470 900 508"/>
+      <path d="M940 350 Q942 465 938 505"/>
+      <path d="M980 355 Q985 460 970 498"/>
+    </g>
+    <!-- basket rim -->
+    <ellipse cx="900" cy="352" rx="140" ry="18" fill="none" stroke="#5C6E58" stroke-width="6"/>
+    <ellipse cx="900" cy="352" rx="140" ry="18" fill="#5C6E58" opacity="0.08"/>
+
+    <!-- onions sitting openly in basket, spaced out -->
+    <circle cx="845" cy="330" r="40" fill="#D9A441"/>
+    <circle cx="920" cy="320" r="44" fill="#B85C38"/>
+    <circle cx="985" cy="335" r="36" fill="#D9A441"/>
+
+    <!-- healthy dry tops, no sprouts -->
+    <path d="M845 292 L845 275" stroke="#2E2A24" stroke-width="3"/>
+    <path d="M920 278 L920 258" stroke="#2E2A24" stroke-width="3"/>
+    <path d="M985 300 L985 285" stroke="#2E2A24" stroke-width="3"/>
+    <path d="M840 278 Q845 268 838 258" stroke="#D9A441" stroke-width="3" fill="none" opacity="0.7"/>
+    <path d="M915 260 Q920 248 913 236" stroke="#B85C38" stroke-width="3" fill="none" opacity="0.7"/>
+
+    <!-- airflow arrows -->
+    <g stroke="#5C6E58" stroke-width="4" fill="none" opacity="0.7">
+      <path d="M710 300 Q735 320 715 345" marker-end="none"/>
+      <path d="M1090 300 Q1065 320 1085 345"/>
+      <path d="M700 400 Q725 415 705 435"/>
+      <path d="M1100 400 Q1075 415 1095 435"/>
+    </g>
+    <!-- little airflow chevrons -->
+    <path d="M705 340 L718 348 L706 355" stroke="#5C6E58" stroke-width="3" fill="none"/>
+    <path d="M1095 340 L1082 348 L1094 355" stroke="#5C6E58" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- small ground shadows -->
+  <ellipse cx="300" cy="500" rx="150" ry="10" fill="#2E2A24" opacity="0.06"/>
+  <ellipse cx="900" cy="512" rx="160" ry="10" fill="#2E2A24" opacity="0.06"/>
+</svg>

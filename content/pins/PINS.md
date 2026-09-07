@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 47개 준비됨 · 게시 완료 27개(수동 27 · API 0) · 대기 20개
+핀 47개 준비됨 · 게시 완료 35개(수동 35 · API 0) · 대기 12개
 
 ## 수동으로 올리는 법
 
@@ -53,12 +53,12 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/08/how-often-should-you-really-wash-bath.html
   - 설명: Every 2-3 uses is the real rule for bath towels, not weekly. Here's the science of towel smell and the myths that get this wrong.
 
-- [ ] **Why Does My Dishwasher Smell Even After I Run It Empty?**
+- [x] **Why Does My Dishwasher Smell Even After I Run It Empty?**
   - 이미지: `content/pins/why-does-dishwasher-smell-after-running-empty.png`
   - 링크: https://peterpb.blogspot.com/2026/08/why-does-my-dishwasher-smell-even-after.html
   - 설명: A smelly dishwasher usually means trapped food gunk, not a broken machine. Work through this checklist to find the source and clear it for good.
 
-- [ ] **What to Do With Clothes You Wore Once But Aren't Dirty Yet**
+- [x] **What to Do With Clothes You Wore Once But Aren't Dirty Yet**
   - 이미지: `content/pins/clothes-worn-once-not-dirty-what-to-do.png`
   - 링크: https://peterpb.blogspot.com/2026/08/what-to-do-with-clothes-you-wore-once.html
   - 설명: Not dirty enough to wash, not clean enough to shelve? Here's a real decision guide for handling worn-once clothes without adding to laundry piles.
@@ -112,12 +112,12 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/08/is-it-cheaper-to-hold-one-thermostat.html
   - 설명: Adjusting your thermostat almost always beats holding one temperature all day. Here's the myth, the physics, and the exact setback that saves the most.
 
-- [ ] **Does Closing Vents in Unused Rooms Save Energy or Cost More?**
+- [x] **Does Closing Vents in Unused Rooms Save Energy or Cost More?**
   - 이미지: `content/pins/closing-vents-unused-rooms-energy.png`
   - 링크: https://peterpb.blogspot.com/2026/08/does-closing-vents-in-unused-rooms-save.html
   - 설명: Closing vents in unused rooms usually backfires with forced-air systems. Here's the checklist to know when it helps, when it hurts, and what to do instead.
 
-- [ ] **Which Appliance in Your House Is Quietly Draining the Most Electricity?**
+- [x] **Which Appliance in Your House Is Quietly Draining the Most Electricity?**
   - 이미지: `content/pins/appliance-using-most-electricity.png`
   - 링크: https://peterpb.blogspot.com/2026/08/which-appliance-in-your-house-is.html
   - 설명: The biggest electricity users are usually heating and cooling appliances, not electronics. Here's a checklist to find your home's real energy hogs.
@@ -161,7 +161,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/08/water-heater-popping-or-rumbling-heres.html
   - 설명: Yes, popping or rumbling usually means sediment buildup, not a failing water heater. Here's how to tell if it's harmless or a sign to call a plumber.
 
-- [ ] **Can You Caulk Over Old Caulk, or Do You Have to Remove It First?**
+- [x] **Can You Caulk Over Old Caulk, or Do You Have to Remove It First?**
   - 이미지: `content/pins/can-you-caulk-over-old-caulk.png`
   - 링크: https://peterpb.blogspot.com/2026/08/can-you-caulk-over-old-caulk-or-do-you.html
   - 설명: No, you shouldn't caulk over old caulk in most cases. Here's how to tell when you can skip the removal step and when it'll fail fast.
@@ -210,12 +210,12 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/08/why-do-my-greens-wilt-two-days-after-i.html
   - 설명: Greens usually wilt fast because of trapped moisture and warm air, not age. Here's the exact storage fix that keeps lettuce and spinach crisp for a week or more.
 
-- [ ] **Is It Safe to Refreeze Meat That Thawed in the Fridge?**
+- [x] **Is It Safe to Refreeze Meat That Thawed in the Fridge?**
   - 이미지: `content/pins/refreeze-thawed-meat-fridge-safety.png`
   - 링크: https://peterpb.blogspot.com/2026/08/is-it-safe-to-refreeze-meat-that-thawed.html
   - 설명: Yes, meat thawed in the fridge is safe to refreeze in most cases. Here's how to tell when it's fine, when to cook it first, and when to toss it.
 
-- [ ] **What Happens If You Put Cast Iron in the Dishwasher Once?**
+- [x] **What Happens If You Put Cast Iron in the Dishwasher Once?**
   - 이미지: `content/pins/cast-iron-in-dishwasher-once.png`
   - 링크: https://peterpb.blogspot.com/2026/08/what-happens-if-you-put-cast-iron-in.html
   - 설명: One cycle won't ruin cast iron, but it will strip the seasoning. Here's what actually happens, why the myths are wrong, and how to fix it fast.
@@ -259,7 +259,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/07/why-does-part-of-my-lawn-stay-brown.html
   - 설명: Watering isn't the problem — coverage, compaction, or damage usually is. Follow these steps to find the real cause and fix the brown patch for good.
 
-- [ ] **Do You Still Need to Clean Gutters If You Have Gutter Guards?**
+- [x] **Do You Still Need to Clean Gutters If You Have Gutter Guards?**
   - 이미지: `content/pins/do-you-need-to-clean-gutters-with-gutter-guards.png`
   - 링크: https://peterpb.blogspot.com/2026/08/do-you-still-need-to-clean-gutters-if.html
   - 설명: Yes, even with gutter guards you still need occasional cleaning. Here's exactly what guards stop, what they don't, and a realistic upkeep checklist.

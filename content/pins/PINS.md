@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 47개 준비됨 · 게시 완료 35개(수동 35 · API 0) · 대기 12개
+핀 48개 준비됨 · 게시 완료 35개(수동 35 · API 0) · 대기 13개
 
 ## 수동으로 올리는 법
 
@@ -183,7 +183,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Kitchen & Food Habits
 
-(9개)
+(10개)
 
 - [x] **The 30-Minute Sunday Meal Plan That Ends the 'What's for Dinner?' Spiral**
   - 이미지: `content/pins/30-minute-sunday-meal-plan.png`
@@ -229,6 +229,11 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 이미지: `content/pins/how-long-do-leftovers-really-last.png`
   - 링크: https://peterpb.blogspot.com/2026/08/how-long-do-leftovers-really-last.html
   - 설명: Most leftovers are safe for 3-4 days in the fridge, but the real answer depends on the food. Here's the checklist to know what to trust and what to toss.
+
+- [ ] **Why Onions and Garlic Keep Sprouting Indoors (and How to Actually Stop It)**
+  - 이미지: `content/pins/why-onions-garlic-sprout-indoors.png`
+  - 링크: https://peterpb.blogspot.com/2026/09/why-onions-and-garlic-keep-sprouting.html
+  - 설명: Onions and garlic sprout indoors mainly from warmth, moisture, and darkness combined. Here's the storage checklist that actually stops it.
 
 ## 보드: Yard & Outdoor Basics
 

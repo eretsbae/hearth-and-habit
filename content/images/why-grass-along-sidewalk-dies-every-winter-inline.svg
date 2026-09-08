@@ -1,0 +1,106 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- Sky/background negative space -->
+  <rect x="0" y="0" width="1200" height="260" fill="#F6EFE6"/>
+
+  <!-- Soil cross-section -->
+  <rect x="0" y="330" width="1200" height="300" fill="#E4C7B2"/>
+  <rect x="0" y="420" width="1200" height="210" fill="#D9A441" opacity="0.25"/>
+  <rect x="0" y="500" width="1200" height="130" fill="#B85C38" opacity="0.15"/>
+
+  <!-- Sidewalk slab -->
+  <rect x="700" y="270" width="500" height="60" fill="#E4C7B2"/>
+  <rect x="700" y="270" width="500" height="14" fill="#F6EFE6"/>
+  <line x1="850" y1="270" x2="850" y2="330" stroke="#2E2A24" stroke-width="2" opacity="0.3"/>
+  <line x1="1000" y1="270" x2="1000" y2="330" stroke="#2E2A24" stroke-width="2" opacity="0.3"/>
+
+  <!-- Snow patch on sidewalk edge -->
+  <ellipse cx="740" cy="290" rx="60" ry="14" fill="#F6EFE6"/>
+  <ellipse cx="770" cy="278" rx="40" ry="10" fill="#F6EFE6"/>
+
+  <!-- Salt granules on sidewalk -->
+  <circle cx="710" cy="285" r="3" fill="#D9A441"/>
+  <circle cx="725" cy="295" r="2.5" fill="#D9A441"/>
+  <circle cx="740" cy="282" r="3" fill="#D9A441"/>
+  <circle cx="755" cy="292" r="2" fill="#D9A441"/>
+  <circle cx="695" cy="292" r="2" fill="#D9A441"/>
+
+  <!-- Salty runoff arrows seeping into soil near sidewalk edge -->
+  <path d="M700 300 Q670 330 660 360" stroke="#D9A441" stroke-width="4" fill="none" opacity="0.6"/>
+  <path d="M690 305 Q655 340 640 380" stroke="#D9A441" stroke-width="3" fill="none" opacity="0.5"/>
+  <path d="M680 300 Q640 350 615 400" stroke="#D9A441" stroke-width="3" fill="none" opacity="0.4"/>
+
+  <!-- Salty soil zone tint near sidewalk -->
+  <ellipse cx="640" cy="420" rx="140" ry="120" fill="#D9A441" opacity="0.18"/>
+
+  <!-- Grass line above soil -->
+  <rect x="0" y="320" width="700" height="10" fill="#5C6E58"/>
+
+  <!-- Healthy grass blades (left, far from sidewalk) -->
+  <g stroke="#5C6E58" stroke-width="5" stroke-linecap="round">
+    <line x1="120" y1="320" x2="112" y2="285"/>
+    <line x1="135" y1="320" x2="140" y2="280"/>
+    <line x1="150" y1="320" x2="145" y2="278"/>
+    <line x1="200" y1="320" x2="192" y2="282"/>
+    <line x1="215" y1="320" x2="222" y2="278"/>
+    <line x1="230" y1="320" x2="225" y2="285"/>
+    <line x1="300" y1="320" x2="292" y2="280"/>
+    <line x1="315" y1="320" x2="322" y2="284"/>
+    <line x1="330" y1="320" x2="325" y2="278"/>
+  </g>
+
+  <!-- Dying/shriveled grass blades near sidewalk edge -->
+  <g stroke="#B85C38" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M600 320 Q596 305 604 296"/>
+    <path d="M615 320 Q620 306 613 298"/>
+    <path d="M630 320 Q625 308 632 300"/>
+    <path d="M650 320 Q646 308 653 302"/>
+    <path d="M665 320 Q670 310 662 304"/>
+    <path d="M680 320 Q676 310 683 305"/>
+  </g>
+
+  <!-- Healthy root system (left) -->
+  <g stroke="#5C6E58" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M130 330 Q120 370 100 400"/>
+    <path d="M130 330 Q135 375 120 415"/>
+    <path d="M130 330 Q145 365 160 395"/>
+    <path d="M130 330 Q150 380 175 410"/>
+    <path d="M130 330 Q110 355 85 375"/>
+  </g>
+  <g stroke="#5C6E58" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M300 330 Q290 370 270 400"/>
+    <path d="M300 330 Q305 378 290 418"/>
+    <path d="M300 330 Q318 365 335 395"/>
+    <path d="M300 330 Q320 385 345 405"/>
+  </g>
+
+  <!-- Shriveled root system near sidewalk (short, brittle, curled) -->
+  <g stroke="#B85C38" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M640 330 Q636 345 642 355"/>
+    <path d="M640 330 Q645 342 638 350"/>
+    <path d="M640 330 Q632 340 636 350"/>
+  </g>
+  <g stroke="#B85C38" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M665 330 Q662 344 668 352"/>
+    <path d="M665 330 Q670 340 663 348"/>
+  </g>
+  <g stroke="#B85C38" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M615 330 Q612 342 618 350"/>
+    <path d="M615 330 Q620 340 613 348"/>
+  </g>
+
+  <!-- Small salt crystal dots scattered in soil near sidewalk -->
+  <circle cx="650" cy="370" r="3" fill="#D9A441"/>
+  <circle cx="670" cy="390" r="2.5" fill="#D9A441"/>
+  <circle cx="630" cy="400" r="2" fill="#D9A441"/>
+  <circle cx="690" cy="360" r="2.5" fill="#D9A441"/>
+  <circle cx="610" cy="380" r="2" fill="#D9A441"/>
+
+  <!-- Subtle divider line separating healthy vs affected zone -->
+  <line x1="500" y1="330" x2="500" y2="620" stroke="#2E2A24" stroke-width="1.5" stroke-dasharray="6 8" opacity="0.25"/>
+
+  <!-- Small sun in negative space for warmth -->
+  <circle cx="1080" cy="90" r="42" fill="#D9A441" opacity="0.85"/>
+  <circle cx="1080" cy="90" r="58" fill="#D9A441" opacity="0.15"/>
+</svg>

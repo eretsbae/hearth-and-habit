@@ -1,0 +1,161 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- background soft band for context -->
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- Far healthy lawn strip (top) -->
+  <rect x="0" y="60" width="1200" height="150" fill="#5C6E58"/>
+  <rect x="0" y="60" width="1200" height="150" fill="#5C6E58" opacity="0.0"/>
+
+  <!-- subtle texture dots on healthy grass -->
+  <g fill="#4E5F4A" opacity="0.5">
+    <circle cx="60" cy="100" r="4"/>
+    <circle cx="140" cy="140" r="3"/>
+    <circle cx="230" cy="90" r="4"/>
+    <circle cx="320" cy="150" r="3"/>
+    <circle cx="410" cy="110" r="4"/>
+    <circle cx="500" cy="160" r="3"/>
+    <circle cx="600" cy="95" r="4"/>
+    <circle cx="700" cy="145" r="3"/>
+    <circle cx="800" cy="105" r="4"/>
+    <circle cx="900" cy="155" r="3"/>
+    <circle cx="1000" cy="100" r="4"/>
+    <circle cx="1100" cy="140" r="3"/>
+  </g>
+
+  <!-- Dead brown grass strip next to sidewalk -->
+  <rect x="0" y="210" width="1200" height="90" fill="#B85C38" opacity="0.55"/>
+  <g fill="#8C4A2E" opacity="0.6">
+    <circle cx="80" cy="235" r="3"/>
+    <circle cx="180" cy="260" r="2.5"/>
+    <circle cx="280" cy="245" r="3"/>
+    <circle cx="380" cy="270" r="2.5"/>
+    <circle cx="480" cy="240" r="3"/>
+    <circle cx="580" cy="265" r="2.5"/>
+    <circle cx="680" cy="235" r="3"/>
+    <circle cx="780" cy="260" r="2.5"/>
+    <circle cx="880" cy="245" r="3"/>
+    <circle cx="980" cy="270" r="2.5"/>
+    <circle cx="1080" cy="240" r="3"/>
+  </g>
+
+  <!-- Sidewalk -->
+  <rect x="0" y="300" width="1200" height="180" fill="#E9E2D6"/>
+  <!-- snow patches on sidewalk -->
+  <g fill="#F6EFE6">
+    <ellipse cx="150" cy="330" rx="70" ry="18"/>
+    <ellipse cx="400" cy="450" rx="90" ry="22"/>
+    <ellipse cx="700" cy="340" rx="80" ry="16"/>
+    <ellipse cx="950" cy="440" rx="100" ry="24"/>
+    <ellipse cx="1100" cy="320" rx="60" ry="14"/>
+  </g>
+  <!-- sidewalk expansion joints -->
+  <g stroke="#D6CDBF" stroke-width="4">
+    <line x1="200" y1="300" x2="200" y2="480"/>
+    <line x1="450" y1="300" x2="450" y2="480"/>
+    <line x1="700" y1="300" x2="700" y2="480"/>
+    <line x1="950" y1="300" x2="950" y2="480"/>
+  </g>
+
+  <!-- salt stain marks near edges -->
+  <g fill="#D9A441" opacity="0.25">
+    <ellipse cx="120" cy="300" rx="60" ry="14"/>
+    <ellipse cx="350" cy="480" rx="70" ry="16"/>
+    <ellipse cx="620" cy="300" rx="65" ry="15"/>
+    <ellipse cx="900" cy="480" rx="80" ry="18"/>
+  </g>
+
+  <!-- Grass below sidewalk, healthy at bottom -->
+  <rect x="0" y="480" width="1200" height="60" fill="#B85C38" opacity="0.55"/>
+  <g fill="#8C4A2E" opacity="0.6">
+    <circle cx="100" cy="500" r="3"/>
+    <circle cx="220" cy="515" r="2.5"/>
+    <circle cx="340" cy="500" r="3"/>
+    <circle cx="460" cy="515" r="2.5"/>
+    <circle cx="580" cy="500" r="3"/>
+    <circle cx="700" cy="515" r="2.5"/>
+    <circle cx="820" cy="500" r="3"/>
+    <circle cx="940" cy="515" r="2.5"/>
+    <circle cx="1060" cy="500" r="3"/>
+  </g>
+
+  <rect x="0" y="540" width="1200" height="90" fill="#5C6E58"/>
+  <g fill="#4E5F4A" opacity="0.5">
+    <circle cx="60" cy="570" r="4"/>
+    <circle cx="160" cy="600" r="3"/>
+    <circle cx="260" cy="575" r="4"/>
+    <circle cx="360" cy="605" r="3"/>
+    <circle cx="460" cy="570" r="4"/>
+    <circle cx="560" cy="600" r="3"/>
+    <circle cx="660" cy="575" r="4"/>
+    <circle cx="760" cy="605" r="3"/>
+    <circle cx="860" cy="570" r="4"/>
+    <circle cx="960" cy="600" r="3"/>
+    <circle cx="1060" cy="575" r="4"/>
+    <circle cx="1150" cy="605" r="3"/>
+  </g>
+
+  <!-- Bag of ice-melt salt on the sidewalk -->
+  <g transform="translate(600,340)">
+    <!-- shadow -->
+    <ellipse cx="10" cy="145" rx="120" ry="20" fill="#2E2A24" opacity="0.12"/>
+
+    <!-- bag body -->
+    <path d="M -80 -20 
+             C -95 20, -95 90, -70 130 
+             L 90 130 
+             C 115 90, 115 20, 100 -20 
+             C 60 -35, -40 -35, -80 -20 Z" 
+          fill="#D9A441"/>
+
+    <!-- bag folded top -->
+    <path d="M -80 -20 C -40 -35, 60 -35, 100 -20 L 95 -45 C 55 -58, -35 -58, -75 -45 Z" fill="#B85C38"/>
+    <path d="M -75 -45 C -35 -58, 55 -58, 95 -45 L 88 -65 C 50 -76, -30 -76, -68 -65 Z" fill="#D9A441"/>
+
+    <!-- fold crease lines -->
+    <g stroke="#8C4A2E" stroke-width="3" opacity="0.5">
+      <line x1="-70" y1="-30" x2="90" y2="-30"/>
+      <line x1="-75" y1="-45" x2="95" y2="-45"/>
+    </g>
+
+    <!-- label area -->
+    <rect x="-55" y="10" width="130" height="80" rx="8" fill="#F6EFE6" opacity="0.85"/>
+    <!-- simple ice-crystal icon on label, no text -->
+    <g stroke="#5C6E58" stroke-width="4" stroke-linecap="round">
+      <line x1="10" y1="25" x2="10" y2="65"/>
+      <line x1="-10" y1="35" x2="30" y2="55"/>
+      <line x1="-10" y1="55" x2="30" y2="35"/>
+    </g>
+    <circle cx="10" cy="45" r="5" fill="#B85C38"/>
+
+    <!-- bag texture wrinkles -->
+    <g stroke="#B85C38" stroke-width="2" opacity="0.4">
+      <path d="M -60 30 C -50 60, -55 100, -40 125" fill="none"/>
+      <path d="M 70 20 C 80 55, 75 95, 60 125" fill="none"/>
+    </g>
+  </g>
+
+  <!-- scattered salt granules near bag -->
+  <g fill="#D9A441">
+    <circle cx="500" cy="490" r="4"/>
+    <circle cx="520" cy="500" r="3"/>
+    <circle cx="540" cy="485" r="3.5"/>
+    <circle cx="720" cy="495" r="4"/>
+    <circle cx="740" cy="480" r="3"/>
+    <circle cx="760" cy="505" r="3.5"/>
+    <circle cx="620" cy="510" r="3"/>
+    <circle cx="660" cy="495" r="3"/>
+  </g>
+
+  <!-- a few snowflake dots floating -->
+  <g fill="#F6EFE6" opacity="0.9">
+    <circle cx="100" cy="60" r="4"/>
+    <circle cx="300" cy="40" r="3"/>
+    <circle cx="550" cy="55" r="4"/>
+    <circle cx="800" cy="35" r="3"/>
+    <circle cx="1050" cy="60" r="4"/>
+    <circle cx="200" cy="20" r="3"/>
+    <circle cx="950" cy="20" r="3"/>
+  </g>
+</svg>

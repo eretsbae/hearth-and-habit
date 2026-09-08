@@ -455,4 +455,6 @@ topics:
   status: pending
 - title: Why Does Grass Along the Sidewalk Die Every Winter but Grow Back Everywhere Else?
   pillar: yard-outdoor
-  status: pending
+  status: published
+  published_slug: why-grass-along-sidewalk-dies-every-winter
+  quality_score: 84

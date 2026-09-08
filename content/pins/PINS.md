@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 48개 준비됨 · 게시 완료 35개(수동 35 · API 0) · 대기 13개
+핀 49개 준비됨 · 게시 완료 35개(수동 35 · API 0) · 대기 14개
 
 ## 수동으로 올리는 법
 
@@ -237,7 +237,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Yard & Outdoor Basics
 
-(9개)
+(10개)
 
 - [x] **Lawn Care for People Who Don't Care About Lawns: The Bare Minimum That Actually Works**
   - 이미지: `content/pins/low-effort-lawn-care-bare-minimum.png`
@@ -283,3 +283,8 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 이미지: `content/pins/deck-feels-spongy-in-spots.png`
   - 링크: https://peterpb.blogspot.com/2026/09/why-does-my-deck-feel-spongy-in-some.html
   - 설명: A spongy deck spot almost always means rot in the wood below. Here's how to figure out which part is failing and whether it's a board or the frame.
+
+- [ ] **Why Does Grass Along the Sidewalk Die Every Winter (But Not Elsewhere)?**
+  - 이미지: `content/pins/why-grass-along-sidewalk-dies-every-winter.png`
+  - 링크: https://peterpb.blogspot.com/2026/09/why-does-grass-along-sidewalk-die-every.html
+  - 설명: That dead strip along your walkway isn't bad luck. It's salt, reflected heat, and soil compaction—and the fixes are different from general lawn repair.

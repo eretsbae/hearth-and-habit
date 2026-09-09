@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 49개 준비됨 · 게시 완료 39개(수동 39 · API 0) · 대기 10개
+핀 50개 준비됨 · 게시 완료 39개(수동 39 · API 0) · 대기 11개
 
 ## 수동으로 올리는 법
 
@@ -129,7 +129,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Home Maintenance & Repairs
 
-(10개)
+(11개)
 
 - [x] **Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -180,6 +180,11 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 이미지: `content/pins/why-is-one-room-always-colder-than-rest.png`
   - 링크: https://peterpb.blogspot.com/2026/09/why-is-one-room-in-my-house-always.html
   - 설명: Usually it's airflow, not insulation. Here's how to tell what's really causing your cold room and which fixes actually work versus waste money.
+
+- [ ] **How Do I Know If a Repair Is Actually Worth Calling a Pro For?**
+  - 이미지: `content/pins/when-to-call-a-pro-vs-diy-repair.png`
+  - 링크: https://peterpb.blogspot.com/2026/09/how-do-i-know-if-repair-is-actually.html
+  - 설명: Not sure if a repair needs a professional? Use this symptom-by-symptom guide to know when DIY is fine and when calling a pro saves you money.
 
 ## 보드: Kitchen & Food Habits
 

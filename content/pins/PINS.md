@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 49개 준비됨 · 게시 완료 35개(수동 35 · API 0) · 대기 14개
+핀 49개 준비됨 · 게시 완료 39개(수동 39 · API 0) · 대기 10개
 
 ## 수동으로 올리는 법
 
@@ -63,7 +63,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/08/what-to-do-with-clothes-you-wore-once.html
   - 설명: Not dirty enough to wash, not clean enough to shelve? Here's a real decision guide for handling worn-once clothes without adding to laundry piles.
 
-- [ ] **How to Get Rid of Things You Spent Good Money On (Without the Guilt)**
+- [x] **How to Get Rid of Things You Spent Good Money On (Without the Guilt)**
   - 이미지: `content/pins/get-rid-of-things-you-spent-money-on.png`
   - 링크: https://peterpb.blogspot.com/2026/08/how-to-get-rid-of-things-you-spent-good.html
   - 설명: Struggling to declutter expensive items? Compare your real options — resell, return, donate, repurpose — and the math that makes letting go easier.
@@ -166,7 +166,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/08/can-you-caulk-over-old-caulk-or-do-you.html
   - 설명: No, you shouldn't caulk over old caulk in most cases. Here's how to tell when you can skip the removal step and when it'll fail fast.
 
-- [ ] **Furnace Filter Turns Gray in Two Weeks? Here's What That Means**
+- [x] **Furnace Filter Turns Gray in Two Weeks? Here's What That Means**
   - 이미지: `content/pins/furnace-filter-turns-gray-in-two-weeks.png`
   - 링크: https://peterpb.blogspot.com/2026/08/furnace-filter-turns-gray-in-two-weeks.html
   - 설명: A furnace filter that grays fast usually means high dust load, a leaky duct, or a filter that's too thin. Here's how to find the cause, step by step.
@@ -220,7 +220,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/08/what-happens-if-you-put-cast-iron-in.html
   - 설명: One cycle won't ruin cast iron, but it will strip the seasoning. Here's what actually happens, why the myths are wrong, and how to fix it fast.
 
-- [ ] **Why Does My Fridge Smell But I Can't Find the Source?**
+- [x] **Why Does My Fridge Smell But I Can't Find the Source?**
   - 이미지: `content/pins/fridge-smell-cant-find-source.png`
   - 링크: https://peterpb.blogspot.com/2026/08/why-does-my-fridge-smell-but-i-cant.html
   - 설명: A hidden fridge smell is usually trapped in porous surfaces or a spot you're not checking. Here's what's really causing it and how to fix it for good.
@@ -274,7 +274,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://peterpb.blogspot.com/2026/08/why-are-mushrooms-suddenly-growing-all.html
   - 설명: Mushrooms after rain mean your soil has healthy fungi feeding on decaying organic matter underground. Here's when to ignore them and when to act.
 
-- [ ] **Why Does Water Pool in One Spot in My Yard Every Time It Rains?**
+- [x] **Why Does Water Pool in One Spot in My Yard Every Time It Rains?**
   - 이미지: `content/pins/why-does-water-pool-in-one-spot-in-yard.png`
   - 링크: https://peterpb.blogspot.com/2026/08/why-does-water-pool-in-one-spot-in-my.html
   - 설명: Usually it's a low spot, compacted soil, or a grading problem near your house. Here's how to identify which one you have and fix it.

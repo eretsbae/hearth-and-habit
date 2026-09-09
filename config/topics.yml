@@ -210,7 +210,9 @@ topics:
   blogger_post_id: '5355884231715672604'
 - title: How Do I Know If a Repair Is Actually Worth Calling a Pro For?
   pillar: home-maintenance
-  status: pending
+  status: published
+  published_slug: when-to-call-a-pro-vs-diy-repair
+  quality_score: 79
 - title: At What Outdoor Temperature Do Pipes Actually Start to Freeze?
   pillar: home-maintenance
   status: pending

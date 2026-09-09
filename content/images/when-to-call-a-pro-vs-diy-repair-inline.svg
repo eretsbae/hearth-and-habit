@@ -1,0 +1,82 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- center divider -->
+  <rect x="595" y="60" width="10" height="510" fill="#E4C7B2"/>
+
+  <!-- LEFT SIDE: hand holding wrench -->
+  <g>
+    <circle cx="330" cy="180" r="130" fill="#E4C7B2" opacity="0.4"/>
+
+    <!-- arm -->
+    <path d="M180 480 L260 340 L330 340 L280 490 Z" fill="#E4C7B2"/>
+
+    <!-- hand/fist -->
+    <ellipse cx="300" cy="340" rx="70" ry="55" fill="#D9A441"/>
+    <ellipse cx="255" cy="330" rx="28" ry="22" fill="#D9A441"/>
+    <ellipse cx="290" cy="300" rx="26" ry="20" fill="#D9A441"/>
+    <ellipse cx="330" cy="295" rx="24" ry="20" fill="#D9A441"/>
+    <ellipse cx="360" cy="310" rx="22" ry="18" fill="#D9A441"/>
+    <path d="M260 355 Q300 380 345 355 L345 375 Q300 400 260 375 Z" fill="#B85C38" opacity="0.5"/>
+
+    <!-- wrench -->
+    <g transform="rotate(-30 400 230)">
+      <rect x="380" y="230" width="220" height="26" rx="13" fill="#5C6E58"/>
+      <circle cx="380" cy="243" r="38" fill="none" stroke="#5C6E58" stroke-width="22"/>
+      <circle cx="380" cy="243" r="18" fill="#F6EFE6"/>
+      <rect x="580" y="230" width="30" height="26" rx="6" fill="#5C6E58"/>
+    </g>
+
+    <!-- confident sparkle marks -->
+    <circle cx="450" cy="150" r="6" fill="#B85C38"/>
+    <circle cx="480" cy="200" r="4" fill="#D9A441"/>
+    <circle cx="200" cy="180" r="5" fill="#5C6E58"/>
+  </g>
+
+  <!-- RIGHT SIDE: electrical panel with warning -->
+  <g>
+    <circle cx="880" cy="200" r="130" fill="#B85C38" opacity="0.15"/>
+
+    <!-- panel box -->
+    <rect x="770" y="200" width="240" height="320" rx="14" fill="#2E2A24"/>
+    <rect x="790" y="220" width="200" height="280" rx="8" fill="#5C6E58"/>
+
+    <!-- panel door hinge line -->
+    <rect x="790" y="220" width="10" height="280" fill="#2E2A24" opacity="0.4"/>
+
+    <!-- breaker switches -->
+    <g fill="#F6EFE6">
+      <rect x="815" y="250" width="60" height="20" rx="4"/>
+      <rect x="815" y="285" width="60" height="20" rx="4"/>
+      <rect x="815" y="320" width="60" height="20" rx="4"/>
+      <rect x="815" y="355" width="60" height="20" rx="4"/>
+      <rect x="815" y="390" width="60" height="20" rx="4"/>
+    </g>
+    <g fill="#D9A441">
+      <rect x="905" y="250" width="60" height="20" rx="4"/>
+      <rect x="905" y="285" width="60" height="20" rx="4"/>
+      <rect x="905" y="320" width="60" height="20" rx="4"/>
+      <rect x="905" y="355" width="60" height="20" rx="4"/>
+      <rect x="905" y="390" width="60" height="20" rx="4"/>
+    </g>
+
+    <!-- door edge detail -->
+    <rect x="770" y="200" width="10" height="320" fill="#2E2A24"/>
+
+    <!-- warning triangle -->
+    <g>
+      <path d="M905 90 L965 195 L845 195 Z" fill="#D9A441"/>
+      <path d="M905 110 L945 185 L865 185 Z" fill="#F6EFE6"/>
+      <rect x="899" y="130" width="12" height="35" rx="4" fill="#B85C38"/>
+      <circle cx="905" cy="175" r="7" fill="#B85C38"/>
+    </g>
+
+    <!-- small warning sparks -->
+    <circle cx="1030" cy="230" r="5" fill="#B85C38"/>
+    <circle cx="1000" cy="500" r="6" fill="#5C6E58"/>
+    <circle cx="750" cy="150" r="4" fill="#D9A441"/>
+  </g>
+
+  <!-- ground line accents -->
+  <rect x="60" y="560" width="1080" height="6" fill="#E4C7B2" opacity="0.6"/>
+</svg>

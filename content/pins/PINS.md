@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 50개 준비됨 · 게시 완료 39개(수동 39 · API 0) · 대기 11개
+핀 51개 준비됨 · 게시 완료 39개(수동 39 · API 0) · 대기 12개
 
 ## 수동으로 올리는 법
 
@@ -188,7 +188,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Kitchen & Food Habits
 
-(10개)
+(11개)
 
 - [x] **The 30-Minute Sunday Meal Plan That Ends the 'What's for Dinner?' Spiral**
   - 이미지: `content/pins/30-minute-sunday-meal-plan.png`
@@ -239,6 +239,11 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 이미지: `content/pins/why-onions-garlic-sprout-indoors.png`
   - 링크: https://peterpb.blogspot.com/2026/09/why-onions-and-garlic-keep-sprouting.html
   - 설명: Onions and garlic sprout indoors mainly from warmth, moisture, and darkness combined. Here's the storage checklist that actually stops it.
+
+- [ ] **Why Does My Cutting Board Warp After Washing It?**
+  - 이미지: `content/pins/why-does-cutting-board-warp-after-washing.png`
+  - 링크: https://peterpb.blogspot.com/2026/09/why-does-my-cutting-board-warp-after.html
+  - 설명: A warped cutting board almost always comes from uneven water exposure. Here's the exact drying routine that stops it for good.
 
 ## 보드: Yard & Outdoor Basics
 

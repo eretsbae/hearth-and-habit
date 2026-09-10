@@ -447,7 +447,9 @@ topics:
   blogger_post_id: '2932230788507467073'
 - title: Why Does My Cutting Board Warp After Washing It?
   pillar: kitchen-habits
-  status: pending
+  status: published
+  published_slug: why-does-cutting-board-warp-after-washing
+  quality_score: 84
 - title: Is It Cheaper to Air-Dry Dishes or Use the Dishwasher's Heated Dry?
   pillar: energy-savings
   status: published

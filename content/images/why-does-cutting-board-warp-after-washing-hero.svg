@@ -1,0 +1,76 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- counter -->
+  <rect x="0" y="420" width="1200" height="210" fill="#E4C7B2"/>
+  <rect x="0" y="420" width="1200" height="10" fill="#D9A441" opacity="0.5"/>
+
+  <!-- backsplash accent shapes -->
+  <circle cx="1080" cy="120" r="90" fill="#5C6E58" opacity="0.12"/>
+  <circle cx="120" cy="90" r="60" fill="#B85C38" opacity="0.1"/>
+
+  <!-- dish towel -->
+  <g>
+    <rect x="120" y="360" width="260" height="150" rx="14" fill="#5C6E58"/>
+    <rect x="120" y="360" width="260" height="150" rx="14" fill="none" stroke="#2E2A24" stroke-width="2" opacity="0.15"/>
+    <rect x="120" y="400" width="260" height="14" fill="#F6EFE6" opacity="0.8"/>
+    <rect x="120" y="440" width="260" height="14" fill="#F6EFE6" opacity="0.8"/>
+    <path d="M120 480 Q250 460 380 480 L380 500 Q250 485 120 500 Z" fill="#4a5a47"/>
+  </g>
+
+  <!-- oil bottle -->
+  <g>
+    <rect x="940" y="300" width="90" height="170" rx="16" fill="#D9A441"/>
+    <rect x="940" y="300" width="90" height="170" rx="16" fill="none" stroke="#2E2A24" stroke-width="2" opacity="0.12"/>
+    <rect x="965" y="250" width="40" height="60" rx="6" fill="#B85C38"/>
+    <rect x="972" y="230" width="26" height="26" rx="4" fill="#2E2A24"/>
+    <ellipse cx="985" cy="385" rx="30" ry="55" fill="#F6EFE6" opacity="0.25"/>
+    <rect x="955" y="330" width="60" height="70" rx="4" fill="#F6EFE6" opacity="0.5"/>
+  </g>
+
+  <!-- cutting board, curved upward at edges -->
+  <g>
+    <path d="M260 440
+             Q260 380 330 385
+             Q600 355 870 385
+             Q940 380 940 440
+             Q940 500 870 495
+             Q600 470 330 495
+             Q260 500 260 440 Z"
+          fill="#B85C38"/>
+    <path d="M260 440
+             Q260 380 330 385
+             Q600 355 870 385
+             Q940 380 940 440
+             Q940 500 870 495
+             Q600 470 330 495
+             Q260 500 260 440 Z"
+          fill="none" stroke="#2E2A24" stroke-width="2" opacity="0.15"/>
+    <!-- wood grain lines -->
+    <path d="M300 420 Q600 395 900 420" stroke="#8f4529" stroke-width="4" fill="none" opacity="0.5"/>
+    <path d="M300 445 Q600 420 900 445" stroke="#8f4529" stroke-width="4" fill="none" opacity="0.5"/>
+    <path d="M300 470 Q600 448 900 470" stroke="#8f4529" stroke-width="4" fill="none" opacity="0.5"/>
+    <!-- highlight top edge -->
+    <path d="M330 385 Q600 355 870 385" stroke="#E4C7B2" stroke-width="6" fill="none" opacity="0.6"/>
+    <!-- handle hole -->
+    <ellipse cx="880" cy="440" rx="16" ry="10" fill="#8f4529" opacity="0.6"/>
+  </g>
+
+  <!-- small water droplets suggesting washing -->
+  <g fill="#5C6E58" opacity="0.5">
+    <ellipse cx="420" cy="360" rx="6" ry="9"/>
+    <ellipse cx="520" cy="345" rx="5" ry="8"/>
+    <ellipse cx="700" cy="350" rx="5" ry="8"/>
+  </g>
+
+  <!-- decorative sprig -->
+  <g stroke="#5C6E58" stroke-width="4" fill="none" opacity="0.8">
+    <path d="M60 480 Q80 440 60 400"/>
+    <path d="M60 460 Q40 450 30 430"/>
+    <path d="M60 440 Q80 430 90 410"/>
+    <path d="M60 420 Q40 410 35 390"/>
+  </g>
+
+  <!-- soft shadow under board -->
+  <ellipse cx="600" cy="500" rx="360" ry="18" fill="#2E2A24" opacity="0.08"/>
+</svg>

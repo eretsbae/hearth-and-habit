@@ -1,0 +1,88 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- House cross-section background -->
+  <g opacity="0.9">
+    <rect x="150" y="90" width="900" height="420" fill="#EDE1D3"/>
+    <polygon points="150,90 600,-20 1050,90" fill="#E4C7B2" transform="translate(0,20)"/>
+    <polygon points="200,110 600,10 1000,110" fill="#E4C7B2"/>
+
+    <!-- room dividers -->
+    <line x1="600" y1="110" x2="600" y2="510" stroke="#D9A441" stroke-width="4" opacity="0.4"/>
+    <line x1="150" y1="300" x2="1050" y2="300" stroke="#D9A441" stroke-width="4" opacity="0.4"/>
+
+    <!-- pipes -->
+    <path d="M230 130 L230 480" stroke="#5C6E58" stroke-width="10" fill="none" opacity="0.6"/>
+    <path d="M280 150 L280 480 L360 480" stroke="#5C6E58" stroke-width="8" fill="none" opacity="0.5"/>
+    <circle cx="230" cy="480" r="10" fill="#5C6E58" opacity="0.6"/>
+
+    <!-- wires -->
+    <path d="M900 130 Q950 200 900 260 Q850 320 900 380 Q950 440 900 480" stroke="#B85C38" stroke-width="6" fill="none" opacity="0.5"/>
+    <circle cx="900" cy="130" r="8" fill="#B85C38" opacity="0.6"/>
+    <circle cx="900" cy="480" r="8" fill="#B85C38" opacity="0.6"/>
+
+    <!-- furnace -->
+    <g transform="translate(950,340)">
+      <rect x="0" y="0" width="90" height="140" rx="8" fill="#5C6E58"/>
+      <rect x="10" y="15" width="70" height="35" rx="4" fill="#F6EFE6" opacity="0.3"/>
+      <circle cx="45" cy="90" r="18" fill="#D9A441" opacity="0.8"/>
+      <circle cx="45" cy="90" r="8" fill="#2E2A24" opacity="0.6"/>
+      <rect x="15" y="120" width="60" height="8" fill="#2E2A24" opacity="0.3"/>
+    </g>
+
+    <!-- second room shelf -->
+    <rect x="680" y="200" width="140" height="14" fill="#B85C38" opacity="0.4"/>
+    <rect x="700" y="150" width="30" height="50" fill="#D9A441" opacity="0.5"/>
+    <rect x="750" y="160" width="24" height="40" fill="#5C6E58" opacity="0.5"/>
+  </g>
+
+  <!-- Ground line -->
+  <rect x="0" y="510" width="1200" height="120" fill="#F6EFE6"/>
+  <rect x="0" y="505" width="1200" height="8" fill="#5C6E58" opacity="0.3"/>
+
+  <!-- Homeowner figure center -->
+  <g transform="translate(600,395)">
+    <ellipse cx="0" cy="205" rx="70" ry="14" fill="#2E2A24" opacity="0.08"/>
+    <!-- legs -->
+    <rect x="-30" y="110" width="24" height="90" rx="10" fill="#5C6E58"/>
+    <rect x="6" y="110" width="24" height="90" rx="10" fill="#5C6E58"/>
+    <!-- torso -->
+    <rect x="-42" y="20" width="84" height="100" rx="20" fill="#B85C38"/>
+    <!-- arms -->
+    <rect x="-70" y="30" width="26" height="80" rx="13" fill="#B85C38"/>
+    <rect x="44" y="30" width="26" height="80" rx="13" fill="#B85C38"/>
+    <!-- hands -->
+    <circle cx="-57" cy="115" r="13" fill="#E4C7B2"/>
+    <circle cx="57" cy="115" r="13" fill="#E4C7B2"/>
+    <!-- head -->
+    <circle cx="0" cy="-15" r="38" fill="#E4C7B2"/>
+    <path d="M-38 -20 Q0 -60 38 -20 Q38 -40 0 -45 Q-38 -40 -38 -20 Z" fill="#2E2A24"/>
+    <circle cx="-13" cy="-15" r="3" fill="#2E2A24"/>
+    <circle cx="13" cy="-15" r="3" fill="#2E2A24"/>
+    <path d="M-8 0 Q0 5 8 0" stroke="#2E2A24" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Toolbox on left -->
+  <g transform="translate(300,470)">
+    <rect x="0" y="20" width="150" height="80" rx="8" fill="#B85C38"/>
+    <rect x="0" y="20" width="150" height="20" fill="#8f4429"/>
+    <path d="M40 20 Q75 -20 110 20" stroke="#2E2A24" stroke-width="8" fill="none"/>
+    <rect x="60" y="55" width="30" height="12" rx="4" fill="#D9A441"/>
+    <rect x="15" y="60" width="18" height="30" fill="#5C6E58"/>
+    <rect x="115" y="60" width="18" height="30" fill="#5C6E58"/>
+  </g>
+
+  <!-- Phone on right -->
+  <g transform="translate(830,440)">
+    <rect x="0" y="0" width="80" height="150" rx="16" fill="#5C6E58"/>
+    <rect x="8" y="12" width="64" height="110" rx="4" fill="#F6EFE6"/>
+    <circle cx="40" cy="135" r="6" fill="#F6EFE6"/>
+    <!-- call icon -->
+    <path d="M30 55 Q40 45 50 55 Q55 65 45 70 Q40 80 55 85 Q65 78 65 68" stroke="#B85C38" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- decorative dots -->
+  <circle cx="200" cy="150" r="6" fill="#D9A441" opacity="0.5"/>
+  <circle cx="1000" cy="180" r="6" fill="#B85C38" opacity="0.5"/>
+  <circle cx="960" cy="480" r="5" fill="#5C6E58" opacity="0.4"/>
+</svg>

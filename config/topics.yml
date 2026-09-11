@@ -196,6 +196,7 @@ topics:
   redirect_to: caulking-101-how-to-caulk
   retire_reason: 'near-duplicate of Caulking 101: Where to Caulk, What to Buy, and How to Get a Clean
     Line'
+  retired_at: '2026-09-11'
 - title: What Does It Mean When My Furnace Filter Turns Gray in Two Weeks?
   pillar: home-maintenance
   status: published
@@ -301,6 +302,7 @@ topics:
   retired_url: https://www.hearth-habit.com/2026/08/is-it-cheaper-to-hold-one-thermostat.html
   redirect_to: thermostat-settings-by-season-savings
   retire_reason: near-duplicate of The Right Thermostat Settings for Every Season (and How Much They Save)
+  retired_at: '2026-09-11'
 - title: How Much Does It Actually Cost to Run a Space Heater for 8 Hours?
   pillar: energy-savings
   status: pending

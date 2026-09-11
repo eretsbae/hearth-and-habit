@@ -165,6 +165,22 @@ Energy & Utility Savings / Kitchen & Food Habits / Yard & Outdoor Basics).
    기록을 빠뜨리면 승인 후 API가 같은 글을 다시 올립니다. 반대로 **업로드 전에** 찍으면
    그 글이 큐에서 영영 빠지므로, 업로드가 끝난 뒤에 실행하세요.
 
+### CSV 배치 루틴 (콘텐츠 가져오기)
+
+낱개로 올리는 대신 Pinterest 설정 → **콘텐츠 가져오기**에 CSV를 넣는 방식입니다.
+
+```bash
+git pull origin main                                # 새 글·새 URL 반영
+python generator/make_bulk_csv.py --per-file 4      # bulk-upload/pins-NN.csv 생성
+```
+
+- `bulk-upload/`는 **gitignore 대상**입니다. CSV는 리포로 오가지 않으니 업로드하는 PC에서
+  직접 생성하세요.
+- 번호는 폴더에 이미 있는 `pins-NN.csv` 다음부터 이어집니다(pins-08까지 있으면 pins-09부터).
+  강제로 지정하려면 `--start 9`.
+- 하루 한 파일. 업로드 → Pinterest에서 핀 생성 확인 → 스크립트가 출력한 `--mark-pinned`
+  한 줄 실행 → `config/topics.yml` 커밋·푸시. 그 다음 파일도 같은 순서로.
+
 ## 문제 해결
 
 | 증상 | 해결 |

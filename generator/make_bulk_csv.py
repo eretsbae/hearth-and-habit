@@ -31,12 +31,19 @@ Usage:
     python generator/make_bulk_csv.py                  # every pending post, one file
     python generator/make_bulk_csv.py --per-file 4     # split into 4-pin daily batches
     python generator/make_bulk_csv.py --limit 12
+    python generator/make_bulk_csv.py --per-file 4 --start 9   # force numbering
+
+Files are numbered pins-NN.csv and the numbering continues from whatever is
+already in the output directory, so a second run after more posts go live
+yields pins-09, pins-10, ... instead of overwriting pins-01 again. The
+directory is gitignored: generate on the machine you upload from.
 """
 
 from __future__ import annotations
 
 import argparse
 import csv
+import re
 import sys
 from pathlib import Path
 
@@ -60,6 +67,14 @@ COLUMNS = ["Title", "Media URL", "Pinterest board", "Thumbnail",
 TITLE_MAX = 100
 DESC_MAX = 500
 MAX_ROWS_PER_FILE = 200  # the importer's stated ceiling
+_BATCH_FILE = re.compile(r"^pins-(\d+)\.csv$")
+
+
+def next_batch_number(out_dir: Path) -> int:
+    """1 + the highest pins-NN.csv already in out_dir (1 when empty)."""
+    seen = [int(m.group(1)) for f in out_dir.glob("pins-*.csv")
+            if (m := _BATCH_FILE.match(f.name))]
+    return max(seen, default=0) + 1
 
 
 def row_for(topic: dict, pillars: dict, cfg: dict) -> dict:
@@ -99,6 +114,9 @@ def main() -> int:
     ap.add_argument("--per-file", type=int, default=0,
                     help="Split into files of this many rows, to upload one a day "
                          "(default: a single file)")
+    ap.add_argument("--start", type=int, default=0,
+                    help="Number the first file pins-<START>.csv (default: continue "
+                         "after the highest pins-NN.csv already in --out-dir)")
     ap.add_argument("--no-bom", action="store_true",
                     help="Write plain UTF-8. The default matches Excel's "
                          "'CSV UTF-8' (BOM), which is what Pinterest's docs ask for")
@@ -126,12 +144,13 @@ def main() -> int:
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     batches = [rows[i:i + chunk] for i in range(0, len(rows), chunk)]
+    first = args.start or next_batch_number(out_dir)
 
     print(f"{len(rows)} pin(s) pending -> {len(batches)} file(s) in {out_dir}/\n")
-    for n, batch in enumerate(batches, 1):
-        name = "pins.csv" if len(batches) == 1 else f"pins-{n:02d}.csv"
+    for i, batch in enumerate(batches):
+        name = f"pins-{first + i:02d}.csv"
         write_csv(out_dir / name, batch, bom=not args.no_bom)
-        slugs = [t["published_slug"] for t in todo[(n - 1) * chunk:(n - 1) * chunk + len(batch)]]
+        slugs = [t["published_slug"] for t in todo[i * chunk:i * chunk + len(batch)]]
         print(f"{name}  ({len(batch)} pins)")
         for r in batch:
             print(f"    {r['Pinterest board']:<28} {r['Title'][:52]}")

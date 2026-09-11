@@ -188,13 +188,22 @@
 
 거절되면 **최소 30일** 뒤에 재제출. 2주 간격 반복은 다시 하지 않는다.
 
-### 그동안 콘텐츠 쪽 (2단계, 별도 작업)
+### 그동안 콘텐츠 쪽 (2단계)
 
-- 발행 주기 주5회 → 주2회로 하향 (`generate-and-publish.yml` cron). 양은 충분하고 더 쌓는 건
-  "scaled content" 신호가 된다
-- 근접 중복 쌍 통합 후 Blogger 맞춤 리디렉션: furnace filter 2편, running toilet 2편,
-  caulk 2편, 온도조절기/환기구 3편
-- 필러당 코너스톤 가이드 1편(2,500단어+, 원본 표 포함) 추가
+- 발행 주기: 사용자 결정으로 **주5회 유지** (2026-09-11)
+- 근접 중복 정리 (2026-09-11): 후보 4그룹을 본문 기준으로 다시 읽은 결과 진짜 중복은 2쌍뿐이라
+  그 2편만 내렸다. furnace filter 2편(기초 vs 증상 진단), running toilet 2편(상시 vs 간헐, 글 자체가
+  차이를 다룸), closing vents(별개 질문)는 서로 다른 검색 의도라 유지.
+
+  | 내린 글 | 살린 글 | 이유 |
+  |---|---|---|
+  | Is It Cheaper to Hold One Thermostat Setting All Day or Adjust It? | The Right Thermostat Settings for Every Season | "reheat a cold house" 미신 반박이 두 글의 골자로 동일 |
+  | Can You Caulk Over Old Caulk? | Caulking 101 | 101의 Step 2(옛 코킹 제거)와 같은 내용 |
+
+  절차는 `generator/blogger_retire.py` 상단 참고: topics.yml 에 `status: retired` + `redirect_to`
+  기록 → content/ 파일 삭제 → **Retire Posts** 워크플로우 실행(Blogger 휴지통, 90일 복구 가능) →
+  로그의 from→to 경로를 Blogger → 설정 → 오류 및 리디렉션 → 맞춤 리디렉션에 "영구"로 추가.
+- 필러당 코너스톤 가이드 1편(2,500단어+, 원본 표 포함) 추가 — 미착수
 
 ## 정책 참고 사항 (중요)
 

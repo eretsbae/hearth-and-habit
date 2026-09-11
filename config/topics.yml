@@ -187,12 +187,16 @@ topics:
   blogger_post_id: '2865993573681148622'
 - title: Can You Caulk Over Old Caulk, or Do You Have to Remove It First?
   pillar: home-maintenance
-  status: published
+  status: retired
   published_slug: can-you-caulk-over-old-caulk
   quality_score: 82
-  blogger_url: https://www.hearth-habit.com/2026/08/can-you-caulk-over-old-caulk-or-do-you.html
   blogger_post_id: '8666646156656961287'
   pinterest_pin_id: manual
+  retired_url: https://www.hearth-habit.com/2026/08/can-you-caulk-over-old-caulk-or-do-you.html
+  redirect_to: caulking-101-how-to-caulk
+  retire_reason: 'near-duplicate of Caulking 101: Where to Caulk, What to Buy, and How to Get a Clean
+    Line'
+  retired_at: '2026-09-11'
 - title: What Does It Mean When My Furnace Filter Turns Gray in Two Weeks?
   pillar: home-maintenance
   status: published
@@ -290,12 +294,15 @@ topics:
   pinterest_pin_id: manual
 - title: Is It Cheaper to Hold One Thermostat Setting All Day or Adjust It?
   pillar: energy-savings
-  status: published
+  status: retired
   published_slug: hold-thermostat-setting-vs-adjusting
   quality_score: 78
-  blogger_url: https://www.hearth-habit.com/2026/08/is-it-cheaper-to-hold-one-thermostat.html
   blogger_post_id: '7123590429514879302'
   pinterest_pin_id: manual
+  retired_url: https://www.hearth-habit.com/2026/08/is-it-cheaper-to-hold-one-thermostat.html
+  redirect_to: thermostat-settings-by-season-savings
+  retire_reason: near-duplicate of The Right Thermostat Settings for Every Season (and How Much They Save)
+  retired_at: '2026-09-11'
 - title: How Much Does It Actually Cost to Run a Space Heater for 8 Hours?
   pillar: energy-savings
   status: pending

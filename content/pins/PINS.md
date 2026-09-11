@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 51개 준비됨 · 게시 완료 39개(수동 39 · API 0) · 대기 12개
+핀 49개 준비됨 · 게시 완료 37개(수동 37 · API 0) · 대기 12개
 
 ## 수동으로 올리는 법
 
@@ -80,7 +80,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Energy & Utility Savings
 
-(9개)
+(8개)
 
 - [x] **How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work**
   - 이미지: `content/pins/cut-electric-bill-no-cost-habits.png`
@@ -107,11 +107,6 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/08/why-did-my-electric-bill-double-with-no.html
   - 설명: Your bill likely jumped from rate hikes, seasonal weather, a billing estimate correction, or a hidden appliance problem. Here's how to find which one.
 
-- [x] **Is It Cheaper to Hold One Thermostat Setting All Day or Adjust It?**
-  - 이미지: `content/pins/hold-thermostat-setting-vs-adjusting.png`
-  - 링크: https://www.hearth-habit.com/2026/08/is-it-cheaper-to-hold-one-thermostat.html
-  - 설명: Adjusting your thermostat almost always beats holding one temperature all day. Here's the myth, the physics, and the exact setback that saves the most.
-
 - [x] **Does Closing Vents in Unused Rooms Save Energy or Cost More?**
   - 이미지: `content/pins/closing-vents-unused-rooms-energy.png`
   - 링크: https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html
@@ -129,7 +124,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Home Maintenance & Repairs
 
-(11개)
+(10개)
 
 - [x] **Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -160,11 +155,6 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 이미지: `content/pins/water-heater-popping-rumbling-sound.png`
   - 링크: https://www.hearth-habit.com/2026/08/water-heater-popping-or-rumbling-heres.html
   - 설명: Yes, popping or rumbling usually means sediment buildup, not a failing water heater. Here's how to tell if it's harmless or a sign to call a plumber.
-
-- [x] **Can You Caulk Over Old Caulk, or Do You Have to Remove It First?**
-  - 이미지: `content/pins/can-you-caulk-over-old-caulk.png`
-  - 링크: https://www.hearth-habit.com/2026/08/can-you-caulk-over-old-caulk-or-do-you.html
-  - 설명: No, you shouldn't caulk over old caulk in most cases. Here's how to tell when you can skip the removal step and when it'll fail fast.
 
 - [x] **Furnace Filter Turns Gray in Two Weeks? Here's What That Means**
   - 이미지: `content/pins/furnace-filter-turns-gray-in-two-weeks.png`

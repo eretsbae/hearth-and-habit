@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 49개 준비됨 · 게시 완료 37개(수동 37 · API 0) · 대기 12개
+핀 50개 준비됨 · 게시 완료 41개(수동 41 · API 0) · 대기 9개
 
 ## 수동으로 올리는 법
 
@@ -68,7 +68,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/08/how-to-get-rid-of-things-you-spent-good.html
   - 설명: Struggling to declutter expensive items? Compare your real options — resell, return, donate, repurpose — and the math that makes letting go easier.
 
-- [ ] **Why Does My House Get Messy Again Two Days After I Clean It?**
+- [x] **Why Does My House Get Messy Again Two Days After I Clean It?**
   - 이미지: `content/pins/why-house-gets-messy-again-after-cleaning.png`
   - 링크: https://www.hearth-habit.com/2026/08/why-does-my-house-get-messy-again-two.html
   - 설명: Your house doesn't have a mess problem, it has an input problem. Compare the real fixes: better systems, less stuff, or a faster reset routine.
@@ -124,7 +124,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Home Maintenance & Repairs
 
-(10개)
+(11개)
 
 - [x] **Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -161,7 +161,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/08/furnace-filter-turns-gray-in-two-weeks.html
   - 설명: A furnace filter that grays fast usually means high dust load, a leaky duct, or a filter that's too thin. Here's how to find the cause, step by step.
 
-- [ ] **Why Do My Pipes Bang When I Turn Off the Faucet?**
+- [x] **Why Do My Pipes Bang When I Turn Off the Faucet?**
   - 이미지: `content/pins/pipes-banging-noise-turn-off-faucet.png`
   - 링크: https://www.hearth-habit.com/2026/08/why-do-my-pipes-bang-when-i-turn-off.html
   - 설명: That bang is usually water hammer, a pressure shockwave from valves closing fast. Here's how to confirm it and fix it, step by step.
@@ -175,6 +175,11 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 이미지: `content/pins/when-to-call-a-pro-vs-diy-repair.png`
   - 링크: https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html
   - 설명: Not sure if a repair needs a professional? Use this symptom-by-symptom guide to know when DIY is fine and when calling a pro saves you money.
+
+- [ ] **Why Does My Garbage Disposal Hum But Not Spin? (And How to Fix It)**
+  - 이미지: `content/pins/garbage-disposal-hums-but-wont-spin.png`
+  - 링크: https://www.hearth-habit.com/2026/09/why-does-my-garbage-disposal-hum-but.html
+  - 설명: A humming garbage disposal usually means a jam or tripped motor, not a dead unit. Here's how to diagnose the cause and fix it safely in minutes.
 
 ## 보드: Kitchen & Food Habits
 
@@ -220,7 +225,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html
   - 설명: A hidden fridge smell is usually trapped in porous surfaces or a spot you're not checking. Here's what's really causing it and how to fix it for good.
 
-- [ ] **How Long Do Leftovers Really Last Before They Stop Being Safe?**
+- [x] **How Long Do Leftovers Really Last Before They Stop Being Safe?**
   - 이미지: `content/pins/how-long-do-leftovers-really-last.png`
   - 링크: https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html
   - 설명: Most leftovers are safe for 3-4 days in the fridge, but the real answer depends on the food. Here's the checklist to know what to trust and what to toss.
@@ -259,7 +264,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/07/how-late-can-you-seed-grass-in-fall-and.html
   - 설명: The cutoff is roughly 45 days before your first hard frost. Here's how to tell if you've still got time, and what to do if you've missed the window.
 
-- [ ] **Why Does Part of My Lawn Stay Brown Even Though I Water It?**
+- [x] **Why Does Part of My Lawn Stay Brown Even Though I Water It?**
   - 이미지: `content/pins/brown-patch-lawn-still-watering.png`
   - 링크: https://www.hearth-habit.com/2026/07/why-does-part-of-my-lawn-stay-brown.html
   - 설명: Watering isn't the problem — coverage, compaction, or damage usually is. Follow these steps to find the real cause and fix the brown patch for good.

@@ -6,11 +6,13 @@ description: How to get in touch with the Hearth & Habit editorial team.
 
 We'd love to hear from you — questions about a guide, corrections, or topics you'd like us to cover.
 
-**The fastest way to reach us is to leave a comment on any article.** Comments are read regularly, and questions that need a longer answer often become future guides.
+**Email us at [qo5928@gmail.com](mailto:qo5928@gmail.com).** We read every message and usually reply within a few business days.
+
+You can also leave a comment on any article. Comments are read regularly, and questions that need a longer answer often become future guides.
 
 ## Corrections
 
-Spotted something inaccurate or out of date? Leave a comment on the article in question with the detail you're flagging — we prioritize correction requests and update articles promptly.
+Spotted something inaccurate or out of date? Email us with the article title and the detail you're flagging, or leave a comment on the article — we prioritize correction requests and update articles promptly.
 
 ## Topic suggestions
 

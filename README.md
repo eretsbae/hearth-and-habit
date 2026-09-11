@@ -1,6 +1,6 @@
 # Hearth & Habit 🏠
 
-**북미 시장 타겟 Google AdSense 수익형 자동 블로그** — Claude가 글과 일러스트를 생성하고, GitHub Actions가 상시 가동하며, [peterpb.blogspot.com](https://peterpb.blogspot.com)(Blogger, 기존 애드센스 연동 계정)에 자동 게시합니다.
+**북미 시장 타겟 Google AdSense 수익형 자동 블로그** — Claude가 글과 일러스트를 생성하고, GitHub Actions가 상시 가동하며, [www.hearth-habit.com](https://www.hearth-habit.com)(Blogger + 커스텀 도메인, 기존 애드센스 연동 계정)에 자동 게시합니다.
 
 > 니치: **Home & Practical Living** (주택 관리 · 청소/정리 · 에너지 절약 · 주방 습관 · 마당 관리)
 > 애드센스 RPM이 높은 evergreen 분야이며, 고정된 5개 필러(pillar) 구조로 주제 드리프트를 원천 차단합니다.
@@ -11,13 +11,13 @@
 매주 월/수/금 (GitHub Actions cron)
   └─> Claude가 주제 큐에서 다음 글 작성 (글 + SVG 일러스트 1~2장)
        └─> content/에 커밋·푸시 (이미지는 raw.githubusercontent.com 로 서빙)
-            └─> Blogger API v3로 peterpb.blogspot.com에 자동 게시
+            └─> Blogger API v3로 www.hearth-habit.com에 자동 게시
                  └─> 이미 연동된 AdSense 계정이 광고 게재
 ```
 
 - **주제 큐** (`config/topics.yml`): 5개 필러 안의 evergreen 주제 40여 개가 미리 큐잉되어 있고, 큐가 부족해지면 Claude가 **필러 범위 안에서만** 자동 보충합니다. 트렌드 API를 쓰지 않으므로 주제가 중구난방으로 흔들리지 않습니다.
 - **디자인**: 웜톤 에디토리얼 테마를 Blogger 커스텀 CSS(`blogger/custom-css.css`)로 적용. 게시물 히어로 이미지는 Claude가 그리는 플랫 스타일 SVG.
-- **애드센스**: 도메인·ads.txt·스크립트 삽입이 전혀 필요 없습니다 — 이미 Blogger ↔ 애드센스가 연동되어 있어 Blogger의 "수익" 탭 설정을 그대로 따릅니다.
+- **애드센스**: Blogger ↔ 애드센스 연동 계정을 그대로 씁니다. 2026-09-11부터 커스텀 도메인 `hearth-habit.com`(www 정식)을 사용하며, 구 주소 `peterpb.blogspot.com`은 Blogger가 301로 넘깁니다. 전환 절차와 애드센스 재심사 전략은 [docs/SETUP_GUIDE.md](docs/SETUP_GUIDE.md)의 "커스텀 도메인 전환" 절 참고.
 
 ## 사용자가 해야 할 일 (전부 4단계, 이후는 완전 자동)
 

@@ -2,7 +2,8 @@
 # Hearth & Habit — site configuration
 # 사용자가 직접 수정해야 하는 값은 [사용자 입력] 표시가 되어 있습니다.
 #
-# 발행 플랫폼: Google Blogger (peterpb.blogspot.com)
+# 발행 플랫폼: Google Blogger (www.hearth-habit.com, 2026-09-11 커스텀 도메인 전환;
+#   구 주소 peterpb.blogspot.com은 Blogger가 301 리다이렉트)
 # 도메인 구매나 GitHub Pages 배포 없이, 이미 존재하는 애드센스 연동
 # Blogger 계정을 그대로 사용합니다. build_site.py / templates/ / static/
 # 는 이제 CI 파이프라인에서 쓰이지 않고, 로컬 미리보기 용도로만 남아있습니다.
@@ -20,10 +21,13 @@ author: "Hearth & Habit Editorial"
 
 # ── Blogger (실제 발행 대상) ────────────────────────────────
 blogger:
-  # [사용자 입력 완료] 이미 애드센스와 연동된 기존 Blogger 블로그
-  blog_url: "https://peterpb.blogspot.com"
-  # 비워두면 blog_url로 자동 조회(blogs.getByUrl)합니다. 알고 있다면 넣어도 됩니다.
-  blog_id: ""
+  # [사용자 입력 완료] 커스텀 도메인. Blogger는 www 서브도메인을 정식 주소로 쓰고
+  # 네이키드 도메인(hearth-habit.com)은 www로 리다이렉트합니다. 글 안의 내부 링크
+  # ("Keep reading", 필러 허브)와 새 글의 blogger_url이 모두 이 주소 기준으로 생성됩니다.
+  blog_url: "https://www.hearth-habit.com"
+  # 고정 지정. 비워두면 blog_url로 조회(blogs.getByUrl)하는데, 도메인 전환 직후
+  # DNS 전파 전에는 그 조회가 실패할 수 있어 ID를 못 박아 둡니다.
+  blog_id: "7379192903931845896"
 
 # ── 이미지 호스팅 (생성된 SVG를 raw.githubusercontent.com 로 서빙) ──
 # Blogger 글 본문은 이 리포에 커밋된 이미지를 절대경로 URL로 참조합니다.
@@ -33,7 +37,7 @@ github:
   branch: "main"
 
 # ── (레거시/로컬 미리보기 전용 — 실제 배포에는 더 이상 사용되지 않음) ──
-custom_domain: ""
+custom_domain: "hearth-habit.com"
 fallback_url: "https://eretsbae.github.io/hearth-and-habit"
 adsense:
   publisher_id: ""

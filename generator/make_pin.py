@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import argparse
 import io
+import re
 import textwrap
 from pathlib import Path
 
@@ -38,6 +39,7 @@ POSTS_DIR = ROOT / "content" / "posts"
 PINS_DIR = ROOT / "content" / "pins"
 IMAGES_DIR = ROOT / "content" / "images"
 TOPICS_CONFIG = ROOT / "config" / "topics.yml"
+SITE_CONFIG = ROOT / "config" / "site.yml"
 
 W, H = 1000, 1500
 
@@ -61,6 +63,18 @@ SANS_BOLD = [
     "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
     "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
 ]
+
+
+def site_domain() -> str:
+    """Bare host printed under the wordmark, e.g. hearth-habit.com.
+
+    Read from config/site.yml (blogger.blog_url) so a domain change never
+    leaves a stale address baked into every new pin image.
+    """
+    cfg = yaml.safe_load(SITE_CONFIG.read_text(encoding="utf-8")) or {}
+    url = (cfg.get("blogger", {}).get("blog_url") or cfg.get("custom_domain") or "").strip()
+    host = re.sub(r"^https?://", "", url).split("/")[0]
+    return host.removeprefix("www.")
 
 
 def load_font(candidates: list[str], size: int) -> ImageFont.FreeTypeFont:
@@ -181,7 +195,7 @@ def render_pin(title: str, pillar_name: str, out_path: Path,
     d.rectangle([W / 2 - 70, card_bottom - 148, W / 2 + 70, card_bottom - 144], fill=GOLD)
     d.text((W / 2, card_bottom - 108), "HEARTH & HABIT",
            font=load_font(SANS_BOLD, 30), fill=SAGE, anchor="ma")
-    d.text((W / 2, card_bottom - 64), "peterpb.blogspot.com",
+    d.text((W / 2, card_bottom - 64), site_domain(),
            font=load_font(SANS, 24), fill="#8A8078", anchor="ma")
 
     # footer band

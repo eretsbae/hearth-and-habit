@@ -1,0 +1,50 @@
+# config/topics.yml 에서 status: retired 로 표시된 글을 Blogger 휴지통으로 보내고
+# (90일간 복구 가능, 영구 삭제 아님), 같은 필러의 나머지 글에서 "Keep reading"
+# 링크를 다시 씁니다.
+# - 수동 실행 전용. 글을 내리려면 먼저 topics.yml 의 해당 항목을
+#   status: retired / retired_url / redirect_to 로 바꾸고 content/ 파일을 지운
+#   커밋을 main 에 올린 뒤 실행합니다 (generator/blogger_retire.py 상단 참고).
+# - 실행 후 로그 끝에 찍히는 from -> to 경로를 Blogger → 설정 → 오류 및
+#   리디렉션 → 맞춤 리디렉션에 "영구" 로 직접 추가해야 구 주소와 Pinterest 핀이
+#   살아남은 글로 넘어갑니다 (API 로는 불가).
+
+name: Retire Posts
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-write
+  cancel-in-progress: false
+
+jobs:
+  retire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Trash retired posts on Blogger
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+        run: python generator/blogger_retire.py
+
+      - name: Commit retired_at records
+        run: |
+          git config user.name "hearth-habit-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add config/topics.yml
+          git diff --cached --quiet || git commit -m "chore: record retired posts ($(date -u +%Y-%m-%d))"
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME"
+          git push

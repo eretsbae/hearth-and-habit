@@ -1,6 +1,6 @@
 # 자동 글 생성 + Blogger 발행 파이프라인
 # - 평일(월~금) 오전(북미 동부 기준)에 Claude로 새 글 1편(글 + SVG 일러스트)을
-#   생성해 이 리포에 커밋/푸시한 뒤, Blogger API로 peterpb.blogspot.com에
+#   생성해 이 리포에 커밋/푸시한 뒤, Blogger API로 www.hearth-habit.com에
 #   자동 게시합니다.
 # - Actions 탭에서 "Run workflow"로 수동 실행도 가능합니다.
 #

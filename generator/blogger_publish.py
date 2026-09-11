@@ -346,6 +346,14 @@ def main() -> int:
         "Run before the Claude generation step so a dead refresh token fails the "
         "workflow before any generation cost is incurred.",
     )
+    ap.add_argument(
+        "--relink-all",
+        action="store_true",
+        help="Do not publish anything; rewrite the related-posts block on every live "
+        "post so its internal links use the current blogger.blog_url. Run once "
+        "after a domain change (blogspot -> custom domain) so in-content links "
+        "point at the new domain directly instead of bouncing through the 301.",
+    )
     args = ap.parse_args()
 
     if args.check_auth:
@@ -356,6 +364,24 @@ def main() -> int:
     cfg = load_yaml(SITE_CONFIG)
     topics_data = load_yaml(TOPICS_CONFIG)
     pillar_by_slug = {p["slug"]: p for p in topics_data["pillars"]}
+
+    if args.relink_all:
+        blog_url = (cfg.get("blogger") or {}).get("blog_url", "").strip()
+        if not blog_url:
+            print("ERROR: config/site.yml -> blogger.blog_url is not set")
+            return 1
+        access_token = get_access_token()
+        blog_id = (cfg["blogger"].get("blog_id") or "").strip() or get_blog_id(access_token, blog_url)
+        live = [t for t in topics_data["topics"] if t.get("blogger_url")]
+        print(f"Relinking related-posts blocks on {len(live)} live posts -> {blog_url}")
+        refresh_related_on_published(
+            access_token, blog_id, blog_url, topics_data,
+            pillar_by_slug, set(pillar_by_slug), set(),
+        )
+        # Nothing new was published, so there is no publish record to
+        # protect; only persist if the refresh cached a missing post id.
+        save_yaml(TOPICS_CONFIG, topics_data)
+        return 0
 
     to_publish = [
         t for t in topics_data["topics"]

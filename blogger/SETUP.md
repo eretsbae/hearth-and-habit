@@ -1,4 +1,4 @@
-# Blogger 연동 셋업 (peterpb.blogspot.com)
+# Blogger 연동 셋업 (www.hearth-habit.com, 구 peterpb.blogspot.com)
 
 이 문서는 `docs/SETUP_GUIDE.md`의 3단계에서 참조하는 상세 가이드입니다.
 
@@ -9,7 +9,7 @@
    - Soho를 권장하는 이유: 넓은 여백, 단순한 그리드 구조라 커스텀 CSS가 깨질 확률이 낮습니다.
 3. **맞춤설정(Customize)** 클릭 → 왼쪽 메뉴 **고급(Advanced)** → 스크롤 맨 아래 **CSS 추가**
 4. 이 폴더의 `custom-css.css` 파일 전체 내용을 복사해서 붙여넣고 **저장**
-5. 블로그 주소(peterpb.blogspot.com)를 열어 반영 확인. 색상/폰트가 웜톤 에디토리얼 스타일로 바뀌어 있으면 성공입니다.
+5. 블로그 주소(www.hearth-habit.com)를 열어 반영 확인. 색상/폰트가 웜톤 에디토리얼 스타일로 바뀌어 있으면 성공입니다.
 
 문제가 생기면 Customize 화면에서 CSS 박스를 비우고 저장하면 즉시 원상 복구됩니다 (테마 자체는 건드리지 않으므로 안전합니다).
 

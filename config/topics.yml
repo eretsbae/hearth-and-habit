@@ -442,7 +442,9 @@ topics:
   blogger_post_id: '1824543489022940150'
 - title: Why Does My Garbage Disposal Hum But Not Spin?
   pillar: home-maintenance
-  status: pending
+  status: published
+  published_slug: garbage-disposal-hums-but-wont-spin
+  quality_score: 84
 - title: Is It Normal for a New LED Bulb to Flicker With a Dimmer Switch?
   pillar: home-maintenance
   status: pending

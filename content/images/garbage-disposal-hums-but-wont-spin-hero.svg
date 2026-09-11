@@ -1,0 +1,84 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- counter -->
+  <rect x="0" y="120" width="1200" height="60" fill="#E4C7B2"/>
+  <rect x="0" y="175" width="1200" height="14" fill="#D9A441" opacity="0.5"/>
+
+  <!-- cabinet cutaway body -->
+  <rect x="180" y="189" width="840" height="360" fill="#F6EFE6" stroke="#2E2A24" stroke-width="4"/>
+  <rect x="180" y="189" width="840" height="360" fill="#5C6E58" opacity="0.06"/>
+
+  <!-- shelf lines inside cabinet -->
+  <line x1="180" y1="470" x2="1020" y2="470" stroke="#2E2A24" stroke-width="2" opacity="0.25"/>
+
+  <!-- sink basin cut into counter -->
+  <path d="M300 120 L900 120 L880 200 Q880 230 850 230 L350 230 Q320 230 320 200 Z" fill="#E4C7B2" stroke="#2E2A24" stroke-width="4"/>
+  <path d="M330 130 L870 130 L855 195 Q855 210 840 210 L360 210 Q345 210 345 195 Z" fill="#F6EFE6" stroke="#2E2A24" stroke-width="3"/>
+
+  <!-- faucet -->
+  <path d="M580 120 L580 70 Q580 50 610 50 L650 50 Q670 50 670 70 L670 100" fill="none" stroke="#5C6E58" stroke-width="14" stroke-linecap="round"/>
+  <rect x="592" y="65" width="16" height="60" rx="6" fill="#5C6E58"/>
+  <circle cx="600" cy="60" r="10" fill="#D9A441"/>
+
+  <!-- drain pipe from sink to disposal -->
+  <rect x="565" y="228" width="70" height="40" fill="#B85C38" stroke="#2E2A24" stroke-width="3"/>
+
+  <!-- garbage disposal unit -->
+  <g>
+    <ellipse cx="600" cy="300" rx="95" ry="30" fill="#B85C38" stroke="#2E2A24" stroke-width="3"/>
+    <rect x="505" y="300" width="190" height="120" rx="18" fill="#B85C38" stroke="#2E2A24" stroke-width="3"/>
+    <ellipse cx="600" cy="420" rx="95" ry="26" fill="#9c4a2c" stroke="#2E2A24" stroke-width="3"/>
+    <!-- ridges -->
+    <ellipse cx="600" cy="340" rx="95" ry="14" fill="none" stroke="#2E2A24" stroke-width="2" opacity="0.4"/>
+    <ellipse cx="600" cy="375" rx="95" ry="14" fill="none" stroke="#2E2A24" stroke-width="2" opacity="0.4"/>
+    <!-- bottom motor cap -->
+    <ellipse cx="600" cy="430" rx="60" ry="16" fill="#5C6E58" stroke="#2E2A24" stroke-width="3"/>
+    <!-- electrical cord -->
+    <path d="M660 430 Q720 450 740 500 Q750 520 790 520" fill="none" stroke="#2E2A24" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- side discharge pipe from disposal -->
+  <rect x="690" y="330" width="100" height="30" rx="10" fill="#5C6E58" stroke="#2E2A24" stroke-width="3"/>
+  <rect x="780" y="330" width="30" height="140" rx="10" fill="#5C6E58" stroke="#2E2A24" stroke-width="3"/>
+  <path d="M780 470 Q780 500 810 500 L900 500" fill="none" stroke="#5C6E58" stroke-width="24" stroke-linecap="round"/>
+
+  <!-- P-trap under disposal -->
+  <path d="M600 446 L600 480 Q600 500 620 500 L660 500 Q680 500 680 480 L680 470" fill="none" stroke="#D9A441" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- glow/motion lines suggesting humming -->
+  <g stroke="#D9A441" stroke-width="4" fill="none" opacity="0.7">
+    <path d="M470 350 Q450 360 470 372"/>
+    <path d="M460 380 Q440 392 460 404"/>
+    <path d="M730 350 Q750 360 730 372"/>
+    <path d="M740 380 Q760 392 740 404"/>
+  </g>
+
+  <!-- wrench on counter -->
+  <g transform="translate(150,150) rotate(-18)">
+    <rect x="0" y="0" width="130" height="16" rx="8" fill="#2E2A24"/>
+    <path d="M0 0 Q-18 -4 -22 8 Q-26 20 -12 24 Q0 26 4 14 Z" fill="#2E2A24"/>
+    <path d="M130 0 Q148 -4 152 8 Q156 20 142 24 Q130 26 126 14 Z" fill="#2E2A24"/>
+  </g>
+
+  <!-- flashlight on counter -->
+  <g transform="translate(940,140) rotate(12)">
+    <rect x="0" y="0" width="90" height="30" rx="8" fill="#5C6E58"/>
+    <rect x="-22" y="4" width="26" height="22" rx="6" fill="#2E2A24"/>
+    <circle cx="-22" cy="15" r="9" fill="#D9A441"/>
+    <rect x="90" y="8" width="14" height="14" rx="4" fill="#2E2A24"/>
+    <!-- light beam -->
+    <path d="M-22 15 L-90 -10 L-90 40 Z" fill="#D9A441" opacity="0.25"/>
+  </g>
+
+  <!-- small sponge/decor on counter -->
+  <rect x="1000" y="150" width="60" height="28" rx="8" fill="#E4C7B2" stroke="#2E2A24" stroke-width="2"/>
+  <rect x="1005" y="155" width="50" height="8" rx="4" fill="#5C6E58" opacity="0.5"/>
+
+  <!-- cabinet door hint lines -->
+  <line x1="180" y1="330" x2="180" y2="549" stroke="#2E2A24" stroke-width="4"/>
+  <line x1="1020" y1="330" x2="1020" y2="549" stroke="#2E2A24" stroke-width="4"/>
+
+  <!-- floor shadow -->
+  <ellipse cx="600" cy="600" rx="500" ry="18" fill="#2E2A24" opacity="0.08"/>
+</svg>

@@ -1,0 +1,73 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft background decorative circles -->
+  <circle cx="150" cy="100" r="70" fill="#E4C7B2" opacity="0.4"/>
+  <circle cx="1080" cy="530" r="90" fill="#5C6E58" opacity="0.15"/>
+  <circle cx="1050" cy="90" r="40" fill="#D9A441" opacity="0.25"/>
+
+  <!-- Sink counter surface -->
+  <rect x="0" y="120" width="1200" height="30" fill="#E4C7B2"/>
+
+  <!-- Disposal unit body -->
+  <g>
+    <!-- upper mounting collar -->
+    <rect x="470" y="150" width="260" height="40" rx="10" fill="#B85C38"/>
+    <!-- main cylindrical body -->
+    <rect x="440" y="190" width="320" height="220" rx="30" fill="#B85C38"/>
+    <!-- shading band -->
+    <rect x="440" y="190" width="320" height="40" rx="20" fill="#a24f2f"/>
+
+    <!-- side ridge lines -->
+    <rect x="460" y="250" width="280" height="8" rx="4" fill="#8f452a" opacity="0.5"/>
+    <rect x="460" y="290" width="280" height="8" rx="4" fill="#8f452a" opacity="0.5"/>
+    <rect x="460" y="330" width="280" height="8" rx="4" fill="#8f452a" opacity="0.5"/>
+
+    <!-- bottom cap -->
+    <ellipse cx="600" cy="410" rx="160" ry="40" fill="#9c4c2e"/>
+    <ellipse cx="600" cy="400" rx="160" ry="40" fill="#B85C38"/>
+
+    <!-- reset button -->
+    <circle cx="700" cy="230" r="14" fill="#D9A441"/>
+
+    <!-- bottom center hole (flywheel access) -->
+    <ellipse cx="600" cy="400" rx="34" ry="16" fill="#2E2A24"/>
+    <ellipse cx="600" cy="397" rx="26" ry="11" fill="#1f1c17"/>
+  </g>
+
+  <!-- Allen wrench inserted into hole -->
+  <g>
+    <!-- shaft going into hole -->
+    <rect x="588" y="380" width="24" height="60" rx="6" fill="#5C6E58"/>
+    <!-- L-bend of allen wrench -->
+    <path d="M588 380 L588 300 Q588 288 600 288 L680 288" 
+          stroke="#5C6E58" stroke-width="24" fill="none" stroke-linecap="round"/>
+    <!-- highlight on wrench -->
+    <path d="M592 378 L592 300 Q592 296 600 296 L676 296" 
+          stroke="#748a6f" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
+    <!-- hex tip detail -->
+    <polygon points="600,432 588,440 588,420 600,412" fill="#3f4a3b"/>
+  </g>
+
+  <!-- Motion arrows around disposal suggesting turning -->
+  <g fill="none" stroke="#D9A441" stroke-width="6" stroke-linecap="round">
+    <path d="M500 470 A120 120 0 0 1 560 430" />
+    <path d="M700 470 A120 120 0 0 0 640 430" />
+  </g>
+  <polygon points="500,470 515,460 512,480" fill="#D9A441"/>
+  <polygon points="700,470 685,460 688,480" fill="#D9A441"/>
+
+  <!-- small sound/hum wave marks near top of disposal for context -->
+  <g stroke="#5C6E58" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.55">
+    <path d="M400 220 q20 -20 0 -40"/>
+    <path d="M380 220 q30 -30 0 -60"/>
+  </g>
+  <g stroke="#5C6E58" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.55">
+    <path d="M800 220 q-20 -20 0 -40"/>
+    <path d="M820 220 q-30 -30 0 -60"/>
+  </g>
+
+  <!-- decorative bottom accent shapes -->
+  <circle cx="120" cy="560" r="20" fill="#5C6E58" opacity="0.3"/>
+  <circle cx="1100" cy="220" r="16" fill="#B85C38" opacity="0.3"/>
+</svg>

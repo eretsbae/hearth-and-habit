@@ -48,11 +48,19 @@
    - **Scopes** — `boards:read`, `boards:write`, `pins:read`, `pins:write`, `user_accounts:read`
 4. **App ID**와 **App secret**을 복사해 둡니다.
 
-> **Trial access는 심사를 거칩니다.** 이 프로젝트의 앱(ID 1594725)은 2026-06에 신청해
-> **2026-09-13에 승인**됐습니다. Trial access가 허용하는 범위(*앱 소유자 본인 계정*에
-> 대한 호출)가 우리 용도와 정확히 맞으므로 standard access 심사는 필요 없습니다.
-> 승인 전에는 포털이 App secret을 보여주지 않아 3단계를 시작할 수 없었고, 그동안은
-> 아래 "승인 대기 중에 할 일"의 CSV 경로로 올렸습니다.
+> **Trial access로는 실제 핀을 만들 수 없습니다 (2026-09-13 실측).** 이 프로젝트의
+> 앱(ID 1594725)은 2026-06에 신청해 2026-09-13에 Trial access를 받았고, 그날 바로
+> 워크플로를 돌려보니 `POST /pins`가 **403 code 29: "Apps with Trial access may not
+> create Pins in production — use API Sandbox"** 로 거절됐습니다. Trial은 읽기 +
+> sandbox 쓰기까지이고, 실제 프로필에 핀을 만들려면 **Standard access**가 필요합니다.
+>
+> **다음 단계**: 개발자 포털 → 내 앱 → **업그레이드** 버튼으로 Standard access를
+> 신청하세요. 신청서에는 용도("내 블로그 글의 핀을 내 보드에 자동 게시"), 앱이 실제로
+> 호출하는 엔드포인트(boards list, pins create), 데이터 저장 방식(핀 ID만 리포에 기록)을
+> 적으면 됩니다. 심사 중에도 3~5단계는 그대로 유효하고, 승인되는 순간 워크플로가
+> 자동으로 핀을 올리기 시작합니다(코드 변경 불필요).
+>
+> 그때까지는 아래 "승인 대기 중에 할 일"의 **CSV 경로가 정식 경로**입니다.
 
 ## 3단계. 로컬에서 1회 인증 (5분)
 
@@ -121,8 +129,9 @@ Energy & Utility Savings / Kitchen & Food Habits / Yard & Outdoor Basics).
 
 ## 승인 대기 중에 할 일 (또는 수동으로 더 올리고 싶을 때)
 
-> 2026-09-13 이후에는 API가 매일 자동으로 올립니다. 이 절은 API가 막혔을 때의 예비
-> 경로입니다. **API가 돌고 있는 동안 CSV를 올리면 같은 글이 두 번 핀됩니다.**
+> Standard access가 나오기 전까지는 이 CSV 경로가 정식 경로입니다. 워크플로는 매일
+> 돌지만 Trial access라 핀을 만들지 못하고 경고만 남깁니다. **Standard access가 승인된
+> 뒤에는 CSV를 올리지 마세요** — 워크플로가 같은 글을 다시 올립니다.
 
 승인은 우리가 통제할 수 없지만, 핀 이미지는 글이 발행될 때마다 이미 자동 생성되고
 있습니다. 백로그를 쌓아두지 말고 손으로 올리세요 — AdSense 심사에 필요한 외부 링크와

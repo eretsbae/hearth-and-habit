@@ -58,6 +58,12 @@ def main() -> int:
             print("붙여넣은 URL에서 code를 찾지 못했습니다.")
             return 1
         print("(URL 전체에서 code를 자동 추출했습니다)")
+    elif "&" in code or "?" in code:
+        # "abc123&m=1" — Blogger appends &m=1 on mobile and it is easy to
+        # drag-select along with the code. Everything after the code itself
+        # makes Pinterest reject the grant (401, code 283).
+        code = code.split("?")[-1].split("&")[0].removeprefix("code=")
+        print("(code 뒤에 붙은 파라미터를 잘라냈습니다)")
 
     tokens = pc.exchange_code(app_id, app_secret, code, redirect_uri)
     if "refresh_token" not in tokens:

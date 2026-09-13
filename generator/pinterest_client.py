@@ -6,12 +6,14 @@ are real crawlable links AND send actual readers, and Pinterest ranks pins
 without caring about domain authority — the one channel a three-week-old
 blogspot can compete in today.
 
-Access model: "Trial access" limits an app to the app owner's own account,
-which is exactly this use case (posting our own pins to our own boards), so
-no *standard* access review is needed. Trial access is granted by review,
-not on app creation; ours waited from 2026-06 until 2026-09-13. Until then
-the portal withheld the app secret, and the backlog went up by hand through
-the bulk-CSV route (make_bulk_csv.py), which stays as the fallback.
+Access model (verified live 2026-09-13): "Trial access" lets the app read
+production data and create pins ONLY against the API sandbox
+(api-sandbox.pinterest.com), which never touches the real profile. A
+production POST /pins returns 403 code 29. Creating real pins needs
+*Standard* access, requested with the "Upgrade" button on the app page and
+reviewed by Pinterest. Trial access itself took 2026-06 -> 2026-09-13 to be
+granted. Until Standard access lands, pins go up through the bulk-CSV route
+(make_bulk_csv.py), which is the working path, not a fallback.
 
 Token storage follows the same encrypted-file pattern as Kakao — see
 token_store.py for why repository secrets alone don't work.
@@ -144,6 +146,14 @@ def ensure_board(access_token: str, name: str, description: str, cache: dict) ->
     return board["id"]
 
 
+class TrialAccessOnly(SystemExit):
+    """Pinterest refused a production write because the app only has Trial
+    access (HTTP 403, code 29). Trial access can read production data but may
+    only *create* pins against the sandbox host, which never reaches the real
+    profile. Production pin creation needs Standard access, requested with
+    the "Upgrade" button on the app page."""
+
+
 def create_pin(access_token: str, board_id: str, title: str, description: str,
                link: str, image_url: str) -> dict:
     """Create a pin from a publicly reachable image URL.
@@ -161,10 +171,11 @@ def create_pin(access_token: str, board_id: str, title: str, description: str,
     }
     resp = requests.post(f"{API}/pins", json=payload,
                          headers=_auth_headers(access_token), timeout=60)
+    if resp.status_code == 403 and '"code":29' in resp.text.replace(" ", ""):
+        raise TrialAccessOnly(resp.text[:300])
     if not resp.ok:
         raise SystemExit(
             f"ERROR: pin creation failed ({resp.status_code}): {resp.text[:400]}\n"
-            "If this says the app lacks permission, confirm the app has pins:write "
-            "and that Trial access covers your own account."
+            "If this says the app lacks permission, confirm the app has pins:write."
         )
     return resp.json()

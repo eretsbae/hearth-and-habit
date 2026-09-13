@@ -48,6 +48,11 @@ jobs:
         run: python generator/pinterest_publish.py --limit ${{ github.event.inputs.limit || '3' }}
 
       - name: Commit pin records
+        # always(): Pinterest rotates the refresh token on every refresh, and
+        # pinterest_publish.py re-encrypts it to disk before it creates any pin.
+        # If pinning then fails and this step is skipped, the rotated token is
+        # lost and the next run authenticates with a dead one.
+        if: always()
         run: |
           git config user.name "hearth-habit-bot"
           git config user.email "actions@users.noreply.github.com"

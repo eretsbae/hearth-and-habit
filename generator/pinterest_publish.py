@@ -260,10 +260,28 @@ def main() -> int:
         description = (fm.get("description") or "").strip() or title
 
         print(f"Pinning: {title}")
-        result = pc.create_pin(
-            access_token, board_id, title, description,
-            topic["blogger_url"], pin_image_url(cfg, slug),
-        )
+        try:
+            result = pc.create_pin(
+                access_token, board_id, title, description,
+                topic["blogger_url"], pin_image_url(cfg, slug),
+            )
+        except pc.TrialAccessOnly as e:
+            # Expected state until Pinterest grants Standard access. Same
+            # loud-skip treatment as "not configured": a red run every day
+            # would just be noise, but the summary must say nothing went up.
+            summary = (f"Pinterest app has Trial access only, which cannot create "
+                       f"production pins; {len(todo)} post(s) waiting. ({e})")
+            print(summary)
+            print(f"::warning::{summary}")
+            step_summary(
+                "## ⚠️ Pinterest Trial access — 핀을 올릴 수 없습니다\n\n"
+                f"- 대기 중인 글: **{len(todo)}편**\n"
+                "- Trial access는 sandbox에만 핀을 만들 수 있습니다(403 code 29). "
+                "실제 게시에는 **Standard access**가 필요합니다: 개발자 포털 → 내 앱 → **업그레이드**.\n"
+                "- 그동안은 `generator/make_bulk_csv.py`로 CSV를 만들어 \"콘텐츠 가져오기\"로 올리고 "
+                "`pinterest_publish.py --mark-pinned pinsNN`으로 기록하세요.\n"
+            )
+            return 0
         topic["pinterest_pin_id"] = result.get("id", "")
         print(f"  -> pin {topic['pinterest_pin_id']} on '{board_name}'")
         pinned_any = True

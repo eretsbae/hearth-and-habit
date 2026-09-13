@@ -7,14 +7,11 @@ without caring about domain authority — the one channel a three-week-old
 blogspot can compete in today.
 
 Access model: "Trial access" limits an app to the app owner's own account,
-which is exactly this use case (posting our own pins to our own boards) --
-so no *standard* access review is needed. But trial access is itself
-granted by review, not automatic on app creation, and Pinterest's queue has
-run long (multi-week waits are common; ours has sat pending for two months
-as of 2026-08). While an app is pending, the portal does not reveal the app
-secret, so the OAuth flow in pinterest_auth.py cannot even be started.
-See docs/PINTEREST_SETUP.md for how to escalate and how to keep the channel
-running by hand in the meantime.
+which is exactly this use case (posting our own pins to our own boards), so
+no *standard* access review is needed. Trial access is granted by review,
+not on app creation; ours waited from 2026-06 until 2026-09-13. Until then
+the portal withheld the app secret, and the backlog went up by hand through
+the bulk-CSV route (make_bulk_csv.py), which stays as the fallback.
 
 Token storage follows the same encrypted-file pattern as Kakao — see
 token_store.py for why repository secrets alone don't work.
@@ -119,13 +116,30 @@ def create_board(access_token: str, name: str, description: str) -> dict:
     return resp.json()
 
 
+def board_key(name: str) -> str:
+    """Case- and whitespace-insensitive board name, for matching boards that
+    were created by hand against the pillar names in topics.yml."""
+    return " ".join(name.split()).casefold()
+
+
+def board_index(boards: list[dict]) -> dict[str, str]:
+    """board_key(name) -> id for the boards list_boards() returned."""
+    return {board_key(b["name"]): b["id"] for b in boards}
+
+
 def ensure_board(access_token: str, name: str, description: str, cache: dict) -> str:
     """Board id for `name`, creating the board on first use. `cache` is the
-    name->id map from list_boards() and is updated in place."""
-    if name in cache:
-        return cache[name]
+    board_index() map and is updated in place.
+
+    The five pillar boards were created by hand during the months the API was
+    pending, so the lookup must find them however Pinterest normalised the
+    name; creating a near-duplicate board would split each pillar's pins
+    across two boards."""
+    key = board_key(name)
+    if key in cache:
+        return cache[key]
     board = create_board(access_token, name, description)
-    cache[name] = board["id"]
+    cache[key] = board["id"]
     print(f"  created board: {name}")
     return board["id"]
 

@@ -186,6 +186,7 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html
   blogger_post_id: '2865993573681148622'
   pinterest_pin_id: manual
+  pinterest_batch: pins09
 - title: Can You Caulk Over Old Caulk, or Do You Have to Remove It First?
   pillar: home-maintenance
   status: retired
@@ -221,6 +222,7 @@ topics:
   quality_score: 79
   blogger_url: https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html
   blogger_post_id: '6408153902215791594'
+  pinterest_batch: pins10
 - title: At What Outdoor Temperature Do Pipes Actually Start to Freeze?
   pillar: home-maintenance
   status: pending
@@ -276,6 +278,7 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/09/is-it-worth-buying-separate-cleaners.html
   blogger_post_id: '1850391199733675021'
   pinterest_pin_id: manual
+  pinterest_batch: pins09
 - title: Does Turning the AC Off While You're at Work Actually Save Money?
   pillar: energy-savings
   status: published
@@ -443,6 +446,7 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/09/why-does-my-deck-feel-spongy-in-some.html
   blogger_post_id: '1824543489022940150'
   pinterest_pin_id: manual
+  pinterest_batch: pins09
 - title: Why Does My Garbage Disposal Hum But Not Spin?
   pillar: home-maintenance
   status: published
@@ -464,6 +468,7 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html
   blogger_post_id: '2932230788507467073'
   pinterest_pin_id: manual
+  pinterest_batch: pins09
 - title: Why Does My Cutting Board Warp After Washing It?
   pillar: kitchen-habits
   status: published
@@ -471,6 +476,7 @@ topics:
   quality_score: 84
   blogger_url: https://www.hearth-habit.com/2026/09/why-does-my-cutting-board-warp-after.html
   blogger_post_id: '5935207484200728519'
+  pinterest_batch: pins10
 - title: Is It Cheaper to Air-Dry Dishes or Use the Dishwasher's Heated Dry?
   pillar: energy-savings
   status: published
@@ -478,6 +484,7 @@ topics:
   quality_score: 84
   blogger_url: https://www.hearth-habit.com/2026/09/air-dry-or-heated-dry-which-one.html
   blogger_post_id: '8198266816540097629'
+  pinterest_batch: pins10
 - title: Why Does My Closet Smell Musty Even Though Everything Looks Clean?
   pillar: cleaning-organization
   status: pending
@@ -491,3 +498,4 @@ topics:
   quality_score: 84
   blogger_url: https://www.hearth-habit.com/2026/09/why-does-grass-along-sidewalk-die-every.html
   blogger_post_id: '4105977501687940514'
+  pinterest_batch: pins10

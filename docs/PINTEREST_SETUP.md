@@ -179,8 +179,13 @@ python generator/make_bulk_csv.py --per-file 4      # bulk-upload/pinsNN.csv 생
 - 파일명은 `pins09.csv` 형식이고, 번호는 폴더에 이미 있는 `pinsNN.csv`(하이픈 있는 `pins-NN.csv`도 인식)
   다음부터 이어집니다(pins08까지 있으면 pins09부터).
   강제로 지정하려면 `--start 9`.
-- 하루 한 파일. 업로드 → Pinterest에서 핀 생성 확인 → 스크립트가 출력한 `--mark-pinned`
-  한 줄 실행 → `config/topics.yml` 커밋·푸시. 그 다음 파일도 같은 순서로.
+- 생성 시 각 글에 `pinterest_batch: pinsNN`이 `config/topics.yml`에 기록됩니다(커밋 필요).
+  그래서 CSV 파일이 없는 다른 PC에서도 배치 이름만으로 기록할 수 있습니다:
+  `python generator/pinterest_publish.py --mark-pinned pins10`
+- 하루 한 파일. 업로드 → Pinterest에서 핀 생성 확인 → `--mark-pinned pinsNN` →
+  `config/topics.yml` 커밋·푸시. 그 다음 파일도 같은 순서로.
+- 이미 파일에 들어간 글은 기록 전까지 다음 파일에 다시 뽑히지 않습니다
+  (`--include-assigned`로 강제).
 
 ## 문제 해결
 

@@ -185,6 +185,7 @@ topics:
   quality_score: 80
   blogger_url: https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html
   blogger_post_id: '2865993573681148622'
+  pinterest_pin_id: manual
 - title: Can You Caulk Over Old Caulk, or Do You Have to Remove It First?
   pillar: home-maintenance
   status: retired
@@ -274,6 +275,7 @@ topics:
   quality_score: 79
   blogger_url: https://www.hearth-habit.com/2026/09/is-it-worth-buying-separate-cleaners.html
   blogger_post_id: '1850391199733675021'
+  pinterest_pin_id: manual
 - title: Does Turning the AC Off While You're at Work Actually Save Money?
   pillar: energy-savings
   status: published
@@ -440,6 +442,7 @@ topics:
   quality_score: 85
   blogger_url: https://www.hearth-habit.com/2026/09/why-does-my-deck-feel-spongy-in-some.html
   blogger_post_id: '1824543489022940150'
+  pinterest_pin_id: manual
 - title: Why Does My Garbage Disposal Hum But Not Spin?
   pillar: home-maintenance
   status: published
@@ -460,6 +463,7 @@ topics:
   quality_score: 84
   blogger_url: https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html
   blogger_post_id: '2932230788507467073'
+  pinterest_pin_id: manual
 - title: Why Does My Cutting Board Warp After Washing It?
   pillar: kitchen-habits
   status: published

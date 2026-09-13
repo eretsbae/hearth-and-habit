@@ -33,9 +33,9 @@ Usage:
     python generator/make_bulk_csv.py --limit 12
     python generator/make_bulk_csv.py --per-file 4 --start 9   # force numbering
 
-Files are numbered pins-NN.csv and the numbering continues from whatever is
+Files are numbered pinsNN.csv and the numbering continues from whatever is
 already in the output directory, so a second run after more posts go live
-yields pins-09, pins-10, ... instead of overwriting pins-01 again. The
+yields pins09, pins10, ... instead of overwriting pins01 again. The
 directory is gitignored: generate on the machine you upload from.
 """
 
@@ -67,12 +67,14 @@ COLUMNS = ["Title", "Media URL", "Pinterest board", "Thumbnail",
 TITLE_MAX = 100
 DESC_MAX = 500
 MAX_ROWS_PER_FILE = 200  # the importer's stated ceiling
-_BATCH_FILE = re.compile(r"^pins-(\d+)\.csv$")
+# pins09.csv is the name the uploads were filed under; pins-09.csv is
+# accepted too so an older run's files still count toward the numbering.
+_BATCH_FILE = re.compile(r"^pins-?(\d+)\.csv$", re.IGNORECASE)
 
 
 def next_batch_number(out_dir: Path) -> int:
-    """1 + the highest pins-NN.csv already in out_dir (1 when empty)."""
-    seen = [int(m.group(1)) for f in out_dir.glob("pins-*.csv")
+    """1 + the highest pinsNN.csv already in out_dir (1 when empty)."""
+    seen = [int(m.group(1)) for f in out_dir.glob("pins*.csv")
             if (m := _BATCH_FILE.match(f.name))]
     return max(seen, default=0) + 1
 
@@ -115,8 +117,8 @@ def main() -> int:
                     help="Split into files of this many rows, to upload one a day "
                          "(default: a single file)")
     ap.add_argument("--start", type=int, default=0,
-                    help="Number the first file pins-<START>.csv (default: continue "
-                         "after the highest pins-NN.csv already in --out-dir)")
+                    help="Number the first file pins<START>.csv (default: continue "
+                         "after the highest pinsNN.csv already in --out-dir)")
     ap.add_argument("--no-bom", action="store_true",
                     help="Write plain UTF-8. The default matches Excel's "
                          "'CSV UTF-8' (BOM), which is what Pinterest's docs ask for")
@@ -148,7 +150,7 @@ def main() -> int:
 
     print(f"{len(rows)} pin(s) pending -> {len(batches)} file(s) in {out_dir}/\n")
     for i, batch in enumerate(batches):
-        name = f"pins-{first + i:02d}.csv"
+        name = f"pins{first + i:02d}.csv"
         write_csv(out_dir / name, batch, bom=not args.no_bom)
         slugs = [t["published_slug"] for t in todo[i * chunk:i * chunk + len(batch)]]
         print(f"{name}  ({len(batch)} pins)")

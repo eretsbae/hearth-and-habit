@@ -28,9 +28,21 @@ import requests
 
 import token_store
 
-API = "https://api.pinterest.com/v5"
+API_PRODUCTION = "https://api.pinterest.com/v5"
+# Trial-access apps may create pins only here. Same OAuth token, same request
+# shapes, but nothing created lands on the real profile — it exists so an app
+# can be exercised (and demoed for the Standard-access review) before it is
+# allowed to write to production.
+API_SANDBOX = "https://api-sandbox.pinterest.com/v5"
+API = API_PRODUCTION
 OAUTH_AUTHORIZE = "https://www.pinterest.com/oauth/"
-OAUTH_TOKEN = f"{API}/oauth/token"
+OAUTH_TOKEN = f"{API_PRODUCTION}/oauth/token"  # token exchange is production-only
+
+
+def use_sandbox() -> None:
+    """Route every data call (boards, pins, user account) at the sandbox."""
+    global API
+    API = API_SANDBOX
 
 SCOPES = "boards:read,boards:write,pins:read,pins:write,user_accounts:read"
 
@@ -88,6 +100,14 @@ def refresh_access_token(app_id: str, app_secret: str, refresh_token: str) -> di
 
 def _auth_headers(access_token: str) -> dict:
     return {"Authorization": f"Bearer {access_token}", "Content-Type": "application/json"}
+
+
+def get_user_account(access_token: str) -> dict:
+    """The authenticated account: username, account_type, profile URL."""
+    resp = requests.get(f"{API}/user_account", headers=_auth_headers(access_token), timeout=30)
+    if not resp.ok:
+        raise SystemExit(f"ERROR: could not read user account ({resp.status_code}): {resp.text[:300]}")
+    return resp.json()
 
 
 def list_boards(access_token: str) -> list[dict]:

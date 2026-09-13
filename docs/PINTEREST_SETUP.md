@@ -171,12 +171,13 @@ Energy & Utility Savings / Kitchen & Food Habits / Yard & Outdoor Basics).
 
 ```bash
 git pull origin main                                # 새 글·새 URL 반영
-python generator/make_bulk_csv.py --per-file 4      # bulk-upload/pins-NN.csv 생성
+python generator/make_bulk_csv.py --per-file 4      # bulk-upload/pinsNN.csv 생성
 ```
 
 - `bulk-upload/`는 **gitignore 대상**입니다. CSV는 리포로 오가지 않으니 업로드하는 PC에서
   직접 생성하세요.
-- 번호는 폴더에 이미 있는 `pins-NN.csv` 다음부터 이어집니다(pins-08까지 있으면 pins-09부터).
+- 파일명은 `pins09.csv` 형식이고, 번호는 폴더에 이미 있는 `pinsNN.csv`(하이픈 있는 `pins-NN.csv`도 인식)
+  다음부터 이어집니다(pins08까지 있으면 pins09부터).
   강제로 지정하려면 `--start 9`.
 - 하루 한 파일. 업로드 → Pinterest에서 핀 생성 확인 → 스크립트가 출력한 `--mark-pinned`
   한 줄 실행 → `config/topics.yml` 커밋·푸시. 그 다음 파일도 같은 순서로.

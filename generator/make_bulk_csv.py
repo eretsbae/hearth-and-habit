@@ -53,10 +53,12 @@ sys.path.insert(0, str(ROOT / "generator"))
 from pinterest_publish import (  # noqa: E402
     TOPICS_CONFIG,
     SITE_CONFIG,
+    batch_name,
     candidates,
     load_yaml,
     pin_image_url,
     post_meta,
+    save_yaml,
 )
 
 COLUMNS = ["Title", "Media URL", "Pinterest board", "Thumbnail",
@@ -72,10 +74,17 @@ MAX_ROWS_PER_FILE = 200  # the importer's stated ceiling
 _BATCH_FILE = re.compile(r"^pins-?(\d+)\.csv$", re.IGNORECASE)
 
 
-def next_batch_number(out_dir: Path) -> int:
-    """1 + the highest pinsNN.csv already in out_dir (1 when empty)."""
+def next_batch_number(out_dir: Path, topics_data: dict) -> int:
+    """1 + the highest batch seen so far, in out_dir or in config/topics.yml.
+
+    The ledger in topics.yml is what makes the number stable across machines:
+    bulk-upload/ is gitignored, so on a fresh clone the files alone would
+    restart at pins01.
+    """
     seen = [int(m.group(1)) for f in out_dir.glob("pins*.csv")
             if (m := _BATCH_FILE.match(f.name))]
+    seen += [int(m.group(1)) for t in topics_data.get("topics", [])
+             if (m := _BATCH_FILE.match(str(t.get("pinterest_batch", "")) + ".csv"))]
     return max(seen, default=0) + 1
 
 
@@ -119,6 +128,10 @@ def main() -> int:
     ap.add_argument("--start", type=int, default=0,
                     help="Number the first file pins<START>.csv (default: continue "
                          "after the highest pinsNN.csv already in --out-dir)")
+    ap.add_argument("--include-assigned", action="store_true",
+                    help="Also include posts already written into an earlier "
+                         "pinsNN.csv that has not been recorded as uploaded yet "
+                         "(default: leave them to that file)")
     ap.add_argument("--no-bom", action="store_true",
                     help="Write plain UTF-8. The default matches Excel's "
                          "'CSV UTF-8' (BOM), which is what Pinterest's docs ask for")
@@ -131,6 +144,10 @@ def main() -> int:
     # Same selection and board round-robin the API path uses, so a run here
     # and a run there never disagree about what is still pending.
     todo = candidates(topics_data)
+    if not args.include_assigned:
+        # A post already sitting in pins10.csv on the uploader's disk must
+        # not show up again in pins11.csv, or it gets pinned twice.
+        todo = [t for t in todo if not t.get("pinterest_batch")]
     if args.limit:
         todo = todo[: args.limit]
     if not todo:
@@ -146,20 +163,28 @@ def main() -> int:
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     batches = [rows[i:i + chunk] for i in range(0, len(rows), chunk)]
-    first = args.start or next_batch_number(out_dir)
+    first = args.start or next_batch_number(out_dir, topics_data)
 
     print(f"{len(rows)} pin(s) pending -> {len(batches)} file(s) in {out_dir}/\n")
     for i, batch in enumerate(batches):
-        name = f"pins{first + i:02d}.csv"
+        stem = batch_name(first + i)
+        name = f"{stem}.csv"
         write_csv(out_dir / name, batch, bom=not args.no_bom)
-        slugs = [t["published_slug"] for t in todo[i * chunk:i * chunk + len(batch)]]
+        members = todo[i * chunk:i * chunk + len(batch)]
+        for t in members:
+            t["pinterest_batch"] = stem
         print(f"{name}  ({len(batch)} pins)")
         for r in batch:
             print(f"    {r['Pinterest board']:<28} {r['Title'][:52]}")
         # Recording is the step that keeps the API from re-posting these once
         # the app is finally approved, so hand over the exact command.
         print("  after uploading, record them:")
-        print(f"    python generator/pinterest_publish.py --mark-pinned {' '.join(slugs)}\n")
+        print(f"    python generator/pinterest_publish.py --mark-pinned {stem}\n")
+
+    # The batch membership lives in topics.yml (committed) rather than only in
+    # the gitignored CSV, so the upload can be recorded from any machine.
+    save_yaml(TOPICS_CONFIG, topics_data)
+    print(f"batch membership written to {TOPICS_CONFIG.relative_to(ROOT)} (commit it)\n")
 
     boards = sorted({r["Pinterest board"] for r in rows})
     print("These boards must already exist on Pinterest, public, named exactly:")

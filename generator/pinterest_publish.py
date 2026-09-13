@@ -25,6 +25,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import re
 import os
 import sys
 from pathlib import Path
@@ -79,6 +80,36 @@ def post_meta(slug: str) -> dict:
     return {}
 
 
+_BATCH_NAME = re.compile(r"^pins-?(\d+)$", re.IGNORECASE)
+
+
+def batch_name(n: int) -> str:
+    return f"pins{n:02d}"
+
+
+def expand_batches(args: list[str], topics_data: dict) -> set[str]:
+    """Slugs from a --mark-pinned list where items may be batch names.
+
+    make_bulk_csv.py stamps each post it writes into pinsNN.csv with
+    pinterest_batch: pinsNN, so "uploaded pins10" is enough to record the
+    whole file without copying four slugs around.
+    """
+    wanted: set[str] = set()
+    for item in args:
+        m = _BATCH_NAME.match(item)
+        if not m:
+            wanted.add(item)
+            continue
+        name = batch_name(int(m.group(1)))
+        slugs = [t["published_slug"] for t in topics_data.get("topics", [])
+                 if t.get("published_slug") and t.get("pinterest_batch") == name]
+        if not slugs:
+            raise SystemExit(f"ERROR: no posts are recorded under batch {name} "
+                             "(config/topics.yml: pinterest_batch)")
+        wanted.update(slugs)
+    return wanted
+
+
 def candidates(topics_data: dict) -> list[dict]:
     """Live posts that have a rendered pin but haven't been pinned yet,
     interleaved across pillars.
@@ -111,9 +142,11 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=3,
                     help="Max pins to create this run (default 3; paced on purpose)")
     ap.add_argument("--dry-run", action="store_true", help="List what would be pinned, no API calls")
-    ap.add_argument("--mark-pinned", nargs="+", metavar="SLUG",
+    ap.add_argument("--mark-pinned", nargs="+", metavar="SLUG|pinsNN",
                     help="Record these slugs as already pinned by hand, so the "
-                         "automation skips them and never double-posts")
+                         "automation skips them and never double-posts. A batch "
+                         "name such as pins10 expands to every post make_bulk_csv.py "
+                         "put in that file (config/topics.yml: pinterest_batch)")
     ap.add_argument("--unmark-pinned", nargs="+", metavar="SLUG",
                     help="Undo --mark-pinned, returning these slugs to the queue. "
                          "For when a batch was recorded before its upload actually "
@@ -126,7 +159,7 @@ def main() -> int:
 
     if args.mark_pinned or args.unmark_pinned:
         marking = bool(args.mark_pinned)
-        wanted = set(args.mark_pinned or args.unmark_pinned)
+        wanted = expand_batches(args.mark_pinned or args.unmark_pinned, topics_data)
         hit, from_api = [], []
         for t in topics_data["topics"]:
             if t.get("published_slug") not in wanted:

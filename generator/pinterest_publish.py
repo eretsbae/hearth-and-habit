@@ -142,6 +142,14 @@ def main() -> int:
     ap.add_argument("--limit", type=int, default=3,
                     help="Max pins to create this run (default 3; paced on purpose)")
     ap.add_argument("--dry-run", action="store_true", help="List what would be pinned, no API calls")
+    ap.add_argument("--sandbox", action="store_true",
+                    help="Create the pins on api-sandbox.pinterest.com instead of production. "
+                         "Nothing reaches the real profile and nothing is recorded in "
+                         "topics.yml; this is what Trial access allows and what the "
+                         "Standard-access demo video is recorded against")
+    ap.add_argument("--whoami", action="store_true",
+                    help="Authenticate, print the Pinterest account this token belongs "
+                         "to, and exit (proves the OAuth grant works)")
     ap.add_argument("--mark-pinned", nargs="+", metavar="SLUG|pinsNN",
                     help="Record these slugs as already pinned by hand, so the "
                          "automation skips them and never double-posts. A batch "
@@ -189,12 +197,18 @@ def main() -> int:
             print(f"{verb}: {slug}")
         return 0
 
+    if args.sandbox:
+        pc.use_sandbox()
+        print("=== SANDBOX MODE: api-sandbox.pinterest.com — pins are not published, "
+              "nothing is recorded ===")
+
     todo = candidates(topics_data)
-    if not todo:
+    if not todo and not args.whoami:
         print("Nothing to pin; every live post with a pin image is already on Pinterest.")
         return 0
     batch = todo[: args.limit]
-    print(f"{len(todo)} post(s) awaiting a pin; publishing {len(batch)} this run.")
+    if not args.whoami:
+        print(f"{len(todo)} post(s) awaiting a pin; publishing {len(batch)} this run.")
 
     if args.dry_run:
         for t in batch:
@@ -245,7 +259,19 @@ def main() -> int:
         pc.save_tokens({"refresh_token": tokens["refresh_token"]}, passphrase)
         print("Pinterest refresh token rotated; .secrets/pinterest_token.enc updated (commit it).")
 
-    board_cache = pc.board_index(pc.list_boards(access_token))
+    if args.whoami:
+        me = pc.get_user_account(access_token)
+        print("Authenticated as:")
+        for k in ("username", "account_type", "profile_image", "website_url", "id"):
+            if me.get(k):
+                print(f"  {k:<14} {me[k]}")
+        return 0
+
+    boards = pc.list_boards(access_token)
+    print(f"Boards on this account: {len(boards)}")
+    for b in boards:
+        print(f"  - {b.get('name')}  (id {b.get('id')})")
+    board_cache = pc.board_index(boards)
 
     pinned_any = False
     for topic in batch:
@@ -282,6 +308,13 @@ def main() -> int:
                 "`pinterest_publish.py --mark-pinned pinsNN`으로 기록하세요.\n"
             )
             return 0
+        if args.sandbox:
+            # Sandbox pins never appear on the profile, so recording their ids
+            # would wrongly retire the post from the production queue.
+            print(f"  -> sandbox pin {result.get('id')} on '{board_name}' (board {board_id})")
+            print(f"     link  {result.get('link')}")
+            print(f"     title {result.get('title')}")
+            continue
         topic["pinterest_pin_id"] = result.get("id", "")
         print(f"  -> pin {topic['pinterest_pin_id']} on '{board_name}'")
         pinned_any = True
@@ -289,6 +322,9 @@ def main() -> int:
         # of pins already created, or the next run would duplicate them.
         save_yaml(TOPICS_CONFIG, topics_data)
 
+    if args.sandbox:
+        print("Sandbox run complete; topics.yml untouched.")
+        return 0
     if pinned_any:
         remaining = len(todo) - len(batch)
         print(f"Done. {remaining} post(s) still queued for future runs.")

@@ -65,7 +65,7 @@
   - **계절 인식 발행** — 계절성 주제(`season_months`)는 검색 수요가 뛰기 4주+ 전에 우선 발행되고, 철 지난 주제는 대기합니다.
   - **검색 스니펫 첫 문단** — 글 도입 1~2문장이 검색 결과 설명문 역할을 하도록 생성 규칙에 포함. (Blogger의 meta description API 필드는 반영이 불안정해 의도적으로 쓰지 않습니다.)
 - **Pinterest 게시**: 글마다 세로형 핀 이미지(1000×1500)를 자동 생성합니다. 검색 색인이 아직 안 잡힌 신규 사이트가 실제 방문자와 외부 링크를 확보하는 가장 빠른 경로입니다. 설정: **[docs/PINTEREST_SETUP.md](PINTEREST_SETUP.md)**
-  - ⚠️ **API 자동 게시는 아직 꺼져 있습니다** — 개발자 앱이 Pinterest의 trial access 승인 대기 중(2026-09 기준 2개월째)이고, 승인 전에는 App secret이 안 나와 OAuth 자체가 불가능합니다. 대신 **`generator/make_bulk_csv.py`로 벌크 업로드 CSV를 만들어 올립니다** — Pinterest 비즈니스 계정의 "콘텐츠 가져오기"는 한 번에 최대 200핀을 받고 API 권한이 필요 없습니다. 2026-09-01에 첫 4핀으로 검증 완료. 올린 뒤에는 `pinterest_publish.py --mark-pinned`로 기록해야 승인 후 중복 게시를 막습니다.
+  - **API 자동 게시**: 개발자 앱(ID 1594725)이 2026-09-13에 trial access 승인을 받았습니다. `pinterest-publish.yml`이 매일 22:43 UTC에 3핀씩 올리고 `config/topics.yml`에 핀 ID를 기록합니다. 활성화 절차(1회 로컬 인증 → 시크릿 3개 → 토큰 파일 커밋)는 docs/PINTEREST_SETUP.md 3~5단계. 승인 전 2026-09-01~09-12에는 `generator/make_bulk_csv.py`로 만든 CSV를 "콘텐츠 가져오기"로 올렸고(pins01~09), 그 경로는 예비용으로 남겨둡니다. **API가 켜진 뒤에는 CSV를 올리지 마세요** — 같은 글이 두 번 핀됩니다.
 - **모니터링 루프**: 매주 월요일 조회수 스냅샷 수집 → 전주 대비 리포트 커밋 → **카카오톡 요약 전송**. 설정: **[docs/KAKAO_REPORT.md](KAKAO_REPORT.md)**
 - 사람이 할 일은 "검색 유입 확보"(위), 카카오톡 연결, 그리고 Pinterest 승인이 날 때까지의 수동 핀 게시입니다.
 

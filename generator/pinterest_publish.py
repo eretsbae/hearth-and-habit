@@ -245,7 +245,7 @@ def main() -> int:
         pc.save_tokens({"refresh_token": tokens["refresh_token"]}, passphrase)
         print("Pinterest refresh token rotated; .secrets/pinterest_token.enc updated (commit it).")
 
-    board_cache = {b["name"]: b["id"] for b in pc.list_boards(access_token)}
+    board_cache = pc.board_index(pc.list_boards(access_token))
 
     pinned_any = False
     for topic in batch:

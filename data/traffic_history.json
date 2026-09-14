@@ -98,5 +98,15 @@
     },
     "live_posts": 47,
     "new_this_week": 5
+  },
+  {
+    "date": "2026-09-14",
+    "pageviews": {
+      "pv_7d": 1226,
+      "pv_30d": 1307,
+      "pv_all": 1391
+    },
+    "live_posts": 50,
+    "new_this_week": 5
   }
 ]

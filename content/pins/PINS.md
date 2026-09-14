@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 50개 준비됨 · 게시 완료 41개(수동 41 · API 0) · 대기 9개
+핀 51개 준비됨 · 게시 완료 45개(수동 45 · API 0) · 대기 6개
 
 ## 수동으로 올리는 법
 
@@ -26,7 +26,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Cleaning & Organization
 
-(10개)
+(11개)
 
 - [x] **The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control**
   - 이미지: `content/pins/15-minute-weekly-home-reset.png`
@@ -73,10 +73,15 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/08/why-does-my-house-get-messy-again-two.html
   - 설명: Your house doesn't have a mess problem, it has an input problem. Compare the real fixes: better systems, less stuff, or a faster reset routine.
 
-- [ ] **Is It Worth Buying Separate Cleaners for Every Surface?**
+- [x] **Is It Worth Buying Separate Cleaners for Every Surface?**
   - 이미지: `content/pins/separate-cleaners-for-every-surface-worth-it.png`
   - 링크: https://www.hearth-habit.com/2026/09/is-it-worth-buying-separate-cleaners.html
   - 설명: No — most homes need 2-3 core cleaners, not a bottle per surface. Here's exactly which specialty cleaners earn their spot and which are wasted money.
+
+- [ ] **Why Does My Closet Smell Musty Even Though Everything Looks Clean?**
+  - 이미지: `content/pins/why-does-my-closet-smell-musty.png`
+  - 링크: https://www.hearth-habit.com/2026/09/why-does-my-closet-smell-musty-even.html
+  - 설명: A musty closet usually means trapped moisture and no airflow, not dirt. Here's the step-by-step fix, from finding the source to keeping it from coming back.
 
 ## 보드: Energy & Utility Savings
 
@@ -166,7 +171,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/08/why-do-my-pipes-bang-when-i-turn-off.html
   - 설명: That bang is usually water hammer, a pressure shockwave from valves closing fast. Here's how to confirm it and fix it, step by step.
 
-- [ ] **Why Is One Room in My House Always Colder Than the Rest?**
+- [x] **Why Is One Room in My House Always Colder Than the Rest?**
   - 이미지: `content/pins/why-is-one-room-always-colder-than-rest.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html
   - 설명: Usually it's airflow, not insulation. Here's how to tell what's really causing your cold room and which fixes actually work versus waste money.
@@ -230,7 +235,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html
   - 설명: Most leftovers are safe for 3-4 days in the fridge, but the real answer depends on the food. Here's the checklist to know what to trust and what to toss.
 
-- [ ] **Why Onions and Garlic Keep Sprouting Indoors (and How to Actually Stop It)**
+- [x] **Why Onions and Garlic Keep Sprouting Indoors (and How to Actually Stop It)**
   - 이미지: `content/pins/why-onions-garlic-sprout-indoors.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html
   - 설명: Onions and garlic sprout indoors mainly from warmth, moisture, and darkness combined. Here's the storage checklist that actually stops it.
@@ -284,7 +289,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/08/why-does-water-pool-in-one-spot-in-my.html
   - 설명: Usually it's a low spot, compacted soil, or a grading problem near your house. Here's how to identify which one you have and fix it.
 
-- [ ] **Why Does My Deck Feel Spongy in Some Spots But Not Others?**
+- [x] **Why Does My Deck Feel Spongy in Some Spots But Not Others?**
   - 이미지: `content/pins/deck-feels-spongy-in-spots.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-deck-feel-spongy-in-some.html
   - 설명: A spongy deck spot almost always means rot in the wood below. Here's how to figure out which part is failing and whether it's a board or the frame.

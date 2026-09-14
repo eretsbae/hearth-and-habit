@@ -487,7 +487,9 @@ topics:
   pinterest_batch: pins10
 - title: Why Does My Closet Smell Musty Even Though Everything Looks Clean?
   pillar: cleaning-organization
-  status: pending
+  status: published
+  published_slug: why-does-my-closet-smell-musty
+  quality_score: 82
 - title: Why Do I Keep Losing the Same 15 Minutes to Finding Things Before I Leave the House?
   pillar: cleaning-organization
   status: pending

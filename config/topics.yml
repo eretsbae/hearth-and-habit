@@ -456,7 +456,9 @@ topics:
   blogger_post_id: '5095901597762802554'
 - title: Is It Normal for a New LED Bulb to Flicker With a Dimmer Switch?
   pillar: home-maintenance
-  status: pending
+  status: published
+  published_slug: led-bulb-flickering-dimmer-switch
+  quality_score: 84
 - title: Why Does My Basement Smell Musty Only in the Summer?
   pillar: home-maintenance
   status: pending
@@ -503,3 +505,33 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/09/why-does-grass-along-sidewalk-die-every.html
   blogger_post_id: '4105977501687940514'
   pinterest_batch: pins10
+- title: Why Does My Ceiling Have a Yellow-Brown Stain but No Active Leak?
+  pillar: home-maintenance
+  status: pending
+- title: Why Does My Circuit Breaker Trip Only When Two Specific Appliances Run Together?
+  pillar: home-maintenance
+  status: pending
+- title: Why Does My Front Door Stick Only in the Summer?
+  pillar: home-maintenance
+  status: pending
+- title: Why Does My Smoke Detector Chirp Even With a New Battery Installed?
+  pillar: home-maintenance
+  status: pending
+- title: Why Do My Kitchen Drawers Always End Up as Junk Drawers Again?
+  pillar: cleaning-organization
+  status: pending
+- title: Why Does My Laundry Still Smell Musty After a Full Wash Cycle?
+  pillar: cleaning-organization
+  status: pending
+- title: Is It Cheaper to Preheat the Oven or Skip It for Weeknight Meals?
+  pillar: energy-savings
+  status: pending
+- title: Why Does My Water Bill Spike in Winter With No Extra Usage?
+  pillar: energy-savings
+  status: pending
+- title: Why Does Leftover Rice Sometimes Make People Sick When Other Leftovers Don't?
+  pillar: kitchen-habits
+  status: pending
+- title: Why Does My Hydrangea Bloom Great One Year and Barely Flower the Next?
+  pillar: yard-outdoor
+  status: pending

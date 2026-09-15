@@ -1,0 +1,83 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- Wall panel accent -->
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+  <rect x="80" y="80" width="1040" height="470" rx="18" fill="#EFE3D3" opacity="0.5"/>
+
+  <!-- Decorative wall shelf line -->
+  <rect x="120" y="480" width="960" height="10" fill="#E4C7B2" opacity="0.6"/>
+
+  <!-- Dimmer switch plate -->
+  <g>
+    <rect x="220" y="230" width="220" height="300" rx="24" fill="#FBF6EE"/>
+    <rect x="220" y="230" width="220" height="300" rx="24" fill="none" stroke="#2E2A24" stroke-width="3"/>
+
+    <!-- Switch faceplate inner -->
+    <rect x="250" y="260" width="160" height="150" rx="14" fill="#E4C7B2"/>
+
+    <!-- Rocker toggle -->
+    <rect x="270" y="280" width="120" height="45" rx="10" fill="#5C6E58"/>
+    <rect x="270" y="335" width="120" height="45" rx="10" fill="#B85C38"/>
+
+    <!-- Dimmer slider track -->
+    <rect x="270" y="440" width="120" height="16" rx="8" fill="#D9A441" opacity="0.4"/>
+    <rect x="270" y="440" width="70" height="16" rx="8" fill="#D9A441"/>
+    <circle cx="340" cy="448" r="14" fill="#2E2A24"/>
+    <circle cx="340" cy="448" r="7" fill="#F6EFE6"/>
+
+    <!-- Screws -->
+    <circle cx="240" cy="250" r="5" fill="#2E2A24"/>
+    <circle cx="420" cy="250" r="5" fill="#2E2A24"/>
+    <circle cx="240" cy="510" r="5" fill="#2E2A24"/>
+    <circle cx="420" cy="510" r="5" fill="#2E2A24"/>
+  </g>
+
+  <!-- Hanging cord to bulb -->
+  <path d="M 780 90 Q 780 140 780 190" stroke="#2E2A24" stroke-width="4" fill="none"/>
+  <rect x="762" y="70" width="36" height="26" rx="4" fill="#2E2A24"/>
+
+  <!-- Glow behind bulb -->
+  <circle cx="780" cy="300" r="170" fill="#D9A441" opacity="0.12"/>
+  <circle cx="780" cy="300" r="130" fill="#D9A441" opacity="0.18"/>
+  <circle cx="780" cy="300" r="95" fill="#D9A441" opacity="0.25"/>
+
+  <!-- Bulb socket -->
+  <rect x="756" y="188" width="48" height="30" rx="4" fill="#5C6E58"/>
+  <rect x="760" y="216" width="8" height="8" fill="#5C6E58"/>
+  <rect x="772" y="216" width="8" height="8" fill="#5C6E58"/>
+  <rect x="784" y="216" width="8" height="8" fill="#5C6E58"/>
+  <rect x="796" y="216" width="4" height="8" fill="#5C6E58"/>
+
+  <!-- LED Bulb body -->
+  <circle cx="780" cy="300" r="80" fill="#D9A441"/>
+  <circle cx="780" cy="300" r="80" fill="#F6EFE6" opacity="0.15"/>
+  <path d="M 745 350 Q 780 400 815 350 L 800 330 Q 780 345 760 330 Z" fill="#D9A441"/>
+
+  <!-- Filament lines inside bulb -->
+  <path d="M 755 285 Q 780 260 805 285" stroke="#B85C38" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M 755 315 Q 780 340 805 315" stroke="#B85C38" stroke-width="3" fill="none" opacity="0.6"/>
+
+  <!-- Highlight -->
+  <circle cx="755" cy="275" r="14" fill="#FBF6EE" opacity="0.5"/>
+
+  <!-- Flicker lines radiating -->
+  <g stroke="#B85C38" stroke-width="4" stroke-linecap="round" opacity="0.8">
+    <line x1="880" y1="230" x2="925" y2="205"/>
+    <line x1="895" y1="270" x2="945" y2="260"/>
+    <line x1="895" y1="330" x2="945" y2="345"/>
+    <line x1="670" y1="230" x2="625" y2="205"/>
+    <line x1="655" y1="270" x2="605" y2="255"/>
+    <line x1="660" y1="335" x2="615" y2="355"/>
+  </g>
+
+  <!-- Small zigzag flicker accents -->
+  <path d="M 900 300 L 915 290 L 908 305 L 922 298" stroke="#5C6E58" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 660 300 L 645 292 L 652 306 L 638 300" stroke="#5C6E58" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Small decorative dots for ambiance -->
+  <circle cx="1050" cy="150" r="6" fill="#5C6E58" opacity="0.5"/>
+  <circle cx="1080" cy="180" r="4" fill="#B85C38" opacity="0.4"/>
+  <circle cx="150" cy="150" r="5" fill="#D9A441" opacity="0.5"/>
+  <circle cx="130" cy="190" r="4" fill="#5C6E58" opacity="0.4"/>
+</svg>

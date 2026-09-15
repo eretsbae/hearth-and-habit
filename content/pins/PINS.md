@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 51개 준비됨 · 게시 완료 45개(수동 45 · API 0) · 대기 6개
+핀 52개 준비됨 · 게시 완료 45개(수동 45 · API 0) · 대기 7개
 
 ## 수동으로 올리는 법
 
@@ -129,7 +129,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Home Maintenance & Repairs
 
-(11개)
+(12개)
 
 - [x] **Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -185,6 +185,11 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 이미지: `content/pins/garbage-disposal-hums-but-wont-spin.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-garbage-disposal-hum-but.html
   - 설명: A humming garbage disposal usually means a jam or tripped motor, not a dead unit. Here's how to diagnose the cause and fix it safely in minutes.
+
+- [ ] **Is It Normal for a New LED Bulb to Flicker With a Dimmer Switch?**
+  - 이미지: `content/pins/led-bulb-flickering-dimmer-switch.png`
+  - 링크: https://www.hearth-habit.com/2026/09/is-it-normal-for-new-led-bulb-to.html
+  - 설명: Yes, it's common — usually a compatibility mismatch, not a defect. Here's how to tell which fix you actually need and when to just replace the dimmer.
 
 ## 보드: Kitchen & Food Habits
 

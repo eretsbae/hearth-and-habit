@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 52개 준비됨 · 게시 완료 45개(수동 45 · API 0) · 대기 7개
+핀 53개 준비됨 · 게시 완료 45개(수동 45 · API 0) · 대기 8개
 
 ## 수동으로 올리는 법
 
@@ -85,7 +85,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Energy & Utility Savings
 
-(8개)
+(9개)
 
 - [x] **How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work**
   - 이미지: `content/pins/cut-electric-bill-no-cost-habits.png`
@@ -126,6 +126,11 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 이미지: `content/pins/air-dry-vs-heated-dry-dishwasher-cost.png`
   - 링크: https://www.hearth-habit.com/2026/09/air-dry-or-heated-dry-which-one.html
   - 설명: Air-drying dishes typically costs just pennies less per load than heated dry. Here's how to check your own dishwasher and decide if it's worth the habit change.
+
+- [ ] **Is It Cheaper to Preheat the Oven or Skip It for Weeknight Meals?**
+  - 이미지: `content/pins/preheat-oven-or-skip-it-cheaper.png`
+  - 링크: https://www.hearth-habit.com/2026/09/is-it-cheaper-to-preheat-oven-or-skip.html
+  - 설명: Skipping preheat saves a few cents on some dishes but ruins others. Here's a checklist for when to skip it, when not to, and what really saves money.
 
 ## 보드: Home Maintenance & Repairs
 

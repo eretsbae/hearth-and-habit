@@ -527,7 +527,9 @@ topics:
   status: pending
 - title: Is It Cheaper to Preheat the Oven or Skip It for Weeknight Meals?
   pillar: energy-savings
-  status: pending
+  status: published
+  published_slug: preheat-oven-or-skip-it-cheaper
+  quality_score: 82
 - title: Why Does My Water Bill Spike in Winter With No Extra Usage?
   pillar: energy-savings
   status: pending

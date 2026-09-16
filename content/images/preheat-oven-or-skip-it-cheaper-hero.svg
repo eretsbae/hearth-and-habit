@@ -1,0 +1,72 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft background shape -->
+  <circle cx="950" cy="130" r="150" fill="#E4C7B2" opacity="0.4"/>
+  <circle cx="120" cy="500" r="130" fill="#D9A441" opacity="0.2"/>
+
+  <!-- Oven body -->
+  <rect x="300" y="140" width="600" height="420" rx="18" fill="#5C6E58"/>
+  <rect x="320" y="160" width="560" height="90" rx="10" fill="#2E2A24" opacity="0.15"/>
+
+  <!-- control panel -->
+  <rect x="330" y="170" width="540" height="60" rx="8" fill="#2E2A24"/>
+  <circle cx="365" cy="200" r="14" fill="#D9A441"/>
+  <circle cx="410" cy="200" r="14" fill="#D9A441"/>
+  <circle cx="455" cy="200" r="14" fill="#D9A441"/>
+  <rect x="700" y="188" width="140" height="24" rx="12" fill="#B85C38"/>
+
+  <!-- oven cavity opening (dark frame) -->
+  <rect x="350" y="260" width="500" height="270" rx="14" fill="#2E2A24"/>
+
+  <!-- glowing interior -->
+  <rect x="372" y="282" width="456" height="226" rx="10" fill="#D9A441"/>
+  <rect x="392" y="302" width="416" height="186" rx="8" fill="#B85C38"/>
+  <ellipse cx="600" cy="395" rx="180" ry="95" fill="#D9A441" opacity="0.55"/>
+  <ellipse cx="600" cy="395" rx="110" ry="60" fill="#F6EFE6" opacity="0.35"/>
+
+  <!-- oven rack lines -->
+  <line x1="392" y1="440" x2="808" y2="440" stroke="#2E2A24" stroke-width="6" opacity="0.4"/>
+  <line x1="392" y1="470" x2="808" y2="470" stroke="#2E2A24" stroke-width="6" opacity="0.4"/>
+
+  <!-- oven door handle -->
+  <rect x="380" y="245" width="440" height="16" rx="8" fill="#2E2A24"/>
+
+  <!-- oven feet -->
+  <rect x="330" y="555" width="30" height="25" rx="4" fill="#2E2A24"/>
+  <rect x="840" y="555" width="30" height="25" rx="4" fill="#2E2A24"/>
+
+  <!-- baking sheet leaning against oven -->
+  <g>
+    <rect x="120" y="420" width="150" height="180" rx="8" fill="#E4C7B2" transform="rotate(-8 195 510)"/>
+    <rect x="135" y="440" width="120" height="140" rx="6" fill="#B85C38" opacity="0.25" transform="rotate(-8 195 510)"/>
+  </g>
+
+  <!-- cookies on sheet -->
+  <circle cx="165" cy="470" r="14" fill="#D9A441"/>
+  <circle cx="205" cy="480" r="14" fill="#D9A441"/>
+  <circle cx="185" cy="510" r="14" fill="#D9A441"/>
+
+  <!-- oven mitt hanging on hook near oven -->
+  <g transform="translate(980,300)">
+    <circle cx="0" cy="-40" r="10" fill="#2E2A24"/>
+    <path d="M -10 -30 L 10 -30 L 10 60 Q 10 90 -10 90 Q -30 90 -30 60 L -30 0 Q -30 -30 -10 -30 Z" fill="#B85C38"/>
+    <path d="M -10 -30 L 10 -30 L 10 -10 L -10 -10 Z" fill="#5C6E58"/>
+    <path d="M -30 40 Q -45 40 -45 55 Q -45 70 -30 70" fill="none" stroke="#B85C38" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="-8" cy="10" r="4" fill="#F6EFE6" opacity="0.6"/>
+    <circle cx="6" cy="30" r="4" fill="#F6EFE6" opacity="0.6"/>
+    <circle cx="-4" cy="50" r="4" fill="#F6EFE6" opacity="0.6"/>
+  </g>
+
+  <!-- small steam swirls above oven -->
+  <path d="M 600 100 Q 615 80 600 60 Q 585 40 600 20" stroke="#5C6E58" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 650 110 Q 665 90 650 70 Q 635 50 650 30" stroke="#5C6E58" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- decorative small plant pot -->
+  <g transform="translate(1080,470)">
+    <rect x="-25" y="0" width="50" height="45" rx="6" fill="#B85C38"/>
+    <path d="M 0 0 Q -20 -40 -35 -50" stroke="#5C6E58" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M 0 0 Q 20 -45 35 -55" stroke="#5C6E58" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M 0 0 Q 0 -50 0 -65" stroke="#5C6E58" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>

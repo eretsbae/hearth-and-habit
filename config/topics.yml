@@ -534,7 +534,9 @@ topics:
   blogger_post_id: '1679143409704833833'
 - title: Why Does My Water Bill Spike in Winter With No Extra Usage?
   pillar: energy-savings
-  status: pending
+  status: published
+  published_slug: winter-water-bill-spike-no-extra-usage
+  quality_score: 82
 - title: Why Does Leftover Rice Sometimes Make People Sick When Other Leftovers Don't?
   pillar: kitchen-habits
   status: pending

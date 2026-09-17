@@ -1,0 +1,110 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- ground -->
+  <rect x="0" y="500" width="1200" height="130" fill="#E4C7B2"/>
+  <rect x="0" y="495" width="1200" height="10" fill="#5C6E58" opacity="0.5"/>
+
+  <!-- decorative grass tufts -->
+  <g stroke="#5C6E58" stroke-width="6" stroke-linecap="round">
+    <path d="M120 500 L110 470"/>
+    <path d="M135 500 L140 465"/>
+    <path d="M150 500 L160 478"/>
+    <path d="M1020 500 L1010 468"/>
+    <path d="M1035 500 L1045 472"/>
+    <path d="M1050 500 L1055 480"/>
+  </g>
+
+  <!-- meter box -->
+  <rect x="420" y="330" width="360" height="230" rx="18" fill="#5C6E58"/>
+  <rect x="440" y="350" width="320" height="150" rx="12" fill="#2E2A24"/>
+
+  <!-- meter face -->
+  <circle cx="600" cy="425" r="95" fill="#F6EFE6"/>
+  <circle cx="600" cy="425" r="95" fill="none" stroke="#B85C38" stroke-width="8"/>
+  <circle cx="600" cy="425" r="72" fill="#E4C7B2"/>
+
+  <!-- tick marks -->
+  <g stroke="#2E2A24" stroke-width="3">
+    <line x1="600" y1="360" x2="600" y2="372"/>
+    <line x1="655" y1="380" x2="646" y2="389"/>
+    <line x1="672" y1="425" x2="660" y2="425"/>
+    <line x1="655" y1="470" x2="646" y2="461"/>
+    <line x1="600" y1="490" x2="600" y2="478"/>
+    <line x1="545" y1="470" x2="554" y2="461"/>
+    <line x1="528" y1="425" x2="540" y2="425"/>
+    <line x1="545" y1="380" x2="554" y2="389"/>
+  </g>
+
+  <!-- spinning dial icon -->
+  <g>
+    <circle cx="600" cy="425" r="12" fill="#B85C38"/>
+    <path d="M600 425 L634 405" stroke="#B85C38" stroke-width="6" stroke-linecap="round"/>
+    <path d="M600 425 L578 452" stroke="#2E2A24" stroke-width="5" stroke-linecap="round"/>
+    <!-- motion arcs to suggest spinning -->
+    <path d="M645 400 A55 55 0 0 1 655 430" fill="none" stroke="#D9A441" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+    <path d="M650 445 A60 60 0 0 1 630 470" fill="none" stroke="#D9A441" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+  </g>
+
+  <!-- small digital readout window -->
+  <rect x="560" y="330" width="80" height="30" rx="4" fill="#2E2A24"/>
+  <rect x="566" y="336" width="12" height="18" fill="#D9A441"/>
+  <rect x="582" y="336" width="12" height="18" fill="#D9A441"/>
+  <rect x="598" y="336" width="12" height="18" fill="#D9A441"/>
+  <rect x="614" y="336" width="12" height="18" fill="#D9A441"/>
+
+  <!-- pipe coming from ground into meter -->
+  <rect x="590" y="560" width="20" height="60" fill="#2E2A24"/>
+  <rect x="580" y="555" width="40" height="20" rx="4" fill="#5C6E58"/>
+
+  <!-- pipe going out of meter into house direction -->
+  <path d="M780 445 L900 445 L900 380" fill="none" stroke="#2E2A24" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="900" cy="380" r="10" fill="#2E2A24"/>
+
+  <!-- little house shape hinting destination -->
+  <g>
+    <rect x="860" y="240" width="120" height="90" fill="#E4C7B2"/>
+    <polygon points="850,240 920,180 990,240" fill="#B85C38"/>
+    <rect x="905" y="280" width="30" height="50" fill="#2E2A24"/>
+    <rect x="875" y="260" width="20" height="20" fill="#D9A441"/>
+    <rect x="945" y="260" width="20" height="20" fill="#D9A441"/>
+  </g>
+
+  <!-- water drop hint near meter suggesting leak awareness -->
+  <path d="M320 400 C320 380 300 365 300 365 C300 365 280 380 280 400 C280 412 289 421 300 421 C311 421 320 412 320 400 Z" fill="#B85C38" opacity="0.85"/>
+  <path d="M300 380 C296 386 292 393 292 400" stroke="#F6EFE6" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+
+  <!-- magnifying glass hovering over meter dial to emphasize "checking" -->
+  <g>
+    <circle cx="740" cy="330" r="34" fill="none" stroke="#2E2A24" stroke-width="8"/>
+    <line x1="763" y1="353" x2="800" y2="390" stroke="#2E2A24" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="740" cy="330" r="34" fill="#F6EFE6" opacity="0.5"/>
+  </g>
+
+  <!-- simple sun / winter chill accent top left -->
+  <circle cx="150" cy="120" r="50" fill="#D9A441" opacity="0.9"/>
+  <g stroke="#D9A441" stroke-width="6" stroke-linecap="round" opacity="0.7">
+    <line x1="150" y1="40" x2="150" y2="20"/>
+    <line x1="230" y1="120" x2="250" y2="120"/>
+    <line x1="203" y1="67" x2="217" y2="53"/>
+    <line x1="97" y1="173" x2="83" y2="187"/>
+    <line x1="203" y1="173" x2="217" y2="187"/>
+    <line x1="97" y1="67" x2="83" y2="53"/>
+  </g>
+
+  <!-- snowflake accents to hint at winter -->
+  <g stroke="#5C6E58" stroke-width="4" stroke-linecap="round" opacity="0.6">
+    <g transform="translate(1080,120)">
+      <line x1="-20" y1="0" x2="20" y2="0"/>
+      <line x1="0" y1="-20" x2="0" y2="20"/>
+      <line x1="-14" y1="-14" x2="14" y2="14"/>
+      <line x1="-14" y1="14" x2="14" y2="-14"/>
+    </g>
+    <g transform="translate(1000,180) scale(0.7)">
+      <line x1="-20" y1="0" x2="20" y2="0"/>
+      <line x1="0" y1="-20" x2="0" y2="20"/>
+      <line x1="-14" y1="-14" x2="14" y2="14"/>
+      <line x1="-14" y1="14" x2="14" y2="-14"/>
+    </g>
+  </g>
+</svg>

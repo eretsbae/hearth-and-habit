@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft background snow hill -->
+  <ellipse cx="600" cy="600" rx="900" ry="120" fill="#E4C7B2" opacity="0.4"/>
+
+  <!-- house cutaway -->
+  <g>
+    <!-- roof -->
+    <polygon points="260,220 600,90 940,220" fill="#5C6E58"/>
+    <polygon points="290,225 600,120 910,225" fill="#F6EFE6"/>
+
+    <!-- outer wall -->
+    <rect x="300" y="225" width="600" height="330" fill="#E4C7B2"/>
+
+    <!-- interior cutaway panel -->
+    <rect x="330" y="250" width="540" height="290" fill="#F6EFE6" stroke="#2E2A24" stroke-width="3"/>
+
+    <!-- room dividers -->
+    <line x1="600" y1="250" x2="600" y2="540" stroke="#2E2A24" stroke-width="3"/>
+    <line x1="330" y1="400" x2="870" y2="400" stroke="#2E2A24" stroke-width="3"/>
+
+    <!-- pipes running through walls -->
+    <path d="M370,250 L370,400 L470,400 L470,540" fill="none" stroke="#B85C38" stroke-width="14" stroke-linecap="round"/>
+    <path d="M700,250 L700,320 L820,320 L820,540" fill="none" stroke="#B85C38" stroke-width="14" stroke-linecap="round"/>
+    <path d="M370,470 L560,470 L560,540" fill="none" stroke="#B85C38" stroke-width="14" stroke-linecap="round"/>
+
+    <!-- pipe joints -->
+    <circle cx="370" cy="400" r="12" fill="#5C6E58"/>
+    <circle cx="470" cy="400" r="12" fill="#5C6E58"/>
+    <circle cx="700" cy="320" r="12" fill="#5C6E58"/>
+    <circle cx="820" cy="320" r="12" fill="#5C6E58"/>
+    <circle cx="370" cy="470" r="12" fill="#5C6E58"/>
+    <circle cx="560" cy="470" r="12" fill="#5C6E58"/>
+
+    <!-- frost/ice marks on pipes -->
+    <rect x="360" y="330" width="20" height="10" fill="#F6EFE6" opacity="0.8"/>
+    <rect x="690" y="270" width="20" height="10" fill="#F6EFE6" opacity="0.8"/>
+    <rect x="800" y="380" width="20" height="10" fill="#F6EFE6" opacity="0.8"/>
+
+    <!-- windows -->
+    <rect x="600" y="270" width="90" height="90" fill="#D9A441" opacity="0.25" stroke="#2E2A24" stroke-width="2"/>
+    <line x1="645" y1="270" x2="645" y2="360" stroke="#2E2A24" stroke-width="2"/>
+    <line x1="600" y1="315" x2="690" y2="315" stroke="#2E2A24" stroke-width="2"/>
+
+    <!-- door -->
+    <rect x="560" y="450" width="70" height="90" fill="#5C6E58"/>
+    <circle cx="620" cy="495" r="4" fill="#D9A441"/>
+  </g>
+
+  <!-- chimney with snow cap -->
+  <rect x="780" y="130" width="50" height="90" fill="#B85C38"/>
+  <rect x="775" y="120" width="60" height="20" fill="#F6EFE6" stroke="#2E2A24" stroke-width="2"/>
+
+  <!-- snow on roof -->
+  <path d="M300,222 Q600,110 900,222 L900,232 Q600,130 300,232 Z" fill="#F6EFE6"/>
+
+  <!-- water droplet -->
+  <g transform="translate(1005,300)">
+    <path d="M0,-60 C35,-10 35,30 0,55 C-35,30 -35,-10 0,-60 Z" fill="#5C6E58"/>
+    <ellipse cx="-10" cy="10" rx="8" ry="14" fill="#F6EFE6" opacity="0.5"/>
+  </g>
+
+  <!-- rising bar-graph bill icon -->
+  <g transform="translate(990,420)">
+    <rect x="0" y="0" width="150" height="110" rx="8" fill="#F6EFE6" stroke="#2E2A24" stroke-width="3"/>
+    <rect x="20" y="70" width="20" height="25" fill="#B85C38"/>
+    <rect x="50" y="55" width="20" height="40" fill="#D9A441"/>
+    <rect x="80" y="35" width="20" height="60" fill="#5C6E58"/>
+    <rect x="110" y="15" width="20" height="80" fill="#B85C38"/>
+    <path d="M20,60 L50,45 L80,25 L110,5" fill="none" stroke="#2E2A24" stroke-width="3"/>
+    <polygon points="110,5 120,5 110,20" fill="#2E2A24"/>
+  </g>
+
+  <!-- snowflakes decorative -->
+  <g fill="none" stroke="#5C6E58" stroke-width="3" stroke-linecap="round" opacity="0.6">
+    <g transform="translate(140,140)">
+      <line x1="-14" y1="0" x2="14" y2="0"/>
+      <line x1="0" y1="-14" x2="0" y2="14"/>
+      <line x1="-10" y1="-10" x2="10" y2="10"/>
+      <line x1="-10" y1="10" x2="10" y2="-10"/>
+    </g>
+    <g transform="translate(1100,150)">
+      <line x1="-10" y1="0" x2="10" y2="0"/>
+      <line x1="0" y1="-10" x2="0" y2="10"/>
+      <line x1="-7" y1="-7" x2="7" y2="7"/>
+      <line x1="-7" y1="7" x2="7" y2="-7"/>
+    </g>
+    <g transform="translate(90,480)">
+      <line x1="-10" y1="0" x2="10" y2="0"/>
+      <line x1="0" y1="-10" x2="0" y2="10"/>
+      <line x1="-7" y1="-7" x2="7" y2="7"/>
+      <line x1="-7" y1="7" x2="7" y2="-7"/>
+    </g>
+  </g>
+</svg>

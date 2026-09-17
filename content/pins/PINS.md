@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 53개 준비됨 · 게시 완료 45개(수동 45 · API 0) · 대기 8개
+핀 54개 준비됨 · 게시 완료 45개(수동 45 · API 0) · 대기 9개
 
 ## 수동으로 올리는 법
 
@@ -85,7 +85,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Energy & Utility Savings
 
-(9개)
+(10개)
 
 - [x] **How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work**
   - 이미지: `content/pins/cut-electric-bill-no-cost-habits.png`
@@ -131,6 +131,11 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 이미지: `content/pins/preheat-oven-or-skip-it-cheaper.png`
   - 링크: https://www.hearth-habit.com/2026/09/is-it-cheaper-to-preheat-oven-or-skip.html
   - 설명: Skipping preheat saves a few cents on some dishes but ruins others. Here's a checklist for when to skip it, when not to, and what really saves money.
+
+- [ ] **Why Does My Water Bill Spike in Winter With No Extra Usage?**
+  - 이미지: `content/pins/winter-water-bill-spike-no-extra-usage.png`
+  - 링크: https://www.hearth-habit.com/2026/09/why-does-my-water-bill-spike-in-winter.html
+  - 설명: A winter water bill spike is usually a hidden leak, a frozen pipe, or your meter reacting to cold weather - not a mystery. Here's how to find the real cause.
 
 ## 보드: Home Maintenance & Repairs
 

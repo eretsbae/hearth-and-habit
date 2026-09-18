@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 54개 준비됨 · 게시 완료 45개(수동 45 · API 0) · 대기 9개
+핀 54개 준비됨 · 게시 완료 49개(수동 49 · API 0) · 대기 5개
 
 ## 수동으로 올리는 법
 
@@ -122,7 +122,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html
   - 설명: The biggest electricity users are usually heating and cooling appliances, not electronics. Here's a checklist to find your home's real energy hogs.
 
-- [ ] **Air-Dry or Heated Dry: Which One Actually Costs Less?**
+- [x] **Air-Dry or Heated Dry: Which One Actually Costs Less?**
   - 이미지: `content/pins/air-dry-vs-heated-dry-dishwasher-cost.png`
   - 링크: https://www.hearth-habit.com/2026/09/air-dry-or-heated-dry-which-one.html
   - 설명: Air-drying dishes typically costs just pennies less per load than heated dry. Here's how to check your own dishwasher and decide if it's worth the habit change.
@@ -186,7 +186,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html
   - 설명: Usually it's airflow, not insulation. Here's how to tell what's really causing your cold room and which fixes actually work versus waste money.
 
-- [ ] **How Do I Know If a Repair Is Actually Worth Calling a Pro For?**
+- [x] **How Do I Know If a Repair Is Actually Worth Calling a Pro For?**
   - 이미지: `content/pins/when-to-call-a-pro-vs-diy-repair.png`
   - 링크: https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html
   - 설명: Not sure if a repair needs a professional? Use this symptom-by-symptom guide to know when DIY is fine and when calling a pro saves you money.
@@ -255,7 +255,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html
   - 설명: Onions and garlic sprout indoors mainly from warmth, moisture, and darkness combined. Here's the storage checklist that actually stops it.
 
-- [ ] **Why Does My Cutting Board Warp After Washing It?**
+- [x] **Why Does My Cutting Board Warp After Washing It?**
   - 이미지: `content/pins/why-does-cutting-board-warp-after-washing.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-cutting-board-warp-after.html
   - 설명: A warped cutting board almost always comes from uneven water exposure. Here's the exact drying routine that stops it for good.
@@ -309,7 +309,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-deck-feel-spongy-in-some.html
   - 설명: A spongy deck spot almost always means rot in the wood below. Here's how to figure out which part is failing and whether it's a board or the frame.
 
-- [ ] **Why Does Grass Along the Sidewalk Die Every Winter (But Not Elsewhere)?**
+- [x] **Why Does Grass Along the Sidewalk Die Every Winter (But Not Elsewhere)?**
   - 이미지: `content/pins/why-grass-along-sidewalk-dies-every-winter.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-grass-along-sidewalk-die-every.html
   - 설명: That dead strip along your walkway isn't bad luck. It's salt, reflected heat, and soil compaction—and the fixes are different from general lawn repair.

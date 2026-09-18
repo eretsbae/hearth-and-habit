@@ -223,6 +223,7 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html
   blogger_post_id: '6408153902215791594'
   pinterest_batch: pins10
+  pinterest_pin_id: manual
 - title: At What Outdoor Temperature Do Pipes Actually Start to Freeze?
   pillar: home-maintenance
   status: pending
@@ -481,6 +482,7 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/09/why-does-my-cutting-board-warp-after.html
   blogger_post_id: '5935207484200728519'
   pinterest_batch: pins10
+  pinterest_pin_id: manual
 - title: Is It Cheaper to Air-Dry Dishes or Use the Dishwasher's Heated Dry?
   pillar: energy-savings
   status: published
@@ -489,6 +491,7 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/09/air-dry-or-heated-dry-which-one.html
   blogger_post_id: '8198266816540097629'
   pinterest_batch: pins10
+  pinterest_pin_id: manual
 - title: Why Does My Closet Smell Musty Even Though Everything Looks Clean?
   pillar: cleaning-organization
   status: published
@@ -507,6 +510,7 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/09/why-does-grass-along-sidewalk-die-every.html
   blogger_post_id: '4105977501687940514'
   pinterest_batch: pins10
+  pinterest_pin_id: manual
 - title: Why Does My Ceiling Have a Yellow-Brown Stain but No Active Leak?
   pillar: home-maintenance
   status: pending

@@ -10,6 +10,15 @@ callback can't be registered. Instead you approve in the browser, get
 redirected to your registered URI, and paste the `code` value from the
 address bar back here. The code is single-use and expires in minutes.
 
+Credentials come from the environment when set, so nothing secret is typed
+(a hidden getpass prompt hides typos too — a Korean IME or a console that
+does not paste on Ctrl+V silently produces a wrong secret and Pinterest
+answers 401 code 2):
+
+    PINTEREST_APP_ID, PINTEREST_APP_SECRET, PINTEREST_TOKEN_PASSPHRASE
+
+Anything missing is prompted for.
+
 Run:
     python generator/pinterest_auth.py
 """
@@ -17,6 +26,7 @@ Run:
 from __future__ import annotations
 
 import getpass
+import os
 import urllib.parse
 import webbrowser
 
@@ -25,8 +35,16 @@ import pinterest_client as pc
 
 def main() -> int:
     print("Pinterest 인증 (docs/PINTEREST_SETUP.md 1~2단계를 먼저 끝내세요)\n")
-    app_id = input("App ID (client id): ").strip()
-    app_secret = getpass.getpass("App secret: ").strip()
+    app_id = os.environ.get("PINTEREST_APP_ID", "").strip()
+    if app_id:
+        print(f"App ID (client id): {app_id}  (env PINTEREST_APP_ID)")
+    else:
+        app_id = input("App ID (client id): ").strip()
+    app_secret = os.environ.get("PINTEREST_APP_SECRET", "").strip()
+    if app_secret:
+        print("App secret: (env PINTEREST_APP_SECRET)")
+    else:
+        app_secret = getpass.getpass("App secret: ").strip()
     redirect_uri = input("등록한 Redirect URI (앱 설정과 정확히 동일해야 함): ").strip()
     if not (app_id and app_secret and redirect_uri):
         print("App ID / secret / redirect URI가 모두 필요합니다.")
@@ -70,7 +88,11 @@ def main() -> int:
         print(f"응답에 refresh_token이 없습니다: {tokens}")
         return 1
 
-    passphrase = getpass.getpass("\n토큰 파일 암호화에 쓸 passphrase (직접 정하세요): ").strip()
+    passphrase = os.environ.get("PINTEREST_TOKEN_PASSPHRASE", "").strip()
+    if passphrase:
+        print("\n토큰 파일 passphrase: (env PINTEREST_TOKEN_PASSPHRASE)")
+    else:
+        passphrase = getpass.getpass("\n토큰 파일 암호화에 쓸 passphrase (직접 정하세요): ").strip()
     if not passphrase:
         print("passphrase가 필요합니다.")
         return 1

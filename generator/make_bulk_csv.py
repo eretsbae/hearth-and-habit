@@ -28,15 +28,32 @@ Two of those stay empty on purpose:
 Upload at: Pinterest → Settings → 콘텐츠 가져오기 (Content import) → .csv 업로드
 
 Usage:
+    python generator/make_bulk_csv.py --auto           # keep one batch waiting (see below)
     python generator/make_bulk_csv.py                  # every pending post, one file
     python generator/make_bulk_csv.py --per-file 4     # split into 4-pin daily batches
     python generator/make_bulk_csv.py --limit 12
     python generator/make_bulk_csv.py --per-file 4 --start 9   # force numbering
 
-Files are numbered pinsNN.csv and the numbering continues from whatever is
-already in the output directory, so a second run after more posts go live
-yields pins09, pins10, ... instead of overwriting pins01 again. The
-directory is gitignored: generate on the machine you upload from.
+Files are numbered pinsNN.csv and the numbering continues from the highest
+batch already in the output directory or recorded in config/topics.yml, so a
+second run after more posts go live yields pins09, pins10, ... instead of
+overwriting pins01 again. bulk-upload/ is committed, so the uploader only has
+to git pull to get the next file.
+
+--auto is what the daily pinterest-publish workflow runs, and what
+pinterest_publish.py --mark-pinned runs right after recording a batch. It
+keeps exactly one batch waiting for upload:
+
+  * a batch is written to a CSV but not yet recorded  -> do nothing (or
+    rebuild its CSV from topics.yml if the file is missing);
+  * every batch is recorded and posts are still pending -> write the next
+    pinsNN.csv with up to AUTO_BATCH_SIZE pins and stamp them;
+  * the API has created a real pin (Standard access arrived) -> do nothing,
+    the CSV era is over.
+
+So until Pinterest grants Standard access the routine is: git pull, upload
+bulk-upload/pinsNN.csv, --mark-pinned pinsNN, commit, push; the next file is
+already there.
 """
 
 from __future__ import annotations
@@ -59,6 +76,7 @@ from pinterest_publish import (  # noqa: E402
     pin_image_url,
     post_meta,
     save_yaml,
+    step_summary,
 )
 
 COLUMNS = ["Title", "Media URL", "Pinterest board", "Thumbnail",
@@ -69,6 +87,12 @@ COLUMNS = ["Title", "Media URL", "Pinterest board", "Thumbnail",
 TITLE_MAX = 100
 DESC_MAX = 500
 MAX_ROWS_PER_FILE = 200  # the importer's stated ceiling
+# One file a day, a few pins each, is what a young account absorbs without
+# reading as spam; --auto never writes more than this in one file.
+AUTO_BATCH_SIZE = 4
+# Committed (not gitignored) so the next batch reaches the upload machine by
+# git pull instead of having to be regenerated there.
+BULK_DIR = ROOT / "bulk-upload"
 # pins09.csv is the name the uploads were filed under; pins-09.csv is
 # accepted too so an older run's files still count toward the numbering.
 _BATCH_FILE = re.compile(r"^pins-?(\d+)\.csv$", re.IGNORECASE)
@@ -115,11 +139,91 @@ def write_csv(path: Path, rows: list[dict], bom: bool) -> None:
         writer.writerows(rows)
 
 
+def api_has_pinned(topics_data: dict) -> bool:
+    """True once any pin was created through the API rather than by hand.
+
+    That is the signal that Standard access arrived: from then on the daily
+    workflow pins directly and a new CSV would only get posts pinned twice.
+    """
+    return any((t.get("pinterest_pin_id") or "manual") != "manual"
+               for t in topics_data.get("topics", []))
+
+
+def outstanding_batches(todo: list[dict]) -> dict[str, list[dict]]:
+    """Batches written to a CSV but not yet recorded with --mark-pinned."""
+    out: dict[str, list[dict]] = {}
+    for t in todo:
+        if t.get("pinterest_batch"):
+            out.setdefault(str(t["pinterest_batch"]), []).append(t)
+    return out
+
+
+def auto_batch(out_dir: Path = BULK_DIR, per_file: int = AUTO_BATCH_SIZE,
+               bom: bool = True) -> list[Path]:
+    """Keep one CSV batch waiting for upload. Returns the files written.
+
+    Safe to run any number of times: it writes only when nothing is waiting,
+    and a batch stays "waiting" until pinterest_publish.py --mark-pinned
+    records it, so a file is never generated on top of one still to upload.
+    """
+    cfg = load_yaml(SITE_CONFIG)
+    topics_data = load_yaml(TOPICS_CONFIG)
+    pillars = {p["slug"]: p for p in topics_data["pillars"]}
+
+    if api_has_pinned(topics_data):
+        print("The API has created pins already (Standard access); "
+              "no more bulk CSVs will be generated.")
+        return []
+
+    todo = candidates(topics_data)
+    written: list[Path] = []
+    waiting = outstanding_batches(todo)
+    if waiting:
+        for name, members in sorted(waiting.items()):
+            path = out_dir / f"{name}.csv"
+            if path.exists():
+                print(f"{name}.csv is waiting to be uploaded and recorded "
+                      f"({len(members)} pins); nothing new generated.")
+                continue
+            # Assigned on another machine (or before bulk-upload/ was
+            # committed): rebuild the same file from the ledger.
+            out_dir.mkdir(parents=True, exist_ok=True)
+            write_csv(path, [row_for(t, pillars, cfg) for t in members], bom)
+            written.append(path)
+            print(f"{name}.csv rebuilt from config/topics.yml ({len(members)} pins); "
+                  f"upload it, then: python generator/pinterest_publish.py --mark-pinned {name}")
+        return written
+
+    if not todo:
+        print("Nothing pending; every live post with a pin image is already pinned.")
+        return []
+
+    batch = todo[:per_file]
+    stem = batch_name(next_batch_number(out_dir, topics_data))
+    path = out_dir / f"{stem}.csv"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    write_csv(path, [row_for(t, pillars, cfg) for t in batch], bom)
+    for t in batch:
+        t["pinterest_batch"] = stem
+    save_yaml(TOPICS_CONFIG, topics_data)
+    written.append(path)
+    print(f"{stem}.csv generated ({len(batch)} pins, {len(todo) - len(batch)} more pending):")
+    for t in batch:
+        print(f"    {pillars.get(t['pillar'], {}).get('name', ''):<28} {t['title'][:52]}")
+    print(f"upload it, then: python generator/pinterest_publish.py --mark-pinned {stem}")
+    return written
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--out-dir", default="bulk-upload",
+    ap.add_argument("--out-dir", default=str(BULK_DIR),
                     help="Directory for the generated CSVs (default: bulk-upload/)")
+    ap.add_argument("--auto", action="store_true",
+                    help="Keep one batch waiting for upload: write the next pinsNN.csv "
+                         "only when every earlier batch is recorded, rebuild a recorded-"
+                         "nowhere batch's missing file, and stop for good once the API "
+                         "has pinned. Ignores --limit/--start/--include-assigned")
     ap.add_argument("--limit", type=int, default=0,
                     help="Only include this many pending posts (default: all)")
     ap.add_argument("--per-file", type=int, default=0,
@@ -136,6 +240,23 @@ def main() -> int:
                     help="Write plain UTF-8. The default matches Excel's "
                          "'CSV UTF-8' (BOM), which is what Pinterest's docs ask for")
     args = ap.parse_args()
+
+    if args.auto:
+        written = auto_batch(Path(args.out_dir), args.per_file or AUTO_BATCH_SIZE,
+                             bom=not args.no_bom)
+        if written:
+            names = ", ".join(p.name for p in written)
+            # Surface it on the Actions run page: a new file the uploader
+            # never hears about is a batch that never goes up.
+            print(f"::notice::bulk-upload/{names} ready — git pull, upload it via "
+                  "Pinterest 콘텐츠 가져오기, then --mark-pinned")
+            step_summary(
+                "## 📌 Pinterest CSV 배치 준비됨\n\n"
+                f"- `bulk-upload/{names}`\n"
+                "- `git pull` → Pinterest 설정 → 콘텐츠 가져오기에 업로드 → 핀 생성 확인 → "
+                "`python generator/pinterest_publish.py --mark-pinned pinsNN` → 커밋·푸시\n"
+            )
+        return 0
 
     cfg = load_yaml(SITE_CONFIG)
     topics_data = load_yaml(TOPICS_CONFIG)

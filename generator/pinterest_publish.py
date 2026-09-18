@@ -223,6 +223,14 @@ def main() -> int:
         verb = "marked as manually pinned" if marking else "returned to the queue"
         for slug in hit:
             print(f"{verb}: {slug}")
+        if marking:
+            # Recording a batch is what frees the next one: write it now so the
+            # uploader commits topics.yml and the next CSV together and never
+            # waits on the daily workflow for a file. Lazy import: that module
+            # imports this one.
+            import make_bulk_csv
+            print()
+            make_bulk_csv.auto_batch()
         return 0
 
     if args.sandbox:
@@ -231,6 +239,17 @@ def main() -> int:
               "nothing is recorded ===")
 
     todo = candidates(topics_data)
+    # Posts sitting in a bulk CSV that has not been recorded yet are the
+    # uploader's: pinning them here too would put them up twice the day the
+    # app gets Standard access. They come back once --mark-pinned records
+    # the batch (or the pinterest_batch lines are removed from topics.yml).
+    held = [t for t in todo if t.get("pinterest_batch")]
+    todo = [t for t in todo if not t.get("pinterest_batch")]
+    if held and not args.whoami:
+        names = sorted({str(t["pinterest_batch"]) for t in held})
+        print(f"{len(held)} post(s) held back: in bulk batch {', '.join(names)} awaiting "
+              "upload; record it with --mark-pinned, or drop its pinterest_batch lines "
+              "in config/topics.yml to hand the posts to the API.")
     if not todo and not args.whoami:
         print("Nothing to pin; every live post with a pin image is already on Pinterest.")
         return 0
@@ -278,8 +297,8 @@ def main() -> int:
             "- 빠진 항목: " + ", ".join(f"`{m}`" for m in missing) + "\n"
             "- 설정 방법: `docs/PINTEREST_SETUP.md`\n\n"
             "앱이 아직 trial access 승인 대기 중이라면 이 상태가 정상입니다. "
-            "그동안은 `content/pins/PINS.md`를 보고 수동으로 올리고, "
-            "`pinterest_publish.py --mark-pinned` 로 기록하세요.\n"
+            "그동안은 `bulk-upload/pinsNN.csv`(다음 단계에서 자동 생성)를 \"콘텐츠 가져오기\"로 올리고 "
+            "`pinterest_publish.py --mark-pinned pinsNN` 으로 기록하세요.\n"
         )
         return 0
 
@@ -339,7 +358,7 @@ def main() -> int:
                 f"- 대기 중인 글: **{len(todo)}편**\n"
                 "- Trial access는 sandbox에만 핀을 만들 수 있습니다(403 code 29). "
                 "실제 게시에는 **Standard access**가 필요합니다: 개발자 포털 → 내 앱 → **업그레이드**.\n"
-                "- 그동안은 `generator/make_bulk_csv.py`로 CSV를 만들어 \"콘텐츠 가져오기\"로 올리고 "
+                "- 그동안은 `bulk-upload/pinsNN.csv`(다음 단계에서 자동 생성)를 \"콘텐츠 가져오기\"로 올리고 "
                 "`pinterest_publish.py --mark-pinned pinsNN`으로 기록하세요.\n"
             )
             return 0

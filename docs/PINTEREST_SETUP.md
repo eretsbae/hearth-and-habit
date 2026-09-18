@@ -170,24 +170,36 @@ Energy & Utility Savings / Kitchen & Food Habits / Yard & Outdoor Basics).
 ### CSV 배치 루틴 (콘텐츠 가져오기)
 
 낱개로 올리는 대신 Pinterest 설정 → **콘텐츠 가져오기**에 CSV를 넣는 방식입니다.
+Standard access가 승인될 때까지는 이 루틴이 실제 게시 경로이며, **다음 파일은 자동으로
+만들어집니다.** 사람이 할 일은 업로드와 기록뿐입니다.
 
 ```bash
-git pull origin main                                # 새 글·새 URL 반영
-python generator/make_bulk_csv.py --per-file 4      # bulk-upload/pinsNN.csv 생성
+git pull origin main                                 # bulk-upload/pinsNN.csv 가 내려옴
+#   → Pinterest 설정 → 콘텐츠 가져오기 → bulk-upload/pinsNN.csv 업로드
+#   → 보드에서 핀이 실제로 생성됐는지 확인
+python generator/pinterest_publish.py --mark-pinned pinsNN   # 기록 + 다음 파일 생성
+git add config/topics.yml bulk-upload
+git commit -m "chore: record pinsNN, prepare next batch"
+git push origin main
 ```
 
-- `bulk-upload/`는 **gitignore 대상**입니다. CSV는 리포로 오가지 않으니 업로드하는 PC에서
-  직접 생성하세요.
-- 파일명은 `pins09.csv` 형식이고, 번호는 폴더에 이미 있는 `pinsNN.csv`(하이픈 있는 `pins-NN.csv`도 인식)
-  다음부터 이어집니다(pins08까지 있으면 pins09부터).
-  강제로 지정하려면 `--start 9`.
-- 생성 시 각 글에 `pinterest_batch: pinsNN`이 `config/topics.yml`에 기록됩니다(커밋 필요).
-  그래서 CSV 파일이 없는 다른 PC에서도 배치 이름만으로 기록할 수 있습니다:
-  `python generator/pinterest_publish.py --mark-pinned pins10`
-- 하루 한 파일. 업로드 → Pinterest에서 핀 생성 확인 → `--mark-pinned pinsNN` →
-  `config/topics.yml` 커밋·푸시. 그 다음 파일도 같은 순서로.
-- 이미 파일에 들어간 글은 기록 전까지 다음 파일에 다시 뽑히지 않습니다
-  (`--include-assigned`로 강제).
+- `bulk-upload/`는 **커밋 대상**입니다. 다음 CSV는 `git pull`로 받고, 직접 생성할 필요가
+  없습니다.
+- 다음 파일이 생기는 규칙(`make_bulk_csv.py --auto`):
+  - 아직 기록되지 않은 배치가 있으면 아무것도 만들지 않습니다(한 번에 한 파일만 대기).
+    그 배치의 CSV가 폴더에 없으면 `config/topics.yml` 기록으로 같은 파일을 다시 만듭니다.
+  - 모든 배치가 기록됐고 대기 글이 있으면 다음 `pinsNN.csv`(최대 4핀)를 만들고
+    각 글에 `pinterest_batch: pinsNN`을 찍습니다.
+  - API가 실제 핀을 하나라도 만든 뒤(Standard access 승인)에는 더 이상 만들지 않습니다.
+- 실행 시점 두 곳: `--mark-pinned pinsNN` 직후(그 자리에서 다음 파일 생성), 그리고 매일
+  도는 `pinterest-publish.yml`(새 글이 올라왔거나 로컬에서 커밋을 빠뜨린 경우를 메움).
+  워크플로우가 파일을 만들면 실행 요약(Summary)에 📌 배치 준비됨이 뜹니다.
+- 기록 전에는 그 배치 글이 API 경로에서도 제외됩니다(`held back` 로그). 승인 후 CSV를
+  올리지 않고 API에 맡기려면 `config/topics.yml`에서 해당 `pinterest_batch:` 줄을 지우세요.
+- 파일명은 `pins09.csv` 형식이고, 번호는 폴더의 `pinsNN.csv`(하이픈 있는 `pins-NN.csv`도
+  인식)와 `topics.yml`의 `pinterest_batch` 중 가장 큰 번호 다음부터 이어집니다.
+- 수동 생성(`--per-file`, `--limit`, `--start`, `--include-assigned`)도 그대로 됩니다.
+  `--auto` 없이 만든 파일도 커밋하세요.
 
 ## 문제 해결
 

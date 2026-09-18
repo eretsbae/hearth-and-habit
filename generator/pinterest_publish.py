@@ -137,6 +137,34 @@ def candidates(topics_data: dict) -> list[dict]:
     return out
 
 
+def sandbox_access_token(app_id: str, app_secret: str, passphrase: str) -> str:
+    """An access token the sandbox host accepts.
+
+    Production tokens are rejected there, so: use PINTEREST_SANDBOX_TOKEN if
+    set (the 30-day token the developer portal mints on the app page), else
+    try the production refresh token against the sandbox token endpoint.
+    Nothing is written to .secrets/ either way; the production token file
+    must stay exactly as the daily workflow expects it.
+    """
+    direct = os.environ.get("PINTEREST_SANDBOX_TOKEN", "").strip()
+    if direct:
+        print("sandbox: using PINTEREST_SANDBOX_TOKEN")
+        return direct
+    stored = pc.load_tokens(passphrase)
+    try:
+        tokens = pc.refresh_access_token(app_id, app_secret, stored["refresh_token"], sandbox=True)
+        print("sandbox: access token issued by api-sandbox.pinterest.com")
+        return tokens["access_token"]
+    except SystemExit as e:
+        raise SystemExit(
+            f"{e}\n\nThe sandbox would not issue a token from the production refresh token. "
+            "Mint a sandbox token in the developer portal (My apps -> the app -> Manage -> "
+            "generate sandbox/test token) and pass it as PINTEREST_SANDBOX_TOKEN:\n"
+            '    $env:PINTEREST_SANDBOX_TOKEN = "<token>"    (PowerShell)\n'
+            "then re-run with --sandbox."
+        )
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=3,
@@ -251,13 +279,16 @@ def main() -> int:
         )
         return 0
 
-    stored = pc.load_tokens(passphrase)
-    tokens = pc.refresh_access_token(app_id, app_secret, stored["refresh_token"])
-    access_token = tokens["access_token"]
-    if tokens.get("refresh_token") and tokens["refresh_token"] != stored["refresh_token"]:
-        # Pinterest rotated it — persist or the next run authenticates with a dead token.
-        pc.save_tokens({"refresh_token": tokens["refresh_token"]}, passphrase)
-        print("Pinterest refresh token rotated; .secrets/pinterest_token.enc updated (commit it).")
+    if args.sandbox:
+        access_token = sandbox_access_token(app_id, app_secret, passphrase)
+    else:
+        stored = pc.load_tokens(passphrase)
+        tokens = pc.refresh_access_token(app_id, app_secret, stored["refresh_token"])
+        access_token = tokens["access_token"]
+        if tokens.get("refresh_token") and tokens["refresh_token"] != stored["refresh_token"]:
+            # Pinterest rotated it — persist or the next run authenticates with a dead token.
+            pc.save_tokens({"refresh_token": tokens["refresh_token"]}, passphrase)
+            print("Pinterest refresh token rotated; .secrets/pinterest_token.enc updated (commit it).")
 
     if args.whoami:
         me = pc.get_user_account(access_token)

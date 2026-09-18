@@ -47,7 +47,11 @@ keeps exactly one batch waiting for upload:
   * a batch is written to a CSV but not yet recorded  -> do nothing (or
     rebuild its CSV from topics.yml if the file is missing);
   * every batch is recorded and posts are still pending -> write the next
-    pinsNN.csv with up to AUTO_BATCH_SIZE pins and stamp them;
+    pinsNN.csv with up to AUTO_BATCH_SIZE pins and stamp them. Fewer than
+    AUTO_BATCH_SIZE pending means wait for more, unless the oldest has
+    already waited AUTO_MAX_WAIT_DAYS: posts arrive one at a time, three a
+    week, and a one-pin file per post is more uploads than a full file a
+    week for the same pins;
   * the API has created a real pin (Standard access arrived) -> do nothing,
     the CSV era is over.
 
@@ -62,6 +66,7 @@ import argparse
 import csv
 import re
 import sys
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -90,6 +95,9 @@ MAX_ROWS_PER_FILE = 200  # the importer's stated ceiling
 # One file a day, a few pins each, is what a young account absorbs without
 # reading as spam; --auto never writes more than this in one file.
 AUTO_BATCH_SIZE = 4
+# Rather than a one-pin file for every new post, let pending posts pile up
+# to a full batch, but never keep a post off Pinterest longer than this.
+AUTO_MAX_WAIT_DAYS = 7
 # Committed (not gitignored) so the next batch reaches the upload machine by
 # git pull instead of having to be regenerated there.
 BULK_DIR = ROOT / "bulk-upload"
@@ -149,6 +157,20 @@ def api_has_pinned(topics_data: dict) -> bool:
                for t in topics_data.get("topics", []))
 
 
+def days_pending(topic: dict, today: date | None = None) -> int:
+    """Days since the post went live, from its front-matter date.
+
+    A post with no readable date counts as old, so a bad date can only make
+    a batch go out sooner, never hold one back.
+    """
+    raw = post_meta(topic["published_slug"]).get("date")
+    try:
+        published = date.fromisoformat(str(raw)[:10])
+    except (TypeError, ValueError):
+        return AUTO_MAX_WAIT_DAYS
+    return ((today or date.today()) - published).days
+
+
 def outstanding_batches(todo: list[dict]) -> dict[str, list[dict]]:
     """Batches written to a CSV but not yet recorded with --mark-pinned."""
     out: dict[str, list[dict]] = {}
@@ -198,6 +220,12 @@ def auto_batch(out_dir: Path = BULK_DIR, per_file: int = AUTO_BATCH_SIZE,
         print("Nothing pending; every live post with a pin image is already pinned.")
         return []
 
+    oldest = max(days_pending(t) for t in todo)
+    if len(todo) < per_file and oldest < AUTO_MAX_WAIT_DAYS:
+        print(f"{len(todo)} post(s) pending, fewer than a full batch of {per_file}; "
+              f"waiting for more (oldest has waited {oldest} of {AUTO_MAX_WAIT_DAYS} days).")
+        return []
+
     batch = todo[:per_file]
     stem = batch_name(next_batch_number(out_dir, topics_data))
     path = out_dir / f"{stem}.csv"
@@ -223,7 +251,9 @@ def main() -> int:
                     help="Keep one batch waiting for upload: write the next pinsNN.csv "
                          "only when every earlier batch is recorded, rebuild a recorded-"
                          "nowhere batch's missing file, and stop for good once the API "
-                         "has pinned. Ignores --limit/--start/--include-assigned")
+                         "has pinned. Fewer pending posts than --per-file wait up to "
+                         f"{AUTO_MAX_WAIT_DAYS} days for a full batch. Ignores "
+                         "--limit/--start/--include-assigned")
     ap.add_argument("--limit", type=int, default=0,
                     help="Only include this many pending posts (default: all)")
     ap.add_argument("--per-file", type=int, default=0,

@@ -257,7 +257,11 @@ def main() -> int:
     # expected. Skip loudly, though — the first version of this was silent, and
     # a month of green-but-no-op runs went unnoticed because a skipped run is
     # indistinguishable from a working one on the Actions list.
-    if not (app_id and app_secret and passphrase and pc.TOKEN_FILE.exists()):
+    sandbox_token = os.environ.get("PINTEREST_SANDBOX_TOKEN", "").strip()
+    configured = app_id and app_secret and passphrase and pc.TOKEN_FILE.exists()
+    # A portal-minted sandbox token is self-contained: no app secret, no
+    # refresh, no token file. Demo runs should not need the production trio.
+    if not configured and not (args.sandbox and sandbox_token):
         missing = [name for name, present in (
             ("PINTEREST_APP_ID", app_id),
             ("PINTEREST_APP_SECRET", app_secret),

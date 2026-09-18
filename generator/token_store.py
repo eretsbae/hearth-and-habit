@@ -24,7 +24,7 @@ import json
 import os
 from pathlib import Path
 
-from cryptography.fernet import Fernet
+from cryptography.fernet import Fernet, InvalidToken
 
 ROOT = Path(__file__).resolve().parents[1]
 SECRETS_DIR = ROOT / ".secrets"
@@ -56,4 +56,14 @@ def decrypt_token_file(passphrase: str, path: Path, recreate_hint: str = "") -> 
         )
     salt = raw[len(_MAGIC):len(_MAGIC) + _SALT_LEN]
     token = raw[len(_MAGIC) + _SALT_LEN:]
-    return json.loads(_fernet(passphrase, salt).decrypt(token))
+    try:
+        return json.loads(_fernet(passphrase, salt).decrypt(token))
+    except InvalidToken:
+        # Wrong passphrase (or a truncated/corrupted file). Fernet cannot tell
+        # which, but in practice it is the passphrase: it was typed differently
+        # when this file was written than it is now.
+        raise SystemExit(
+            f"ERROR: the passphrase does not decrypt {path}. It is not the one that "
+            "file was encrypted with (a typo either now or when it was saved), or the "
+            f"file is corrupted. {recreate_hint}".rstrip()
+        ) from None

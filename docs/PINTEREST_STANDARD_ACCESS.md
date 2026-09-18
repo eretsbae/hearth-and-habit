@@ -8,7 +8,9 @@ Pinterest가 영상에서 보겠다고 명시한 것은 딱 두 가지입니다:
 2. 사용자가 쓰게 될 **메인 Pinterest 기능** (우리 경우: 내 글의 핀을 내 보드에 생성)
 
 Trial 앱은 sandbox로 시연하라는 게 Pinterest의 공식 안내이므로, 핀 생성은
-`--sandbox`로 보여주면 됩니다. 실제 프로필에 핀이 생기지 않아도 심사에는 문제없습니다.
+`--sandbox`로 보여주면 됩니다. sandbox가 만든 보드와 핀은 **본인 프로필의 Saved 탭에는 보이지만**
+(이름에 `(sandbox)`가 붙고 썸네일이 회색) 로그아웃/시크릿 창에서는 보이지 않습니다(2026-09-18 확인).
+제출 후 Pinterest에서 직접 지워도 됩니다. `topics.yml`에는 기록되지 않습니다.
 
 ---
 
@@ -38,7 +40,11 @@ git pull origin main
   ```
 - Pinterest 웹 언어를 **영어**로 바꿔두면(설정 → 계정 관리 → 언어) 심사자가 동의 화면을 읽을 수 있습니다. 촬영 후 되돌리면 됩니다.
 - 화면 구성: 왼쪽 브라우저(Pinterest 로그인 상태), 오른쪽 PowerShell. 글꼴 크게(터미널 16pt 이상).
-- 녹화 도구: Windows 게임 바 `Win + Alt + R` (시작/정지). 결과는 `동영상\캡처\*.mp4`, 1080p, 2GB 이하 조건 자동 충족.
+- 녹화 도구: **캡처 도구(Snipping Tool) 화면 녹화** `Win + Shift + R` → 세 창이 다 들어가게 영역 드래그 → 시작.
+  결과는 `동영상\화면 녹화\*.mp4`. Xbox 게임 바(`Win + Alt + R`)는 활성 창 하나만 잡아서 브라우저·터미널·메모장을
+  함께 찍을 수 없습니다. 캡처 도구에 비디오 모드가 없으면 PowerPoint 삽입 → 화면 녹화, 또는 OBS의 디스플레이 캡처.
+- 구형 PowerShell 콘솔은 창 안을 **클릭하면 선택 모드**(제목이 "선택 관리자:"로 바뀜)에 들어가 출력이 멈춥니다.
+  녹화 전 `Esc`로 풀고, 촬영 중에는 터미널 위에 마우스를 올려놓기만 하고 클릭하지 마세요.
 - 길이 목표 **2~4분**. 편집 없이 한 번에 찍어도 됩니다. 실수하면 처음부터 다시.
 
 ---
@@ -79,7 +85,7 @@ git pull origin main
   ```powershell
   python generator/pinterest_publish.py --sandbox --limit 2
   ```
-  출력 순서대로 손가락(마우스)으로 짚기: `SANDBOX MODE` 배너 → `Boards on this account: 5` 와 보드 이름 → `Pinning: <글 제목>` → `-> sandbox pin <id> on '<board>'` 와 link/title.
+  출력 순서대로 마우스를 **올려놓기만** 해서(클릭 금지, 위 선택 모드 참고) 짚기: `SANDBOX MODE` 배너 → `Boards on this account: 5` 와 보드 이름 → `Pinning: <글 제목>` → `-> sandbox pin <id> on '<board>'` 와 link/title.
 - 말/캡션: *"This is the app's only write operation. For each new article it picks the board that matches the article's category from GET /v5/boards, then calls POST /v5/pins with the article's title, description, the article URL as the link, and a pin image hosted on GitHub. Because the app is on Trial access, this run uses the API sandbox; in production the exact same code runs once a day from GitHub Actions and creates at most three pins."*
 
 ### 장면 5 — 운영 방식과 결과물 (2:50–3:30)
@@ -90,7 +96,7 @@ git pull origin main
 
 ### 장면 6 — 마무리 (3:30–3:45)
 - 말/캡션: *"Summary: one user, my own account, my own content. Endpoints used: user_account, boards list and create, pins create. Data stored: encrypted refresh token and pin IDs. No user data is collected, shared, or sold."*
-- `Win + Alt + R`로 녹화 종료.
+- 캡처 도구의 정지 버튼으로 녹화 종료 → 저장.
 
 ---
 
@@ -143,7 +149,14 @@ Pinterest 언어를 다시 한국어로 돌려놓고, 영상 파일을 폼에 �
 
 ---
 
-## 4. 심사에서 자주 걸리는 것 (피하기)
+## 4. 제출 후
+
+- 2026-09-18 제출 완료(영상 + 정보 검토 답변). 결과는 개발자 포털의 앱 페이지와 이메일로 옵니다.
+- 승인되면 따로 할 일은 없습니다. 매일 도는 `Publish Pins to Pinterest` 워크플로가 같은 코드로
+  프로덕션에 핀을 만들기 시작합니다(Trial 동안은 code 29를 만나 건너뛰고 있었음).
+- 보완 요청이 오면 3절 답변과 영상의 엔드포인트 목록이 코드와 일치하는지부터 확인합니다.
+
+## 5. 심사에서 자주 걸리는 것 (피하기)
 
 - 동의 화면을 안 보여줌 → 장면 2에서 **Allow 누르기 전에** 화면을 2~3초 멈춰 두세요.
 - 영상에 secret이나 토큰이 노출 → 준비 단계에서 env로 넣고 `cls`. `pinterest_auth.py`는 secret을 가립니다.

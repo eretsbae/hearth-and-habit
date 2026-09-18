@@ -47,6 +47,15 @@ jobs:
           PINTEREST_TOKEN_PASSPHRASE: ${{ secrets.PINTEREST_TOKEN_PASSPHRASE }}
         run: python generator/pinterest_publish.py --limit ${{ github.event.inputs.limit || '3' }}
 
+      - name: Prepare next bulk-upload CSV
+        # Until the app has Standard access, pins go up by hand through
+        # Pinterest's content import. Keep one pinsNN.csv waiting in
+        # bulk-upload/ so the uploader only ever has to git pull and upload;
+        # a new batch is written only once the previous one is recorded with
+        # --mark-pinned. Becomes a no-op the day the API creates a real pin.
+        if: always()
+        run: python generator/make_bulk_csv.py --auto
+
       - name: Commit pin records
         # always(): Pinterest rotates the refresh token on every refresh, and
         # pinterest_publish.py re-encrypts it to disk before it creates any pin.
@@ -56,7 +65,8 @@ jobs:
         run: |
           git config user.name "hearth-habit-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add config/topics.yml .secrets/ 2>/dev/null || git add config/topics.yml
-          git diff --cached --quiet || git commit -m "chore: record Pinterest pins ($(date -u +%Y-%m-%d))"
+          git add config/topics.yml
+          for d in bulk-upload .secrets; do [ -d "$d" ] && git add "$d"; done
+          git diff --cached --quiet || git commit -m "chore: Pinterest bookkeeping ($(date -u +%Y-%m-%d))"
           git pull --rebase --autostash origin "$GITHUB_REF_NAME"
           git push

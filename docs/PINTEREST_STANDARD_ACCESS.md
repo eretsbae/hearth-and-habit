@@ -23,7 +23,13 @@ $env:PINTEREST_TOKEN_PASSPHRASE = "<토큰 passphrase>"
 cls
 ```
 
-- 위 세 줄은 **녹화 시작 전에** 입력하고 `cls`로 화면을 지우세요. secret이 영상에 남으면 안 됩니다.
+- **sandbox 토큰**: sandbox는 프로덕션 access token을 받지 않습니다(401). 개발자 포털 → 내 앱 →
+  **관리** 화면에서 sandbox(테스트) 토큰을 생성해(30일 유효) 네 번째 env로 넣으세요:
+  ```powershell
+  $env:PINTEREST_SANDBOX_TOKEN = "<sandbox 토큰>"
+  ```
+  `--sandbox`는 이 값을 우선 쓰고, 없으면 sandbox 토큰 엔드포인트로 발급을 시도합니다.
+- 위 env 줄들은 **녹화 시작 전에** 입력하고 `cls`로 화면을 지우세요. secret이 영상에 남으면 안 됩니다.
 - 리허설로 아래 두 명령이 오류 없이 도는지 먼저 확인:
   ```powershell
   python generator/pinterest_publish.py --whoami

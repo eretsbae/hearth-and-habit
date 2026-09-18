@@ -36,7 +36,11 @@ API_PRODUCTION = "https://api.pinterest.com/v5"
 API_SANDBOX = "https://api-sandbox.pinterest.com/v5"
 API = API_PRODUCTION
 OAUTH_AUTHORIZE = "https://www.pinterest.com/oauth/"
-OAUTH_TOKEN = f"{API_PRODUCTION}/oauth/token"  # token exchange is production-only
+OAUTH_TOKEN = f"{API_PRODUCTION}/oauth/token"
+# The sandbox does not accept production access tokens (401 "Authentication
+# failed", seen 2026-09-13). It has its own token endpoint, and the developer
+# portal can also mint a 30-day sandbox token directly (app page -> Manage).
+OAUTH_TOKEN_SANDBOX = f"{API_SANDBOX}/oauth/token"
 
 
 def use_sandbox() -> None:
@@ -81,9 +85,10 @@ def exchange_code(app_id: str, app_secret: str, code: str, redirect_uri: str) ->
     return resp.json()
 
 
-def refresh_access_token(app_id: str, app_secret: str, refresh_token: str) -> dict:
+def refresh_access_token(app_id: str, app_secret: str, refresh_token: str,
+                         sandbox: bool = False) -> dict:
     resp = requests.post(
-        OAUTH_TOKEN,
+        OAUTH_TOKEN_SANDBOX if sandbox else OAUTH_TOKEN,
         headers={"Authorization": _basic_auth(app_id, app_secret),
                  "Content-Type": "application/x-www-form-urlencoded"},
         data={"grant_type": "refresh_token", "refresh_token": refresh_token},

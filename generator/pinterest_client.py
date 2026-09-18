@@ -118,7 +118,10 @@ def get_user_account(access_token: str) -> dict:
 def list_boards(access_token: str) -> list[dict]:
     boards, bookmark = [], None
     while True:
-        params = {"page_size": 100}
+        # privacy=ALL: secret/protected boards count too, and the sandbox
+        # has been seen to hide boards from the default listing while still
+        # rejecting a create for the same name (code 58).
+        params = {"page_size": 100, "privacy": "ALL"}
         if bookmark:
             params["bookmark"] = bookmark
         resp = requests.get(f"{API}/boards", params=params,
@@ -132,12 +135,19 @@ def list_boards(access_token: str) -> list[dict]:
             return boards
 
 
+class BoardNameTaken(SystemExit):
+    """POST /boards refused with code 58: a board with this name exists but
+    the listing did not return it (seen on the sandbox, 2026-09-18)."""
+
+
 def create_board(access_token: str, name: str, description: str) -> dict:
     resp = requests.post(
         f"{API}/boards",
         json={"name": name, "description": description[:500], "privacy": "PUBLIC"},
         headers=_auth_headers(access_token), timeout=30,
     )
+    if resp.status_code == 400 and '"code":58' in resp.text.replace(" ", ""):
+        raise BoardNameTaken(f"ERROR: could not create board '{name}' (400): {resp.text[:300]}")
     if not resp.ok:
         raise SystemExit(f"ERROR: could not create board '{name}' ({resp.status_code}): {resp.text[:300]}")
     return resp.json()
@@ -165,7 +175,16 @@ def ensure_board(access_token: str, name: str, description: str, cache: dict) ->
     key = board_key(name)
     if key in cache:
         return cache[key]
-    board = create_board(access_token, name, description)
+    try:
+        board = create_board(access_token, name, description)
+    except BoardNameTaken:
+        if API != API_SANDBOX:
+            raise
+        # Sandbox only: the hidden board cannot be addressed, so demo on a
+        # visibly-named twin rather than abort the recording.
+        name = f"{name} (sandbox)"
+        print(f"  sandbox hides an existing '{name[:-10]}' board; creating '{name}' instead")
+        board = create_board(access_token, name, description)
     cache[key] = board["id"]
     print(f"  created board: {name}")
     return board["id"]

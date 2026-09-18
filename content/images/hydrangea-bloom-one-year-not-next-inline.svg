@@ -1,0 +1,90 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft background circle for focus -->
+  <circle cx="600" cy="310" r="290" fill="#E4C7B2" opacity="0.35"/>
+  <circle cx="600" cy="310" r="220" fill="#E4C7B2" opacity="0.3"/>
+
+  <!-- soil mound -->
+  <ellipse cx="600" cy="565" rx="420" ry="65" fill="#2E2A24"/>
+  <ellipse cx="600" cy="555" rx="420" ry="55" fill="#5C6E58" opacity="0.25"/>
+  <ellipse cx="600" cy="548" rx="400" ry="40" fill="#2E2A24"/>
+
+  <!-- soil texture dots -->
+  <circle cx="420" cy="555" r="6" fill="#B85C38" opacity="0.5"/>
+  <circle cx="480" cy="575" r="5" fill="#D9A441" opacity="0.5"/>
+  <circle cx="720" cy="560" r="6" fill="#B85C38" opacity="0.5"/>
+  <circle cx="780" cy="540" r="5" fill="#5C6E58" opacity="0.5"/>
+  <circle cx="360" cy="540" r="4" fill="#D9A441" opacity="0.4"/>
+  <circle cx="850" cy="565" r="5" fill="#B85C38" opacity="0.4"/>
+
+  <!-- OLD WOOD stem (left, lower section) -->
+  <rect x="555" y="330" width="46" height="230" fill="#B85C38"/>
+  <rect x="555" y="330" width="46" height="230" fill="#2E2A24" opacity="0.08"/>
+
+  <!-- old wood bark texture lines -->
+  <path d="M562 340 L560 550" stroke="#2E2A24" stroke-width="3" opacity="0.3" fill="none"/>
+  <path d="M575 335 L573 555" stroke="#2E2A24" stroke-width="3" opacity="0.25" fill="none"/>
+  <path d="M588 340 L590 550" stroke="#2E2A24" stroke-width="3" opacity="0.3" fill="none"/>
+  <path d="M568 360 Q572 400 566 440 Q570 480 564 520" stroke="#2E2A24" stroke-width="2" opacity="0.2" fill="none"/>
+
+  <!-- NEW GREEN GROWTH stem (upper section, continuing up) -->
+  <rect x="560" y="120" width="36" height="215" fill="#5C6E58"/>
+  <rect x="560" y="120" width="36" height="215" fill="#F6EFE6" opacity="0.06"/>
+
+  <!-- new growth texture -->
+  <path d="M568 130 L568 330" stroke="#2E2A24" stroke-width="2" opacity="0.15" fill="none"/>
+  <path d="M586 130 L586 330" stroke="#2E2A24" stroke-width="2" opacity="0.15" fill="none"/>
+
+  <!-- transition node marking old/new boundary -->
+  <ellipse cx="578" cy="332" rx="30" ry="10" fill="#D9A441"/>
+  <ellipse cx="578" cy="332" rx="30" ry="10" fill="none" stroke="#2E2A24" stroke-width="2" opacity="0.4"/>
+
+  <!-- cross-section cut ring at top of stem -->
+  <ellipse cx="578" cy="122" rx="20" ry="9" fill="#E4C7B2"/>
+  <ellipse cx="578" cy="122" rx="20" ry="9" fill="none" stroke="#2E2A24" stroke-width="2"/>
+  <ellipse cx="578" cy="122" rx="11" ry="5" fill="#5C6E58" opacity="0.6"/>
+  <circle cx="578" cy="122" r="3" fill="#2E2A24" opacity="0.5"/>
+
+  <!-- leaves sprouting from new growth -->
+  <g>
+    <path d="M596 180 Q660 160 680 210 Q650 220 610 205 Q595 198 596 180 Z" fill="#5C6E58"/>
+    <path d="M600 185 Q640 178 665 205" stroke="#2E2A24" stroke-width="1.5" fill="none" opacity="0.3"/>
+  </g>
+  <g>
+    <path d="M560 230 Q490 215 470 265 Q505 275 545 258 Q562 250 560 230 Z" fill="#5C6E58"/>
+    <path d="M556 235 Q510 232 485 262" stroke="#2E2A24" stroke-width="1.5" fill="none" opacity="0.3"/>
+  </g>
+  <g>
+    <path d="M596 270 Q655 258 672 300 Q640 308 605 295 Q593 288 596 270 Z" fill="#5C6E58"/>
+  </g>
+
+  <!-- small buds near soil line on old wood -->
+  <g>
+    <circle cx="540" cy="500" r="13" fill="#D9A441"/>
+    <circle cx="540" cy="500" r="7" fill="#B85C38" opacity="0.5"/>
+    <path d="M540 487 Q548 478 540 468" stroke="#5C6E58" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <g>
+    <circle cx="615" cy="480" r="11" fill="#D9A441"/>
+    <circle cx="615" cy="480" r="6" fill="#B85C38" opacity="0.5"/>
+    <path d="M615 469 Q622 458 613 450" stroke="#5C6E58" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <g>
+    <circle cx="500" cy="460" r="9" fill="#D9A441" opacity="0.9"/>
+    <path d="M500 451 Q506 442 499 434" stroke="#5C6E58" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- small root hints below soil line -->
+  <path d="M560 560 Q540 590 500 600" stroke="#B85C38" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M600 560 Q630 585 660 600" stroke="#B85C38" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M580 562 Q580 595 585 615" stroke="#B85C38" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- annotation dots to subtly separate zones (decorative, no text) -->
+  <circle cx="700" cy="200" r="4" fill="#5C6E58" opacity="0.6"/>
+  <circle cx="700" cy="420" r="4" fill="#B85C38" opacity="0.6"/>
+
+  <!-- decorative small leaves near base -->
+  <path d="M470 520 Q440 505 425 525 Q450 535 470 530 Z" fill="#5C6E58" opacity="0.85"/>
+  <path d="M690 500 Q720 488 735 508 Q712 518 690 512 Z" fill="#5C6E58" opacity="0.85"/>
+</svg>

@@ -1,0 +1,170 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- sky/background wash -->
+  <rect x="0" y="0" width="1200" height="430" fill="#F6EFE6"/>
+
+  <!-- ground -->
+  <rect x="0" y="430" width="1200" height="200" fill="#E4C7B2"/>
+  <rect x="0" y="430" width="1200" height="14" fill="#D9A441" opacity="0.35"/>
+
+  <!-- path -->
+  <path d="M 500 630 L 560 430 L 660 430 L 740 630 Z" fill="#F6EFE6"/>
+  <path d="M 505 630 L 562 440 L 655 440 L 733 630 Z" fill="#EFE3D3"/>
+
+  <!-- distant fence line -->
+  <g opacity="0.5">
+    <rect x="60" y="380" width="10" height="55" fill="#5C6E58"/>
+    <rect x="150" y="380" width="10" height="55" fill="#5C6E58"/>
+    <rect x="1010" y="380" width="10" height="55" fill="#5C6E58"/>
+    <rect x="1100" y="380" width="10" height="55" fill="#5C6E58"/>
+    <rect x="40" y="370" width="140" height="8" fill="#5C6E58"/>
+    <rect x="990" y="370" width="140" height="8" fill="#5C6E58"/>
+  </g>
+
+  <!-- centerline divider (subtle) -->
+  <line x1="600" y1="150" x2="600" y2="470" stroke="#2E2A24" stroke-width="1" opacity="0.12" stroke-dasharray="4 8"/>
+
+  <!-- shrub mound base -->
+  <ellipse cx="600" cy="470" rx="330" ry="45" fill="#5C6E58" opacity="0.25"/>
+
+  <!-- trunk -->
+  <path d="M 590 470 Q 585 400 600 340 Q 615 400 610 470 Z" fill="#B85C38"/>
+  <path d="M 598 470 L 595 350" stroke="#2E2A24" stroke-width="2" opacity="0.2"/>
+
+  <!-- ===== LEFT SIDE: bare with just leaves ===== -->
+  <g>
+    <!-- branches -->
+    <path d="M 595 400 Q 480 380 400 340" stroke="#5C6E58" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 595 420 Q 460 420 360 400" stroke="#5C6E58" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 590 440 Q 470 460 380 460" stroke="#5C6E58" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 590 380 Q 500 340 450 290" stroke="#5C6E58" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+    <!-- leaf clusters -->
+    <g fill="#5C6E58">
+      <ellipse cx="330" cy="330" rx="55" ry="80" transform="rotate(-20 330 330)"/>
+      <ellipse cx="420" cy="270" rx="45" ry="65" transform="rotate(10 420 270)"/>
+      <ellipse cx="350" cy="420" rx="55" ry="75" transform="rotate(15 350 420)"/>
+      <ellipse cx="450" cy="380" rx="45" ry="65" transform="rotate(-10 450 380)"/>
+      <ellipse cx="280" cy="400" rx="40" ry="60" transform="rotate(30 280 400)"/>
+      <ellipse cx="500 " cy="330" rx="40" ry="55" transform="rotate(-5 500 330)"/>
+      <ellipse cx="380" cy="340" rx="50" ry="70" transform="rotate(0 380 340)"/>
+    </g>
+    <g fill="#7C8E76" opacity="0.6">
+      <ellipse cx="340" cy="320" rx="30" ry="42" transform="rotate(-20 340 320)"/>
+      <ellipse cx="420" cy="270" rx="22" ry="32" transform="rotate(10 420 270)"/>
+      <ellipse cx="360" cy="415" rx="28" ry="38" transform="rotate(15 360 415)"/>
+      <ellipse cx="450" cy="378" rx="22" ry="30" transform="rotate(-10 450 378)"/>
+    </g>
+    <!-- leaf veins -->
+    <g stroke="#2E2A24" stroke-width="1.5" opacity="0.25">
+      <line x1="330" y1="290" x2="330" y2="370"/>
+      <line x1="420" y1="240" x2="420" y2="300"/>
+      <line x1="350" y1="380" x2="350" y2="460"/>
+      <line x1="450" y1="345" x2="450" y2="415"/>
+    </g>
+  </g>
+
+  <!-- ===== RIGHT SIDE: lush blooms ===== -->
+  <g>
+    <!-- branches -->
+    <path d="M 605 400 Q 720 380 800 340" stroke="#5C6E58" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 605 420 Q 740 420 840 400" stroke="#5C6E58" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 610 440 Q 730 460 820 460" stroke="#5C6E58" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M 610 380 Q 700 340 750 290" stroke="#5C6E58" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+    <!-- leaves peeking beneath blooms -->
+    <g fill="#5C6E58">
+      <ellipse cx="700" cy="440" rx="45" ry="65" transform="rotate(15 700 440)"/>
+      <ellipse cx="820" cy="420" rx="40" ry="60" transform="rotate(-10 820 420)"/>
+      <ellipse cx="760" cy="330" rx="40" ry="55" transform="rotate(10 760 330)"/>
+      <ellipse cx="870" cy="360" rx="35" ry="50" transform="rotate(-15 870 360)"/>
+    </g>
+
+    <!-- bloom clusters: each a group of small circles forming hydrangea puff -->
+    <g id="blooms">
+      <!-- cluster 1 -->
+      <g transform="translate(720,300)">
+        <circle cx="0" cy="0" r="10" fill="#B85C38"/>
+        <circle cx="14" cy="-6" r="9" fill="#5C6E58" opacity="0"/>
+        <circle cx="-14" cy="6" r="9" fill="#B49CC9"/>
+        <circle cx="12" cy="10" r="9" fill="#B85C38"/>
+        <circle cx="-10" cy="-12" r="9" fill="#B49CC9"/>
+        <circle cx="6" cy="-16" r="8" fill="#D9A441"/>
+        <circle cx="20" cy="4" r="8" fill="#B49CC9"/>
+      </g>
+      <!-- cluster 2 -->
+      <g transform="translate(810,270)">
+        <circle cx="0" cy="0" r="11" fill="#B49CC9"/>
+        <circle cx="16" cy="-8" r="9" fill="#B85C38"/>
+        <circle cx="-16" cy="6" r="9" fill="#B85C38"/>
+        <circle cx="12" cy="14" r="9" fill="#B49CC9"/>
+        <circle cx="-12" cy="-14" r="9" fill="#D9A441"/>
+        <circle cx="4" cy="-20" r="8" fill="#B49CC9"/>
+      </g>
+      <!-- cluster 3 -->
+      <g transform="translate(870,320)">
+        <circle cx="0" cy="0" r="10" fill="#B85C38"/>
+        <circle cx="14" cy="-8" r="8" fill="#B49CC9"/>
+        <circle cx="-14" cy="6" r="8" fill="#D9A441"/>
+        <circle cx="10" cy="12" r="8" fill="#B49CC9"/>
+        <circle cx="-10" cy="-12" r="8" fill="#B85C38"/>
+      </g>
+      <!-- cluster 4 -->
+      <g transform="translate(760,400)">
+        <circle cx="0" cy="0" r="11" fill="#B49CC9"/>
+        <circle cx="16" cy="-8" r="9" fill="#B85C38"/>
+        <circle cx="-16" cy="6" r="9" fill="#B49CC9"/>
+        <circle cx="10" cy="16" r="9" fill="#D9A441"/>
+        <circle cx="-12" cy="-16" r="9" fill="#B85C38"/>
+      </g>
+      <!-- cluster 5 -->
+      <g transform="translate(860,410)">
+        <circle cx="0" cy="0" r="10" fill="#B85C38"/>
+        <circle cx="14" cy="-8" r="8" fill="#B49CC9"/>
+        <circle cx="-14" cy="6" r="8" fill="#B49CC9"/>
+        <circle cx="10" cy="12" r="8" fill="#D9A441"/>
+      </g>
+      <!-- cluster 6 top -->
+      <g transform="translate(790,340)">
+        <circle cx="0" cy="0" r="9" fill="#D9A441"/>
+        <circle cx="12" cy="-6" r="7" fill="#B85C38"/>
+        <circle cx="-12" cy="6" r="7" fill="#B49CC9"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- small tidy edging border along yard -->
+  <g fill="#5C6E58" opacity="0.55">
+    <ellipse cx="150" cy="470" rx="30" ry="14"/>
+    <ellipse cx="200" cy="475" rx="30" ry="14"/>
+    <ellipse cx="250" cy="470" rx="30" ry="14"/>
+    <ellipse cx="950" cy="470" rx="30" ry="14"/>
+    <ellipse cx="1000" cy="475" rx="30" ry="14"/>
+    <ellipse cx="1050" cy="470" rx="30" ry="14"/>
+  </g>
+
+  <!-- small stones along path edge -->
+  <g fill="#D9A441" opacity="0.5">
+    <ellipse cx="520" cy="520" rx="10" ry="6"/>
+    <ellipse cx="700" cy="530" rx="10" ry="6"/>
+    <ellipse cx="560" cy="580" rx="12" ry="7"/>
+    <ellipse cx="670" cy="590" rx="12" ry="7"/>
+  </g>
+
+  <!-- garden pots flanking -->
+  <g>
+    <path d="M 150 560 L 165 610 L 215 610 L 230 560 Z" fill="#B85C38"/>
+    <ellipse cx="190" cy="560" rx="40" ry="10" fill="#E4C7B2"/>
+    <ellipse cx="190" cy="555" rx="30" ry="18" fill="#5C6E58"/>
+
+    <path d="M 970 560 L 985 610 L 1035 610 L 1050 560 Z" fill="#B85C38"/>
+    <ellipse cx="1010" cy="560" rx="40" ry="10" fill="#E4C7B2"/>
+    <ellipse cx="1010" cy="552" rx="28" ry="16" fill="#D9A441"/>
+  </g>
+
+  <!-- sun accent -->
+  <circle cx="1080" cy="90" r="55" fill="#D9A441" opacity="0.5"/>
+  <circle cx="1080" cy="90" r="35" fill="#D9A441" opacity="0.6"/>
+
+</svg>

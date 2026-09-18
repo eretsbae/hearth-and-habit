@@ -552,4 +552,6 @@ topics:
   status: pending
 - title: Why Does My Hydrangea Bloom Great One Year and Barely Flower the Next?
   pillar: yard-outdoor
-  status: pending
+  status: published
+  published_slug: hydrangea-bloom-one-year-not-next
+  quality_score: 85

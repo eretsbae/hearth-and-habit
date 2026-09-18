@@ -48,7 +48,10 @@ cls
 찍거나 메모장에 띄워 두면 캡션 역할을 합니다.
 
 ### 장면 1 — 앱 소개 (0:00–0:20)
-- 화면: `https://www.hearth-habit.com/` 홈 → GitHub 리포 README 상단.
+- 화면: `https://www.hearth-habit.com/` 홈 → Pinterest 개발자 포털(`developers.pinterest.com` → 내 앱)의
+  **앱 페이지**. 앱 이름과 app ID 1594725가 영어 UI로 보입니다.
+  (GitHub 리포 README는 한국어이고 Pinterest 언급이 없어 심사자에게 도움이 되지 않으니 보여주지 않습니다.
+  리포를 꼭 보이고 싶으면 Actions 탭의 "Publish Pins to Pinterest" 워크플로가 대안입니다.)
 - 말/캡션: *"This is Hearth & Habit Publisher, app ID 1594725. It is a private, single-user tool. It posts pins for articles on my own blog, hearth-habit.com, to boards on my own Pinterest account. There are no other users."*
 
 ### 장면 2 — 인증 (0:20–1:20)

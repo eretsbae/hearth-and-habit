@@ -17,21 +17,20 @@ Trial 앱은 sandbox로 시연하라는 게 Pinterest의 공식 안내이므로,
 ```powershell
 cd C:\workspace\hearth-and-habit
 git pull origin main
-$env:PINTEREST_APP_ID = "1594725"
-$env:PINTEREST_APP_SECRET = "<포털의 App secret>"
-$env:PINTEREST_TOKEN_PASSPHRASE = "<토큰 passphrase>"
-cls
+. .\generator\pinterest_env.ps1
 ```
 
-- **sandbox 토큰**: sandbox는 프로덕션 access token을 받지 않습니다(401). 개발자 포털 → 내 앱 →
-  **관리** 화면에서 sandbox(테스트) 토큰을 생성해(30일 유효) 네 번째 env로 넣으세요:
-  ```powershell
-  $env:PINTEREST_SANDBOX_TOKEN = "<sandbox 토큰>"
-  ```
+- `pinterest_env.ps1`은 App ID, App secret, passphrase, sandbox 토큰을 **프롬프트로** 받습니다.
+  값은 프롬프트에 붙여넣으세요(우클릭 또는 Ctrl+V). 클립보드를 직접 읽지 않으므로 명령을 복사한 뒤
+  값을 복사해도 됩니다. 입력이 끝나면 각 값의 길이(sandbox 토큰은 `pina_` 접두어까지)를 보여주고,
+  Enter를 누르면 화면을 지웁니다. secret이 영상에 남으면 안 되므로 **녹화 시작 전에** 끝내세요.
+  앞의 점과 공백(`. .\`)이 빠지면 env가 창에 남지 않으니 그대로 입력합니다.
+- **sandbox 토큰**: sandbox는 프로덕션 access token을 받지 않습니다(401 code 2). 개발자 포털 → 내 앱 →
+  **Generate Access Tokens**에서 환경을 **Sandbox**로 선택하고 Generate token → 복사 아이콘(30일 유효).
   `--sandbox`는 이 값을 우선 쓰고, 없으면 sandbox 토큰 엔드포인트로 발급을 시도합니다.
-- 위 env 줄들은 **녹화 시작 전에** 입력하고 `cls`로 화면을 지우세요. secret이 영상에 남으면 안 됩니다.
-  `pinterest_auth.py`도 이 env를 읽으므로 장면 2에서 secret을 타이핑할 일이 없습니다. 직접 타이핑하면
-  입력이 화면에 안 보여 오타(한글 IME 등)를 알 수 없고, Pinterest는 401 code 2로 거부합니다.
+- `pinterest_auth.py`와 `pinterest_publish.py` 모두 이 env를 읽으므로 장면 2에서 secret을 타이핑할 일이
+  없습니다. 숨김 프롬프트에 직접 타이핑하면 오타(한글 IME 등)를 알 수 없고, Pinterest는 401 code 2로
+  거부합니다. env는 PowerShell 창마다 따로이므로 새 창을 열면 다시 실행해야 합니다.
 - 리허설로 아래 두 명령이 오류 없이 도는지 먼저 확인:
   ```powershell
   python generator/pinterest_publish.py --whoami

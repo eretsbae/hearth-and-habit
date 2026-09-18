@@ -77,6 +77,8 @@ python generator/pinterest_auth.py
 ```
 
 1. App ID / App secret / Redirect URI 입력 (2단계에서 등록한 것과 **정확히 동일**하게)
+   - 환경변수 `PINTEREST_APP_ID`, `PINTEREST_APP_SECRET`, `PINTEREST_TOKEN_PASSPHRASE`가 있으면 묻지 않고 그 값을 씁니다.
+     secret 프롬프트는 입력이 안 보여 오타를 잡을 수 없으니, 가능하면 env로 넣으세요.
 2. 브라우저가 열리면 Pinterest 승인 → 등록한 Redirect URI로 이동합니다
    - 그 페이지가 에러여도 상관없습니다. **주소창을 보세요.**
    - `...?code=abc123...` 에서 **code 값**을 복사 (주소 전체를 붙여넣어도 자동으로 추출합니다)
@@ -194,7 +196,8 @@ python generator/make_bulk_csv.py --per-file 4      # bulk-upload/pinsNN.csv 생
 | 앱이 `pending` 상태에서 안 넘어감 / App secret이 안 보임 | trial access 승인 대기입니다. 2주 넘었으면 커뮤니티 포럼에 App ID를 적어 리뷰 요청 (2단계 경고 참고). 그동안은 "승인 대기 중에 할 일"로 수동 게시 |
 | 워크플로우는 매일 성공인데 핀이 안 올라감 | 로그에 `Pinterest not configured — skipping send`가 있으면 미설정 상태입니다. 실행 요약(Summary)에도 경고가 뜹니다. 4단계의 시크릿 3개와 `.secrets/pinterest_token.enc` 커밋 여부를 확인하세요 |
 | 포털에서 발급한 30일짜리 토큰을 쓰고 싶음 | 쓸 수 없습니다. 이 파이프라인은 **refresh token**으로 매 실행마다 access token을 재발급합니다. 포털 버튼으로 받은 토큰에는 refresh token이 없어 `pinterest_auth.py`가 거부하고, 한 달 뒤 죽습니다. 3단계의 OAuth 플로우로 받으세요 |
-| `code exchange failed` | Redirect URI가 앱 설정과 글자 하나까지 같은지 확인. code는 1회용이고 몇 분 내 만료되므로 새로 발급받아 즉시 사용 |
+| `code exchange failed` + `"code":2` | App ID/secret 쌍이 거부된 것입니다(code 자체의 문제가 아님). secret 프롬프트에 오타가 들어갔거나(한글 IME, 붙여넣기 실패) 포털에서 secret을 재생성한 경우. `PINTEREST_APP_ID`/`PINTEREST_APP_SECRET`을 env로 넣고 재실행 |
+| `code exchange failed` (그 외) | Redirect URI가 앱 설정과 글자 하나까지 같은지 확인. code는 1회용이고 몇 분 내 만료되므로 새로 발급받아 즉시 사용 |
 | `pin creation failed` + 권한 관련 메시지 | 앱 scope에 `pins:write`가 있는지, Pinterest 계정이 비즈니스 계정인지 확인 |
 | `token refresh failed` | refresh token 만료(약 1년) 또는 앱 접근 취소. `python generator/pinterest_auth.py` 재실행 후 토큰 파일 다시 커밋 |
 | 핀은 생성됐는데 이미지가 안 보임 | 핀 이미지는 raw.githubusercontent.com에서 제공됩니다. 리포가 public인지 확인 |

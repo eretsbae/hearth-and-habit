@@ -76,11 +76,25 @@ def exchange_code(app_id: str, app_secret: str, code: str, redirect_uri: str) ->
         timeout=30,
     )
     if not resp.ok:
+        body = resp.text.strip()
+        try:
+            parsed = resp.json()
+        except ValueError:
+            parsed = None
+        err_code = parsed.get("code") if isinstance(parsed, dict) else None
+        if resp.status_code == 401 and err_code == 2:
+            # Pinterest rejected the Basic auth header itself (observed 2026-09-18:
+            # a mistyped App secret gives code 2; a bad/reused code gives code 283).
+            hint = ("Pinterest rejected the App ID / App secret pair, not the code. "
+                    "Set PINTEREST_APP_ID and PINTEREST_APP_SECRET in the environment "
+                    "so nothing is typed, and check the secret was not regenerated on "
+                    "the developer portal.")
+        else:
+            hint = ("Check that the redirect URI matches the one registered on the app "
+                    "exactly, and that the code was pasted whole and hasn't already been "
+                    "used (each code works once and expires within minutes).")
         raise SystemExit(
-            f"ERROR: Pinterest code exchange failed ({resp.status_code}): {resp.text.strip()}\n"
-            "Check that the redirect URI matches the one registered on the app exactly, "
-            "and that the code was pasted whole and hasn't already been used "
-            "(each code works once and expires within minutes)."
+            f"ERROR: Pinterest code exchange failed ({resp.status_code}): {body}\n{hint}"
         )
     return resp.json()
 

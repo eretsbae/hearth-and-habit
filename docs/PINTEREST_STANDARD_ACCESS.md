@@ -30,6 +30,8 @@ cls
   ```
   `--sandbox`는 이 값을 우선 쓰고, 없으면 sandbox 토큰 엔드포인트로 발급을 시도합니다.
 - 위 env 줄들은 **녹화 시작 전에** 입력하고 `cls`로 화면을 지우세요. secret이 영상에 남으면 안 됩니다.
+  `pinterest_auth.py`도 이 env를 읽으므로 장면 2에서 secret을 타이핑할 일이 없습니다. 직접 타이핑하면
+  입력이 화면에 안 보여 오타(한글 IME 등)를 알 수 없고, Pinterest는 401 code 2로 거부합니다.
 - 리허설로 아래 두 명령이 오류 없이 도는지 먼저 확인:
   ```powershell
   python generator/pinterest_publish.py --whoami
@@ -48,7 +50,10 @@ cls
 찍거나 메모장에 띄워 두면 캡션 역할을 합니다.
 
 ### 장면 1 — 앱 소개 (0:00–0:20)
-- 화면: `https://www.hearth-habit.com/` 홈 → GitHub 리포 README 상단.
+- 화면: `https://www.hearth-habit.com/` 홈 → Pinterest 개발자 포털(`developers.pinterest.com` → 내 앱)의
+  **앱 페이지**. 앱 이름과 app ID 1594725가 영어 UI로 보입니다.
+  (GitHub 리포 README는 한국어이고 Pinterest 언급이 없어 심사자에게 도움이 되지 않으니 보여주지 않습니다.
+  리포를 꼭 보이고 싶으면 Actions 탭의 "Publish Pins to Pinterest" 워크플로가 대안입니다.)
 - 말/캡션: *"This is Hearth & Habit Publisher, app ID 1594725. It is a private, single-user tool. It posts pins for articles on my own blog, hearth-habit.com, to boards on my own Pinterest account. There are no other users."*
 
 ### 장면 2 — 인증 (0:20–1:20)
@@ -56,7 +61,8 @@ cls
   ```powershell
   python generator/pinterest_auth.py
   ```
-  App ID 입력 → App secret 입력(화면에 안 보임) → Redirect URI `https://www.hearth-habit.com/` 입력.
+  App ID와 secret은 0절에서 넣은 env를 자동으로 읽습니다(secret은 화면에 나오지 않음).
+  Redirect URI `https://www.hearth-habit.com/`만 입력.
 - 브라우저가 열리면 **Pinterest OAuth 동의 화면**을 2~3초 그대로 보여준 뒤 승인(Allow).
 - 리다이렉트된 주소창(`https://www.hearth-habit.com/?code=...`)을 보여주고 주소 전체를 복사해 터미널에 붙여넣기 → passphrase 입력 → `저장 완료`.
 - 말/캡션: *"Authentication uses the standard Pinterest OAuth 2.0 authorization-code flow with scopes boards:read, boards:write, pins:read, pins:write, user_accounts:read. I approve the app on Pinterest's consent screen, Pinterest redirects to my registered URI with a code, and the app exchanges it for tokens. The refresh token is stored encrypted; nothing else about the account is stored."*

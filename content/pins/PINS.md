@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 54개 준비됨 · 게시 완료 49개(수동 49 · API 0) · 대기 5개
+핀 55개 준비됨 · 게시 완료 49개(수동 49 · API 0) · 대기 6개
 
 ## 수동으로 올리는 법
 
@@ -262,7 +262,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Yard & Outdoor Basics
 
-(10개)
+(11개)
 
 - [x] **Lawn Care for People Who Don't Care About Lawns: The Bare Minimum That Actually Works**
   - 이미지: `content/pins/low-effort-lawn-care-bare-minimum.png`
@@ -313,3 +313,8 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 이미지: `content/pins/why-grass-along-sidewalk-dies-every-winter.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-grass-along-sidewalk-die-every.html
   - 설명: That dead strip along your walkway isn't bad luck. It's salt, reflected heat, and soil compaction—and the fixes are different from general lawn repair.
+
+- [ ] **Why Does My Hydrangea Bloom Great One Year and Barely Flower the Next?**
+  - 이미지: `content/pins/hydrangea-bloom-one-year-not-next.png`
+  - 링크: https://www.hearth-habit.com/2026/09/why-does-my-hydrangea-bloom-great-one.html
+  - 설명: Usually it's winter cold damaging next year's buds or bad pruning timing. Find your exact symptom below and the fix that gets blooms back.

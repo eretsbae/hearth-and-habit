@@ -38,7 +38,11 @@ git pull origin main
   ```
 - Pinterest 웹 언어를 **영어**로 바꿔두면(설정 → 계정 관리 → 언어) 심사자가 동의 화면을 읽을 수 있습니다. 촬영 후 되돌리면 됩니다.
 - 화면 구성: 왼쪽 브라우저(Pinterest 로그인 상태), 오른쪽 PowerShell. 글꼴 크게(터미널 16pt 이상).
-- 녹화 도구: Windows 게임 바 `Win + Alt + R` (시작/정지). 결과는 `동영상\캡처\*.mp4`, 1080p, 2GB 이하 조건 자동 충족.
+- 녹화 도구: **캡처 도구(Snipping Tool) 화면 녹화** `Win + Shift + R` → 세 창이 다 들어가게 영역 드래그 → 시작.
+  결과는 `동영상\화면 녹화\*.mp4`. Xbox 게임 바(`Win + Alt + R`)는 활성 창 하나만 잡아서 브라우저·터미널·메모장을
+  함께 찍을 수 없습니다. 캡처 도구에 비디오 모드가 없으면 PowerPoint 삽입 → 화면 녹화, 또는 OBS의 디스플레이 캡처.
+- 구형 PowerShell 콘솔은 창 안을 **클릭하면 선택 모드**(제목이 "선택 관리자:"로 바뀜)에 들어가 출력이 멈춥니다.
+  녹화 전 `Esc`로 풀고, 촬영 중에는 터미널 위에 마우스를 올려놓기만 하고 클릭하지 마세요.
 - 길이 목표 **2~4분**. 편집 없이 한 번에 찍어도 됩니다. 실수하면 처음부터 다시.
 
 ---
@@ -79,7 +83,7 @@ git pull origin main
   ```powershell
   python generator/pinterest_publish.py --sandbox --limit 2
   ```
-  출력 순서대로 손가락(마우스)으로 짚기: `SANDBOX MODE` 배너 → `Boards on this account: 5` 와 보드 이름 → `Pinning: <글 제목>` → `-> sandbox pin <id> on '<board>'` 와 link/title.
+  출력 순서대로 마우스를 **올려놓기만** 해서(클릭 금지, 위 선택 모드 참고) 짚기: `SANDBOX MODE` 배너 → `Boards on this account: 5` 와 보드 이름 → `Pinning: <글 제목>` → `-> sandbox pin <id> on '<board>'` 와 link/title.
 - 말/캡션: *"This is the app's only write operation. For each new article it picks the board that matches the article's category from GET /v5/boards, then calls POST /v5/pins with the article's title, description, the article URL as the link, and a pin image hosted on GitHub. Because the app is on Trial access, this run uses the API sandbox; in production the exact same code runs once a day from GitHub Actions and creates at most three pins."*
 
 ### 장면 5 — 운영 방식과 결과물 (2:50–3:30)
@@ -90,7 +94,7 @@ git pull origin main
 
 ### 장면 6 — 마무리 (3:30–3:45)
 - 말/캡션: *"Summary: one user, my own account, my own content. Endpoints used: user_account, boards list and create, pins create. Data stored: encrypted refresh token and pin IDs. No user data is collected, shared, or sold."*
-- `Win + Alt + R`로 녹화 종료.
+- 캡처 도구의 정지 버튼으로 녹화 종료 → 저장.
 
 ---
 

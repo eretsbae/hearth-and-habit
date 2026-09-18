@@ -181,10 +181,21 @@ def ensure_board(access_token: str, name: str, description: str, cache: dict) ->
         if API != API_SANDBOX:
             raise
         # Sandbox only: the hidden board cannot be addressed, so demo on a
-        # visibly-named twin rather than abort the recording.
-        name = f"{name} (sandbox)"
-        print(f"  sandbox hides an existing '{name[:-10]}' board; creating '{name}' instead")
-        board = create_board(access_token, name, description)
+        # visibly-named twin rather than abort the recording. The listing
+        # stays empty run after run, so the twin from a previous run collides
+        # too; fall through to a timestamped name in that case.
+        import datetime
+        stamp = datetime.datetime.now().strftime("%m%d-%H%M")
+        base = name
+        for name in (f"{base} (sandbox)", f"{base} (sandbox {stamp})"):
+            print(f"  sandbox hides an existing '{base}' board; trying '{name}'")
+            try:
+                board = create_board(access_token, name, description)
+                break
+            except BoardNameTaken:
+                continue
+        else:
+            raise SystemExit(f"ERROR: sandbox refuses every name for '{base}' (code 58)")
     cache[key] = board["id"]
     print(f"  created board: {name}")
     return board["id"]

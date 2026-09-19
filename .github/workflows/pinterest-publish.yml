@@ -4,8 +4,13 @@
 # - 각 글은 한 번만 핀됩니다 (config/topics.yml의 pinterest_pin_id로 추적).
 # - 설정 방법: docs/PINTEREST_SETUP.md
 #
+# - Standard access 전까지는 bulk-upload/pinsNN.csv를 사람이 "콘텐츠 가져오기"로
+#   올립니다. 그 뒤의 기록·다음 파일 생성·알림은 pinterest_bulk_sync.py가 매일 처리합니다
+#   (Trial access로도 프로덕션 핀 목록은 읽을 수 있음).
+#
 # 필요한 시크릿: PINTEREST_APP_ID / PINTEREST_APP_SECRET / PINTEREST_TOKEN_PASSPHRASE
 # (+ 커밋된 .secrets/pinterest_token.enc)
+# 선택(카카오톡 알림): KAKAO_REST_API_KEY / KAKAO_TOKEN_PASSPHRASE (+ .secrets/kakao_token.enc)
 
 name: Publish Pins to Pinterest
 
@@ -47,14 +52,22 @@ jobs:
           PINTEREST_TOKEN_PASSPHRASE: ${{ secrets.PINTEREST_TOKEN_PASSPHRASE }}
         run: python generator/pinterest_publish.py --limit ${{ github.event.inputs.limit || '3' }}
 
-      - name: Prepare next bulk-upload CSV
+      - name: Record uploaded bulk pins and prepare the next CSV
         # Until the app has Standard access, pins go up by hand through
-        # Pinterest's content import. Keep one pinsNN.csv waiting in
-        # bulk-upload/ so the uploader only ever has to git pull and upload;
-        # a new batch is written only once the previous one is recorded with
-        # --mark-pinned. Becomes a no-op the day the API creates a real pin.
+        # Pinterest's content import. This step reads the account's pins
+        # (a read works on Trial access), records the ones that match a
+        # waiting post in config/topics.yml, and then keeps exactly one
+        # pinsNN.csv waiting in bulk-upload/ — announced on the run summary
+        # and by KakaoTalk with its link. The uploader never touches git.
+        # Becomes a no-op the day the API creates a real pin.
         if: always()
-        run: python generator/make_bulk_csv.py --auto
+        env:
+          PINTEREST_APP_ID: ${{ secrets.PINTEREST_APP_ID }}
+          PINTEREST_APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+          PINTEREST_TOKEN_PASSPHRASE: ${{ secrets.PINTEREST_TOKEN_PASSPHRASE }}
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_TOKEN_PASSPHRASE: ${{ secrets.KAKAO_TOKEN_PASSPHRASE }}
+        run: python generator/pinterest_bulk_sync.py
 
       - name: Commit pin records
         # always(): Pinterest rotates the refresh token on every refresh, and

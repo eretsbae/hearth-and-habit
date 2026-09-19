@@ -55,9 +55,12 @@ keeps exactly one batch waiting for upload:
   * the API has created a real pin (Standard access arrived) -> do nothing,
     the CSV era is over.
 
-So until Pinterest grants Standard access the routine is: git pull, upload
-bulk-upload/pinsNN.csv, --mark-pinned pinsNN, commit, push; the next file is
-already there.
+So until Pinterest grants Standard access the routine is: open the CSV link
+from the KakaoTalk alert (or the Actions summary), upload it through
+Pinterest's content import, done. pinterest_bulk_sync.py runs daily, sees the
+new pins through the API (Trial access can read production), records them in
+config/topics.yml, and writes the next file. --mark-pinned pinsNN remains as
+the manual override for when the API cannot see a pin.
 """
 
 from __future__ import annotations
@@ -72,6 +75,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "generator"))
 
+import kakao_client  # noqa: E402
 from pinterest_publish import (  # noqa: E402
     TOPICS_CONFIG,
     SITE_CONFIG,
@@ -242,6 +246,49 @@ def auto_batch(out_dir: Path = BULK_DIR, per_file: int = AUTO_BATCH_SIZE,
     return written
 
 
+def csv_github_url(path: Path) -> str:
+    """The file's page on GitHub, which has a download button on every device.
+
+    The raw URL would open the CSV as text in a phone browser instead of
+    saving it, and the workflow commits the file right after this, so the
+    page is live by the time the alert is read."""
+    cfg = load_yaml(SITE_CONFIG)
+    gh = cfg["github"]
+    rel = path.resolve().relative_to(ROOT).as_posix()
+    return f"https://github.com/{gh['owner']}/{gh['repo']}/blob/{gh['branch']}/{rel}"
+
+
+def announce(written: list[Path]) -> None:
+    """Tell the uploader a new batch exists: Actions notice + run summary,
+    and a KakaoTalk message with the file link when Kakao is configured.
+
+    A new file nobody hears about is a batch that never goes up; the
+    committed CSV alone was how four weeks of no-op runs went unnoticed.
+    """
+    if not written:
+        return
+    names = ", ".join(p.name for p in written)
+    print(f"::notice::bulk-upload/{names} ready — upload it via Pinterest 콘텐츠 가져오기; "
+          "the daily sync records it once the pins appear")
+    step_summary(
+        "## 📌 Pinterest CSV 배치 준비됨\n\n"
+        + "".join(f"- [{p.name}]({csv_github_url(p)})\n" for p in written)
+        + "- 다운로드 → Pinterest 설정 → 콘텐츠 가져오기에 업로드. 기록과 다음 파일은 "
+        "다음 날 `pinterest_bulk_sync.py`가 자동으로 처리합니다.\n"
+    )
+    for path in written:
+        rows = max(0, sum(1 for _ in open(path, encoding="utf-8-sig")) - 1)
+        text = (f"📌 Pinterest 배치 준비: {path.name} ({rows}핀)\n"
+                "버튼 → Download raw file → Pinterest 설정 → 콘텐츠 가져오기에 업로드.\n"
+                "기록과 다음 파일은 자동입니다.")
+        try:
+            kakao_client.notify(text, csv_github_url(path), f"{path.name} 받기")
+        except SystemExit as e:
+            # A dead Kakao token must not fail the run: the file is committed
+            # and on the summary either way.
+            print(f"::warning::KakaoTalk alert for {path.name} failed: {e}")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -274,18 +321,7 @@ def main() -> int:
     if args.auto:
         written = auto_batch(Path(args.out_dir), args.per_file or AUTO_BATCH_SIZE,
                              bom=not args.no_bom)
-        if written:
-            names = ", ".join(p.name for p in written)
-            # Surface it on the Actions run page: a new file the uploader
-            # never hears about is a batch that never goes up.
-            print(f"::notice::bulk-upload/{names} ready — git pull, upload it via "
-                  "Pinterest 콘텐츠 가져오기, then --mark-pinned")
-            step_summary(
-                "## 📌 Pinterest CSV 배치 준비됨\n\n"
-                f"- `bulk-upload/{names}`\n"
-                "- `git pull` → Pinterest 설정 → 콘텐츠 가져오기에 업로드 → 핀 생성 확인 → "
-                "`python generator/pinterest_publish.py --mark-pinned pinsNN` → 커밋·푸시\n"
-            )
+        announce(written)
         return 0
 
     cfg = load_yaml(SITE_CONFIG)

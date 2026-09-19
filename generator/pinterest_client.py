@@ -154,6 +154,30 @@ class BoardNameTaken(SystemExit):
     the listing did not return it (seen on the sandbox, 2026-09-18)."""
 
 
+def list_pins(access_token: str) -> list[dict]:
+    """Every pin on the authenticated account, newest first.
+
+    This is a read, so Trial access answers it against production — which is
+    what lets the daily workflow notice pins that the bulk CSV importer
+    created and record them without anyone running --mark-pinned.
+    include_protected_pins: a pin on a secret board still counts as pinned.
+    """
+    pins, bookmark = [], None
+    while True:
+        params = {"page_size": 250, "include_protected_pins": "true"}
+        if bookmark:
+            params["bookmark"] = bookmark
+        resp = requests.get(f"{API}/pins", params=params,
+                            headers=_auth_headers(access_token), timeout=30)
+        if not resp.ok:
+            raise SystemExit(f"ERROR: could not list pins ({resp.status_code}): {resp.text[:300]}")
+        payload = resp.json()
+        pins.extend(payload.get("items", []))
+        bookmark = payload.get("bookmark")
+        if not bookmark:
+            return pins
+
+
 def create_board(access_token: str, name: str, description: str) -> dict:
     resp = requests.post(
         f"{API}/boards",

@@ -23,7 +23,6 @@ from __future__ import annotations
 
 import datetime
 import json
-import os
 import re
 import sys
 from pathlib import Path
@@ -195,24 +194,7 @@ def build_kakao_text(
 
 
 def send_kakao(text: str, report_url: str) -> bool:
-    rest_key = os.environ.get("KAKAO_REST_API_KEY", "").strip()
-    passphrase = os.environ.get("KAKAO_TOKEN_PASSPHRASE", "").strip()
-    if not rest_key or not passphrase or not kakao_client.TOKEN_FILE.exists():
-        print("KakaoTalk not configured (KAKAO_REST_API_KEY / KAKAO_TOKEN_PASSPHRASE / "
-              ".secrets/kakao_token.enc) — skipping send. See docs/KAKAO_REPORT.md.")
-        return False
-    stored = kakao_client.decrypt_token_file(passphrase)
-    client_secret = stored.get("client_secret", "")
-    tokens = kakao_client.refresh_tokens(rest_key, stored["refresh_token"], client_secret)
-    if tokens.get("refresh_token"):
-        # Kakao rotated the refresh token — persist it or delivery dies in ~30 days.
-        kakao_client.encrypt_token_file(
-            {"refresh_token": tokens["refresh_token"], "client_secret": client_secret}, passphrase
-        )
-        print("Kakao refresh token rotated; .secrets/kakao_token.enc updated (commit it).")
-    kakao_client.send_to_self(tokens["access_token"], text, report_url, "주간 리포트 보기")
-    print("KakaoTalk report sent.")
-    return True
+    return kakao_client.notify(text, report_url, "주간 리포트 보기")
 
 
 def main() -> int:

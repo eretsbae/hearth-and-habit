@@ -65,7 +65,7 @@
   - **계절 인식 발행** — 계절성 주제(`season_months`)는 검색 수요가 뛰기 4주+ 전에 우선 발행되고, 철 지난 주제는 대기합니다.
   - **검색 스니펫 첫 문단** — 글 도입 1~2문장이 검색 결과 설명문 역할을 하도록 생성 규칙에 포함. (Blogger의 meta description API 필드는 반영이 불안정해 의도적으로 쓰지 않습니다.)
 - **Pinterest 게시**: 글마다 세로형 핀 이미지(1000×1500)를 자동 생성합니다. 검색 색인이 아직 안 잡힌 신규 사이트가 실제 방문자와 외부 링크를 확보하는 가장 빠른 경로입니다. 설정: **[docs/PINTEREST_SETUP.md](PINTEREST_SETUP.md)**
-  - **API 자동 게시**: 개발자 앱(ID 1594725)이 2026-09-13에 Trial access를 받았지만, Trial access는 sandbox에만 핀을 만들 수 있어 실제 게시는 **403 code 29**로 거절됩니다(같은 날 실측). 실제 게시에는 Standard access가 필요하며 포털의 **업그레이드**로 신청합니다(데모 영상 대본과 신청서 답변: [docs/PINTEREST_STANDARD_ACCESS.md](PINTEREST_STANDARD_ACCESS.md)). 인증·시크릿·토큰 파일은 이미 준비돼 있어 승인되면 `pinterest-publish.yml`이 그대로 매일 3핀씩 올립니다. 그때까지는 자동 생성되는 `bulk-upload/pinsNN.csv`를 "콘텐츠 가져오기"로 올리고 `--mark-pinned pinsNN`으로 기록합니다(docs/PINTEREST_SETUP.md). 기록하면 다음 파일이 바로 만들어집니다. **Standard access 승인 후에는 CSV를 올리지 마세요.**
+  - **API 자동 게시**: 개발자 앱(ID 1594725)이 2026-09-13에 Trial access를 받았지만, Trial access는 sandbox에만 핀을 만들 수 있어 실제 게시는 **403 code 29**로 거절됩니다(같은 날 실측). 실제 게시에는 Standard access가 필요하며 포털의 **업그레이드**로 신청합니다(데모 영상 대본과 신청서 답변: [docs/PINTEREST_STANDARD_ACCESS.md](PINTEREST_STANDARD_ACCESS.md)). 인증·시크릿·토큰 파일은 이미 준비돼 있어 승인되면 `pinterest-publish.yml`이 그대로 매일 3핀씩 올립니다. 그때까지는 자동 생성되는 `bulk-upload/pinsNN.csv`를 "콘텐츠 가져오기"로 올리기만 하면 됩니다. 카카오톡으로 파일 링크가 오고, 다음 날 `pinterest_bulk_sync.py`가 API로 핀을 확인해 기록하고 다음 파일을 만듭니다(docs/PINTEREST_SETUP.md). **Standard access 승인 후에는 CSV를 올리지 마세요.**
 - **모니터링 루프**: 매주 월요일 조회수 스냅샷 수집 → 전주 대비 리포트 커밋 → **카카오톡 요약 전송**. 설정: **[docs/KAKAO_REPORT.md](KAKAO_REPORT.md)**
 - 사람이 할 일은 "검색 유입 확보"(위), 카카오톡 연결, 그리고 Pinterest 승인이 날 때까지의 수동 핀 게시입니다.
 

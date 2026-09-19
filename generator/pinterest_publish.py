@@ -182,7 +182,9 @@ def main() -> int:
                     help="Record these slugs as already pinned by hand, so the "
                          "automation skips them and never double-posts. A batch "
                          "name such as pins10 expands to every post make_bulk_csv.py "
-                         "put in that file (config/topics.yml: pinterest_batch)")
+                         "put in that file (config/topics.yml: pinterest_batch). "
+                         "Normally unnecessary: pinterest_bulk_sync.py records "
+                         "uploaded batches by itself once the pins are visible")
     ap.add_argument("--unmark-pinned", nargs="+", metavar="SLUG",
                     help="Undo --mark-pinned, returning these slugs to the queue. "
                          "For when a batch was recorded before its upload actually "
@@ -210,6 +212,7 @@ def main() -> int:
                     from_api.append(t["published_slug"])
                     continue
                 t.pop("pinterest_pin_id", None)
+                t.pop("pinterest_bulk_pin_id", None)
             hit.append(t["published_slug"])
         missing = wanted - set(hit) - set(from_api)
         if missing:
@@ -230,7 +233,7 @@ def main() -> int:
             # imports this one.
             import make_bulk_csv
             print()
-            make_bulk_csv.auto_batch()
+            make_bulk_csv.announce(make_bulk_csv.auto_batch())
         return 0
 
     if args.sandbox:

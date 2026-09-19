@@ -14,6 +14,7 @@ Kakao rotates the token.
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 import requests
@@ -80,3 +81,38 @@ def send_to_self(access_token: str, text: str, link_url: str, button_title: str 
             "Check that the Kakao app has 카카오톡 메시지 enabled and the token "
             "was issued with the talk_message scope (re-run generator/kakao_auth.py)."
         )
+
+
+def configured() -> bool:
+    """True when the workflow (or shell) has everything a send needs."""
+    return bool(os.environ.get("KAKAO_REST_API_KEY", "").strip()
+                and os.environ.get("KAKAO_TOKEN_PASSPHRASE", "").strip()
+                and TOKEN_FILE.exists())
+
+
+def notify(text: str, link_url: str, button_title: str = "자세히 보기") -> bool:
+    """Send a '나에게 보내기' message if Kakao is set up, else skip quietly.
+
+    Returns True when a message went out. Every unattended sender (weekly
+    report, Pinterest batch alerts) goes through here so the refresh-token
+    rotation is persisted in exactly one place: Kakao replaces the refresh
+    token when it has under ~30 days left, and a rotated token that is not
+    written back kills delivery a month later.
+    """
+    if not configured():
+        print("KakaoTalk not configured (KAKAO_REST_API_KEY / KAKAO_TOKEN_PASSPHRASE / "
+              ".secrets/kakao_token.enc) — skipping send. See docs/KAKAO_REPORT.md.")
+        return False
+    rest_key = os.environ["KAKAO_REST_API_KEY"].strip()
+    passphrase = os.environ["KAKAO_TOKEN_PASSPHRASE"].strip()
+    stored = decrypt_token_file(passphrase)
+    client_secret = stored.get("client_secret", "")
+    tokens = refresh_tokens(rest_key, stored["refresh_token"], client_secret)
+    if tokens.get("refresh_token"):
+        encrypt_token_file(
+            {"refresh_token": tokens["refresh_token"], "client_secret": client_secret}, passphrase
+        )
+        print("Kakao refresh token rotated; .secrets/kakao_token.enc updated (commit it).")
+    send_to_self(tokens["access_token"], text, link_url, button_title)
+    print("KakaoTalk message sent.")
+    return True

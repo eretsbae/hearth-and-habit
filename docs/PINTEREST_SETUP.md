@@ -170,22 +170,35 @@ Energy & Utility Savings / Kitchen & Food Habits / Yard & Outdoor Basics).
 ### CSV 배치 루틴 (콘텐츠 가져오기)
 
 낱개로 올리는 대신 Pinterest 설정 → **콘텐츠 가져오기**에 CSV를 넣는 방식입니다.
-Standard access가 승인될 때까지는 이 루틴이 실제 게시 경로이며, **다음 파일은 자동으로
-만들어집니다.** 사람이 할 일은 업로드와 기록뿐입니다.
+Standard access가 승인될 때까지는 이 루틴이 실제 게시 경로이며, **사람이 할 일은 업로드
+하나뿐입니다.** git은 건드리지 않습니다 (2026-09-19부터).
+
+1. 카카오톡 "나와의 채팅"에 `📌 Pinterest 배치 준비: pinsNN.csv` 메시지가 옵니다 (카카오
+   미설정이면 Actions 실행 요약에만 뜹니다). 버튼 → GitHub 파일 페이지 → **Download raw file**.
+2. Pinterest 설정 → **콘텐츠 가져오기** → 그 CSV 업로드.
+3. 끝. 다음 날 22:43 UTC 실행에서 `pinterest_bulk_sync.py`가 계정의 핀 목록을 API로 읽어
+   (Trial access로도 읽기는 프로덕션에 됩니다) 새로 생긴 핀을 `config/topics.yml`에 기록하고,
+   다음 `pinsNN.csv`를 만들어 커밋한 뒤 카카오톡으로 다시 알립니다.
+   - 확인 메시지: `✅ pinsNN: 4핀 모두 확인, 기록 완료` → 곧이어 다음 배치 알림.
+   - `⚠️ pinsNN: 3/4 핀 확인, 미확인 <제목>` → 가져오기가 그 행을 건너뛴 것입니다. 그 글만
+     낱개로 올리거나(위 절차), 정말 올라가 있는데 API가 못 보는 경우에만 아래 수동 기록을
+     쓰세요. 미확인 글이 남아 있는 동안은 다음 배치가 만들어지지 않습니다.
+   - 핀 매칭은 핀의 링크 경로(`/2026/09/<slug>.html`, 도메인 무관)로, 링크가 없으면 제목으로
+     합니다. 가져오기가 핀을 만드는 데 최대 하루쯤 걸릴 수 있어 그 다음 실행에 잡히기도 합니다.
+
+수동 기록(예외 상황, 로컬):
 
 ```bash
-git pull origin main                                 # bulk-upload/pinsNN.csv 가 내려옴
-#   → Pinterest 설정 → 콘텐츠 가져오기 → bulk-upload/pinsNN.csv 업로드
-#   → 보드에서 핀이 실제로 생성됐는지 확인
+git pull origin main
 python generator/pinterest_publish.py --mark-pinned pinsNN   # 기록 + 다음 파일 생성
 git add config/topics.yml bulk-upload
 git commit -m "chore: record pinsNN, prepare next batch"
 git push origin main
 ```
 
-- `bulk-upload/`는 **커밋 대상**입니다. 다음 CSV는 `git pull`로 받고, 직접 생성할 필요가
-  없습니다.
-- 다음 파일이 생기는 규칙(`make_bulk_csv.py --auto`):
+- `bulk-upload/`는 **커밋 대상**입니다. 워크플로우가 파일을 만들고 커밋하므로 직접 생성할
+  필요가 없습니다.
+- 다음 파일이 생기는 규칙(`make_bulk_csv.py --auto`, `pinterest_bulk_sync.py`가 매일 호출):
   - 아직 기록되지 않은 배치가 있으면 아무것도 만들지 않습니다(한 번에 한 파일만 대기).
     그 배치의 CSV가 폴더에 없으면 `config/topics.yml` 기록으로 같은 파일을 다시 만듭니다.
   - 모든 배치가 기록됐고 대기 글이 있으면 다음 `pinsNN.csv`(최대 4핀)를 만들고
@@ -193,15 +206,16 @@ git push origin main
     기다리되, 가장 오래된 글이 게시 후 7일을 넘기면 그 수만으로 만듭니다(새 글은 주 3편이라
     글마다 1핀짜리 파일을 올리는 것보다 주 1회 꽉 찬 파일이 낫습니다).
   - API가 실제 핀을 하나라도 만든 뒤(Standard access 승인)에는 더 이상 만들지 않습니다.
-- 실행 시점 두 곳: `--mark-pinned pinsNN` 직후(그 자리에서 다음 파일 생성), 그리고 매일
-  도는 `pinterest-publish.yml`(새 글이 올라왔거나 로컬에서 커밋을 빠뜨린 경우를 메움).
-  워크플로우가 파일을 만들면 실행 요약(Summary)에 📌 배치 준비됨이 뜹니다.
+    자동 기록은 `pinterest_pin_id: manual`로 남기므로(실제 핀 id는 `pinterest_bulk_pin_id`)
+    이 판정에 걸리지 않습니다.
 - 기록 전에는 그 배치 글이 API 경로에서도 제외됩니다(`held back` 로그). 승인 후 CSV를
   올리지 않고 API에 맡기려면 `config/topics.yml`에서 해당 `pinterest_batch:` 줄을 지우세요.
 - 파일명은 `pins09.csv` 형식이고, 번호는 폴더의 `pinsNN.csv`(하이픈 있는 `pins-NN.csv`도
   인식)와 `topics.yml`의 `pinterest_batch` 중 가장 큰 번호 다음부터 이어집니다.
 - 수동 생성(`--per-file`, `--limit`, `--start`, `--include-assigned`)도 그대로 됩니다.
   `--auto` 없이 만든 파일도 커밋하세요.
+- 카카오톡 알림 설정은 [KAKAO_REPORT.md](KAKAO_REPORT.md)와 같은 시크릿을 씁니다. 주간
+  리포트가 오고 있다면 추가 설정 없이 이 알림도 옵니다.
 
 ## 문제 해결
 

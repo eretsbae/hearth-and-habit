@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 55개 준비됨 · 게시 완료 49개(수동 49 · API 0) · 대기 6개
+핀 56개 준비됨 · 게시 완료 53개(수동 53 · API 0) · 대기 3개
 
 ## 수동으로 올리는 법
 
@@ -26,7 +26,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Cleaning & Organization
 
-(11개)
+(12개)
 
 - [x] **The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control**
   - 이미지: `content/pins/15-minute-weekly-home-reset.png`
@@ -78,10 +78,15 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/is-it-worth-buying-separate-cleaners.html
   - 설명: No — most homes need 2-3 core cleaners, not a bottle per surface. Here's exactly which specialty cleaners earn their spot and which are wasted money.
 
-- [ ] **Why Does My Closet Smell Musty Even Though Everything Looks Clean?**
+- [x] **Why Does My Closet Smell Musty Even Though Everything Looks Clean?**
   - 이미지: `content/pins/why-does-my-closet-smell-musty.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-closet-smell-musty-even.html
   - 설명: A musty closet usually means trapped moisture and no airflow, not dirt. Here's the step-by-step fix, from finding the source to keeping it from coming back.
+
+- [ ] **Why You Keep Losing 15 Minutes Before You Leave the House (and How to Fix It)**
+  - 이미지: `content/pins/stop-losing-time-before-leaving-house.png`
+  - 링크: https://www.hearth-habit.com/2026/09/why-you-keep-losing-15-minutes-before.html
+  - 설명: Keys, phone, keys again? Here's why the same pre-leaving scramble happens every day, and a step-by-step fix that actually sticks.
 
 ## 보드: Energy & Utility Savings
 
@@ -127,7 +132,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/air-dry-or-heated-dry-which-one.html
   - 설명: Air-drying dishes typically costs just pennies less per load than heated dry. Here's how to check your own dishwasher and decide if it's worth the habit change.
 
-- [ ] **Is It Cheaper to Preheat the Oven or Skip It for Weeknight Meals?**
+- [x] **Is It Cheaper to Preheat the Oven or Skip It for Weeknight Meals?**
   - 이미지: `content/pins/preheat-oven-or-skip-it-cheaper.png`
   - 링크: https://www.hearth-habit.com/2026/09/is-it-cheaper-to-preheat-oven-or-skip.html
   - 설명: Skipping preheat saves a few cents on some dishes but ruins others. Here's a checklist for when to skip it, when not to, and what really saves money.
@@ -191,12 +196,12 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html
   - 설명: Not sure if a repair needs a professional? Use this symptom-by-symptom guide to know when DIY is fine and when calling a pro saves you money.
 
-- [ ] **Why Does My Garbage Disposal Hum But Not Spin? (And How to Fix It)**
+- [x] **Why Does My Garbage Disposal Hum But Not Spin? (And How to Fix It)**
   - 이미지: `content/pins/garbage-disposal-hums-but-wont-spin.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-garbage-disposal-hum-but.html
   - 설명: A humming garbage disposal usually means a jam or tripped motor, not a dead unit. Here's how to diagnose the cause and fix it safely in minutes.
 
-- [ ] **Is It Normal for a New LED Bulb to Flicker With a Dimmer Switch?**
+- [x] **Is It Normal for a New LED Bulb to Flicker With a Dimmer Switch?**
   - 이미지: `content/pins/led-bulb-flickering-dimmer-switch.png`
   - 링크: https://www.hearth-habit.com/2026/09/is-it-normal-for-new-led-bulb-to.html
   - 설명: Yes, it's common — usually a compatibility mismatch, not a defect. Here's how to tell which fix you actually need and when to just replace the dimmer.

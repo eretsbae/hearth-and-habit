@@ -507,7 +507,9 @@ topics:
   pinterest_pin_id: manual
 - title: Why Do I Keep Losing the Same 15 Minutes to Finding Things Before I Leave the House?
   pillar: cleaning-organization
-  status: pending
+  status: published
+  published_slug: stop-losing-time-before-leaving-house
+  quality_score: 81
 - title: Why Does Grass Along the Sidewalk Die Every Winter but Grow Back Everywhere Else?
   pillar: yard-outdoor
   status: published

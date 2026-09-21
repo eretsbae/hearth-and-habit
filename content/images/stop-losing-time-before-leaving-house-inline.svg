@@ -1,0 +1,99 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft wall backdrop panel -->
+  <rect x="150" y="60" width="900" height="500" fill="#E4C7B2" opacity="0.35"/>
+
+  <!-- wall shadow behind shelf -->
+  <rect x="270" y="330" width="660" height="20" fill="#2E2A24" opacity="0.08"/>
+
+  <!-- shelf -->
+  <rect x="260" y="300" width="680" height="26" rx="4" fill="#5C6E58"/>
+  <rect x="260" y="326" width="680" height="8" fill="#2E2A24" opacity="0.15"/>
+  <!-- shelf brackets -->
+  <rect x="320" y="326" width="10" height="40" fill="#5C6E58"/>
+  <rect x="870" y="326" width="10" height="40" fill="#5C6E58"/>
+
+  <!-- Zone dividers (subtle vertical guides) -->
+  <rect x="440" y="90" width="2" height="500" fill="#2E2A24" opacity="0.06"/>
+  <rect x="760" y="90" width="2" height="500" fill="#2E2A24" opacity="0.06"/>
+
+  <!-- ===== ZONE 1: KEYS ===== -->
+  <!-- hook rail -->
+  <rect x="230" y="150" width="180" height="10" rx="5" fill="#B85C38"/>
+  <!-- hooks -->
+  <circle cx="270" cy="180" r="8" fill="#D9A441"/>
+  <rect x="266" y="160" width="8" height="24" rx="4" fill="#D9A441"/>
+  <circle cx="330" cy="180" r="8" fill="#D9A441"/>
+  <rect x="326" y="160" width="8" height="24" rx="4" fill="#D9A441"/>
+  <circle cx="390" cy="180" r="8" fill="#D9A441"/>
+  <rect x="386" y="160" width="8" height="24" rx="4" fill="#D9A441"/>
+
+  <!-- keys hanging on middle hook -->
+  <circle cx="330" cy="212" r="14" fill="none" stroke="#2E2A24" stroke-width="4"/>
+  <rect x="326" y="224" width="8" height="34" fill="#2E2A24"/>
+  <rect x="322" y="252" width="6" height="10" fill="#2E2A24"/>
+  <rect x="332" y="258" width="6" height="10" fill="#2E2A24"/>
+
+  <!-- small dish under keys for coins -->
+  <ellipse cx="330" cy="300" rx="46" ry="14" fill="#D9A441" opacity="0.4"/>
+
+  <!-- zone marker: circle tag -->
+  <circle cx="330" cy="500" r="34" fill="#B85C38"/>
+  <circle cx="330" cy="500" r="14" fill="none" stroke="#F6EFE6" stroke-width="5"/>
+  <rect x="326" y="512" width="8" height="20" fill="#F6EFE6"/>
+  <rect x="322" y="528" width="6" height="8" fill="#F6EFE6"/>
+  <rect x="332" y="530" width="6" height="8" fill="#F6EFE6"/>
+
+  <!-- ===== ZONE 2: BAG ===== -->
+  <!-- hook -->
+  <rect x="576" y="140" width="10" height="30" rx="5" fill="#5C6E58"/>
+  <circle cx="581" cy="176" r="9" fill="#5C6E58"/>
+
+  <!-- tote bag hanging -->
+  <path d="M540 200 Q540 180 560 180 L602 180 Q622 180 622 200 L622 260 Q622 274 608 274 L554 274 Q540 274 540 260 Z" fill="#B85C38"/>
+  <path d="M560 200 Q560 180 581 180 Q602 180 602 200" fill="none" stroke="#2E2A24" stroke-width="6" stroke-linecap="round"/>
+  <rect x="558" y="220" width="46" height="6" fill="#E4C7B2" opacity="0.6"/>
+
+  <!-- basket on shelf for bag-adjacent items -->
+  <path d="M660 280 L740 280 L730 320 Q725 330 715 330 L685 330 Q675 330 670 320 Z" fill="#D9A441"/>
+  <rect x="660" y="272" width="80" height="10" rx="4" fill="#D9A441"/>
+
+  <!-- zone marker: bag icon tag -->
+  <circle cx="600" cy="500" r="34" fill="#5C6E58"/>
+  <path d="M584 496 Q584 484 600 484 Q616 484 616 496 L616 516 Q616 522 610 522 L590 522 Q584 522 584 516 Z" fill="#F6EFE6"/>
+  <path d="M592 496 Q592 486 600 486 Q608 486 608 496" fill="none" stroke="#5C6E58" stroke-width="3"/>
+
+  <!-- ===== ZONE 3: MAIL ===== -->
+  <!-- hook rail small -->
+  <rect x="830" y="150" width="140" height="10" rx="5" fill="#B85C38"/>
+  <circle cx="900" cy="180" r="8" fill="#D9A441"/>
+  <rect x="896" y="160" width="8" height="24" rx="4" fill="#D9A441"/>
+
+  <!-- wall mail slot / shallow pocket -->
+  <rect x="840" y="200" width="130" height="90" rx="10" fill="#5C6E58" opacity="0.85"/>
+  <rect x="852" y="212" width="106" height="6" fill="#F6EFE6" opacity="0.5"/>
+
+  <!-- envelopes peeking out -->
+  <rect x="858" y="190" width="60" height="40" rx="3" fill="#E4C7B2" transform="rotate(-4 888 210)"/>
+  <rect x="880" y="186" width="60" height="40" rx="3" fill="#F6EFE6" transform="rotate(3 910 206)"/>
+  <path d="M880 186 L910 206 L940 186" fill="none" stroke="#B85C38" stroke-width="3" transform="rotate(3 910 206)"/>
+
+  <!-- shallow bowl on shelf for mail/misc -->
+  <ellipse cx="900" cy="300" rx="70" ry="18" fill="#E4C7B2"/>
+  <ellipse cx="900" cy="296" rx="70" ry="16" fill="#D9A441" opacity="0.5"/>
+  <ellipse cx="900" cy="292" rx="60" ry="10" fill="#F6EFE6" opacity="0.6"/>
+
+  <!-- zone marker: mail tag -->
+  <circle cx="900" cy="500" r="34" fill="#D9A441"/>
+  <rect x="880" y="490" width="40" height="26" rx="3" fill="#F6EFE6"/>
+  <path d="M880 490 L900 506 L920 490" fill="none" stroke="#D9A441" stroke-width="3"/>
+
+  <!-- decorative connecting dashed line under zones for rhythm -->
+  <line x1="330" y1="546" x2="330" y2="560" stroke="#2E2A24" stroke-width="2" opacity="0.15"/>
+  <line x1="600" y1="546" x2="600" y2="560" stroke="#2E2A24" stroke-width="2" opacity="0.15"/>
+  <line x1="900" y1="546" x2="900" y2="560" stroke="#2E2A24" stroke-width="2" opacity="0.15"/>
+
+  <!-- floor baseboard hint -->
+  <rect x="0" y="600" width="1200" height="30" fill="#2E2A24" opacity="0.06"/>
+</svg>

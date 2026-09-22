@@ -512,6 +512,8 @@ topics:
   quality_score: 81
   blogger_url: https://www.hearth-habit.com/2026/09/why-you-keep-losing-15-minutes-before.html
   blogger_post_id: '740661434432483702'
+  pinterest_batch: pins12
+  pinterest_pin_id: manual
 - title: Why Does Grass Along the Sidewalk Die Every Winter but Grow Back Everywhere Else?
   pillar: yard-outdoor
   status: published
@@ -555,6 +557,8 @@ topics:
   quality_score: 82
   blogger_url: https://www.hearth-habit.com/2026/09/why-does-my-water-bill-spike-in-winter.html
   blogger_post_id: '161590455633342521'
+  pinterest_batch: pins12
+  pinterest_pin_id: manual
 - title: Why Does Leftover Rice Sometimes Make People Sick When Other Leftovers Don't?
   pillar: kitchen-habits
   status: pending
@@ -565,3 +569,5 @@ topics:
   quality_score: 85
   blogger_url: https://www.hearth-habit.com/2026/09/why-does-my-hydrangea-bloom-great-one.html
   blogger_post_id: '2586986532845632118'
+  pinterest_batch: pins12
+  pinterest_pin_id: manual

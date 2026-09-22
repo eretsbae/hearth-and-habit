@@ -561,7 +561,9 @@ topics:
   pinterest_pin_id: manual
 - title: Why Does Leftover Rice Sometimes Make People Sick When Other Leftovers Don't?
   pillar: kitchen-habits
-  status: pending
+  status: published
+  published_slug: leftover-rice-food-poisoning-risk
+  quality_score: 82
 - title: Why Does My Hydrangea Bloom Great One Year and Barely Flower the Next?
   pillar: yard-outdoor
   status: published

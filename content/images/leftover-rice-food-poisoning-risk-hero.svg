@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft background shapes -->
+  <circle cx="150" cy="120" r="90" fill="#E4C7B2" opacity="0.4"/>
+  <circle cx="1080" cy="500" r="120" fill="#D9A441" opacity="0.15"/>
+  <rect x="0" y="540" width="1200" height="90" fill="#E4C7B2" opacity="0.35"/>
+
+  <!-- Refrigerator -->
+  <g>
+    <rect x="120" y="150" width="230" height="380" rx="18" fill="#5C6E58"/>
+    <rect x="120" y="150" width="230" height="130" rx="18" fill="#5C6E58"/>
+    <line x1="120" y1="300" x2="350" y2="300" stroke="#2E2A24" stroke-width="4"/>
+    <rect x="335" y="185" width="10" height="60" rx="4" fill="#2E2A24"/>
+    <rect x="335" y="330" width="10" height="90" rx="4" fill="#2E2A24"/>
+    <circle cx="145" cy="500" r="6" fill="#2E2A24"/>
+    <circle cx="325" cy="500" r="6" fill="#2E2A24"/>
+  </g>
+
+  <!-- Clock -->
+  <g>
+    <circle cx="620" cy="200" r="95" fill="#F6EFE6" stroke="#2E2A24" stroke-width="6"/>
+    <circle cx="620" cy="200" r="80" fill="#F6EFE6" stroke="#B85C38" stroke-width="4"/>
+    <!-- tick marks -->
+    <circle cx="620" cy="128" r="4" fill="#2E2A24"/>
+    <circle cx="620" cy="272" r="4" fill="#2E2A24"/>
+    <circle cx="548" cy="200" r="4" fill="#2E2A24"/>
+    <circle cx="692" cy="200" r="4" fill="#2E2A24"/>
+    <!-- hands -->
+    <line x1="620" y1="200" x2="620" y2="150" stroke="#2E2A24" stroke-width="6" stroke-linecap="round"/>
+    <line x1="620" y1="200" x2="660" y2="215" stroke="#2E2A24" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="620" cy="200" r="8" fill="#B85C38"/>
+    <!-- legs -->
+    <rect x="600" y="292" width="10" height="26" rx="4" fill="#2E2A24"/>
+    <rect x="630" y="292" width="10" height="26" rx="4" fill="#2E2A24"/>
+  </g>
+
+  <!-- Steam clouds above bowl -->
+  <g fill="#D9A441" opacity="0.6">
+    <ellipse cx="760" cy="330" rx="16" ry="22"/>
+    <ellipse cx="800" cy="315" rx="14" ry="20"/>
+    <ellipse cx="840" cy="330" rx="16" ry="22"/>
+  </g>
+
+  <!-- Bowl of rice -->
+  <g>
+    <ellipse cx="800" cy="470" rx="180" ry="40" fill="#E4C7B2" opacity="0.5"/>
+    <path d="M660 420 Q800 500 940 420 L920 460 Q800 520 680 460 Z" fill="#B85C38"/>
+    <path d="M660 420 Q800 480 940 420 Q800 460 660 420 Z" fill="#F6EFE6"/>
+
+    <!-- rice grains -->
+    <g fill="#F6EFE6" stroke="#E4C7B2" stroke-width="1">
+      <ellipse cx="720" cy="415" rx="10" ry="5" transform="rotate(20 720 415)"/>
+      <ellipse cx="750" cy="405" rx="10" ry="5" transform="rotate(-10 750 405)"/>
+      <ellipse cx="780" cy="415" rx="10" ry="5" transform="rotate(15 780 415)"/>
+      <ellipse cx="810" cy="402" rx="10" ry="5" transform="rotate(-20 810 402)"/>
+      <ellipse cx="840" cy="415" rx="10" ry="5" transform="rotate(10 840 415)"/>
+      <ellipse cx="870" cy="405" rx="10" ry="5" transform="rotate(-15 870 405)"/>
+      <ellipse cx="900" cy="418" rx="10" ry="5" transform="rotate(20 900 418)"/>
+      <ellipse cx="735" cy="425" rx="10" ry="5" transform="rotate(-10 735 425)"/>
+      <ellipse cx="765" cy="430" rx="10" ry="5" transform="rotate(15 765 430)"/>
+      <ellipse cx="795" cy="425" rx="10" ry="5" transform="rotate(-20 795 425)"/>
+      <ellipse cx="825" cy="430" rx="10" ry="5" transform="rotate(10 825 430)"/>
+      <ellipse cx="855" cy="425" rx="10" ry="5" transform="rotate(-15 855 425)"/>
+      <ellipse cx="885" cy="428" rx="10" ry="5" transform="rotate(20 885 428)"/>
+    </g>
+  </g>
+
+  <!-- small decorative dots -->
+  <circle cx="1050" cy="150" r="10" fill="#B85C38" opacity="0.5"/>
+  <circle cx="1090" cy="200" r="6" fill="#5C6E58" opacity="0.5"/>
+  <circle cx="70" cy="480" r="8" fill="#D9A441" opacity="0.5"/>
+</svg>

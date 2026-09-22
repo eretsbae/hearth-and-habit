@@ -1,0 +1,102 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft background circles for negative space interest -->
+  <circle cx="150" cy="90" r="60" fill="#E4C7B2" opacity="0.35"/>
+  <circle cx="1080" cy="540" r="90" fill="#5C6E58" opacity="0.15"/>
+
+  <!-- divider line -->
+  <line x1="600" y1="90" x2="600" y2="560" stroke="#E4C7B2" stroke-width="2" stroke-dasharray="6 10"/>
+
+  <!-- LEFT: shallow wide container -->
+  <g>
+    <!-- table shadow -->
+    <ellipse cx="300" cy="470" rx="220" ry="20" fill="#2E2A24" opacity="0.08"/>
+
+    <!-- shallow pan -->
+    <path d="M110 400 Q110 440 300 440 Q490 440 490 400 L470 380 Q300 410 130 380 Z" fill="#B85C38"/>
+    <ellipse cx="300" cy="380" rx="185" ry="30" fill="#E4C7B2"/>
+    <ellipse cx="300" cy="380" rx="150" ry="20" fill="#F6EFE6"/>
+
+    <!-- rice grains scattered thin layer -->
+    <g fill="#D9A441">
+      <ellipse cx="220" cy="378" rx="7" ry="3.5"/>
+      <ellipse cx="250" cy="384" rx="7" ry="3.5"/>
+      <ellipse cx="280" cy="376" rx="7" ry="3.5"/>
+      <ellipse cx="310" cy="382" rx="7" ry="3.5"/>
+      <ellipse cx="340" cy="376" rx="7" ry="3.5"/>
+      <ellipse cx="370" cy="382" rx="7" ry="3.5"/>
+      <ellipse cx="240" cy="372" rx="7" ry="3.5"/>
+      <ellipse cx="300" cy="370" rx="7" ry="3.5"/>
+      <ellipse cx="360" cy="370" rx="7" ry="3.5"/>
+    </g>
+
+    <!-- handles -->
+    <rect x="90" y="392" width="35" height="12" rx="6" fill="#B85C38"/>
+    <rect x="475" y="392" width="35" height="12" rx="6" fill="#B85C38"/>
+
+    <!-- heat escaping fast: many wavy lines fanning out -->
+    <g stroke="#B85C38" stroke-width="4" fill="none" opacity="0.8">
+      <path d="M180 340 Q185 310 175 280 Q165 250 180 220"/>
+      <path d="M240 335 Q248 300 235 270 Q225 240 245 205"/>
+      <path d="M300 332 Q308 295 295 262 Q283 230 305 195"/>
+      <path d="M360 335 Q368 300 355 270 Q345 240 365 205"/>
+      <path d="M420 340 Q428 310 415 280 Q405 250 425 220"/>
+    </g>
+
+    <!-- small upward dots suggesting rapid cooling -->
+    <g fill="#B85C38" opacity="0.6">
+      <circle cx="175" cy="200" r="5"/>
+      <circle cx="245" cy="185" r="5"/>
+      <circle cx="305" cy="175" r="5"/>
+      <circle cx="365" cy="185" r="5"/>
+      <circle cx="425" cy="200" r="5"/>
+    </g>
+  </g>
+
+  <!-- RIGHT: deep pot -->
+  <g>
+    <ellipse cx="900" cy="500" rx="200" ry="20" fill="#2E2A24" opacity="0.08"/>
+
+    <!-- pot body deep -->
+    <path d="M790 330 L810 480 Q810 500 900 500 Q990 500 990 480 L1010 330 Z" fill="#5C6E58"/>
+    <ellipse cx="900" cy="330" rx="110" ry="26" fill="#E4C7B2"/>
+    <ellipse cx="900" cy="330" rx="85" ry="17" fill="#F6EFE6"/>
+
+    <!-- rice mound deep, layered -->
+    <g fill="#D9A441">
+      <ellipse cx="850" cy="326" rx="7" ry="3.5"/>
+      <ellipse cx="880" cy="320" rx="7" ry="3.5"/>
+      <ellipse cx="910" cy="324" rx="7" ry="3.5"/>
+      <ellipse cx="940" cy="318" rx="7" ry="3.5"/>
+      <ellipse cx="960" cy="326" rx="7" ry="3.5"/>
+      <ellipse cx="895" cy="312" rx="7" ry="3.5"/>
+      <ellipse cx="920" cy="308" rx="7" ry="3.5"/>
+    </g>
+
+    <!-- pot handles -->
+    <rect x="770" y="360" width="30" height="14" rx="7" fill="#5C6E58"/>
+    <rect x="1000" y="360" width="30" height="14" rx="7" fill="#5C6E58"/>
+
+    <!-- lid slightly ajar suggests retained heat, single small wisp -->
+    <path d="M850 250 Q855 225 845 200" stroke="#5C6E58" stroke-width="4" fill="none" opacity="0.5"/>
+    <circle cx="845" cy="192" r="5" fill="#5C6E58" opacity="0.4"/>
+
+    <!-- vertical depth lines to emphasize deep pot walls -->
+    <line x1="815" y1="340" x2="825" y2="480" stroke="#2E2A24" stroke-width="2" opacity="0.15"/>
+    <line x1="985" y1="340" x2="975" y2="480" stroke="#2E2A24" stroke-width="2" opacity="0.15"/>
+  </g>
+
+  <!-- small thermometer icons above each to reinforce comparison, abstract -->
+  <g>
+    <rect x="292" y="120" width="16" height="60" rx="8" fill="#B85C38"/>
+    <circle cx="300" cy="188" r="14" fill="#B85C38"/>
+    <rect x="296" y="130" width="8" height="45" rx="4" fill="#E4C7B2"/>
+  </g>
+
+  <g>
+    <rect x="892" y="120" width="16" height="60" rx="8" fill="#5C6E58"/>
+    <circle cx="900" cy="188" r="14" fill="#5C6E58"/>
+    <rect x="896" y="155" width="8" height="20" rx="4" fill="#E4C7B2"/>
+  </g>
+</svg>

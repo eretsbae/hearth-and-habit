@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 56개 준비됨 · 게시 완료 53개(수동 53 · API 0) · 대기 3개
+핀 57개 준비됨 · 게시 완료 56개(수동 56 · API 0) · 대기 1개
 
 ## 수동으로 올리는 법
 
@@ -83,7 +83,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-closet-smell-musty-even.html
   - 설명: A musty closet usually means trapped moisture and no airflow, not dirt. Here's the step-by-step fix, from finding the source to keeping it from coming back.
 
-- [ ] **Why You Keep Losing 15 Minutes Before You Leave the House (and How to Fix It)**
+- [x] **Why You Keep Losing 15 Minutes Before You Leave the House (and How to Fix It)**
   - 이미지: `content/pins/stop-losing-time-before-leaving-house.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-you-keep-losing-15-minutes-before.html
   - 설명: Keys, phone, keys again? Here's why the same pre-leaving scramble happens every day, and a step-by-step fix that actually sticks.
@@ -137,7 +137,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/is-it-cheaper-to-preheat-oven-or-skip.html
   - 설명: Skipping preheat saves a few cents on some dishes but ruins others. Here's a checklist for when to skip it, when not to, and what really saves money.
 
-- [ ] **Why Does My Water Bill Spike in Winter With No Extra Usage?**
+- [x] **Why Does My Water Bill Spike in Winter With No Extra Usage?**
   - 이미지: `content/pins/winter-water-bill-spike-no-extra-usage.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-water-bill-spike-in-winter.html
   - 설명: A winter water bill spike is usually a hidden leak, a frozen pipe, or your meter reacting to cold weather - not a mystery. Here's how to find the real cause.
@@ -208,7 +208,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Kitchen & Food Habits
 
-(11개)
+(12개)
 
 - [x] **The 30-Minute Sunday Meal Plan That Ends the 'What's for Dinner?' Spiral**
   - 이미지: `content/pins/30-minute-sunday-meal-plan.png`
@@ -265,6 +265,11 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-cutting-board-warp-after.html
   - 설명: A warped cutting board almost always comes from uneven water exposure. Here's the exact drying routine that stops it for good.
 
+- [ ] **Why Leftover Rice Makes People Sick More Than Other Leftovers**
+  - 이미지: `content/pins/leftover-rice-food-poisoning-risk.png`
+  - 링크: https://www.hearth-habit.com/2026/09/why-leftover-rice-makes-people-sick.html
+  - 설명: Leftover rice carries a heat-resistant bacteria other foods don't. Here's why it's riskier, how to store it safely, and when to just toss it.
+
 ## 보드: Yard & Outdoor Basics
 
 (11개)
@@ -319,7 +324,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/why-does-grass-along-sidewalk-die-every.html
   - 설명: That dead strip along your walkway isn't bad luck. It's salt, reflected heat, and soil compaction—and the fixes are different from general lawn repair.
 
-- [ ] **Why Does My Hydrangea Bloom Great One Year and Barely Flower the Next?**
+- [x] **Why Does My Hydrangea Bloom Great One Year and Barely Flower the Next?**
   - 이미지: `content/pins/hydrangea-bloom-one-year-not-next.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-hydrangea-bloom-great-one.html
   - 설명: Usually it's winter cold damaging next year's buds or bad pruning timing. Find your exact symptom below and the fix that gets blooms back.

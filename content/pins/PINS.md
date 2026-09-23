@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 57개 준비됨 · 게시 완료 56개(수동 56 · API 0) · 대기 1개
+핀 58개 준비됨 · 게시 완료 56개(수동 56 · API 0) · 대기 2개
 
 ## 수동으로 올리는 법
 
@@ -144,7 +144,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Home Maintenance & Repairs
 
-(12개)
+(13개)
 
 - [x] **Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -205,6 +205,11 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 이미지: `content/pins/led-bulb-flickering-dimmer-switch.png`
   - 링크: https://www.hearth-habit.com/2026/09/is-it-normal-for-new-led-bulb-to.html
   - 설명: Yes, it's common — usually a compatibility mismatch, not a defect. Here's how to tell which fix you actually need and when to just replace the dimmer.
+
+- [ ] **Why Does My Basement Smell Musty Only in the Summer?**
+  - 이미지: `content/pins/why-basement-smells-musty-in-summer.png`
+  - 링크: https://www.hearth-habit.com/2026/09/why-does-my-basement-smell-musty-only.html
+  - 설명: Summer basement odor is almost always humidity, not mold growth. Here's the checklist to find the cause and fix it before it gets worse.
 
 ## 보드: Kitchen & Food Habits
 

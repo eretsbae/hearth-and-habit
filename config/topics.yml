@@ -468,7 +468,9 @@ topics:
   pinterest_pin_id: manual
 - title: Why Does My Basement Smell Musty Only in the Summer?
   pillar: home-maintenance
-  status: pending
+  status: published
+  published_slug: why-basement-smells-musty-in-summer
+  quality_score: 84
 - title: Why Does My Onion and Garlic Storage Keep Sprouting Indoors?
   pillar: kitchen-habits
   status: published

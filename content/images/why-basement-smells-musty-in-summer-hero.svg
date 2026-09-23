@@ -1,0 +1,119 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- outer room frame / cutaway -->
+  <rect x="120" y="90" width="960" height="440" fill="#E4C7B2" opacity="0.35"/>
+
+  <!-- concrete wall -->
+  <rect x="150" y="110" width="900" height="400" fill="#D9CFC2"/>
+  <rect x="150" y="110" width="900" height="400" fill="#E4C7B2" opacity="0.3"/>
+
+  <!-- concrete block lines -->
+  <g stroke="#C9B8A6" stroke-width="2" opacity="0.6">
+    <line x1="150" y1="180" x2="1050" y2="180"/>
+    <line x1="150" y1="250" x2="1050" y2="250"/>
+    <line x1="150" y1="320" x2="1050" y2="320"/>
+    <line x1="150" y1="390" x2="1050" y2="390"/>
+    <line x1="150" y1="460" x2="1050" y2="460"/>
+    <line x1="290" y1="110" x2="290" y2="180"/>
+    <line x1="430" y1="180" x2="430" y2="250"/>
+    <line x1="570" y1="110" x2="570" y2="180"/>
+    <line x1="710" y1="180" x2="710" y2="250"/>
+    <line x1="850" y1="110" x2="850" y2="180"/>
+    <line x1="230" y1="250" x2="230" y2="320"/>
+    <line x1="370" y1="320" x2="370" y2="390"/>
+    <line x1="510" y1="250" x2="510" y2="320"/>
+    <line x1="650" y1="320" x2="650" y2="390"/>
+    <line x1="790" y1="250" x2="790" y2="320"/>
+    <line x1="930" y1="320" x2="930" y2="390"/>
+    <line x1="290" y1="390" x2="290" y2="460"/>
+    <line x1="430" y1="460" x2="430" y2="530"/>
+    <line x1="570" y1="390" x2="570" y2="460"/>
+    <line x1="710" y1="460" x2="710" y2="530"/>
+    <line x1="850" y1="390" x2="850" y2="460"/>
+  </g>
+
+  <!-- floor -->
+  <rect x="150" y="510" width="900" height="20" fill="#5C6E58"/>
+  <rect x="150" y="500" width="900" height="10" fill="#4b5a48"/>
+
+  <!-- basement window -->
+  <g>
+    <rect x="330" y="150" width="150" height="110" fill="#5C6E58" opacity="0.15" stroke="#5C6E58" stroke-width="6"/>
+    <rect x="330" y="150" width="150" height="110" fill="#F6EFE6" opacity="0.6"/>
+    <line x1="405" y1="150" x2="405" y2="260" stroke="#5C6E58" stroke-width="5"/>
+    <line x1="330" y1="205" x2="480" y2="205" stroke="#5C6E58" stroke-width="5"/>
+    <!-- daylight glow -->
+    <rect x="330" y="150" width="150" height="110" fill="#D9A441" opacity="0.15"/>
+    <!-- window well shadow -->
+    <rect x="320" y="255" width="170" height="14" fill="#2E2A24" opacity="0.15"/>
+  </g>
+
+  <!-- moisture droplets on wall -->
+  <g fill="#5C6E58" opacity="0.55">
+    <path d="M600 220 q8 14 0 24 a10 10 0 1 1 -0 -24 z"/>
+    <path d="M650 260 q6 11 0 19 a8 8 0 1 1 0 -19 z"/>
+    <path d="M700 200 q7 12 0 21 a9 9 0 1 1 0 -21 z"/>
+    <path d="M760 300 q6 11 0 19 a8 8 0 1 1 0 -19 z"/>
+    <path d="M820 240 q8 14 0 24 a10 10 0 1 1 0 -24 z"/>
+    <path d="M880 340 q6 11 0 19 a8 8 0 1 1 0 -19 z"/>
+    <path d="M550 350 q7 12 0 21 a9 9 0 1 1 0 -21 z"/>
+    <path d="M480 420 q6 11 0 19 a8 8 0 1 1 0 -19 z"/>
+    <path d="M930 220 q6 11 0 19 a8 8 0 1 1 0 -19 z"/>
+    <path d="M960 400 q7 12 0 21 a9 9 0 1 1 0 -21 z"/>
+  </g>
+
+  <!-- damp patch shading -->
+  <ellipse cx="700" cy="280" rx="150" ry="90" fill="#5C6E58" opacity="0.08"/>
+  <ellipse cx="880" cy="380" rx="100" ry="70" fill="#5C6E58" opacity="0.08"/>
+
+  <!-- dehumidifier unit -->
+  <g>
+    <rect x="640" y="380" width="130" height="150" rx="14" fill="#B85C38"/>
+    <rect x="640" y="380" width="130" height="150" rx="14" fill="#2E2A24" opacity="0.05"/>
+    <!-- top vent -->
+    <rect x="655" y="392" width="100" height="14" rx="6" fill="#F6EFE6" opacity="0.5"/>
+    <!-- control panel -->
+    <circle cx="705" cy="430" r="14" fill="#D9A441"/>
+    <circle cx="705" cy="430" r="6" fill="#F6EFE6"/>
+    <!-- front grille lines -->
+    <g stroke="#F6EFE6" stroke-width="4" opacity="0.5">
+      <line x1="655" y1="460" x2="755" y2="460"/>
+      <line x1="655" y1="470" x2="755" y2="470"/>
+      <line x1="655" y1="480" x2="755" y2="480"/>
+      <line x1="655" y1="490" x2="755" y2="490"/>
+      <line x1="655" y1="500" x2="755" y2="500"/>
+    </g>
+    <!-- water tank window -->
+    <rect x="655" y="505" width="100" height="16" rx="4" fill="#5C6E58" opacity="0.4"/>
+    <!-- wheels -->
+    <circle cx="665" cy="533" r="8" fill="#2E2A24"/>
+    <circle cx="745" cy="533" r="8" fill="#2E2A24"/>
+  </g>
+
+  <!-- moisture rising from dehumidifier (captured) -->
+  <g stroke="#D9A441" stroke-width="4" fill="none" opacity="0.5" stroke-linecap="round">
+    <path d="M685 375 q-6 -20 4 -35"/>
+    <path d="M715 375 q6 -20 -4 -35"/>
+  </g>
+
+  <!-- small decorative pipe on ceiling -->
+  <rect x="150" y="110" width="900" height="10" fill="#B85C38" opacity="0.2"/>
+  <circle cx="250" cy="115" r="6" fill="#B85C38" opacity="0.4"/>
+  <circle cx="950" cy="115" r="6" fill="#B85C38" opacity="0.4"/>
+
+  <!-- small storage box for warmth -->
+  <g>
+    <rect x="900" y="460" width="70" height="60" fill="#D9A441" opacity="0.8"/>
+    <rect x="900" y="460" width="70" height="14" fill="#B85C38" opacity="0.8"/>
+  </g>
+
+  <!-- small potted plant near window for coziness -->
+  <g>
+    <path d="M235 500 l10 -40 h20 l10 40 z" fill="#B85C38"/>
+    <circle cx="250" cy="450" r="18" fill="#5C6E58"/>
+    <circle cx="238" cy="440" r="12" fill="#5C6E58"/>
+    <circle cx="262" cy="440" r="12" fill="#5C6E58"/>
+  </g>
+
+</svg>

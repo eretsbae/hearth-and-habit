@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 58개 준비됨 · 게시 완료 56개(수동 56 · API 0) · 대기 2개
+핀 59개 준비됨 · 게시 완료 56개(수동 56 · API 0) · 대기 3개
 
 ## 수동으로 올리는 법
 
@@ -26,7 +26,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Cleaning & Organization
 
-(12개)
+(13개)
 
 - [x] **The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control**
   - 이미지: `content/pins/15-minute-weekly-home-reset.png`
@@ -87,6 +87,11 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 이미지: `content/pins/stop-losing-time-before-leaving-house.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-you-keep-losing-15-minutes-before.html
   - 설명: Keys, phone, keys again? Here's why the same pre-leaving scramble happens every day, and a step-by-step fix that actually sticks.
+
+- [ ] **Why Do My Kitchen Drawers Always End Up as Junk Drawers Again?**
+  - 이미지: `content/pins/why-kitchen-drawers-become-junk-drawers.png`
+  - 링크: https://www.hearth-habit.com/2026/09/why-do-my-kitchen-drawers-always-end-up.html
+  - 설명: It's not a discipline problem — it's a design problem. Here's why kitchen drawers relapse into clutter and what actually keeps them organized.
 
 ## 보드: Energy & Utility Savings
 

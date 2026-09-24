@@ -541,7 +541,9 @@ topics:
   status: pending
 - title: Why Do My Kitchen Drawers Always End Up as Junk Drawers Again?
   pillar: cleaning-organization
-  status: pending
+  status: published
+  published_slug: why-kitchen-drawers-become-junk-drawers
+  quality_score: 79
 - title: Why Does My Laundry Still Smell Musty After a Full Wash Cycle?
   pillar: cleaning-organization
   status: pending

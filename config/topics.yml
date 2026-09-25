@@ -529,7 +529,9 @@ topics:
   pinterest_pin_id: manual
 - title: Why Does My Ceiling Have a Yellow-Brown Stain but No Active Leak?
   pillar: home-maintenance
-  status: pending
+  status: published
+  published_slug: yellow-brown-ceiling-stain-no-active-leak
+  quality_score: 84
 - title: Why Does My Circuit Breaker Trip Only When Two Specific Appliances Run Together?
   pillar: home-maintenance
   status: pending

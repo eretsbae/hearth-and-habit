@@ -1,0 +1,80 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- Roofline background wedge -->
+  <polygon points="0,60 1200,0 1200,120 0,180" fill="#E4C7B2" opacity="0.5"/>
+
+  <!-- Attic cavity frame -->
+  <rect x="80" y="90" width="1040" height="380" fill="#F6EFE6" stroke="#2E2A24" stroke-width="3"/>
+
+  <!-- Roof deck slanted top -->
+  <polygon points="80,90 1120,90 1050,40 150,40" fill="#B85C38"/>
+  <polygon points="150,40 1050,40 1050,55 150,55" fill="#5C6E58" opacity="0.5"/>
+
+  <!-- Rafters -->
+  <line x1="260" y1="40" x2="260" y2="90" stroke="#2E2A24" stroke-width="4"/>
+  <line x1="480" y1="40" x2="480" y2="90" stroke="#2E2A24" stroke-width="4"/>
+  <line x1="700" y1="40" x2="700" y2="90" stroke="#2E2A24" stroke-width="4"/>
+  <line x1="920" y1="40" x2="920" y2="90" stroke="#2E2A24" stroke-width="4"/>
+
+  <!-- Joists (horizontal beams) -->
+  <rect x="80" y="230" width="1040" height="34" fill="#B85C38"/>
+  <rect x="80" y="230" width="1040" height="8" fill="#2E2A24" opacity="0.2"/>
+
+  <rect x="80" y="380" width="1040" height="34" fill="#B85C38"/>
+  <rect x="80" y="380" width="1040" height="8" fill="#2E2A24" opacity="0.2"/>
+
+  <!-- Insulation batts between joists top -->
+  <g>
+    <path d="M100 264 Q140 280 180 264 Q220 280 260 264 Q300 280 340 264 Q380 280 420 264 Q420 300 420 380 L100 380 Z" fill="#D9A441" opacity="0.85"/>
+    <path d="M100 264 Q140 250 180 264 Q220 250 260 264 Q300 250 340 264 Q380 250 420 264" fill="none" stroke="#B85C38" stroke-width="2" opacity="0.4"/>
+  </g>
+
+  <g>
+    <path d="M460 264 Q500 280 540 264 Q580 280 620 264 Q660 280 700 264 Q740 280 780 264 Q780 300 780 380 L460 380 Z" fill="#D9A441" opacity="0.85"/>
+    <path d="M460 264 Q500 250 540 264 Q580 250 620 264 Q660 250 700 264 Q740 250 780 264" fill="none" stroke="#B85C38" stroke-width="2" opacity="0.4"/>
+  </g>
+
+  <g>
+    <path d="M820 264 Q860 280 900 264 Q940 280 980 264 Q1020 280 1060 264 Q1060 300 1060 380 L820 380 Z" fill="#D9A441" opacity="0.85"/>
+    <path d="M820 264 Q860 250 900 264 Q940 250 980 264 Q1020 250 1060 264" fill="none" stroke="#B85C38" stroke-width="2" opacity="0.4"/>
+  </g>
+
+  <!-- Pipe running diagonally through cavity -->
+  <path d="M120 130 L850 350" stroke="#5C6E58" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M120 130 L850 350" stroke="#2E2A24" stroke-width="18" fill="none" stroke-linecap="round" opacity="0.15"/>
+  <circle cx="120" cy="130" r="14" fill="#5C6E58"/>
+  <circle cx="850" cy="350" r="14" fill="#5C6E58"/>
+
+  <!-- Pipe joint connector -->
+  <rect x="470" y="225" width="26" height="26" rx="4" fill="#2E2A24" transform="rotate(31 483 238)"/>
+
+  <!-- Water droplet at pipe leak point -->
+  <circle cx="495" cy="245" r="5" fill="#5C6E58" opacity="0.8"/>
+  <path d="M495 255 q6 12 0 20 q-6 -8 0 -20" fill="#5C6E58" opacity="0.6"/>
+
+  <!-- Water travel path (dashed) traveling down through insulation to ceiling -->
+  <path d="M495 260 C 470 300, 520 330, 500 370 C 480 400, 540 420, 520 460"
+        fill="none" stroke="#B85C38" stroke-width="3" stroke-dasharray="6 8" opacity="0.55"/>
+
+  <!-- Ceiling plane below joists -->
+  <rect x="80" y="414" width="1040" height="56" fill="#E4C7B2"/>
+
+  <!-- Ceiling stain (yellow-brown rings) centered below the drip path -->
+  <ellipse cx="520" cy="460" rx="80" ry="26" fill="#D9A441" opacity="0.35"/>
+  <ellipse cx="520" cy="460" rx="55" ry="18" fill="#B85C38" opacity="0.4"/>
+  <ellipse cx="520" cy="460" rx="30" ry="10" fill="#B85C38" opacity="0.55"/>
+
+  <!-- Small secondary stain hint further along -->
+  <ellipse cx="700" cy="450" rx="40" ry="12" fill="#D9A441" opacity="0.2"/>
+
+  <!-- Cross-section edge shading at bottom to suggest room below -->
+  <rect x="80" y="470" width="1040" height="10" fill="#2E2A24" opacity="0.1"/>
+
+  <!-- Subtle labels-free arrow indicating travel direction along pipe -->
+  <polygon points="700,300 715,290 715,310" fill="#5C6E58" opacity="0.6"/>
+
+  <!-- Decorative corner accents -->
+  <circle cx="1150" cy="580" r="40" fill="#5C6E58" opacity="0.12"/>
+  <circle cx="60" cy="560" r="26" fill="#B85C38" opacity="0.12"/>
+</svg>

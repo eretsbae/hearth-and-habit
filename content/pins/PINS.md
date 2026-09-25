@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 59개 준비됨 · 게시 완료 56개(수동 56 · API 0) · 대기 3개
+핀 60개 준비됨 · 게시 완료 56개(수동 56 · API 0) · 대기 4개
 
 ## 수동으로 올리는 법
 
@@ -149,7 +149,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Home Maintenance & Repairs
 
-(13개)
+(14개)
 
 - [x] **Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -215,6 +215,11 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 이미지: `content/pins/why-basement-smells-musty-in-summer.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-basement-smell-musty-only.html
   - 설명: Summer basement odor is almost always humidity, not mold growth. Here's the checklist to find the cause and fix it before it gets worse.
+
+- [ ] **Yellow-Brown Ceiling Stain With No Active Leak: What It Means**
+  - 이미지: `content/pins/yellow-brown-ceiling-stain-no-active-leak.png`
+  - 링크: https://www.hearth-habit.com/2026/09/yellow-brown-ceiling-stain-with-no.html
+  - 설명: A yellow-brown ceiling stain usually means a past or slow leak, not a current emergency. Here's how to figure out which situation you're actually in.
 
 ## 보드: Kitchen & Food Habits
 

@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 60개 준비됨 · 게시 완료 56개(수동 56 · API 0) · 대기 4개
+핀 61개 준비됨 · 게시 완료 60개(수동 60 · API 0) · 대기 1개
 
 ## 수동으로 올리는 법
 
@@ -26,7 +26,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Cleaning & Organization
 
-(13개)
+(14개)
 
 - [x] **The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control**
   - 이미지: `content/pins/15-minute-weekly-home-reset.png`
@@ -88,10 +88,15 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/why-you-keep-losing-15-minutes-before.html
   - 설명: Keys, phone, keys again? Here's why the same pre-leaving scramble happens every day, and a step-by-step fix that actually sticks.
 
-- [ ] **Why Do My Kitchen Drawers Always End Up as Junk Drawers Again?**
+- [x] **Why Do My Kitchen Drawers Always End Up as Junk Drawers Again?**
   - 이미지: `content/pins/why-kitchen-drawers-become-junk-drawers.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-do-my-kitchen-drawers-always-end-up.html
   - 설명: It's not a discipline problem — it's a design problem. Here's why kitchen drawers relapse into clutter and what actually keeps them organized.
+
+- [ ] **Why Does My Laundry Still Smell Musty After a Full Wash Cycle?**
+  - 이미지: `content/pins/laundry-smells-musty-after-wash-cycle.png`
+  - 링크: https://www.hearth-habit.com/2026/09/why-does-my-laundry-still-smell-musty.html
+  - 설명: Musty laundry after washing usually means bacteria living in your machine, not your clothes. Here's the step-by-step fix and how to keep it from coming back.
 
 ## 보드: Energy & Utility Savings
 
@@ -211,12 +216,12 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/is-it-normal-for-new-led-bulb-to.html
   - 설명: Yes, it's common — usually a compatibility mismatch, not a defect. Here's how to tell which fix you actually need and when to just replace the dimmer.
 
-- [ ] **Why Does My Basement Smell Musty Only in the Summer?**
+- [x] **Why Does My Basement Smell Musty Only in the Summer?**
   - 이미지: `content/pins/why-basement-smells-musty-in-summer.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-basement-smell-musty-only.html
   - 설명: Summer basement odor is almost always humidity, not mold growth. Here's the checklist to find the cause and fix it before it gets worse.
 
-- [ ] **Yellow-Brown Ceiling Stain With No Active Leak: What It Means**
+- [x] **Yellow-Brown Ceiling Stain With No Active Leak: What It Means**
   - 이미지: `content/pins/yellow-brown-ceiling-stain-no-active-leak.png`
   - 링크: https://www.hearth-habit.com/2026/09/yellow-brown-ceiling-stain-with-no.html
   - 설명: A yellow-brown ceiling stain usually means a past or slow leak, not a current emergency. Here's how to figure out which situation you're actually in.
@@ -280,7 +285,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-cutting-board-warp-after.html
   - 설명: A warped cutting board almost always comes from uneven water exposure. Here's the exact drying routine that stops it for good.
 
-- [ ] **Why Leftover Rice Makes People Sick More Than Other Leftovers**
+- [x] **Why Leftover Rice Makes People Sick More Than Other Leftovers**
   - 이미지: `content/pins/leftover-rice-food-poisoning-risk.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-leftover-rice-makes-people-sick.html
   - 설명: Leftover rice carries a heat-resistant bacteria other foods don't. Here's why it's riskier, how to store it safely, and when to just toss it.

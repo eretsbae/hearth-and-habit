@@ -1,0 +1,63 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft background shapes -->
+  <circle cx="1030" cy="120" r="140" fill="#E4C7B2" opacity="0.35"/>
+  <circle cx="120" cy="520" r="180" fill="#5C6E58" opacity="0.12"/>
+
+  <!-- washing machine body -->
+  <rect x="280" y="130" width="640" height="430" rx="28" fill="#E4C7B2"/>
+  <rect x="280" y="130" width="640" height="70" rx="20" fill="#D9A441"/>
+
+  <!-- control knobs -->
+  <circle cx="330" cy="165" r="14" fill="#2E2A24"/>
+  <circle cx="380" cy="165" r="10" fill="#2E2A24"/>
+  <circle cx="420" cy="165" r="10" fill="#2E2A24"/>
+
+  <!-- outer drum ring -->
+  <circle cx="600" cy="390" r="200" fill="#F6EFE6"/>
+  <circle cx="600" cy="390" r="200" fill="none" stroke="#2E2A24" stroke-width="6"/>
+
+  <!-- rubber gasket -->
+  <circle cx="600" cy="390" r="170" fill="none" stroke="#5C6E58" stroke-width="20"/>
+  <circle cx="600" cy="390" r="170" fill="none" stroke="#2E2A24" stroke-width="3" opacity="0.4"/>
+
+  <!-- inner drum dark cavity -->
+  <path d="M600 240 A150 150 0 1 1 460 460 A150 150 0 0 1 600 240 Z" fill="#2E2A24"/>
+
+  <!-- drum interior lighter arc for depth -->
+  <path d="M600 260 A130 130 0 0 1 715 465" fill="none" stroke="#5C6E58" stroke-width="10" opacity="0.5"/>
+
+  <!-- towel half pulled out -->
+  <path d="M470 430 
+           C 460 500, 500 560, 560 580 
+           C 620 600, 700 590, 730 540 
+           C 700 545, 660 520, 640 480 
+           C 610 500, 560 500, 540 460 
+           C 520 440, 490 430, 470 430 Z" 
+        fill="#B85C38"/>
+  <path d="M500 450 C 520 500, 560 540, 610 555" fill="none" stroke="#F6EFE6" stroke-width="6" opacity="0.5"/>
+  <path d="M540 440 C 560 480, 600 510, 650 520" fill="none" stroke="#F6EFE6" stroke-width="6" opacity="0.4"/>
+
+  <!-- towel fold shadow inside drum -->
+  <path d="M540 400 C 560 420, 600 430, 630 415 C 615 445, 570 450, 545 430 Z" fill="#8C4A2E" opacity="0.7"/>
+
+  <!-- door hinge detail -->
+  <rect x="270" y="330" width="20" height="120" rx="8" fill="#B85C38"/>
+
+  <!-- odor / steam lines rising from gasket -->
+  <path d="M520 210 C 510 180, 540 170, 530 140 C 520 110, 550 100, 540 70" 
+        fill="none" stroke="#5C6E58" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
+  <path d="M600 200 C 590 170, 620 160, 610 130 C 600 100, 630 90, 620 60" 
+        fill="none" stroke="#B85C38" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+  <path d="M680 210 C 670 180, 700 170, 690 140 C 680 110, 710 100, 700 70" 
+        fill="none" stroke="#D9A441" stroke-width="7" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- small floor shadow -->
+  <ellipse cx="600" cy="580" rx="360" ry="20" fill="#2E2A24" opacity="0.08"/>
+
+  <!-- decorative dots -->
+  <circle cx="150" cy="100" r="8" fill="#D9A441" opacity="0.6"/>
+  <circle cx="1080" cy="500" r="10" fill="#B85C38" opacity="0.5"/>
+  <circle cx="1000" cy="560" r="6" fill="#5C6E58" opacity="0.5"/>
+</svg>

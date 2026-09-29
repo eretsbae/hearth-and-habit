@@ -15,6 +15,10 @@ Prerequisites (one-time, in Google Cloud Console):
      - Application type: "Desktop app".
   4. Download the JSON and save it as generator/client_secret.json
      (this path is already in .gitignore — it will never be committed).
+     No JSON? Newer Google Cloud clients only show the secret once. Just run
+     the script: it asks for the client ID and a client secret instead (use
+     "Add secret" on the client's page to get a fresh one; keep the old one
+     enabled, since the GitHub secret still uses it).
 
 Usage:
     pip install google-auth-oauthlib
@@ -23,6 +27,7 @@ Usage:
 
 from __future__ import annotations
 
+import getpass
 import json
 from pathlib import Path
 
@@ -39,29 +44,49 @@ ROOT = Path(__file__).resolve().parents[1]
 CLIENT_SECRET_FILE = ROOT / "generator" / "client_secret.json"
 
 
+def client_config() -> tuple[dict, bool]:
+    """(OAuth client config, came_from_file). Without client_secret.json, ask
+    for the two values instead of making the user hand-write the JSON."""
+    if CLIENT_SECRET_FILE.exists():
+        return json.loads(CLIENT_SECRET_FILE.read_text()), True
+    print(f"{CLIENT_SECRET_FILE} not found - enter the OAuth client values instead.")
+    print("(Google Cloud -> Google Auth Platform -> Clients -> your Desktop client)")
+    client_id = input("Client ID: ").strip()
+    secret = getpass.getpass("Client secret (hidden; paste with right-click): ").strip()
+    if not client_id or not secret:
+        raise SystemExit("Both the client ID and the client secret are required.")
+    return {"installed": {
+        "client_id": client_id,
+        "client_secret": secret,
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "token_uri": "https://oauth2.googleapis.com/token",
+        "redirect_uris": ["http://localhost"],
+    }}, False
+
+
 def main() -> int:
-    if not CLIENT_SECRET_FILE.exists():
-        print(f"Missing {CLIENT_SECRET_FILE}")
-        print("Download OAuth client credentials (Desktop app type) from")
-        print("Google Cloud Console and save them at that exact path, then re-run this script.")
-        return 1
-
-    flow = InstalledAppFlow.from_client_secrets_file(str(CLIENT_SECRET_FILE), SCOPES)
-    creds = flow.run_local_server(port=0)
-
-    client_config = json.loads(CLIENT_SECRET_FILE.read_text())["installed"]
+    config, from_file = client_config()
+    flow = InstalledAppFlow.from_client_config(config, SCOPES)
+    # prompt=consent: always show the consent screen so Google returns a new
+    # refresh token that carries every scope in SCOPES, even for an account
+    # that already authorized an older, Blogger-only version of this app.
+    creds = flow.run_local_server(port=0, prompt="consent")
+    installed = config["installed"]
 
     print("\n" + "=" * 72)
-    print("Authorization complete. Save these three values as GitHub repository")
-    print("secrets (Settings -> Secrets and variables -> Actions -> New secret):")
+    print("Authorization complete. Update these GitHub repository secrets")
+    print("(Settings -> Secrets and variables -> Actions):")
     print("=" * 72)
-    print(f"GOOGLE_CLIENT_ID     = {client_config['client_id']}")
-    print(f"GOOGLE_CLIENT_SECRET = {client_config['client_secret']}")
+    print(f"GOOGLE_CLIENT_ID     = {installed['client_id']}")
+    if from_file:
+        print(f"GOOGLE_CLIENT_SECRET = {installed['client_secret']}")
+    else:
+        print("GOOGLE_CLIENT_SECRET = (unchanged if the old secret is still enabled;")
+        print("                        otherwise the secret you just typed)")
     print(f"GOOGLE_REFRESH_TOKEN = {creds.refresh_token}")
     print("=" * 72)
     if not creds.refresh_token:
-        print("\nWARNING: no refresh_token was returned. This usually means this")
-        print("Google account already authorized this app before. Go to")
+        print("\nWARNING: no refresh_token was returned. Go to")
         print("https://myaccount.google.com/permissions , remove access for this")
         print("app, and run this script again to force a fresh consent.")
         return 1

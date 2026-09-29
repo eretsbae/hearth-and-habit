@@ -24,7 +24,7 @@ python generator/build_site.py                       # (레거시) 정적 미리
 ```
 
 ## 구조
-`config/site.yml` 사이트·생성 설정 · `config/topics.yml` 필러+주제 큐+게시 URL 기록 · `config/facts.yml` 사실 기준표(프롬프트·크리틱에 주입) · `generator/` 생성·발행·Pinterest·Kakao 스크립트(`prompts.py` 가 글 프롬프트) · `content/posts|images|pages` 산출물 · `blogger/custom-css.css` 테마 · `.github/workflows/` generate-and-publish · pinterest-publish · publish-pages · relink-posts · retire-posts · sync-posts · weekly-report.
+`config/site.yml` 사이트·생성 설정 · `config/topics.yml` 필러+주제 큐+게시 URL 기록 · `config/facts.yml` 사실 기준표(프롬프트·크리틱에 주입) · `generator/` 생성·발행·Pinterest·Kakao 스크립트(`prompts.py` 가 글 프롬프트) · `content/posts|images|pages` 산출물 · `blogger/custom-css.css` 테마 · `.github/workflows/` generate-and-publish · pinterest-publish · publish-pages · relink-posts · retire-posts · sync-posts · weekly-report · prune-branches(머지 끝난 브랜치 자동 삭제 — 수동 정리 불필요).
 
 ## 보고 원칙
 - 결론 먼저, 근거는 경로·커밋 해시로. 도구의 성공 응답은 게시 성공의 증거가 아니다 — Blogger URL 또는 Actions 로그로 확인하고, 못 하면 "미검증".

@@ -16,6 +16,14 @@ Usage:
     python generator/make_pin.py --all         # (re)render pins for every post
     python generator/make_pin.py --manifest    # rebuild content/pins/PINS.md
     python generator/make_pin.py --post content/posts/2026-07-27-foo.md
+    python generator/make_pin.py --hooks       # headline-variant pins + upload CSVs
+
+Hook pins: every post's first pin repeats the article title on one shared
+template. Pinterest ranks fresh images, and a pin sells the payoff, not the
+question — so each post also gets up to two variants whose big text is a
+"pin hook" (frontmatter `pin_hooks`, e.g. "Fix a phantom flush for $10") on
+a different layout. They go to content/pins/hooks/ with Pinterest
+content-import CSVs of HOOK_BATCH pins each, uploaded one file a day by hand.
 """
 
 from __future__ import annotations
@@ -51,17 +59,22 @@ GOLD = "#D9A441"
 CLAY = "#E4C7B2"
 INK = "#2E2A24"
 
+# Linux paths are what the Actions runner has; the Windows ones only make
+# local previews look like production instead of falling back to a bitmap font.
 SERIF_BOLD = [
     "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf",
     "/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
+    "C:/Windows/Fonts/georgiab.ttf",
 ]
 SANS = [
     "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
     "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "C:/Windows/Fonts/arial.ttf",
 ]
 SANS_BOLD = [
     "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
     "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+    "C:/Windows/Fonts/arialbd.ttf",
 ]
 
 
@@ -207,6 +220,121 @@ def render_pin(title: str, pillar_name: str, out_path: Path,
     img.save(out_path, optimize=True)
 
 
+HOOKS_DIR = PINS_DIR / "hooks"
+HOOK_BATCH = 5  # pins per content-import CSV; upload one file a day
+
+
+def fit_lines(draw: ImageDraw.ImageDraw, text: str, fonts: list[str], max_w: int, max_h: int,
+              sizes: range, max_lines: int) -> tuple:
+    for size in sizes:
+        font = load_font(fonts, size)
+        avg = draw.textlength("n", font=font) or 1
+        wrapped = textwrap.wrap(text, width=max(8, int(max_w / avg)))
+        line_h = int(size * 1.22)
+        if wrapped and len(wrapped) <= max_lines and \
+                max(draw.textlength(l, font=font) for l in wrapped) <= max_w and \
+                len(wrapped) * line_h <= max_h:
+            return font, wrapped, line_h
+    font = load_font(fonts, sizes.stop + 2)
+    return font, textwrap.wrap(text, width=28)[:max_lines], int((sizes.stop + 2) * 1.22)
+
+
+def render_hook_pin(hook: str, title: str, out_path: Path, slug: str = "",
+                    pillar_slug: str = "", variant: int = 1) -> None:
+    """Headline-first layout, deliberately unlike render_pin: a colored hook
+    panel on top, the post's artwork in the middle, the title small below."""
+    img = Image.new("RGB", (W, H), CREAM)
+    d = ImageDraw.Draw(img)
+    panel = CHIP_COLORS.get(pillar_slug, TERRACOTTA) if variant == 1 else INK
+    accent = GOLD if variant == 1 else CLAY
+
+    panel_h = 600
+    d.rectangle([0, 0, W, panel_h], fill=panel)
+    font, lines, line_h = fit_lines(d, hook, SANS_BOLD, W - 140, panel_h - 190,
+                                    range(96, 55, -4), 4)
+    y = 70 + max(0, (panel_h - 190 - len(lines) * line_h) // 2)
+    for line in lines:
+        d.text((W / 2, y), line, font=font, fill=CREAM, anchor="ma")
+        y += line_h
+    d.rectangle([W / 2 - 60, panel_h - 90, W / 2 + 60, panel_h - 84], fill=accent)
+
+    art = hero_band(slug) if slug else None
+    band_top, band_h = panel_h, 470
+    if art is None:
+        # No cairo (local preview) or no hero: the fallback motif, drawn on
+        # its own canvas so it can't paint over the hook panel.
+        art = Image.new("RGB", (W, ART_H), CREAM)
+        draw_motif(ImageDraw.Draw(art))
+    art = art.resize((W, int(art.height * W / art.width)))
+    top = max(0, (art.height - band_h) // 2)
+    img.paste(art.crop((0, top, W, top + band_h)), (0, band_top))
+
+    base = band_top + band_h
+    d.rectangle([0, base, W, H], fill=CARD)
+    tfont, tlines, tline_h = fit_lines(d, title, SERIF_BOLD, W - 160, 240, range(46, 29, -2), 4)
+    y = base + 50
+    for line in tlines:
+        d.text((W / 2, y), line, font=tfont, fill=INK, anchor="ma")
+        y += tline_h
+    d.text((W / 2, H - 110), "HEARTH & HABIT", font=load_font(SANS_BOLD, 30), fill=SAGE, anchor="ma")
+    d.text((W / 2, H - 66), site_domain(), font=load_font(SANS, 24), fill="#8A8078", anchor="ma")
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    img.save(out_path, optimize=True)
+
+
+def build_hook_pins() -> int:
+    """Render hook pins for every live post that has pin_hooks, and write
+    content-import CSVs (hooks-01.csv, ...) of HOOK_BATCH pins each."""
+    import csv
+
+    data = yaml.safe_load(TOPICS_CONFIG.read_text(encoding="utf-8"))
+    by_slug = {t.get("published_slug"): t for t in data["topics"] if t.get("published_slug")}
+    names = pillar_names()
+    cfg = yaml.safe_load(SITE_CONFIG.read_text(encoding="utf-8"))
+    gh = cfg["github"]
+    raw = f"https://raw.githubusercontent.com/{gh['owner']}/{gh['repo']}/{gh['branch']}/content/pins/hooks"
+
+    rows = []
+    for path in sorted(POSTS_DIR.glob("*.md")):
+        fm = parse_front(path)
+        slug = fm.get("slug") or path.stem[11:]
+        topic = by_slug.get(slug)
+        hooks = [h for h in fm.get("pin_hooks") or [] if isinstance(h, str) and h.strip()][:2]
+        if not topic or not topic.get("blogger_url") or not hooks:
+            continue
+        for i, hook in enumerate(hooks, 1):
+            name = f"{slug}-{i}.png"
+            render_hook_pin(hook.strip(), fm["title"], HOOKS_DIR / name, slug=slug,
+                            pillar_slug=fm.get("pillar", ""), variant=i)
+            rows.append({
+                "Title": hook.strip()[:100],
+                "Media URL": f"{raw}/{name}",
+                "Pinterest board": names.get(fm.get("pillar"), ""),
+                "Thumbnail": "",
+                "Description": (fm.get("description") or fm["title"]).strip()[:500],
+                "Link": topic["blogger_url"],
+                "Publish date": "",
+                "Keywords": ", ".join(str(t) for t in fm.get("tags") or []),
+                "_variant": i,
+            })
+
+    # First every post's variant 1, then every variant 2: two pins for the
+    # same article never land in the same day's upload.
+    rows.sort(key=lambda r: r["_variant"])
+    for old in HOOKS_DIR.glob("hooks-*.csv"):
+        old.unlink()
+    cols = ["Title", "Media URL", "Pinterest board", "Thumbnail",
+            "Description", "Link", "Publish date", "Keywords"]
+    for n, start in enumerate(range(0, len(rows), HOOK_BATCH), 1):
+        with open(HOOKS_DIR / f"hooks-{n:02d}.csv", "w", newline="", encoding="utf-8-sig") as f:
+            w = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
+            w.writeheader()
+            w.writerows(rows[start:start + HOOK_BATCH])
+    print(f"hook pins: {len(rows)} images, {-(-len(rows) // HOOK_BATCH)} CSV batches -> {HOOKS_DIR}")
+    return 0
+
+
 def parse_front(path: Path) -> dict:
     text = path.read_text(encoding="utf-8")
     if not text.startswith("---"):
@@ -320,7 +448,12 @@ def main() -> int:
     ap.add_argument("--all", action="store_true", help="Render pins for every post")
     ap.add_argument("--post", help="Render a pin for one post markdown file")
     ap.add_argument("--manifest", action="store_true", help="Rebuild PINS.md only")
+    ap.add_argument("--hooks", action="store_true",
+                    help="Render headline-variant pins from pin_hooks + upload CSVs")
     args = ap.parse_args()
+
+    if args.hooks:
+        return build_hook_pins()
 
     if args.manifest and not (args.all or args.post):
         return build_manifest()

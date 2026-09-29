@@ -1,0 +1,107 @@
+# ─────────────────────────────────────────────────────────────
+# 사실 기준표 (fact registry)
+#
+# 글마다 흔들리던 수치·안전 기준을 한곳에 고정한다. 두 곳에서 쓰인다:
+#   1) generator/prompts.py — 글 작성·크리틱 프롬프트에 그대로 주입되어,
+#      새 글이 이 값과 다른 숫자를 쓰면 크리틱이 감점한다.
+#   2) 사람이 기존 글을 고칠 때의 기준. 값을 바꾸면 이 값을 인용한 글도 함께 고친다.
+#
+# 각 항목의 source 는 독자에게 링크로 보여줄 1차 출처(정부기관·공인기관·대학 익스텐션).
+# 2026-09-29 전수 점검에서 확인한 값이다.
+# ─────────────────────────────────────────────────────────────
+
+facts:
+  # ── 식품 안전 ────────────────────────────────────────────────
+  - key: leftovers_fridge
+    fact: "Cooked leftovers keep 3 to 4 days in the refrigerator at 40°F or below; 3 to 4 months in the freezer for best quality."
+    source: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+  - key: two_hour_rule
+    fact: "Perishable food left at room temperature more than 2 hours (1 hour above 90°F) should be thrown out — not cooked, refrozen, or 'rescued'."
+    source: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/danger-zone-40f-140f
+  - key: smell_is_not_a_safety_test
+    fact: "Bacteria that cause food poisoning generally do not change how food looks, smells, or tastes. Smell detects spoilage, not safety; use time and temperature."
+    source: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration
+  - key: reheat_temp
+    fact: "Reheat leftovers to 165°F measured with a food thermometer."
+    source: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+  - key: cool_large_batches
+    fact: "Divide large pots (soup, stew, chili, rice) into shallow containers so they cool quickly; a big pot cools slowly and lets bacteria multiply."
+    source: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+  - key: raw_meat_fridge
+    fact: "Raw ground meat and poultry: 1 to 2 days in the fridge. Raw steaks, chops, roasts: 3 to 5 days."
+    source: https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts
+  - key: refreeze_thawed
+    fact: "Food thawed in the refrigerator can be refrozen without cooking (some quality loss) while still inside its fridge storage window. Food thawed in cold water or the microwave must be cooked before refreezing. Past the fridge window, or left out over 2 hours, discard it."
+    source: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety
+  - key: rice_bacillus_cereus
+    fact: "Bacillus cereus spores survive cooking; if cooked rice sits at room temperature they germinate and can form a heat-stable toxin that reheating does not destroy. Refrigerate cooked rice promptly (within 1 hour is the safer target, never beyond 2) in shallow containers."
+    source: https://www.cdc.gov/mmwr/preview/mmwrhtml/00025744.htm
+  - key: bagged_greens
+    fact: "Bagged greens labeled 'ready to eat', 'washed', or 'triple washed' do not need re-washing; re-washing adds cross-contamination risk from sinks and colanders."
+    source: https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely
+
+  # ── 화학·청소 ────────────────────────────────────────────────
+  - key: never_mix_bleach
+    fact: "Never mix chlorine bleach with ammonia or with acids (vinegar, many toilet-bowl and lime-scale cleaners) — it releases toxic chloramine or chlorine gas. Use one, rinse, then the other."
+    source: https://www.poison.org/articles/chlorine-gas
+  - key: clean_vs_disinfect
+    fact: "Soap and water cleans (removes germs); it does not disinfect. Disinfection needs an EPA-registered disinfectant used for its full label contact time."
+    source: https://www.epa.gov/coronavirus/six-steps-safe-effective-disinfectant-use
+  - key: poison_control
+    fact: "US Poison Control: 1-800-222-1222 (also poison.org). For pets: ASPCA Animal Poison Control, (888) 426-4435."
+    source: https://www.poison.org/
+
+  # ── 곰팡이·습도 ──────────────────────────────────────────────
+  - key: mold_diy_limit
+    fact: "EPA: a homeowner can usually clean mold covering less than about 10 square feet (roughly 3 ft by 3 ft); larger areas, mold in HVAC ducts, or mold after sewage/contaminated water warrant a professional."
+    source: https://www.epa.gov/mold/mold-cleanup-your-home
+  - key: indoor_humidity
+    fact: "Keep indoor relative humidity below 60%, ideally 30–50%, to limit mold growth."
+    source: https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home
+
+  # ── 안전 장비 ────────────────────────────────────────────────
+  - key: smoke_alarm_test
+    fact: "Test smoke alarms monthly; replace the whole alarm every 10 years. Test CO alarms monthly too."
+    source: https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms
+  - key: gfci_test
+    fact: "Test GFCI outlets monthly with the TEST/RESET buttons."
+    source: https://www.cpsc.gov/safety-education/safety-guides/electronics-and-electrical-home/gfci-fact-sheet
+  - key: call_811
+    fact: "Call 811 (or use call811.com) a few business days before any digging — trenches, French drains, post holes — so buried utility lines get marked. Free in the US; Canada uses provincial services (e.g. ClickBeforeYouDig)."
+    source: https://call811.com/
+  - key: battery_disposal
+    fact: "Lithium-ion and button/coin batteries do not go in household trash (fire hazard); tape terminals and take them to a battery drop-off. Some states ban single-use batteries in trash (e.g. California)."
+    source: https://www.epa.gov/recycle/used-household-batteries
+
+  # ── 물·배관 ──────────────────────────────────────────────────
+  - key: toilet_leak_waste
+    fact: "Toilet dye test (EPA WaterSense): a few drops of food coloring in the tank, wait 10 minutes without flushing; color in the bowl = a leak, usually the flapper. A toilet that runs nonstop can waste hundreds of gallons a day — do NOT attribute a specific daily figure to the EPA (its current pages don't state one)."
+    source: https://www.epa.gov/watersense/fix-leak-week
+  - key: water_pressure
+    fact: "EPA WaterSense recommends 45–60 psi at the home; most US plumbing codes require a pressure-reducing valve (PRV) when supply pressure exceeds 80 psi. A PRV creates a closed system, so thermal expansion (usually an expansion tank) must be addressed."
+    source: https://www.epa.gov/system/files/documents/2023-08/ws-homes-TRM-12-ServiceWaterPressureTechSheet.pdf
+  - key: water_heater_flush
+    fact: "Water heater flush order: power/gas OFF → open a hot tap to cool water → close cold inlet → drain → flush → close drain → refill fully (open cold inlet, run a hot tap until it flows air-free) → only then restore power. An electric element fired in an empty tank burns out. Hot water scalds; let it cool first."
+    source: https://www.energy.gov/femp/technical-operations-and-maintenance-guidelines-common-water-equipment
+
+  # ── 에너지 ───────────────────────────────────────────────────
+  - key: thermostat_setback
+    fact: "DOE: turning the thermostat back 7–10°F for 8 hours a day can save up to about 10% a year on heating and cooling."
+    source: https://www.energy.gov/energysaver/programmable-thermostats
+  - key: electricity_rate
+    fact: "US average residential electricity price is roughly 17–18 cents per kWh (2025–26, EIA); it ranges from about 11¢ to over 40¢ by state. Always show the math so readers can plug in their own rate."
+    source: https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a
+  - key: appliance_energy_math
+    fact: "Energy cost = watts × hours used ÷ 1000 × price per kWh. Nameplate wattage is the maximum draw; a plug-in watt meter measures real use."
+    source: https://www.energy.gov/energysaver/estimating-appliance-and-home-electronic-energy-use
+
+  # ── 마당 ─────────────────────────────────────────────────────
+  - key: downspout_extension
+    fact: "Downspouts should discharge at least 5 feet from the foundation (DOE building-science guidance), onto ground that slopes away from the house — roughly a 6-inch drop over the first 10 feet is the usual target. (EPA's mold guide says only 'slope away'; cite it for that, not for the distance.)"
+    source: https://bsesc.energy.gov/energy-basics/stormwater-gutters-downspouts
+  - key: warm_season_fertilizer
+    fact: "Warm-season lawns (Bermuda, St. Augustine, Zoysia, Centipede — the South) are fertilized from late spring green-up through summer and NOT in fall. Cool-season lawns (fescue, bluegrass, ryegrass — the North) get their main feeding in fall."
+    source: https://hgic.clemson.edu/when-should-you-fertilize-your-lawn/
+  - key: ice_dams
+    fact: "Ice dams are caused by heat escaping into the attic and melting roof snow that refreezes at the colder eaves — the fix is attic air sealing, insulation, and ventilation, not gutter cleaning."
+    source: https://extension.umn.edu/protecting-home-rain-and-ice/dealing-and-preventing-ice-dams

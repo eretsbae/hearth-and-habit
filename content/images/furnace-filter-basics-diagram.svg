@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+  <text x="600" y="74" font-family="Helvetica, Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#2E2A24">When to change your furnace filter</text>
+  <rect x="80" y="100" width="500" height="280" rx="20" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
+  <polygon points="263,136 277,129 397,129 383,136" fill="#E6C484"/>
+  <polygon points="383,136 397,129 397,275 383,282" fill="#D9A441"/>
+  <rect x="263" y="136" width="120" height="146" fill="#D9A441"/>
+  <rect x="273" y="146" width="100" height="126" fill="#FFFDF9"/>
+  <polyline points="279,154 285.3,264 291.6,154 297.9,264 304.1,154 310.4,264 316.7,154 323,264 329.3,154 335.6,264 341.9,154 348.1,264 354.4,154 360.7,264 367,154" fill="none" stroke="#E4C7B2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="330" y="326" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#2E2A24">1-inch filter</text>
+  <text x="330" y="362" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#B85C38">Every 1&#8211;3 months</text>
+  <rect x="620" y="100" width="500" height="280" rx="20" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
+  <polygon points="778,136 842,104 962,104 898,136" fill="#E6C484"/>
+  <polygon points="898,136 962,104 962,250 898,282" fill="#D9A441"/>
+  <rect x="778" y="136" width="120" height="146" fill="#D9A441"/>
+  <rect x="788" y="146" width="100" height="126" fill="#FFFDF9"/>
+  <polyline points="794,154 800.3,264 806.6,154 812.9,264 819.1,154 825.4,264 831.7,154 838,264 844.3,154 850.6,264 856.9,154 863.1,264 869.4,154 875.7,264 882,154" fill="none" stroke="#E4C7B2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="870" y="326" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#2E2A24">4&#8211;5-inch media filter</text>
+  <text x="870" y="362" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#B85C38">Every 6&#8211;12 months</text>
+  <rect x="345" y="398" width="510" height="48" rx="24" fill="#5C6E58"/>
+  <text x="600" y="431" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#FFFDF9">Change sooner with pets or allergies</text>
+  <rect x="80" y="470" width="118" height="60" rx="12" fill="#E4C7B2"/>
+  <text x="139" y="509" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2E2A24">Rooms</text>
+  <line x1="204" y1="500" x2="226" y2="500" stroke="#2E2A24" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="244,500 224,511 224,489" fill="#2E2A24"/>
+  <rect x="250" y="474" width="166" height="52" rx="6" fill="#D9A441"/>
+  <rect x="250" y="474" width="166" height="52" rx="6" fill="none" stroke="#827F7C" stroke-width="2"/>
+  <text x="264" y="509" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#2E2A24">Airflow</text>
+  <line x1="358" y1="500" x2="392" y2="500" stroke="#2E2A24" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="404,500 390,508 390,492" fill="#2E2A24"/>
+  <line x1="422" y1="500" x2="440" y2="500" stroke="#2E2A24" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="458,500 438,511 438,489" fill="#2E2A24"/>
+  <rect x="464" y="470" width="116" height="60" rx="12" fill="#2E2A24"/>
+  <text x="522" y="509" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#FFFDF9">Furnace</text>
+  <text x="330" y="572" font-family="Helvetica, Arial, sans-serif" font-size="24" text-anchor="middle" fill="#2E2A24">Frame arrow points to the furnace</text>
+  <rect x="640" y="474" width="154" height="52" rx="10" fill="#5C6E58"/>
+  <text x="717" y="509" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#FFFDF9">MERV 6&#8211;8</text>
+  <rect x="800" y="474" width="154" height="52" rx="10" fill="#D9A441"/>
+  <text x="877" y="509" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2E2A24">10&#8211;11</text>
+  <rect x="960" y="474" width="154" height="52" rx="10" fill="#B85C38"/>
+  <text x="1037" y="509" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#FFFDF9">13</text>
+  <text x="877" y="572" font-family="Helvetica, Arial, sans-serif" font-size="24" text-anchor="middle" fill="#2E2A24">MERV 13 is the practical home max</text>
+</svg>

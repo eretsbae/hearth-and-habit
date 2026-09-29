@@ -33,6 +33,7 @@ import prompts  # noqa: E402
 
 SITE_CONFIG = ROOT / "config" / "site.yml"
 TOPICS_CONFIG = ROOT / "config" / "topics.yml"
+FACTS_CONFIG = ROOT / "config" / "facts.yml"
 POSTS_DIR = ROOT / "content" / "posts"
 IMAGES_DIR = ROOT / "content" / "images"
 
@@ -47,6 +48,38 @@ def load_yaml(path: Path) -> dict:
 def save_yaml(path: Path, data: dict) -> None:
     with open(path, "w", encoding="utf-8") as f:
         yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False, width=100)
+
+
+def facts_block() -> str:
+    """config/facts.yml rendered for the prompts: one line per fact + source."""
+    if not FACTS_CONFIG.exists():
+        return "- (none)"
+    facts = (load_yaml(FACTS_CONFIG) or {}).get("facts", [])
+    return "\n".join(f"- {f['fact']} Source: {f['source']}" for f in facts) or "- (none)"
+
+
+def published_list(topics_data: dict) -> str:
+    """Published posts as "- Title — URL" so the writer can link them for real
+    (given titles only, it wrote "[Title](#)" placeholders that went live)."""
+    lines = []
+    for t in topics_data["topics"]:
+        if t.get("status") != "published":
+            continue
+        url = t.get("blogger_url")
+        lines.append(f"- {t['title']} — {url}" if url else f"- {t['title']}")
+    return "\n".join(lines) or "- (none yet)"
+
+
+def clean_alt(text: str, limit: int = 140) -> str:
+    """Alt text trimmed on a word boundary. The old hard [:125] cut produced
+    alts ending mid-word ("...on a concrete", "...risin") on 49 posts."""
+    text = re.sub(r'[\[\]()"<>]', "", text or "").strip()
+    text = re.sub(r"^(a |an )?(simple )?flat (editorial )?(illustration|diagram) (of|showing) ", "", text, flags=re.I)
+    text = text[:1].upper() + text[1:]
+    if len(text) <= limit:
+        return text.rstrip(" .,;")
+    cut = text[:limit].rsplit(" ", 1)[0]
+    return cut.rstrip(" ,;:-—")
 
 
 def slugify(text: str) -> str:
@@ -131,9 +164,30 @@ FILLER_PHRASES = [
 ]
 
 
-def programmatic_checks(cfg: dict, body: str) -> list[str]:
+PLACEHOLDER_LINK_RE = re.compile(r"\]\((#|/)\)")
+BRACKET_TITLE_RE = re.compile(r"(?<!!)\[([A-Z][^\]]{6,120})\](?!\()")
+SITE_LINK_RE = re.compile(r"\]\((https?://(?:www\.)?hearth-habit\.com/[^)\s]+)\)")
+SAFETY_TOPIC_RE = re.compile(
+    r"\b(bleach|leftover|refreez|thaw|food poisoning|mold|mould|carbon monoxide|"
+    r"breaker|gas leak|smoke alarm|smoke detector|water heater)\b", re.I)
+TIC_LIMITS = {"genuinely": 1, "key takeaway": 1, "the good news": 1, "rule of thumb": 1}
+
+
+def programmatic_checks(cfg: dict, body: str, live_urls: set[str] | None = None) -> list[str]:
     """Fast, free, deterministic checks — run before spending an API call."""
     issues = []
+    if PLACEHOLDER_LINK_RE.search(body):
+        issues.append('Contains a placeholder link "(#)" or "(/)"; link the real post URL or remove the link.')
+    for m in BRACKET_TITLE_RE.finditer(body):
+        if m.group(1) != "INLINE_IMAGE":
+            issues.append(f'"[{m.group(1)}]" looks like a post title in brackets without a URL; link it or rewrite.')
+            break
+    if live_urls is not None:
+        for url in SITE_LINK_RE.findall(body):
+            if url not in live_urls:
+                issues.append(f"Links to {url}, which is not a live post URL on this site.")
+    if SAFETY_TOPIC_RE.search(body) and "## Sources" not in body:
+        issues.append('Safety-sensitive topic without a "## Sources" section citing registry URLs.')
     word_count = len(re.findall(r"\w+", body))
     min_words = cfg["generation"].get("quality_gate", {}).get("min_words", 700)
     if word_count < min_words:
@@ -146,6 +200,10 @@ def programmatic_checks(cfg: dict, body: str) -> list[str]:
     for phrase in FILLER_PHRASES:
         if phrase in lowered:
             issues.append(f'Contains a banned filler/self-referential phrase: "{phrase}".')
+    for phrase, limit in TIC_LIMITS.items():
+        n = lowered.count(phrase)
+        if n > limit:
+            issues.append(f'Uses the site\'s overused phrase "{phrase}" {n} times; keep it to {limit} or fewer.')
     return issues
 
 
@@ -154,6 +212,7 @@ def quality_review(client, cfg: dict, meta: dict, body: str, pillar: dict, publi
         title=meta["title"],
         pillar_name=pillar["name"],
         recent_titles="\n".join(f"- {t}" for t in published_titles) or "- (none yet)",
+        facts_block=facts_block(),
         body=body,
     )
     raw = call_claude(client, cfg["generation"]["model"], prompts.QUALITY_SYSTEM, user, max_tokens=1000)
@@ -178,7 +237,8 @@ def revise_article(client, cfg: dict, body: str, issues: list[str]) -> str:
 
 
 def enforce_quality_gate(
-    client, cfg: dict, meta: dict, body: str, pillar: dict, published_titles: list[str]
+    client, cfg: dict, meta: dict, body: str, pillar: dict, published_titles: list[str],
+    live_urls: set[str] | None = None,
 ) -> tuple[str, bool, int | None, list[str]]:
     """Returns (possibly-revised body, passed, last_score, remaining_issues).
 
@@ -204,7 +264,7 @@ def enforce_quality_gate(
     score = None
     issues: list[str] = []
     for attempt in range(max_rounds + 1):
-        prog_issues = programmatic_checks(cfg, body)
+        prog_issues = programmatic_checks(cfg, body, live_urls)
         verdict = quality_review(client, cfg, meta, body, pillar, published_titles)
         score = verdict.get("score")
         crit_issues = [i for i in verdict.get("issues", []) if i]
@@ -292,7 +352,7 @@ def pick_angle(published_count: int) -> str:
 
 
 def generate_article(
-    client, cfg: dict, topic: dict, pillar: dict, published_titles: list[str], angle_instruction: str
+    client, cfg: dict, topic: dict, pillar: dict, published_listing: str, angle_instruction: str
 ) -> tuple[dict, str]:
     user = prompts.ARTICLE_USER.format(
         title=topic["title"],
@@ -300,15 +360,20 @@ def generate_article(
         pillar_description=pillar["description"],
         target_words=cfg["generation"].get("target_words", 1400),
         angle_instruction=angle_instruction,
-        published_titles="\n".join(f"- {t}" for t in published_titles) or "- (none yet)",
+        published_titles=published_listing,
+        facts_block=facts_block(),
     )
     raw = call_claude(client, cfg["generation"]["model"], prompts.ARTICLE_SYSTEM, user)
     return parse_article(raw)
 
 
-def generate_svg(client, cfg: dict, brief: str, title: str) -> str:
+def generate_svg(client, cfg: dict, brief: str, title: str, diagram: bool = False) -> str:
+    """Hero art is decorative (no text). The inline image is an explanatory
+    diagram with short labels: decorative inline art taught readers nothing
+    and several were unreadable (a mushroom ring that looked like a spider)."""
     user = prompts.SVG_USER.format(brief=brief, title=title)
-    raw = call_claude(client, cfg["generation"]["model"], prompts.SVG_SYSTEM, user, max_tokens=6000)
+    system = prompts.SVG_DIAGRAM_SYSTEM if diagram else prompts.SVG_SYSTEM
+    raw = call_claude(client, cfg["generation"]["model"], system, user, max_tokens=6000)
     return sanitize_svg(raw)
 
 
@@ -339,9 +404,11 @@ def refill_topics(client, cfg: dict, topics_data: dict) -> int:
     added = 0
     for nt in new_topics:
         if nt.get("pillar") in valid_slugs and nt.get("title", "").lower() not in existing_titles:
-            topics_data["topics"].append(
-                {"title": nt["title"], "pillar": nt["pillar"], "status": "pending"}
-            )
+            entry = {"title": nt["title"], "pillar": nt["pillar"], "status": "pending"}
+            months = [m for m in nt.get("season_months") or [] if isinstance(m, int) and 1 <= m <= 12]
+            if months:
+                entry["season_months"] = months
+            topics_data["topics"].append(entry)
             added += 1
     return added
 
@@ -382,13 +449,11 @@ def write_post(meta: dict, body: str, topic: dict, hero_svg: str, inline_svg: st
     hero_name = f"{slug}-hero.svg"
     (IMAGES_DIR / hero_name).write_text(hero_svg, encoding="utf-8")
 
-    # Image alt text: reuse the art-direction briefs Claude already wrote.
-    # Descriptive alt is an image-SEO and accessibility signal we get for free.
-    def clean_alt(text: str) -> str:
-        return re.sub(r'[\[\]()"<>]', "", text).strip()[:125]
-
-    hero_alt = clean_alt(meta.get("hero_image_brief") or meta["title"])
-    inline_alt = clean_alt(meta.get("inline_image_brief") or meta["title"])
+    # Image alt text: the writer's dedicated alt fields, falling back to the
+    # art-direction briefs. Descriptive alt is an image-SEO and accessibility
+    # signal we get for free.
+    hero_alt = clean_alt(meta.get("hero_alt") or meta.get("hero_image_brief") or meta["title"])
+    inline_alt = clean_alt(meta.get("inline_alt") or meta.get("inline_image_brief") or meta["title"])
 
     if inline_svg:
         inline_name = f"{slug}-inline.svg"
@@ -410,6 +475,9 @@ def write_post(meta: dict, body: str, topic: dict, hero_svg: str, inline_svg: st
         "hero_image": f"/images/{hero_name}",
         "hero_alt": hero_alt,
     }
+    hooks = [h.strip() for h in meta.get("pin_hooks") or [] if isinstance(h, str) and h.strip()]
+    if hooks:
+        frontmatter["pin_hooks"] = hooks[:2]
     fm = yaml.safe_dump(frontmatter, allow_unicode=True, sort_keys=False).strip()
     out = POSTS_DIR / f"{date}-{slug}.md"
     out.write_text(f"---\n{fm}\n---\n\n{body}\n", encoding="utf-8")
@@ -456,9 +524,12 @@ def main() -> int:
         else:
             try:
                 angle_instruction = pick_angle(len(published_titles))
-                meta, body = generate_article(client, cfg, topic, pillar, published_titles, angle_instruction)
+                live_urls = {t["blogger_url"] for t in topics_data["topics"] if t.get("blogger_url")}
+                meta, body = generate_article(
+                    client, cfg, topic, pillar, published_list(topics_data), angle_instruction
+                )
                 body, passed, score, issues = enforce_quality_gate(
-                    client, cfg, meta, body, pillar, published_titles
+                    client, cfg, meta, body, pillar, published_titles, live_urls
                 )
             except Exception as exc:  # malformed/unexpected model response, API hiccup, etc.
                 # Leave the topic's status untouched (still "pending") so a future
@@ -479,7 +550,9 @@ def main() -> int:
                 hero_svg = generate_svg(client, cfg, meta["hero_image_brief"], meta["title"])
                 inline_svg = None
                 if meta.get("inline_image_brief") and "[INLINE_IMAGE]" in body:
-                    inline_svg = generate_svg(client, cfg, meta["inline_image_brief"], meta["title"])
+                    inline_svg = generate_svg(
+                        client, cfg, meta["inline_image_brief"], meta["title"], diagram=True
+                    )
             except Exception as exc:
                 print(f"  SKIPPED (image generation error, will retry next run): {exc}")
                 continue

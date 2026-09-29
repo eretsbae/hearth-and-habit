@@ -28,7 +28,13 @@ from pathlib import Path
 
 from google_auth_oauthlib.flow import InstalledAppFlow
 
-SCOPES = ["https://www.googleapis.com/auth/blogger"]
+# webmasters.readonly lets weekly_report.py read Search Console queries/pages.
+# Tokens minted before it was added keep working for Blogger; the report just
+# skips the Search Console section until this script is re-run.
+SCOPES = [
+    "https://www.googleapis.com/auth/blogger",
+    "https://www.googleapis.com/auth/webmasters.readonly",
+]
 ROOT = Path(__file__).resolve().parents[1]
 CLIENT_SECRET_FILE = ROOT / "generator" / "client_secret.json"
 

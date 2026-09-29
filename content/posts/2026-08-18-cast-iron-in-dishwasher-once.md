@@ -2,6 +2,7 @@
 title: What Happens If You Put Cast Iron in the Dishwasher Once?
 slug: cast-iron-in-dishwasher-once
 date: '2026-08-18'
+updated: '2026-09-29'
 description: One cycle won't ruin cast iron, but it will strip the seasoning. Here's
   what actually happens, why the myths are wrong, and how to fix it fast.
 tags:
@@ -11,13 +12,16 @@ tags:
 - dishwasher tips
 pillar: kitchen-habits
 hero_image: /images/cast-iron-in-dishwasher-once-hero.svg
-hero_alt: A flat illustration of a cast iron skillet sitting next to an open dishwasher
-  rack, with a faint dulled patch on the pan's su
+hero_alt: Cast iron skillet with a dull, stripped patch of seasoning sitting beside
+  a dishwasher rack with a plate and water droplets
+pin_hooks:
+- Dishwashed cast iron? Reseason at 400–450°F for an hour
+- One dishwasher cycle strips seasoning but won't warp the pan
 ---
 
 One dishwasher cycle won't ruin cast iron — it strips the seasoning and can trigger surface rust, but a good scrub, dry, and reseasoning fixes it completely.
 
-That's the real answer, and it's less dramatic than the warnings you've probably heard. Cast iron has a reputation for being fragile in ways it just isn't — it's a thick slab of iron, not a soufflé. But it does have one genuine weak point, and the dishwasher hits that weak point directly. Here's what's actually going on, myth by myth.
+That's the real answer, and it's less dramatic than the warnings you've probably heard. Cast iron has a reputation for being fragile in ways it just isn't — it's a thick slab of iron, not a soufflé. But it does have one real weak point, and the dishwasher hits that weak point directly. Here's what's actually going on, myth by myth.
 
 ## Myth #1: "One cycle will crack or warp the pan"
 
@@ -45,7 +49,7 @@ The rust that shows up is usually a light orange haze, not deep pitting. It look
 
 **The takeaway here isn't "your pan is ruined." It's "get it out and dry it promptly," which matters more after a dishwasher cycle than after normal use.**
 
-![A simple flat illustration showing a cast iron skillet being wiped with oil on a stovetop, mid-reseasoning process.](/images/cast-iron-in-dishwasher-once-inline.svg)
+![Hand wiping a thin coat of oil onto a cast iron skillet on a stovetop burner to start reseasoning it](/images/cast-iron-in-dishwasher-once-inline.svg)
 
 ## What to actually do if it already happened
 
@@ -66,13 +70,13 @@ Given that one cycle is fixable, you might reasonably ask why cast iron owners a
 
 It's the same logic as leaving a car out in one hailstorm versus parking it outside every storm for a year. One event is a fixable inconvenience. Repeated exposure compounds.
 
-The other reason cast iron and dishwashers don't mix well long-term: dishwasher racks and detergent don't discriminate between your cast iron and everything else in the load, which means the pan is also getting jostled against other cookware and sitting in standing water at the bottom of the tub for the full cycle length — conditions that are worse for rust risk than a quick hand wash and dry ever would be.
+The other reason cast iron and dishwashers don't mix well long-term: dishwasher racks and detergent don't discriminate between your cast iron and everything else in the load, which means the pan is also getting jostled against other cookware and sitting in standing water at the bottom of the tub for the full cycle length — conditions that are worse for rust risk than a quick hand wash and dry ever would be. Wooden cutting boards belong on the same hand-wash-only list for a related reason: [a long soak makes them warp](https://www.hearth-habit.com/2026/09/why-does-my-cutting-board-warp-after.html).
 
 ## The bottom line
 
 If a piece of cast iron accidentally went through the dishwasher once — someone unloading groceries didn't know the house rule, or it got mixed in with a load by mistake — you haven't ruined a family heirloom skillet. Dry it right away, deal with any rust with a quick scrub, and re-season it. It'll take an evening, and the pan will be back in rotation the next day.
 
-For everyday care, hand-washing with hot water and a stiff brush (mild soap is fine despite the old myth that soap ruins seasoning — modern dish soap isn't the lye-heavy stuff of decades past), drying immediately, and a light wipe of oil afterward is the routine that keeps cast iron in good shape for decades without ever needing a dishwasher rescue mission.
+For everyday care, hand-washing with hot water and a stiff brush (mild soap is fine despite the old myth that soap ruins seasoning — modern dish soap isn't the lye-heavy stuff of decades past), drying immediately, and a light wipe of oil afterward is the routine that keeps cast iron in good shape for decades without ever needing a dishwasher rescue mission. For everything that does belong in the machine, [these loading fixes](https://www.hearth-habit.com/2026/07/your-dishwasher-is-probably-loaded.html) get it clean the first time.
 
 ## FAQ
 
@@ -83,7 +87,7 @@ No — that's an older myth based on harsher, more caustic soaps from decades ag
 Look at the surface in good light. A healthy seasoning layer looks semi-glossy and dark, and food releases from it fairly easily. If you see dull gray patches, roughness, or food sticking noticeably more than usual, that's your sign to re-season, whether the cause was a dishwasher cycle or just years of wear.
 
 ### Does this same risk apply to enameled cast iron, like Dutch ovens?
-No, and this is an important distinction. Enameled cast iron (the kind with a colored glass-like coating) has no bare metal exposed and no seasoning to strip, so it's generally dishwasher-safe according to most manufacturers. The concerns in this article apply specifically to bare, seasoned cast iron like skillets and griddles.
+No, and this is an important distinction. Enameled cast iron (the kind with a colored glass-like coating) has no bare metal exposed and no seasoning to strip, so many manufacturers say it can go in the dishwasher — though most still recommend hand-washing to keep the enamel looking its best, so check yours. The concerns in this article apply specifically to bare, seasoned cast iron like skillets and griddles.
 
 ### Can I speed up drying by leaving the pan in a hot dishwasher after the cycle?
 It's better than leaving it in a cool, closed dishwasher, but not as good as drying it yourself on the stovetop. Dishwashers often finish with a damp interior and residual humidity, which is exactly the environment that encourages rust on exposed iron. A few minutes on a stovetop burner is a faster and more reliable way to get it fully dry.

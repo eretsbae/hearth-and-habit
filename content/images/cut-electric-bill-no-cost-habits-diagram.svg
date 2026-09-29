@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+  <text x="600" y="72" font-family="Helvetica, Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#2E2A24">Free habits that cut your electric bill</text>
+  <rect x="80" y="98" width="326.7" height="200" rx="18" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
+  <circle cx="114" cy="132" r="20" fill="#B85C38"/>
+  <text x="114" y="141" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#FFFDF9">1</text>
+  <rect x="189.3" y="128" width="80" height="80" rx="18" fill="#FFFDF9" stroke="#2E2A24" stroke-width="4"/>
+  <circle cx="229.3" cy="168" r="23" fill="none" stroke="#B85C38" stroke-width="7"/>
+  <line x1="229.3" y1="168" x2="240.3" y2="155" stroke="#2E2A24" stroke-width="4" stroke-linecap="round"/>
+  <line x1="295.3" y1="138" x2="295.3" y2="188" stroke="#2E2A24" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="295.3,202 286.3,186 304.3,186" fill="#2E2A24"/>
+  <text x="243.3" y="248" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2E2A24">Set back 7&#8211;10&#176;F</text>
+  <text x="243.3" y="280" font-family="Helvetica, Arial, sans-serif" font-size="26" text-anchor="middle" fill="#2E2A24">for 8 hours a day</text>
+  <rect x="436.7" y="98" width="326.7" height="200" rx="18" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
+  <circle cx="470.7" cy="132" r="20" fill="#B85C38"/>
+  <text x="470.7" y="141" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#FFFDF9">2</text>
+  <rect x="562" y="124" width="76" height="88" rx="12" fill="#FFFDF9" stroke="#2E2A24" stroke-width="4"/>
+  <line x1="562" y1="146" x2="638" y2="146" stroke="#2E2A24" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="600" cy="178" r="24" fill="#5C6E58"/>
+  <line x1="586" y1="178" x2="614" y2="178" stroke="#FFFDF9" stroke-width="3" stroke-linecap="round"/>
+  <line x1="593" y1="165.9" x2="607" y2="190.1" stroke="#FFFDF9" stroke-width="3" stroke-linecap="round"/>
+  <line x1="607" y1="165.9" x2="593" y2="190.1" stroke="#FFFDF9" stroke-width="3" stroke-linecap="round"/>
+  <text x="600" y="248" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2E2A24">Wash clothes</text>
+  <text x="600" y="280" font-family="Helvetica, Arial, sans-serif" font-size="26" text-anchor="middle" fill="#2E2A24">in cold water</text>
+  <rect x="793.3" y="98" width="326.7" height="200" rx="18" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
+  <circle cx="827.3" cy="132" r="20" fill="#B85C38"/>
+  <text x="827.3" y="141" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#FFFDF9">3</text>
+  <rect x="918.7" y="124" width="76" height="88" rx="12" fill="#FFFDF9" stroke="#2E2A24" stroke-width="4"/>
+  <rect x="934.7" y="134" width="44" height="9" rx="4" fill="#D9A441"/>
+  <circle cx="956.7" cy="178" r="24" fill="#EED6AA" stroke="#2E2A24" stroke-width="4"/>
+  <path d="M945.6666666666667,178 l7,8 l15,-16" fill="none" stroke="#2E2A24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="956.7" y="248" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2E2A24">Clean lint screen,</text>
+  <text x="956.7" y="280" font-family="Helvetica, Arial, sans-serif" font-size="26" text-anchor="middle" fill="#2E2A24">use sensor dry</text>
+  <rect x="80" y="318" width="326.7" height="200" rx="18" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
+  <circle cx="114" cy="352" r="20" fill="#B85C38"/>
+  <text x="114" y="361" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#FFFDF9">4</text>
+  <rect x="191.3" y="358" width="40" height="60" rx="8" fill="#FFFDF9" stroke="#2E2A24" stroke-width="4"/>
+  <rect x="205.3" y="372" width="5" height="13" fill="#2E2A24"/>
+  <rect x="217.3" y="372" width="5" height="13" fill="#2E2A24"/>
+  <rect x="205.3" y="393" width="5" height="13" fill="#2E2A24"/>
+  <rect x="217.3" y="393" width="5" height="13" fill="#2E2A24"/>
+  <rect x="251.3" y="366" width="36" height="40" rx="8" fill="#2E2A24"/>
+  <rect x="239.3" y="374" width="12" height="5" fill="#2E2A24"/>
+  <rect x="239.3" y="393" width="12" height="5" fill="#2E2A24"/>
+  <path d="M287.33333333333337,386 q22,0 18,26 t14,20" fill="none" stroke="#2E2A24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="243.3" y="468" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2E2A24">Unplug idle</text>
+  <text x="243.3" y="500" font-family="Helvetica, Arial, sans-serif" font-size="26" text-anchor="middle" fill="#2E2A24">phantom loads</text>
+  <rect x="436.7" y="318" width="326.7" height="200" rx="18" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
+  <circle cx="470.7" cy="352" r="20" fill="#B85C38"/>
+  <text x="470.7" y="361" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#FFFDF9">5</text>
+  <circle cx="596" cy="390" r="34" fill="#D9A441"/>
+  <circle cx="612" cy="378" r="30" fill="#FFFDF9"/>
+  <circle cx="630" cy="414" r="4" fill="#D9A441"/>
+  <circle cx="640" cy="354" r="3" fill="#D9A441"/>
+  <circle cx="560" cy="354" r="3" fill="#D9A441"/>
+  <text x="600" y="468" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2E2A24">Full loads,</text>
+  <text x="600" y="500" font-family="Helvetica, Arial, sans-serif" font-size="26" text-anchor="middle" fill="#2E2A24">off-peak hours</text>
+  <rect x="793.3" y="318" width="326.7" height="200" rx="18" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
+  <circle cx="827.3" cy="352" r="20" fill="#B85C38"/>
+  <text x="827.3" y="361" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#FFFDF9">6</text>
+  <rect x="916.7" y="344" width="80" height="70" rx="10" fill="#FFFDF9" stroke="#2E2A24" stroke-width="4"/>
+  <line x1="930.7" y1="382" x2="982.7" y2="382" stroke="#2E2A24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="938.7" y1="382" x2="938.7" y2="362" stroke="#5C6E58" stroke-width="4" stroke-linecap="round"/>
+  <line x1="950.7" y1="382" x2="950.7" y2="362" stroke="#5C6E58" stroke-width="4" stroke-linecap="round"/>
+  <line x1="962.7" y1="382" x2="962.7" y2="362" stroke="#5C6E58" stroke-width="4" stroke-linecap="round"/>
+  <line x1="974.7" y1="382" x2="974.7" y2="362" stroke="#5C6E58" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="916.7,418 996.7,418 1010.7,434 902.7,434" fill="#E4C7B2" stroke="#2E2A24" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M902.6666666666667,382 q-8,-10 0,-20 t0,-20" fill="none" stroke="#5C6E58" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1010.6666666666667,382 q-8,-10 0,-20 t0,-20" fill="none" stroke="#5C6E58" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="956.7" y="468" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2E2A24">Dishwasher:</text>
+  <text x="956.7" y="500" font-family="Helvetica, Arial, sans-serif" font-size="26" text-anchor="middle" fill="#2E2A24">air-dry, not heat</text>
+  <text x="600" y="568" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#5C6E58">Together: roughly 5&#8211;10% off the bill</text>
+</svg>

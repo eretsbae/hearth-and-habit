@@ -544,6 +544,9 @@ topics:
 - title: Why Does My Front Door Stick Only in the Summer?
   pillar: home-maintenance
   status: pending
+  season_months:
+  - 5
+  - 6
 - title: Why Does My Smoke Detector Chirp Even With a New Battery Installed?
   pillar: home-maintenance
   status: pending
@@ -599,3 +602,55 @@ topics:
   blogger_post_id: '2586986532845632118'
   pinterest_batch: pins12
   pinterest_pin_id: manual
+- title: Why Does My Furnace Smell Like Burning Dust the First Time I Turn It On?
+  pillar: home-maintenance
+  status: pending
+  season_months:
+  - 9
+  - 10
+  - 11
+- title: Should You Rake Leaves Off the Lawn or Leave Them There Over Winter?
+  pillar: yard-outdoor
+  status: pending
+  season_months:
+  - 10
+  - 11
+- title: How Long Does a Frozen Turkey Take to Thaw in the Fridge Before Thanksgiving?
+  pillar: kitchen-habits
+  status: pending
+  season_months:
+  - 10
+  - 11
+- title: How Do You Store Summer Clothes So They Don't Smell or Yellow by Spring?
+  pillar: cleaning-organization
+  status: pending
+  season_months:
+  - 9
+  - 10
+- title: Why Is My Gas Bill Higher This Winter When I Haven't Touched the Thermostat?
+  pillar: energy-savings
+  status: pending
+  season_months:
+  - 11
+  - 12
+  - 1
+- title: Musty Smell in the House? How to Find the Source, Room by Room
+  pillar: cleaning-organization
+  status: published
+  published_slug: musty-smell-in-house-find-the-source
+  hub: true
+- title: Why Is My Electric Bill So High? A Step-by-Step Checklist to Find the Cause
+  pillar: energy-savings
+  status: published
+  published_slug: why-is-my-electric-bill-so-high-checklist
+  hub: true
+- title: 'Leftovers, Thawing, and Fridge Storage: The Food Safety Rules in One Place'
+  pillar: kitchen-habits
+  status: published
+  published_slug: food-storage-safety-rules-leftovers-thawing
+  hub: true
+- title: Clutter Keeps Coming Back? Match the Problem to the Fix
+  pillar: cleaning-organization
+  status: published
+  published_slug: clutter-keeps-coming-back-which-fix
+  hub: true

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- washer body -->
+  <rect x="462" y="540" width="26" height="16" rx="4" fill="#2E2A24"/>
+  <rect x="692" y="540" width="26" height="16" rx="4" fill="#2E2A24"/>
+  <rect x="440" y="105" width="300" height="442" rx="24" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="6"/>
+  <path d="M443 180 V129 Q443 108 464 108 H716 Q737 108 737 129 V180 Z" fill="#E4C7B2"/>
+
+  <!-- detergent drawer, display, knob -->
+  <rect x="458" y="122" width="124" height="42" rx="6" fill="#FFFDF9" stroke="#5C6E58" stroke-width="3"/>
+  <rect x="496" y="139" width="56" height="8" rx="4" fill="#5C6E58"/>
+  <rect x="612" y="130" width="50" height="26" rx="5" fill="#5C6E58"/>
+  <circle cx="696" cy="143" r="19" fill="#D9A441"/>
+
+  <!-- door: frame, rubber gasket, drum -->
+  <circle cx="590" cy="345" r="128" fill="#E4C7B2"/>
+  <circle cx="590" cy="345" r="106" fill="#827F7C"/>
+  <path d="M506 408 A106 106 0 0 0 674 408" fill="none" stroke="#2E2A24" stroke-width="8" opacity="0.45"/>
+  <circle cx="590" cy="345" r="86" fill="#D6DDD5"/>
+  <g fill="#FFFDF9">
+    <circle cx="560" cy="300" r="6"/><circle cx="620" cy="300" r="6"/><circle cx="545" cy="350" r="6"/>
+    <circle cx="590" cy="370" r="6"/><circle cx="635" cy="350" r="6"/><circle cx="575" cy="400" r="6"/>
+    <circle cx="610" cy="400" r="6"/><circle cx="590" cy="280" r="6"/>
+  </g>
+
+  <!-- drain pump filter hatch -->
+  <rect x="458" y="498" width="72" height="38" rx="6" fill="#E4C7B2"/>
+  <circle cx="494" cy="517" r="12" fill="#FFFDF9" stroke="#2E2A24" stroke-width="3"/>
+
+  <!-- connector lines (badge -> spot) -->
+  <g stroke="#2E2A24" stroke-width="3" stroke-linecap="round" fill="none">
+    <line x1="779" y1="424" x2="668" y2="414"/>
+    <line x1="421" y1="143" x2="472" y2="143"/>
+    <line x1="421" y1="517" x2="480" y2="517"/>
+    <line x1="779" y1="256" x2="570" y2="328"/>
+  </g>
+
+  <!-- spot dots -->
+  <g fill="#B85C38" stroke="#FFFDF9" stroke-width="3">
+    <circle cx="660" cy="412" r="10"/>
+    <circle cx="476" cy="143" r="10"/>
+    <circle cx="494" cy="517" r="8"/>
+    <circle cx="566" cy="330" r="10"/>
+  </g>
+
+  <!-- numbered badges -->
+  <g fill="#B85C38">
+    <circle cx="800" cy="424" r="21"/>
+    <circle cx="400" cy="143" r="21"/>
+    <circle cx="400" cy="517" r="21"/>
+    <circle cx="800" cy="256" r="21"/>
+  </g>
+
+  <g font-family="Helvetica, Arial, sans-serif">
+    <g fill="#FFFDF9" font-size="24" font-weight="bold" text-anchor="middle">
+      <text x="800" y="432">1</text>
+      <text x="400" y="151">2</text>
+      <text x="400" y="525">4</text>
+      <text x="800" y="264">3</text>
+    </g>
+    <g fill="#2E2A24">
+      <text x="600" y="72" font-size="38" font-weight="bold" text-anchor="middle">Where the musty smell hides in a washer</text>
+
+      <text x="834" y="420" font-size="28" font-weight="bold">Door gasket fold</text>
+      <text x="834" y="450" font-size="24">wipe it, leave door open</text>
+
+      <text x="366" y="139" font-size="28" font-weight="bold" text-anchor="end">Detergent drawer</text>
+      <text x="366" y="169" font-size="24" text-anchor="end">soak, scrub, leave open</text>
+
+      <text x="366" y="513" font-size="28" font-weight="bold" text-anchor="end">Drain pump filter</text>
+      <text x="366" y="543" font-size="24" text-anchor="end">empty every few months</text>
+
+      <text x="834" y="252" font-size="28" font-weight="bold">Drum residue</text>
+      <text x="834" y="282" font-size="24">hot, empty cycle monthly</text>
+    </g>
+  </g>
+</svg>

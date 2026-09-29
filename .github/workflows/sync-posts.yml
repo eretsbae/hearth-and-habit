@@ -1,0 +1,71 @@
+# content/posts 의 글을 라이브 Blogger 글에 반영합니다(제목·본문·라벨 PATCH).
+# 저장소가 정본입니다: 이미 발행된 글을 고쳐 main 에 머지해도, 이 워크플로가
+# 돌기 전까지 독자는 옛 글을 봅니다.
+# - push: 사람이 main 에 push/머지할 때 content/posts 가 바뀌었으면, 그 push 로
+#   바뀐 글만 자동 반영합니다. 봇(GITHUB_TOKEN) push 는 워크플로를 트리거하지
+#   않으므로 매일 자동 발행 커밋으로는 돌지 않습니다.
+# - 수동 실행: slugs 에 공백으로 구분한 slug 를 넣거나, "all" 로 라이브 글 전체.
+# - URL·발행일은 그대로. Blogger 편집기에서 손으로 고친 내용은 덮어씁니다.
+# - 이미지는 raw.githubusercontent.com/.../main 을 참조하므로 반드시 main 기준으로
+#   돌아야 합니다(브랜치에서 돌리면 아직 main 에 없는 이미지가 깨집니다).
+# - 저장소에 쓰지 않지만, 발행/관련글 갱신과 같은 글을 동시에 PATCH 하지 않도록
+#   repo-write 그룹에 들어갑니다.
+
+name: Sync Posts to Blogger
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/posts/**"
+  workflow_dispatch:
+    inputs:
+      slugs:
+        description: 'Space-separated slugs to sync, or "all" for every live post'
+        required: true
+        default: "all"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: repo-write
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Sync changed posts (push)
+        if: github.event_name == 'push'
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          BEFORE: ${{ github.event.before }}
+        run: python generator/blogger_publish.py --sync-content --changed-since "$BEFORE"
+
+      - name: Sync requested posts (manual)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          SLUGS: ${{ github.event.inputs.slugs }}
+        run: |
+          if [ "$SLUGS" = "all" ]; then
+            python generator/blogger_publish.py --sync-content
+          else
+            python generator/blogger_publish.py --sync-content $SLUGS
+          fi

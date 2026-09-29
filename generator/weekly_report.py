@@ -43,6 +43,80 @@ HISTORY_FILE = ROOT / "data" / "traffic_history.json"
 REPORTS_DIR = ROOT / "docs" / "reports"
 
 RANGE_KEYS = {"SEVEN_DAYS": "pv_7d", "THIRTY_DAYS": "pv_30d", "ALL_TIME": "pv_all"}
+GSC_API = "https://www.googleapis.com/webmasters/v3"
+
+
+def fetch_search_console(access_token: str, blog_url: str, today: datetime.date) -> dict | None:
+    """Last-28-day Google Search clicks/impressions by query and by page.
+
+    Blogger pageviews count bots and can't say which post or query brought a
+    reader, so they can't tell us which posts to improve. Search Console can.
+    Needs the webmasters.readonly scope (generator/blogger_auth.py); with an
+    older token this returns {"error": ...} and the report says how to fix it.
+    """
+    headers = {"Authorization": f"Bearer {access_token}"}
+    try:
+        resp = requests.get(f"{GSC_API}/sites", headers=headers, timeout=30)
+        if resp.status_code in (401, 403):
+            return {"error": "scope"}
+        resp.raise_for_status()
+        host = re.sub(r"^https?://(www\.)?", "", blog_url).rstrip("/")
+        sites = [s["siteUrl"] for s in resp.json().get("siteEntry", [])
+                 if host in s.get("siteUrl", "") and s.get("permissionLevel") != "siteUnverifiedUser"]
+        if not sites:
+            return {"error": "no-property"}
+        # Prefer the domain property (covers www + apex) over a URL prefix.
+        site = sorted(sites, key=lambda u: not u.startswith("sc-domain:"))[0]
+        end = today - datetime.timedelta(days=3)  # GSC data lags ~2-3 days
+        start = end - datetime.timedelta(days=27)
+        out: dict = {"site": site, "start": start.isoformat(), "end": end.isoformat()}
+        for dim in ("query", "page"):
+            r = requests.post(
+                f"{GSC_API}/sites/{requests.utils.quote(site, safe='')}/searchAnalytics/query",
+                json={"startDate": out["start"], "endDate": out["end"],
+                      "dimensions": [dim], "rowLimit": 15},
+                headers=headers, timeout=30,
+            )
+            r.raise_for_status()
+            out[dim] = r.json().get("rows", [])
+        return out
+    except requests.exceptions.RequestException as e:
+        print(f"WARN: Search Console fetch failed ({e})")
+        return {"error": "request"}
+
+
+def gsc_section(gsc: dict | None) -> list[str]:
+    if gsc is None:
+        return []
+    lines = ["", "## Google 검색 실적 (Search Console, 최근 28일)", ""]
+    err = gsc.get("error")
+    if err == "scope":
+        return lines + [
+            "- 수집 안 됨: 토큰에 Search Console 권한이 없습니다. 로컬에서",
+            "  `python generator/blogger_auth.py` 를 다시 실행해 새 GOOGLE_REFRESH_TOKEN 을",
+            "  GitHub Secrets 에 넣으면 다음 리포트부터 채워집니다.",
+        ]
+    if err == "no-property":
+        return lines + ["- 수집 안 됨: 이 Google 계정에서 hearth-habit.com 속성을 찾지 못했습니다."]
+    if err:
+        return lines + ["- 수집 실패 (일시적 오류). 다음 주에 다시 시도합니다."]
+
+    def table(rows: list[dict], label: str) -> list[str]:
+        if not rows:
+            return [f"- {label}: 데이터 없음 (노출 0)"]
+        out = [f"| {label} | 클릭 | 노출 | CTR | 평균 순위 |", "|---|---|---|---|---|"]
+        for r in rows:
+            key = r["keys"][0].replace("|", "/")
+            out.append(f"| {key} | {int(r['clicks'])} | {int(r['impressions'])} | "
+                       f"{r['ctr'] * 100:.1f}% | {r['position']:.1f} |")
+        return out
+
+    lines += [f"기간 {gsc['start']} ~ {gsc['end']} · 속성 `{gsc['site']}`", ""]
+    lines += table(gsc.get("query", []), "검색어") + [""]
+    lines += table(gsc.get("page", []), "페이지")
+    lines += ["", "> 노출은 많은데 CTR이 낮은 글 = 제목·첫 문장 개선 후보. "
+                  "순위 8~20위 글 = 내용 보강 1순위."]
+    return lines
 
 
 def fetch_pageviews(access_token: str, blog_id: str) -> dict:
@@ -140,7 +214,8 @@ def fmt_delta(cur: int | None, prev: int | None) -> str:
 
 
 def build_report_md(
-    today: datetime.date, pv: dict, stats: dict, prev: dict | None, comments: list[dict] | None = None
+    today: datetime.date, pv: dict, stats: dict, prev: dict | None, comments: list[dict] | None = None,
+    gsc: dict | None = None,
 ) -> str:
     prev_pv = (prev or {}).get("pageviews", {})
     lines = [
@@ -163,6 +238,7 @@ def build_report_md(
     if stats["new_this_week"]:
         lines += ["", "### 이번 주 발행"]
         lines += [f"- [{t['title']}]({t['blogger_url']})" for t in stats["new_this_week"]]
+    lines += gsc_section(gsc)
     if comments:
         lines += ["", "## 새 댓글 — 답변해주세요 (Blogger 글에서 직접)", ""]
         lines += [
@@ -210,6 +286,7 @@ def main() -> int:
     pv = fetch_pageviews(access_token, blog_id)
     stats = content_stats(topics_data, since=since)
     comments = fetch_recent_comments(access_token, blog_id, topics_data, since)
+    gsc = fetch_search_console(access_token, blog_url, today)
     history = load_history()
     prev = history[-1] if history else None
 
@@ -224,7 +301,7 @@ def main() -> int:
 
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     report_path = REPORTS_DIR / f"weekly-{today.isoformat()}.md"
-    report_path.write_text(build_report_md(today, pv, stats, prev, comments), encoding="utf-8")
+    report_path.write_text(build_report_md(today, pv, stats, prev, comments, gsc), encoding="utf-8")
     print(f"Report written: {report_path.relative_to(ROOT)}")
 
     gh = cfg["github"]

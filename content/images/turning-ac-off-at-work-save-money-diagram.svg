@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+  <text x="600" y="72" font-family="Helvetica, Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#2E2A24">AC off vs. setback vs. constant</text>
+  <rect x="518.8" y="116" width="310" height="334" fill="#E4C7B2" opacity="0.7"/>
+  <text x="673.8" y="146" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2E2A24">At work 9&#8211;5 (8 hours)</text>
+  <line x1="170" y1="450" x2="1100" y2="450" stroke="#2E2A24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="170" y1="450" x2="170" y2="124" stroke="#2E2A24" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="170,110 179,126 161,126" fill="#2E2A24"/>
+  <text x="140" y="290" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#2E2A24" transform="rotate(-90 140 290)">Warmer indoors</text>
+  <line x1="170" y1="450" x2="170" y2="460" stroke="#2E2A24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="402.5" y1="450" x2="402.5" y2="460" stroke="#2E2A24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="635" y1="450" x2="635" y2="460" stroke="#2E2A24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="867.5" y1="450" x2="867.5" y2="460" stroke="#2E2A24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="1100" y1="450" x2="1100" y2="460" stroke="#2E2A24" stroke-width="3" stroke-linecap="round"/>
+  <text x="170" y="484" font-family="Helvetica, Arial, sans-serif" font-size="24" text-anchor="middle" fill="#2E2A24">12 AM</text>
+  <text x="635" y="484" font-family="Helvetica, Arial, sans-serif" font-size="24" text-anchor="middle" fill="#2E2A24">Noon</text>
+  <text x="1100" y="484" font-family="Helvetica, Arial, sans-serif" font-size="24" text-anchor="middle" fill="#2E2A24">12 AM</text>
+  <line x1="170" y1="400" x2="1100" y2="400" stroke="#5C6E58" stroke-width="6" stroke-linecap="butt"/>
+  <path d="M518.8,400 C558.2,371 597.6,334.3 638.8,300 Q664.8,300 686.8,300 L794.8,300 C814.8,300 814.8,400 828.8,400" fill="none" stroke="#D9A441" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M518.8,400 C613.8,330 708.8,216 828.8,196 C852.8,196 862.8,400 892.8,400" fill="none" stroke="#B85C38" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="196" y1="172" x2="244" y2="172" stroke="#B85C38" stroke-width="7" stroke-linecap="butt"/>
+  <text x="256" y="180" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#2E2A24">AC off all day</text>
+  <line x1="196" y1="216" x2="244" y2="216" stroke="#D9A441" stroke-width="7" stroke-linecap="butt"/>
+  <text x="256" y="224" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#2E2A24">Setback 7&#8211;10&#176;F</text>
+  <line x1="196" y1="260" x2="244" y2="260" stroke="#5C6E58" stroke-width="7" stroke-linecap="butt"/>
+  <text x="256" y="268" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#2E2A24">Constant setting</text>
+  <line x1="866.8" y1="290" x2="904.8" y2="290" stroke="#2E2A24" stroke-width="3" stroke-linecap="round"/>
+  <text x="912.8" y="298" font-family="Helvetica, Arial, sans-serif" font-size="24" font-style="italic" fill="#2E2A24">Long recovery run</text>
+  <rect x="258" y="510" width="684" height="58" rx="16" fill="#FFFDF9" stroke="#5C6E58" stroke-width="3"/>
+  <text x="600" y="548" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2E2A24">DOE: 7&#8211;10&#176;F setback for 8 hours &#8776; up to 10% a year</text>
+</svg>

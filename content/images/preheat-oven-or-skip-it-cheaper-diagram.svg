@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+  <text x="600" y="74" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="#2E2A24">Preheat or skip it?</text>
+  <rect x="80" y="104" width="500" height="470" rx="22" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
+  <rect x="80" y="104" width="500" height="80" rx="22" fill="#5C6E58"/>
+  <rect x="80" y="160" width="500" height="24" fill="#5C6E58"/>
+  <text x="330" y="156" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#FFFDF9">Skip preheat</text>
+  <rect x="110" y="238" width="52" height="8" rx="4" fill="#2E2A24"/>
+  <rect x="114" y="248" width="44" height="30" rx="8" fill="#2E2A24"/>
+  <circle cx="136" cy="233" r="5" fill="#2E2A24"/>
+  <rect x="104" y="254" width="10" height="6" rx="3" fill="#2E2A24"/>
+  <rect x="158" y="254" width="10" height="6" rx="3" fill="#2E2A24"/>
+  <text x="184" y="267" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Slow roasts &amp; braises</text>
+  <line x1="110" y1="313" x2="550" y2="313" stroke="#E4C7B2" stroke-width="2" stroke-linecap="round"/>
+  <rect x="108" y="362" width="56" height="26" rx="8" fill="#B85C38"/>
+  <ellipse cx="136" cy="362" rx="28" ry="9" fill="#D9A441"/>
+  <rect x="100" y="368" width="10" height="7" rx="3" fill="#B85C38"/>
+  <rect x="162" y="368" width="10" height="7" rx="3" fill="#B85C38"/>
+  <text x="184" y="377" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Casseroles &amp; baked pasta</text>
+  <line x1="110" y1="423" x2="550" y2="423" stroke="#E4C7B2" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="136" cy="488" rx="30" ry="11" fill="#FFFDF9" stroke="#2E2A24" stroke-width="3"/>
+  <ellipse cx="136" cy="483" rx="15" ry="8" fill="#B85C38"/>
+  <path d="M128,472 q-6,-8 0,-14 t0,-14" fill="none" stroke="#5C6E58" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M144,472 q-6,-8 0,-14 t0,-14" fill="none" stroke="#5C6E58" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="184" y="487" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Reheating leftovers</text>
+  <rect x="620" y="104" width="500" height="470" rx="22" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
+  <rect x="620" y="104" width="500" height="80" rx="22" fill="#B85C38"/>
+  <rect x="620" y="160" width="500" height="24" fill="#B85C38"/>
+  <text x="870" y="156" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#FFFDF9">Preheat first</text>
+  <circle cx="676" cy="258" r="24" fill="#D9A441"/>
+  <circle cx="667" cy="250" r="3.5" fill="#2E2A24"/>
+  <circle cx="684" cy="248" r="3.5" fill="#2E2A24"/>
+  <circle cx="674" cy="263" r="3.5" fill="#2E2A24"/>
+  <circle cx="687" cy="266" r="3.5" fill="#2E2A24"/>
+  <circle cx="664" cy="268" r="3.5" fill="#2E2A24"/>
+  <text x="724" y="267" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24">Cookies, cakes, biscuits, bread</text>
+  <line x1="650" y1="313" x2="1090" y2="313" stroke="#E4C7B2" stroke-width="2" stroke-linecap="round"/>
+  <polygon points="650,348 702,348 676,394" fill="#D9A441"/>
+  <line x1="650" y1="347" x2="702" y2="347" stroke="#B85C38" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="668" cy="360" r="5" fill="#B85C38"/>
+  <circle cx="685" cy="362" r="5" fill="#B85C38"/>
+  <circle cx="676" cy="376" r="4" fill="#B85C38"/>
+  <text x="724" y="377" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Pizza on a stone or steel</text>
+  <line x1="650" y1="423" x2="1090" y2="423" stroke="#E4C7B2" stroke-width="2" stroke-linecap="round"/>
+  <path d="M676,450 C698,472 702,484 696,494 C690,506 662,506 656,494 C650,482 664,472 676,450 Z" fill="#B85C38"/>
+  <path d="M676,474 C686,484 688,490 684,496 C680,502 672,502 668,496 C664,490 668,484 676,474 Z" fill="#D9A441"/>
+  <text x="724" y="487" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24">Browning, searing, crisp skin</text>
+</svg>

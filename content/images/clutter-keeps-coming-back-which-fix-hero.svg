@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft background shapes -->
+  <circle cx="1110" cy="90" r="90" fill="#E4C7B2" opacity="0.4"/>
+  <circle cx="75" cy="95" r="50" fill="#D9A441" opacity="0.16"/>
+
+  <!-- floor -->
+  <rect x="0" y="540" width="1200" height="90" fill="#E4C7B2" opacity="0.55"/>
+  <rect x="0" y="538" width="1200" height="4" fill="#2E2A24" opacity="0.12"/>
+  <ellipse cx="700" cy="562" rx="250" ry="18" fill="#5C6E58" opacity="0.18"/>
+
+  <!-- WALL HOOK RAIL -->
+  <rect x="100" y="140" width="360" height="16" rx="8" fill="#5C6E58"/>
+  <path d="M150 156 L150 178 Q150 190 162 186" fill="none" stroke="#D9A441" stroke-width="8" stroke-linecap="round"/>
+  <path d="M240 156 L240 178 Q240 190 252 186" fill="none" stroke="#D9A441" stroke-width="8" stroke-linecap="round"/>
+  <path d="M330 156 L330 178 Q330 190 342 186" fill="none" stroke="#D9A441" stroke-width="8" stroke-linecap="round"/>
+  <path d="M420 156 L420 178 Q420 190 432 186" fill="none" stroke="#D9A441" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- keys on hook 1 -->
+  <circle cx="152" cy="198" r="12" fill="none" stroke="#2E2A24" stroke-width="4" opacity="0.7"/>
+  <circle cx="142" cy="218" r="9" fill="#D9A441"/>
+  <rect x="138" y="224" width="8" height="34" rx="3" fill="#D9A441"/>
+  <rect x="146" y="246" width="8" height="5" fill="#D9A441"/>
+  <circle cx="163" cy="220" r="9" fill="#B85C38"/>
+  <rect x="159" y="226" width="8" height="30" rx="3" fill="#B85C38"/>
+  <rect x="167" y="244" width="7" height="5" fill="#B85C38"/>
+
+  <!-- tote on hook 2 -->
+  <path d="M216 252 Q240 176 264 252" fill="none" stroke="#B85C38" stroke-width="7" stroke-linecap="round"/>
+  <path d="M198 250 L282 250 L294 362 L186 362 Z" fill="#B85C38"/>
+  <rect x="214" y="284" width="52" height="42" rx="4" fill="#F6EFE6" opacity="0.25"/>
+
+  <!-- jacket on hook 3 -->
+  <path d="M302 186 L358 186 L380 214 L380 408 L280 408 L280 214 Z" fill="#5C6E58"/>
+  <path d="M316 186 L330 236 L344 186 Z" fill="#2E2A24" opacity="0.18"/>
+  <rect x="329" y="236" width="3" height="172" fill="#2E2A24" opacity="0.15"/>
+  <circle cx="340" cy="270" r="4" fill="#D9A441"/>
+  <circle cx="340" cy="310" r="4" fill="#D9A441"/>
+  <circle cx="340" cy="350" r="4" fill="#D9A441"/>
+
+  <!-- scarf on hook 4 -->
+  <path d="M408 184 L434 184 L444 344 L420 350 Z" fill="#D9A441"/>
+  <rect x="418" y="330" width="26" height="8" fill="#B85C38" opacity="0.5"/>
+
+  <!-- shoes below -->
+  <rect x="236" y="518" width="58" height="20" rx="10" fill="#2E2A24" opacity="0.7"/>
+  <rect x="302" y="518" width="58" height="20" rx="10" fill="#2E2A24" opacity="0.7"/>
+
+  <!-- MIRROR -->
+  <circle cx="700" cy="170" r="88" fill="#E4C7B2"/>
+  <circle cx="700" cy="170" r="88" fill="none" stroke="#D9A441" stroke-width="12"/>
+  <path d="M650 150 A55 55 0 0 1 690 112" fill="none" stroke="#F6EFE6" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- CONSOLE TABLE -->
+  <rect x="542" y="412" width="14" height="128" fill="#2E2A24" opacity="0.7"/>
+  <rect x="844" y="412" width="14" height="128" fill="#2E2A24" opacity="0.7"/>
+  <rect x="530" y="348" width="340" height="64" fill="#B85C38" opacity="0.85"/>
+  <rect x="548" y="358" width="145" height="44" rx="6" fill="#F6EFE6" opacity="0.18"/>
+  <rect x="707" y="358" width="145" height="44" rx="6" fill="#F6EFE6" opacity="0.18"/>
+  <circle cx="620" cy="380" r="6" fill="#D9A441"/>
+  <circle cx="780" cy="380" r="6" fill="#D9A441"/>
+  <rect x="510" y="330" width="380" height="18" rx="6" fill="#B85C38"/>
+
+  <!-- tray with wallet and phone -->
+  <rect x="566" y="316" width="150" height="14" rx="7" fill="#D9A441"/>
+  <rect x="584" y="298" width="50" height="20" rx="5" fill="#2E2A24" opacity="0.75"/>
+  <rect x="644" y="304" width="58" height="12" rx="4" fill="#5C6E58"/>
+
+  <!-- plant -->
+  <ellipse cx="800" cy="250" rx="14" ry="34" fill="#5C6E58" transform="rotate(-25 800 250)"/>
+  <ellipse cx="822" cy="244" rx="14" ry="38" fill="#5C6E58" opacity="0.85"/>
+  <ellipse cx="844" cy="252" rx="14" ry="32" fill="#5C6E58" opacity="0.7" transform="rotate(25 844 252)"/>
+  <path d="M790 280 L854 280 L846 330 L798 330 Z" fill="#E4C7B2"/>
+  <rect x="786" y="276" width="72" height="10" rx="4" fill="#D9A441"/>
+
+  <!-- basket under the table -->
+  <rect x="632" y="454" width="62" height="20" rx="6" fill="#5C6E58"/>
+  <rect x="700" y="458" width="72" height="16" rx="6" fill="#E4C7B2"/>
+  <rect x="612" y="468" width="176" height="72" rx="10" fill="#D9A441"/>
+  <rect x="612" y="488" width="176" height="5" fill="#B85C38" opacity="0.25"/>
+  <rect x="612" y="506" width="176" height="5" fill="#B85C38" opacity="0.25"/>
+  <rect x="612" y="524" width="176" height="5" fill="#B85C38" opacity="0.25"/>
+
+  <!-- DONATION BOX -->
+  <path d="M1004 360 L1052 360 L1064 406 L992 406 Z" fill="#5C6E58"/>
+  <rect x="1024" y="406" width="8" height="20" fill="#2E2A24" opacity="0.6"/>
+  <rect x="1076" y="364" width="26" height="64" rx="3" fill="#B85C38" transform="rotate(12 1089 396)"/>
+  <rect x="1082" y="372" width="14" height="48" rx="2" fill="#F6EFE6" opacity="0.3" transform="rotate(12 1089 396)"/>
+  <path d="M960 430 L985 410 L1155 410 L1130 430 Z" fill="#B85C38" opacity="0.4"/>
+  <path d="M960 430 L922 404 L944 386 L985 410 Z" fill="#D9A441"/>
+  <path d="M1130 430 L1172 412 L1186 430 L1150 446 Z" fill="#D9A441" opacity="0.85"/>
+  <rect x="960" y="430" width="170" height="110" rx="4" fill="#D9A441" opacity="0.9"/>
+  <rect x="1015" y="470" width="60" height="26" rx="4" fill="#F6EFE6" opacity="0.7"/>
+</svg>

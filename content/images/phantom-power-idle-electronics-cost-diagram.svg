@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- gridlines every 5 W -->
+  <g stroke="#E4C7B2" stroke-width="1.5">
+    <line x1="440" y1="144" x2="440" y2="508"/>
+    <line x1="520" y1="144" x2="520" y2="508"/>
+    <line x1="600" y1="144" x2="600" y2="508"/>
+    <line x1="680" y1="144" x2="680" y2="508"/>
+    <line x1="760" y1="144" x2="760" y2="508"/>
+    <line x1="840" y1="144" x2="840" y2="508"/>
+  </g>
+  <line x1="360" y1="144" x2="360" y2="508" stroke="#2E2A24" stroke-width="2"/>
+
+  <!-- range bars (16 px per watt) -->
+  <g fill="#5C6E58">
+    <rect x="600" y="158" width="240" height="24" rx="4"/>
+    <rect x="520" y="210" width="80" height="24" rx="4"/>
+    <rect x="392" y="262" width="128" height="24" rx="4"/>
+    <rect x="392" y="314" width="48" height="24" rx="4"/>
+    <rect x="376" y="366" width="64" height="24" rx="4"/>
+    <rect x="368" y="418" width="40" height="24" rx="4"/>
+    <rect x="360" y="470" width="8" height="24" rx="3"/>
+  </g>
+
+  <!-- callout -->
+  <rect x="860" y="300" width="300" height="186" rx="18" fill="#FFFDF9" stroke="#D9A441" stroke-width="4"/>
+
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="40" y="76" font-size="38" font-weight="bold" fill="#2E2A24">Typical standby watts</text>
+    <text x="40" y="114" font-size="24" fill="#6D6A66">Power drawn while switched “off”</text>
+
+    <g font-size="24" fill="#2E2A24" text-anchor="end">
+      <text x="340" y="178">DVR / cable box</text>
+      <text x="340" y="230">Game console (instant-on)</text>
+      <text x="340" y="282">Soundbar / AV receiver</text>
+      <text x="340" y="334">Desktop PC asleep</text>
+      <text x="340" y="386">Appliance clocks</text>
+      <text x="340" y="438">TV standby</text>
+      <text x="340" y="490">Charger, nothing attached</text>
+    </g>
+
+    <g font-size="24" font-weight="bold" fill="#2E2A24">
+      <text x="852" y="178">15–30 W</text>
+      <text x="612" y="230">10–15 W</text>
+      <text x="532" y="282">2–10 W</text>
+      <text x="452" y="334">2–5 W</text>
+      <text x="452" y="386">1–5 W</text>
+      <text x="420" y="438">0.5–3 W</text>
+      <text x="380" y="490">under 0.5 W</text>
+    </g>
+
+    <g font-size="24" fill="#6D6A66" text-anchor="middle">
+      <text x="360" y="542">0</text>
+      <text x="440" y="542">5</text>
+      <text x="520" y="542">10</text>
+      <text x="600" y="542">15</text>
+      <text x="680" y="542">20</text>
+      <text x="760" y="542">25</text>
+      <text x="840" y="542">30</text>
+    </g>
+
+    <g fill="#2E2A24" text-anchor="middle">
+      <text x="1010" y="356" font-size="32" font-weight="bold">1 W, all year</text>
+      <text x="1010" y="404" font-size="30" font-weight="bold">≈ 8.8 kWh ≈ $1.50</text>
+      <text x="1010" y="446" font-size="24" fill="#6D6A66">at 17¢ per kWh</text>
+    </g>
+  </g>
+</svg>

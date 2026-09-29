@@ -93,6 +93,11 @@ jobs:
       - name: Render Pinterest pins
         run: python generator/make_pin.py --all
 
+      # 글 frontmatter의 pin_hooks로 헤드라인 변형 핀 + 업로드용 CSV(content/pins/hooks/)
+      # 갱신. 같은 글의 두 번째 핀은 다른 레이아웃이라 "fresh pin"으로 잡힙니다.
+      - name: Render hook pins
+        run: python generator/make_pin.py --hooks
+
       - name: Commit refreshed pins
         run: |
           git add content/pins/

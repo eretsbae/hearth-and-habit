@@ -1,9 +1,10 @@
 ---
-title: 'Your Dishwasher Is Probably Loaded Wrong: A Troubleshooting Guide'
+title: Dishes Still Dirty After the Dishwasher? The Loading Mistakes to Fix First
 slug: dishwasher-loading-mistakes-troubleshooting
 date: '2026-07-22'
-description: Cloudy glasses, gritty plates, wet dishes at the end of the cycle? Fix
-  the exact loading mistake causing it with this room-by-room troubleshooting guide.
+updated: '2026-09-29'
+description: 'Dishes still gritty or wet after a cycle? It''s usually loading: crowding,
+  bad angles, or a blocked spray arm. Here''s each fix, plus what cloudy glasses mean.'
 tags:
 - dishwasher
 - kitchen tips
@@ -11,21 +12,26 @@ tags:
 - cleaning
 pillar: kitchen-habits
 hero_image: /images/dishwasher-loading-mistakes-troubleshooting-hero.svg
-hero_alt: Flat illustration of an open dishwasher rack viewed from above, showing
-  plates, glasses, and utensils arranged neatly with vi
+hero_alt: Top-down view of a dishwasher rack with plates, glasses, bowls, and a utensil
+  basket spaced so the spray arm can reach them
+pin_hooks:
+- Cloudy glasses? A 15-minute vinegar soak tells you why
+- Leave a finger's width between plates, dirty side to center
 ---
 
-Dishes still gritty or cloudy after a full cycle? The problem usually isn't your dishwasher — it's how you're loading it. Here's how to fix it.
+When dishes come out of the dishwasher still dirty, the cause is usually how they were loaded — crowded or nested items, plates facing away from the spray, or a big pan blocking the spray arm — not the machine or the detergent.
 
-Most people load a dishwasher the way they were taught as kids: rinse, stack, close the door, done. But a dishwasher only cleans what water can actually reach. Every symptom below points to a specific loading habit, and once you know which one you've got, the fix takes about ten extra seconds per load.
+Most people load a dishwasher the way they were taught as kids: rinse, stack, close the door, done. But a dishwasher only cleans what water can actually reach. Every symptom below points to a specific habit, and once you know which one you've got, the fix takes about ten extra seconds per load.
 
 ## Your glasses come out cloudy or filmy
 
-This is almost never a detergent problem, though people usually blame the detergent first. Cloudiness is typically one of two things: hard water mineral buildup, or glasses sitting too close to the heating element or getting hit with too much heat over time.
+Cloudiness comes in two kinds, and a quick test tells them apart: soak a cloudy glass in white vinegar for about 15 minutes. If it comes out clear, the haze was mineral film. If it's still cloudy, the glass is etched.
 
-**If your water is hard** (common in a lot of North American homes, especially with well water), a permanent etched haze can build up on glass over months. You can test this by soaking a cloudy glass in white vinegar for 15 minutes — if it clears up, that's mineral film, not damage. Running an occasional rinse-aid boost or a monthly vinegar rinse cycle helps prevent it.
+**Mineral film (the vinegar clears it)** comes from hard water, which is common across much of North America, especially on well water. It's removable, and it usually means the detergent and rinse aid aren't keeping up with your water's minerals. Keep the rinse-aid dispenser filled, use a full dose of detergent, and run an occasional vinegar or citric-acid cleaning cycle to clear buildup inside the machine.
 
-**If it's heat-related**, the fix is placement. Keep delicate glasses toward the outer edges and back of the top rack, away from the center where hot, humid air concentrates. Also check whether your dishwasher has a "high temp" or "sani" setting turned on by default — great for baby bottles and cutting boards, rough on everyday glassware.
+**Etching (the haze stays)** is permanent surface damage. It's most common with soft or softened water combined with too much detergent and very hot washing or drying — with few minerals in the water, the detergent works on the glass itself. Cut back the detergent, skip high-temp and sanitize options for glassware, and hand-wash delicate or heirloom glasses. Etching can't be reversed, but you can stop it from getting worse.
+
+The sanitize or high-temp setting still has its place: baby bottles and dishwasher-safe plastic cutting boards. Never wooden boards, though — they shouldn't go in the dishwasher at all, and [soaking is exactly what makes them warp](https://www.hearth-habit.com/2026/09/why-does-my-cutting-board-warp-after.html).
 
 ## Plates come out with gritty bits or food residue
 
@@ -41,13 +47,13 @@ This is the classic sign of overcrowding or the wrong angle. Water and detergent
 
 This is almost always an angle problem, not a drying problem. Bowls, cups, and anything with a concave bottom need to tilt downward so water runs off instead of collecting.
 
-Load bowls at a slight angle, nested in the rack tines rather than sitting flat. Cups and mugs go upside down, angled slightly rather than pointing straight down — dead straight-down often creates a suction pocket that traps water at the base. If your rack has adjustable tines or a fold-down section, use it here; it's specifically designed for oddly shaped items that pool water.
+Load bowls at a slight angle, nested in the rack tines rather than sitting flat. Cups and mugs go upside down, angled slightly rather than pointing straight down — dead straight-down often creates a pocket that traps water at the base. If your rack has adjustable tines or a fold-down section, use it here; it's specifically designed for oddly shaped items that pool water.
 
 ## The bottom rack "shadow zone" never gets clean
 
 Every dishwasher has at least one spot — often dead center on the bottom rack, or directly above the spray arm's pivot point — where water coverage is weakest. Large items placed there, like a big serving platter or a mixing bowl, can also block the spray arm from reaching everything behind them.
 
-If you've noticed the same 2-3 spots in your rack consistently underperform, that's not bad luck — it's a blind spot in your specific machine's spray pattern. Once you identify it (run a load with just a few items and watch, or check with your hand after a cycle), reserve that spot for the least-soiled items, like clean-ish serving spoons, rather than the roasting pan.
+If you've noticed the same 2-3 spots in your rack consistently underperform, that's not bad luck — it's a blind spot in your specific machine's spray pattern. Once you identify it (run a load with just a few items and check them afterward), reserve that spot for the least-soiled items, like clean-ish serving spoons, rather than the roasting pan.
 
 ## Utensils come out dirty, or nest together in the basket
 
@@ -59,17 +65,17 @@ Silverware that nests — spoons inside spoons, forks tangled together — block
 
 ## Plastic containers melt, warp, or stay wet
 
-Plastic should always go on the top rack, away from the heating element (usually located at the bottom or, in some models, hidden in the door). Even "dishwasher safe" plastic can warp over years of bottom-rack exposure to direct heat.
+Plastic should always go on the top rack, away from the heating element — usually an exposed coil at the bottom of the tub, or hidden under the tub floor on many newer models. Even "dishwasher safe" plastic can warp over years of bottom-rack exposure to heat.
 
-Plastic also holds water differently than ceramic or glass — it doesn't retain heat, so it air-dries slower. If plastic containers are always the last damp holdouts when you unload, that's normal, not a machine malfunction. Cracking the door open for 10-15 minutes after the cycle ends helps, and it's a lot more energy-efficient than running a heated dry cycle just for a few containers.
+Plastic also holds water differently than ceramic or glass — it doesn't retain heat, so it air-dries slower. If plastic containers are always the last damp holdouts when you unload, that's normal, not a machine malfunction. Cracking the door open for 10-15 minutes after the cycle ends helps, and it's cheaper than running heated dry just for a few containers — here's [what heated dry actually costs per load](https://www.hearth-habit.com/2026/09/air-dry-or-heated-dry-which-one.html).
 
-![Flat illustration comparing a badly loaded dishwasher top rack nested bowls, overlapping cups side by side with a correctly l](/images/dishwasher-loading-mistakes-troubleshooting-inline.svg)
+![Two top racks compared, with nested bowls and crowded cups on one side and spaced, angled dishes on the other](/images/dishwasher-loading-mistakes-troubleshooting-inline.svg)
 
 ## Everything smells musty even right after a clean cycle
 
-This points to buildup in the machine itself, not the load. Food particles, grease, and standing water collect in the filter (usually a removable cylindrical or disc-shaped piece at the bottom of the tub) and in the door gasket over time.
+That points to the machine, not the load. Food particles, grease, and standing water collect in the filter (usually a removable cylindrical or disc-shaped piece at the bottom of the tub) and in the door gasket over time.
 
-Pull the filter and rinse it under hot water roughly once a week if you use the dishwasher daily — it typically twists out by hand, no tools needed. Wipe the rubber door seal with a damp cloth monthly; grime collects there and gets missed because it's technically outside the wash cycle's reach. A musty smell that persists after both of these are clean usually means it's time for that vinegar or dishwasher-cleaner maintenance cycle mentioned earlier.
+Pull the filter and rinse it under hot water roughly once a week if you run the dishwasher daily (manufacturer guidance ranges from weekly to monthly) — it typically twists out by hand, no tools needed. Wipe the rubber door seal with a damp cloth monthly. If the smell survives both, work through the full checklist in [why a dishwasher smells even after you run it empty](https://www.hearth-habit.com/2026/08/why-does-my-dishwasher-smell-even-after.html).
 
 ## You're loading it full but running it half-empty on capacity
 
@@ -79,7 +85,7 @@ If you're consistently running the dishwasher before it's truly full because you
 - Bowls loaded flat instead of angled, taking up double the vertical space they need
 - Tall glasses in the center of the top rack instead of pushed to the sides, where most racks have adjustable height clearance
 
-Getting the load genuinely full — without crowding — is the difference between running the dishwasher once a day versus one and a half times a day. Over a year, that adds up in both water and electricity, similar in principle to the small daily habits covered in [how to cut your electric bill without buying anything](#).
+Getting the load truly full — without crowding — is the difference between running the dishwasher once a day versus one and a half times a day. Over a year, that adds up in both water and electricity, similar in principle to the small daily habits covered in [how to cut your electric bill without buying anything](https://www.hearth-habit.com/2026/07/how-to-cut-your-electric-bill-without.html).
 
 ## FAQ
 
@@ -97,4 +103,4 @@ It's not damaging to the machine, but it's inefficient with water and electricit
 
 ### How often should I clean the dishwasher itself?
 
-Rinse the filter weekly with regular use, wipe the door gasket monthly, and run an empty cycle with a vinegar rinse or dishwasher-specific cleaner about once a month. Skipping this is the most common reason machines start smelling musty or leaving film on dishes even when loaded correctly.
+Rinse the filter weekly with regular use, wipe the door gasket monthly, and run an empty cycle with a vinegar rinse or a dishwasher-specific cleaner (whichever your manual recommends) about once a month. Skipping this is the most common reason machines start smelling musty or leaving film on dishes even when loaded correctly.

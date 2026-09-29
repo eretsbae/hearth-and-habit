@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- legs + jacket -->
+  <rect x="492" y="522" width="18" height="24" rx="4" fill="#2E2A24"/>
+  <rect x="690" y="522" width="18" height="24" rx="4" fill="#2E2A24"/>
+  <rect x="470" y="110" width="260" height="420" rx="30" fill="#E4C7B2"/>
+
+  <!-- anode rod head on top -->
+  <rect x="551" y="96" width="28" height="16" rx="4" fill="#827F7C"/>
+
+  <!-- cutaway: water inside the tank -->
+  <rect x="495" y="140" width="210" height="320" rx="18" fill="#D6DDD5"/>
+
+  <!-- anode rod -->
+  <rect x="560" y="140" width="10" height="230" rx="4" fill="#827F7C"/>
+
+  <!-- sediment layer -->
+  <path d="M495 420 Q520 410 545 419 T595 418 T645 417 T705 418 V442 Q705 460 687 460 H513 Q495 460 495 442 Z" fill="#E8C88D"/>
+  <g fill="#2E2A24" opacity="0.35">
+    <circle cx="515" cy="440" r="3"/><circle cx="540" cy="448" r="3"/><circle cx="566" cy="436" r="3"/>
+    <circle cx="590" cy="450" r="3"/><circle cx="618" cy="438" r="3"/><circle cx="642" cy="449" r="3"/>
+    <circle cx="668" cy="436" r="3"/><circle cx="690" cy="447" r="3"/>
+  </g>
+
+  <!-- steam bubbles forcing up through the sediment -->
+  <g fill="#FFFDF9" stroke="#5C6E58" stroke-width="3">
+    <circle cx="545" cy="398" r="9"/>
+    <circle cx="604" cy="392" r="12"/>
+    <circle cx="660" cy="402" r="8"/>
+    <circle cx="588" cy="346" r="7"/>
+    <circle cx="640" cy="336" r="10"/>
+    <circle cx="612" cy="286" r="6"/>
+    <circle cx="530" cy="416" r="7"/>
+    <circle cx="676" cy="415" r="6"/>
+  </g>
+  <!-- "pop" marks -->
+  <g stroke="#B85C38" stroke-width="3" stroke-linecap="round">
+    <line x1="604" y1="370" x2="604" y2="362"/>
+    <line x1="584" y1="378" x2="578" y2="372"/>
+    <line x1="624" y1="378" x2="630" y2="372"/>
+  </g>
+
+  <!-- burner under the tank -->
+  <path d="M565 510 C552 496 560 486 565 474 C572 486 580 496 565 510 Z" fill="#B85C38"/>
+  <path d="M600 510 C585 494 594 482 600 468 C608 482 616 494 600 510 Z" fill="#B85C38"/>
+  <path d="M635 510 C622 496 630 486 635 474 C642 486 650 496 635 510 Z" fill="#B85C38"/>
+  <path d="M600 510 C593 502 596 494 600 486 C604 494 608 502 600 510 Z" fill="#D9A441"/>
+  <rect x="545" y="508" width="110" height="9" rx="4" fill="#2E2A24"/>
+
+  <!-- T&P relief valve + discharge stub -->
+  <rect x="730" y="170" width="34" height="26" rx="5" fill="#D9A441"/>
+  <rect x="740" y="158" width="22" height="12" rx="3" fill="#2E2A24"/>
+  <rect x="750" y="196" width="14" height="56" rx="3" fill="#5C6E58"/>
+
+  <!-- drain valve -->
+  <rect x="440" y="432" width="32" height="22" rx="4" fill="#5C6E58"/>
+  <rect x="440" y="450" width="16" height="22" rx="3" fill="#5C6E58"/>
+
+  <!-- callout lines -->
+  <g stroke="#2E2A24" stroke-width="3" stroke-linecap="round" fill="none">
+    <line x1="425" y1="182" x2="556" y2="182"/>
+    <line x1="410" y1="436" x2="436" y2="440"/>
+    <line x1="425" y1="510" x2="546" y2="496"/>
+    <line x1="780" y1="182" x2="768" y2="182"/>
+    <line x1="780" y1="340" x2="672" y2="388"/>
+    <line x1="780" y1="450" x2="709" y2="440"/>
+  </g>
+
+  <g font-family="Helvetica, Arial, sans-serif" fill="#2E2A24">
+    <text x="600" y="72" font-size="38" font-weight="bold" text-anchor="middle">Why a water heater pops and rumbles</text>
+
+    <text x="415" y="192" font-size="28" font-weight="bold" text-anchor="end">Anode rod</text>
+    <text x="415" y="222" font-size="24" text-anchor="end">corrodes so the tank doesn't</text>
+
+    <text x="400" y="424" font-size="28" font-weight="bold" text-anchor="end">Drain valve</text>
+    <text x="400" y="452" font-size="24" text-anchor="end">flush sediment out here</text>
+
+    <text x="415" y="502" font-size="28" font-weight="bold" text-anchor="end">Heat source</text>
+    <text x="415" y="530" font-size="24" text-anchor="end">gas burner or lower element</text>
+
+    <text x="790" y="192" font-size="28" font-weight="bold">T&amp;P relief valve</text>
+
+    <text x="790" y="332" font-size="28" font-weight="bold">Steam bubbles pop</text>
+    <text x="790" y="362" font-size="24">up through the sediment</text>
+
+    <text x="790" y="446" font-size="28" font-weight="bold">Sediment layer</text>
+    <text x="790" y="476" font-size="24">traps water by the heat</text>
+
+    <text x="600" y="580" font-size="26" text-anchor="middle">Fix: flush the tank yearly (every 6 months with hard water)</text>
+  </g>
+</svg>

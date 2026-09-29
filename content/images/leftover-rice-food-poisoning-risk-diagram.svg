@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- connectors -->
+  <g stroke="#2E2A24" stroke-width="4" stroke-linecap="round">
+    <line x1="206" y1="190" x2="306" y2="190"/>
+    <line x1="431" y1="190" x2="531" y2="190"/>
+    <line x1="656" y1="190" x2="756" y2="190"/>
+    <line x1="881" y1="190" x2="981" y2="190"/>
+  </g>
+  <g fill="#2E2A24">
+    <polygon points="320,190 304,181 304,199"/>
+    <polygon points="545,190 529,181 529,199"/>
+    <polygon points="770,190 754,181 754,199"/>
+    <polygon points="995,190 979,181 979,199"/>
+  </g>
+
+  <!-- step nodes -->
+  <g fill="#5C6E58">
+    <circle cx="150" cy="190" r="48"/>
+    <circle cx="375" cy="190" r="48"/>
+    <circle cx="600" cy="190" r="48"/>
+    <circle cx="825" cy="190" r="48"/>
+    <circle cx="1050" cy="190" r="48"/>
+  </g>
+
+  <!-- 1 cook: pot with steam -->
+  <rect x="126" y="186" width="48" height="26" rx="6" fill="#FFFDF9"/>
+  <rect x="121" y="178" width="58" height="7" rx="3" fill="#FFFDF9"/>
+  <g fill="none" stroke="#FFFDF9" stroke-width="3" stroke-linecap="round">
+    <path d="M140 170 q-5 -6 0 -12 t0 -12"/>
+    <path d="M160 170 q-5 -6 0 -12 t0 -12"/>
+  </g>
+
+  <!-- 2 clock -->
+  <circle cx="375" cy="190" r="26" fill="none" stroke="#FFFDF9" stroke-width="5"/>
+  <g stroke="#FFFDF9" stroke-width="4" stroke-linecap="round">
+    <line x1="375" y1="190" x2="375" y2="174"/>
+    <line x1="375" y1="190" x2="387" y2="190"/>
+  </g>
+
+  <!-- 3 fridge -->
+  <rect x="580" y="160" width="40" height="60" rx="6" fill="#FFFDF9"/>
+  <line x1="580" y1="182" x2="620" y2="182" stroke="#5C6E58" stroke-width="4"/>
+  <rect x="610" y="167" width="4" height="10" rx="2" fill="#5C6E58"/>
+  <rect x="610" y="188" width="4" height="18" rx="2" fill="#5C6E58"/>
+
+  <!-- 4 calendar -->
+  <rect x="799" y="166" width="52" height="48" rx="6" fill="#FFFDF9"/>
+  <rect x="799" y="166" width="52" height="12" rx="4" fill="#D9A441"/>
+  <g fill="#5C6E58">
+    <circle cx="812" cy="190" r="4"/><circle cx="825" cy="190" r="4"/><circle cx="838" cy="190" r="4"/>
+    <circle cx="812" cy="203" r="4"/><circle cx="825" cy="203" r="4"/>
+  </g>
+
+  <!-- 5 reheat: flame -->
+  <path d="M1050 216 C1030 212 1026 194 1036 180 C1040 190 1046 190 1046 184 C1046 172 1052 164 1060 158 C1058 172 1074 182 1068 200 C1066 210 1060 216 1050 216 Z" fill="#FFFDF9"/>
+  <path d="M1050 214 C1042 212 1040 202 1046 194 C1048 200 1054 200 1054 194 C1060 200 1060 212 1050 214 Z" fill="#D9A441"/>
+
+  <!-- danger branch -->
+  <line x1="375" y1="360" x2="375" y2="414" stroke="#B85C38" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="375,430 366,414 384,414" fill="#B85C38"/>
+  <rect x="230" y="432" width="650" height="118" rx="20" fill="#B85C38"/>
+  <polygon points="290,456 320,506 260,506" fill="#FFFDF9"/>
+  <rect x="287" y="472" width="6" height="18" rx="2" fill="#B85C38"/>
+  <circle cx="290" cy="497" r="3.5" fill="#B85C38"/>
+
+  <g font-family="Helvetica, Arial, sans-serif">
+    <g fill="#2E2A24" text-anchor="middle">
+      <text x="600" y="72" font-size="38" font-weight="bold">Safe timeline for leftover rice</text>
+
+      <text x="150" y="282" font-size="28" font-weight="bold">Cook</text>
+      <text x="150" y="314" font-size="24">spores survive heat</text>
+
+      <text x="375" y="282" font-size="28" font-weight="bold">Refrigerate</text>
+      <text x="375" y="314" font-size="24">within 1 hour</text>
+      <text x="375" y="344" font-size="24">never over 2 hours</text>
+
+      <text x="600" y="282" font-size="28" font-weight="bold">Fridge</text>
+      <text x="600" y="314" font-size="24">at 40°F or below</text>
+
+      <text x="825" y="282" font-size="28" font-weight="bold">Use within</text>
+      <text x="825" y="314" font-size="24">3–4 days</text>
+
+      <text x="1050" y="282" font-size="28" font-weight="bold">Reheat</text>
+      <text x="1050" y="314" font-size="24">to 165°F</text>
+    </g>
+    <g fill="#FFFDF9">
+      <text x="345" y="482" font-size="28" font-weight="bold">Left out over 2 hours? Throw it out.</text>
+      <text x="345" y="519" font-size="24">Reheating doesn't destroy the toxin.</text>
+    </g>
+  </g>
+</svg>

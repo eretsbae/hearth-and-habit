@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+  <text x="600" y="74" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="bold" text-anchor="middle" fill="#2E2A24">Why water pools in one spot</text>
+  <polygon points="0,368 240,372 520,400 570,402 576.5,406.3 583,410.4 589.5,414.2 596,417.9 602.5,421.3 609,424.5 615.5,427.5 622,430.2 628.5,432.8 635,435.1 641.5,437.2 648,439.1 654.5,440.8 661,442.3 667.5,443.5 674,444.6 680.5,445.4 687,446 693.5,446.3 700,446.5 706.5,446.4 713,446.2 719.5,445.7 726,445 732.5,444 739,442.9 745.5,441.5 752,439.9 758.5,438.1 765,436.1 771.5,433.9 778,431.4 784.5,428.8 791,425.9 797.5,422.8 804,419.5 810.5,415.9 817,412.2 823.5,408.2 830,404 1200,404 1200,630 0,630" fill="#E4C7B2"/>
+  <polygon points="570,402 576.5,406.3 583,410.4 589.5,414.2 596,417.9 602.5,421.3 609,424.5 615.5,427.5 622,430.2 628.5,432.8 635,435.1 641.5,437.2 648,439.1 654.5,440.8 661,442.3 667.5,443.5 674,444.6 680.5,445.4 687,446 693.5,446.3 700,446.5 706.5,446.4 713,446.2 719.5,445.7 726,445 732.5,444 739,442.9 745.5,441.5 752,439.9 758.5,438.1 765,436.1 771.5,433.9 778,431.4 784.5,428.8 791,425.9 797.5,422.8 804,419.5 810.5,415.9 817,412.2 823.5,408.2 830,404 830,462 823.5,466.2 817,470.2 810.5,473.9 804,477.5 797.5,480.8 791,483.9 784.5,486.8 778,489.4 771.5,491.9 765,494.1 758.5,496.1 752,497.9 745.5,499.5 739,500.9 732.5,502 726,503 719.5,503.7 713,504.2 706.5,504.4 700,504.5 693.5,504.3 687,504 680.5,503.4 674,502.6 667.5,501.5 661,500.3 654.5,498.8 648,497.1 641.5,495.2 635,493.1 628.5,490.8 622,488.2 615.5,485.5 609,482.5 602.5,479.3 596,475.9 589.5,472.2 583,468.4 576.5,464.3 570,460" fill="#D1957E"/>
+  <polyline points="589.5,432.2 596,435.9 602.5,439.3 609,442.5 615.5,445.5 622,448.2 628.5,450.8 635,453.1 641.5,455.2 648,457.1 654.5,458.8 661,460.3 667.5,461.5 674,462.6 680.5,463.4 687,464 693.5,464.3 700,464.5 706.5,464.4 713,464.2 719.5,463.7 726,463 732.5,462 739,460.9 745.5,459.5 752,457.9 758.5,456.1 765,454.1 771.5,451.9 778,449.4 784.5,446.8 791,443.9 797.5,440.8 804,437.5 810.5,433.9" fill="none" stroke="#B85C38" stroke-width="3" stroke-dasharray="10 9" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="589.5,448.2 596,451.9 602.5,455.3 609,458.5 615.5,461.5 622,464.2 628.5,466.8 635,469.1 641.5,471.2 648,473.1 654.5,474.8 661,476.3 667.5,477.5 674,478.6 680.5,479.4 687,480 693.5,480.3 700,480.5 706.5,480.4 713,480.2 719.5,479.7 726,479 732.5,478 739,476.9 745.5,475.5 752,473.9 758.5,472.1 765,470.1 771.5,467.9 778,465.4 784.5,462.8 791,459.9 797.5,456.8 804,453.5 810.5,449.9" fill="none" stroke="#B85C38" stroke-width="3" stroke-dasharray="10 9" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="589.5,464.2 596,467.9 602.5,471.3 609,474.5 615.5,477.5 622,480.2 628.5,482.8 635,485.1 641.5,487.2 648,489.1 654.5,490.8 661,492.3 667.5,493.5 674,494.6 680.5,495.4 687,496 693.5,496.3 700,496.5 706.5,496.4 713,496.2 719.5,495.7 726,495 732.5,494 739,492.9 745.5,491.5 752,489.9 758.5,488.1 765,486.1 771.5,483.9 778,481.4 784.5,478.8 791,475.9 797.5,472.8 804,469.5 810.5,465.9" fill="none" stroke="#B85C38" stroke-width="3" stroke-dasharray="10 9" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="240,372 520,400 570,402 576.5,406.3 583,410.4 589.5,414.2 596,417.9 602.5,421.3 609,424.5 615.5,427.5 622,430.2 628.5,432.8 635,435.1 641.5,437.2 648,439.1 654.5,440.8 661,442.3 667.5,443.5 674,444.6 680.5,445.4 687,446 693.5,446.3 700,446.5 706.5,446.4 713,446.2 719.5,445.7 726,445 732.5,444 739,442.9 745.5,441.5 752,439.9 758.5,438.1 765,436.1 771.5,433.9 778,431.4 784.5,428.8 791,425.9 797.5,422.8 804,419.5 810.5,415.9 817,412.2 823.5,408.2 830,404 1200,404" fill="none" stroke="#5C6E58" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="581.5,413 589.5,414.2 596,417.9 602.5,421.3 609,424.5 615.5,427.5 622,430.2 628.5,432.8 635,435.1 641.5,437.2 648,439.1 654.5,440.8 661,442.3 667.5,443.5 674,444.6 680.5,445.4 687,446 693.5,446.3 700,446.5 706.5,446.4 713,446.2 719.5,445.7 726,445 732.5,444 739,442.9 745.5,441.5 752,439.9 758.5,438.1 765,436.1 771.5,433.9 778,431.4 784.5,428.8 791,425.9 797.5,422.8 804,419.5 810.5,415.9 818.5,413" fill="#A5AFA3"/>
+  <line x1="619.5" y1="421" x2="750.5" y2="421" stroke="#FFFDF9" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <rect x="50" y="368" width="180" height="110" fill="#8C8A87"/>
+  <rect x="40" y="208" width="200" height="164" fill="#B85C38"/>
+  <polygon points="22,212 140,128 258,212" fill="#5C6E58"/>
+  <rect x="90" y="290" width="42" height="82" rx="4" fill="#F6EFE6"/>
+  <rect x="160" y="250" width="50" height="40" rx="4" fill="#F6EFE6"/>
+  <rect x="236" y="206" width="26" height="10" rx="3" fill="#777571"/>
+  <path d="M254,214 L254,348 Q254,358 266,358 L392,364" fill="none" stroke="#777571" stroke-width="12" stroke-linecap="butt" stroke-linejoin="round"/>
+  <circle cx="402" cy="368" r="5" fill="#5C6E58"/>
+  <circle cx="414" cy="376" r="4" fill="#5C6E58"/>
+  <line x1="260" y1="330" x2="392" y2="330" stroke="#2E2A24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="260" y1="320" x2="260" y2="340" stroke="#2E2A24" stroke-width="3" stroke-linecap="round"/>
+  <line x1="392" y1="320" x2="392" y2="340" stroke="#2E2A24" stroke-width="3" stroke-linecap="round"/>
+  <text x="276" y="304" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#2E2A24">Extend downspout 5+ ft</text>
+  <line x1="268" y1="397" x2="484.1" y2="418.4" stroke="#2E2A24" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="500,420 481.1,428.2 483.1,408.3" fill="#2E2A24"/>
+  <text x="270" y="462" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#2E2A24">Regrade: 6 in drop</text>
+  <text x="270" y="492" font-family="Helvetica, Arial, sans-serif" font-size="24" font-weight="bold" fill="#2E2A24">over first 10 ft</text>
+  <text x="700" y="370" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2E2A24">Low spot</text>
+  <text x="680" y="548" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2E2A24">Compacted clay</text>
+  <rect x="930" y="400" width="80" height="124" fill="#EACD96"/>
+  <circle cx="944" cy="420" r="5" fill="#D9A441"/>
+  <circle cx="968" cy="432" r="5" fill="#D9A441"/>
+  <circle cx="992" cy="418" r="5" fill="#D9A441"/>
+  <circle cx="950" cy="452" r="5" fill="#D9A441"/>
+  <circle cx="986" cy="458" r="5" fill="#D9A441"/>
+  <circle cx="962" cy="474" r="5" fill="#D9A441"/>
+  <circle cx="996" cy="486" r="5" fill="#D9A441"/>
+  <circle cx="942" cy="488" r="5" fill="#D9A441"/>
+  <circle cx="970" cy="500" r="15" fill="#FFFDF9" stroke="#2E2A24" stroke-width="3"/>
+  <circle cx="964" cy="494" r="1.8" fill="#2E2A24"/>
+  <circle cx="970" cy="494" r="1.8" fill="#2E2A24"/>
+  <circle cx="976" cy="494" r="1.8" fill="#2E2A24"/>
+  <line x1="846" y1="432" x2="903.7" y2="463.3" stroke="#2E2A24" stroke-width="3" stroke-dasharray="8 7" stroke-linecap="butt"/>
+  <polygon points="916,470 897.6,470.3 906.2,454.5" fill="#2E2A24"/>
+  <line x1="1018" y1="500" x2="1076" y2="500" stroke="#2E2A24" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="1090,500 1074,509 1074,491" fill="#2E2A24"/>
+  <text x="970" y="372" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2E2A24">French drain</text>
+  <line x1="620" y1="180" x2="610" y2="210" stroke="#5C6E58" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <line x1="680" y1="230" x2="670" y2="260" stroke="#5C6E58" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <line x1="760" y1="170" x2="750" y2="200" stroke="#5C6E58" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <line x1="840" y1="220" x2="830" y2="250" stroke="#5C6E58" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <line x1="920" y1="160" x2="910" y2="190" stroke="#5C6E58" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <line x1="1000" y1="210" x2="990" y2="240" stroke="#5C6E58" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <line x1="1080" y1="170" x2="1070" y2="200" stroke="#5C6E58" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+  <rect x="805" y="540" width="335" height="48" rx="24" fill="#D9A441"/>
+  <text x="972.5" y="573" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2E2A24">Call 811 before digging</text>
+</svg>

@@ -2,8 +2,8 @@
 title: Why Do My Pipes Bang When I Turn Off the Faucet?
 slug: pipes-banging-noise-turn-off-faucet
 date: '2026-08-27'
-description: That bang is usually water hammer, a pressure shockwave from valves closing
-  fast. Here's how to confirm it and fix it, step by step.
+updated: '2026-09-29'
+description: That bang is usually water hammer, a shockwave from a valve closing fast. Here's how to confirm it, check your water pressure, and fix it step by step.
 tags:
 - plumbing
 - water hammer
@@ -11,11 +11,13 @@ tags:
 - DIY repair
 pillar: home-maintenance
 hero_image: /images/pipes-banging-noise-turn-off-faucet-hero.svg
-hero_alt: 'A flat illustration of a cutaway wall section showing a copper pipe with
-  a visible shockwave/vibration lines near a shut-off '
+hero_alt: Wall cutaway of a copper supply pipe and shut-off valve with shockwave rings where water hammer jolts the line
+pin_hooks:
+- Washer banging? A $15–25 arrestor installs in 10 minutes
+- Normal water pressure is 40–60 psi; over 80 needs a PRV
 ---
 
-That bang is almost always "water hammer" — a pressure shockwave when a valve shuts fast. It's usually fixable in an afternoon for under $50.
+That bang is almost always "water hammer" — a pressure shockwave when a valve shuts fast. Unless your water pressure is too high, it's usually fixable in an afternoon for under $50.
 
 Water hammer happens because water moving through your pipes has momentum. When a faucet or valve slams shut, that moving water has nowhere to go, so it slams into the closed valve and sends a shockwave back through the pipe. That shockwave makes the pipe jerk against the studs or joists it's attached to, and that jerk is the bang, clank, or shudder you're hearing. It's the same physics as a car stopping suddenly — the difference is your pipes don't have seatbelts.
 
@@ -29,7 +31,7 @@ Before you fix anything, make sure you're diagnosing the right problem. Water ha
 - It's usually a single sharp bang or a short series of clunks, sometimes followed by a rattle as the pipe settles.
 - It tends to happen at the same fixtures every time, especially quick-closing valves like washing machines and dishwashers, which snap shut automatically instead of being turned by hand.
 
-If instead you're hearing a continuous rattling or humming *while* water is running, that's more likely a loose pipe strap vibrating against framing, or high water pressure — different problem, different fix (more on that below). And if the noise comes from the water heater itself — a popping or rumbling sound — that's sediment buildup in the tank, which is covered in a separate piece on this site.
+If instead you're hearing a continuous rattling or humming *while* water is running, that's more likely a loose pipe strap vibrating against framing, or high water pressure — different problem, different fix (more on that below). And if the noise comes from the water heater itself — a popping or rumbling sound — that's [sediment buildup in the tank](https://www.hearth-habit.com/2026/08/water-heater-popping-or-rumbling-heres.html), which calls for a flush rather than any of the fixes here.
 
 **Key takeaway:** if the bang happens the instant you shut off a faucet or an appliance valve, you're dealing with water hammer, and it's a pressure problem, not a structural one.
 
@@ -44,15 +46,19 @@ It also helps to notice *when* it started. If it began right after a plumber wor
 
 ## Step 3: Check Your Water Pressure
 
-High water pressure makes water hammer louder and more frequent because there's more force behind the moving water when a valve slams shut. Normal household pressure is typically 40–60 psi; above 80 psi is considered too high for most home plumbing and appliances.
+High water pressure makes water hammer louder and more frequent because there's more force behind the moving water when a valve slams shut. Normal household pressure is typically 40–60 psi. Above about 80 psi, a pressure-reducing valve is warranted — many plumbing codes cap static pressure at 80 psi, and pressure that high strains appliances, water heaters, and fixtures, not just your ears.
 
-You can check this yourself with a pressure gauge that screws onto an outdoor spigot or the washing machine hookup — they cost roughly $10–15 at any hardware store. Screw it on, turn the spigot fully open, and read the dial.
+You can check this yourself with a pressure gauge that screws onto an outdoor spigot or the washing machine hookup — they cost roughly $10–15 at any hardware store. With no other water running in the house, screw it on, turn the spigot fully open, and read the dial.
 
-If your pressure is consistently above 80 psi, a pressure-reducing valve (PRV) installed where the main water line enters the house will bring it down and often solves water hammer throughout the entire house, not just at one fixture. Installing a PRV is a moderate DIY job for someone comfortable with pipe fittings, but many homeowners have a plumber do it since it involves cutting into the main line — expect roughly $250–450 installed.
+If your pressure reads above 80 psi, a pressure-reducing valve (PRV) installed where the main water line enters the house will bring it down and often solves water hammer throughout the entire house, not just at one fixture. If you already have a PRV and the reading is still high, it may be failing — they wear out over time and let pressure creep back up.
+
+One catch: a PRV turns your plumbing into a closed system. When the water heater heats water, that water expands and has nowhere to go, so pressure spikes — often showing up as a dripping relief valve on the water heater. That's why installing a PRV usually means adding a thermal expansion tank near the water heater too, and many local codes require one.
+
+Installing a PRV is a moderate DIY job for someone comfortable with pipe fittings, but many homeowners have a plumber do it since it involves cutting into the main line. Expect a few hundred dollars installed, varying by region, and more if an expansion tank has to be added at the same time.
 
 ## Step 4: Look for Air Chambers (and Why They Fail)
 
-Most homes built before the 1990s or so were plumbed with short vertical sections of capped pipe near each fixture, called air chambers. These act as shock absorbers: when a valve shuts, the shockwave compresses the air pocket instead of jolting the pipe. Over time, that trapped air can dissolve into the water or get flushed out, leaving the chamber waterlogged and useless — which is often exactly when the banging starts, sometimes years after a house was built with no noise at all.
+Many older homes were plumbed with short vertical sections of capped pipe near each fixture, called air chambers. These act as shock absorbers: when a valve shuts, the shockwave compresses the air pocket instead of jolting the pipe. Over time, that trapped air can dissolve into the water or get flushed out, leaving the chamber waterlogged and useless — which is often exactly when the banging starts, sometimes years after a house was built with no noise at all.
 
 If your house is older and the noise seems to have appeared gradually, waterlogged air chambers are a likely culprit, and the fix in Step 5 addresses this directly.
 
@@ -68,7 +74,7 @@ This is the cheapest fix and worth trying first, since it costs nothing but time
 
 This resets the air pockets in any working air chambers and often stops the noise immediately. If it comes back within a few weeks, the air chamber itself may be waterlogged beyond a simple reset, or your home may not have air chambers at all — which is common in newer construction — and you'll want Step 6 instead.
 
-![A simple flat diagram showing a water hammer arrestor being installed on a pipe under a sink.](/images/pipes-banging-noise-turn-off-faucet-inline.svg)
+![Under-sink supply line with a capped water hammer arrestor mounted on a tee fitting next to the shut-off valve](/images/pipes-banging-noise-turn-off-faucet-inline.svg)
 
 ## Step 6: Install a Water Hammer Arrestor
 
@@ -86,11 +92,14 @@ Check any exposed pipes in the basement, crawlspace, or under sinks for loose or
 
 ## When to Call a Plumber
 
-Most water hammer is a nuisance fix, not an emergency, but call a plumber if:
+Most water hammer is a nuisance fix, not an emergency. As with any decision about [whether a repair is worth calling a pro for](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html), weigh what a mistake would cost — and call a plumber if:
 
 - The banging is loud, frequent, and accompanied by visible pipe movement or shaking under a sink.
 - You notice dripping, water stains, or dampness near a pipe that bangs — that suggests a joint may already be stressed or leaking.
-- Your water pressure tests above 100 psi, since that level can strain appliances and water heaters, not just cause noise.
-- You've tried draining the system and installing arrestors at obvious spots and the noise persists — at that point a plumber can pressure-test the whole system and find less obvious causes, like a failing pressure regulator at the street.
+- Your water pressure tests above 80 psi and you don't have a working PRV, or you're not comfortable installing one (and an expansion tank) yourself — that level strains appliances and water heaters, not just your ears.
+- You've tried draining the system and installing arrestors at obvious spots and the noise persists — at that point a plumber can pressure-test the whole system and find less obvious causes, like a failing pressure-reducing valve on the main line.
 
-**The bottom line:** water hammer is loud but usually low-stakes, and most homeowners can fix it themselves — start with a full system drain, add an arrestor if the noise persists, and check your water pressure if it's happening throughout the house.
+**The bottom line:** water hammer is loud but usually low-stakes, and most homeowners can fix it themselves — start with a full system drain, add an arrestor if the noise persists, and check your water pressure if it's happening throughout the house. If it reads over 80 psi, plan on a PRV and a thermal expansion tank.
+
+## Sources
+- [Service Water Pressure (EPA WaterSense technical sheet)](https://www.epa.gov/system/files/documents/2023-08/ws-homes-TRM-12-ServiceWaterPressureTechSheet.pdf) — the 80 psi code limit, pressure-reducing valves, and thermal expansion

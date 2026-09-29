@@ -2,8 +2,8 @@
 title: How to Get Rid of Things You Spent Good Money On (Without the Guilt)
 slug: get-rid-of-things-you-spent-money-on
 date: '2026-08-21'
-description: Struggling to declutter expensive items? Compare your real options —
-  resell, return, donate, repurpose — and the math that makes letting go easier.
+updated: '2026-09-29'
+description: "Struggling to declutter expensive items? Ask what you'd get back, not what you paid. Compare returning, reselling, donating, and repurposing, plus the math."
 tags:
 - decluttering
 - organization
@@ -11,11 +11,13 @@ tags:
 - home organization
 pillar: cleaning-organization
 hero_image: /images/get-rid-of-things-you-spent-money-on-hero.svg
-hero_alt: A flat illustration of an open closet with a treadmill, unused kitchen gadget,
-  and clothes with tags still on, softly spotlig
+hero_alt: "Open closet holding a barely used treadmill, a stand mixer on the shelf, and clothes with price tags still attached"
+pin_hooks:
+- Resell only if it would fetch roughly $50 or more used
+- 3 questions that decide return, resell, or donate
 ---
 
-The fastest way is to stop asking "what did I pay?" and start asking "what will I actually get back?" Usually the honest answer is little to nothing, and that's the moment to let go.
+To get rid of something expensive without the guilt, stop asking "what did I pay?" and ask "what will I actually get back?" — then return it if you still can, resell it if it would fetch roughly $50 or more used, and donate or give away the rest. For most things you've barely used, the honest answer to that question is little to nothing, and that's the moment to let go.
 
 That gap between what you paid and what an item is worth now is called a **sunk cost** — money already spent that you can't recover no matter what you decide today. Your brain doesn't like admitting a purchase was a mistake, so it keeps the item around as a kind of monument to the money, hoping you'll "use it eventually" and retroactively justify the price. That eventually rarely comes, and the item just keeps taking up space, guilt included.
 
@@ -42,7 +44,7 @@ There's no single right way to offload an expensive item — the right move depe
 | Resell (online marketplace) | Electronics, furniture, name-brand gear, tools | Medium–High | High | Slow (days–weeks) |
 | Consignment/resale shop | Clothing, kids' gear, home decor | Low–Medium | Low | Medium |
 | Return/exchange (if still eligible) | Recent purchases with receipt | Full–High | Low | Fast |
-| Donate | Almost anything usable | None (but tax deduction possible) | Very low | Fast |
+| Donate | Almost anything usable | None (a US tax deduction is possible if you itemize) | Very low | Fast |
 | Give to a friend/family member | Sentimental or niche items | None | Very low | Fast |
 | Repurpose in place | Furniture, containers, fabric | None (saves future spend) | Medium | Fast |
 | Trash/recycle | Broken, unsafe, or unusable items | None | Very low | Fast |
@@ -68,11 +70,11 @@ Donating wins when the item is usable but not valuable enough to justify reselli
 
 A few donation notes worth knowing:
 
-- Many charitable organizations will issue a receipt for a tax deduction if you itemize; keep a simple list of items and estimated values.
+- In the US, donated goods are only deductible if you itemize (most households take the standard deduction instead). The deduction is the item's current thrift-store value, not what you paid, and clothing and household goods need to be in good used condition or better. Keep the receipt and a simple list of items and estimated values. Canada works differently: donations earn a tax credit rather than a deduction, and only with an official receipt from a registered charity, which many drop-off sites don't issue for used goods.
 - Some organizations (furniture banks, shelters, school programs) will pick up large items for free — worth a quick search before you rent a truck.
 - Call ahead for large electronics or furniture; not every donation center takes every category.
 
-![A simple flat illustration of a decision path showing three small icons — a price tag, a donation box, and a resale app on a ](/images/get-rid-of-things-you-spent-money-on-inline.svg)
+![Decision path linking three exits for pricey items you don't use: a price tag, a donation box, and a resale app on a phone](/images/get-rid-of-things-you-spent-money-on-inline.svg)
 
 ### When to Just Repurpose It Instead
 
@@ -87,7 +89,9 @@ Be honest with yourself here, though — "I could repurpose this" is one of the 
 
 ### When It's Just Trash
 
-Broken, expired, recalled, or genuinely unsafe items don't belong in any of the categories above, no matter how much they cost. Holding onto a broken $200 blender because "it was expensive" doesn't recover any value — it just adds a repair project to your to-do list indefinitely. If it's been broken for more than a season and you haven't fixed it, it's very unlikely you will.
+Broken, expired, recalled, or unsafe items don't belong in any of the categories above, no matter how much they cost. Holding onto a broken $200 blender because "it was expensive" doesn't recover any value — it just adds a repair project to your to-do list indefinitely. If it's been broken for more than a season and you haven't fixed it, it's very unlikely you will.
+
+One caution: "trash" doesn't mean the household bin for everything. Dead electronics go to e-waste recycling, and anything with a lithium-ion or button battery — old phones, cordless tools, fitness trackers — needs a battery or e-waste drop-off, because those batteries can start fires in garbage trucks and sorting facilities. Tape the battery terminals if they're exposed.
 
 ## A Simple Way to Decide, Item by Item
 
@@ -97,7 +101,7 @@ When you're stuck on a specific item, run it through these three quick questions
 2. **Would someone pay real money for this used, right now?** If yes and it's worth more than roughly $50, list it. If yes but it's worth less, donate or consign it.
 3. **Am I keeping this for the item, or for the money I spent?** If it's the money, that value is already gone regardless of what you decide today — so choose based on what gets it out of your space fastest.
 
-This ties directly into the [one-touch habit](#) many people use to stop new clutter from piling up: the same logic applies retroactively. Decide once, act once, don't let the item sit in limbo waiting for a "better" outcome that costs you more time than it's worth.
+This ties directly into the [one-touch rule](https://www.hearth-habit.com/2026/07/the-one-touch-rule-single-habit-that.html) many people use to stop new clutter from piling up: the same logic applies retroactively. Decide once, act once, don't let the item sit in limbo waiting for a "better" outcome that costs you more time than it's worth. If the expensive items are just the hardest part of a bigger clear-out, [start with one drawer](https://www.hearth-habit.com/2026/07/how-to-declutter-when-youre-overwhelmed.html) to build momentum before you tackle the treadmill.
 
 ## FAQ
 
@@ -111,8 +115,12 @@ A good rule of thumb: set aside a short window (a weekend, not a month) to list 
 
 ### Can I actually claim a tax deduction for donated items?
 
-Often, yes, if you itemize deductions — most donation centers can provide a receipt, and you estimate the fair used value of each item. Keep a simple written list with dates; it doesn't need to be complicated for typical household donations.
+In the US, only if you itemize deductions — if you take the standard deduction, donated goods don't lower your tax. If you do itemize, get a receipt, deduct the fair used (thrift-store) value of each item rather than the original price, and keep a simple written list with dates; larger non-cash donations come with extra IRS paperwork, so check the current rules or ask a tax preparer. In Canada, the rules differ: you claim a tax credit, and only with an official receipt from a registered charity.
 
 ### What if the item was a gift and I feel guilty getting rid of it?
 
 The giver's intent was to make you happy, not to create an obligation to store something you don't use — most people would rather you pass it on than feel weighed down by it. If it helps, donate it rather than tossing it, so the original good intention carries forward to someone else.
+
+## Sources
+
+- [Used Household Batteries (EPA)](https://www.epa.gov/recycle/used-household-batteries) — keeping lithium-ion and button batteries out of the trash

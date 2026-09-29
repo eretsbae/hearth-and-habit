@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soil slice + grass line -->
+  <rect x="250" y="300" width="640" height="282" rx="18" fill="#EFDDD1"/>
+  <rect x="40" y="296" width="850" height="8" rx="4" fill="#5C6E58"/>
+
+  <!-- house above ground -->
+  <rect x="300" y="118" width="540" height="132" fill="#FFFDF9"/>
+  <rect x="372" y="148" width="84" height="62" rx="6" fill="#D6DDD5"/>
+  <rect x="664" y="160" width="64" height="90" rx="6" fill="#E4C7B2"/>
+
+  <!-- basement: ceiling slab, walls, floor, interior -->
+  <rect x="300" y="250" width="540" height="12" fill="#CBCAC8"/>
+  <rect x="330" y="262" width="480" height="258" fill="#FFFDF9"/>
+  <rect x="300" y="262" width="30" height="258" fill="#CBCAC8"/>
+  <rect x="300" y="266" width="30" height="30" fill="#D6DDD5"/>
+  <rect x="810" y="262" width="30" height="283" fill="#9DA89B"/>
+  <rect x="300" y="520" width="540" height="25" fill="#9DA89B"/>
+
+  <!-- warm, humid outdoor air -->
+  <g fill="none" stroke="#B85C38" stroke-width="4" stroke-linecap="round">
+    <path d="M52 150 q15 -12 30 0 t30 0 t30 0 t30 0 t30 0"/>
+    <path d="M72 176 q15 -12 30 0 t30 0 t30 0 t30 0 t30 0"/>
+  </g>
+
+  <!-- airflow: outside -> window -> cool wall -->
+  <path d="M236 178 Q300 200 315 281 C420 330 640 330 786 392" fill="none" stroke="#2E2A24" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="797,397 777,399 785,381" fill="#2E2A24"/>
+
+  <!-- condensation on the cool wall + damp floor -->
+  <g fill="#5C6E58">
+    <path d="M798 414 C804 422 804 428 798 430 C792 428 792 422 798 414 Z"/>
+    <path d="M798 446 C804 454 804 460 798 462 C792 460 792 454 798 446 Z"/>
+    <path d="M798 478 C804 486 804 492 798 494 C792 492 792 486 798 478 Z"/>
+  </g>
+  <ellipse cx="760" cy="517" rx="36" ry="4" fill="#5C6E58" opacity="0.5"/>
+
+  <!-- musty odor rising -->
+  <g fill="none" stroke="#827F7C" stroke-width="4" stroke-linecap="round">
+    <path d="M700 508 q-8 -9 0 -18 t0 -18"/>
+    <path d="M726 508 q-8 -9 0 -18 t0 -18"/>
+    <path d="M752 508 q-8 -9 0 -18 t0 -18"/>
+  </g>
+
+  <!-- humidity gauge -->
+  <g fill="none" stroke-width="26">
+    <path d="M935 410 A100 100 0 0 1 976.2 329.1" stroke="#E4C7B2"/>
+    <path d="M976.2 329.1 A100 100 0 0 1 1035 310" stroke="#5C6E58"/>
+    <path d="M1035 310 A100 100 0 0 1 1065.9 314.9" stroke="#D9A441"/>
+    <path d="M1065.9 314.9 A100 100 0 0 1 1135 410" stroke="#B85C38"/>
+  </g>
+  <line x1="1035" y1="410" x2="1023" y2="334" stroke="#2E2A24" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="1035" cy="410" r="10" fill="#2E2A24"/>
+
+  <g font-family="Helvetica, Arial, sans-serif" fill="#2E2A24">
+    <text x="600" y="72" font-size="38" font-weight="bold" text-anchor="middle">Why basements smell musty in summer</text>
+
+    <text x="40" y="226" font-size="28" font-weight="bold">Warm, humid air</text>
+    <text x="350" y="380" font-size="24">Enters the basement</text>
+    <text x="795" y="302" font-size="24" text-anchor="end">Hits cool wall &amp; floor</text>
+    <text x="782" y="432" font-size="24" font-weight="bold" text-anchor="end">Condensation</text>
+    <text x="686" y="502" font-size="24" font-weight="bold" text-anchor="end">Musty odor</text>
+
+    <text x="1035" y="272" font-size="26" font-weight="bold" text-anchor="middle">Indoor humidity</text>
+    <text x="1035" y="462" font-size="28" font-weight="bold" text-anchor="middle">Target 30–50%</text>
+    <text x="1035" y="494" font-size="24" text-anchor="middle">Keep below 60%</text>
+  </g>
+</svg>

@@ -2,8 +2,9 @@
 title: Why Does Part of My Lawn Stay Brown Even Though I Water It?
 slug: brown-patch-lawn-still-watering
 date: '2026-07-30'
-description: Watering isn't the problem — coverage, compaction, or damage usually
-  is. Follow these steps to find the real cause and fix the brown patch for good.
+updated: '2026-09-29'
+description: Usually it's a sprinkler blind spot, compacted soil, grubs, dog urine,
+  or brown patch fungus that extra water makes worse. Here's how to find which one.
 tags:
 - lawn care
 - yard maintenance
@@ -11,13 +12,15 @@ tags:
 - outdoor basics
 pillar: yard-outdoor
 hero_image: /images/brown-patch-lawn-still-watering-hero.svg
-hero_alt: A flat illustration of a green lawn with one distinct brown patch, a sprinkler
-  in the background, viewed from a slight overhe
+hero_alt: Lawn with one stubborn brown patch in full sun while a sprinkler in the background sprays toward it
+pin_hooks:
+- The screwdriver test that shows if water reaches the roots
+- Night watering can make brown patch fungus worse
 ---
 
-Watering more won't fix a brown patch if the real problem is compacted soil, a sprinkler blind spot, buried debris, or hidden damage from grubs or pet urine.
+Part of a lawn usually stays brown despite watering because the water isn't reaching the roots (a sprinkler blind spot or compacted soil), something is killing the grass (grubs, dog urine, de-icing salt, buried debris), or it's the fungal disease brown patch — which extra watering, especially at night, makes worse.
 
-Most brown patches aren't a watering problem at all — they're a "water isn't reaching the roots" problem, or a "something is actively killing the grass" problem. Here's how to work through the likely causes in order, from most common to least, and fix the one that's actually yours.
+Here's how to work through the likely causes in order, from most common to least, and fix the one that's actually yours.
 
 ## Step 1: Check whether water is actually reaching that spot
 
@@ -46,35 +49,48 @@ If water is reaching the area (the screwdriver went in fine) but the grass is st
 
 Compacted soil acts like a lid: water pools on top and runs off instead of soaking in, so the roots underneath stay dry even during a normal watering session. Grass over compacted soil also tends to have short, shallow roots — pull up a small clump from the brown patch and compare it to a clump from a healthy area. A noticeably thinner or shallower root system is a good sign compaction is the culprit.
 
-The fix is core aeration — pulling small plugs of soil out of the lawn to open up channels for water and air. Most homeowners rent a core aerator or hire it out once a year, typically in early fall or spring, and it's genuinely one of the higher-payoff, lower-effort lawn tasks available (in the same spirit as the bare-minimum approach covered in our lawn care basics guide). Aerate the compacted area, then follow with a good deep watering — you should see improvement over the next few weeks, not overnight.
+The fix is core aeration — pulling small plugs of soil out of the lawn to open up channels for water and air. Most homeowners rent a core aerator or hire it out once a year, and it's one of the higher-payoff, lower-effort lawn tasks available (in the same spirit as our [bare-minimum lawn schedule](https://www.hearth-habit.com/2026/07/lawn-care-for-people-who-dont-care.html)). Aerate cool-season lawns in early fall or spring and warm-season lawns in late spring to early summer, then follow with a good deep watering — you should see improvement over the next few weeks, not overnight.
 
-![A simple flat illustration showing a cutaway side view of soil with grass roots, one side healthy and deep-rooted, the other ](/images/brown-patch-lawn-still-watering-inline.svg)
+![Soil cutaway comparing deep-rooted healthy grass with shallow-rooted brown grass in compacted soil where water sits on top](/images/brown-patch-lawn-still-watering-inline.svg)
 
-## Step 4: Check for grubs and other hidden damage
+## Step 4: Rule out brown patch disease — especially if you water often or at night
+
+If the patch showed up during hot, humid weather and the soil under it is moist rather than dry, suspect the fungal disease actually named brown patch, caused by *Rhizoctonia solani*. It's common on tall fescue and perennial ryegrass in summer, and a close relative called large patch hits warm-season grasses like St. Augustine and zoysia in the cool, wet weather of spring and fall. The fungus thrives when grass blades stay wet for long stretches on warm nights — which is exactly what frequent, evening, or nighttime watering creates. This is the one cause where watering more makes things worse.
+
+**How to spot it:** roughly circular tan or brown patches from several inches to a few feet across, sometimes with a darker, grayish "smoke ring" at the edge on humid mornings, and individual blades with tan spots edged in dark brown. Unlike grub damage, the turf stays anchored — it won't roll back like a loose carpet.
+
+**What to do:**
+
+- Water only in the early morning so blades dry during the day, and water deeply but less often (about an inch a week, rain included) instead of a little every evening.
+- Hold off on nitrogen fertilizer during hot, humid stretches; lush, heavily fed grass is more susceptible.
+- Don't mow while the grass is wet, since mowers can spread the fungus.
+- On tall fescue, brown patch often thins the grass without killing the roots, so it may recover once the weather cools. Fungicides are an option for lawns that get it badly every year, but they work best as prevention, not as a rescue.
+
+## Step 5: Check for grubs and other hidden damage
 
 If the patch pulls up like loose carpet with almost no roots holding it down, that's a strong sign of grub damage — the larvae of beetles that eat grass roots from below. A quick check: grab a handful of the dead grass and tug. Healthy grass resists; grub-damaged grass lifts away in a sheet because there's nothing left underneath to anchor it.
 
-You can also cut a small square of turf, peel it back, and look for C-shaped white grubs in the top few inches of soil. Finding a handful per square foot is generally considered enough to explain visible damage. Treatment options range from targeted lawn insecticides to beneficial nematodes, applied at the right time in the grub's life cycle (typically late summer). If you don't find grubs, don't treat for them — most grub products are unnecessary insurance if the actual cause is coverage or compaction.
+You can also cut a small square of turf, peel it back, and look for C-shaped white grubs in the top few inches of soil. Extension services typically put the treatment threshold at roughly 5 to 10 or more grubs per square foot; the exact number varies with the grub species and how healthy the lawn is, and fewer than that usually isn't what's killing your grass. Treatment options range from targeted lawn insecticides to beneficial nematodes, and timing matters: preventive products go down in late spring to early summer, while curative ones work best in late summer to early fall, when grubs are young and feeding near the surface. If you don't find grubs, don't treat for them — most grub products are unnecessary insurance if the actual cause is coverage or compaction.
 
-## Step 5: Consider chemical damage — pet urine, fertilizer, or de-icing salt
+## Step 6: Consider chemical damage — pet urine, fertilizer, or de-icing salt
 
 A brown patch with a dark green, extra-lush ring around the edge is a classic sign of dog urine. The nitrogen in urine is so concentrated in one spot that it burns the grass in the center while over-fertilizing (and greening up) the ring around it. Watering more won't fix this — what helps is flushing the spot with extra water right after your dog uses it, to dilute the nitrogen before it scorches the roots, and reseeding the dead spot once it's stopped happening.
 
-Fertilizer spills, gas or oil drips from equipment, and de-icing salt from a nearby driveway or sidewalk cause similar chemical burn. These patches tend to have sharp, unnatural edges rather than the soft, irregular shape of a drought spot, which is a useful visual clue when you're trying to tell the causes apart.
+Fertilizer spills, gas or oil drips from equipment, and de-icing salt from a nearby driveway or sidewalk cause similar chemical burn (salt is the usual reason [the strip along a sidewalk dies every winter](https://www.hearth-habit.com/2026/09/why-does-grass-along-sidewalk-die-every.html)). These patches tend to have sharp, unnatural edges rather than the soft, irregular shape of a drought spot, which is a useful visual clue when you're trying to tell the causes apart.
 
-## Step 6: Rule out buried debris
+## Step 7: Rule out buried debris
 
 Old construction debris, a buried tree stump, a slab of concrete, or even a shallow layer of builder's sand under thin topsoil can all create a permanent dry, poor spot no amount of watering will fix. This is more common in newer construction or if the brown patch has been in the exact same spot, unchanged, for years despite every other fix.
 
-Dig down 6 to 12 inches in the worst part of the patch. If you hit something solid or the soil composition changes abruptly, that's your answer. The real fix is removing the debris if practical, or accepting that spot may need a raised planting bed, mulch, or a groundcover instead of grass.
+Call 811 a few business days before you dig — it's free, and some utility lines are buried surprisingly shallow. Then dig down 6 to 12 inches in the worst part of the patch. If you hit something solid or the soil composition changes abruptly, that's your answer. The real fix is removing the debris if practical, or accepting that spot may need a raised planting bed, mulch, or a groundcover instead of grass.
 
-## Step 7: Reseed and give it time
+## Step 8: Reseed and give it time
 
-Once you've addressed the actual cause — better coverage, aeration, grub treatment, or diluting urine spots — the dead grass itself usually needs help getting back. Rake out the dead material, loosen the top inch of soil, and overseed with a grass type that matches the rest of your lawn. Keep the area consistently moist (not soaked) for the first couple of weeks until you see new growth.
+Once you've addressed the actual cause — better coverage, aeration, better watering habits, grub treatment, or diluting urine spots — the dead grass itself usually needs help getting back. Rake out the dead material, loosen the top inch of soil, and overseed with a grass type that matches the rest of your lawn. Keep the area consistently moist (not soaked) for the first couple of weeks until you see new growth.
 
-Timing matters here: cool-season grasses generally establish best in early fall or spring, and how late you can push it depends on your climate — if you're seeding late in the year, it's worth checking how much of a window you realistically have before it gets too cold for the seed to take.
+Timing matters here: cool-season grasses generally establish best in early fall or spring, and warm-season grasses in late spring to early summer. If you're seeding late in the year, check [how late you can still seed in fall](https://www.hearth-habit.com/2026/07/how-late-can-you-seed-grass-in-fall-and.html) before it gets too cold for the seed to take.
 
-**Key takeaway:** a brown patch is a symptom, not a diagnosis — the screwdriver test, a root check, and a look at the patch's shape will usually tell you whether it's coverage, compaction, grubs, or chemical damage before you spend another month just watering it more.
+**Key takeaway:** a brown patch is a symptom, not a diagnosis — the screwdriver test, a tug on the grass, and a look at the patch's shape and timing will usually tell you whether it's coverage, compaction, disease, grubs, or chemical damage before you spend another month just watering it more.
 
 ## FAQ
 
@@ -89,3 +105,6 @@ Sometimes — scalping (mowing too short) stresses grass and can cause patchy br
 
 ### Should I just replace the patch with sod instead of reseeding?
 Sod gives you an instant fix and can be worth it for a small, high-visibility spot, but it costs meaningfully more per square foot than seed and won't fix an underlying issue like compaction or poor drainage — it'll just die again in the same spot if the cause isn't addressed first.
+
+## Sources
+- [Call 811](https://call811.com/) — free utility-line marking before you dig

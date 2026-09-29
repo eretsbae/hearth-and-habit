@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+  <text x="600" y="72" font-family="Helvetica, Arial, sans-serif" font-size="36" font-weight="bold" text-anchor="middle" fill="#2E2A24">Why the mess comes back in 2 days</text>
+  <path d="M571,165 Q650,168 650,235" fill="none" stroke="#2E2A24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="650,253 639,233 661,233" fill="#2E2A24"/>
+  <path d="M668,326 Q712,410 670.3,469.3" fill="none" stroke="#2E2A24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="660,484 662.5,461.3 680.5,474" fill="#2E2A24"/>
+  <path d="M482,524 Q420,556 374,532.3" fill="none" stroke="#2E2A24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="358,524 380.8,523.4 370.7,542.9" fill="#2E2A24"/>
+  <path d="M184,484 Q132,410 164.2,343.2" fill="none" stroke="#2E2A24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="172,327 173.2,349.8 153.4,340.2" fill="#2E2A24"/>
+  <path d="M180,253 Q186,166 249,162.1" fill="none" stroke="#2E2A24" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="267,161 247.7,173.2 246.4,151.3" fill="#2E2A24"/>
+  <rect x="275" y="131" width="290" height="58" rx="29" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
+  <text x="420" y="169" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2E2A24">Items get used</text>
+  <rect x="505" y="261" width="290" height="58" rx="29" fill="#B85C38" stroke="#B85C38" stroke-width="3"/>
+  <text x="650" y="299" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#FFFDF9">No home for them</text>
+  <rect x="490" y="491" width="290" height="58" rx="29" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
+  <text x="635" y="529" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2E2A24">Dropped on surfaces</text>
+  <rect x="60" y="491" width="290" height="58" rx="29" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
+  <text x="205" y="529" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2E2A24">Pile grows</text>
+  <rect x="35" y="261" width="290" height="58" rx="29" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
+  <text x="180" y="299" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" text-anchor="middle" fill="#2E2A24">Big clean-up</text>
+  <text x="420" y="359" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#B85C38">Repeat</text>
+  <text x="420" y="393" font-family="Helvetica, Arial, sans-serif" font-size="24" font-style="italic" text-anchor="middle" fill="#2E2A24">Cleaning treats the symptom</text>
+  <line x1="801" y1="290" x2="834" y2="290" stroke="#2E2A24" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="852,290 832,301 832,279" fill="#2E2A24"/>
+  <rect x="858" y="205" width="282" height="170" rx="22" fill="#5C6E58"/>
+  <text x="999" y="255" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#FFFDF9">Break the loop</text>
+  <text x="999" y="301" font-family="Helvetica, Arial, sans-serif" font-size="28" text-anchor="middle" fill="#FFFDF9">Give it a home</text>
+  <text x="999" y="341" font-family="Helvetica, Arial, sans-serif" font-size="28" text-anchor="middle" fill="#FFFDF9">+ one-touch rule</text>
+</svg>

@@ -12,6 +12,7 @@
 - 주제는 `config/topics.yml` 의 5개 필러 안에서만. 트렌드 API·외부 주제 소스를 붙이지 않는다(드리프트 방지가 설계 핵심).
 - 글 속 수치·안전 기준(식품안전, 곰팡이 면적, 락스 혼합, 전기요금 단가 등)은 `config/facts.yml` 과 일치시킨다. 값을 바꾸면 그 값을 인용한 글도 같이 고친다.
 - `content/` 의 게시된 글·이미지는 Blogger 가 raw URL 로 참조한다. 이름 변경·삭제는 `retire-posts.yml` 절차로만.
+- 게시된 글(`content/posts`)을 고쳐 main 에 머지하면 `sync-posts.yml` 이 바뀐 글만 라이브에 PATCH 한다(Blogger 편집기 수정분은 덮어씀). 로컬 확인은 `python generator/blogger_publish.py --sync-content SLUG --dry-run`.
 
 ## 로컬 실행·검증
 ```
@@ -23,7 +24,7 @@ python generator/build_site.py                       # (레거시) 정적 미리
 ```
 
 ## 구조
-`config/site.yml` 사이트·생성 설정 · `config/topics.yml` 필러+주제 큐+게시 URL 기록 · `config/facts.yml` 사실 기준표(프롬프트·크리틱에 주입) · `generator/` 생성·발행·Pinterest·Kakao 스크립트(`prompts.py` 가 글 프롬프트) · `content/posts|images|pages` 산출물 · `blogger/custom-css.css` 테마 · `.github/workflows/` generate-and-publish · pinterest-publish · publish-pages · relink-posts · retire-posts · weekly-report.
+`config/site.yml` 사이트·생성 설정 · `config/topics.yml` 필러+주제 큐+게시 URL 기록 · `config/facts.yml` 사실 기준표(프롬프트·크리틱에 주입) · `generator/` 생성·발행·Pinterest·Kakao 스크립트(`prompts.py` 가 글 프롬프트) · `content/posts|images|pages` 산출물 · `blogger/custom-css.css` 테마 · `.github/workflows/` generate-and-publish · pinterest-publish · publish-pages · relink-posts · retire-posts · sync-posts · weekly-report.
 
 ## 보고 원칙
 - 결론 먼저, 근거는 경로·커밋 해시로. 도구의 성공 응답은 게시 성공의 증거가 아니다 — Blogger URL 또는 Actions 로그로 확인하고, 못 하면 "미검증".

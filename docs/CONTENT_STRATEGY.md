@@ -154,6 +154,9 @@ robots.txt 차단도 noindex도 아니다 — 구글이 URL을 알고는 있으�
   관련 글은 태그 겹침 → 같은 필러 → 최신순으로 정렬.
 - Pinterest: 글마다 `pin_hooks` 2개 → 레이아웃이 다른 헤드라인 핀과 업로드 CSV(`content/pins/hooks/`).
 - 주간 리포트에 Search Console 검색어·페이지 실적 표를 추가했다(`webmasters.readonly` 권한 재발급 필요).
+- 발행 후 정정 경로: `blogger_publish.py --sync-content`와 `sync-posts.yml`. 게시된 글을 고쳐 main에
+  머지하면 바뀐 글만 라이브에 PATCH하고, 본문 위에 "Last reviewed" 날짜와 JSON-LD `dateModified`를
+  단다. 이전에는 이 경로가 없어서, 저장소를 고쳐도 라이브 글은 그대로였다.
 
 **이미지 호스팅 검토 (미실행):** 본문 이미지가 raw.githubusercontent.com에서 서빙되어 구글 이미지 검색의
 공로가 우리 도메인으로 잡히지 않는다. 선택지는 두 가지다. (a) `img.hearth-habit.com`을 GitHub Pages로 서빙:

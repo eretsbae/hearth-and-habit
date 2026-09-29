@@ -26,7 +26,7 @@ Hearth & Habit uses modern editorial tools, including AI assistance, in producin
 
 Numbers and safety rules come from primary sources, not other blogs: food safety from the USDA and FDA, mold and water from the EPA, energy figures from the U.S. Department of Energy and EIA, fire and electrical safety from NFPA and the CPSC, and lawn and garden timing from university extension services. Articles that rely on those rules link them in a **Sources** section at the end, and the same figure is used on every page of the site.
 
-Spotted something wrong or out of date? Tell us through the [contact page](/contact/) and we'll correct the article.
+Corrected articles show a "Last reviewed" date at the top. Spotted something wrong or out of date? Tell us through the [contact page](/contact/) and we'll correct the article.
 
 ## Get in touch
 

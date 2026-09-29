@@ -20,9 +20,11 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import datetime
 import json
 import os
 import re
+import subprocess
 import sys
 from pathlib import Path
 from urllib.parse import quote, urlparse
@@ -368,6 +370,117 @@ def find_post_file(slug: str) -> Path | None:
     return matches[0] if matches else None
 
 
+def reviewed_line(fm: dict) -> str:
+    """Visible "Last reviewed" date for posts corrected after publication.
+    Readers (and Google) see the page was checked; it matches dateModified
+    in the JSON-LD."""
+    updated = fm.get("updated")
+    if not updated:
+        return ""
+    try:
+        d = datetime.date.fromisoformat(str(updated))
+    except ValueError:
+        return ""
+    return (
+        f'<p style="margin:0 0 20px;font-size:14px;color:#8a8078;">'
+        f'Last reviewed {d.strftime("%B")} {d.day}, {d.year}</p>\n'
+    )
+
+
+def render_post_html(
+    cfg: dict, topics_data: dict, pillar_by_slug: dict, fm: dict, body: str,
+    slug: str, blog_url: str, page_url: str = "",
+) -> str:
+    """The complete Blogger post body for one Markdown post. Used both when a
+    post is first created and when a live post is re-synced from the repo, so
+    the two paths can't drift apart."""
+    html = rewrite_image_urls(cfg, md_to_html(body))
+    pillar = pillar_by_slug.get(fm.get("pillar"), {})
+    hero_url = raw_asset_url(cfg, "content" + fm["hero_image"]) if fm.get("hero_image") else ""
+    return (
+        json_ld_block(cfg, fm, hero_url, page_url, parse_faq(body))
+        + hero_image_tag(cfg, fm.get("hero_image", ""), fm.get("hero_alt", fm.get("title", "")))
+        + reviewed_line(fm)
+        + html
+        + related_posts_html(topics_data, pillar, slug, blog_url)
+    )
+
+
+def post_labels(fm: dict, pillar: dict) -> list[str]:
+    labels = list(dict.fromkeys([pillar.get("name", "")] + fm.get("tags", [])))[:20]
+    return [l for l in labels if l]
+
+
+def changed_post_slugs(since_ref: str) -> set[str]:
+    """Slugs of posts whose Markdown changed between since_ref and HEAD."""
+    out = subprocess.run(
+        ["git", "diff", "--name-only", since_ref, "HEAD", "--", "content/posts"],
+        cwd=ROOT, capture_output=True, text=True, check=True,
+    ).stdout
+    return {Path(line).stem[11:] for line in out.split() if line.endswith(".md")}
+
+
+def sync_live_posts(cfg: dict, topics_data: dict, pillar_by_slug: dict,
+                    only: set[str] | None, dry_run: bool = False) -> int:
+    """Re-render live posts from content/posts and PATCH them on Blogger
+    (title, body, labels). The repo is the source of truth: a correction
+    merged into content/posts only reaches readers through this. URL and
+    publish date stay the same; anything edited by hand in the Blogger
+    editor is overwritten."""
+    blog_url = (cfg.get("blogger") or {}).get("blog_url", "").strip()
+    live = [
+        t for t in topics_data["topics"]
+        if t.get("status") == "published" and t.get("blogger_url")
+        and (only is None or t.get("published_slug") in only)
+    ]
+    print(f"Syncing {len(live)} live post(s) from content/posts -> Blogger"
+          + (" (dry run: render only)" if dry_run else ""))
+    headers = {}
+    blog_id = ""
+    if not dry_run:
+        access_token = get_access_token()
+        blog_id = (cfg["blogger"].get("blog_id") or "").strip() or get_blog_id(access_token, blog_url)
+        headers = {"Authorization": f"Bearer {access_token}", "Content-Type": "application/json"}
+
+    failed = 0
+    for topic in live:
+        slug = topic.get("published_slug")
+        path = find_post_file(slug) if slug else None
+        if not path:
+            print(f"WARN: no post file for '{topic['title']}' (slug={slug}); skipping")
+            continue
+        fm, body = parse_frontmatter(path)
+        pillar = pillar_by_slug.get(fm.get("pillar"), {})
+        html = render_post_html(cfg, topics_data, pillar_by_slug, fm, body, slug, blog_url,
+                                page_url=topic["blogger_url"])
+        if dry_run:
+            print(f"  would sync: {fm['title']} ({len(html)} chars) -> {topic['blogger_url']}")
+            continue
+        try:
+            post_id = topic.get("blogger_post_id")
+            if not post_id:
+                resp = requests.get(
+                    f"{API_BASE}/blogs/{blog_id}/posts/bypath",
+                    params={"path": blogger_post_path(topic["blogger_url"])},
+                    headers=headers, timeout=30,
+                )
+                resp.raise_for_status()
+                post_id = resp.json()["id"]
+            resp = requests.patch(
+                f"{API_BASE}/blogs/{blog_id}/posts/{post_id}",
+                json={"title": fm["title"], "content": html, "labels": post_labels(fm, pillar)},
+                headers=headers, timeout=30,
+            )
+            resp.raise_for_status()
+            print(f"  synced: {fm['title']} -> {resp.json().get('url', topic['blogger_url'])}")
+        except requests.exceptions.RequestException as e:
+            failed += 1
+            print(f"WARN: failed to sync '{topic['title']}': {e}")
+    if failed:
+        print(f"{failed} post(s) failed to sync; re-run to retry (sync is idempotent).")
+    return 1 if failed else 0
+
+
 def create_post(access_token: str, blog_id: str, title: str, html: str, labels: list[str], is_draft: bool) -> dict:
     payload = {"kind": "blogger#post", "title": title, "content": html, "labels": labels}
     resp = requests.post(
@@ -399,6 +512,23 @@ def main() -> int:
         "after a domain change (blogspot -> custom domain) so in-content links "
         "point at the new domain directly instead of bouncing through the 301.",
     )
+    ap.add_argument(
+        "--sync-content",
+        nargs="*",
+        metavar="SLUG",
+        help="Do not publish anything new; re-render live posts from content/posts and "
+        "update them on Blogger (title, body, labels). No slugs = every live post.",
+    )
+    ap.add_argument(
+        "--changed-since",
+        metavar="GIT_REF",
+        help="With --sync-content: only posts whose Markdown changed since this git ref.",
+    )
+    ap.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="With --sync-content: render and list what would be synced, no API calls.",
+    )
     args = ap.parse_args()
 
     if args.check_auth:
@@ -409,6 +539,16 @@ def main() -> int:
     cfg = load_yaml(SITE_CONFIG)
     topics_data = load_yaml(TOPICS_CONFIG)
     pillar_by_slug = {p["slug"]: p for p in topics_data["pillars"]}
+
+    if args.sync_content is not None:
+        only: set[str] | None = set(args.sync_content) or None
+        if args.changed_since:
+            changed = changed_post_slugs(args.changed_since)
+            only = changed if only is None else only & changed
+            if not only:
+                print(f"No post Markdown changed since {args.changed_since}; nothing to sync.")
+                return 0
+        return sync_live_posts(cfg, topics_data, pillar_by_slug, only, dry_run=args.dry_run)
 
     if args.relink_all:
         blog_url = (cfg.get("blogger") or {}).get("blog_url", "").strip()
@@ -455,18 +595,9 @@ def main() -> int:
             continue
 
         fm, body = parse_frontmatter(path)
-        html = rewrite_image_urls(cfg, md_to_html(body))
         pillar = pillar_by_slug.get(fm.get("pillar"), {})
-        hero_url = raw_asset_url(cfg, "content" + fm["hero_image"]) if fm.get("hero_image") else ""
-        full_html = (
-            json_ld_block(cfg, fm, hero_url, "", parse_faq(body))
-            + hero_image_tag(cfg, fm.get("hero_image", ""), fm.get("hero_alt", fm.get("title", "")))
-            + html
-            + related_posts_html(topics_data, pillar, slug, blog_url)
-        )
-
-        labels = list(dict.fromkeys([pillar.get("name", "")] + fm.get("tags", [])))[:20]
-        labels = [l for l in labels if l]
+        full_html = render_post_html(cfg, topics_data, pillar_by_slug, fm, body, slug, blog_url)
+        labels = post_labels(fm, pillar)
 
         print(f"Publishing to Blogger: {fm['title']}")
         result = create_post(access_token, blog_id, fm["title"], full_html, labels, args.draft)

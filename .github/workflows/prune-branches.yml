@@ -1,0 +1,65 @@
+# 머지 끝난 원격 브랜치 자동 정리
+# - 팁 커밋이 main 의 조상인(= 커밋이 전부 main 에 들어간) 브랜치만 지웁니다.
+#   커밋은 main 에 남으므로 이력 손실이 없습니다.
+# - 건드리지 않는 것: main, 열린 PR 의 브랜치, 마지막 커밋이 MIN_AGE_DAYS 이내인
+#   브랜치. main 에서 막 새로 딴 브랜치도 "main 의 조상"으로 보이기 때문에, 작업을
+#   시작하기 전에 지워지지 않도록 나이 제한을 둡니다.
+# - PR 머지 직후 삭제는 저장소 설정 "Automatically delete head branches" 가 맡고,
+#   이 워크플로우는 로컬 머지(git merge 후 main push)로 남은 브랜치를 줍습니다.
+# - main 에 커밋하지 않으므로 repo-write 그룹에 들어가지 않습니다.
+
+name: Prune Merged Branches
+
+on:
+  schedule:
+    - cron: "11 1 * * 0" # Sun 01:11 UTC = 일요일 10:11 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: read
+
+concurrency:
+  group: prune-branches
+  cancel-in-progress: false
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Delete branches already merged into main
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          MIN_AGE_DAYS: "7"
+        run: |
+          set -euo pipefail
+          open_heads=$(gh pr list --state open --limit 200 --json headRefName --jq '.[].headRefName')
+          cutoff=$(( $(date +%s) - MIN_AGE_DAYS * 86400 ))
+          deleted=()
+          while read -r ref; do
+            b=${ref#origin/}
+            [ "$b" = "$DEFAULT_BRANCH" ] && continue
+            if ! git merge-base --is-ancestor "$ref" "origin/$DEFAULT_BRANCH"; then
+              echo "keep (unmerged commits): $b"; continue
+            fi
+            if grep -qxF -- "$b" <<<"$open_heads"; then
+              echo "keep (open PR): $b"; continue
+            fi
+            if [ "$(git log -1 --format=%ct "$ref")" -gt "$cutoff" ]; then
+              echo "keep (newer than ${MIN_AGE_DAYS}d): $b"; continue
+            fi
+            if git push origin --delete "$b"; then
+              echo "deleted: $b"; deleted+=("$b")
+            else
+              echo "::warning::could not delete $b (protected?)"
+            fi
+          done < <(git for-each-ref --format='%(refname:short)' refs/remotes/origin | grep -v -x -e origin -e origin/HEAD)
+          {
+            echo "## Pruned ${#deleted[@]} merged branch(es)"
+            for b in "${deleted[@]}"; do echo "- \`$b\`"; done
+          } >> "$GITHUB_STEP_SUMMARY"

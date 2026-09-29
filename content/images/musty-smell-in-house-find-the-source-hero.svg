@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- soft background shapes -->
+  <circle cx="1090" cy="95" r="120" fill="#E4C7B2" opacity="0.4"/>
+  <circle cx="95" cy="80" r="55" fill="#D9A441" opacity="0.18"/>
+
+  <!-- floor -->
+  <rect x="0" y="520" width="1200" height="110" fill="#E4C7B2" opacity="0.55"/>
+  <rect x="0" y="518" width="1200" height="4" fill="#2E2A24" opacity="0.12"/>
+
+  <!-- CLOSET -->
+  <rect x="140" y="105" width="340" height="415" rx="10" fill="#5C6E58"/>
+  <rect x="164" y="130" width="292" height="390" fill="#F6EFE6"/>
+  <rect x="164" y="130" width="292" height="390" fill="#E4C7B2" opacity="0.6"/>
+  <rect x="164" y="130" width="292" height="390" fill="#2E2A24" opacity="0.06"/>
+  <!-- shelf with folded linens -->
+  <rect x="164" y="160" width="292" height="7" fill="#2E2A24" opacity="0.35"/>
+  <rect x="190" y="138" width="70" height="11" rx="4" fill="#D9A441"/>
+  <rect x="194" y="149" width="62" height="11" rx="4" fill="#B85C38" opacity="0.85"/>
+  <rect x="360" y="142" width="74" height="18" rx="4" fill="#5C6E58" opacity="0.7"/>
+  <!-- rod -->
+  <rect x="172" y="190" width="276" height="7" rx="3.5" fill="#2E2A24" opacity="0.6"/>
+  <!-- hanger hooks -->
+  <rect x="213" y="193" width="4" height="18" fill="#2E2A24" opacity="0.6"/>
+  <rect x="288" y="193" width="4" height="18" fill="#2E2A24" opacity="0.6"/>
+  <rect x="370" y="193" width="4" height="18" fill="#2E2A24" opacity="0.6"/>
+  <!-- garments -->
+  <path d="M190 210 L240 210 L254 226 L254 340 L176 340 L176 226 Z" fill="#B85C38"/>
+  <path d="M263 210 L317 210 L332 228 L332 410 L248 410 L248 228 Z" fill="#D9A441"/>
+  <rect x="287" y="228" width="6" height="182" fill="#2E2A24" opacity="0.12"/>
+  <path d="M348 210 L396 210 L410 225 L410 318 L334 318 L334 225 Z" fill="#5C6E58" opacity="0.85"/>
+  <!-- boxes and shoes on the closet floor -->
+  <rect x="352" y="446" width="88" height="70" rx="3" fill="#D9A441" opacity="0.65"/>
+  <rect x="352" y="446" width="88" height="12" rx="3" fill="#B85C38" opacity="0.35"/>
+  <rect x="236" y="496" width="44" height="18" rx="8" fill="#2E2A24" opacity="0.7"/>
+  <rect x="284" y="496" width="44" height="18" rx="8" fill="#2E2A24" opacity="0.7"/>
+  <!-- mildew speckles in the back corner -->
+  <circle cx="180" cy="470" r="7" fill="#5C6E58" opacity="0.45"/>
+  <circle cx="196" cy="486" r="5" fill="#5C6E58" opacity="0.4"/>
+  <circle cx="178" cy="496" r="9" fill="#5C6E58" opacity="0.35"/>
+  <circle cx="204" cy="462" r="4" fill="#5C6E58" opacity="0.4"/>
+  <circle cx="213" cy="500" r="5" fill="#5C6E58" opacity="0.3"/>
+  <!-- open door -->
+  <path d="M480 105 L565 138 L565 492 L480 520 Z" fill="#E4C7B2"/>
+  <path d="M480 105 L565 138 L565 492 L480 520 Z" fill="none" stroke="#2E2A24" stroke-width="3" opacity="0.15"/>
+  <path d="M496 150 L550 170 L550 300 L496 290 Z" fill="#2E2A24" opacity="0.06"/>
+  <path d="M496 330 L550 336 L550 470 L496 486 Z" fill="#2E2A24" opacity="0.06"/>
+  <circle cx="548" cy="318" r="8" fill="#D9A441"/>
+
+  <!-- odor lines drifting from the closet -->
+  <path d="M590 250 C630 225 600 190 640 165 S660 110 700 92" fill="none" stroke="#5C6E58" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+  <path d="M600 330 C645 305 615 270 660 245" fill="none" stroke="#5C6E58" stroke-width="6" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- HUMIDITY GAUGE -->
+  <ellipse cx="800" cy="440" rx="95" ry="10" fill="#2E2A24" opacity="0.08"/>
+  <circle cx="800" cy="300" r="118" fill="#5C6E58"/>
+  <circle cx="800" cy="300" r="100" fill="#F6EFE6"/>
+  <path d="M729.1 287.5 A72 72 0 0 1 769.6 234.7" fill="none" stroke="#5C6E58" stroke-width="16" stroke-linecap="round" opacity="0.8"/>
+  <path d="M775.4 232.3 A72 72 0 0 1 830.4 234.7" fill="none" stroke="#D9A441" stroke-width="16" stroke-linecap="round"/>
+  <path d="M836 237.6 A72 72 0 0 1 870.9 287.5" fill="none" stroke="#B85C38" stroke-width="16" stroke-linecap="round"/>
+  <path d="M800 300 L846 261.4" stroke="#2E2A24" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="800" cy="300" r="12" fill="#2E2A24"/>
+  <path d="M800 332 C800 332 781 356 781 368 A19 19 0 0 0 819 368 C819 356 800 332 800 332 Z" fill="#B85C38" opacity="0.85"/>
+
+  <!-- TOWEL RAIL AND WASHER -->
+  <rect x="975" y="172" width="150" height="8" rx="4" fill="#2E2A24" opacity="0.6"/>
+  <circle cx="975" cy="176" r="8" fill="#2E2A24" opacity="0.6"/>
+  <circle cx="1125" cy="176" r="8" fill="#2E2A24" opacity="0.6"/>
+  <rect x="1000" y="178" width="100" height="120" rx="6" fill="#B85C38"/>
+  <rect x="1000" y="178" width="100" height="22" fill="#2E2A24" opacity="0.12"/>
+  <rect x="1000" y="262" width="100" height="9" fill="#D9A441"/>
+  <rect x="1000" y="277" width="100" height="5" fill="#D9A441" opacity="0.7"/>
+  <!-- damp drips under towel -->
+  <path d="M1030 312 C1030 312 1024 321 1024 325 A6 6 0 0 0 1036 325 C1036 321 1030 312 1030 312 Z" fill="#5C6E58" opacity="0.6"/>
+  <path d="M1068 318 C1068 318 1062 327 1062 331 A6 6 0 0 0 1074 331 C1074 327 1068 318 1068 318 Z" fill="#5C6E58" opacity="0.45"/>
+
+  <rect x="955" y="345" width="190" height="175" rx="14" fill="#E4C7B2"/>
+  <rect x="955" y="345" width="190" height="175" rx="14" fill="none" stroke="#2E2A24" stroke-width="3" opacity="0.15"/>
+  <rect x="955" y="345" width="190" height="38" rx="14" fill="#D9A441" opacity="0.85"/>
+  <rect x="972" y="357" width="52" height="14" rx="5" fill="#F6EFE6"/>
+  <circle cx="1118" cy="364" r="9" fill="#2E2A24" opacity="0.7"/>
+  <circle cx="1050" cy="452" r="54" fill="#5C6E58"/>
+  <circle cx="1050" cy="452" r="41" fill="#F6EFE6" opacity="0.9"/>
+  <circle cx="1050" cy="452" r="33" fill="#2E2A24" opacity="0.12"/>
+  <path d="M1030 440 A24 24 0 0 1 1062 430" fill="none" stroke="#F6EFE6" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+</svg>

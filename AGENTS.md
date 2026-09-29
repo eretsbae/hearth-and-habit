@@ -8,7 +8,7 @@
 
 ## 하지 말 것
 - 비밀값(`ANTHROPIC_API_KEY`, `GOOGLE_*`, Pinterest·Kakao 토큰)은 GitHub Secrets 와 로컬 `.secrets/`·`.env`·`generator/token.json` 에만. 코드·문서·커밋에 값을 쓰지 않는다.
-- 워크플로우 cron·일정과 Blogger/AdSense 설정은 사용자가 명시적으로 승인한 경우에만 바꾼다. 생성 편수 상향은 `generate-and-publish.yml` 주석의 조건(30편 도달·애드센스 승인)을 따른다.
+- 워크플로우 cron·일정과 Blogger/AdSense 설정은 사용자가 명시적으로 승인한 경우에만 바꾼다. 발행은 주 3회(월/수/금)이고, 계속·중단은 `docs/SETUP_GUIDE.md` "중단 기준" 절의 숫자(2026-11-16·2027-01-18 점검)대로 판단한다 — 점검일에 기준을 재협상하지 않는다.
 - 주제는 `config/topics.yml` 의 5개 필러 안에서만. 트렌드 API·외부 주제 소스를 붙이지 않는다(드리프트 방지가 설계 핵심).
 - 글 속 수치·안전 기준(식품안전, 곰팡이 면적, 락스 혼합, 전기요금 단가 등)은 `config/facts.yml` 과 일치시킨다. 값을 바꾸면 그 값을 인용한 글도 같이 고친다.
 - `content/` 의 게시된 글·이미지는 Blogger 가 raw URL 로 참조한다. 이름 변경·삭제는 `retire-posts.yml` 절차로만.

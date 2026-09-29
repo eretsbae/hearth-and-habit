@@ -158,6 +158,7 @@ def json_ld_block(cfg: dict, fm: dict, hero_url: str, page_url: str, faq_pairs: 
             "headline": fm.get("title", ""),
             "description": fm.get("description", ""),
             "datePublished": str(fm.get("date", "")),
+            "dateModified": str(fm.get("updated") or fm.get("date", "")),
             "image": [hero_url] if hero_url else [],
             "author": {"@type": "Organization", "name": cfg.get("site_name", "Hearth & Habit")},
             "publisher": {"@type": "Organization", "name": cfg.get("site_name", "Hearth & Habit")},
@@ -200,27 +201,71 @@ RELATED_END = "<!-- /hh:related -->"
 LEGACY_RELATED_MARKER = '<hr style="margin:40px 0 24px;border:none;border-top:1px solid #e4c7b2;" />'
 
 
+_POST_INDEX: dict[str, dict] | None = None
+
+
+def post_index() -> dict[str, dict]:
+    """slug -> {"tags": set, "date": str, "title": str} from content/posts
+    frontmatter. Cached: related-link scoring runs once per live post."""
+    global _POST_INDEX
+    if _POST_INDEX is None:
+        _POST_INDEX = {}
+        for path in POSTS_DIR.glob("*.md"):
+            try:
+                fm, _ = parse_frontmatter(path)
+            except ValueError:
+                continue
+            slug = fm.get("slug") or path.stem[11:]
+            _POST_INDEX[slug] = {
+                "tags": {str(t).lower() for t in fm.get("tags") or []},
+                "date": str(fm.get("date", "")),
+                "title": fm.get("title", ""),
+            }
+    return _POST_INDEX
+
+
+def related_candidates(topics_data: dict, pillar_slug: str | None, current_slug: str | None,
+                       limit: int = 3) -> list[dict]:
+    """Rank live posts by relatedness to the current one: shared tags weigh
+    most, same pillar breaks ties, newer posts break the rest.
+
+    The old rule took the first N same-pillar topics in topics.yml order, so
+    every post in a pillar linked to the same three oldest posts and the
+    other ~45 posts never received a "Keep reading" link at all.
+    """
+    index = post_index()
+    mine = index.get(current_slug or "", {}).get("tags", set())
+    scored = []
+    for t in topics_data.get("topics", []):
+        slug = t.get("published_slug")
+        if not t.get("blogger_url") or slug == current_slug or t.get("status") != "published":
+            continue
+        meta = index.get(slug, {})
+        shared = len(mine & meta.get("tags", set()))
+        same_pillar = t.get("pillar") == pillar_slug
+        if not shared and not same_pillar:
+            continue
+        scored.append((shared * 2 + (1 if same_pillar else 0), meta.get("date", ""), t))
+    scored.sort(key=lambda s: (s[0], s[1]), reverse=True)
+    return [t for _, _, t in scored[:limit]]
+
+
 def related_posts_html(
     topics_data: dict, pillar: dict, current_slug: str | None, blog_url: str, limit: int = 3
 ) -> str:
-    """Internal links to other published posts in the same pillar, plus a
-    link to the pillar's Blogger label archive. More pages/session and
-    stronger topical-authority signal than a standalone post with no
-    outbound links to the rest of the site.
+    """Internal links to the most related live posts, plus a link to the
+    pillar's Blogger label archive. More pages/session and stronger
+    topical-authority signal than a standalone post with no outbound links
+    to the rest of the site.
     """
     if not pillar:
         return ""
-    pillar_slug = pillar.get("slug")
-    siblings = [
-        t
-        for t in topics_data.get("topics", [])
-        if t.get("pillar") == pillar_slug
-        and t.get("blogger_url")
-        and t.get("published_slug") != current_slug
-    ]
+    siblings = related_candidates(topics_data, pillar.get("slug"), current_slug, limit)
+    index = post_index()
     items = "".join(
-        f'<li style="margin:0 0 6px;"><a href="{t["blogger_url"]}">{t["title"]}</a></li>'
-        for t in siblings[:limit]
+        f'<li style="margin:0 0 6px;"><a href="{t["blogger_url"]}">'
+        f'{index.get(t.get("published_slug"), {}).get("title") or t["title"]}</a></li>'
+        for t in siblings
     )
     hub_link = ""
     if blog_url:

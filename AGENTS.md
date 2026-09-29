@@ -10,6 +10,7 @@
 - 비밀값(`ANTHROPIC_API_KEY`, `GOOGLE_*`, Pinterest·Kakao 토큰)은 GitHub Secrets 와 로컬 `.secrets/`·`.env`·`generator/token.json` 에만. 코드·문서·커밋에 값을 쓰지 않는다.
 - 워크플로우 cron·일정과 Blogger/AdSense 설정은 사용자가 명시적으로 승인한 경우에만 바꾼다. 생성 편수 상향은 `generate-and-publish.yml` 주석의 조건(30편 도달·애드센스 승인)을 따른다.
 - 주제는 `config/topics.yml` 의 5개 필러 안에서만. 트렌드 API·외부 주제 소스를 붙이지 않는다(드리프트 방지가 설계 핵심).
+- 글 속 수치·안전 기준(식품안전, 곰팡이 면적, 락스 혼합, 전기요금 단가 등)은 `config/facts.yml` 과 일치시킨다. 값을 바꾸면 그 값을 인용한 글도 같이 고친다.
 - `content/` 의 게시된 글·이미지는 Blogger 가 raw URL 로 참조한다. 이름 변경·삭제는 `retire-posts.yml` 절차로만.
 
 ## 로컬 실행·검증
@@ -22,7 +23,7 @@ python generator/build_site.py                       # (레거시) 정적 미리
 ```
 
 ## 구조
-`config/site.yml` 사이트·생성 설정 · `config/topics.yml` 필러+주제 큐+게시 URL 기록 · `generator/` 생성·발행·Pinterest·Kakao 스크립트(`prompts.py` 가 글 프롬프트) · `content/posts|images|pages` 산출물 · `blogger/custom-css.css` 테마 · `.github/workflows/` generate-and-publish · pinterest-publish · publish-pages · relink-posts · retire-posts · weekly-report.
+`config/site.yml` 사이트·생성 설정 · `config/topics.yml` 필러+주제 큐+게시 URL 기록 · `config/facts.yml` 사실 기준표(프롬프트·크리틱에 주입) · `generator/` 생성·발행·Pinterest·Kakao 스크립트(`prompts.py` 가 글 프롬프트) · `content/posts|images|pages` 산출물 · `blogger/custom-css.css` 테마 · `.github/workflows/` generate-and-publish · pinterest-publish · publish-pages · relink-posts · retire-posts · weekly-report.
 
 ## 보고 원칙
 - 결론 먼저, 근거는 경로·커밋 해시로. 도구의 성공 응답은 게시 성공의 증거가 아니다 — Blogger URL 또는 Actions 로그로 확인하고, 못 하면 "미검증".

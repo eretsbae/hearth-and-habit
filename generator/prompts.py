@@ -14,7 +14,8 @@ statistics, no fake studies, no made-up expert quotes. If you give a number \
 - Write for a general audience: no jargon without a one-line explanation.
 - Use US units first (°F, feet, dollars) with metric in parentheses only when helpful.
 - Structure for scanability: short paragraphs (2-4 sentences), descriptive H2/H3 \
-headings, occasional bulleted or numbered lists, and a bolded key takeaway where natural.
+headings, occasional bulleted or numbered lists. At most ONE bolded takeaway per \
+article, and only when it adds something the heading doesn't already say.
 - Open with 1-2 sentences (under ~160 characters combined) that work as a standalone \
 search-result snippet: name the reader's problem and this article's concrete payoff. \
 Search engines show the opening text as the result description, so it has to earn the \
@@ -24,13 +25,28 @@ answer, not a promise to explain later ("Usually it's the flapper, and it's a $6
 Then spend the article earning that answer: why it happens, how to confirm it, what to \
 do, and the cases where the answer is different. A reader who only reads one sentence \
 should already have the answer; a reader who reads it all should be able to act.
-- Include a brief FAQ section (3-4 questions) near the end when the topic suits it. \
-Title it exactly "## FAQ" with each question as a "### " heading, so it can be \
-extracted as FAQ structured data.
+- An FAQ is optional, not a default. Add one only when real, distinct questions \
+remain that the body did not answer — 2 to 5 of them, whatever the topic actually \
+needs. When you do, title it exactly "## FAQ" with each question as a "### " \
+heading, so it can be extracted as FAQ structured data.
+- Safety and accuracy follow the FACT REGISTRY given with each assignment. Never \
+contradict it. Where a sentence relies on a registry fact, name the agency in \
+plain words ("USDA's rule is…"). Food safety is time and temperature — never \
+tell readers to judge safety by smell or look.
+- If the article relies on any registry fact, end it with "## Sources": 1-4 \
+bullets "- [Page title](URL) — what it supports", using ONLY registry URLs.
+- Numbers must agree everywhere: the first sentence, the body math, tables, and \
+the FAQ must give the same figure. When a cost depends on an electricity or \
+water rate, show the formula with the registry's typical rate.
+- Link to related posts on this site only with the exact URLs you are given, 2-4 \
+times, with natural anchor text. Never write placeholder links such as "(#)" or \
+"(/)", and never put a post title in square brackets without a URL.
+- Avoid this site's worn-out tics: "genuinely", "the good news", "a good rule of \
+thumb", "Myth #1", "almost always". Use each at most once, preferably never.
 - Never mention that you are an AI, never reference "this blog post" \
 self-consciously, and never pad with filler like "In today's fast-paced world".
-- Do not fabricate personal anecdotes. Frame advice as general guidance \
-("a good rule of thumb", "most homeowners find").
+- Do not fabricate personal anecdotes, testing, or experience. Frame advice as \
+general guidance ("most homeowners find", "a common fix is").
 - Write as genuine people-first content: assume a strict editorial reviewer will \
 reject anything that reads like a templated rewrite of existing SEO articles on \
 this topic. Every section should earn its place with specific, concrete detail \
@@ -50,9 +66,14 @@ like a template — do not force an FAQ or a numbered list if this angle doesn't
 call for one):
 {angle_instruction}
 
-Already-published posts on this site (do NOT overlap their core content; you may
-briefly reference related ideas):
+Already-published posts on this site, with their URLs (do NOT overlap their
+core content; link to the related ones with these exact URLs instead of
+re-explaining them):
 {published_titles}
+
+FACT REGISTRY (canonical numbers and safety rules — do not contradict; cite the
+URL in "## Sources" when you rely on one):
+{facts_block}
 
 Return your answer in EXACTLY this format, with the three delimiters on their own lines:
 
@@ -62,7 +83,10 @@ Return your answer in EXACTLY this format, with the three delimiters on their ow
  "meta_description": "150-160 character meta description",
  "tags": ["3-6 short tags"],
  "hero_image_brief": "one-sentence art direction for a flat decorative illustration representing this post (objects/scene only, no text in image)",
- "inline_image_brief": "one-sentence art direction for a second illustration to appear mid-article, or null if the post doesn't need one"}}
+ "hero_alt": "alt text, max 140 characters: what the hero picture shows, in terms of the topic",
+ "inline_image_brief": "one-sentence spec for an INFORMATIONAL diagram that teaches something from the article (labeled cutaway, symptom-to-cause flow, before/after comparison, or simple chart), listing the 3-8 short text labels it needs; or null if no diagram would help",
+ "inline_alt": "alt text, max 140 characters, describing what the diagram explains (or null)",
+ "pin_hooks": ["two different Pinterest headlines, each max 60 characters, promising the concrete payoff (a number, a fix, a check); no clickbait, not a copy of the title"]}}
 ===BODY===
 (The full article in Markdown. Start directly with the intro paragraph — do NOT
 repeat the title as a heading. Use ## for sections. If an inline image was
@@ -115,6 +139,29 @@ to outside resources), NO raster images. Self-contained shapes only.
 Return ONLY the raw <svg>...</svg> markup, nothing else.
 """
 
+SVG_DIAGRAM_SYSTEM = """\
+You are an information designer producing a clean, flat explanatory DIAGRAM as \
+SVG for a home-and-living blog called "Hearth & Habit". The diagram sits in the \
+middle of an article and must teach one thing at a glance: where the problem is, \
+what causes what, or how two options compare.
+
+Style constraints:
+- Same palette as the site art: warm cream #F6EFE6 (background), terracotta \
+#B85C38, deep sage #5C6E58, muted gold #D9A441, soft clay #E4C7B2, ink #2E2A24.
+- viewBox="0 0 1200 630". Fill the full canvas with the cream background rect.
+- Flat shapes, clear hierarchy, generous spacing. Use arrows, callout lines, \
+numbered markers, or a simple bar/column chart where it helps.
+- Text IS allowed and expected: 3-8 short labels (max ~5 words each) in <text> \
+elements, font-family="Helvetica, Arial, sans-serif", font-size 24-34, fill \
+#2E2A24, never overlapping shapes or each other, all inside the canvas with at \
+least 40px margin. Optionally one short title line at the top (font-size 36-40).
+- Only state facts that are in the brief. No numbers the brief doesn't give.
+- NO <script>, NO external references (no href/url() to outside resources), NO \
+raster images, NO <foreignObject>. Keep it under ~150 elements.
+
+Return ONLY the raw <svg>...</svg> markup, nothing else.
+"""
+
 SVG_USER = """\
 Create the illustration.
 
@@ -146,6 +193,9 @@ Titles of posts already published on this site (flag if this draft is mostly a \
 rehash of one of them rather than covering genuinely distinct ground):
 {recent_titles}
 
+FACT REGISTRY (the site's canonical numbers and safety rules):
+{facts_block}
+
 --- DRAFT BODY (Markdown) ---
 {body}
 --- END DRAFT ---
@@ -160,6 +210,14 @@ restatement of an already-published article.
 are appropriately hedged ("typically", ranges) rather than suspiciously precise.
 5. Natural structure — reads like a real article, not a template mechanically \
 filled in section by section.
+6. Safety and consistency — nothing contradicts the FACT REGISTRY; no unsafe \
+procedure (wrong order of steps for gas, electric, water-heater or chemical work; \
+bleach alongside acids/ammonia without a never-mix warning; judging food safety \
+by smell); the first sentence, body math, tables and FAQ all give the same numbers.
+
+HARD FAIL (score below 75 no matter how well written): any contradiction of the \
+FACT REGISTRY, any unsafe instruction, or a first-sentence answer that disagrees \
+with the article's own numbers. Quote the exact sentence in "issues".
 
 Calibrate the score against a real published magazine article, not against an \
 imagined perfect piece — most genuinely fine articles score in the 75-90 range \
@@ -231,7 +289,10 @@ Rules for each topic:
    is what wins featured snippets and AI-answer citations.
 3. It must be evergreen: still true and still searched five years from now.
 4. Prefer pillars that currently have fewer topics.
+5. If a topic is seasonal, add "season_months": the 1-3 months (1-12) when
+   North Americans search for it. It will be published just ahead of them.
 
 Return ONLY a JSON array, no other text:
-[{{"title": "...", "pillar": "pillar-slug"}}, ...]
+[{{"title": "...", "pillar": "pillar-slug"}},
+ {{"title": "...", "pillar": "pillar-slug", "season_months": [10, 11]}}, ...]
 """

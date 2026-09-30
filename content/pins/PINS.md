@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 61개 준비됨 · 게시 완료 60개(수동 60 · API 0) · 대기 1개
+핀 66개 준비됨 · 게시 완료 60개(수동 60 · API 0) · 대기 6개
 
 ## 수동으로 올리는 법
 
@@ -26,190 +26,205 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Cleaning & Organization
 
-(14개)
+(16개)
 
 - [x] **The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control**
   - 이미지: `content/pins/15-minute-weekly-home-reset.png`
   - 링크: https://www.hearth-habit.com/2026/07/the-15-minute-weekly-home-reset-simple.html
-  - 설명: A realistic 15-minute weekly routine that keeps clutter, laundry, and mess from piling up — no deep cleaning, no perfectionism, just a system that sticks.
+  - 설명: The 15-minute weekly reset: one timed pass that puts stray items back and clears surfaces in your main rooms, so mess never snowballs into a half-day cleanup.
 
 - [x] **The One-Touch Rule: The Single Habit That Ends Clutter Pile-Up**
   - 이미지: `content/pins/one-touch-rule-clutter.png`
   - 링크: https://www.hearth-habit.com/2026/07/the-one-touch-rule-single-habit-that.html
-  - 설명: The one-touch rule promises to stop clutter before it starts. Here's how it compares to other decluttering habits, and when to bend it.
+  - 설명: The one-touch rule means putting each item where it belongs the first time you pick it up. How it compares to other clutter habits, and when to bend it.
 
 - [x] **How to Declutter When You're Overwhelmed: Start With One Drawer**
   - 이미지: `content/pins/declutter-when-overwhelmed-start-one-drawer.png`
   - 링크: https://www.hearth-habit.com/2026/07/how-to-declutter-when-youre-overwhelmed.html
-  - 설명: Overwhelmed by clutter? Skip the whole-house overhaul. This checklist shows you how to start with one drawer and actually keep going.
+  - 설명: Overwhelmed by clutter? Start with one drawer: set a 15–20 minute timer, sort into three piles with five quick questions, and finish it. Then keep going.
 
 - [x] **Cleaning Supplies You Actually Need (and 10 You Can Skip)**
   - 이미지: `content/pins/cleaning-supplies-you-actually-need.png`
   - 링크: https://www.hearth-habit.com/2026/07/cleaning-supplies-you-actually-need-and.html
-  - 설명: Under-sink clutter isn't cleaning power. Here's the small, real list of supplies that work, and 10 popular products you can skip entirely.
+  - 설명: Cleaning supplies you actually need fit in one caddy: all-purpose cleaner, dish soap, vinegar, baking soda, microfiber, a brush, gloves. Plus 10 you can skip.
 
 - [x] **How Often Should You Really Wash Bath Towels Before They Smell?**
   - 이미지: `content/pins/how-often-wash-bath-towels.png`
   - 링크: https://www.hearth-habit.com/2026/08/how-often-should-you-really-wash-bath.html
-  - 설명: Every 2-3 uses is the real rule for bath towels, not weekly. Here's the science of towel smell and the myths that get this wrong.
+  - 설명: Wash bath towels every 2–3 uses, not on a weekly schedule. Why towels start to smell, how drying and airflow change the count, and when to wash them sooner.
 
 - [x] **Why Does My Dishwasher Smell Even After I Run It Empty?**
   - 이미지: `content/pins/why-does-dishwasher-smell-after-running-empty.png`
   - 링크: https://www.hearth-habit.com/2026/08/why-does-my-dishwasher-smell-even-after.html
   - 설명: A smelly dishwasher usually means trapped food gunk, not a broken machine. Work through this checklist to find the source and clear it for good.
 
-- [x] **What to Do With Clothes You Wore Once But Aren't Dirty Yet**
+- [x] **Where to Put Clothes You've Worn Once (But Aren't Dirty Yet)**
   - 이미지: `content/pins/clothes-worn-once-not-dirty-what-to-do.png`
   - 링크: https://www.hearth-habit.com/2026/08/what-to-do-with-clothes-you-wore-once.html
-  - 설명: Not dirty enough to wash, not clean enough to shelve? Here's a real decision guide for handling worn-once clothes without adding to laundry piles.
+  - 설명: Worn-once clothes go on one small 'worn' hook or shelf, or back in the closet once aired out and odor-free. A quick test and a system that ends the chair pile.
 
 - [x] **How to Get Rid of Things You Spent Good Money On (Without the Guilt)**
   - 이미지: `content/pins/get-rid-of-things-you-spent-money-on.png`
   - 링크: https://www.hearth-habit.com/2026/08/how-to-get-rid-of-things-you-spent-good.html
-  - 설명: Struggling to declutter expensive items? Compare your real options — resell, return, donate, repurpose — and the math that makes letting go easier.
+  - 설명: Struggling to declutter expensive items? Ask what you'd get back, not what you paid. Compare returning, reselling, donating, and repurposing, plus the math.
 
 - [x] **Why Does My House Get Messy Again Two Days After I Clean It?**
   - 이미지: `content/pins/why-house-gets-messy-again-after-cleaning.png`
   - 링크: https://www.hearth-habit.com/2026/08/why-does-my-house-get-messy-again-two.html
-  - 설명: Your house doesn't have a mess problem, it has an input problem. Compare the real fixes: better systems, less stuff, or a faster reset routine.
+  - 설명: Your house re-messes days after cleaning when things lack a home, storage is full, or tidy-ups are too rare. How to tell which one it is, and the fix for each.
 
 - [x] **Is It Worth Buying Separate Cleaners for Every Surface?**
   - 이미지: `content/pins/separate-cleaners-for-every-surface-worth-it.png`
   - 링크: https://www.hearth-habit.com/2026/09/is-it-worth-buying-separate-cleaners.html
-  - 설명: No — most homes need 2-3 core cleaners, not a bottle per surface. Here's exactly which specialty cleaners earn their spot and which are wasted money.
+  - 설명: No — most homes need three core cleaners, not a bottle per surface. Which specialty cleaners earn a spot (stone, hardwood, leather) and which are wasted money.
 
 - [x] **Why Does My Closet Smell Musty Even Though Everything Looks Clean?**
   - 이미지: `content/pins/why-does-my-closet-smell-musty.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-closet-smell-musty-even.html
-  - 설명: A musty closet usually means trapped moisture and no airflow, not dirt. Here's the step-by-step fix, from finding the source to keeping it from coming back.
+  - 설명: A musty closet usually means trapped moisture and still air, not dirt. The step-by-step fix, from finding the moisture source to keeping humidity below 60%.
 
-- [x] **Why You Keep Losing 15 Minutes Before You Leave the House (and How to Fix It)**
+- [x] **How to Stop Losing Your Keys Every Morning: The Drop-Zone Fix**
   - 이미지: `content/pins/stop-losing-time-before-leaving-house.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-you-keep-losing-15-minutes-before.html
-  - 설명: Keys, phone, keys again? Here's why the same pre-leaving scramble happens every day, and a step-by-step fix that actually sticks.
+  - 설명: Stop losing your keys every morning with one drop zone by the door you use: a key hook, a small tray, and a walk-in habit. How to set it up, step by step.
 
-- [x] **Why Do My Kitchen Drawers Always End Up as Junk Drawers Again?**
+- [x] **How to Organize a Junk Drawer So It Actually Stays Organized**
   - 이미지: `content/pins/why-kitchen-drawers-become-junk-drawers.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-do-my-kitchen-drawers-always-end-up.html
-  - 설명: It's not a discipline problem — it's a design problem. Here's why kitchen drawers relapse into clutter and what actually keeps them organized.
+  - 설명: Organize a junk drawer that stays organized: empty it, sort by task, fit right-sized bins, and keep a short list of what belongs. Plus why junk drawers relapse.
 
 - [ ] **Why Does My Laundry Still Smell Musty After a Full Wash Cycle?**
   - 이미지: `content/pins/laundry-smells-musty-after-wash-cycle.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-laundry-still-smell-musty.html
-  - 설명: Musty laundry after washing usually means bacteria living in your machine, not your clothes. Here's the step-by-step fix and how to keep it from coming back.
+  - 설명: Musty laundry after washing usually means mildew and bacteria in your washer, not your clothes. The step-by-step fix, and how to keep it from coming back.
+
+- [ ] **Clutter Keeps Coming Back? Match the Problem to the Fix**
+  - 이미지: `content/pins/clutter-keeps-coming-back-which-fix.png`
+  - 링크: https://www.hearth-habit.com/2026/09/clutter-keeps-coming-back-match-problem.html
+  - 설명: Clutter returns when things lack a home, you own more than storage holds, or tidy-ups are too far apart. Find which one you have and the fix to match.
+
+- [ ] **Musty Smell in the House? How to Find the Source, Room by Room**
+  - 이미지: `content/pins/musty-smell-in-house-find-the-source.png`
+  - 링크: https://www.hearth-habit.com/2026/09/musty-smell-in-house-how-to-find-source.html
+  - 설명: A musty smell means moisture is feeding mold or mildew somewhere. Check closets, basement, washer, dishwasher, fridge, and towels to find the source.
 
 ## 보드: Energy & Utility Savings
 
-(10개)
+(11개)
 
 - [x] **How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work**
   - 이미지: `content/pins/cut-electric-bill-no-cost-habits.png`
   - 링크: https://www.hearth-habit.com/2026/07/how-to-cut-your-electric-bill-without.html
-  - 설명: Nine zero-cost habits that lower your electric bill — thermostat strategy, laundry timing, phantom-load control, and more — ranked by real impact.
+  - 설명: Nine zero-cost habits that cut a typical electric bill by roughly 5–10%: thermostat setbacks, cold-water washing, smarter drying, phantom loads, and more.
 
-- [x] **Phantom Power: How Much Your Idle Electronics Really Cost You**
+- [x] **How Much Does Phantom Power Really Cost? Standby Watts and Dollars by Device**
   - 이미지: `content/pins/phantom-power-idle-electronics-cost.png`
   - 링크: https://www.hearth-habit.com/2026/07/phantom-power-how-much-your-idle.html
-  - 설명: Phantom power from idle electronics quietly adds to your electric bill. Here's a room-by-room checklist of the worst offenders and how to fix them.
+  - 설명: Each watt of standby draw costs about $1.50 a year at 17¢/kWh. See typical phantom-power watts and yearly dollars by device, and which are worth unplugging.
 
 - [x] **The Right Thermostat Settings for Every Season (and What They Really Save)**
   - 이미지: `content/pins/thermostat-settings-by-season-savings.png`
   - 링크: https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html
-  - 설명: Cut through the thermostat myths. Here's what temperature actually saves money each season, and how much you can realistically expect to save.
+  - 설명: Set about 68°F in winter and 78°F in summer when home, then set back 7–10°F while asleep or away. The DOE says that can save up to about 10% a year.
 
 - [x] **Does Turning the AC Off While You're at Work Actually Save Money?**
   - 이미지: `content/pins/turning-ac-off-at-work-save-money.png`
   - 링크: https://www.hearth-habit.com/2026/07/does-turning-ac-off-while-youre-at-work.html
-  - 설명: Yes, but not always as much as you'd think. Here's the real math on turning your AC off during work hours, plus when a setback beats shutting it off entirely.
+  - 설명: Yes. Letting the house warm 7–10°F while you're at work saves up to about 10%, per the DOE. Here's the dollar math, and when a setback beats turning it off.
 
 - [x] **Why Did My Electric Bill Double With No Change in How I Use Power?**
   - 이미지: `content/pins/electric-bill-doubled-no-change-in-usage.png`
   - 링크: https://www.hearth-habit.com/2026/08/why-did-my-electric-bill-double-with-no.html
-  - 설명: Your bill likely jumped from rate hikes, seasonal weather, a billing estimate correction, or a hidden appliance problem. Here's how to find which one.
+  - 설명: A doubled electric bill usually traces to a rate change, extreme weather, an estimated-bill catch-up, or one appliance running nonstop. Here's how to tell.
 
 - [x] **Does Closing Vents in Unused Rooms Save Energy or Cost More?**
   - 이미지: `content/pins/closing-vents-unused-rooms-energy.png`
   - 링크: https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html
-  - 설명: Closing vents in unused rooms usually backfires with forced-air systems. Here's the checklist to know when it helps, when it hurts, and what to do instead.
+  - 설명: Closing vents in unused rooms usually backfires with forced-air systems, raising duct pressure and even freezing AC coils. When it's OK and what to do instead.
 
-- [x] **Which Appliance in Your House Is Quietly Draining the Most Electricity?**
+- [x] **What Uses the Most Electricity in a House? Typical kWh and Cost by Appliance**
   - 이미지: `content/pins/appliance-using-most-electricity.png`
   - 링크: https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html
-  - 설명: The biggest electricity users are usually heating and cooling appliances, not electronics. Here's a checklist to find your home's real energy hogs.
+  - 설명: Heating, cooling, and electric water heating use the most electricity in most homes. See typical yearly kWh and cost by appliance, and how to test your own.
 
-- [x] **Air-Dry or Heated Dry: Which One Actually Costs Less?**
+- [x] **Dishwasher Heated Dry vs. Air Dry: How Much Does Each Load Really Cost?**
   - 이미지: `content/pins/air-dry-vs-heated-dry-dishwasher-cost.png`
   - 링크: https://www.hearth-habit.com/2026/09/air-dry-or-heated-dry-which-one.html
-  - 설명: Air-drying dishes typically costs just pennies less per load than heated dry. Here's how to check your own dishwasher and decide if it's worth the habit change.
+  - 설명: Heated dry typically adds 2–9 cents a load at 17–18¢ per kWh, about $6–33 a year if you run it daily. Here's the formula to check your own rate and model.
 
 - [x] **Is It Cheaper to Preheat the Oven or Skip It for Weeknight Meals?**
   - 이미지: `content/pins/preheat-oven-or-skip-it-cheaper.png`
   - 링크: https://www.hearth-habit.com/2026/09/is-it-cheaper-to-preheat-oven-or-skip.html
-  - 설명: Skipping preheat saves a few cents on some dishes but ruins others. Here's a checklist for when to skip it, when not to, and what really saves money.
+  - 설명: Preheating an electric oven costs roughly 6–22 cents, so skipping it saves little and can ruin baked goods. When to skip it, when not to, and what saves more.
 
 - [x] **Why Does My Water Bill Spike in Winter With No Extra Usage?**
   - 이미지: `content/pins/winter-water-bill-spike-no-extra-usage.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-water-bill-spike-in-winter.html
-  - 설명: A winter water bill spike is usually a hidden leak, a frozen pipe, or your meter reacting to cold weather - not a mystery. Here's how to find the real cause.
+  - 설명: A winter water bill spike usually means a running toilet or hidden leak, an estimated read catching up, a dripping faucet, or a rate or sewer-charge change.
+
+- [ ] **Why Is My Electric Bill So High? A Step-by-Step Checklist to Find the Cause**
+  - 이미지: `content/pins/why-is-my-electric-bill-so-high-checklist.png`
+  - 링크: https://www.hearth-habit.com/2026/09/why-is-my-electric-bill-so-high-step-by.html
+  - 설명: A high electric bill means a higher rate or higher usage. Compare kWh to dollars, match the jump to the weather, then find what never shuts off.
 
 ## 보드: Home Maintenance & Repairs
 
 (14개)
 
-- [x] **Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)**
+- [x] **How Often Should You Change Your Furnace Filter? (And Which MERV Rating to Buy)**
   - 이미지: `content/pins/furnace-filter-basics.png`
   - 링크: https://www.hearth-habit.com/2026/07/furnace-filter-basics-how-often-to.html
-  - 설명: How often to change your furnace filter, what MERV ratings really mean, which filter to buy, and the step-by-step swap — a 5-minute task that protects a $5,000 system.
+  - 설명: Change a 1-inch furnace filter every 1–3 months and a 4–5 inch media filter every 6–12 months, sooner with pets or allergies. Plus which MERV rating to buy.
 
 - [x] **10 Home Maintenance Tasks Most People Forget (Seasonal Checklist)**
   - 이미지: `content/pins/forgotten-home-maintenance-tasks-seasonal-checklist.png`
   - 링크: https://www.hearth-habit.com/2026/07/10-home-maintenance-tasks-most-people.html
-  - 설명: A step-by-step seasonal checklist covering the 10 home maintenance tasks homeowners overlook most, from gutters to water heaters, with when-to-call-a-pro tips.
+  - 설명: The 10 home maintenance tasks people forget most, from flushing the water heater to testing smoke alarms monthly, in one simple seasonal checklist.
 
 - [x] **How to Fix a Running Toilet in 15 Minutes (No Plumber Needed)**
   - 이미지: `content/pins/fix-running-toilet-without-plumber.png`
   - 링크: https://www.hearth-habit.com/2026/07/how-to-fix-running-toilet-in-15-minutes.html
-  - 설명: A running toilet almost always comes down to one of four cheap parts. Here's how to diagnose the cause and fix it yourself in about 15 minutes.
+  - 설명: A running toilet can waste hundreds of gallons a day, but the fix is usually a cheap part or a free adjustment. Here's how to find and fix it in 15 minutes.
 
-- [x] **Caulking 101: Where to Caulk, What to Buy, and How to Get a Clean Line**
+- [x] **How to Caulk So It Doesn't Peel: Choosing the Right Caulk and Getting a Clean Line**
   - 이미지: `content/pins/caulking-101-how-to-caulk.png`
   - 링크: https://www.hearth-habit.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html
-  - 설명: Learn exactly where to caulk, which caulk to buy for each spot, and the simple technique that gets a straight, clean bead every time.
+  - 설명: Caulk peels when it's the wrong type or goes over old caulk and grime. Here's which caulk to buy for each spot, plus the prep and technique for a clean line.
 
 - [x] **Why Does My Toilet Run for a Few Seconds Then Stop? (Not the Same as a Running Toilet)**
   - 이미지: `content/pins/toilet-runs-few-seconds-then-stops.png`
   - 링크: https://www.hearth-habit.com/2026/07/why-does-my-toilet-run-for-few-seconds.html
-  - 설명: A toilet that runs briefly every few minutes usually means a slow leak past the flapper or float. Here's how to tell which part is failing and how to fix it.
+  - 설명: A toilet that refills for a few seconds on its own has a phantom flush, a slow leak from tank to bowl, usually at the flapper. Here's how to find and fix it.
 
 - [x] **Water Heater Popping or Rumbling? Here's What It Means**
   - 이미지: `content/pins/water-heater-popping-rumbling-sound.png`
   - 링크: https://www.hearth-habit.com/2026/08/water-heater-popping-or-rumbling-heres.html
-  - 설명: Yes, popping or rumbling usually means sediment buildup, not a failing water heater. Here's how to tell if it's harmless or a sign to call a plumber.
+  - 설명: Popping or rumbling usually means sediment on the bottom of the tank, not a failing water heater. Here's how to flush it safely and when to call a plumber.
 
 - [x] **Furnace Filter Turns Gray in Two Weeks? Here's What That Means**
   - 이미지: `content/pins/furnace-filter-turns-gray-in-two-weeks.png`
   - 링크: https://www.hearth-habit.com/2026/08/furnace-filter-turns-gray-in-two-weeks.html
-  - 설명: A furnace filter that grays fast usually means high dust load, a leaky duct, or a filter that's too thin. Here's how to find the cause, step by step.
+  - 설명: A furnace filter that grays in two weeks usually means a heavier dust load, a leaky return duct, a fan set to On, or a finer new filter. Here's how to tell.
 
 - [x] **Why Do My Pipes Bang When I Turn Off the Faucet?**
   - 이미지: `content/pins/pipes-banging-noise-turn-off-faucet.png`
   - 링크: https://www.hearth-habit.com/2026/08/why-do-my-pipes-bang-when-i-turn-off.html
-  - 설명: That bang is usually water hammer, a pressure shockwave from valves closing fast. Here's how to confirm it and fix it, step by step.
+  - 설명: That bang is usually water hammer, a shockwave from a valve closing fast. Here's how to confirm it, check your water pressure, and fix it step by step.
 
 - [x] **Why Is One Room in My House Always Colder Than the Rest?**
   - 이미지: `content/pins/why-is-one-room-always-colder-than-rest.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html
-  - 설명: Usually it's airflow, not insulation. Here's how to tell what's really causing your cold room and which fixes actually work versus waste money.
+  - 설명: A cold room is usually short on warm air or losing heat faster than the rest of the house. How to tell which, what to fix first, and what each fix costs.
 
 - [x] **How Do I Know If a Repair Is Actually Worth Calling a Pro For?**
   - 이미지: `content/pins/when-to-call-a-pro-vs-diy-repair.png`
   - 링크: https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html
-  - 설명: Not sure if a repair needs a professional? Use this symptom-by-symptom guide to know when DIY is fine and when calling a pro saves you money.
+  - 설명: Call a pro for gas, panel, structural, or roof work and hidden leaks. This symptom-by-symptom guide shows when DIY is fine, plus typical service-call costs.
 
 - [x] **Why Does My Garbage Disposal Hum But Not Spin? (And How to Fix It)**
   - 이미지: `content/pins/garbage-disposal-hums-but-wont-spin.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-garbage-disposal-hum-but.html
-  - 설명: A humming garbage disposal usually means a jam or tripped motor, not a dead unit. Here's how to diagnose the cause and fix it safely in minutes.
+  - 설명: A disposal that hums but won't spin is usually jammed, not dead. Unplug it or shut off its breaker, free the flywheel with a hex wrench, then press reset.
 
 - [x] **Is It Normal for a New LED Bulb to Flicker With a Dimmer Switch?**
   - 이미지: `content/pins/led-bulb-flickering-dimmer-switch.png`
@@ -219,46 +234,46 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 - [x] **Why Does My Basement Smell Musty Only in the Summer?**
   - 이미지: `content/pins/why-basement-smells-musty-in-summer.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-basement-smell-musty-only.html
-  - 설명: Summer basement odor is almost always humidity, not mold growth. Here's the checklist to find the cause and fix it before it gets worse.
+  - 설명: Summer basement mustiness is humid air condensing on cool walls, which lets mold, mildew, and damp materials give off odor. How to find the cause and fix it.
 
 - [x] **Yellow-Brown Ceiling Stain With No Active Leak: What It Means**
   - 이미지: `content/pins/yellow-brown-ceiling-stain-no-active-leak.png`
   - 링크: https://www.hearth-habit.com/2026/09/yellow-brown-ceiling-stain-with-no.html
-  - 설명: A yellow-brown ceiling stain usually means a past or slow leak, not a current emergency. Here's how to figure out which situation you're actually in.
+  - 설명: A yellow-brown ceiling stain usually means a past leak, a slow leak, or condensation. Here's how to confirm it's dry and find the source before painting.
 
 ## 보드: Kitchen & Food Habits
 
-(12개)
+(13개)
 
-- [x] **The 30-Minute Sunday Meal Plan That Ends the 'What's for Dinner?' Spiral**
+- [x] **How to Meal Plan for the Week in 30 Minutes (A Simple Sunday Routine)**
   - 이미지: `content/pins/30-minute-sunday-meal-plan.png`
   - 링크: https://www.hearth-habit.com/2026/07/the-30-minute-sunday-meal-plan-that.html
-  - 설명: Debunking common meal-planning myths with a realistic 30-minute Sunday system that actually survives a busy week — no color-coded spreadsheets required.
+  - 설명: Meal plan in 30 minutes: check what needs using up, name five familiar dinners in shorthand, then build the grocery list from them and leave two nights open.
 
 - [x] **How to Store Produce So It Actually Lasts: A Fridge Map**
   - 이미지: `content/pins/how-to-store-produce-fridge-map.png`
   - 링크: https://www.hearth-habit.com/2026/07/how-to-store-produce-so-it-actually.html
-  - 설명: Bust common produce-storage myths and learn exactly where fruits and vegetables should live in your kitchen so they stay fresh longer and waste less food.
+  - 설명: Where each fruit and vegetable should go (counter, pantry, or which crisper drawer), with a quick map table and the ethylene and humidity rules behind it.
 
-- [x] **Your Dishwasher Is Probably Loaded Wrong: A Troubleshooting Guide**
+- [x] **Dishes Still Dirty After the Dishwasher? The Loading Mistakes to Fix First**
   - 이미지: `content/pins/dishwasher-loading-mistakes-troubleshooting.png`
   - 링크: https://www.hearth-habit.com/2026/07/your-dishwasher-is-probably-loaded.html
-  - 설명: Cloudy glasses, gritty plates, wet dishes at the end of the cycle? Fix the exact loading mistake causing it with this room-by-room troubleshooting guide.
+  - 설명: Dishes still gritty or wet after a cycle? It's usually loading: crowding, bad angles, or a blocked spray arm. Here's each fix, plus what cloudy glasses mean.
 
 - [x] **Why Bread Goes Moldy Faster in Summer (It's Not the Heat Alone)**
   - 이미지: `content/pins/why-bread-molds-faster-in-summer.png`
   - 링크: https://www.hearth-habit.com/2026/07/why-bread-goes-moldy-faster-in-summer.html
-  - 설명: Bread molds faster in summer mainly because of humidity, not heat. Learn what actually causes it and the storage habits that add days back.
+  - 설명: Warm kitchens speed up mold, and bagged bread traps its own moisture. Here's why summer loaves mold in days and the storage habits that buy time back.
 
-- [x] **Why Do My Greens Wilt Two Days After I Buy Them? (And How to Fix It)**
+- [x] **How to Keep Lettuce and Greens From Wilting in the Fridge**
   - 이미지: `content/pins/why-greens-wilt-fast-how-to-store-them.png`
   - 링크: https://www.hearth-habit.com/2026/08/why-do-my-greens-wilt-two-days-after-i.html
-  - 설명: Greens usually wilt fast because of trapped moisture and warm air, not age. Here's the exact storage fix that keeps lettuce and spinach crisp for a week or more.
+  - 설명: Dry loose greens well, store them in a towel-lined container in the high-humidity crisper, keep the fridge cold, and don't re-wash ready-to-eat bags.
 
 - [x] **Is It Safe to Refreeze Meat That Thawed in the Fridge?**
   - 이미지: `content/pins/refreeze-thawed-meat-fridge-safety.png`
   - 링크: https://www.hearth-habit.com/2026/08/is-it-safe-to-refreeze-meat-that-thawed.html
-  - 설명: Yes, meat thawed in the fridge is safe to refreeze in most cases. Here's how to tell when it's fine, when to cook it first, and when to toss it.
+  - 설명: Yes, if it thawed in the fridge and is within 1–2 days (ground meat, poultry) or 3–5 days (steaks, roasts). Past that, or left out over 2 hours, toss it.
 
 - [x] **What Happens If You Put Cast Iron in the Dishwasher Once?**
   - 이미지: `content/pins/cast-iron-in-dishwasher-once.png`
@@ -268,61 +283,66 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 - [x] **Why Does My Fridge Smell But I Can't Find the Source?**
   - 이미지: `content/pins/fridge-smell-cant-find-source.png`
   - 링크: https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html
-  - 설명: A hidden fridge smell is usually trapped in porous surfaces or a spot you're not checking. Here's what's really causing it and how to fix it for good.
+  - 설명: A fridge smell you can't find is usually in gasket folds, drawer tracks, a clogged defrost drain or drip pan, or a fridge running above 40°F. Where to look.
 
 - [x] **How Long Do Leftovers Really Last Before They Stop Being Safe?**
   - 이미지: `content/pins/how-long-do-leftovers-really-last.png`
   - 링크: https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html
-  - 설명: Most leftovers are safe for 3-4 days in the fridge, but the real answer depends on the food. Here's the checklist to know what to trust and what to toss.
+  - 설명: USDA says most cooked leftovers keep 3–4 days in a fridge at 40°F or below; raw ground meat only 1–2. Here's the chart and a checklist for what to toss.
 
 - [x] **Why Onions and Garlic Keep Sprouting Indoors (and How to Actually Stop It)**
   - 이미지: `content/pins/why-onions-garlic-sprout-indoors.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html
-  - 설명: Onions and garlic sprout indoors mainly from warmth, moisture, and darkness combined. Here's the storage checklist that actually stops it.
+  - 설명: Onions and garlic sprout as their dormancy runs out, and fridge-cool 40–50°F spots speed it up. Store whole bulbs dry, dark, and airy at about 60–65°F.
 
 - [x] **Why Does My Cutting Board Warp After Washing It?**
   - 이미지: `content/pins/why-does-cutting-board-warp-after-washing.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-cutting-board-warp-after.html
-  - 설명: A warped cutting board almost always comes from uneven water exposure. Here's the exact drying routine that stops it for good.
+  - 설명: Boards warp when one face gets wetter than the other, and thin or flat-sawn boards warp most. Here's the drying routine and how to flatten a mild warp.
 
 - [x] **Why Leftover Rice Makes People Sick More Than Other Leftovers**
   - 이미지: `content/pins/leftover-rice-food-poisoning-risk.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-leftover-rice-makes-people-sick.html
-  - 설명: Leftover rice carries a heat-resistant bacteria other foods don't. Here's why it's riskier, how to store it safely, and when to just toss it.
+  - 설명: Bacillus cereus spores survive cooking, and rice left out can form a toxin reheating won't destroy. Why rice is different and how to cool and store it safely.
+
+- [ ] **Leftovers, Thawing, and Fridge Storage: The Food Safety Rules in One Place**
+  - 이미지: `content/pins/food-storage-safety-rules-leftovers-thawing.png`
+  - 링크: https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html
+  - 설명: Fridge at 40°F, food put away within 2 hours, leftovers eaten in 3 to 4 days, reheated to 165°F. The USDA rules for leftovers, thawing, and refreezing.
 
 ## 보드: Yard & Outdoor Basics
 
-(11개)
+(12개)
 
-- [x] **Lawn Care for People Who Don't Care About Lawns: The Bare Minimum That Actually Works**
+- [x] **Low-Maintenance Lawn Care: The Bare-Minimum Yearly Schedule**
   - 이미지: `content/pins/low-effort-lawn-care-bare-minimum.png`
   - 링크: https://www.hearth-habit.com/2026/07/lawn-care-for-people-who-dont-care.html
-  - 설명: Don't love yard work? Here's the troubleshooting guide to a decent-looking lawn with minimal effort — organized by whatever problem you're actually facing.
+  - 설명: The bare-minimum lawn year: mow high, edge often, and fertilize at the right season for your grass: fall up North, late spring to summer down South.
 
 - [x] **Fall Yard Cleanup Checklist: What Actually Matters Before Winter**
   - 이미지: `content/pins/fall-yard-cleanup-checklist-before-winter.png`
   - 링크: https://www.hearth-habit.com/2026/07/fall-yard-cleanup-checklist-what.html
-  - 설명: Not sure what fall yard work actually matters? This troubleshooting guide covers the situations worth your time before winter hits — and what to skip.
+  - 설명: Before winter, the fall yard jobs that matter are gutters and downspouts, draining hoses and outdoor faucets, and risky branches. The rest is optional.
 
 - [x] **Mosquito Control That Actually Works (and the Gimmicks That Don't)**
   - 이미지: `content/pins/mosquito-control-that-actually-works.png`
   - 링크: https://www.hearth-habit.com/2026/07/mosquito-control-that-actually-works.html
-  - 설명: Skip the bug zappers and citronella candles. Here's the step-by-step mosquito control routine that actually reduces bites in your yard, backed by simple logic.
+  - 설명: What works: dump standing water weekly, put Bti dunks in water you can't drain, and wear EPA-registered repellent. Zappers and citronella barely help.
 
 - [x] **How Late Can You Seed Grass in Fall and Still Have It Grow?**
   - 이미지: `content/pins/how-late-can-you-seed-grass-in-fall.png`
   - 링크: https://www.hearth-habit.com/2026/07/how-late-can-you-seed-grass-in-fall-and.html
-  - 설명: The cutoff is roughly 45 days before your first hard frost. Here's how to tell if you've still got time, and what to do if you've missed the window.
+  - 설명: Seed cool-season grass at least 45 days (about 6 weeks) before your first hard frost. Here's how to check your window and what to do if you've missed it.
 
 - [x] **Why Does Part of My Lawn Stay Brown Even Though I Water It?**
   - 이미지: `content/pins/brown-patch-lawn-still-watering.png`
   - 링크: https://www.hearth-habit.com/2026/07/why-does-part-of-my-lawn-stay-brown.html
-  - 설명: Watering isn't the problem — coverage, compaction, or damage usually is. Follow these steps to find the real cause and fix the brown patch for good.
+  - 설명: Usually it's a sprinkler blind spot, compacted soil, grubs, dog urine, or brown patch fungus that extra water makes worse. Here's how to find which one.
 
 - [x] **Do You Still Need to Clean Gutters If You Have Gutter Guards?**
   - 이미지: `content/pins/do-you-need-to-clean-gutters-with-gutter-guards.png`
   - 링크: https://www.hearth-habit.com/2026/08/do-you-still-need-to-clean-gutters-if.html
-  - 설명: Yes, even with gutter guards you still need occasional cleaning. Here's exactly what guards stop, what they don't, and a realistic upkeep checklist.
+  - 설명: Yes: guards cut gutter cleaning to a check and light clear-off once or twice a year. Here's what they stop, what they don't, and what upkeep costs.
 
 - [x] **Why Are Mushrooms Suddenly Growing All Over My Lawn After Rain?**
   - 이미지: `content/pins/mushrooms-growing-in-lawn-after-rain.png`
@@ -332,19 +352,24 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 - [x] **Why Does Water Pool in One Spot in My Yard Every Time It Rains?**
   - 이미지: `content/pins/why-does-water-pool-in-one-spot-in-yard.png`
   - 링크: https://www.hearth-habit.com/2026/08/why-does-water-pool-in-one-spot-in-my.html
-  - 설명: Usually it's a low spot, compacted soil, or a grading problem near your house. Here's how to identify which one you have and fix it.
+  - 설명: Usually it's a low spot, compacted or clay soil, or grading that slopes toward the house. Here's how to tell which one you have and the fix for each.
 
 - [x] **Why Does My Deck Feel Spongy in Some Spots But Not Others?**
   - 이미지: `content/pins/deck-feels-spongy-in-spots.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-deck-feel-spongy-in-some.html
-  - 설명: A spongy deck spot almost always means rot in the wood below. Here's how to figure out which part is failing and whether it's a board or the frame.
+  - 설명: A spongy deck spot usually means rot in the wood below. Here's how to tell whether it's one board, a joist, or the ledger, and when to call a pro.
 
 - [x] **Why Does Grass Along the Sidewalk Die Every Winter (But Not Elsewhere)?**
   - 이미지: `content/pins/why-grass-along-sidewalk-dies-every-winter.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-grass-along-sidewalk-die-every.html
-  - 설명: That dead strip along your walkway isn't bad luck. It's salt, reflected heat, and soil compaction—and the fixes are different from general lawn repair.
+  - 설명: That dead strip along the walk is usually de-icing salt, made worse by compacted soil. Here's how to flush and rebuild the soil, reseed, and salt smarter.
 
 - [x] **Why Does My Hydrangea Bloom Great One Year and Barely Flower the Next?**
   - 이미지: `content/pins/hydrangea-bloom-one-year-not-next.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-hydrangea-bloom-great-one.html
-  - 설명: Usually it's winter cold damaging next year's buds or bad pruning timing. Find your exact symptom below and the fix that gets blooms back.
+  - 설명: Usually winter cold or a late frost killed next year's flower buds, or pruning at the wrong time cut them off. Match your symptom to the fix below.
+
+- [ ] **Should You Rake Leaves or Leave Them on the Lawn Over Winter?**
+  - 이미지: `content/pins/rake-leaves-or-leave-them-over-winter.png`
+  - 링크: https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html
+  - 설명: A thin layer of leaves can stay, but a thick, matted layer will smother and kill your grass. Here's how to tell which you have, in five steps.

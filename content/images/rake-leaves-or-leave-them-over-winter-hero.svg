@@ -1,0 +1,100 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- Sky negative space top -->
+  <rect x="0" y="0" width="1200" height="180" fill="#F6EFE6"/>
+
+  <!-- Ground base -->
+  <rect x="0" y="180" width="1200" height="450" fill="#E4C7B2"/>
+
+  <!-- LEFT SIDE: healthy grass -->
+  <rect x="0" y="200" width="600" height="430" fill="#5C6E58"/>
+  <!-- texture strips lighter -->
+  <rect x="30" y="230" width="540" height="10" fill="#6d7d67" opacity="0.5"/>
+  <rect x="20" y="300" width="560" height="8" fill="#4d5c49" opacity="0.4"/>
+  <rect x="40" y="400" width="520" height="10" fill="#6d7d67" opacity="0.4"/>
+  <rect x="10" y="500" width="580" height="9" fill="#4d5c49" opacity="0.4"/>
+
+  <!-- grass blade clusters -->
+  <g stroke="#3f4a3c" stroke-width="3" stroke-linecap="round">
+    <path d="M60 400 q5 -25 0 -45" fill="none"/>
+    <path d="M75 405 q8 -20 3 -40" fill="none"/>
+    <path d="M50 410 q-5 -22 -12 -38" fill="none"/>
+    <path d="M180 460 q5 -25 0 -45" fill="none"/>
+    <path d="M195 465 q8 -20 3 -40" fill="none"/>
+    <path d="M170 470 q-5 -22 -12 -38" fill="none"/>
+    <path d="M330 350 q5 -25 0 -45" fill="none"/>
+    <path d="M345 355 q8 -20 3 -40" fill="none"/>
+    <path d="M320 360 q-5 -22 -12 -38" fill="none"/>
+    <path d="M440 520 q5 -25 0 -45" fill="none"/>
+    <path d="M455 525 q8 -20 3 -40" fill="none"/>
+    <path d="M420 530 q-5 -22 -12 -38" fill="none"/>
+    <path d="M90 570 q5 -25 0 -45" fill="none"/>
+    <path d="M105 575 q8 -20 3 -40" fill="none"/>
+    <path d="M270 250 q5 -25 0 -45" fill="none"/>
+    <path d="M285 255 q8 -20 3 -40" fill="none"/>
+  </g>
+
+  <!-- scattered thin leaves left side -->
+  <g>
+    <ellipse cx="120" cy="260" rx="14" ry="8" fill="#B85C38" transform="rotate(20 120 260)"/>
+    <ellipse cx="260" cy="480" rx="13" ry="7" fill="#D9A441" transform="rotate(-15 260 480)"/>
+    <ellipse cx="400" cy="230" rx="12" ry="7" fill="#B85C38" transform="rotate(40 400 230)"/>
+    <ellipse cx="500" cy="380" rx="13" ry="7" fill="#D9A441" transform="rotate(-30 500 380)"/>
+    <ellipse cx="150" cy="500" rx="12" ry="7" fill="#D9A441" transform="rotate(10 150 500)"/>
+    <ellipse cx="350" cy="540" rx="13" ry="7" fill="#B85C38" transform="rotate(-20 350 540)"/>
+    <ellipse cx="530" cy="250" rx="12" ry="7" fill="#B85C38" transform="rotate(60 530 250)"/>
+    <ellipse cx="60" cy="330" rx="12" ry="7" fill="#D9A441" transform="rotate(-45 60 330)"/>
+  </g>
+
+  <!-- RIGHT SIDE: patchy dead grass base -->
+  <rect x="600" y="200" width="600" height="430" fill="#c9a681"/>
+  <!-- dead grass patches -->
+  <ellipse cx="720" cy="330" rx="70" ry="20" fill="#b9926a" opacity="0.6"/>
+  <ellipse cx="980" cy="480" rx="90" ry="24" fill="#b9926a" opacity="0.6"/>
+  <ellipse cx="850" cy="240" rx="60" ry="16" fill="#b9926a" opacity="0.5"/>
+  <ellipse cx="1100" cy="330" rx="70" ry="18" fill="#a9865f" opacity="0.5"/>
+  <!-- sparse dying grass blades -->
+  <g stroke="#8a8f5c" stroke-width="3" stroke-linecap="round" opacity="0.7">
+    <path d="M660 420 q3 -18 0 -30" fill="none"/>
+    <path d="M672 425 q5 -14 2 -26" fill="none"/>
+    <path d="M1150 420 q3 -18 0 -30" fill="none"/>
+    <path d="M1140 430 q-4 -16 -8 -26" fill="none"/>
+  </g>
+
+  <!-- thick matted leaf pile -->
+  <g>
+    <ellipse cx="850" cy="500" rx="260" ry="90" fill="#a5693f"/>
+    <ellipse cx="850" cy="480" rx="240" ry="80" fill="#B85C38"/>
+    <ellipse cx="780" cy="450" rx="70" ry="30" fill="#D9A441"/>
+    <ellipse cx="900" cy="440" rx="65" ry="28" fill="#c96f42"/>
+    <ellipse cx="1000" cy="470" rx="60" ry="26" fill="#B85C38"/>
+    <ellipse cx="720" cy="480" rx="55" ry="24" fill="#D9A441"/>
+    <ellipse cx="960" cy="510" rx="70" ry="30" fill="#a5693f"/>
+    <ellipse cx="820" cy="510" rx="60" ry="26" fill="#c96f42"/>
+    <ellipse cx="1060" cy="520" rx="65" ry="28" fill="#D9A441"/>
+    <ellipse cx="700" cy="530" rx="60" ry="26" fill="#B85C38"/>
+    <ellipse cx="880" cy="545" rx="70" ry="28" fill="#a5693f"/>
+    <ellipse cx="1000" cy="550" rx="60" ry="26" fill="#c96f42"/>
+  </g>
+
+  <!-- individual leaf shapes scattered on pile edges for texture -->
+  <g>
+    <ellipse cx="650" cy="440" rx="14" ry="8" fill="#D9A441" transform="rotate(25 650 440)"/>
+    <ellipse cx="1120" cy="460" rx="14" ry="8" fill="#B85C38" transform="rotate(-20 1120 460)"/>
+    <ellipse cx="1080" cy="400" rx="13" ry="7" fill="#c96f42" transform="rotate(35 1080 400)"/>
+    <ellipse cx="750" cy="410" rx="13" ry="7" fill="#D9A441" transform="rotate(-40 750 410)"/>
+    <ellipse cx="950" cy="410" rx="13" ry="7" fill="#B85C38" transform="rotate(15 950 410)"/>
+  </g>
+
+  <!-- subtle dividing line -->
+  <rect x="596" y="180" width="8" height="450" fill="#2E2A24" opacity="0.08"/>
+
+  <!-- a few falling leaves in sky for whimsy -->
+  <g>
+    <ellipse cx="180" cy="100" rx="12" ry="7" fill="#D9A441" transform="rotate(30 180 100)"/>
+    <ellipse cx="950" cy="80" rx="13" ry="7" fill="#B85C38" transform="rotate(-25 950 80)"/>
+    <ellipse cx="1050" cy="130" rx="11" ry="6" fill="#D9A441" transform="rotate(50 1050 130)"/>
+    <ellipse cx="400" cy="60" rx="11" ry="6" fill="#5C6E58" transform="rotate(-10 400 60)"/>
+  </g>
+</svg>

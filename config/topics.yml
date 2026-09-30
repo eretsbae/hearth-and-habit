@@ -611,10 +611,12 @@ topics:
   - 11
 - title: Should You Rake Leaves Off the Lawn or Leave Them There Over Winter?
   pillar: yard-outdoor
-  status: pending
+  status: published
   season_months:
   - 10
   - 11
+  published_slug: rake-leaves-or-leave-them-over-winter
+  quality_score: 84
 - title: How Long Does a Frozen Turkey Take to Thaw in the Fridge Before Thanksgiving?
   pillar: kitchen-habits
   status: pending

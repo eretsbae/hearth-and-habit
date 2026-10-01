@@ -566,6 +566,7 @@ topics:
   quality_score: 82
   blogger_url: https://www.hearth-habit.com/2026/09/why-does-my-laundry-still-smell-musty.html
   blogger_post_id: '1155075927943709904'
+  pinterest_batch: pins14
 - title: Is It Cheaper to Preheat the Oven or Skip It for Weeknight Meals?
   pillar: energy-savings
   status: published
@@ -619,6 +620,7 @@ topics:
   quality_score: 84
   blogger_url: https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html
   blogger_post_id: '673043660764531762'
+  pinterest_batch: pins14
 - title: How Long Does a Frozen Turkey Take to Thaw in the Fridge Before Thanksgiving?
   pillar: kitchen-habits
   status: pending
@@ -652,6 +654,7 @@ topics:
   hub: true
   blogger_url: https://www.hearth-habit.com/2026/09/why-is-my-electric-bill-so-high-step-by.html
   blogger_post_id: '6188033485121958589'
+  pinterest_batch: pins14
 - title: 'Leftovers, Thawing, and Fridge Storage: The Food Safety Rules in One Place'
   pillar: kitchen-habits
   status: published
@@ -659,6 +662,7 @@ topics:
   hub: true
   blogger_url: https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html
   blogger_post_id: '8721610027012349293'
+  pinterest_batch: pins14
 - title: Clutter Keeps Coming Back? Match the Problem to the Fix
   pillar: cleaning-organization
   status: published

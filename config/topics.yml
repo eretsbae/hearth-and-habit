@@ -313,12 +313,14 @@ topics:
   retired_at: '2026-09-11'
 - title: How Much Does It Actually Cost to Run a Space Heater for 8 Hours?
   pillar: energy-savings
-  status: pending
+  status: published
   season_months:
   - 11
   - 12
   - 1
   - 2
+  published_slug: cost-to-run-space-heater-8-hours
+  quality_score: 85
 - title: Does Closing Vents in Unused Rooms Save Energy or Cost More?
   pillar: energy-savings
   status: published

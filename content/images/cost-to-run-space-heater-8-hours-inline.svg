@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+
+  <text x="600" y="60" font-size="38" fill="#2E2A24" text-anchor="middle" font-weight="bold">Cost for 8 hours</text>
+
+  <!-- Axis line -->
+  <line x1="150" y1="540" x2="1120" y2="540" stroke="#2E2A24" stroke-width="2"/>
+
+  <!-- Group labels -->
+  <text x="330" y="580" font-size="28" fill="#2E2A24" text-anchor="middle">750W</text>
+  <text x="820" y="580" font-size="28" fill="#2E2A24" text-anchor="middle">1500W</text>
+
+  <!-- Divider between groups -->
+  <line x1="580" y1="130" x2="580" y2="540" stroke="#D9A441" stroke-width="2" stroke-dasharray="6,6"/>
+
+  <!-- 750W group bars: approximate heights scaled to price (11,17,30) * 0.75kWh*8h = 6kWh -->
+  <!-- cost750: 11c=0.66 ->approx height 66, 17c=1.02->102, 30c=1.80->180 -->
+  <rect x="200" y="474" width="70" height="66" fill="#D9A441"/>
+  <rect x="300" y="438" width="70" height="102" fill="#B85C38"/>
+  <rect x="400" y="360" width="70" height="180" fill="#5C6E58"/>
+
+  <!-- 1500W group bars: cost = price * 1.5kWh * 8h = 12kWh -->
+  <!-- 11c=1.32->132, 17c=2.04->204, 30c=3.60->360 -->
+  <rect x="690" y="408" width="70" height="132" fill="#D9A441"/>
+  <rect x="790" y="336" width="70" height="204" fill="#B85C38"/>
+  <rect x="890" y="180" width="70" height="360" fill="#5C6E58"/>
+
+  <!-- price labels under each bar -->
+  <text x="235" y="565" font-size="20" fill="#2E2A24" text-anchor="middle">11¢/kWh</text>
+  <text x="335" y="565" font-size="20" fill="#2E2A24" text-anchor="middle">17¢/kWh</text>
+  <text x="435" y="565" font-size="20" fill="#2E2A24" text-anchor="middle">30¢/kWh</text>
+
+  <text x="725" y="565" font-size="20" fill="#2E2A24" text-anchor="middle">11¢/kWh</text>
+  <text x="825" y="565" font-size="20" fill="#2E2A24" text-anchor="middle">17¢/kWh</text>
+  <text x="925" y="565" font-size="20" fill="#2E2A24" text-anchor="middle">30¢/kWh</text>
+
+  <!-- small value tags on top of bars -->
+  <rect x="205" y="450" width="60" height="22" fill="#F6EFE6" opacity="0"/>
+  
+  <!-- Legend -->
+  <rect x="160" y="140" width="22" height="22" fill="#D9A441"/>
+  <text x="192" y="158" font-size="22" fill="#2E2A24">11¢/kWh</text>
+
+  <rect x="340" y="140" width="22" height="22" fill="#B85C38"/>
+  <text x="372" y="158" font-size="22" fill="#2E2A24">17¢/kWh</text>
+
+  <rect x="520" y="140" width="22" height="22" fill="#5C6E58"/>
+  <text x="552" y="158" font-size="22" fill="#2E2A24">30¢/kWh</text>
+
+</svg>

@@ -1,0 +1,80 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- room walls -->
+  <rect x="0" y="0" width="1200" height="430" fill="#E4C7B2" opacity="0.35"/>
+  <rect x="0" y="420" width="1200" height="210" fill="#5C6E58" opacity="0.18"/>
+
+  <!-- floor baseboard line -->
+  <rect x="0" y="420" width="1200" height="10" fill="#2E2A24" opacity="0.15"/>
+
+  <!-- corner wall shading triangle -->
+  <polygon points="0,0 500,0 0,430" fill="#2E2A24" opacity="0.04"/>
+
+  <!-- decorative rug -->
+  <ellipse cx="620" cy="560" rx="360" ry="55" fill="#B85C38" opacity="0.15"/>
+  <ellipse cx="620" cy="560" rx="280" ry="40" fill="#D9A441" opacity="0.12"/>
+
+  <!-- small side plant for coziness -->
+  <rect x="1020" y="470" width="70" height="60" rx="8" fill="#B85C38"/>
+  <circle cx="1055" cy="440" r="42" fill="#5C6E58"/>
+  <circle cx="1030" cy="420" r="30" fill="#5C6E58"/>
+  <circle cx="1080" cy="415" r="28" fill="#5C6E58"/>
+
+  <!-- glow radiance behind heater -->
+  <circle cx="470" cy="470" r="230" fill="#D9A441" opacity="0.10"/>
+  <circle cx="470" cy="470" r="170" fill="#D9A441" opacity="0.14"/>
+  <circle cx="470" cy="470" r="110" fill="#D9A441" opacity="0.18"/>
+
+  <!-- dollar sign glow rays -->
+  <g stroke="#D9A441" stroke-width="5" opacity="0.5" stroke-linecap="round">
+    <line x1="470" y1="300" x2="470" y2="250"/>
+    <line x1="590" y1="340" x2="630" y2="300"/>
+    <line x1="630" y1="460" x2="680" y2="460"/>
+    <line x1="350" y1="340" x2="310" y2="300"/>
+    <line x1="310" y1="460" x2="260" y2="460"/>
+  </g>
+
+  <!-- dollar sign symbol made of simple shapes (no text) -->
+  <g transform="translate(470,350)">
+    <rect x="-8" y="-40" width="16" height="100" rx="8" fill="#D9A441" opacity="0.85"/>
+    <path d="M -28 -20 
+             Q -28 -40 0 -40 
+             Q 28 -40 28 -22 
+             Q 28 -8 0 -5 
+             Q -28 -2 -28 14 
+             Q -28 34 0 34 
+             Q 28 34 28 14" 
+          fill="none" stroke="#D9A441" stroke-width="14" stroke-linecap="round" opacity="0.85"/>
+  </g>
+
+  <!-- space heater body -->
+  <g transform="translate(400,440)">
+    <!-- base -->
+    <rect x="-10" y="150" width="160" height="16" rx="8" fill="#2E2A24" opacity="0.7"/>
+    <!-- main body -->
+    <rect x="0" y="40" width="140" height="115" rx="18" fill="#B85C38"/>
+    <!-- top grille housing -->
+    <rect x="10" y="10" width="120" height="45" rx="14" fill="#2E2A24"/>
+    <!-- grille slats -->
+    <rect x="22" y="20" width="96" height="6" rx="3" fill="#D9A441"/>
+    <rect x="22" y="32" width="96" height="6" rx="3" fill="#D9A441"/>
+    <rect x="22" y="44" width="96" height="6" rx="3" fill="#D9A441"/>
+    <!-- control knob -->
+    <circle cx="110" cy="100" r="16" fill="#5C6E58"/>
+    <circle cx="110" cy="100" r="6" fill="#F6EFE6"/>
+    <!-- indicator light -->
+    <circle cx="30" cy="100" r="8" fill="#D9A441"/>
+    <!-- vertical accent stripe -->
+    <rect x="60" y="60" width="10" height="90" rx="5" fill="#E4C7B2" opacity="0.5"/>
+    <!-- cord -->
+    <path d="M140 150 Q 180 160 180 190 Q 180 220 150 220" fill="none" stroke="#2E2A24" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- subtle heat wave lines rising from heater -->
+  <g stroke="#B85C38" stroke-width="4" fill="none" opacity="0.3" stroke-linecap="round">
+    <path d="M430 420 Q 420 400 435 380 Q 450 360 440 340"/>
+    <path d="M470 420 Q 460 400 475 380 Q 490 360 480 340"/>
+    <path d="M510 420 Q 500 400 515 380 Q 530 360 520 340"/>
+  </g>
+</svg>

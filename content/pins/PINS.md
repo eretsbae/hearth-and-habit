@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 66개 준비됨 · 게시 완료 60개(수동 60 · API 0) · 대기 6개
+핀 67개 준비됨 · 게시 완료 64개(수동 64 · API 0) · 대기 3개
 
 ## 수동으로 올리는 법
 
@@ -93,7 +93,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/why-do-my-kitchen-drawers-always-end-up.html
   - 설명: Organize a junk drawer that stays organized: empty it, sort by task, fit right-sized bins, and keep a short list of what belongs. Plus why junk drawers relapse.
 
-- [ ] **Why Does My Laundry Still Smell Musty After a Full Wash Cycle?**
+- [x] **Why Does My Laundry Still Smell Musty After a Full Wash Cycle?**
   - 이미지: `content/pins/laundry-smells-musty-after-wash-cycle.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-laundry-still-smell-musty.html
   - 설명: Musty laundry after washing usually means mildew and bacteria in your washer, not your clothes. The step-by-step fix, and how to keep it from coming back.
@@ -110,7 +110,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 
 ## 보드: Energy & Utility Savings
 
-(11개)
+(12개)
 
 - [x] **How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work**
   - 이미지: `content/pins/cut-electric-bill-no-cost-habits.png`
@@ -162,10 +162,15 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-water-bill-spike-in-winter.html
   - 설명: A winter water bill spike usually means a running toilet or hidden leak, an estimated read catching up, a dripping faucet, or a rate or sewer-charge change.
 
-- [ ] **Why Is My Electric Bill So High? A Step-by-Step Checklist to Find the Cause**
+- [x] **Why Is My Electric Bill So High? A Step-by-Step Checklist to Find the Cause**
   - 이미지: `content/pins/why-is-my-electric-bill-so-high-checklist.png`
   - 링크: https://www.hearth-habit.com/2026/09/why-is-my-electric-bill-so-high-step-by.html
   - 설명: A high electric bill means a higher rate or higher usage. Compare kWh to dollars, match the jump to the weather, then find what never shuts off.
+
+- [ ] **How Much Does It Cost to Run a Space Heater for 8 Hours?**
+  - 이미지: `content/pins/cost-to-run-space-heater-8-hours.png`
+  - 링크: https://www.hearth-habit.com/2026/10/how-much-does-it-cost-to-run-space.html
+  - 설명: A typical 1,500-watt space heater costs roughly $0.25-$1.20 for 8 hours depending on your electric rate. See the math and how it compares to central heat.
 
 ## 보드: Home Maintenance & Repairs
 
@@ -305,7 +310,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/why-leftover-rice-makes-people-sick.html
   - 설명: Bacillus cereus spores survive cooking, and rice left out can form a toxin reheating won't destroy. Why rice is different and how to cool and store it safely.
 
-- [ ] **Leftovers, Thawing, and Fridge Storage: The Food Safety Rules in One Place**
+- [x] **Leftovers, Thawing, and Fridge Storage: The Food Safety Rules in One Place**
   - 이미지: `content/pins/food-storage-safety-rules-leftovers-thawing.png`
   - 링크: https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html
   - 설명: Fridge at 40°F, food put away within 2 hours, leftovers eaten in 3 to 4 days, reheated to 165°F. The USDA rules for leftovers, thawing, and refreezing.
@@ -369,7 +374,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-hydrangea-bloom-great-one.html
   - 설명: Usually winter cold or a late frost killed next year's flower buds, or pruning at the wrong time cut them off. Match your symptom to the fix below.
 
-- [ ] **Should You Rake Leaves or Leave Them on the Lawn Over Winter?**
+- [x] **Should You Rake Leaves or Leave Them on the Lawn Over Winter?**
   - 이미지: `content/pins/rake-leaves-or-leave-them-over-winter.png`
   - 링크: https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html
   - 설명: A thin layer of leaves can stay, but a thick, matted layer will smother and kill your grass. Here's how to tell which you have, in five steps.

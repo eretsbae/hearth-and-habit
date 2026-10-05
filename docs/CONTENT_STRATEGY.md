@@ -124,6 +124,8 @@ robots.txt 차단도 noindex도 아니다 — 구글이 URL을 알고는 있으�
 - `content/pins/PINS.md` — 핀 이미지 경로 / 보드 / 연결 URL / 복사용 설명문이 정리된
   **핀 큐**. 발행 워크플로우의 Blogger 게시 단계 뒤에 실행되어 새 글 URL이 자동 반영된다.
 - 사람이 할 일은 주 1회 5분, PINS.md 보고 Pinterest에 업로드하는 것뿐.
+  → **2026-10-03부터 이것도 없음.** API Standard access 승인으로 `pinterest-publish.yml`이 기본 핀을
+  자동 게시한다([PINTEREST_SETUP.md](PINTEREST_SETUP.md)).
 
 ## 콘텐츠 품질 전수 점검 (2026-09-29)
 
@@ -153,6 +155,7 @@ robots.txt 차단도 noindex도 아니다 — 구글이 URL을 알고는 있으�
   FAQ 선택화, alt는 단어 경계에서 자름, 인라인 이미지는 라벨 있는 **정보형 도해**(`SVG_DIAGRAM_SYSTEM`),
   관련 글은 태그 겹침 → 같은 필러 → 최신순으로 정렬.
 - Pinterest: 글마다 `pin_hooks` 2개 → 레이아웃이 다른 헤드라인 핀과 업로드 CSV(`content/pins/hooks/`).
+  API 자동 게시 대상이 아니므로 올리려면 손으로 콘텐츠 가져오기(선택).
 - 주간 리포트에 Search Console 검색어·페이지 실적 표를 추가했다(`webmasters.readonly` 권한 재발급 필요).
 - 발행 후 정정 경로: `blogger_publish.py --sync-content`와 `sync-posts.yml`. 게시된 글을 고쳐 main에
   머지하면 바뀐 글만 라이브에 PATCH하고, 본문 위에 "Last reviewed" 날짜와 JSON-LD `dateModified`를

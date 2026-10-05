@@ -2,25 +2,20 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 67개 준비됨 · 게시 완료 64개(수동 64 · API 0) · 대기 3개
+핀 67개 준비됨 · 게시 완료 67개(수동 64 · API 3) · 대기 0개
 
-## 수동으로 올리는 법
+## 게시 방식
 
-1. **이미지 위치**: 로컬 리포의 `content/pins/` 폴더 (최신화: `git pull`).
-   Windows 탐색기에서 그 폴더를 열어두고 작업하면 편합니다.
-2. **보드 먼저 생성** — 아래 소제목과 **똑같은 이름**으로 만드세요. 이름이 같아야
-   나중에 API 자동 게시가 켜졌을 때 기존 보드를 그대로 씁니다(중복 생성 방지).
-   보드는 반드시 **공개(비공개 해제)** 상태여야 검색에 노출됩니다.
-3. **핀 만들기**: Pinterest → 만들기 → 핀 만들기 → 이미지 끌어다 놓기 →
-   제목·설명·링크 붙여넣기 → 보드 선택 → 게시.
-4. **하루 3~5개씩** 나눠 올리세요. 신규 계정이 한 번에 몰아 올리면 스팸으로 취급됩니다.
-
-`[x]`는 이미 게시된 핀입니다(수동·API 구분 없음) — **다시 올리지 마세요.**
-손으로 올린 뒤에는 반드시 기록해서 나중에 API가 중복 게시하지 않게 하세요:
+2026-10-03부터 `pinterest-publish.yml`이 API로 자동 게시합니다(Standard access, 하루 최대 3핀).
+**손으로 올리지 마세요** — 기록 없이 올리면 워크플로가 같은 글을 다시 올립니다.
+대기 핀은 다음 실행에서 올라갑니다. 예외 상황에서 손으로 올렸다면 반드시 기록하세요:
 
 ```bash
 python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
 ```
+
+`[x]`는 이미 게시된 핀입니다(수동·API 구분 없음). 헤드라인 변형 핀(`content/pins/hooks/`)은
+API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTEREST_SETUP.md).
 
 ---
 
@@ -98,12 +93,12 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/why-does-my-laundry-still-smell-musty.html
   - 설명: Musty laundry after washing usually means mildew and bacteria in your washer, not your clothes. The step-by-step fix, and how to keep it from coming back.
 
-- [ ] **Clutter Keeps Coming Back? Match the Problem to the Fix**
+- [x] **Clutter Keeps Coming Back? Match the Problem to the Fix**
   - 이미지: `content/pins/clutter-keeps-coming-back-which-fix.png`
   - 링크: https://www.hearth-habit.com/2026/09/clutter-keeps-coming-back-match-problem.html
   - 설명: Clutter returns when things lack a home, you own more than storage holds, or tidy-ups are too far apart. Find which one you have and the fix to match.
 
-- [ ] **Musty Smell in the House? How to Find the Source, Room by Room**
+- [x] **Musty Smell in the House? How to Find the Source, Room by Room**
   - 이미지: `content/pins/musty-smell-in-house-find-the-source.png`
   - 링크: https://www.hearth-habit.com/2026/09/musty-smell-in-house-how-to-find-source.html
   - 설명: A musty smell means moisture is feeding mold or mildew somewhere. Check closets, basement, washer, dishwasher, fridge, and towels to find the source.
@@ -167,7 +162,7 @@ python generator/pinterest_publish.py --mark-pinned SLUG [SLUG ...]
   - 링크: https://www.hearth-habit.com/2026/09/why-is-my-electric-bill-so-high-step-by.html
   - 설명: A high electric bill means a higher rate or higher usage. Compare kWh to dollars, match the jump to the weather, then find what never shuts off.
 
-- [ ] **How Much Does It Cost to Run a Space Heater for 8 Hours?**
+- [x] **How Much Does It Cost to Run a Space Heater for 8 Hours?**
   - 이미지: `content/pins/cost-to-run-space-heater-8-hours.png`
   - 링크: https://www.hearth-habit.com/2026/10/how-much-does-it-cost-to-run-space.html
   - 설명: A typical 1,500-watt space heater costs roughly $0.25-$1.20 for 8 hours depending on your electric rate. See the math and how it compares to central heat.

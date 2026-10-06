@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 67개 준비됨 · 게시 완료 67개(수동 64 · API 3) · 대기 0개
+핀 68개 준비됨 · 게시 완료 67개(수동 64 · API 3) · 대기 1개
 
 ## 게시 방식
 
@@ -105,7 +105,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
 
 ## 보드: Energy & Utility Savings
 
-(12개)
+(13개)
 
 - [x] **How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work**
   - 이미지: `content/pins/cut-electric-bill-no-cost-habits.png`
@@ -166,6 +166,11 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 이미지: `content/pins/cost-to-run-space-heater-8-hours.png`
   - 링크: https://www.hearth-habit.com/2026/10/how-much-does-it-cost-to-run-space.html
   - 설명: A typical 1,500-watt space heater costs roughly $0.25-$1.20 for 8 hours depending on your electric rate. See the math and how it compares to central heat.
+
+- [ ] **Gas Bill Higher This Winter Without Touching the Thermostat? Run This Checklist**
+  - 이미지: `content/pins/gas-bill-higher-this-winter-checklist.png`
+  - 링크: https://www.hearth-habit.com/2026/10/gas-bill-higher-this-winter-without.html
+  - 설명: A higher gas bill with the same thermostat setting usually means colder outdoor temps, rate changes, or heat loss. Here's the checklist to find out which.
 
 ## 보드: Home Maintenance & Repairs
 

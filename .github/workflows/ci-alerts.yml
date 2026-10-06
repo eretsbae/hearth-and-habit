@@ -1,0 +1,52 @@
+# Actions 실패 알림 (GitHub 기본 실패 메일 대체)
+# - 기본 메일은 러너 장애처럼 우리 코드가 안 돈 실행에도 뜬다(2026-10-05
+#   "job was not acquired by Runner" 건). 그 메일은 계정 설정에서 끄고,
+#   대신 여기서 알림할 가치가 있는 경우만 ci-alert 라벨 이슈로 올린다
+#   (이슈 담당자 지정 → 메일). 판정 로직은 .github/scripts/ci_alert.py.
+#   1) 아래 워크플로우의 잡이 실제로 돌다 실패했을 때 (워크플로우 이름이
+#      바뀌면 workflows 목록도 고칠 것)
+#   2) 예약 워크플로우가 연속으로 성공하지 못했을 때 (매일 점검, 장시간 장애)
+
+name: CI Alerts
+
+on:
+  workflow_run:
+    workflows:
+      - Generate & Publish Post
+      - Publish Pins to Pinterest
+      - Weekly Traffic Report
+      - Prune Merged Branches
+      - Publish Static Pages
+      - Relink Posts to Current Domain
+      - Retire Posts
+      - Sync Posts to Blogger
+    types: [completed]
+  schedule:
+    - cron: "37 3 * * *" # 매일 03:37 UTC = 12:37 KST
+  workflow_dispatch:
+
+permissions:
+  actions: read
+  contents: read
+  issues: write
+
+jobs:
+  failed-run:
+    if: github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Alert only if a job actually failed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/ci_alert.py run "${{ github.event.workflow_run.id }}"
+
+  stale-schedules:
+    if: github.event_name != 'workflow_run'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Alert if scheduled workflows keep missing
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/ci_alert.py stale

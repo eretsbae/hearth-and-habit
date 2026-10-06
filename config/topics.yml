@@ -644,11 +644,13 @@ topics:
   - 10
 - title: Why Is My Gas Bill Higher This Winter When I Haven't Touched the Thermostat?
   pillar: energy-savings
-  status: pending
+  status: published
   season_months:
   - 11
   - 12
   - 1
+  published_slug: gas-bill-higher-this-winter-checklist
+  quality_score: 82
 - title: Musty Smell in the House? How to Find the Source, Room by Room
   pillar: cleaning-organization
   status: published

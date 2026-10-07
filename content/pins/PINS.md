@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 68개 준비됨 · 게시 완료 67개(수동 64 · API 3) · 대기 1개
+핀 69개 준비됨 · 게시 완료 68개(수동 64 · API 4) · 대기 1개
 
 ## 게시 방식
 
@@ -167,7 +167,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/10/how-much-does-it-cost-to-run-space.html
   - 설명: A typical 1,500-watt space heater costs roughly $0.25-$1.20 for 8 hours depending on your electric rate. See the math and how it compares to central heat.
 
-- [ ] **Gas Bill Higher This Winter Without Touching the Thermostat? Run This Checklist**
+- [x] **Gas Bill Higher This Winter Without Touching the Thermostat? Run This Checklist**
   - 이미지: `content/pins/gas-bill-higher-this-winter-checklist.png`
   - 링크: https://www.hearth-habit.com/2026/10/gas-bill-higher-this-winter-without.html
   - 설명: A higher gas bill with the same thermostat setting usually means colder outdoor temps, rate changes, or heat loss. Here's the checklist to find out which.
@@ -248,7 +248,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
 
 ## 보드: Kitchen & Food Habits
 
-(13개)
+(14개)
 
 - [x] **How to Meal Plan for the Week in 30 Minutes (A Simple Sunday Routine)**
   - 이미지: `content/pins/30-minute-sunday-meal-plan.png`
@@ -314,6 +314,11 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 이미지: `content/pins/food-storage-safety-rules-leftovers-thawing.png`
   - 링크: https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html
   - 설명: Fridge at 40°F, food put away within 2 hours, leftovers eaten in 3 to 4 days, reheated to 165°F. The USDA rules for leftovers, thawing, and refreezing.
+
+- [ ] **How Long Does a Frozen Turkey Take to Thaw in the Fridge?**
+  - 이미지: `content/pins/how-long-frozen-turkey-takes-to-thaw-in-fridge.png`
+  - 링크: https://www.hearth-habit.com/2026/10/how-long-does-frozen-turkey-take-to.html
+  - 설명: A frozen turkey needs roughly 24 hours per 4-5 lbs in the fridge. See the real timeline, why size matters more than the calendar, and what to do if you're late.
 
 ## 보드: Yard & Outdoor Basics
 

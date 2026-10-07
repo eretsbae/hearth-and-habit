@@ -632,10 +632,12 @@ topics:
   pinterest_bulk_pin_id: '1132796112559991969'
 - title: How Long Does a Frozen Turkey Take to Thaw in the Fridge Before Thanksgiving?
   pillar: kitchen-habits
-  status: pending
+  status: published
   season_months:
   - 10
   - 11
+  published_slug: how-long-frozen-turkey-takes-to-thaw-in-fridge
+  quality_score: 82
 - title: How Do You Store Summer Clothes So They Don't Smell or Yellow by Spring?
   pillar: cleaning-organization
   status: pending

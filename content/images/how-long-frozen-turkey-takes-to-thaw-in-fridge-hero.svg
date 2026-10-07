@@ -1,0 +1,99 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <!-- background calendar motif -->
+  <g opacity="0.5">
+    <rect x="80" y="80" width="220" height="200" rx="10" fill="#E4C7B2"/>
+    <rect x="80" y="80" width="220" height="40" rx="10" fill="#B85C38"/>
+    <rect x="115" y="60" width="14" height="40" rx="4" fill="#5C6E58"/>
+    <rect x="251" y="60" width="14" height="40" rx="4" fill="#5C6E58"/>
+    <g fill="#5C6E58">
+      <circle cx="115" cy="150" r="7"/>
+      <circle cx="155" cy="150" r="7"/>
+      <circle cx="195" cy="150" r="7"/>
+      <circle cx="235" cy="150" r="7"/>
+      <circle cx="265" cy="150" r="7"/>
+      <circle cx="115" cy="190" r="7"/>
+      <circle cx="155" cy="190" r="7"/>
+      <circle cx="195" cy="190" r="7"/>
+      <circle cx="235" cy="190" r="7"/>
+      <circle cx="265" cy="190" r="7"/>
+      <circle cx="115" cy="230" r="7"/>
+      <circle cx="155" cy="230" r="7"/>
+      <circle cx="195" cy="230" r="7"/>
+    </g>
+  </g>
+
+  <!-- background clock motif -->
+  <g opacity="0.5">
+    <circle cx="1030" cy="150" r="110" fill="#E4C7B2"/>
+    <circle cx="1030" cy="150" r="92" fill="#F6EFE6"/>
+    <circle cx="1030" cy="150" r="7" fill="#2E2A24"/>
+    <rect x="1026" y="90" width="8" height="62" rx="4" fill="#2E2A24"/>
+    <rect x="1030" y="150" width="50" height="8" rx="4" fill="#2E2A24"/>
+    <circle cx="1030" cy="68" r="5" fill="#5C6E58"/>
+    <circle cx="1030" cy="232" r="5" fill="#5C6E58"/>
+    <circle cx="948" cy="150" r="5" fill="#5C6E58"/>
+    <circle cx="1112" cy="150" r="5" fill="#5C6E58"/>
+  </g>
+
+  <!-- fridge body -->
+  <rect x="330" y="60" width="540" height="540" rx="24" fill="#F6EFE6" stroke="#2E2A24" stroke-width="6"/>
+  <!-- fridge interior panel -->
+  <rect x="360" y="150" width="480" height="420" rx="14" fill="#F2E9DD"/>
+  <!-- fridge door seam -->
+  <line x1="330" y1="150" x2="870" y2="150" stroke="#2E2A24" stroke-width="5"/>
+  <!-- fridge handle -->
+  <rect x="340" y="250" width="16" height="120" rx="8" fill="#2E2A24"/>
+
+  <!-- top freezer vents -->
+  <rect x="390" y="100" width="100" height="10" rx="5" fill="#D9A441"/>
+  <rect x="390" y="118" width="70" height="10" rx="5" fill="#D9A441"/>
+
+  <!-- shelves -->
+  <rect x="375" y="330" width="450" height="10" fill="#D8C9B5"/>
+  <rect x="375" y="480" width="450" height="10" fill="#D8C9B5"/>
+
+  <!-- side door shelf items -->
+  <rect x="790" y="180" width="50" height="90" rx="8" fill="#5C6E58"/>
+  <rect x="790" y="280" width="50" height="70" rx="8" fill="#B85C38"/>
+
+  <!-- small jars on lower shelf -->
+  <circle cx="400" cy="540" r="22" fill="#D9A441"/>
+  <rect x="385" y="505" width="30" height="20" rx="6" fill="#5C6E58"/>
+
+  <!-- tray -->
+  <ellipse cx="600" cy="370" rx="160" ry="30" fill="#D8C9B5"/>
+  <ellipse cx="600" cy="365" rx="160" ry="26" fill="#E4C7B2"/>
+
+  <!-- turkey body -->
+  <ellipse cx="600" cy="330" rx="110" ry="70" fill="#B85C38"/>
+  <ellipse cx="600" cy="320" rx="110" ry="65" fill="#C96B45"/>
+
+  <!-- turkey breast highlight -->
+  <ellipse cx="580" cy="300" rx="55" ry="40" fill="#D9824F" opacity="0.6"/>
+
+  <!-- turkey legs -->
+  <path d="M520 360 Q500 400 530 430 Q545 410 540 385 Z" fill="#B85C38"/>
+  <path d="M680 360 Q700 400 670 430 Q655 410 660 385 Z" fill="#B85C38"/>
+  <!-- drumstick ties -->
+  <circle cx="528" cy="425" r="6" fill="#D9A441"/>
+  <circle cx="665" cy="425" r="6" fill="#D9A441"/>
+
+  <!-- turkey neck/head stump -->
+  <ellipse cx="680" cy="275" rx="20" ry="16" fill="#B85C38"/>
+
+  <!-- garnish leaves -->
+  <ellipse cx="500" cy="365" rx="18" ry="8" fill="#5C6E58" transform="rotate(-20 500 365)"/>
+  <ellipse cx="710" cy="368" rx="18" ry="8" fill="#5C6E58" transform="rotate(20 710 368)"/>
+  <ellipse cx="600" cy="378" rx="16" ry="7" fill="#5C6E58"/>
+
+  <!-- small berries garnish -->
+  <circle cx="480" cy="370" r="6" fill="#B85C38"/>
+  <circle cx="730" cy="372" r="6" fill="#B85C38"/>
+
+  <!-- fridge frost shading at top corners for depth -->
+  <path d="M360 150 Q400 160 430 150" stroke="#D8C9B5" stroke-width="4" fill="none" opacity="0.6"/>
+  <path d="M770 150 Q810 160 840 150" stroke="#D8C9B5" stroke-width="4" fill="none" opacity="0.6"/>
+
+</svg>

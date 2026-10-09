@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 69개 준비됨 · 게시 완료 68개(수동 64 · API 4) · 대기 1개
+핀 70개 준비됨 · 게시 완료 69개(수동 64 · API 5) · 대기 1개
 
 ## 게시 방식
 
@@ -174,7 +174,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
 
 ## 보드: Home Maintenance & Repairs
 
-(14개)
+(15개)
 
 - [x] **How Often Should You Change Your Furnace Filter? (And Which MERV Rating to Buy)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -246,6 +246,11 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/09/yellow-brown-ceiling-stain-with-no.html
   - 설명: A yellow-brown ceiling stain usually means a past leak, a slow leak, or condensation. Here's how to confirm it's dry and find the source before painting.
 
+- [ ] **At What Temperature Do Pipes Freeze? A Symptom-by-Symptom Guide**
+  - 이미지: `content/pins/what-temperature-do-pipes-freeze-guide.png`
+  - 링크: https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html
+  - 설명: Pipes start freezing when outdoor temps drop below 20°F, but wind, insulation, and location change the risk. Match your situation to the fix.
+
 ## 보드: Kitchen & Food Habits
 
 (14개)
@@ -315,7 +320,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html
   - 설명: Fridge at 40°F, food put away within 2 hours, leftovers eaten in 3 to 4 days, reheated to 165°F. The USDA rules for leftovers, thawing, and refreezing.
 
-- [ ] **How Long Does a Frozen Turkey Take to Thaw in the Fridge?**
+- [x] **How Long Does a Frozen Turkey Take to Thaw in the Fridge?**
   - 이미지: `content/pins/how-long-frozen-turkey-takes-to-thaw-in-fridge.png`
   - 링크: https://www.hearth-habit.com/2026/10/how-long-does-frozen-turkey-take-to.html
   - 설명: A frozen turkey needs roughly 24 hours per 4-5 lbs in the fridge. See the real timeline, why size matters more than the calendar, and what to do if you're late.

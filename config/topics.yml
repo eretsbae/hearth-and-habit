@@ -226,11 +226,13 @@ topics:
   pinterest_pin_id: manual
 - title: At What Outdoor Temperature Do Pipes Actually Start to Freeze?
   pillar: home-maintenance
-  status: pending
+  status: published
   season_months:
   - 11
   - 12
   - 1
+  published_slug: what-temperature-do-pipes-freeze-guide
+  quality_score: 83
 - title: How Often Should You Really Wash Bath Towels Before They Smell?
   pillar: cleaning-organization
   status: published

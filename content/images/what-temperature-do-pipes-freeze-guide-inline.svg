@@ -1,0 +1,58 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+
+  <text x="60" y="60" font-family="Helvetica, Arial, sans-serif" font-size="38" fill="#2E2A24" font-weight="bold">Pipe Freeze Risk by Temperature</text>
+
+  <!-- Main chart area -->
+  <g>
+    <!-- Row 1: 32 and above - low risk -->
+    <rect x="60" y="110" width="700" height="90" fill="#5C6E58" rx="6"/>
+    <text x="85" y="145" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#F6EFE6" font-weight="bold">32°F and above</text>
+    <text x="85" y="178" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#F6EFE6">Low risk</text>
+
+    <!-- Row 2: 20-32 slow risk -->
+    <rect x="60" y="212" width="700" height="90" fill="#D9A441" rx="6"/>
+    <text x="85" y="247" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24" font-weight="bold">20–32°F</text>
+    <text x="85" y="280" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2E2A24">Slow risk, exposed pipes</text>
+
+    <!-- Row 3: below 20 high risk -->
+    <rect x="60" y="314" width="700" height="90" fill="#B85C38" rx="6"/>
+    <text x="85" y="349" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#F6EFE6" font-weight="bold">Below 20°F</text>
+    <text x="85" y="382" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#F6EFE6">High risk, act now</text>
+
+    <!-- Row 4: below 0 extreme -->
+    <rect x="60" y="416" width="700" height="100" fill="#2E2A24" rx="6"/>
+    <text x="85" y="451" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#F6EFE6" font-weight="bold">Below 0°F</text>
+    <text x="85" y="488" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#F6EFE6">Freezing can happen in hours</text>
+  </g>
+
+  <!-- Arrow indicating increasing risk -->
+  <g>
+    <line x1="800" y1="130" x2="800" y2="500" stroke="#2E2A24" stroke-width="3"/>
+    <polygon points="800,510 790,490 810,490" fill="#2E2A24"/>
+    <text x="820" y="320" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24" transform="rotate(90 820 320)" text-anchor="middle">Increasing risk</text>
+  </g>
+
+  <!-- Sidebar: high-risk locations -->
+  <g>
+    <rect x="900" y="110" width="250" height="406" fill="#E4C7B2" rx="10"/>
+    <text x="925" y="150" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24" font-weight="bold">High-Risk Spots</text>
+
+    <!-- Icon 1: exterior wall -->
+    <rect x="925" y="180" width="30" height="30" fill="#B85C38"/>
+    <text x="965" y="203" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2E2A24">Exterior walls</text>
+
+    <!-- Icon 2: crawl space -->
+    <rect x="925" y="240" width="30" height="30" fill="#5C6E58"/>
+    <text x="965" y="263" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2E2A24">Crawl space</text>
+
+    <!-- Icon 3: garage -->
+    <polygon points="925,330 940,300 955,330" fill="#D9A441"/>
+    <rect x="925" y="330" width="30" height="20" fill="#D9A441"/>
+    <text x="965" y="345" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2E2A24">Garage</text>
+
+    <!-- Icon 4: unheated basement -->
+    <circle cx="940" cy="400" r="15" fill="#2E2A24"/>
+    <text x="965" y="408" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2E2A24">Unheated basement</text>
+  </g>
+</svg>

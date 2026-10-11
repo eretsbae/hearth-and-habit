@@ -20,7 +20,7 @@ enriched: '2026-10-11'
 
 Mostly no. A mild detergent or all-purpose cleaner, a glass cleaner, and a disinfectant you use only when it's needed cover most of a home. The exceptions are surfaces that everyday products damage.
 
-The sources below point to four of those: marble and other calcium-based stone, finished wood floors, glass-ceramic cooktops, and leather. Two surfaces people often buy special bottles for, granite and stainless steel, don't need one. They do each have a product to keep away from them, and for stainless that product is the one many people reach for most.
+The sources below point to four of those: marble and other calcium-based stone, finished wood floors, glass-ceramic cooktops, and leather. Two surfaces people often buy special bottles for, granite and stainless steel, don't need one. They do each have a product to keep away from them, and for stainless that product is the disinfectant.
 
 ## The test for any bottle: what does the wrong product do here?
 
@@ -32,9 +32,9 @@ Run that test with manufacturers' and trade groups' own care instructions, and m
 - **Water and steam** for wood floors
 - **Ammonia, bleach, and abrasives** for glass cooktops
 - **Chlorine, chlorides, and disinfectants** for stainless steel
-- **Soaps and solvents** for leather
+- **Saddle soap, detergent soaps, and solvents** for leather
 
-The cleaner you buy for each one matters less than the product you keep away from it.
+For several of them, the product you keep away matters as much as the cleaner you buy.
 
 ## Surface by surface: what the makers and trade groups say
 
@@ -51,7 +51,7 @@ The cleaner you buy for each one matters less than the product you keep away fro
 
 ## Stone: "natural stone" is two different problems
 
-Most cleaning advice lumps all stone together. The Natural Stone Institute, the stone industry's trade association, splits it in two:
+A lot of cleaning advice lumps all stone together. The Natural Stone Institute, the stone industry's trade association, splits it in two:
 
 - **Calcareous stone** is mainly calcium carbonate: marble, limestone, travertine. It reacts with acid. The institute says products containing lemon, vinegar, or other acids "may dull or etch" it.
 - **Siliceous stone** is mainly silicate minerals like quartz: granite and quartzite. The institute calls it "generally resistant to most acids found in kitchen settings." It still doesn't recommend acidic cleaners, because these stones can contain small amounts of acid-sensitive minerals.
@@ -60,13 +60,13 @@ So the case for a dedicated stone cleaner is strong on marble and weak on granit
 
 ### Sealing marble doesn't protect it from vinegar
 
-Many people assume a sealed marble counter can handle anything. The institute's marble guide says a sealer "does nothing to protect etching, no matter how much sealer you use." Sealer slows stains, such as red wine or oil soaking in. It does nothing against the dull "burn mark" an acid leaves on the surface.
+It's easy to assume a sealed marble counter can handle anything. The institute's marble guide says a sealer "does nothing to protect etching, no matter how much sealer you use." Sealer only slows staining. It does nothing against the dull "burn mark" an acid leaves on the surface.
 
 The guide names tomatoes, citrus, juices, alcohol, and vinegar as the usual kitchen culprits. It notes that etching shows more on polished marble than on honed or textured marble. If your marble is polished, keep vinegar-based "natural" sprays off it entirely.
 
 ### The stone hazard that's in the bathroom aisle
 
-The product most likely to hurt granite isn't a kitchen spray. The Natural Stone Institute warns that some rust removers and toilet bowl cleaners contain hydrofluoric acid, and that "all stones, including granite and quartzite, will be attacked" by it.
+One product that can hurt even granite isn't a kitchen spray. The Natural Stone Institute warns that some rust removers and toilet bowl cleaners contain hydrofluoric acid, and that "all stones, including granite and quartzite, will be attacked" by it.
 
 If you have a stone vanity top, stone tile, or a stone shower, read the label of any rust or toilet product before it goes near the stone. Wipe up drips right away.
 
@@ -78,27 +78,27 @@ Its granite article goes further. A stone specialist quoted there doesn't recomm
 
 In practice, a few drops of dish soap in warm water, followed by a rinse and a dry wipe, sits within the institute's guidance. If you see a dull haze building up, that's a reason to switch to a stone cleaner.
 
-The same article says a good sealer can last up to 10 years when you use the right daily cleaners, and that the wrong cleaners can break it down. To check whether yours still works, put a little hot water on the counter for 10 to 20 minutes, then wipe it off. If the stone darkened, it's still absorbing moisture and needs resealing.
+The same article says a good sealer can last up to 10 years when you use the right daily cleaners, and that the wrong cleaners can break it down. To check whether yours still works, put a little hot water on the counter for 10 to 20 minutes, then wipe it off. If the stone darkened, it's still absorbing moisture and may need resealing.
 
 ## Stainless steel: the "disinfect everything" habit is the risk
 
-Stainless doesn't need a special bottle, but it is where a one-spray-for-everything shelf goes wrong. Many people use disinfecting wipes or bleach spray on every kitchen surface, and that includes the fridge door.
+Stainless doesn't need a special bottle, but it is where a one-spray-for-everything shelf goes wrong. If you use disinfecting wipes or bleach spray on every kitchen surface, that includes the fridge door.
 
-GE tells owners not to use appliance wax, polish, bleach, or other products containing chlorine on stainless steel. Consumer Reports goes further and says to avoid disinfectants, abrasives, and cleaners containing bleach, alcohol, ammonia, or chlorides. It explains that stainless can rust when its protective chromium layer breaks down. Bleach-heavy cleaners can cause corrosion in crevices where the cleaner sits.
+GE tells owners not to use appliance wax, polish, bleach, or other products containing chlorine on stainless steel. Consumer Reports goes further and says to avoid disinfectants, abrasives, and cleaners containing bleach, alcohol, ammonia, or chlorides. It warns that stainless appliances can rust, and that bleach-heavy cleaners can cause corrosion in crevices where the cleaner sits.
 
-What works is plain: mild soap and a soft cloth, then rinse and dry. Don't use a used dishrag, which spreads food oils. Stainless cleaners are a nice extra, not a need. Consumer Reports says most contain mineral oil that helps protect the steel.
+What works is plain: mild soap and a soft cloth, then rinse and dry. Consumer Reports also says not to use a used dishrag. Stainless cleaners are a nice extra, not a need. Consumer Reports says most contain mineral oil that helps protect the steel.
 
 ## You need a disinfectant less often than the labels suggest
 
 The CDC says that "in most situations, cleaning regularly is enough to prevent the spread of germs." It says disinfecting is likely not needed unless someone at home is sick, or someone has a weakened immune system.
 
-That changes how a disinfectant fits on your shelf. It's for specific times, such as when someone in the house is sick. It isn't a daily wipe for every surface, and keeping it off stainless and stone protects both.
+That changes how a disinfectant fits on your shelf. It's for specific times, such as when someone in the house is sick. It isn't a daily wipe for every surface, and keeping it off stainless protects the steel.
 
-When you do disinfect, the EPA says to use a product with an EPA registration number and follow its label. Clean the surface first, then leave it wet for the full contact time. A quick swipe that dries in seconds hasn't disinfected anything.
+When you do disinfect, the EPA says to use a product with an EPA registration number and follow its label. Clean the surface first, then leave it wet for the full contact time. A quick swipe that dries before the contact time is up hasn't followed the label.
 
 ## Wood floors, cooktops, and leather: the bottles that earn a spot
 
-**Wood floors.** The National Wood Flooring Association (NWFA), the hardwood industry's trade group, tells owners to use "a cleaner made specifically for the finish on the floor." Your installer or the flooring maker can tell you which one. The NWFA also says, "Don't use wet mops or steam mops, which will damage the finish and the wood over long periods of time." For routine care, it recommends sweeping, dust mopping, or vacuuming on the bare-floor setting. Clean spills right away with a dry or slightly damp cloth.
+**Wood floors.** The National Wood Flooring Association (NWFA), the hardwood industry's trade group, tells owners to use "a cleaner made specifically for the finish on the floor." A flooring professional can recommend one. The NWFA also says, "Don't use wet mops or steam mops, which will damage the finish and the wood over long periods of time." Clean spills right away with a dry or slightly damp cloth.
 
 **Glass-ceramic cooktops.** This is where a glass cleaner can't double up. Whirlpool tells owners not to use steel wool, abrasive powder cleansers, chlorine bleach, rust remover, or ammonia on the glass. If your glass cleaner lists ammonia, keep it off the cooktop. Whirlpool's method uses three tools:
 
@@ -119,7 +119,7 @@ To decide what to buy, list the surfaces you actually have. Then let the most se
 3. **Finished wood floors?** Add the cleaner made for your floor's finish.
 4. **Glass-ceramic cooktop?** Add a cooktop cleaner and scraper.
 5. **Stainless appliances?** Nothing to add. Just keep bleach and disinfectant off them.
-6. **Leather?** Add a microfiber cloth. A cleaner comes later, only if the maker's care tag calls for one.
+6. **Leather?** Add a soft dry cloth. A cleaner comes later, only if the maker's care tag calls for one.
 
 Kitchen and bathroom sprays that differ only in the room named on the front usually fail step one's test. If their ingredient lists match the all-purpose cleaner you already own, skip them.
 
@@ -135,7 +135,7 @@ Use one product, rinse the surface, then use the other. The CDC puts it more sim
 
 ### Can I use disinfecting wipes on my granite every day?
 
-You can, but you rarely need to. The CDC says regular cleaning is enough in most situations. The Natural Stone Institute warns that improper cleaners can break down granite's sealer. Wipe daily with a neutral cleaner or mild soap and water, and save the disinfectant for when someone in the house is sick, which is when the CDC says disinfecting is worth it.
+You rarely need to. The CDC says regular cleaning is enough in most situations. The Natural Stone Institute warns that improper cleaners can break down granite's sealer. Wipe daily with a neutral cleaner or mild soap and water, and save the disinfectant for when someone in the house is sick or has a weakened immune system, which is when the CDC says disinfecting is likely needed.
 
 ### Is vinegar safe on sealed granite?
 
@@ -143,7 +143,7 @@ Granite resists most kitchen acids, but the Natural Stone Institute still advise
 
 ### Can I use Windex on my glass stovetop?
 
-Check the label first. Whirlpool lists ammonia among the products to keep off ceramic glass cooktops. Whatever spray you use, it won't lift burned-on spills the way a cooktop scraper and cooktop cream do.
+Check the label first. Whirlpool lists ammonia among the products to keep off ceramic glass cooktops. For burned-on residue, Whirlpool's method is a ceramic-glass scraper and ceramic cooktop cleaner.
 
 ## Sources
 

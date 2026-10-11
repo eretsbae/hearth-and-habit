@@ -22,7 +22,7 @@ pin_hooks:
 
 Spend 5 minutes checking what needs using up, 15 naming five familiar dinners, and 10 writing the grocery list. Then put the meals in food-safety order so nothing spoils by Thursday.
 
-That last step is where most plans quietly fail. A plan can be realistic about your energy and still put Sunday's chicken on Thursday, or cook a big batch on Sunday that has to be thrown out before Friday. This guide covers the 30-minute routine briefly, then spends most of its time on ordering the week so the food lasts as long as the plan does.
+That last step is where many plans quietly fail. A plan can be realistic about your energy and still put Sunday's chicken on Thursday, or cook a big batch on Sunday that has to be thrown out before Friday. This guide covers the 30-minute routine briefly, then spends most of its time on ordering the week so the food lasts as long as the plan does.
 
 ## What's at stake
 
@@ -36,7 +36,7 @@ Planning also tracks with eating better. In a study of 40,554 French adults, peo
 
 ### Minutes 0–5: Check what needs using up
 
-Look through the fridge, freezer, and pantry before you write anything, which is the EPA's first tip for cutting waste. You're looking for:
+Look through the fridge, freezer, and pantry before you write anything. The EPA recommends this check so you don't buy food you already have. You're looking for:
 
 - Raw meat or poultry already in the fridge, and when you bought it
 - Produce that's starting to soften
@@ -53,7 +53,7 @@ Whatever you found in the first five minutes goes into the earliest dinners.
 
 ### Minutes 20–30: Write the list with quantities
 
-Walk through each dinner and write down only what's missing. The EPA's tip is to add quantities and note how many meals each item covers, for example "spinach, enough for Tuesday's pasta and two lunches." That one habit stops the bag of greens bought for a meal that only needed half of it.
+Walk through each dinner and write down only what's missing. The EPA's tip is to add quantities and note how many meals each item covers, for example "spinach, enough for Tuesday's pasta and two lunches." The point is to avoid overbuying.
 
 Leave two nights unplanned. One becomes a leftovers night, which the EPA suggests calling a weekly "fridge clean-out night." The other absorbs whatever the week throws at you.
 
@@ -91,7 +91,7 @@ If you buy more ground meat or chicken than Monday and Tuesday can use, freeze i
 
 Montana State University Extension says refrigerator thawing takes at least one day (24 hours) for every 5 pounds of food. Moving Wednesday's protein from the freezer on Tuesday morning is the habit that makes the freezer usable on a weeknight.
 
-Once thawed in the fridge, ground meat, stew meat, poultry, and seafood should be cooked within 1–2 days, and red meat cuts within 3–5. If plans change, fridge-thawed food can go back into the freezer uncooked. MSU calls it the only thawing method that allows that.
+Once thawed in the fridge, ground meat, stew meat, poultry, and seafood should be cooked within 1–2 days, and red meat cuts within 3–5. If plans change, fridge-thawed food can go back into the freezer uncooked while it's still within those windows. MSU calls it the only thawing method that allows refreezing without cooking.
 
 Faster methods change the rules. Food thawed in cold water (change the water every 30 minutes) or in the microwave has to be cooked right away. Our guide on [refreezing meat that thawed in the fridge](https://www.hearth-habit.com/2026/08/is-it-safe-to-refreeze-meat-that-thawed.html) covers the edge cases.
 
@@ -115,8 +115,8 @@ Produce has its own order. Put the dinners that use tender greens and herbs earl
 
 ## When your week doesn't fit the template
 
-- **Unpredictable schedule:** plan five dinners but don't assign them to nights. Keep one rule: anything built on raw ground meat or poultry gets cooked or frozen by Tuesday.
-- **Picky eaters or mixed diets:** build-your-own nights (bowls, tacos, a spread of components) cause less friction than one dish for everyone. The EPA suggests bringing kids aged 10 to 12 into the planning itself.
+- **Unpredictable schedule:** plan five dinners but don't assign them to nights. Keep one rule: anything built on raw ground meat or poultry gets cooked or frozen within 2 days of buying it.
+- **Picky eaters or mixed diets:** build-your-own nights (bowls, tacos, a spread of components) can be easier than one dish for everyone. The EPA suggests bringing kids into the planning itself.
 - **Sunday is unreliable:** plan on whichever day reliably has 30 quiet minutes. Just recount the storage windows from your actual shopping day.
 
 ## FAQ
@@ -127,7 +127,7 @@ Raw poultry's fridge window is 1–2 days, so by Wednesday chicken bought Sunday
 
 ### How many nights should I plan?
 
-Plan the nights you'll actually cook. For most households that's four or five, with one leftovers night and one open night. A seven-night plan breaks the first time something comes up.
+Plan the nights you'll actually cook. For many households that's four or five, with one leftovers night and one open night. A seven-night plan breaks the first time something comes up.
 
 ### Should I leave food out to cool before refrigerating it?
 

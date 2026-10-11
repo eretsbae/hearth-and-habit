@@ -30,17 +30,17 @@ Both numbers are correct because they measure different things. The first is the
 
 Water freezes when the pipe holding it reaches 32°F (0°C). Outdoor air has to pull the pipe down to that temperature, which takes time. Utah State University Extension notes that pipes freeze when they are exposed to freezing temperatures "for several hours." That's why a brief dip below freezing is less dangerous than a long, steady cold night.
 
-The 20°F (-7°C) figure comes from insurers, not physics. State Farm says pipes in uninsulated attics, crawl spaces, and exterior walls are most at risk, especially below 20°F. It is an alert line for unprotected pipes, not a rule for every pipe:
+The 20°F (-7°C) figure is an insurer's risk line, not a freezing point. State Farm says pipes in uninsulated attics, crawl spaces, and exterior walls are most at risk, especially below 20°F. It is an alert line for unprotected pipes, not a rule for every pipe:
 
-- **Pipes inside heated, insulated rooms** usually stay safe well below 20°F, as long as the heat stays on.
+- **Pipes inside heated, insulated rooms** are not on State Farm's at-risk list, as long as the heat stays on.
 - **Exposed lines such as outdoor hose bibs** can freeze during any sustained stretch below 32°F.
 - **Everything else** falls somewhere in between, depending on insulation and drafts.
 
-Where you live matters too. The Insurance Institute for Business & Home Safety (IBHS) points out that plumbing in exterior walls is common in warmer Southern homes. Arctic outbreaks reach places where extreme cold is rare. A house in Texas or Georgia can be more vulnerable at 20°F than a house in Minnesota is at 0°F.
+Where you live matters too. The Insurance Institute for Business & Home Safety (IBHS) points out that plumbing in exterior walls is common in warmer Southern homes. Arctic outbreaks reach places where extreme cold is rare.
 
 ## Wind chill doesn't change the freezing point
 
-Many people believe a "feels like" temperature of 10°F can freeze pipes on a 30°F night. The National Weather Service says this is not how wind chill works. Wind chill applies only to people and animals. For objects such as water pipes and car radiators, wind only speeds up cooling toward the actual air temperature.
+A common worry is that a "feels like" temperature of 10°F can freeze pipes on a 30°F night. The National Weather Service says this is not how wind chill works. Wind chill applies only to people and animals. For objects such as water pipes and car radiators, wind only speeds up cooling toward the actual air temperature.
 
 The Weather Service gives this example: at an air temperature of -5°F with a wind chill of -31°F, a car radiator will not drop below -5°F. The same holds for a pipe.
 
@@ -58,7 +58,7 @@ If one room in your house always runs cold, check whether any plumbing passes th
 
 ## Tonight's forecast × where your pipes run
 
-Find the row for tonight's forecast low, using the actual air temperature rather than wind chill. Then read across to each place your pipes run. Every action below comes from Red Cross, IBHS, or State Farm guidance.
+Find the row for tonight's forecast low, using the actual air temperature rather than wind chill. Then read across to each place your pipes run. Every action below comes from Red Cross, IBHS, State Farm, or Utah State Extension guidance; the risk levels are our own rough guide.
 
 | Forecast low (actual air temp) | Inside heated, insulated space | Under a sink on an exterior wall | Garage, crawl space, or attic | Outdoor hose bib |
 |---|---|---|---|---|
@@ -70,9 +70,9 @@ Find the row for tonight's forecast low, using the actual air temperature rather
 
 Some notes on the actions in the table:
 
-- **Dripping.** The Red Cross says to drip cold water from faucets served by exposed pipes, because even a trickle helps prevent freezing. You don't need to drip faucets whose pipes stay in heated space.
+- **Dripping.** The Red Cross says to drip cold water from faucets served by exposed pipes, because even a trickle helps prevent freezing. The advice is aimed at faucets served by exposed pipes.
 - **Thermostat.** This is not the night for a deep overnight setback. The Red Cross recommends keeping the same setting day and night during a cold snap.
-- **Hose bibs.** The Red Cross says to close the indoor valve that feeds each outdoor faucet and leave the outside faucet open. That way, any water left in the line has room to expand without breaking the pipe. IBHS notes that homes built before 2010 typically don't have frost-proof outdoor faucets, so in older homes, shutting off and insulating those valves matters most.
+- **Hose bibs.** The Red Cross says to close the indoor valve that feeds each outdoor faucet and leave the outside faucet open. That way, any water left in the line has room to expand without breaking the pipe. IBHS notes that homes built before 2010 typically don't have frost-proof outdoor faucets, so in older homes, IBHS says to shut off and insulate those valves.
 
 ## Symptom: one faucet trickles or gives nothing
 
@@ -88,13 +88,13 @@ If one pipe has frozen, others may have too, so the Red Cross advises checking e
 
 Leave the faucet open so water can flow again once the ice clears. Utah State Extension recommends shutting off the main water supply before thawing, in case the pipe has already cracked.
 
-If you can see the pipe and it looks intact, keeping the main on lets you confirm success when full pressure returns. If the frozen section is hidden, or you suspect a crack, shut the main first. Then turn it back on slowly after thawing while you watch for leaks. Either way, keep buckets nearby.
+Shutting the main first limits the damage if the pipe has already cracked. After thawing, turn it back on slowly and watch for leaks; the Red Cross's sign of success is full water pressure returning. Keep buckets nearby, as USU advises.
 
 ### 3. Thaw from the faucet end, with safe heat only
 
 Start warming the pipe at the faucet and work back toward the frozen section. Both Utah State Extension and State Farm recommend this order. Warm the pipe gradually, because USU warns that fast heating can make trapped water boil and can melt plastic faucet parts. The Red Cross says to keep heating until full water pressure returns.
 
-**Heat sources the Red Cross approves:**
+**Heat sources the Red Cross lists:**
 - An electric heating pad
 - A hair dryer
 - Hot, wet towels
@@ -116,17 +116,17 @@ If the frozen section is inside a wall or ceiling, or you can't locate it at all
 
 ## Symptom: water leaks or sprays as the pipe thaws
 
-This means the pipe cracked while it was frozen. The Red Cross explains that water expands as it freezes, which puts tremendous pressure on the pipe. A crack often stays hidden until the ice melts and water can move again. That's why a pipe can seem fine at 7 a.m. and be spraying by noon.
+This means the pipe cracked while it was frozen. The Red Cross explains that water expands as it freezes, which puts tremendous pressure on the pipe. A crack may not leak until the ice melts and water can move again.
 
-State Farm's guidance is to shut off the main water valve and leave the faucets open, which drains the remaining pressure from the lines. Keep electrical devices out of any standing water, then call a plumber. A cracked section needs to be cut out and replaced so it holds up under normal water pressure.
+State Farm's guidance is to shut off the main water valve and leave the faucets open. Keep electrical devices out of any standing water, then call a plumber to repair the cracked section.
 
 ## Symptom: your water bill jumped, but you can't see a leak
 
-A crack from an earlier freeze can leak slowly inside a wall or crawl space for weeks. State Farm notes that even a small crack can release over 250 gallons a day. If your bill spiked and your household's water use hasn't changed, rule out a hidden leak before blaming the season. The full troubleshooting process is in [why your water bill spikes in winter with no extra usage](https://www.hearth-habit.com/2026/09/why-does-my-water-bill-spike-in-winter.html).
+A crack from an earlier freeze can leak unseen inside a wall or crawl space. State Farm notes that even a small crack can release over 250 gallons a day. If your bill spiked and your household's water use hasn't changed, rule out a hidden leak before blaming the season. The full troubleshooting process is in [why your water bill spikes in winter with no extra usage](https://www.hearth-habit.com/2026/09/why-does-my-water-bill-spike-in-winter.html).
 
 ## Symptom: the same pipe freezes every cold snap
 
-A pipe that freezes winter after winter has a specific cause. These are the usual fixes, along with their limits.
+A pipe that freezes winter after winter has a cause worth finding. These are the common fixes, along with their limits.
 
 ### Insulate it properly, and know what insulation can't do
 
@@ -140,11 +140,11 @@ Insulation is not a permanent fix on its own. USU warns that it won't protect pi
 
 ### Seal the draft hitting the pipe
 
-Repeat freezes often trace back to outside air coming through a gap where a pipe passes through a rim joist, exterior wall, or foundation. Small gaps are a caulking job, covered in [caulking 101](https://www.hearth-habit.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html). Larger openings usually need spray foam instead.
+Check for outside air coming through a gap where the pipe passes through a rim joist, exterior wall, or foundation. Small gaps are a caulking job, covered in [caulking 101](https://www.hearth-habit.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html). Larger openings may need foam instead.
 
 ### Heat tape helps, but it is a fire risk if installed wrong
 
-The Red Cross suggests UL-listed heat tape or heat cable for pipes in unheated areas. The Consumer Product Safety Commission has warned about these products. In an older release (No. 89-088), it cited about 3,300 residential fires a year involving heat tapes or cables. That figure is decades old, but CPSC's installation rules still apply:
+The Red Cross suggests UL-listed heat tape or heat cable for pipes in unheated areas. The Consumer Product Safety Commission has warned about these products. In an older release (No. 89-088), it cited about 3,300 residential fires a year involving heat tapes or cables. That figure is decades old, but CPSC's installation rules are still worth following:
 
 - Use tape sized to the pipe's diameter and length.
 - Wrap the tape directly on the pipe, never over insulation. CPSC warns that over-insulating can cause a fire.
@@ -173,7 +173,7 @@ Use State Farm's small-crack figure and a typical holiday trip:
 
 That 1,000 gallons ends up in your walls, floors, or crawl space. It is also the small-crack case, since a larger split releases more water. To redo the math for your own trip, multiply the gallons per day by the number of days you'll be gone.
 
-The cost of the water itself is minor compared with the damage it causes. From 2024 through June 2025, State Farm paid more than 20,000 freeze-related claims totaling over $628 million, and the average payment was over $30,000. Shutting off the water before a long trip is free.
+The bigger cost is the damage the water causes. From 2024 through June 2025, State Farm paid more than 20,000 freeze-related claims totaling over $628 million, and the average payment was over $30,000. Shutting off the water before a long trip is free.
 
 ## FAQ
 
@@ -185,7 +185,7 @@ Yes. Water freezes at the same temperature whether the pipe is copper, PVC, or P
 
 The Red Cross recommends dripping cold water from faucets served by exposed pipes. Drip whenever those lines are exposed to below-freezing temperatures, which usually means overnight. If a hot-water line runs through the same cold wall, remember that USU notes hot lines freeze too.
 
-To estimate the cost, catch the drip in a measuring cup for one minute. Convert that to gallons per hour, multiply by the hours you'll drip, and multiply by your utility's price per gallon. Whatever total you get, it will be tiny next to a crack leaking 250 gallons a day.
+To estimate the cost, catch the drip in a measuring cup for one minute. Convert that to gallons per hour, multiply by the hours you'll drip, and multiply by your utility's price per gallon. Compare that total with a small crack's 250 gallons a day.
 
 ### Should I put antifreeze in my sprinkler or pool lines?
 

@@ -19,13 +19,13 @@ pin_hooks:
 enriched: '2026-10-11'
 ---
 
-Rice is different because *Bacillus cereus* spores survive cooking, and rice left at room temperature can build up a vomiting toxin that stays stable at 250°F (121°C). No microwave or skillet reheat undoes that, so the only fix is getting rice cold fast.
+Rice is different because *Bacillus cereus* spores survive cooking, and rice left at room temperature can build up a vomiting toxin that stays stable at 250°F (121°C). No microwave or skillet reheat undoes that, so the protection is getting rice cold fast.
 
-That changes how leftover rice should be handled. For most leftovers, people treat reheating as the safety step. With rice, the risk is set in the first few hours after cooking, and the numbers below show how tight that window is.
+That changes how leftover rice should be handled. With many leftovers, reheating feels like the safety step. With rice, the risk is set in the first few hours after cooking, and the numbers below show how tight that window is.
 
 ## Why room temperature is the worst place for cooked rice
 
-Spores of *B. cereus* are common on raw rice. Hong Kong's Centre for Food Safety says raw foods usually carry fewer than 100 spores per gram. Cooking doesn't kill them. The same report says normal cooking temperatures activate the spores into growing cells.
+Spores of *B. cereus* are common on raw rice. Hong Kong's Centre for Food Safety says raw foods usually carry fewer than 100 spores per gram. Cooking doesn't kill them. The same report says spores survive normal cooking and that the heat activates them.
 
 What happens next depends on temperature. University of Florida IFAS Extension gives these figures:
 
@@ -39,9 +39,9 @@ What happens next depends on temperature. University of Florida IFAS Extension g
 
 The 77–86°F band is a normal kitchen, or a warm one. That's why rice left on the counter is the textbook setup.
 
-Hong Kong's Centre for Food Safety puts the toxin's heat tolerance even higher: it resists 126°C (about 259°F) for 90 minutes. Water boils at 212°F. Once the toxin is in the rice, the 165°F reheat that USDA recommends for leftovers kills bacteria but leaves the toxin behind.
+Hong Kong's Centre for Food Safety puts the toxin's heat tolerance even higher: it resists 126°C (about 259°F) for 90 minutes. Water boils at 212°F. Once the toxin is in the rice, the 165°F reheat that USDA recommends for leftovers can't inactivate it, as UF IFAS notes.
 
-UF IFAS and Hong Kong's Centre for Food Safety both put the level that typically causes illness at about 100,000 cells per gram or more. That's 100,000 ÷ 100 = 1,000 times the usual starting count. The spores on raw rice aren't the problem. Hours of growth in warm rice are.
+UF IFAS and Hong Kong's Centre for Food Safety both put the level that typically causes illness at about 100,000 cells per gram or more. That's 100,000 ÷ 100 = 1,000 times or more the usual starting count. The starting spores alone sit far below that level; growth in warm rice is what closes the gap.
 
 ## What a real outbreak looked like
 
@@ -53,13 +53,13 @@ A 1993 CDC report on two Virginia day-care centers shows the pattern step by ste
 
 Fourteen of the 67 people who ate the lunch got sick, a median of 2 hours after eating. Leftover rice contained more than 1,000,000 *B. cereus* per gram. The CDC noted that fried rice is a leading cause of the vomiting form of *B. cereus* poisoning in the US, and that the toxin can survive brief heating such as stir-frying.
 
-The mistake that mattered happened the night before. Frying the rice the next morning didn't fix it.
+The first mistake happened the night before, and frying the rice the next morning didn't fix it.
 
 ## The cooling clock, worked out
 
 USDA's rule for perishable food is 2 hours at room temperature, or 1 hour above 90°F. For rice specifically, the safer target is the fridge within 1 hour, never beyond 2.
 
-Getting it into the fridge is only half the job. A deep pot of rice can sit in the fridge for hours while its center stays warm. The cooling standard that UF IFAS and N.C. Cooperative Extension pass along has two steps:
+Getting it into the fridge is only half the job. USDA warns that a big pot cools slowly, which lets bacteria multiply. The cooling standard that UF IFAS and N.C. Cooperative Extension pass along has two steps:
 
 - from 135°F down to 70°F within 2 hours
 - then from 70°F down to 41°F within 4 more hours
@@ -77,7 +77,7 @@ Here's that standard applied to rice that comes off the heat at 6:30 p.m.:
 
 N.C. Cooperative Extension is blunt about the first checkpoint: food that hasn't reached 70°F within the first 2 hours needs to be thrown out.
 
-You can check this with an instant-read thermometer pushed into the center of the container. If it reads above 70°F at the 2-hour mark, the rice is cooling too slowly.
+You can check this with an instant-read thermometer pushed into the center of the container. If it reads above 70°F at the 2-hour mark, that rule says to throw it out.
 
 ### How to hit those times
 
@@ -93,7 +93,7 @@ A rice cooker on keep-warm and a rice cooker that's been switched off are two di
 
 Hot rice is safe while it stays hot. NDSU Extension, citing USDA's home guidance, says to hold cooked rice at a minimum of 140°F and check it with a food thermometer. A keep-warm setting only counts if it actually holds that temperature.
 
-A switched-off cooker is the opposite. N.C. Cooperative Extension specifically warns against leaving leftovers in a turned-off oven, rice cooker, or microwave overnight. The insulated pot cools slowly, and it spends hours passing through the temperatures where the toxin forms.
+A switched-off cooker is the opposite. N.C. Cooperative Extension specifically warns against leaving leftovers in a turned-off oven, rice cooker, or microwave overnight. A pot that cools slowly passes through the temperatures where *B. cereus* grows and the toxin forms.
 
 ## Keep or toss: common situations
 
@@ -104,20 +104,20 @@ A switched-off cooker is the opposite. N.C. Cooperative Extension specifically w
 | On keep-warm, thermometer reads 140°F or higher | Keep while hot | Meets USDA's hot-holding minimum |
 | On keep-warm, temperature unknown | Treat it like rice left out | You can't tell whether it stayed above 140°F |
 | Out more than 2 hours (1 hour above 90°F) | Toss | USDA's limit; reheating won't remove toxin |
-| Chilled within 1 hour, now day 2 or 3 | Keep; reheat to 165°F | Inside USDA's 3–4 day window |
+| Chilled within 1 hour, kept at 40°F or below, not yet reheated, now day 2 or 3 | Keep; reheat to 165°F (the UK says eat within 24 hours) | Inside USDA's 3–4 day window |
 | In the fridge for 5 days | Toss | Past USDA's 3–4 days |
 | Already reheated once | Toss what's left | Food Standards Scotland says never reheat rice more than once |
-| Smells and looks normal | Tells you nothing | Food-poisoning bacteria don't change how food smells |
+| Smells and looks normal | Tells you nothing | Food-poisoning bacteria generally don't change how food smells |
 
 The last row matters most. USDA notes that the bacteria behind food poisoning generally don't change how food looks, smells, or tastes. Rice that smells fine can still carry toxin. Go by the clock and the thermometer.
 
 ## Why the UK says 24 hours
 
-US and UK guidance differ here, which confuses a lot of people. USDA gives cooked leftovers, rice included, 3 to 4 days in the fridge at 40°F or below. Food Standards Scotland tells consumers not to store cooked rice longer than 24 hours before eating it, and to reheat it only once, until it's steaming hot all the way through.
+US and UK guidance differ here. USDA gives cooked leftovers, rice included, 3 to 4 days in the fridge at 40°F or below. Food Standards Scotland tells consumers not to store cooked rice longer than 24 hours before eating it, and to reheat it only once, until it's steaming hot all the way through.
 
-The two rules don't conflict on the cooling step. Both say to get rice cold fast, within an hour. The UK simply adds a shorter eating window as an extra margin.
+The two rules don't conflict on the cooling step. Both want rice chilled fast: Food Standards Scotland says ideally within 1 hour, and the US 2-hour limit is the outer edge. The UK adds a much shorter eating window.
 
-If you batch-cook rice for a [weekly meal plan](https://www.hearth-habit.com/2026/07/the-30-minute-sunday-meal-plan-that.html), the US window allows it, as long as the rice was chilled fast. If you want the UK's margin without the waste, freeze the portions you won't eat in the next day or two. N.C. Cooperative Extension notes that freezing stops growth but doesn't kill the bacteria, so growth resumes once the rice thaws. Thaw it in the fridge, not on the counter.
+If you batch-cook rice for a [weekly meal plan](https://www.hearth-habit.com/2026/07/the-30-minute-sunday-meal-plan-that.html), the US window allows it, as long as the rice was chilled fast. If you want the UK's margin without the waste, freeze the portions you won't eat within 24 hours. N.C. Cooperative Extension notes that freezing stops growth but doesn't kill the bacteria, so growth resumes once the rice thaws. Thaw it in the fridge, not on the counter.
 
 ## Reheat only what you'll eat
 
@@ -139,11 +139,11 @@ The vomiting form comes on quickly. NDSU Extension puts it at 30 minutes to five
 
 ### Is rice eaten cold, like a rice salad, riskier than reheated rice?
 
-What matters is how it was cooled and how long it's been stored, not whether you eat it cold. Rice that was chilled within the hour and kept below 41°F is in the same position whether you reheat it or not.
+What matters most is how it was cooled and how long it's been stored. Reheating can't remove toxin that formed during slow cooling, so a cold rice salad needs the same cooling clock and storage window as rice you'll reheat.
 
 ### Can I make fried rice from day-old rice?
 
-Yes, if that rice was spread out and refrigerated within an hour of cooking. Day-old rice that cooled on the counter overnight is the exact setup in the CDC's Virginia outbreak, and frying it won't destroy the toxin.
+Use rice that was spread out and refrigerated within an hour of cooking and is still inside its storage window, and eat the fried rice hot rather than holding it at room temperature. Rice that cooled at room temperature before going into the fridge is the setup in the CDC's Virginia outbreak, and frying it won't destroy the toxin.
 
 ## Sources
 

@@ -20,13 +20,13 @@ pin_hooks:
 enriched: '2026-10-11'
 ---
 
-Skipping preheat is cheaper, but only by a few cents, and on anything baked it can cost you the dish. The better saving is making the preheat itself shorter, and that's free.
+Skipping preheat is cheaper, but only by a few cents, and on anything baked it can hurt the results. The better saving is making the preheat itself shorter, and that's free.
 
 Here's the evidence. Whirlpool's preheat times let you price your own oven's preheat without guessing its wattage. Federal survey data shows how small the whole cooking bill is. And the same manufacturer lists a few habits that quietly stretch every preheat.
 
 ## How long a preheat really takes
 
-Whirlpool's support pages give the numbers most articles guess at. Getting to 350°F takes:
+Whirlpool's support pages give measured numbers. Getting to 350°F takes:
 
 - **12–15 minutes (give or take 5)** in an oven with a visible bake element, the coil on the oven floor
 - **about 20 minutes (give or take 5)** in an oven with a hidden bake element under a smooth floor
@@ -59,7 +59,7 @@ Skipping the preheat doesn't save all of that. The oven still has to heat up, ju
 
 The EIA's household energy survey shows how small the stakes are. Homes that cook with electricity use an average of 290 kWh a year for cooking. That covers ranges, cooktops and ovens together, but not microwaves. An average household uses about 10,500 kWh of electricity a year in total, so cooking is under 3% of it.
 
-At 17–18¢, 290 kWh is roughly $49 to $52 a year for all electric cooking: every burner, every bake, every preheat. Skipping preheat can only trim a slice of that. If a high electric bill is what sent you here, the oven is rarely the cause. Our guide to [which appliance is quietly using the most electricity](https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html) shows where the bigger numbers are.
+At 17–18¢, 290 kWh is roughly $49 to $52 a year for all electric cooking: every burner, every bake, every preheat. Skipping preheat can only trim a slice of that. If a high electric bill is what sent you here, cooking's small average share makes the oven an unlikely main cause. Our guide to [which appliance is quietly using the most electricity](https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html) shows where the bigger numbers are.
 
 ## Make every preheat shorter (free)
 
@@ -79,24 +79,24 @@ Whirlpool's position for baking is plain: preheating is necessary for good resul
 | Dish | Skip preheat? | Why |
 |---|---|---|
 | Cookies, cakes, quick breads, biscuits, bread | No | Whirlpool says baking needs a full preheat for good results |
-| Anything that should brown or crisp: roasted vegetables, chicken skin, pizza | No | These rely on a hot oven from the start |
+| Anything that should brown or crisp: roasted vegetables, chicken skin, pizza | No | Browning and crisping need the oven at temperature when the food goes in |
 | Short bakes, shorter than your oven's own preheat time | No | With a 12–20 minute warm-up, the oven would spend much of the bake still heating |
 | Braises and pot roasts with a long cook time | Usually fine | The warm-up is a small share of a long cook |
-| Casseroles and baked pasta that are already cooked | Usually fine | You're heating through, not setting a texture. Check doneness with a thermometer |
+| Casseroles and baked pasta that are already cooked, with no crisp topping wanted | Usually fine | You're heating through, not setting a texture. Check doneness with a thermometer |
 | Reheating leftovers | Fine | Heat them to 165°F measured with a food thermometer, as USDA advises |
-| Frozen foods | Follow the package | The directions say whether to preheat |
+| Frozen foods | Follow the package | Package directions usually say whether to preheat |
 
 Whichever you choose, judge doneness by temperature, not by look, smell or the clock. A cold start changes timing, so a recipe's time no longer fits. Our [guide to how long leftovers really last](https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html) covers the reheating side.
 
 ## Gas ovens
 
-A gas oven also has to heat its empty cavity, so the same habits apply: pull unused racks, keep the door shut, and skip the foil liner. To price a preheat, you need the burner's rating from the manual and the gas rate on your bill. The sources here don't give gas preheat times, so time your own oven once. If your gas bill jumped this winter, cooking is rarely the reason. See [why a gas bill climbs without a thermostat change](https://www.hearth-habit.com/2026/10/gas-bill-higher-this-winter-without.html).
+Whirlpool's preheat page above covers its ranges, and its voltage note applies to electric ones. A gas oven also has to heat its empty cavity, so the rack, door, and foil habits are worth trying there too. To price a preheat, you need the burner's rating from the manual and the gas rate on your bill. The sources here don't give gas preheat times, so time your own oven once. If your gas bill jumped this winter, see [why a gas bill climbs without a thermostat change](https://www.hearth-habit.com/2026/10/gas-bill-higher-this-winter-without.html).
 
 ## FAQ
 
 ### Is it safe to start food in a cold oven?
 
-For food safety, what matters is the final temperature, not the starting oven. Cook or reheat to a safe internal temperature checked with a food thermometer: 165°F for leftovers, per USDA. Expect the cook time to run longer than the recipe says.
+The sources here don't address cold starts directly. What you can control is the end point: cook or reheat to a safe internal temperature checked with a food thermometer, which is 165°F for leftovers, per USDA. Expect the cook time to run longer than the recipe says, and don't judge doneness by the clock.
 
 ### Why does my new oven take longer to preheat than my old one?
 

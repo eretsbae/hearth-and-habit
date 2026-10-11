@@ -61,20 +61,20 @@ There are two ways to see a leak from tank to bowl.
 
 Before replacing a flush valve, run a finger around the rim the flapper seals against. Korky says to clean off mineral deposits so the flapper can seal. Replace the flush valve if it's cracked or warped.
 
-If yours refills for a few seconds every so often and then stops, that's the same slow tank-to-bowl leak. Our guide to [why a toilet runs for a few seconds then stops](https://www.hearth-habit.com/2026/07/why-does-my-toilet-run-for-few-seconds.html) covers that pattern in detail.
+If yours refills for a few seconds every so often and then stops, that's often a slow tank-to-bowl leak. Our guide to [why a toilet runs for a few seconds then stops](https://www.hearth-habit.com/2026/07/why-does-my-toilet-run-for-few-seconds.html) covers that pattern in detail.
 
 ## Flapper fixes
 
 ### Get the size right
 
-Size matters more than brand. Korky says to look at the drain opening at the bottom of the tank:
+Korky calls size the most important factor when choosing a universal flapper. It says to look at the drain opening at the bottom of the tank:
 
 | Opening looks like… | Measures about | Flapper |
 |---|---|---|
 | An orange or a baseball | 2 inches across | Standard 2-inch |
 | A grapefruit or a softball | 3 inches across | Large 3-inch |
 
-Korky adds that most toilets made before 2000 take a 2-inch flapper, and some made after 2000 take a 3-inch. If you didn't measure, adjustable universal flappers are made to fit both sizes. Fluidmaster and Korky both sell one.
+Korky adds that most toilets made before 2000 take a 2-inch flapper, and some made after 2000 take a 3-inch. If you didn't measure, Korky says adjustable flappers fit both sizes.
 
 ### Replace it
 
@@ -84,17 +84,17 @@ Korky adds that most toilets made before 2000 take a 2-inch flapper, and some ma
 4. Set the chain slack. Fluidmaster's instructions call for about 1/2 inch. Korky says leave only 1 to 2 links of slack, so loose chain can't fall under the flapper and hold it open.
 5. Turn the water on, let it fill, and repeat the pencil-mark test.
 
-A chain that's too tight does the opposite. Fluidmaster says if the bowl refills too low, the flapper may be closing too soon, and the fix is about 1/2 inch of slack.
+Slack also affects the bowl. Fluidmaster says if the bowl level is low, the flapper may be closing too soon, and its fix is about 1/2 inch of chain slack.
 
 ### Why the old one failed
 
-Fluidmaster says flappers wear out faster when you use drop-in bleach tablets. Its troubleshooting page goes further: don't use in-tank cleaners containing bleach or chlorine at all. They can damage tank parts, cause flooding, and void the warranty. If you've been using them, the new flapper will go the same way.
+Fluidmaster says flappers wear out faster when you use drop-in bleach tablets. Its troubleshooting page goes further: don't use in-tank cleaners containing bleach or chlorine at all. They can damage tank parts, cause flooding, and void the warranty. If you've been using them, the new flapper can wear out the same way.
 
 ## Fill valve fixes
 
 ### Set the water level
 
-Fluidmaster's fill valve instructions put the tank water level at **roughly 1/2 inch below the top of the overflow pipe**. Fluidmaster's valve has a tank-water-level adjustment screw; other brands vary, so check yours. If the level is higher than that and water trickles into the overflow, lower it and watch a full refill.
+Fluidmaster's fill valve instructions put the tank water level at **roughly 1/2 inch below the top of the overflow pipe**. How you adjust the level varies by valve, so check your valve's instructions. If the level is higher than that and water trickles into the overflow, lower it and watch a full refill.
 
 ### Clean it before you replace it
 
@@ -105,7 +105,7 @@ Grit in the valve can stop it from shutting off. Fluidmaster's cleaning steps fo
 3. Hold a cup upside down over the open valve so you don't get sprayed. Turn the water on full for 10–15 seconds to flush out debris.
 4. Replace the cap, turn the water on, and test.
 
-Other brands differ. Korky says its valves can be serviced, but other brands should be replaced. Check your valve's instructions.
+Other brands' valves may come apart differently, so check your valve's instructions.
 
 ### Replace it
 
@@ -115,7 +115,7 @@ If cleaning and adjusting don't stop it, replace the valve. Three numbers from F
 - **Lever clearance:** the top of the overflow pipe must be at least 1 inch below the tank lever hole.
 - **Hand-tight only:** tighten the locknut under the tank and the supply connector by hand. Over-tightening can crack the valve or the tank and cause flooding.
 
-Clip the refill tube to the overflow pipe so its water runs down the pipe. If the tube is too long to fit with the lid on, the instructions say to trim it.
+Clip the refill tube to the overflow pipe so its water runs down the pipe.
 
 ## What the leak costs while you wait
 
@@ -136,7 +136,7 @@ EPA puts the average family's water spending at more than $1,000 a year, so a le
 
 - **The supply valve won't turn.** Don't force a seized valve.
 - **Water is on the floor.** Fluidmaster says water leaking from the bottom of the tank calls for new tank bolts and washers. Water around the base of the toilet is a different problem from a running tank.
-- **The flush valve needs replacing and the instructions look beyond you.** It's the one part here that seals the tank's drain opening.
+- **The flush valve needs replacing and the instructions look beyond you.**
 - **The tank or bowl is cracked.** No part fixes porcelain.
 
 For the general decision, see [how to tell when a repair is worth calling a pro for](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html).

@@ -33,7 +33,7 @@ After your next full clean, photograph the same three or four spots each evening
 | A paper pile that grows every day | Inflow: mail and papers arrive faster than you decide on them | Cut junk mail at the source and use the IRS keep-or-shred periods |
 | Everywhere, a little at a time, over several days | Rhythm: you clean in batches, and the gaps between them are too long | A 10–15 minute daily reset at a fixed time |
 | Only some people's things, while one person does all the putting away | Shared system: the homes exist, but nobody else knows or uses them | Spell out where things go and hand off age-appropriate jobs |
-| Paths, furniture, or appliances you can't use, and discarding feels distressing | Possibly more than clutter | See the last section |
+| Furniture or walkways you can't use, and discarding feels distressing | Possibly more than clutter | See the last section |
 
 Most homes have two or three of these at once. Start with the row that covers the most photos.
 
@@ -45,7 +45,7 @@ That average includes everyone who didn't clean at all. Divide it by the share w
 
 - 0.33 hours ÷ 0.234 (the survey's unrounded share) = about 1.41 hours, or **roughly 85 minutes** on the days people clean
 
-That's a batch pattern: an hour and a half on a few days, nothing in between. The house looks great after the batch, and everything that arrives the next day has no reset coming for a while.
+That looks like a batch pattern: a long session on the days people clean, rather than a short one every day. The house looks great after the batch, but whatever arrives the next day may wait days for the next one.
 
 Now compare that with University of Georgia Extension's advice to put in 10–15 minutes a day:
 
@@ -56,15 +56,15 @@ That's about the same time as one batch session. You're not spending more time. 
 
 ![Two weekly schedules compared: one roughly 85-minute cleaning session versus seven 10–15 minute daily resets totaling 70–105 minutes](/images/why-house-gets-messy-again-after-cleaning-diagram.svg)
 
-Laundry follows the same pattern. Only about 16% of people did laundry on an average day in 2025, which is why a basket of clean clothes can sit on a chair for days.
+Laundry looks similar. Only about 16% of people did laundry on an average day in 2025.
 
 ### Making the daily reset stick
 
-UCL health-behavior researchers found that a new daily habit took an average of 66 days to feel automatic. The range ran from 18 days for one person to a forecast 254 days for another, and the authors warn against treating any single number as a rule. Expect the reset to feel like effort for weeks, not days.
+UCL health-behavior researchers found that a new daily habit took an average of 66 days to form. The range was wide, from 18 days for one person to a forecast 254 days for another, so treat 66 as an average, not a rule. Expect the reset to feel like effort for weeks, not days.
 
 The same researchers say habits form through repetition in the same situation. So tie the reset to something that already happens every day, like right after dinner or before you sit down for the evening. The American Academy of Pediatrics gives the same advice for kids' chores: do them at the same time each day.
 
-UGA Extension suggests a timer. When it goes off, stop, even if the room isn't perfect. A reset that has an end is easier to repeat tomorrow.
+UGA Extension suggests a timer. Stopping when it goes off, even if the room isn't perfect, keeps the reset short enough to repeat tomorrow.
 
 N.C. Cooperative Extension suggests carrying a small basket during the reset. Anything that's out of place or has no home goes in. Then walk the basket around the house and put each item back. Anything left in the basket at the end needs a home assigned, which is your next job.
 
@@ -88,7 +88,7 @@ If the whole house feels like too much, N.C. Cooperative Extension says to start
 
 ## Fix the inflow: the paper pile
 
-Most tidying advice only covers what's already inside. The mail pile is different: you can cut what arrives and give the rest a clear decision rule.
+A lot of tidying advice only covers what's already inside. The mail pile is different: you can cut what arrives and give the rest a clear decision rule.
 
 **Cut it at the source.** The Federal Trade Commission lists two official opt-outs:
 
@@ -105,7 +105,7 @@ Most tidying advice only covers what's already inside. The mail pile is differen
 | You didn't file a return, or filed a fraudulent one | Indefinitely |
 | Records for property (like a house) | Until the limitation period ends for the year you sell or dispose of it |
 
-Sort the day's mail when you bring it in, over the recycling bin. Junk goes straight in the bin, bills go to one spot, and papers to keep go in one folder.
+Sort the day's mail when you bring it in, over the recycling bin. Junk goes straight in the bin (shred anything with account numbers), bills go to one spot, and papers to keep go in one folder.
 
 ## Fix the shared system: it's rarely one person's mess
 
@@ -118,23 +118,23 @@ Kids can take real jobs. The American Academy of Pediatrics lists these by age:
 - **Ages 5–7:** put toys away, neaten bookshelves, put dirty clothes in the hamper, empty wastebaskets, bring in the mail.
 - **Ages 8–10:** all of the above, plus vacuuming and putting away their own laundry and the groceries.
 
-The AAP says most preschoolers can start with simple tasks. Introduce one new job at a time, spell out exactly what done looks like, and praise the effort, not the outcome.
+The AAP also says to introduce one new job at a time, spell out exactly what done looks like, and praise the effort, not the outcome.
 
 If the problem is less about the house and more about the morning scramble, see [why you keep losing 15 minutes finding things before you leave](https://www.hearth-habit.com/2026/09/why-you-keep-losing-15-minutes-before.html).
 
 ## When it's more than mess
 
-Everyone tolerates a different level of clutter. The International OCD Foundation uses a nine-picture Clutter Image Rating to show where clutter starts to interfere with daily life. It says rooms at picture #4 or higher reflect a real impact on everyday life and may qualify for a hoarding disorder diagnosis.
+Everyone tolerates a different level of clutter. The International OCD Foundation uses a picture scale, the Clutter Image Rating, to show where clutter starts to interfere with daily life. It says rooms at picture #4 or higher reflect a real impact on everyday life and may qualify for a hoarding disorder diagnosis.
 
 Other signs it lists include:
 
 - trouble discarding things
-- clutter that blocks furniture, appliances, or walking paths
+- clutter that blocks use of furniture or moving around
 - often losing bills or money
-- feeling overwhelmed by possessions
+- feeling overwhelmed
 - avoiding guests out of shame
 
-If that sounds familiar, a therapist who treats hoarding will help more than any new routine.
+The rating is a screening guide, not a diagnosis. If that sounds familiar, consider talking with a mental health professional who treats hoarding; a new routine alone may not be enough.
 
 ## FAQ
 

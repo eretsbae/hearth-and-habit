@@ -21,11 +21,11 @@ enriched: '2026-10-11'
 
 Yes. The US Department of Energy (DOE) says turning the thermostat back 7–10°F for 8 hours a day can save up to about 10% a year on heating and cooling. Switching the AC off is the far end of that same setback.
 
-The DOE figure describes the whole daily routine: letting the house warm while you're out, then bringing it back down. So the cool-down when you get home is already part of the deal, not a hidden cost that wipes out the savings. What changes the answer for a particular house is humidity, who's home during the day, and when your utility charges the most. Those are covered below, after the math.
+The DOE figure is for a daily routine: letting the house warm while you're out, then bringing it back down. So the cool-down when you get home is part of that routine, not something added on top of it. What changes the answer for a particular house is humidity, who's home during the day, and when your utility charges the most. Those are covered below, after the math.
 
 ## Why this matters more on your electric bill than you'd think
 
-The US Energy Information Administration (EIA) says air conditioning was the single largest use of home electricity in 2020, at 19%. About 89% of US homes used AC that year, up from 57% in 1980. DOE's *Energy Saver 101: Home Cooling* puts space cooling at just 6% of a household's total energy, counting gas and other fuels. Cooling runs almost entirely on electricity, though, so in summer it's the line that moves your power bill.
+The US Energy Information Administration (EIA) says air conditioning accounted for 19% of home electricity use in 2020. About 89% of US homes used AC that year, up from 57% in 1980. DOE's *Energy Saver 101: Home Cooling* puts space cooling at just 6% of a household's total energy, counting gas and other fuels. Home cooling mostly runs on electricity, though, so in summer it shows up on your power bill.
 
 ## Work out your own savings
 
@@ -65,15 +65,15 @@ That's SMUD's estimate for its own customers, so treat it as a ballpark. The poi
 
 | Your situation | Do this | Why |
 |---|---|---|
-| Dry climate, house empty all day | Off, or a large setback | Nothing in the house needs cooling or drying |
-| Humid climate | Setback of 7–10°F, not off | The AC is also your dehumidifier |
-| Pets, an infant, or a heat-sensitive person home | Keep it on at a moderate setting | Comfort and safety come before savings |
+| Dry climate, nobody home all day | Off, or a large setback | No one needs cooling and the air needs little drying |
+| Humid climate, nobody home all day | Setback of 7–10°F, not off | The AC is also your dehumidifier |
+| Pets, an infant, or a heat-sensitive person home (any climate or rate) | Keep it on at a moderate setting | Comfort and safety come before savings |
 | Time-of-use rate with an evening peak | Set back during the day, cool down *before* the peak | Avoids running the AC at the highest price |
 | Smart thermostat | Let it set back automatically | Geofencing knows when you leave |
 
 ### Humid climates: the AC is also drying the air
 
-DOE explains that an air conditioner's cooling coils remove both heat and humidity, and that much of why AC feels cool is the drier air. Switch it off for a whole humid workday and nothing is pulling that moisture out. The EPA wants indoor humidity below 60%, ideally 30–50%, to limit mold.
+DOE explains that an air conditioner's cooling coils remove both heat and humidity, and that one reason AC makes you feel cooler is the drier air. Switch it off for a whole humid workday and nothing is pulling that moisture out. The EPA wants indoor humidity below 60%, ideally 30–50%, to limit mold.
 
 A setback keeps the system cycling now and then, which keeps some drying going. If you're unsure how your house behaves, a cheap hygrometer will show whether humidity climbs past 60% while you're gone. If your basement already turns musty by August, see [why a basement smells musty only in summer](https://www.hearth-habit.com/2026/09/why-does-my-basement-smell-musty-only.html).
 
@@ -81,11 +81,11 @@ A setback keeps the system cycling now and then, which keeps some drying going. 
 
 On a time-of-use plan, the price per kWh depends on the hour. SMUD's Time-of-Day rate, for example, makes 5 to 8 p.m. on weekdays the most expensive window. It specifically asks customers to avoid running the air conditioner alongside other big appliances then.
 
-Picture getting home at 5:30 and cranking the AC down. The whole cool-down runs at the peak price. Schedule the thermostat to start cooling earlier in the afternoon, so the work is done before 5. You still save on the empty hours, and the catch-up happens at the cheaper rate. Check your own utility's peak hours, since they vary by plan.
+Picture getting home at 5:30 and cranking the AC down. The cool-down then runs at the peak price. Schedule the thermostat to start cooling earlier in the afternoon, so the work is done before 5. You still save on the empty hours, and the catch-up happens at the cheaper rate. Check your own utility's peak hours, since they vary by plan.
 
 ### Smart thermostats do the remembering
 
-ENERGY STAR says certified smart thermostats can use geofencing (your phone's location) to set the system back when you leave and bring it back as you head home. It estimates about $100 a year in savings for homes with high heating and cooling bills, or homes that sit empty much of the day. That's exactly the household this question comes from. Our guide to [thermostat settings for every season](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html) covers the winter side of the same schedule.
+ENERGY STAR says certified smart thermostats can use geofencing (your phone's location) to detect when you've left and set the system back. It estimates about $100 a year in savings for homes with high heating and cooling bills, or homes that sit empty much of the day. That's exactly the household this question comes from. Our guide to [thermostat settings for every season](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html) covers the winter side of the same schedule.
 
 ## Before you blame the thermostat
 

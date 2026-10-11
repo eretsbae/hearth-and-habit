@@ -35,7 +35,7 @@ Most of these slip because the part is hidden: behind the dryer, on top of the w
 | GFCI outlet test | Monthly | CPSC | TEST doesn't cut power, or RESET doesn't restore it |
 | Replace smoke alarms | Every 10 years | NFPA | Manufacture date on the back is 10+ years ago |
 | Replace CO alarms | Around 7 years, or at the end-of-life signal | Seattle Fire Department | Beeps every 30 seconds or shows ERR/END |
-| Gutters and downspouts | Spring and fall | DOE, EPA | Overflow at the corners, downspout dumping at the foundation |
+| Gutters and downspouts | Spring and fall | General practice; DOE for downspout distance | Overflow at the corners, downspout dumping at the foundation |
 | Attic and roof look | Fall (and after big storms) | General practice | Stains on the roof deck, icicles and ice dams in winter |
 | Ceiling fan direction | Spring and fall | ENERGY STAR | Fan still blowing down hard in winter |
 | Exterior air leaks | Fall | General practice | Drafts you can feel on a windy day |
@@ -45,7 +45,7 @@ Most of these slip because the part is hidden: behind the dryer, on top of the w
 
 Emptying the lint screen after every load doesn't clean the duct that runs from the dryer to the outside wall. Lint that gets past the screen collects there.
 
-The U.S. Fire Administration studied residential dryer fires from 2008 to 2010. It estimated about 2,900 a year, causing 5 deaths, 100 injuries, and $35 million in property loss annually. "Failure to clean" was the single leading factor, behind 34% of those fires. They peaked in January, when loads are bulkier and fewer people dry clothes outside.
+The U.S. Fire Administration studied residential dryer fires from 2008 to 2010. It estimated about 2,900 a year, causing 5 deaths, 100 injuries, and $35 million in property loss annually. "Failure to clean" was the single leading factor, behind 34% of those fires. They peaked in January, at 11% of the year's fires.
 
 Pacific Northwest National Laboratory (PNNL), writing for the Department of Energy's Building America program, recommends having a professional clean the exhaust duct **at least once a year**. Its warning signs of a clogged duct are:
 
@@ -58,7 +58,7 @@ Inspections, PNNL says, often find crushed, kinked, or clogged ducts.
 
 ### Is your duct too long or the wrong kind?
 
-Many generic checklists skip this, and it's the reason some ducts clog over and over. PNNL's limits for a dryer duct:
+Many generic checklists skip this. PNNL's limits for a dryer duct:
 
 - **Length:** no more than 35 feet, including the "equivalent length" of every fitting. Subtract **2.5 feet for each 45° bend** and **5 feet for each 90° bend**.
 - **Size and material:** 4-inch diameter, rigid or semi-rigid galvanized steel or aluminum with a smooth inside.
@@ -70,7 +70,7 @@ Many generic checklists skip this, and it's the reason some ducts clog over and 
 
 - 35 ft − (2 × 5 ft) − (1 × 2.5 ft) = **22.5 ft of straight duct allowed**
 
-Measure your straight run. If it's longer than your result, the duct is longer than PNNL's limit. Clogs and long drying times are the expected result, and a pro can reroute it. Your dryer's installation manual may set its own limits, so check that too.
+Measure your straight run. If it's longer than your result, the duct is longer than PNNL's limit, and a pro can reroute it. Your dryer's installation manual may set its own limits, so check that too.
 
 ![Diagram of a dryer duct length budget: 35 feet maximum, minus 5 feet per 90-degree bend and 2.5 feet per 45-degree bend, leaving 22.5 feet](/images/forgotten-home-maintenance-tasks-seasonal-checklist-inline.svg)
 
@@ -80,7 +80,7 @@ While you're outside, run the dryer and confirm the hood flap opens. The USFA al
 
 ### Drain and flush once a year
 
-NYSERDA, New York's state energy agency, recommends draining a water heater annually to clear the mineral sediment that settles in the bottom of the tank. Sediment is the usual cause of [a water heater that pops or rumbles](https://www.hearth-habit.com/2026/08/water-heater-popping-or-rumbling-heres.html).
+NYSERDA, New York's state energy agency, recommends draining a water heater annually to clear the mineral sediment that settles in the bottom of the tank. Sediment can also be behind [a water heater that pops or rumbles](https://www.hearth-habit.com/2026/08/water-heater-popping-or-rumbling-heres.html).
 
 The order of steps matters, because getting it wrong can scald you or burn out an electric element:
 
@@ -118,11 +118,11 @@ The GFCI test is quick:
 1. Press TEST. Power should cut off, so a lamp plugged in goes dark.
 2. Press RESET. Power should come back.
 
-If either step fails, the outlet's protection isn't working even though the outlet still powers things. Replace it, or have an electrician do it. Do all three tests on the same day each month so it's one habit instead of three.
+If either step fails, the outlet's protection isn't working, even if the outlet still powers things. Have an electrician replace it. Do all three tests on the same day each month so it's one habit instead of three.
 
 ## 4. Replacing alarms by age, which a monthly test won't catch
 
-The test button checks the horn and the battery. It doesn't tell you the sensor is still reliable, and sensors wear out.
+A monthly test doesn't tell you how old an alarm is, and alarms have a replacement age.
 
 - **Smoke alarms:** NFPA says to replace the whole alarm every 10 years. Check the manufacture date on the back.
 - **CO alarms:** the Seattle Fire Department puts their life expectancy at around **seven years**, shorter than a smoke alarm's. At the end of its life, a CO alarm beeps every 30 seconds or displays ERR or END. **A new battery will not stop that beep.** Some alarms let you silence the signal for 30 days. Seattle Fire's point is that this doesn't fix anything, and the alarm still needs replacing.
@@ -131,7 +131,7 @@ If your house has smoke and CO alarms that went in at the same time, the CO alar
 
 ## 5. Gutters and downspouts (spring and fall)
 
-Clogged gutters overflow at the corners and dump roof water right along the foundation. The EPA's moisture guidance is to drain water away from the house. The Department of Energy's building-science guidance is to have downspouts discharge **at least 5 feet** from the foundation, onto ground that slopes away.
+Clogged gutters overflow at the corners and dump roof water right along the foundation. The EPA's moisture guidance is for the ground to slope away from the house. The Department of Energy's building-science guidance is to have downspouts discharge **at least 5 feet** from the foundation, onto ground that slopes away.
 
 Flush each gutter with a hose and watch where the water ends up, not just whether it flows. Look at the fascia board behind the gutter for soft or stained wood. Gutter guards reduce the work but don't remove it; here's [why gutters with guards still need cleaning](https://www.hearth-habit.com/2026/08/do-you-still-need-to-clean-gutters-if.html). If the work means a ladder above the first story, it's reasonable to hire it out.
 
@@ -153,9 +153,9 @@ Use binoculars from the yard. Look for curling, cracked, or missing shingles, ba
 
 ## 8. Ceiling fan direction (spring and fall)
 
-ENERGY STAR's winter setting is **low speed, clockwise**. That makes a gentle updraft that pushes the warm air pooled at the ceiling down into the room. In summer, switch it back so the fan blows down on you.
+ENERGY STAR's winter setting is **low speed, clockwise**. That makes a gentle updraft that pushes the warm air pooled at the ceiling down into the room. In summer, switch it back so the fan blows down on you. The direction switch is usually on the motor housing; on remote-controlled fans it's a button or app setting.
 
-ENERGY STAR also reminds you to turn the fan off when you leave the room. The switch is usually on the motor housing; on remote-controlled fans it's a button or app setting. It pairs well with other [no-cost habits that cut your electric bill](https://www.hearth-habit.com/2026/07/how-to-cut-your-electric-bill-without.html).
+ENERGY STAR also reminds you to turn the fan off when you leave the room. It pairs well with other [no-cost habits that cut your electric bill](https://www.hearth-habit.com/2026/07/how-to-cut-your-electric-bill-without.html).
 
 ## 9. Exterior air leaks (fall)
 
@@ -165,7 +165,7 @@ Re-caulk cracked or missing beads with a caulk labeled for exterior use, and rep
 
 ## 10. Fridge coils: only if your home is dusty or has pets
 
-Most checklists say to vacuum fridge coils every year. Whirlpool's guidance is different. It says routine condenser cleaning **isn't typically needed** in a normal home. Homes with pets, heavy kitchen traffic, or construction dust should inspect and clean the coils every **3 to 6 months**.
+Many checklists say to vacuum fridge coils as a routine job. Whirlpool's guidance is different. It says routine condenser cleaning **isn't typically needed** in a normal home. Homes with pets, heavy kitchen traffic, or construction dust should inspect and clean the coils every **3 to 6 months**.
 
 Whirlpool also notes that some models don't need coil cleaning at all, and others can only be cleaned by a certified technician. Check your model's use-and-care guide first.
 
@@ -179,7 +179,7 @@ If yours needs it:
 
 Tie each job to a date you already notice:
 
-- **Same day every month (about 5 minutes):** test smoke and CO alarms, test each GFCI.
+- **Same day every month:** test smoke and CO alarms, test each GFCI.
 - **Spring:** gutters, roof look, fans to summer direction.
 - **Fall:** gutters again, attic, roof look, air leaks, fans to clockwise.
 - **Once a year, any season:** water heater drain plus relief-valve test, and dryer duct cleaning. January is when dryer fires peak, so fall is a sensible time.

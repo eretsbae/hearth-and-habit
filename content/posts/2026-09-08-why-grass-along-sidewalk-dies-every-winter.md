@@ -21,19 +21,19 @@ enriched: '2026-10-11'
 
 It's de-icing salt, not the cold. Salt and plowed slush pile up where the grass meets the pavement, and the salt left in that soil damages roots and the soil itself.
 
-The surprise is when most of that salt goes down. The Minnesota Pollution Control Agency (MPCA) says rock salt stops working at about 15°F. Salt scattered on colder days just sits on the pavement, gets kicked or plowed to the edge, and washes into the grass at the next thaw. Here's how much to use, what works when it's colder, and a repair schedule that matches when grass seed actually takes.
+The surprise is when most of that salt goes down. The Minnesota Pollution Control Agency (MPCA) says rock salt stops working at about 15°F. Salt scattered on colder days just sits on the pavement, where it can get kicked or plowed to the edge and wash into the grass at the next thaw. Here's how much to use, what works when it's colder, and a repair schedule that matches when grass seed actually takes.
 
 ## What salt does to that strip
 
 The Morton Arboretum lists "dead areas in turf" among the spring signs of de-icing salt. It says roots can be damaged by salt that stays in the soil.
 
-The MPCA adds a soil effect people rarely hear about. Salt-laden soil "can lose its ability to retain water and store nutrients" and becomes more prone to erosion. That's why simply reseeding often fails. The seed lands in soil that's still salty and holds water poorly.
+The MPCA adds a soil effect people rarely hear about. Salt-laden soil "can lose its ability to retain water and store nutrients" and becomes more prone to erosion. That's one reason reseeding alone may not fix the strip: the seed lands in soil that's still salty and holds water poorly. UConn notes that seeding alone won't solve a chronic soil problem.
 
-Drainage decides how long the damage lasts. The Morton Arboretum says salt leaches out of well-drained soils, but damage "can be severe in poorly drained soils." A strip of packed, slow-draining soil next to a walk holds on to salt longer than open lawn does.
+Drainage decides how long the damage lasts. The Morton Arboretum says salt leaches out of well-drained soils, but damage "can be severe in poorly drained soils." If the soil next to your walk is packed and slow-draining, expect it to hold on to salt longer.
 
 ### Is it your ice melt or the plow?
 
-Look at which edge died. A strip along the street side points to plow spray and slush from treated roads. The Morton Arboretum notes that vehicles throw salt spray onto nearby plants. A strip along your front walk or driveway points to your own salting and shoveling. Many yards have both. You can only change the second, so start there.
+Look at which edge died. A strip along the street side points to plow spray and slush from treated roads. The MPCA notes that road salt splash can kill roadside plants. A strip along your front walk or driveway points to your own salting and shoveling. Many yards have both. You can only change the second, so start there.
 
 ## Salt less, and only when it can work
 
@@ -41,16 +41,16 @@ Look at which edge died. A strip along the street side points to plow spray and 
 
 The MPCA's guidance is blunt: "15°F and below is too cold for salt." The Nine Mile Creek Watershed District, a Minnesota local water agency, rates plain sodium chloride (rock salt) as melting effectively only at or above 15°F.
 
-On a cold morning, more rock salt doesn't help. It waits on the pavement until the weather warms, and by then much of it has been pushed onto the grass. For those days, use sand for traction (it doesn't melt anything) or a product rated for lower temperatures, from the table below.
+On a cold morning, more rock salt doesn't help. It waits on the pavement until the weather warms, and by then some of it may have been pushed onto the grass. For those days, use sand for traction (it doesn't melt anything) or a product rated for lower temperatures, from the table below.
 
 ### How much to use
 
-The MPCA says about 12 ounces of salt, roughly a coffee mug full, treats a 20-foot driveway or about 10 sidewalk squares. Most people use far more. The watershed district's advice explains why less is enough:
+The MPCA says about 12 ounces of salt, roughly a coffee mug full, treats a 20-foot driveway or about 10 sidewalk squares. The MPCA says salt is commonly over-applied. The watershed district's advice explains why less is enough:
 
 - **Shovel first.** The more snow and ice you remove by hand or blower, the less salt you need.
 - **Leave space between granules.** More salt does not mean faster melting.
 - **Aim to break the bond, not melt everything.** Use only enough to loosen the ice from the pavement, then shovel it off.
-- **Sweep up what's left.** The MPCA says to sweep up visible salt on dry pavement. Leftover salt isn't doing any work, and on a sidewalk the next stop is the grass.
+- **Sweep up what's left.** The MPCA says to sweep up visible salt on dry pavement. Leftover salt isn't doing any work, and on a sidewalk it can end up in the grass.
 
 Shoveling snow onto the lawn strip is part of the problem too. The snow along a salted walk carries salt with it.
 
@@ -66,22 +66,22 @@ Read the ingredient list and match it to the conditions:
 | Urea | 20°F | Not covered by the Arboretum |
 | Sodium chloride (rock salt) | 15°F | Effective but "quite damaging" to landscape plants |
 | Potassium chloride | Not on the chart | Less damaging than rock salt; may be less effective at low temperatures |
-| Magnesium chloride | Works in colder weather than rock salt (no figure given) | Less harmful to plants; can damage concrete |
+| Magnesium chloride | Not on the chart | Less harmful to plants; can damage concrete |
 | Potassium acetate | -15°F | Not covered by the Arboretum |
 | Calcium chloride | -20°F | Does less harm to plants; works well at lower temperatures |
 | Sand | Never melts | Traction only. The watershed district says not to mix sand and salt. |
 
 ![Bar chart of de-icer lowest working temperatures: CMA 20°F, rock salt 15°F, potassium acetate -15°F, calcium chloride -20°F; sand gives traction only](/images/why-grass-along-sidewalk-dies-every-winter-inline.svg)
 
-There's no single best bag. CMA is the gentlest choice near a lawn, but it stops working at 20°F, a little above rock salt's cutoff. Calcium chloride works on the coldest days and does less plant harm than rock salt. The Arboretum's last word applies to all of them: "avoid overapplication."
+There's no single best bag. CMA is safer around plants, but it stops working at 20°F, a little above rock salt's cutoff. Calcium chloride works down to -20°F and does less plant harm than rock salt. The Arboretum's last word applies to all of them: "avoid overapplication."
 
 ## The repair schedule
 
-Grass seeded into salty, packed soil in early spring often thins out again. The repair goes in three stages across the year.
+Iowa State says late-summer seeding beats spring seeding, so the repair is spread across the year.
 
 | When | What to do | Why (source) |
 |---|---|---|
-| Early spring, once snow is gone | Water the strip thoroughly, more than once | Thorough watering may help leach salt out, and it works best in well-drained soil (Morton Arboretum) |
+| Early spring, once snow is gone | Water the strip thoroughly | Thorough watering may help leach salt out, and it works best in well-drained soil (Morton Arboretum) |
 | April, when soil is moist | Core aerate the strip | April and September are the best times to aerate cool-season lawns. Heavy foot traffic is a reason to aerate twice a year. Use a core aerator: spike types "simply punch holes," compacting the soil (Iowa State Extension). |
 | Spring and summer | Have the soil tested if the strip fails year after year | Seeding alone won't fix a chronic soil problem (UConn) |
 | Mid-August to mid-September | Seed with fine fescue or turf-type tall fescue | Late summer is the best window to renovate. Seed sprouts fast in warm soil with fewer weeds (Iowa State). Fescues resist salt better than Kentucky bluegrass (UConn). |
@@ -97,15 +97,15 @@ Earlier versions of this article suggested gypsum and a compost top-dressing. Th
 
 ### Will the dead strip come back on its own?
 
-Sometimes partly, if the soil drains well. The Morton Arboretum says salt leaches out of well-drained soils, while damage can be severe where drainage is poor. A strip that stays bare into June usually needs the aerate-and-reseed sequence above in late summer.
+Sometimes partly, if the soil drains well. The Morton Arboretum says salt leaches out of well-drained soils, while damage can be severe where drainage is poor. A strip that stays bare after spring watering needs the aerate-and-reseed sequence above in late summer.
 
 ### Are "pet-safe" ice melts better for the lawn?
 
-Not by label alone. The Nine Mile Creek Watershed District says de-icer labels aren't regulated and every product has an impact. Check the ingredients against the table above, and use less of whatever you buy. For pets, the MPCA says salt can sicken animals that eat it or lick it off their paws, and can irritate paw pads.
+Not by label alone. The Nine Mile Creek Watershed District says de-icer labels aren't regulated and every product has an impact. Check the ingredients against the table above, and use less of whatever you buy. For pets, the MPCA says de-icers can be toxic to animals that eat them, lick their paws, or drink the melt, and can irritate and crack paw pads. It advises keeping de-icers away from pets.
 
 ### Does sand help?
 
-For grip, yes. For melting, no. The MPCA and the watershed district both say sand doesn't melt ice. The district also says mixing sand and salt isn't effective. On days below rock salt's 15°F cutoff, sand for traction is a reasonable swap.
+For grip, yes. For melting, no. The MPCA and the watershed district both say sand doesn't melt ice. The district also says not to mix sand and salt. On days below rock salt's 15°F cutoff, sand for traction is a reasonable swap.
 
 ## Sources
 

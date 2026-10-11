@@ -19,16 +19,16 @@ pin_hooks:
 enriched: '2026-10-11'
 ---
 
-A furnace filter that's gray in two weeks usually isn't a broken furnace. Far more air, or dustier air, is going through it than the usual 60–90-day schedule assumes. The most common reason is a thermostat fan set to "On."
+A furnace filter that's gray in two weeks usually isn't a broken furnace. Far more air, or dustier air, is going through it than the usual 60–90-day schedule assumes. A common reason is a thermostat fan set to "On."
 
 The EPA says HVAC systems usually run less than 25% of the time, and filters only clean air while the blower runs. Below is the arithmetic that turns that into a two-week filter, plus the other three causes in the order that's quickest to check: a heavier household load, a leaky filter slot, and leaky return ducts.
 
 ## First: does it need to come out right now?
 
-Gray alone isn't an emergency. Researchers at Pacific Northwest National Laboratory (PNNL), in guidance written for the Department of Energy's Building America program, say to replace a filter **immediately** if it:
+Gray alone isn't on the replace-now list. Researchers at Pacific Northwest National Laboratory (PNNL), in guidance written for the Department of Energy's Building America program, say to replace a filter **immediately** if it:
 
 - is clogged with debris
-- has collapsed or bent pleats
+- has collapsed pleats
 - bangs when the system starts
 - is damp or moldy
 
@@ -36,7 +36,7 @@ PNNL notes that a clogged filter can dramatically reduce airflow and lengthen fu
 
 ## Cause 1: the fan is set to "On"
 
-The EPA's guide to home air cleaners makes two points that together explain most fast-graying filters:
+The EPA's guide to home air cleaners makes two points that together explain many fast-graying filters:
 
 - Furnace and HVAC filters clean the air only while the system is operating.
 - Systems usually run less than 25% of the time during heating and cooling seasons.
@@ -72,9 +72,9 @@ Two or three of those together, plus a busy heating month, can bring the interva
 
 ## Cause 3: the filter slot is pulling in unfiltered air
 
-This is the most overlooked cause. ENERGY STAR lists leaks at the furnace and filter slot among the most common duct problems.
+This cause is easy to miss. ENERGY STAR lists leaks at the furnace and filter slot among common duct problems.
 
-PNNL explains what happens. The filter access cover should have a gasket for an airtight seal. If it's missing, loose, or left off, the blower pulls unconditioned and unwanted air into the house. That matters most when the furnace sits in a garage.
+PNNL explains what happens. The filter access cover should have a gasket for an airtight seal. If it's missing, loose, or left off, the blower pulls unconditioned and unwanted air into the house. PNNL flags poor indoor air quality as a result when the air handler sits in a garage.
 
 To check it:
 
@@ -84,27 +84,26 @@ To check it:
 4. **Check the arrow.** PNNL says it should point toward the furnace or air handler.
 5. **Seal the cover so it can still be opened.** PNNL says you can fasten its edges with duct tape or magnetic tape for extra sealing. It shouldn't be taped or caulked shut permanently, because you need to get to the filter.
 
-Air sneaking *around* the filter doesn't make the filter dirtier. It skips the filter and carries dust straight to the blower and coil. Air pulled in through a gap upstream of the filter, from a garage or a dusty utility space, is a different matter. That adds to what the filter has to catch.
+Air sneaking *around* the filter doesn't make the filter dirtier. It skips the filter, so that dust moves on through the system unfiltered. Air pulled in through a gap upstream of the filter, from a garage or a dusty utility space, is a different matter. That adds to what the filter has to catch.
 
 ## Cause 4: leaky return ducts in the attic, crawlspace, or garage
 
-Return ducts carry air back to the furnace, and the return side is under suction. Any gap in a return duct running through an attic or crawlspace draws air from that space. ENERGY STAR describes the result: sealing ducts reduces the pollutants entering from dusty attics or musty crawlspaces, including insulation dust, and "dusty house" is one of the signs it lists. It says typical homes lose about 20 to 30% of the air moving through their ducts to leaks and poor connections.
+Return ducts carry air back to the furnace, and the return side is under suction. Any gap in a return duct running through an attic or crawlspace draws air from that space. ENERGY STAR describes the result: sealing ducts reduces the pollutants entering from dusty attics or musty crawlspaces, including insulation dust, and "dusty house" is one of the signs it lists. It says typical homes lose about 20 to 30% of the air moving through their ducts to leaks.
 
 ![Diagnostic order for a filter gray in two weeks: fan set to On means at least 4x the air, then household load, then a leaky filter slot, then return duct leaks](/images/furnace-filter-turns-gray-in-two-weeks-inline.svg)
 
-**What you can check yourself**, from ENERGY STAR's do-it-yourself steps:
+**What you can check yourself.** ENERGY STAR's do-it-yourself step is to inspect the ducts you can see:
 
 - Look at every duct you can reach in the basement, attic, and garage for holes, gaps, or disconnected joints.
-- Check that flexible ducts are straight with only gentle curves, not torn, crushed, or kinked.
-- Check where registers and grilles meet floors, walls, and ceilings.
+- Look for tangled or kinked flexible ducts, which ENERGY STAR lists as a sign of duct problems.
 
-**How to seal what you find:** use duct mastic or metal-backed (foil) tape. ENERGY STAR says never to use gray cloth duct tape, because it doesn't last.
+**How to seal what you find:** use duct mastic or metal-backed (foil) tape. ENERGY STAR says never to use gray cloth duct tape.
 
 **One safety step afterward:** ENERGY STAR notes that leaky ductwork can cause backdrafting, where combustion gases like carbon monoxide from a gas furnace, water heater, or dryer get pulled back into the house. It advises a combustion safety test after ducts are sealed, so if you have gas appliances, have a technician check for backdrafting once the work is done. Keep your CO alarm tested monthly.
 
 Leaks you can't reach, inside walls, ceilings, or tight crawlspaces, are a job for a contractor. Other signs ENERGY STAR links to leaky ducts include high summer and winter bills, rooms that are hard to heat or cool, and [one room that never keeps up](https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html).
 
-While you're at it, leave the registers open. [Closing vents in unused rooms](https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html) raises duct pressure and pushes more air through leaky seams.
+While you're at it, leave the registers open. Here's [whether closing vents in unused rooms saves anything](https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html).
 
 ## What to change once you know the cause
 
@@ -113,7 +112,7 @@ While you're at it, leave the registers open. [Closing vents in unused rooms](ht
 | Fan on On | Switch to Auto, or keep On and shorten the change interval to match (see the math above) |
 | Remodel or other temporary dust | Change more often until the work ends |
 | Pets, 4+ people, smoking, allergies | Set a shorter schedule and keep it (PNNL) |
-| New, finer filter | Expected. Change it more often, or ask about a deeper filter: PNNL says deeper pleats or larger filters add surface area and lower airflow resistance without changing the MERV rating. |
+| New, finer filter | Expected. Change it more often, or ask about a deeper filter: PNNL says deeper pleats or larger filters add surface area. |
 | Loose or missing slot cover | Gasket it and seal the edges with removable tape (PNNL) |
 | Return duct leaks | Mastic or foil tape on reachable seams, then a backdraft check (ENERGY STAR). Pro for hidden ducts. |
 
@@ -127,7 +126,7 @@ Not necessarily. A grayer filter is catching more. The bigger worry is air that 
 
 ### Can I wash a disposable filter and reuse it?
 
-PNNL says filters full of debris should be thrown out. Washable filters are a separate product. They're usually electrostatic aluminum mesh or foam, cleaned every one to three months, and they must dry completely or they can grow mold.
+PNNL says a filter clogged with debris should be replaced right away. Washable filters are a separate product. PNNL says they're cleaned every one to three months, and they must dry completely or they can grow mold.
 
 ### Should I go back to a cheaper, coarser filter?
 

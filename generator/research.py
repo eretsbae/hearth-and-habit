@@ -143,6 +143,8 @@ def run_research(client, cfg: dict, title: str, pillar: dict, existing_body: str
         ) as stream:
             resp = stream.get_final_message()
         all_blocks.extend(resp.content)
+        usage = resp.usage
+        print(f"    [research] turn: in={usage.input_tokens} out={usage.output_tokens} stop={resp.stop_reason}")
         if resp.stop_reason == "refusal":
             raise ValueError(f"Research refused: {resp.stop_details}")
         if resp.stop_reason == "max_tokens":

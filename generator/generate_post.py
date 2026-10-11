@@ -392,7 +392,8 @@ def call_claude(
     if resp.stop_reason == "refusal":
         raise ValueError(f"Model declined the request: {resp.stop_details}")
     text = "".join(b.text for b in resp.content if b.type == "text")
-    print(f"    [call_claude] model={model} effort={effort} stop_reason={resp.stop_reason} chars={len(text)}")
+    print(f"    [call_claude] model={model} effort={effort} stop_reason={resp.stop_reason} "
+          f"chars={len(text)} in={resp.usage.input_tokens} out={resp.usage.output_tokens}")
     return text
 
 

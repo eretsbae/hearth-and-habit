@@ -17,12 +17,6 @@ on:
         description: "Space-separated slugs of existing posts to enrich (optional)"
         required: false
         default: ""
-  push:
-    branches: [quality/research-grounded-generation]
-    paths:
-      - "generator/**"
-      - "config/site.yml"
-      - ".github/workflows/quality-preview.yml"
 
 permissions:
   contents: read
@@ -42,17 +36,17 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Preview a new post
-        if: github.event_name == 'workflow_dispatch' && inputs.new_post
+        if: inputs.new_post
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python generator/generate_post.py --preview _preview/new 2>&1 | tee _preview-new.log
         continue-on-error: true
 
       - name: Preview enriching existing posts
-        if: github.event_name == 'push' || inputs.slugs != ''
+        if: inputs.slugs != ''
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          SLUGS: ${{ github.event_name == 'push' && 'what-temperature-do-pipes-freeze-guide furnace-filter-basics' || inputs.slugs }}
+          SLUGS: ${{ inputs.slugs }}
         run: |
           mkdir -p _preview/enrich
           python generator/enrich_post.py --slugs $SLUGS --preview _preview/enrich \

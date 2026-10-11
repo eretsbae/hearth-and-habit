@@ -2,7 +2,9 @@
 title: 'Why Is My Electric Bill So High? A Step-by-Step Checklist to Find the Cause'
 slug: why-is-my-electric-bill-so-high-checklist
 date: '2026-09-29'
-description: A high electric bill means a higher rate or higher usage. Compare kWh to dollars, match the jump to the weather, then find what never shuts off.
+updated: '2026-10-11'
+enriched: '2026-10-11'
+description: 'Split a high electric bill into billing days, price per kWh, and daily use, then adjust for weather. Worked example, heat pump aux-heat trap, meter tests.'
 tags:
 - electric bill
 - energy savings
@@ -13,57 +15,151 @@ pillar: energy-savings
 hero_image: /images/why-is-my-electric-bill-so-high-checklist-hero.svg
 hero_alt: Flat illustration of a utility bill with a bar chart and one tall bar under a magnifying glass, beside a light bulb and a thermostat
 pin_hooks:
-- Check kWh before dollars to see why your bill jumped
-- 'The formula that prices any appliance: watts × hours'
+- 'Divide kWh by billing days before you blame anything'
+- Why a heat pump setback can raise your winter bill
 ---
 
-Your electric bill is high for one of two reasons: you're paying more for each kilowatt-hour, or you're using more of them, and the usage line on your bill tells you which before you touch a single appliance.
+A high electric bill comes from one of three places: the bill covers more days (or catches up on an estimated reading), you paid more per kilowatt-hour, or the house used more kilowatt-hours per day. Three divisions on your bill tell you which one, before you unplug anything.
 
-That split matters because the fixes don't overlap. A rate increase won't show up in any appliance, and no call to the utility will fix a water heater that never shuts off. Work through the steps in order; each one rules out a whole group of causes.
+Most advice skips straight to "check your appliances." That wastes an afternoon if the real cause is a 33-day billing period or a rate change. Work the checks below in order. Each one rules out a whole group of causes.
 
-| If you notice… | Most likely cause | Quick check | Full guide |
-|---|---|---|---|
-| The bill went up, but kWh used barely changed | A rate increase, an expired fixed-rate plan, or higher delivery charges | Divide the total by kWh used and compare with the same month last year | [Bill doubled, same usage](https://www.hearth-habit.com/2026/08/why-did-my-electric-bill-double-with-no.html) |
-| kWh jumped in the hottest or coldest month | Heating or cooling working harder | Compare with the same month last year, not last month | [Thermostat settings by season](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html) |
-| kWh jumped in a mild month | One appliance running nonstop: water heater, fridge, pump, or a forgotten space heater | Look at your hourly usage in the middle of the night | [Which appliance uses the most](https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html) |
-| Overnight usage never drops very low | Standby draw from electronics and chargers | Put a plug-in watt meter on the TV and console setup | [Phantom power costs](https://www.hearth-habit.com/2026/07/phantom-power-how-much-your-idle.html) |
-| The AC holds one setting all day in an empty house | No setback while you're away | Open the thermostat schedule | [AC off while you're at work?](https://www.hearth-habit.com/2026/07/does-turning-ac-off-while-youre-at-work.html) |
-| Vents are shut in rooms nobody uses | A forced-air system pushed out of balance | Walk the house and count closed registers | [Closing vents in unused rooms](https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html) |
-| A space heater runs all winter in one room | Blocked airflow or drafts in that room | Feel the airflow at that room's register | [Why one room stays colder](https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html) |
+## Step 1: Check the billing period and the reading type
 
-## Step 1: Split the Bill Into Rate and Usage
+Not every bill covers a month. SaskPower says a typical bill covers 28 to 33 days, and a first bill can run anywhere from 16 to 45 days. Manitoba Hydro's own sample bill runs July 14 to August 15, which is 32 days. A 33-day bill after a 28-day bill is several extra days of usage before anything in the house changed.
 
-Find two numbers on your bill or in your utility's app: kilowatt-hours (kWh) used and the total charge. Divide the dollars by the kWh and you have a rough all-in price per kWh, fees included. The US average residential price is roughly 17–18 cents per kWh (2025–26, per the EIA), but it ranges from about 11 cents to over 40 cents depending on the state, so the useful comparison is your own bill from the same month a year ago.
+Next, find the reading type, usually printed beside the meter numbers. Manitoba Hydro lists three: actual, estimated (based on last year's use), and customer-submitted. Estimates are where many "spikes" come from. If last winter was milder than this one, the estimates run low. The next bill with an actual reading then charges for the shortfall, so one bill looks huge while the two before it looked cheap.
 
-- **Price per kWh went up, usage didn't:** it's a pricing problem. Look for a rate increase, a fixed-rate plan that rolled onto a variable rate, or a bigger delivery charge, then call the utility and ask which one it is. The [guide to a bill that doubled with no change in usage](https://www.hearth-habit.com/2026/08/why-did-my-electric-bill-double-with-no.html) covers what to ask and how to spot an estimated-reading catch-up.
-- **Usage went up:** something in the house is drawing more power. Keep going.
+If you see "estimated" on the previous bills, add them together with the current one and compare the total with the same months last year. The spike often shrinks into a normal season.
 
-## Step 2: Match the Jump to the Weather
+## Step 2: Turn the bill into three numbers
 
-In homes with central air or electric heat, heating and cooling are usually the biggest line items, so line the jump up against the weather. If a heat wave or cold snap matches the spike, the fix is the thermostat, not an appliance hunt.
+Take this bill and the same bill from a year ago (not last month, which had different weather). For each, work out:
 
-The Department of Energy's figure is the one to anchor on: turning the thermostat back 7–10°F for 8 hours a day can save up to about 10% a year on heating and cooling. That's the case for [setting the AC back while you're at work](https://www.hearth-habit.com/2026/07/does-turning-ac-off-while-youre-at-work.html) instead of cooling an empty house, and the [season-by-season settings guide](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html) shows where to start.
+- **kWh per day** = kWh used ÷ billing days
+- **Price per kWh** = total dollars ÷ kWh used (an all-in figure, fees included)
+- **Degree days per day**, which measures the weather (explained below)
 
-Two common habits work against you here. [Closing vents in unused rooms](https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html) typically doesn't reduce what a forced-air system uses and can strain the blower. And a space heater running in [the one room that never warms up](https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html) can quietly cost more than fixing the blocked vent or drafty window that made the room cold.
+### Worked example
 
-## Step 3: Find the Thing That Never Turns Off
+These figures are hypothetical, so swap in your own.
 
-If usage rose in a mild month, look for one appliance running constantly. Many utilities show hourly data; check the small hours of the night, when little besides the fridge, the water heater, and standby electronics should be running. A high overnight baseline means something isn't cycling off. The usual suspects are an electric water heater with a failing element or thermostat, an older fridge with torn gaskets or dusty coils, a well or sump pump that won't stop, and a space heater left on in a spare room. The [guide to the appliances that use the most electricity](https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html) ranks the heavy hitters.
+| | Last January | This January |
+|---|---|---|
+| Billing days | 30 | 33 |
+| kWh used | 1,050 | 1,386 |
+| Total bill | $178.50 | $249.48 |
+| kWh per day | 1,050 ÷ 30 = 35 | 1,386 ÷ 33 = 42 |
+| Price per kWh | $178.50 ÷ 1,050 = $0.17 | $249.48 ÷ 1,386 = $0.18 |
 
-To price any single device, use the DOE formula:
+The bill rose by $70.98. Here is where that money came from:
 
-watts × hours used ÷ 1,000 × price per kWh = cost
+- **Extra days:** 3 days × 35 kWh × $0.17 = $17.85
+- **Higher price:** 1,386 kWh × $0.01 more per kWh = $13.86
+- **More use per day:** 7 more kWh a day × 33 days × $0.17 = $39.27
 
-Most plug-in space heaters are rated around 1,500 watts. Run one for 8 hours a day: 1,500 × 8 ÷ 1,000 = 12 kWh, and 12 × $0.17 is about $2 a day, or roughly $60 over a month. Nameplate wattage is the maximum draw, so a heater cycling on its own thermostat will use less; a plug-in watt meter shows the real number. Swap in your own rate to get your own answer.
+Those three add up to $70.98. Only the last $39.27 is about anything happening in the house. In this example, a quarter of the increase came from the calendar and about a fifth from the price.
 
-The same math sizes up [phantom power](https://www.hearth-habit.com/2026/07/phantom-power-how-much-your-idle.html). Each watt drawn around the clock adds up to 8.76 kWh a year, about $1.50 at 17 cents. A handful of devices idling at a few watts each is real money, but rarely the reason a bill suddenly jumps.
+For context, EIA puts the 2025 US average residential price at 17.30 cents per kWh. It also notes that prices are usually highest in summer, when total demand is high. Your rate can rise in July even if nobody touched the AC.
 
-## Step 4: Then Trim the Small Stuff
+If your price per kWh jumped and kWh per day didn't, you have a pricing problem, not an appliance problem. Our guide to [a bill that doubled with no change in usage](https://www.hearth-habit.com/2026/08/why-did-my-electric-bill-double-with-no.html) covers rate changes, expired fixed-rate plans, and what to ask the utility.
 
-Once the big cause is handled, free habits chip away at what's left. [Letting the dishwasher air-dry instead of using heated dry](https://www.hearth-habit.com/2026/09/air-dry-or-heated-dry-which-one.html) and [skipping the oven preheat when a dish doesn't need it](https://www.hearth-habit.com/2026/09/is-it-cheaper-to-preheat-oven-or-skip.html) each save only small amounts per use. They're worth doing because they cost nothing, but neither explains a bill that spiked. The full list of [no-cost habits that cut an electric bill](https://www.hearth-habit.com/2026/07/how-to-cut-your-electric-bill-without.html), from cold-water laundry to running full loads, is the place to finish.
+## Step 3: Adjust for the weather with degree days
+
+"It was colder" is a guess. Degree days turn it into a number. The US Energy Information Administration (EIA) defines them against a 65°F base:
+
+- Average the day's high and low to get the mean temperature.
+- **Heating degree days (HDD):** 65 minus the mean, on days the mean is below 65°F. A day with a high of 33°F and a low of 25°F has a mean of 29°F, so 65 − 29 = 36 HDD.
+- **Cooling degree days (CDD):** the mean minus 65, on days the mean is above 65°F. A 90°F high and 66°F low give a mean of 78°F, so 78 − 65 = 13 CDD.
+
+Add up the daily values for each billing period and divide by the billing days. Then compare the percentage change with your kWh-per-day change.
+
+Continuing the hypothetical: say last January's period totaled 900 HDD (900 ÷ 30 = 30 per day) and this one 1,155 HDD (1,155 ÷ 33 = 35 per day). Daily heating demand rose by 5 ÷ 30, about 17%. Daily use rose by 7 ÷ 35 = 20%. In a home that heats with electricity, that is close enough that weather is a plausible main cause. If kWh per day had risen 20% while degree days stayed flat, something else is drawing power.
+
+This matters more than it seems. EIA reports that in 2020, air conditioning was 19% of US home electricity use, and space heating and water heating were 12% each. Manitoba Hydro says heating and cooling together can be more than 60% of a home's energy use in its climate. The colder or hotter your climate, the more your bill follows the degree days.
+
+## Step 4: If you have a heat pump, check the backup heat
+
+This is the cause most checklists miss. Many heat pumps carry a backup heater, often electric resistance "strip heat" in the indoor unit. The thermostat may call it "aux" or "emergency" heat.
+
+The Department of Energy's building-science training material explains two triggers:
+
+- **Cold weather**, when the heat pump alone can't keep up.
+- **A raised setpoint.** When you turn the thermostat up and the heat pump is slow to get there, the backup heat comes on to speed it up.
+
+That second trigger turns ordinary advice upside down. For most homes, the registry figure holds: DOE says turning the thermostat back 7–10°F for 8 hours a day can save up to about 10% a year on heating and cooling. On a heat pump, though, the DOE material says the morning recovery from a night setback can activate auxiliary heat and "negate the efficiency gains." It notes that the usual recommendation is to set the thermostat once and leave it alone.
+
+The same material says typical heat pumps have a COP of 2 to 5. COP (coefficient of performance) is heat delivered per unit of electricity, while resistance heat delivers about one unit. Energy Trust of Oregon says resistance strips use "substantially more energy" than the heat pump.
+
+What to check:
+
+- **The thermostat mode.** It should say Heat, not Em Heat or Emergency.
+- **The aux indicator or runtime report.** Many thermostats show when aux heat is on. Aux heat running on a mild day after a setback points to the cause.
+- **The lockout setting.** DOE's material says many codes require controls that keep auxiliary heat off until it's colder than a set outdoor temperature, commonly around 35°F. Energy Trust of Oregon's 2025 contractor specifications require it to be set at or below 35°F. If yours has no lockout, or it's set high, ask your HVAC contractor to review it. It's an installer setting, not something to dig into yourself.
+
+The [thermostat settings guide](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html) covers setback advice for other system types.
+
+## Step 5: Find the device that won't shut off
+
+If kWh per day rose and degree days don't explain it, look for one piece of equipment running when it shouldn't. SaskPower names the usual culprits:
+
+| Suspect | What's going wrong | How you'd notice |
+|---|---|---|
+| Electric water heater | A leak keeps it reheating fresh cold water | Water around the base, or the heater runs at times nobody uses hot water |
+| Thermostat | Broken, so heating or cooling won't stop | House is warmer or cooler than the setting |
+| Well pump | Runs continuously | Pump cycles or hums with no taps open |
+| Fridge or freezer | Broken door seal lets cold air out | Gasket torn or not sealing, frost buildup, compressor running constantly |
+| Space heater or AC | Heavy use in extreme weather | Daily use tracks the cold or hot days |
+
+If your utility shows hourly data, look at the middle of the night. That is when the house is mostly running only what never turns off. A night baseline that has climbed since last year points to one of the suspects above.
+
+To price a single device, use the DOE formula from the site's fact registry: watts × hours used ÷ 1,000 × price per kWh. The [space heater cost breakdown](https://www.hearth-habit.com/2026/10/how-much-does-it-cost-to-run-space.html) works it through for the most common winter add-on. The guide to [which appliance is quietly using the most electricity](https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html) ranks the rest.
+
+## Step 6: If the numbers still don't add up, ask for a meter test
+
+If the billing days, price, weather, and equipment all check out, the meter itself is worth questioning. The rules vary by state. Maryland's Public Service Commission is one clear example:
+
+- Contact the utility first. It is "required by law to assist you."
+- On request and at no charge, the utility must test your meter's accuracy, though it doesn't have to do so more than once in 18 months. You or your representative may be present.
+- If you'd rather not rely on the utility's test, you can ask the commission for a "referee test" for $10. The fee is refunded and your bill adjusted if the meter falls outside the 98%–102% accuracy range.
+- An estimated reading must be marked on the bill. If an estimate is far out of line, you can ask the utility to cancel it, but the next bill will then cover two months.
+
+The Maryland commission also states the limit of this route. The utility only has to show that your usage was recorded by an accurate meter, not explain how the power was used. Steps 1 through 5 are what explain how it was used.
+
+Outside Maryland, search your state utility commission's site for "billing dispute" or "meter test" to find the local rule and any fee.
+
+## Quick decision table
+
+| What your three numbers show | Most likely cause | Next step |
+|---|---|---|
+| More billing days, kWh per day steady | The calendar | Compare kWh per day, not totals |
+| Earlier bills estimated, this one actual | Catch-up from low estimates | Add the bills together and compare the season |
+| Price per kWh up, kWh per day steady | Rate, plan, or seasonal pricing change | Call the utility and ask which one |
+| kWh per day up about as much as degree days | Weather | Thermostat strategy, insulation, sealing |
+| kWh per day up on a heat pump, aux heat running on mild days | Backup strip heat | Stop deep setbacks; have the lockout checked |
+| kWh per day up, degree days flat | A device that won't shut off | Night baseline, then the suspect table |
+| Everything checks out | Possibly the meter | Ask for a meter test |
+
+## FAQ
+
+### My bill is high but the weather felt normal. Where do I start?
+
+Start with Step 1. A longer billing period or a catch-up from estimated readings can raise a bill with no change in weather or habits. Then check the price per kWh before looking for a device.
+
+### Can I just turn the heat pump to emergency heat when it's very cold?
+
+ElectriCities and DOE's training material both describe emergency or auxiliary heat as electric resistance heat that costs more to run. The DOE material frames it as backup for when the heat pump can't keep up. If you're switching to emergency mode because the heat pump isn't heating, have it serviced rather than running on strip heat for weeks.
+
+### Does a second fridge in the garage matter?
+
+It can, and broken door seals make it worse. SaskPower lists bad fridge and freezer seals among the equipment problems behind large bills. Price it with the watts × hours formula, or measure it with a plug-in watt meter.
 
 ## Sources
 
-- [Average Price of Electricity to Ultimate Customers — EIA](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a) — the roughly 17–18¢ per kWh U.S. residential average and the range by state
-- [Programmable Thermostats — DOE Energy Saver](https://www.energy.gov/energysaver/programmable-thermostats) — a 7–10°F setback for 8 hours a day saves up to about 10% a year
-- [Estimating Appliance and Home Electronic Energy Use — DOE Energy Saver](https://www.energy.gov/energysaver/estimating-appliance-and-home-electronic-energy-use) — the watts × hours ÷ 1,000 × rate formula and plug-in watt meters
+- [Why is my bill higher than normal? | SaskPower](https://saskpower.com/accounts/billing/understanding-power-use/bill-higher-than-normal) — 28–33-day billing periods, catch-up after estimates, and equipment faults (water heaters, thermostats, well pumps, fridge seals)
+- [Reasons for a high bill | Manitoba Hydro](https://www.hydro.mb.ca/account/billing/reasons-for-a-high-bill/) — reading types, low estimates after a milder winter, heating and cooling share
+- [Degree days | U.S. EIA](https://www.eia.gov/energyexplained/units-and-calculators/degree-days.php) and [Electricity use in homes | U.S. EIA](https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php) — degree-day method and worked examples; 2020 end-use shares
+- [Electricity prices and factors affecting prices | U.S. EIA](https://www.eia.gov/energyexplained/electricity/prices-and-factors-affecting-prices.php) — 2025 average residential price and higher summer prices
+- [Introduction to Heat Pumps lecture notes | DOE Building Science Education Solution Center](https://bsesc.energy.gov/sites/default/files/2024-08/Introduction%20to%20Heat%20Pumps%20Level%202%20-%20Lecture%20Notes%20%26%20Problem%20Sets.docx) — aux heat after a setback, the 35°F lockout, heat pump COP
+- [Auxiliary heat lockout settings | Energy Trust Insider](https://insider.energytrust.org/auxiliary-heat-lockout-settings-vital-to-energy-efficient-operation-of-heat-pump-equipment/) — lockout at or below 35°F; strip heat uses more energy
+- [Billing Disputes FAQ | Maryland Public Service Commission](https://www.psc.state.md.us/wp-content/uploads/Billing-Disputes.pdf) — free meter test on request, referee test, accuracy range, estimated bills
+- [Programmable Thermostats | DOE Energy Saver](https://www.energy.gov/energysaver/programmable-thermostats) — 7–10°F setback for 8 hours a day saves up to about 10% a year

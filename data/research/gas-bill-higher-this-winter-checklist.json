@@ -1,0 +1,104 @@
+{
+  "reader_situation": "A homeowner with gas heat got a winter bill well above last year's even though the thermostat setting hasn't changed, and wants to know whether it's the weather, the price, or something wrong with the house or furnace.",
+  "direct_answer": "With the same thermostat setting, a higher gas bill usually comes from colder weather (more heating degree days), a higher price per therm, or a longer or estimated billing period. Divide therms by billing days and by heating degree days and compare with the same month last year; only if therms per degree day rose is something in the house or furnace using more gas.",
+  "consensus": [
+    "Colder weather makes the furnace run longer at the same setting.",
+    "Gas rates change seasonally and year to year.",
+    "Dirty filters, drafts, and poor insulation raise gas use.",
+    "Compare usage, not just dollars, year over year.",
+    "A furnace tune-up can help efficiency."
+  ],
+  "gaps": [
+    "Weather should be measured in heating degree days (65°F minus the day's mean temperature, summed for the period, per EIA), and gas use normalized to therms per degree day after subtracting a non-heating baseline from a summer bill.",
+    "Units: EIA lists 1 therm = 100,000 Btu and 1 cubic foot of gas = 1,036 Btu, so 1 CCF (100 cubic feet) is about 1.036 therms; compare like with like.",
+    "EIA's US residential average was $14.95 per thousand cubic feet in February 2026 (about $1.44 per therm using EIA's Btu factors), but $24.09 in June and $26.45 in July, so a winter-to-winter comparison is the only fair one.",
+    "Rates can change mid-season: Manitoba Hydro reviews natural gas rates quarterly (February, May, August, November).",
+    "Estimated readings can create a catch-up spike: Manitoba Hydro says estimates are based on last year's use, so after a milder last winter they run low and the actual-read bill catches up; Maryland lets a customer ask the utility to cancel an out-of-line estimate and to test the meter for free on request (gas or electric).",
+    "Cold weather also lifts the commodity price: EIA says unexpected cold can intensify price effects because supply often can't react quickly, and storage withdrawals run November through March.",
+    "Fix sizes are published: ENERGY STAR says sealing and insulating can save up to 10% on annual energy bills and sealing ducts can improve system efficiency by as much as 20%; check filters monthly in winter.",
+    "Ice dams and icicles signal heat escaping into the attic (University of Minnesota Extension, registry)."
+  ],
+  "evidence": [
+    {
+      "claim": "Degree-day method",
+      "detail": "Base temperature 65°F. Mean temperature = average of high and low. HDD = 65 minus the mean when the mean is below 65°F. Example: high 33°F, low 25°F, mean 29°F, 36 HDD. Daily values are summed to compare months and seasons; HDDs indicate how much heating a building needs.",
+      "source_url": "https://www.eia.gov/energyexplained/units-and-calculators/degree-days.php",
+      "source_title": "Degree days | U.S. EIA"
+    },
+    {
+      "claim": "Gas unit conversions",
+      "detail": "1 therm of natural gas = 100,000 Btu; 1 cubic foot of natural gas = 1,036 Btu; 1 kWh = 3,412 Btu.",
+      "source_url": "https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php",
+      "source_title": "British thermal units (Btu) | U.S. EIA"
+    },
+    {
+      "claim": "Residential gas price by month",
+      "detail": "US residential natural gas price $14.95 per thousand cubic feet in February 2026, $24.09 in June 2026, $26.45 in July 2026.",
+      "source_url": "https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm",
+      "source_title": "Natural Gas Prices | U.S. EIA"
+    },
+    {
+      "claim": "Cold weather and gas prices",
+      "detail": "Natural gas demand for heating by residential and commercial consumers generally increases in cold months; with unexpected cold the effect on prices can intensify because supply is often unable to react quickly to short-term increases in demand. Storage typically rises April through October and falls November through March.",
+      "source_url": "https://www.eia.gov/energyexplained/natural-gas/factors-affecting-natural-gas-prices.php",
+      "source_title": "Factors affecting natural gas prices | U.S. EIA"
+    },
+    {
+      "claim": "What homes use gas for",
+      "detail": "About 60% of U.S. homes use natural gas for space and water heating, cooking, and clothes drying.",
+      "source_url": "https://www.eia.gov/energyexplained/natural-gas/use-of-natural-gas.php",
+      "source_title": "Use of natural gas | U.S. EIA"
+    },
+    {
+      "claim": "Gas rate reviews and estimated readings",
+      "detail": "Natural gas rates are reviewed quarterly in February, May, August, and November. Readings can be actual, estimated (based on last year's use), or customer-submitted; if last winter was warmer, estimates run low and an actual-read bill may look higher to catch up. Raising the thermostat doesn't heat the home faster but increases the bill. Furnace condition affects energy use.",
+      "source_url": "https://www.hydro.mb.ca/account/billing/reasons-for-a-high-bill/",
+      "source_title": "Reasons for a high bill | Manitoba Hydro"
+    },
+    {
+      "claim": "Meter tests and estimated bills (Maryland)",
+      "detail": "For a high gas or electric bill, contact the utility first; it is required by law to assist. Upon request and at no charge the utility shall test the meter, not more than once in 18 months. A PSC referee test (gas or electric meter) costs $10, refunded if the meter is out of tolerance. Estimated readings must be marked; an out-of-line estimate can be canceled, with the next bill covering two months.",
+      "source_url": "https://www.psc.state.md.us/wp-content/uploads/Billing-Disputes.pdf",
+      "source_title": "Billing Disputes FAQ | Maryland Public Service Commission"
+    },
+    {
+      "claim": "Sealing and insulating savings",
+      "detail": "Sealing and insulating can provide up to a 10% savings on annual energy bills; door weatherstripping and window caulking are simpler fixes, attic air sealing is a larger job.",
+      "source_url": "https://www.energystar.gov/saveathome/seal_insulate",
+      "source_title": "Seal and Insulate | ENERGY STAR"
+    },
+    {
+      "claim": "Heating system maintenance",
+      "detail": "Check your filter every month, especially during heavy-use months (winter and summer), and change it at least every 3 months. A yearly tune-up can improve efficiency and comfort. Sealing ducts can improve system efficiency by as much as 20 percent. Nearly half of the energy used in a home goes to heating and cooling.",
+      "source_url": "https://www.energystar.gov/saveathome/heating-cooling",
+      "source_title": "Heat & Cool Efficiently | ENERGY STAR"
+    }
+  ],
+  "real_questions": [
+    "Why is my gas bill double last month's when I didn't change anything?",
+    "Is my gas company overcharging me or estimating my meter?",
+    "How do I compare this winter to last winter fairly?",
+    "What's the difference between CCF and therms on my bill?",
+    "Could my furnace be failing?"
+  ],
+  "original_asset": {
+    "type": "worked_example",
+    "spec": "Worked example normalizing gas use: subtract a summer baseline (water heating, cooking) from winter therms, divide by heating degree days for each year, and compare; plus the CCF-to-therm and Mcf-to-therm conversions with EIA factors and a decision table routing results to weather, price, billing, or house/furnace."
+  },
+  "cautions": [
+    "Gas smell or a suspected cracked heat exchanger or CO problem: leave and call the gas utility or a pro; not a DIY diagnosis.",
+    "Meter-test rules vary by state; Maryland is an example.",
+    "Keep CO alarms tested monthly (registry)."
+  ],
+  "sources": {
+    "https://www.eia.gov/energyexplained/units-and-calculators/degree-days.php": "Degree days | U.S. EIA",
+    "https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php": "British thermal units (Btu) | U.S. EIA",
+    "https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm": "Natural Gas Prices | U.S. EIA",
+    "https://www.eia.gov/energyexplained/natural-gas/factors-affecting-natural-gas-prices.php": "Factors affecting natural gas prices | U.S. EIA",
+    "https://www.eia.gov/energyexplained/natural-gas/use-of-natural-gas.php": "Use of natural gas | U.S. EIA",
+    "https://www.hydro.mb.ca/account/billing/reasons-for-a-high-bill/": "Reasons for a high bill | Manitoba Hydro",
+    "https://www.psc.state.md.us/wp-content/uploads/Billing-Disputes.pdf": "Billing Disputes FAQ | Maryland Public Service Commission",
+    "https://www.energystar.gov/saveathome/seal_insulate": "Seal and Insulate | ENERGY STAR",
+    "https://www.energystar.gov/saveathome/heating-cooling": "Heat & Cool Efficiently | ENERGY STAR"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "reader_situation": "A homeowner or renter just opened an electric bill that is noticeably higher than expected and wants to know, in order, what to check before calling the utility or replacing anything.",
+  "direct_answer": "A high bill comes from one of three places: the bill covers more days or a catch-up from an estimated reading, the price per kWh went up, or the home used more kWh per day. Divide kWh by billing days and dollars by kWh, compare with the same period last year, and adjust for weather with heating or cooling degree days before hunting for an appliance.",
+  "consensus": [
+    "Heating and cooling are the biggest drivers, so cold snaps and heat waves raise bills.",
+    "Rate increases raise the bill even when usage is unchanged.",
+    "Older or faulty appliances, space heaters, and standby electronics add usage.",
+    "Use a watt meter or the watts x hours formula to price individual devices.",
+    "Thermostat setbacks save energy."
+  ],
+  "gaps": [
+    "Billing periods are not all the same length: SaskPower says a typical bill covers 28 to 33 days and Manitoba Hydro's example runs 32 days, so total kWh must be divided by billing days before comparing.",
+    "Estimated readings are based on past use; if this winter is colder than last, estimates run low and the next actual read catches up, making one bill look like a spike (Manitoba Hydro).",
+    "Weather should be measured, not guessed: EIA defines heating degree days as 65°F minus the day's mean temperature and cooling degree days as the mean minus 65°F, summed over the period.",
+    "On a heat pump, backup electric resistance heat can come on after a thermostat setback when the setpoint is raised again, which can negate the setback's savings; DOE's building-science training says it is often recommended to leave a heat pump at one setting, and many programs lock out auxiliary heat above about 35°F.",
+    "Specific failure modes that run up usage: leaky electric water heaters, broken thermostats, well pumps that run continuously, and broken fridge or freezer door seals (SaskPower).",
+    "Meter accuracy can be checked: in Maryland the utility must test a customer's meter at no charge on request (not more often than once in 18 months), and the PSC's accuracy standard is 98%-102%.",
+    "Electricity prices are usually highest in summer when demand is high (EIA), so a summer bill can rise on price as well as AC use."
+  ],
+  "evidence": [
+    {
+      "claim": "Typical billing period length varies",
+      "detail": "A typical bill covers 28 to 33 days; first bills can range from 16 to 45 days. Billing periods with five weekends can make a bill higher than usual.",
+      "source_url": "https://saskpower.com/accounts/billing/understanding-power-use/bill-higher-than-normal",
+      "source_title": "Why is my bill higher than normal? | SaskPower"
+    },
+    {
+      "claim": "Equipment faults that drive high bills",
+      "detail": "Damaged equipment can cause large bills, including leaky electric water heaters, broken thermostats, well pumps that run continuously, and broken door seals on refrigerators and freezers. If an actual read exceeds earlier estimates, the bill rises to cover the difference.",
+      "source_url": "https://saskpower.com/accounts/billing/understanding-power-use/bill-higher-than-normal",
+      "source_title": "Why is my bill higher than normal? | SaskPower"
+    },
+    {
+      "claim": "Estimated readings and catch-up bills",
+      "detail": "Meter readings are actual, estimated (based on last year's use), or customer-submitted. If last winter was warmer than this one, estimates will run low, and the bill with an actual reading may look higher to catch up. Bills usually cover about 30 days; example period July 14 to August 15 is 32 days.",
+      "source_url": "https://www.hydro.mb.ca/account/billing/reasons-for-a-high-bill/",
+      "source_title": "Reasons for a high bill | Manitoba Hydro"
+    },
+    {
+      "claim": "Heating and cooling share in a cold climate",
+      "detail": "Heating and cooling alone can be more than 60% of your energy use. Raising the thermostat doesn't heat the home faster but increases the bill.",
+      "source_url": "https://www.hydro.mb.ca/account/billing/reasons-for-a-high-bill/",
+      "source_title": "Reasons for a high bill | Manitoba Hydro"
+    },
+    {
+      "claim": "US residential electricity end uses",
+      "detail": "In 2020, air conditioning was 19% of residential electricity consumption, space heating 12%, and water heating 12%. Shares change from year to year based on the weather; homes in the South are more likely to have electric heating and use more air conditioning.",
+      "source_url": "https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php",
+      "source_title": "Electricity use in homes | U.S. EIA"
+    },
+    {
+      "claim": "How degree days are calculated",
+      "detail": "Base temperature 65°F. Mean temperature is the average of the high and low. HDD = 65 minus the mean when the mean is below 65°F; CDD = mean minus 65 when above. Example: high 33°F, low 25°F, mean 29°F, 65 - 29 = 36 HDD. Example: high 90°F, low 66°F, mean 78°F, 78 - 65 = 13 CDD. Daily values are summed to compare months and seasons.",
+      "source_url": "https://www.eia.gov/energyexplained/units-and-calculators/degree-days.php",
+      "source_title": "Degree days | U.S. EIA"
+    },
+    {
+      "claim": "Seasonal price variation",
+      "detail": "Prices are usually highest in the summer when total demand is high. 2025 average residential price 17.30 cents per kWh.",
+      "source_url": "https://www.eia.gov/energyexplained/electricity/prices-and-factors-affecting-prices.php",
+      "source_title": "Electricity prices and factors affecting prices | U.S. EIA"
+    },
+    {
+      "claim": "Heat pump auxiliary heat after setback",
+      "detail": "Auxiliary heat (often electric resistance strip heat) can also be activated if the thermostat setpoint is increased and the heat pump takes a long time to reach it; in the morning after a night setback, auxiliary heat will activate and negate the efficiency gains of the setback. It is often recommended to set the thermostat at one temperature and leave it alone. Many codes require controls that keep auxiliary heat off until outdoor temperature is below a threshold, commonly around 35°F. Typical heat pumps have a COP of 2-5.",
+      "source_url": "https://bsesc.energy.gov/sites/default/files/2024-08/Introduction%20to%20Heat%20Pumps%20Level%202%20-%20Lecture%20Notes%20%26%20Problem%20Sets.docx",
+      "source_title": "Introduction to Heat Pumps, Level 2 Lecture Notes | DOE Building Science Education Solution Center"
+    },
+    {
+      "claim": "Auxiliary heat lockout setting",
+      "detail": "Energy Trust of Oregon's 2025 specifications require the heat pump control to be able to lock out supplemental/auxiliary electric heat at 35°F, set at or below 35°F. Resistance strips consume substantially more energy than the heat pump, raising utility costs when they run.",
+      "source_url": "https://insider.energytrust.org/auxiliary-heat-lockout-settings-vital-to-energy-efficient-operation-of-heat-pump-equipment/",
+      "source_title": "Auxiliary heat lockout settings vital to energy-efficient operation of heat pump equipment | Energy Trust Insider"
+    },
+    {
+      "claim": "Meter tests and high-bill complaints (Maryland)",
+      "detail": "Contact the utility first; it is required by law to assist. Under COMAR, upon request and at no charge the utility shall test the meter's accuracy, not more often than once in 18 months. A PSC referee test costs $10, refunded if the meter is outside the 98%-102% accuracy requirement. Estimated readings must be marked on the bill; if an estimate is way out of line you can ask to cancel it, and the next bill will cover two months.",
+      "source_url": "https://www.psc.state.md.us/wp-content/uploads/Billing-Disputes.pdf",
+      "source_title": "Billing Disputes FAQ | Maryland Public Service Commission"
+    },
+    {
+      "claim": "Emergency/aux heat is resistance heat and costs more",
+      "detail": "Emergency heat, also known as auxiliary heat, refers to electric resistance heating. Using EMERGENCY HEAT or AUX mode can significantly increase your electric bill compared to regular HEAT mode. Only manually switch to EMERGENCY HEAT if your heat pump is malfunctioning.",
+      "source_url": "https://www.electricities.com/newsroom/articles/understanding-emergency-heat-what-you-need-to-know/",
+      "source_title": "Understanding Emergency Heat: What You Need to Know | ElectriCities of North Carolina"
+    }
+  ],
+  "real_questions": [
+    "My bill doubled but nothing changed. Is the meter wrong?",
+    "Why is this month higher than last month when the weather felt the same?",
+    "Does my heat pump's aux heat explain a winter spike?",
+    "How do I find what's running all night?",
+    "Can I make the utility check my meter?"
+  ],
+  "original_asset": {
+    "type": "worked_example",
+    "spec": "Three-ratio worked example: kWh per billing day, dollars per kWh, and kWh per degree day, comparing a hypothetical bill with the same period last year, using EIA's degree-day definition and SaskPower/Manitoba Hydro billing-period lengths; followed by a decision table routing each result to a cause."
+  },
+  "cautions": [
+    "Do not reset a tripped breaker on heat strips repeatedly; call a technician.",
+    "Meter-test rules and fees are state-specific; Maryland is an example, not a national rule.",
+    "Space heater use: keep clearances and plug directly into the wall."
+  ],
+  "sources": {
+    "https://saskpower.com/accounts/billing/understanding-power-use/bill-higher-than-normal": "Why is my bill higher than normal? | SaskPower",
+    "https://www.hydro.mb.ca/account/billing/reasons-for-a-high-bill/": "Reasons for a high bill | Manitoba Hydro",
+    "https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php": "Electricity use in homes | U.S. EIA",
+    "https://www.eia.gov/energyexplained/units-and-calculators/degree-days.php": "Degree days | U.S. EIA",
+    "https://www.eia.gov/energyexplained/electricity/prices-and-factors-affecting-prices.php": "Electricity prices and factors affecting prices | U.S. EIA",
+    "https://bsesc.energy.gov/sites/default/files/2024-08/Introduction%20to%20Heat%20Pumps%20Level%202%20-%20Lecture%20Notes%20%26%20Problem%20Sets.docx": "Introduction to Heat Pumps, Level 2 Lecture Notes | DOE Building Science Education Solution Center",
+    "https://insider.energytrust.org/auxiliary-heat-lockout-settings-vital-to-energy-efficient-operation-of-heat-pump-equipment/": "Auxiliary heat lockout settings vital to energy-efficient operation of heat pump equipment | Energy Trust Insider",
+    "https://www.psc.state.md.us/wp-content/uploads/Billing-Disputes.pdf": "Billing Disputes FAQ | Maryland Public Service Commission",
+    "https://www.electricities.com/newsroom/articles/understanding-emergency-heat-what-you-need-to-know/": "Understanding Emergency Heat: What You Need to Know | ElectriCities of North Carolina"
+  }
+}

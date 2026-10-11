@@ -2,8 +2,9 @@
 title: How Much Does It Cost to Run a Space Heater for 8 Hours?
 slug: cost-to-run-space-heater-8-hours
 date: '2026-10-02'
-description: A typical 1,500-watt space heater costs roughly $0.25-$1.20 for 8 hours
-  depending on your electric rate. See the math and how it compares to central heat.
+updated: '2026-10-11'
+enriched: '2026-10-11'
+description: 'A 1,500-watt heater on high for 8 hours uses 12 kWh: about $2.04 at 17 cents. See the math, the same heat from gas or a heat pump, and the overnight safety rule.'
 tags:
 - energy savings
 - space heaters
@@ -14,94 +15,123 @@ hero_image: /images/cost-to-run-space-heater-8-hours-hero.svg
 hero_alt: A space heater glowing in a room corner, representing the cost of running
   it for 8 hours
 pin_hooks:
-- 'Space Heater Math: What 8 Hours Really Costs'
-- 1500W Heater for 8 Hours = This Much on Your Bill
+- '8 hours at 1,500 W = 12 kWh. Here is the math'
+- Space heater vs. furnace vs. heat pump, priced out
 ---
 
-# How Much Does It Cost to Run a Space Heater for 8 Hours?
+A space heater running at 1,500 watts for 8 straight hours uses 12 kWh, which costs about $2.04 at 17 cents per kWh. Depending on your state's rate, the same 8 hours runs from about $1.32 to $4.80. Whether that's a bargain depends on what the heater lets you turn down.
 
-A typical 1,500-watt space heater costs **$1.32 to $3.60** to run flat-out for 8 hours at common US electricity rates (11¢ to 30¢ per kWh). That's the number to plan around. If the heater cycles on and off with a thermostat rather than running at full power the whole time, the real cost will land somewhere below that full-power figure — but without a logged duty cycle, the full-power number is the honest, defensible estimate.
+The heater's price tag isn't the useful number. The useful one is what the same amount of heat would cost from your furnace or heat pump, and the comparison below shows it.
 
-The math depends on two variables — wattage and your price per kilowatt-hour — which both vary a lot by household and region. Below is the formula so you can plug in your own numbers, plus when a space heater actually saves money versus when it quietly costs more than just running the furnace.
+## The math for your heater and your rate
 
-## The Formula (and Why It's Not One Number)
+The formula, from the Department of Energy and in the site's fact registry, is:
 
-Electricity cost follows a simple formula: watts × hours ÷ 1000 × price per kWh. (For the full explanation of this formula and how to apply it to any appliance, see [which appliance in your house is quietly using the most electricity](https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html).)
+**watts × hours ÷ 1,000 × price per kWh = cost**
 
-A space heater's wattage is printed on the unit or its box, usually 750, 1,000, 1,500, or adjustable between those. The US average residential electricity price is roughly 17 to 18 cents per kWh, but it ranges from about 11 cents in some states to over 40 cents in others — so "average" figures you see online can be off by a factor of three for your actual bill.
+For a heater set to 1,500 watts:
 
-Here's the math at the most common wattage, 1,500 watts, run for 8 hours straight:
+- 1,500 × 8 ÷ 1,000 = 12 kWh
+- 12 kWh × $0.17 = $2.04
 
-- 1,500 watts × 8 hours ÷ 1000 = 12 kWh
-- At 11¢/kWh: 12 × 0.11 = **$1.32**
-- At 17¢/kWh: 12 × 0.17 = **$2.04**
-- At 30¢/kWh: 12 × 0.30 = **$3.60**
+US residential electricity averages roughly 17–18 cents per kWh, according to EIA data, but it ranges from about 11 cents to over 40 cents by state. That spread moves the answer more than anything else:
 
-That $1.32–$3.60 range assumes the heater is drawing full power for all 8 hours. In practice, a thermostat-controlled heater cycles on and off once a room hits its target temperature, the same way a furnace or AC compressor does, so actual draw is lower than this worst-case math. But how much lower depends entirely on your room size, insulation, thermostat setting, and the outdoor temperature that night — there's no single duty-cycle percentage that applies across homes, and quoting one here would be a guess dressed up as a fact. If you want your real number instead of an estimate, the watt-meter method in the "Getting Your Real Number" section below will give you an actual duty cycle for your room, not a borrowed one.
-
-![Chart comparing 8-hour space heater costs at different wattages and electricity rates](/images/cost-to-run-space-heater-8-hours-inline.svg)
-
-## Cost by Wattage: A Quick Reference
-
-Use this table to estimate your own 8-hour cost. Find your heater's wattage, find your rate (check a recent electric bill for your actual per-kWh price), and read across.
-
-| Wattage | kWh in 8 hrs (running full-time) | Cost at 11¢/kWh | Cost at 17¢/kWh | Cost at 30¢/kWh |
+| Setting | kWh in 8 hours | at 11¢ | at 17¢ | at 40¢ |
 |---|---|---|---|---|
-| 750W (low setting) | 6.0 kWh | $0.66 | $1.02 | $1.80 |
-| 1,000W | 8.0 kWh | $0.88 | $1.36 | $2.40 |
-| 1,500W (most common) | 12.0 kWh | $1.32 | $2.04 | $3.60 |
-| 1,800W (larger units) | 14.4 kWh | $1.58 | $2.45 | $4.32 |
+| 750 W (low) | 6 | $0.66 | $1.02 | $2.40 |
+| 1,500 W (high) | 12 | $1.32 | $2.04 | $4.80 |
 
-These are full-power, full-time numbers — a true worst case. A heater cycling on a thermostat in a small, well-insulated bedroom will cost less than this; one running wide open in a drafty garage will land close to it. Use the table as your ceiling, not your expected bill.
+Over a month of daily 8-hour sessions at 1,500 W, that's 12 × 30 = 360 kWh. At 17 cents, 360 × $0.17 = $61.20.
 
-## Space Heater vs. Central Heat: Which Actually Costs Less?
+These figures are a ceiling. The wattage on the label is the maximum draw, and a heater with a working thermostat cycles off once the room warms up. How often it cycles depends on the room, the setting, and the weather, so no single percentage applies. A plug-in watt meter measures your actual kWh over a session. Then multiply by your rate.
 
-This is the real decision most people are trying to make, not just "what does the heater itself cost." The honest answer: it depends on how much of the house you're trying to heat.
+For a real-world reference point, BC Hydro estimates that a 1,400-watt heater used an average of four hours a day costs about $19 a month on its rates.
 
-**A space heater usually wins when:**
-- You're heating one occupied room (a home office, a bedroom at night) and keeping the rest of the house cooler
-- Your furnace is gas or oil and reasonably efficient, but you don't need the whole house warm just for one person in one room
-- You already keep your thermostat set low as a baseline and the heater tops up just the room you're in
+## Does the type of heater change the cost?
 
-**Central heat usually wins when:**
-- More than one or two rooms need warming
-- You're running multiple space heaters to cover a whole floor — at that point you're often spending more than the furnace would have cost
-- Your home is older or drafty, so a space heater is fighting a losing battle against heat loss through walls, windows, and gaps that caulk or weatherstripping could fix for a one-time cost instead of a nightly one
+Not per kWh. Every electric resistance heater, whether ceramic, oil-filled, or infrared, turns electricity into heat at about 100% efficiency, as ElectriCities of North Carolina puts it. A 1,500-watt oil-filled radiator and a 1,500-watt ceramic fan heater produce the same heat from the same electricity.
 
-A space heater only pays off as a strategy if you're also lowering the thermostat for the rest of the house while it runs — heat the person, not the empty rooms. If you keep the whole house at 70°F *and* run a space heater in one room, you're paying for both. For the specific setback numbers and savings math behind that strategy, see [the right thermostat settings for every season](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html) (the same on/off setback logic applies to heat as to AC).
+What differs is how the heat reaches you, and that changes how long you'll run it. BC Hydro's comparison:
 
-## Gas vs. Electric: The Comparison Gets Murkier
+| Type | How it heats | Best fit |
+|---|---|---|
+| Convection (electric or ceramic) | Instant heat, none after it shuts off; fan can be noisy | Only effective in small spaces |
+| Radiant oil-filled | Slow to warm up; radiates heat long after it's turned off | A room you'll stay in for hours |
+| Infrared | Instant, focused heat on what's directly in front of it | Warming you at a desk, not the room |
 
-If your home heats with natural gas, a space heater's electric cost can look expensive by comparison. A rough way to compare them on equal footing: natural gas is billed in therms, and 1 therm contains roughly 29.3 kWh of heat energy. Residential gas prices vary by region and season — check the [EIA's natural gas residential price data](https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm) for the current figure in your area rather than relying on a national average here. As a ballpark, US residential gas has recently run somewhere in the neighborhood of $1.20–$1.60 per therm, which would put the cost of gas heat energy at roughly 4–5.5 cents per kWh-equivalent — but treat that as a rough planning figure to verify against current EIA data, not a precise conversion. Furnace efficiency losses push the effective usable-heat cost somewhat higher (a furnace at 80–95% efficient effectively raises that range to roughly 4.5–7 cents per usable kWh).
+An infrared heater aimed at your desk can let you sit comfortably with it on low or for fewer hours. It isn't more efficient per kWh. It just heats you instead of the air.
 
-Compare that approximate range to the 11–30 cents per kWh an electric space heater draws directly, and gas heat is typically several times cheaper per unit of usable heat — the exact multiple depends on your specific gas rate, electric rate, and furnace efficiency, so it's worth checking your own bills rather than assuming a fixed ratio.
+## Space heater vs. furnace vs. heat pump: the same heat, priced three ways
 
-That gap is why running a 1,500-watt heater all winter in a gas-heated home rarely saves money unless you're also meaningfully lowering the thermostat elsewhere, confining the heater to one small room, and only using it for the hours you're actually in that room.
+12 kWh of heat is 12 × 3,412 = 40,944 Btu, using EIA's conversion of 3,412 Btu per kWh. Here's what that much heat costs from each source.
 
-If your home heats with electric resistance heat (baseboards, an electric furnace) or a heat pump, the comparison is closer, because you're paying the same per-kWh rate either way — the question becomes how many square feet each system is heating per dollar, not which fuel is cheaper.
+**Space heater (electric resistance):** 12 kWh × $0.17 = **$2.04**
 
-## A Note on Overnight Safety
+**Gas furnace:** DOE's building-science training material gives a typical gas furnace a COP of 0.8. COP (coefficient of performance) is heat delivered per unit of energy used, so 0.8 means 80% of the gas's energy reaches the house. EIA lists 1,036 Btu per cubic foot of natural gas and a February 2026 US residential price of $14.95 per thousand cubic feet (Mcf).
 
-If you're running a space heater for 8 hours unattended or while sleeping, the cost math matters less than the basics: use a unit with a tip-over shutoff and overheat protection, plug it directly into a wall outlet rather than an extension cord or power strip, and keep it at least three feet from bedding, curtains, furniture, and anything else flammable. These are standard precautions on any modern space heater's packaging, but they're easy to skip in practice — and they matter more over an unattended 8-hour stretch than any dollar figure in this article.
+- Gas needed: 40,944 ÷ 0.8 = 51,180 Btu
+- In cubic feet: 51,180 ÷ 1,036 = about 49.4 cubic feet, or 0.0494 Mcf
+- Cost: 0.0494 × $14.95 = **about $0.74**
 
-## Why One Room Runs Cold in the First Place
+If your bill is in therms, use EIA's 100,000 Btu per therm. 51,180 Btu is about 0.51 therm, so multiply 0.51 by your price per therm.
 
-Before reaching for a space heater nightly, it's worth asking why a room needs supplemental heat at all. A chronically cold room is often a sign of a duct problem, poor insulation, or air leaks rather than something a heater should be masking long-term. If one room in your house is consistently colder than the rest, [the common causes and fixes are covered here](https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html) — sometimes the real fix costs less over a winter than the electricity a nightly heater uses.
+**Heat pump:** The same DOE material gives typical heat pumps a COP of 2 to 5.
 
-Gaps around windows, doors, and where pipes or wiring pass through exterior walls are common heat-loss points that a tube of caulk can address for a few dollars, one time, instead of a few dollars every night. See [Caulking 101](https://www.hearth-habit.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html) for where to look.
+- At COP 2: 12 ÷ 2 = 6 kWh × $0.17 = **$1.02**
+- At COP 5: 12 ÷ 5 = 2.4 kWh × $0.17 = **about $0.41**
 
-## Getting Your Real Number
+![Bar chart of the cost of the same 12 kWh of heat: space heater $2.04, heat pump at COP 2 $1.02, gas furnace $0.74, heat pump at COP 5 $0.41](/images/cost-to-run-space-heater-8-hours-inline.svg)
 
-The table above uses typical US rates, but the only way to know your exact cost is to check your own electric bill for the per-kWh price and apply it to your heater's wattage using the formula above. For an actual duty-cycle read — rather than a guess — a plug-in watt meter ($15-$25) measures real draw over the course of a night instead of relying on the nameplate maximum. The full method for using one, along with the general formula, is in [which appliance in your house is quietly using the most electricity](https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html).
+Check your gas price against a winter month. EIA's table shows the US residential average at $24.09 per Mcf in June 2026 and $26.45 in July, far above February's $14.95. Use a winter price, or the one on your own bill.
 
-If a bill jumped and you're not sure a space heater is the reason, a broader checklist for tracking down the cause lives at [why is my electric bill so high](https://www.hearth-habit.com/2026/09/why-is-my-electric-bill-so-high-step-by.html).
+### So when does a space heater save money?
 
-## The Bottom Line on Running One Overnight
+Per unit of heat, a space heater costs more than gas or a heat pump. The only way it saves money is by heating less of the house. It pays off when:
 
-Plan around **$1.32 to $3.60** for a single 1,500-watt heater run for 8 hours at typical US electricity prices — that's the full-power math, and it's the safest number to budget with. If the heater is thermostat-controlled in a small, well-insulated room, your actual cost will likely come in under that ceiling, but only a watt meter on your specific setup will tell you by how much. The habit that actually saves money isn't finding a lower hypothetical number — it's pairing the heater with a reduced whole-house thermostat setting, not running both systems at full tilt at once. And whatever the cost turns out to be, run it on a heater with tip-over and overheat protection, plugged straight into the wall, clear of anything flammable.
+- **You turn the central thermostat down while it runs.** DOE's figure is that turning the thermostat back 7–10°F for 8 hours a day can save up to about 10% a year on heating and cooling. Running a space heater with the house still at full temperature means paying for both.
+- **It's one small, closed room.** BC Hydro says to use space heaters only for a small room or space, for short periods, with doors and windows closed.
+- **You'd otherwise run the whole system for one person.** A home office through a workday is the classic case.
+
+It doesn't pay off when you're running several heaters to cover a floor, or using one every day to make up for a room that's always cold. The [guide to why one room stays colder](https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html) covers the duct, insulation, and air-leak causes that a heater only covers up. If you have a heat pump, see the backup-heat section of [the electric bill checklist](https://www.hearth-habit.com/2026/09/why-is-my-electric-bill-so-high-step-by.html). A deep setback on a heat pump can trigger expensive strip heat.
+
+## If your 8 hours are overnight, read this first
+
+Many people search this question because they want to run a heater all night. The fire-safety guidance says not to.
+
+- The US Fire Administration says to **turn space heaters off when leaving the room or going to bed**.
+- BC Hydro says don't leave one running unattended or while you're asleep.
+- Portable heaters cause few fires but a disproportionate share of deaths. The USFA reports that they were 3% of home heating fires in 2017–2019 but accounted for 41% of fatal home heating fires.
+
+The other rules from both agencies:
+
+- Keep anything that can burn at least 3 feet away (USFA).
+- Plug it directly into a wall outlet, not an extension cord (BC Hydro).
+- Choose a model with tip-over and overheat protection (BC Hydro).
+- Set it on a level, hard surface away from blankets and drapes (BC Hydro).
+
+To take the chill off a bedroom, run the heater while you're awake in the room, then switch it off at bedtime. For the hours you're asleep, the [thermostat settings guide](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html) covers night setbacks for the whole house.
+
+## FAQ
+
+### Is eco mode or the heater's thermostat worth using?
+
+Yes. The cost table assumes the heater draws full power for all 8 hours. Any time the thermostat cycles it off cuts the bill in proportion. A watt meter will show your real kWh.
+
+### Will a space heater show up on my electric bill?
+
+Yes, plainly. At 1,500 W for 8 hours a day, the math above comes to 360 kWh a month. If you're trying to work out what else is driving a high bill, the guide to [which appliance is quietly using the most electricity](https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html) ranks the other big users.
+
+### My house has electric baseboard heat. Is a space heater cheaper?
+
+Both are electric resistance heat at the same price per kWh, so neither makes heat more cheaply. A space heater only saves money if it lets you turn the baseboards down in the rest of the house.
 
 ## Sources
-- [Estimating Appliance and Home Electronic Energy Use](https://www.energy.gov/energysaver/estimating-appliance-and-home-electronic-energy-use) — the watts × hours ÷ 1000 × rate formula and nameplate vs. real-use wattage
-- [Electric Power Monthly](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a) — US average and state-range residential electricity prices
-- [Natural Gas Residential Price Data](https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm) — residential price per therm used for the gas-vs-electric heat comparison; check current figures for your region rather than relying on the approximate range cited above
-- [Programmable Thermostats](https://www.energy.gov/energysaver/programmable-thermostats) — DOE's thermostat setback savings estimate referenced for the space-heater strategy comparison
+
+- [British thermal units (Btu) | U.S. EIA](https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php) and [Natural Gas Prices | U.S. EIA](https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm) — Btu per kWh, therm, and cubic foot; 2026 residential gas prices by month
+- [Introduction to Heat Pumps lecture notes | DOE Building Science Education Solution Center](https://bsesc.energy.gov/sites/default/files/2024-08/Introduction%20to%20Heat%20Pumps%20Level%202%20-%20Lecture%20Notes%20%26%20Problem%20Sets.docx) — COP 0.8 for a typical gas furnace and 2–5 for heat pumps
+- [Understanding Emergency Heat | ElectriCities of North Carolina](https://www.electricities.com/newsroom/articles/understanding-emergency-heat-what-you-need-to-know/) — resistance heat is about 100% efficient
+- [Space heaters | BC Hydro](https://www.bchydro.com/powersmart/residential/tips-technologies/space-heaters.html) — heater types, $19-a-month example, small-space use, safety features, don't run while asleep
+- [Heating Fire Safety | U.S. Fire Administration](https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/heating/) — 3-foot clearance, off at bedtime, portable heaters' share of fatal heating fires
+- [Estimating Appliance and Home Electronic Energy Use | DOE](https://www.energy.gov/energysaver/estimating-appliance-and-home-electronic-energy-use) — the cost formula and nameplate wattage as maximum draw
+- [Average Price of Electricity to Ultimate Customers | EIA](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a) — US average residential rate and state range
+- [Programmable Thermostats | DOE Energy Saver](https://www.energy.gov/energysaver/programmable-thermostats) — 7–10°F setback for 8 hours saves up to about 10% a year

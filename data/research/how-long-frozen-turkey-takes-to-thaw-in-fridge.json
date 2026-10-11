@@ -1,0 +1,88 @@
+{
+  "reader_situation": "Someone hosting Thanksgiving with a frozen turkey wants to know what day it has to go into the fridge, and what to do if they're late or it's still icy.",
+  "direct_answer": "Plan on one day of fridge thawing for every 4 pounds (Butterball's rule; Montana State Extension's general rule is 24 hours per 5 pounds), so a 16-pound turkey needs about 4 days and a 20-pound turkey about 5. Once thawed, cook raw poultry within 1 to 2 days. If you're late, thaw in cold water at about 30 minutes per pound with the water changed every 30 minutes and cook it right away, or cook from frozen, which takes about 50% longer.",
+  "consensus": [
+    "Thaw in the refrigerator, about 24 hours per 4-5 pounds.",
+    "Cold water thawing takes about 30 minutes per pound with water changed every 30 minutes.",
+    "Never thaw on the counter.",
+    "A turkey can be cooked from frozen; it takes longer.",
+    "Cook to 165°F."
+  ],
+  "gaps": [
+    "The two published rates differ: Butterball says at least one day per 4 lb, Montana State Extension says at least 24 hours per 5 lb. Schedule with the 4-lb rule; the difference becomes a built-in cushion that still lands inside the 1-2 day window for thawed poultry.",
+    "Thawed is not a fresh start: Montana State Extension says thawed poultry stays safe in the fridge 1-2 days before cooking, matching USDA's raw poultry window; Butterball's page says to use the turkey within four days of thawing, so go with the shorter federal and extension window.",
+    "The fridge itself may be too warm: Ohio State food safety researchers report 43% of observed homes had a refrigerator above 41°F, and only 4-9% of fridges had a thermometer; FDA says keep it at 40°F or below and that few refrigerator controls show actual temperatures.",
+    "Cold-water details: Butterball says thaw breast side down in the unopened wrapper fully submerged, change the water every 30 minutes, and rotate the bird if it can't be fully submerged; Montana State says food thawed this way must be cooked immediately.",
+    "Fridge-thaw details: Butterball says breast side up, in the unopened wrapper, on a tray, fridge at 40°F or below.",
+    "Cooking from frozen takes about 50% longer (Montana State Extension); the 165°F minimum applies to whole and stuffed poultry (FDA).",
+    "Only fridge-thawed food can be refrozen without cooking (Montana State Extension; USDA registry)."
+  ],
+  "evidence": [
+    {
+      "claim": "Butterball fridge thawing",
+      "detail": "Allow at least one day of thawing for every 4 lbs of turkey. Keep the refrigerator at 40°F or below. Thaw breast side up in the unopened wrapper on a tray. Use within four days of thawing. Don't thaw at room temperature.",
+      "source_url": "https://www.butterball.com/how-to/thaw-a-turkey",
+      "source_title": "How to Thaw a Turkey | Butterball"
+    },
+    {
+      "claim": "Butterball cold-water thawing",
+      "detail": "Cold water: breast side down, unopened wrapper, fully submerged; about 30 minutes per pound; change the water every 30 minutes; if not fully submerged, rotate every 30 minutes.",
+      "source_url": "https://www.butterball.com/how-to/thaw-a-turkey",
+      "source_title": "How to Thaw a Turkey | Butterball"
+    },
+    {
+      "claim": "Extension fridge thaw rate, thawed window, refreezing",
+      "detail": "Frozen foods require at least one day (24 hours) to thaw for every 5 pounds of weight. After thawing, ground meat, stew meat, poultry, and seafood stay safe in the refrigerator for 1-2 days before cooking. Foods thawed in the refrigerator may be refrozen without cooking.",
+      "source_url": "https://www.montana.edu/extension/buyeatlivebetter/other_nep_resources/fact_sheets/safethawingpractices/",
+      "source_title": "Safe Thawing Practices | Montana State University Extension"
+    },
+    {
+      "claim": "Extension cold water, microwave, cooking from frozen",
+      "detail": "Cold water: leak-proof packaging, change the water every 30 minutes, a whole turkey takes about 30 minutes per pound; if thawed completely, cook immediately. Microwave-thawed food must be cooked right away. Cooking frozen food takes about 50% longer than fully thawed or fresh food.",
+      "source_url": "https://www.montana.edu/extension/buyeatlivebetter/other_nep_resources/fact_sheets/safethawingpractices/",
+      "source_title": "Safe Thawing Practices | Montana State University Extension"
+    },
+    {
+      "claim": "Safe minimum cooking temperature and thawing methods",
+      "detail": "Poultry (ground, parts, whole, and stuffed): 165°F measured with a food thermometer. Don't thaw food on the counter; thaw in the refrigerator, in cold water, or in the microwave; food thawed in cold water or the microwave should be cooked right away. Refrigerate perishables within 2 hours (1 hour above 90°F).",
+      "source_url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+      "source_title": "Safe Food Handling | FDA"
+    },
+    {
+      "claim": "Refrigerator temperature",
+      "detail": "Keep the refrigerator at 40°F or below and the freezer at 0°F. Few refrigerator controls show actual temperatures, so use a freestanding appliance thermometer and check it often.",
+      "source_url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety",
+      "source_title": "Refrigerator Thermometers: Cold Facts about Food Safety | FDA"
+    },
+    {
+      "claim": "Home fridges often run warm",
+      "detail": "Almost half (43%) of observed homes had a refrigerator that was too warm (>41°F). Just 4-9% of domestic refrigerators were observed to have a thermometer. Keep the home refrigerator at or below 40°F as measured with a thermometer.",
+      "source_url": "https://foodsafety.osu.edu/news/nobody-likes-cold-including-bacteria",
+      "source_title": "Nobody likes cold, including bacteria | Ohio State University Food Safety"
+    }
+  ],
+  "real_questions": [
+    "What day do I put the turkey in the fridge for Thanksgiving?",
+    "It's been in the fridge for days and is still icy inside. What now?",
+    "How long can a thawed turkey stay in the fridge?",
+    "Can I thaw it in a cooler or the garage?",
+    "Can I cook a turkey that's still partly frozen?"
+  ],
+  "original_asset": {
+    "type": "schedule",
+    "spec": "Thanksgiving thaw schedule by weight (12-24 lb) using Butterball's 1 day per 4 lb, rounded up, with the 'into the fridge by' day for a Thursday cook, the Montana 5-lb-rule finish as a cushion check against the 1-2 day thawed window, and a cold-water time column (30 min/lb)."
+  },
+  "cautions": [
+    "Never thaw on the counter; 2-hour rule (registry).",
+    "Cold-water or microwave thawed turkey must be cooked immediately and cooked before refreezing (registry).",
+    "Safety is time and temperature, not smell (registry).",
+    "Cook to 165°F measured with a thermometer, including stuffing."
+  ],
+  "sources": {
+    "https://www.butterball.com/how-to/thaw-a-turkey": "How to Thaw a Turkey | Butterball",
+    "https://www.montana.edu/extension/buyeatlivebetter/other_nep_resources/fact_sheets/safethawingpractices/": "Safe Thawing Practices | Montana State University Extension",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling": "Safe Food Handling | FDA",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety": "Refrigerator Thermometers: Cold Facts about Food Safety | FDA",
+    "https://foodsafety.osu.edu/news/nobody-likes-cold-including-bacteria": "Nobody likes cold, including bacteria | Ohio State University Food Safety"
+  }
+}

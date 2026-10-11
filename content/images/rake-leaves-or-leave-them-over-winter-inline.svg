@@ -1,74 +1,58 @@
 <svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
   <rect width="1200" height="630" fill="#F6EFE6"/>
+  <text x="600" y="78" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="bold" fill="#2E2A24">Can You See the Grass?</text>
 
-  <text x="600" y="60" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="38" fill="#2E2A24" font-weight="bold">Rake or Leave the Leaves?</text>
+  <!-- Column 1: light cover -->
+  <rect x="60" y="120" width="330" height="230" rx="16" fill="#E4C7B2"/>
+  <rect x="60" y="270" width="330" height="80" rx="0" fill="#5C6E58"/>
+  <g fill="#5C6E58">
+    <rect x="80" y="230" width="6" height="40"/><rect x="100" y="222" width="6" height="48"/><rect x="120" y="230" width="6" height="40"/>
+    <rect x="140" y="224" width="6" height="46"/><rect x="160" y="230" width="6" height="40"/><rect x="180" y="222" width="6" height="48"/>
+    <rect x="200" y="230" width="6" height="40"/><rect x="220" y="224" width="6" height="46"/><rect x="240" y="230" width="6" height="40"/>
+    <rect x="260" y="222" width="6" height="48"/><rect x="280" y="230" width="6" height="40"/><rect x="300" y="224" width="6" height="46"/>
+    <rect x="320" y="230" width="6" height="40"/><rect x="340" y="222" width="6" height="48"/><rect x="360" y="230" width="6" height="40"/>
+  </g>
+  <ellipse cx="150" cy="262" rx="22" ry="9" fill="#B85C38"/>
+  <ellipse cx="290" cy="264" rx="22" ry="9" fill="#D9A441"/>
+  <text x="225" y="175" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">10–20% covered</text>
 
-  <!-- Start node -->
-  <rect x="490" y="95" width="220" height="70" rx="12" fill="#5C6E58"/>
-  <text x="600" y="137" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#F6EFE6">Check Your Lawn</text>
+  <!-- Column 2: moderate cover -->
+  <rect x="435" y="120" width="330" height="230" rx="16" fill="#E4C7B2"/>
+  <rect x="435" y="270" width="330" height="80" fill="#5C6E58"/>
+  <g fill="#5C6E58">
+    <rect x="465" y="222" width="6" height="48"/><rect x="505" y="224" width="6" height="46"/><rect x="545" y="222" width="6" height="48"/>
+    <rect x="585" y="224" width="6" height="46"/><rect x="625" y="222" width="6" height="48"/><rect x="665" y="224" width="6" height="46"/>
+    <rect x="705" y="222" width="6" height="48"/><rect x="740" y="224" width="6" height="46"/>
+  </g>
+  <ellipse cx="490" cy="262" rx="22" ry="9" fill="#B85C38"/>
+  <ellipse cx="530" cy="258" rx="22" ry="9" fill="#D9A441"/>
+  <ellipse cx="610" cy="262" rx="22" ry="9" fill="#B85C38"/>
+  <ellipse cx="650" cy="256" rx="22" ry="9" fill="#D9A441"/>
+  <ellipse cx="725" cy="262" rx="22" ry="9" fill="#B85C38"/>
+  <text x="600" y="175" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Grass still visible</text>
 
-  <!-- connectors from start to 4 branches -->
-  <path d="M 490 150 Q 300 190 175 225" fill="none" stroke="#2E2A24" stroke-width="3"/>
-  <path d="M 545 165 Q 470 195 420 225" fill="none" stroke="#2E2A24" stroke-width="3"/>
-  <path d="M 655 165 Q 730 195 780 225" fill="none" stroke="#2E2A24" stroke-width="3"/>
-  <path d="M 710 150 Q 900 190 1025 225" fill="none" stroke="#2E2A24" stroke-width="3"/>
+  <!-- Column 3: covered -->
+  <rect x="810" y="120" width="330" height="230" rx="16" fill="#E4C7B2"/>
+  <rect x="810" y="270" width="330" height="80" fill="#5C6E58"/>
+  <rect x="810" y="226" width="330" height="48" fill="#B85C38"/>
+  <ellipse cx="870" cy="228" rx="34" ry="12" fill="#D9A441"/>
+  <ellipse cx="960" cy="224" rx="34" ry="12" fill="#B85C38"/>
+  <ellipse cx="1050" cy="228" rx="34" ry="12" fill="#D9A441"/>
+  <ellipse cx="1110" cy="230" rx="24" ry="10" fill="#B85C38"/>
+  <text x="975" y="175" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Can't see the grass</text>
 
-  <!-- Arrowhead markers as small triangles -->
-  <polygon points="175,225 165,210 185,215" fill="#2E2A24"/>
-  <polygon points="420,225 410,210 430,215" fill="#2E2A24"/>
-  <polygon points="780,225 770,210 790,215" fill="#2E2A24"/>
-  <polygon points="1025,225 1015,210 1035,215" fill="#2E2A24"/>
+  <!-- Arrows -->
+  <g fill="#2E2A24">
+    <rect x="221" y="365" width="8" height="45"/><polygon points="205,408 245,408 225,438"/>
+    <rect x="596" y="365" width="8" height="45"/><polygon points="580,408 620,408 600,438"/>
+    <rect x="971" y="365" width="8" height="45"/><polygon points="955,408 995,408 975,438"/>
+  </g>
 
-  <!-- Branch 1: Leaf Depth Under 2 Inches -->
-  <circle cx="175" cy="255" r="26" fill="#D9A441"/>
-  <text x="175" y="264" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24" font-weight="bold">1</text>
-  <rect x="55" y="300" width="240" height="90" rx="12" fill="#E4C7B2"/>
-  <text x="175" y="335" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2E2A24">Leaf Depth Under</text>
-  <text x="175" y="365" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2E2A24">2 Inches</text>
-
-  <path d="M 175 390 L 175 440" stroke="#2E2A24" stroke-width="3"/>
-  <polygon points="175,450 166,432 184,432" fill="#2E2A24"/>
-  <rect x="55" y="455" width="240" height="80" rx="12" fill="#5C6E58"/>
-  <text x="175" y="490" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#F6EFE6">Mulch in</text>
-  <text x="175" y="518" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#F6EFE6">Place</text>
-
-  <!-- Branch 2: Over 3 Inches -->
-  <circle cx="420" cy="255" r="26" fill="#D9A441"/>
-  <text x="420" y="264" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24" font-weight="bold">2</text>
-  <rect x="300" y="300" width="240" height="90" rx="12" fill="#E4C7B2"/>
-  <text x="420" y="335" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2E2A24">Leaf Depth Over</text>
-  <text x="420" y="365" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2E2A24">3 Inches</text>
-
-  <path d="M 420 390 L 420 440" stroke="#2E2A24" stroke-width="3"/>
-  <polygon points="420,450 411,432 429,432" fill="#2E2A24"/>
-  <rect x="300" y="455" width="240" height="80" rx="12" fill="#B85C38"/>
-  <text x="420" y="490" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#F6EFE6">Rake or Mulch-Mow</text>
-  <text x="420" y="518" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#F6EFE6">Twice</text>
-
-  <!-- Branch 3: Matted or Wet -->
-  <circle cx="780" cy="255" r="26" fill="#D9A441"/>
-  <text x="780" y="264" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24" font-weight="bold">3</text>
-  <rect x="660" y="300" width="240" height="90" rx="12" fill="#E4C7B2"/>
-  <text x="780" y="335" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2E2A24">Matted or Wet</text>
-  <text x="780" y="365" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2E2A24">Leaves</text>
-
-  <path d="M 780 390 L 780 440" stroke="#2E2A24" stroke-width="3"/>
-  <polygon points="780,450 771,432 789,432" fill="#2E2A24"/>
-  <rect x="660" y="455" width="240" height="80" rx="12" fill="#B85C38"/>
-  <text x="780" y="490" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#F6EFE6">Remove</text>
-  <text x="780" y="518" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#F6EFE6">Entirely</text>
-
-  <!-- Branch 4: Grass Still Visible -->
-  <circle cx="1025" cy="255" r="26" fill="#D9A441"/>
-  <text x="1025" y="264" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24" font-weight="bold">4</text>
-  <rect x="905" y="300" width="240" height="90" rx="12" fill="#E4C7B2"/>
-  <text x="1025" y="330" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2E2A24">Grass Still Visible</text>
-  <text x="1025" y="358" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#2E2A24">Through Leaves</text>
-
-  <path d="M 1025 390 L 1025 440" stroke="#2E2A24" stroke-width="3"/>
-  <polygon points="1025,450 1016,432 1034,432" fill="#2E2A24"/>
-  <rect x="905" y="455" width="240" height="80" rx="12" fill="#5C6E58"/>
-  <text x="1025" y="490" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#F6EFE6">Safe to</text>
-  <text x="1025" y="518" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#F6EFE6">Leave</text>
-
+  <!-- Actions -->
+  <rect x="60" y="455" width="330" height="100" rx="16" fill="#5C6E58"/>
+  <text x="225" y="515" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="bold" fill="#F6EFE6">Leave them</text>
+  <rect x="435" y="455" width="330" height="100" rx="16" fill="#D9A441"/>
+  <text x="600" y="515" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="bold" fill="#2E2A24">Mow them in</text>
+  <rect x="810" y="455" width="330" height="100" rx="16" fill="#B85C38"/>
+  <text x="975" y="515" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="27" font-weight="bold" fill="#F6EFE6">Shred or move them</text>
 </svg>

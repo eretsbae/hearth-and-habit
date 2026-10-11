@@ -1,0 +1,56 @@
+{
+  "reader_situation": "Someone's dishwasher smells sour, musty, or like rotten food, and running it empty with detergent didn't help. They want to know where the smell is coming from and what actually removes it.",
+  "direct_answer": "An empty run doesn't reach the places the smell comes from: food trapped in the filter (which has to be removed and rinsed by hand), grime on the door gaskets and the bottom front of the tub, and residue left by low-temperature cycles. Clean the filter, wipe the gaskets and tub bottom, then run a hot cleaning cycle with a dishwasher cleaner.",
+  "consensus": [
+    "Clean the dishwasher filter",
+    "Wipe the door gasket",
+    "Run a cycle with vinegar or a dishwasher cleaner",
+    "Check the drain hose and garbage disposal for clogs",
+    "Leave the door open to dry"
+  ],
+  "gaps": [
+    "Filter frequency is about monthly, every two weeks with heavy use (Whirlpool); odors are one of Whirlpool's listed signs the filter needs cleaning. The filter has to be removed (upper assembly quarter-turn counterclockwise on Whirlpool models) and rinsed under running water; Bosch says to use a soft brush and nothing abrasive.",
+    "A little standing water is normal: Whirlpool says water about halfway up the filter area is normal; it keeps the seals from drying out and is replaced at the start of the next cycle. More than that points to a blocked filter, a blocked pump, or a kinked or twisted drain hose (Bosch).",
+    "Temperature matters: Bosch lists insufficient rinse temperature as an odor cause and recommends a higher-temperature program; its maintenance wash runs at a minimum of 65 C (149 F) with cleaning powder every 4-6 months. Whirlpool says to run the kitchen faucet until hot before starting a load because extra time is needed to heat water for cleaning and sanitizing; Frigidaire recommends a water heater set to a minimum of 120 degrees.",
+    "Whirlpool says to clean the bottom front of the tub where soils tend to accumulate and to wipe the door gaskets.",
+    "Vinegar is an occasional fix, not a habit: Whirlpool's vinegar rinse is 2 cups (500 mL) of white vinegar in the lower rack on a normal cycle without detergent, but it warns vinegar is an acid and using it too often could damage the dishwasher. Whirlpool recommends its affresh cleaner monthly; Bosch's machine-care interval is 4-6 months.",
+    "Hard water: Whirlpool says extremely hard water deposits can damage the dishwasher and strongly recommends a softener at 15 grains or more; USGS categories run from soft (0-60 mg/L) to very hard (over 180 mg/L).",
+    "Never mix bleach with vinegar or acidic cleaners (registry)."
+  ],
+  "evidence": [
+    {"claim": "Filter cleaning frequency and steps", "detail": "Clean the filter once a month, particularly with frequent use; with heavy use consider every two weeks. Signs: dishes emerging dirty, unpleasant odors from the appliance, visible objects or soils on the filter. Remove the upper filter assembly with a 1/4 turn counterclockwise, lift out the lower filter, rinse under running water, reinstall locked in place.", "source_url": "https://producthelp.whirlpool.com/Dishwashers/Product_Info/Dishwasher_Cleaning_and_Care/How_to_Clean_the_Dishwasher_Filters", "source_title": "How to Clean the Dishwasher Filters | Whirlpool Product Help"},
+    {"claim": "Some standing water is normal", "detail": "It is normal for a small amount of standing water in the filter area, about half way up to the top of the filter area; it keeps the seals from drying out and drains at the start of the next cycle. Clean the upper and lower filters at least once a month.", "source_url": "https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Cycle_Concerns/Not_Draining%2F%2FWater_Remains/Water_Remains_In_Filter_Area_-_Dishwasher", "source_title": "Water Remains In Filter Area - Dishwasher | Whirlpool Product Help"},
+    {"claim": "Odor cleaning steps", "detail": "Clean the interior with a sponge and warm water; clean the bottom front of the tub where soils tend to accumulate; wipe down all surfaces including the door gaskets. Vinegar rinse: 2 cups (500 mL) of white vinegar in the lower rack, normal cycle, dry option off, no detergent. affresh cleaners help remove odors and reach the tub, racks, pump, valves, drain.", "source_url": "https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Other/Cleaning_and_Odor/Odors/Cleaning_the_Dishwasher", "source_title": "Cleaning the Dishwasher (Odors) | Whirlpool Product Help"},
+    {"claim": "Vinegar limits, monthly cleaner, hard water", "detail": "Vinegar is an acid and using it too often could damage your dishwasher. Monthly use of affresh Dishwasher Cleaner is recommended. If cleaning without dishes, one tablet in the detergent dispenser, no detergent. Extremely hard water mineral deposits can damage the dishwasher; a water softener is strongly recommended if hardness is 15 grains or more.", "source_url": "https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Other/Cleaning_and_Odor/Cleaning_and_Maintenance/Cleaning_the_Interior/Cleaning_the_Interior_-_Dishwasher", "source_title": "Cleaning the Interior - Dishwasher | Whirlpool Product Help"},
+    {"claim": "Run hot water before starting", "detail": "Run the hot water faucet nearest the sink until the water is hot, then start the dishwasher; additional time is needed to heat the water to the proper temperature for cleaning and/or sanitizing.", "source_url": "https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Operation/Water_Temperature/Water_Temperature_-_Dishwasher", "source_title": "Water Temperature - Dishwasher | Whirlpool Product Help"},
+    {"claim": "Bosch odor causes and machine care", "detail": "Odours can build up over time, especially around plastic parts; carry out a maintenance wash every 4-6 months depending on use, at a minimum of 65 C, adding maintenance cleaning powder after about 30 minutes. Check the filter isn't blocked; food remnants can trap waste water and cause odours; rinse filters under running water with a soft brush, nothing abrasive. Insufficient rinse temperature: use a higher-temperature programme.", "source_url": "https://www.bosch-home.com/ae/en/customer-service/get-support/dishwasher-smells-bad", "source_title": "Dishwasher smells bad | Bosch Home"},
+    {"claim": "Causes of a dishwasher not draining", "detail": "A blocked filter, a blocked pump, or a kinked or twisted drain hose.", "source_url": "https://www.bosch-home.com/ae/en/customer-service/get-support/dishwasher-not-drain", "source_title": "Dishwasher not draining | Bosch Home"},
+    {"claim": "Water heater setting and rinse aid", "detail": "Frigidaire recommends the water heater be set for a minimum of 120 degrees; let water run in the sink until it's hot to prime the pump; rinse aid helps eliminate spots and residue.", "source_url": "https://owner.frigidaire.com/support-articles/article/1847432-dishwashers-how-can-i-ensure-the-best-cleaning-results-", "source_title": "Dishwashers - How can I ensure the best cleaning results? | Frigidaire"},
+    {"claim": "Hardness categories", "detail": "0-60 mg/L as calcium carbonate soft, 61-120 moderately hard, 121-180 hard, more than 180 very hard; heated hard water forms calcium carbonate deposits.", "source_url": "https://www.usgs.gov/special-topics/water-science-school/science/hardness-water", "source_title": "Hardness of Water | U.S. Geological Survey"}
+  ],
+  "real_questions": [
+    "I ran it empty with vinegar and it still smells; what did I miss?",
+    "Is the water sitting in the bottom of my dishwasher normal?",
+    "Can I use bleach to get rid of the smell?",
+    "How often should I clean the filter?",
+    "Why does it smell like rotten eggs or sewage?"
+  ],
+  "original_asset": {"type": "diagnostic_flow", "spec": "Smell-by-situation table (smell right after a cycle, smell between cycles, standing water above the filter area, white film/hard water, smell from the sink too) with the check and fix from Whirlpool, Bosch, Frigidaire, USGS; plus a cleaning schedule table (each load: hot tap first; every 2-4 weeks: filter by usage; monthly cleaner per Whirlpool vs Bosch 4-6 month hot maintenance wash; occasional 2-cup vinegar rinse, not habitually)."},
+  "cautions": [
+    "Never mix bleach with vinegar, citric acid cleaners, or other acids (registry, Poison Control).",
+    "Unplug or switch off power before reaching into the disposal; never put a hand in the disposer.",
+    "Brand instructions differ (Whirlpool monthly cleaner vs Bosch 4-6 months); tell readers to follow their own manual.",
+    "Hot tap water scalds; the 120 F floor is a minimum for dishwasher performance, not a reason to raise the heater higher."
+  ],
+  "sources": {
+    "https://producthelp.whirlpool.com/Dishwashers/Product_Info/Dishwasher_Cleaning_and_Care/How_to_Clean_the_Dishwasher_Filters": "How to Clean the Dishwasher Filters | Whirlpool Product Help",
+    "https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Cycle_Concerns/Not_Draining%2F%2FWater_Remains/Water_Remains_In_Filter_Area_-_Dishwasher": "Water Remains In Filter Area - Dishwasher | Whirlpool Product Help",
+    "https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Other/Cleaning_and_Odor/Odors/Cleaning_the_Dishwasher": "Cleaning the Dishwasher (Odors) | Whirlpool Product Help",
+    "https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Other/Cleaning_and_Odor/Cleaning_and_Maintenance/Cleaning_the_Interior/Cleaning_the_Interior_-_Dishwasher": "Cleaning the Interior - Dishwasher | Whirlpool Product Help",
+    "https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Operation/Water_Temperature/Water_Temperature_-_Dishwasher": "Water Temperature - Dishwasher | Whirlpool Product Help",
+    "https://www.bosch-home.com/ae/en/customer-service/get-support/dishwasher-smells-bad": "Dishwasher smells bad | Bosch Home",
+    "https://www.bosch-home.com/ae/en/customer-service/get-support/dishwasher-not-drain": "Dishwasher not draining | Bosch Home",
+    "https://owner.frigidaire.com/support-articles/article/1847432-dishwashers-how-can-i-ensure-the-best-cleaning-results-": "Dishwashers - How can I ensure the best cleaning results? | Frigidaire",
+    "https://www.usgs.gov/special-topics/water-science-school/science/hardness-water": "Hardness of Water | U.S. Geological Survey"
+  }
+}

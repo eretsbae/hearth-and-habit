@@ -2,9 +2,8 @@
 title: How to Keep Lettuce and Greens From Wilting in the Fridge
 slug: why-greens-wilt-fast-how-to-store-them
 date: '2026-08-06'
-updated: '2026-09-29'
-description: Dry loose greens well, store them in a towel-lined container in the high-humidity
-  crisper, keep the fridge cold, and don't re-wash ready-to-eat bags.
+updated: '2026-10-11'
+description: Greens keep best at 32–34°F in high humidity. Bagged lettuce lasts about 3 weeks at 32°F but 5–10 days at 41°F. Diagnose limp, slimy, or rusty greens.
 tags:
 - food storage
 - kitchen tips
@@ -16,86 +15,107 @@ hero_image: /images/why-greens-wilt-fast-how-to-store-them-hero.svg
 hero_alt: Leafy greens bundled in a striped kitchen towel beside a glass container
   of greens and an open fridge crisper drawer
 pin_hooks:
-- Store greens in a towel-lined container, not a sealed bag
-- Sturdy greens last 1–2 weeks, delicate ones 5–7 days
+- 'Bagged lettuce: 3 weeks at 32°F, 5–10 days at 41°F'
+- Rusty spots on lettuce? Move it away from the apples
+enriched: '2026-10-11'
 ---
 
-To keep lettuce and greens from wilting in the fridge, store them dry but not dried out: dry any loose greens you've washed, pack them loosely in a container lined with a paper towel, keep them in the high-humidity crisper of a fridge set at 40°F or below, and eat the delicate ones first.
+Greens that go limp or slimy in two days are usually too warm, losing water to dry air, or sitting next to ripening fruit. Keep them at 32–34°F in high humidity, and away from apples and pears.
 
-Most greens that go limp or slimy two days after a grocery run are suffering from trapped surface moisture, a warm fridge, or both — not from being old when you bought them. The fix takes about two minutes and no special equipment.
+A few degrees of fridge temperature matter more than most storage tricks. Cold-storage figures for bagged cut lettuce show a shelf life of about three weeks at 32°F, but only 5 to 10 days at 41°F. That gap explains most "it was fine on Sunday" complaints. The sections below show how to read what your greens are telling you and how to set up the fridge so the next batch lasts.
 
-## Step 1: Understand what's actually killing your greens
+## Temperature decides most of the shelf life
 
-Leafy greens are mostly water held inside living plant cells. Once picked, they're still "breathing" — losing moisture through tiny pores and giving off a bit of heat and ethylene gas as they respire. Wilting happens two ways, often at once:
+The Global Cold Chain Alliance publishes the WFLO Commodity Storage Manual, a warehouse guide reviewed by a University of Florida postharvest scientist. It gives these shelf lives for shredded lettuce sealed in the kind of breathable film used for bagged salad:
 
-- **Dehydration:** the leaves lose water faster than the cells can hold it, so they go limp.
-- **Rot from trapped moisture:** if greens are sealed up wet, condensation builds inside the bag, and that moisture sits on the leaves, encouraging mold and slimy decay.
+| Storage temperature | Bagged cut lettuce (WFLO) | Prepackaged spinach (WFLO) |
+|---|---|---|
+| 32°F (0°C) | 21 days | 1–2 weeks |
+| 36°F (2.2°C) | 14–18 days | — |
+| 41°F (5°C) | 5–10 days | about 1 week |
+| 50°F (10°C) | 3–5 days | — |
 
-That second one is the sneaky culprit — the same trapped-moisture problem behind [bread that molds fast in summer](https://www.hearth-habit.com/2026/07/why-bread-goes-moldy-faster-in-summer.html). Most people assume wilted greens are dry, but a lot of the time they're actually too wet — just wet in the wrong way, with water sitting on the surface instead of staying inside the leaf.
+Two points in this table catch most people out:
 
-**Key takeaway: the goal isn't "keep greens dry" or "keep greens wet" — it's keep the leaves hydrated but keep standing moisture off their surface.** That distinction is the whole trick.
+- **The clock starts at packing, not at purchase.** These are shelf lives from the packing house onward. Greens you bring home have already used part of that time in trucks and on the shelf, so what's left depends on how cold they were kept.
+- **40°F is a food-safety ceiling, not a target for greens.** FDA says to keep produce in a refrigerator at 40°F or below. Greens last longer well below that ceiling. The manual's storage target for lettuce is 32–34°F at 95–100% relative humidity. NC State Extension uses 32°F and 90–95% humidity for leafy greens generally.
 
-## Step 2: Check how they were stored before you bought them
+Since you can't see your fridge's temperature, put an appliance thermometer next to the greens for a day. If it reads in the 40s°F, turn the control colder before you change anything else.
 
-Grocery store produce sections vary a lot. Bagged greens have often spent days in warehouse and truck conditions before they hit the shelf, and the clock started ticking before you ever touched them. Loose greens from a farmers market or the store's misted display are usually fresher but arrive wetter, which speeds up decay if you don't dry them.
+![Bar chart of bagged lettuce shelf life by fridge temperature: 21 days at 32°F, 14–18 at 36°F, 5–10 at 41°F, 3–5 at 50°F](/images/why-greens-wilt-fast-how-to-store-them-diagram.svg)
 
-This matters because it sets your expectations: a bag of spinach that's already a few days old when purchased might only give you 3-4 more good days no matter what you do. A head of romaine bought the day it arrived can last a week or two with the right storage. If greens wilt fast every single time, buying from a source with faster turnover (a busy produce section, a farmers market) can help as much as anything you do at home.
+### Too cold is a problem too
 
-## Step 3: Wash loose greens — but not ready-to-eat bags
+The same manual puts the freezing point of iceberg lettuce at 31.3°F and other lettuces at 31.7°F. So the ideal range starts less than a degree above the point where lettuce freezes. Mississippi State University Extension notes that temperatures inside one fridge can range from 32°F at the back to 39°F near the door. Greens pressed against the back wall can freeze, while greens in the door shelves sit at the warm end. The middle of a high-humidity crisper drawer, not touching the back wall, is the most reliable spot.
 
-What to do here depends on what you bought.
+## What your wilted greens are telling you
 
-- **Bagged greens labeled "ready to eat," "washed," or "triple washed":** don't wash them again. The FDA says they don't need it, and running them through your sink and colander adds a chance of cross-contamination rather than removing any. If the bag arrived wet or a few leaves are slimy, pick those out and move the rest into the towel-lined container in Step 4.
-- **Loose heads and bunches** (farmers market, the misted display): rinse them under cool running water — either right before eating or, if you like to prep ahead, as soon as you get home, as long as you dry them thoroughly before they go in the fridge.
-- **Dry anything you washed.** A salad spinner gets leaves far drier than shaking or air-drying. No spinner? Lay leaves on a clean kitchen towel, roll it up loosely, and pat.
+Different failures have different causes, and the fix depends on which one you're looking at.
 
-Don't store greens damp "to keep them fresh." That's backwards — surface moisture is what invites rot, not what prevents wilting.
+| What you see | Likely cause | What to change |
+|---|---|---|
+| Limp, soft leaves that aren't slimy | Water loss in dry air | Use the high-humidity drawer and a loosely closed container |
+| Slimy, water-soaked, mushy patches | Bacterial soft rot, which starts at damaged leaves and grows faster when warm | Colder storage, and pick out bruised or torn leaves early |
+| Small rust-brown spots on the ribs | Russet spotting from ethylene gas | Keep greens away from apples, pears, peaches, and melons |
+| Spinach turning yellow | Storage above 32°F | Colder storage, and eat spinach first |
+| Glassy or collapsed leaves after a few days | Frozen in a too-cold spot | Move them away from the back wall |
 
-## Step 4: Store them wrapped in a towel, in a container, not a sealed bag
+### Limp: the air is too dry
 
-The single best low-cost storage method for most leafy greens:
+Leafy greens lose water through their leaves, and limp leaves have lost too much. The crisper drawer's humidity slider controls how much moisture stays in the drawer. Samsung's guidance puts lettuce, leafy greens, and herbs on the high-humidity setting. Apples, pears, cantaloupes, and avocados go on the low setting. If you have two drawers, use one for each group. A loosely closed container lined with a paper towel adds a second layer of protection. The towel catches the drops that would otherwise sit on the leaves, while the container keeps the air around them humid.
 
-![Greens stored loosely in a paper-towel-lined container with the lid ajar, in a high-humidity crisper; don't re-wash ready-to-eat bags](/images/why-greens-wilt-fast-how-to-store-them-diagram.svg)
+### Slimy: soft rot is spreading
 
-1. Line a container (a large plastic tub, a glass storage box, or even a big zip-top bag left open a crack) with a clean, dry paper towel or thin kitchen towel.
-2. Add the greens.
-3. Add another towel layer on top if the container is deep.
-4. Close the lid loosely, or leave a small gap if using a bag — you want a little airflow, not a vacuum seal.
+The WFLO manual describes bacterial soft rot as water-soaked tissue that quickly turns wet and mushy. It starts where leaves were injured, and prompt cooling below 36°F holds it back. That's why one crushed leaf at the bottom of a bag can ruin the whole bag. When you open a bag or unpack a head, pick out torn or bruised leaves and drain any standing water.
 
-The towel does two jobs: it absorbs any extra moisture the greens release over the next few days, and it keeps the humidity around the leaves gentle and even instead of swinging between soggy and dry. Swap the towel for a fresh one if it gets noticeably damp — that's a sign it's doing its job.
+Slimy greens go in the trash, not back in the drawer. FDA says to throw away any produce that looks rotten. Smell won't tell you if they're safe, because USDA notes that the bacteria that cause food poisoning generally don't change how food smells.
 
-This is a greens-specific version of the whole-fridge layout in [how to store produce so it actually lasts](https://www.hearth-habit.com/2026/07/how-to-store-produce-so-it-actually.html) — worth a look if you want the plan for your entire crisper drawer, not just leafy greens.
+### Rusty spots: ethylene from nearby fruit
 
-## Step 5: Get the temperature right — colder than you think, but not freezing
+Ripening fruit releases ethylene gas, and lettuce is sensitive to it. The WFLO manual calls the resulting damage russet spotting, small tan to olive-brown spots mostly on the midribs. It's worse at 38°F than at 32°F, and the manual's control is to keep lettuce near 32°F and away from apples, pears, cantaloupes, peaches, and honeydew. Mississippi State Extension's list of ethylene-sensitive vegetables includes lettuce, spinach, greens, and herbs, and its list of ethylene producers includes apples, avocados, peaches, pears, plums, and tomatoes.
 
-Most leafy greens do best right around 32-36°F (0-2°C), which is colder than many people keep their crisper drawer. For food safety, the fridge should be at 40°F (4°C) or below anyway; if yours runs warm (upper 40s°F), greens will wilt noticeably faster no matter how well you've wrapped them.
+The manual describes russet spotting as a storage disorder. Once the spots appear, moving the lettuce won't undo them, but it will keep the next head clear.
 
-A few practical fixes:
+### Yellow spinach: it ran warm
 
-- Use your crisper drawer's humidity setting if it has one — set it to "high humidity" for leafy greens, which reduces airflow and slows moisture loss.
-- Keep greens toward the back of the fridge, not the door, where temperature swings are smallest every time the fridge opens — but not pressed against the back wall, where some fridges run cold enough to freeze leaves.
-- If you've noticed produce spoiling fast across the board, check your fridge's actual temperature with a cheap appliance thermometer — the dial setting and the real internal temperature don't always match.
+The WFLO manual says spinach should be stored as close to 32°F as possible and that it deteriorates rapidly at higher temperatures, turning yellow. NC State Extension gives spinach and arugula only 4 to 7 days even in commercial cold storage, compared with up to 2 weeks for kale and collards. A bag of spinach will never last as long as a head of romaine, so plan to use it first.
 
-## Step 6: Handle delicate greens differently than sturdy ones
+## How long each green should last at home
 
-Not all greens behave the same way, and treating them identically is a common mistake.
+These are commercial storage lives at ideal temperature and humidity. Expect less at home, where the fridge runs warmer and the door opens often.
 
-- **Sturdy greens** (kale, collards, romaine, cabbage) tolerate the towel-and-container method well and can last one to two weeks.
-- **Delicate greens** (spinach, arugula, spring mix, herbs like cilantro and parsley) wilt faster no matter what — their leaves are thinner and lose moisture quicker. Expect more like 5-7 days even with good storage.
-- **Herbs specifically** often do better treated like cut flowers: trim the stems, stand them in a jar with an inch of water, and loosely cover the leaves with a produce bag in the fridge. This works especially well for cilantro and parsley. Basil is the exception — it prefers a jar of water at room temperature, because cold makes it blacken and wilt faster.
+| Green | Storage life at ideal conditions | Source |
+|---|---|---|
+| Iceberg (crisphead) lettuce | 2–3 weeks | WFLO |
+| Romaine, leaf, and other lettuces | about 10 days | WFLO |
+| Kale, collards | up to 2 weeks | NC State Extension |
+| Spinach, arugula | 4–7 days | NC State Extension |
+| Bagged spinach | 1–2 weeks at 32°F, about 1 week at 41°F | WFLO |
 
-## Step 7: Fix the habit, not just the storage
+If you shop once a week, plan meals so the spinach, arugula, and spring mix get eaten in the first half of the week, and the kale, cabbage, and romaine later. The [30-minute Sunday meal plan](https://www.hearth-habit.com/2026/07/the-30-minute-sunday-meal-plan-that.html) makes that easy to build in.
 
-If greens keep wilting despite good storage, the real issue is often timing, not technique. Buying a week's worth of salad greens on Sunday for meals spread across seven days sets them up to fail — by day 4 or 5, even well-stored greens are past their best.
+## Washing: what to do and when
 
-A couple of adjustments help:
+- **Bagged greens labeled "ready to eat," "washed," or "triple washed":** don't wash them again. FDA says you can use them without further washing. Re-washing adds a chance of cross-contamination from sinks and colanders.
+- **Loose heads and bunches:** FDA says to wash produce under running water before you prepare or eat it, then dry it with a clean cloth or paper towel. If you wash ahead of time, dry the leaves thoroughly with a salad spinner or towel before they go into the fridge. Damp leaves pressed together in a closed container are the ideal setting for the slime described above.
 
-- Buy sturdier greens (kale, cabbage, romaine) for later-week meals and save delicate greens (spinach, spring mix) for the first two or three days.
-- If you map out the week with a [30-minute Sunday meal plan](https://www.hearth-habit.com/2026/07/the-30-minute-sunday-meal-plan-that.html), slot greens-heavy meals early in the plan rather than pushing them to the end.
+For the rest of the crisper drawer, see [how to store produce so it actually lasts](https://www.hearth-habit.com/2026/07/how-to-store-produce-so-it-actually.html). If the fridge also has a smell you can't place, slimy greens hiding in a back corner are a common source. See [why the fridge smells when you can't find the source](https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html).
 
-## The Bottom Line
+## FAQ
 
-Wilting fast usually means one of three things went wrong: the greens were already old when purchased, they were stored wet in a sealed bag, or the fridge is running warmer than it should. Dry any greens you wash (and skip re-washing ready-to-eat bags), store them loosely in a towel-lined container, keep the fridge cold but not freezing, and eat the most delicate greens first. Do those four things and most greens will comfortably outlast the two-day wilt cycle — often by a week or more.
+### Is lettuce with rusty brown spots safe to eat?
+
+The spots are russet spotting, which the WFLO manual lists as a physiological disorder brought on by ethylene and made worse by warmth. It lists the rots separately. If the leaves are also slimy or mushy, that's rot, and they should be thrown away.
+
+### Why does my lettuce freeze in the fridge?
+
+Lettuce freezes at about 31.3–31.7°F, so a spot that runs just below 32°F can damage it. Mississippi State Extension notes the back of the fridge is the coldest part. Keep greens in the crisper drawer, and if the whole fridge is near 32°F, turn it up slightly.
 
 ## Sources
-- [Selecting and Serving Produce Safely (FDA)](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely) — why ready-to-eat bagged greens don't need re-washing
+
+- [WFLO Commodity Storage Manual: Lettuce](https://www.gcca.org/system/files/WFLO-Commodity-Storage-Manual-2018-Lettuce.pdf) and [Spinach](https://www.gcca.org/system/files/WFLO-Commodity-Storage-Manual-2018-Spinach.pdf) (Global Cold Chain Alliance) — shelf life by temperature, 32–34°F and 95–100% humidity, freezing points, russet spotting and ethylene, spinach yellowing and soft rot
+- [Postharvest Produce Guide: Leafy Greens (NC State Extension)](https://ncfreshproducesafety.ces.ncsu.edu/postharvest-produce-guide/produce-guide-leafy-greens) — 32°F and 90–95% humidity; kale and collards up to 2 weeks, spinach and arugula 4–7 days
+- [HappyHealthy Fact Sheet: Storage Tips (Mississippi State University Extension)](https://extension.msstate.edu/publications/happyhealthy-fact-sheet-storage-tips) — ethylene producers and sensitive vegetables; fridge temperatures from 32°F at the back to 39°F at the door
+- [Control the humidity in the vegetable crisper drawers (Samsung)](https://www.samsung.com/ca/support/home-appliances/control-the-humidity-in-the-vegetable-crisper-drawers-of-your-samsung-refrigerator/) — high-humidity setting for leafy greens, low for apples and pears
+- [Selecting and Serving Produce Safely (FDA)](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely) — 40°F or below, pre-washed greens need no further washing, drying washed produce, discarding rotten produce
+- [Refrigeration and Food Safety (USDA FSIS)](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration) — food-poisoning bacteria don't change how food smells

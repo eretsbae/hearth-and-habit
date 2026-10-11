@@ -2,8 +2,8 @@
 title: Water Heater Popping or Rumbling? Here's What It Means
 slug: water-heater-popping-rumbling-sound
 date: '2026-08-07'
-updated: '2026-09-29'
-description: Popping or rumbling usually means sediment on the bottom of the tank, not a failing water heater. Here's how to flush it safely and when to call a plumber.
+updated: '2026-10-11'
+description: Popping means sediment is trapping steam bubbles; a yearly flush fixes it. Match crackling, screeching, humming, or banging to its cause and know when to replace.
 tags:
 - water heater maintenance
 - home maintenance
@@ -13,133 +13,114 @@ pillar: home-maintenance
 hero_image: /images/water-heater-popping-rumbling-sound-hero.svg
 hero_alt: Tank water heater in a basement corner with vibration lines around it, showing the popping and rumbling of sediment buildup
 pin_hooks:
-- Quiet a popping water heater with a 30–60 minute flush
-- Ticking is normal but hissing needs a prompt look
+- 'Popping water heater? Sediment, and a yearly flush'
+- Check the anode rod every year, not every five
+enriched: '2026-10-11'
 ---
 
-Popping or rumbling almost always means sediment has built up on the bottom of the tank. It's rarely an emergency, but it's a sign the water heater is overdue for a flush.
+Popping or rumbling is common, and it means sediment on the bottom of the tank is trapping steam bubbles. It's not an emergency, but the heater needs a flush. A.O. Smith recommends flushing at least once a year, and more often if you have hard water.
 
-That sound is your water heater's way of telling you it needs some attention. The good news: in most cases, this is a maintenance issue, not an emergency. The trick is knowing which noise you have, what's causing it, and which of your options — ignore it, flush it yourself, or call a plumber — actually makes sense for your situation.
+Popping isn't the only sound a water heater makes, though, and the others have different causes. The guide below sorts the sounds by cause, shows how often hard water means you should flush, and covers the yearly checks that matter more than most owners realize.
 
-## Why Water Heaters Make Noise in the First Place
+## What popping and rumbling actually are
 
-Minerals like calcium and magnesium are present in most tap water, especially if you're on a well or in a "hard water" region. Every time the water heater heats water, some of these minerals settle out and drift to the bottom of the tank as sediment — a gritty, sometimes cement-like layer.
+Minerals and debris settle to the bottom of the tank. Bradford White says sand and rust particles add to that layer too. Water that seeps under or into the layer sits right against the burner or lower element, where it turns to steam. A.O. Smith explains that the sediment traps these steam bubbles, and the popping is the bubbles breaking free.
 
-![Water heater cutaway: sediment traps water over the burner and steam bubbles pop through it; drain valve, anode rod, T&P valve labeled](/images/water-heater-popping-rumbling-sound-diagram.svg)
+The sediment also gets between the heat and the water. Bradford White describes it as an insulating barrier that makes the heater work harder and longer to make hot water. It says many water heater failures and efficiency problems trace back to sediment. That's why the sound matters even though it isn't dangerous in itself.
 
-Once that layer builds up, water gets trapped underneath or within it, right next to the heat source (the burner on a gas unit, the lower heating element on an electric one). That trapped water boils and turns to steam faster than the rest of the tank. The steam bubbles force their way up through the sediment, and the popping, cracking, or rumbling sound is essentially tiny underwater "explosions" happening inside your tank.
+![Water heater diagram: sediment traps steam and pops; yearly checks for anode rod, drain valve flush, and T&P valve](/images/water-heater-popping-rumbling-sound-diagram.svg)
 
-**Key takeaway: the noise itself isn't dangerous — but it's a sign your water heater is working harder than it should, which shortens its life and raises your energy costs.**
+## Match the sound to the cause
 
-## Match the Sound to the Cause
+| Sound | What A.O. Smith says causes it | First step | Call a pro if |
+|---|---|---|---|
+| Popping or rumbling | Sediment on the bottom trapping steam bubbles | Flush the tank | The drain valve clogs, or the noise continues after a full flush |
+| Crackling, with green, blue, or gray jelly-like beads in the drain water | Aluminum hydroxide from an aluminum anode reacting with chlorine in the water | Flush; ask about an aluminum-zinc anode | You don't want to swap the anode yourself |
+| Screeching or whistling (blower models) | Dirty blower wheel or blocked vent | Clear the vent and blower wheel | Bearings are failing, which means a new blower motor |
+| Screeching (electric models) | A failing heating element | — | Element replacement |
+| Humming or buzzing | Loose parts vibrating | With the heater off and cooled, tighten loose screws | Anything rusted or beyond basic tightening; on ultra-low NOx gas models it can mean a damaged burner |
+| Banging or knocking when a tap shuts | Water slamming into shutoff valves (water hammer) | A water hammer arrestor | Banging continues after the arrestor is installed |
+| Hissing with water at the side valve | The temperature and pressure (T&P) relief valve is releasing | Stop and call | Always; see below |
 
-Not all water heater noises mean the same thing. Here's a quick way to sort out what you're actually hearing.
+Bradford White's own advice is shorter: for any sound outside normal operation, call a plumbing professional. Use the table to decide what you can safely do first, and call when a row says to.
 
-| Sound | Likely Cause | Urgency |
+If the banging comes from the pipes rather than the tank, see [why pipes bang when you turn off the faucet](https://www.hearth-habit.com/2026/08/why-do-my-pipes-bang-when-i-turn-off.html).
+
+### Water at the relief valve is different
+
+The T&P valve is the lever-topped valve on the side or top of the tank, with a pipe running down toward the floor. A.O. Smith says the valve opens in extreme cases to release excess pressure and hot water, and that a leaking T&P valve may indicate an unsafe temperature or pressure situation. Don't plug it or cap the pipe. Turn off the heater and call a plumber.
+
+One common cause is thermal expansion. Water expands as it heats, which raises the pressure inside the tank. If your home has a pressure-reducing valve, the plumbing becomes a closed system and that extra volume has nowhere to go. A.O. Smith generally recommends an expansion tank. Bradford White says never to operate a water heater in a closed system without some way to control thermal expansion.
+
+### Water on the floor of a gas heater after a cold refill
+
+A.O. Smith notes that gas water heaters can form condensation when cold water enters the tank or when the burner fires after sitting idle. It says this is typically temporary. Water that keeps appearing, or that comes from the tank itself, is a leak. A.O. Smith says a corroded or cracked tank usually means replacing the heater.
+
+## How often to flush: check your water hardness
+
+A.O. Smith says to flush at least once a year, and more often in hard water. The U.S. Geological Survey defines how hard "hard" is, measured as calcium carbonate:
+
+| Your water's hardness | USGS category | Flushing |
 |---|---|---|
-| Popping, crackling, or marbles-in-a-can | Sediment buildup trapping steam bubbles | Low — schedule a flush |
-| Low rumbling or gurgling | Thicker, more advanced sediment layer | Low-medium — flush soon |
-| Ticking as the tank heats up or cools | Normal metal expansion/contraction | None |
-| High-pitched whining or screeching | Mineral buildup narrowing the inlet valve, or a partially closed valve | Medium — check valves |
-| Banging or knocking in the pipes (not the tank) | Water hammer — pipes shifting when valves shut quickly | Medium — separate issue from the tank itself |
-| Hissing | A leak, condensation dripping on a hot surface, or a slightly open pressure relief valve | Medium-high — investigate promptly |
-| Loud banging paired with the tank feeling too hot or the relief valve venting | Excessive pressure or overheating | High — turn off power/gas and call a plumber |
+| 0–60 mg/L | Soft | At least once a year |
+| 61–120 mg/L | Moderately hard | At least once a year; check how much sediment comes out |
+| 121–180 mg/L | Hard | More often than once a year |
+| Over 180 mg/L | Very hard | More often than once a year; consider a softener |
 
-If you're hearing rhythmic banging specifically in your pipes when a faucet or washing machine valve shuts off — not from the tank itself — that's [water hammer, which has its own set of fixes](https://www.hearth-habit.com/2026/08/why-do-my-pipes-bang-when-i-turn-off.html) unrelated to sediment. It's worth dealing with if it's frequent, since it can loosen pipe joints over time.
+A.O. Smith doesn't give a hardness cutoff, so treat these categories as a guide to where "hard water" begins.
 
-## Your Three Real Options
+USGS says heated hard water leaves solid calcium carbonate deposits that can shorten equipment life, raise heating costs, and reduce an electric water heater's efficiency. Your water utility's annual water quality report may list hardness. If you're on a well, a test kit will tell you.
 
-Once you've confirmed it's sediment-related popping or rumbling, you're choosing between three paths. Here's how they actually compare.
+Use the first flush to set the schedule. If the water runs clear quickly, once a year is enough. If it takes a long time to clear, flush more often. A.O. Smith says water softeners can prevent scale buildup in very hard water.
 
-### Option 1: Do Nothing (For Now)
+## Flushing safely
 
-Plenty of people live with a rumbling water heater for years without incident. It won't cause the tank to explode or suddenly fail overnight.
+The order matters, because a mistake can scald you or ruin an electric element.
 
-**Pros:**
-- Zero effort, zero cost
-- Fine short-term if the unit is otherwise working normally
+1. **Turn off the heat.** Switch off the breaker (electric) or turn the gas control to OFF (gas). A.O. Smith suggests leaving it off for a few hours so the water cools.
+2. **Close the cold-water inlet** and open a hot tap somewhere in the house so air can enter as the tank drains.
+3. **Attach a garden hose to the drain valve** and run it to a floor drain or outside. Open the valve. A.O. Smith says most tanks take 20 to 40 minutes to drain.
+4. **Flush.** Open the cold inlet in short bursts to stir up the sediment, and keep going until the water runs clear. If grit clogs the drain valve, A.O. Smith says to call a plumber rather than force it.
+5. **Close the drain and refill completely.** Open the cold inlet and run a hot tap until water flows steadily without sputtering. A.O. Smith says to run it at least 3 minutes.
+6. **Only then turn the heat back on.** If you turn power on before the tank is full, the electric element will fire in air and burn out.
 
-**Cons:**
-- Sediment insulates the water from the heat source, so your water heater burns more gas or electricity to do the same job — often noticeably more on older, heavily-scaled units
-- Trapped heat can stress the tank lining and heating elements, increasing the odds of a leak or element failure down the road
-- The noise typically gets louder over time, not quieter
+The [seasonal home maintenance checklist](https://www.hearth-habit.com/2026/07/10-home-maintenance-tasks-most-people.html) lists this flush alongside the other once-a-year jobs.
 
-This is a reasonable choice only if the unit is old enough that you're planning to replace it soon anyway (most tank water heaters last roughly 8–12 years). Sinking time into descaling a heater that's near the end of its life isn't a great use of a Saturday.
+## The yearly checks most owners skip
 
-### Option 2: Flush It Yourself
+A flush handles the sediment. A.O. Smith's maintenance guide adds two more checks to do every year:
 
-This is the middle option, and for most homeowners with a few years of useful life left on their unit, it's the right call.
+- **Anode rod, every year.** This rod corrodes so the steel tank doesn't. A healthy rod is smooth and about half an inch in diameter. Replace it if it's deteriorating or shows several inches of bare core wire. A.O. Smith's noise guide says a rod usually lasts about 5 years and can wear out sooner depending on your water. Many owners have it checked during a service visit.
+- **T&P valve, every year.** Lift the lever and let it snap back a few times to confirm water comes out. If nothing comes out, A.O. Smith says to replace the valve. It also recommends a professional inspection every 5 years. The water that comes out is hot, so keep your hands and feet clear of the discharge pipe.
 
-**What it involves, in the safe order:**
+A.O. Smith also says to keep the temperature setting typically no higher than 120°F.
 
-1. Turn off the power at the breaker (electric), or set the gas control to "Pilot" or "Off" as the label on the tank directs (gas).
-2. Let the water cool for a few hours, or run a hot tap for several minutes — tank water is hot enough to scald.
-3. Close the cold-water inlet valve, connect a garden hose to the drain valve, open a hot tap somewhere in the house so air can get in, and open the drain.
-4. Once the tank is empty, open the cold inlet briefly to stir up and flush out the remaining sediment until the water runs clear.
-5. Close the drain, then refill completely: open the cold inlet and keep a hot tap running until water flows steadily with no sputtering air.
-6. Only then restore power or gas. An electric element that fires in an empty tank can burn out almost immediately.
+## Flush it or replace it?
 
-Our [seasonal home maintenance checklist](https://www.hearth-habit.com/2026/07/10-home-maintenance-tasks-most-people.html) walks through the same steps in more detail. Some sediment is loose and flushes out easily; heavier, hardened buildup may take several rounds of stirring and draining.
+A.O. Smith puts average water heater life at about 8 to 12 years. Bradford White says its heaters can last 10 years or more with professional installation and maintenance. A.O. Smith's replacement signs are a heater more than 10 years old, a leak around the base of the tank, or erratic operation.
 
-**Pros:**
-- Costs nothing but time (typically 30–60 minutes, plus cool-down time)
-- Can meaningfully quiet the tank and restore some efficiency
-- Good habit to repeat annually, similar to changing a furnace filter or checking gutters — it's one of those "small task, real payoff" jobs
+- **Under 10 years, no leaks:** flush it, then check the anode and T&P valve. This is the best case for a flush.
+- **Over 10 years, still dry and working:** a flush may quiet it, but start planning for a replacement.
+- **Any age, with water around the base or rust on the tank:** a flush won't fix it. Call a plumber about replacement.
 
-**Cons:**
-- If sediment has been building for years, the drain valve itself can clog with grit and be frustrating to fully clear
-- On older tanks, flushing can occasionally reveal a slow leak that had been masked by mineral buildup — not caused by the flush, but exposed by it
-- Requires comfort shutting off your water heater's power or gas and working around water that can scald if you skip the cool-down
-
-A good rule of thumb: if your water heater is under about 6 years old and this is its first flush, expect a fairly smooth process. If it's older than that and has never been flushed, go slow and don't be surprised if the water stays cloudy for a while.
-
-### Option 3: Call a Plumber
-
-This is the right move in a few specific situations, not just "when in doubt."
-
-**Choose a plumber if:**
-- The rumbling is loud and has escalated quickly over just days or weeks
-- You hear hissing, or notice moisture/pooling water around the base of the tank
-- The pressure relief valve is venting water or steam
-- Your water heater is older than 10–12 years and making unusual noise — at that age, a plumber can tell you honestly whether flushing is worth it or whether replacement makes more financial sense
-- You've tried flushing and the noise hasn't improved, which can mean sediment is too hardened to clear with a standard flush
-
-**Pros:**
-- A plumber can assess whether the tank itself is compromised, not just noisy
-- They have the tools to clear a stubborn or corroded drain valve
-- Peace of mind on anything involving gas lines, pressure relief valves, or suspected leaks
-
-**Cons:**
-- Costs money — a basic flush and inspection typically runs somewhere in the range of $100–$250 depending on your region and whether other work is needed
-- Overkill if the fix really is a simple DIY flush
-
-If you're weighing it, the same questions apply as for any repair: [is it actually worth calling a pro](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html) comes down to what a mistake would cost.
-
-## How Often Should You Flush a Water Heater Anyway?
-
-Most manufacturers and plumbers suggest flushing a tank water heater about once a year, and more often — every 6 months — if you have notably hard water or you're on a private well. If you already know your water is hard (you see mineral crust on faucets or your kettle scales up quickly), treat the annual flush as non-negotiable rather than optional.
-
-Tankless water heaters make different noises for different reasons (usually related to flow rate or venting) and have their own descaling schedule, typically annual, using a vinegar or descaling solution rather than a simple drain-and-flush.
-
-## Check the Anode Rod While You're at It
-
-Every tank water heater has an anode rod — a long metal rod, usually magnesium or aluminum, screwed into the top of the tank. It corrodes on purpose so the steel tank doesn't. Once it's eaten down to its core wire, the tank itself starts to corrode, which is how many tanks eventually spring a leak.
-
-Plumbers commonly suggest checking it every few years (often every 3 to 5), and sooner if you have a water softener, which tends to wear anodes faster. Replace it if you see bare wire or it's worn to roughly half its original thickness; replacement rods usually cost a few dozen dollars. Getting the old one out takes a large socket and a lot of torque, and the heater has to be shut off, depressurized, and partly drained first, so many homeowners have a plumber do it during a flush visit. A rotten-egg smell from the hot water only is another anode-related clue — often a reaction between the rod and bacteria in the water, which a different rod type can usually fix.
+If you're unsure whether to do any of this yourself, [how to know if a repair is worth calling a pro for](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html) walks through the decision.
 
 ## FAQ
 
-### Will a noisy water heater eventually burst?
-Not from the noise itself. Popping and rumbling are a sediment issue, not a pressure issue. The real burst risk comes from a malfunctioning pressure relief valve or a severely corroded tank — situations that usually come with other warning signs like hissing, venting, or visible rust and leaks.
+### Will a popping water heater explode?
 
-### Can I prevent sediment buildup entirely?
-Not entirely, but a whole-house water softener significantly reduces mineral buildup if you have hard water. Short of that, annual flushing is the most practical prevention available to most homeowners.
+The popping itself is steam bubbles escaping through sediment, which isn't a pressure problem. The warning sign for dangerous pressure is water coming from the T&P valve. A.O. Smith says that can indicate an unsafe temperature or pressure situation, and it calls for a plumber.
 
-### Is it normal for a brand-new water heater to make noise?
-Some ticking or light popping in the first few weeks is common as the tank and pipes settle into regular heating cycles. Loud rumbling in a new unit, though, is worth a quick call to the installer — a new tank shouldn't have built up enough sediment to rumble that soon.
+### My hot water smells like rotten eggs. Is that the anode?
 
-### Does a noisy water heater mean it's less efficient?
-Generally, yes. Sediment acts like a layer of insulation between the heat source and the water, so the unit has to run longer to reach the same temperature. Flushing it often noticeably quiets the tank and can modestly improve efficiency, especially on units that haven't been flushed in several years.
+Bradford White says addressing a rotten-egg smell requires a plumbing professional. Mention it when you book the visit, along with when the anode was last checked.
 
 ## Sources
-- [O&M guidelines for water equipment (DOE FEMP)](https://www.energy.gov/femp/technical-operations-and-maintenance-guidelines-common-water-equipment) — water heater flushing
+
+- [Water Heater Making Noise (A.O. Smith)](https://www.hotwater.com/info-center/water-heater-making-a-noise.html) — cause and fix for each sound, flush frequency, anode life
+- [How to Maintain a Water Heater](https://www.hotwater.com/info-center/water-heater-maintenance.html) and [How to Drain (Flush) a Water Heater (A.O. Smith)](https://www.hotwater.com/info-center/how-to-drain-a-water-heater.html) — yearly anode and T&P checks, 5-year professional inspection, 120°F setting, drain time, clogged drain valve, 3-minute air purge
+- [Repair or Replace?](https://www.hotwater.com/info-center/when-to-repair-or-replace.html) and [Tank Water Heaters and Safety (A.O. Smith)](https://www.hotwater.com/info-center/tank-water-heater-safety.html) — 8–12 year life, replacement signs, T&P lift test, thermal expansion and leaking T&P valves
+- [Why Is My Water Heater Leaking? (A.O. Smith)](https://www.hotwater.com/info-center/water-heater-leaking.html) — temporary condensation on gas units, corroded or cracked tanks
+- [How Sediment Buildup Affects Efficiency](https://www.bradfordwhite.com/blogs/how-sediment-buildup-affects-your-water-heater-efficiency/) and [FAQs (Bradford White)](https://www.bradfordwhite.com/faqs/) — sediment as insulation, closed-system warning, unusual sounds, lifespan, rotten-egg smell
+- [Hardness of Water (USGS)](https://www.usgs.gov/special-topics/water-science-school/science/hardness-water) — hardness categories and scale in water heaters
+- [O&M Guidelines for Common Water Equipment (DOE FEMP)](https://www.energy.gov/femp/technical-operations-and-maintenance-guidelines-common-water-equipment) — safe flush order: refill fully before restoring power

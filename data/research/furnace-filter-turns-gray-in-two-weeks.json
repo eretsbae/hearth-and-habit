@@ -1,0 +1,88 @@
+{
+  "reader_situation": "A homeowner changed the furnace filter and two weeks later it is already gray. They want to know whether something is wrong with the furnace or ducts, or whether the filter is just doing its job.",
+  "direct_answer": "Usually it means much more air, or dustier air, is going through the filter than the 60–90-day norm assumes. The most common causes are a thermostat fan left on 'On' (EPA says systems usually run less than 25% of the time, so continuous fan moves at least four times as much air through the filter), a heavier household load (pets, construction, four or more occupants, smoking), a filter slot or return duct leaking in attic, crawlspace, or garage air, or a finer new filter. Change it now if it's clogged or collapsed, then trace the source.",
+  "consensus": [
+    "A filter grays faster when it catches more dust; some graying is normal.",
+    "Pets, renovation, and open windows raise the dust load.",
+    "Leaky return ducts can pull in attic or crawlspace dust.",
+    "Fan set to On runs the blower continuously.",
+    "Higher-MERV filters catch more and gray sooner."
+  ],
+  "gaps": [
+    "The fan math: EPA says furnace and HVAC filters only filter while the system runs, and systems usually run less than 25% of the time in heating and cooling seasons. A fan set to 'On' runs 100% of the time, at least four times the air. Applied to the 60–90-day manufacturer norm, that's roughly 15–23 days, which is the two-week gray filter. EPA notes longer run time costs electricity and can affect humidity control in cooling season.",
+    "The filter slot itself is a leak point. PNNL says the filter access cover should have a gasket and can be sealed with duct or magnetic tape (not permanently); left off or loose, the air handler pulls unconditioned or unwanted air into the home, a particular concern when it's in a garage. ENERGY STAR lists leaks at the furnace and filter slot among common duct problems.",
+    "ENERGY STAR ties 'dusty house' to duct leaks: sealing ducts reduces pollutants entering from dusty attics or musty crawlspaces, including insulation dust. Typical duct systems lose 20 to 30% of the air they move.",
+    "Seal with mastic or metal-backed (foil) tape; never gray cloth duct tape. ENERGY STAR also says to have a combustion safety (backdraft) test after ducts are sealed, because leaky ductwork can cause backdrafting of gas appliances.",
+    "PNNL's list of conditions that justify changing more often than every three months: equipment running 6–12 months a year, four or more occupants, pets, indoor smoking, allergic occupants, construction inside or outside the home.",
+    "Replace immediately (PNNL): clogged, collapsed pleats, banging when the system starts, damp or moldy.",
+    "Higher-MERV filters clog more readily (PNNL), and loaded filters greatly increase pressure drop. Deeper pleats or bigger filters add surface area and lower pressure drop without changing MERV.",
+    "Unsupported claims in the old article (low winter humidity causing more static dust, specific shedding effects) have no source and should go."
+  ],
+  "evidence": [
+    {
+      "claim": "Filters only work while the system runs",
+      "detail": "Furnace and HVAC filters work to filter the air only when the system is operating; systems usually run less than 25% of the time during heating and cooling seasons. Running longer captures more but raises electricity costs and can affect humidity control in cooling season.",
+      "source_url": "https://www.epa.gov/indoor-air-quality-iaq/guide-air-cleaners-home",
+      "source_title": "Guide to Air Cleaners in the Home | US EPA"
+    },
+    {
+      "claim": "Replacement norm and fit",
+      "detail": "Manufacturers typically recommend replacement every 60 to 90 days; change more often if heavily soiled. Filter should fit snugly so air does not leak around it; don't bend or crush. Filters commonly 1 to 5 inches thick. Most systems can handle MERV 13 if replaced frequently.",
+      "source_url": "https://www.epa.gov/indoor-air-quality-iaq/guide-air-cleaners-home",
+      "source_title": "Guide to Air Cleaners in the Home | US EPA"
+    },
+    {
+      "claim": "Conditions that shorten filter life",
+      "detail": "Replace every three months, or more often if needed, especially with HVAC equipment that runs six to twelve months per year, four or more occupants, pets, smoking indoors, allergic occupants, or construction within or outside the home.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/proper-installation-furnace-and-air-handler-filters",
+      "source_title": "Proper Installation of Furnace and Air-Handler Filters | Building America Solution Center (PNNL)"
+    },
+    {
+      "claim": "Replace-now signs and access cover",
+      "detail": "Replace immediately if clogged with debris, collapsed fins, banging noise when the system comes on, or damp or moldy. Access cover should have a gasket; can be fastened with duct tape or magnetic tape but not taped or caulked permanently. If left off or unsealed, the air handler can pull unconditioned and/or unwanted air into the home; poor indoor air quality if the air handler is in a garage. Arrow toward the HVAC equipment. Dirty, clogged filter can dramatically reduce airflow and increase furnace run time.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/proper-installation-furnace-and-air-handler-filters",
+      "source_title": "Proper Installation of Furnace and Air-Handler Filters | Building America Solution Center (PNNL)"
+    },
+    {
+      "claim": "Higher MERV clogs more; loading raises resistance",
+      "detail": "Clogging and filter collapse are more likely with higher MERV filters. The accumulation of dirt and particles can greatly increase pressure drop. Deeper pleats or bigger filter dimensions add surface area. Disposable filters replaced every three months or sooner if needed, especially if HVAC equipment is used continually. Washable filters cleaned every one to three months; can grow mold if not dried.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/high-merv-filters",
+      "source_title": "High-MERV Filters | Building America Solution Center (PNNL)"
+    },
+    {
+      "claim": "Duct leaks and dust",
+      "detail": "High utility bills? Stuffy rooms? Dusty house? It could be your duct system. Typical homes lose about 20 to 30 percent of duct air to leaks. Sealing ducts reduces pollutants entering ducts from dusty attics or musty crawlspaces; insulation dust. Common problems include leaks at furnace and filter slot. Leaky ductwork may cause backdrafting of gas appliances; conduct a combustion safety test after ducts are sealed. DIY: inspect visible ducts; seal with mastic or metal-backed (foil) tape. Never use grey duct tape.",
+      "source_url": "https://www.energystar.gov/ia/products/heat_cool/ducts/ES_Duct_Sealing_flyer.pdf",
+      "source_title": "Duct Sealing with ENERGY STAR (flyer)"
+    },
+    {
+      "claim": "Signs of duct problems",
+      "detail": "Signs: high summer and winter utility bills; rooms difficult to heat and cool; stuffy rooms; ducts in an attic, crawlspace, or garage; tangled or kinked flexible ducts. Seal with mastic sealant or metal tape; never use duct tape.",
+      "source_url": "https://www.energystar.gov/saveathome/heating-cooling/duct-sealing",
+      "source_title": "Duct Sealing | ENERGY STAR"
+    }
+  ],
+  "real_questions": [
+    "Is a filter that's gray in two weeks a sign of a problem?",
+    "Does running the fan on 'On' make filters dirty faster?",
+    "Can a leaky duct make the filter dirty?",
+    "Should I go back to a cheaper filter?",
+    "When do I need an HVAC tech?"
+  ],
+  "original_asset": {
+    "type": "worked_example",
+    "spec": "Fan-runtime arithmetic using EPA's 'less than 25% of the time' and the 60–90-day norm (60/4 = 15 days, 90/4 = 22.5 days), plus a diagnostic flow ordered by ease: fan setting, filter change, household load (PNNL list), filter slot/cover, return duct leaks (ENERGY STAR), with replace-now signs."
+  },
+  "cautions": [
+    "After sealing ducts, have gas appliances checked for backdrafting (ENERGY STAR).",
+    "Turn the system off before pulling the filter.",
+    "Don't permanently seal the filter access cover."
+  ],
+  "sources": {
+    "https://www.epa.gov/indoor-air-quality-iaq/guide-air-cleaners-home": "Guide to Air Cleaners in the Home | US EPA",
+    "https://basc.pnnl.gov/resource-guides/proper-installation-furnace-and-air-handler-filters": "Proper Installation of Furnace and Air-Handler Filters | Building America Solution Center (PNNL)",
+    "https://basc.pnnl.gov/resource-guides/high-merv-filters": "High-MERV Filters | Building America Solution Center (PNNL)",
+    "https://www.energystar.gov/ia/products/heat_cool/ducts/ES_Duct_Sealing_flyer.pdf": "Duct Sealing with ENERGY STAR (flyer)",
+    "https://www.energystar.gov/saveathome/heating-cooling/duct-sealing": "Duct Sealing | ENERGY STAR"
+  }
+}

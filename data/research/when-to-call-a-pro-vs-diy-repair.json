@@ -1,0 +1,53 @@
+{
+  "reader_situation": "A homeowner has a leak, a dead furnace, a tripping breaker, or a soft deck board and is trying to decide whether to fix it themselves, call someone now, or wait until a weekday, and what that call will cost.",
+  "direct_answer": "Call a pro when the job involves gas, the electrical panel or new circuits, the home's structure, or water and mold you can't see or contain. Also call when the worst-case mistake costs far more than the service call. Visible, shut-off-able, reversible jobs are reasonable DIY. If you can shut the problem off safely, you can often wait for regular hours, which matters because plumbers charge 1.5 to 3 times their hourly rate after hours.",
+  "consensus": [
+    "Gas leaks, panel work, structural problems, and roof work are for pros.",
+    "Small fixes like faucets, toilet flappers, and filter changes are DIY.",
+    "Turn off water or power before starting.",
+    "Get multiple quotes and check licenses.",
+    "Pros charge a service-call fee."
+  ],
+  "gaps": [
+    "Gas smell steps are specific: PG&E says leave immediately to an upwind location, don't use anything that could ignite gas, including cell phones, flashlights, and light switches, and call 911 and the utility from a safe distance.",
+    "The water-damage clock is EPA's: dry water-damaged areas and items within 24-48 hours to prevent mold. EPA says a professional may be needed if mold covers more than about 10 square feet or the water was sewage or contaminated.",
+    "The HVAC line is drawn by ENERGY STAR: the homeowner inspects, cleans, or changes filters monthly; the contractor's pre-season check covers gas or oil connections, gas pressure, burner combustion, heat exchanger, electrical connections, and refrigerant.",
+    "Real 2026 cost ranges replace the old article's unsourced table: HomeAdvisor reports plumber service calls of $100-$250 including the first hour and $70-$120 typical hourly; electricians $50-$130 per hour with $100-$200 service calls; handymen $60-$125 per hour.",
+    "After-hours premiums are larger than the old article's 1.5-2x: HomeAdvisor says most plumbers charge 1.5 to 3 times the hourly rate (evenings time-and-a-half, weekends double, holidays triple); electricians charge time-and-a-half to double plus a trip charge of $100 or more.",
+    "Hiring safely has concrete rules: the FTC says get several written estimates, verify the license with the state or county, ask for proof of insurance, be wary if the contractor asks you to get the permits, don't pay the full cost up front, and hold the final payment until the job is done.",
+    "The old article's foundation-crack width, ledger-failure ranking, dryer-fire claim, part costs, and roofer and appliance price rows had no source and were removed."
+  ],
+  "evidence": [
+    {"claim": "What to do if you smell gas", "detail": "Alert everyone nearby and leave the area immediately to an upwind location. Do not use anything that could be a source of ignition, including cell phones, flashlights, light switches, matches, or vehicles until a safe distance away. Call 9-1-1, then the utility.", "source_url": "https://www.pge.com/en/outages-and-safety/safety/gas-safety.html", "source_title": "Gas Safety | PG&E"},
+    {"claim": "Dry water damage within 24-48 hours; when mold needs a professional", "detail": "It is important to dry water-damaged areas and items within 24-48 hours to prevent mold growth. If there has been a lot of water damage and/or mold growth covers more than 10 square feet, consult EPA's professional guidance. If the damage was caused by sewage or other contaminated water, call in a professional.", "source_url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home", "source_title": "A Brief Guide to Mold, Moisture and Your Home | US EPA"},
+    {"claim": "Homeowner vs contractor HVAC tasks", "detail": "Homeowner: inspect, clean, or change air filters, about monthly. Contractor annual pre-season check-ups: check all gas (or oil) connections, gas pressure, burner combustion and heat exchanger; tighten electrical connections and measure voltage and current on motors; check the central AC's refrigerant level. Check cooling in spring and heating in fall, because contractors get busy in summer and winter.", "source_url": "https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist", "source_title": "Maintenance Checklist | ENERGY STAR"},
+    {"claim": "Plumber cost ranges and after-hours multipliers (trade data)", "detail": "Average plumbing project $341, typical range $182 to $501. Labor averages about $90 per hour; most charge $70 to $120 per hour. Service call fee $100 to $250, usually including the first hour. Trip fee $50 to $300 extra, or a one- or two-hour minimum. Most plumbers charge 1.5 to 3 times their hourly rate after hours: evenings time and a half, weekends double, holidays triple. Last updated June 19, 2026.", "source_url": "https://www.homeadvisor.com/cost/plumbing/hire-a-plumber/", "source_title": "How Much Does a Plumber Cost? | HomeAdvisor"},
+    {"claim": "Electrician cost ranges (trade data)", "detail": "Average cost to hire an electrician $351, normal range $163 to $538. Licensed electricians charge $50 to $130 per hour. Service-call fee $100 to $200, covering the first hour. After-hours work costs time-and-a-half to double the standard rate, plus a trip charge of $100 or more. Last updated June 19, 2026.", "source_url": "https://www.homeadvisor.com/cost/electrical/hire-an-electrician/", "source_title": "How Much Do Electricians Charge? | HomeAdvisor"},
+    {"claim": "Handyman cost ranges (trade data)", "detail": "Hiring a handyman typically costs $65 to $1,200, or $390 on average; projects typically fall in the $165 to $615 range. Expect $60 to $125 per hour plus materials. Replacing a light switch may cost $60 to $250 for one to two hours. Last updated June 17, 2026.", "source_url": "https://www.homeadvisor.com/cost/handyman/", "source_title": "Handyman Price List | HomeAdvisor"},
+    {"claim": "How to hire a contractor", "detail": "Get several written estimates and don't automatically choose the lowest bidder. Check with your state or county government to confirm a contractor's license; ask for proof of insurance. Warning sign: scammers ask you to get any required building permits. Get a written contract with license number and dates. Don't pay the full cost up front; some states limit down payments. Hold the final payment until the work is done. Red flags: door-to-door 'in the area' offers, leftover materials, pressure to decide now, cash only.", "source_url": "https://consumer.ftc.gov/articles/0242-hiring-contractor", "source_title": "Hiring a Contractor | FTC Consumer Advice"}
+  ],
+  "real_questions": [
+    "Can this wait until Monday, or do I need an emergency call?",
+    "Is it worth paying a service call just for a diagnosis?",
+    "Can I replace an outlet or light fixture myself?",
+    "How do I know a contractor is legit?",
+    "Does DIY electrical work cause problems with insurance or selling the house?"
+  ],
+  "original_asset": {"type": "worked_example", "spec": "Decision table by situation (DIY, pro now, pro at regular hours) using PG&E, EPA, ENERGY STAR, registry; plus worked cost example: the same two-hour plumbing job at HomeAdvisor's $90/hr average on a weekday ($180), weekend at double ($360), holiday at triple ($540), showing why shutting off a fixture valve and waiting saves money."},
+  "cautions": [
+    "Gas smell: leave first, call from outside (PG&E).",
+    "Water heater flush order per registry: power or gas off, cool, drain, refill fully before power on.",
+    "Test smoke and CO alarms monthly; GFCIs monthly (registry).",
+    "Call 811 before digging (registry).",
+    "Cost figures are trade-publication ranges and vary by region."
+  ],
+  "sources": {
+    "https://www.pge.com/en/outages-and-safety/safety/gas-safety.html": "Gas Safety | PG&E",
+    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home": "A Brief Guide to Mold, Moisture and Your Home | US EPA",
+    "https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist": "Maintenance Checklist | ENERGY STAR",
+    "https://www.homeadvisor.com/cost/plumbing/hire-a-plumber/": "How Much Does a Plumber Cost? | HomeAdvisor",
+    "https://www.homeadvisor.com/cost/electrical/hire-an-electrician/": "How Much Do Electricians Charge? | HomeAdvisor",
+    "https://www.homeadvisor.com/cost/handyman/": "Handyman Price List | HomeAdvisor",
+    "https://consumer.ftc.gov/articles/0242-hiring-contractor": "Hiring a Contractor | FTC Consumer Advice"
+  }
+}

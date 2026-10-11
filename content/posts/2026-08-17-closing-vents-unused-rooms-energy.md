@@ -2,9 +2,8 @@
 title: Does Closing Vents in Unused Rooms Save Energy or Cost More?
 slug: closing-vents-unused-rooms-energy
 date: '2026-08-17'
-updated: '2026-09-29'
-description: Closing vents in unused rooms usually backfires with forced-air systems,
-  raising duct pressure and even freezing AC coils. When it's OK and what to do instead.
+updated: '2026-10-11'
+description: Berkeley Lab found closing registers raised energy use in a house with attic ducts, and closing over 60% risks a frozen coil. What works instead, by heating type.
 tags:
 - energy savings
 - HVAC
@@ -15,78 +14,128 @@ hero_image: /images/closing-vents-unused-rooms-energy-hero.svg
 hero_alt: Cutaway house with attic ductwork feeding each room and a hand adjusting a
   floor vent register in one room
 pin_hooks:
-- Closing vents can raise duct pressure and freeze AC coils
-- Close the door, not the vent, in unused rooms
+- Closing vents raised energy use in a Berkeley Lab study
+- Don't close more than 60% of your registers
+enriched: '2026-10-11'
 ---
 
-For most forced-air furnaces and central AC or heat pump systems, closing vents in unused rooms doesn't save energy — it raises duct pressure, can strain the equipment or even freeze an AC coil, and often nudges bills up instead. Here's when it actually helps.
+With central forced-air heat and ducts in an attic, crawlspace, or garage, closing vents in unused rooms tends to cost more. Lawrence Berkeley National Laboratory found it raised energy use, and closing over 60% of them risks a frozen AC coil or an overheating furnace.
 
-The instinct makes sense: why heat or cool a guest room nobody uses? But a home's ductwork is a closed, balanced system, and shutting a vent doesn't make your furnace work less. It usually just redirects air somewhere you didn't plan for, and that has real costs. Below is a checklist to work through before you close a single vent.
+Rooms with their own heater are the exception. If the room has electric baseboard heat or a window unit, turning it down there does save. The rest of this article covers why the ducted case backfires, where the answer changes, and what to do if you close one anyway.
 
-## First, Understand Why This Backfires
+## What the Berkeley Lab study found
 
-**Your system is sized for a fixed amount of airflow.** Furnaces and AC units are designed to move a specific volume of air through the whole duct system. Closing a vent doesn't shrink that job — it just blocks one exit, so the air has fewer places to go.
+Iain Walker at Lawrence Berkeley National Laboratory (LBNL) tested the idea in 2003. His team measured in a lab how duct leakage changed as registers (the grilles where air comes into a room) were closed. They fed those measurements into a model of a typical house:
 
-- **Pressure builds up in the ducts.** That trapped air has to escape somewhere, and it often forces its way out through gaps, seams, or loose joints in the ductwork — spaces you're not living in, like your attic or crawlspace. You're paying to heat or cool air that never reaches a room at all.
-- **The blower pays for it either way.** Variable-speed blowers ramp up to push air past the restriction, using more electricity; older fixed-speed blowers simply move less air, which drags down the whole system's efficiency. Over time, running against extra resistance can shorten motor life, and a furnace starved of airflow can overheat and trip its high-limit safety switch — repeated overheating is hard on the heat exchanger.
-- **On AC and heat pumps, low airflow can freeze the coil.** The indoor evaporator coil needs a steady stream of warm room air flowing across it. Choke that airflow enough and the coil can drop below freezing and ice over, which blocks airflow even more, can leave water dripping around the air handler as it thaws, and puts stress on the compressor.
-- **Your thermostat doesn't know a vent is closed.** It only reads the temperature at its own location. If closing vents changes airflow patterns enough to affect that reading, the system may run longer trying to hit a setpoint it's struggling to reach efficiently.
+- an 1,800-square-foot, two-story house
+- ten supply registers and a single return
+- all ductwork in the attic
+- heating to 68°F, in three California climates from the coast to the mountains
 
-**Key takeaway: with a standard forced-air furnace or central AC, closing more than one or two vents typically does more harm than good.**
+**Result:** closing registers increased energy use for that house across a wide range of climates, duct leakage levels, and numbers of closed registers. The unused rooms did need less heat, but the extra duct losses outweighed that. Most of the extra loss came from more air leaking out of the ducts.
 
-## Checklist: Situations Where Closing a Vent Is Fine
+Walker's conclusion is that closing registers is not a viable energy-saving strategy for houses with ducts outside the conditioned space, meaning the heated and cooled part of the house.
 
-Not every case is a disaster. Run through this list before you decide.
+At least one utility has handed out the opposite tip. When a homeowner on GreenBuildingAdvisor said his utility had told him to close vents in unused rooms, the site's editor, Martin Holladay, called that bad advice and pointed to this study.
 
-- **You're closing just one vent, partway, in a home with many rooms.** A single register nudged toward closed in an otherwise balanced system is a minor adjustment most furnaces tolerate fine. The risk grows as you close more vents across the house.
-- **The room is small relative to your total square footage.** Closing a vent in a small closet-sized room barely changes total airflow demand. Closing vents in three bedrooms of a modest-sized house is a bigger shift.
-- **You have a zoned HVAC system.** Larger or newer homes sometimes have separate thermostats and dampers for different zones (upstairs/downstairs, for example). These systems are designed to shut off airflow to a zone entirely, so it's a normal, intended use — not a workaround.
-- **You have a ductless mini-split or window unit in that room instead.** If the unused room is heated or cooled independently, simply turning that unit off is the real equivalent of "closing the vent" and it works exactly as expected — no shared ductwork to disrupt.
-- **The vent is only closed seasonally, not year-round.** A guest room closed off for a two-week cold snap is different from a vent that stays shut for years, slowly inviting moisture and temperature swings that can affect the room and anything stored in it.
+## Why closing a register makes the ducts leak more
 
-## Checklist: Signs You've Closed Too Many Vents
+Your blower keeps pushing air whether a register is open or shut. Shut one and pressure rises in the ducts, so more air squeezes out through seams and gaps. If those ducts run through the attic, that air heats or cools the attic instead of a room.
 
-If any of these sound familiar, it's worth reopening some registers.
+The lab numbers show how steep that curve is:
 
-- **Your energy bill went up, not down, after closing vents.** This is the most direct sign the system is compensating by running longer or harder.
-- **You hear new whistling, rattling, or banging from the ductwork.** That's often pressure escaping through gaps it shouldn't be escaping through — a sign of duct leakage in action.
-- **Ice on the refrigerant lines or indoor coil, or water around the air handler in summer.** Turn the AC off, let the ice melt, and reopen vents; if it happens again with everything open, call an HVAC technician.
-- **Rooms you *do* use feel less consistent — some too hot, some too cold.** Blocked airflow elsewhere can throw off the balance you had before, even in rooms with open vents. If you're fighting the opposite problem — one room that never warms up — see [why one room is always colder than the rest](https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html).
-- **The unused room develops a musty smell or damp feel.** Stagnant air without airflow or humidity control can lead to condensation, especially in humid climates or basements — a maintenance problem, not a savings tactic.
-- **Your furnace or AC is short-cycling — turning on and off more frequently than usual.** This is hard on the equipment and is a common outcome of restricted airflow.
+- **Leaks at the register boxes:** as registers were closed, these rose almost tenfold, from 5% to 55% of the air the blower moved.
+- **Leaks at the supply plenum:** these went from 10% to 35%. The supply plenum is the large box on the furnace that feeds the ducts.
 
-## What to Do Instead of Closing Vents
+That comes on top of the baseline. ENERGY STAR says a typical duct system already loses about 20 to 30% of the air it moves through leaks, holes, and poor connections.
 
-If the goal is to stop "wasting" energy on rooms you don't use, these options actually work with your system instead of against it.
+## The safety line: 60% of registers
 
-1. **Close the interior door, not the vent.** A shut door with the vent open still limits how much conditioned air lingers and gets felt in that room, without disrupting duct pressure. It's a smaller effect than closing the vent, but it's a safe one.
-2. **Use a door draft stopper or door snake.** This limits air exchange under the door further, for a bit more separation between that room's temperature and the rest of the house.
-3. **Adjust your thermostat schedule instead of individual rooms.** As covered in [the right thermostat settings for every season](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html), whole-house setbacks save more energy than trying to zone a single-zone system room by room.
-4. **Address the bigger energy leaks first.** Unused rooms are rarely where the real losses are. Attic insulation, air sealing around windows and doors (our [caulking guide](https://www.hearth-habit.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html) shows where gaps typically hide), and a clean filter (here's [how often to change your furnace filter](https://www.hearth-habit.com/2026/07/furnace-filter-basics-how-often-to.html)) usually save far more than vent tricks ever will.
-5. **If you truly want zone control, get it done properly.** A licensed HVAC technician can install zoning dampers and a second thermostat for a section of the house. This costs real money upfront — often a few thousand dollars depending on the system — but it's the legitimate version of what closing vents is trying to accomplish.
+Closing vents also chokes airflow, and that's where equipment damage comes in. LBNL treated about a 20% drop in blower airflow as the most that's acceptable.
 
-![Two duct diagrams side by side: a balanced system with all vents open, and one with a closed vent causing pressure and leaks](/images/closing-vents-unused-rooms-energy-inline.svg)
+Walker says closing **more than 60% of registers** is not recommended. Two things can happen past that point:
 
-## When It's a Different System Entirely
+- The furnace may run on its **high-limit switch**, the safety that shuts the burner off when the heat exchanger overheats.
+- The AC or heat pump **coil may freeze**.
 
-Everything above assumes a standard central forced-air furnace, AC, or heat pump. A few other setups change the math:
+In a ten-register house, 60% is six registers. That isn't a safe allowance below the line, though. Energy use went up across a wide range of closed-register counts in the study.
 
-- **Radiators or in-floor hydronic heat:** Closing a radiator valve in an unused room is a normal and effective way to reduce heat there — this is a different system with no shared blower or duct pressure to worry about.
-- **Baseboard electric heat:** Turning down or off a thermostat in a single baseboard-heated room does save energy directly, since each room's heater usually works independently.
-- **Window AC units:** Simply turn it off in the unused room. There's no ductwork involved, so none of the pressure issues above apply.
+## Decision table: what to do in an unused room
 
-**The rule of thumb:** if your heating or cooling comes through ducts and one shared blower, don't rely on closing vents to save money. If each room has its own independent heat source, closing it down is usually fine.
+| Your setup | What to do | Why (source) |
+|---|---|---|
+| Central forced air, ducts in attic, crawlspace, or garage | Leave the registers open. Use a whole-house thermostat setback instead. | Closing registers raised energy use in this setup (LBNL) |
+| Central forced air, ducts in a basement or inside the living space | Leave the registers open; savings from closing them are unproven | LBNL's verdict covers ducts outside the living space. It didn't model this case. |
+| Any forced-air system | Don't close more than 60% of registers | High-limit cycling and frozen coils (LBNL) |
+| Zoned system (several thermostats with motorized dampers) | Use the zones as designed | Built to shut off airflow to a zone |
+| Electric baseboard heat | Heat only occupied rooms and close their doors while heating | BC Hydro's guidance for baseboard heat |
+| Window AC or a ductless unit in that room | Turn that unit off | No shared ducts to disturb |
+
+The proven savings are whole-house. The US Department of Energy says turning the thermostat back 7–10°F for 8 hours a day can save up to about 10% a year on heating and cooling. Our [thermostat settings guide](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html) lays out a schedule.
+
+For room-by-room heat, BC Hydro, British Columbia's public electric utility, puts a number on it. It says heating costs can rise about 5% for every degree Celsius above 20°C (68°F). It recommends turning baseboard heaters on only in the rooms you're using.
+
+![Decision chart: attic or crawlspace ducts mean leave vents open, never close over 60%, baseboard heat means turn the room down, and close far vents first](/images/closing-vents-unused-rooms-energy-inline.svg)
+
+## "Just close the door" has a catch
+
+The usual fallback is to leave the vent open and close the door. In homes where the return grilles sit only in the central part of the house, that creates a different problem.
+
+Florida Solar Energy Center researchers measured 70 central Florida homes. In nearly all of them, the return grilles were in the central part of the house. With the blower running and interior doors closed:
+
+- **Closed rooms** averaged +6.2 pascals (Pa) of pressure relative to outdoors, and some reached +37.3 Pa. A pascal is a very small unit of air pressure.
+- **The central part of the house** averaged −2.9 Pa and went as low as −14.7 Pa.
+- **Outdoor air leaking in** rose on average from 0.46 to 0.60 air changes per hour.
+
+That negative pressure in the middle of the house matters if you have gas appliances. The FSEC report says that at about −5 to −10 Pa, most atmospherically vented appliances can spill or backdraft. Those are the ones that vent by natural draft, like many older water heaters and furnaces. Spilling means some exhaust comes back into the house, and backdrafting means the flow reverses entirely. For comparison, Florida's building code requires return-air paths so the pressure across an interior wall stays at 2.5 Pa or less.
+
+What that means in practice:
+
+- If the unused room has its own return grille, closing its door is less of a concern.
+- If it doesn't, leave the door partly open while the system runs, especially if your house has gas appliances that vent by natural draft.
+- Keep the carbon monoxide alarm working wherever you have fuel-burning appliances, and test it monthly.
+
+## If you close one anyway
+
+Sometimes a single room is uncomfortably warm or cold, and a nudge to one register is the only quick fix. LBNL's results give an order:
+
+1. **Start with the registers farthest from the furnace or air handler.** Closing distant registers mostly raised pressure in that one branch. Closing ones near the air handler raised pressure and leakage across the whole system.
+2. **Close one, partway if the damper allows, and stop there.** The study found extra energy use across a wide range of closed-register counts, so treat this as a comfort adjustment, not a savings move.
+3. **Stay far below 60% of the house's registers.**
+4. **Watch for warning signs:** ice on the refrigerant lines or indoor coil, a furnace that shuts off early and restarts, or rooms that suddenly get harder to heat or cool. ENERGY STAR lists hard-to-condition rooms and high bills as signs of duct problems. If you see ice, turn the AC off, open the registers, and call a technician if it happens again with everything open.
+
+If the real issue is one room that never warms up, the fix may be in the ducts or the room itself. See [why one room is always colder than the rest](https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html).
+
+## Where the money actually goes
+
+If an unused room feels like waste, the duct leakage that closing its vent would increase is the bigger target. ENERGY STAR's duct-sealing guidance points to leaks, holes, and poorly connected ducts, and to ducts that run through attics, crawlspaces, and garages.
+
+Two cheaper steps come first:
+
+- **A clean filter** keeps airflow up, which makes the frozen-coil and high-limit problems less likely. See [how often to change your furnace filter](https://www.hearth-habit.com/2026/07/furnace-filter-basics-how-often-to.html).
+- **A whole-house setback** on the thermostat, as covered above.
+
+If a winter bill jumped and you haven't touched anything, [this checklist for a higher gas bill](https://www.hearth-habit.com/2026/10/gas-bill-higher-this-winter-without.html) walks through the usual causes.
 
 ## FAQ
 
-### Will closing one vent in my bedroom really hurt anything?
-Closing a single vent partway in a house with many rooms is a low-risk adjustment that most systems handle without issue. Problems tend to show up when several vents across the house are closed at once, which is when airflow gets meaningfully restricted.
+### Should I close basement vents in summer to push cold air upstairs?
 
-### How many vents can I safely close?
-There's no exact number that applies to every home, but a reasonable guideline is no more than 10–20% of the vents in the house, and never fully closing more than one room's worth in a smaller home. If you notice new noises, uneven temperatures, ice on the AC lines, or a higher bill, that's your sign to reopen some.
+Closing registers doesn't add airflow. It raises duct pressure, and the extra air mostly leaks out of the ducts instead of reaching the upstairs rooms. LBNL modeled attic ducts in heating season, not basement ducts in summer, so there's no measured result for this case. Nothing in these sources shows it moves meaningful cooling upstairs. Keep the total well under 60% of registers either way.
 
-### Does closing vents help in the room directly, even if it costs more overall?
-Sometimes, yes — the room itself may run a bit cooler or warmer as intended, even while the rest of the system compensates elsewhere. The tradeoff is that the "savings" in that one room is often offset, or outweighed, by inefficiency elsewhere in the ducts.
+### Do "smart" vents that open and close on their own fix this?
 
-### Is it better to close the vent or close the door in an unused room?
-Closing the door and leaving the vent open is generally the safer choice for forced-air systems. It reduces how much conditioned air you notice in that room without disturbing the pressure balance the rest of the ductwork depends on.
+They still close registers, so the same duct-pressure physics applies. A system designed for zoning, with dampers and controls an installer sizes for your blower, is the version built to handle closed-off areas.
+
+### My utility told me to close vents. Who's right?
+
+For ducts outside the living space, the measured evidence is LBNL's study, and it found closing registers raised energy use. At least one utility has repeated the old advice. If each room has its own heater, though, room-by-room control does save, which is BC Hydro's advice for baseboard heat.
+
+## Sources
+
+- [Register Closing Effects on Forced Air Heating System Performance | Berkeley Lab](https://smartersmallbuildings.lbl.gov/publications/register-closing-effects-forced-air) and the [full LBNL-54005 report (PDF)](https://eta-publications.lbl.gov/sites/default/files/54005.pdf) — higher energy use, leakage rising from 5% to 55%, close far registers first, the 60% limit, the study house
+- [Duct Sealing | ENERGY STAR](https://www.energystar.gov/saveathome/heating-cooling/duct-sealing) — 20 to 30% of duct air lost; signs of duct problems
+- [Unbalanced Return Air in Residences (FSEC-RR-140-06, PDF)](https://publications.energyresearch.ucf.edu/wp-content/uploads/2018/06/FSEC-RR-140-06.pdf) — closed-door room pressures, extra infiltration, backdrafting range, Florida's 2.5 Pa limit
+- [Electric baseboard heaters | BC Hydro](https://bchydro.com/powersmart/residential/tips-technologies/baseboard-heaters.html) — heat only occupied rooms; about 5% per degree Celsius above 20°C (68°F)
+- [Closing vents in unused rooms | GreenBuildingAdvisor](https://www.greenbuildingadvisor.com/question/closing-vents-in-unused-rooms) — utility advice versus the LBNL finding
+- [Programmable Thermostats | US Department of Energy](https://www.energy.gov/energysaver/programmable-thermostats) — 7–10°F setback for 8 hours saves up to about 10% a year

@@ -1,0 +1,91 @@
+{
+  "reader_situation": "A homeowner or renter opens a closet that looks clean and gets a damp, earthy smell, often worst in winter on an outside wall or in humid summer months. They have cleaned and laundered and the smell returns, and they want to know where the moisture is and whether it is mold.",
+  "direct_answer": "The smell is mildew or mold growing where you can't see it, fed by moisture the closet traps: usually a cold exterior wall behind packed clothes in winter, or humid house air with no circulation in summer. Fix the moisture first: pull things off the outside wall, open or louver the door, and keep indoor humidity below 60%, ideally 30–50% (EPA). Then scrub any growth with detergent and water.",
+  "consensus": [
+    "Musty smell means moisture plus still air, not dirt.",
+    "Empty the closet and look for spots on walls, baseboards and shelves.",
+    "Keep indoor humidity below 60% and use a hygrometer.",
+    "Improve airflow with an open door or louvered door.",
+    "Use moisture absorbers, charcoal or dehumidifiers; don't store damp items."
+  ],
+  "gaps": [
+    "Closets on exterior walls are a known winter mold spot: NDSU Extension says closet air can reach humidity conducive to mold even when the house is dry, because the closet is cooler than the house, typically near the outside wall. Its fixes: store things away from the outside wall and leave closet doors open in very cold weather.",
+    "How much colder a surface must be to condense depends on room humidity: NIH's technical bulletin says air at 80% RH condenses after a 7°F drop and air at 50% RH after a 20°F drop. That gives a worked example: a 70°F room at 50% RH puts the dew point near 50°F; at 80% RH a wall at 63°F is enough.",
+    "EPA lists 'the surface of walls behind furniture (where condensation forms)' as a hidden-mold location, and says to suspect hidden mold when a building smells moldy but you can't see the source. Packed clothing against a cold wall works the same way.",
+    "Desiccants are oversold: University of Florida Extension says moisture absorbers like calcium chloride are of little use in a closet when the rest of the house is humid, because the space is large compared with their holding capacity.",
+    "Bleach is not the default: EPA says biocides such as chlorine bleach are not recommended as a routine practice for mold cleanup; scrub hard surfaces with detergent and water and dry completely. Dead mold can still cause allergic reactions, so it must be removed, not just killed. Never mix bleach with ammonia or acids.",
+    "Do not paint or caulk over moldy surfaces (EPA); paint over mold is likely to peel. Porous materials like carpet may have to be thrown away if moldy.",
+    "UGA Extension: mildew typically starts growing when relative humidity stays at 60% and temperature is 60°F or higher, which is why summer closets in humid houses smell too.",
+    "Hygrometers cost $10–$50 (EPA), not a fixed $10–20. The old article's moisture-meter price, absorber swap interval, two-week odor timeline and vinegar protocol had no source."
+  ],
+  "evidence": [
+    {
+      "claim": "Exterior-wall closets get mold in winter even when the house is dry",
+      "detail": "Closets can be conducive to mold growth, especially those on exterior walls. The relative humidity of the air in a closet may be at a level conducive to mold growth if the temperature in the closet is cooler than in the house during the winter. This will typically occur near the outside wall. Keep the closet warm by storing things away from the outside wall to allow air circulation. Leave closet doors open during very cold weather. Stored clothes should be clean and dry. Check for spots especially in the corners or on the baseboard.",
+      "source_url": "https://www.ndsu.edu/agriculture/node/11091",
+      "source_title": "Care Required in Closets and Storage Areas to Prevent Mold Growth | NDSU Extension"
+    },
+    {
+      "claim": "How much cooling causes condensation",
+      "detail": "For air with a fixed amount of water vapor, relative humidity increases as temperature is lowered. The dew point is the temperature below which condensation will occur. For a relative humidity of 80%, a drop of 7°F is required; for a relative humidity of 50%, a drop of 20°F is required. Cold spots or thermal bridges within walls can create areas where condensation occurs.",
+      "source_url": "https://orf.od.nih.gov/TechnicalResources/Documents/Technical%20Bulletins/18TB/Condensation%20in%20Exterior%20Walls%20June%202018-%20Technical%20Bulletin%20_508.pdf",
+      "source_title": "Condensation in Exterior Walls, Technical Bulletin Issue 77 (NIH Office of Research Facilities, June 2018)"
+    },
+    {
+      "claim": "Closet moisture tips and desiccant limits",
+      "detail": "Moisture can get into closets much more easily than it can come out; even a little moisture in shoes or clothing adds to the problem. Louvered doors encourage air movement and keep a closet drier. Keep solid closet doors open if the closet has a musty smell. Open shelving (plastic-coated wire) allows air circulation. Keep items off the floor; moisture can be trapped under them. A low-wattage light bulb placed far away from clothing or anything that can ignite raises closet temperature and reduces relative humidity; a low location is best. Desiccants like calcium chloride are of little use in a closet if the rest of the house is humid. Bathrooms, closets and bedrooms are the three areas that most commonly experience mold problems.",
+      "source_url": "https://journals.flvc.org/edis/article/download/116529/114713/168277",
+      "source_title": "Moisture Control in Your Home, Part 2: Room by Room Tips (FCS3257, University of Florida IFAS Extension)"
+    },
+    {
+      "claim": "Hidden mold and biocides",
+      "detail": "Suspect hidden mold if a building smells moldy but you cannot see the source. Hidden mold locations include the back side of drywall, wallpaper or paneling, the underside of carpets and pads, and the surface of walls behind furniture (where condensation forms). Chlorine bleach or other biocides are not recommended as a routine practice during mold cleanup; spores will not grow if the moisture problem is resolved. Dead mold may still cause allergic reactions, so it must be removed. Never mix chlorine bleach with cleaners containing ammonia. Investigating hidden mold requires caution: removal of wallpaper can lead to a massive release of spores if mold is growing on the underside of the paper; if you believe you may have a hidden mold problem, consider hiring an experienced professional.",
+      "source_url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+      "source_title": "A Brief Guide to Mold, Moisture and Your Home | US EPA"
+    },
+    {
+      "claim": "Humidity target, hygrometer cost, condensation prevention",
+      "detail": "Keep indoor humidity below 60 percent (ideally between 30 and 50 percent). Relative humidity can be measured with a moisture or humidity meter, a small, inexpensive ($10–$50) instrument. Actions that prevent condensation: reduce humidity; increase ventilation or air movement by opening doors; use fans; cover cold surfaces with insulation; increase air temperature.",
+      "source_url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+      "source_title": "A Brief Guide to Mold, Moisture and Your Home | US EPA"
+    },
+    {
+      "claim": "DIY size limit and cleanup method",
+      "detail": "If the moldy area is less than about 10 square feet (roughly a 3 ft by 3 ft patch), in most cases you can handle the job yourself. Fix water problems; dry all items completely; scrub mold off hard surfaces with detergent and water and dry completely. Absorbent or porous materials such as carpet may have to be thrown away if moldy. Do not paint or caulk moldy surfaces; paint applied over moldy surfaces is likely to peel. If sewage or contaminated water caused it, call a professional.",
+      "source_url": "https://www.epa.gov/mold/mold-cleanup-your-home",
+      "source_title": "Mold Cleanup in Your Home | US EPA"
+    },
+    {
+      "claim": "When mildew starts growing; musty odor locations; bleach caution",
+      "detail": "Mildew typically starts to grow when relative humidity remains at 60 percent and the temperature is 60 degrees Fahrenheit or higher. Musty odors are often associated with clothes chests, closets, upholstered furniture or carpets. Solutions containing household bleach should be used with extreme caution.",
+      "source_url": "https://fieldreport.caes.uga.edu/news/uga-extension-provides-tips-on-removing-and-preventing-mold-and-mildew/",
+      "source_title": "UGA Extension provides tips on removing and preventing mold and mildew | UGA CAES Field Report"
+    }
+  ],
+  "real_questions": [
+    "My closet is on an outside wall and smells musty every winter. Why?",
+    "Do DampRid or charcoal bags actually fix a musty closet?",
+    "Should I spray the closet walls with bleach or vinegar?",
+    "Is the musty smell a sign of mold inside the wall?",
+    "Can I just paint over the spots?",
+    "Is it safe to put a light bulb in the closet to dry it out?"
+  ],
+  "original_asset": {
+    "type": "worked_example",
+    "spec": "Dew-point worked example using NIH's 7°F/20°F figures (70°F room at 50% vs 80% RH), plus a diagnostic table: when and where the smell is worst -> likely cause -> fix (NDSU, UF, EPA, UGA)."
+  },
+  "cautions": [
+    "Never mix bleach with ammonia or acids such as vinegar (registry never_mix_bleach).",
+    "Mold over about 10 square feet, after sewage or dirty water, or in HVAC ducts warrants a professional (EPA, registry).",
+    "A heat bulb must be low-wattage and well away from clothing or anything that can ignite (UF).",
+    "Don't paint or caulk over mold (EPA)."
+  ],
+  "sources": {
+    "https://www.ndsu.edu/agriculture/node/11091": "Care Required in Closets and Storage Areas to Prevent Mold Growth | NDSU Extension",
+    "https://orf.od.nih.gov/TechnicalResources/Documents/Technical%20Bulletins/18TB/Condensation%20in%20Exterior%20Walls%20June%202018-%20Technical%20Bulletin%20_508.pdf": "Condensation in Exterior Walls, Technical Bulletin Issue 77 (NIH Office of Research Facilities, June 2018)",
+    "https://journals.flvc.org/edis/article/download/116529/114713/168277": "Moisture Control in Your Home, Part 2: Room by Room Tips (FCS3257, University of Florida IFAS Extension)",
+    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home": "A Brief Guide to Mold, Moisture and Your Home | US EPA",
+    "https://www.epa.gov/mold/mold-cleanup-your-home": "Mold Cleanup in Your Home | US EPA",
+    "https://fieldreport.caes.uga.edu/news/uga-extension-provides-tips-on-removing-and-preventing-mold-and-mildew/": "UGA Extension provides tips on removing and preventing mold and mildew | UGA CAES Field Report"
+  }
+}

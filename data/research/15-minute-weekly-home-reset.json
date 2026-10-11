@@ -1,0 +1,103 @@
+{
+  "reader_situation": "Readers are busy adults whose house slides from fine to overwhelming over a week. They want one short weekly routine that keeps it under control, and most have tried a 'Sunday reset' that fell apart within a few weeks.",
+  "direct_answer": "Once a week, set a 15-minute timer and make one pass through the rooms you use most: toss trash, collect strays in one basket, clear flat surfaces, then put the basket away. It maintains placement, not cleanliness. It sticks when it is tied to the same weekly cue, and one missed week does little damage; repeated skipping is what kills a habit.",
+  "consensus": [
+    "Set a timer and stop when it rings; aim for 'better', not perfect.",
+    "Carry a basket for items that belong in other rooms.",
+    "Focus on the kitchen, living area, bathroom and bedroom surfaces.",
+    "Anchor the routine to something you already do each week.",
+    "Split the work with other household members."
+  ],
+  "gaps": [
+    "Habit research does not support '21 days'. In Lally and colleagues' study (reported by the British Psychological Society), the average time for a daily behaviour to reach maximum automaticity was 66 days, ranging from 18 to a predicted 254 days. A weekly routine gets one repetition a week, so expect it to need far more calendar time than a daily one.",
+    "One missed repetition does little harm: the same study found a single missed day had little impact on later automaticity gains, while many missed repeats had a cumulative effect. The advice is 'never skip twice', not 'start over'.",
+    "Exercise behaviours took about one and a half times as long as eating or drinking behaviours to plateau. A multi-step routine like a room-by-room reset should be expected to take longer to become automatic than a single action.",
+    "The clutter-stress link usually quoted online traces to Saxbe and Repetti (2010): 60 dual-income spouses' home tours; wives who used more clutter/unfinished words had flatter daily cortisol slopes and rising depressed mood across the day. It is correlational and the cortisol finding is for wives.",
+    "The paper pile can be cut at the source, not just sorted weekly: the FTC points to DMAchoice ($6 online, lasts 10 years; $7 by mail) and optoutprescreen.com or 1-888-567-8688 for prescreened credit and insurance offers (5 years, or permanent with a signed form).",
+    "A weekly fridge sweep cannot by itself enforce USDA's 3-4 day limit on cooked leftovers; leftovers need a date label so the sweep catches anything past day 4.",
+    "Dead batteries that end up in the relocation basket should not go in the trash: EPA says lithium-ion and button/coin batteries go to a battery recycler, retailer take-back, or household hazardous waste program, with terminals taped.",
+    "The weekly cue is a natural place for the monthly safety checks the registry lists (smoke/CO alarms, GFCI test, furnace filter check), rotated one per week so the reset stays near 15 minutes."
+  ],
+  "evidence": [
+    {
+      "claim": "Time to habit automaticity",
+      "detail": "96 people recruited, 82 completed; behaviour repeated daily for 84 days. The average time to reach maximum automaticity was 66 days, ranging from 18 days to a predicted 254 days.",
+      "source_url": "https://bps.org.uk/research-digest/how-form-habit",
+      "source_title": "How to form a habit | British Psychological Society Research Digest"
+    },
+    {
+      "claim": "Missing one repetition",
+      "detail": "A single missed day had little impact on later automaticity gains, although many missed repeats had a cumulative effect.",
+      "source_url": "https://bps.org.uk/research-digest/how-form-habit",
+      "source_title": "How to form a habit | British Psychological Society Research Digest"
+    },
+    {
+      "claim": "Complex behaviours take longer; study limitation",
+      "detail": "Exercise behaviours took about one and a half times as long to reach their automaticity plateau as eating or drinking behaviours. The research depended entirely on participants reporting their own automaticity.",
+      "source_url": "https://bps.org.uk/research-digest/how-form-habit",
+      "source_title": "How to form a habit | British Psychological Society Research Digest"
+    },
+    {
+      "claim": "Clutter language and stress hormones",
+      "detail": "Saxbe and Repetti (Personality and Social Psychology Bulletin, 2010) analyzed 60 dual-income spouses' self-guided home tours. Wives with higher 'stressful home' scores (clutter and unfinished words) had flatter diurnal cortisol slopes, a profile associated with adverse health outcomes, and increasing depressed mood over the day; higher 'restorative home' scores went with steeper slopes and decreasing depressed mood. Results held after controlling for marital satisfaction and neuroticism.",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19934011%20AND%20SRC:MED&resultType=core&format=json",
+      "source_title": "No place like home: home tours correlate with daily patterns of mood and cortisol (Europe PMC record)"
+    },
+    {
+      "claim": "Stopping marketing mail",
+      "detail": "Register at DMAchoice.org: a $6 processing fee online, registration lasts 10 years; by mail a $7 processing fee. DMAchoice will stop most, but not all, promotional mail.",
+      "source_url": "https://consumer.ftc.gov/articles/how-stop-junk-mail",
+      "source_title": "How To Stop Junk Mail | FTC Consumer Advice"
+    },
+    {
+      "claim": "Stopping prescreened credit and insurance offers",
+      "detail": "To opt out for five years: go to optoutprescreen.com or call 1-888-5-OPT-OUT (1-888-567-8688). For a permanent opt-out, start online or by phone, then sign and return the Permanent Opt-Out Election form.",
+      "source_url": "https://consumer.ftc.gov/articles/how-stop-junk-mail",
+      "source_title": "How To Stop Junk Mail | FTC Consumer Advice"
+    },
+    {
+      "claim": "Who does household work and when",
+      "detail": "87 percent of women and 75 percent of men did some household activities on an average day; on days they did, women averaged 2.8 hours and men 2.1 hours. More people did housework on weekend days than weekdays (40 percent vs. 35 percent).",
+      "source_url": "https://www.bls.gov/news.release/atus.nr0.htm",
+      "source_title": "American Time Use Survey Summary (BLS)"
+    },
+    {
+      "claim": "Monthly furnace filter check",
+      "detail": "Check your filter every month, especially during heavy use months (winter and summer). If it looks dirty after a month, change it. At a minimum, change the filter every 3 months.",
+      "source_url": "https://www.energystar.gov/saveathome/heating-cooling",
+      "source_title": "Heat & Cool Efficiently | ENERGY STAR"
+    },
+    {
+      "claim": "Dead batteries do not go in the trash",
+      "detail": "Do not put button-cell, coin, or lithium single-use batteries in the trash or municipal recycling bins; never put lithium-ion batteries in household garbage or recycling. Tape terminals with non-conductive tape or bag batteries separately. Take them to specialized battery recyclers, participating retailer take-back, or household hazardous waste collection.",
+      "source_url": "https://www.epa.gov/recycle/used-household-batteries",
+      "source_title": "Used Household Batteries | US EPA"
+    }
+  ],
+  "real_questions": [
+    "What if I miss a week — do I have to start over?",
+    "Why does every reset routine I try fall apart after three weeks?",
+    "Should the reset include actual cleaning like vacuuming and bathrooms?",
+    "What do I do with the paper pile that comes back every week?",
+    "How do I get the rest of the household to do it?"
+  ],
+  "original_asset": {
+    "type": "schedule",
+    "spec": "A four-week rotation: the same 15-minute core every week (surfaces, basket, fridge sweep against dated leftovers) plus one rotating monthly add-on per week drawn from the registry and evidence: week 1 test smoke and CO alarms (NFPA, monthly), week 2 GFCI TEST/RESET (CPSC, monthly), week 3 furnace filter look (ENERGY STAR, monthly; change by 3 months), week 4 one junk-mail opt-out or battery drop-off (FTC, EPA). Plus a worked example of the 3-4 day leftover window against a weekly sweep, and the repetition arithmetic: 66 days of a daily habit is 66 repetitions, while 66 days of a weekly routine is about 9."
+  },
+  "cautions": [
+    "Never mix chlorine bleach with ammonia or acids (registry). A quick wipe cleans; disinfecting needs an EPA-registered product for its full label contact time (registry).",
+    "Food safety is time and temperature: cooked leftovers 3-4 days in the fridge (USDA). Never tell readers to judge leftovers by smell.",
+    "Habit figures come from one small self-report study of daily behaviours; do not present 66 days as a deadline or apply it directly to weekly routines.",
+    "The clutter-cortisol study is correlational and its cortisol result is for wives; do not say clutter causes stress.",
+    "Research note: federal pages for NFPA, CPSC and FSIS refused or returned empty fetches; those facts are cited from the fact registry. The 'Habits: a repeat performance' PDF could not be read and is not used. No forum thread was retrieved; real questions come from search-result coverage of failed reset routines."
+  ],
+  "sources": {
+    "https://bps.org.uk/research-digest/how-form-habit": "How to form a habit | British Psychological Society Research Digest",
+    "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19934011%20AND%20SRC:MED&resultType=core&format=json": "No place like home: home tours correlate with daily patterns of mood and cortisol (Europe PMC record)",
+    "https://consumer.ftc.gov/articles/how-stop-junk-mail": "How To Stop Junk Mail | FTC Consumer Advice",
+    "https://www.bls.gov/news.release/atus.nr0.htm": "American Time Use Survey Summary (BLS)",
+    "https://www.energystar.gov/saveathome/heating-cooling": "Heat & Cool Efficiently | ENERGY STAR",
+    "https://www.epa.gov/recycle/used-household-batteries": "Used Household Batteries | US EPA"
+  }
+}

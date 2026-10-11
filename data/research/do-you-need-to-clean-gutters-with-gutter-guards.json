@@ -1,0 +1,86 @@
+{
+  "reader_situation": "A homeowner who has gutter guards, or is being sold them as 'never clean your gutters again', wants to know whether they still have to get on a ladder, how often, and what can go wrong if they don't.",
+  "direct_answer": "Yes. Guards keep most whole leaves out of the channel, but debris still collects on top of them, at seams and corners, and in downspouts, so guarded gutters still need a look and a clear-off. Even the Insurance Institute for Business & Home Safety (IBHS), whose wildfire standard calls for noncombustible gutter guards at its higher level, still requires gutters and downspouts to be kept clear of all vegetative debris.",
+  "consensus": [
+    "Gutter guards reduce cleaning but don't eliminate it.",
+    "Check gutters once or twice a year, spring and fall.",
+    "Leaves can mat on top of guards.",
+    "Downspouts should carry water away from the house.",
+    "Ladder work is the riskiest part."
+  ],
+  "gaps": [
+    "Most articles treat guards as a convenience only. In wildfire country they're part of ember protection: the IBHS Wildfire Prepared Home checklist requires noncombustible (e.g. metal) gutters and downspouts and keeping them clear of all vegetative debris; its Plus (Enhanced) level adds noncombustible gutter guards to prevent debris buildup. Roof debris must also be kept clear.",
+    "Ladder angle has a number: OSHA's ladder rule sets a non-self-supporting ladder so its base is about one-quarter of the working length out from the support (the 4-to-1 rule), side rails extend at least 3 feet above an upper landing, and ladders are used only on stable, level surfaces unless secured.",
+    "Power-line clearance: OSHA requires unqualified people working in elevated positions to stay at least 10 feet from overhead lines of 50 kV or less, and portable ladders near energized parts must have nonconductive side rails.",
+    "Downspout outlets matter as much as the guard: DOE building-science guidance says gutters and downspouts should terminate at least 5 feet from the foundation, or at least 10 feet for an underground catchment system; EPA's mold guide says to clean and repair gutters regularly and make sure the ground slopes away from the foundation.",
+    "Guards and gutter cleaning don't prevent ice dams; those come from attic heat loss (University of Minnesota Extension, via the site's fact registry).",
+    "Common cost and time figures for guarded-gutter maintenance aren't backed by a primary source; readers should get quotes that state whether guards must be removed to clean underneath."
+  ],
+  "evidence": [
+    {
+      "claim": "IBHS base requirements for gutters",
+      "detail": "'Gutters and downspouts must be made of noncombustible material (e.g., metal).' 'Plastic downspout extensions are permitted for diverting water away from the foundation.' 'Keep gutters and downspouts clear of all vegetative debris.' Roof debris: 'Regularly keep the roof clear of all vegetative debris (e.g., leaves, pine needles).'",
+      "source_url": "https://wildfireprepared.org/wp-content/uploads/WPH-How-To-Prepare-My-Home-Checklist.pdf",
+      "source_title": "How to Prepare My Home Checklist | Wildfire Prepared Home (IBHS)"
+    },
+    {
+      "claim": "IBHS Plus level adds gutter guards; 5-foot zone",
+      "detail": "Plus (Enhanced) – Gutter covers: 'In addition to Base (Essential) requirements (noncombustible gutters and downspouts) install noncombustible gutter guards to prevent debris buildup.' The 0–5 ft zone is measured 5 feet out from exterior walls and extends vertically; no vegetation or combustible materials within or above it.",
+      "source_url": "https://wildfireprepared.org/wp-content/uploads/WPH-How-To-Prepare-My-Home-Checklist.pdf",
+      "source_title": "How to Prepare My Home Checklist | Wildfire Prepared Home (IBHS)"
+    },
+    {
+      "claim": "OSHA ladder setup",
+      "detail": "1926.1053(b)(1): when portable ladders give access to an upper landing, 'the ladder side rails shall extend at least 3 feet (.9 m) above the upper landing surface.' (b)(5)(i): non-self-supporting ladders placed so the horizontal distance from the top support to the foot is 'approximately one-quarter of the working length of the ladder.' (b)(6): 'Ladders shall be used only on stable and level surfaces unless secured to prevent accidental displacement.'",
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.1053",
+      "source_title": "1926.1053 - Ladders | Occupational Safety and Health Administration"
+    },
+    {
+      "claim": "OSHA ladder use",
+      "detail": "(b)(12): ladders shall have nonconductive siderails if used where the employee or the ladder could contact exposed energized electrical equipment. (b)(20): 'When ascending or descending a ladder, the user shall face the ladder.' (b)(21): use at least one hand to grasp the ladder when going up or down.",
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.1053",
+      "source_title": "1926.1053 - Ladders | Occupational Safety and Health Administration"
+    },
+    {
+      "claim": "Overhead power line clearance",
+      "detail": "1910.333(c)(3)(i)(A)(1): for unqualified persons in an elevated position near overhead lines, 'For voltages to ground 50kV or below - 10 ft. (305 cm).' (c)(7): 'Portable ladders shall have nonconductive siderails' if they are used where the employee or the ladder could contact exposed energized parts.",
+      "source_url": "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333",
+      "source_title": "1910.333 - Selection and use of work practices | OSHA"
+    },
+    {
+      "claim": "Downspout termination distances",
+      "detail": "'Install gutters and downspouts terminating at least 5 feet away from the foundation.' For an underground catchment system, downspouts should terminate 'at least 10 feet away from foundations.' Without proper drainage, problems with mold and rot.",
+      "source_url": "https://bsesc.energy.gov/energy-basics/stormwater-gutters-downspouts",
+      "source_title": "Stormwater Gutters Downspouts | Building Science Education (U.S. DOE)"
+    },
+    {
+      "claim": "EPA moisture guidance on gutters",
+      "detail": "'Clean and repair roof gutters regularly.' 'Make sure the ground slopes away from the building foundation.'",
+      "source_url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+      "source_title": "A Brief Guide to Mold, Moisture and Your Home | US EPA"
+    }
+  ],
+  "real_questions": [
+    "Do gutter guards really mean never cleaning gutters?",
+    "How often should guarded gutters be checked?",
+    "Do I have to take the guards off to clean?",
+    "Are plastic gutter guards OK in a wildfire area?",
+    "Do gutter guards stop ice dams?"
+  ],
+  "original_asset": {
+    "type": "worked_example",
+    "spec": "Ladder setup arithmetic using OSHA's one-quarter rule and 3-foot extension (base distance and ladder length for a hypothetical 16-ft eave, with the Pythagorean step shown), plus a symptom-to-action table for guarded gutters and a wildfire-area checklist from the IBHS standard."
+  },
+  "cautions": [
+    "Stay at least 10 feet from overhead lines and use nonconductive (fiberglass) ladders near electrical service.",
+    "Two-story and steep-roof work is a reasonable job to hire out.",
+    "OSHA rules are workplace rules; they're used here as a safety benchmark for home ladder use."
+  ],
+  "sources": {
+    "https://wildfireprepared.org/wp-content/uploads/WPH-How-To-Prepare-My-Home-Checklist.pdf": "How to Prepare My Home Checklist | Wildfire Prepared Home (IBHS)",
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.1053": "1926.1053 - Ladders | Occupational Safety and Health Administration",
+    "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.333": "1910.333 - Selection and use of work practices | OSHA",
+    "https://bsesc.energy.gov/energy-basics/stormwater-gutters-downspouts": "Stormwater Gutters Downspouts | Building Science Education (U.S. DOE)",
+    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home": "A Brief Guide to Mold, Moisture and Your Home | US EPA"
+  }
+}

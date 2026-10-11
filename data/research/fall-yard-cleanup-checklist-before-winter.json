@@ -1,0 +1,89 @@
+{
+  "reader_situation": "Homeowners facing a fall weekend list (leaves, beds, gutters, hoses, lawn) who want to know which jobs prevent winter damage and which are habit or appearance, so they can do less without regret.",
+  "direct_answer": "The jobs that prevent damage are gutters and downspouts (water discharged at least 5 feet from the foundation), shutting off and draining outdoor faucets and hoses, and getting branches that threaten the roof or power lines handled by a pro. Leaves can mostly be mowed into the lawn, perennial beds can wait until spring except for diseased plants, and lawn feeding is optional and only for cool-season grass.",
+  "consensus": [
+    "Clean gutters after the leaves drop.",
+    "Disconnect hoses and drain outdoor faucets.",
+    "Rake or mulch leaves so they don't smother the lawn.",
+    "Fall is the time to seed and feed cool-season lawns.",
+    "Leave some perennial stems for wildlife."
+  ],
+  "gaps": [
+    "Mulching leaves works at far heavier loads than 'a light layer': Michigan State University mulched 150, 300 and 450 lb of dry leaves per 1,000 sq ft (roughly 6, 12 and 18 inches) into low-input turf; visible litter remained in spring at those excessive rates but dissipated as grass grew, and a 3-inch deck height left less visible litter than 1.5 inches. In a separate MSU study, maple leaves mulched at 100 lb per 1,000 sq ft improved turf quality through fewer broadleaf weeds, with no change in soil pH and more soil organic matter.",
+    "Purdue: mulching leaves into turf will not increase thatch or disease, and dry leaves mulch more easily than wet; rake when layers are heavy enough to shade out and smother grass.",
+    "Leaves in the street are a water-quality problem: USGS found that in Madison, Wisconsin, fall leaf litter supplied 56% of the annual phosphorus load in urban stormwater, dropping to 16% when streets were cleared before rain; timely leaf removal cut phosphorus concentrations by over 80%.",
+    "Frost-free faucets aren't universal: IBHS says to shut off and insulate valves if you don't have frostproof outdoor faucets, noting homes built before 2010 typically don't.",
+    "Garden beds: Illinois Extension says wait until spring to cut down dead plant material (seed heads feed finches; hollow stems can shelter small carpenter, mason and leaf-cutter bees), with the exception of seriously diseased plants, because disease organisms overwinter on debris.",
+    "Fall feeding is cool-season only: Wisconsin Extension says around Labor Day into early September, no more than 1 lb of actual nitrogen per 1,000 sq ft; warm-season lawns are not fed in fall (registry).",
+    "Old article's '45 days/6 weeks before frost', 'grass can handle cover for a few weeks', 'compost isn't hot enough', and '2-2.5 inch last mow' have no source here and should be removed."
+  ],
+  "evidence": [
+    {
+      "claim": "Heavy leaf loads can be mulched into low-input turf",
+      "detail": "Third MSU study (from Oct. 1995): mixed deciduous leaves mulched at 150, 300 and 450 lb per 1,000 sq ft (approximately 6-, 12- and 18-inch layers) into sunny mixed turf (Kentucky bluegrass, perennial rye, fine fescue) with a mulching mower at deck heights of 1.5 and 3 inches; no fertilizer for three years. Visible leaf litter remained in spring and increased with rate, but less at the 3-inch deck height; all visible litter soon dissipated as grass grew in spring, and these plots tended to green up quicker. C/N ratio stayed well below 30/1.",
+      "source_url": "https://archive.lib.msu.edu/tic/holen/article/2002oct11.pdf",
+      "source_title": "When Leaves Turn Into Litter (Thomas A. Nikolai, Michigan State University), MSU Turfgrass Information Center archive"
+    },
+    {
+      "claim": "Mulched maple leaves reduced broadleaf weeds",
+      "detail": "Second MSU study (1991-1998): oak and maple leaves at 100 lb dry leaves per 1,000 sq ft mulched into Kentucky bluegrass with a rotary push mower. Turf quality increased on maple plots because less broadleaf weed growth was observed; no soil pH differences; increased soil organic matter. First study (50 and 100 lb per 1,000 sq ft): no negative effects.",
+      "source_url": "https://archive.lib.msu.edu/tic/holen/article/2002oct11.pdf",
+      "source_title": "When Leaves Turn Into Litter (Thomas A. Nikolai, Michigan State University), MSU Turfgrass Information Center archive"
+    },
+    {
+      "claim": "Mulch moderate leaves, rake heavy layers; no thatch or disease penalty",
+      "detail": "Rake so heavy layers of leaves will not shade out, smother and kill turf; mulch when only a moderate number of leaves are on the ground. Dry leaves mulch more easily than wet ones. Mulching leaves into the turf will not increase thatch or disease. Michigan research suggests mulching leaves can reduce dandelion populations. Do not burn leaves.",
+      "source_url": "https://turf.purdue.edu/what-to-do-with-all-those-falling-leaves/",
+      "source_title": "What To Do With All Those Falling Leaves? | Purdue Turfgrass Science"
+    },
+    {
+      "claim": "Leaves in streets load stormwater with phosphorus",
+      "detail": "In Madison, Wisconsin (2013-2015), without leaf removal, fall leaf litter and organic debris contributed 56 percent of the annual total phosphorus load in urban stormwater; with streets cleared of leaves before rain, 16 percent. Timely leaf removal can reduce phosphorus concentrations in stormwater by over 80 percent.",
+      "source_url": "https://www.usgs.gov/news/removal-fallen-leaves-can-improve-urban-water-quality",
+      "source_title": "Removal of Fallen Leaves Can Improve Urban Water Quality | USGS (Nov. 17, 2016)"
+    },
+    {
+      "claim": "Outdoor faucets and gutters before winter",
+      "detail": "Shut off and insulate valves if you don't have frostproof outdoor faucets; homes built before 2010 typically don't. Exterior hose spigots are vulnerable when temperatures drop below freezing, particularly in warmer southern regions. Clear debris from gutters and downspouts so water flows away from the home. Keep the thermostat at least 55°F.",
+      "source_url": "https://ibhs.org/ibhs-news-releases/ibhs-winter-weather-ready-guide-provides-easy-to-do-actions-to-help-prevent-property-damage-from-colder-temperatures/",
+      "source_title": "IBHS Winter Weather Ready guide (Insurance Institute for Business & Home Safety, Nov. 14, 2024)"
+    },
+    {
+      "claim": "Leave garden beds until spring, except diseased material",
+      "detail": "Instead of cutting down dead plant material this fall, wait until spring. Seed heads of black-eyed Susan, sedum, purple coneflower, Joe-Pye weed and marigold feed finches; small carpenter, mason and leaf-cutter bees may nest in hollow stems. Cleaning up diseased plant material can reduce problems next year because disease organisms often overwinter on plant debris (for serious disease, more than occasional leaf spot). About 70% of native bee species nest in the ground; leave some bare patches.",
+      "source_url": "https://extension.illinois.edu/blogs/good-growing/2021-10-22-fall-garden-clean-pollinators-and-other-wildlife-mind",
+      "source_title": "Fall garden clean up with pollinators and other wildlife in mind | University of Illinois Extension (Ken Johnson, Oct. 22, 2021)"
+    },
+    {
+      "claim": "Cool-season fall feeding window and rate",
+      "detail": "The most important time to fertilize is around Labor Day into early September. Apply no more than one pound of actual nitrogen per 1000 square feet per application; one-half pound in shade.",
+      "source_url": "https://hort.extension.wisc.edu/nows-a-great-time-to-fertilize-your-lawn/",
+      "source_title": "Now's a great time to fertilize your lawn | Wisconsin Horticulture (UW-Madison Extension)"
+    }
+  ],
+  "real_questions": [
+    "Do I have to rake, or can I just mow the leaves?",
+    "How many leaves is too many to mulch?",
+    "Should I cut down perennials in fall?",
+    "Do I need to do anything to my outdoor faucet if it's frost-free?",
+    "Is it too late to fertilize?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "A 'do it / can skip' table for each fall job with the consequence of skipping and the source (gutters/downspouts per registry and IBHS; faucets per IBHS; branches as pro work; leaves per MSU/Purdue/USGS; beds per Illinois; feeding per Wisconsin and Clemson registry). Plus a leaf-load section translating MSU's pounds per 1,000 sq ft into layer depths (150/300/450 lb = about 6/12/18 inches) and the deck-height finding."
+  },
+  "cautions": [
+    "Branches near power lines: utility or professional tree service only.",
+    "Don't blow or rake leaves into the street (USGS phosphorus).",
+    "Don't burn leaves (Purdue).",
+    "Warm-season lawns: no fall fertilizer (registry)."
+  ],
+  "sources": {
+    "https://archive.lib.msu.edu/tic/holen/article/2002oct11.pdf": "When Leaves Turn Into Litter (Thomas A. Nikolai, Michigan State University)",
+    "https://turf.purdue.edu/what-to-do-with-all-those-falling-leaves/": "What To Do With All Those Falling Leaves? | Purdue Turfgrass Science",
+    "https://www.usgs.gov/news/removal-fallen-leaves-can-improve-urban-water-quality": "Removal of Fallen Leaves Can Improve Urban Water Quality | USGS",
+    "https://ibhs.org/ibhs-news-releases/ibhs-winter-weather-ready-guide-provides-easy-to-do-actions-to-help-prevent-property-damage-from-colder-temperatures/": "IBHS Winter Weather Ready guide | IBHS",
+    "https://extension.illinois.edu/blogs/good-growing/2021-10-22-fall-garden-clean-pollinators-and-other-wildlife-mind": "Fall garden clean up with pollinators and other wildlife in mind | University of Illinois Extension",
+    "https://hort.extension.wisc.edu/nows-a-great-time-to-fertilize-your-lawn/": "Now's a great time to fertilize your lawn | UW-Madison Extension"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "reader_situation": "Someone unloads a dishwasher and finds grit on plates, food stuck in bowls, cloudy glasses, or wet cups. They want to know whether they are loading it wrong, whether the machine is failing, and what to check before calling for service.",
+  "direct_answer": "Most dirty-dish complaints trace to something blocking the water: dishes overlapping, soiled sides facing away from the spray, a tall item stopping the spray arm, or a clogged filter. Spin the spray arm by hand after loading, clean the filter (Whirlpool says monthly, every two weeks with daily use), and run the kitchen tap hot before starting. Cloudy glasses are a separate problem: a vinegar rub tells removable film from permanent etching.",
+  "consensus": [
+    "Don't overcrowd; leave space so water reaches every surface.",
+    "Scrape food instead of pre-rinsing.",
+    "Face plates toward the center and angle bowls and cups down.",
+    "Put plastics on the top rack.",
+    "Clean the filter and spray arms periodically.",
+    "Cloudy glasses come from hard water or etching."
+  ],
+  "gaps": [
+    "Whirlpool gives a concrete pre-start test: after loading, spin the middle spray arm by hand; if it resists, rearrange the load.",
+    "Whirlpool's filter schedule is about monthly, every two weeks for large families or daily use; the old article's 'weekly' and 'weekly to monthly' had no source.",
+    "Incoming water temperature matters: Frigidaire/Electrolux recommends a water heater set to at least 120°F and running the sink until hot first, because the machine uses only about 3-4 gallons a cycle.",
+    "Frigidaire says low water pressure can hurt cleaning; Whirlpool lists 20 to 120 psi as the working range and says to make sure the supply valve is fully open.",
+    "The 'Top Rack Only' cycle does not run the lower spray arm, so anything on the bottom rack will not get clean.",
+    "Film vs etching: Whirlpool's test is to rub the residue with a little vinegar; if it stays, it may be etching or silica film. Etching causes are too-soft water, too much detergent, long hot cycles, and poor glazing; film causes are hard water, too much detergent, and poor loading.",
+    "Whirlpool strongly recommends a water softener at 15 grains per gallon or more. Acton Water District says about 17 mg/L equals one grain, so 15 gpg is about 255 mg/L, well into USGS's 'very hard' class (above 180 mg/L).",
+    "Pre-rinsing has a real water cost: Virginia Cooperative Extension says it can use up to 20 gallons, against about 4 gallons for an ENERGY STAR dishwasher cycle."
+  ],
+  "evidence": [
+    {
+      "claim": "Pre-rinsing wastes water; scrape instead.",
+      "detail": "Pre-rinsing dishes before loading the dishwasher can use up to 20 gallons of water. ENERGY STAR qualified dishwashers and detergents are designed to clean without pre-rinsing. Scrape plates with a rubber spatula. Soaking or pre-washing is usually recommended only if food is burned-on or dried-on; the dishwasher's rinse feature uses a fraction of the water.",
+      "source_url": "https://accomack.ext.vt.edu/content/dam/pubs_ext_vt_edu/2908/2908-9018/BSE-305.pdf",
+      "source_title": "ENERGY SERIES: What about Dishwashers? (Virginia Cooperative Extension, BSE-305)"
+    },
+    {
+      "claim": "Water per cycle and full-load guidance.",
+      "detail": "An ENERGY STAR qualified dishwasher uses about 4 gallons of water per cycle; a non-qualified model about 6 gallons. The machine uses the same amount of water each cycle regardless of the number of dishes. Don't overload, so all items are exposed to the water spray and nothing interferes with the spray arms or water jets. A soil sensor adjusts cycles by judging how dirty dishes are.",
+      "source_url": "https://accomack.ext.vt.edu/content/dam/pubs_ext_vt_edu/2908/2908-9018/BSE-305.pdf",
+      "source_title": "ENERGY SERIES: What about Dishwashers? (Virginia Cooperative Extension, BSE-305)"
+    },
+    {
+      "claim": "Filter cleaning frequency and signs.",
+      "detail": "Clean the filter about once a month, more often with heavy use; about every two weeks for a large family or daily use. Signs: dishes come out dirty, odor, visible soil on the filter, gritty dishes. Use a soft brush, not a wire brush or scouring pad. Do not operate the dishwasher without the filters properly installed; if the upper filter assembly turns freely it is not locked.",
+      "source_url": "https://producthelp.whirlpool.com/Dishwashers/Product_Info/Dishwasher_Cleaning_and_Care/How_to_Clean_the_Dishwasher_Filters",
+      "source_title": "How to Clean the Dishwasher Filters (Whirlpool Product Help)"
+    },
+    {
+      "claim": "Spray-arm spin test and loading direction.",
+      "detail": "Before starting, turn the middle spray arm by hand; if it resists, rearrange dishes. Overloading limits water flow; leave space between items and angle soiled surfaces down and inward toward the spray arms. Water pressure should be 20 to 120 psi; water supply valve fully open. Water at 15 grains per U.S. gallon or more can hinder results; a softener is recommended.",
+      "source_url": "https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Wash_Performance/Other_Cookware_and_Dishes/Food_Residue_Remains_on_Dishes",
+      "source_title": "Food Residue Remains on Dishes (Whirlpool Product Help)"
+    },
+    {
+      "claim": "Top Rack Only cycle skips the lower spray arm; hard-water buildup on arms.",
+      "detail": "The Top Rack Only cycle washes the top rack only; the lower spray arms don't run, so lower-rack dishes won't be cleaned. Mineral residue can build up on spray arms; a water softener is strongly recommended if hardness is 15 grains or more. This residue builds up on internal components (such as the spray arms) as well as dishes and the dishwasher interior; monthly use of a dishwasher cleaner (affresh) is recommended to help maintain the dishwasher.",
+      "source_url": "https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Operation/Spray_Arms_Not_Working/Spray_Arm_Not_Working_-_Dishwasher",
+      "source_title": "Spray Arm Not Working - Dishwasher (Whirlpool Product Help)"
+    },
+    {
+      "claim": "Film vs etching causes and fixes.",
+      "detail": "Filming causes: hard water, too much detergent, poor loading. Etching causes: too-soft water, too much detergent, poor glazing on dishware, long hot cycles. Filming fixes: test water hardness, use rinse aid to minimize repeat buildup of white film, avoid overloading and load dishes at an angle, make sure spray arms and the detergent door are not obstructed; using a dishwasher cleaner once a month helps prevent film and spots. Rub the residue with a small amount of vinegar; if it doesn't come off it may be etching or silica film. For etching: test hardness, lower the rinse aid level, use quick low-temperature cycles. With liquid or powder detergent, fill the dispenser halfway and/or use less. Works best with fewer than 15 grains per gallon.",
+      "source_url": "https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Wash_Performance/Glassware/Etching_or_Cloudy_Glassware",
+      "source_title": "Etching or Cloudy Glassware (Whirlpool Product Help)"
+    },
+    {
+      "claim": "Hot incoming water and pressure affect cleaning.",
+      "detail": "Water heater set for a minimum of 120 degrees. Let water run in the sink until it's hot to prime the line. The dishwasher uses about 3-4 gallons per cycle. Low water pressure may contribute to poor results; wait until showers or laundry are done.",
+      "source_url": "https://owner.frigidaire.com/support-articles/article/1847432-dishwashers-how-can-i-ensure-the-best-cleaning-results-",
+      "source_title": "Dishwashers - How can I ensure the best cleaning results? (Frigidaire/Electrolux)"
+    },
+    {
+      "claim": "Large items block spray arms; plastics on top; mix cutlery.",
+      "detail": "Large items such as serving plates and chopping boards can obstruct the spray arms and block the water flow; place them at the side. Place dishwasher-safe plastics in the top rack. Mix forks and spoons so they don't nest. No need to pre-rinse, but scrape off large food that could clog the filter.",
+      "source_url": "https://www.bosch-home.co.uk/customer-service/get-support/dishwashers/loading-tips",
+      "source_title": "How to properly load a dishwasher (Bosch Home)"
+    },
+    {
+      "claim": "Cleaning spray-arm nozzles and the filter.",
+      "detail": "Remove the upper and lower spray arms; use a cocktail stick to clean the small outlet nozzles; rinse and click back into place. Rinse filters under running water, a small brush helps, avoid anything abrasive. Put serving plates and chopping boards at the side; large items can block the spray arms.",
+      "source_url": "https://www.bosch-home.com/ae/en/customer-service/get-support/dishwasher-not-cleaning",
+      "source_title": "Dishwasher not cleaning properly (Bosch Home)"
+    },
+    {
+      "claim": "Hardness classes.",
+      "detail": "Soft 0-60 mg/L, moderately hard 61-120, hard 121-180, very hard more than 180 mg/L (as calcium carbonate).",
+      "source_url": "https://www.usgs.gov/special-topics/water-science-school/science/hardness-water",
+      "source_title": "Hardness of Water (USGS Water Science School)"
+    },
+    {
+      "claim": "Converting mg/L to grains per gallon.",
+      "detail": "Approximately 17 mg/L of hardness equals one grain per gallon; grains per gallon appear in dishwasher manuals.",
+      "source_url": "https://www.actonwater.com/water-quality/hardness",
+      "source_title": "Hardness (Acton Water District)"
+    }
+  ],
+  "real_questions": [
+    "Why is there grit on the top rack glasses?",
+    "Should I rinse dishes before loading?",
+    "Why are my glasses cloudy even with a new dishwasher?",
+    "Do knives go handle up or down?",
+    "How often should I clean the dishwasher filter?",
+    "Why does only the bottom rack come out dirty?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "Symptom-to-check table (grit, residue in one zone, bottom rack dirty, cloudy glasses, wet cups) with the first check and fix for each, plus a worked hardness conversion: 15 gpg x 17 = 255 mg/L vs USGS classes, and the pre-rinse water arithmetic 20 gal vs 4 gal per cycle."
+  },
+  "cautions": [
+    "Never run the dishwasher without the filter installed (Whirlpool).",
+    "Use a soft brush on filters, never wire brushes or scouring pads.",
+    "Hot water from the tap can scald; run it, don't touch it.",
+    "Etching is permanent; don't promise a fix for etched glass."
+  ],
+  "sources": {
+    "https://accomack.ext.vt.edu/content/dam/pubs_ext_vt_edu/2908/2908-9018/BSE-305.pdf": "ENERGY SERIES: What about Dishwashers? (Virginia Cooperative Extension, BSE-305)",
+    "https://producthelp.whirlpool.com/Dishwashers/Product_Info/Dishwasher_Cleaning_and_Care/How_to_Clean_the_Dishwasher_Filters": "How to Clean the Dishwasher Filters (Whirlpool Product Help)",
+    "https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Wash_Performance/Other_Cookware_and_Dishes/Food_Residue_Remains_on_Dishes": "Food Residue Remains on Dishes (Whirlpool Product Help)",
+    "https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Operation/Spray_Arms_Not_Working/Spray_Arm_Not_Working_-_Dishwasher": "Spray Arm Not Working - Dishwasher (Whirlpool Product Help)",
+    "https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Wash_Performance/Glassware/Etching_or_Cloudy_Glassware": "Etching or Cloudy Glassware (Whirlpool Product Help)",
+    "https://owner.frigidaire.com/support-articles/article/1847432-dishwashers-how-can-i-ensure-the-best-cleaning-results-": "Dishwashers - How can I ensure the best cleaning results? (Frigidaire/Electrolux)",
+    "https://www.bosch-home.co.uk/customer-service/get-support/dishwashers/loading-tips": "How to properly load a dishwasher (Bosch Home)",
+    "https://www.bosch-home.com/ae/en/customer-service/get-support/dishwasher-not-cleaning": "Dishwasher not cleaning properly (Bosch Home)",
+    "https://www.usgs.gov/special-topics/water-science-school/science/hardness-water": "Hardness of Water (USGS Water Science School)",
+    "https://www.actonwater.com/water-quality/hardness": "Hardness (Acton Water District)"
+  }
+}

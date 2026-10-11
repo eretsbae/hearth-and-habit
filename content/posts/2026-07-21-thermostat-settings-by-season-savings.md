@@ -2,9 +2,8 @@
 title: The Right Thermostat Settings for Every Season (and What They Really Save)
 slug: thermostat-settings-by-season-savings
 date: '2026-07-21'
-updated: '2026-09-29'
-description: Set about 68°F in winter and 78°F in summer when home, then set back 7–10°F
-  while asleep or away. The DOE says that can save up to about 10% a year.
+updated: '2026-10-11'
+description: 'Setbacks, not a magic number, do the saving: 7–10°F for 8 hours with a furnace, about 3.6°F with a heat pump, a 55°F winter floor, and the dollar math.'
 tags:
 - energy savings
 - thermostat
@@ -16,94 +15,98 @@ hero_image: /images/thermostat-settings-by-season-savings-hero.svg
 hero_alt: Round wall thermostat between a sun icon for summer cooling and a snowflake
   icon for winter heating settings
 pin_hooks:
-- Set 68°F in winter and 78°F in summer, then set back 7–10°F
-- Cranking the thermostat up won't warm the house faster
+- A 7–10°F setback for 8 hours saves up to ~10% a year
+- 'Heat pump? Keep setbacks to about 3.6°F (2°C)'
+enriched: '2026-10-11'
 ---
 
-Set your thermostat to about 68°F (20°C) in winter and 78°F (26°C) in summer while you're home and awake, then let it drift 7–10°F further while you're asleep or away — the U.S. Department of Energy says that kind of setback, held for 8 hours a day, can save up to about 10% a year on heating and cooling.
+The setting that saves money is the setback. The U.S. Department of Energy says turning the thermostat back 7–10°F for 8 hours a day can save up to about 10% a year on heating and cooling. Heat pumps need a gentler setback, and a house left empty in winter needs a floor.
 
-Thermostat advice tends to travel by word of mouth — from a parent, a landlord, an HVAC guy who was in a hurry. Some of it holds up. A lot of it is outdated or just wrong for how modern homes and systems actually work. Let's sort out what's real.
+You'll see "68°F in winter, 78°F in summer" everywhere. Those numbers are a comfort default, not the source of the savings. The schedule below is built from what agencies and building researchers actually say: how deep a setback to use with each kind of system, how a ceiling fan changes the summer number, and where the floors are.
 
-## Myth #1: "Cranking the heat up high makes the house warm up faster"
+## The schedule, by season and system
 
-This one refuses to die because it feels logical: bigger number, more heat, faster results. But a typical furnace or heat pump produces heat at a set rate regardless of what you set the thermostat to. Setting it to 80°F (27°C) instead of 68°F (20°C) doesn't push more heat into the room per minute — it just means the system keeps running longer before it decides it's satisfied.
+| Situation | What to set | Why |
+|---|---|---|
+| **Winter, furnace or boiler, home and awake** | The lowest temperature you're comfortable at | The savings come from the setback, not from this number |
+| **Winter, furnace or boiler, asleep or out** | 7–10°F below your daytime setting, for about 8 hours | DOE: up to about 10% a year on heating and cooling |
+| **Winter, heat pump, asleep or out** | No more than 2°C (about 3.6°F) below, or a heat-pump smart thermostat that starts recovery early | Natural Resources Canada: deep setbacks make the backup heat run |
+| **Winter, away for days** | Not below 55°F | IBHS: at least 55°F to keep pipes from freezing, even with no one home |
+| **Summer, home, fan running** | About 4°F higher than you'd set without the fan | DOE: a ceiling fan lets you raise the setting about 4°F without losing comfort |
+| **Summer, grid peak alert** | 78°F or higher if health permits; pre-cool beforehand | California's grid operator, during Flex Alerts |
+| **Summer, away** | Higher than your at-home setting | DOE's setback figure covers cooling too. In humid climates, keep indoor humidity below 60% |
+| **Spring and fall** | System off on days that need neither heat nor cooling | No setback beats no runtime |
 
-**The reality:** your home warms up at about the same speed either way. All that extra cranking does is raise the odds you'll forget about it and end up sweating on the couch at 80°F an hour later, having burned extra fuel or electricity for a temperature you didn't actually want.
+![Line chart of a winter day: a furnace setting dips 7 to 10°F for 8 hours, a heat pump dips no more than 3.6°F, and a 55°F floor applies when away](/images/thermostat-settings-by-season-savings-inline.svg)
 
-The one exception is heat pumps with electric backup: asking for too big a jump too fast can switch on the backup electric-resistance heat, which costs much more to run. In that case a big jump does cost more — not because the request was extreme, but because it triggered a hungrier backup system.
+## Why a setback saves, even counting the warm-up
 
-**What to do instead:** dial in the temperature you actually want and let the system run at its normal pace. If you're cold right now, put on a sweater for the 20 minutes it takes to catch up — don't overshoot the dial.
+The usual objection is that the furnace works so hard warming the house back up that it cancels the savings. It doesn't, for a furnace or boiler. A house loses heat all the time, and it loses it faster when the gap between indoor and outdoor temperature is bigger. While the house sits cooler, that gap is smaller, so less heat leaks out during those hours. The warm-up replaces what was lost, and less was lost. That's why the DOE can put a figure on it: up to about 10% a year for a 7–10°F setback held 8 hours a day.
 
-## Myth #2: "It costs more to reheat a cold house than to keep it warm all day"
+Heat pumps are the exception that matters.
 
-This is the myth that costs people real money, because it talks them out of a good habit: turning the temperature down when no one's home or everyone's asleep.
+## Heat pumps: a smaller setback, or a smarter thermostat
 
-The confusion comes from a kernel of truth — a furnace does work harder when it's actively bringing a house back up to temperature. But "harder for a while" is not the same as "more total energy." Heat loss from your house happens continuously, and it happens faster when the gap between indoor and outdoor temperature is bigger. A house held at 70°F (21°C) all day in 30°F (−1°C) weather is leaking heat through walls, windows, and the roof the entire time. A house allowed to drift down to 62°F (17°C) overnight leaks heat more slowly during those hours, simply because the indoor-outdoor gap is smaller. The energy saved during the setback is real, and it's larger than the extra energy needed to recover.
+Natural Resources Canada's heat pump guide explains why. Heat pumps respond more slowly than furnaces. After a deep setback, a heat pump on a conventional thermostat can't supply all the heat needed to recover quickly, so the supplementary heat runs "until the heat pump catches up." That cuts into what the setback saved.
 
-For furnaces, boilers, and central AC, this is well-established physics: the bigger and longer the setback, the more you save, and the recovery doesn't claw it back. Heat pumps with electric backup strips are the one real exception — see the heat pump note below.
+Its recommendation:
 
-**What to do instead:** use setbacks freely. A programmable or smart thermostat makes this painless because it can start warming the house back up before you wake up, so you never actually experience the cold end of the setback.
+- **Keep setbacks to no more than 2°C.** In Fahrenheit, that's 2 × 1.8 = 3.6°F.
+- **Or use a programmable or smart thermostat made for heat pumps**, which starts heating early so the house recovers with little or no supplementary heat.
+- **Variable-speed heat pumps** may simply run at a lower speed during a setback.
 
-## Myth #3: "There's one perfect temperature everyone should use"
+The guide adds that savings depend heavily on the type and sizing of the system. Ask your installer what setback suits yours. If your thermostat has an indicator for auxiliary heat and it lights up every morning after a setback, a shallower setback is worth trying.
 
-You'll see "68°F in winter, 78°F in summer" repeated everywhere as if it's a law of physics. It's a reasonable starting point, not a universal rule. The right number depends on your climate, your home's insulation, your household's tolerance for temperature swings, and whether you work from home or you're gone nine hours a day.
+## Summer: the fan is worth 4 degrees, but only if you're there
 
-**The reality:** the specific number matters less than the size of the gap between that number and the outdoor temperature, and how consistently you apply setbacks. Holding 78°F in Phoenix in July, when afternoon highs average around 106°F, is a much bigger job than in Miami, where July highs average closer to 91°F — though Miami's humidity means its AC spends more of its effort pulling moisture out of the air. Someone in a drafty 1920s house will also feel 68°F very differently than someone in a tightly sealed new build.
+The DOE's home cooling guide says a ceiling fan lets you raise the thermostat setting about 4°F without affecting comfort. The same guide adds the catch: fans cool people, not rooms, so turn them off when you leave. A fan running in an empty room uses electricity and cools no one.
 
-**What to do instead:** treat published numbers as a sensible default, then adjust based on comfort and your actual bills — and lean harder on the *setback habit* than on the exact target number.
+One well-known source of the 78°F figure is peak-demand requests. California's grid operator asks people to set the AC to 78°F or higher during Flex Alerts, "if health permits," and to pre-cool the house beforehand. That health caveat is real. Anyone sensitive to heat should set what keeps them safe.
 
-![Chart comparing a steady thermostat line with one that dips during setbacks and recovers, with the energy saved shaded between](/images/thermostat-settings-by-season-savings-inline.svg)
+When you're away, raise the setpoint. Watch humidity, though. The DOE notes that part of how an air conditioner cools is by pulling moisture out of the air. In a humid climate, a house left too warm and closed up can get damp. The EPA says to keep indoor relative humidity below 60%, ideally 30–50%, to limit mold. A cheap hygrometer tells you whether your away setting is holding. Whether to switch the AC off entirely during the workday is its own question, covered in [does turning the AC off while you're at work actually save money](https://www.hearth-habit.com/2026/07/does-turning-ac-off-while-youre-at-work.html).
 
-## What to actually set, season by season
+## Winter vacations: the 55°F floor
 
-With the myths cleared up, here's practical guidance you can use without overthinking it.
+The Insurance Institute for Business & Home Safety (IBHS) says to keep the thermostat at 55°F or higher to keep pipes from freezing, even when no one is home. If you'll be gone more than a week with subfreezing weather ongoing or forecast, IBHS suggests closing the main water valve slowly and letting a few faucets on the lowest floor drain.
 
-**Winter (heating season):**
+Our guide to [the temperature at which pipes actually freeze](https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html) covers which pipes are at risk first.
 
-- A common comfort default while home and awake is 68°F (20°C).
-- Set back 7–10°F (4–6°C) while you're asleep — and while you're out, if the house sits empty during the day.
-- The DOE's rule of thumb: a 7–10°F setback for 8 hours a day can save up to about 10% a year on heating and cooling, or roughly 1% per degree of setback. A second daily setback while you're at work adds to that.
+## What it adds up to: a worked example
 
-**Summer (cooling season):**
+ENERGY STAR says heating and cooling make up almost half of a typical home's energy bill, more than $900 a year for the average American household. Apply the DOE's "up to about 10%":
 
-- A common comfort default is 78°F (26°C) while home, higher while away.
-- The same setback logic applies in reverse: letting the house warm up while you're away or asleep saves on cooling. Whether to shut the AC off entirely during the workday is its own question — see [does turning the AC off while you're at work actually save money](https://www.hearth-habit.com/2026/07/does-turning-ac-off-while-youre-at-work.html).
-- Ceiling fans let you feel comfortable at a higher setting, since moving air makes skin feel several degrees cooler than the number on the thermostat.
+- $900 × 0.10 = up to about $90 a year
 
-**Spring and fall (shoulder seasons):**
+That lines up with ENERGY STAR's estimate that a certified smart thermostat saves about $100 a year, since a certified smart thermostat saves by adjusting to energy-saving temperatures when you're asleep or away.
 
-- These are the months to actually turn the system off, not just set back. Many homes need zero heating or cooling for weeks at a time.
-- Open windows overnight when outdoor lows are comfortable, and close them up before the day heats up — this can replace air conditioning entirely on mild days.
-- This is also a good stretch to [change the furnace filter](https://www.hearth-habit.com/2026/07/furnace-filter-basics-how-often-to.html) and schedule seasonal HVAC checks, before the system has to work hard again.
+For your own numbers, add up a year of heating and cooling costs from your bills. Gas heat shows up on the gas bill, and AC on the electric bill. Then:
 
-**A note on heat pumps:** if your home uses a heat pump instead of a furnace, big overnight setbacks deserve a caveat. Some older or single-stage heat pumps respond to a large temperature request by kicking on inefficient backup electric heat strips to catch up faster, which can eat into your savings. A moderate setback of 3–4°F (about 2°C) is usually the sweet spot for these systems. Newer variable-speed heat pumps and smart thermostats designed for heat pumps handle bigger setbacks better — check your thermostat's manual or settings for a "heat pump" or "aux heat" mode.
+- **your annual heating and cooling cost × 0.10 = the most a full DOE-style setback is likely to save**
 
-## How much this actually adds up to
+Treat that as a ceiling. "Up to" means a smaller setback, fewer hours, or a heat pump held to 3.6°F will save less. If your gas bill has jumped and the thermostat hasn't moved, the setback isn't the explanation. See [why a gas bill climbs when you haven't touched the thermostat](https://www.hearth-habit.com/2026/10/gas-bill-higher-this-winter-without.html).
 
-Nobody can promise you an exact dollar figure, since it depends on your climate, home size, insulation, and utility rates — anyone giving you a suspiciously precise number is guessing. The DOE's rule of thumb is that a 7–10°F setback for 8 hours a day can save **up to about 10% a year on heating and cooling**, with savings trending higher in climates where the indoor-outdoor gap is bigger.
-
-For a household spending $150–250 a month on heating and cooling during peak season, 10% works out to up to about $15–25 a month during the months you're actively running the system — not enormous on its own, but it costs nothing and stacks with the other [no-cost habits that cut your electric bill](https://www.hearth-habit.com/2026/07/how-to-cut-your-electric-bill-without.html).
-
-**The key takeaway:** the exact number on your thermostat matters less than whether you're willing to let the temperature drift when nobody needs it to be perfect — that habit, done consistently, is where the real savings live.
+Shoulder seasons are also when to [change the furnace filter](https://www.hearth-habit.com/2026/07/furnace-filter-basics-how-often-to.html), before the system has to work hard again.
 
 ## FAQ
 
-### Does a smart thermostat actually save money, or is it just convenient?
+### Is a smart thermostat worth it if I already adjust a manual one?
 
-It saves money mainly by making setbacks automatic and consistent — the savings come from the setback habit, not the device itself. If you were already reliably adjusting a manual thermostat, a smart one won't add much beyond convenience and remote control.
+The savings come from the setback, not the device. ENERGY STAR ties its estimate of about $100 a year to the thermostat adjusting to energy-saving temperatures when you're asleep or away. If you already turn the dial down every night and every workday, a smart thermostat may mostly add convenience. For heat pumps, a thermostat that starts recovery early is what lets you set back without the backup heat running.
 
-### Is it bad for my HVAC system to change the temperature a lot?
+### Should I just leave a heat pump at one temperature?
 
-No. Modern furnaces, air conditioners, and most heat pumps are designed to cycle on and off constantly regardless of setbacks; that's normal operation, not extra wear. The exception is asking an older heat pump for a very large, fast temperature swing, which can trigger backup heat rather than damage the unit.
+You don't have to. Natural Resources Canada says a moderate setback of up to 2°C (about 3.6°F) works, and heat-pump programmable thermostats save during unoccupied hours and overnight. Your installer can tell you what your system handles.
 
-### What temperature should I set the thermostat to when I'm away for vacation?
+### Does closing vents in unused rooms work like a setback?
 
-For winter, most homes are safe in the low-to-mid 50s°F (10–13°C) — cold enough to save energy, warm enough to protect pipes from freezing. For summer, the mid-80s°F (around 29°C) is typically fine to prevent humidity and heat damage to belongings without paying to cool an empty house.
-
-### Does closing vents in unused rooms save energy?
-
-Generally no, and it can backfire. Most residential duct systems aren't designed for a lot of closed vents; it can raise pressure in the ductwork and reduce efficiency rather than improve it. Our full breakdown of [whether closing vents in unused rooms saves energy](https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html) covers when it's fine and what to do instead.
+It isn't the same thing. Our breakdown of [whether closing vents in unused rooms saves energy](https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html) explains what the research found and what to do instead.
 
 ## Sources
 
-- [Programmable Thermostats — DOE Energy Saver](https://www.energy.gov/energysaver/programmable-thermostats) — a 7–10°F setback for 8 hours a day saves up to about 10% a year
+- [Programmable Thermostats (DOE Energy Saver)](https://www.energy.gov/energysaver/programmable-thermostats) — a 7–10°F setback for 8 hours a day can save up to about 10% a year
+- [Energy Saver 101: Home Cooling (DOE)](https://www.energy.gov/sites/prod/files/HomeCooling101-final.pdf) — ceiling fans allow about a 4°F higher setting; fans cool people, not rooms; AC removes moisture
+- [Heating and Cooling With a Heat Pump (Natural Resources Canada)](https://natural-resources.canada.ca/energy-efficiency/energy-star-canada/about/energy-star-announcements/publications/heating-and-cooling-heat-pump/6817) — setbacks of no more than 2°C, or a heat-pump thermostat with early recovery
+- [Heat & Cool Efficiently (ENERGY STAR)](https://www.energystar.gov/saveathome/heating-cooling) and [Smart Thermostats (ENERGY STAR)](https://www.energystar.gov/products/smart_thermostats) — about $100 a year from a smart thermostat; heating and cooling over $900 a year
+- [IBHS Winter Weather Ready guide](https://ibhs.org/ibhs-news-releases/ibhs-winter-weather-ready-guide-provides-easy-to-do-actions-to-help-prevent-property-damage-from-colder-temperatures/) — 55°F minimum when away; shutting the main for longer trips
+- [Flex Alert (California ISO)](https://www.flexalert.org/) — 78°F or higher during peak alerts, if health permits
+- [A Brief Guide to Mold, Moisture and Your Home (EPA)](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home) — indoor humidity below 60%

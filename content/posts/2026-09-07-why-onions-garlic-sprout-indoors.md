@@ -2,9 +2,8 @@
 title: Why Onions and Garlic Keep Sprouting Indoors (and How to Actually Stop It)
 slug: why-onions-garlic-sprout-indoors
 date: '2026-09-07'
-updated: '2026-09-29'
-description: Onions and garlic sprout as their dormancy runs out, and fridge-cool 40–50°F
-  spots speed it up. Store whole bulbs dry, dark, and airy at about 60–65°F.
+updated: '2026-10-11'
+description: Onions sprout anywhere from 41 to 68°F and garlic from 40 to 64°F, which covers most pantries. What sprouts, roots, and mold each mean, and where to store bulbs.
 tags:
 - food storage
 - kitchen habits
@@ -15,67 +14,122 @@ hero_image: /images/why-onions-garlic-sprout-indoors-hero.svg
 hero_alt: Onions in a wire basket and garlic bulbs in a mesh bag on a wooden counter,
   stored loose so air can circulate around them
 pin_hooks:
-- Store onions and garlic at about 60–65°F, not in the fridge
-- Sprouted garlic is still edible if the bulb is firm
+- Sprouts mean too warm; roots mean too damp
+- Sweet onions keep months longer in a crisper
+enriched: '2026-10-11'
 ---
 
-Onions and garlic sprout indoors mainly because their natural post-harvest dormancy is running out, and storage temperature decides how fast that happens: garlic sprouts fastest around 40–50°F, so the fridge or a chilly garage speeds it up, while a dry, dark, airy spot at cool room temperature (about 60–65°F) slows it down.
+They sprout because your kitchen is in their wake-up zone. Commercial storage guidance says onions start sprouting when held anywhere from 41 to 68°F and garlic from 40 to 64°F, and most pantries sit right in that range.
 
-A sprouting bulb isn't spoiled — it's doing what bulbs are built to do once their rest period ends. Moisture plays a different role than most people think: damp storage mostly causes roots, mold, and soft spots rather than sprouts. Here's the checklist to walk through, starting with the biggest factors.
+That changes the usual advice. A "cool room temperature" spot around 60–65°F, which many guides recommend, is inside both sprouting bands. The fixes that work at home are keeping bulbs a short time in dry, airy storage, choosing the right kind of onion for keeping, and controlling moisture. That last one causes the roots and rot people often blame on sprouting.
 
-## The Main Causes (Check These First)
+## What's happening inside the bulb
 
-**Their dormancy is running out.** Onions and garlic are harvested in a resting state that lasts from weeks to a few months, depending on the variety — sweet onions, for example, have a much shorter storage life than pungent storage onions. Grocery-store bulbs may already have spent months in commercial cold storage before you buy them, so some arrive close to the end of that rest. You can't reset the clock, but you can avoid speeding it up.
+A mature onion or garlic bulb is dormant, a resting state where the growing shoot inside stays put. Commercial storage keeps it that way with cold. The Global Cold Chain Alliance (GCCA) publishes a commodity storage manual for warehouses. It gives these numbers:
 
-**They're stored at the wrong temperature.** Garlic sprouts fastest around 40–50°F (4–10°C) — right around fridge temperature, or a cold garage or basement in fall. Commercial storage holds bulbs close to freezing with controlled humidity, which a home fridge can't match. For a kitchen, the practical target is cool room temperature, about 60–65°F (15–18°C), which slows sprouting without the damp. Onions follow a broadly similar pattern, though they're a little more forgiving. Hot spots near the stove, a dishwasher vent, or a sunny window cause a different problem: they dry bulbs out and speed up softening.
+- **Onions** stay dormant at 32°F. Storage at 41 to 68°F breaks dormancy, and the bulbs sprout.
+- **Garlic** is held at 32°F. Cloves "sprout rapidly" at 40 to 64°F, so the manual says to avoid long storage in that range.
 
-**They're sitting in moisture.** Humidity isn't what wakes a bulb up, but it's what ruins one: a bulb stored near the sink, in a plastic bag, or in a damp cabinet tends to grow roots at the base, pick up mold, and go soft. Dry air is half the job.
+Your bulbs may have spent weeks or months near 32°F before you bought them. Once they're on your counter, the clock that cold storage paused starts running again.
 
-**Key takeaway: sprouting is almost never about the onion or garlic being "bad" — it's a dormancy-and-temperature issue, and moisture decides whether the bulb also rots.**
+## Read the bulb: what each symptom means
 
-## Storage Setup Checklist
+The GCCA onion manual gives a clean way to tell causes apart: sprouts mean the storage was too warm, and roots mean it was too humid. It also says top growth is the harder of the two to stop once it starts. Here's how that and the other storage data map onto what you see at home.
 
-- **Use a well-ventilated container, not a sealed bag.** Mesh bags, wire baskets, paper bags with a few holes, or a wooden bowl all let air circulate. Plastic bags and airtight containers trap the moisture bulbs release as they respire (yes, they're still slowly "breathing" on your counter), which leads to mold and rot.
-- **Pick a dry, dark, airy spot at cool room temperature — not the fridge.** A pantry or a cabinet away from the stove and dishwasher works better than an open counter by a sunny window. Consistently cool and dry beats cold and damp.
-- **Keep onions and potatoes apart.** Potatoes like a slightly damper spot than onions do, and storing them together tends to speed up sprouting and rot in both. Give them separate bins — the full layout for every kind of produce is in [our produce storage map](https://www.hearth-habit.com/2026/07/how-to-store-produce-so-it-actually.html).
-- **Don't store garlic and onions pressed tightly together in bulk.** Crowding restricts airflow between bulbs, trapping moisture right where it does the most damage. Give them room to breathe, even if that means a shallower basket instead of a deep bin.
-- **Check for one bad bulb hiding among good ones.** A soft or moldy bulb can spread rot to its neighbors. Sorting through the basket every week or two catches it early.
+| What you see | What it points to | What to change |
+|---|---|---|
+| Green shoot out the top of an onion, or a green core in garlic cloves | Temperature in the sprouting band (onions 41–68°F, garlic 40–64°F) | Use these bulbs first. Buy smaller amounts, or move longer-keeping bulbs somewhere colder. |
+| Roots at the base | Too humid | Move bulbs away from the sink, kettle, and dishwasher, and out of plastic. Use mesh, a wire basket, or a crate. |
+| Mold, rot, or soft patches | Too humid, or bulbs not fully dried (cured) | Throw out the affected bulb. Give the rest more airflow and room between bulbs. |
+| Sweet onions going bad in a few weeks | The onion type | Mild onions don't keep long. Use them fast or put them in the fridge (see below). |
+| Garlic going light and papery | Moisture loss, which happens faster in warmer storage | Buy less at a time, or keep it colder |
 
-![Onions crammed in a sealed plastic bag with sprouts and condensation beside onions spaced out in an airy wire basket](/images/why-onions-garlic-sprout-indoors-inline.svg)
+The humidity limits are specific. The GCCA manual recommends 65–70% relative humidity for dry onions. It says higher humidity leads to rot, surface mold, and root growth, and "can reduce the storage period by half." For garlic, it says bulbs stored above 70% humidity "at any temperature, will probably mold, sprout, and start to grow roots." Most homes don't track humidity by the cabinet, but the sink area and a closed plastic bag are the obvious wet spots.
 
-## What to Do With Bulbs That Have Already Sprouted
+![Temperature scale from 32 to 70°F: commercial storage at 32°F, garlic sprouting at 40–64°F, onions at 41–68°F, home fridge at 40°F or below](/images/why-onions-garlic-sprout-indoors-inline.svg)
 
-**A few green shoots don't mean the onion or garlic is unsafe to eat.** The bulb is edible as long as it's still firm, without mold, soft spots, or a sour smell. The sprout itself pulls sugars and moisture from the bulb, so flavor and texture do decline the longer it sits, but it isn't a food-safety issue.
+## The kind of onion decides how long it can last
 
-- **Use sprouted garlic in cooked dishes first.** The green shoot inside can taste slightly bitter or sharper raw; cooking mellows it out. If the bitterness bothers you, just slice the clove in half and pull the green sprout out before mincing.
-- **Sprouted onions are best used soon, not saved for later.** Once the green shoot pushes through the top, the onion is actively drawing energy from its own layers. It'll go soft and papery faster from that point on, so move it to the front of the line for this week's cooking.
-- **Save the green shoots themselves.** Both onion and garlic sprouts are edible and taste similar to scallions or chives — chop them into eggs, soups, or a stir-fry instead of composting them.
-- **Don't try to "revive" a bulb by planting it indoors** unless you actually want to grow green onion tops in a windowsill jar. It won't reverse the process for cooking purposes; the bulb itself keeps softening while the green top grows.
+Some of what people blame on their storage spot is really the onion type. University of Georgia Extension lists storage life at 32°F, the best case:
 
-## Buying and Rotation Habits That Prevent the Problem Upstream
+- **Mild onions:** under 1 month
+- **Pungent onions:** 6 to 9 months
 
-**Buy loose bulbs instead of pre-bagged mesh sacks when you can choose.** Bagged sets from the grocery store often include one or two bulbs that are already soft or sprouting, and you can't inspect them before you buy. Loose bins let you pick firm, dry, tight-skinned bulbs individually.
+The GCCA manual breaks it down further, also at 32°F: Bermuda-type (sweet) onions 1–2 months, Spanish 3–6 months, and Globe 6–8 months. Clemson University's Home & Garden Information Center says short-day onions, the mild sweet ones, "do not store especially well."
 
-**Buy in quantities that match how fast you actually cook.** If your [weekly meal plan](https://www.hearth-habit.com/2026/07/the-30-minute-sunday-meal-plan-that.html) only calls for half an onion here and there, a 3-pound bag bought "because it was cheaper" is going to sit around long enough to sprout regardless of storage conditions. Smaller, more frequent purchases often beat bulk buying for anything with a shelf life measured in weeks rather than months.
+If you buy onions in bulk to keep for weeks, choose pungent storage types. Buy sweet onions in small amounts for the week ahead.
 
-**Rotate stock front-to-back.** Push older bulbs to the front of the basket when you bring new ones home. It sounds obvious, but most sprouting happens to the bulb that got pushed to the back and forgotten for six weeks, not the one bought yesterday.
+## Where to keep them at home
 
-**Know the realistic shelf life.** Whole, unpeeled onions typically last a few weeks to about two months in cool, dry storage; whole garlic bulbs often last a couple of months or more — less if they sat in storage for a long time before you bought them. Once either is cut or peeled, it belongs in the fridge in a sealed container, and the timeline shrinks to days, not weeks.
+Few home spots hold 32°F, and sources disagree on what a home cook should aim for:
+
+- Iowa State University Extension says 32–40°F at 65–70% humidity, in a basement, cellar, or garage.
+- Clemson's HGIC says 45–55°F at 50–60% humidity.
+
+Clemson's range sits inside the commercial sprouting band, so expect a shorter keep there than the warehouse numbers. Iowa State's colder range is closer to how the bulbs were stored before you bought them.
+
+### Option 1: room temperature, short-term
+
+The GCCA manual says storing dry onions at room temperature "may be acceptable for short periods (1 to 1.5 months) depending on the variety." That's the realistic window for a pantry or counter basket. Buy what you'll cook in that time, keep the bulbs dry and in the dark, and rotate older ones to the front.
+
+Use a container that breathes. Iowa State says to use a container that lets air circulate, such as a mesh bag, wire basket, or crate. Iowa State also warns that "rotting may be a problem in damp locations."
+
+### Option 2: cold and dry, then keep it cold
+
+Colder is better for keeping onions and garlic, not worse, as long as they stay dry. In a garlic research project funded by SARE (Sustainable Agriculture Research and Education):
+
+- garlic stored at 32°F lost 5–7% of its weight
+- garlic stored at 40°F or warmer lost 35–40%
+
+The project recommends storing garlic meant for eating below 40°F.
+
+A home fridge should run at 40°F or below, so its temperature lands at or just under the bottom of the sprouting bands. Moisture is what makes the fridge risky. Keep whole bulbs out of sealed bags, and check them often for roots or soft spots.
+
+Pick one spot and leave them there. In the same project, some garlic held at 32°F and then moved to room temperature sprouted within two months of the move. Bulbs that bounce between fridge and counter can lose the benefit of the cold.
+
+### Option 3: sweet onions in the crisper
+
+Sweet onions are where the fridge clearly pays off. The Vidalia onion grower's storage guide says Vidalias last 1–2 months on the counter, or 3–6 months in the refrigerator veggie bin. The method:
+
+1. Wrap each bulb individually in paper towels to absorb moisture.
+2. Store them in the crisper, not touching each other.
+3. Swap out towels that get damp.
+
+### What to keep them away from
+
+- **Potatoes.** The Vidalia guide says potatoes "make onions spoil quicker." For where everything else goes, see our [produce storage map](https://www.hearth-habit.com/2026/07/how-to-store-produce-so-it-actually.html).
+- **Apples, pears, and eggs.** The GCCA manual says onions shouldn't be stored with apples, dried fruit, or shell eggs. Apples, pears, celery, citrus, and eggs pick up onion odor.
+- **Each other? No need.** The same manual says onions and garlic can be stored together.
+
+## What to do with bulbs that already sprouted
+
+None of the storage guides here treats a green shoot as a safety problem. They treat it as lost quality: the shoot grows by drawing on the bulb, and the GCCA manual says top growth is "most difficult to check" once it starts.
+
+- **Move sprouted bulbs to the front of this week's cooking.** They won't improve with time.
+- **Pull the green core out of garlic** if you're using it raw and it tastes sharp. Halve the clove lengthwise and lift the shoot out.
+- **Throw out moldy or rotting bulbs.** Mold and rot are the problems the storage guides flag, and a rotting bulb in the basket means the spot is too damp.
+
+Planning meals around what's in the basket keeps bulbs from being forgotten. A [30-minute weekly meal plan](https://www.hearth-habit.com/2026/07/the-30-minute-sunday-meal-plan-that.html) makes that a habit.
 
 ## FAQ
 
-### Should I refrigerate onions and garlic to stop sprouting?
+### Why does my garlic sprout even in the fridge?
 
-Not whole bulbs. Fridge temperatures sit right around the range where garlic sprouts fastest, and fridge humidity softens bulbs and encourages mold. Keep whole, unpeeled bulbs in a cool, dry, ventilated spot instead. Once they're cut or peeled, though, refrigerate them in a sealed container and use them within about a week.
+A fridge at about 40°F sits right at the bottom edge of garlic's 40–64°F sprouting band. A warmer fridge, or one where the garlic moves in and out, is inside it. Moisture matters too: the GCCA manual says garlic above 70% humidity will probably mold, sprout, and grow roots at any temperature. Keep it dry, unbagged, and in one place.
 
-### Why does garlic seem to sprout faster than onions?
+### Should I put whole onions in the fridge or the pantry?
 
-Mostly timing and temperature. Much grocery-store garlic has already spent months in cold storage, so its dormancy may be nearly over by the time you bring it home, and garlic sprouts readily at the cool temperatures many people store it at. Pre-peeled cloves are a different product altogether: keep them refrigerated and use them quickly.
+For pungent onions you'll use within a month or so, a dry, dark pantry spot works. For sweet onions, the crisper method lasts much longer: 3–6 months versus 1–2 on the counter, per the Vidalia grower. Whichever you choose, keep them dry and away from potatoes.
 
-### Does it matter what container I use — mesh bag vs. basket vs. bowl?
+### My onions grew roots but no sprouts. What does that mean?
 
-Mostly what matters is airflow and dryness, not the specific material. A wire basket, a paper bag with holes poked in it, or a wooden bowl in a cabinet all work similarly well. What to avoid is anything sealed (plastic bags, airtight containers) or anything sitting in hot sun on a counter.
+According to the GCCA manual, roots mean too much humidity, not too much warmth. Move them away from the sink and other damp spots, out of plastic, and into something airy like a mesh bag or wire basket.
 
-### Can I stop sprouting by storing onions and garlic in the freezer?
+## Sources
 
-Freezing does stop sprouting, but it changes the texture significantly — frozen and thawed onions turn soft and watery, fine for cooked dishes like soups or stews but unusable for anything that needs a crisp bite, like a salad or a sandwich. It's a reasonable move only if you're planning to use them exclusively in cooked meals.
+- [Onions and Onion Sets | GCCA Commodity Storage Manual](https://www.gcca.org/commodity/onions) and [Garlic | GCCA Commodity Storage Manual](https://www.gcca.org/commodity/garlic) — 32°F storage; onion dormancy breaks at 41–68°F; garlic sprouts at 40–64°F; humidity limits; sprouts vs. roots; room-temperature window; storage life by onion type
+- [Quick Storage Guide for Vegetable Crops | UGA Extension](https://fieldreport.caes.uga.edu/publications/C1205/) — mild vs. pungent onion storage life
+- [All About Onions | Iowa State University Extension](https://yardandgarden.extension.iastate.edu/article/2015/07-24/onions.htm) — 32–40°F home storage, airy containers, sprouting when too warm, rot in damp spots
+- [Onion, Leek, Shallot, & Garlic | Clemson HGIC](https://hgic.clemson.edu/factsheet/onion/) — 45–55°F guidance; sweet onions don't store well
+- [Garlic marketable yield project | SARE](https://projects.sare.org/sare_project/onc22-115/) — weight loss at 32°F vs. 40°F; sprouting after moving cold garlic to room temperature
+- [Vidalia Onion Storage Tips](https://www.vidaliaonions.com/storage/) — sweet onions on the counter vs. in the crisper; keep away from potatoes

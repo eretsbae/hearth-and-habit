@@ -1,0 +1,81 @@
+{
+  "reader_situation": "Someone keeps throwing out half-eaten loaves in summer that would have lasted in winter, and wants to know why and where bread should live in hot, humid months.",
+  "direct_answer": "Summer kitchens are warmer, and bread is a moist food (fresh pan bread has a water activity around 0.93), so any spores that land after baking grow faster. Moisture trapped in a bag, especially as condensation from bread packed warm, adds to it. Store bread in a cool cupboard away from heat-producing appliances for up to about 3 days (NDSU), refrigerate preservative-free loaves to inhibit mold, and freeze anything longer, since freezing also stops staling.",
+  "consensus": [
+    "Warm, humid weather makes bread mold faster.",
+    "Plastic bags trap moisture.",
+    "The fridge slows mold but makes bread stale.",
+    "Freezing is the best long-term option.",
+    "Bakery bread without preservatives molds sooner."
+  ],
+  "gaps": [
+    "NDSU Extension gives a concrete cupboard limit: bread and rolls about 3 days, stored in cool cabinets away from appliances that produce heat.",
+    "For baked breads with no preservatives, NDSU recommends refrigeration to inhibit mold growth; the blanket 'never refrigerate bread' advice skips that.",
+    "Staling is starch retrogradation (recrystallization), not drying; freezing stops the molecular motion that lets starch recrystallize (Bakerpedia).",
+    "Bread is a high-water-activity food: Bakerpedia lists fresh pan bread at aw 0.93 versus 0.81 for batter cakes, and higher aw means shorter shelf life.",
+    "Commercial loaves resist mold partly because of calcium propionate, used at 0.1-0.3% of flour weight; it works best below pH 5.5, and at pH 5.5 only 19% of it is active, so 'clean label' loaves without it lose that protection.",
+    "Condensation is a known mold trigger in bakeries; fast cooling and stable humidity are used to prevent it, which is why bagging bread warm backfires at home.",
+    "The old article's 'a third water', '3 to 5 days in a bag', '25-30°C' growth range, 'a couple of months' frozen, and 'thaws in an hour' had no source; drop them. Mold on soft bread: discard; never judge safety by smell."
+  ],
+  "evidence": [
+    {
+      "claim": "Cupboard time for bread and where to keep it.",
+      "detail": "Cupboard Storage Chart: Bread, rolls - 3 days. Store foods in cool cabinets and away from appliances that produce heat. Use foods quickly; don't depend on maximum storage time.",
+      "source_url": "https://www.ndsu.edu/agriculture/sites/default/files/2025-09/fn579.pdf",
+      "source_title": "Food Storage Guide Answers the Question... FN579 (NDSU Extension)"
+    },
+    {
+      "claim": "Refrigerate preservative-free bread to inhibit mold.",
+      "detail": "Breads, Pastries, Cakes chart (refrigerator at 32 to 40 F, freezer at 0 F): Baked breads with no preservatives - refrigeration storage is recommended to inhibit mold growth.",
+      "source_url": "https://www.ndsu.edu/agriculture/sites/default/files/2025-09/fn579.pdf",
+      "source_title": "Food Storage Guide Answers the Question... FN579 (NDSU Extension)"
+    },
+    {
+      "claim": "Staling mechanism and freezing.",
+      "detail": "Staling is associated with the retrogradation or recrystallization of starch molecules; amylopectin retrogradation is slow and drives staling during storage. Freezing stops all chemical reactions and molecular motion, preventing starch from crystallizing after baking. The idea that moisture loss causes staling was disproved over 150 years ago.",
+      "source_url": "https://bakerpedia.com/processes/staling/",
+      "source_title": "Staling (BAKERpedia)"
+    },
+    {
+      "claim": "Bread's water activity.",
+      "detail": "Fresh pan bread aw 0.93, batter cakes 0.81, wheat flour 0.65. The higher the aw, the shorter the shelf life of the food product.",
+      "source_url": "https://bakerpedia.com/processes/water-activity/",
+      "source_title": "Water Activity (BAKERpedia)"
+    },
+    {
+      "claim": "Calcium propionate as mold inhibitor.",
+      "detail": "Preservative commonly used in baked goods; targets mold and rope bacteria; typical level 0.1-0.3% of flour weight; activity strongest below pH 5.5. Some consumers and retailers see it as non-clean label, leading producers to reduce or remove it.",
+      "source_url": "https://bakerpedia.com/ingredients/calcium-propionate/",
+      "source_title": "Calcium Propionate (BAKERpedia)"
+    },
+    {
+      "claim": "Condensation and mold; propionate pH.",
+      "detail": "Mold is the arch-nemesis of shelf life. Fast cooling, stable humidity and temperature control help prevent condensation. At pH 5.5, only 19% of calcium propionate is effective; dropping to pH 5.0 doubles efficacy.",
+      "source_url": "https://bakerpedia.com/processes/shelf-life/",
+      "source_title": "Prolonging the Fresh Factor: Shelf Life Extension for High-Speed Bakeries (BAKERpedia)"
+    }
+  ],
+  "real_questions": [
+    "Should bread go in the fridge in summer?",
+    "Can I cut the moldy part off and eat the rest?",
+    "Why does bakery bread mold faster than supermarket bread?",
+    "Is a bread box worth it?",
+    "How do I keep bread from going stale in the freezer?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "Where to keep a loaf by how fast it will be eaten and whether it has preservatives: cool cupboard up to ~3 days (NDSU), fridge for preservative-free bread in heat (NDSU), freezer for anything longer (Bakerpedia: stops staling). Plus a worked split: 20-slice loaf, 4 slices a day, 3-day cupboard window -> freeze 8 slices on day one."
+  },
+  "cautions": [
+    "Never judge bread safety by smell (registry).",
+    "Discard soft bread with visible mold rather than cutting around it; don't sniff it.",
+    "Don't store bread on top of the fridge, near the stove, dishwasher vents or sunny windows (heat)."
+  ],
+  "sources": {
+    "https://www.ndsu.edu/agriculture/sites/default/files/2025-09/fn579.pdf": "Food Storage Guide Answers the Question... FN579 (NDSU Extension)",
+    "https://bakerpedia.com/processes/staling/": "Staling (BAKERpedia)",
+    "https://bakerpedia.com/processes/water-activity/": "Water Activity (BAKERpedia)",
+    "https://bakerpedia.com/ingredients/calcium-propionate/": "Calcium Propionate (BAKERpedia)",
+    "https://bakerpedia.com/processes/shelf-life/": "Prolonging the Fresh Factor: Shelf Life Extension for High-Speed Bakeries (BAKERpedia)"
+  }
+}

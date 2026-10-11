@@ -2,9 +2,8 @@
 title: Why Does My Deck Feel Spongy in Some Spots But Not Others?
 slug: deck-feels-spongy-in-spots
 date: '2026-09-02'
-updated: '2026-09-29'
-description: A spongy deck spot usually means rot in the wood below. Here's how to
-  tell whether it's one board, a joist, or the ledger, and when to call a pro.
+updated: '2026-10-11'
+description: A spongy deck spot is rot where water sits and can't dry. Where it is tells you if it's one board or the frame, and soft wood has already lost much of its strength.
 tags:
 - deck maintenance
 - outdoor home care
@@ -15,94 +14,119 @@ pillar: yard-outdoor
 hero_image: /images/deck-feels-spongy-in-spots-hero.svg
 hero_alt: Deck boards seen from above with one darker, sunken board cut away to reveal the joist underneath
 pin_hooks:
-- A single soft deck board is a $10–$30 DIY swap
-- The screwdriver poke test that tells rot from sound wood
+- Rot can halve wood's strength before you can see it
+- Where the soft spot is tells you board or frame
+enriched: '2026-10-11'
 ---
 
-A spongy deck spot usually means water has been sitting there and rotting the wood underneath — the question is whether it's one board or the frame holding it up.
+A spongy deck spot means the wood there has stayed wet long enough to rot. Rot needs wood that stays soaked, which is why it shows up where water sits and can't dry, and not across the whole deck.
 
-That distinction matters more than almost anything else about deck maintenance, because one version is a $15 afternoon fix and the other is a structural problem that can actually hurt someone. The good news: where the soft spot is, and what's around it, usually tells you which one you're dealing with. Here's how to read the clues.
+The real question is whether the rot is in a single deck board or in the frame under it: a joist, the ledger board on the house, or a post. The location of the soft spot is a useful clue. Below is a table that maps location to cause, what the USDA's wood scientists say about how much strength rotten wood has already lost, and what a sound repair has to include.
 
-![Deck plan: one soft board is a DIY swap; a soft seam means check the joist; several boards or near house, posts, stairs means call a pro](/images/deck-feels-spongy-in-spots-diagram.svg)
+## Why rot is patchy
 
-## If the soft spot is in the middle of a single board
+The USDA Forest Products Laboratory (FPL), the federal wood research lab, says serious decay happens only when wood moisture is above the fiber saturation point, about 30% on average. FPL says humid air alone won't wet wood enough for significant decay.
 
-This is the most common — and least scary — version. A single deck board (called a "decking board" or "plank") holds water differently than the frame underneath it, especially if it's slightly cupped, has a crack, or sits somewhere leaves and debris collect.
+Wood that has dried out usually sits at 20% moisture or less, and FPL says it won't decay. Even rot that's already started stops advancing if the wood stays dry.
 
-Press around the spot with your foot or a flat screwdriver. If only that one board flexes, and the boards on either side feel solid, the rot is probably contained to that plank. Flip up a corner if you can, or look at the underside with a flashlight — healthy wood is tan to light brown and firm; rotten wood looks dark, crumbly, or almost spongy like wet cardboard.
+So rot maps where water lingers on your deck:
 
-**What to do:** Replace the single board. Pry it up (a flat bar and a few new deck screws are all you need), match the width and thickness at a hardware store, cut it to length, and screw it down. This is an easy DIY job, typically $10–$30 in materials depending on wood type, and doesn't require touching anything structural.
+- **Board ends and seams.** FPL says exposed end grain at joints soaks up water more readily than the face of a board.
+- **Around screws and nails.** FPL says the area around all fasteners, including drill holes, needs extra on-site preservative treatment, as do cut ends.
+- **Gaps packed with leaves and dirt,** which hold water against the board edges and the joist tops.
+- **Under planters, grills, and rugs** that never move.
+- **Along the house,** where the ledger board sits against the wall.
+- **Low, enclosed decks** with little air moving underneath. The industry standard for above-ground treated lumber assumes there's enough air circulation for the wood to dry, the Western Wood Preservers Institute says.
 
-## If the soft spot is where two boards meet, or near a screw/nail
+Temperature matters too. FPL says decay is slow below 50°F and above 95°F, and nearly stops at 35°F. Rot advances mainly in warm, wet weather.
 
-Butt joints — where the ends of two boards meet over a joist — are one of the most common failure points on a deck. Water runs down the gap between boards, hits the end grain (the most absorbent part of any board), and never fully dries because it's shaded by the boards themselves.
+## Soft wood has already lost much of its strength
 
-If your spongy spot is right at a seam, or clustered around a row of screws, you're likely looking at rot that's traveled from the board ends down into the joist below. This needs a closer look before you just swap the board.
+FPL's laboratory tests found that wood can lose 6% to more than 50% of its toughness, its ability to absorb a sudden impact, by the time rot has eaten away just 1% of its weight.
 
-**What to do:** Pull both board ends and inspect the joist directly underneath. If the joist is intact and just damp on the surface, replacing the two board ends (or the full boards) and improving drainage there — sometimes it's as simple as making sure the gap between boards isn't clogged with debris — solves it. If the joist itself is soft, treat it as a frame problem (see below).
+By 10% weight loss, most strength measurements drop by more than half. At that stage, the decay is visible only under a microscope.
 
-## If a whole section — several boards in a row — feels soft together
+FPL's conclusion: wood with decay you can see has lost a great deal of strength in every respect. If a board feels spongy, it's well past the early stage. And the wood next to it that only looks discolored may already be weakened.
 
-When multiple adjacent boards all give slightly in the same footprint, the problem usually isn't the boards at all. It's the joist (the horizontal support beam) or a support post underneath that section acting spongy and transferring that give up through everything attached to it.
+That's why screwing down a soft board isn't a fix: the screw would be held by wood that has already lost much of its strength.
 
-This is common near:
-- The point where the deck attaches to the house (the **ledger board**), especially if there's no flashing (a metal strip that diverts water away) directly above it — see the ledger check below
-- Areas under a hot tub, planter, or grill that sit in one place for years and trap moisture
-- Low spots where the deck doesn't pitch away from the house
+## Where the soft spot is, and what it means
 
-**What to do:** This is where it's worth pulling up a board or two and actually looking at the joist with a flashlight, or getting underneath the deck if there's clearance. Probe the wood with a screwdriver — if it sinks in easily or the wood tears rather than splinters, that joist has rot and needs to be sistered (a new piece of lumber bolted alongside the damaged one) or fully replaced. Because this affects load-bearing capacity, it's a reasonable point to bring in a deck contractor or handyman, even if you're comfortable with basic carpentry — a joist replacement usually runs a few hundred dollars per section depending on access and how much needs to be cut out.
+![Rot weakens wood before it shows: toughness down 6% to over 50% at 1% weight loss, strength down over half at 10%](/images/deck-feels-spongy-in-spots-diagram.svg)
 
-## If the soft spot runs along the house (the ledger board)
+| Where it's soft | What has likely failed | What to check | DIY or pro |
+|---|---|---|---|
+| Middle of one board; boards on either side feel solid | That deck board | Look at the underside and the joist below once the board is up | DIY board swap, if the joist is sound |
+| At a seam where two board ends meet, or along a line of screws | Board ends, and possibly the top of the joist below them | Pull both board ends and probe the joist top | DIY if the joist is firm; frame repair if not |
+| Several boards in a row give together | The joist under them | Probe the joist from below, especially where it sits on the beam and near fasteners | Structural: get a deck contractor |
+| Along the house wall | The ledger board, and possibly the house framing behind it | Probe the ledger; check bolts and flashing (list below) | Pro. Keep gatherings and heavy loads off until it's checked |
+| Near a post, at the stairs, or where a railing post attaches | Post, stair stringer (the notched board stairs sit on), or rim joist | Wiggle railings and posts; probe at the base and connections | Pro, and soon: these are structural parts |
+| A little soft everywhere | Widespread decay, or decking that's too thin for the joist spacing | Probe several joists; measure joist spacing | Pro inspection before spot repairs |
 
-The ledger is the board fastened to your house that carries one whole edge of the deck. It's also where many serious deck failures start, because water that gets behind it rots both the ledger and the house framing it's attached to — usually out of sight. Soft decking along the house wall deserves a ledger check:
+### How to probe
 
-- **Probe it from underneath.** With a flashlight, look along the ledger and push a screwdriver into it, especially along the top edge and around fasteners. Dark staining, soft wood, or rust streaks are warning signs.
-- **Check how it's attached.** A ledger should be fastened with through-bolts or structural lag screws in a staggered pattern — not just nails. Nails only, missing or badly rusted bolts, or a visible gap between the ledger and the house all mean it isn't reliably attached.
-- **Check for flashing.** Metal or membrane flashing should cover the top of the ledger and shed water away from the house. Missing flashing is the usual reason ledgers rot.
+Push an awl or a flat screwdriver into the wood at an angle. Sound wood resists and lifts out in long splinters. Rotten wood lets the tip sink in easily and breaks off in short, crumbly pieces.
 
-**What to do:** A soft ledger, a nailed-only ledger, or any separation from the house is a call-a-pro item, not a DIY repair — the same line we draw in our guide to [when a repair is worth calling a pro](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html). Keep heavy loads (gatherings, hot tubs, big planters) off the deck until it's been checked.
+Probe more than just the spot that feels soft. FPL says early decay often shows up as discoloration: abnormal mottling, unnatural brown or bleached patches, or wood that looks water-soaked. Probe those areas too, along with joist tops under seams and the wood around every bolt you can reach.
 
-## If the spot is near a post, stair, or railing
+A flashlight and a few pulled boards tell you more than standing on top. Wear eye protection when prying boards. If the deck is high enough, look underneath.
 
-Soft or springy wood near a support post, at the base of stairs, or around a railing baluster is worth treating more seriously than the same softness in the middle of the deck field. These are the points carrying concentrated weight and lateral force (the push-and-pull motion from people walking or leaning).
+## The ledger: what "correct" looks like
 
-Wiggle the railing and the post it's attached to. If there's noticeable movement at the base, or the wood around the post's connection to the frame looks dark and swollen, that's usually moisture wicking up from ground contact or from a poorly sealed post base. If [water pools around the posts](https://www.hearth-habit.com/2026/08/why-does-water-pool-in-one-spot-in-my.html) after rain, fix that drainage too, or the new wood will rot the same way.
+The ledger is the board bolted to your house that carries one whole side of the deck. Water that gets behind it can rot both the ledger and the house framing, out of sight.
 
-**What to do:** Don't wait on this one. A post or stair stringer (the zigzag board stairs are built on) that's rotting is a fall risk, not just a maintenance annoyance. If you're not confident diagnosing it yourself, this is worth a professional inspection — it's typically a quick visit and worth the peace of mind before someone's weight tests it for you.
+The American Wood Council's *Prescriptive Residential Wood Deck Construction Guide* (known as DCA 6, based on the International Residential Code) sets out what an attached deck needs. Use it as a checklist from below:
 
-## If the whole deck feels a little soft everywhere, not just one spot
+- **Fasteners:** ½-inch lag screws or bolts with washers, in a staggered pattern. Nails alone don't meet it, and the guide prohibits lead anchors.
+- **Flashing:** corrosion-resistant flashing over the ledger, so water can't reach the house's band joist (the framing the ledger is bolted to).
+- **Ledger size:** at least a 2x8 of pressure-treated lumber.
+- **What it's attached to:** the guide prohibits attaching a ledger to brick or stone veneer, hollow masonry, a cantilevered floor overhang, or a bay window. In those cases the deck can't hang from a ledger under DCA 6, so a deck contractor has to design other support.
 
-Uniform sponginess across an older deck (generally 15–20+ years, depending on the wood and how it was built) often points to the wood simply reaching the end of its service life, rather than one isolated failure. Pressure-treated lumber resists rot for a long time but doesn't last forever, especially if the deck was never sealed or stained regularly.
+A soft ledger, rust-streaked or missing bolts, a nailed-only ledger, or any gap between the ledger and the house means a call to a deck contractor. Our guide on [when a repair is worth calling a pro](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html) draws the same line.
 
-Check the age and history: Was it ever sealed or stained? Decks left completely bare, especially in humid climates or shaded yards, age faster because water soaks in instead of beading off.
+## Making the repair last
 
-**What to do:** At this stage, spot-repairs start to feel like whack-a-mole. Widespread softness is a job for a deck contractor or inspector: have them check the joists, beams, posts, and ledger, then decide whether you're looking at a partial rebuild (replacing all the decking boards while keeping a sound frame) or a full teardown. As a rough gut-check: if you're replacing more than a third of the boards, a full re-decking often makes more financial sense than piecemeal fixes.
+Replacing rotten wood with the same setup just restarts the clock. These details come from the sources above.
 
-## Quick ways to tell rot from something else
+**Pick the right treatment for the job.** Treated lumber is sold for two main exposures. Above-ground (UC3B) lumber assumes the wood gets wet but has the air circulation to dry quickly. Ground-contact (UC4A) lumber is for wood touching the ground, and the Western Wood Preservers Institute says it's also meant for above-ground parts that are critical to safety, hard to replace, or face ground-contact-level wetness. Joists on a low deck with poor airflow can fit that description. Check the lumber's label for its use category before you buy.
 
-Not every soft-feeling spot is rot. A couple of quick checks before you start pulling up boards:
+**Treat every cut and hole.** FPL recommends applying copper naphthenate (1% to 2% copper) to cut surfaces, and says exposed end grain and the area around all fasteners, including drill holes, need on-site treatment too. DCA 6 requires field treatment of all cuts.
 
-- **Joist spacing** can make a sound deck feel bouncy. Most decks have joists about 16 inches on center (measured center to center). At 24 inches, thinner boards — 5/4 wood decking, or composite that's typically rated for 16-inch spacing or less — can flex between joists with no rot at all. Measure the spacing from underneath and compare it with the decking manufacturer's maximum span before assuming the wood is failing.
-- **Composite decking** (plastic/wood-fiber blend) can feel slightly springy by design — that's normal flex, not rot. It shouldn't feel mushy or make a hollow crunch sound, though.
-- **Cold weather** makes some wood feel stiffer and can mask minor softness; conversely, a deck inspected right after heavy rain may seem worse than it is if it's just saturated but structurally fine. Test again on a dry day if you're unsure.
-- A **screwdriver poke test** is the fastest real diagnostic: push it into the wood at an angle. Sound wood resists and splinters. Rotten wood lets the screwdriver sink in with little resistance.
+**Use the right fasteners and hardware.** DCA 6 calls for hot-dip galvanized, stainless steel, silicon bronze, or copper fasteners and connectors in contact with treated lumber.
 
-**Key takeaway:** a soft spot on one board is a weekend fix; sponginess that spans several boards or shows up near a post, stair, or the house connection means it's time to check the frame — and widespread softness or a soft ledger is a job for a pro. That's the difference between a repair and a safety issue.
+**Decking basics from DCA 6:**
+
+- decking must be 2-inch-nominal lumber or a decking product rated for the span
+- each piece must rest on at least three joists
+- fasten with two nails or screws at every joist
+- space boards about ⅛ inch apart
+
+**Clear the gaps.** Run a putty knife through the board gaps whenever debris packs in, and move planters and rugs now and then so the wood under them can dry. Fix drainage too: if [water pools around the posts](https://www.hearth-habit.com/2026/08/why-does-water-pool-in-one-spot-in-my.html) after rain, new posts can rot the same way. DCA 6 sets 6x6 as the minimum post size.
+
+**Before digging new post footings,** call 811 or use call811.com a few business days ahead so buried utility lines get marked. It's free in the US.
+
+## Spongy versus bouncy
+
+A deck can flex without any rot. If the whole surface bounces evenly and the probe test finds firm wood everywhere, the decking may be too thin for how far apart the joists are. DCA 6 requires 2-inch-nominal lumber or decking rated for the span. Measure the joist spacing from below and compare it with the decking's span rating or the manufacturer's maximum before assuming the wood is failing.
 
 ## FAQ
 
-### Can I just screw down a spongy board instead of replacing it?
+### Can I sister a new joist onto a rotten one?
 
-No — if a board is soft enough to flex underfoot, the wood fibers are already broken down and screws won't have anything solid to grip. Adding screws might quiet a squeak temporarily, but the rot keeps spreading underneath. Replace the board instead.
+Sistering means bolting a new joist alongside the damaged one. It's a structural repair, and the rot in the old joist doesn't stop on its own if the wood stays wet. FPL says decay that's visible means the wood has lost much of its strength, so have a deck contractor decide whether sistering is enough or the joist has to come out.
 
-### How do I know if it's the joist or just the board above it?
+### Is a spongy deck dangerous?
 
-Pull the suspect board (or drill a small inspection hole if you're not ready to remove it) and look at the joist directly below with a flashlight. Firm, tan-colored wood is fine. Dark, crumbly, or visibly damp wood means the joist needs attention, not just the board.
+It depends on where the soft spot is. A soft deck board in the middle of the deck, over a sound joist, is a repair job. Soft wood at the ledger, posts, stairs, or railing posts is a safety issue, because those parts carry the deck and the people on it. DCA 6 requires a guard (railing) on any deck more than 30 inches above the ground, so a railing post that wiggles at its base is part of that safety system. Keep people off that area until it's fixed.
 
-### Is a spongy deck actually dangerous, or just annoying?
+### How often should I check for soft spots?
 
-It depends on location. Soft decking in the middle of the deck is usually a maintenance issue, not an emergency. Soft wood near posts, stairs, railings, or the ledger board (where the deck meets the house) is a structural concern and worth addressing quickly, since those points carry the most weight and stress.
+Walk the deck, press on seams and the boards along the house, and probe the posts on a regular schedule. Pair it with the [fall yard cleanup](https://www.hearth-habit.com/2026/07/fall-yard-cleanup-checklist-what.html), when leaves start packing into the board gaps.
 
-### How often should I check my deck for soft spots?
+## Sources
 
-A quick walk-and-press check twice a year — once in spring and once in fall — catches most problems early, especially around board seams, post bases, and the house connection. It pairs well with your [fall yard cleanup](https://www.hearth-habit.com/2026/07/fall-yard-cleanup-checklist-what.html), since that's also when debris tends to pile up in the gaps between boards and hold moisture over winter.
+- [Wood Handbook, Chapter 14: Biodeterioration of Wood (USDA Forest Products Laboratory)](https://research.fs.usda.gov/treesearch/37418) — 30% moisture threshold, 20% safe level, temperature range, strength loss in early decay, signs of early decay
+- [Wood Handbook, Chapter 15: Wood Preservation (USDA Forest Products Laboratory)](https://research.fs.usda.gov/treesearch/37417) — end grain and fastener holes; copper naphthenate on cuts
+- [Prescriptive Residential Wood Deck Construction Guide, DCA 6 (American Wood Council)](https://web-media.awc.org/wp-content/uploads/2022/02/17210514/AWC-DCA62015-DeckGuide-1804.pdf) — ledger fasteners, flashing and prohibited attachments; decking, fastener, post and guard requirements; ground-contact lumber
+- [Preservative Use Categories (Western Wood Preservers Institute)](https://preservedwood.org/the-story/preservative-use-categories/) — above-ground vs. ground-contact treated lumber
+- [Call 811](https://call811.com/) — calling before digging new post footings

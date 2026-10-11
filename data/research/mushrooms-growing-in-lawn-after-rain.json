@@ -1,0 +1,94 @@
+{
+  "reader_situation": "After a run of rain, a homeowner finds mushrooms scattered or in rings across the lawn, worries about the grass, and often has kids or a dog who might eat them.",
+  "direct_answer": "Wet weather triggers soil fungi that live on buried wood, dead roots, or thatch to fruit; overwatering and poor drainage do the same. The mushrooms themselves rarely hurt grass, and UC IPM says cultural fixes beat fungicides. The real issue is safety: Chlorophyllum molybdites, a common lawn fairy-ring species, is the most common cause of mushroom poisoning in North America, so pick and bin mushrooms where kids or pets play.",
+  "consensus": [
+    "Mushrooms are the fruiting bodies of soil fungi breaking down organic matter.",
+    "They pop up after rain and are mostly harmless to grass.",
+    "Buried stumps or roots cause repeat patches.",
+    "Fairy rings are circles of mushrooms or darker grass.",
+    "Fungicides aren't usually needed; remove them if kids or pets are around."
+  ],
+  "gaps": [
+    "Which lawn mushroom is the danger: UC IPM lists Chlorophyllum molybdites among common fairy-ring species in lawns; NAMA calls it the most common mushroom cause of human poisoning in North America, causing severe GI distress, and says pets can be poisoned too. Illinois Extension notes immature Agaricus (edible) can't be told apart from it until maturity.",
+    "Timing of symptoms: amatoxin symptoms are delayed 6 to 24 hours (NAMA); for dogs, Pet Poison Helpline says some toxins act within 15–30 minutes and others take up to 24 hours, and all mushroom ingestions by pets should be treated as toxic.",
+    "Fairy rings come in three symptom types (NC State): Type I kills grass because the soil turns hydrophobic (water-repellent); Type II is dark green rings; Type III is mushrooms or puffballs in a ring after heavy or frequent rain or in poorly drained or over-irrigated spots.",
+    "Rings expand each year, 5 inches to 2 feet or more, and the fungus can reach 8 inches or deeper (Illinois). Most rings are 2 to 15 feet across.",
+    "The fix for a dead ring is water, not fungicide: Illinois Extension describes pumping water 10 to 24 inches deep with a root-feeder lance at 1-foot intervals for 18–24 inches on either side of the green zone, keeping it near-soaked for 4–6 weeks by watering every 2–3 days. Core aeration and wetting agents help water penetrate (NC State, Illinois); UC IPM says mats under 3 inches thick may respond to aerating a few times a year.",
+    "Fungicides: UC IPM says cultural practices are faster and more effective; NC State says curative applications have little effect because the problem is the soil; Illinois says fungicide drenches have met only moderate success.",
+    "Nitrogen can speed decomposition of the food source (UC IPM: about 1 lb actual nitrogen per 1,000 sq ft), but timing must fit the grass: warm-season lawns are not fed in fall, and NC State cautions about nitrogen on cool-season grass in summer.",
+    "Not everything is a mushroom: slime molds are gooey masses (often yellow) that usually vanish within about a week and can be raked, mowed, or hosed off; puffballs are usually an inch or less and need no management (UC IPM)."
+  ],
+  "evidence": [
+    {
+      "claim": "Causes of lawn mushrooms",
+      "detail": "Mushrooms in lawns often grow from buried wood or dead plant roots; overirrigation or poor drainage is commonly associated; fungi fruit mainly after prolonged wet weather. Fungi can survive in soil for years. Mushrooms in new sod generally disappear when irrigation is reduced. Pick mushrooms as they appear or dig out buried wood.",
+      "source_url": "https://ipm.ucanr.edu/home-and-landscape/mushrooms-and-other-nuisance-fungi-in-lawns/",
+      "source_title": "Mushrooms and Other Nuisance Fungi in Lawns | UC IPM"
+    },
+    {
+      "claim": "Management per UC IPM",
+      "detail": "Common ring-forming species: Marasmius oreades, Chlorophyllum molybdites, Agaricus campestris; rings 1 to 12 or more feet across. Fungal mats under 3 inches thick: aerating a few times a year may improve water penetration. Readily available nitrogen at about 1 lb actual N per 1,000 sq ft may eliminate mushrooms from organic matter or speed decomposition. Cultural practices are faster and more effective than fungicides. No simple tests identify poisonous mushrooms; remove fruiting structures before children play; keep pets away.",
+      "source_url": "https://ipm.ucanr.edu/home-and-landscape/mushrooms-and-other-nuisance-fungi-in-lawns/",
+      "source_title": "Mushrooms and Other Nuisance Fungi in Lawns | UC IPM"
+    },
+    {
+      "claim": "Slime molds and puffballs",
+      "detail": "Slime molds aren't true fungi; gooey mass, often yellow (Fuligo septica); undisturbed they usually vanish within about a week; remove by raking, mowing, or hosing. Puffballs are usually an inch or less across and generally need no management.",
+      "source_url": "https://ipm.ucanr.edu/home-and-landscape/mushrooms-and-other-nuisance-fungi-in-lawns/",
+      "source_title": "Mushrooms and Other Nuisance Fungi in Lawns | UC IPM"
+    },
+    {
+      "claim": "Fairy ring types",
+      "detail": "Type I: soil and thatch hydrophobic, kills turf; most damaging in hot, dry summer. Type II: dark green rings. Type III: mushrooms or puffballs in a ring after heavy or frequent rain and in poorly drained or over-irrigated areas. Rings start about 1 foot or less and expand each year. Hollow-tine aerification and wetting agents rewet hydrophobic soil; hand-water affected spots. Curative fungicide applications have little effect. Caution with nitrogen on cool-season grasses in summer.",
+      "source_url": "https://www.turffiles.ncsu.edu/diseases-in-turf/fairy-ring-in-turf/",
+      "source_title": "Fairy Ring in Turf | TurfFiles, NC State Extension"
+    },
+    {
+      "claim": "Ring growth and depth",
+      "detail": "Most rings 2 to 15 feet across. Each year rings may enlarge 5 inches to 2 feet or more. The fungus grows to a depth of 8 inches or more. Infection often begins where large roots or lumber are buried. Brown ring caused by dense mycelium that impedes water movement. Immature Agaricus is indistinguishable from poisonous Chlorophyllum molybdites; children are the largest group of fatalities from mushroom poisoning, so dispose of mushrooms as they appear.",
+      "source_url": "https://ipm.illinois.edu/diseases/series400/rpd403/",
+      "source_title": "Fairy Rings, Mushrooms, and Puffballs (RPD 403) | University of Illinois Extension"
+    },
+    {
+      "claim": "Deep-watering suppression",
+      "detail": "Pump water into the soil 10 to 24 inches deep at one-foot intervals for 18 to 24 inches on either side of the stimulated zone; keep near water-soaked 4 to 6 weeks by watering every 2 to 3 days, using a tree-feeding lance or root feeder. Repeat when rings wilt. Core cultivation and wetting agents help. Fungicide drenching has met with only moderate success. Shallow watering encourages fairy ring fungi.",
+      "source_url": "https://ipm.illinois.edu/diseases/series400/rpd403/",
+      "source_title": "Fairy Rings, Mushrooms, and Puffballs (RPD 403) | University of Illinois Extension"
+    },
+    {
+      "claim": "Most common poisoning mushroom",
+      "detail": "Chlorophyllum molybdites is the most common mushroom cause of human poisonings in North America; severe gastrointestinal distress. Keep mushrooms that grow in your yard picked and disposed of. Pets can also be poisoned. Amatoxin symptoms are delayed 6 to 24 hours after ingestion.",
+      "source_url": "https://namyco.org/mushroom-poisoning-syndromes/",
+      "source_title": "Mushroom Poisoning Syndromes | North American Mycological Association"
+    },
+    {
+      "claim": "Dogs and mushrooms",
+      "detail": "Most confirmed fatal mushroom toxicities in pets are from Amanita, Galerina, and Lepiota. Signs can start within 15-30 minutes or up to 24 hours later. Only a small percentage of species are toxic, but all mushroom ingestions by pets should be considered toxic; identification should be left to experts.",
+      "source_url": "https://www.petpoisonhelpline.com/poison/mushrooms/",
+      "source_title": "Mushrooms | Pet Poison Helpline"
+    }
+  ],
+  "real_questions": [
+    "Are lawn mushrooms dangerous to my dog or kids?",
+    "Should I mow over them or pick them?",
+    "Will they kill my grass?",
+    "How do I get rid of a fairy ring?",
+    "Does fungicide work?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "What-you-see table: scattered after rain, same spot every rain, ring with green grass, ring with dead grass, yellow goo, puffballs; each with cause and action from UC IPM, NC State, Illinois. Plus a safety box with symptom timing (NAMA, Pet Poison Helpline) and registry hotline numbers."
+  },
+  "cautions": [
+    "Never identify mushrooms by look for eating; treat any pet ingestion as toxic.",
+    "Call 811 before digging out stumps or roots.",
+    "Fertilizer timing follows the registry: no fall nitrogen on warm-season grass."
+  ],
+  "sources": {
+    "https://ipm.ucanr.edu/home-and-landscape/mushrooms-and-other-nuisance-fungi-in-lawns/": "Mushrooms and Other Nuisance Fungi in Lawns | UC IPM",
+    "https://www.turffiles.ncsu.edu/diseases-in-turf/fairy-ring-in-turf/": "Fairy Ring in Turf | TurfFiles, NC State Extension",
+    "https://ipm.illinois.edu/diseases/series400/rpd403/": "Fairy Rings, Mushrooms, and Puffballs (RPD 403) | University of Illinois Extension",
+    "https://namyco.org/mushroom-poisoning-syndromes/": "Mushroom Poisoning Syndromes | North American Mycological Association",
+    "https://www.petpoisonhelpline.com/poison/mushrooms/": "Mushrooms | Pet Poison Helpline"
+  }
+}

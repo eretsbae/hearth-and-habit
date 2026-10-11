@@ -1,0 +1,104 @@
+{
+  "reader_situation": "Someone flipped the disposal switch (or pushed the stopper down) and heard a steady hum with no grinding, often with water standing in the sink. They want to know if the unit is dead, how to free it safely, and when to stop trying and replace it.",
+  "direct_answer": "A hum with no spin means the motor is getting power but the grinding plate (flywheel) is stuck, usually on a hard object. Switch it off and cut power, turn the flywheel free from below with the 1/4-inch hex wrench until it turns full circles both ways, pull the object out with tongs, then press the red reset button. If the button won't stay up, InSinkErator says wait ten minutes (up to 20 on EZ Connect models) and try again.",
+  "consensus": [
+    "A hum without grinding usually means a jam, not a dead motor.",
+    "Turn off power before working on it and never put a hand in the chamber.",
+    "Use the hex wrench in the bottom socket to turn the flywheel back and forth.",
+    "Remove the object with tongs or pliers, then press the red reset button.",
+    "Run cold water when grinding and keep grease out."
+  ],
+  "gaps": [
+    "Cooldown time is manufacturer-specific: InSinkErator says if the red button won't stay up, wait ten minutes and try again; EZ Connect models need up to 20 minutes off (or unplugged) before restarting. A tripped button drops about a quarter inch (5 mm), which tells you whether the overload protector actually tripped.",
+    "Stopping point: InSinkErator says it is OK to use some force on the wrench and to keep working until it turns freely in complete circles in both directions. Half-turn 'freedom' is not enough.",
+    "If the flywheel turns freely and the reset button is already in, the next check is a tripped breaker or blown fuse, per both GE and InSinkErator, not the motor.",
+    "Batch-feed disposers have no wall switch: the stopper is the switch. To make them safe you remove the stopper (and still cut power before working underneath).",
+    "Some models have no bottom hex socket. InSinkErator's Builder Series, Amana and ES models are freed by rotating the turntable from above with a wooden spoon; GE's manual uses a wooden spoon or broom handle as a lever.",
+    "Repeat jams have named causes: GE lists packing waste in too fast, metal objects, and leather, cloth, string, rubber, seafood shells, artichoke leaves or corn husks as overload triggers. What a given unit can grind depends on its series (InSinkErator lists bones and pits only for some series).",
+    "Standing water after the jam is cleared is a separate drain-line clog if the water swirls in a whirlpool; InSinkErator's fix is a plunger with about four inches of water and the other basin plugged.",
+    "Replacement math: HomeAdvisor puts typical replacement at $200–$625 (average about $550), unit prices by horsepower, labor $50–$100 an hour with about one hour for a standard swap, and lifespan at five to 10 years. The old article's 8–12 years and $80–$200 had no source; the capacitor claim and the hot-water flush advice were unsourced and contradict InSinkErator's cold-water guidance."
+  ],
+  "evidence": [
+    {
+      "claim": "How to free a jam (InSinkErator, most models)",
+      "detail": "Make certain the switch is off. Insert the wrench into the hole at the bottom of the garbage disposal, dead center, facing the floor. Work the wrench back and forth in both directions; if it will not turn easily, it is OK to use some force. Continue until it turns freely in complete circles in both directions. Remove anything in the chamber with tongs or pliers. Turn on the water, then the disposal; if it jams again, use the wrench again. Do not place your hand in the disposal at any time. If the sink is full of water, wait for it to drain or bail it out.",
+      "source_url": "https://www.insinkerator.com/en-us/support/fixing-a-jammed-garbage-disposal",
+      "source_title": "Fixing a Jammed Garbage Disposal | InSinkErator US"
+    },
+    {
+      "claim": "Wrench size and models without a bottom socket",
+      "detail": "The Jam Buster wrench is about four inches long; a standard 1/4-inch Allen wrench can be used instead. EZ Connect: work the wrenchette in the center hole until it turns one full revolution. Builder Series, Amana and ES models: rotate the turntable in either direction with a wooden spoon. If the motor still doesn't run, check the service panel for tripped circuit breakers or blown fuses.",
+      "source_url": "https://www.insinkerator.com/en-us/support/fixing-a-jammed-garbage-disposal",
+      "source_title": "Fixing a Jammed Garbage Disposal | InSinkErator US"
+    },
+    {
+      "claim": "Reset button location, how to tell it tripped, and cooldown",
+      "detail": "The overload protector is a red square button under the sink on the bottom of the disposal, facing the floor. It turns the disposal off if it is jammed or run for a very long time. When tripped, the red button drops down about a quarter of an inch (5 mm). Gently press it; if it does not stay up, wait ten minutes and try again. EZ Connect with wall switch: turn off and allow to cool for up to 20 minutes before turning back on; with push-button air switch: unplug for up to 20 minutes.",
+      "source_url": "https://www.insinkerator.com/en-us/support/resetting-a-garbage-disposal",
+      "source_title": "Resetting a Garbage Disposal | InSinkErator US"
+    },
+    {
+      "claim": "What different disposal series can grind; grease and cold water",
+      "detail": "Coffee grounds, eggshells, pasta and rice are listed for all series. Bones (chicken, cooked beef) are listed only for the Advanced Series; avocado and peach pits for the Power and Advanced Series, not the Badger Series. NEVER put fats, oils, or grease into the disposal. Do NOT pre-load the disposal. Turn on cold water and let it run a few seconds after grinding stops.",
+      "source_url": "https://www.insinkerator.com/en-us/kitchen-better/what-can-i-grind",
+      "source_title": "What Can I Grind In a Garbage Disposer? | InSinkErator US"
+    },
+    {
+      "claim": "Telling a jam from a clogged drain line",
+      "detail": "Turn the disposer on; if you see a whirlpool, you may have a clogged drain line. Use a plunger; with a double sink, block the other opening with a stopper. Fill the sink with four inches (10 cm) of water, press down slowly and pull up quickly, repeat. Then run water and the disposal for a minute or two. Never pour grease or fat into the disposal; avoid hot water when grinding food waste.",
+      "source_url": "https://www.insinkerator.com/en-us/support/fixing-a-clogged-garbage-disposal",
+      "source_title": "Fixing a Clogged Garbage Disposal | InSinkErator US"
+    },
+    {
+      "claim": "Manufacturer diagnostic sequence (GE batch-feed manual)",
+      "detail": "Thermoelectric control stops the motor when overloaded. If disposer stops: remove the stopper, remove the cause, wait a few minutes for the overload control to cool, press reset on the bottom. If flywheel rotates freely: depress reset until it clicks and stays; if the reset button is already depressed, check for a tripped circuit breaker or burned-out fuse. If it does not rotate freely: check for a foreign object such as a nail or metal can tab lodged between the flywheel and the shredding ring and dislodge it with a wooden spoon or broom handle as a lever. Batch-feed models start when the stopper is pushed down and stop when it is lifted.",
+      "source_url": "https://www.geappliances.com/content/older-pdfs/49-53771.PDF",
+      "source_title": "Use and Care of Food Waste Disposers, Batch-feed models (GE)"
+    },
+    {
+      "claim": "What causes overload trips and what must never go in",
+      "detail": "Overloading can be caused by packing food waste in too rapidly, a metallic object jamming the flywheel, or leather, cloth, string, rubber, seafood shells, artichoke leaves or corn husks, which can cause nuisance tripping of the motor overload control. Do not put clam or oyster shells, drain cleaner, glass, china or plastic, large whole bones, metal or whole cornhusks into a disposer. To loosen a jam use a long wooden object; to remove an object use long-handled tongs or pliers. Shredder impellers swivel back when they strike hard objects to reduce jamming.",
+      "source_url": "https://www.geappliances.com/content/older-pdfs/49-53771.PDF",
+      "source_title": "Use and Care of Food Waste Disposers, Batch-feed models (GE)"
+    },
+    {
+      "claim": "Continuous-feed operation and reset location",
+      "detail": "Flip wall switch OFF before clearing; reset button is on the front near the bottom on some models and on the bottom on others. Run cold water at full flow; run the disposer about a half minute after the waste is gone, then switch off and run water about 30 seconds more. Cold water hardens greases so they can be ground and flushed.",
+      "source_url": "https://www.geappliances.com/content/older-pdfs/49-5505.PDF",
+      "source_title": "Use and Care of Food Waste Disposers, Continuous-feed models (GE)"
+    },
+    {
+      "claim": "Replacement cost, unit size and lifespan (trade cost data)",
+      "detail": "Replacement normal range $200 to $625, average $550. Unit cost: 1/3–1/2 HP (1–2 people, light use) $50–$225; 5/8–3/4 HP (3–4 people) $120–$310; 1–1 1/4 HP (5+ people) $200–$400. Labor $50–$100 per hour; most standard replacements take about one hour. Lifespan five to 10 years. Minor issues on newer units often justify repair; units near end of life or with major mechanical failure are often better replaced.",
+      "source_url": "https://www.homeadvisor.com/cost/appliances/garbage-disposal-replacement-cost",
+      "source_title": "How Much Does Garbage Disposal Replacement Cost? | HomeAdvisor"
+    }
+  ],
+  "real_questions": [
+    "I pressed reset and it still only hums. Now what?",
+    "My disposal has no hole on the bottom. How do I unjam it?",
+    "The wrench turns freely but it still won't run. Is the motor dead?",
+    "The red button won't stay in. How long do I wait?",
+    "Water is still sitting in the sink after I cleared the jam.",
+    "Is it worth repairing or should I just replace it?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "Symptom table: what you hear, what the reset button and wrench tell you, what it means, what to do next. Rows: hum + wrench won't turn; hum + wrench turns + button dropped; silent + button dropped; silent + button up + flywheel free (breaker/fuse/GFCI); button won't stay up (10 min / up to 20 for EZ Connect); jams again right away. Plus a replace-or-repair worked example using HomeAdvisor's ranges."
+  },
+  "cautions": [
+    "Switch off and cut power (unplug or breaker) before using the wrench or reaching tools into the chamber; never put a hand in the disposal.",
+    "Never pour chemical drain cleaner into a disposal (GE lists drain cleaner among things never to put in).",
+    "Don't keep pressing reset on a unit that's still jammed; clear the jam and let it cool first.",
+    "A breaker that trips again right after a confirmed clear jam is an electrical problem for a pro."
+  ],
+  "sources": {
+    "https://www.insinkerator.com/en-us/support/fixing-a-jammed-garbage-disposal": "Fixing a Jammed Garbage Disposal | InSinkErator US",
+    "https://www.insinkerator.com/en-us/support/resetting-a-garbage-disposal": "Resetting a Garbage Disposal | InSinkErator US",
+    "https://www.insinkerator.com/en-us/kitchen-better/what-can-i-grind": "What Can I Grind In a Garbage Disposer? | InSinkErator US",
+    "https://www.insinkerator.com/en-us/support/fixing-a-clogged-garbage-disposal": "Fixing a Clogged Garbage Disposal | InSinkErator US",
+    "https://www.geappliances.com/content/older-pdfs/49-53771.PDF": "Use and Care of Food Waste Disposers, Batch-feed models (GE)",
+    "https://www.geappliances.com/content/older-pdfs/49-5505.PDF": "Use and Care of Food Waste Disposers, Continuous-feed models (GE)",
+    "https://www.homeadvisor.com/cost/appliances/garbage-disposal-replacement-cost": "How Much Does Garbage Disposal Replacement Cost? | HomeAdvisor"
+  }
+}

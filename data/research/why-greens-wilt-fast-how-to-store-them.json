@@ -1,0 +1,53 @@
+{
+  "reader_situation": "Someone buys lettuce, spinach, or a bag of spring mix and finds it limp, slimy, yellowing, or spotted two or three days later. They want to know whether it's their fridge, the way they store it, or the greens themselves, and how to make the next batch last.",
+  "direct_answer": "Greens that fail in two days are usually too warm, losing water in dry air, or sitting near ethylene-producing fruit. Leafy greens keep best just above freezing (about 32-34 F) at very high humidity, and the commercial shelf life of cut lettuce drops from about 3 weeks at 32 F to 5-10 days at 41 F and 3-5 days at 50 F.",
+  "consensus": [
+    "Dry washed greens and store them loosely in a container lined with a paper towel",
+    "Use the high-humidity crisper drawer for leafy greens",
+    "Keep the fridge at 40 F or below",
+    "Delicate greens such as spinach and spring mix spoil faster than kale or romaine",
+    "Ready-to-eat bagged greens do not need re-washing"
+  ],
+  "gaps": [
+    "Temperature is the biggest lever: WFLO's manual gives shelf life for shredded lettuce in modified-atmosphere bags of 21 days at 32 F, 14-18 days at 36 F, 5-10 days at 41 F, and 3-5 days at 50 F. Prepackaged spinach lasts 1-2 weeks at 32 F but only about 1 week at 41 F.",
+    "The target is just above freezing, not just 'cold': lettuce storage is 32-34 F at 95-100% relative humidity; crisphead lettuce freezes at 31.3 F and other lettuces at 31.7 F, so the coldest spot at the back of a fridge can damage leaves. Mississippi State Extension notes fridge temperatures can range from 32 F at the back to 39 F near the door.",
+    "Rust-colored spots on lettuce ribs are russet spotting, induced by ethylene and worse at 38 F than at 32 F; WFLO says not to store lettuce with apples, pears, cantaloupes, peaches, or honeydew. Mississippi State lists greens, lettuce, spinach, and herbs as ethylene-sensitive.",
+    "Spinach yellows quickly above 32 F; slimy, water-soaked, mushy tissue is bacterial soft rot, which spreads from injured leaves and is slowed by prompt cooling below 36 F.",
+    "Humidity drawer settings: Samsung puts leafy greens, lettuce, and herbs in the high-humidity setting and apples, pears, cantaloupes, avocados in low humidity.",
+    "Storage-life expectations differ by green: NC State Extension says kale and collards may be stored up to 2 weeks but spinach and arugula only 4-7 days, even at 32 F and 90-95% humidity; WFLO gives crisphead (iceberg) 2-3 weeks and other lettuces about 10 days.",
+    "FDA: pre-washed, labeled greens can be used without further washing; if you wash produce, dry it with a clean cloth or paper towel; throw away produce that looks rotten."
+  ],
+  "evidence": [
+    {"claim": "Shredded lettuce shelf life by temperature", "detail": "Shredded head lettuce packed in modified-atmosphere film: shelf life 3 to 5 days at 50 F (10 C), 5 to 10 days at 41 F (5 C), 14 to 18 days at 36 F (2.2 C), and 21 days at 32 F (0 C); limited by decay, browning, and off odors.", "source_url": "https://www.gcca.org/system/files/WFLO-Commodity-Storage-Manual-2018-Lettuce.pdf", "source_title": "WFLO Commodity Storage Manual: Lettuce (Global Cold Chain Alliance, revised 2018)"},
+    {"claim": "Lettuce storage conditions and freezing point", "detail": "Storage temperature 32 to 34 F (0 to 1 C), relative humidity 95 to 100%; storage period crisphead (iceberg) 2 to 3 weeks, others 10 days; freezing point crisphead 31.3 F, others 31.7 F.", "source_url": "https://www.gcca.org/system/files/WFLO-Commodity-Storage-Manual-2018-Lettuce.pdf", "source_title": "WFLO Commodity Storage Manual: Lettuce (Global Cold Chain Alliance, revised 2018)"},
+    {"claim": "Russet spotting is ethylene- and temperature-driven", "detail": "Russet spotting: small tan to brown or olive spots mainly on the midribs, increasing with storage time; worse at 38 F (3.3 C) than at 32 F (0 C); induced by ethylene. Control: keep near 32 F and do not store with ethylene-producing products such as apples, pears, cantaloupes, peaches, honeydew melons.", "source_url": "https://www.gcca.org/system/files/WFLO-Commodity-Storage-Manual-2018-Lettuce.pdf", "source_title": "WFLO Commodity Storage Manual: Lettuce (Global Cold Chain Alliance, revised 2018)"},
+    {"claim": "Spinach is very perishable and yellows when warm", "detail": "Storage temperature should be as close to 32 F as possible; spinach deteriorates rapidly at higher temperatures, discoloring to a yellow color. Prepackaged spinach at 32 F: shelf life 1 to 2 weeks; at 41 F only about 1 week.", "source_url": "https://www.gcca.org/system/files/WFLO-Commodity-Storage-Manual-2018-Spinach.pdf", "source_title": "WFLO Commodity Storage Manual: Spinach (Global Cold Chain Alliance, revised 2018)"},
+    {"claim": "Bacterial soft rot in spinach", "detail": "Water-soaked, muddy green or greasy tissue rapidly becoming wet and mushy; control by careful handling to avoid injuries, which become infection sites, and prompt cooling to below 36 F (2.2 C).", "source_url": "https://www.gcca.org/system/files/WFLO-Commodity-Storage-Manual-2018-Spinach.pdf", "source_title": "WFLO Commodity Storage Manual: Spinach (Global Cold Chain Alliance, revised 2018)"},
+    {"claim": "Storage life differs by type of green", "detail": "Store at 32 F and 90-95% relative humidity. Kale and collards may be stored up to 2 weeks; spinach and arugula only 4-7 days. Leafy greens respire quickly, so they don't keep long.", "source_url": "https://ncfreshproducesafety.ces.ncsu.edu/postharvest-produce-guide/produce-guide-leafy-greens", "source_title": "Postharvest Produce Guide - Leafy Greens | NC State Extension"},
+    {"claim": "Ethylene producers and sensitive vegetables; fridge temperature range", "detail": "Ethylene-producing fruits include apples, avocados, cantaloupe, peaches, pears, plums, tomatoes; ethylene-sensitive vegetables include greens, herbs, lettuce, spinach. Refrigerators should maintain 39 F or less; temperatures can range from 32 F in the back to 39 F near the door.", "source_url": "https://extension.msstate.edu/publications/happyhealthy-fact-sheet-storage-tips", "source_title": "HappyHealthy Fact Sheet: Storage Tips | Mississippi State University Extension"},
+    {"claim": "Crisper humidity settings", "detail": "High humidity setting for leafy greens and produce that wilts or loses moisture easily (lettuce, broccoli, herbs, cucumbers); low humidity for apples, pears, mangoes, papayas, cantaloupes, avocados.", "source_url": "https://www.samsung.com/ca/support/home-appliances/control-the-humidity-in-the-vegetable-crisper-drawers-of-your-samsung-refrigerator/", "source_title": "Control the humidity in the vegetable crisper drawers of your Samsung refrigerator"},
+    {"claim": "FDA produce storage and washing guidance", "detail": "Store perishable produce in a clean refrigerator at 40 F or below; refrigerate all pre-cut or packaged produce; pre-washed labeled produce can be used without further washing, and if washed again it must not touch unclean surfaces; dry washed produce with a clean cloth or paper towel; throw away any produce that looks rotten.", "source_url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely", "source_title": "Selecting and Serving Produce Safely | FDA"}
+  ],
+  "real_questions": [
+    "Why does bagged spinach turn slimy before the date on the bag?",
+    "Is lettuce with rusty brown spots safe to eat?",
+    "Which crisper setting is for lettuce?",
+    "Why did my lettuce freeze in the fridge?",
+    "Should I wash greens before storing them?"
+  ],
+  "original_asset": {"type": "comparison_table", "spec": "Fridge-temperature vs. shelf-life table for bagged cut lettuce (WFLO: 32 F 21 days, 36 F 14-18, 41 F 5-10, 50 F 3-5) plus spinach (32 F 1-2 weeks, 41 F about 1 week), and a symptom table: limp (water loss), slimy (soft rot), rusty rib spots (russet spotting/ethylene), yellowing spinach (warm storage), glassy/frozen (below 31.3-31.7 F), each with the fix."},
+  "cautions": [
+    "Slimy or rotten greens get thrown out; never judge safety by smell (registry).",
+    "Do not re-wash ready-to-eat bagged greens (registry, FDA).",
+    "Commercial shelf-life figures are from the time of packing; greens bought at the store have already used part of that time.",
+    "Russet spotting is a quality defect; do not claim it is a safety hazard or that it is always safe, since only the cited sources' wording is supported."
+  ],
+  "sources": {
+    "https://www.gcca.org/system/files/WFLO-Commodity-Storage-Manual-2018-Lettuce.pdf": "WFLO Commodity Storage Manual: Lettuce (Global Cold Chain Alliance, revised 2018)",
+    "https://www.gcca.org/system/files/WFLO-Commodity-Storage-Manual-2018-Spinach.pdf": "WFLO Commodity Storage Manual: Spinach (Global Cold Chain Alliance, revised 2018)",
+    "https://ncfreshproducesafety.ces.ncsu.edu/postharvest-produce-guide/produce-guide-leafy-greens": "Postharvest Produce Guide - Leafy Greens | NC State Extension",
+    "https://extension.msstate.edu/publications/happyhealthy-fact-sheet-storage-tips": "HappyHealthy Fact Sheet: Storage Tips | Mississippi State University Extension",
+    "https://www.samsung.com/ca/support/home-appliances/control-the-humidity-in-the-vegetable-crisper-drawers-of-your-samsung-refrigerator/": "Control the humidity in the vegetable crisper drawers of your Samsung refrigerator",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely": "Selecting and Serving Produce Safely | FDA"
+  }
+}

@@ -2,8 +2,8 @@
 title: Cleaning Supplies You Actually Need (and 10 You Can Skip)
 slug: cleaning-supplies-you-actually-need
 date: '2026-07-24'
-updated: '2026-09-29'
-description: "Cleaning supplies you actually need fit in one caddy: all-purpose cleaner, dish soap, vinegar, baking soda, microfiber, a brush, gloves. Plus 10 you can skip."
+updated: '2026-10-11'
+description: "One caddy covers routine cleaning. Add one disinfectant for when germs matter, and learn the contact times (4 minutes for wipes) that make it work. Plus 10 skips."
 tags:
 - cleaning supplies
 - cleaning tips
@@ -13,107 +13,110 @@ pillar: cleaning-organization
 hero_image: /images/cleaning-supplies-you-actually-need-hero.svg
 hero_alt: "Cleaning caddy holding just the essentials: two bottles, a spray bottle, a small jar, a scrub brush, and a stack of microfiber cloths"
 pin_hooks:
-- A one-caddy cleaning kit for less than $50
-- 10 cleaning products you can skip, and what replaces them
+- Disinfecting wipes need 4 wet minutes, not a quick swipe
+- Skip antibacterial hand soap; plain soap works as well
+enriched: '2026-10-11'
 ---
 
-The cleaning supplies you actually need fit in one caddy: an all-purpose cleaner, dish soap, white vinegar, baking soda, a stack of microfiber cloths, a scrub brush or two, and rubber gloves — plus a decent broom, mop, and vacuum. Most under-sink cabinets are stuffed with products doing the same job twice.
+The cleaning supplies you actually need fit in one caddy: a general cleaner, dish soap, white vinegar, baking soda, microfiber cloths, a brush or two, and gloves. Add one disinfectant for the times germs really matter, and learn its contact time.
 
-Walk into any big-box cleaning aisle and you'll see dozens of bottles promising to solve a problem you didn't know you had — stainless steel-specific spray, "bathroom" cleaner that's chemically identical to "kitchen" cleaner, wipes for things a rag already handles fine. The cleaning supply industry survives on convincing you that every surface needs its own dedicated product. It doesn't.
+The core kit itself is no secret. What most lists leave out is where the line falls between cleaning and disinfecting, and how long a disinfectant has to sit. Some products simply duplicate what you already own, and some do nothing your kit can't. This guide covers all three, then the ten products you can drop.
 
-**The short version: a well-stocked cleaning kit fits in one small caddy, costs less than $50 to build from scratch, and covers nearly all routine cleaning in a typical home.** Everything past that is either a nice-to-have or a waste of cabinet space. This post is the starter kit; if you're wondering whether stone, hardwood, leather, or glass need their own bottles, that's covered surface by surface in [Is It Worth Buying Separate Cleaners for Every Surface?](https://www.hearth-habit.com/2026/09/is-it-worth-buying-separate-cleaners.html)
+## The core kit, and what each piece is for
 
-## The Core Kit: What Earns a Permanent Spot
-
-These are the supplies that show up in almost every cleaning task, regardless of room. If you only buy from this list, you're covered for nearly everything.
-
-**All-purpose cleaner (one bottle, multiple rooms).** A basic all-purpose spray — the kind with a neutral pH, safe on most sealed surfaces — handles counters, appliance exteriors, cabinet fronts, sinks, and most bathroom surfaces except natural stone. You do not need a separate cleaner for the kitchen and one for the bathroom.
-
-**Dish soap.** Beyond dishes, a few drops in warm water makes a solid general degreaser for stovetops, greasy cabinet fronts, and grimy walls. It's also gentle enough for handwashing delicates in a pinch.
-
-**Distilled white vinegar.** Diluted with water (roughly equal parts), it cuts through mineral deposits, hard water spots, and soap scum. It's also the standard descaling solution for coffee makers and kettles. Skip it on natural stone (marble, granite) since the acid can etch the surface — and never use it with bleach (more on that below).
-
-**Baking soda.** A mild abrasive for scrubbing without scratching — sinks, tubs, stovetops, and the inside of the fridge. It also handles odor absorption in a way sprays can't.
-
-**Microfiber cloths (a stack of 8-12).** These are the real workhorses. They pick up dust and grime without chemicals in many cases, don't shred like paper towels, and are reusable for years. Color-code a few (one color for bathrooms, one for kitchen) so you're not using the same cloth on a toilet and a countertop.
-
-**A scrub brush or two.** One stiffer brush for grout and tile, one softer one for dishes or delicate surfaces. Brushes reach into corners a cloth can't.
-
-**Rubber gloves.** Not glamorous, but they protect your skin from prolonged contact with cleaners and let you scrub hotter and harder than bare hands would tolerate.
-
-**A good broom, mop, and vacuum.** These aren't "supplies" in the bottle sense, but they matter more than any spray you'll buy. A cheap vacuum that clogs constantly will do more to derail a cleaning routine than any missing chemical.
-
-That's the whole core list — eight categories, most of which last months per purchase.
-
-## The Judgment Call Zone: Nice, But Not Required
-
-A few products are useful for specific households but aren't universal must-haves. Whether they earn a spot depends on your home.
-
-| Product | Worth it if... | Skip it if... |
+| Item | Main jobs | Keep it away from |
 |---|---|---|
-| Disinfecting wipes or spray | You have kids, pets, or someone in the house is sick often | You're just doing routine tidying — soap and water cleans well, and most everyday surfaces don't need disinfecting |
-| Glass cleaner | You have a lot of mirrors or glass shower doors | You're fine with a vinegar-water mix and a microfiber cloth |
-| Toilet bowl cleaner | You want something specifically formulated for under-rim buildup | You're okay using all-purpose cleaner or a vinegar soak for mild cases |
-| Wood furniture polish | You have real wood furniture you want to condition, not just clean | Your furniture is veneer or laminate (a damp cloth is enough) |
-| Bleach | You need to actually disinfect (illness in the house, stubborn mildew on hard surfaces) | You're using it as a general cleaner — it's overkill, and it can't share a job with the vinegar in your kit |
+| General (all-purpose) cleaner | Counters, appliance fronts, cabinet doors, sinks | Natural stone, unless the label says it's safe |
+| Dish soap | Grease on stovetops, range hoods, cabinet fronts | Nothing routine; rinse it off so it doesn't leave film |
+| White vinegar | Mineral spots, soap scum, kettle scale | Bleach (never together), marble and other natural stone |
+| Baking soda | Mild scrubbing in sinks, tubs, and stovetops; fridge odors | Finishes the maker says not to scrub |
+| Microfiber cloths | Dusting, wiping, glass | — |
+| Brushes (one stiff, one soft) | Grout, corners, drains | Soft finishes with the stiff brush |
+| Rubber gloves | Anything with bleach or long scrubbing | — |
 
-None of these are wrong purchases. They're just optional, and buying all of them "just in case" is how the cabinet clutter starts.
+Color-code your cloths (one color for bathrooms, one for the kitchen) so the toilet cloth never ends up on a counter. If your stone, hardwood, or glass seems to need its own bottle, we sorted that out surface by surface in [whether it's worth buying separate cleaners for every surface](https://www.hearth-habit.com/2026/09/is-it-worth-buying-separate-cleaners.html).
 
-### Cleaning vs. disinfecting, and the one rule you can't skip
+## Clean, sanitize, disinfect: three different claims
 
-Soap and water, all-purpose cleaner, and vinegar *clean*: they lift dirt and germs off a surface so you can wipe them away. They don't *disinfect*. When you have a real reason to kill germs — someone in the house is sick, or raw-meat juice ran across the counter — clean the surface first, then use an EPA-registered disinfectant (look for the EPA registration number on the label) and leave the surface wet for the full contact time the label lists, which ranges from under a minute to 10 minutes depending on the product.
+These words aren't interchangeable on a label. The US Environmental Protection Agency (EPA) defines them this way:
 
-**Never mix bleach with vinegar, ammonia, or other cleaners.** Bleach plus an acid — vinegar, and many toilet-bowl and lime-scale removers — releases chlorine gas; bleach plus ammonia (found in some glass cleaners) releases toxic chloramine vapors. Because vinegar is in the core kit, keep bleach jobs and vinegar jobs separate: use one, rinse the surface well, then use the other.
+- **Cleaning** removes dirt and organic matter with soap or detergent. The EPA doesn't register plain cleaners.
+- **Sanitizing** kills bacteria with chemicals. It isn't meant to kill viruses.
+- **Disinfecting** kills viruses and bacteria.
 
-![Two shelves compared: one crowded with single-purpose cleaning products, the other holding three essentials with room to spare](/images/cleaning-supplies-you-actually-need-inline.svg)
+Only sanitizers and disinfectants are EPA-registered. Everything in the core kit above *cleans*: it lifts dirt and germs so you can wipe them away. For a normal week, that's the job. When someone in the house is sick, clean the surface first, then use an EPA-registered disinfectant, following its label.
 
-## 10 Products You Can Skip Entirely
+## Contact time: why a quick swipe doesn't disinfect
 
-These are the ones that show up in most households but rarely earn their price tag. In most cases, something from the core kit above already does the job as well or better.
+The EPA's instruction is to pay close attention to contact time, meaning how long the surface must stay wet. That one detail separates disinfecting from wiping things down with a disinfectant.
 
-1. **Separate bathroom and kitchen cleaners.** Read the ingredient labels — they're often nearly identical formulas with different scents and marketing. One all-purpose cleaner covers both.
+Clorox Disinfecting Wipes are a typical example. To disinfect, Clorox says to use enough wipes that the surface stays **visibly wet for 4 minutes**. Kept wet for 10 seconds, the same wipe only sanitizes. The disinfecting directions also cover only hard, nonporous, *non-food-contact* surfaces. Clorox tells you to keep the wipes off unsealed wood, untreated stone, mirrors, and the inside of appliances.
 
-2. **Stainless steel-specific spray.** A little dish soap and water, wiped in the direction of the grain, does the job. A few drops of mineral oil on a cloth handles shine if you want it.
+So a canister of wipes isn't an everyday counter cleaner. Used as a quick swipe, it doesn't disinfect. Used as directed, it means a surface left wet for four minutes.
 
-3. **Single-use disinfecting wipe canisters as your everyday cleaner.** They're convenient, but they're expensive per use and generate constant plastic waste — and a wipe only disinfects if the surface stays wet for the label's contact time, which a quick swipe rarely manages. Reserve them for illness season or high-touch spot cleaning, not daily counter wiping.
+![Decision flow: routine dirt gets cleaned with soap or all-purpose cleaner; when someone is sick, clean first, then disinfect and keep the surface wet for the label time](/images/cleaning-supplies-you-actually-need-inline.svg)
 
-4. **Fabric-specific stain removers for every stain type.** Most stains respond to the same basic approach: cold water, a little dish soap or a basic stain stick, and time before the dryer sets it. You don't need a "grass" formula and a separate "grease" formula.
+## One bottle of bleach replaces most disinfecting sprays
 
-5. **Air freshener sprays and plug-ins as a substitute for actual cleaning.** They mask odors instead of removing their source. A window cracked for ten minutes and a clean surface solve the smell better than any spray.
+If you want one disinfectant on the shelf, a disinfecting bleach diluted in water can stand in for most disinfecting sprays. Clorox's dilution chart for its Disinfecting Bleach:
 
-6. **Specialty dusting sprays.** A dry or slightly damp microfiber cloth picks up dust just as well, without the aerosol residue that can build up on electronics and screens over time.
+| Job | Mix | Keep wet for |
+|---|---|---|
+| General disinfecting (about 1,500 ppm) | 1/3 cup bleach per gallon of water | 6 minutes |
+| Mold and mildew | Same 1/3 cup per gallon | Up to 10 minutes |
 
-7. **Toilet bowl "drop-in" tank tablets.** These can degrade the flapper and other rubber parts in the tank over time, contributing to the kind of [running-toilet problems that have their own fix](https://www.hearth-habit.com/2026/07/how-to-fix-running-toilet-in-15-minutes.html). A weekly swish with a toilet brush and bowl cleaner is safer for the fixture.
+Afterward, rinse with clean water and let the surface air-dry. Clorox says to mix the solution fresh each day you use it.
 
-8. **Multiple types of floor cleaner for one floor type.** If you have one flooring material throughout the main living space, you need one cleaner formulated for it, not three competing brands.
+**Scaling it down to a half gallon:**
 
-9. **Scented carpet powders.** Vacuuming regularly does more for carpet freshness than any powder. Baking soda sprinkled and vacuumed up 15 minutes later works just as well for odor, for free.
+- 1 cup = 16 tablespoons, so 1/3 cup = 16 ÷ 3 = about 5⅓ tablespoons per gallon
+- Half a gallon takes half that: 5⅓ ÷ 2 = about 2⅔ tablespoons
+- Check: 1 gallon is 16 cups, and 16 ÷ ⅓ = 48, matching Clorox's ratio of 48 parts water to 1 part bleach
 
-10. **A different scrub sponge for every surface.** Two or three brushes/sponges of varying stiffness cover everything from nonstick pans to grout. You don't need a "shower" sponge, a "dish" sponge, and a "counter" sponge that are all functionally the same texture.
+Use the dilution printed on your own bottle if it differs, since bleach strengths vary by product.
 
-**The pattern across all ten:** they're solving a problem that's already solved, just repackaged with a narrower label and a higher price per ounce.
+**Never mix bleach with vinegar, ammonia, or acidic cleaners.** Poison Control warns that bleach plus an acid releases chlorine gas, and bleach plus ammonia releases chloramine. Vinegar is in the core kit, so treat bleach jobs and vinegar jobs as separate trips: use one, rinse the surface, then use the other. Store them on different shelves so nobody grabs both for one job. If someone breathes in fumes or swallows a cleaner, call Poison Control at 1-800-222-1222.
 
-## Building the Kit Without Overspending
+## If you want a gentler general cleaner
 
-If you're starting from scratch, buy in this order: microfiber cloths and a scrub brush first (they're reusable and immediately useful), then all-purpose cleaner and dish soap, then vinegar and baking soda last since a little goes a long way. A basic version of this whole kit typically runs $30 to $50, and most of it will last two to four months of regular use before you need to restock anything beyond the cleaner itself.
+The EPA's Safer Choice label is a shortcut on the shelf that means something specific. To earn it, the EPA reviews every chemical ingredient in the product, regardless of how small a share it is. The product must also meet pH limits that reduce skin and eye irritation, limit volatile organic compounds (VOCs), and perform comparably to conventional products. The EPA says nearly 2,000 products qualify, and it keeps a searchable list.
 
-Storage matters almost as much as the products. A small caddy with a handle you can carry room to room beats a packed-full under-sink cabinet where half the bottles are things you forgot you own — the same logic behind [keeping a junk drawer edited down](https://www.hearth-habit.com/2026/09/why-do-my-kitchen-drawers-always-end-up.html) to what you'll actually reach for. If bleach lives in the same cabinet as vinegar or toilet-bowl cleaner, store it on a separate shelf so nobody grabs both for the same job.
+## 10 products you can skip
+
+1. **Antibacterial hand soap.** The US Food and Drug Administration (FDA) says there isn't enough evidence that over-the-counter antibacterial soaps prevent illness better than plain soap and water. In 2016 it banned 19 active ingredients, including triclosan, from consumer antiseptic washes, and it warns these soaps can give "a false sense of security."
+2. **Disinfecting wipes as your daily cleaner.** As above, they disinfect only when the surface stays wet for the full label time, and they're not for food-contact surfaces. Save them for sick days and high-touch spots.
+3. **Separate bathroom and kitchen sprays.** Compare the ingredient lists. If they match, one bottle does both rooms.
+4. **Stainless-steel spray.** A few drops of dish soap in water, wiped with the grain and buffed dry with microfiber, handles routine smudges.
+5. **A disinfecting spray *and* a bleach jug *and* wipes.** Pick one disinfectant. Three products that do the same job just triple the label-reading.
+6. **Specialty dusting sprays.** A dry or barely damp microfiber cloth picks up dust.
+7. **Air fresheners as a cleaning step.** They cover odors instead of removing the source. Find the source first. If you can't, our guide to [a fridge smell you can't trace](https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html) is a good model for the search.
+8. **A stain remover for every stain type.** Many fresh stains come out with a little dish soap and water. Keep the item out of the dryer until the stain is gone.
+9. **Several floor cleaners for one floor.** One floor type needs one cleaner made for it.
+10. **A different sponge for every surface.** Two or three textures (soft, medium, stiff) cover everything from nonstick pans to grout.
+
+## Building and storing the kit
+
+Buy the reusable items first, the cloths and brushes. Add the liquids as you run through jobs that need them. A caddy you can carry from room to room beats a packed cabinet where half the bottles are forgotten duplicates. That's the same logic as [keeping a kitchen drawer edited down](https://www.hearth-habit.com/2026/09/why-do-my-kitchen-drawers-always-end-up.html) to what you'll actually reach for.
 
 ## FAQ
 
-### Do I really need different cleaners for granite, wood, and tile?
-Sealed granite and other natural stone are the main exception — avoid vinegar and other acidic cleaners on them, since they can etch the surface over time. A pH-neutral stone cleaner is worth owning if you have stone counters. Wood and tile, on the other hand, generally do fine with all-purpose cleaner or a damp cloth.
+### Is vinegar a disinfectant?
 
-### Is it safe to mix vinegar and dish soap into a homemade all-purpose cleaner?
-Vinegar and dish soap can be combined, but the soap can sometimes react oddly with the acid and turn cloudy or less effective. It's simpler to use them separately for their specific strengths (soap for grease, vinegar for mineral buildup) rather than trying to combine every job into one bottle.
+It's a cleaner, and a good one for mineral deposits and soap scum. By the EPA's definitions, disinfecting takes a registered product used for its full label contact time. When you need to kill germs, reach for the registered disinfectant or the bleach solution, never both together.
 
-### How long do microfiber cloths actually last?
-With regular washing (no fabric softener, since it clogs the fibers), a good microfiber cloth typically holds up for one to two years of regular use before it loses its grip on dust and grime.
+### Do I need disinfectant if I have kids or pets?
 
-### What's the one product worth spending more on?
-The vacuum. A cheap vacuum that loses suction or clogs constantly will undercut every other supply on this list, since a lot of household dust and allergens are dealt with through vacuuming, not spraying.
+Not for routine messes. Soap and water or an all-purpose cleaner removes everyday dirt and germs. Save disinfecting for when someone in the house is sick, and follow the label's contact time when you do.
+
+### Can I use the bleach solution on kitchen counters?
+
+Clorox's directions for its diluted Disinfecting Bleach end with rinsing in clean water and air-drying. Follow that rinse step on any surface food touches. Don't use it on natural stone or anything the counter maker says to avoid.
 
 ## Sources
 
-- [Six Steps for Safe and Effective Disinfectant Use (EPA)](https://www.epa.gov/coronavirus/six-steps-safe-effective-disinfectant-use) — cleaning vs. disinfecting, label contact time
-- [Chlorine Gas (Poison Control)](https://www.poison.org/articles/chlorine-gas) — why bleach never gets mixed with acids or ammonia
+- [What's the difference between products that disinfect, sanitize, and clean surfaces? (EPA)](https://www.epa.gov/coronavirus/whats-difference-between-products-disinfect-sanitize-and-clean-surfaces) — definitions, which products EPA registers, contact time
+- [Six Steps for Safe and Effective Disinfectant Use (EPA)](https://www.epa.gov/coronavirus/six-steps-safe-effective-disinfectant-use) — soap and water cleans but doesn't disinfect; disinfecting takes an EPA-registered product used for its full label contact time
+- [Clorox Disinfecting Cleaning Wipes](https://www.clorox.com/products/clorox-disinfecting-wipes/) and [Bleach Dilution Ratio for Disinfecting](https://www.clorox.com/learn/bleach-dilution-ratio-chart/) (Clorox) — 4-minute wet time, 10-second sanitize, non-food-contact limit, surfaces to avoid; 1/3 cup per gallon, 6 and 10 minutes, rinse, mix fresh daily
+- [Skip the Antibacterial Soap; Use Plain Soap and Water (FDA)](https://www.fda.gov/consumers/consumer-updates/skip-antibacterial-soap-use-plain-soap-and-water) — no evidence of benefit, 19 ingredients banned in 2016
+- [Learn About the Safer Choice Label (EPA)](https://www.epa.gov/saferchoice/learn-about-safer-choice-label) — what the label requires, nearly 2,000 products
+- [Chlorine Gas (Poison Control)](https://www.poison.org/articles/chlorine-gas) and [Poison Control](https://www.poison.org/) — never mix bleach with acids or ammonia; 1-800-222-1222

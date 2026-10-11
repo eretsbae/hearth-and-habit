@@ -1,0 +1,93 @@
+{
+  "reader_situation": "A homeowner is watering regularly, yet one area of the lawn stays brown or keeps spreading, and they can't tell whether it needs more water, less water, an insecticide, a fungicide, or new seed.",
+  "direct_answer": "Usually the water isn't reaching that spot's roots (uneven sprinkler coverage or compacted soil), or something besides drought is killing it: white grubs eating the roots, concentrated dog urine, or the fungal disease brown patch, which frequent evening watering makes worse. A screwdriver probe, a catch-can test, a tug on the turf and a look at the leaf blades separate these in about an hour.",
+  "consensus": [
+    "Check whether sprinklers are covering the area.",
+    "Compacted soil keeps water from soaking in; core aeration helps.",
+    "Grubs eat roots so turf pulls up easily.",
+    "Dog urine burns grass with nitrogen.",
+    "Brown patch is a fungus favored by heat, humidity and night watering."
+  ],
+  "gaps": [
+    "Measure coverage instead of eyeballing it. UNL: set 10–15 flat-bottomed cans 10–15 feet apart in one zone, run at least 15 minutes, average the depths; soil should be moist about six inches deep and lawns need about 1 inch a week, up to 1.5 inches in the hottest weather.",
+    "Brown patch has specific weather triggers: NC State says it can develop when nights are warmer than 60°F, is most severe when lows exceed 70°F and highs exceed 90°F, and needs leaves wet for at least 10 to 12 hours. K-State: nights above 68°F and leaves wet more than 8 consecutive hours.",
+    "Brown patch watering and feeding rules: NC State says don't irrigate daily, water just before sunrise, and keep nitrogen at 0.5 lb N per 1,000 sq ft or less when conditions favor disease; K-State says avoid summer nitrogen on tall fescue and fertilize in fall. Curative fungicides cannot restore dead tissue.",
+    "Grub thresholds depend on species: K-State treats masked chafer grubs at 8–10 per square foot and May/June beetle grubs at 3–5. UGA says six to eight green June beetle grubs per square foot probably need treatment, while chafer populations of 10 or more may not cause significant decline. Soap flushes don't bring grubs up; you have to dig.",
+    "Dog urine damage is nitrogen plus salts, not pH. Colorado State Extension says water is the only thing that neutralizes it; baking soda and gypsum are salts and may make it worse; no supplement is proven. Remove dead sod plus 0.5–1 inch of soil before reseeding, and in a bluegrass lawn patch with perennial ryegrass, not tall fescue.",
+    "Aeration timing and method: Clemson says aerate fescue in fall and warm-season grasses in late spring or early summer, with at least four weeks of good growing weather left, when soil is moist not wet; cores are about 2 to 3 inches deep; spike aerators may cause more compaction later."
+  ],
+  "evidence": [
+    {
+      "claim": "Brown patch weather triggers and symptoms",
+      "detail": "Disease can develop when nights are warmer than 60°F and is most severe when lows exceed 70°F and highs exceed 90°F. Leaves must stay wet at least 10 to 12 hours for infection; shade, poor air movement, dew and late-day watering prolong wetness. At mowing heights above 1 inch, patches range from 6 inches to several feet across with tan, irregular leaf lesions with a dark brown border; gray cottony mycelium may appear when leaves are wet. The smoke ring appears only when leaves are wet or humidity is near 100% (typical of mowing heights of 1 inch or less).",
+      "source_url": "https://www.turffiles.ncsu.edu/diseases-in-turf/brown-patch-in-turf/",
+      "source_title": "Brown Patch in Turf | NC State TurfFiles"
+    },
+    {
+      "claim": "Brown patch cultural controls",
+      "detail": "Don't apply more than 0.5 lb N per 1,000 sq ft when conditions favor disease; cool-season grasses should not receive more than 1 lb N per 1,000 sq ft at one time. Don't irrigate daily; irrigate early in the morning just before sunrise and avoid late afternoon or evening. Curative fungicide applications may be ineffective in hot weather because cool-season grasses grow slowly and can't recover. Preventive applications start when nights consistently exceed 60°F; intervals 14 to 28 days.",
+      "source_url": "https://www.turffiles.ncsu.edu/diseases-in-turf/brown-patch-in-turf/",
+      "source_title": "Brown Patch in Turf | NC State TurfFiles"
+    },
+    {
+      "claim": "K-State brown patch thresholds and irrigation window",
+      "detail": "Brown patch 'thrives on hot summer nights when air temperatures stay above 68°F, and leaves remain wet for more than 8 consecutive hours.' Symptoms: circular or irregular patches of tan, orangish-brown turf; tan lesions with dark brown borders; cobwebby white mycelium on humid mornings. Water only between 5:00 and 10:00 AM. 'Avoid summer nitrogen applications for tall fescue—fertilize in the fall instead.' Curative applications 'cannot restore already dead tissue.'",
+      "source_url": "https://www.k-state.edu/news/turf/articles/2026/07/summer-turf-wars-battling-drought-heat-and-seasonal-pests-part-two-brown-patch-and-insect-pests.html",
+      "source_title": "Summer Turf Wars – Part 2. Brown Patch and Insect Pests | K-State Turf"
+    },
+    {
+      "claim": "K-State grub thresholds and timing",
+      "detail": "Treat May/June beetle grubs when counts exceed 3–5 per square foot and masked chafer grubs at 8–10 per square foot. Young larvae feed July through October; preventive treatment is best June through mid-July; grub insecticides must be watered in. Drought: wilt and thinning turf with roots still intact and low soil moisture.",
+      "source_url": "https://www.k-state.edu/news/turf/articles/2026/07/summer-turf-wars-battling-drought-heat-and-seasonal-pests-part-two-brown-patch-and-insect-pests.html",
+      "source_title": "Summer Turf Wars – Part 2. Brown Patch and Insect Pests | K-State Turf"
+    },
+    {
+      "claim": "Catch-can and screwdriver test",
+      "detail": "Use about 10 to 15 flat-bottomed, straight-sided containers (tuna or cat food cans) placed 10 to 15 feet apart, not over 15 feet, in one zone. Run at least 15 minutes (some systems need 30). Measure each can, add them and divide by the number of cans for the zone's average. Screwdriver: if it goes in easily to where soil is moist, the soil is adequately watered; if hard to push, no soil sticks and soil doesn't feel cool, it needs water. Turf soil should be moist to about six inches; deeper wastes water. Lawns need about one inch of water a week, up to one and a half inches in the hottest part of summer; water deeply but infrequently.",
+      "source_url": "https://water.unl.edu/article/lawns-gardens-landscapes/irrigation-audits-helpful",
+      "source_title": "Irrigation Audits Helpful | UNL Water"
+    },
+    {
+      "claim": "Grub symptoms and sampling",
+      "detail": "Symptoms: yellowing or browning leaves, 'turf that is loose enough to pull easily from the soil,' ground spongy underfoot with heavy infestations; animals root up turf hunting grubs. Soap flushes will not work. Cut three sides of a 1-foot square and roll the sod back like a carpet; if the soil is dry, irrigate thoroughly the day before. Chafer grubs are in the top 2 to 3 inches. Green June beetle: six to eight grubs per square foot average probably needs treatment. Chafers: 10 or more per square foot may not cause significant decline. Apply 1/2 inch of water after treating.",
+      "source_url": "https://fieldreport.caes.uga.edu/publications/C940/white-grub-pests-of-turfgrass/",
+      "source_title": "White Grub Pests of Turfgrass (UGA Extension Circular 940)"
+    },
+    {
+      "claim": "Dog urine damage cause and fixes",
+      "detail": "Damage comes from 'a high concentration of nitrogen-containing compounds and associated salts' deposited in a small area. Dark green spots show especially on lawns not getting adequate nitrogen. Not caused by alkaline urine. No dietary supplements proven. 'The only product that can neutralize the urine's negative effects is water.' Gypsum and baking soda are salts and may compound the problem. Increase irrigation to dilute accumulated salts. Remove dead sod and 0.5–1 inch of soil before repair. In Kentucky bluegrass, spot seed with perennial ryegrass (more effective) and do not use tall fescue or annual ryegrass; zoysia and bermudagrass are patched with sod.",
+      "source_url": "https://extension.colostate.edu/resource/dog-urine-damage-on-lawns-causes-cures-and-prevention",
+      "source_title": "Dog Urine Damage on Lawns: Causes, Cures, and Prevention | CSU Extension"
+    },
+    {
+      "claim": "Aeration timing and method",
+      "detail": "Warm-season grasses (Bermuda, centipede, zoysia, St. Augustine): aerate late spring or early summer; cool-season (fescue): fall. Aerate when there is at least four weeks of good growing weather before cold or hot temperatures. Aerate when soil is moist, not wet. Core holes are about 2 to 3 inches deep; plugs break down naturally. Spike aeration may cause more soil compaction later. Make two passes, the second across the first.",
+      "source_url": "https://news.clemson.edu/healthy-lawns-in-south-carolina-why-aeration-matters/",
+      "source_title": "Healthy lawns in South Carolina: Why aeration matters | Clemson News"
+    }
+  ],
+  "real_questions": [
+    "Why is one spot brown when my sprinklers run every day?",
+    "Should I water more or less if it's brown patch fungus?",
+    "Does baking soda or a supplement fix dog spots?",
+    "How many grubs is too many?",
+    "Will a fungicide bring the brown grass back?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "A symptom-to-test-to-fix table (screwdriver, catch cans, tug test, leaf-blade check, spot shape) with thresholds from UNL, NC State, K-State, UGA and CSU, plus a worked catch-can example with hypothetical readings showing the averaging and how far a low can falls below it."
+  },
+  "cautions": [
+    "Call 811 before digging deeper than a sod sample.",
+    "Don't apply grub insecticide without finding grubs above threshold.",
+    "Avoid nitrogen on tall fescue in summer when brown patch is active."
+  ],
+  "sources": {
+    "https://www.turffiles.ncsu.edu/diseases-in-turf/brown-patch-in-turf/": "Brown Patch in Turf | NC State TurfFiles",
+    "https://www.k-state.edu/news/turf/articles/2026/07/summer-turf-wars-battling-drought-heat-and-seasonal-pests-part-two-brown-patch-and-insect-pests.html": "Summer Turf Wars – Part 2. Brown Patch and Insect Pests | K-State Turf",
+    "https://water.unl.edu/article/lawns-gardens-landscapes/irrigation-audits-helpful": "Irrigation Audits Helpful | UNL Water",
+    "https://fieldreport.caes.uga.edu/publications/C940/white-grub-pests-of-turfgrass/": "White Grub Pests of Turfgrass (UGA Extension Circular 940)",
+    "https://extension.colostate.edu/resource/dog-urine-damage-on-lawns-causes-cures-and-prevention": "Dog Urine Damage on Lawns: Causes, Cures, and Prevention | CSU Extension",
+    "https://news.clemson.edu/healthy-lawns-in-south-carolina-why-aeration-matters/": "Healthy lawns in South Carolina: Why aeration matters | Clemson News"
+  }
+}

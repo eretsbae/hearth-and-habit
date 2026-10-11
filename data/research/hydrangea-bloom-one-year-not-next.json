@@ -1,0 +1,109 @@
+{
+  "reader_situation": "A homeowner whose hydrangea flowered heavily last summer is looking at a green, leafy shrub with few or no flowers this year. They want to know what went wrong and whether to prune, fertilize, or wait.",
+  "direct_answer": "On bigleaf and oakleaf hydrangeas, next year's flower buds form on this year's stems in late summer. Anything that kills or removes those stems between August and the following spring wipes out the flowers while leaving a healthy plant: an early-fall freeze, a hard winter, a frost after early leaf-out, deer, or pruning after August 1. Panicle and smooth hydrangeas bloom on new wood, so a bad year for them points to shade, nitrogen, or heavy summer pruning instead.",
+  "consensus": [
+    "Bigleaf and oakleaf hydrangeas bloom on old wood; panicle and smooth bloom on new wood.",
+    "Pruning at the wrong time and winter cold are the two common causes.",
+    "Too much shade and too much nitrogen reduce flowering.",
+    "Reblooming bigleaf cultivars like Endless Summer can flower on new wood.",
+    "Wrap or mulch for winter protection."
+  ],
+  "gaps": [
+    "The pruning cutoff has a date: UGA Extension, Clemson HGIC, and NC State Extension all say not to prune bigleaf hydrangea after August 1, because buds for next year begin forming in late summer.",
+    "Bud loss has three distinct windows, not just 'winter': WSU lists freezing temperatures in early fall before the plant goes dormant, very cold winter temperatures, and late spring frosts.",
+    "A warm wall can backfire. University of Maryland Extension says planting bigleaf hydrangea next to a stone wall, solid fence, or house wall encourages early leaf-out, which is what exposes it to spring frost.",
+    "Zone matters by species: NC State lists bigleaf at zones 6a to 11b, oakleaf 5a to 9b, panicle 3a to 8b, and smooth 3a to 9b. Bigleaf in zone 5 or colder is outside the listed range.",
+    "Reblooming labels are not a guarantee. UNH Extension says Endless Summer is marketed as hardy to zone 4, yet harsh New Hampshire winters often kill its flower buds, and the original Endless Summer may give only a handful of flowers after a severe winter. UNH names Bloomstruck and Twist-n-Shout as blooming on new wood more readily.",
+    "Judge damage late, not early. UNH says to wait until mid to late spring before assessing winter damage and to remove only dead canes. University of Maryland warns that cutting back bare tips before confirming they are dead is itself a cause of no flowers.",
+    "Frost cover material matters: University of Maryland recommends an old sheet or pillowcase, not plastic.",
+    "Fertilizer has a measured rate. UGA gives 1 pound (2 cups) of 8-8-8 or 10-10-10 per 100 square feet in March, May, and July, and lists excess nitrogen as a cause of failure to flower."
+  ],
+  "evidence": [
+    {
+      "claim": "Bigleaf hydrangea buds form in late summer; no pruning after August 1",
+      "detail": "Prune bigleaf hydrangea when the flowers begin to fade. Flower buds will begin forming in late summer for the following season, so avoid pruning after August 1. Pruning in late summer, fall, or winter removes potential blooms.",
+      "source_url": "https://fieldreport.caes.uga.edu/publications/C973/growing-bigleaf-hydrangea/",
+      "source_title": "Growing Bigleaf Hydrangea (UGA Extension Circular 973)"
+    },
+    {
+      "claim": "Four causes of failure to flower, and fertilizer rate",
+      "detail": "Failure to flower can be caused by winter injury to the flower buds, growing the plant in too much shade, applying excess nitrogen fertilizer, or pruning at the wrong time of year. Apply 8-8-8 or 10-10-10 at 1 pound (2 cups) per 100 square feet in March, May, and July. Removing winter-damaged foliage is recommended even though it encourages vegetative growth at the expense of flowers. Cover plants when temperatures drop below freezing.",
+      "source_url": "https://fieldreport.caes.uga.edu/publications/C973/growing-bigleaf-hydrangea/",
+      "source_title": "Growing Bigleaf Hydrangea (UGA Extension Circular 973)"
+    },
+    {
+      "claim": "Winter injury is the most common cause in South Carolina; August 1 cutoff",
+      "detail": "Winter injury listed as the most common reason for no bloom; other causes: too much shade, poor soil fertility, excess nitrogen. Avoid pruning after August 1. Morning sun with afternoon shade; avoid hot, exposed sites.",
+      "source_url": "https://hgic.clemson.edu/factsheet/hydrangea/",
+      "source_title": "Hydrangea Care in South Carolina | Clemson HGIC"
+    },
+    {
+      "claim": "Three windows for bud loss; improper pruning is the most common reason",
+      "detail": "Improper pruning is the most common reason hydrangeas fail to bloom. Bigleaf hydrangeas can lose flower buds to freezing temperatures in early fall before dormancy, late spring frosts, or very cold winter temperatures. Plants in very shady locations may bloom less. Most prefer morning sun and light shade in the hottest part of the day, away from sites prone to very early or very late frosts.",
+      "source_url": "https://hortsense.cahnrs.wsu.edu/fact-sheet/hydrangea-failure-to-bloom/",
+      "source_title": "Hydrangea: Failure to bloom | WSU Hortsense"
+    },
+    {
+      "claim": "Endless Summer buds often die in harsh winters despite zone 4 marketing",
+      "detail": "Endless Summer series is touted as hardy to Zone 4, but harsh NH winters often kill its flower buds. Extremely low and fluctuating temperatures and late frosts are very damaging. Plants killed to the ground rarely produce flower buds that season. Endless Summer The Original may give only a handful of flowers after a severe winter; Bloomstruck and Twist-n-Shout bloom on new wood more readily. Wrap with burlap or chicken wire and fill with leaves; remove protection only after all danger of frost has passed. Never prune bigleaf in late summer or fall. Wait until mid to late spring to assess damage, then remove only dead canes. If wrapping fails, move to a more sheltered spot or try another cultivar. Wrapping 'can also sometimes be effective', but 'these extra measures aren't always effective.' Heavy snow cover can protect bigleaf buds, but it is hard to predict.",
+      "source_url": "https://extension.unh.edu/blog/2017/12/how-do-i-protect-my-endless-summer-hydrangea-over-winter",
+      "source_title": "How do I protect my ENDLESS SUMMER Hydrangea over the winter? | UNH Extension"
+    },
+    {
+      "claim": "Warm walls encourage early leaf-out and spring frost injury",
+      "detail": "Bigleaf hydrangea leafs out early when spring warms, so it is often caught by frost in years with fluctuating temperatures. Planting near a stone retaining wall, solid fence, or house wall encourages early emergence. Flower buds are vulnerable to frost once dormancy breaks, and that damage is less obvious than leaf damage. Cover with an old sheet or pillowcase on nights forecast near freezing; avoid plastic. No flowers can also result from branches pruned back before checking whether bare tips were dead.",
+      "source_url": "https://marylandgrows.umd.edu/2025/04/24/qa-what-damaged-my-hydrangea/",
+      "source_title": "Q&A: What Damaged My Hydrangea? | University of Maryland Extension"
+    },
+    {
+      "claim": "Bigleaf hydrangea zones, light, deer, August 1",
+      "detail": "USDA zones 6a-11b. Blooms on the previous year's growth (old wood); reblooming cultivars bloom again later on new growth. Do any pruning before August 1. Susceptible to damage by deer. Protect from afternoon sun.",
+      "source_url": "https://plants.ces.ncsu.edu/plants/hydrangea-macrophylla/",
+      "source_title": "Hydrangea macrophylla | NC Extension Gardener Plant Toolbox"
+    },
+    {
+      "claim": "Oakleaf hydrangea zones and pruning",
+      "detail": "USDA zones 5a-9b. Because blooming occurs on old wood, prune if needed immediately after flowering. Needs some sun to bloom. Winter-damaged stems may be pruned in early spring.",
+      "source_url": "https://plants.ces.ncsu.edu/plants/hydrangea-quercifolia/",
+      "source_title": "Hydrangea quercifolia | NC Extension Gardener Plant Toolbox"
+    },
+    {
+      "claim": "Panicle hydrangea zones and new-wood bloom",
+      "detail": "USDA zones 3a-8b; one of winter's hardiest hydrangeas. Blooms on new growth and not on the woody stems formed the previous year; can be severely pruned in late winter or spring.",
+      "source_url": "https://plants.ces.ncsu.edu/plants/hydrangea-paniculata/",
+      "source_title": "Hydrangea paniculata | NC Extension Gardener Plant Toolbox"
+    },
+    {
+      "claim": "Smooth hydrangea zones and new-wood bloom",
+      "detail": "USDA zones 3a-9b. Blooms on new wood and can be pruned back close to the ground in late winter. Tolerates full sun only with consistent moisture.",
+      "source_url": "https://plants.ces.ncsu.edu/plants/hydrangea-arborescens/",
+      "source_title": "Hydrangea arborescens | NC Extension Gardener Plant Toolbox"
+    }
+  ],
+  "real_questions": [
+    "My hydrangea is all leaves this year after blooming great last year. What happened?",
+    "Should I cut off the dead-looking stems in spring?",
+    "Why didn't my Endless Summer bloom if it's supposed to bloom on new wood?",
+    "Will fertilizer make it bloom?",
+    "Does wrapping it for winter actually work?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "A 'what killed the buds' table keyed to when the damage happened (late summer pruning after Aug 1, early-fall freeze, winter cold, spring frost after early leaf-out, deer, shade/nitrogen), with what you see and what to change, plus a bigleaf bud calendar from bloom fade to mid/late-spring assessment. Uses UGA, Clemson, WSU, UNH, UMD, NC State."
+  },
+  "cautions": [
+    "Do not state bud-kill temperatures; no fetched page gives one.",
+    "WSU's pruning line (winter or very early spring) is generic and conflicts with old-wood guidance; do not cite it for bigleaf timing."
+  ],
+  "sources": {
+    "https://fieldreport.caes.uga.edu/publications/C973/growing-bigleaf-hydrangea/": "Growing Bigleaf Hydrangea (UGA Extension Circular 973)",
+    "https://hgic.clemson.edu/factsheet/hydrangea/": "Hydrangea Care in South Carolina | Clemson HGIC",
+    "https://hortsense.cahnrs.wsu.edu/fact-sheet/hydrangea-failure-to-bloom/": "Hydrangea: Failure to bloom | WSU Hortsense",
+    "https://extension.unh.edu/blog/2017/12/how-do-i-protect-my-endless-summer-hydrangea-over-winter": "How do I protect my ENDLESS SUMMER Hydrangea over the winter? | UNH Extension",
+    "https://marylandgrows.umd.edu/2025/04/24/qa-what-damaged-my-hydrangea/": "Q&A: What Damaged My Hydrangea? | University of Maryland Extension",
+    "https://plants.ces.ncsu.edu/plants/hydrangea-macrophylla/": "Hydrangea macrophylla | NC Extension Gardener Plant Toolbox",
+    "https://plants.ces.ncsu.edu/plants/hydrangea-quercifolia/": "Hydrangea quercifolia | NC Extension Gardener Plant Toolbox",
+    "https://plants.ces.ncsu.edu/plants/hydrangea-paniculata/": "Hydrangea paniculata | NC Extension Gardener Plant Toolbox",
+    "https://plants.ces.ncsu.edu/plants/hydrangea-arborescens/": "Hydrangea arborescens | NC Extension Gardener Plant Toolbox"
+  }
+}

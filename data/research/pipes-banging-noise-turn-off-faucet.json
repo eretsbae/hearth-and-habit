@@ -1,0 +1,100 @@
+{
+  "reader_situation": "A homeowner hears a bang or clunk in the walls the moment a faucet, washing machine, dishwasher, or ice maker shuts off, and wants to know whether it is dangerous, what causes it, and whether they can fix it themselves.",
+  "direct_answer": "It's water hammer: moving water stopped abruptly by a quick-closing valve sends a pressure surge back through the pipe. The fix is a code-listed water hammer arrestor (ASSE 1010) near the valve, plus checking that house pressure is 45-60 psi and never above the 80 psi code limit, and that pipes are strapped at code spacing.",
+  "consensus": [
+    "Water hammer is a shockwave from a valve closing quickly.",
+    "Quick-closing appliance valves (washers, dishwashers) are common triggers.",
+    "Drain the plumbing to recharge air chambers.",
+    "Install water hammer arrestors.",
+    "Check water pressure; install a pressure-reducing valve if it's too high.",
+    "Secure loose pipes."
+  ],
+  "gaps": [
+    "Codes require an ASSE 1010 water-hammer arrestor wherever quick-closing valves are used (IRC P2903.5, IPC 604.9), installed per the manufacturer's instructions; the same sections require flow velocity be controlled to reduce water hammer.",
+    "Air chambers made from a capped piece of vertical pipe don't count: the National Plumbing Code of Canada's explanatory note says they do not provide acceptable protection and pre-manufactured arresters are required. A manufactured arrester keeps its air cushion permanently separated from the water by a piston, diaphragm, or bellows.",
+    "For homes, the arrester maker Sioux Chief's guideline is a point-of-use AA-size ASSE 1010 arrester on both hot and cold lines at ice makers, dishwashers, washing machines, and tub/shower valves. Laundry and ice-maker boxes are available with arresters built in.",
+    "The pressure numbers: EPA WaterSense recommends 45-60 psi (the old article said 40-60). IRC P2903.3.2 and IPC 604.8 cap static pressure at 80 psi and require an ASSE 1003 or CSA B356 pressure-reducing valve above it. Supply mains can reach 100 psi or more; PNNL notes some exceed 200 psi.",
+    "Measure it the way EPA describes: a gauge on a hose bibb, the cold washer hookup, or a first-floor cold faucet, turned fully open. Well homes should set the pressure tank at 60 psi.",
+    "A PRV creates a closed system, so thermal expansion needs a pressure-control device where the downstream pressure exceeds the PRV setting (IRC P2903.4.1) or where a check valve or backflow preventer is installed (P2903.4.2).",
+    "Loose pipe rattle has a code fix: IRC Table P2605.1 limits horizontal support spacing to 6 feet for copper tubing 1-1/4 inch and smaller, 32 inches for PEX 1 inch and smaller, 3 feet for CPVC, 4 feet for PVC; vertical 10 feet with a mid-story guide for 2-inch and smaller plastic.",
+    "Uncontrolled water hammer damages more than the pipe: Sioux Chief lists water heaters, T&P relief valves, PRVs, backflow preventers, faucets, solenoid valves, fittings, and hangers. The old article's cost figures ($15-25 arrestors, $75-150 install, $10-15 gauge, PRV 'a few hundred') had no source and are removed."
+  ],
+  "evidence": [
+    {
+      "claim": "IRC water hammer and pressure rules",
+      "detail": "P2903.5: The flow velocity of the water distribution system shall be controlled to reduce the possibility of water hammer. A water-hammer arrestor shall be installed where quick-closing valves are utilized, installed in accordance with the manufacturer's instructions, conforming to ASSE 1010. P2903.3.2: static water pressure shall be not greater than 80 psi; where main pressure exceeds 80 psi an approved pressure-reducing valve conforming to ASSE 1003 or CSA B356 shall be installed. P2903.4.1: for water service up to 2 inches, a device for controlling pressure shall be installed where, because of thermal expansion, the pressure downstream of a PRV exceeds the PRV setting. P2903.4.2: same where a backflow prevention device or check valve is installed with storage water heating.",
+      "source_url": "https://up.codes/viewer/texas/irc-2024/chapter/29/water-supply-and-distribution",
+      "source_title": "IRC 2024 Chapter 29 Water Supply and Distribution | UpCodes"
+    },
+    {
+      "claim": "IPC mirrors the rule",
+      "detail": "IPC 604.9: water-hammer arrestor shall be installed where quick-closing valves are utilized; installed per manufacturer's instructions; conform to ASSE 1010. IPC 604.8: where water pressure within a building exceeds 80 psi static, an approved pressure-reducing valve with strainer shall be installed to reduce pressure to not greater than 80 psi static.",
+      "source_url": "https://up.codes/viewer/texas/ipc-2021/chapter/6/water-supply-and-distribution",
+      "source_title": "IPC 2021 Chapter 6 Water Supply and Distribution | UpCodes"
+    },
+    {
+      "claim": "Pipe support spacing",
+      "detail": "IRC Table P2605.1 maximum horizontal support spacing: copper or copper-alloy tubing 1-1/4 inch and smaller 6 feet (vertical 10 feet); PEX 1 inch and smaller 32 inches (vertical 10 feet); CPVC 1 inch and smaller 3 feet (vertical 10 feet); PVC 4 feet (vertical 10 feet). Footnote b (on the PEX, CPVC and PVC vertical spacing): for sizes 2 inches and smaller, a guide shall be installed midway between required vertical supports.",
+      "source_url": "https://up.codes/viewer/texas/irc-2024/chapter/26/general-plumbing-requirements",
+      "source_title": "IRC 2024 Chapter 26 General Plumbing Requirements | UpCodes"
+    },
+    {
+      "claim": "Recommended pressure, measuring it, PRV setting",
+      "detail": "Water pressure in supply mains can reach 100 psi or more; high pressure can damage piping, fixtures, and appliances and lead to increased water use, premature equipment failure, and leaks. Most U.S. plumbing codes require PRVs where supplied pressure exceeds 80 psi. WaterSense recommends 45 to 60 psi; set the PRV to limit pressure to between 45 and 60 psi. Well-supplied homes should use a pressure tank set at 60 psi. Verify by attaching a pressure gauge to a hose bibb, the cold-water washing machine hookup, or a first-floor cold-water faucet and turning the water fully open. A PRV creates a closed system; consult local code on thermal expansion.",
+      "source_url": "https://www.epa.gov/system/files/documents/2023-08/ws-homes-TRM-12-ServiceWaterPressureTechSheet.pdf",
+      "source_title": "Service Water Pressure technical sheet | EPA WaterSense"
+    },
+    {
+      "claim": "Supply pressure can be very high",
+      "detail": "In some cases, the pressure can exceed 200 psi. Verify static service pressure is a maximum of 60 psi. Use of a PRV creates a closed system and thermal expansion can lead to increased pressure; local plumbing codes should provide guidance.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/service-water-pressure",
+      "source_title": "Service Water Pressure | Building America Solution Center (PNNL)"
+    },
+    {
+      "claim": "Why air chambers aren't enough and what arrestors protect",
+      "detail": "National Plumbing Code of Canada A-2.6.1.9.(1), quoted by Sioux Chief: the longer the pipe and the greater the water velocity, the greater the pressure, which can be many times the normal static pressure; since air chambers made from a piece of vertical pipe do not provide acceptable protection, pre-manufactured water hammer arresters are required. Engineered arresters use a measured air or gas cushion permanently separated from the water (piston, diaphragm, or bellows). Uncontrolled water hammer causes premature failure of water heaters, T&P valves, PRVs, backflow preventers, faucets, solenoid valves, fittings, and tube hangers. UPC, IPC, IRC and NPC require ASSE 1010 arresters on quick-closing valves.",
+      "source_url": "https://cdn.siouxchief.com/prodscmwebsite/WhitePapers/WATER%20HAMMER%20CONTROL%20-%20WHITE%20PAPER.PDF",
+      "source_title": "Water Hammer Control white paper | Sioux Chief"
+    },
+    {
+      "claim": "Residential sizing and placement",
+      "detail": "Residential (single-fixture) guideline: point-of-use AA size arrester on both hot and cold lines; place on ice makers, dishwashers, washing machines and tub/shower valves. ASSE certified AA arresters are also available built into supply valves in laundry and ice maker access boxes.",
+      "source_url": "https://cdn.siouxchief.com/prodscmwebsite/WhitePapers/WATER%20HAMMER%20CONTROL%20-%20WHITE%20PAPER.PDF",
+      "source_title": "Water Hammer Control white paper | Sioux Chief"
+    },
+    {
+      "claim": "Residential arrester product listing",
+      "detail": "MiniRester residential arrester: AA size per the ASSE 1010 standard; for any residential single-fixture application; available in many connection types including hose thread, MIP, PEX and sweat; straight and tee styles.",
+      "source_url": "https://www.siouxchief.com/Products/Details/19/343/8312",
+      "source_title": "660-G2 MiniRester Residential Water Hammer Arrester | Sioux Chief"
+    }
+  ],
+  "real_questions": [
+    "Is water hammer dangerous or just noisy?",
+    "Why did it start suddenly when the house never banged before?",
+    "Will draining the pipes fix it for good?",
+    "Where exactly does the arrestor go, and do I need one on hot and cold?",
+    "What should my water pressure be, and how do I test it?",
+    "Why does my water heater relief valve drip after a PRV was installed?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "Symptom table: bang at the instant a valve closes (water hammer: arrestor at that fixture, check pressure), bang at many fixtures (pressure over 60/80 psi or failing PRV), rattle while water runs or dull knock (loose pipe: compare strap spacing with IRC Table P2605.1: copper 6 ft, PEX 32 in, CPVC 3 ft, PVC 4 ft), bang returns weeks after draining (old air chamber; replace with ASSE 1010 AA arrestor), relief valve drips after PRV (thermal expansion control). Plus a pressure-reading table: 45-60 psi recommended (EPA); above 60 set PRV down; above 80 code requires PRV."
+  },
+  "cautions": [
+    "Shut off the main and relieve pressure before opening any line.",
+    "If installing a PRV, address thermal expansion (expansion tank or other device) per IRC P2903.4 and local code; a dripping T&P valve is a warning sign, never cap or plug it.",
+    "Arrestors must be ASSE 1010 and installed per the manufacturer's instructions.",
+    "Draining the system is a temporary measure for old air chambers; codes don't accept air chambers as arrestors in Canada's NPC note.",
+    "No sourced cost figures; describe DIY vs plumber without prices."
+  ],
+  "sources": {
+    "https://up.codes/viewer/texas/irc-2024/chapter/29/water-supply-and-distribution": "IRC 2024 Chapter 29 Water Supply and Distribution | UpCodes",
+    "https://up.codes/viewer/texas/ipc-2021/chapter/6/water-supply-and-distribution": "IPC 2021 Chapter 6 Water Supply and Distribution | UpCodes",
+    "https://up.codes/viewer/texas/irc-2024/chapter/26/general-plumbing-requirements": "IRC 2024 Chapter 26 General Plumbing Requirements | UpCodes",
+    "https://www.epa.gov/system/files/documents/2023-08/ws-homes-TRM-12-ServiceWaterPressureTechSheet.pdf": "Service Water Pressure technical sheet | EPA WaterSense",
+    "https://basc.pnnl.gov/resource-guides/service-water-pressure": "Service Water Pressure | Building America Solution Center (PNNL)",
+    "https://cdn.siouxchief.com/prodscmwebsite/WhitePapers/WATER%20HAMMER%20CONTROL%20-%20WHITE%20PAPER.PDF": "Water Hammer Control white paper | Sioux Chief",
+    "https://www.siouxchief.com/Products/Details/19/343/8312": "660-G2 MiniRester Residential Water Hammer Arrester | Sioux Chief"
+  }
+}

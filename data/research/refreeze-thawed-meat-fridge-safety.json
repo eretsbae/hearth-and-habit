@@ -1,0 +1,52 @@
+{
+  "reader_situation": "Someone moved meat from the freezer to the fridge, plans changed, and they want to know whether they can put it back in the freezer raw, how long they have, and what changes the answer (a warm fridge, a cold-water thaw, a power outage, meat that's still icy).",
+  "direct_answer": "Yes, if it thawed in a refrigerator at 40 F or below and you refreeze it within the fridge window that starts when it finishes thawing: 1-2 days for ground meat, stew meat, poultry, and seafood, 3-5 days for red meat cuts. Expect some quality loss. Meat thawed in cold water or the microwave must be cooked first; meat left out over 2 hours is discarded.",
+  "consensus": [
+    "Meat thawed in the fridge can be refrozen without cooking",
+    "Meat thawed in cold water or the microwave must be cooked before refreezing",
+    "Never refreeze meat thawed on the counter",
+    "Refreezing costs some texture and moisture",
+    "Freezing doesn't kill bacteria"
+  ],
+  "gaps": [
+    "The fridge-thaw exception depends on the fridge actually being at 40 F or below: Ohio State's food safety program reports 43% of observed homes had a refrigerator that was too warm (over 41 F), and only 4-9% of home refrigerators had a thermometer.",
+    "The 1-2 day / 3-5 day window starts after thawing: Montana State Extension says thawed ground meat, stew meat, poultry, and seafood stay safe in the fridge 1-2 days before cooking, red meat cuts 3-5 days; fridge thawing is the only method that allows refreezing without cooking.",
+    "Thaw time decides when the clock starts: Montana State Extension plans at least one day (24 hours) of fridge thawing for every 5 pounds.",
+    "Cold-water thawing details: leak-proof packaging, change water every 30 minutes, 1 pound in 1 hour or less, 3-4 pounds in 2-3 hours, cook immediately once thawed. Microwave-thawed food must be cooked immediately because parts can reach the 40-140 F danger zone.",
+    "Partly thawed meat: FDA says frozen food that still has ice crystals or is at 40 F or below can be safely refrozen or cooked; this is also the power-outage test.",
+    "Power outage: FDA says a full freezer holds temperature about 48 hours, a half-full one about 24 hours, and an unopened refrigerator keeps food cold about 4 hours.",
+    "FDA: food stays safe indefinitely at 0 F, but quality declines over time; freezer burn is a quality issue, not a safety issue, caused by packaging that isn't airtight.",
+    "Alternative to the thaw-refreeze cycle: Montana State Extension says food can be cooked without thawing, with cooking time about 50% longer."
+  ],
+  "evidence": [
+    {"claim": "Fridge thawing allows refreezing without cooking; fridge windows after thawing", "detail": "Foods thawed in the refrigerator may be refrozen without cooking; this is the only method that allows for safe refreezing without cooking. After thawing, ground meat, stew meat, poultry, and seafood stay safe in the refrigerator 1-2 days before cooking; red meat cuts 3-5 days.", "source_url": "https://www.montana.edu/extension/buyeatlivebetter/other_nep_resources/fact_sheets/safethawingpractices/", "source_title": "Safe Thawing Practices | Montana State University Extension"},
+    {"claim": "Fridge thawing time", "detail": "Frozen foods require at least one day (24 hours) to thaw for every 5 pounds of weight.", "source_url": "https://www.montana.edu/extension/buyeatlivebetter/other_nep_resources/fact_sheets/safethawingpractices/", "source_title": "Safe Thawing Practices | Montana State University Extension"},
+    {"claim": "Cold water and microwave thawing", "detail": "Leak-proof packaging; change cold water every 30 minutes; 1 pound: 1 hour or less; 3-4 pounds: 2-3 hours; if thawed completely, cook immediately. Microwave: parts may enter the danger zone (40-140 F) due to uneven heating; cook immediately after thawing.", "source_url": "https://www.montana.edu/extension/buyeatlivebetter/other_nep_resources/fact_sheets/safethawingpractices/", "source_title": "Safe Thawing Practices | Montana State University Extension"},
+    {"claim": "Cooking from frozen", "detail": "Food can be cooked without thawing; cooking time will be about 50% longer than for fully thawed or fresh foods.", "source_url": "https://www.montana.edu/extension/buyeatlivebetter/other_nep_resources/fact_sheets/safethawingpractices/", "source_title": "Safe Thawing Practices | Montana State University Extension"},
+    {"claim": "Many home fridges run too warm", "detail": "Almost half (43%) of observed homes had a refrigerator that was too warm (>41 F); just 4-9% of domestic refrigerators had a thermometer; keeping all home refrigerators at 40 F or below would reduce predicted listeriosis cases by more than 70%.", "source_url": "https://foodsafety.osu.edu/news/nobody-likes-cold-including-bacteria", "source_title": "Nobody likes the cold, including bacteria | Ohio State University Food Safety"},
+    {"claim": "Fridge and freezer temperatures; refreezing partly frozen food; thawing methods", "detail": "Keep the refrigerator at 40 F or below and the freezer at 0 F. Foods stay safe indefinitely in the freezer, but quality may be affected. Frozen food that still has ice crystals or is at 40 F or below can be safely refrozen or cooked. Never thaw food at room temperature; thaw in the refrigerator, in cold water, or in the microwave; change cold water every half hour.", "source_url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety", "source_title": "Refrigerator Thermometers: Cold Facts about Food Safety | FDA"},
+    {"claim": "Power outage hold times and refreeze test", "detail": "A full freezer keeps temperature approximately 48 hours, half-full about 24 hours, door closed. An unopened refrigerator keeps food cold about 4 hours. If the freezer thermometer reads 40 F or below, food is safe and may be refrozen; if food still contains ice crystals or is 40 F or below, it is safe to refreeze or cook.", "source_url": "https://www.fda.gov/food/buy-store-serve-safe-food/food-and-water-safety-during-power-outages-and-floods", "source_title": "Food and Water Safety During Power Outages and Floods | FDA"},
+    {"claim": "Freezer quality and freezer burn", "detail": "Food handled properly and stored at 0 F (-18 C) remains safe; quality (tenderness, flavor, aroma, juiciness, color) declines the longer it is frozen. Freezer burn is a food-quality issue, not a safety issue; it occurs when food is not securely wrapped in air-tight packaging and appears as grayish-brown leathery spots.", "source_url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely", "source_title": "Are You Storing Food Safely? | FDA Consumer Update"}
+  ],
+  "real_questions": [
+    "How long after it thaws in the fridge can I still refreeze it?",
+    "It's still a little icy in the middle; can it go back in the freezer?",
+    "I thawed it in cold water but didn't cook it; can it go in the fridge or freezer?",
+    "The power went out and my freezer meat partly thawed; is it safe?",
+    "Does refreezing make meat unsafe or just worse?"
+  ],
+  "original_asset": {"type": "decision_table", "spec": "Rows: how it thawed (fridge at 40 F or below, fridge of unknown temperature, cold water, microwave, counter, power outage with ice crystals or at 40 F or below). Columns: refreeze raw? / cook first? / deadline. Plus a worked timeline: a 1-lb pack of ground beef and a 2-lb pack of steaks moved to the fridge Saturday morning, thawed by Sunday morning (24 hours per 5 lb), deadlines Monday-Tuesday morning for ground beef (1-2 days) and Wednesday-Friday morning for steaks (3-5 days)."},
+  "cautions": [
+    "Time and temperature decide safety; never judge by smell (registry).",
+    "Two-hour rule (1 hour above 90 F): discard, don't cook or refreeze (registry).",
+    "Registry raw meat windows: ground meat and poultry 1-2 days; steaks, chops, roasts 3-5 days. Do not contradict.",
+    "Cooked leftovers: 3-4 days in the fridge, 3-4 months frozen for best quality; reheat to 165 F (registry)."
+  ],
+  "sources": {
+    "https://www.montana.edu/extension/buyeatlivebetter/other_nep_resources/fact_sheets/safethawingpractices/": "Safe Thawing Practices | Montana State University Extension",
+    "https://foodsafety.osu.edu/news/nobody-likes-cold-including-bacteria": "Nobody likes the cold, including bacteria | Ohio State University Food Safety",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety": "Refrigerator Thermometers: Cold Facts about Food Safety | FDA",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/food-and-water-safety-during-power-outages-and-floods": "Food and Water Safety During Power Outages and Floods | FDA",
+    "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely": "Are You Storing Food Safely? | FDA Consumer Update"
+  }
+}

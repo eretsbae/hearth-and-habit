@@ -2,9 +2,8 @@
 title: Dishes Still Dirty After the Dishwasher? The Loading Mistakes to Fix First
 slug: dishwasher-loading-mistakes-troubleshooting
 date: '2026-07-22'
-updated: '2026-09-29'
-description: 'Dishes still gritty or wet after a cycle? It''s usually loading: crowding,
-  bad angles, or a blocked spray arm. Here''s each fix, plus what cloudy glasses mean.'
+updated: '2026-10-11'
+description: 'Dirty dishes after a cycle? Spin the spray arm, clean the filter, run the tap hot. A symptom table, the vinegar test for cloudy glass, and water hardness math.'
 tags:
 - dishwasher
 - kitchen tips
@@ -15,92 +14,131 @@ hero_image: /images/dishwasher-loading-mistakes-troubleshooting-hero.svg
 hero_alt: Top-down view of a dishwasher rack with plates, glasses, bowls, and a utensil
   basket spaced so the spray arm can reach them
 pin_hooks:
-- Cloudy glasses? A 15-minute vinegar soak tells you why
-- Leave a finger's width between plates, dirty side to center
+- Spin the spray arm by hand before you press start
+- Cloudy glasses? A vinegar rub tells film from etching
+enriched: '2026-10-11'
 ---
 
-When dishes come out of the dishwasher still dirty, the cause is usually how they were loaded — crowded or nested items, plates facing away from the spray, or a big pan blocking the spray arm — not the machine or the detergent.
+Dishes come out dirty most often because something blocked the water: an item stopping the spray arm, dishes overlapping, or a clogged filter. Spin the arm, clean the filter, and run the tap hot before you start.
 
-Most people load a dishwasher the way they were taught as kids: rinse, stack, close the door, done. But a dishwasher only cleans what water can actually reach. Every symptom below points to a specific habit, and once you know which one you've got, the fix takes about ten extra seconds per load.
+That fixes many loads. The rest of this guide is for when it doesn't: dirt in only one part of the machine, glasses that stay cloudy, or a load that looks right and still fails. Each symptom points to a different check.
 
-## Your glasses come out cloudy or filmy
+## Start with the one-second test
 
-Cloudiness comes in two kinds, and a quick test tells them apart: soak a cloudy glass in white vinegar for about 15 minutes. If it comes out clear, the haze was mineral film. If it's still cloudy, the glass is etched.
+Whirlpool's troubleshooting advice for food left on dishes starts before the cycle does. After loading, turn the middle spray arm by hand. If it bumps a pan handle, a tall utensil, or a plate edge, rearrange until it spins freely.
 
-**Mineral film (the vinegar clears it)** comes from hard water, which is common across much of North America, especially on well water. It's removable, and it usually means the detergent and rinse aid aren't keeping up with your water's minerals. Keep the rinse-aid dispenser filled, use a full dose of detergent, and run an occasional vinegar or citric-acid cleaning cycle to clear buildup inside the machine.
+A spray arm that can't turn can't reach the whole load. Bosch flags large items, such as serving platters and cutting boards, as blockers that can obstruct the spray arms and the water flow. It says to put them at the side of the rack.
 
-**Etching (the haze stays)** is permanent surface damage. It's most common with soft or softened water combined with too much detergent and very hot washing or drying — with few minerals in the water, the detergent works on the glass itself. Cut back the detergent, skip high-temp and sanitize options for glassware, and hand-wash delicate or heirloom glasses. Etching can't be reversed, but you can stop it from getting worse.
+## Match the symptom to the check
 
-The sanitize or high-temp setting still has its place: baby bottles and dishwasher-safe plastic cutting boards. Never wooden boards, though — they shouldn't go in the dishwasher at all, and [soaking is exactly what makes them warp](https://www.hearth-habit.com/2026/09/why-does-my-cutting-board-warp-after.html).
+| What you see | Check first | Then |
+|---|---|---|
+| Food left on dishes all over the machine | Filter (clean it) | Spray-arm spin test, then hot water at the tap |
+| Dirty patch in one area | Spray arm blocked by a tall or wide item | Move platters and boards to the side |
+| Bottom rack dirty, top rack clean | Was "Top Rack Only" selected? | Spray-arm spin test on the lower arm |
+| Grit on glasses or upper dishes | Filter | Spray-arm nozzles for mineral buildup |
+| Cloudy glasses | Vinegar rub test (below) | Water hardness and detergent amount |
+| Weak results across the board | Supply valve fully open; other water use running | Run the kitchen tap hot before starting |
 
-## Plates come out with gritty bits or food residue
+The "Top Rack Only" line catches people out. Whirlpool says that cycle doesn't run the lower spray arms at all, so anything on the bottom rack comes out as dirty as it went in.
 
-This is the classic sign of overcrowding or the wrong angle. Water and detergent spray upward from the bottom and sideways from a rack-level arm (if your machine has one) — plates need open sightlines to that spray, not just open space around them.
+![Flow for dirty dishwasher loads: spin the spray arm, clean the filter, run the tap hot, then rub cloudy glass with vinegar to tell film from etching](/images/dishwasher-loading-mistakes-troubleshooting-inline.svg)
 
-- Face all plates the same direction, with the soiled side toward the center of the machine, not toward the door or the outer wall.
-- Leave a finger's width of gap between plates. If they're touching, water can't get between them.
-- Don't pre-rinse dishes spotless before loading — scrape off solids, but leave some residue. Most modern dishwashers use sensors that read how dirty the water is to decide cycle length and intensity; a completely clean load can trick the machine into running a shorter, weaker cycle.
+## The filter: how often, and how to tell
 
-**Key takeaway:** if you can't easily draw a straight line from the spray source to the center of a plate, that plate isn't getting clean.
+Whirlpool's guidance is to clean the filter about once a month. If you run the dishwasher daily or have a large family, do it about every two weeks.
 
-## Bowls and cups still have water pooled in them at the end
+The filter tells you when it's overdue. Gritty dishes, an unpleasant smell, food left on dishes, and visible soil on the screen all point to it. Remove the filter as your manual shows, rinse it under running water, and use a soft brush for stuck soil.
 
-This is almost always an angle problem, not a drying problem. Bowls, cups, and anything with a concave bottom need to tilt downward so water runs off instead of collecting.
+Two cautions from Whirlpool:
 
-Load bowls at a slight angle, nested in the rack tines rather than sitting flat. Cups and mugs go upside down, angled slightly rather than pointing straight down — dead straight-down often creates a pocket that traps water at the base. If your rack has adjustable tines or a fold-down section, use it here; it's specifically designed for oddly shaped items that pool water.
+- Don't use a wire brush or scouring pad, because they can damage the filter.
+- Never run the machine without the filter seated. If the upper assembly still spins freely after you reinstall it, it isn't locked.
 
-## The bottom rack "shadow zone" never gets clean
+If a smell outlasts a clean filter, the cause goes beyond the load. See [why a dishwasher smells even after you run it empty](https://www.hearth-habit.com/2026/08/why-does-my-dishwasher-smell-even-after.html).
 
-Every dishwasher has at least one spot — often dead center on the bottom rack, or directly above the spray arm's pivot point — where water coverage is weakest. Large items placed there, like a big serving platter or a mixing bowl, can also block the spray arm from reaching everything behind them.
+## Hot water at the start, and enough of it
 
-If you've noticed the same 2-3 spots in your rack consistently underperform, that's not bad luck — it's a blind spot in your specific machine's spray pattern. Once you identify it (run a load with just a few items and check them afterward), reserve that spot for the least-soiled items, like clean-ish serving spoons, rather than the roasting pan.
+Frigidaire recommends setting your water heater to at least 120°F. Before starting, let the kitchen tap run until the water is hot. A dishwasher uses only about 3–4 gallons a cycle, Frigidaire notes, so if the first fill is pipe-cooled water, there isn't much volume left for the temperature to recover.
 
-## Utensils come out dirty, or nest together in the basket
+Water pressure matters too. Frigidaire says low pressure can hurt results and suggests waiting until a shower or laundry load is done. Whirlpool lists 20 to 120 psi as the working range and adds one easy check: make sure the supply valve under the sink is fully open.
 
-Silverware that nests — spoons inside spoons, forks tangled together — blocks water from reaching the surfaces touching each other. This is one of the most common loading mistakes and one of the easiest to fix.
+## Loading: what the manufacturers actually specify
 
-- Alternate handles up and down within the same utensil type so heads don't stack against each other.
-- Knives should go handle-up for safety, but almost everything else does better handle-down so the soiled end faces the water spray.
-- If your machine has a utensil tray on the top rack instead of a basket, spread items flat and don't let two of the same utensil touch.
+These are the points the manufacturer and extension pages state:
 
-## Plastic containers melt, warp, or stay wet
+- **Angle soiled surfaces down and inward**, toward the spray arms (Whirlpool). Plates face the center; bowls tilt down.
+- **Leave space between items.** Whirlpool says overloading limits water flow and leaves dishes dirty. Virginia Cooperative Extension's version: run full loads, but never so full that anything interferes with the spray arms or water jets.
+- **Put large items at the sides** so they don't block the spray (Bosch).
+- **Mix forks and spoons** in the basket so they don't nest together (Bosch).
+- **Put dishwasher-safe plastics on the top rack** (Bosch).
 
-Plastic should always go on the top rack, away from the heating element — usually an exposed coil at the bottom of the tub, or hidden under the tub floor on many newer models. Even "dishwasher safe" plastic can warp over years of bottom-rack exposure to heat.
+Knives aren't covered on the pages checked here, so follow your manual. Whatever it says, the goal is the same: no blade pointing up where your hand goes when you unload.
 
-Plastic also holds water differently than ceramic or glass — it doesn't retain heat, so it air-dries slower. If plastic containers are always the last damp holdouts when you unload, that's normal, not a machine malfunction. Cracking the door open for 10-15 minutes after the cycle ends helps, and it's cheaper than running heated dry just for a few containers — here's [what heated dry actually costs per load](https://www.hearth-habit.com/2026/09/air-dry-or-heated-dry-which-one.html).
+## Skip the pre-rinse, and here's the math
 
-![Two top racks compared, with nested bowls and crowded cups on one side and spaced, angled dishes on the other](/images/dishwasher-loading-mistakes-troubleshooting-inline.svg)
+Virginia Cooperative Extension says pre-rinsing dishes before loading can use up to 20 gallons of water, and that ENERGY STAR dishwashers and detergents are designed to clean without it. The same fact sheet puts an ENERGY STAR model at about 4 gallons a cycle.
 
-## Everything smells musty even right after a clean cycle
+- 20 gallons ÷ 4 gallons = 5
 
-That points to the machine, not the load. Food particles, grease, and standing water collect in the filter (usually a removable cylindrical or disc-shaped piece at the bottom of the tub) and in the door gasket over time.
+So a hand rinse can use up to five times the water the dishwasher does. Scrape plates with a rubber spatula instead. Bosch adds a practical reason to scrape: large chunks clog the filter.
 
-Pull the filter and rinse it under hot water roughly once a week if you run the dishwasher daily (manufacturer guidance ranges from weekly to monthly) — it typically twists out by hand, no tools needed. Wipe the rubber door seal with a damp cloth monthly. If the smell survives both, work through the full checklist in [why a dishwasher smells even after you run it empty](https://www.hearth-habit.com/2026/08/why-does-my-dishwasher-smell-even-after.html).
+There is one exception. The extension sheet says soaking or pre-washing is usually recommended only for burned-on or dried-on food, and that the dishwasher's own rinse feature uses a fraction of the water.
 
-## You're loading it full but running it half-empty on capacity
+Because a cycle uses the same water whether the racks are full or half empty, running it only when full saves water too. If drying is your other cost question, we worked out [whether heated dry is worth it](https://www.hearth-habit.com/2026/09/air-dry-or-heated-dry-which-one.html).
 
-If you're consistently running the dishwasher before it's truly full because you're "out of room," the load is probably inefficiently packed, not actually full. Common space-wasters:
+## Cloudy glasses: film or etching?
 
-- Large platters and cutting boards loaded upright in the front, blocking half the rack behind them
-- Bowls loaded flat instead of angled, taking up double the vertical space they need
-- Tall glasses in the center of the top rack instead of pushed to the sides, where most racks have adjustable height clearance
+Whirlpool's test is to rub the cloudy spot with a little vinegar.
 
-Getting the load truly full — without crowding — is the difference between running the dishwasher once a day versus one and a half times a day. Over a year, that adds up in both water and electricity, similar in principle to the small daily habits covered in [how to cut your electric bill without buying anything](https://www.hearth-habit.com/2026/07/how-to-cut-your-electric-bill-without.html).
+- **It wipes off:** that's film, which is removable.
+- **It stays:** it may be etching (permanent damage to the glass surface) or a silica film.
+
+The two have overlapping causes, which is why the test matters before you change anything:
+
+| | Film | Etching |
+|---|---|---|
+| Water | Hard | Too soft |
+| Detergent | Too much | Too much |
+| Other causes | Poor loading | Long hot cycles, poor glazing on dishware |
+| Whirlpool's fix | Test hardness, use rinse aid, avoid overloading and load at an angle | Test hardness, lower the rinse-aid setting, use quick low-temperature cycles |
+
+Too much detergent shows up on both sides. With liquid or powder, Whirlpool suggests filling the dispenser only halfway or using less. Etching can't be reversed; these changes target its causes.
+
+Glassware isn't the only thing a dishwasher can ruin. Wooden boards are best kept out of it, and [soaking is exactly what makes them warp](https://www.hearth-habit.com/2026/09/why-does-my-cutting-board-warp-after.html).
+
+## Is your water hard enough to matter?
+
+Whirlpool strongly recommends a water softener when hardness reaches 15 grains per gallon or more. Your utility's water quality report may list hardness in mg/L instead. The Acton Water District says about 17 mg/L equals one grain per gallon, so:
+
+- 15 grains × 17 = about 255 mg/L
+
+The US Geological Survey (USGS) classes water above 180 mg/L as "very hard," 121–180 as "hard," 61–120 as "moderately hard," and 0–60 as "soft." Whirlpool's softener threshold sits well inside the very-hard range. Working the other way:
+
+- 180 mg/L ÷ 17 = about 10.6 grains
+
+Even water at the top of the "hard" class is under Whirlpool's 15-grain line. At the soft end (60 mg/L or less, about 3.5 grains), etching is the bigger risk, so use less detergent.
 
 ## FAQ
 
-### Should I rinse dishes before loading them?
+### Should I run a dishwasher cleaner every month?
 
-Scrape off solid food, but don't rinse them clean under the tap first. A little residue helps the machine's soil sensor run an appropriately strong cycle, and pre-rinsing wastes water for no real benefit with modern detergents.
+Whirlpool recommends a dishwasher cleaner once a month to help maintain the machine, because mineral residue builds up on the spray arms, the interior, and your dishes. Treat it as maintenance alongside the filter cleaning, not instead of it.
 
-### Why do my dishes come out wet even with the heated dry setting on?
+### My dishes are clean but the plastic is always wet. Is something broken?
 
-Overcrowding is the most common cause — air can't circulate around packed dishes. Plastic items and anything loaded flat (bowls, cups facing the wrong way) will also stay damp longer regardless of the drying setting, since they don't hold heat well or trap water pockets.
+Not necessarily. If plastics are the only damp items, crack the door open after the cycle before assuming a fault.
 
-### Is it bad to run the dishwasher only half full?
+### Can I clear clogged spray-arm holes myself?
 
-It's not damaging to the machine, but it's inefficient with water and electricity every time you do it. If you're regularly running half loads, it usually means the load is packed poorly rather than the household not generating enough dishes — try reorganizing before assuming you need to run it anyway.
+Bosch's steps are to remove the arms, clear the small nozzle holes with a cocktail stick, rinse them, and click them back in. Check your manual first, since removal differs by model.
 
-### How often should I clean the dishwasher itself?
+## Sources
 
-Rinse the filter weekly with regular use, wipe the door gasket monthly, and run an empty cycle with a vinegar rinse or a dishwasher-specific cleaner (whichever your manual recommends) about once a month. Skipping this is the most common reason machines start smelling musty or leaving film on dishes even when loaded correctly.
+- [Food Residue Remains on Dishes](https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Wash_Performance/Other_Cookware_and_Dishes/Food_Residue_Remains_on_Dishes) and [Spray Arm Not Working](https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Operation/Spray_Arms_Not_Working/Spray_Arm_Not_Working_-_Dishwasher) (Whirlpool) — spin test, loading angle, 20–120 psi, supply valve, Top Rack Only cycle, monthly cleaner, 15-grain softener threshold
+- [How to Clean the Dishwasher Filters (Whirlpool)](https://producthelp.whirlpool.com/Dishwashers/Product_Info/Dishwasher_Cleaning_and_Care/How_to_Clean_the_Dishwasher_Filters) — monthly or two-week schedule, warning signs, soft brush, never run without the filter
+- [Etching or Cloudy Glassware (Whirlpool)](https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Wash_Performance/Glassware/Etching_or_Cloudy_Glassware) — vinegar rub test, film vs etching causes and fixes, detergent amount, monthly cleaner
+- [Dishwashers - How can I ensure the best cleaning results? (Frigidaire)](https://owner.frigidaire.com/support-articles/article/1847432-dishwashers-how-can-i-ensure-the-best-cleaning-results-) — 120°F water heater, run the tap hot, 3–4 gallons per cycle, low pressure
+- [How to properly load a dishwasher](https://www.bosch-home.co.uk/customer-service/get-support/dishwashers/loading-tips) and [Dishwasher not cleaning properly](https://www.bosch-home.com/ae/en/customer-service/get-support/dishwasher-not-cleaning) (Bosch) — large items at the side, plastics up top, mixed cutlery, scraping, clearing spray-arm nozzles
+- [ENERGY SERIES: What about Dishwashers? (Virginia Cooperative Extension)](https://accomack.ext.vt.edu/content/dam/pubs_ext_vt_edu/2908/2908-9018/BSE-305.pdf) — pre-rinsing up to 20 gallons, about 4 gallons per ENERGY STAR cycle, scraping, full loads without overloading
+- [Hardness of Water (USGS)](https://www.usgs.gov/special-topics/water-science-school/science/hardness-water) and [Hardness (Acton Water District)](https://www.actonwater.com/water-quality/hardness) — hardness classes in mg/L and the 17 mg/L per grain conversion

@@ -2,8 +2,9 @@
 title: 10 Home Maintenance Tasks Most People Forget (Seasonal Checklist)
 slug: forgotten-home-maintenance-tasks-seasonal-checklist
 date: '2026-07-08'
-updated: '2026-09-29'
-description: The 10 home maintenance tasks people forget most, from flushing the water heater to testing smoke alarms monthly, in one simple seasonal checklist.
+updated: '2026-10-11'
+description: 'The 10 home jobs people skip most, with the real interval for each: dryer
+  duct length limits, the water heater valve test, CO alarm age, and more.'
 tags:
 - home maintenance
 - seasonal checklist
@@ -13,122 +14,204 @@ pillar: home-maintenance
 hero_image: /images/forgotten-home-maintenance-tasks-seasonal-checklist-hero.svg
 hero_alt: Cutaway house showing a water heater, dryer vent, and gutters, framed by spring, summer, fall, and winter maintenance icons
 pin_hooks:
-- 10 forgotten home jobs, sorted by month and season
-- Replace smoke alarms every 10 years, whatever the batteries
+- CO alarms wear out sooner than smoke alarms. Check yours
+- 'Dryer duct limit: 35 ft, minus 5 ft per 90° bend'
+enriched: '2026-10-11'
 ---
 
-The home maintenance tasks people forget most are flushing the water heater, cleaning the dryer vent duct, testing GFCI outlets and smoke and CO alarms every month, checking the gutters, attic, and roof, switching ceiling fan direction, resealing exterior gaps, and vacuuming the fridge coils. None of them are dramatic, which is exactly why they slip.
+The home maintenance jobs people forget most are the dryer exhaust duct, the water heater's yearly drain and valve test, monthly alarm and GFCI tests, alarm replacement by age, gutters, an attic and roof look, fan direction, air leaks, and fridge coils. Each has a real interval and a sign that it's overdue.
 
-Most home maintenance disasters start as a five-dollar part or a ten-minute task that quietly got skipped for two or three years running. The furnace filter gets remembered because it's loud and obvious. The stuff that gets forgotten is usually hidden — behind an appliance, up in an attic, or outside where nobody looks unless something's already leaking.
+Most of these slip because the part is hidden: behind the dryer, on top of the water heater, up in the attic. The schedule below gives each job's interval and whose guidance it comes from. The ten sections after it cover the details that generic checklists leave out.
 
-This checklist walks through the ten tasks that consistently slip through the cracks, organized by when to actually do them. None of these require special tools you don't already own, and most take under 30 minutes. Where a job is risky or requires licensing, that's flagged too.
+## The master schedule
 
-## Step 1: Flush the water heater (once a year, spring or fall)
+| Task | How often | Guidance from | Sign it's overdue |
+|---|---|---|---|
+| Dryer exhaust duct | Cleaned at least once a year | PNNL (DOE Building America) | Clothes damp or slow to dry, clothes too hot, burning smell |
+| Water heater relief valve (lift the lever) | At least once a year | NYSERDA | Valve stuck or won't reseat |
+| Water heater drain and flush | Once a year | NYSERDA | Popping or rumbling, sediment in the drain water |
+| Water heater anode rod | Check every 1–3 years | NYSERDA | Rod worn away; check your warranty first |
+| Smoke and CO alarm test | Monthly | NFPA | No sound when you press test |
+| GFCI outlet test | Monthly | CPSC | TEST doesn't cut power, or RESET doesn't restore it |
+| Replace smoke alarms | Every 10 years | NFPA | Manufacture date on the back is 10+ years ago |
+| Replace CO alarms | Around 7 years, or at the end-of-life signal | Seattle Fire Department | Beeps every 30 seconds or shows ERR/END |
+| Gutters and downspouts | Spring and fall | General practice; DOE for downspout distance | Overflow at the corners, downspout dumping at the foundation |
+| Attic and roof look | Fall (and after big storms) | General practice | Stains on the roof deck, icicles and ice dams in winter |
+| Ceiling fan direction | Spring and fall | ENERGY STAR | Fan still blowing down hard in winter |
+| Exterior air leaks | Fall | General practice | Drafts you can feel on a windy day |
+| Fridge condenser coils | Every 3–6 months in homes with pets or dust; often not needed otherwise | Whirlpool | Dust and pet hair visible behind the base grille |
 
-Sediment settles at the bottom of a tank water heater over time, especially in areas with hard water. This buildup makes the unit work harder to heat water and can shorten its life. If yours is already [popping or rumbling](https://www.hearth-habit.com/2026/08/water-heater-popping-or-rumbling-heres.html), sediment is the likely reason.
+## 1. The dryer exhaust duct, not just the lint screen
 
-The order of steps matters — getting it wrong can scald you or burn out a heating element:
+Emptying the lint screen after every load doesn't clean the duct that runs from the dryer to the outside wall. Lint that gets past the screen collects there.
 
-1. **Cut the heat source.** Switch off the breaker (electric), or turn the gas control to "Pilot" or "Off" as the label on the tank directs (gas), so nothing can fire while the tank is empty.
-2. **Let the water cool.** Tank water is hot enough to scald. Wait a few hours, or run a hot tap for several minutes so cold water replaces the hot water in the tank.
-3. **Close the cold-water inlet valve** on the pipe feeding the top of the tank.
-4. **Drain.** Connect a garden hose to the drain valve near the bottom and run it to a floor drain or outside, lower than the valve. Open a hot tap somewhere in the house so air can get in, then open the drain valve.
-5. **Flush.** Once the tank is empty, open the cold inlet briefly to stir up the remaining sediment, and let it run until the water from the hose looks clear.
-6. **Close the drain valve** and disconnect the hose.
-7. **Refill completely.** Open the cold inlet and leave that hot tap running until water flows steadily with no sputtering air — that's how you know the tank is full.
-8. **Only then restore power or gas.** An electric element that switches on in an empty or partly filled tank can burn out almost immediately. On a gas unit, return the control to "On," relighting the pilot per the label if you turned it off.
+The U.S. Fire Administration studied residential dryer fires from 2008 to 2010. It estimated about 2,900 a year, causing 5 deaths, 100 injuries, and $35 million in property loss annually. "Failure to clean" was the single leading factor, behind 34% of those fires. They peaked in January, at 11% of the year's fires.
 
-**Key takeaway: a tank water heater typically lasts 8–12 years, and an annual flush helps it get there — but only if the tank is completely refilled before the power or gas goes back on.**
+Pacific Northwest National Laboratory (PNNL), writing for the Department of Energy's Building America program, recommends having a professional clean the exhaust duct **at least once a year**. Its warning signs of a clogged duct are:
 
-## Step 2: Clean the dryer vent duct, not just the lint trap (spring and fall)
+- clothes still damp at the end of a cycle
+- drying taking longer than it used to
+- clothes coming out too hot
+- a burning smell
 
-Everyone empties the lint trap after every load — that's not the problem. The problem is the duct running from the dryer to the outside wall, which collects lint the trap can't catch. A clogged vent is one of the leading causes of house fires tied to home appliances, and it also makes your dryer run hotter and longer.
+Inspections, PNNL says, often find crushed, kinked, or clogged ducts.
 
-Disconnect the duct from the back of the dryer, vacuum out both ends with a hose attachment, and check the exterior vent flap to make sure it opens freely when the dryer runs. If your duct is longer than about 25 feet or has several bends, consider a dryer vent brush kit or a professional cleaning — lint packs into elbows in ways a vacuum hose can't reach.
+### Is your duct too long or the wrong kind?
 
-## Step 3: Test GFCI outlets in kitchens, bathrooms, and garages (monthly)
+Many generic checklists skip this. PNNL's limits for a dryer duct:
 
-GFCI outlets (the ones with "test" and "reset" buttons, designed to cut power instantly if they detect a shock hazard) can fail silently. The outlet keeps working normally, but the safety mechanism itself stops functioning. The Consumer Product Safety Commission recommends testing them once a month.
+- **Length:** no more than 35 feet, including the "equivalent length" of every fitting. Subtract **2.5 feet for each 45° bend** and **5 feet for each 90° bend**.
+- **Size and material:** 4-inch diameter, rigid or semi-rigid galvanized steel or aluminum with a smooth inside.
+- **Not recommended:** vinyl, nylon, and foil ducts. PNNL says using them will void the warranty of most dryers. The short flexible connector behind the dryer (the "transition duct") can be up to 8 feet and should be listed to UL 2158A.
+- **No screws poking into the duct.** They catch lint.
+- **No screen at the outside hood.** A screen traps lint at the exit. The USFA says the same about wire screen or cloth on outside dampers.
 
-Press "test" — the outlet should cut power immediately, and anything plugged in should turn off. Press "reset" to restore it. If test doesn't cut the power, or reset doesn't restore it, the outlet needs replacing. This is a quick DIY swap for anyone comfortable turning off a breaker first, or a cheap call for an electrician. It takes about a minute per room, so pair it with the monthly alarm test in Step 8.
+**Worked example.** Suppose your duct leaves the laundry room with one 90° elbow, turns 90° again in the wall, and has one 45° offset before the hood:
 
-## Step 4: Inspect and clean gutters and downspouts (spring and fall)
+- 35 ft − (2 × 5 ft) − (1 × 2.5 ft) = **22.5 ft of straight duct allowed**
 
-This one isn't forgotten so much as put off — nobody loves getting on a ladder. But clogged gutters send water straight down your foundation walls instead of away from the house, which is a slow, expensive way to end up with a wet basement.
+Measure your straight run. If it's longer than your result, the duct is longer than PNNL's limit, and a pro can reroute it. Your dryer's installation manual may set its own limits, so check that too.
 
-- Clear leaves and debris by hand or with a gutter scoop.
-- Flush with a hose and watch where the water goes — it should flow freely to the downspout and away from the house.
-- Check that downspout extensions direct water at least 5 feet from the foundation.
-- Look at the fascia board behind the gutter for soft or discolored wood, a sign water has been sitting.
+![Diagram of a dryer duct length budget: 35 feet maximum, minus 5 feet per 90-degree bend and 2.5 feet per 45-degree bend, leaving 22.5 feet](/images/forgotten-home-maintenance-tasks-seasonal-checklist-inline.svg)
 
-Gutter guards cut down on this job, but [you still need to clean gutters that have guards](https://www.hearth-habit.com/2026/08/do-you-still-need-to-clean-gutters-if.html) — just less often. If your home has tall trees overhanging the roof or you're not comfortable on a ladder above one story, this is a reasonable one to hire out once or twice a year.
+While you're outside, run the dryer and confirm the hood flap opens. The USFA also suggests checking periodically for nests blocking the vent. If you have a gas dryer, it recommends a professional inspection every year to make sure the gas line and connection are intact.
 
-## Step 5: Check the attic for signs of moisture or pests (fall, before it gets cold)
+## 2. The water heater: three jobs, not one
 
-![Hand shining a flashlight between attic rafters to check the insulation and roof deck for moisture or pests](/images/forgotten-home-maintenance-tasks-seasonal-checklist-inline.svg)
+### Drain and flush once a year
 
-Most people never go up there unless they're storing holiday decorations. A quick look with a flashlight can catch problems while they're still cheap to fix.
+NYSERDA, New York's state energy agency, recommends draining a water heater annually to clear the mineral sediment that settles in the bottom of the tank. Sediment can also be behind [a water heater that pops or rumbles](https://www.hearth-habit.com/2026/08/water-heater-popping-or-rumbling-heres.html).
 
-Look for: water stains on the underside of the roof deck, daylight coming through anywhere it shouldn't, insulation that's flattened or displaced (a sign of pests or past water damage), and any droppings or nesting material near vents or eaves. Also confirm that soffit and roof vents aren't blocked by insulation — good attic ventilation, together with air sealing and insulation, helps prevent ice dams in winter and helps the roof last longer.
+The order of steps matters, because getting it wrong can scald you or burn out an electric element:
 
-## Step 6: Reverse ceiling fan direction (spring and fall)
+1. **Turn the power or gas off.** Switch off the breaker for an electric unit. On a gas unit, set the control to "Pilot" or "Off" as the label directs.
+2. **Let the water cool.** Open a hot tap and let it run so cooler water replaces the hot water in the tank.
+3. **Close the cold-water inlet valve.**
+4. **Drain.** Run a garden hose from the drain valve to a floor drain or outside, lower than the valve. Open a hot tap in the house to let air in, then open the drain valve.
+5. **Flush.** Open the cold inlet briefly to stir up the remaining sediment. Let it run until the water from the hose comes out clear.
+6. **Close the drain valve** and remove the hose.
+7. **Refill completely.** Open the cold inlet and leave a hot tap open until water flows steadily with no sputtering air.
+8. **Only then turn the power or gas back on.** An electric element that fires in an empty tank burns out.
 
-This one is free and takes about ten seconds per fan, which is probably why it gets overlooked — it feels too simple to matter. In winter, fans should run clockwise (viewed from below) at low speed, which pushes warm air pooled at the ceiling back down. In summer, counterclockwise creates a cooling breeze effect.
+### Test the relief valve once a year
 
-Most fans have a small switch on the motor housing; newer remote-controlled models have a button or app setting. It won't transform your energy bill on its own, but paired with other [no-cost habits that cut your electric bill](https://www.hearth-habit.com/2026/07/how-to-cut-your-electric-bill-without.html), it's a small consistent win.
+The brass lever on the side or top of the tank is the temperature-and-pressure (TPR) relief valve. It opens if the tank gets too hot or too pressurized.
 
-## Step 7: Check exterior caulking and weatherstripping (fall)
+NYSERDA says to lift the lever at least once a year to check that it moves freely, then let it snap back closed. Water from that valve is hot, so make sure the discharge pipe points somewhere safe and nobody is near it.
 
-Gaps around windows, doors, and where pipes or wiring enter the house are easy to forget because they fail slowly. A quarter-inch gap doesn't look dramatic, but over a winter it adds up to real heat loss.
+If the valve keeps releasing water after you let go, NYSERDA's instructions are to:
 
-Run a hand around window and door frames feeling for drafts on a windy day, or hold a lit candle or incense stick near the edges — flickering means air movement. Re-caulk any cracked or missing sections with a caulk labeled for exterior use, and replace worn weatherstripping on doors. If you haven't done it before, here's [how to choose the right caulk and get a clean line](https://www.hearth-habit.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html). This is inexpensive (typically $5–20 per tube or roll) and one of the better returns on effort for winter comfort.
+1. disconnect the power
+2. close the cold water inlet
+3. call a qualified plumber
 
-## Step 8: Test smoke and carbon monoxide alarms monthly — and check their age
+### Check the anode rod every 1 to 3 years
 
-The NFPA recommends pressing the test button on every smoke alarm once a month, and CO alarms should be tested monthly too. That test confirms the horn and battery work, but it doesn't confirm the sensor itself is still reliable, and sensors wear out. Replace smoke alarms every 10 years, regardless of how new the batteries are. CO alarms typically last 5 to 10 years depending on the model; many print a "replace by" date and chirp at the end of their life. Check the manufacture date printed on the back of each unit.
+The anode rod is a metal rod inside the tank that corrodes so the tank doesn't. NYSERDA says to check it every 1 to 3 years and replace it when it's used up. Read your warranty first: NYSERDA notes that some require a qualified plumber to do this so the warranty stays valid.
 
-For alarms with replaceable batteries, swap the batteries at least once a year (a rule of thumb many people use is to do it when the clocks change in spring and fall), and right away if an alarm chirps. Sealed 10-year units don't take new batteries — you replace the whole alarm at the end of its life. If an alarm is silent when tested or past its printed date, replace the whole unit — this isn't one to patch.
+## 3. Monthly: smoke alarms, CO alarms, and GFCI outlets
 
-## Step 9: Inspect the roof from the ground with binoculars (spring and fall)
+The NFPA (National Fire Protection Association) says to test smoke alarms monthly, and CO alarms should be tested monthly too. The Consumer Product Safety Commission recommends testing GFCI outlets monthly as well. GFCIs are the outlets with TEST and RESET buttons in kitchens, baths, garages, and outdoors.
 
-Nobody wants to climb onto a roof, and in most cases you don't need to. A pair of binoculars from the yard can reveal a surprising amount.
+The GFCI test is quick:
 
-Look for shingles that are curling, cracked, or missing granules (they'll look bald or shiny in patches), rusty or lifted flashing around chimneys and vents, and any sagging along the roofline. Catching a small area of damage early is the difference between a few-hundred-dollar repair and a much bigger one after water gets under the deck. If you see anything concerning, this is a call-a-pro situation — roof inspections and repairs carry real fall risk and are worth the cost of a licensed roofer.
+1. Press TEST. Power should cut off, so a lamp plugged in goes dark.
+2. Press RESET. Power should come back.
 
-## Step 10: Clean the refrigerator coils (once a year)
+If either step fails, the outlet's protection isn't working, even if the outlet still powers things. Have an electrician replace it. Do all three tests on the same day each month so it's one habit instead of three.
 
-The coils on the back or underneath the fridge release heat as part of the cooling cycle. When they're coated in dust and pet hair, the compressor has to work harder and the fridge's efficiency drops — sometimes enough to notice on the electric bill.
+## 4. Replacing alarms by age, which a monthly test won't catch
 
-Unplug the fridge, pull it out from the wall, and vacuum the coils with a brush attachment or a dedicated coil-cleaning brush. If your coils are underneath rather than in back, you may need to remove a front grille panel, which usually just pops or unscrews off. Ten minutes, once a year, is all it takes.
+A monthly test doesn't tell you how old an alarm is, and alarms have a replacement age.
 
-## Putting it together: a simple seasonal rhythm
+- **Smoke alarms:** NFPA says to replace the whole alarm every 10 years. Check the manufacture date on the back.
+- **CO alarms:** the Seattle Fire Department puts their life expectancy at around **seven years**, shorter than a smoke alarm's. At the end of its life, a CO alarm beeps every 30 seconds or displays ERR or END. **A new battery will not stop that beep.** Some alarms let you silence the signal for 30 days. Seattle Fire's point is that this doesn't fix anything, and the alarm still needs replacing.
 
-Trying to remember all ten tasks at once is how they get forgotten in the first place. A more realistic approach is to tie them to dates you already notice:
+If your house has smoke and CO alarms that went in at the same time, the CO alarms will probably need replacing first.
 
-- **Monthly (about 5 minutes):** press test on every smoke and CO alarm; press test, then reset, on each GFCI outlet
-- **Spring:** gutters, roof check, dryer vent duct, ceiling fans to counterclockwise, alarm batteries
-- **Fall:** attic check, caulking and weatherstripping, gutters again, roof check again, dryer vent duct again, ceiling fans to clockwise, alarm batteries again
-- **Once a year (spring or fall):** water heater flush, fridge coils
+## 5. Gutters and downspouts (spring and fall)
 
-The seasonal items don't need to happen on a specific weekend — the goal is just to make sure each one happens at least once in its season, not that it happens perfectly on schedule. The monthly tests are the exception: they take minutes, so put them on the calendar.
+Clogged gutters overflow at the corners and dump roof water right along the foundation. The EPA's moisture guidance is for the ground to slope away from the house. The Department of Energy's building-science guidance is to have downspouts discharge **at least 5 feet** from the foundation, onto ground that slopes away.
+
+Flush each gutter with a hose and watch where the water ends up, not just whether it flows. Look at the fascia board behind the gutter for soft or stained wood. Gutter guards reduce the work but don't remove it; here's [why gutters with guards still need cleaning](https://www.hearth-habit.com/2026/08/do-you-still-need-to-clean-gutters-if.html). If the work means a ladder above the first story, it's reasonable to hire it out.
+
+## 6. The attic (fall, before it gets cold)
+
+Take a flashlight up once a year. Look for:
+
+- water stains on the underside of the roof deck
+- daylight where there shouldn't be any
+- insulation that's flattened or pushed aside
+- droppings or nesting material near the eaves
+- soffit vents buried under insulation
+
+This look matters for winter. The University of Minnesota Extension explains that ice dams start with heat escaping into the attic and melting roof snow, which refreezes at the cold eaves. The fix is air sealing, insulation, and ventilation, not gutter cleaning. If you had icicles and ice ridges last winter, the attic is where to start.
+
+## 7. The roof, from the ground (spring and fall)
+
+Use binoculars from the yard. Look for curling, cracked, or missing shingles, bald patches where granules have worn off, lifted flashing around chimneys and vents, and any sag in the roofline. Anything beyond looking is a job for a roofer. Fall risk on a roof is real, and [deciding when a job needs a pro](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html) is easy here.
+
+## 8. Ceiling fan direction (spring and fall)
+
+ENERGY STAR's winter setting is **low speed, clockwise**. That makes a gentle updraft that pushes the warm air pooled at the ceiling down into the room. In summer, switch it back so the fan blows down on you. The direction switch is usually on the motor housing; on remote-controlled fans it's a button or app setting.
+
+ENERGY STAR also reminds you to turn the fan off when you leave the room. It pairs well with other [no-cost habits that cut your electric bill](https://www.hearth-habit.com/2026/07/how-to-cut-your-electric-bill-without.html).
+
+## 9. Exterior air leaks (fall)
+
+Gaps around window and door frames, and where pipes, wires, and dryer ducts pass through the wall, fail slowly. On a windy day, move your hand around each frame and feel for drafts.
+
+Re-caulk cracked or missing beads with a caulk labeled for exterior use, and replace door weatherstripping that's flattened or torn. Here's [how to choose caulk and get a clean line](https://www.hearth-habit.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html).
+
+## 10. Fridge coils: only if your home is dusty or has pets
+
+Many checklists say to vacuum fridge coils as a routine job. Whirlpool's guidance is different. It says routine condenser cleaning **isn't typically needed** in a normal home. Homes with pets, heavy kitchen traffic, or construction dust should inspect and clean the coils every **3 to 6 months**.
+
+Whirlpool also notes that some models don't need coil cleaning at all, and others can only be cleaned by a certified technician. Check your model's use-and-care guide first.
+
+If yours needs it:
+
+1. Unplug the fridge or switch off its breaker.
+2. Remove the base grille.
+3. Vacuum the grille and the area behind it with a soft brush attachment or a coil brush.
+
+## How to make the schedule stick
+
+Tie each job to a date you already notice:
+
+- **Same day every month:** test smoke and CO alarms, test each GFCI.
+- **Spring:** gutters, roof look, fans to summer direction.
+- **Fall:** gutters again, attic, roof look, air leaks, fans to clockwise.
+- **Once a year, any season:** water heater drain plus relief-valve test, and dryer duct cleaning. January is when dryer fires peak, so fall is a sensible time.
+- **Every few years:** anode rod check. Look at every alarm's date and replace CO alarms around year seven and smoke alarms at year ten.
 
 ## FAQ
 
-### Do I really need to do the roof and gutter checks twice a year?
-It's worth it in most climates, since spring reveals winter damage (ice, snow load, freeze-thaw cracking) and fall prep matters before the next winter hits. In milder climates with fewer trees, once a year may be enough — use judgment based on your actual conditions.
+### My CO alarm chirps even after I changed the battery. Is it broken?
 
-### What's the single task on this list most likely to save real money?
-The water heater flush and dryer vent cleaning tend to have the clearest financial payoff, since both affect appliance lifespan and, in the dryer's case, fire risk. Neither costs anything beyond your time.
+It's probably at the end of its life. The Seattle Fire Department says end-of-life CO alarms beep every 30 seconds or show ERR or END, and a new battery won't stop it. Replace the alarm.
 
-### Which of these should I never attempt myself?
-Actual roof repair (not just the binocular inspection) and any electrical work beyond testing and swapping a GFCI outlet with the breaker off. Both carry real safety risk, and licensed pros carry insurance for a reason.
+### Can I clean the dryer duct myself instead of hiring someone?
 
-### I'm a renter — should I still be doing this?
-Several of these — GFCI testing, alarm checks, fridge coils, fan direction — are worth doing regardless of who owns the place, since they affect your safety and comfort. Gutters, roofing, and water heater maintenance are typically the landlord's responsibility; it's reasonable to flag issues rather than fix them yourself.
+PNNL's guidance is a professional cleaning at least once a year. If you do a between-cleanings check yourself, unplug the dryer, then:
+
+- disconnect the duct and vacuum both ends
+- confirm the outside flap opens
+- look for crushed or kinked sections
+
+For a gas dryer, the USFA recommends a professional inspection of the gas line and connection every year, so leave the gas connection to a pro.
+
+### I rent. Which of these are mine to do?
+
+The monthly alarm and GFCI tests, fan direction, and fridge coils affect your own safety and comfort, so they're worth doing whoever owns the place. Gutters, the roof, and water heater service usually fall to the landlord. Report what you see instead of fixing it yourself.
 
 ## Sources
-- [Smoke alarms (NFPA)](https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms) — monthly alarm tests, 10-year replacement
-- [GFCI fact sheet (CPSC)](https://www.cpsc.gov/safety-education/safety-guides/electronics-and-electrical-home/gfci-fact-sheet) — test GFCI outlets monthly
-- [O&M guidelines for water equipment (DOE FEMP)](https://www.energy.gov/femp/technical-operations-and-maintenance-guidelines-common-water-equipment) — water heater flushing
-- [A Brief Guide to Mold, Moisture, and Your Home (EPA)](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home) — draining water away from the foundation
-- [Stormwater: Gutters and Downspouts (U.S. DOE Building Science Education)](https://bsesc.energy.gov/energy-basics/stormwater-gutters-downspouts) — downspouts ending at least 5 feet from the foundation
+
+- [Proper Clothes Dryer Venting | PNNL Building America Solution Center](https://basc.pnnl.gov/resource-guides/proper-clothes-dryer-venting) — 35-foot duct limit and bend deductions, 4-inch metal duct, no foil or vinyl, no screens, yearly professional cleaning, clog symptoms
+- [Clothes Dryer Fires in Residential Buildings (2008–2010) | U.S. Fire Administration](https://www.usfa.fema.gov/downloads/pdf/statistics/v13i7.pdf) — 2,900 fires a year, failure to clean behind 34%, January peak, no screens on dampers, gas dryer inspection
+- [Heat Pump Water Heater Maintenance Tips | NYSERDA](https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/Fact-Sheets/CHC-CON-HPWH-fs-1-v1.pdf) — yearly relief-valve test and drain, anode check every 1–3 years, for gas, electric, and heat pump units
+- [Replace your carbon monoxide alarm every 7 years | Seattle Fire Department](https://fireline.seattle.gov/2021/04/05/replace-your-carbon-monoxide-alarm-every-7-years-or-sooner-if-it-gives-an-end-of-life-signal/) — CO alarm life expectancy and end-of-life signal
+- [Smoke alarms | NFPA](https://www.nfpa.org/education-and-research/home-fire-safety/smoke-alarms) and [GFCI fact sheet | CPSC](https://www.cpsc.gov/safety-education/safety-guides/electronics-and-electrical-home/gfci-fact-sheet) — monthly alarm and GFCI tests, 10-year smoke alarm replacement
+- [Ceiling Fans | ENERGY STAR](https://www.energystar.gov/products/holiday/ceiling_fans) — low speed, clockwise in winter; turn the fan off when you leave
+- [How and When to Safely Clean the Condenser Coils | Whirlpool](https://producthelp.whirlpool.com/Refrigeration/Full-size_Refrigerators/Cleaning_and_Care/How_and_When_to_Safely_Clean_the_Condenser_Coils) — coil cleaning every 3–6 months only for pet or dusty homes
+- [Stormwater: Gutters and Downspouts | DOE Building Science](https://bsesc.energy.gov/energy-basics/stormwater-gutters-downspouts) and [Dealing with ice dams | UMN Extension](https://extension.umn.edu/protecting-home-rain-and-ice/dealing-and-preventing-ice-dams) — downspouts 5 feet out; ice dams start with attic heat loss

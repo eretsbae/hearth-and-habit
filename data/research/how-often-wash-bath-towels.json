@@ -1,0 +1,80 @@
+{
+  "reader_situation": "Someone hanging up a bath towel wonders whether it can go another day, or why towels start smelling before laundry day, and wants a rule that's based on more than habit.",
+  "direct_answer": "No US health agency publishes a set number of uses. A towel used by one healthy person that dries completely between uses can be reused a few times; wash it right away if it stayed damp, smells, was used after a workout or sports (CDC: wash and fully machine-dry after each use), or someone in the home is sick (ENERGY STAR notes switching to hot water temporarily). Don't share towels: CDC says MRSA can survive on towels for hours, days or even weeks.",
+  "consensus": [
+    "Wash bath towels every three or so uses, or about once a week.",
+    "Hang towels spread out so they dry.",
+    "Bathrooms need ventilation.",
+    "Gym towels should be washed after each use.",
+    "Musty-smelling clean towels point to a dirty washer."
+  ],
+  "gaps": [
+    "The popular '2–3 uses' or 'once a week' figures don't come from a health agency; what agencies do give are conditions: dry completely, don't share, wash after athletic use, use hot water when someone is sick.",
+    "CDC's athlete guidance is specific: wash towels after each use and completely dry them in a dryer, not by air or hang drying.",
+    "Sharing matters more than the count: CDC says avoid sharing towels and washcloths, and MRSA can survive on towels for hours, days or even weeks.",
+    "Hot water has a real cost: ENERGY STAR says water heating is about 90% of a washer's energy, hot-to-warm can cut energy use in half, cold most loads clean well, and the sanitary cycle increases energy use significantly; switching to hot temporarily makes sense when someone is sick.",
+    "Drying conditions: EPA says run the bathroom fan or open a window when showering and keep indoor humidity below 60% (ideally 30–50%); its mold guidance is to dry wet materials within 24–48 hours.",
+    "Musty clean towels can start in the washer: ENERGY STAR says leave front-loader doors ajar an hour or two after use and follow the maker's cleaning cycle (some recommend a monthly normal cycle with bleach). Never combine bleach with vinegar or other acids (registry)."
+  ],
+  "evidence": [
+    {
+      "claim": "Don't share towels; MRSA survives on them",
+      "detail": "'Avoid sharing personal items such as towels, washcloths and razors.' 'MRSA can survive on some surfaces, like towels, razors and furniture, for hours, days or even weeks.' 'Use barriers, like a towel or clothing, between your skin and shared surfaces.'",
+      "source_url": "https://www.cdc.gov/mrsa/prevention/index.html",
+      "source_title": "Preventing Methicillin-resistant Staphylococcus aureus (MRSA) | CDC"
+    },
+    {
+      "claim": "Athletic towels: wash and machine-dry after each use",
+      "detail": "'Wash and completely dry (in a dryer, not through air/hang drying) your uniform, towels, and clothing after each use.' 'Follow the clothing label's instructions for washing and drying.' 'Shower immediately after exercise, and do not share bar soap or towels.'",
+      "source_url": "https://www.cdc.gov/mrsa/prevention/athletes.html",
+      "source_title": "Athletes: MRSA Prevention and Control | CDC"
+    },
+    {
+      "claim": "Hand drying uses a clean towel",
+      "detail": "Handwashing step five: 'Dry your hands using a clean towel or an air dryer.'",
+      "source_url": "https://www.cdc.gov/clean-hands/about/index.html",
+      "source_title": "About Handwashing | Clean Hands | CDC"
+    },
+    {
+      "claim": "Water temperature and energy",
+      "detail": "'Water heating consumes about 90% of the energy it takes to operate a clothes washer.' Washing in cold water will generally do a good job of cleaning; oily stains may need warmer water. 'Switching your temperature setting from hot to warm can cut energy use in half.' The sanitary cycle increases energy use significantly; use only when needed. 'Consumers may wish to switch to hot water temporarily when members of their household are sick.' High spin speeds remove more moisture and shorten drying.",
+      "source_url": "https://www.energystar.gov/products/clothes_washers",
+      "source_title": "Clothes Washers | ENERGY STAR"
+    },
+    {
+      "claim": "Washer mold prevention",
+      "detail": "Leave front-loader doors ajar for an hour or two after use (keep children away from open machines). Follow the manufacturer's maintenance instructions; some recommend a monthly normal cycle with bleach to limit mold and mildew. Washers use about the same energy regardless of load size, so run full loads.",
+      "source_url": "https://www.energystar.gov/products/clothes_washers",
+      "source_title": "Clothes Washers | ENERGY STAR"
+    },
+    {
+      "claim": "Bathroom ventilation and drying",
+      "detail": "'Run the bathroom fan or open the window when showering.' Keep indoor humidity below 60 percent (ideally between 30 and 50 percent). 'It is important to dry water-damaged areas and items within 24-48 hours to prevent mold growth.'",
+      "source_url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+      "source_title": "A Brief Guide to Mold, Moisture and Your Home | US EPA"
+    }
+  ],
+  "real_questions": [
+    "Can I use the same towel all week if I hang it up?",
+    "Why do my towels smell even right after washing?",
+    "Do I need hot water for towels?",
+    "Is it OK for my partner and me to share a towel?",
+    "How often should gym towels be washed?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "A 'wash now or reuse?' table keyed to the conditions agencies actually name (dried fully, workout use, sharing, illness, skin infection, smells after washing), with the CDC, EPA and ENERGY STAR rule behind each row, plus a water-temperature table showing ENERGY STAR's relative energy figures."
+  },
+  "cautions": [
+    "Never mix chlorine bleach with vinegar or other acids when cleaning a washer.",
+    "Follow care labels and the washer manufacturer's cleaning instructions.",
+    "Don't present an unsourced use count as a health rule."
+  ],
+  "sources": {
+    "https://www.cdc.gov/mrsa/prevention/index.html": "Preventing Methicillin-resistant Staphylococcus aureus (MRSA) | CDC",
+    "https://www.cdc.gov/mrsa/prevention/athletes.html": "Athletes: MRSA Prevention and Control | CDC",
+    "https://www.cdc.gov/clean-hands/about/index.html": "About Handwashing | Clean Hands | CDC",
+    "https://www.energystar.gov/products/clothes_washers": "Clothes Washers | ENERGY STAR",
+    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home": "A Brief Guide to Mold, Moisture and Your Home | US EPA"
+  }
+}

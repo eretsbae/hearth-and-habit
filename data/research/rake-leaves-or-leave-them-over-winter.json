@@ -1,0 +1,101 @@
+{
+  "reader_situation": "A homeowner looking at a leaf-covered lawn in fall wants to know whether raking is necessary, whether leaving leaves will kill the grass by spring, and what the 'leave the leaves' advice really means for a lawn.",
+  "direct_answer": "Whole leaves that hide the grass should come off the lawn or be shredded into it, because a covering layer smothers turf and favors snow mold. Leaves that cover only a small share of the lawn can stay, and a moderate layer can be mowed into the grass, which university trials found does no harm and can reduce dandelions. Whole leaves belong in beds and out-of-the-way areas, and never in the street.",
+  "consensus": [
+    "A thin layer of leaves is fine; a thick mat smothers grass.",
+    "Mulch-mowing shreds leaves and returns organic matter to the soil.",
+    "Wet, matted leaves are worse than dry ones.",
+    "Leaves can be used as mulch in beds or composted.",
+    "Leaving leaves helps overwintering insects."
+  ],
+  "gaps": [
+    "The decision line is visibility, not a fixed depth: Purdue says rake when there are so many leaves you can't see the turf; Colorado State says if some grass is still visible the layer is thin enough to mulch; Illinois Extension says leaves can stay where they fall if they cover only about 10-20% of the turf.",
+    "Shredding changes the depth limit: Michigan State trials mulched 150, 300, and 450 lb of dry leaves per 1,000 sq ft (about 6-, 12-, and 18-inch layers) into low-input turf with a mulching mower; litter was still visible in spring but dissipated as the grass grew, and those plots tended to green up quicker. A 3-inch deck height left less visible litter than 1.5 inches.",
+    "Mulched leaves don't cause the problems people fear: Purdue says mulching oak and maple leaves will not increase thatch or disease, has no effect on soil pH or measurable effect on nutrient availability, and won't increase weeds; MSU found maple-leaf plots had less broadleaf weed growth and more soil organic matter, and Colorado State reports MSU found fewer dandelions and crabgrass after three years.",
+    "Technique: Colorado State says set the mower at its highest setting, remove the bagger, and make at least two passes; Purdue says dry leaves mulch more easily than wet leaves.",
+    "Snow mold risk: Iowa State lists raking fallen leaves in fall among snow mold prevention steps, with mowing at the recommended height through fall, avoiding excess fall nitrogen, and keeping thatch at or below half an inch; extended snow cover on ground that isn't frozen favors the disease.",
+    "Leaves in the street are a water-quality problem: USGS found that in Madison, Wisconsin, leaf litter contributed 56% of the annual total phosphorus load in urban stormwater without leaf removal versus 16% when streets were cleared before rain, and timely removal cut phosphorus concentrations by over 80%.",
+    "'Leave the leaves' is about beds, not turf: Illinois Extension says moths and butterflies such as swallowtails and luna moths overwinter in leaves and bumble bee queens may use them; it recommends leaving leaves in garden beds or out-of-the-way areas and notes mowing leaves into the lawn may harm wildlife using them.",
+    "Bed depths: Colorado State suggests six to eight inches of leaves yearly on vegetable or annual flower gardens, ideally shredded, and three to six inches of shredded leaves in a wire cage to protect tender plants."
+  ],
+  "evidence": [
+    {
+      "claim": "When to rake vs mulch-mow",
+      "detail": "Rake when there are many leaves on the ground, so many that you can't see the turf underneath, so they don't shade out, smother, and kill turf. Mulch with the mower when only a moderate number of leaves are on the ground. Dry leaves mulch more easily and readily than wet leaves. Do not burn leaves because of current burn bans and environmental pollution. Written by Aaron Patton, Turfgrass Extension Specialist.",
+      "source_url": "https://turf.purdue.edu/what-to-do-with-all-those-falling-leaves/",
+      "source_title": "What To Do With All Those Falling Leaves? | Purdue Turfgrass Science"
+    },
+    {
+      "claim": "Mulched leaves don't harm turf or soil",
+      "detail": "Oak and maple leaves can be mulched without detrimental effects on soil or turf and usually improve soil structure. Mulching will not increase thatch or disease. Leaves have no effect on soil pH and no measurable effect on nutrient availability. Mulching will not increase weed pressure; Michigan research suggests it can reduce dandelions.",
+      "source_url": "https://turf.purdue.edu/what-to-do-with-all-those-falling-leaves/",
+      "source_title": "What To Do With All Those Falling Leaves? | Purdue Turfgrass Science"
+    },
+    {
+      "claim": "MSU heavy-rate leaf mulching trial",
+      "detail": "Beginning October 1995, mixed deciduous leaves at 150, 300, and 450 lb per 1,000 sq ft (approximately 6-, 12-, and 18-inch layers) were mulched with a mulching mower into sunny mixed turf (Kentucky bluegrass, perennial rye, fine fescue) that was never fertilized. Visible litter remained in spring and increased with rate; the 3-inch deck height reduced visible litter vs 1.5 inches. All visible litter soon dissipated as grass grew, and those plots tended to green up quicker. C/N ratio stayed well below 30/1.",
+      "source_url": "https://archive.lib.msu.edu/tic/holen/article/2002oct11.pdf",
+      "source_title": "Leaves (Thomas A. Nikolai, Michigan State University), MSU Turfgrass Information Center archive"
+    },
+    {
+      "claim": "MSU earlier leaf trials",
+      "detail": "First study (from 1990): 50 and 100 lb of dry leaves per 1,000 sq ft, no negative effects of mulching at those rates. Second study (1991-1998): oak and maple at 100 lb per 1,000 sq ft into Kentucky bluegrass; turf quality increased on maple plots because of less broadleaf weed growth; no soil pH differences; more soil organic matter than check plots.",
+      "source_url": "https://archive.lib.msu.edu/tic/holen/article/2002oct11.pdf",
+      "source_title": "Leaves (Thomas A. Nikolai, Michigan State University), MSU Turfgrass Information Center archive"
+    },
+    {
+      "claim": "Mulch-mowing technique and visible-grass test",
+      "detail": "Set the mower deck to its highest setting, remove the bagging attachment, and make at least two passes. Leaves must be shredded, not left whole. If some grass is still visible, the layer is thin enough to mulch. MSU research found mulching reduced dandelions and crabgrass after three years; Purdue found high rates did not affect turf quality, color, or soil pH and did not cause thatch.",
+      "source_url": "https://extension.colostate.edu/resource/using-leaves-in-the-landscape/",
+      "source_title": "Using Leaves in the Landscape | Colorado State University Extension"
+    },
+    {
+      "claim": "Leaves in beds",
+      "detail": "Add six to eight inches of leaves yearly to vegetable or annual flower gardens, ideally shredded first. Protect tender plants with a wire cage filled with three to six inches of shredded leaves, removed when spring growth begins. Leaves are carbon-rich 'browns' for compost.",
+      "source_url": "https://extension.colostate.edu/resource/using-leaves-in-the-landscape/",
+      "source_title": "Using Leaves in the Landscape | Colorado State University Extension"
+    },
+    {
+      "claim": "Snow mold conditions and prevention",
+      "detail": "Gray snow mold (Typhula) patches may be a few inches to a few feet across; pink snow mold (Microdochium nivale) patches are under six inches. Extended snow cover on ground that is not completely frozen is conducive. Prevention: avoid excessive nitrogen in fall, mow at the recommended height throughout fall, keep thatch at or below half an inch, rake up fallen leaves in fall, spread large snow piles.",
+      "source_url": "https://yardandgarden.extension.iastate.edu/encyclopedia/snow-mold",
+      "source_title": "Snow Mold | Iowa State University Extension Yard and Garden"
+    },
+    {
+      "claim": "Light leaf cover can stay; leaves as habitat",
+      "detail": "Leaves can stay where they fall if they cover only about 10-20% of the turf; a thick layer can smother grass. Many moths and butterflies like swallowtails and luna moths overwinter in leaves; bumble bee queens may use leaves. Leaving leaves in garden beds or out-of-the-way areas provides habitat; mowing leaves into the lawn may harm wildlife using them. Wait until spring to remove dead plant material.",
+      "source_url": "https://extension.illinois.edu/blogs/good-growing/2021-10-22-fall-garden-clean-pollinators-and-other-wildlife-mind",
+      "source_title": "Fall garden clean up with pollinators and other wildlife in mind | University of Illinois Extension"
+    },
+    {
+      "claim": "Leaves in streets and stormwater phosphorus",
+      "detail": "Timely removal of leaf litter reduced phosphorus in Madison, Wisconsin stormwater by over 80 percent. Without removal, leaves and organic debris contributed 56% of the annual total phosphorus load in urban stormwater; when streets were cleared of leaves before rain, 16%. Released November 17, 2016.",
+      "source_url": "https://www.usgs.gov/news/removal-fallen-leaves-can-improve-urban-water-quality",
+      "source_title": "Removal of Fallen Leaves Can Improve Urban Water Quality | USGS"
+    }
+  ],
+  "real_questions": [
+    "Will leaves left on the lawn all winter kill the grass?",
+    "How many leaves are too many to mulch-mow?",
+    "Does mulching leaves cause thatch or acidify the soil?",
+    "Is 'leave the leaves' bad for my lawn?",
+    "Can I blow leaves into the street for pickup?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "Leaf-cover decision table keyed to how much grass is visible (Illinois 10-20% cover, Colorado State visible-grass test, Purdue can't-see-turf line) and leaf condition, with the action for lawn, beds, and street, plus the MSU heavy-rate trial numbers showing shredding matters more than depth."
+  },
+  "cautions": [
+    "Don't burn leaves; Purdue cites burn bans and pollution.",
+    "Keep leaves out of streets and storm drains.",
+    "Regional differences: these trials are from cool-season Midwest lawns."
+  ],
+  "sources": {
+    "https://turf.purdue.edu/what-to-do-with-all-those-falling-leaves/": "What To Do With All Those Falling Leaves? | Purdue Turfgrass Science",
+    "https://archive.lib.msu.edu/tic/holen/article/2002oct11.pdf": "Leaves (Thomas A. Nikolai, Michigan State University), MSU Turfgrass Information Center archive",
+    "https://extension.colostate.edu/resource/using-leaves-in-the-landscape/": "Using Leaves in the Landscape | Colorado State University Extension",
+    "https://yardandgarden.extension.iastate.edu/encyclopedia/snow-mold": "Snow Mold | Iowa State University Extension Yard and Garden",
+    "https://extension.illinois.edu/blogs/good-growing/2021-10-22-fall-garden-clean-pollinators-and-other-wildlife-mind": "Fall garden clean up with pollinators and other wildlife in mind | University of Illinois Extension",
+    "https://www.usgs.gov/news/removal-fallen-leaves-can-improve-urban-water-quality": "Removal of Fallen Leaves Can Improve Urban Water Quality | USGS"
+  }
+}

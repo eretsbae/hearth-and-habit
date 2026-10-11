@@ -1,0 +1,88 @@
+{
+  "reader_situation": "Someone has heard that leftover rice can make you sick, or has rice that sat on the counter or in a switched-off rice cooker, and wants to know why rice is singled out and what handling actually keeps it safe.",
+  "direct_answer": "Bacillus cereus spores on raw rice survive cooking. If cooked rice sits at room temperature, they grow and some strains make an emetic toxin that survives 250°F (121°C), far hotter than reheating reaches. So rice that cooled slowly cannot be made safe by reheating. Refrigerate it within 1 hour (never beyond 2) in shallow containers.",
+  "consensus": [
+    "B. cereus spores survive cooking and the toxin survives reheating.",
+    "Don't leave cooked rice out more than 2 hours.",
+    "Cool rice in shallow containers and refrigerate promptly.",
+    "Reheat leftovers to 165°F.",
+    "Smell is not a reliable test."
+  ],
+  "gaps": [
+    "Room temperature is the toxin's sweet spot: UF/IFAS says B. cereus grows from 39 to 118°F and cereulide (the vomiting toxin) is produced at 77-86°F, which is ordinary room temperature.",
+    "The toxin's heat tolerance has a number: UF/IFAS says stable up to 250°F (121°C); Hong Kong's Centre for Food Safety says it resists 126°C for 90 minutes. Boiling is 212°F, so no home reheating destroys it.",
+    "There is a measurable cooling standard: UF/IFAS and N.C. Cooperative Extension give 135°F to 70°F within 2 hours, then to 41°F within 4 more hours; NC State says food that misses the first 2-hour step should be thrown out.",
+    "Container depth: NDSU Extension says divide rice into shallow containers only 2 or 3 inches deep, and metal pans such as cake pans cool faster.",
+    "A switched-off rice cooker is a trap: N.C. Cooperative Extension says never leave leftovers in a turned-off oven, rice cooker, or microwave overnight. Hot holding must stay at 140°F or above for home cooks (NDSU, citing USDA).",
+    "Reheat only once: Food Standards Scotland says never reheat rice more than once; NC State says reheat only the portion you will eat.",
+    "Agencies differ on fridge time: USDA's leftover window is 3 to 4 days, while Food Standards Scotland tells consumers to eat cooked rice within 24 hours.",
+    "The classic outbreak: in a 1993 Virginia day-care outbreak, rice cooked the night before was cooled at room temperature before refrigeration, fried the next morning, held unrefrigerated, and served; leftover rice had over 10^6 B. cereus per gram and illness began a median of 2 hours after eating."
+  ],
+  "evidence": [
+    {
+      "claim": "Virginia day-care fried rice outbreak",
+      "detail": "Rice cooked the night of July 20, 1993 and cooled at room temperature before refrigeration; pan-fried with chicken the next morning; delivered at about 10:30 a.m., held without refrigeration, served at noon without reheating. 14 of 67 who ate the lunch became ill. Median incubation 2 hours (range 1.5-3.5). B. cereus exceeded 10^6 organisms per gram in leftover rice. Emetic incubation 1-6 hours, diarrheal 6-24 hours. Heat-resistant spores may survive cooking; the emetic toxin is highly stable and can survive brief heating such as stir frying. Fried rice is a leading cause of emetic B. cereus poisoning in the U.S. Keep food below 41°F (5°C) or above 140°F (60°C).",
+      "source_url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00025744.htm",
+      "source_title": "Bacillus cereus Food Poisoning Associated with Fried Rice at Two Child Day Care Centers -- Virginia, 1993 (CDC MMWR)"
+    },
+    {
+      "claim": "Growth range, toxin production temperature, heat stability",
+      "detail": "Growth range 39 to 118°F (4 to 48°C); optimal 82 to 95°F. Cereulide production occurs at 77-86°F (25-30°C). Emetic toxin heat-stable up to 250°F (121°C). Emetic onset about 1 to 6 hours; diarrheal 6 to 15 hours, lasting about 24 hours. Illness typically requires 100,000 or more cells per gram. Emetic form most frequently associated with improperly refrigerated starch dishes. Foods commonly associated with B. cereus illness include boiled or fried rice, cooked vegetables and meats, pasta, vanilla sauce, custards, casseroles, pastries, salads, soups, ice cream, and herbs and spices (FDA 2012).",
+      "source_url": "https://ask.ifas.ufl.edu/publication/FS269",
+      "source_title": "Preventing Foodborne Illness: Bacillus cereus (UF/IFAS Extension FS269)"
+    },
+    {
+      "claim": "Cooling standard and hot holding",
+      "detail": "Cool food from 135°F to 70°F within two hours, then from 70°F to 41°F within four more hours; full cooldown no more than 6 hours. Hold hot food at 135°F or higher, cold at 41°F or below. Reheat previously cooked food to 165°F for 15 seconds. Reheating cannot inactivate toxins that have already formed. Do not stack containers tightly so air can circulate.",
+      "source_url": "https://ask.ifas.ufl.edu/publication/FS269",
+      "source_title": "Preventing Foodborne Illness: Bacillus cereus (UF/IFAS Extension FS269)"
+    },
+    {
+      "claim": "Toxin resists 126°C for 90 minutes; spore counts; growth stops below 4°C",
+      "detail": "Grows best at 30-37°C; growth stops below 4°C. Raw foods usually contain fewer than 100 spores per gram. Spores survive normal cooking and heat activates them. Emetic toxin is heat-stable and resists 126°C for 90 minutes; once formed it cannot be destroyed even by thorough reheating. Emetic illness generally associated with rice products and other starchy foods. More than 100,000 cells per gram can cause food poisoning.",
+      "source_url": "https://www.cfs.gov.hk/english/multimedia/multimedia_pub/multimedia_pub_fsf_97_01.html",
+      "source_title": "Bacillus cereus in Processed Food (Centre for Food Safety, Hong Kong)"
+    },
+    {
+      "claim": "UK consumer rule: 1 hour to chill, 24 hours to eat, reheat once",
+      "detail": "Chill cooked rice as quickly as possible, ideally within 1 hour; take it out of the cooker, steamer or pan; consider dividing into smaller portions. Do not store for longer than 24 hours before eating. Make sure it is steaming hot all the way through; never reheat more than once.",
+      "source_url": "https://foodstandards.gov.scot/consumers/food-safety/at-home/rice",
+      "source_title": "Safe food storage | Food Standards Scotland"
+    },
+    {
+      "claim": "Container depth, metal pans, symptom timing, hot holding at home",
+      "detail": "Divide rice into shallow containers only two or three inches deep; metal containers such as cake pans cool food faster. Per USDA home rules, hold cooked rice at a minimum of 140°F and check with a food thermometer. Vomiting, sometimes diarrhea, within 30 minutes to five hours; symptoms typically clear within a day or two but can be more serious for older and younger people. More than 63,000 people sickened yearly in the U.S. by this microorganism (expert estimate).",
+      "source_url": "https://www.ag.ndsu.edu/news/columns/prairie-fare/prairie-fare-could-rice-be-a-foodborne-illness-hazard",
+      "source_title": "Prairie Fare: Could rice be a foodborne illness hazard? (NDSU Extension)"
+    },
+    {
+      "claim": "Turned-off rice cooker, discard rule, reheat only what you'll eat",
+      "detail": "Never leave leftovers in a turned off oven, rice cooker or microwave overnight. Cool from 135°F to 70°F within 2 hours, then to 41°F within 4 more; if food does not reach 70°F within the first 2 hours it needs to be pitched out. Only reheat the portion you will eat, because repeated reheating and cooling passes food through temperatures that allow growth and toxin formation. Keep the fridge below 41°F; a fridge thermometer is the only way to be sure. Freezing stops growth but growth resumes after thawing; frozen cooked rice best within six months.",
+      "source_url": "https://brunswick.ces.ncsu.edu/2024/02/safety-of-leftover-rice/",
+      "source_title": "Safety of Leftover Rice (N.C. Cooperative Extension, Brunswick County Center)"
+    }
+  ],
+  "real_questions": [
+    "Is rice left in the rice cooker overnight safe if I reheat it?",
+    "Why does the UK say 24 hours for rice when US guidance says 3-4 days?",
+    "Can I reheat leftover rice more than once?",
+    "Is day-old rice for fried rice safe?",
+    "Can you get sick from rice that smells fine?"
+  ],
+  "original_asset": {
+    "type": "worked_example",
+    "spec": "A cooling clock worked from a real time (rice off heat at 6:30 p.m.: below 70°F by 8:30, below 41°F by 12:30 a.m.), plus a keep-or-toss decision table for common scenarios (counter overnight, switched-off rice cooker, keep-warm, fridge day 2/day 5, reheated once already). Uses UF/IFAS, NC State, NDSU, FSS, CDC, registry."
+  },
+  "cautions": [
+    "Registry: refrigerate rice within 1 hour (never beyond 2), leftovers 3-4 days, reheat to 165°F, never judge by smell.",
+    "Do not cite the 7-day commercial date-marking figure; it conflicts with the registry's home leftover window."
+  ],
+  "sources": {
+    "https://www.cdc.gov/mmwr/preview/mmwrhtml/00025744.htm": "Bacillus cereus Food Poisoning Associated with Fried Rice at Two Child Day Care Centers -- Virginia, 1993 (CDC MMWR)",
+    "https://ask.ifas.ufl.edu/publication/FS269": "Preventing Foodborne Illness: Bacillus cereus (UF/IFAS Extension FS269)",
+    "https://www.cfs.gov.hk/english/multimedia/multimedia_pub/multimedia_pub_fsf_97_01.html": "Bacillus cereus in Processed Food (Centre for Food Safety, Hong Kong)",
+    "https://foodstandards.gov.scot/consumers/food-safety/at-home/rice": "Safe food storage | Food Standards Scotland",
+    "https://www.ag.ndsu.edu/news/columns/prairie-fare/prairie-fare-could-rice-be-a-foodborne-illness-hazard": "Prairie Fare: Could rice be a foodborne illness hazard? (NDSU Extension)",
+    "https://brunswick.ces.ncsu.edu/2024/02/safety-of-leftover-rice/": "Safety of Leftover Rice (N.C. Cooperative Extension, Brunswick County Center)"
+  }
+}

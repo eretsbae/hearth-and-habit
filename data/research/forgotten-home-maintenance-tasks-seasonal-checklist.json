@@ -1,0 +1,102 @@
+{
+  "reader_situation": "Homeowners (and some renters) who handle the obvious chores but suspect they're skipping hidden ones. They want a short list of the jobs that quietly fail, how often each really needs doing, and how to tell when one is overdue.",
+  "direct_answer": "The jobs most often skipped are the dryer exhaust duct, the water heater's annual drain and relief-valve check, monthly smoke, CO and GFCI tests (plus replacing alarms by age), gutters and downspouts, an attic and roof look, ceiling fan direction, exterior air leaks, and fridge coils in dusty or pet homes. Each has a specific interval and a specific sign it's overdue.",
+  "consensus": [
+    "Clean the dryer vent, not just the lint trap.",
+    "Flush the water heater about once a year.",
+    "Test smoke and CO alarms monthly and replace smoke alarms every 10 years.",
+    "Clean gutters spring and fall and extend downspouts.",
+    "Reverse ceiling fans seasonally.",
+    "Vacuum refrigerator coils."
+  ],
+  "gaps": [
+    "Dryer ducts have a length budget: PNNL/DOE says no more than 35 feet including fittings, minus 2.5 feet per 45-degree bend and 5 feet per 90-degree bend, in 4-inch rigid or semi-rigid metal duct; vinyl, nylon and foil ducts are not recommended and void most dryer warranties. The old article's '25 feet' line has no source.",
+    "Dryer duct cleaning frequency and why: PNNL recommends professional cleaning at least once a year; USFA found 'failure to clean' was the leading factor in residential dryer fires (34%), with about 2,900 such fires a year (2008-2010) and a January peak. Screens at the outside terminal are a mistake: they collect lint.",
+    "Water heater care is more than a flush: NYSERDA says lift the temperature-and-pressure relief valve lever at least once a year, drain annually, and check the anode rod every 1 to 3 years (check warranty terms first).",
+    "CO alarms have a shorter life than smoke alarms: Seattle Fire puts CO alarm life expectancy at around seven years; an alarm at end of life beeps every 30 seconds or shows ERR/END, and a new battery won't stop it.",
+    "Fridge coils aren't a universal yearly job: Whirlpool says routine condenser cleaning isn't typically needed in a normal home, but homes with pets, heavy kitchen traffic or construction dust should inspect and clean every 3 to 6 months; some models need no cleaning and some only by a technician.",
+    "Ceiling fan winter setting: ENERGY STAR says low speed, clockwise, to push warm ceiling air down, and to turn the fan off when you leave the room.",
+    "Unsupported numbers in the old article (8-12-year water heater life, $5-20 caulk, 5-10-year CO range) should be dropped or replaced with sourced figures."
+  ],
+  "evidence": [
+    {
+      "claim": "Dryer duct length budget and fittings",
+      "detail": "Exhaust ducts should be no more than 35 feet, including equivalent length for any fittings; decreased by 2.5 feet for every 45-degree bend and 5 feet for every 90-degree bend. Duct diameter of 4 inches; rigid or semi-rigid galvanized steel or aluminum with a smooth interior.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/proper-clothes-dryer-venting",
+      "source_title": "Proper Clothes Dryer Venting | Building America Solution Center (PNNL)"
+    },
+    {
+      "claim": "Duct materials, fasteners, termination",
+      "detail": "Vinyl, nylon, and foil ducts are not recommended and if used will void the warranty of most dryers. Transition duct can be up to 8 feet, listed to UL 2158A. Screws that protrude into the duct must not be used. No screen in the duct terminus; a louvered damper is more effective than a single hinged door.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/proper-clothes-dryer-venting",
+      "source_title": "Proper Clothes Dryer Venting | Building America Solution Center (PNNL)"
+    },
+    {
+      "claim": "Dryer duct cleaning interval and clog symptoms",
+      "detail": "At least once a year, have a professional technician clean the dryer exhaust duct. Clean the lint filter before or after each load. Complaints such as clothes too damp, taking too long to dry, clothes getting too hot, or a burning smell; inspections often reveal crushed, kinked, or clogged ducts.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/proper-clothes-dryer-venting",
+      "source_title": "Proper Clothes Dryer Venting | Building America Solution Center (PNNL)"
+    },
+    {
+      "claim": "Dryer fire statistics",
+      "detail": "From 2008 to 2010, an estimated 2,900 clothes dryer fires in residential buildings each year, with 5 deaths, 100 injuries and $35 million in property loss annually. Failure to clean accounted for 34 percent of all clothes dryer fires in residential buildings. Incidence peaked at 11 percent in January.",
+      "source_url": "https://www.usfa.fema.gov/downloads/pdf/statistics/v13i7.pdf",
+      "source_title": "Clothes Dryer Fires in Residential Buildings (2008-2010), Topical Fire Report Series Vol. 13 Issue 7 | U.S. Fire Administration"
+    },
+    {
+      "claim": "USFA dryer maintenance recommendations",
+      "detail": "Clean the lint filter with a nylon brush at least every 6 months. Do not use wire screen or cloth on outside dampers; they collect lint. Make sure the outdoor vent covering opens when the dryer operates. Replace coiled-wire foil or plastic venting with rigid, non-ribbed metal duct. Have gas dryers inspected by a professional annually. Check periodically for nests blocking the outside vent.",
+      "source_url": "https://www.usfa.fema.gov/downloads/pdf/statistics/v13i7.pdf",
+      "source_title": "Clothes Dryer Fires in Residential Buildings (2008-2010), Topical Fire Report Series Vol. 13 Issue 7 | U.S. Fire Administration"
+    },
+    {
+      "claim": "Water heater relief valve, drain and anode schedule (all gas, electric and heat pump units)",
+      "detail": "At least once per year, lift the lever on the TPR valve to check it operates freely and returns to closed; make sure no one can be hit by the hot water released. If it keeps releasing water, disconnect power, close the cold inlet and call a qualified plumber. Drain annually to clear sediment. Check the anode rod every 1 to 3 years and replace as needed; check warranty terms first, a qualified plumber may be required. Visually inspect the heater and piping every few months for damage or leaks.",
+      "source_url": "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/Fact-Sheets/CHC-CON-HPWH-fs-1-v1.pdf",
+      "source_title": "Heat Pump Water Heater Maintenance Tips | NYSERDA"
+    },
+    {
+      "claim": "CO alarm lifespan and end-of-life signal",
+      "detail": "CO alarms have a life expectancy of around seven years. The CO alarm will beep every 30 seconds or display ERR or END; replacing the battery will not stop the beep. Some alarms can silence the signal for 30 days, but that does not solve the issue.",
+      "source_url": "https://fireline.seattle.gov/2021/04/05/replace-your-carbon-monoxide-alarm-every-7-years-or-sooner-if-it-gives-an-end-of-life-signal/",
+      "source_title": "Replace your carbon monoxide alarm every 7 years or sooner if it gives an end-of-life signal | Seattle Fire Department Fire Line"
+    },
+    {
+      "claim": "Ceiling fan winter direction",
+      "detail": "In the winter, operate the ceiling fan at low speed in the clockwise direction. This produces a gentle updraft, which forces warm air near the ceiling down into the occupied space. Remember to turn the ceiling fan off when you leave the room.",
+      "source_url": "https://www.energystar.gov/products/holiday/ceiling_fans",
+      "source_title": "Ceiling Fans | ENERGY STAR"
+    },
+    {
+      "claim": "Refrigerator condenser coil cleaning interval",
+      "detail": "In a normal home operating environment, routine condenser cleaning is not typically needed. Households with pets, heavy kitchen traffic, or dust from construction should inspect and clean every 3 to 6 months. Some models do not require the coils to be cleaned; others can only be cleaned by a certified technician. Unplug the refrigerator or switch off the breaker before cleaning.",
+      "source_url": "https://producthelp.whirlpool.com/Refrigeration/Full-size_Refrigerators/Cleaning_and_Care/How_and_When_to_Safely_Clean_the_Condenser_Coils",
+      "source_title": "How and When to Safely Clean the Condenser Coils | Whirlpool Product Help"
+    }
+  ],
+  "real_questions": [
+    "How long can my dryer vent be, and is the foil accordion duct OK?",
+    "My CO detector is chirping even with a new battery. Why?",
+    "Do I really need to clean fridge coils every year?",
+    "What is the lever on top of my water heater and should I touch it?",
+    "Which way should the ceiling fan spin in winter?"
+  ],
+  "original_asset": {
+    "type": "schedule",
+    "spec": "A master schedule table: task, interval, whose guidance it is, and the sign it's overdue (dryer duct yearly per PNNL with damp-clothes/burning-smell signs; water heater TPR yearly, drain yearly, anode every 1-3 years per NYSERDA; smoke/CO/GFCI monthly per registry; CO alarm ~7 years and 30-second beep per Seattle Fire; smoke alarm 10 years per registry; fridge coils 3-6 months only for pet/dusty homes per Whirlpool; gutters with downspouts 5 ft out per registry). Plus a worked dryer-duct length example: 35 ft - (2 x 5 ft for two 90-degree elbows) - 2.5 ft for one 45-degree = 22.5 ft allowed."
+  },
+  "cautions": [
+    "Water heater flush order per registry: power/gas off, cool, close inlet, drain, flush, refill fully before restoring power.",
+    "Lifting the TPR lever releases scalding water; keep clear and call a plumber if it won't reseat.",
+    "Unplug the fridge before cleaning coils.",
+    "Roof repair and electrical work beyond GFCI testing are for licensed pros."
+  ],
+  "sources": {
+    "https://basc.pnnl.gov/resource-guides/proper-clothes-dryer-venting": "Proper Clothes Dryer Venting | Building America Solution Center (PNNL)",
+    "https://www.usfa.fema.gov/downloads/pdf/statistics/v13i7.pdf": "Clothes Dryer Fires in Residential Buildings (2008-2010) | U.S. Fire Administration",
+    "https://www.nyserda.ny.gov/-/media/Project/Nyserda/Files/Publications/Fact-Sheets/CHC-CON-HPWH-fs-1-v1.pdf": "Heat Pump Water Heater Maintenance Tips | NYSERDA",
+    "https://fireline.seattle.gov/2021/04/05/replace-your-carbon-monoxide-alarm-every-7-years-or-sooner-if-it-gives-an-end-of-life-signal/": "Replace your carbon monoxide alarm every 7 years or sooner if it gives an end-of-life signal | Seattle Fire Department",
+    "https://www.energystar.gov/products/holiday/ceiling_fans": "Ceiling Fans | ENERGY STAR",
+    "https://producthelp.whirlpool.com/Refrigeration/Full-size_Refrigerators/Cleaning_and_Care/How_and_When_to_Safely_Clean_the_Condenser_Coils": "How and When to Safely Clean the Condenser Coils | Whirlpool Product Help"
+  }
+}

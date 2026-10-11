@@ -1,0 +1,97 @@
+{
+  "reader_situation": "Someone just pulled a seasoned cast iron skillet out of the dishwasher (often loaded by a roommate or family member), sees a dull gray or orange-dusted surface, and wants to know whether the pan is ruined and exactly how to fix it.",
+  "direct_answer": "One cycle strips seasoning and usually leaves rust, but the iron itself is fine and Lodge's standard rust fix restores it: scour off the rust in warm soapy water, dry completely, wipe on a very thin coat of oil, and bake upside down at 450–500°F for one hour, then let it cool in the oven. Two catches: Lodge says dishwashing seasoned cast iron voids its warranty, and rust isn't covered. Enameled cast iron is technically dishwasher safe, per Lodge.",
+  "consensus": [
+    "Don't put seasoned cast iron in the dishwasher; it strips seasoning and causes rust.",
+    "One cycle is fixable by scrubbing off rust and re-seasoning.",
+    "Seasoning is oil baked onto the iron.",
+    "Modern dish soap is fine for hand washing.",
+    "Dry thoroughly and oil lightly after washing."
+  ],
+  "gaps": [
+    "The oven step most articles give (including the old version, 400–450°F) is lower than the manufacturer's. Lodge's reseasoning and rust instructions say 450–500°F for one hour, upside down on the top rack with foil on the rack below, then cool in the oven.",
+    "Lodge's warranty: dishwashing seasoned cast iron voids it, and rust, pitting, roughness, sticky seasoning, flaking, and odors are not covered. Cracks and warping in normal household use are covered.",
+    "Lodge names the exact rust recipe: 'put in the dishwasher, allowed to air dry.' The damp, closed tub after the cycle is the problem as much as the detergent.",
+    "Not every post-dishwasher symptom needs a full reseason. Per Lodge troubleshooting: dull or uneven color can be normal and cooking with fat builds seasoning; sticky spots mean too much oil and are fixed by a one-hour bake at 450–500°F; black flakes are carbonized oil and harmless.",
+    "Too much oil is the most common reseasoning mistake: Lodge says excess oil makes the pan sticky; the oil should not run or drip when you tilt the pan.",
+    "Warping and cracking come from heat, not water. Lodge warns uneven heat can warp and even crack cookware and advises a 3–5 minute preheat on medium-low to prevent thermal shock.",
+    "Enameled cast iron is a different case: Lodge says it is technically dishwasher safe but prefers hand washing to preserve the finish; rust on an exposed rim gets a nylon sponge, dish detergent, and thorough drying.",
+    "Drying method: Lodge says dry completely with a towel; Smithey adds putting the pan back on the stovetop over heat until moisture is gone."
+  ],
+  "evidence": [
+    {
+      "claim": "Lodge on dishwashers, soap, soaking",
+      "detail": "No. Our cast iron cookware should be washed by hand. A dishwasher will remove the seasoning and likely cause rust. Soap is totally okay; today's dish soap is no longer strong enough to remove seasoning. Soaking cast iron in water is a recipe for rust. Dry completely with a paper towel or lint-free cloth; add a thin layer of oil.",
+      "source_url": "https://www.lodgecastiron.com/pages/how-to-clean",
+      "source_title": "How to Clean – Lodge Cast Iron"
+    },
+    {
+      "claim": "Lodge rust fix",
+      "detail": "Rust causes include being put in the dishwasher and allowed to air dry. Wash in warm, soapy water with a metal scouring pad (or scour with a Rust Eraser on a cool, dry skillet). Preheat oven to 450-500°F; apply oil without excess (it becomes sticky); bake upside down on the top rack with foil on the bottom rack; bake one hour, cool in the oven.",
+      "source_url": "https://www.lodgecastiron.com/pages/cleaning-and-care-cast-iron-troubleshooting",
+      "source_title": "How to Fix Common Cast Iron Concerns – Lodge Cast Iron"
+    },
+    {
+      "claim": "Lodge on dull, sticky, and flaking surfaces",
+      "detail": "Variations in seasoning coverage can make some areas look darker; if dull, sauté some veggies to build seasoning or reseason. Sticky: bake upside down one hour at 450-500°F; oil should not run or drip when tilted. Black flakes are carbonized bits of oil and not harmful.",
+      "source_url": "https://www.lodgecastiron.com/pages/cleaning-and-care-cast-iron-troubleshooting",
+      "source_title": "How to Fix Common Cast Iron Concerns – Lodge Cast Iron"
+    },
+    {
+      "claim": "What seasoning is and which oil",
+      "detail": "Seasoning is oil baked onto the pan through polymerization, molecularly bonded to the iron. Use an oil with a high smoke point; Lodge prefers vegetable oil, melted shortening, or canola oil. Preheat 450–500°F, very thin layer inside and out, bake 1 hour, cool in oven. Each time you cook with oil or fat you add another layer. Acidic foods can break down seasoning.",
+      "source_url": "https://www.lodgecastiron.com/pages/how-to-season",
+      "source_title": "How to Season – Lodge Cast Iron"
+    },
+    {
+      "claim": "Warranty",
+      "detail": "Seasoned cast iron: do not wash in the dishwasher (voids warranty). Rust, pitting, roughness, sticky seasoning, flaking, and odors are not covered. If seasoned cast iron cracks or warps in normal household use, Lodge will replace it. Damage from misuse, neglect, or overheating excluded.",
+      "source_url": "https://www.lodgecastiron.com/pages/lodge-promise",
+      "source_title": "Made Right Warranty | Lodge Cast Iron"
+    },
+    {
+      "claim": "Heat, not water, warps and cracks",
+      "detail": "Preheat 3-5 minutes on medium-low; this prevents thermal shock, which can damage cookware. Uneven heat can warp and even crack cookware; cookware larger than the burner creates hot spots.",
+      "source_url": "https://www.lodgecastiron.com/pages/how-use-cast-iron-over-any-heat-source",
+      "source_title": "How to Use Cast Iron Over Any Heat Source – Lodge Cast Iron"
+    },
+    {
+      "claim": "Enameled cast iron",
+      "detail": "Technically, enameled cast iron is dishwasher safe, but we prefer hand washing to preserve the finish. Allow to cool before washing; dry promptly. Should rust develop, clean with a nylon sponge and dish detergent and dry thoroughly. Don't put cold ingredients into a hot, empty pan (thermal shock).",
+      "source_url": "https://www.lodgecastiron.com/pages/cleaning-care-enameled-cast-iron",
+      "source_title": "Cleaning & Care: Lodge Enameled Cast Iron"
+    },
+    {
+      "claim": "Smithey rust and drying",
+      "detail": "Scrub the rust away using steel wool or a chainmail scrubber and soapy water; rinse until the water runs clean. Place it back on the stovetop over heat until any moisture is gone. A few drops of dish soap won't hurt. Oil and re-season as needed.",
+      "source_url": "https://smithey.com/pages/care",
+      "source_title": "Care – Smithey Ironware"
+    }
+  ],
+  "real_questions": [
+    "Is my pan ruined after one dishwasher cycle?",
+    "Is the rust safe, and how do I get it off?",
+    "What temperature and how long to reseason?",
+    "Why is my reseasoned pan sticky?",
+    "Can enameled cast iron (Dutch ovens) go in the dishwasher?",
+    "Does this void the warranty?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "Symptom-to-fix table after a dishwasher cycle: orange rust, gray/dull, sticky after reseason, black flakes, enameled piece, using Lodge troubleshooting and seasoning pages; plus a timed recovery sequence (scour, dry on heat, thin oil, 450–500°F 1 hour, cool in oven)."
+  },
+  "cautions": [
+    "Use oven mitts; the pan and oven are at 450–500°F.",
+    "Use a high-smoke-point oil and wipe off excess to avoid sticky residue and smoke.",
+    "Don't plunge a hot pan into cold water."
+  ],
+  "sources": {
+    "https://www.lodgecastiron.com/pages/how-to-clean": "How to Clean – Lodge Cast Iron",
+    "https://www.lodgecastiron.com/pages/cleaning-and-care-cast-iron-troubleshooting": "How to Fix Common Cast Iron Concerns – Lodge Cast Iron",
+    "https://www.lodgecastiron.com/pages/how-to-season": "How to Season – Lodge Cast Iron",
+    "https://www.lodgecastiron.com/pages/lodge-promise": "Made Right Warranty | Lodge Cast Iron",
+    "https://www.lodgecastiron.com/pages/how-use-cast-iron-over-any-heat-source": "How to Use Cast Iron Over Any Heat Source – Lodge Cast Iron",
+    "https://www.lodgecastiron.com/pages/cleaning-care-enameled-cast-iron": "Cleaning & Care: Lodge Enameled Cast Iron",
+    "https://smithey.com/pages/care": "Care – Smithey Ironware"
+  }
+}

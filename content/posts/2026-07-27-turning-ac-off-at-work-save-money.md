@@ -2,9 +2,8 @@
 title: Does Turning the AC Off While You're at Work Actually Save Money?
 slug: turning-ac-off-at-work-save-money
 date: '2026-07-27'
-updated: '2026-09-29'
-description: Yes. Letting the house warm 7–10°F while you're at work saves up to about
-  10%, per the DOE. Here's the dollar math, and when a setback beats turning it off.
+updated: '2026-10-11'
+description: "Yes: a 7–10°F workday setback saves up to about 10%, per DOE. Work out your own dollars, and see when humidity, pets, or a 5–8 p.m. peak rate change the plan."
 tags:
 - energy savings
 - AC and cooling
@@ -16,95 +15,101 @@ hero_alt: House cross-section with a wall thermostat linked to a dollar-sign ico
   a hot sun beats down outside
 pin_hooks:
 - A 7–10°F workday setback saves up to about 10% on cooling
-- Humid climate? Set back to 78–80°F instead of shutting off
+- On a 5–8 p.m. peak rate, finish cooling down before 5
+enriched: '2026-10-11'
 ---
 
-Yes — letting the house warm up 7–10°F while you're at work, whether by setting the thermostat back or switching the AC off, saves money; the U.S. Department of Energy puts the savings for an 8-hour setback at up to about 10% a year on heating and cooling.
+Yes. The US Department of Energy (DOE) says turning the thermostat back 7–10°F for 8 hours a day can save up to about 10% a year on heating and cooling. Switching the AC off is the far end of that same setback.
 
-Turning it off completely saves a bit more than a setback, but the difference is often smaller than people expect — and in humid climates, going fully off can backfire. For the year-round version of this logic, including why recovering from a setback doesn't cancel out the savings, see [the right thermostat settings for every season](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html). This guide focuses on the summer workday: what it's worth in dollars and which approach fits your house.
+The DOE figure is for a daily routine: letting the house warm while you're out, then bringing it back down. So the cool-down when you get home is part of that routine, not something added on top of it. What changes the answer for a particular house is humidity, who's home during the day, and when your utility charges the most. Those are covered below, after the math.
 
-## The Core Logic: Why "Off Time" Saves Money At All
+## Why this matters more on your electric bill than you'd think
 
-**It works because your AC only spends energy fighting the gap between outdoor and indoor temperature.** The bigger that gap, the harder (and longer) your system runs. Let it drift up while you're out, and you shrink the number of hours it's working against a big gap.
+The US Energy Information Administration (EIA) says air conditioning accounted for 19% of home electricity use in 2020. About 89% of US homes used AC that year, up from 57% in 1980. DOE's *Energy Saver 101: Home Cooling* puts space cooling at just 6% of a household's total energy, counting gas and other fuels. Home cooling mostly runs on electricity, though, so in summer it shows up on your power bill.
 
-![Indoor temperature over a workday: AC off drifts highest and needs a long recovery; a 7–10°F setback levels off; constant stays flat](/images/turning-ac-off-at-work-save-money-diagram.svg)
+## Work out your own savings
 
-- **Empty rooms don't care about the temperature.** Your house doesn't need to hold 72°F every minute of the day — it just needs to feel right when you're using the rooms.
-- **Duration and gap size both count.** A 2-degree setback for 8 hours saves less than an 8-degree setback for 8 hours, but both save something.
+You need two numbers from your bills: your summer usage and your usage in a mild month with no heating or cooling.
 
-## What It's Worth in Dollars
+**Step 1: find your cooling kWh.** As an example:
 
-Apply the DOE's "up to about 10%" to the cooling part of your bill. Say cooling accounts for $150 of your July electric bill:
+- July usage: 1,500 kWh
+- April usage (no AC, no heat): 600 kWh
+- Cooling ≈ 1,500 − 600 = 900 kWh
 
-- Up to 10% of $150 = **up to about $15 a month**.
-- Over a four-month cooling season, that's **up to about $60**.
+**Step 2: price it.** The US average residential rate is roughly 17–18¢ per kWh (EIA). At 17¢:
 
-To estimate your own cooling share, compare a summer bill with a mild spring month; the difference is roughly what the AC costs. In kWh terms: if the AC adds 900 kWh to a summer month at the U.S. average of about 17¢ per kWh, that's about $153 — and a 10% cut is about 90 kWh, or roughly $15. Swap in the rate from your own bill.
+- 900 kWh × $0.17 = $153 of cooling that month
 
-## Where "Off" Beats a Setback
+**Step 3: apply the setback.** DOE's figure is "up to" about 10%:
 
-- **Hot, dry climates (Southwest, interior California, parts of the Mountain West).** Low humidity means your house won't get swampy or musty while the AC's off. In milder dry weather, full shutoff works well; during extreme heat, a closed house can get hot enough that recovery takes a long time on a small or older system, so a high setback is often the easier option.
-- **Well-insulated, newer homes.** Good insulation and tight ductwork mean the house heats up slowly during the day and cools back down fast when you get home.
-- **Anyone with a programmable or smart thermostat.** You can schedule the exact minute it kicks back on before you walk in, so "off" doesn't mean walking into a sauna. This removes most of the downside.
+- $153 × 0.10 = up to about $15 a month
+- Over a four-month cooling season: 4 × $15 = up to about $60
 
-**Key takeaway: full shutoff saves the most, but only pays off cleanly when humidity and insulation are on your side.**
+Swap in your own kWh and the rate printed on your bill. Rates range from about 11¢ to over 40¢ by state, so the same habit is worth very different amounts in different places.
 
-## Where a Setback (Not Full Off) Is the Smarter Move
+## The other lever: the temperature you keep while you're home
 
-- **Humid climates (Southeast, much of the Midwest and Mid-Atlantic, humid parts of Canada in summer).** Your AC is also your main dehumidifier. Shut it off for a whole workday and indoor humidity can climb. One warm afternoon won't grow mold, but day after day of indoor humidity above 60% invites musty smells and mildew — the EPA recommends keeping it below 60%, ideally 30–50%. A setback to around 78–80°F keeps the AC cycling and pulling moisture out. An inexpensive hygrometer tells you whether your house stays in range while you're gone, and if a basement already smells damp by August, see [why a basement smells musty only in summer](https://www.hearth-habit.com/2026/09/why-does-my-basement-smell-musty-only.html).
-- **Homes with finished basements or humidity-sensitive rooms.** Instruments, wood furniture, hardwood floors, and anything stored in a basement handle steady conditions better than big daily humidity swings. A moderate setback avoids the whiplash.
-- **Homes with pets home all day.** Pets can overheat in a closed, hot house, especially older animals and short-nosed breeds. A setback to the high 70s keeps things safe without paying for full comfort cooling.
-- **Older AC units or older homes with poor insulation.** If your system has to work overtime to bring the temperature back down from a full shutoff, a long, hard recovery run can eat into the savings. A moderate setback is gentler on an aging compressor.
+The workday setback is only half the bill. The Sacramento Municipal Utility District (SMUD) advises 78°F or higher in summer. It estimates around 5–10% savings on cooling costs for every 2 degrees you raise the setting. DOE adds that ceiling fans let you set the thermostat about 4°F higher with no loss of comfort.
 
-## The Recovery Run: Real, but Usually Smaller Than the Savings
+Continuing the example, raising the home setting by 4°F with fans running is two 2-degree steps:
 
-Bringing a hot house back down isn't free. Instead of short bursts to maintain 72°F, your AC may run continuously for an hour or more to pull the temperature down 8–10 degrees, especially on a 95°F day. For most homes, though, the energy saved while the house sat warm is larger than the recovery cost.
+- Low end: 2 × 5% = about 10%, or $153 × 0.10 ≈ $15 a month
+- High end: 2 × 10% = about 20%, or $153 × 0.20 ≈ $31 a month
 
-Where recovery does bite is older, undersized, or struggling units that run flat-out for a long stretch — stress that can shorten compressor life over years. A smart or programmable thermostat fixes most of this: schedule the recovery to start 30–45 minutes before you're due home instead of the second you walk in.
+That's SMUD's estimate for its own customers, so treat it as a ballpark. The point is that the setting you live with every evening can be worth as much as the setback while you're away. Fans cool people, not rooms, DOE notes, so switch them off when you leave.
 
-## What Actually Determines Your Savings Number
+![Decision flow for the workday: humid house, people or pets home, or a 5 to 8 p.m. peak rate each change whether to set back or switch off](/images/turning-ac-off-at-work-save-money-diagram.svg)
 
-**There's no single percentage that applies to every house — it depends on a short list of factors you can walk through yourself:**
+## Off or setback? Match it to your house
 
-1. **Local climate and how hot it gets during your work hours.** A setback in Phoenix during a 105°F afternoon saves more raw dollars than the same setback in Seattle, simply because the AC is working harder to begin with.
-2. **How many hours the house is actually empty.** A typical 8–9 hour workday earns more savings than a household where someone's home by early afternoon.
-3. **Insulation and window quality.** Homes with older single-pane windows or minimal attic insulation heat up faster while you're gone, which trims the savings. A well-sealed house makes any thermostat strategy work better — our [caulking guide](https://www.hearth-habit.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html) covers where the gaps usually hide.
-4. **Your electricity rate structure.** If your utility charges more during peak afternoon hours (common with time-of-use plans), letting the AC sit idle during those exact hours saves more than the percentage alone suggests, because you're avoiding the most expensive kilowatt-hours of the day.
-5. **The size and efficiency of your AC system.** A newer, right-sized system recovers faster and cheaper than an old, oversized, or undersized one.
+| Your situation | Do this | Why |
+|---|---|---|
+| Dry climate, nobody home all day | Off, or a large setback | No one needs cooling and the air needs little drying |
+| Humid climate, nobody home all day | Setback of 7–10°F, not off | The AC is also your dehumidifier |
+| Pets, an infant, or a heat-sensitive person home (any climate or rate) | Keep it on at a moderate setting | Comfort and safety come before savings |
+| Time-of-use rate with an evening peak | Set back during the day, cool down *before* the peak | Avoids running the AC at the highest price |
+| Smart thermostat | Let it set back automatically | Geofencing knows when you leave |
 
-## A Simple Decision Checklist
+### Humid climates: the AC is also drying the air
 
-Run through this before deciding what to do at 8 a.m. tomorrow:
+DOE explains that an air conditioner's cooling coils remove both heat and humidity, and that one reason AC makes you feel cooler is the drier air. Switch it off for a whole humid workday and nothing is pulling that moisture out. The EPA wants indoor humidity below 60%, ideally 30–50%, to limit mold.
 
-- [ ] **Do I have a programmable or smart thermostat?** If yes, lean toward full shutoff or an aggressive setback — you control the recovery timing.
-- [ ] **Is my climate humid in summer?** If yes, use a setback (78–80°F) instead of full off, to keep indoor humidity under control.
-- [ ] **Is anyone or any pet home during the day?** If yes, keep it at or below about 80°F — comfort and safety outrank marginal savings.
-- [ ] **Is my AC unit old or already struggling to keep up on hot days?** If yes, use a moderate setback rather than full shutoff to avoid a brutal recovery cycle.
-- [ ] **Do I have a time-of-use electricity plan?** If yes, prioritize keeping the AC off or high during peak pricing hours specifically.
-- [ ] **Is my home well-sealed and insulated?** If yes, you can push the setback further since the house won't overheat too fast or take forever to recover.
+A setback keeps the system cycling now and then, which keeps some drying going. If you're unsure how your house behaves, a cheap hygrometer will show whether humidity climbs past 60% while you're gone. If your basement already turns musty by August, see [why a basement smells musty only in summer](https://www.hearth-habit.com/2026/09/why-does-my-basement-smell-musty-only.html).
 
-## The Bottom Line Number
+### Time-of-use rates: when you cool down matters
 
-For most North American homes, a **7–10°F daytime setback for 8 hours saves up to about 10% on cooling**, per the DOE's rule of thumb — on a $150 monthly cooling cost, up to about $15 a month. Full shutoff can push that a bit higher, but the gap between "off" and "smart setback" is usually smaller than the gap between "doing nothing" and "doing either one."
+On a time-of-use plan, the price per kWh depends on the hour. SMUD's Time-of-Day rate, for example, makes 5 to 8 p.m. on weekdays the most expensive window. It specifically asks customers to avoid running the air conditioner alongside other big appliances then.
 
-**The habit matters more than the exact number.** If you're already covering the [no-cost basics](https://www.hearth-habit.com/2026/07/how-to-cut-your-electric-bill-without.html) — closing blinds on the sun-facing side, running ceiling fans in occupied rooms — a daytime setback stacks on top of those savings rather than replacing them.
+Picture getting home at 5:30 and cranking the AC down. The cool-down then runs at the peak price. Schedule the thermostat to start cooling earlier in the afternoon, so the work is done before 5. You still save on the empty hours, and the catch-up happens at the cheaper rate. Check your own utility's peak hours, since they vary by plan.
+
+### Smart thermostats do the remembering
+
+ENERGY STAR says certified smart thermostats can use geofencing (your phone's location) to detect when you've left and set the system back. It estimates about $100 a year in savings for homes with high heating and cooling bills, or homes that sit empty much of the day. That's exactly the household this question comes from. Our guide to [thermostat settings for every season](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html) covers the winter side of the same schedule.
+
+## Before you blame the thermostat
+
+If the setback isn't moving your bill, the system itself may be wasting energy. DOE's cooling guide says routinely replacing or cleaning the air filter can lower AC energy use by 5–15%. It also says air lost through ducts can account for about 30% of a cooling system's energy. Leaky window and door trim lets hot air in all day too. Our [caulking guide](https://www.hearth-habit.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html) covers where those gaps hide. These [no-cost habits for a lower electric bill](https://www.hearth-habit.com/2026/07/how-to-cut-your-electric-bill-without.html) stack on top of a setback rather than replacing it.
 
 ## FAQ
 
-### Should I turn my AC all the way off or just raise the temperature?
-For most humid North American climates, raise it (a setback to 78–80°F) rather than shutting it off completely. You keep indoor humidity in check and get an easier recovery. In dry climates with a smart thermostat, full shutoff is fine and saves slightly more.
+### Doesn't the AC have to work harder later, cancelling the savings?
 
-### How many degrees should I raise the thermostat while I'm at work?
-The DOE's rule of thumb is 7–10°F above your normal comfort setting for the hours you're away. Going higher saves a little more but lengthens recovery and, in damp climates, lets humidity climb.
+The cool-down does use energy, but DOE's estimate of up to about 10% is for the routine of setting back and returning to normal every day. The house gains less heat while it's warmer inside, and that's where the savings come from. Timing matters more than the cool-down itself, especially on a time-of-use plan.
 
-### Will turning the AC off shorten its lifespan?
-Not from occasional daily cycling — that's normal. The concern is with very old or undersized units that struggle through long, hard recovery runs; in those cases, a moderate setback is gentler than a full shutoff-and-blast-cool cycle.
+### Is it safe to leave pets in the house with the AC off?
 
-### Is it cheaper to leave the AC running all day at a lower level than to cycle it?
-No — for most homes, letting the temperature drift up while you're gone and recovering when you're back still beats holding a steady low temperature all day, because you're not paying to cool empty rooms for hours at a time.
+On a hot day, a closed house with the AC off can get uncomfortable fast, and that's a risk for pets, babies, and anyone heat-sensitive. Use a moderate setback instead of switching it off when someone, human or animal, stays home.
+
+### What setting should I use while I'm home?
+
+SMUD recommends 78°F or higher in summer, and DOE says ceiling fans let you raise the setting about 4°F without losing comfort. Start there and adjust in 2-degree steps.
 
 ## Sources
 
-- [Programmable Thermostats — DOE Energy Saver](https://www.energy.gov/energysaver/programmable-thermostats) — a 7–10°F setback for 8 hours a day saves up to about 10% a year
-- [A Brief Guide to Mold, Moisture, and Your Home — EPA](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home) — keep indoor humidity below 60%, ideally 30–50%
-- [Average Price of Electricity to Ultimate Customers — EIA](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a) — the roughly 17–18¢ per kWh U.S. residential average
+- [Programmable Thermostats (DOE Energy Saver)](https://www.energy.gov/energysaver/programmable-thermostats) — a 7–10°F setback for 8 hours a day saves up to about 10% a year
+- [Energy Saver 101: Home Cooling (DOE)](https://www.energy.gov/sites/prod/files/HomeCooling101-final.pdf) — fans allow about 4°F higher, AC removes humidity, space cooling 6% of household energy, filters 5–15%, ducts about 30%
+- [Electricity use in homes (EIA)](https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php) and [Average Price of Electricity (EIA)](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a) — AC at 19% of home electricity, 89% of homes with AC; the roughly 17–18¢ per kWh average
+- [Time-of-Day (5–8 p.m.) Rate (SMUD)](https://www.smud.org/Rate-Information/Residential-rates/Time-of-Day-5-8pm-Rate) — weekday 5–8 p.m. peak, 78°F or higher, about 5–10% per 2 degrees
+- [Smart Thermostats](https://www.energystar.gov/products/smart_thermostats) and [Heat & Cool Efficiently](https://www.energystar.gov/saveathome/heating-cooling) (ENERGY STAR) — geofencing setbacks, about $100 a year for homes empty much of the day
+- [A Brief Guide to Mold, Moisture, and Your Home (EPA)](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home) — keep indoor humidity below 60%, ideally 30–50%

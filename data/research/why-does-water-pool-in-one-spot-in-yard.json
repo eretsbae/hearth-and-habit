@@ -1,0 +1,99 @@
+{
+  "reader_situation": "A homeowner sees the same puddle in the same spot after every rain, sometimes near the house and sometimes out in the lawn. They want to know why it happens there, whether it threatens the foundation, and which fix fits without hiring a drainage contractor.",
+  "direct_answer": "The spot is lower than its surroundings, sits on compacted or slow-draining soil, or collects runoff from a downspout or higher ground. Where the puddle is and how long it lasts tells you which: near the house, check downspouts (end them at least 5 feet out) and the grade (about a 6-inch drop over the first 10 feet); in the lawn, test compaction and drainage; if water sits past 24 hours, the soil isn't absorbing it.",
+  "consensus": [
+    "Puddles come from low spots, compacted or clay soil, or grading that funnels water.",
+    "Slope soil away from the foundation and extend downspouts.",
+    "Fill shallow low spots with soil and reseed.",
+    "Core aeration relieves compaction.",
+    "French drains, swales, and rain gardens handle bigger runoff problems.",
+    "Call 811 before digging."
+  ],
+  "gaps": [
+    "The old article's '1 inch per hour' percolation threshold and 12-inch hole had no source. UConn's homeowner test: dig a 6-8 inch hole, fill it, check after 6 hours; gone = suitable, 6-24 hours = probably acceptable with amending, still there after 24 hours = choose another site. Water should infiltrate within 24 hours.",
+    "Topdressing layers should be thin: UW-Extension says usually no more than 1/4-1/2 inch, with at least half the grass leaf height left visible, repeated over several months. The old article's '1 inch at a time' is too thick.",
+    "Use topdressing soil that matches the existing soil to prevent layering; an unmixed layer of 'black dirt' or muck soil stops water from draining deeper and creates a wet area. UW-Extension says compost should be used cautiously because some composts seal off the soil.",
+    "Compaction check from UW-Extension: the ground is compacted if you can't push a pen into dry soil. Core (hollow-tine) aeration is most effective; solid tines may increase compaction, and spiked shoes are totally ineffective. Remove cores about 3 inches deep, aerate when soil is slightly moist (water 1-2 days before if dry), during active growth (early autumn in Wisconsin).",
+    "Regular core aeration (one to two times a year) can smooth a surface over several years as soil from the cores washes into low spots.",
+    "Rain gardens are not for spots that are always wet: UConn says avoid a low area that always seems wet, keep a rain garden at least 10 feet from a house with a basement, and size it as drainage area x 1.3 / 6 for a 6-inch-deep garden. A properly designed one holds water only about 6 hours.",
+    "Mosquito timing: CDC says an Aedes mosquito egg takes 7-10 days to become an adult, so standing water that lasts days matters more than a puddle gone by morning.",
+    "The French drain cost range in the old article ($1,500-5,000) had no source; drop it. EPA cautions that redirected water must not cause property damage or problems, so check local rules and where the water ends up."
+  ],
+  "evidence": [
+    {
+      "claim": "Homeowner percolation test and siting",
+      "detail": "Dig a test hole 6 to 8 inches deep where the garden would go; check after 6 hours. If water is gone the site is suitable; if it takes 6 to 24 hours it is probably acceptable but soil may need amending; if water remains after 24 hours choose a different site. Water should infiltrate the ground within 24 hours. Avoid a low area that always seems wet. Keep at least 10 feet from a house with a basement. Don't build over a septic system, near a drinking water well, or where bedrock is less than 2 feet below the surface. New construction may leave 2-3 inches of topsoil over compacted subsoil.",
+      "source_url": "https://nemo.uconn.edu/raingardens/sizing/",
+      "source_title": "Siting and Sizing | UConn Rain Gardens"
+    },
+    {
+      "claim": "Rain garden sizing",
+      "detail": "Size the garden to hold 1 inch of runoff from the contributing impervious surface: multiply the drainage area by 1.3, then divide by 6 for the garden area in square feet at 6 inches deep. Gutters often drain to both ends of a house, so the roof area may be halved.",
+      "source_url": "https://nemo.uconn.edu/raingardens/sizing/",
+      "source_title": "Siting and Sizing | UConn Rain Gardens"
+    },
+    {
+      "claim": "Rain gardens drain quickly and don't breed mosquitoes",
+      "detail": "A properly designed rain garden will hold water for only about 6 hours after a storm. Plant costs can be around $1-2 per square foot. Typical residential rain garden is 50 to 100 square feet.",
+      "source_url": "https://nemo.uconn.edu/raingardens/faqs/",
+      "source_title": "Frequently Asked Questions | UConn Rain Gardens"
+    },
+    {
+      "claim": "Compaction test, aerator types, timing",
+      "detail": "Compacted soil limits water infiltration and oxygen to roots; the ground is compacted if you cannot push a pen into dry soil. Hollow tine (core) aerators are most effective; remove cores as deep as possible, usually 3 inches. Solid tines may increase compaction; spiked shoes are totally ineffective. Aerate when soils are slightly moist; if dry, water 1-2 days before. Best time in Wisconsin is early autumn (Sept 1-30), or mid to late spring. Sandy soils rarely need aeration. Regular core aeration, up to one to two times a year, can smooth a surface over several years as core soil washes into low spots. Most lawns benefit from aeration every 1-5 years.",
+      "source_url": "https://hort.extension.wisc.edu/files/2023/12/A3710.pdf",
+      "source_title": "Lawn Aeration and Topdressing (A3710) | University of Wisconsin-Extension"
+    },
+    {
+      "claim": "Topdressing depth, soil match, and dips",
+      "detail": "Topdressing is a thin layer of soil, usually no more than 1/4-1/2 inch. Small additions to selected sites can help correct constantly wet areas. Use a soil type that matches the underlying soil to prevent layering. Composts should be used cautiously, if at all; some may seal off the soil. An unmixed layer of black dirt or muck will prevent water from draining deeper, resulting in a wet area and often killing turf. At least half of the leaf height should be visible; several additions may be needed over several months. Large dips may be corrected by adding soil with a shovel. Order amount: area x depth in feet; 1/4 inch on 10,000 sq ft = 200 cubic feet; divide by 27 for cubic yards.",
+      "source_url": "https://hort.extension.wisc.edu/files/2023/12/A3710.pdf",
+      "source_title": "Lawn Aeration and Topdressing (A3710) | University of Wisconsin-Extension"
+    },
+    {
+      "claim": "Downspout termination",
+      "detail": "Install gutters and downspouts terminating at least 5 feet away from the foundation, or to an underground catchment system at least 10 feet away from foundations; sloping finish grade at least 5 feet from the foundation.",
+      "source_url": "https://bsesc.energy.gov/energy-basics/stormwater-gutters-downspouts",
+      "source_title": "Stormwater: Gutters and Downspouts | DOE Building Science Education"
+    },
+    {
+      "claim": "Redirecting downspouts responsibly",
+      "detail": "Downspout water can be redirected to a lawn or garden where it can soak into the ground. Consider local regulations and where the water will be directed to avoid property damage, unsafe conditions, or other potential problems. Disconnection may not be appropriate for all locations.",
+      "source_url": "https://www.epa.gov/soakuptherain/soak-rain-disconnect-redirect-downspouts",
+      "source_title": "Soak Up the Rain: Disconnect and Redirect Downspouts | US EPA"
+    },
+    {
+      "claim": "Mosquito development time",
+      "detail": "A mosquito egg takes 7-10 days to develop into an adult mosquito (Aedes). Larvae live in the water.",
+      "source_url": "https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html",
+      "source_title": "Life Cycle of Aedes Mosquitoes | CDC"
+    }
+  ],
+  "real_questions": [
+    "Is a puddle near my foundation going to cause a wet basement?",
+    "How do I tell if my soil is compacted or just low?",
+    "Can I just dump topsoil in the low spot?",
+    "Should I put a rain garden where the water already pools?",
+    "How long is too long for water to sit in the yard?",
+    "Do I need a French drain?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "A table by location and timing: near the house (downspout ends under 5 ft, grade not dropping about 6 inches in 10 ft), open lawn with water gone in hours (low spot: topdress 1/4-1/2 inch at a time), water still there at 24 hours (perc test per UConn; pen test per UW; core aerate), water arriving from higher ground (swale/rain garden sited 10+ ft from a basement, not in the always-wet spot). Worked examples: filling a 2-inch dip at 1/2 inch per application = 4 applications over months; topdressing volume for 200 sq ft at 1/4 inch = 200 x 0.02 = 4 cubic feet; rain garden for 600 sq ft of roof = 600 x 1.3 / 6 = 130 sq ft at 6 inches deep."
+  },
+  "cautions": [
+    "Call 811 a few business days before digging a test hole, trench, or rain garden (registry).",
+    "Don't send redirected water toward a neighbor's property, a septic system, or a well.",
+    "Keep rain gardens at least 10 feet from a house with a basement (UConn).",
+    "Don't put a thick layer of black dirt, muck, or mismatched soil over the low spot; it creates a wetter spot.",
+    "No retrieved source gave a French drain cost range; don't state one."
+  ],
+  "sources": {
+    "https://nemo.uconn.edu/raingardens/sizing/": "Siting and Sizing | UConn Rain Gardens",
+    "https://nemo.uconn.edu/raingardens/faqs/": "Frequently Asked Questions | UConn Rain Gardens",
+    "https://hort.extension.wisc.edu/files/2023/12/A3710.pdf": "Lawn Aeration and Topdressing (A3710) | University of Wisconsin-Extension",
+    "https://bsesc.energy.gov/energy-basics/stormwater-gutters-downspouts": "Stormwater: Gutters and Downspouts | DOE Building Science Education",
+    "https://www.epa.gov/soakuptherain/soak-rain-disconnect-redirect-downspouts": "Soak Up the Rain: Disconnect and Redirect Downspouts | US EPA",
+    "https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html": "Life Cycle of Aedes Mosquitoes | CDC"
+  }
+}

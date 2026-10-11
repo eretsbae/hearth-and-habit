@@ -1,0 +1,54 @@
+{
+  "reader_situation": "A home cook keeps finding green shoots in the onion basket or garlic bulbs a week or two after buying them, and wants to know what's causing it, where to keep them instead, and whether sprouted bulbs are still usable.",
+  "direct_answer": "Onions and garlic sprout because storage temperature has broken their dormancy. Commercial storage guidance says onion dormancy breaks anywhere from 41 to 68°F, and garlic sprouts rapidly from 40 to 64°F. That band covers most pantries and the 'cool room temperature' spot many guides recommend. Sprouts mean too warm; roots and mold mean too damp. At home, either keep them a short time at room temperature in dry, airy storage, or keep them cold and dry and don't move them back and forth.",
+  "consensus": [
+    "Store whole onions and garlic in a cool, dry, dark, ventilated place, not in plastic bags.",
+    "Keep onions away from potatoes.",
+    "Sprouted onions and garlic can still be used; remove the green shoot if it tastes bitter.",
+    "Don't refrigerate whole onions or garlic (common advice, but storage data are more nuanced).",
+    "Buy only what you'll use."
+  ],
+  "gaps": [
+    "The sprouting temperature band is wider than most articles say. The Global Cold Chain Alliance storage manual says onion dormancy is broken by storage at 41 to 68°F, and garlic cloves sprout rapidly at 40 to 64°F. The old article's '60-65°F target' sits inside both bands.",
+    "Sprouts and roots point to different causes. The manual says sprouts indicate too high a storage temperature and root growth indicates too high relative humidity.",
+    "Humidity has a ceiling. The manual recommends 65-70% relative humidity for dry onions; higher humidity disposes them to rot, mold, and root growth and can cut storage time in half. Garlic stored above 70% humidity at any temperature will probably mold, sprout, and grow roots.",
+    "Room temperature is a short-term option, not a failure. The onion manual says ambient storage of dry onions may be acceptable for 1 to 1.5 months depending on variety.",
+    "Onion type matters more than most guides say. UGA Extension lists mild onions at under 1 month and pungent onions at 6 to 9 months even at 32°F; the cold chain manual lists Bermuda (sweet) 1-2 months, Spanish 3-6, and Globe 6-8.",
+    "Extension sources don't agree on one home temperature: Iowa State says 32-40°F at 65-70% humidity; Clemson HGIC says 45-55°F at 50-60% humidity. Commercial storage holds both crops at 32°F.",
+    "A cold fridge isn't the enemy temperature-wise. In a University of Minnesota-linked SARE trial, garlic stored at 32°F lost 5-7% of its weight while bulbs at 40°F or higher lost 35-40%, and the project advised storing eating garlic below 40°F.",
+    "Sweet onions are the case where a fridge clearly helps. The Vidalia grower site says sweet onions last 1-2 months on the counter or 3-6 months in the refrigerator veggie bin, each wrapped in paper towels to absorb moisture."
+  ],
+  "evidence": [
+    {"claim": "Onion dormancy breaks at 41-68°F; sprouts mean too warm, roots mean too humid", "detail": "Sprouts, or top growth, are an indication of too high storage temperature, whereas root growth indicates too high relative humidity. Mature onion bulbs stored at 32°F are dormant; dormancy is broken by storage at 41 to 68°F (5 to 20°C), resulting in sprouting. Top growth is the more objectionable because once started it is most difficult to check.", "source_url": "https://www.gcca.org/commodity/onions", "source_title": "GCCF Commodity Storage & Handling Manual: Onions and Onion Sets (Global Cold Chain Alliance, revised 2024)"},
+    {"claim": "Onion humidity limit and ambient storage window", "detail": "A comparatively low RH of 65 to 70% is recommended for dry onions; higher humidity disposes onions to rot, surface mold, and root growth and can reduce the storage period by half. Onions should be held at 32°F for maximum shelf life. Storage of dry onions at ambient temperature may be acceptable for short periods (1 to 1.5 months) depending on the variety.", "source_url": "https://www.gcca.org/commodity/onions", "source_title": "GCCF Commodity Storage & Handling Manual: Onions and Onion Sets (Global Cold Chain Alliance, revised 2024)"},
+    {"claim": "Storage life by onion type at 32°F; odor transfer", "detail": "At 32°F and 65-70% RH: Bermuda 1-2 months, Globe 6-8 months, Spanish 3-6 months. Onions should not be stored with apples, dried fruits, or shell eggs; onions may be stored with garlic. Apples, pears, celery, citrus, and eggs absorb odor from onions.", "source_url": "https://www.gcca.org/commodity/onions", "source_title": "GCCF Commodity Storage & Handling Manual: Onions and Onion Sets (Global Cold Chain Alliance, revised 2024)"},
+    {"claim": "Garlic sprouts rapidly at 40-64°F; humidity above 70% causes mold, sprouts, roots", "detail": "Storage conditions 32°F, 60 to 70% RH with ventilation, 6 to 7 months if properly cured. Garlic cloves sprout rapidly at temperatures of 40 to 64°F, so prolonged storage at this range should be avoided. Garlic stored at humidity higher than 70%, at any temperature, will probably mold, sprout, and start to grow roots. Incomplete curing results in excessive decay.", "source_url": "https://www.gcca.org/commodity/garlic", "source_title": "GCCF Commodity Storage & Handling Manual: Garlic (Global Cold Chain Alliance, revised 2024)"},
+    {"claim": "Mild onions store far shorter than pungent onions", "detail": "Mild onions: 32°F, storage life under 1 month, 65-70% RH with air circulation. Pungent onions: 32°F, 6-9 months. Garlic: 30-32°F, under 9 months, 60-70% RH.", "source_url": "https://fieldreport.caes.uga.edu/publications/C1205/", "source_title": "Quick Storage Guide for Vegetable Crops (Circular 1205, UGA Cooperative Extension)"},
+    {"claim": "Iowa State home storage guidance for onions", "detail": "Storage temperatures should be 32-40°F with relative humidity 65-70%, in a cool, moderately dry location such as a basement, cellar, or garage, in a mesh bag, wire basket, or crate that lets air circulate. If storage temperatures are too warm, the onions may sprout. Rotting may be a problem in damp locations.", "source_url": "https://yardandgarden.extension.iastate.edu/article/2015/07-24/onions.htm", "source_title": "All About Onions | Iowa State University Extension and Outreach"},
+    {"claim": "Clemson HGIC home storage range", "detail": "Thoroughly air-dry bulbs before storage. Ideal conditions are between 45°F and 55°F and 50 to 60 percent humidity, in shallow boxes or mesh bags in a cool, well-ventilated place. Short-day (mild, sweet) onions do not store especially well.", "source_url": "https://hgic.clemson.edu/factsheet/onion/", "source_title": "Onion, Leek, Shallot, & Garlic | Clemson Home & Garden Information Center"},
+    {"claim": "Garlic weight loss at 40°F vs 32°F", "detail": "Bulbs stored at 32°F lost 5-7% of fresh weight, whereas bulbs stored at 40°F or higher lost 35-40%. Bulbs stored at 40°F started sprouting after 9 months in cold storage. Some bulbs stored at 32°F and transferred to room temperature sprouted by 2 months after the transfer. Farmers selling garlic for consumption should store it below 40°F.", "source_url": "https://projects.sare.org/sare_project/onc22-115/", "source_title": "On farm evaluations of novel methods to increase garlic marketable yield (SARE project ONC22-115)"},
+    {"claim": "Sweet onions last longer in the fridge crisper, wrapped", "detail": "Vidalias can last as long as 1-2 months on the counter, or 3-6 months in the refrigerator veggie bin. Keep them cool, dry, and separated; wrap each bulb individually in paper towels to absorb moisture. Don't store with potatoes; they make onions spoil quicker.", "source_url": "https://www.vidaliaonions.com/storage/", "source_title": "Vidalia Onion Storage Tips & Handling | VidaliaOnions.com"}
+  ],
+  "real_questions": [
+    "Why does my garlic sprout even in the fridge?",
+    "Is a sprouted onion or garlic still OK to use?",
+    "Should onions go in the fridge or the pantry?",
+    "Can onions and potatoes be stored together?",
+    "Why do my onions grow roots and go soft?"
+  ],
+  "original_asset": {"type": "diagnostic_flow", "spec": "Symptom table: green shoot, roots at the base, mold or soft spots, shriveling, and short life on sweet onions, each mapped to cause (temperature, humidity, onion type, curing) and fix, using the GCCA manual, UGA, Iowa State, and Vidalia data. Plus a temperature band chart: 32°F commercial target, 40-64°F garlic sprouting band, 41-68°F onion dormancy-break band."},
+  "cautions": [
+    "Discard bulbs with mold or rot; sprouting is a quality issue in storage guides, not described as a safety issue.",
+    "Garlic or onion odor transfers to other foods; keep away from apples, pears, and eggs.",
+    "Home fridges should run at 40°F or below (registry); the fridge is a short-term or sweet-onion option, kept dry."
+  ],
+  "sources": {
+    "https://www.gcca.org/commodity/onions": "GCCF Commodity Storage & Handling Manual: Onions and Onion Sets (Global Cold Chain Alliance, revised 2024)",
+    "https://www.gcca.org/commodity/garlic": "GCCF Commodity Storage & Handling Manual: Garlic (Global Cold Chain Alliance, revised 2024)",
+    "https://fieldreport.caes.uga.edu/publications/C1205/": "Quick Storage Guide for Vegetable Crops (Circular 1205, UGA Cooperative Extension)",
+    "https://yardandgarden.extension.iastate.edu/article/2015/07-24/onions.htm": "All About Onions | Iowa State University Extension and Outreach",
+    "https://hgic.clemson.edu/factsheet/onion/": "Onion, Leek, Shallot, & Garlic | Clemson Home & Garden Information Center",
+    "https://projects.sare.org/sare_project/onc22-115/": "On farm evaluations of novel methods to increase garlic marketable yield (SARE project ONC22-115)",
+    "https://www.vidaliaonions.com/storage/": "Vidalia Onion Storage Tips & Handling | VidaliaOnions.com"
+  }
+}

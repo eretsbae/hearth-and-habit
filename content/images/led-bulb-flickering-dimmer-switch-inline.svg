@@ -1,73 +1,29 @@
-<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
-  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
-
-  <!-- subtle background bulb motif -->
-  <circle cx="600" cy="120" r="55" fill="#E4C7B2" opacity="0.4"/>
-  <path d="M600 165 L580 200 L620 200 Z" fill="#E4C7B2" opacity="0.4"/>
-
-  <!-- Panel dividers -->
-  <rect x="60" y="230" width="1080" height="330" rx="24" fill="#EFE4D6"/>
-  <line x1="420" y1="260" x2="420" y2="530" stroke="#D9A441" stroke-width="2" opacity="0.4"/>
-  <line x1="780" y1="260" x2="780" y2="530" stroke="#D9A441" stroke-width="2" opacity="0.4"/>
-
-  <!-- PANEL 1: Old-style rotary dial -->
-  <g transform="translate(240,395)">
-    <rect x="-95" y="-140" width="190" height="280" rx="16" fill="#E4C7B2"/>
-    <circle cx="0" cy="0" r="90" fill="#B85C38"/>
-    <circle cx="0" cy="0" r="70" fill="#F6EFE6"/>
-    <circle cx="0" cy="0" r="55" fill="#B85C38"/>
-    <rect x="-6" y="-50" width="12" height="30" fill="#F6EFE6"/>
-    <circle cx="0" cy="0" r="8" fill="#2E2A24"/>
-    <!-- small tick marks -->
-    <g stroke="#5C6E58" stroke-width="3">
-      <line x1="0" y1="-85" x2="0" y2="-95"/>
-      <line x1="60" y1="-60" x2="67" y2="-67"/>
-      <line x1="-60" y1="-60" x2="-67" y2="-67"/>
-      <line x1="85" y1="0" x2="95" y2="0"/>
-      <line x1="-85" y1="0" x2="-95" y2="0"/>
-    </g>
-  </g>
-
-  <!-- PANEL 2: Modern slide dimmer -->
-  <g transform="translate(600,395)">
-    <rect x="-95" y="-140" width="190" height="280" rx="16" fill="#E4C7B2"/>
-    <rect x="-50" y="-100" width="100" height="200" rx="14" fill="#F6EFE6"/>
-    <rect x="-50" y="-100" width="100" height="200" rx="14" fill="none" stroke="#5C6E58" stroke-width="3"/>
-    <!-- slot -->
-    <rect x="-6" y="-80" width="12" height="160" rx="6" fill="#D9A441" opacity="0.5"/>
-    <!-- slider knob -->
-    <rect x="-30" y="-30" width="60" height="30" rx="8" fill="#5C6E58"/>
-    <circle cx="0" cy="-15" r="4" fill="#F6EFE6"/>
-    <!-- small toggle button below -->
-    <rect x="-25" y="90" width="50" height="18" rx="9" fill="#B85C38"/>
-  </g>
-
-  <!-- PANEL 3: Smart dimmer -->
-  <g transform="translate(960,395)">
-    <rect x="-95" y="-140" width="190" height="280" rx="16" fill="#E4C7B2"/>
-    <rect x="-55" y="-105" width="110" height="210" rx="20" fill="#F6EFE6"/>
-    <rect x="-55" y="-105" width="110" height="210" rx="20" fill="none" stroke="#5C6E58" stroke-width="3"/>
-    <!-- screen -->
-    <rect x="-35" y="-80" width="70" height="60" rx="8" fill="#5C6E58"/>
-    <!-- wifi arcs -->
-    <g stroke="#D9A441" stroke-width="4" fill="none" stroke-linecap="round">
-      <path d="M-15 -45 A 22 22 0 0 1 15 -45"/>
-      <path d="M-8 -38 A 12 12 0 0 1 8 -38"/>
-    </g>
-    <circle cx="0" cy="-30" r="3" fill="#D9A441"/>
-    <!-- app-like buttons -->
-    <circle cx="-20" cy="40" r="14" fill="#B85C38"/>
-    <circle cx="20" cy="40" r="14" fill="#5C6E58"/>
-    <rect x="-30" y="75" width="60" height="10" rx="5" fill="#D9A441" opacity="0.6"/>
-  </g>
-
-  <!-- gentle flicker spark accents above each -->
-  <g fill="#D9A441">
-    <polygon points="240,150 248,170 228,158 252,158 232,170" opacity="0.6"/>
-    <polygon points="600,150 608,170 588,158 612,158 592,170" opacity="0.85"/>
-    <polygon points="960,150 968,170 948,158 972,158 952,170" opacity="0.4"/>
-  </g>
-
-  <!-- ground line decor -->
-  <rect x="0" y="600" width="1200" height="30" fill="#5C6E58" opacity="0.15"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#F6EFE6"/>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2E2A24"/></marker></defs>
+<text x="600" y="70" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="bold" fill="#2E2A24" text-anchor="middle">Four checks for a flickering LED</text>
+<g stroke="#2E2A24" stroke-width="3" fill="none" marker-end="url(#a)">
+<path d="M350 180 L350 222"/>
+<path d="M350 300 L350 342"/>
+<path d="M350 420 L350 462"/>
+<path d="M640 145 L756 145"/>
+<path d="M640 265 L756 265"/>
+<path d="M640 385 L756 385"/>
+</g>
+<g font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">
+<rect x="60" y="110" width="580" height="70" rx="10" fill="#E4C7B2"/>
+<text x="90" y="155">1  Bulb says dimmable?</text>
+<rect x="60" y="230" width="580" height="70" rx="10" fill="#E4C7B2"/>
+<text x="90" y="275">2  Dimmer LED-rated, SSL 7A?</text>
+<rect x="60" y="350" width="580" height="70" rx="10" fill="#E4C7B2"/>
+<text x="90" y="395">3  Bulb on its compatibility list?</text>
+<rect x="60" y="470" width="580" height="70" rx="10" fill="#5C6E58"/>
+<text x="90" y="515" fill="#F6EFE6">4  Raise the low-end trim</text>
+<rect x="760" y="110" width="380" height="70" rx="10" fill="#F6EFE6" stroke="#B85C38" stroke-width="4"/>
+<text x="950" y="155" text-anchor="middle">No: swap the bulb</text>
+<rect x="760" y="230" width="380" height="70" rx="10" fill="#F6EFE6" stroke="#B85C38" stroke-width="4"/>
+<text x="950" y="275" text-anchor="middle">No: replace dimmer</text>
+<rect x="760" y="350" width="380" height="70" rx="10" fill="#F6EFE6" stroke="#B85C38" stroke-width="4"/>
+<text x="950" y="395" text-anchor="middle">No: use a listed bulb</text>
+</g>
 </svg>

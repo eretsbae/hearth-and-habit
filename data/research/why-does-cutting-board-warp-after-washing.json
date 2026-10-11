@@ -1,0 +1,82 @@
+{
+  "reader_situation": "Someone washed a wooden cutting board, maybe let it sit in the sink or dried it flat, and now it rocks on the counter. They want to know why it happened, whether it can be fixed, and how to stop it next time.",
+  "direct_answer": "It warps because one face took on or lost more water than the other. Soaking, standing water, or drying the board flat on a counter leaves one side wetter, and that side swells. Flat-sawn boards move more than quartersawn ones. Board makers say not to soak or dishwasher wood boards, to dry them right away, store them on edge, and oil all surfaces at least monthly. A mild warp can sometimes be pressed back with a damp towel and weights over 24 to 48 hours.",
+  "consensus": [
+    "Don't soak wood boards or put them in the dishwasher.",
+    "Dry the board right after washing.",
+    "Oil the board regularly with a food-safe oil.",
+    "Store it upright.",
+    "A mild warp can sometimes be fixed with moisture and weight."
+  ],
+  "gaps": [
+    "Flat drying on a stone counter is a named cause: John Boos says leaving a board flat for long periods on a cold stone countertop can hinder airflow and lead to moisture imbalance, and that boards should be stored on edge away from direct sunlight.",
+    "Even short puddles matter: Teakhaus says even a few minutes of water pooling can cause localized swelling and potential warping.",
+    "Soaking can split glued boards, not just warp them: John Boos says submerging the board disrupts its moisture content and causes the rails to split.",
+    "Grain orientation has a number behind it: The Wood Database says tangential shrinkage typically runs 6-10% and radial 3-5%, about double; at a T/R ratio of 3 a flatsawn face moves at triple the rate of a quartersawn face. Hard maple's T/R ratio is 2.1.",
+    "Oiling frequency differs by maker and use: John Boos says a minimum of once a month to all surfaces, overnight, wiping off excess, and when the board looks dry; Teakhaus says two to three times a month for daily-use boards and monthly for occasional use.",
+    "Soap choice: Teakhaus says to avoid antibacterial soaps because they can dry out the wood; John Boos says not to use harsh detergents.",
+    "The flattening method a maker publishes: Teakhaus says place the board concave-side down on a flat surface, put a damp (not soaking) towel on top, weight it evenly, and leave it 24-48 hours in a cool, dry place; severe warping from the dishwasher or prolonged soaking is usually permanent.",
+    "The old article's thickness thresholds (under 1 inch, 1-1/4 to 2 inches), drying time, and claims about plastic boards in dishwashers have no source and were removed."
+  ],
+  "evidence": [
+    {
+      "claim": "Store on edge; flat on a cold stone counter causes moisture imbalance",
+      "detail": "Proper storage of wood cutting boards is crucial to prevent warping. Store boards on their edge, away from direct sunlight. Leaving a board flat for long periods on a cold stone countertop can hinder airflow and lead to moisture imbalance.",
+      "source_url": "https://johnboos.com/frequently-asked-questions",
+      "source_title": "Frequently Asked Questions | John Boos & Co."
+    },
+    {
+      "claim": "No soaking, no dishwasher; oil monthly",
+      "detail": "Do not soak or submerge the board in water, as this will disrupt the moisture content causing the rails to split. Wood cutting boards are NOT dishwasher safe. A minimum of once a month (depending upon use and household conditions), apply an even coat of Boos Mystery Oil; re-oil when the board looks dry and has lightened in color. Dry with a clean paper towel or air dry; stand the board on end to air dry. Boos Block Board Cream controls the board's moisture content, keeping it from drying out, cracking or splitting.",
+      "source_url": "https://johnboos.com/frequently-asked-questions",
+      "source_title": "Frequently Asked Questions | John Boos & Co."
+    },
+    {
+      "claim": "Boos care routine: mild soap, dry all surfaces, oil all surfaces overnight",
+      "detail": "Wipe with a clean cloth and mild soap-and-water solution, then rinse the cloth and wipe again to remove soap. Do not wash with harsh detergents. Thoroughly wipe all surfaces with a clean, dry towel. Oil all surfaces at least once a month, let it penetrate overnight, then wipe off excess; a dry appearance means it's time to oil; do not over-oil. Liquids left standing cause the surface to expand and the wood to soften.",
+      "source_url": "https://johnboos.com/care-and-maintenance/blocks",
+      "source_title": "Care & Maintenance: Blocks | John Boos & Co."
+    },
+    {
+      "claim": "Brief puddles cause local swelling; Teakhaus care and flattening method",
+      "detail": "Even a few minutes of water pooling can cause localized swelling and potential warping. Don't soak; never leave the board sitting in water or in a puddle. Never put it in the dishwasher. Wash with warm water and mild dish soap; avoid antibacterial soaps, which can dry out the wood. Dry immediately and completely. Oil at least two to three times per month for daily use, monthly for occasional use. Store upright in a dish rack, or flat in a well-ventilated area; vertical storage allows air circulation on both sides. Minor warping: place the board concave-side down on a flat surface and put a damp (not soaking) towel on top; place weights evenly and leave 24-48 hours in a cool, dry place. Severe warping from dishwasher damage or prolonged soaking is usually permanent.",
+      "source_url": "https://teakhaus.com/blogs/why-teakhaus/how-to-care-for-your-teak-cutting-board-complete-maintenance-guide",
+      "source_title": "How to Care for Your Teak Cutting Board: Complete Maintenance Guide | Teakhaus"
+    },
+    {
+      "claim": "Tangential vs radial movement; flatsawn vs quartersawn",
+      "detail": "Radial shrinkage typically 3-5%, tangential 6-10%, about double. The T/R ratio ranges from just over 1 to nearly 3; at a T/R ratio of 3, a flatsawn surface moves at triple the rate of the quartersawn surface. With quartersawn lumber the thickness does most of the shrinking or swelling. Hard maple T/R ratio 2.1.",
+      "source_url": "https://www.wood-database.com/wood-articles/dimensional-shrinkage/",
+      "source_title": "Dimensional Shrinkage | The Wood Database"
+    },
+    {
+      "claim": "Moisture gradients and humidity",
+      "detail": "Wood will swell to a significantly greater extent if exposed to prolonged humidity in excess of 85% RH. During drying a moisture gradient develops where the outside shell is drier while the core is still wet.",
+      "source_url": "https://www.wood-database.com/wood-articles/wood-and-moisture/",
+      "source_title": "Wood and Moisture | The Wood Database"
+    }
+  ],
+  "real_questions": [
+    "Can a warped cutting board be flattened?",
+    "Why did my new board warp after one wash?",
+    "Should I oil both sides of the board?",
+    "Is it OK to dry the board flat on a towel?",
+    "Why did my board crack at the glue seams?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "Habit-to-result table: soaking, puddles, drying flat on stone, dishwasher, antibacterial soap, oiling one side; each with what the maker says it does and the replacement habit. Plus an oiling schedule comparing John Boos and Teakhaus, and the flatsawn vs quartersawn ratio from The Wood Database."
+  },
+  "cautions": [
+    "A cracked or split board, or one that rocks while cutting, should be replaced or stabilized; don't cut on an unstable board.",
+    "Follow the board maker's care instructions; John Boos notes maintenance affects warranty coverage.",
+    "Use only food-safe oils made for cutting boards."
+  ],
+  "sources": {
+    "https://johnboos.com/frequently-asked-questions": "Frequently Asked Questions | John Boos & Co.",
+    "https://johnboos.com/care-and-maintenance/blocks": "Care & Maintenance: Blocks | John Boos & Co.",
+    "https://teakhaus.com/blogs/why-teakhaus/how-to-care-for-your-teak-cutting-board-complete-maintenance-guide": "How to Care for Your Teak Cutting Board: Complete Maintenance Guide | Teakhaus",
+    "https://www.wood-database.com/wood-articles/dimensional-shrinkage/": "Dimensional Shrinkage | The Wood Database",
+    "https://www.wood-database.com/wood-articles/wood-and-moisture/": "Wood and Moisture | The Wood Database"
+  }
+}

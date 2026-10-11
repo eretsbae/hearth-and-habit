@@ -1,0 +1,84 @@
+{
+  "reader_situation": "Homeowners and renters adjusting the thermostat as seasons change who want to know what to set, whether setbacks actually save money, and how much, including people with heat pumps who have heard setbacks backfire.",
+  "direct_answer": "The savings come from setbacks, not from one magic number: DOE says turning the thermostat back 7-10°F for 8 hours a day can save up to about 10% a year on heating and cooling. Heat pumps are the exception; Natural Resources Canada says to keep setbacks to 2°C (about 3.6°F) or use a smart thermostat that recovers early. In summer, a ceiling fan lets you set about 4°F higher (DOE), and California's grid operator asks for 78°F or higher during peak alerts if health permits. When away in winter, don't go below 55°F (IBHS).",
+  "consensus": [
+    "68°F in winter and 78°F in summer are common defaults.",
+    "Setting back the thermostat at night or while away saves energy.",
+    "Reheating a cold house doesn't erase the savings for furnaces.",
+    "Heat pumps need gentler setbacks.",
+    "Programmable or smart thermostats make setbacks automatic."
+  ],
+  "gaps": [
+    "Heat pump setback has a specific limit: Natural Resources Canada recommends moderated setbacks of not more than 2°C (about 3.6°F), or a smart/programmable heat pump thermostat that starts recovery early, because a deep setback makes supplementary heat run until the heat pump catches up; savings depend on the system's type and sizing.",
+    "A ceiling fan lets you raise the cooling setpoint about 4°F without losing comfort, but only while someone is in the room: fans cool people, not rooms (DOE Home Cooling 101).",
+    "Dollar scale: ENERGY STAR says heating and cooling are almost half of a home's energy bill, more than $900 a year for the average household; DOE's up-to-10% setback figure applied to $900 is up to about $90 a year, in line with ENERGY STAR's estimate that a certified smart thermostat saves about $100 a year.",
+    "Winter floor: IBHS says keep the thermostat at least 55°F even when no one is home, and if away more than a week in subfreezing weather, consider shutting off the main water valve slowly and draining faucets on the lowest floor.",
+    "The 78°F figure is the California grid operator's peak-alert request, 'if health permits', not a universal comfort rule; pre-cooling before an alert is its companion advice.",
+    "Summer away: raising the setpoint saves, but the AC also removes moisture (DOE); EPA says keep indoor relative humidity below 60%, ideally 30-50%, so humid-climate homes shouldn't let humidity run up while empty.",
+    "The old article's '1% per degree', '3-4°F heat pump setback', city temperature averages, and vacation 50s/mid-80s numbers have no fetched support and are dropped."
+  ],
+  "evidence": [
+    {
+      "claim": "Ceiling fans, fan use, and programmable thermostat savings (DOE)",
+      "detail": "Install and set a programmable thermostat; it could help you save up to 10 percent on heating and cooling costs a year. Ceiling fans will allow you to raise the thermostat setting about 4 degrees without impacting your comfort. Turn off your fans when you leave the room; fans cool people, not rooms. One way an air conditioner makes us feel cooler is by reducing the amount of moisture in the air. Routinely replacing or cleaning air filters can lower AC energy consumption 5-15 percent.",
+      "source_url": "https://www.energy.gov/sites/prod/files/HomeCooling101-final.pdf",
+      "source_title": "Energy Saver 101: Home Cooling (U.S. DOE)"
+    },
+    {
+      "claim": "Heat pump setbacks",
+      "detail": "Moderated setbacks of not more than 2°C should be employed, or a 'smart' thermostat that switches the system on early in anticipation of recovery from setback. Heat pumps respond more slowly than furnaces and have more difficulty responding to deep setbacks; with a conventional thermostat the heat pump may not supply all the heat required to recover on short notice, so supplementary heating operates until the heat pump catches up. Programmable heat pump thermostats achieve savings from setback during unoccupied periods or overnight, bringing the house back with or without minimal supplementary heating. Savings are highly dependent on the type and sizing of the system; variable-speed systems may run at lower speed during setbacks. Consult your installation contractor on the optimal setback.",
+      "source_url": "https://natural-resources.canada.ca/energy-efficiency/energy-star-canada/about/energy-star-announcements/publications/heating-and-cooling-heat-pump/6817",
+      "source_title": "Heating and Cooling With a Heat Pump (Natural Resources Canada)"
+    },
+    {
+      "claim": "Smart thermostat savings",
+      "detail": "You can save approximately $100 a year with an ENERGY STAR certified smart thermostat.",
+      "source_url": "https://www.energystar.gov/saveathome/heating-cooling",
+      "source_title": "Heat & Cool Efficiently (ENERGY STAR)"
+    },
+    {
+      "claim": "Heating and cooling share of the bill",
+      "detail": "Heating and cooling account for almost half of the annual energy bill, more than $900 a year for the average American household. Certified smart thermostats are independently certified, based on field data, to deliver savings, and can adjust to energy-saving temperatures when you are asleep or away.",
+      "source_url": "https://www.energystar.gov/products/smart_thermostats",
+      "source_title": "Smart Thermostats (ENERGY STAR)"
+    },
+    {
+      "claim": "Winter away floor",
+      "detail": "Set the thermostat to at least 55°F to keep pipes from freezing, even when no one is home. If away more than a week with subfreezing temperatures ongoing or forecast, consider shutting off the water by closing the main valve slowly, and let a few faucets on the lowest floor drain.",
+      "source_url": "https://ibhs.org/ibhs-news-releases/ibhs-winter-weather-ready-guide-provides-easy-to-do-actions-to-help-prevent-property-damage-from-colder-temperatures/",
+      "source_title": "IBHS Winter Weather Ready guide (Insurance Institute for Business & Home Safety)"
+    },
+    {
+      "claim": "Peak-alert summer setpoint",
+      "detail": "During a Flex Alert: set AC to 78 or higher, if health permits. Before an alert: pre-cool the home by lowering the AC. Alerts are typically issued in summer, usually for evening hours.",
+      "source_url": "https://www.flexalert.org/",
+      "source_title": "Flex Alert (California Independent System Operator)"
+    }
+  ],
+  "real_questions": [
+    "Does it cost more to heat the house back up than to leave it at one temperature?",
+    "Should I set back a heat pump at night?",
+    "What should I set the thermostat to when I go on vacation in winter?",
+    "Is 78°F in summer really necessary, and does a ceiling fan help?",
+    "Is a smart thermostat worth it?"
+  ],
+  "original_asset": {
+    "type": "schedule",
+    "spec": "A season-by-system thermostat schedule: rows for winter with a furnace or boiler (setback 7-10°F for about 8 hours, DOE registry), winter with a heat pump (setback no more than 2°C = 3.6°F or a smart recovery thermostat, NRCan), winter away (55°F floor, IBHS; main valve for 1+ week away), summer at home (ceiling fan = setpoint about 4°F higher while occupied, DOE; 78°F or higher during peak alerts, CAISO), summer away (raise setpoint, keep RH under 60%, EPA). Plus a worked savings example: $900 x 10% = up to $90 a year, compared with ENERGY STAR's ~$100 smart-thermostat figure, and the formula for the reader's own heating-and-cooling spend."
+  },
+  "cautions": [
+    "Don't set winter temperatures below 55°F when away (IBHS).",
+    "The 78°F peak-alert request carries 'if health permits'; heat-vulnerable people shouldn't follow it blindly.",
+    "Keep indoor RH below 60% (EPA registry).",
+    "No fetched source states a single recommended home winter temperature; present home setpoints as personal comfort choices.",
+    "energy.gov HTML pages returned 404 to fetches; DOE setback fact cited via the registry URL."
+  ],
+  "sources": {
+    "https://www.energy.gov/sites/prod/files/HomeCooling101-final.pdf": "Energy Saver 101: Home Cooling (U.S. DOE)",
+    "https://natural-resources.canada.ca/energy-efficiency/energy-star-canada/about/energy-star-announcements/publications/heating-and-cooling-heat-pump/6817": "Heating and Cooling With a Heat Pump (Natural Resources Canada)",
+    "https://www.energystar.gov/saveathome/heating-cooling": "Heat & Cool Efficiently (ENERGY STAR)",
+    "https://www.energystar.gov/products/smart_thermostats": "Smart Thermostats (ENERGY STAR)",
+    "https://ibhs.org/ibhs-news-releases/ibhs-winter-weather-ready-guide-provides-easy-to-do-actions-to-help-prevent-property-damage-from-colder-temperatures/": "IBHS Winter Weather Ready guide (Insurance Institute for Business & Home Safety)",
+    "https://www.flexalert.org/": "Flex Alert (California Independent System Operator)"
+  }
+}

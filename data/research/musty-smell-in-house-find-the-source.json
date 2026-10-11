@@ -1,0 +1,88 @@
+{
+  "reader_situation": "Someone notices a musty, earthy smell somewhere in the house and can't see any mold. They want to find the source, know whether it's a real problem, and decide whether to clean it themselves, buy a test kit, or call someone.",
+  "direct_answer": "A musty smell is the gas mold and bacteria give off while growing on something damp, so treat it as a moisture problem: find the spot by sniffing closed spaces one at a time and measuring humidity, then dry it and keep relative humidity below 60% (ideally 30–50%). A mold test kit won't help: EPA says there are no federal limits for mold, and visible growth doesn't need sampling.",
+  "consensus": [
+    "Musty smell means mold or mildew somewhere damp.",
+    "Check closets, basements, bathrooms, laundry, and appliances.",
+    "Keep humidity below 60%, ideally 30–50%, with a dehumidifier if needed.",
+    "Clean small areas yourself; call a pro for large areas.",
+    "Never mix bleach with ammonia or acids."
+  ],
+  "gaps": [
+    "The smell itself is microbial volatile organic compounds (mVOCs) that molds release into the air; EPA says a moldy odor suggests mold is growing and should be investigated, even with nothing visible.",
+    "EPA says mold may hide on the back side of drywall, wallpaper, or paneling, and lists ceiling tiles, carpet pads, around pipes, inside walls, and ductwork. The Minnesota Department of Health adds under vinyl flooring and inside sink cabinets. EPA warns that removing wallpaper over suspected growth can release a massive amount of spores.",
+    "Testing is usually a waste: no EPA or other federal limits have been set for mold or mold spores, and if visible mold is present, sampling is unnecessary. MDH says testing should never substitute for a good visual inspection; surface sampling mainly helps confirm a cleanup worked.",
+    "Winter humidity targets are lower in cold climates: ENERGY STAR says 30% to 40% during the heating season in colder climates to prevent window condensation; MDH says 20-40% in winter.",
+    "Dehumidifier sizing depends on how damp the space is: ENERGY STAR's chart gives 20-30 pints/day for a slightly to moderately damp (50-75% RH) small-medium space under 2,000 sq ft, 25-40 for very damp (75-90%), 30-50 for wet (90-100%), and advises oversizing rather than undersizing. ENERGY STAR models use 20% less energy than conventional units removing the same moisture.",
+    "EPA: vent moisture-producing appliances such as clothes dryers outside, and insulate cold water pipes to stop condensation.",
+    "MDH's bleach dilution for nonporous surfaces is 1/4 to 1/2 cup per gallon of water; porous materials with mold growth (carpet, drywall, insulation) are discarded."
+  ],
+  "evidence": [
+    {
+      "claim": "The musty smell is mVOCs from growing mold",
+      "detail": "Molds produce microbial volatile organic compounds (mVOCs) that are volatile and quickly released into the air; they can be the source of the moldy odor or musty smell frequently associated with mold growth. A moldy odor suggests that mold is growing in the building and should be investigated. Health effects of inhaling mVOCs are largely unknown.",
+      "source_url": "https://www.epa.gov/mold/mold-course-chapter-1",
+      "source_title": "Mold Course Chapter 1 | US EPA"
+    },
+    {
+      "claim": "Where hidden mold grows and what not to disturb",
+      "detail": "Mold may be hidden in places such as the back side of drywall, wallpaper, or paneling; also ceiling tiles, carpet pads, around pipes, inside walls, and ductwork. A building that smells moldy without a visible source suggests hidden mold. Removal of wallpaper can lead to a massive release of spores. Keep indoor humidity below 60 percent (ideally 30-50). Dry water-damaged areas within 24-48 hours. Vent clothes dryers and other moisture-producing appliances outside. Cover cold surfaces such as cold water pipes with insulation.",
+      "source_url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+      "source_title": "A Brief Guide to Mold, Moisture, and Your Home | US EPA"
+    },
+    {
+      "claim": "Mold testing is rarely useful",
+      "detail": "In most cases, if visible mold growth is present, sampling is unnecessary. No EPA or other federal limits have been set for mold or mold spores. Surface sampling may be useful to determine if an area has been adequately cleaned or remediated.",
+      "source_url": "https://www.epa.gov/mold/mold-testing-or-sampling",
+      "source_title": "Mold Testing or Sampling | US EPA"
+    },
+    {
+      "claim": "State health department guidance",
+      "detail": "Mold odors are described as musty or earthy. If you see or smell mold, assume a problem exists. Testing is not recommended in most situations: there is no health-based standard for airborne mold, and testing should never be a substitute for a good visual inspection. Mold can hide under carpet and pad, wallpaper, vinyl flooring, sink cabinets, or drywall. Keep relative humidity 20-40 percent in winter and below 60 percent the rest of the year. Fix the moisture source first. Discard porous materials with mold growth. Bleach: 1/4 to 1/2 cup per gallon of water; never mix bleach with other chemicals.",
+      "source_url": "https://www.health.state.mn.us/communities/environment/air/mold/index.html",
+      "source_title": "Mold and Moisture in Homes | Minnesota Department of Health"
+    },
+    {
+      "claim": "Dehumidifier sizing and settings",
+      "detail": "ENERGY STAR dehumidifiers use 20% less energy than conventional units. Sizing (pints/day), small-medium space under 2,000 sq ft / large over 2,000: slightly to moderately damp (50-75% RH) 20-30 / 30+; very damp (75-90%) 25-40 / 40+; wet (90-100%) 30-50 / 50+. Oversize rather than undersize. Keep RH 30-50%; in colder climates during heating season, 30-40% to prevent window condensation. Close doors and windows to the space; keep the unit away from walls and furniture; drain to a floor drain or sump, away from electrical cords; use a grounded outlet.",
+      "source_url": "https://www.energystar.gov/products/dehumidifiers",
+      "source_title": "Dehumidifiers | ENERGY STAR"
+    },
+    {
+      "claim": "Winter humidity target in cold climates",
+      "detail": "Keep indoor relative humidity between 30% and 50%; in colder climates during the heating season, aim for 30% to 40% to prevent window condensation.",
+      "source_url": "https://www.energystar.gov/products/dehumidifiers",
+      "source_title": "Dehumidifiers | ENERGY STAR"
+    },
+    {
+      "claim": "Prevent condensation and appliance moisture",
+      "detail": "Vent appliances that produce moisture, such as clothes dryers, stoves, and kerosene heaters, to the outside where possible. Cover cold surfaces, such as cold water pipes, with insulation. Dry water-damaged areas and items within 24-48 hours to prevent mold growth.",
+      "source_url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+      "source_title": "A Brief Guide to Mold, Moisture, and Your Home | US EPA"
+    }
+  ],
+  "real_questions": [
+    "Should I buy a mold test kit?",
+    "My hygrometer says 55%; is that too high?",
+    "What size dehumidifier do I need for the basement?",
+    "The smell is everywhere but I can't see mold; where else could it be?",
+    "Is it safe to clean it myself?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "A hygrometer reading decision table (house-wide vs one room; summer vs winter targets from EPA, ENERGY STAR, MDH) mapped to actions, plus ENERGY STAR's dehumidifier sizing chart, plus a room-by-room hiding-place checklist from EPA and MDH."
+  },
+  "cautions": [
+    "Don't peel wallpaper or open walls over suspected mold yourself (EPA).",
+    "Over about 10 sq ft, mold in HVAC ducts, or after contaminated water: professional (registry, EPA).",
+    "Never mix bleach with ammonia or acids (registry, poison.org; MDH).",
+    "Dehumidifier drain hoses away from electrical cords; grounded outlet (ENERGY STAR)."
+  ],
+  "sources": {
+    "https://www.epa.gov/mold/mold-course-chapter-1": "Mold Course Chapter 1 | US EPA",
+    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home": "A Brief Guide to Mold, Moisture, and Your Home | US EPA",
+    "https://www.epa.gov/mold/mold-testing-or-sampling": "Mold Testing or Sampling | US EPA",
+    "https://www.health.state.mn.us/communities/environment/air/mold/index.html": "Mold and Moisture in Homes | Minnesota Department of Health",
+    "https://www.energystar.gov/products/dehumidifiers": "Dehumidifiers | ENERGY STAR"
+  }
+}

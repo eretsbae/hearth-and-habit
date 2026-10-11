@@ -1,0 +1,111 @@
+{
+  "reader_situation": "A US homeowner or renter looking at a high electric bill wants to know which appliance is quietly using the most power, and whether it is worth replacing or changing how they use it.",
+  "direct_answer": "Nationally, air conditioning (19%), space heating (12%) and water heating (12%) are the three largest shares of home electricity use (EIA, 2020). Per home that has them, an electric water heater averages about 2,700 kWh a year, and pool pumps, EV charging, electric heat and central AC each average roughly 2,300-2,500 kWh. Dehumidifiers (about 1,000 kWh) and second refrigerators (about 500 kWh) are the overlooked ones.",
+  "consensus": [
+    "Heating, cooling and water heating are the biggest electricity users.",
+    "Use watts x hours / 1,000 x rate to estimate one appliance.",
+    "Phantom loads from chargers are small individually.",
+    "A plug-in watt meter or utility usage data shows real consumption.",
+    "Old second refrigerators waste money."
+  ],
+  "gaps": [
+    "The old article's per-appliance ranges (e.g., water heater 3,000-4,500 kWh, AC 1,500-4,000 kWh) had no source. EIA's 2020 RECS gives measured averages per household using each end use: water heating 2,706 kWh, space heating 2,484, AC 2,318, clothes dryers 680, lighting 654, all refrigerators 839, TVs 632.",
+    "Climate swings the ranking: in hot-humid regions AC averages 4,173 kWh versus 1,310 in very cold and cold regions; electric space heating averages 2,876 kWh in cold regions; water heating is 3,073 kWh in the marine region.",
+    "The items most lists skip are among the largest where present: pool pumps 2,384 kWh, EV charging 2,363 kWh, hot tub heaters 1,479 plus 484 for the pump, dehumidifiers 999 kWh, second refrigerators 494 kWh, separate freezers 570 kWh.",
+    "Furnace and AC blower fans (air handlers) add 233 kWh for heating and 457 kWh for cooling on average, which most tables omit.",
+    "A heat pump water heater saves a household of four about 3,760 kWh a year according to ENERGY STAR ($550 at its assumed 14.6 cents/kWh).",
+    "ENERGY STAR says halving pool pump speed cuts its energy to one-eighth, the reason variable-speed pumps save so much.",
+    "Heat pump clothes dryers use around 70% less energy than conventional dryers (ENERGY STAR).",
+    "Old refrigerators (over 15 years) can cost about $95 more a year to run; an old fridge uses about 20% more energy than an ENERGY STAR model."
+  ],
+  "evidence": [
+    {
+      "claim": "Largest national shares of home electricity",
+      "detail": "The three largest categories and their shares of residential site electricity consumption in 2020: air conditioning 19%, space heating 12%, water heating 12%. Lighting and refrigerators are the next two largest. The average U.S. household consumes about 10,500 kWh of electricity per year.",
+      "source_url": "https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php",
+      "source_title": "Electricity use in homes - U.S. Energy Information Administration (EIA)"
+    },
+    {
+      "claim": "Average kWh per household using each end use, part 1 (all homes)",
+      "detail": "RECS 2020 Table CE5.3a, kWh per household using the end use: space heating 2,484 (includes main and secondary heating); air handlers for heating 233; air conditioning 2,318; air handlers for cooling 457; ceiling fans 226; dehumidifiers 999; humidifiers 139; water heating 2,706; clothes washers 69; clothes dryers 680; lighting 654; electric vehicle charging 2,363. On-site solar generation is included in consumption.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/c&e/pdf/ce5.3a.pdf",
+      "source_title": "Table CE5.3a Detailed household site electricity end-use consumption, part 1 - averages, 2020 (EIA RECS)"
+    },
+    {
+      "claim": "Climate changes the ranking",
+      "detail": "Table CE5.3a by climate region (kWh per household using the end use). Very cold and cold: space heating 2,876, AC 1,310, water heating 2,669. Mixed-humid: space heating 2,975, AC 2,293, water heating 2,927. Mixed-dry and hot-dry: space heating 951, AC 2,691, water heating 2,065. Hot-humid: space heating 1,914, AC 4,173, dehumidifiers 1,368, water heating 2,559. Marine: space heating 2,696, AC 902, water heating 3,073.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/c&e/pdf/ce5.3a.pdf",
+      "source_title": "Table CE5.3a Detailed household site electricity end-use consumption, part 1 - averages, 2020 (EIA RECS)"
+    },
+    {
+      "claim": "Average kWh per household using each end use, part 2 (all homes)",
+      "detail": "RECS 2020 Table CE5.3b, kWh per household using the end use: all refrigerators 839; most-used refrigerator 617; second refrigerators 494; separate freezers 570; cooking 290; microwaves 107; dishwashers 112; all TVs and related 632; most-used TV 210; pool pumps 2,384; hot tub pumps 484; hot tub heaters 1,479. Hot-humid region: pool pumps 2,864.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/c&e/pdf/ce5.3b.pdf",
+      "source_title": "Table CE5.3b Detailed household site electricity end-use consumption, part 2 - averages, 2020 (EIA RECS)"
+    },
+    {
+      "claim": "Heat pump water heater savings",
+      "detail": "ENERGY STAR certified heat pump water heaters can save a household of 4 approximately $550 per year on electric bills compared to a standard electric water heater, and more than $5,610 over the lifetime. Table: 3,760 kWh annual savings, electricity price $0.146/kWh, payback 2.7 years.",
+      "source_url": "https://www.energystar.gov/products/heat_pump_water_heaters/benefits-savings",
+      "source_title": "Heat Pump Water Heaters: Benefits and Savings | ENERGY STAR"
+    },
+    {
+      "claim": "Heat pump water heaters lose efficiency in cold spaces",
+      "detail": "Heat pump water heaters generally don't operate as efficiently in colder spaces; in cold conditions they may switch temporarily to standard electric heating, which increases energy use during those months.",
+      "source_url": "https://www.energystar.gov/products/heat_pump_water_heaters",
+      "source_title": "Heat Pump Water Heaters | ENERGY STAR"
+    },
+    {
+      "claim": "Old refrigerators",
+      "detail": "Refrigerators over 15 years old could be costing about $95 more per year to run. On average, an old refrigerator uses about 20% more energy than an ENERGY STAR model. If you need a second fridge year-round, replace the old unit with an ENERGY STAR model and recycle the old one.",
+      "source_url": "https://www.energystar.gov/products/refrigerators",
+      "source_title": "Refrigerators | ENERGY STAR"
+    },
+    {
+      "claim": "Pool pump speed and savings",
+      "detail": "Reducing pump speed by one-half allows the pump to use just one-eighth as much energy. Certified in-ground pumps use 20% less energy than standard pumps (about $50 a year); above-ground 11% less (about $20 a year).",
+      "source_url": "https://www.energystar.gov/products/pool_pumps",
+      "source_title": "Pool Pumps | ENERGY STAR"
+    },
+    {
+      "claim": "Heat pump dryers and lint filter",
+      "detail": "Heat pump dryers use around 70% less energy than conventional clothes dryers. A full-size electric ENERGY STAR dryer saves approximately $210 over its life. Clean the lint filter after every load to improve airflow and efficiency.",
+      "source_url": "https://www.energystar.gov/products/clothes_dryers",
+      "source_title": "Clothes Dryers | ENERGY STAR"
+    },
+    {
+      "claim": "Dehumidifier efficiency and settings",
+      "detail": "An ENERGY STAR dehumidifier uses 20% less energy than a similarly sized conventional unit. Optimum RH is generally 30% to 50%. Close doors and windows to the space while the unit runs.",
+      "source_url": "https://www.energystar.gov/products/dehumidifiers",
+      "source_title": "Dehumidifiers | ENERGY STAR"
+    }
+  ],
+  "real_questions": [
+    "Is my AC or my water heater the bigger cost?",
+    "Does the old fridge or freezer in the garage really cost much?",
+    "How much does a pool pump or hot tub add to the bill?",
+    "Is it worth replacing an electric water heater with a heat pump model?",
+    "How do I find out which appliance is actually using the power in my house?"
+  ],
+  "original_asset": {
+    "type": "comparison_table",
+    "spec": "Table of RECS 2020 average kWh per household using each end use, converted to yearly cost at the registry's 17 cents/kWh with the arithmetic shown (e.g., 2,706 x 0.17 = $460). A climate table showing AC 4,173 kWh in hot-humid vs 1,310 in cold regions. Worked example: heat pump water heater 3,760 kWh saved x 0.17 = $639 a year, versus ENERGY STAR's $550 at 14.6 cents."
+  },
+  "cautions": [
+    "RECS averages apply to households that use that end use; your own home can be far above or below.",
+    "Space-heating average includes homes that only use electricity for secondary heat, so whole-house electric heat is likely higher.",
+    "Show the formula with the registry rate so readers can use their own; do not invent appliance wattages or prices.",
+    "No retrieved source supported a specific water heater temperature setting or blanket/watt meter prices; omit those numbers."
+  ],
+  "sources": {
+    "https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php": "Electricity use in homes - U.S. Energy Information Administration (EIA)",
+    "https://www.eia.gov/consumption/residential/data/2020/c&e/pdf/ce5.3a.pdf": "Table CE5.3a Detailed household site electricity end-use consumption, part 1 - averages, 2020 (EIA RECS)",
+    "https://www.eia.gov/consumption/residential/data/2020/c&e/pdf/ce5.3b.pdf": "Table CE5.3b Detailed household site electricity end-use consumption, part 2 - averages, 2020 (EIA RECS)",
+    "https://www.energystar.gov/products/heat_pump_water_heaters/benefits-savings": "Heat Pump Water Heaters: Benefits and Savings | ENERGY STAR",
+    "https://www.energystar.gov/products/refrigerators": "Refrigerators | ENERGY STAR",
+    "https://www.energystar.gov/products/pool_pumps": "Pool Pumps | ENERGY STAR",
+    "https://www.energystar.gov/products/clothes_dryers": "Clothes Dryers | ENERGY STAR",
+    "https://www.energystar.gov/products/dehumidifiers": "Dehumidifiers | ENERGY STAR",
+    "https://www.energystar.gov/products/heat_pump_water_heaters": "Heat Pump Water Heaters | ENERGY STAR"
+  }
+}

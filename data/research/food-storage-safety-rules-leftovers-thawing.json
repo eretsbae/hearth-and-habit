@@ -1,0 +1,82 @@
+{
+  "reader_situation": "A home cook wants one reliable page for the fridge, leftover, thawing, and refreezing rules, usually while standing at the fridge deciding whether something is still okay, or after the power went out.",
+  "direct_answer": "Keep the fridge at 40°F or below and the freezer at 0°F, measured with an appliance thermometer rather than the dial. Get perishables cold within 2 hours (1 hour above 90°F), eat cooked leftovers within 3 to 4 days, reheat to 165°F, and thaw only in the fridge, cold water, or microwave. After a power outage, an unopened fridge holds about 4 hours and a full freezer about 48. Smell and package dates are not safety tests.",
+  "consensus": [
+    "Fridge at 40°F or below, freezer at 0°F.",
+    "Refrigerate perishables within 2 hours, 1 hour above 90°F.",
+    "Leftovers last 3 to 4 days; reheat to 165°F.",
+    "Thaw in the fridge, cold water, or microwave, never on the counter.",
+    "When in doubt, throw it out."
+  ],
+  "gaps": [
+    "The fridge control dial doesn't show temperature. FDA says few refrigerator controls show actual temperatures and recommends a freestanding appliance thermometer in both fridge and freezer.",
+    "Power outages have specific limits: FDA says an unopened refrigerator keeps food cold for about 4 hours, a full freezer about 48 hours, a half-full freezer about 24; discard refrigerated perishables above 40°F for 4 hours or more; frozen food with ice crystals or at 40°F or below can be refrozen or cooked.",
+    "Frozen food stays safe indefinitely at 0°F; the freezer limit is about quality, not safety (FDA).",
+    "A 'use by' date on most foods is a quality guideline, not a safety date; infant formula and some baby foods must be used by the date (FDA). The leftover clock runs from cooking, not from the package date.",
+    "The fridge door is the warmest spot; FDA says to store eggs in their carton on a shelf, not the door. Overpacking blocks the cold air that must circulate around food.",
+    "Small portions of hot food can go straight into the fridge; larger amounts get divided into shallow containers (CDC). There's no need to wait for food to cool on the counter, and the 2-hour clock starts when cooking ends.",
+    "Food thawed in cold water or the microwave should be cooked immediately (FDA); cook to the safe internal temperature for that food: 145°F plus a 3-minute rest for whole cuts of beef, pork, veal, lamb; 160°F ground beef and pork; 165°F all poultry (CDC).",
+    "Always marinate in the refrigerator (FDA)."
+  ],
+  "evidence": [
+    {
+      "claim": "Fridge dials don't show temperature",
+      "detail": "Keep the refrigerator at 40°F or below; the freezer should be at 0°F. Few refrigerator controls show actual temperatures, so use an inexpensive freestanding appliance thermometer, one for the fridge and one for the freezer, and check often. Foods stay safe indefinitely in the freezer, though quality may suffer. Cold air must circulate around refrigerated foods, so don't overpack.",
+      "source_url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety",
+      "source_title": "Refrigerator Thermometers: Cold Facts about Food Safety | FDA"
+    },
+    {
+      "claim": "Power outage time limits",
+      "detail": "An unopened refrigerator keeps food cold for about 4 hours. A full freezer keeps its temperature for approximately 48 hours with the door closed; a half-full freezer about 24 hours. Discard refrigerated perishable food (meat, poultry, seafood, milk, eggs, leftovers) that has been above 40°F for 4 hours or more. Frozen food that still contains ice crystals or is 40°F or below can be refrozen or cooked. You can't rely on appearance or odor.",
+      "source_url": "https://www.fda.gov/food/buy-store-serve-safe-food/food-and-water-safety-during-power-outages-and-floods",
+      "source_title": "Food and Water Safety During Power Outages and Floods | FDA"
+    },
+    {
+      "claim": "Use-by dates and egg storage",
+      "detail": "A use-by date is a quality guideline, not a food safety date; infant formula and some baby foods must be used by the use-by date. Store eggs in their carton in the refrigerator itself rather than on the door, where the temperature is warmer. Leftovers in tight containers. If you're not sure, throw it out.",
+      "source_url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely",
+      "source_title": "Are You Storing Food Safely? | FDA Consumer Update"
+    },
+    {
+      "claim": "Thawing and chilling rules",
+      "detail": "Three safe ways to defrost food: in the refrigerator, in cold water, and in the microwave. Food thawed in cold water or in the microwave should be cooked immediately. Never thaw at room temperature. Refrigerate perishables within 2 hours of cooking or buying them, 1 hour above 90°F. Always marinate food in the refrigerator. Divide large amounts of leftovers into shallow containers; reheat to 165°F.",
+      "source_url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+      "source_title": "Safe Food Handling | FDA"
+    },
+    {
+      "claim": "Cooling, thawing, and cooking temperatures",
+      "detail": "Never leave perishable food out more than 2 hours (1 hour above 90°F). Keep the refrigerator at 40°F or below and the freezer at 0°F or below. Divide warm or hot food into shallow containers; small portions of hot food can go straight into the refrigerator. Never thaw food on the counter because bacteria multiply quickly in the parts that reach room temperature. Safe internal temperatures: whole cuts of beef, veal, lamb, pork 145°F then rest 3 minutes; ground beef and pork 160°F; all poultry 165°F; leftovers and casseroles 165°F. Use a food thermometer to confirm microwaved food reaches 165°F.",
+      "source_url": "https://www.cdc.gov/food-safety/prevention/index.html",
+      "source_title": "Four Steps to Food Safety | CDC"
+    },
+    {
+      "claim": "Thermometer page: food above 40°F briefly",
+      "detail": "If the food has been above 40°F for only 2 hours or less, it should be safe to eat. If you're unsure how long food has been above 40°F, don't take a chance; throw the food out.",
+      "source_url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety",
+      "source_title": "Refrigerator Thermometers: Cold Facts about Food Safety | FDA"
+    }
+  ],
+  "real_questions": [
+    "Is my fridge actually at 40°F if the dial says 3?",
+    "The power was out overnight; what do I keep?",
+    "Does the date on the package matter for leftovers?",
+    "Can I put hot food straight in the fridge?",
+    "Can I refreeze meat that thawed?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "Two tables: the core rules with numbers (registry plus FDA/CDC), and a power-outage decision table by appliance and thermometer reading (FDA). Plus a leftover clock from cooking to freezer."
+  },
+  "cautions": [
+    "Never judge food safety by smell, look, or taste (registry, FDA).",
+    "Rice: refrigerate within 1 hour if possible, never beyond 2 (registry, CDC).",
+    "If unsure how long food was above 40°F, throw it out (FDA)."
+  ],
+  "sources": {
+    "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety": "Refrigerator Thermometers: Cold Facts about Food Safety | FDA",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/food-and-water-safety-during-power-outages-and-floods": "Food and Water Safety During Power Outages and Floods | FDA",
+    "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely": "Are You Storing Food Safely? | FDA Consumer Update",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling": "Safe Food Handling | FDA",
+    "https://www.cdc.gov/food-safety/prevention/index.html": "Four Steps to Food Safety | CDC"
+  }
+}

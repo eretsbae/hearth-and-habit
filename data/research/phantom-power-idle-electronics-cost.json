@@ -1,0 +1,89 @@
+{
+  "reader_situation": "People who've heard that 'vampire' electronics waste money and want to know which devices are worth unplugging, what each one actually costs, and whether the effort shows up on the bill.",
+  "direct_answer": "Each watt drawn around the clock uses about 8.8 kWh a year, roughly $1.50 at a 17-cent rate. Measured standby medians are small for most devices (about 1 W for a TV, 0.5 W for a charger) but set-top boxes run a median of 8 W and some devices reach 20-30 W. NRDC found that always-on idle load averaged 164 W in 70,000 California homes, about 23% of household electricity, so the total can matter even when each device doesn't.",
+  "consensus": [
+    "Standby power is drawn by devices that are off but plugged in.",
+    "Cost = watts x hours / 1000 x rate.",
+    "Set-top boxes and game consoles are big offenders; chargers are small.",
+    "Use switchable power strips or smart plugs.",
+    "Measure with a plug-in watt meter."
+  ],
+  "gaps": [
+    "Measured medians, not guesses: Lawrence Berkeley National Laboratory's standby table gives medians of 8 W for set-top boxes (max 30 W), 1.7 W for game consoles (max 24.5 W), 0.95 W for TVs (max 23.8 W), 2.7 W for desktop computers, 2.61 W for printers, 3.32 W for internet access equipment, 1.5 W for microwaves, 0.95 W for coffee makers and 0.52 W for electronics chargers. The spread between median and max is the point: measure your own.",
+    "The share of the bill is bigger than '5-10%' once 'on but idle' devices count: LBNL puts standby at typically 5-10% of residential electricity in developed countries, but NRDC's smart-meter study of 70,000 northern California homes found always-on idle load averaged 164 W, about 1,300 kWh a year and nearly 23% of consumption.",
+    "The biggest idle loads often aren't electronics: in NRDC's 10-home audit, the top average idle loads per device were fishpond equipment and fans (110 W each), hot-water recirculation pumps (70 W), 24/7 lighting (27 W) and aquarium equipment (19 W), ahead of set-top boxes (16 W) and TVs (13 W).",
+    "Console settings matter: in NRDC's 2014 lab tests, connected standby drew 15.7 W on the Xbox One, 8.5 W on the PS4 and 0.4 W on the Wii U; nearly half of the Xbox One's annual energy went to connected standby.",
+    "Set-top boxes draw nearly as much power in the middle of the night as when recording or playing a show (NRDC).",
+    "Whole-house check: with a smart meter, the early-morning low (when the fridge compressor is off) approximates standby, but it can overestimate because a light, fan or pump may be running unnoticed (LBNL).",
+    "Smart plugs have their own standby: LBNL's median for smart sockets is 0.25 W (max 1.43 W), so put them only on devices that draw more than that.",
+    "Old article numbers (DVR 15-30 W, console rest 10-15 W, $15-$30 meters) lack a source and are replaced with LBNL/NRDC figures."
+  ],
+  "evidence": [
+    {
+      "claim": "Measured standby watts by product category",
+      "detail": "LBNL StandbyTable (min / Q1 / median / Q3 / max W): Set-top box 0/4/8/14/30; Gaming console 0/0.4/1.7/5.7/24.5; Television 0/0.22/0.95/4.08/23.8; Computer desktop 0/1.5/2.7/3.48/15; Printer 0/2.18/2.61/3.25/9.1; Internet access 0/1.3/3.32/4/8; Speakers home theater 0/1/3/6.8/12; Microwave 0/0.9/1.5/2.7/7; Coffee maker 0/0.49/0.95/3.26/5.4; Media player streaming 0.7/1.1/1.9/2.49/2.7; Charger electronics 0.01/0.2/0.52/0.92/1.9; Socket (smart) 0.16/0.16/0.25/0.25/1.43. Data gathered from academic literature and laboratory measurements (spreadsheet linked from the page, uploaded 2022-11).",
+      "source_url": "https://standby.lbl.gov/standby-power-data-metering",
+      "source_title": "Products that Use Standby Power | Standby Power (Lawrence Berkeley National Laboratory)"
+    },
+    {
+      "claim": "Watts to kWh and standby share",
+      "detail": "If a device draws 1 watt constantly for a year, its energy consumption is 9 kWh/yr; a 5 W device is about 45 kWh/yr. Standby is typically 5-10% of residential electricity use in most developed countries. New products can use as much as 90% less standby power than the ones they replace. Almost any product with an external power supply, internal battery or remote control draws power continuously. If you aren't frequently using a device, unplug it; the older the appliance, the greater the likely savings; switchable power strips for clusters of computer or video products.",
+      "source_url": "https://standby.lbl.gov/frequently-asked-questions",
+      "source_title": "Frequently Asked Questions | Standby Power (Lawrence Berkeley National Laboratory)"
+    },
+    {
+      "claim": "What to unplug first",
+      "detail": "The highest priority are older appliances that you rarely (or no longer) use; seasonal devices such as garden tools and room air conditioners in the off-season. Don't unplug and plug devices with worn power cords. A switchable power strip makes sense if you can control many devices from one location. Hot water circulation pumps should be put on a timer.",
+      "source_url": "https://standby.lbl.gov/what-can-i-unplug-now",
+      "source_title": "What Can I Unplug Now? | Standby Power (Lawrence Berkeley National Laboratory)"
+    },
+    {
+      "claim": "Measuring standby",
+      "detail": "Most consumer meters can't safely measure more than about 1300 watts. A growing number of smart plugs and power strips also measure energy. With a smart meter, whole-house standby can sometimes be measured when no major appliances are running, such as early morning when the refrigerator compressor is off; this can overestimate because a light, small fan or pump may be running unnoticed.",
+      "source_url": "https://standby.lbl.gov/meters-to-measure-standby-power",
+      "source_title": "List of Meters to Measure Standby | Standby Power (Lawrence Berkeley National Laboratory)"
+    },
+    {
+      "claim": "Household always-on idle load",
+      "detail": "Average always-on load across 70,000 northern California homes was 164 watts, about 1,300 kWh a year per home and nearly 23% of annual electricity consumption (21% inland to 24% coastal). Always-on but inactive loads add about $165 a year at the national average rate used ($0.125/kWh), up to $440 at the local top tier rate. 10-home audit: average 65 devices per home, 43 drawing more than 1 W in the home's idle state. Consumer electronics were 51% of always-on consumption.",
+      "source_url": "https://www.nrdc.org/sites/default/files/home-idle-load-IP.pdf",
+      "source_title": "Home Idle Load: Devices Wasting Huge Amounts of Electricity When Not in Active Use | NRDC (2015)"
+    },
+    {
+      "claim": "Which devices had the biggest idle loads in the audit",
+      "detail": "Table 3, average idle load per device: fishpond equipment 110 W, fans 110 W, recirculation pump 70 W, 24/7 lighting 27 W, aquarium equipment 19 W, set-top boxes 16 W, TVs 13 W, modems 11 W, desktop computers 9.5 W, security systems 8.2 W, audio/video 7.5 W, laptops 7.1 W, furnace 6.7 W, printers 6.3 W, wireless routers 5.5 W. One home had two set-top boxes drawing 16 W together, another three drawing 57 W. A set-top box draws nearly as much power in the middle of the night as when recording or playing a show. Measured devices include older equipment.",
+      "source_url": "https://www.nrdc.org/sites/default/files/home-idle-load-IP.pdf",
+      "source_title": "Home Idle Load: Devices Wasting Huge Amounts of Electricity When Not in Active Use | NRDC (2015)"
+    },
+    {
+      "claim": "Game console connected standby",
+      "detail": "NRDC lab tests (May 2014): connected standby power Wii U 0.4 W, PS4 8.5 W, Xbox One 15.7 W; annual energy 37, 181 and 233 kWh. Nearly half of the Xbox One's annual energy is consumed in connected standby, drawing more than 15 W while waiting for 'Xbox on'. The new consoles use more energy each year playing video or in standby than playing games.",
+      "source_url": "https://www.nrdc.org/sites/default/files/video-game-consoles-IP.pdf",
+      "source_title": "The Latest-Generation Video Game Consoles: How Much Energy Do They Waste When You're Not Playing? | NRDC (2014)"
+    }
+  ],
+  "real_questions": [
+    "Is it worth unplugging phone chargers?",
+    "Which devices actually cost real money in standby?",
+    "Does rest mode on a console matter?",
+    "Do smart plugs use power themselves?",
+    "How do I find my home's always-on load without measuring every device?"
+  ],
+  "original_asset": {
+    "type": "comparison_table",
+    "spec": "Device table with LBNL median and maximum standby watts, each converted to kWh and dollars per year at the registry's 17-cent rate (watts x 8,760 / 1000 x 0.17), plus a worked whole-house example using NRDC's 1,300 kWh (at 12.5 cents = $165, at 17 cents = $221), and a console example with NRDC's 15.7 W vs 0.4 W."
+  },
+  "cautions": [
+    "Don't cut power to routers, DVRs mid-recording, medical equipment, alarms or furnaces.",
+    "Don't unplug devices with worn cords (LBNL).",
+    "Console figures are 2014 models; settings and newer hardware differ."
+  ],
+  "sources": {
+    "https://standby.lbl.gov/standby-power-data-metering": "Products that Use Standby Power | Lawrence Berkeley National Laboratory",
+    "https://standby.lbl.gov/frequently-asked-questions": "Frequently Asked Questions | Standby Power (LBNL)",
+    "https://standby.lbl.gov/what-can-i-unplug-now": "What Can I Unplug Now? | Standby Power (LBNL)",
+    "https://standby.lbl.gov/meters-to-measure-standby-power": "List of Meters to Measure Standby | Standby Power (LBNL)",
+    "https://www.nrdc.org/sites/default/files/home-idle-load-IP.pdf": "Home Idle Load: Devices Wasting Huge Amounts of Electricity When Not in Active Use | NRDC",
+    "https://www.nrdc.org/sites/default/files/video-game-consoles-IP.pdf": "The Latest-Generation Video Game Consoles | NRDC"
+  }
+}

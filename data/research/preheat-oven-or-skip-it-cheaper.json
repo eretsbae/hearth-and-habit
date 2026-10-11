@@ -1,0 +1,80 @@
+{
+  "reader_situation": "A home cook making a weeknight dinner wonders whether waiting 10–20 minutes for the preheat beep is wasting electricity or gas, and whether starting food in a cold oven is a reasonable way to save money.",
+  "direct_answer": "Skipping preheat saves only a few cents at most, because a preheat is short and all electric cooking together averages about 290 kWh a year per household (EIA). Keep preheating for anything baked, browned or crisped; Whirlpool says preheating is necessary for good baking results. The bigger, free wins are shortening the preheat itself: pull unused racks, keep the door shut, and don't line racks or the oven floor with foil.",
+  "consensus": [
+    "Preheating costs a little energy but matters for baked goods.",
+    "Skipping is fine for casseroles, braises and reheating.",
+    "Don't open the door during cooking.",
+    "Use convection or smaller appliances for small meals.",
+    "Energy cost = watts × hours ÷ 1000 × rate."
+  ],
+  "gaps": [
+    "Actual preheat times from a manufacturer: Whirlpool says ovens with a visible bake element preheat to 350°F in 12–15 minutes (±5), and ovens with a hidden bake element take about 20 minutes (±5); higher temperatures take longer.",
+    "Things that lengthen preheat (and cost money every time): unused racks left in the oven add to preheat time; opening the door during preheat; a whole rack or oven bottom lined with foil blocks airflow; a range on 208 V (common in buildings with elevators) preheats slower than one on 240 V (Whirlpool).",
+    "The ceiling on any saving: EIA's 2020 RECS puts average household electricity for cooking (ranges, cooktops and ovens, not microwaves) at 290 kWh a year, against about 10,500 kWh total household use. At the registry's 17–18¢/kWh that is roughly $49–$52 a year for all electric cooking combined.",
+    "A per-1,000-watt way to price a preheat without guessing your oven's wattage: 1,000 W × 0.25 h (15 min) = 0.25 kWh ≈ 4¢ at 17¢; 1,000 W × 0.333 h (20 min) ≈ 0.33 kWh ≈ 6¢. Multiply by the kilowatts on your oven's rating plate; nameplate watts are the maximum draw (registry), so this is an upper bound.",
+    "Whirlpool's own guidance for good results: allow the oven to fully preheat before inserting food and don't open the door until the preheat tone sounds; use the oven light to check progress.",
+    "The old article's 2,000–5,000 W draw, 6–22¢ range, 25–50°F door-drop, toaster-oven 'quarter to half' figure, pizza-stone 20–30 minutes, convection 20–30°F, igniter wattage and $15–$57/year had no source and are removed."
+  ],
+  "evidence": [
+    {
+      "claim": "How long ovens take to preheat",
+      "detail": "Preheat times depend on element type, oven size and desired temperature. Ovens with a visible heating element with all racks in will preheat to 350°F in 12–15 minutes (+/-) 5 minutes. Ovens with a hidden bake element will preheat to 350°F in 20 minutes (+/-) 5 minutes. If the desired temperature is higher than 350°F, the preheat time will be increased.",
+      "source_url": "https://producthelp.whirlpool.com/Cooking/Wall_Ovens_and_Ranges/Ranges/Bake_Performance/Long_Preheat_Times/Long_Preheat_Times_-_Range",
+      "source_title": "Long Preheat Times - Range | Whirlpool Product Help"
+    },
+    {
+      "claim": "What makes preheat longer",
+      "detail": "Remove any racks not being used; unused racks left in the oven will add to the preheat time. Opening the oven door allows heat to escape; repeatedly opening the door may extend preheat times. Do not cover an entire oven rack or the oven bottom with aluminum foil below the baking pan; this can block good airflow. A range installed at 208V will take longer to preheat than one at 240V; in a building with an elevator, the oven is installed on 208V.",
+      "source_url": "https://producthelp.whirlpool.com/Cooking/Wall_Ovens_and_Ranges/Ranges/Bake_Performance/Long_Preheat_Times/Long_Preheat_Times_-_Range",
+      "source_title": "Long Preheat Times - Range | Whirlpool Product Help"
+    },
+    {
+      "claim": "Preheating and door habits for baking results",
+      "detail": "Limit the number of times the door is opened; use the oven light to check baking progress. Preheating is necessary for good results. Allow the oven to fully preheat before inserting food. Do not open the door to insert food until the preheat tone sounds.",
+      "source_url": "https://producthelp.whirlpool.com/Cooking/Wall_Ovens_and_Ranges/Ranges/Bake_Performance/Baking_Times/Long_Bake_Times_-_Range",
+      "source_title": "Long Bake Times - Range | Whirlpool Product Help"
+    },
+    {
+      "claim": "Oven temperature cycles",
+      "detail": "Elements cycle on and off as needed to provide a consistent temperature; due to this cycling they may run slightly hot or cool at any point in time. Opening the oven door will affect the cycling, impacting the temperature. A new oven may cook faster or slower than your previous oven.",
+      "source_url": "https://producthelp.whirlpool.com/Cooking/Wall_Ovens_and_Ranges/Ranges/Bake_Performance/Poor_Baking_Results/Poor_Baking_Results_-_Range",
+      "source_title": "Poor Baking Results - Range | Whirlpool Product Help"
+    },
+    {
+      "claim": "Average household electricity for cooking",
+      "detail": "Table CE5.3b, 2020 RECS: cooking averages 290 kWh per household using the end use (0.99 million Btu). Cooking includes ranges, separate cooktops and separate ovens; microwaves (107 kWh), small kitchen appliances and outdoor cooking are excluded. Dishwashers 112 kWh; all refrigerators 839 kWh.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/c&e/pdf/ce5.3b.pdf",
+      "source_title": "Table CE5.3b Detailed household site electricity end-use consumption, part 2—averages, 2020 (EIA RECS)"
+    },
+    {
+      "claim": "Average household electricity use",
+      "detail": "The average U.S. household consumes about 10,500 kWh of electricity per year. In 2020 the largest shares of residential electricity were air conditioning 19%, space heating 12% and water heating 12%.",
+      "source_url": "https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php",
+      "source_title": "Electricity use in homes | U.S. Energy Information Administration"
+    }
+  ],
+  "real_questions": [
+    "Does skipping preheat save enough to matter?",
+    "Is it safe to put food in a cold oven?",
+    "Why does my oven take 20 minutes to preheat?",
+    "Do I need to preheat for frozen foods and casseroles?",
+    "Does opening the door to check food waste energy?"
+  ],
+  "original_asset": {
+    "type": "worked_example",
+    "spec": "Per-1,000-watt preheat cost at 15 and 20 minutes using Whirlpool times and the registry rate/formula; annual cap using EIA RECS 290 kWh cooking vs 10,500 kWh household; a skip/keep decision table; a preheat-shortening checklist from Whirlpool."
+  },
+  "cautions": [
+    "Reheat leftovers to 165°F measured with a food thermometer (USDA registry).",
+    "Don't line the oven bottom or a whole rack with foil (Whirlpool).",
+    "Don't judge doneness or food safety by look or smell; use a thermometer."
+  ],
+  "sources": {
+    "https://producthelp.whirlpool.com/Cooking/Wall_Ovens_and_Ranges/Ranges/Bake_Performance/Long_Preheat_Times/Long_Preheat_Times_-_Range": "Long Preheat Times - Range | Whirlpool Product Help",
+    "https://producthelp.whirlpool.com/Cooking/Wall_Ovens_and_Ranges/Ranges/Bake_Performance/Baking_Times/Long_Bake_Times_-_Range": "Long Bake Times - Range | Whirlpool Product Help",
+    "https://producthelp.whirlpool.com/Cooking/Wall_Ovens_and_Ranges/Ranges/Bake_Performance/Poor_Baking_Results/Poor_Baking_Results_-_Range": "Poor Baking Results - Range | Whirlpool Product Help",
+    "https://www.eia.gov/consumption/residential/data/2020/c&e/pdf/ce5.3b.pdf": "Table CE5.3b Detailed household site electricity end-use consumption, part 2—averages, 2020 (EIA RECS)",
+    "https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php": "Electricity use in homes | U.S. Energy Information Administration"
+  }
+}

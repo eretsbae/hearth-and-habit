@@ -1,0 +1,82 @@
+{
+  "reader_situation": "Someone wondering whether to switch their dishwasher from heated dry to air dry wants to know how much money each load actually costs and whether it's worth wet plastic containers.",
+  "direct_answer": "On an ENERGY STAR certified standard dishwasher, heated dry costs less than about 10 cents a load at the US average of 17-18 cents per kWh, and likely well under that. No manufacturer or agency publishes a typical per-cycle drying figure, but the whole certified cycle is capped at about 1.12 kWh (240 kWh/year over 215 cycles), and most of a dishwasher's energy goes to heating water. A plug-in watt meter gives your own model's exact number.",
+  "consensus": [
+    "Air dry saves energy compared with heated dry.",
+    "Crack the door after the cycle to help air drying.",
+    "Use rinse aid for better drying.",
+    "Run full loads and skip pre-rinsing.",
+    "Dishwashers use less water and energy than hand washing."
+  ],
+  "gaps": [
+    "Most articles quote a per-load heated-dry figure without a source; none of the agency pages reviewed publish one. The defensible number is a ceiling built from ENERGY STAR's cap and LBNL's energy split.",
+    "ENERGY STAR's standard-size limit is 240 kWh/year at 215 cycles/year, including drying energy: 240 / 215 = about 1.12 kWh per complete cycle, or 19-20 cents at 17-18 cents/kWh.",
+    "Lawrence Berkeley National Laboratory's Home Energy Saver documentation says the majority of a dishwasher's energy goes to water heating; machine energy covers pumps and the heating elements for drying. So pumps plus drying are under half of 1.12 kWh, under about 0.56 kWh, under about 10 cents a load.",
+    "LBNL's model assumes 0.78 kWh/load of machine energy for older machines (based on 1990 DOE data), so older dishwashers can use more for the machine side.",
+    "A plug-in watt meter measures real use (registry); running one load with heated dry and one without isolates the drying cost, because drying draws no hot water from the water heater.",
+    "NRCan says most users pick the same high-temperature program every time and recommends eco mode plus the air-dry setting; ENERGY STAR lists the ability to turn off heated dry as a feature to look for.",
+    "Hand washing: ENERGY STAR says a certified dishwasher uses less than half the energy of hand washing and saves about 8,400 gallons of water a year."
+  ],
+  "evidence": [
+    {
+      "claim": "ENERGY STAR energy cap and annual cycles",
+      "detail": "Standard (8+ place settings): max 240 kWh/year and 3.2 gallons/cycle; compact: 155 kWh/year and 2.0 gallons/cycle. Average cycles per year is 215. Drying energy is part of the overall energy calculation. Test method: DOE 10 CFR 430 Subpart B Appendix C1.",
+      "source_url": "https://www.energystar.gov/products/dishwashers/key_product_criteria",
+      "source_title": "Dishwashers Key Product Criteria | ENERGY STAR"
+    },
+    {
+      "claim": "Running cost and hand-washing comparison",
+      "detail": "A standard ENERGY STAR certified dishwasher costs about $50 per year to run; compared with hand washing it saves 8,400 gallons of water each year, uses less than half as much energy, saves about $220 per year and over 230 hours of personal time. Scrape instead of rinsing; run full loads; look for the ability to turn off heated dry.",
+      "source_url": "https://www.energystar.gov/products/dishwashers",
+      "source_title": "Dishwashers | ENERGY STAR"
+    },
+    {
+      "claim": "Most dishwasher energy is water heating",
+      "detail": "Total dishwasher energy = machine energy + water heating energy; the majority of the energy is used for water heating. Both depend directly on the number of loads washed.",
+      "source_url": "https://hes-documentation.lbl.gov/calculation-methodology/calculation-of-energy-consumption/appliances/dishwasher-energy-consumption",
+      "source_title": "Home Energy Saver & Score Engineering Documentation: Dishwasher Energy Consumption (Lawrence Berkeley National Laboratory)"
+    },
+    {
+      "claim": "Machine energy includes the drying heaters",
+      "detail": "Machine energy, the energy to run a load including pumps and heating elements for the drying cycle, is assumed to be 0.78 kWh/load (citing US DOE 1990, Table 3.4).",
+      "source_url": "https://hes-documentation.lbl.gov/calculation-methodology/calculation-of-energy-consumption/appliances/dishwasher-energy-consumption/machine-energy",
+      "source_title": "Home Energy Saver & Score Engineering Documentation: Machine Energy (Lawrence Berkeley National Laboratory)"
+    },
+    {
+      "claim": "Use air dry and eco mode",
+      "detail": "An ENERGY STAR certified dishwasher uses on average 12% less energy and 30% less water than a standard model. No need to pre-rinse. The majority of users choose the same setting all the time, usually a high-temperature program; use eco mode. Turn on the air-dry setting instead of heat-dry.",
+      "source_url": "https://natural-resources.canada.ca/stories/spotlight-energy-efficiency/use-your-dishwasher-more-efficiently-big-savings",
+      "source_title": "Use your dishwasher more efficiently for big savings (Natural Resources Canada)"
+    },
+    {
+      "claim": "Canadian minimum standards include power-dry reporting",
+      "detail": "Standard dishwashers: maximum total annual energy consumption 307 kWh and water 18.93 L/cycle; compact 222 kWh and 13.25 L/cycle; test standard CAN/CSA-C373-14; reports list drying options including power-dry with fan and heat on.",
+      "source_url": "https://natural-resources.canada.ca/energy-efficiency/energy-efficiency-regulations/dishwashers",
+      "source_title": "Dishwashers - Energy efficiency regulations (Natural Resources Canada)"
+    }
+  ],
+  "real_questions": [
+    "How much does heated dry cost per load?",
+    "Why are my plastics still wet with air dry?",
+    "Is eco mode worth it?",
+    "Is hand washing cheaper than the dishwasher?",
+    "Will air dry leave bacteria?"
+  ],
+  "original_asset": {
+    "type": "worked_example",
+    "spec": "Ceiling math: 240 kWh / 215 cycles = 1.12 kWh per cycle; x 17-18 cents = 19-20 cents; half of 1.12 = 0.56 kWh x 17-18 cents = 9.5-10 cents per load; x 215 cycles = about $20-22/year ceiling for pumps plus drying. Plus a two-load watt-meter test with the formula (kWh with heat - kWh without) x rate x loads per year."
+  },
+  "cautions": [
+    "Don't present an unsourced per-load drying kWh as typical.",
+    "Watt meter only works if the dishwasher plugs into an outlet; don't open hardwired junction boxes.",
+    "Use the registry electricity rate and formula."
+  ],
+  "sources": {
+    "https://www.energystar.gov/products/dishwashers/key_product_criteria": "Dishwashers Key Product Criteria | ENERGY STAR",
+    "https://www.energystar.gov/products/dishwashers": "Dishwashers | ENERGY STAR",
+    "https://hes-documentation.lbl.gov/calculation-methodology/calculation-of-energy-consumption/appliances/dishwasher-energy-consumption": "Home Energy Saver & Score Engineering Documentation: Dishwasher Energy Consumption (Lawrence Berkeley National Laboratory)",
+    "https://hes-documentation.lbl.gov/calculation-methodology/calculation-of-energy-consumption/appliances/dishwasher-energy-consumption/machine-energy": "Home Energy Saver & Score Engineering Documentation: Machine Energy (Lawrence Berkeley National Laboratory)",
+    "https://natural-resources.canada.ca/stories/spotlight-energy-efficiency/use-your-dishwasher-more-efficiently-big-savings": "Use your dishwasher more efficiently for big savings (Natural Resources Canada)",
+    "https://natural-resources.canada.ca/energy-efficiency/energy-efficiency-regulations/dishwashers": "Dishwashers - Energy efficiency regulations (Natural Resources Canada)"
+  }
+}

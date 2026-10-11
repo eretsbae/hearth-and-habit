@@ -1,0 +1,52 @@
+{
+  "reader_situation": "Every spring a homeowner in a snowy climate finds a brown strip of dead grass along the sidewalk or street edge while the rest of the lawn greens up, and wants to know why it happens and how to stop repeating it.",
+  "direct_answer": "It's de-icing salt, not cold. Rock salt and plow slush collect at the pavement edge, and salt left in the soil damages roots and the soil's ability to hold water. The fix is to apply less salt and only when it can work (rock salt stops working at about 15°F), flush the strip in spring, and reseed with a salt-tolerant fescue in late summer.",
+  "consensus": [
+    "De-icing salt causes the dead strip along walks and roads.",
+    "Water the area in spring to flush salt out.",
+    "Reseed with a salt-tolerant grass.",
+    "Use less salt or switch to a 'pet-safe' or 'lawn-safe' ice melt.",
+    "Shovel before applying de-icer."
+  ],
+  "gaps": [
+    "Rock salt stops working at about 15°F, so salt spread on colder days just sits on the pavement until it washes into the grass edge. MPCA says 15°F and below is too cold for salt; the Nine Mile Creek Watershed District chart lists sodium chloride as melting effectively at or above 15°F.",
+    "A specific dose: MPCA says about 12 ounces, roughly a coffee mug full, treats a 20-foot driveway or about 10 sidewalk squares, and to sweep up visible salt on dry pavement.",
+    "Product labels are not a guide: Nine Mile Creek says there are no labeling laws for de-icers and all de-icers have an impact even when labeled 'environmentally safe' or 'pet friendly'.",
+    "De-icers differ in working temperature and side effects. Nine Mile Creek lists CMA and urea at 20°F, sodium chloride 15°F, potassium acetate -15°F, calcium chloride -20°F; sand never melts. The Morton Arboretum says calcium chloride does less harm to plants and works at lower temperatures, magnesium chloride is less harmful to plants but can damage concrete, and CMA is safer for plants but costs more and doesn't melt at very low temperatures.",
+    "Drainage decides how fast salt leaves: the Morton Arboretum says salt leaches out of well-drained soils, but damage can be severe in poorly drained soils; thorough watering may help.",
+    "Salt changes the soil, not just the grass: MPCA says salt-laden soil can lose its ability to retain water and store nutrients and becomes more prone to erosion.",
+    "Species advice conflicts by spot: Iowa State calls Kentucky bluegrass the best choice for sunny lawns, but UConn recommends fine fescues or turf-type tall fescue where road salt kills turf along streets and sidewalks, because they resist salt better than bluegrass.",
+    "The old article's gypsum advice, freeze-thaw explanation, strip widths, and compost depth have no source in this research and were removed."
+  ],
+  "evidence": [
+    {"claim": "Rock salt stops working at 15°F; dose and sweeping", "detail": "Around 12 ounces, roughly a coffee mug full, effectively treats a 20-foot driveway or 10 sidewalk squares. 15°F and below is too cold for salt; most salts stop working at this temperature. The more snow and ice you remove manually, the less salt is needed. Sweep up visible salt on dry surfaces. Use sand for traction, but sand does not melt ice. Salt is commonly over-applied. Pets may consume deicing materials by eating them directly, licking their paws, or drinking snowmelt and runoff, which can be toxic to them; exposure can cause painful irritation, inflammation, and cracking of their foot pads. Keep deicers away from pets.", "source_url": "https://www.pca.state.mn.us/news-and-stories/help-save-minnesota-waters-your-pets-and-your-wallet-from-too-much-salt-this-winter", "source_title": "Help save Minnesota waters, your pets, and your wallet from too much salt this winter | Minnesota Pollution Control Agency"},
+    {"claim": "Salt harms soil and roots", "detail": "Plants that take up salty water through their roots can suffer, and road salt splash can kill roadside plants. Salt-laden soil can lose its ability to retain water and store nutrients and becomes more prone to erosion. One teaspoon of salt permanently pollutes five gallons of water.", "source_url": "https://www.pca.state.mn.us/pollutants-and-contaminants/chloride", "source_title": "Chloride | Minnesota Pollution Control Agency"},
+    {"claim": "De-icer working temperatures and labeling", "detail": "Melts effectively at or above: urea 20°F, calcium magnesium acetate (CMA) 20°F, sodium chloride 15°F, potassium acetate -15°F, calcium chloride -20°F; sand never melts, traction only. There are no labeling laws for de-icers; all de-icers have an impact even if labeled 'environmentally safe' or 'pet friendly'. Inexpensive blends may contain a high amount of sodium chloride. Do not mix sand and salt. More salt does not mean faster melting; use only enough to break the bond of ice with the pavement; leave space between granules; shovel first; sweep up excess.", "source_url": "http://www.ninemilecreek.org/wp-content/uploads/Buying-a-Deicer_NMCWD.pdf", "source_title": "How to Choose a De-icer | Nine Mile Creek Watershed District"},
+    {"claim": "De-icer trade-offs for plants and concrete; leaching depends on drainage", "detail": "Spring symptoms include dead areas in turf. Roots can be damaged from salt remaining in the soil. Salt leaches out of well-drained soils, but damage can be severe in poorly drained soils; thorough watering may help leach the salt out. Sodium chloride is quite damaging to landscape plants. Magnesium chloride is less harmful to plants but can damage concrete. Potassium chloride causes less damage than rock salt but may be less effective at low temperatures. Calcium chloride does less harm to plants and works at lower temperatures. CMA is safer around plants, costs more, and does not melt ice at very low temperatures. Avoid overapplication.", "source_url": "https://mortonarb.org/plant-and-protect/tree-plant-care/plant-care-resources/winter-injury-to-trees-and-shrubs/", "source_title": "Winter Injury to Trees and Shrubs | The Morton Arboretum"},
+    {"claim": "Fescues resist salt better than Kentucky bluegrass along walks; soil test; seeding window", "detail": "If road salts cause turf loss along streets and sidewalks, fine-leaved fescues or turf-type tall fescues are more resistant to salt damage than Kentucky bluegrass. Have the soil tested; seeding alone won't solve chronic soil problems. August 15 through mid-September is the best time to establish or renovate a lawn in Connecticut. Keep seed moist until germination.", "source_url": "https://homegarden.cahnr.uconn.edu/lawn-renovation-and-repair/", "source_title": "Lawn Renovation and Repair | UConn Home & Garden Education Center"},
+    {"claim": "Late-summer seeding window and seedbed watering", "detail": "Mid-August through mid-September is the best time to renovate a thin lawn; late-summer seeding beats spring because seed sprouts quickly in warm soil with fewer competing weeds. Core aerate 3-4 passes to 20-40 holes per square foot, then seed and drag. Keep the seedbed moist with frequent light waterings, usually at least once a day. Kentucky bluegrass is the best choice for sunny areas.", "source_url": "https://yardandgarden.extension.iastate.edu/how-to/overseeding-lawn", "source_title": "Overseeding a Lawn | Iowa State University Extension Yard and Garden"},
+    {"claim": "Core aeration timing and method", "detail": "September and April are the best times to aerate Kentucky bluegrass and other cool-season lawns. Aerate twice a year for heavy clay soils and lawns with heavy foot or pet traffic. Spike-type aerators simply punch holes, compacting the soil; core aerators are preferred. Aerate when the soil is moist, not dry or wet.", "source_url": "https://yardandgarden.extension.iastate.edu/how-to/core-aeration-lawns", "source_title": "Core Aeration of Lawns | Iowa State University Extension Yard and Garden"}
+  ],
+  "real_questions": [
+    "Will salt-damaged grass come back on its own?",
+    "Is pet-safe ice melt better for my lawn?",
+    "Is it my ice melt or the city plow?",
+    "When should I reseed the strip?",
+    "Which grass survives along a salted sidewalk?"
+  ],
+  "original_asset": {"type": "decision_table", "spec": "Pavement temperature to de-icer choice table using Nine Mile Creek working temperatures and Morton Arboretum trade-offs; plus a spring-to-fall repair schedule (flush in spring, aerate when moist in April or September, seed salt-tolerant fescue mid-August to mid-September) from Iowa State and UConn."},
+  "cautions": [
+    "Call 811 before digging if any repair involves trenching or edging along utilities (registry).",
+    "Magnesium chloride can damage concrete (Morton Arboretum).",
+    "Keep pets away from de-icers; MPCA says salt can sicken pets and irritate paw pads."
+  ],
+  "sources": {
+    "https://www.pca.state.mn.us/news-and-stories/help-save-minnesota-waters-your-pets-and-your-wallet-from-too-much-salt-this-winter": "Help save Minnesota waters, your pets, and your wallet from too much salt this winter | Minnesota Pollution Control Agency",
+    "https://www.pca.state.mn.us/pollutants-and-contaminants/chloride": "Chloride | Minnesota Pollution Control Agency",
+    "http://www.ninemilecreek.org/wp-content/uploads/Buying-a-Deicer_NMCWD.pdf": "How to Choose a De-icer | Nine Mile Creek Watershed District",
+    "https://mortonarb.org/plant-and-protect/tree-plant-care/plant-care-resources/winter-injury-to-trees-and-shrubs/": "Winter Injury to Trees and Shrubs | The Morton Arboretum",
+    "https://homegarden.cahnr.uconn.edu/lawn-renovation-and-repair/": "Lawn Renovation and Repair | UConn Home & Garden Education Center",
+    "https://yardandgarden.extension.iastate.edu/how-to/overseeding-lawn": "Overseeding a Lawn | Iowa State University Extension Yard and Garden",
+    "https://yardandgarden.extension.iastate.edu/how-to/core-aeration-lawns": "Core Aeration of Lawns | Iowa State University Extension Yard and Garden"
+  }
+}

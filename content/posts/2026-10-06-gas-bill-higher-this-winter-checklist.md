@@ -2,8 +2,9 @@
 title: Gas Bill Higher This Winter Without Touching the Thermostat? Run This Checklist
 slug: gas-bill-higher-this-winter-checklist
 date: '2026-10-06'
-description: A higher gas bill with the same thermostat setting usually means colder
-  outdoor temps, rate changes, or heat loss. Here's the checklist to find out which.
+updated: '2026-10-11'
+enriched: '2026-10-11'
+description: 'Same thermostat, bigger gas bill? Check billing days, price per therm, and therms per degree day against last winter. Worked example, CCF vs. therms, and fixes.'
 tags:
 - gas bill
 - winter heating costs
@@ -15,61 +16,115 @@ hero_image: /images/gas-bill-higher-this-winter-checklist-hero.svg
 hero_alt: Cutaway illustration of a house losing heat in winter while the furnace
   runs, representing a higher gas bill
 pin_hooks:
-- Higher Gas Bill, Same Thermostat? Check These 9 Things First
-- Why Your Gas Bill Jumped Even Though Nothing Changed
+- 'Same thermostat, higher gas bill: do this math first'
+- Therms per degree day tells you if it's the weather
 ---
 
-Your gas bill is higher this winter mainly because it's colder outside, your furnace runs longer to make up for heat loss, or your gas rate itself went up — not because you changed a setting.
+With the thermostat unchanged, a higher winter gas bill usually traces to colder weather, a higher price per therm, or a longer or estimated billing period. Only if those three don't explain it is your house or furnace using more gas. Three numbers from your bills, compared with the same month last year, tell you which.
 
-The thermostat number on the wall is only one input. Your furnace doesn't care what the dial says — it cares how much heat your house loses and how cold it is outside. If either of those changed, your bill changes too, even with the exact same setting. Here's the checklist to figure out which factor is driving yours, roughly in order of how often each one is the real culprit.
+The thermostat setting is only half the story. Your furnace has to replace whatever heat the house loses, and it loses more on colder days. "I didn't change anything" is consistent with a much bigger bill.
 
-## Start With What You Can't Control: Weather and Rates
+![Four-step check for a higher winter gas bill: billing days, price per therm, therms per degree day, then the house and furnace](/images/gas-bill-higher-this-winter-checklist-inline.svg)
 
-**Check the actual temperature difference, not just the thermostat.** A thermostat set to 68°F works much harder when it's 15°F outside than when it's 35°F outside. If this winter has been colder than last winter in your area, your furnace is simply running more hours to hold the same indoor temperature — that alone can add noticeably to a bill with zero change in habits.
+## Step 1: Check the billing period and the reading
 
-**Look at your rate per therm or per CCF, not just the total due.** Utilities adjust gas supply rates seasonally and year to year based on wholesale gas prices. Pull up last year's bill and this year's bill side by side and compare the rate line, not just the total — a rate increase of even a few cents can explain a jump that has nothing to do with usage.
+Find the billing days and the reading type on both bills.
 
-**Check for new fixed charges or fee changes.** Delivery charges, infrastructure fees, or a basic service charge can increase even when your actual consumption is flat. These usually show as a separate line item, so scan the whole bill rather than the headline number.
+- **Billing days.** A 33-day bill and a 29-day bill aren't comparable. Divide therms by days before comparing anything.
+- **Estimated reads.** Manitoba Hydro explains that estimated readings are based on last year's use. If last winter was milder, this winter's estimates run low, and the next actual reading charges for the difference. That one bill looks like a spike, but it's really the earlier estimated months catching up. Add the estimated bills and the catch-up bill together and compare the total with the same stretch last year.
 
-**Compare therms used, not dollars, year over year.** If your utility shows usage history (most bill portals do), compare actual therms or CCF used this month to the same month last year. If usage is close but weather and rates both increased, you've already found your answer and can stop checking equipment.
+## Step 2: Check the price per therm
 
-## Then Check What's Making the Furnace Work Harder
+Divide the total bill by the therms used. That gives an all-in price including delivery charges and fees. Do the same for last year's bill.
 
-**Swap the furnace filter if it's been more than 1 to 3 months.** A clogged filter restricts airflow, which makes the system run longer and less efficiently to push out the same amount of heat. If you're not sure what filter rating you need or how often to actually change it, the breakdown in [Furnace Filter Basics: How Often to Change It (and What MERV Actually Means)](https://www.hearth-habit.com/2026/07/furnace-filter-basics-how-often-to.html) covers it. A filter that turns gray within two weeks is also worth investigating on its own — see [What Does It Mean When My Furnace Filter Turns Gray in Two Weeks?](https://www.hearth-habit.com/2026/08/furnace-filter-turns-gray-in-two-weeks.html)
+**If your bill shows CCF instead of therms:** a CCF is 100 cubic feet of gas. EIA lists 1,036 Btu per cubic foot and 100,000 Btu per therm, so 1 CCF is about 1.036 therms. Your utility may use its own conversion factor printed on the bill. Either way, compare like with like.
 
-**Check for drafts around windows, doors, and where pipes or wiring enter the wall.** Cold air leaking in forces the furnace to replace that heat continuously. Running a hand along window frames and baseboards on a windy day will usually reveal the worst spots. Sealing these gaps is inexpensive and one of the few fixes that pays for itself in a single season — [Caulking 101: Where to Caulk, What to Buy, and How to Get a Clean Line](https://www.hearth-habit.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html) walks through exactly where to apply it.
+Gas prices move for reasons outside your house:
 
-**Notice if one specific room is unusually cold.** When one room lags far behind the rest of the house, the thermostat (which usually reads the temperature of just one central location) keeps calling for heat to satisfy that room, dragging out run time everywhere. If you've got a consistently cold room, [Why Is One Room in My House Always Colder Than the Rest?](https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html) covers the common causes.
+- **Cold weather pushes up the price itself.** EIA explains that heating demand rises in cold months, and when cold comes unexpectedly, "the effect on prices can intensify because supply is often unable to react quickly." A cold winter can raise both how much gas you use and what you pay for it.
+- **Rates change during the season.** Manitoba Hydro, for one, reviews its natural gas rates quarterly: in February, May, August, and November. Your January and March bills could be on different rates.
+- **Compare winter with winter.** EIA's figures put the US residential average at $14.95 per thousand cubic feet in February 2026. With EIA's conversion factors that's about $1.44 per therm (1,000 × 1,036 = 1,036,000 Btu, or 10.36 therms, and $14.95 ÷ 10.36 = $1.44). The same table shows $24.09 in June and $26.45 in July. Monthly averages swing widely, so a summer bill says little about winter pricing.
 
-**Check whether vents are closed or blocked in unused rooms.** It seems like it should save gas, but closing vents can actually increase pressure in the ductwork and push the furnace to work harder depending on your system. [Does Closing Vents in Unused Rooms Save Energy or Cost More?](https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html) breaks down when it helps and when it backfires.
+If your price per therm rose and your therms per day didn't, the cause is the price, not the house. Ask the utility which part rose: the supply rate, delivery, or a fixed charge.
 
-## Rule Out Ice Dams and Attic Heat Loss
+## Step 3: Adjust for the weather with degree days
 
-**Look at your roofline after a snowfall.** If snow melts unevenly and you see icicles forming along the eaves, that's a sign heat is escaping into the attic and melting snow from underneath, which then refreezes at the colder edge. That escaping heat is gas you're paying for and never feeling indoors. The fix is attic air sealing, insulation, and ventilation — not gutter cleaning, which doesn't address the actual cause.
+This is the step that tells you whether your house is actually performing worse.
 
-**Check attic insulation depth if you can access it safely.** Thin or uneven insulation lets heat pour upward all winter. This is less of a quick DIY check and more something to flag for a home energy assessment if your bill jump is large and persistent.
+### How degree days work
 
-## Check Other Gas Appliances, Not Just the Furnace
+The US Energy Information Administration uses heating degree days (HDD) to measure how much heating a building needs. For each day, average the high and low. If that average is below 65°F, subtract it from 65. A day with a high of 33°F and a low of 25°F averages 29°F, so it counts as 65 − 29 = 36 HDD. Add the daily figures for the billing period. You can work them out from the daily highs and lows for your area.
 
-**Confirm the water heater isn't cycling more than usual.** A gas water heater set to a higher temperature, or one with sediment buildup at the bottom of the tank, can run longer burner cycles. Unusual popping or rumbling sounds are often a sediment sign worth addressing — see [Is It Normal for a Water Heater to Make a Popping or Rumbling Sound?](https://www.hearth-habit.com/2026/08/water-heater-popping-or-rumbling-heres.html)
+### Subtract the gas you'd use anyway
 
-**Think about whether you're using the oven, stove, or a gas fireplace more.** Holiday cooking, baking, and lighting a gas fireplace or gas logs more often in cold weather are easy to overlook but add real therms. If weeknight cooking has shifted toward more oven use this season, that's worth factoring in — [Is It Cheaper to Preheat the Oven or Skip It for Weeknight Meals?](https://www.hearth-habit.com/2026/09/is-it-cheaper-to-preheat-oven-or-skip.html) has some relevant cost context even though it's framed around electric ranges, the preheat-timing logic applies to gas ovens too.
+About 60% of US homes use natural gas, EIA says, for space heating, water heating, cooking, and clothes drying. The heating part is what tracks the weather most. Your summer bill shows roughly what the rest uses, since the furnace is off. Subtract that baseline before dividing.
 
-![Flowchart showing four main reasons a gas bill rises in winter: weather, rates, heat loss, and appliance runtime](/images/gas-bill-higher-this-winter-checklist-inline.svg)
+### Worked example
 
-## Confirm the Thermostat Itself Is Behaving
+These numbers are hypothetical; swap in your own.
 
-**Check the thermostat's schedule, not just the current display.** Smart and programmable thermostats sometimes get knocked into "hold" mode or a schedule gets overwritten by an app update, a house guest, or a dead backup battery, quietly running warmer than intended even though the display shows your usual number. Scroll through the schedule screen to confirm it matches what you think you set.
+- **Summer baseline:** a July bill shows 18 therms over 30 days, or 0.6 therms a day. A 31-day January then has about 0.6 × 31 = 18.6 therms of non-heating use.
+- **Last January:** 136 therms and 1,000 HDD. Heating gas = 136 − 18.6 = 117.4 therms. Per degree day: 117.4 ÷ 1,000 = 0.117.
+- **This January:** 160 therms and 1,200 HDD. Heating gas = 160 − 18.6 = 141.4 therms. Per degree day: 141.4 ÷ 1,200 = 0.118.
 
-**Verify the setting itself still matches the season's recommended range.** If you haven't touched the thermostat in months, it's worth double-checking it's actually set where you want it for winter rather than left over from fall. [The Right Thermostat Settings for Every Season (and How Much They Save)](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html) lays out typical ranges and the savings from setbacks — the Department of Energy notes that a 7–10°F setback for 8 hours a day can save up to roughly 10% a year on heating and cooling, which also means a thermostat that's drifted a few degrees warmer can quietly cost you a similar amount in the other direction.
+Total gas use went up 24 therms, about 18%. Gas per degree day barely moved. This house is performing the same as last year, and the weather explains the increase.
 
-## When the Math Still Doesn't Add Up
+Now suppose this January showed 175 therms against the same 1,200 HDD: (175 − 18.6) ÷ 1,200 = 0.130. That's about 11% more gas per degree day of cold than last January (0.130 ÷ 0.117 = 1.11). That's the signal that something in the house or the heating system changed, and the time to work through Step 4.
 
-If you've checked weather, rates, filters, drafts, and appliances, and the bill still seems far out of proportion to any of them, it may be time for a professional combustion or efficiency check on the furnace itself — things like a cracked heat exchanger or an aging, inefficient burner aren't DIY diagnoses. [How Do I Know If a Repair Is Actually Worth Calling a Pro For?](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html) can help you decide whether that call is worth it versus living with the cost for now.
+## Step 4: If gas per degree day went up, find the cause
 
-It's also worth building this kind of check into your routine rather than waiting for a shocking bill — the seasonal tasks in [The 10 Home Maintenance Tasks Most People Forget (Seasonal Checklist)](https://www.hearth-habit.com/2026/07/10-home-maintenance-tasks-most-people.html) include several of the same filter, draft, and attic checks that keep heating costs predictable year to year.
+Start with the cheapest checks.
+
+| Check | What the sources say | Next step |
+|---|---|---|
+| Furnace filter | ENERGY STAR says to check it every month in heavy-use months and change it at least every 3 months | Swap it; our [furnace filter guide](https://www.hearth-habit.com/2026/07/furnace-filter-basics-how-often-to.html) covers sizing and MERV |
+| Thermostat schedule | General check, not from a source: a "hold" or a changed schedule can run the house warmer than the display suggests | Scroll the full schedule, not just the current reading |
+| Drafts at doors and windows | ENERGY STAR calls door weatherstripping and window caulking the simpler sealing jobs; sealing and insulating can save up to 10% on annual energy bills | Seal the obvious gaps; see [where to caulk](https://www.hearth-habit.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html) |
+| Ducts | ENERGY STAR says sealing ducts can improve system efficiency by as much as 20% | Look for disconnected or leaky ducts in unheated spaces, or have them tested |
+| Icicles and ice dams | University of Minnesota Extension says these come from heat escaping into the attic, not from the gutters | Attic air sealing, insulation, and ventilation |
+| One room never warms | General check, not from a source: a lagging room tempts people to turn the thermostat up | See [why one room stays colder](https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html) |
+| Water heater | Its gas use is part of the baseline; if the summer baseline itself rose, look here | If it rumbles or pops, see [the water heater noise guide](https://www.hearth-habit.com/2026/08/water-heater-popping-or-rumbling-heres.html) |
+| Furnace condition | Manitoba Hydro lists furnace condition among the reasons bills rise; ENERGY STAR says a yearly tune-up can improve efficiency | Book a tune-up |
+
+Turning the thermostat up isn't the fix for a lagging room. Manitoba Hydro notes that turning the thermostat up "doesn't heat the home faster but increases the bill."
+
+The DOE's setback figure works in reverse, too. A 7–10°F setback for 8 hours a day can save up to about 10% a year on heating and cooling. A schedule that has quietly stopped setting back gives up that savings.
+
+## Step 5: If nothing explains it, question the meter
+
+If billing days, price, degree days, and the house all check out, ask the utility to verify the meter. The rules vary by state, and Maryland's Public Service Commission is a clear example:
+
+- The utility must test your gas or electric meter on request at no charge, though not more often than once in 18 months.
+- You can request a commission "referee test" for $10. It's refunded if the meter turns out to be inaccurate.
+- An estimated bill must be marked as estimated. If one is far out of line, you can ask the utility to cancel it, but the next bill will then cover two months.
+
+Search your own state commission's site for "billing dispute" to find your local rule.
+
+## Safety: when a high bill isn't the main problem
+
+A rising gas bill alongside a gas smell, soot around the furnace, or a CO alarm going off is a safety issue first. Leave the house and call your gas utility from outside if you smell gas. If the CO alarm sounds, get everyone outside too and call your gas utility or emergency services from there. Have a technician inspect the furnace before you use it again, or if you see soot. Test CO alarms monthly so they work when it counts.
+
+## FAQ
+
+### Why is my December bill so much higher than November's at the same setting?
+
+Comparing month to month mostly measures the weather. A colder month has more heating degree days, so it needs more gas at the same setting. Compare December with last December, per degree day, using the method above.
+
+### My bill says CCF, my neighbor's says therms. Who pays more?
+
+You can't tell until you convert. With EIA's factors, 1 CCF is about 1.036 therms. Convert both bills to price per therm before comparing.
+
+### Could the furnace be failing even if it still heats the house?
+
+It can. A rise in gas per degree day is one sign that the house or the furnace is using more gas than before. A tune-up is the next step. A cracked heat exchanger or burner problem is a job for a technician, not a DIY diagnosis.
 
 ## Sources
 
-- [Programmable Thermostats](https://www.energy.gov/energysaver/programmable-thermostats) — supports the 7–10°F setback saving up to roughly 10% a year
-- [Dealing with Ice Dams](https://extension.umn.edu/protecting-home-rain-and-ice/dealing-and-preventing-ice-dams) — supports ice dams being caused by attic heat loss, not a gutter issue
+- [Degree days | U.S. EIA](https://www.eia.gov/energyexplained/units-and-calculators/degree-days.php) and [British thermal units | U.S. EIA](https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php) — HDD method and example; Btu per therm and per cubic foot
+- [Natural Gas Prices | U.S. EIA](https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm) and [Factors affecting natural gas prices | U.S. EIA](https://www.eia.gov/energyexplained/natural-gas/factors-affecting-natural-gas-prices.php) — 2026 monthly residential prices; cold-weather price effects
+- [Use of natural gas | U.S. EIA](https://www.eia.gov/energyexplained/natural-gas/use-of-natural-gas.php) — about 60% of homes use gas for heating, water heating, cooking, and drying
+- [Reasons for a high bill | Manitoba Hydro](https://www.hydro.mb.ca/account/billing/reasons-for-a-high-bill/) — estimated readings and catch-up bills, quarterly gas rate reviews, furnace condition
+- [Billing Disputes FAQ | Maryland Public Service Commission](https://www.psc.state.md.us/wp-content/uploads/Billing-Disputes.pdf) — free meter tests, referee test, estimated bills
+- [Heat & Cool Efficiently | ENERGY STAR](https://www.energystar.gov/saveathome/heating-cooling) and [Seal and Insulate | ENERGY STAR](https://www.energystar.gov/saveathome/seal_insulate) — filter checks, tune-ups, duct sealing up to 20%, sealing and insulating up to 10%
+- [Dealing with Ice Dams | University of Minnesota Extension](https://extension.umn.edu/protecting-home-rain-and-ice/dealing-and-preventing-ice-dams) — ice dams come from attic heat loss
+- [Programmable Thermostats | DOE Energy Saver](https://www.energy.gov/energysaver/programmable-thermostats) — 7–10°F setback for 8 hours saves up to about 10% a year

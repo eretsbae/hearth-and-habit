@@ -1,0 +1,81 @@
+{
+  "reader_situation": "Someone using or considering a portable electric space heater for a workday or a night wants to know what 8 hours costs and whether it beats running the furnace or heat pump.",
+  "direct_answer": "A heater drawing 1,500 watts for the full 8 hours uses 12 kWh, which costs about $2.04 at 17 cents per kWh and ranges from about $1.32 at 11 cents to $4.80 at 40 cents. Thermostat cycling lowers that. The same 12 kWh of heat costs roughly $0.74 from an 80%-efficient gas furnace at February 2026's average residential gas price, and $0.41 to $1.02 from a heat pump with a COP of 5 to 2, so a space heater only saves money when it lets you turn the whole-house thermostat down.",
+  "consensus": [
+    "Cost = watts x hours / 1000 x price per kWh.",
+    "A 1,500-watt heater uses 1.5 kWh per hour at full power.",
+    "Space heaters make sense for heating one room, not the whole house.",
+    "Safety: keep 3 feet of clearance and use tip-over and overheat protection."
+  ],
+  "gaps": [
+    "Every electric resistance heater turns electricity into heat at about 100% efficiency (ElectriCities), so oil-filled, ceramic, and infrared models cost the same per kWh; BC Hydro says the types differ in how they deliver heat (convection is only effective in small spaces, oil-filled radiates after shutoff and is slow to heat, infrared warms only what is in front of it).",
+    "Gas and electric can be compared with EIA's Btu factors: 1 kWh = 3,412 Btu, 1 therm = 100,000 Btu, 1 cubic foot of natural gas = 1,036 Btu. At February 2026's US residential gas price of $14.95 per thousand cubic feet and a furnace COP of 0.8, 12 kWh of delivered heat costs about $0.74.",
+    "Residential gas prices swing seasonally: EIA's table shows $14.95/Mcf in February 2026 but $24.09 in June and $26.45 in July, so use a winter price (or your own bill) for heating comparisons.",
+    "A heat pump delivers more heat per kWh: DOE building-science training material gives typical heat pump COPs of 2-5 versus about 0.8 for a gas furnace, so the same 12 kWh of heat costs $0.41-$1.02 at 17 cents.",
+    "Running a space heater for 8 hours overnight while asleep is what fire-safety agencies tell you not to do: USFA says turn space heaters off when leaving the room or going to bed, and BC Hydro says don't leave one running unattended or while asleep.",
+    "Portable heaters are a small share of heating fires but a large share of deaths: USFA says they were 3% of home heating fires in 2017-2019 but 41% of fatal home heating fires.",
+    "Utility estimate for real-world use: BC Hydro says a 1,400-watt space heater used an average of four hours a day costs about $19 a month."
+  ],
+  "evidence": [
+    {
+      "claim": "Btu conversion factors",
+      "detail": "1 kilowatthour of electricity = 3,412 Btu; 1 therm of natural gas = 100,000 Btu; 1 cubic foot of natural gas = 1,036 Btu (factors are recalculated each year).",
+      "source_url": "https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php",
+      "source_title": "British thermal units (Btu) | U.S. EIA"
+    },
+    {
+      "claim": "US residential natural gas price by month",
+      "detail": "US residential price $14.95 per thousand cubic feet in February 2026, $24.09 in June 2026, $26.45 in July 2026.",
+      "source_url": "https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm",
+      "source_title": "Natural Gas Prices | U.S. EIA"
+    },
+    {
+      "claim": "Heat pump and furnace COP",
+      "detail": "Typical gas furnaces have a COP of 0.8 while typical heat pumps have a COP of 2-5.",
+      "source_url": "https://bsesc.energy.gov/sites/default/files/2024-08/Introduction%20to%20Heat%20Pumps%20Level%202%20-%20Lecture%20Notes%20%26%20Problem%20Sets.docx",
+      "source_title": "Introduction to Heat Pumps, Level 2 Lecture Notes | DOE Building Science Education Solution Center"
+    },
+    {
+      "claim": "Resistance heat efficiency",
+      "detail": "Emergency/auxiliary heat refers to electric resistance heating; resistance heaters are 100% efficient while heat pumps can be more than 100% efficient.",
+      "source_url": "https://www.electricities.com/newsroom/articles/understanding-emergency-heat-what-you-need-to-know/",
+      "source_title": "Understanding Emergency Heat: What You Need to Know | ElectriCities of North Carolina"
+    },
+    {
+      "claim": "Space heater types, cost example, and safety",
+      "detail": "A 1,400-watt space heater used an average of four hours a day costs about $19 a month. Convection (electric/ceramic): from about $25, instant heat, only effective in small spaces, no residual heat. Radiant oil-filled: from about $75, radiates heat long after turned off, slow to heat. Infrared: from about $90, instant focused heat, warms only what is directly in front. Use only to heat a small room or space, for short periods; turn off when leaving the room; close doors and windows. Plug directly into an outlet, not an extension cable; choose overheat and tip-over protection; don't leave it running unattended or while asleep.",
+      "source_url": "https://www.bchydro.com/powersmart/residential/tips-technologies/space-heaters.html",
+      "source_title": "Space heaters | BC Hydro"
+    },
+    {
+      "claim": "Heating fire statistics and space heater rules",
+      "detail": "Keep anything that can burn at least 3 feet from all heat sources. Turn space heaters off when leaving the room or going to bed. Heating was the second leading cause of home fires in 2021 (estimated 32,200 home heating fires). Portable heaters were 3% of home heating fires in 2017-2019 but accounted for 41% of fatal heating fires in homes.",
+      "source_url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/heating/",
+      "source_title": "Heating Fire Safety | U.S. Fire Administration"
+    }
+  ],
+  "real_questions": [
+    "Is it cheaper to run a space heater or the furnace?",
+    "Do oil-filled or infrared heaters use less electricity?",
+    "Is it safe to run a space heater overnight?",
+    "How much will a space heater add to my monthly bill?",
+    "Does the eco mode or thermostat really cut the cost?"
+  ],
+  "original_asset": {
+    "type": "worked_example",
+    "spec": "Cost table for 750 W and 1,500 W over 8 hours at 11, 17, and 40 cents per kWh (registry range), plus a worked comparison of the cost of the same 12 kWh of heat from a space heater, a gas furnace (EIA Btu factors, February 2026 gas price, COP 0.8) and a heat pump (COP 2-5)."
+  },
+  "cautions": [
+    "Do not run a space heater while asleep or unattended (USFA, BC Hydro).",
+    "Plug directly into a wall outlet; no extension cords.",
+    "Keep 3 feet of clearance from anything that can burn."
+  ],
+  "sources": {
+    "https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php": "British thermal units (Btu) | U.S. EIA",
+    "https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm": "Natural Gas Prices | U.S. EIA",
+    "https://bsesc.energy.gov/sites/default/files/2024-08/Introduction%20to%20Heat%20Pumps%20Level%202%20-%20Lecture%20Notes%20%26%20Problem%20Sets.docx": "Introduction to Heat Pumps, Level 2 Lecture Notes | DOE Building Science Education Solution Center",
+    "https://www.electricities.com/newsroom/articles/understanding-emergency-heat-what-you-need-to-know/": "Understanding Emergency Heat: What You Need to Know | ElectriCities of North Carolina",
+    "https://www.bchydro.com/powersmart/residential/tips-technologies/space-heaters.html": "Space heaters | BC Hydro",
+    "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/heating/": "Heating Fire Safety | U.S. Fire Administration"
+  }
+}

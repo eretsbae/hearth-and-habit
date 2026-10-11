@@ -1,0 +1,112 @@
+{
+  "reader_situation": "Homeowners getting bitten in their own yard every summer evening or afternoon who are weighing zappers, citronella, ultrasonic gadgets, or a monthly spray service and want to know what measurably reduces bites.",
+  "direct_answer": "Empty and scrub every water-holding container once a week (CDC), because an egg becomes a biting adult in 7-10 days and Aedes eggs glued to container walls survive drying for up to 8 months. Treat water you can't empty with a Bti larvicide such as a dunk (one per up to 100 sq ft, effective at least 30 days per the maker). Use an EPA-registered repellent on people. Bug zappers, ultrasonic devices, and repellent plants don't measurably help.",
+  "consensus": [
+    "Dump standing water around the yard.",
+    "Use Bti mosquito dunks in water you can't drain.",
+    "Wear DEET, picaridin, or another EPA-registered repellent.",
+    "Bug zappers and citronella candles don't work well.",
+    "Trim vegetation where mosquitoes rest."
+  ],
+  "gaps": [
+    "Dumping isn't enough: CDC says Aedes eggs are laid on the inner walls of containers above the waterline, stick like glue, and survive drying for up to 8 months, so containers need to be scrubbed, turned over, covered, or thrown out, once a week.",
+    "The weekly interval has a reason: CDC says an egg develops into an adult in 7-10 days, so a weekly check catches larvae before they fly.",
+    "Container mosquitoes are local: Delaware's mosquito control section says the Asian tiger mosquito flies only about 300 feet from where it bred, and if they're biting you their breeding habitat is close by; AMCA puts the flight range of house-breeding mosquitoes at about 300 feet. CDC says Aedes fly only a few blocks in their lifetime.",
+    "Bti dosing is by surface area, not depth: one Mosquito Dunk per up to 100 sq ft regardless of depth, effective at least 30 days, break into pieces for small areas (Summit). EPA says some Bti products are not for drinking water such as cisterns, so read the label before treating a rain barrel used for drinking.",
+    "Bug zapper evidence is specific: in a University of Delaware study of 13,789 insects killed, 31 (0.22%) were biting flies, while 48.4% were harmless aquatic insects and 13.5% were predators and parasites (Iowa State). A Notre Dame study found no significant difference in mosquito numbers between yards with and without zappers (AMCA).",
+    "Citronella is not zero: UK Entomology says the candles provide a degree of protection if several are placed within a few feet of people; AMCA says they offer little more than other smoke-producing candles.",
+    "Fans help: AMCA calls a large fan on the deck a low-tech solution because mosquitoes are weak fliers.",
+    "Spraying adults is a supplement, not the plan: EPA says adulticides are justified during disease transmission or when source reduction and larval control fail; Delaware does not routinely spray for Asian tiger mosquitoes; AMCA warns scheduled backyard misting systems needlessly broadcast pesticides onto non-target insects; UK says pyrethroid barrier sprays must be reapplied periodically."
+  ],
+  "evidence": [
+    {
+      "claim": "CDC weekly container routine and repellents",
+      "detail": "Once a week, empty and scrub, turn over, cover, or throw out items that hold water, such as tires, buckets, toys, pools, birdbaths, flowerpot saucers, or trash containers. Check indoors and outdoors. Use screens. Use EPA-registered repellents with DEET, picaridin, IR3535, oil of lemon eucalyptus (OLE), PMD, or 2-undecanone; do not use OLE or PMD products on children under 3.",
+      "source_url": "https://www.cdc.gov/mosquitoes/prevention/index.html",
+      "source_title": "Preventing Mosquito Bites (CDC)"
+    },
+    {
+      "claim": "Aedes life cycle",
+      "detail": "Females lay eggs on the inner walls of containers with water, above the waterline. Eggs stick to container walls like glue. Eggs can survive drying out for up to 8 months. A mosquito egg takes 7-10 days to develop into an adult. In their lifetime, these mosquitoes will only fly a few blocks. Only females bite.",
+      "source_url": "https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html",
+      "source_title": "Life Cycle of Aedes Mosquitoes (CDC)"
+    },
+    {
+      "claim": "Asian tiger mosquito breeds close to where it bites",
+      "detail": "Does not fly far (only about 300 feet) from its breeding habitat. Breeds in bird baths, boats, buckets, flowerpots, tires, trash cans, and the little amount of water in saucers under potted plants. If they are biting you, their breeding habitat is close by. Delaware Mosquito Control does not routinely respond with adult control; source reduction and elimination are the best option.",
+      "source_url": "https://dnrec.delaware.gov/fish-wildlife/mosquito-control/asian-tiger-mosquitoes/",
+      "source_title": "Asian Tiger Mosquitoes (Delaware DNREC Mosquito Control Section)"
+    },
+    {
+      "claim": "Bti is a targeted larvicide, safe for people",
+      "detail": "Bti is a naturally occurring soil bacterium whose toxins target only larvae of mosquitoes, black flies, and fungus gnats; Bti does not pose a risk to humans; minimal toxicity to honey bees. Homeowner Bti products are easy and safe to use in containers such as flower pots, tires, and bird baths. Follow the label: some Bti products are not intended for drinking water, such as cisterns.",
+      "source_url": "https://www.epa.gov/mosquitocontrol/bti-mosquito-control",
+      "source_title": "Bti for Mosquito Control (EPA)"
+    },
+    {
+      "claim": "Mosquito Dunk dose and duration",
+      "detail": "Use one Mosquito Dunk for up to 100 square feet of water surface, regardless of depth; may be broken into smaller pieces for smaller areas. Remains effective for at least 30 days; place a dunk about once a month; replace when it has completely disappeared. Uses include rain barrels, bird baths, tree holes, ponds, animal watering troughs. Harmless to plants, fish, frogs, turtles, and beneficial insects.",
+      "source_url": "https://www.summitchemical.com/products/mosquito-dunks/",
+      "source_title": "Mosquito Dunks (Summit Responsible Solutions)"
+    },
+    {
+      "claim": "EPA's integrated approach; larval control is cheapest",
+      "detail": "Tactics: remove habitats, structural barriers (bug-tight screens), larval control, adult control. Empty bird baths and plant trays weekly. Larval control is generally the most effective and least costly. Adult control is justified during disease transmission or when source reduction and larval control have failed or are not feasible. Habitat removal and larval control are unlikely to be 100% effective.",
+      "source_url": "https://www.epa.gov/mosquitocontrol/success-mosquito-control-integrated-approach",
+      "source_title": "Success in Mosquito Control: An Integrated Approach (EPA)"
+    },
+    {
+      "claim": "Bug zapper catch study",
+      "detail": "Frick and Tallamy, University of Delaware (Entomological News 107(2):77-82): of 13,789 insects trapped and counted, 31 (0.22%) were biting flies including female mosquitoes and biting gnats; 6,670 (48.4%) harmless nonbiting aquatic insects; 1,868 (13.5%) predators and parasites.",
+      "source_url": "https://yardandgarden.extension.iastate.edu/article/1996/6-14-1996/bugzapper.html",
+      "source_title": "Bug Zappers are Harmful, Not Helpful (Iowa State University Extension)"
+    },
+    {
+      "claim": "Homeowner verdicts on gadgets, citronella, sprays, repellents",
+      "detail": "Bug zappers are generally ineffective in reducing outdoor mosquito populations or biting. Studies have repeatedly shown ultrasonic devices to be of negligible benefit. Citronella candles can provide a degree of protection; use multiple candles within a few feet of where people sit. Repellent plants generally are ineffective. Pyrethroid sprays on shaded vegetation are effective but must be reapplied periodically. Bti and methoprene are not harmful to fish, waterfowl, pets, or humans used per label. The most effective repellents contain DEET; others give relief to a lesser degree and for shorter duration.",
+      "source_url": "https://entomology.mgcafe.uky.edu/ef005",
+      "source_title": "Mosquitoes: Practical Advice for Homeowners (University of Kentucky Entomology, ENTFACT-005)"
+    },
+    {
+      "claim": "AMCA answers on fans, zappers, ultrasonic, citronella, misting",
+      "detail": "A large fan on the deck can provide a low-tech solution; mosquitoes are relatively weak fliers. Notre Dame study: no significant difference in mosquito numbers in yards with or without bug zappers. Ultrasonic devices just do not work; 20-70 kHz had no effect on flight. Citronella candles have a mild effect but little more than other smoke-producing candles. Mosquitoes breeding near houses have limited flight ranges of about 300 feet. Adult females typically live two to three weeks. Carbon dioxide is the most universally recognized attractant. Backyard misting systems may needlessly broadcast pesticides into the environment.",
+      "source_url": "https://www.mosquito.org/faqs/",
+      "source_title": "FAQs (American Mosquito Control Association)"
+    },
+    {
+      "claim": "EPA repellent search tool",
+      "detail": "Search EPA-registered repellents by mosquitoes, ticks or both; protection time; active ingredient. The registration number means the company provided EPA technical information on safety.",
+      "source_url": "https://www.epa.gov/insect-repellents/find-repellent-right-you",
+      "source_title": "Find the Repellent that is Right for You (EPA)"
+    }
+  ],
+  "real_questions": [
+    "I dump everything and still get eaten alive. Why?",
+    "Do mosquito dunks work in a rain barrel, and is that water still okay for the garden?",
+    "Are bug zappers or those ultrasonic plug-ins worth anything?",
+    "Is a monthly mosquito spray service worth the money, and what does it do to bees?",
+    "Do citronella candles or fans work on a patio?"
+  ],
+  "original_asset": {
+    "type": "schedule",
+    "spec": "A weekly 'water walk' table (item / what to do / why), built from CDC's empty-scrub-turn-cover-toss list and Delaware's saucer warning; a worked Bti example (8 x 10 ft pond = 80 sq ft, under 100 sq ft = 1 dunk; May through September about 150 days / 30 = 5 dunks); and a gadget scorecard table (zapper, ultrasonic, citronella, repellent plants, fan, misting system, barrier spray) with each verdict tied to UK Entomology, AMCA, or the Delaware zapper study."
+  },
+  "cautions": [
+    "OLE and PMD repellents are not for children under 3 (CDC).",
+    "Read the Bti label before treating water used for drinking; some Bti products are not for drinking water such as cisterns (EPA).",
+    "Call 811 before digging a drain (registry).",
+    "Removed claims with no fetched support: 'a bottle cap of water' (replaced with Delaware's saucer statement), a 1-2 week drop in adults, Culex dusk-biting timing, bees killed by fogging (replaced with AMCA's non-target statement)."
+  ],
+  "sources": {
+    "https://www.cdc.gov/mosquitoes/prevention/index.html": "Preventing Mosquito Bites (CDC)",
+    "https://www.cdc.gov/mosquitoes/about/life-cycle-of-aedes-mosquitoes.html": "Life Cycle of Aedes Mosquitoes (CDC)",
+    "https://dnrec.delaware.gov/fish-wildlife/mosquito-control/asian-tiger-mosquitoes/": "Asian Tiger Mosquitoes (Delaware DNREC Mosquito Control Section)",
+    "https://www.epa.gov/mosquitocontrol/bti-mosquito-control": "Bti for Mosquito Control (EPA)",
+    "https://www.summitchemical.com/products/mosquito-dunks/": "Mosquito Dunks (Summit Responsible Solutions)",
+    "https://www.epa.gov/mosquitocontrol/success-mosquito-control-integrated-approach": "Success in Mosquito Control: An Integrated Approach (EPA)",
+    "https://yardandgarden.extension.iastate.edu/article/1996/6-14-1996/bugzapper.html": "Bug Zappers are Harmful, Not Helpful (Iowa State University Extension)",
+    "https://entomology.mgcafe.uky.edu/ef005": "Mosquitoes: Practical Advice for Homeowners (University of Kentucky Entomology, ENTFACT-005)",
+    "https://www.mosquito.org/faqs/": "FAQs (American Mosquito Control Association)",
+    "https://www.epa.gov/insect-repellents/find-repellent-right-you": "Find the Repellent that is Right for You (EPA)"
+  }
+}

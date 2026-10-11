@@ -1,0 +1,84 @@
+{
+  "reader_situation": "Someone whose toilet keeps running or hissing after a flush, who wants to know which tank part is at fault and whether they can fix it themselves before calling a plumber.",
+  "direct_answer": "Find out where the water is going before buying parts. If it spills into the overflow pipe, the fill valve or water level is the problem (clean or replace the valve, set the level about 1/2 inch below the overflow top). If the tank level drops with the supply shut off, the flapper is leaking (replace it with the right 2-inch or 3-inch size); if a new flapper doesn't stop it, the flush valve is next. Flappers are the leading cause.",
+  "consensus": [
+    "Most running toilets are caused by the flapper, chain, float, or fill valve.",
+    "Use the food-coloring dye test to find a flapper leak.",
+    "Adjust the chain so it isn't too long or too short.",
+    "Lower the float if water goes into the overflow tube.",
+    "Replace the fill valve if it won't shut off."
+  ],
+  "gaps": [
+    "The correct tank water level is about 1/2 inch below the top of the overflow pipe (Fluidmaster PerforMAX instructions), not the 1 inch the old article said.",
+    "A second test separates flapper from flush valve: shut off the supply, mark the level, wait. Fluidmaster says 10-15 minutes; Korky says at least 25 minutes, then a few hours. Level stops at the flapper seal = flapper or flush valve seal; level drops to a point on the overflow tube or the tank bottom = replace the flush valve (Korky).",
+    "Flapper size is checkable: an opening about the size of an orange or baseball (about 2 inches) takes a 2-inch flapper; grapefruit or softball (about 3 inches) takes a 3-inch one; most toilets made before 2000 use 2-inch (Korky).",
+    "Chain slack has a number: Fluidmaster says about 1/2 inch; Korky says leave only 1 to 2 links of slack so loose links can't fall under the flapper.",
+    "Fill valve install specifics: top of the fill valve cap roughly 3 inches above the top of the overflow pipe; the overflow pipe top must be at least 1 inch below the tank lever hole; hand-tighten the locknut and supply connector only, because over-tightening can crack the valve or tank and cause flooding (Fluidmaster).",
+    "A fill valve that won't shut off can often be cleaned instead of replaced: remove the cap and flush debris for 10-15 seconds (Fluidmaster).",
+    "Drop-in bleach or chlorine tank tablets wear out flappers faster, can damage tank parts, cause flooding, and void the warranty (Fluidmaster).",
+    "Cost: EPA says the average family spends more than $1,000 a year on water, and its toilet-retrofit figure ($130 for 13,000 gallons) implies about $10 per 1,000 gallons, which lets a reader price a leak."
+  ],
+  "evidence": [
+    {
+      "claim": "Running-toilet diagnostic sequence",
+      "detail": "Step 1: check whether the water level rises so high it drains into the overflow pipe; if so, clean the fill valve (turn off water, flush, lift float cup, twist cap and arm counterclockwise 1/8 turn, hold a cup over the opening and run water full force 10-15 seconds); Step 1A: if cleaning doesn't fix it, replace the fill valve. Step 2: with the tank full, shut off the water, mark the level, wait 10-15 minutes; if it drops below the mark, replace the flapper. Step 3: if the tank still drains after a new flapper, replace the flush valve (2-inch or 3-inch). Do not use in-tank drop-in cleaners containing bleach or chlorine: they can damage tank parts, cause flooding, and void the warranty. Water leaking from the bottom of the tank: change the tank bolts and washers.",
+      "source_url": "https://fluidmaster.com/toilet-problems/toilet-running-constantly/",
+      "source_title": "Toilet Running Constantly (Fluidmaster)"
+    },
+    {
+      "claim": "Fill valve installation and adjustment numbers",
+      "detail": "Top of fill valve cap should measure roughly 3 inches above the top of the overflow pipe. The top of the overflow pipe must be a minimum of 1 inch below the tank lever hole. Water level should be roughly 1/2 inch below the top of the overflow pipe for a proper flush. Hand-tighten the locknut and supply connector only; over-tightening may crack the fill valve or tank causing flooding. Float cup must not touch tank walls, lever, or flush valve. Refill tube water must flow down the overflow pipe (refill clip on the overflow pipe). If the bowl level is low, the flapper may be closing too soon: give the flapper chain approximately 1/2 inch of slack.",
+      "source_url": "https://fluidmaster.com/wp-content/uploads/2018/11/PerforMAX_2.0_Instructions_092818.pdf",
+      "source_title": "PerforMAX 400H Fill Valve Installation Instructions (Fluidmaster)"
+    },
+    {
+      "claim": "Flappers are the leading cause and bleach tablets wear them",
+      "detail": "Flappers are the leading cause of leaking or running toilets. Flappers wear out more often if you use drop-in bleach tablets. Universal flappers come in 2-inch and 3-inch sizes.",
+      "source_url": "https://fluidmaster.com/toilet/part-type/flapper/",
+      "source_title": "Toilet Flappers (Fluidmaster)"
+    },
+    {
+      "claim": "How to tell 2-inch from 3-inch",
+      "detail": "Look at the flush valve drain opening at the bottom of the tank: about the size of an orange or baseball = standard 2-inch; grapefruit or softball = large 3-inch. For a precise check, shut off the water and measure the opening: about 2 inches or about 3 inches in diameter. Most toilets made before 2000 need a 2-inch flapper; some made after 2000 need a 3-inch. Size is the most important factor when choosing a universal replacement; adjustable flappers fit both.",
+      "source_url": "https://www.korky.com/toilet-repair-help/what-size-flapper-do-i-need",
+      "source_title": "What Size Flapper Do I Need? (Korky)"
+    },
+    {
+      "claim": "Pencil-mark leak test and chain slack",
+      "detail": "Mark the tank water level after refilling and shut off the supply; wait at least 25 minutes. If the level drops below the mark, a part is leaking. After a few hours: if the level drops to the flapper or flush seal, replace the flapper or flush valve seal; if it drops to a point on the overflow tube or the bottom of the tank, replace the flush valve. If water continues to run after the tank is full, the float may be stuck or malfunctioning. Leave only 1 to 2 chain links of slack so loose links can't fall into the drain opening. Clean mineral deposits from the flush valve opening so the flapper can seal; replace the flush valve if cracked or warped.",
+      "source_url": "https://www.korky.com/toilet-repair-help/running-toilet",
+      "source_title": "How to Fix a Running Toilet (Korky)"
+    },
+    {
+      "claim": "Household leak and water cost figures",
+      "detail": "The average family can waste 180 gallons per week, or 9,400 gallons annually, from household leaks. The average family spends more than $1,000 per year on water. The average family can save 13,000 gallons and $130 per year (by replacing old toilets with WaterSense models).",
+      "source_url": "https://www.epa.gov/watersense/statistics-and-facts",
+      "source_title": "Statistics and Facts (EPA WaterSense)"
+    }
+  ],
+  "real_questions": [
+    "My toilet runs every few minutes for a few seconds. Is that the same problem?",
+    "I replaced the flapper and it still runs. Now what?",
+    "How do I know whether I need a 2-inch or 3-inch flapper?",
+    "Water is going into the overflow tube. Do I need a new fill valve or just an adjustment?",
+    "Are the blue drop-in tank tablets bad for the toilet?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "A 'where is the water going?' flow: (1) lid off, watch the overflow pipe; water spilling in = level too high or fill valve not shutting off (set level ~1/2 inch below the top, clean the valve cap, then replace); (2) supply off, pencil mark, wait (10-15 min Fluidmaster; 25 min then a few hours Korky); level stops at the flapper = flapper; drops to a point on the overflow tube or tank bottom = flush valve; (3) still running after a new flapper = flush valve. Plus a tank-measurements diagram (1/2 inch level, 3 inch cap height, 1 inch lever clearance, chain slack) and a leak-cost formula using EPA's implied ~$10 per 1,000 gallons."
+  },
+  "cautions": [
+    "Hand-tighten fill valve nuts only; over-tightening can crack the tank and flood (Fluidmaster).",
+    "Don't use bleach/chlorine drop-in tablets (Fluidmaster).",
+    "Don't attribute a specific daily waste figure to the EPA (registry); 'hundreds of gallons a day' is the registry wording.",
+    "Dropped unsupported claims from the old version: $5-$20 part prices, 15-minute timing, 8-10 year fill valve age rule, toilet-paper overnight test, hard water shortening part life."
+  ],
+  "sources": {
+    "https://fluidmaster.com/toilet-problems/toilet-running-constantly/": "Toilet Running Constantly (Fluidmaster)",
+    "https://fluidmaster.com/wp-content/uploads/2018/11/PerforMAX_2.0_Instructions_092818.pdf": "PerforMAX 400H Fill Valve Installation Instructions (Fluidmaster)",
+    "https://fluidmaster.com/toilet/part-type/flapper/": "Toilet Flappers (Fluidmaster)",
+    "https://www.korky.com/toilet-repair-help/what-size-flapper-do-i-need": "What Size Flapper Do I Need? (Korky)",
+    "https://www.korky.com/toilet-repair-help/running-toilet": "How to Fix a Running Toilet (Korky)",
+    "https://www.epa.gov/watersense/statistics-and-facts": "Statistics and Facts (EPA WaterSense)"
+  }
+}

@@ -19,9 +19,9 @@ pin_hooks:
 enriched: '2026-10-11'
 ---
 
-The one-touch rule means putting an item where it belongs the first time you pick it up, not setting it down "for now." It sticks fastest when it's tied to one trigger, like walking in the front door.
+The one-touch rule means putting an item where it belongs the first time you pick it up, not setting it down "for now." It works best when it's tied to one trigger, like walking in the front door.
 
-Expect it to take weeks, not days. In habit research, a simple daily action took an average of about 66 days to become automatic, and missing a day now and then didn't undo the progress. Below is why the "I'll take it up later" trip so often never happens, a decision flow for anything you pick up, and a 10-week plan built on how habits actually form.
+Expect it to take weeks, not days. In habit research, how automatic a daily action felt leveled off after an average of about 66 days, with wide variation, and missing a single day didn't undo the progress. Below is why the "I'll take it up later" trip so often never happens, a decision flow for anything you pick up, and a 10-week plan built on how habits actually form.
 
 ## What the rule replaces
 
@@ -31,13 +31,13 @@ That second touch is the one that slips, and a stair landing turns into a storag
 
 ## Why "I'll take it up later" so often fails
 
-There's a memory reason the second trip doesn't happen. Gabriel Radvansky, a psychology professor at the University of Notre Dame, ran experiments in virtual rooms and real ones. People remembered objects they were handling less well after walking through a doorway than after walking the same distance within a single room.
+There's a memory reason the second trip doesn't happen. Gabriel Radvansky, a psychologist at the University of Notre Dame, ran experiments in virtual rooms and real ones. People remembered objects less well after walking through a doorway than after walking the same distance within a single room.
 
-He describes a doorway as an "event boundary": the brain files what happened in one room as a finished episode. Going back to the original room didn't bring the memory back.
+He describes a doorway as an "event boundary." Going back to the original room didn't bring the memory back.
 
-That's the setup behind a lot of household clutter. You set the item down in the kitchen, plan to carry it upstairs, and walk out of the room. By the next room, that plan has been filed away with the kitchen. The pile on the stairs is a predictable result of how memory works, not a sign of laziness.
+That's the setup behind a lot of household clutter. You set the item down in the kitchen, plan to carry it upstairs, and walk out of the room. By the next room, that plan is easier to lose. The pile on the stairs may have as much to do with how memory works as with laziness.
 
-The practical takeaway: **if an item's home is in a different room, either take it now or put it in one named spot you're guaranteed to pass at a fixed time.** "I'll remember" is the option the research says to avoid.
+The practical takeaway: **if an item's home is in a different room, either take it now or put it in one named spot you're guaranteed to pass at a fixed time.** "I'll remember" is the option this research gives you the least reason to trust.
 
 ## The decision flow: you just picked something up
 
@@ -81,20 +81,20 @@ Knowing those numbers turns "I'll figure out whether to keep this later" into a 
 
 ## How long until it's automatic, and what a missed day does
 
-The figure you've probably heard is 21 days. Health psychologists Benjamin Gardner, Phillippa Lally, and Jane Wardle, writing in the *British Journal of General Practice*, trace that number to anecdotes about plastic-surgery patients getting used to their new appearance. It doesn't come from habit research.
+The figure you've probably heard is 21 days. Benjamin Gardner, Phillippa Lally, and Jane Wardle, writing in the *British Journal of General Practice*, say that number appears to have come from anecdotes about plastic-surgery patients getting used to their new appearance, not from habit research.
 
-In Lally's study, people repeated a daily action after a once-daily cue, such as "after breakfast." How automatic the action felt rose quickly and then leveled off after an average of **66 days**, with wide variation from person to person. The authors suggest telling people to expect about **10 weeks**.
+In Lally's study, people repeated a daily action and rated how automatic it felt each day. Automaticity rose quickly and then leveled off after an average of **66 days**, with wide variation from person to person. The authors suggest telling people to expect about **10 weeks**.
 
 Two findings from the same research matter for clutter:
 
-- **One missed day doesn't reset you.** Missing an occasional opportunity did not seriously impair habit formation, and progress resumed after a single miss. A rough week isn't a reason to drop the rule.
+- **One missed day doesn't reset you.** Missing an occasional opportunity did not seriously impair habit formation, and progress resumed after a single miss. A bad day isn't a reason to drop the rule.
 - **Simple actions get automatic faster.** Automaticity peaked sooner for something simple, like drinking water, than for an elaborate routine. "Keys on the hook" will become automatic before "tidy the whole entryway."
 
 The authors also note you can't form a habit of *not* doing something. "Don't drop stuff on the counter" isn't a habit. "Coat goes on the hook when I walk in" is.
 
 ## A 10-week plan that follows the research
 
-The advice in that journal article is to choose a simple action, plan when and where, and do it every time you meet that time and place. Applied to clutter:
+The advice in that journal article is to plan when and where, pick a time and place you encounter every day, and repeat the same action in that context. Applied to clutter:
 
 | Weeks | Cue | Action (one only) |
 |---|---|---|
@@ -102,11 +102,11 @@ The advice in that journal article is to choose a simple action, plan when and w
 | 4–6 | Add: finishing dinner | Clear the kitchen landing spot back to its rooms |
 | 7–10 | Add: heading upstairs for the night | Carry the stairs basket up and empty it |
 
-Add a new cue only when the previous one feels like it runs without thinking. A tick sheet on the fridge helps, and the authors suggest one for tracking a habit as it forms.
+Add a new cue only when the previous one feels like it runs without thinking. A tick sheet on the fridge can help you see the streak.
 
 ## Why the counter matters even if you don't mind the mess
 
-Neuroscientists Stephanie McMains and Sabine Kastner, writing in the *Journal of Neuroscience*, found that when several things are in view, they compete for representation in the brain's visual system, each suppressing the others' response. That's a lab finding about visual attention, not a study of kitchens. Still, it fits what many people notice: a crowded counter is harder to scan, and finding the one thing you need takes longer. If that sounds familiar, here's [why the same 15 minutes vanish before you leave the house](https://www.hearth-habit.com/2026/09/why-you-keep-losing-15-minutes-before.html).
+Neuroscientists Stephanie McMains and Sabine Kastner, writing in the *Journal of Neuroscience*, found that when several things are in view, they compete for representation in the brain's visual system, each suppressing the others' response. That's a lab finding about visual attention, not a study of kitchens. Still, it fits what many people notice: a crowded counter can feel harder to scan. If that sounds familiar, here's [why the same 15 minutes vanish before you leave the house](https://www.hearth-habit.com/2026/09/why-you-keep-losing-15-minutes-before.html).
 
 ## How it fits with the other clutter habits
 
@@ -136,7 +136,7 @@ No. A small one forces you to empty it. If it overflows before its scheduled tim
 ## Sources
 
 - [Making health habitual: the psychology of 'habit-formation' and general practice | British Journal of General Practice](https://bjgp.org/content/62/605/664) — 66-day average and ~10-week expectation, missed days, simple vs. elaborate actions, the 21-day myth, cue-based habit plan
-- [Walking through doorways causes forgetting, new research shows | University of Notre Dame](https://news.nd.edu/news/walking-through-doorways-causes-forgetting-new-research-shows/) — doorways as event boundaries that make plans harder to recall
+- [Walking through doorways causes forgetting, new research shows | University of Notre Dame](https://news.nd.edu/news/walking-through-doorways-causes-forgetting-new-research-shows/) — doorways as event boundaries; memory for objects was worse after walking through a doorway
 - [What To Know About Identity Theft | FTC](https://consumer.ftc.gov/articles/what-know-about-identity-theft) — shred personal documents, black out account numbers, collect mail promptly, store records safely
 - [How long should I keep records? | IRS](https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records) — 3-, 6-, and 7-year retention and property records
 - [Interactions of Top-Down and Bottom-Up Mechanisms in Human Visual Cortex | Journal of Neuroscience](https://www.jneurosci.org/content/31/2/587) — multiple visual items compete for neural representation

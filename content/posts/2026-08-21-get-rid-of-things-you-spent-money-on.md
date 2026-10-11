@@ -26,7 +26,7 @@ The rest of this article puts real numbers on each of those, so the decision sto
 
 ## Why the price keeps you stuck
 
-Getting rid of a $4 takeout container is easy. Getting rid of a treadmill you used six times is not, even though both just take up space. Three things usually get tangled together:
+Getting rid of a takeout container is easy. Getting rid of a treadmill you barely used is not, even though both just take up space. Three things usually get tangled together:
 
 - **The loss feels final.** Keeping the item lets you avoid admitting the purchase didn't work out.
 - **It stands for a version of you.** The home-gym person, the bread baker, the person who uses a real camera. Letting go can feel like giving up on that.
@@ -42,7 +42,7 @@ Work through these in sequence. Each step either ends the decision or passes the
 
 ### 1. Can it still go back?
 
-A return is the only path to your actual money, not a fraction of it. In the US, a store sets its own return policy, so check the policy printed on your receipt or order confirmation rather than assuming a window. Many retailers can look up a purchase from your account or order history even without the paper receipt. Unused items in original packaging get the easiest hearing.
+A return is the only path to your actual money, not a fraction of it. Return windows vary by retailer, so check the policy printed on your receipt or order confirmation rather than assuming a window. If the paper receipt is gone, check your account or order history.
 
 ### 2. Has it been recalled?
 
@@ -67,7 +67,7 @@ A listing price is not what you keep. Using eBay as the example, because it publ
 | What's left before shipping | $150 − $20.80 | $129.20 |
 | What you keep | $129.20 − your shipping cost | depends on box and distance |
 
-If you charge the buyer shipping instead, the fee grows with it: a $150 item plus $25 buyer-paid shipping is $175 × 0.136 = $23.80, plus $0.40.
+If you charge the buyer shipping instead, the fee grows with it: a $150 item plus, say, $25 of buyer-paid shipping is $175 × 0.136 = $23.80, plus $0.40.
 
 Then ask the real question: is that last number worth the time to photograph, list, answer messages, pack, and ship? Look up what the same model has actually *sold* for, not what people are asking, and plug that in. If the result is small next to an afternoon of your time, the item belongs in step 4. A local pickup sale skips shipping but adds the back-and-forth of scheduling strangers.
 
@@ -85,20 +85,20 @@ The paperwork scales with the amount:
 |---|---|
 | Under $250 per contribution | A receipt with the charity's name and address, the date and location, and a description of the items |
 | $250 or more in a single contribution | A contemporaneous written acknowledgment from the charity |
-| Over $500 total in noncash gifts | Form 8283, Section A, attached to your return |
+| Over $500 total in noncash gifts, with no single item or group of similar items over $5,000 | Form 8283, Section A, attached to your return |
 | Over $5,000 for one item or a group of similar items | Form 8283, Section B, plus a qualified appraisal |
 
 There's one more exception: an item *not* in good used condition can still be deducted if you claim more than $500 for it and attach a qualified appraisal with Section B. Weigh what an appraisal costs against the tax it would save before going that route.
 
-To estimate the tax benefit for an itemized donation, multiply the thrift-store value by your own top tax rate. A coat that sells for $40 in a thrift shop yields a deduction of $40, not the $400 you paid.
+To estimate the tax benefit for an itemized donation, multiply the thrift-store value by your own top tax rate. Say a coat sells for $40 in a thrift shop: it yields a deduction of $40, not the $400 you paid.
 
-**Canada.** The Canada Revenue Agency (CRA) gives federal and provincial or territorial non-refundable tax *credits*, not a deduction. You need an official donation receipt from a qualified donee, and many drop-off bins don't issue them for used goods. The receipt amount is fair market value *before* the sales taxes you paid. If you bought the item less than 3 years before giving it, CRA deems its value to be the lower of fair market value and your cost, so a donation can't come out worth more than you paid.
+**Canada.** The Canada Revenue Agency (CRA) gives federal and provincial or territorial non-refundable tax *credits*, not a deduction. You need an official donation receipt from a qualified donee. The receipt amount is fair market value *before* the sales taxes you paid. If you bought the item less than 3 years before giving it, CRA deems its value to be the lower of fair market value and your cost, so a donation can't come out worth more than you paid.
 
 ### 5. Recycle what can't be reused
 
-Broken, unsafe, or recalled-and-unremedied items don't become worth keeping because they were expensive. If you haven't fixed something in a season, a repair is unlikely.
+Broken, unsafe, or recalled-and-unremedied items don't become worth keeping because they were expensive.
 
-For electronics, the EPA says to delete all personal information before donating or recycling, and to remove batteries first because they may need to be recycled separately. Lithium-ion batteries, and devices that contain them, don't go in household trash or curbside recycling. Tape the terminals and take them to a battery drop-off. Many manufacturers and retailers run their own take-back programs, which are worth checking before you hunt for a recycler.
+For electronics, the EPA says to delete all personal information before donating or recycling, and to remove batteries first because they may need to be recycled separately. Lithium-ion batteries, and devices that contain them, don't go in household trash or curbside recycling. Tape the terminals and take them to a battery drop-off. Manufacturers and retailers also offer ways to donate or recycle electronics, which are worth checking before you hunt for a recycler.
 
 ## Questions to ask about one stubborn item
 
@@ -123,7 +123,7 @@ No. In the US, the deduction for donated property is its fair market value at th
 
 ### What if the item was a gift and I feel guilty letting it go?
 
-The giver meant to make you happy, not to give you something to store. Most people would rather you pass it on than feel weighed down by it. Donating it lets the original good intention carry on to someone who will use it.
+The giver meant to make you happy, not to give you something to store. Donating it lets the original good intention carry on to someone who will use it.
 
 ## Sources
 

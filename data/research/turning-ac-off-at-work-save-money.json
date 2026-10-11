@@ -1,0 +1,80 @@
+{
+  "reader_situation": "Someone with central air leaves for an 8-to-10-hour workday in summer and wonders whether shutting the AC off (or raising the thermostat) saves money or just makes the system work harder to catch up later.",
+  "direct_answer": "Yes. DOE says turning the thermostat back 7-10°F for 8 hours a day can save up to about 10% a year on heating and cooling, and turning the AC off is the far end of the same setback. The exceptions are about humidity, pets or people at home, and time-of-use rates, where the timing of the cool-down matters as much as the setback.",
+  "consensus": [
+    "Raising the thermostat while away saves energy.",
+    "DOE's 7-10°F setback for 8 hours saves up to about 10%.",
+    "A programmable or smart thermostat can pre-cool before you get home.",
+    "In humid climates, leaving the AC off all day can let humidity climb."
+  ],
+  "gaps": [
+    "Air conditioning is the single largest end use of home electricity: EIA says it was 19% of residential electricity in 2020 and about 89% of homes used AC, up from 57% in 1980. DOE's Home Cooling 101 puts space cooling at 6% of all household energy (all fuels), which is why it matters more on the electric bill than on total energy.",
+    "The setting you choose while you're home is a second lever: SMUD advises 78°F or higher and estimates around 5-10% savings on cooling for every 2 degrees.",
+    "Fans let you set the thermostat about 4°F higher without losing comfort (DOE), but fans cool people, not rooms, so turn them off when you leave.",
+    "Time-of-use rates change the timing: SMUD's Time-of-Day rate makes 5-8 p.m. weekdays the most expensive hours and asks customers to avoid running the AC with other big appliances then. A cool-down that starts when you walk in at 5:30 lands in peak.",
+    "The AC is also the dehumidifier: DOE says cooling coils remove heat and humidity, and one way AC makes people feel cooler is by reducing moisture. EPA wants indoor humidity below 60%, ideally 30-50%.",
+    "ENERGY STAR says smart thermostats can set back automatically when you leave (geofencing) and estimates about $100 a year in savings for homes with high heating and cooling bills or homes unoccupied much of the day.",
+    "Old article's 'recovery runs an hour or more', '30-45 minutes before you're home', and 78-80°F away setting had no source; drop them or replace with sourced guidance."
+  ],
+  "evidence": [
+    {
+      "claim": "AC's share of home electricity and prevalence.",
+      "detail": "Air conditioning accounted for 19% of residential site electricity consumption in 2020. About 89% of homes used air conditioning in 2020, up from 57% in 1980; central AC rose from 27% to 67%. Homes in the South use more air conditioning.",
+      "source_url": "https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php",
+      "source_title": "Electricity use in homes (US EIA)"
+    },
+    {
+      "claim": "Programmable thermostats and fans.",
+      "detail": "Install and set a programmable thermostat; it could help you save up to 10 percent on heating and cooling costs a year. Ceiling fans will allow you to raise the thermostat setting about 4 degrees without impacting your comfort. Turn off your fans when you leave the room; fans cool people, not rooms.",
+      "source_url": "https://www.energy.gov/sites/prod/files/HomeCooling101-final.pdf",
+      "source_title": "Energy Saver 101: Home Cooling (US DOE)"
+    },
+    {
+      "claim": "AC removes humidity; cooling share of household energy.",
+      "detail": "Cooling coils remove heat and humidity from the air using refrigerant. One way an air conditioner makes us feel cooler is by reducing the amount of moisture in the air. Space cooling is 6% of the average household's energy use. Routinely replacing or cleaning air filters can lower AC energy use 5-15 percent; duct air loss accounts for about 30 percent of a cooling system's energy consumption.",
+      "source_url": "https://www.energy.gov/sites/prod/files/HomeCooling101-final.pdf",
+      "source_title": "Energy Saver 101: Home Cooling (US DOE)"
+    },
+    {
+      "claim": "Set point while home; time-of-day peak.",
+      "detail": "Set the thermostat to 78 degrees or higher in summer, which can save around 5-10% on cooling costs for every 2 degrees. On the Time-of-Day rate, peak is 5 p.m. to 8 p.m. Monday through Friday; avoid running multiple appliances like the dishwasher, air conditioner and washer and dryer at the same time then. Weekends and holidays are off-peak.",
+      "source_url": "https://www.smud.org/Rate-Information/Residential-rates/Time-of-Day-5-8pm-Rate",
+      "source_title": "Time-of-Day (5-8 p.m.) Rate (SMUD)"
+    },
+    {
+      "claim": "Smart thermostats set back automatically.",
+      "detail": "Geofencing can detect when you've left for the day so the thermostat can set back your HVAC system. Heating and cooling account for almost half of the average household's annual energy bill, more than $900 a year.",
+      "source_url": "https://www.energystar.gov/products/smart_thermostats",
+      "source_title": "Smart Thermostats (ENERGY STAR)"
+    },
+    {
+      "claim": "Smart thermostat savings estimate.",
+      "detail": "Homes with high heating and cooling bills, or homes unoccupied for much of the day, can save approximately $100 a year with an ENERGY STAR certified smart thermostat.",
+      "source_url": "https://www.energystar.gov/saveathome/heating-cooling",
+      "source_title": "Heat & Cool Efficiently (ENERGY STAR)"
+    }
+  ],
+  "real_questions": [
+    "Does the AC work harder to cool the house back down, cancelling the savings?",
+    "Should I turn it off or just raise it?",
+    "Is it bad to leave pets in a house with the AC off?",
+    "What if I'm on a time-of-use plan?",
+    "Will the house get humid or musty?"
+  ],
+  "original_asset": {
+    "type": "worked_example",
+    "spec": "Find your cooling kWh (summer bill minus spring bill), price it at the registry's ~17 cents/kWh, apply DOE's up-to-10% for a workday setback, then show the separate home-setting lever (SMUD 5-10% per 2°F; fans allow ~4°F per DOE). Plus a decision table for off vs setback by humidity, occupants, TOU peak."
+  },
+  "cautions": [
+    "Don't leave pets, infants, older adults, or anyone heat-sensitive in a house with the AC off on hot days.",
+    "Keep indoor humidity below 60% (EPA registry); check with a hygrometer.",
+    "Show the formula with the reader's own rate (registry)."
+  ],
+  "sources": {
+    "https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php": "Electricity use in homes (US EIA)",
+    "https://www.energy.gov/sites/prod/files/HomeCooling101-final.pdf": "Energy Saver 101: Home Cooling (US DOE)",
+    "https://www.smud.org/Rate-Information/Residential-rates/Time-of-Day-5-8pm-Rate": "Time-of-Day (5-8 p.m.) Rate (SMUD)",
+    "https://www.energystar.gov/products/smart_thermostats": "Smart Thermostats (ENERGY STAR)",
+    "https://www.energystar.gov/saveathome/heating-cooling": "Heat & Cool Efficiently (ENERGY STAR)"
+  }
+}

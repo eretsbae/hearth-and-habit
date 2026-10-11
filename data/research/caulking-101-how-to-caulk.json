@@ -1,0 +1,91 @@
+{
+  "reader_situation": "A homeowner or renter wants to reseal a tub, sink, window trim, or exterior gap, often because the last bead peeled or turned moldy. They are standing in a caulk aisle full of similar tubes and want to know which one to buy and how to make it last.",
+  "direct_answer": "Caulk lasts when the product's rated use matches the joint (silicone where water sits, paintable acrylic for trim), the old caulk and residue are fully removed, the joint is sized right (backer rod in deep gaps so the bead sticks to two sides only), and the bead gets its full cure before water or rain hits it. Tube labels state each of these: ASTM C920 class, water-ready time, minimum application temperature, and below-waterline limits.",
+  "consensus": [
+    "Use 100% silicone in wet areas and paintable acrylic latex on trim.",
+    "Remove all old caulk and clean the joint before recaulking.",
+    "Tape both sides of the joint for a straight line and pull the tape while the caulk is wet.",
+    "Cut the nozzle at 45 degrees and push the bead in one continuous pass.",
+    "Smooth the bead right away and let it cure before getting it wet."
+  ],
+  "gaps": [
+    "'Kitchen & bath' acrylic caulks are not tub-waterline products: Red Devil's siliconized acrylic K&B caulk and its painter's caulk both list 'not recommended for below waterline applications', and both say to keep water or rain off for 72 hours.",
+    "Water-ready times differ by a factor of about 144: GE's Advanced Silicone 2 Kitchen & Bath says 30 minutes before water; Red Devil's acrylics say 72 hours.",
+    "The ASTM C920 class on the label is the movement rating. GE Advanced Silicone 2 is Class 35; Red Devil's white K&B siliconized acrylic is Class 25 with a stated joint movement of +/-25%, its clear version Class 12.5. Basic painter's caulk lists only ASTM C834.",
+    "Joint depth matters, not just width: W. R. Meadows says joint depth after backer rod should generally be half the width, and the rod keeps the sealant from bonding to the back of the joint (three-sided adhesion failure). GE says use backer rod for gaps larger than 1/2 in x 1/2 in; Red Devil says use it when depth exceeds 1/2 in.",
+    "Minimum application temperature for both Red Devil acrylic products is 40°F; don't caulk outside when rain or freezing is due within 72 hours.",
+    "Tooling window: Red Devil lists a 10-minute tooling time and under 1 hour tack-free for its K&B siliconized acrylic.",
+    "Painter's caulk can be painted after 2 hours with latex paint or 24 hours with oil-based paint (Red Devil); silicone is not paintable (GE).",
+    "Quantity: University of Arkansas Extension says half a tube covers one large window or door, and suggests cutting the tip so the opening is about 3/8 in, then smoothing every 3 feet or so.",
+    "Caulking over door-frame molding treats the symptom; Arkansas Extension recommends removing the molding and sealing the gap behind it with non-expanding foam, gap-filler rod and caulk."
+  ],
+  "evidence": [
+    {
+      "claim": "Silicone water-ready time, backer rod threshold, prep, paintability, movement class.",
+      "detail": "Allow 30 minutes before exposing sealant to water. Use backer rod for gaps larger than 1/2 in x 1/2 in. Remove dirt, grease, moisture, soap residue and old sealant. Non-paintable. Meets ASTM C-920, Class 35.",
+      "source_url": "https://gesealants.ca/products/advanced-silicone-2-kitchen-bath-sealant/",
+      "source_title": "Advanced Silicone 2 Kitchen & Bath Sealant (GE Sealants)"
+    },
+    {
+      "claim": "Siliconized acrylic K&B caulk specs and limits.",
+      "detail": "ASTM C920 Class 25 (white), Class 12.5 (clear), ASTM C834; joint movement +/-25%; tooling time 10 minutes; tack-free under 1 hour; application temperature 40°F to 100°F; if joint depth exceeds 1/2 in use a backer rod; not recommended for below waterline; should not be exposed to rain or freezing temperatures within 72 hours; cooler temperatures and higher humidity extend cure; paintable; shelf life minimum 1 year at 72°F; remove old caulking/sealant first.",
+      "source_url": "https://www.reddevil.com/Portals/0/adam/Product%20Catalog/l8QH0KeY4kmvUpZ5HzKsUQ/DocumentationTDS/0406%20Series%20-%20K&B%20Siliconized%20Acrylic%20Caulk.pdf",
+      "source_title": "Kitchen and Bath Siliconized Acrylic Caulk technical data sheet (Red Devil)"
+    },
+    {
+      "claim": "Painter's caulk specs and limits.",
+      "detail": "Interior/exterior, for window and door frames, trim, baseboards and moldings. Surface must be clean, dry and free of mildew and old caulking. Wait 2 hours before painting with latex paint, or 24 hours with oil-based paint. Protect from water until cured (72 hours). Full cure approx. 3 days. Application temperature 40°F to 110°F. Not recommended for below water line applications. Tack free under 1 hour at 72°F. Meets ASTM C834 only (no C920 class listed).",
+      "source_url": "https://www.reddevil.com/Portals/0/adam/Product%20Catalog/Sx1IWqQsQ0G-_dKEgYQXEg/DocumentationTDS/tds-0746.pdf",
+      "source_title": "Painter's Caulk technical data sheet, TDS 0746 (Red Devil)"
+    },
+    {
+      "claim": "Backer rod sets depth and prevents three-sided adhesion.",
+      "detail": "Generally, the depth of the joint after KOOL-ROD is installed should be half the width; very large and very small joints vary. Sealants will not adhere to KOOL-ROD, eliminating three-sided joint adhesion failure. Do not tear, puncture, twist or overly compress the rod; avoid voids that trap air or moisture. Packaging table: 9.53 mm (3/8 in) rod for a 6 mm joint; 15.86 mm (5/8 in) rod for a 12 mm joint.",
+      "source_url": "https://www.buildsite.com/pdf/wrmeadows/KOOL-ROD-Product-Data-2967022.pdf",
+      "source_title": "KOOL-ROD Backer Rod for Cold-Applied Sealants, product data (W. R. Meadows)"
+    },
+    {
+      "claim": "Quantity, tip size, smoothing, door-frame leaks.",
+      "detail": "Cut the tip at a 45-degree angle so the opening is only around 3/8 in wide; test the bead on scrap. Run the gun along the gap at 45 degrees; after about 3 feet, smooth the bead with wood, plastic or a gloved finger, which helps adhesion. Half a tube is sufficient for one large window or door. A caulking gun is around $5 to $6 and caulk $3 to $4 a tube (2017). For door-frame leaks, remove the molding and seal gaps with non-expanding foam, gap filler rod and caulk; use exterior caulk outside.",
+      "source_url": "https://www.uaex.uada.edu/publications/PDF/FSA-1049.pdf",
+      "source_title": "Caulking and Weatherstripping, FSA1049 (University of Arkansas Cooperative Extension)"
+    },
+    {
+      "claim": "Caulk types and inspection.",
+      "detail": "Caulk can be made of acrylic, butyl, oil-base, silicone and urethane. Over time caulk becomes brittle or wears out and needs to be reapplied; check it periodically, and a tissue on a coat hanger can serve as a draft detector.",
+      "source_url": "https://www.uaex.uada.edu/publications/PDF/FSA-1049.pdf",
+      "source_title": "Caulking and Weatherstripping, FSA1049 (University of Arkansas Cooperative Extension)"
+    },
+    {
+      "claim": "Acrylic exterior limits.",
+      "detail": "Red Devil K&B siliconized acrylic: application temperature 40°F to 100°F; no rain or freezing within 72 hours of application. Painter's caulk: protect from rain/water exposure for 72 hours.",
+      "source_url": "https://www.reddevil.com/Portals/0/adam/Product%20Catalog/l8QH0KeY4kmvUpZ5HzKsUQ/DocumentationTDS/0406%20Series%20-%20K&B%20Siliconized%20Acrylic%20Caulk.pdf",
+      "source_title": "Kitchen and Bath Siliconized Acrylic Caulk technical data sheet (Red Devil)"
+    }
+  ],
+  "real_questions": [
+    "Can I put new caulk over old caulk?",
+    "How long before I can shower after caulking?",
+    "Why is my new caulk cracking or pulling away?",
+    "Is kitchen and bath caulk the same as silicone?",
+    "What do I do with a gap too big for caulk?",
+    "How many tubes do I need?"
+  ],
+  "original_asset": {
+    "type": "comparison_table",
+    "spec": "Label-reading table comparing 100% silicone (GE), siliconized acrylic K&B (Red Devil) and painter's caulk (Red Devil): ASTM rating, movement, water wait, paintable, below-waterline use, minimum temperature. Plus a worked joint example: 1/2 in gap -> depth 1/4 in, 5/8 in rod; and a quantity example: 6 windows x 1/2 tube = 3 tubes."
+  },
+  "cautions": [
+    "Never mix bleach with vinegar, ammonia or acid cleaners when cleaning mildew (registry: Poison Control).",
+    "Mold over about 10 sq ft, in HVAC, or from contaminated water warrants a professional (registry: EPA).",
+    "Product data varies by brand and formula; tell readers to check the tube's own label.",
+    "Don't caulk over a wet or actively leaking joint."
+  ],
+  "sources": {
+    "https://gesealants.ca/products/advanced-silicone-2-kitchen-bath-sealant/": "Advanced Silicone 2 Kitchen & Bath Sealant (GE Sealants)",
+    "https://www.reddevil.com/Portals/0/adam/Product%20Catalog/l8QH0KeY4kmvUpZ5HzKsUQ/DocumentationTDS/0406%20Series%20-%20K&B%20Siliconized%20Acrylic%20Caulk.pdf": "Kitchen and Bath Siliconized Acrylic Caulk technical data sheet (Red Devil)",
+    "https://www.reddevil.com/Portals/0/adam/Product%20Catalog/Sx1IWqQsQ0G-_dKEgYQXEg/DocumentationTDS/tds-0746.pdf": "Painter's Caulk technical data sheet, TDS 0746 (Red Devil)",
+    "https://www.buildsite.com/pdf/wrmeadows/KOOL-ROD-Product-Data-2967022.pdf": "KOOL-ROD Backer Rod for Cold-Applied Sealants, product data (W. R. Meadows)",
+    "https://www.uaex.uada.edu/publications/PDF/FSA-1049.pdf": "Caulking and Weatherstripping, FSA1049 (University of Arkansas Cooperative Extension)"
+  }
+}

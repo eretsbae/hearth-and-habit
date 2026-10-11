@@ -1,0 +1,82 @@
+{
+  "reader_situation": "Someone setting up a first apartment, or staring at an overstuffed under-sink cabinet, wants to know which cleaning products do real work and which are duplicates or marketing, and when they actually need a disinfectant.",
+  "direct_answer": "A short kit covers routine cleaning: a general cleaner, dish soap, white vinegar, baking soda, microfiber cloths, a couple of brushes, and gloves. Add one EPA-registered disinfectant (or bleach) for the times you actually need to kill germs, and follow its label contact time. Most specialty bottles duplicate that kit.",
+  "consensus": [
+    "An all-purpose cleaner, dish soap, vinegar, baking soda, and microfiber cover most cleaning.",
+    "Bathroom and kitchen sprays are often the same thing.",
+    "Never mix bleach with vinegar or ammonia.",
+    "Keep vinegar off natural stone.",
+    "Specialty sprays and air fresheners are optional."
+  ],
+  "gaps": [
+    "Cleaning, sanitizing and disinfecting are different claims: EPA says cleaning removes dirt with soap or detergents; sanitizing kills bacteria but is not intended to kill viruses; disinfecting kills viruses and bacteria. Only sanitizers and disinfectants are EPA-registered.",
+    "Contact time is the part people skip: EPA says the surface must stay wet for the label's contact time. Clorox Disinfecting Wipes need the surface visibly wet for 4 minutes to disinfect (10 seconds only sanitizes), and their disinfecting directions cover hard, nonporous, non-food-contact surfaces.",
+    "Clorox says to avoid its wipes on unsealed wood, untreated stone, mirrors, and inside appliances.",
+    "A bleach solution replaces most disinfecting sprays: Clorox gives 1/3 cup of its disinfecting bleach per gallon of water (about 1,500 ppm), 6 minutes contact (up to 10 minutes for mold and mildew), then rinse and air dry, and says to mix it fresh each day.",
+    "Antibacterial hand soap is a skip: FDA says there isn't sufficient evidence OTC antibacterial soaps prevent illness better than plain soap and water, and in 2016 banned 19 active ingredients including triclosan from consumer antiseptic washes.",
+    "If you want a lower-hazard cleaner, EPA's Safer Choice label means EPA reviewed every ingredient and the product meets pH limits for skin and eye irritation and VOC limits; nearly 2,000 products qualify.",
+    "The old article's $30-50 kit cost, 2-4 month restock, 1-2 year microfiber life, 15-minute baking soda timing, and tank-tablet flapper damage had no source; drop them."
+  ],
+  "evidence": [
+    {
+      "claim": "Definitions of cleaning, sanitizing, disinfecting; contact time.",
+      "detail": "Cleaning removes dirt and organic matter from surfaces using soap or detergents; EPA regulates these only if they also sanitize or disinfect. Sanitizing kills bacteria on surfaces using chemicals; it is not intended to kill viruses. Disinfecting kills viruses and bacteria. Pay close attention to the contact time, which is how long the surface must remain wet.",
+      "source_url": "https://www.epa.gov/coronavirus/whats-difference-between-products-disinfect-sanitize-and-clean-surfaces",
+      "source_title": "What's the difference between products that disinfect, sanitize, and clean surfaces? (US EPA)"
+    },
+    {
+      "claim": "Disinfecting wipes need minutes of wet time.",
+      "detail": "Use enough wipes for the treated surface to remain visibly wet for 4 minutes for disinfecting. Spot sanitizing: keep wet for 10 seconds. Disinfecting directions are for hard, nonporous, non-food-contact surfaces.",
+      "source_url": "https://www.clorox.com/products/clorox-disinfecting-wipes/",
+      "source_title": "Clorox Disinfecting Cleaning Wipes (Clorox)"
+    },
+    {
+      "claim": "Surfaces to keep wipes off.",
+      "detail": "Avoid using them on unsealed wood, untreated stone, mirrors or inside appliances.",
+      "source_url": "https://www.clorox.com/products/clorox-disinfecting-wipes/",
+      "source_title": "Clorox Disinfecting Cleaning Wipes (Clorox)"
+    },
+    {
+      "claim": "Bleach dilution for disinfecting.",
+      "detail": "1/3 cup bleach per gallon of water (1500 ppm, 48 parts water to 1 part bleach), 6 minutes contact; 2000 ppm for additional organisms, 5 minutes; mold and mildew up to 10 minutes at 1500 ppm. Rinse with clean water and let air dry. Make bleach solutions fresh each day you use them. Product: Clorox Disinfecting Bleach.",
+      "source_url": "https://www.clorox.com/learn/bleach-dilution-ratio-chart/",
+      "source_title": "Bleach Dilution Ratio for Disinfecting (Clorox)"
+    },
+    {
+      "claim": "Antibacterial soap is not better than plain soap.",
+      "detail": "There isn't sufficient evidence to show OTC antibacterial soaps are better at preventing illness than plain soap and water. In 2016 FDA banned 19 active ingredients including triclosan and triclocarban from consumer antiseptic wash products. Rule doesn't cover hand sanitizers, hand wipes, or health-care antibacterial soaps. The products may give a false sense of security.",
+      "source_url": "https://www.fda.gov/consumers/consumer-updates/skip-antibacterial-soap-use-plain-soap-and-water",
+      "source_title": "Skip the Antibacterial Soap; Use Plain Soap and Water (US FDA)"
+    },
+    {
+      "claim": "Safer Choice label meaning.",
+      "detail": "EPA reviews every chemical ingredient regardless of percentage; products must perform comparably to conventional products, meet pH standards that limit skin and eye irritation, restrict VOC content, and meet packaging criteria. Voluntary, annual audits; nearly 2,000 products qualify; searchable product list for home use.",
+      "source_url": "https://www.epa.gov/saferchoice/learn-about-safer-choice-label",
+      "source_title": "Learn About the Safer Choice Label (US EPA)"
+    }
+  ],
+  "real_questions": [
+    "Is vinegar a disinfectant?",
+    "Do I need disinfecting wipes if I have kids?",
+    "Can I just use bleach and water for everything?",
+    "Is antibacterial dish or hand soap worth it?",
+    "What's the minimum cleaning kit for a first apartment?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "Job-by-job table: what the core kit handles vs when to step up to an EPA-registered disinfectant, with contact times (wipes 4 minutes, bleach solution 6 minutes, mold 10 minutes) and a worked bleach dilution scaled from 1/3 cup per gallon to a half gallon."
+  },
+  "cautions": [
+    "Never mix bleach with vinegar, ammonia, or acid cleaners (registry, Poison Control).",
+    "Soap and water clean; disinfection needs an EPA-registered product for its full label contact time (registry, EPA).",
+    "Bleach solution: check the bottle is a disinfecting bleach; rinse food-contact surfaces; mix fresh daily.",
+    "Poison Control 1-800-222-1222 (registry)."
+  ],
+  "sources": {
+    "https://www.epa.gov/coronavirus/whats-difference-between-products-disinfect-sanitize-and-clean-surfaces": "What's the difference between products that disinfect, sanitize, and clean surfaces? (US EPA)",
+    "https://www.clorox.com/products/clorox-disinfecting-wipes/": "Clorox Disinfecting Cleaning Wipes (Clorox)",
+    "https://www.clorox.com/learn/bleach-dilution-ratio-chart/": "Bleach Dilution Ratio for Disinfecting (Clorox)",
+    "https://www.fda.gov/consumers/consumer-updates/skip-antibacterial-soap-use-plain-soap-and-water": "Skip the Antibacterial Soap; Use Plain Soap and Water (US FDA)",
+    "https://www.epa.gov/saferchoice/learn-about-safer-choice-label": "Learn About the Safer Choice Label (US EPA)"
+  }
+}

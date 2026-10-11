@@ -17,8 +17,8 @@ hero_image: /images/furnace-filter-basics-hero.svg
 hero_alt: Pleated furnace filter being slid into the furnace's filter slot, with arrows
   showing return air flowing toward the blower
 pin_hooks:
-- Change 1-inch filters every 1–3 months, 4–5 inch every 6–12
-- A fresh MERV 8 beats a six-month-old MERV 13
+- Check monthly; change 1-inch filters at least every 3 months
+- Most systems can run MERV 13 if you change it often
 enriched: '2026-10-11'
 ---
 
@@ -69,7 +69,7 @@ Here's what the EPA says each level must capture:
 |---|---|---|---|
 | 1–4 | not rated | not rated | under 20% |
 | 8 | not rated | at least 20% | at least 70% |
-| 11 | at least 20% | higher than MERV 8 | higher than MERV 8 |
+| 11 | at least 20% | not listed in EPA's summary | not listed in EPA's summary |
 | 13 | at least 50% | at least 85% | at least 90% |
 | 16 | at least 95% | at least 95% | at least 95% |
 
@@ -108,7 +108,7 @@ The formula is: **filter's rated pressure drop ÷ 0.5 = share of a PSC blower's 
 
 ![Bar chart of how much of a 0.5 in. WC blower pressure budget four example furnace filters use, from 16% to 50%](/images/furnace-filter-basics-diagram.svg)
 
-The three MERV 7 filters come from one manufacturer and differ only in depth. Going from 1 inch to 4 inches nearly halves the share of the budget the filter uses.
+The three MERV 7 filters come from one manufacturer and differ only in depth. Going from 1 inch to 4 inches cuts the filter's share of the budget from 40% to 24%.
 
 The 1-inch MERV 13 example uses even less. That's not a perfectly fair comparison, because it was tested at a different airflow. It still shows that the MERV number alone won't tell you how hard a filter is to breathe through.
 
@@ -116,7 +116,7 @@ Airflow changes the answer. FPM (feet per minute) is how fast air hits the filte
 
 PNNL cites a 4-inch MERV 12 rated 0.2 in. WC at 300 FPM but 0.35 at 500 FPM. That's 40% of the budget at the lower speed and 70% at the higher one. PNNL treats 500 FPM as the maximum desired face speed for homes, with 200–400 FPM preferred.
 
-The MERV 13 label's 0.08 figure is measured at 410 CFM, and that filter is rated for up to 1,390 CFM. At higher airflow, its pressure drop will be higher. When a label lists several airflow rates, read the row closest to your system's airflow. An HVAC tech can tell you what that is.
+The MERV 13 label's 0.08 figure is measured at 410 CFM, and that filter is rated for up to 1,390 CFM. At higher airflow, expect its pressure drop to be higher, as the MERV 12 example shows. When a label lists several airflow rates, read the row closest to your system's airflow. An HVAC tech can tell you what that is.
 
 **When two filters share a MERV rating, the one with the lower pressure drop at your system's airflow is the easier one for your blower to push through.**
 
@@ -134,13 +134,13 @@ Wherever you live, look for a pressure-drop figure on the package or the maker's
 
 Compare the new filter's pressure drop with the old filter's at a similar airflow. If the new one is higher, it uses more of your budget.
 
-For a definite answer, have a technician measure your system's total static pressure and compare it with the 0.4–0.5 in. WC guideline. It's a quick test during a routine service visit. If you're weighing whether to book one, our guide on [when a repair is worth calling a pro for](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html) can help.
+For a definite answer, have a technician measure your system's total static pressure and compare it with the 0.4–0.5 in. WC guideline. If you're weighing whether to book one, our guide on [when a repair is worth calling a pro for](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html) can help.
 
 ### What too much resistance does, and why you may not notice
 
 PNNL describes two different failure modes, depending on the blower motor:
 
-- **PSC (fixed-speed) motors** can't adjust. As resistance rises, airflow "falls off" and the system runs longer to reach your thermostat setting. You may notice weaker airflow or a room that never quite gets comfortable. If that sounds familiar, see [why one room stays colder than the rest](https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html).
+- **PSC (fixed-speed) motors** can't adjust. As resistance rises, airflow "falls off" and the system runs longer to reach your thermostat setting. You may notice weaker airflow. If that sounds familiar, see [why one room stays colder than the rest](https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html).
 - **ECM (variable-speed) motors** ramp up speed and power to hold airflow steady. Airflow can look normal while the motor works harder and harder, and PNNL says it can do so "until it burns itself out." Burnout is more likely with an ECM than a PSC motor.
 
 On a variable-speed system, weak airflow is not a reliable warning sign. Your furnace manual or a tech can tell you which motor type you have.
@@ -182,7 +182,7 @@ To estimate your own savings, multiply the cooling portion of your monthly bill 
 - $150 × 0.05 = $7.50
 - $150 × 0.15 = $22.50
 
-Carrier puts typical filter replacement at $10–$50. Fiberglass sits at the low end and high-efficiency pleated filters at the high end. A single filter often lasts more than one month, so in a heavy cooling season a fresh filter can come close to paying for itself.
+Carrier puts typical filter replacement at $10–$50. Fiberglass sits at the low end and high-efficiency pleated filters at the high end. A single filter often lasts more than one month, so in this hypothetical a fresh filter can offset much of its own cost over a heavy cooling season.
 
 The DOE figure covers cooling. These sources don't put a number on heating savings.
 
@@ -194,9 +194,9 @@ To make the monthly check stick, pair it with the other easy-to-miss jobs on our
 
 ### Is it OK to run the system without a filter for a day or two?
 
-None of these sources gives a safe filter-free duration. PNNL lists keeping dust off the blower and coil as one of a filter's core jobs, and an open slot can also pull in unwanted air.
+None of these sources gives a safe filter-free duration. PNNL lists protecting the HVAC equipment as one of a filter's three purposes, and an open slot can also pull in unwanted air.
 
-If the old filter is intact, leave it in until the replacement arrives. If it has collapsed or is damp or moldy, PNNL says it needs to come out now. In that case, get a replacement the same day or keep the system off if the weather allows.
+If the old filter is intact and not clogged, leave it in until the replacement arrives. If it has collapsed or is damp or moldy, PNNL says it needs to come out now. In that case, get a replacement the same day or keep the system off if the weather allows.
 
 ### Are washable or permanent filters better?
 
@@ -224,3 +224,4 @@ None of the sources here connects filter choice to warranty terms. Your furnace 
 - [High-MERV Filters | Building America Solution Center (PNNL)](https://basc.pnnl.gov/resource-guides/high-merv-filters) — static pressure budget, pressure-drop examples by filter depth, PSC vs. ECM motor failure, California labels, washable filters, program minimums, filter purposes
 - [Proper Installation of Furnace and Air-Handler Filters | Building America Solution Center (PNNL)](https://basc.pnnl.gov/resource-guides/proper-installation-furnace-and-air-handler-filters) — conditions that shorten the interval, replace-now signs, arrow direction, sealing the access cover, return-grille filters for inaccessible units
 - [Energy Saver 101: Home Cooling (U.S. DOE)](https://www.energy.gov/sites/prod/files/HomeCooling101-final.pdf) — clean filters can lower air conditioner energy use by 5–15%
+- [Changing Furnace Filters | Carrier](https://www.carrier.com/us/en/residential/hvac-resources/furnaces/changing-furnace-filters/) — 1-inch filters may need changing about monthly, 4-inch about six months, some up to a year; typical $10–$50 replacement cost; backward filters restrict airflow

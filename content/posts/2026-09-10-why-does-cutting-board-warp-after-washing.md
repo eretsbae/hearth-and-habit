@@ -2,9 +2,8 @@
 title: Why Does My Cutting Board Warp After Washing It?
 slug: why-does-cutting-board-warp-after-washing
 date: '2026-09-10'
-updated: '2026-09-29'
-description: Boards warp when one face gets wetter than the other, and thin or flat-sawn
-  boards warp most. Here's the drying routine and how to flatten a mild warp.
+updated: '2026-10-11'
+description: One face of the board got wetter than the other, often from a soak, a puddle, or drying flat on stone. What board makers say to do, and how to flatten a mild warp.
 tags:
 - kitchen care
 - cutting boards
@@ -15,111 +14,92 @@ hero_image: /images/why-does-cutting-board-warp-after-washing-hero.svg
 hero_alt: Wooden cutting board curved up at the edges on a kitchen counter, with water
   droplets, a dish towel, and a bottle of board oil
 pin_hooks:
-- The 10-second drying habit that stops most board warping
-- Flatten a mildly warped board with a damp towel and weight
+- Drying a board flat on stone can warp it
+- Flatten a mild warp with a damp towel and weights
+enriched: '2026-10-11'
 ---
 
-Your cutting board warps because one side got wetter than the other — wood swells unevenly, and the board bends toward the drier side, especially if it's thin or cut from a single flat-sawn slab. Fix the drying habit and most warping stops.
+It warps because one face of the board took on more water than the other, and the wetter face swelled. The usual culprits are a soak in the sink, a few minutes in a puddle, or drying the board flat on the counter.
 
-It's one of those kitchen mysteries that seems random until you know what to look for: the board looks fine, you wash it, you set it down to dry, and somehow by morning it's rocking on the counter like a seesaw. It's not bad luck. It's physics, and it's usually fixable.
+The details matter more than most care guides let on. Teakhaus, a cutting board maker, warns that even a few minutes of standing water can cause local swelling. John Boos, another board maker, names a habit few people suspect: leaving a board flat on a cold stone counter. Below are the habits that cause warping, why some boards move more than others, and the maker-published method for flattening a mild warp.
 
-## Why Warping Actually Happens
+## Why one wet face bends the whole board
 
-Wood is made of tiny fibers that absorb water and swell when wet, then shrink back down as they dry. A cutting board is fine with this as long as both sides absorb and release moisture at the same rate. The trouble starts when one face of the board gets soaked — say, from sitting in a sink of soapy water or lying flat on a wet dish towel — while the other face stays relatively dry.
+Wood swells as it takes on water and shrinks as it dries. Boos's care guide says liquids left standing on a board cause "the surface to expand and the wood to soften." If both faces gain and lose water at the same rate, the board stays flat. If one face stays wet longer, that face swells more than the other and the board bows.
 
-The wet side swells more than the dry side. Since the two sides are physically bonded together as one piece of wood (or one glued-up slab, for edge-grain and end-grain boards), the swollen side pushes the board into a curve, bowing away from the moisture. This is the same reason a wooden door sticks in humid weather or a hardwood floorboard cups near a spill.
+Drying does the same thing in reverse. The Wood Database, a reference site on wood properties, describes how drying wood forms a moisture gradient: the outer shell dries while the core is still wet. A board drying on one side only has a gradient from face to face instead, which is the setup for a bow.
 
-Plastic and composite boards can warp too, though it's less common — usually from heat, like a hot dishwasher cycle with the board sitting close to an exposed heating element (more on where plastics belong in [common dishwasher loading mistakes](https://www.hearth-habit.com/2026/07/your-dishwasher-is-probably-loaded.html)). The steps below focus mainly on wood, since that's where warping shows up most, but the drying principle applies to both.
+## The habits that do it, and what to do instead
 
-## Why Some Boards Warp More Than Others
+| Habit | What the board makers say | Do this instead |
+|---|---|---|
+| Letting the board soak in the sink | Boos: soaking "will disrupt the moisture content causing the rails to split" | Wash it right away and lift it out |
+| Leaving it in a puddle, even briefly | Teakhaus: "even a few minutes of water pooling" can cause localized swelling and possible warping | Wipe the counter and the board dry |
+| Drying or storing it flat on a stone counter | Boos: lying flat for long periods on a cold stone countertop "can hinder airflow and lead to moisture imbalance" | Stand it on edge, away from direct sun (Boos) |
+| Running it through the dishwasher | Boos: wood boards are "NOT dishwasher safe." Teakhaus: heat, harsh detergent, and long water exposure damage boards. | Hand-wash only |
+| Using antibacterial soap or harsh detergent | Teakhaus: antibacterial soaps can dry out the wood. Boos: no harsh detergents. | Mild dish soap and warm water |
+| Oiling only the top | Boos says to oil "all surfaces" | Oil every face and edge |
 
-The same washing habit can leave one board flat and another rocking, because of how the board was made:
+![Two drying setups compared: a board standing on edge with air reaching both faces, and a board lying flat on stone with its bottom face staying damp](/images/why-does-cutting-board-warp-after-washing-inline.svg)
 
-- **Thickness.** Thin boards — under about 1 inch — have less wood to resist uneven swelling, so they bow much more easily. A board 1¼ to 2 inches thick is far more stable.
-- **Construction.** Single-slab boards are the most warp-prone, especially wide ones. Edge-grain boards (long strips glued side by side) tend to stay flatter, because each narrow strip moves less than one wide slab would. End-grain boards (the checkerboard of short blocks, with the wood's cut ends facing up) are usually thick and rarely warp, but those exposed fiber ends soak up water fast, so they need more frequent oiling and can crack at the glue joints if they're left wet.
-- **How the wood was sawn.** Flat-sawn (plain-sawn) wood, cut so the growth rings run roughly parallel to the board's face, tends to cup as its moisture changes. Quarter-sawn wood, with the rings running more vertically through the thickness, moves far less. On a single-slab board you can often tell by looking at the end: long, shallow arcs mean flat-sawn; short, near-vertical lines mean quarter-sawn.
+The drying-flat point catches people out because the board looks dry. The top face airs out in minutes. The bottom face, pressed against cool stone, stays damp much longer. Teakhaus allows flat storage only "in a well-ventilated area," and notes that vertical storage lets air reach both sides. Boos recommends standing the board on end to air dry.
 
-None of this makes a board warp-proof, but it explains why a thin, flat-sawn slab needs more careful drying than a thick edge-grain board.
+The same thinking applies to other surfaces: each one has a product or habit that quietly damages it. Our guide to [which surfaces need their own cleaner](https://www.hearth-habit.com/2026/09/is-it-worth-buying-separate-cleaners.html) covers the rest of the kitchen.
 
-## Step 1: Confirm It's a Drying Problem, Not a Wood Quality Problem
+## Why some boards move more than others
 
-Before changing your routine, check how the board is warping. If it's bowing in a smooth, gentle curve — like a shallow bowl or a rocking chair rail — that's classic moisture-related warping, and it's almost always fixable with better drying habits.
+Wood doesn't swell the same amount in every direction. The Wood Database puts typical shrinkage across the growth rings (tangential) at 6–10%. Shrinkage along the rays, from the center of the tree outward (radial), runs 3–5%. That makes tangential movement about double.
 
-If instead you're seeing cracks, splitting along the grain, or separation at the glue seams (on a board made of multiple wood strips), that's a different problem: the board dried out too aggressively, often from sitting too close to a heat source like a dishwasher, oven vent, or direct sunlight on a windowsill. A warped board is usually a drying-habit problem; a cracked board is usually a heat-exposure problem. Both are avoidable, but they call for different fixes.
+That difference shows up in how the board was sawn:
 
-## Step 2: Stop Soaking the Board
+- **Flat-sawn boards** have growth rings running roughly parallel to the wide face, so the face moves in the larger, tangential direction. Look at the end of the board: long, shallow arcs mean flat-sawn.
+- **Quartersawn boards** have rings running through the thickness. The Wood Database says that in quartersawn lumber "the thickness of the board is doing the majority of the shrinking or swelling," so the face changes little.
 
-Never let a wood cutting board sit submerged in a sink, even briefly while you finish other dishes. Wood used for cutting boards isn't sealed the way a piece of furniture might be, so it drinks up water fast, and it's almost always the bottom face sitting in the sink water that absorbs more than the top.
+The gap depends on the species' T/R ratio, its tangential-to-radial shrinkage ratio. Hard maple, a common cutting-board wood, has a T/R ratio of 2.1. For the same moisture change, its flat-sawn face moves about 2.1 times as much as a quartersawn face. At a ratio of 3, the high end, the Wood Database says the flat-sawn surface moves at triple the rate.
 
-Wash the board quickly under running water with a bit of dish soap, using a sponge or brush, and get it out of the water within a minute or two. Think rinse-and-scrub, not soak.
+A board glued up from narrow strips (edge grain) spreads that movement across many pieces instead of one wide slab. A wide single-slab, flat-sawn board is the one to dry most carefully.
 
-## Step 3: Dry Both Sides, Not Just One
+## An oiling schedule that keeps water out
 
-This is the step almost everyone skips, and it's the real root of most warping. After washing, most people towel off the top of the board and set it down flat on the counter — which means the top air-dries quickly while the bottom stays damp against the counter surface for hours.
+Boos says its board cream, applied after oiling, "controls its moisture content, keeping it from drying out, cracking or splitting." The two makers set different minimums for oiling:
 
-Instead:
+| Board use | John Boos | Teakhaus |
+|---|---|---|
+| Regular use | At least once a month, more depending on use and household conditions | Two to three times a month for daily use |
+| Occasional use | Once a month as a minimum | Monthly |
+| Sign it's due | The board looks dry or has lightened in color | Not specified |
 
-- Towel-dry both sides immediately after washing, not just the side facing up.
-- Stand the board on its edge to air-dry, leaning it against a wall or in a dish rack, so air reaches both faces equally.
-- Avoid laying it flat on a towel or drying mat, even for a few minutes — that's often exactly where the imbalance starts.
+Boos's method: apply an even coat to **all surfaces**, let it soak in overnight, then wipe off the excess, and don't over-oil. Oil the bottom and edges as well as the top, so both faces take on water at a similar rate. If your board's maker publishes a schedule, follow it. Boos notes that maintenance matters for its warranty coverage.
 
-![Cutting board drying upright in a dish rack beside a warped board lying flat in a puddle of water on the counter](/images/why-does-cutting-board-warp-after-washing-inline.svg)
+## Flattening a board that has already warped
 
-If you only make one change from this whole article, make it this one. It costs nothing and takes about ten extra seconds.
+Teakhaus publishes a method for minor warping:
 
-## Step 4: Keep It Away From Heat and Direct Sun While Drying
+1. Place the board **concave side down** on a flat surface. The middle will arch up.
+2. Put a damp, not soaking, towel on top.
+3. Place weights evenly across the board.
+4. Leave it 24–48 hours in a cool, dry place.
 
-Don't prop the board up right next to a heating vent, above a running dishwasher, or in direct sunlight on a windowsill to "speed things up." Fast, uneven drying pulls moisture out of one area faster than the rest, which can cause the same kind of stress-warping as uneven wetting, just from the other direction.
-
-A cool spot with normal room airflow is all a board needs. Standing on edge, it'll be surface-dry within an hour or two.
-
-## Step 5: Oil the Board Regularly to Even Out Moisture Absorption
-
-A well-oiled board absorbs less water in the first place, which makes the whole warping problem less likely to start. Food-grade mineral oil (sold in most grocery and hardware stores, often labeled "cutting board oil" or "butcher block oil") fills the wood's pores so water beads up and runs off instead of soaking in.
-
-A simple routine:
-
-1. Apply a thin coat of mineral oil with a clean cloth, covering the entire board — top, bottom, and edges.
-2. Let it sit for a few hours or overnight so the wood can absorb it.
-3. Wipe off any excess that hasn't soaked in.
-
-Do this roughly once a month for a board in regular use (more often for end-grain boards), or anytime the wood starts to look dry, pale, or rough. Oiling both faces equally matters as much as oiling at all — an oiled top and a bare bottom absorb water at different rates.
-
-## Step 6: If It's Already Warped, Rehydrate the Concave Side
-
-A mildly warped board can often be coaxed back close to flat by reversing the imbalance: put moisture back into the drier, shrunken side — the concave side, the one curving inward like the inside of a bowl — so it swells to match the other.
-
-1. Lay the board concave side down on a damp (not dripping) towel on a flat counter, so the curve arches up in the middle.
-2. Set light weight on the high point — a couple of heavy books in a plastic bag, or a cast iron pan — so gentle pressure helps it flatten as that face absorbs moisture.
-3. Check every few hours and re-dampen the towel if it dries out. Don't submerge the board or soak the whole thing; that just starts the cycle over.
-4. Once it's flat, dry it slowly: take away the towel, stand the board on edge at room temperature away from heat and sun, and give it a day or two before oiling both sides.
-
-This works best on boards that warped recently and only mildly. A board that's been warped for months, or one that's warped severely, may never fully flatten again — but it's usually still safe to use unless it's cracked or wobbles badly enough that it slides around while you're cutting.
-
-## Step 7: Store It Standing Up, Not Flat
-
-Once your board is dry and flat, how you store it matters too. Storing it flat on the counter or in a cabinet re-creates the same one-side-exposed problem, just more slowly, since the bottom face touches a surface while the top breathes freely.
-
-A knife block-style holder, a vertical dish rack slot, or simply leaning it against a backsplash keeps both faces exposed to the same air evenly. It also means the board is drier and more oil-ready the next time you reach for it.
-
-## The Bottom Line
-
-**Warping is almost always a drying problem — one side stayed wetter than the other — and thin or flat-sawn boards show it first.** Rinse quickly instead of soaking, dry both sides right away, stand the board up while it air-dries, and oil it monthly. That combination handles the vast majority of warping problems before they start, and it's the same basic care that keeps a good wood board usable for many years rather than a few months.
+Then let it dry standing on edge before oiling all surfaces. Teakhaus says severe warping from the dishwasher or prolonged soaking is usually permanent. If a board still rocks after one or two tries, or has split along a glue seam, it's time to replace it.
 
 ## FAQ
 
-### Is a slightly warped cutting board still safe to use?
+### Is it safe to keep using a slightly warped board?
 
-Yes, in most cases. A gentle curve doesn't affect food safety — it's mainly an annoyance because the board rocks while you cut. If it wobbles enough to be unstable, put a damp paper towel or a silicone mat underneath to hold it steady until you can flatten or replace it.
+The concern is stability, not the wood itself. A board that rocks can slide while you cut. If it wobbles, set a damp towel underneath to keep it from slipping (Teakhaus suggests the same), or retire it. A board split at the glue seams should be replaced.
 
-### Can I put my wood cutting board in the dishwasher to avoid this?
+### Why did my new board warp after one wash?
 
-No. Dishwashers combine prolonged water exposure with high heat, which is close to a worst-case scenario for wood — it both swells the fibers and then dries them out aggressively, often causing warping or cracking in a single cycle. Hand-washing is the only safe method for any wood or bamboo board, which puts it on the same hand-wash-only list as [bare cast iron](https://www.hearth-habit.com/2026/08/what-happens-if-you-put-cast-iron-in.html).
+Usually it's one of the habits in the table above: it soaked in the sink, sat in a puddle, or dried flat on the counter. Keep up an oiling schedule, too (see the table above).
 
-### Does the type of wood affect how much a board warps?
+### Can I put a wood board in the dishwasher once in a while?
 
-Somewhat, but thickness, construction, and grain orientation (covered above) usually matter more than species. A thick edge-grain or end-grain board of almost any common cutting-board hardwood will stay flatter than a thin single slab. No wood board is fully warp-proof, so good drying habits still matter most.
+Both makers say no. Boos says wood boards are not dishwasher safe, and Teakhaus says damage from the dishwasher is usually permanent. The same goes for bare cast iron. Here's [what one dishwasher run does to a cast iron pan](https://www.hearth-habit.com/2026/08/what-happens-if-you-put-cast-iron-in.html).
 
-### Should I sand down a warped board to flatten it?
+## Sources
 
-Only as a last resort, and usually only for minor curves. Sanding removes wood unevenly and can thin the board or expose glue seams on multi-piece boards. Rehydrating the concave side (Step 6) is a better first attempt, and if the board is severely warped or cracked, replacing it is often more practical than trying to sand it flat.
+- [Frequently Asked Questions | John Boos & Co.](https://johnboos.com/frequently-asked-questions) — store on edge, flat stone counters and moisture imbalance, no soaking or dishwasher, monthly oiling
+- [Care & Maintenance: Blocks | John Boos & Co.](https://johnboos.com/care-and-maintenance/blocks) — mild soap, dry all surfaces, oil all surfaces overnight, liquids swell the surface
+- [How to Care for Your Teak Cutting Board | Teakhaus](https://teakhaus.com/blogs/why-teakhaus/how-to-care-for-your-teak-cutting-board-complete-maintenance-guide) — puddles and local swelling, soap choice, oiling frequency, flattening method
+- [Dimensional Shrinkage | The Wood Database](https://www.wood-database.com/wood-articles/dimensional-shrinkage/) — tangential vs. radial movement, flat-sawn vs. quartersawn, hard maple's T/R ratio
+- [Wood and Moisture | The Wood Database](https://www.wood-database.com/wood-articles/wood-and-moisture/) — moisture gradients as wood dries

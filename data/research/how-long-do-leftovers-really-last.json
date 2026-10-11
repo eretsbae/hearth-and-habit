@@ -1,0 +1,97 @@
+{
+  "reader_situation": "Someone is looking at a container of leftovers from a few days ago (or a big pot of soup they just made) and wants to know whether it is still safe, how to count the days, and what changes the answer.",
+  "direct_answer": "Cooked leftovers keep 3 to 4 days in a refrigerator at 40°F or below, counted from the day they were cooked, provided they were refrigerated within 2 hours (1 hour above 90°F). Freeze them before day 4 to keep them longer. The window assumes a fridge that is actually at 40°F, which many are not.",
+  "consensus": [
+    "Cooked leftovers last 3-4 days in the fridge.",
+    "Refrigerate within 2 hours.",
+    "Reheat to 165°F.",
+    "Frozen leftovers keep 3-4 months for quality.",
+    "When in doubt, throw it out."
+  ],
+  "gaps": [
+    "The 3-4 day window assumes 40°F, but Ohio State University food-safety researchers report 43% of observed homes had a refrigerator above 41°F and only 4-9% of home fridges had a thermometer. They estimate listeriosis cases would fall by more than 70% if every home fridge stayed at 40°F or below.",
+    "The reason the window is short is Listeria: the FDA says it can grow at cold temperatures, inside refrigerators, and the longer food is stored the higher the chance it grows. Pregnant women are about 10 times more likely to get listeriosis than other healthy adults; adults 65+, newborns, and people with weakened immunity are also higher-risk (CDC).",
+    "Even restaurants, with monitored cold holding at 41°F, must discard ready-to-eat food after 7 days, with the day of preparation counted as day one, because Listeria can multiply in refrigerated foods (Food Code date marking as applied by a local health district). Home guidance is shorter, at 3-4 days.",
+    "How you cool matters: extension guidance is to divide hot food into shallow containers (UNL: 2 inches deep for soup, 3 inches or less for leftovers; Illinois: no more than 4 inches), cover loosely until cold, and an ice or cold-water bath speeds soup.",
+    "Freezer quality times vary by food: Illinois Extension says casseroles 2-4 months and soups and stews 2-3 months; UNL gives 2-6 months for leftovers overall. Freeze cooked leftovers within the 3-4 day window, not after it.",
+    "Thawed leftovers get their own clock: UNL says after thawing in the refrigerator, use within 3-4 days or refreeze; food thawed in cold water should be cooked before refreezing; microwave-thawed food should be heated to 165°F.",
+    "Reheating method matters: UNL says oven at no lower than 325°F for meat and poultry and do not reheat in a slow cooker because food sits too long in the danger zone; Illinois says reheat on the stove or microwave and then hold in a slow cooker at 140°F or above."
+  ],
+  "evidence": [
+    {
+      "claim": "Many home refrigerators run too warm",
+      "detail": "Almost half (43%) of observed homes had a refrigerator that was too warm (>41°F). Only 4-9% of domestic refrigerators were observed to have a thermometer. Predicted listeriosis cases would fall by more than 70% if all home refrigerators were at 40°F or below. Keep the home refrigerator at or below 40°F as measured with a thermometer.",
+      "source_url": "https://foodsafety.osu.edu/news/nobody-likes-cold-including-bacteria",
+      "source_title": "Nobody likes the cold, including BACTERIA (Ohio State University Food Safety)"
+    },
+    {
+      "claim": "Listeria grows in the refrigerator",
+      "detail": "Unlike many other foodborne bacteria, L. monocytogenes can grow in cold temperatures, including inside refrigerators. Keep the refrigerator at 40°F (4°C) or colder and freezer at 0°F. Use ready-to-eat foods as soon as possible; the longer they are stored, the higher the chance L. monocytogenes can grow.",
+      "source_url": "https://www.fda.gov/food/health-educators/listeria-food-safety-moms-be",
+      "source_title": "Listeria (Food Safety for Moms-to-Be), FDA"
+    },
+    {
+      "claim": "Pregnancy risk",
+      "detail": "Pregnant women are about 10 times more likely to get listeriosis than other healthy adults; an estimated 1 in 6 of all L. monocytogenes cases occur in pregnant women.",
+      "source_url": "https://www.fda.gov/food/health-educators/listeria-food-safety-moms-be",
+      "source_title": "Listeria (Food Safety for Moms-to-Be), FDA"
+    },
+    {
+      "claim": "Higher-risk groups",
+      "detail": "Higher risk: women who are pregnant, newborns, people 65 years or older, people with a weakened immune system. Deli meat, cold cuts and hot dogs only when reheated to 165°F or until steaming hot.",
+      "source_url": "https://www.cdc.gov/listeria/prevention/index.html",
+      "source_title": "Preventing Listeria Infection (CDC)"
+    },
+    {
+      "claim": "Restaurant date-marking limit",
+      "detail": "Refrigerated ready-to-eat TCS food held over 24 hours must be date marked: maximum of seven days when held at 41°F or below. The day the food was prepared counts as day one. Listeria can multiply in refrigerated foods. Freezing food stops the date marking clock but does not reset it.",
+      "source_url": "https://c-uphd.org/date-marking.html",
+      "source_title": "Date Marking (Champaign-Urbana Public Health District)"
+    },
+    {
+      "claim": "Leftover depth, freezer, thawing, reheating (UNL)",
+      "detail": "Refrigerate within 2 hours of cooking or being served at a restaurant. Food in each pan or container 3 inches deep or less. Leftovers kept 3-4 days in fridge or frozen 2-6 months; keep frozen at 0°F; safe indefinitely frozen but lose moisture and flavor. After thawing in the refrigerator, use within 3-4 days or refreeze; cold-water-thawed food should be cooked before refreezing; microwave-thawed food heat to 165°F. Reheat to 165°F or until hot and steamy; oven no lower than 325°F for meat and poultry; reheating in slow cookers is not recommended.",
+      "source_url": "https://food.unl.edu/article/leftover-food-safety/",
+      "source_title": "Leftover Food Safety (University of Nebraska-Lincoln Extension)"
+    },
+    {
+      "claim": "Cooling soup",
+      "detail": "Transfer soup to shallow containers no more than two inches deep; soup can be chilled in an ice or cold water bath before refrigerating; cover when completely cooled; eat refrigerated soup within 3-4 days or freeze; reheat until steaming hot throughout, at least 165°F.",
+      "source_url": "https://food.unl.edu/article/serving-soup-safely/",
+      "source_title": "Serving Soup Safely (University of Nebraska-Lincoln Extension)"
+    },
+    {
+      "claim": "Illinois Extension leftovers guidance",
+      "detail": "Eat cooked leftovers within 3-4 days; freeze cooked leftovers within 3-4 days. Casseroles 2-4 months and soups and stews 2-3 months in the freezer. Shallow pans no more than 4 inches deep. Reheat all food to 165°F. Never reheat in a slow cooker; reheat on stovetop or microwave, then keep warm in a slow cooker at 140°F or above. Never thaw outside, in a garage, basement, or on the counter.",
+      "source_url": "https://extension.illinois.edu/food/leftovers",
+      "source_title": "Leftovers (University of Illinois Extension)"
+    }
+  ],
+  "real_questions": [
+    "Is day 5 okay if it smells fine?",
+    "Does the clock start when I cooked it or when I put it in the fridge?",
+    "Does reheating reset the clock?",
+    "How long does takeout or restaurant food last?",
+    "Can I put hot food straight into the fridge?",
+    "How long do leftovers last after I thaw them?"
+  ],
+  "original_asset": {
+    "type": "schedule",
+    "spec": "A day-by-day leftover clock (day 1 = day cooked; refrigerate within 2 hours; eat or freeze by day 3-4; thawed in fridge: 3-4 more days) with a worked example of a Sunday pot of chili, plus a cooling/depth table and a freezer-quality table (Illinois and UNL) and a higher-risk row for Listeria groups."
+  },
+  "cautions": [
+    "Never judge safety by smell or look (registry).",
+    "Don't present restaurants' 7-day rule as permission to keep food 7 days at home.",
+    "Two-hour rule, 1 hour above 90°F (registry).",
+    "Rice: refrigerate within 1 hour as the safer target (registry)."
+  ],
+  "sources": {
+    "https://foodsafety.osu.edu/news/nobody-likes-cold-including-bacteria": "Nobody likes the cold, including BACTERIA (Ohio State University Food Safety)",
+    "https://www.fda.gov/food/health-educators/listeria-food-safety-moms-be": "Listeria (Food Safety for Moms-to-Be), FDA",
+    "https://www.cdc.gov/listeria/prevention/index.html": "Preventing Listeria Infection (CDC)",
+    "https://c-uphd.org/date-marking.html": "Date Marking (Champaign-Urbana Public Health District)",
+    "https://food.unl.edu/article/leftover-food-safety/": "Leftover Food Safety (University of Nebraska-Lincoln Extension)",
+    "https://food.unl.edu/article/serving-soup-safely/": "Serving Soup Safely (University of Nebraska-Lincoln Extension)",
+    "https://extension.illinois.edu/food/leftovers": "Leftovers (University of Illinois Extension)"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "reader_situation": "A homeowner or renter with forced-air heat has one bedroom, office, or bonus room that stays colder than the rest of the house all winter and wants to know whether it is the ducts, the insulation, or something else before paying for a fix or living with a space heater.",
+  "direct_answer": "Either the room isn't getting its share of warm air (a blocked register, leaky or uninsulated ducts running through an attic, crawlspace, or garage, or no return path when the door is shut) or it loses heat faster than the rest of the house (a floor over a garage, an under-insulated attic above, drafts). Feeling the supply register and running a door-open/door-shut test tells you which.",
+  "consensus": [
+    "Check that vents are open and unblocked.",
+    "Leaky or long duct runs reduce airflow.",
+    "Rooms over garages and additions are often under-insulated.",
+    "Seal drafts with caulk and weatherstripping.",
+    "Don't close vents elsewhere to push air to the cold room.",
+    "Consider a mini-split for rooms the system can't reach."
+  ],
+  "gaps": [
+    "Duct losses are large: ENERGY STAR says about 20 to 30 percent of the air moving through a typical duct system is lost to leaks, holes, and poorly connected ducts, and names rooms that are hard to heat or cool and ducts in attics, crawlspaces, or garages as signs.",
+    "The fix for leaky ducts is mastic or metal tape, never duct tape (ENERGY STAR), and insulating accessible ducts in unconditioned spaces.",
+    "A closed bedroom door with no return path is a common, rarely mentioned cause: Building America (PNNL) says rooms should not be pressurized or depressurized by more than 3 pascals (5 Pa for rooms at 150 cfm or more), and imbalances cause drafts and temperature differences between rooms.",
+    "Door undercuts rarely fix it: an undercut would need to be 1.5 inches or more, and the 3 Pa target is difficult to reach with an undercut alone except for rooms under 20 cfm. Transfer grilles need at least 1 square inch of free area per cfm of supply air.",
+    "Insulation targets depend on climate zone: ENERGY STAR recommends floor insulation from R13 (zones 1-2) to R38 (zones 7-8) and attic R30 to R60 when uninsulated.",
+    "Portable heaters are 3% of home heating fires but 41% of fatal heating fires (USFA, 2017-2019); keep anything that can burn 3 feet away and turn them off when leaving the room or going to bed.",
+    "ENERGY STAR mini-splits suit additions and sections of homes without ductwork; cold-climate models are tested down to 5°F and use up to 60% less energy than electric radiators."
+  ],
+  "evidence": [
+    {
+      "claim": "Duct leakage share and symptoms",
+      "detail": "In a typical house, about 20 to 30 percent of the air that moves through the duct system is lost due to leaks, holes, and poorly connected ducts. Signs: rooms that are difficult to heat or cool, stuffy rooms, ducts located in an attic, crawlspace, or garage, tangled or kinked flexible duct.",
+      "source_url": "https://www.energystar.gov/saveathome/heating-cooling/duct-sealing",
+      "source_title": "Duct Sealing | ENERGY STAR"
+    },
+    {
+      "claim": "How to seal and insulate ducts",
+      "detail": "Seal with mastic sealant or metal tape; never use duct tape, as it is not long-lasting. Insulate all ducts you can access in unconditioned spaces such as attics, crawlspaces, unfinished basements, and garages.",
+      "source_url": "https://www.energystar.gov/saveathome/heating-cooling/duct-sealing",
+      "source_title": "Duct Sealing | ENERGY STAR"
+    },
+    {
+      "claim": "Return pathway pressure limit",
+      "detail": "Rooms with closed doors need a pathway to central return registers. Rooms should not be pressurized or depressurized by more than 3 pascals (±5 Pa for rooms with 150 cfm or more). Imbalances can cause drafts and temperature differences between rooms or floors. Retrofit rule: at least 1 square inch of grille free area for each cfm of supply air to the room.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/transfer-grilles",
+      "source_title": "Transfer Grilles | Building America Solution Center"
+    },
+    {
+      "claim": "Door undercuts are usually not enough",
+      "detail": "An undercut would need to be 1.5 inches or greater to allow enough air to pass; undercuts are not a recommended approach; carpet can obstruct them; the ±3 Pa threshold is difficult to achieve with just a door undercut for most applications except rooms with supply airflow under 20 cfm. Alternatives: transfer grilles in the door or wall, or jump ducts through the ceiling.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/undercut-doors",
+      "source_title": "Undercut Doors | Building America Solution Center"
+    },
+    {
+      "claim": "Closed doors trap air in bedrooms and offices",
+      "detail": "When stale air can't get back to the return registers from bedrooms or offices because the doors are closed, pressure builds and can result in drafts and temperature differences between rooms. Jump ducts connect a ceiling register in the bedroom to a hallway or open area near the central return.",
+      "source_url": "https://basc.pnnl.gov/user/sales-worksheets/comfort-balanced-rooms",
+      "source_title": "Comfort Balanced Rooms | Building America Solution Center"
+    },
+    {
+      "claim": "Recommended insulation levels",
+      "detail": "Floor: R13 (zones 1-2), R19 (zones 3, 4A, 4B), R30 (zones 4C, 5, 6), R38 (zones 7-8). Attic if uninsulated: R30 (zone 1), R49 (zones 2-3), R60 (zones 4-8); if 3-4 inches already: R25 to R49.",
+      "source_url": "https://www.energystar.gov/saveathome/seal_insulate/identify-problems-you-want-fix/diy-checks-inspections/insulation-r-values",
+      "source_title": "Recommended Home Insulation R-Values | ENERGY STAR"
+    },
+    {
+      "claim": "Sealing and insulating savings and symptoms",
+      "detail": "Sealing and insulating can provide up to a 10% savings on annual energy bills; cold floors and drafts are named as problems to identify; projects include attic air sealing, basement and crawlspace work, and sealing behind window and door trim.",
+      "source_url": "https://www.energystar.gov/saveathome/seal_insulate",
+      "source_title": "Seal and Insulate with ENERGY STAR"
+    },
+    {
+      "claim": "Space heater fire risk",
+      "detail": "Keep anything that can burn at least 3 feet from all heat sources; turn space heaters off when leaving the room or going to bed. For 2017-2019, portable heater fires were 3% of annual home heating fires but 41% of fatal home heating fires.",
+      "source_url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/heating/",
+      "source_title": "Heating Fire Safety | U.S. Fire Administration"
+    },
+    {
+      "claim": "Mini-splits for rooms without good duct service",
+      "detail": "Suited to additions or outbuildings where extending ductwork or capacity is difficult, and homes or sections of homes without ductwork. ENERGY STAR mini splits use up to 60% less energy than standard electric radiators. Cold-climate certification tests heat pumps down to 5°F; pair with backup heat well below 5°F.",
+      "source_url": "https://www.energystar.gov/products/ductless_heating_cooling",
+      "source_title": "Ductless Heating & Cooling | ENERGY STAR"
+    }
+  ],
+  "real_questions": [
+    "Why is the bedroom cold only at night with the door closed?",
+    "Will a booster fan fix it?",
+    "Should I close vents in other rooms?",
+    "Is the room over the garage just badly insulated?",
+    "Is a mini-split worth it for one room?",
+    "Is running a space heater all winter safe?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "Three checks (feel the register; door open vs shut; feel floor/walls/ceiling and look where ducts run) mapped to cause and fix, with a transfer-grille sizing example using BASC's 1 sq in per cfm rule and ENERGY STAR floor and attic R-value table by zone."
+  },
+  "cautions": [
+    "Never use duct tape on ducts.",
+    "Space heaters: 3 feet clearance, off when leaving or sleeping.",
+    "Don't close registers elsewhere to force air.",
+    "No cost figures: none fetched."
+  ],
+  "sources": {
+    "https://www.energystar.gov/saveathome/heating-cooling/duct-sealing": "Duct Sealing | ENERGY STAR",
+    "https://basc.pnnl.gov/resource-guides/transfer-grilles": "Transfer Grilles | Building America Solution Center",
+    "https://basc.pnnl.gov/resource-guides/undercut-doors": "Undercut Doors | Building America Solution Center",
+    "https://basc.pnnl.gov/user/sales-worksheets/comfort-balanced-rooms": "Comfort Balanced Rooms | Building America Solution Center",
+    "https://www.energystar.gov/saveathome/seal_insulate/identify-problems-you-want-fix/diy-checks-inspections/insulation-r-values": "Recommended Home Insulation R-Values | ENERGY STAR",
+    "https://www.energystar.gov/saveathome/seal_insulate": "Seal and Insulate with ENERGY STAR",
+    "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/heating/": "Heating Fire Safety | U.S. Fire Administration",
+    "https://www.energystar.gov/products/ductless_heating_cooling": "Ductless Heating & Cooling | ENERGY STAR"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "reader_situation": "A homeowner walking across an older wood deck feels a few boards give underfoot while the rest feel solid, and wants to know whether it's a cheap board swap or a structural problem that makes the deck unsafe.",
+  "direct_answer": "A spongy spot means the wood there has stayed wet long enough to rot. Decay needs wood above its fiber saturation point (about 30% moisture), so it starts where water sits and can't dry: board ends, screw holes, debris-filled gaps, under planters, and along the house. By the time wood feels soft it has lost much of its strength, so the real question is whether the rot is in one deck board or in the joist, ledger, or post beneath it.",
+  "consensus": [
+    "Soft spots usually mean rot.",
+    "Probe with a screwdriver: rotten wood is soft and doesn't splinter.",
+    "One soft board can be replaced; soft joists or ledgers are structural.",
+    "The ledger (house connection) needs flashing and bolts, not nails.",
+    "Keep gaps between boards clear of debris."
+  ],
+  "gaps": [
+    "Why rot is spotty: the Forest Products Laboratory says serious decay occurs only when wood moisture is above the fiber saturation point (average 30%); air-dried wood at 20% or less won't decay, and existing decay stops progressing if the wood is kept dry. Rot maps where water sits.",
+    "Cut ends and fastener holes are the weak points: FPL says exposed end grain in joints and the area around fasteners and drill holes is more susceptible to moisture and needs on-site preservative (copper naphthenate, 1-2% copper) whenever treated wood is cut or drilled.",
+    "Soft wood is already badly weakened: FPL lab tests found toughness losses of 6% to over 50% by just 1% weight loss from decay; by 10% weight loss most strength losses exceed 50%, while decay is still detectable only microscopically. Wood with visible decay has greatly reduced strength.",
+    "Early decay signs: discoloration, abnormal mottling with unnatural brown or bleached areas, or a water-soaked look (FPL).",
+    "Decay is seasonal: slow below 50°F and above 95°F, essentially stopping at 35°F (FPL), so damage advances in warm, wet months.",
+    "Replacement lumber matters: above-ground (UC3B) treatment assumes enough air circulation for the wood to dry; ground-contact (UC4A) treatment is for above-ground parts that are critical, hard to replace, or face ground-contact-like wetness (WWPI). The AWC deck guide requires ground-contact lumber where wood touches the ground.",
+    "What a correct ledger looks like (AWC DCA 6): minimum 2x8 treated ledger, 1/2-inch lag screws or bolts with washers in a staggered pattern, corrosion-resistant flashing; attaching to brick or stone veneer, hollow masonry, cantilevered floor overhangs, or bay windows is prohibited; lead anchors are prohibited.",
+    "Decking rules (AWC DCA 6): 2-inch nominal lumber or span-rated decking, each piece bearing on at least 3 joists, boards spaced about 1/8 inch, fasteners hot-dip galvanized or stainless; posts at least 6x6; guards required on decks more than 30 inches above grade."
+  ],
+  "evidence": [
+    {
+      "claim": "Moisture threshold for decay",
+      "detail": "Serious decay occurs only when the moisture content of the wood is above the fiber saturation point (average 30%). Humid air alone will not wet wood enough for significant decay. Fully air-dried wood usually has a moisture content not exceeding 20% and provides a reasonable margin of safety; wood will not decay if kept air dry, and decay already present will not progress.",
+      "source_url": "https://research.fs.usda.gov/treesearch/37418",
+      "source_title": "Wood Handbook, Chapter 14: Biodeterioration of Wood (USDA Forest Products Laboratory)"
+    },
+    {
+      "claim": "Temperature range for decay",
+      "detail": "Decay is relatively slow at temperatures below 10°C (50°F) and above 35°C (95°F); it essentially ceases when temperature drops to 2°C (35°F) or rises to 38°C (100°F).",
+      "source_url": "https://research.fs.usda.gov/treesearch/37418",
+      "source_title": "Wood Handbook, Chapter 14: Biodeterioration of Wood (USDA Forest Products Laboratory)"
+    },
+    {
+      "claim": "Strength loss from early decay",
+      "detail": "Decay first affects toughness, then bending strength. In laboratory tests, losses in toughness ranged from 6% to more than 50% by the time 1% weight loss occurred; by 10% weight loss most strength losses exceed 50%. At such weight losses decay is detectable only microscopically. Wood with visually discernible decay has been greatly reduced in all strength values.",
+      "source_url": "https://research.fs.usda.gov/treesearch/37418",
+      "source_title": "Wood Handbook, Chapter 14: Biodeterioration of Wood (USDA Forest Products Laboratory)"
+    },
+    {
+      "claim": "Early decay appearance",
+      "detail": "Incipient decay is often accompanied by discoloration that can be hard to recognize; abnormal mottling with unnatural brown or bleached areas is often evidence of decay; some decay gives a somewhat water-soaked appearance.",
+      "source_url": "https://research.fs.usda.gov/treesearch/37418",
+      "source_title": "Wood Handbook, Chapter 14: Biodeterioration of Wood (USDA Forest Products Laboratory)"
+    },
+    {
+      "claim": "Cut ends and fastener holes need field treatment",
+      "detail": "When cutting treated wood is necessary, apply copper naphthenate (1% to 2% copper) to the cut surface. The exposed end grain in joints, which is more susceptible to moisture absorption, and the area around all fasteners, including drill holes, require supplemental on-site treatment.",
+      "source_url": "https://research.fs.usda.gov/treesearch/37417",
+      "source_title": "Wood Handbook, Chapter 15: Wood Preservation (USDA Forest Products Laboratory)"
+    },
+    {
+      "claim": "Above-ground vs ground-contact treatment",
+      "detail": "UC3B: exposed to all weather cycles including intermittent wetting, but with sufficient air circulation so wood can readily dry. UC4A: includes above ground applications with ground contact type hazards or that are critical or hard to replace; components difficult to maintain, repair or replace and critical to performance and safety.",
+      "source_url": "https://preservedwood.org/the-story/preservative-use-categories/",
+      "source_title": "Preservative Use Categories (Western Wood Preservers Institute)"
+    },
+    {
+      "claim": "Lumber treatment requirements in the deck guide",
+      "detail": "All lumber shall be naturally durable heartwood or preservative treated per AWPA standards; all lumber in contact with the ground shall be treated for ground contact [R317.1.2]; above ground UC3B, ground contact UC4A; all cuts field treated with an approved preservative such as copper naphthenate.",
+      "source_url": "https://web-media.awc.org/wp-content/uploads/2022/02/17210514/AWC-DCA62015-DeckGuide-1804.pdf",
+      "source_title": "Prescriptive Residential Wood Deck Construction Guide (DCA 6), American Wood Council"
+    },
+    {
+      "claim": "Decking requirements",
+      "detail": "Decking shall be dimension lumber (2-inch nominal) or span rated decking; attach to each joist with 2-8d threaded nails or 2-#8 screws; space boards approximately 1/8 inch apart; each segment must bear on a minimum of 3 joists. Fasteners and connectors in contact with treated wood: hot-dipped galvanized, stainless steel, silicon bronze, or copper.",
+      "source_url": "https://web-media.awc.org/wp-content/uploads/2022/02/17210514/AWC-DCA62015-DeckGuide-1804.pdf",
+      "source_title": "Prescriptive Residential Wood Deck Construction Guide (DCA 6), American Wood Council"
+    },
+    {
+      "claim": "Ledger attachment",
+      "detail": "Ledger minimum 2x8 pressure-preservative-treated No. 2 lumber; attach with 1/2-inch lag screws or bolts with washers; lag screws and bolts staggered; corrosion-resistant flashing required at any ledger connection to a wood-framed wall; ledgers flashed or caulked to keep water off the house band joist. Attachments to exterior veneers (brick, masonry, stone), hollow masonry, cantilevered floor overhangs or bay windows are prohibited. Lead anchors are prohibited.",
+      "source_url": "https://web-media.awc.org/wp-content/uploads/2022/02/17210514/AWC-DCA62015-DeckGuide-1804.pdf",
+      "source_title": "Prescriptive Residential Wood Deck Construction Guide (DCA 6), American Wood Council"
+    },
+    {
+      "claim": "Posts and guards",
+      "detail": "Minimum post size is 6x6 nominal. All decks greater than 30 inches above grade are required to have a guard [R312.1].",
+      "source_url": "https://web-media.awc.org/wp-content/uploads/2022/02/17210514/AWC-DCA62015-DeckGuide-1804.pdf",
+      "source_title": "Prescriptive Residential Wood Deck Construction Guide (DCA 6), American Wood Council"
+    }
+  ],
+  "real_questions": [
+    "Can I just screw down a spongy board?",
+    "How do I tell if the joist is rotten too?",
+    "Is a spongy deck dangerous?",
+    "Why only some spots?",
+    "What lumber should I use for replacement joists?",
+    "Can I sister a rotten joist?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "Where the soft spot is (mid-board, seam or screws, row of boards, along the house, near post or stairs, whole deck) mapped to likely failed member, what to check, DIY vs pro; plus a 'what correct looks like' ledger and replacement-material checklist from DCA 6, WWPI and FPL."
+  },
+  "cautions": [
+    "Soft ledger, posts, stairs or guards: keep people and heavy loads off and get a pro.",
+    "Call 811 before digging new post footings (registry).",
+    "No cost figures: none verified.",
+    "Wear eye protection when prying boards (general)."
+  ],
+  "sources": {
+    "https://research.fs.usda.gov/treesearch/37418": "Wood Handbook, Chapter 14: Biodeterioration of Wood (USDA Forest Products Laboratory)",
+    "https://research.fs.usda.gov/treesearch/37417": "Wood Handbook, Chapter 15: Wood Preservation (USDA Forest Products Laboratory)",
+    "https://preservedwood.org/the-story/preservative-use-categories/": "Preservative Use Categories (Western Wood Preservers Institute)",
+    "https://web-media.awc.org/wp-content/uploads/2022/02/17210514/AWC-DCA62015-DeckGuide-1804.pdf": "Prescriptive Residential Wood Deck Construction Guide (DCA 6), American Wood Council"
+  }
+}

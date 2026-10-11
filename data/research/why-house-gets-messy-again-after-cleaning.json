@@ -1,0 +1,111 @@
+{
+  "reader_situation": "Someone who just spent a weekend afternoon cleaning watches the counters, chairs, and entryway fill back up within a couple of days and wonders whether they are doing it wrong or just need to clean more.",
+  "direct_answer": "Cleaning resets the surfaces but not the flow. Mail, purchases, laundry, and the day's things keep arriving every day, and if they have no home, no room in storage, or no short daily put-away, they land on the same open surfaces. The fix is matching the gap (no home, too much stuff, too much inflow, or batch-only cleaning) to its own remedy.",
+  "consensus": [
+    "Give everything a designated home.",
+    "Declutter before buying organizers.",
+    "Do short regular tidy-ups instead of rare deep cleans.",
+    "Start small, such as one drawer.",
+    "Clutter is linked to stress."
+  ],
+  "gaps": [
+    "Most people clean in batches, not daily: the 2025 American Time Use Survey shows only 23.4% of people do any interior cleaning on an average day, and the average across everyone is 0.33 hours. Dividing the two gives roughly 85 minutes among those who clean that day, which is a batch pattern, not a daily reset.",
+    "Time is not the main shortage. UGA Extension's 10-15 minutes a day adds up to 70-105 minutes a week, about the same as one batch session, but it never lets the mess get a two-day head start.",
+    "Inflow can be cut, not only tidied: the FTC lists OptOutPrescreen.com (5-year or permanent opt-out of prescreened credit and insurance offers) and DMAchoice ($6 online for 10 years; stops most but not all promotional mail).",
+    "Paper outflow needs a rule: the IRS says to keep tax records 3 years in general, 6 years if income was underreported by more than 25%, 7 years for worthless securities or bad debt claims, and property records until the limitation period ends for the year you dispose of it.",
+    "Who does the resetting matters: on an average day 31.0% of women and 15.5% of men do interior cleaning (BLS 2025). NC State Extension says to share storage systems with the family because people follow expectations they know; the AAP lists putting toys away, dirty clothes in the hamper, and bringing in the mail as chores for ages 5-7.",
+    "A new reset routine takes weeks to feel automatic: UCL researchers found an average of 66 days, ranging from 18 to 254 days, and habits form through repetition in the same situation.",
+    "Some clutter is not a system problem: the International OCD Foundation says rooms at picture #4 or higher on its Clutter Image Rating reflect an impact on everyday life and may warrant a hoarding-disorder evaluation."
+  ],
+  "evidence": [
+    {
+      "claim": "Average time spent on interior cleaning per day",
+      "detail": "2025 annual averages, persons 15+: interior cleaning 0.33 hours/day total, 0.20 men, 0.45 women; laundry 0.17 total; food preparation and cleanup 0.71 total; all household activities 1.99 total (1.58 men, 2.38 women).",
+      "source_url": "https://www.bls.gov/charts/american-time-use/activity-by-hldh.htm",
+      "source_title": "Average hours per day spent in selected household activities (BLS American Time Use Survey)"
+    },
+    {
+      "claim": "Share of people doing interior cleaning on an average day",
+      "detail": "2025 annual averages: interior cleaning 23.4% total, 15.5% men, 31.0% women; laundry 16.3% total (8.4% men, 23.9% women); food preparation and cleanup 65.2%.",
+      "source_url": "https://www.bls.gov/charts/american-time-use/activity-by-hldp.htm",
+      "source_title": "Percent of the population engaging in selected household activities, averages per day by sex (BLS American Time Use Survey)"
+    },
+    {
+      "claim": "A collection basket and shared systems",
+      "detail": "Carry around a small basket to collect items that do not have a home or are not in the proper place; review whether storage systems work and share them with the family: 'If everyone knows the expectation, they are more likely to follow through.' Start with one drawer, one stack of papers or one rack in your closet.",
+      "source_url": "https://burke.ces.ncsu.edu/take-back-your-space",
+      "source_title": "Take Back Your Space (N.C. Cooperative Extension, Burke County Center)"
+    },
+    {
+      "claim": "Daily time budget, container method, one-in-one-out",
+      "detail": "Dedicate 10-15 minutes a day or a specific time weekly and use a timer; container method: give each category a fixed space and keep only what fits; one thing in, one thing out; hanger test over a year; remove donated or discarded items from the home promptly; start with duplicates or unused items before sentimental ones.",
+      "source_url": "https://fieldreport.caes.uga.edu/features/expert-decluttering-strategies/",
+      "source_title": "Cut the Clutter (UGA CAES Field Report)"
+    },
+    {
+      "claim": "Stopping prescreened credit and insurance offers",
+      "detail": "Opt out for five years or permanently at optoutprescreen.com or 1-888-5-OPT-OUT (1-888-567-8688); the permanent opt-out requires signing and returning a Permanent Opt-Out Election form.",
+      "source_url": "https://consumer.ftc.gov/articles/how-stop-junk-mail",
+      "source_title": "How To Stop Junk Mail (FTC Consumer Advice)"
+    },
+    {
+      "claim": "DMAchoice for marketing mail",
+      "detail": "Online registration has a $6 processing fee and lasts 10 years; by mail, a $7 check or money order; 'DMAchoice will stop most, but not all, promotional mail.'",
+      "source_url": "https://consumer.ftc.gov/articles/how-stop-junk-mail",
+      "source_title": "How To Stop Junk Mail (FTC Consumer Advice)"
+    },
+    {
+      "claim": "How long to keep tax records",
+      "detail": "Keep records 3 years in general; 6 years if you do not report income that exceeds 25% of gross income shown; 7 years if you claim a loss from worthless securities or bad debt deduction; indefinitely if you do not file or file fraudulently; property records until the period of limitations expires for the year you dispose of the property.",
+      "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records",
+      "source_title": "How long should I keep records? (IRS)"
+    },
+    {
+      "claim": "How long habit formation takes",
+      "detail": "In a study of daily health behaviours tracked over 84 days, it took on average 66 days for the habit to form; one person took 18 days and another was forecast to take 254 days. Habits form through context-dependent repetition: doing the behaviour consistently in a given situation.",
+      "source_url": "https://blogs.ucl.ac.uk/bsh/2012/06/29",
+      "source_title": "Busting the 21 days habit formation myth (UCL Health Behaviour Research Centre blog)"
+    },
+    {
+      "claim": "Age-appropriate chores",
+      "detail": "Ages 5-7: make beds, set and clear the table, dust, put toys away, neaten bookshelves, put dirty clothes in a hamper, empty wastebaskets, sort laundry, bring in mail. Ages 8-10: add vacuuming, putting away their own laundry and groceries. Have chores done at the same time each day; spell out tasks; introduce one new task at a time; praise effort, not outcome.",
+      "source_url": "https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/Chores-and-Responsibility.aspx",
+      "source_title": "Age-Appropriate Chores for Children (HealthyChildren.org, American Academy of Pediatrics)"
+    },
+    {
+      "claim": "When clutter points to hoarding disorder",
+      "detail": "Rooms or homes at the level of picture #4 or higher on the Clutter Image Rating reflect a level of impact on everyday life and may qualify for a hoarding disorder diagnosis. Indicators include trouble discarding, clutter that blocks use of furniture or movement, frequently losing bills or money, feeling overwhelmed, avoiding guests from shame.",
+      "source_url": "https://hoarding.iocdf.org/about-hoarding/do-i-have-hoarding-disorder/",
+      "source_title": "Do I Have Hoarding Disorder? (International OCD Foundation)"
+    }
+  ],
+  "real_questions": [
+    "Is it normal for the house to be messy again two days after a deep clean?",
+    "Should I clean a little every day or do one big clean a week?",
+    "Why am I the only one who puts things away?",
+    "Do I declutter before I organize?",
+    "How do I stop the mail pile on the counter?",
+    "When is it more than messiness?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "A where-it-lands diagnostic table (same few spots / storage full / paper pile / everywhere after a few days / one person resets) mapped to the gap and the first fix, plus a worked time example: 0.33 h / 0.234 = about 85 minutes per cleaning day (BLS 2025) vs 7 x 10-15 min = 70-105 minutes a week (UGA)."
+  },
+  "cautions": [
+    "Do not present the 66-day figure as a rule; the UCL authors say the range is wide.",
+    "The Clutter Image Rating is a screening guide, not a diagnosis; point to professional help without labeling readers.",
+    "Shred, do not trash, papers with account numbers (general advice; no number claimed).",
+    "No product cost claims for bins or hooks; no source supports them."
+  ],
+  "sources": {
+    "https://www.bls.gov/charts/american-time-use/activity-by-hldh.htm": "Average hours per day spent in selected household activities (BLS American Time Use Survey)",
+    "https://www.bls.gov/charts/american-time-use/activity-by-hldp.htm": "Percent of the population engaging in selected household activities, averages per day by sex (BLS American Time Use Survey)",
+    "https://burke.ces.ncsu.edu/take-back-your-space": "Take Back Your Space (N.C. Cooperative Extension, Burke County Center)",
+    "https://fieldreport.caes.uga.edu/features/expert-decluttering-strategies/": "Cut the Clutter (UGA CAES Field Report)",
+    "https://consumer.ftc.gov/articles/how-stop-junk-mail": "How To Stop Junk Mail (FTC Consumer Advice)",
+    "https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records": "How long should I keep records? (IRS)",
+    "https://blogs.ucl.ac.uk/bsh/2012/06/29": "Busting the 21 days habit formation myth (UCL Health Behaviour Research Centre blog)",
+    "https://www.healthychildren.org/English/family-life/family-dynamics/communication-discipline/Pages/Chores-and-Responsibility.aspx": "Age-Appropriate Chores for Children (HealthyChildren.org, American Academy of Pediatrics)",
+    "https://hoarding.iocdf.org/about-hoarding/do-i-have-hoarding-disorder/": "Do I Have Hoarding Disorder? (International OCD Foundation)"
+  }
+}

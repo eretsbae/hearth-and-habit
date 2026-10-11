@@ -2,9 +2,9 @@
 title: 'How Much Does Phantom Power Really Cost? Standby Watts and Dollars by Device'
 slug: phantom-power-idle-electronics-cost
 date: '2026-07-13'
-updated: '2026-09-29'
-description: Each watt of standby draw costs about $1.50 a year at 17¢/kWh. See typical
-  phantom-power watts and yearly dollars by device, and which are worth unplugging.
+updated: '2026-10-11'
+description: Each always-on watt costs about $1.50 a year at 17¢/kWh. Measured standby
+  watts and dollars by device from Berkeley Lab, and where the real idle load hides.
 tags:
 - energy savings
 - electric bill
@@ -16,122 +16,152 @@ hero_alt: Living room at night with a TV standby light, a game console, and a ro
   glowing, and dollar signs drifting up from wall outlets
 pin_hooks:
 - Each always-on watt costs about $1.50 a year at 17¢/kWh
-- A DVR box in standby can cost $22–$45 a year
+- 'Cable boxes: a median 8 W in standby, about $12 a year'
+enriched: '2026-10-11'
 ---
 
-Phantom power costs about $1.50 a year for every watt a device draws around the clock (at the U.S. average of roughly 17¢ per kWh) — so a phone charger with nothing attached costs well under a dollar a year, while a DVR box and a game console left in rest mode can run about $37–$67 a year together.
+Phantom power costs about $1.50 a year for every watt a device draws around the clock, at a typical 17¢ per kWh. Most gadgets draw a watt or two in standby. A cable box draws a median 8 W, about $12 a year, and the worst devices measured reach 20 to 30 W.
 
-Turn off every light in your house and walk through it at night. The soft glow you still see — a cable box, a console, a microwave clock — is phantom power (also called standby or "vampire" power): electricity drawn by devices that are "off" but never fully stop pulling from the outlet. Most homes have a few dozen of them, and standby use is commonly estimated at roughly 5–10% of household electricity. It's a different problem from the habits in [how to cut your electric bill without buying anything](https://www.hearth-habit.com/2026/07/how-to-cut-your-electric-bill-without.html), because this waste happens whether you're home or not.
+That's per device. Across a whole house, the Natural Resources Defense Council (NRDC) found always-on idle load averaging 164 watts in 70,000 California homes. That was nearly a quarter of their electricity use, and most of it wasn't the chargers people usually unplug. Below are measured standby watts by device, the dollar math, and where the big idle loads usually hide.
 
-## The Math: What One Watt Costs
+## The math: what one always-on watt costs
 
-A device that draws 1 watt all day, every day, uses 1 × 24 hours × 365 days = 8,760 watt-hours — about **8.8 kWh a year**. At 17¢ per kWh, that's about **$1.50 a year per always-on watt**.
+The Department of Energy's formula is **watts × hours ÷ 1,000 × price per kWh.** For a device that never turns fully off:
 
-The general formula, from the U.S. Department of Energy, is: **watts × hours used ÷ 1,000 × your price per kWh.** Residential rates run from about 11¢ to over 40¢ depending on your state, so plug in the price from your own bill: at 30¢ per kWh, each always-on watt costs about $2.60 a year.
+- 1 W × 8,760 hours a year ÷ 1,000 = **8.76 kWh a year**
+- 8.76 kWh × $0.17 = **about $1.50 a year**
 
-## Typical Standby Watts and Yearly Cost by Device
+Lawrence Berkeley National Laboratory (Berkeley Lab), which runs a long-standing standby-power research site, rounds the same figure to 9 kWh per watt per year. Its example: a 5 W device uses about 45 kWh a year.
 
-These are typical ranges — your specific model may draw more or less, which is why measuring (below) beats guessing. Yearly figures assume the device sits in standby 24/7 at 17¢ per kWh.
+US residential rates run from about 11¢ to over 40¢ per kWh by state, so use the rate on your bill. At 30¢, each always-on watt costs 8.76 × 0.30 = about $2.60 a year.
 
-![Bar chart of typical standby watts, from DVR boxes at 15–30 W to idle chargers under 0.5 W; each always-on watt costs about $1.50 a year](/images/phantom-power-idle-electronics-cost-diagram.svg)
+## Measured standby watts and yearly cost by device
 
-| Device (in standby) | Typical standby draw | kWh per year | Cost per year |
-|---|---|---|---|
-| Cable/satellite DVR box | 15–30 W | 131–263 | $22–$45 |
-| Game console in instant-on/rest mode | 10–15 W | 88–131 | $15–$22 |
-| Game console fully powered off | about 1 W | about 9 | about $1.50 |
-| Soundbar or AV receiver | 2–10 W | 18–88 | $3–$15 |
-| Desktop PC asleep | 2–5 W | 18–44 | $3–$7.50 |
-| Microwave or coffee-maker clock | 1–5 W | 9–44 | $1.50–$7.50 |
-| Modern TV in standby | 0.5–3 W | 4–26 | $0.75–$4.50 |
-| Phone charger, nothing attached | under 0.5 W | under 4.4 | under $0.75 |
+Berkeley Lab publishes a table of measured standby power by product type, compiled from published research and lab measurements. Here are its medians (half of the products measured drew less, half more) and its highest readings, converted to dollars at 17¢. Each cost is watts × 8.76 × 0.17.
 
-**Key takeaway:** a handful of devices — DVR boxes, consoles in rest mode, and AV gear — account for most of the phantom-power bill. Chargers and a single TV's standby light are pocket change.
+| Device (in standby) | Median watts | Median cost/yr | Highest measured | Highest cost/yr |
+|---|---|---|---|---|
+| Cable/satellite set-top box | 8 W | about $12 | 30 W | about $45 |
+| Game console | 1.7 W | about $2.50 | 24.5 W | about $36 |
+| Television | 0.95 W | about $1.40 | 23.8 W | about $35 |
+| Home theater speakers | 3 W | about $4.50 | 12 W | about $18 |
+| Modem/router ("internet access") | 3.3 W | about $5 | 8 W | about $12 |
+| Desktop computer | 2.7 W | about $4 | 15 W | about $22 |
+| Printer | 2.6 W | about $3.90 | 9.1 W | about $13.50 |
+| Streaming player | 1.9 W | about $2.80 | 2.7 W | about $4 |
+| Microwave | 1.5 W | about $2.20 | 7 W | about $10.40 |
+| Coffee maker | 0.95 W | about $1.40 | 5.4 W | about $8 |
+| Phone/electronics charger, nothing attached | 0.52 W | under $1 | 1.9 W | about $2.80 |
+| Smart plug (itself) | 0.25 W | under $0.40 | 1.43 W | about $2.10 |
 
-## How to Measure Your Own Devices
+![Bar chart of median standby watts from Berkeley Lab: set-top box 8 W, modem/router 3.3 W, desktop 2.7 W, game console 1.7 W, TV 0.95 W, charger 0.52 W](/images/phantom-power-idle-electronics-cost-diagram.svg)
 
-A plug-in watt meter (about $15–$30) settles it. Plug the meter into the wall and the device into the meter, then:
+Two things stand out.
 
-1. Put the device in its normal "off" or standby state and read the watts after a minute or two.
-2. For gear that wakes up on its own (DVRs recording, consoles downloading updates), leave the meter in place for 24 hours and read the kWh total instead. Multiply by 365 for a yearly figure.
-3. Multiply kWh by your rate to get dollars.
+**The typical device is cheap; the outliers aren't.** A median TV costs about $1.40 a year in standby, but the worst one in the table costs 25 times that. The same model category can be a rounding error in one house and a real cost in another. That's why measuring beats any chart, including this one.
 
-Don't use the wattage printed on the label — that's the maximum draw, not what the device uses while idle. For a whole-house view, many smart-meter utilities show hourly usage: the 2–4 a.m. baseline is roughly your always-on load, a trick also covered in [why an electric bill doubles with no change in usage](https://www.hearth-habit.com/2026/08/why-did-my-electric-bill-double-with-no.html).
+**Set-top boxes are the clearest target.** Their median is the highest of the common electronics. NRDC also found that a cable or satellite box draws nearly as much power in the middle of the night as when it's recording or playing a show. In NRDC's home audits, one house had two boxes drawing 16 W together and another had three drawing 57 W. At 17¢, 57 × 8.76 × 0.17 = about $85 a year.
 
-## Why Phantom Power Happens in the First Place
+## Game consoles: the setting matters more than the model
 
-**Anything with a remote control, a clock, a light, or a "quick start" feature is drawing power even when off.** These devices stay in a low-power standby mode so they can respond instantly — a TV listening for the remote, a microwave keeping its clock, a game console ready to update overnight. It's built in by design, not a defect.
+NRDC tested three consoles in 2014. In "connected standby," the mode that lets a console wake by voice or update itself, they measured:
 
-The other source is anything with an external power adapter — the brick-style plugs on laptop chargers, routers, and speakers. Many draw a small amount just by being plugged in, even with nothing connected.
+| Console (2014 tests) | Connected standby | Yearly cost of standby alone at 17¢ |
+|---|---|---|
+| Xbox One | 15.7 W | 15.7 × 8.76 × 0.17 = about $23 |
+| PS4 | 8.5 W | about $12.70 |
+| Wii U | 0.4 W | about $0.60 |
 
-## The Living Room and Entertainment Center
+Nearly half of the Xbox One's yearly energy went to that standby mode, waiting to hear "Xbox on." NRDC also found the new consoles used more energy in a year streaming video and sitting in standby than playing games.
 
-- **Cable or satellite box.** Often the single worst offender in the house, especially DVR models, which draw nearly as much "off" as "on." Because a DVR has to stay live to record, a timer plug isn't ideal — but ask your provider whether a newer, lower-power box or a non-DVR box for secondary TVs is available.
-- **Game consoles.** Rest or instant-on mode typically draws ten or more times what a full power-off does. Switching the setting in the console's power menu is the single easiest fix on this list.
-- **TVs and soundbars.** Modern TV standby is usually small; soundbars and AV receivers vary more widely, so they're worth measuring.
-- **Streaming sticks and smart speakers.** Small individually, but people often own three or four, and they never really sleep.
+Today's consoles differ from those 2014 models. Still, the low Berkeley Lab median (1.7 W) next to its high (24.5 W) says the same thing: check your console's power settings. An energy-saving or full-off mode instead of an instant-on or rest mode is a menu change, not a purchase.
 
-A power strip with a physical switch is the simplest fix here: plug the TV, soundbar, console, and streaming stick into one strip and flip it off at night. Keep the DVR box on its own outlet.
+## The bigger picture: whole-house idle load
 
-## The Kitchen
+Berkeley Lab says standby is typically 5–10% of home electricity in developed countries. NRDC measured something broader. It counted "idle load," meaning everything drawing power while nobody is using it: standby, sleep mode, and devices simply left on.
 
-- **Microwave.** The clock and keypad draw power continuously. Short of unplugging it between uses, which most people won't do, it's a small, accepted cost.
-- **Coffee maker with a clock or programmable timer.** If you don't use the programmed start, unplug it after use or put it on a switched outlet.
-- **Toaster oven, air fryer, or multicooker with a digital display.** Anything with a lit screen or touch panel draws power at all hours, not just while cooking.
-- **Dishwasher and range with electronic controls.** These typically draw little in standby. Many dishwashers and ranges plug into an outlet behind or under the unit while others are hardwired, but either way the plug is hard to reach and the savings are small — leave these alone.
+In 70,000 northern California homes, that idle load averaged **164 watts**, about **1,300 kWh a year** and **nearly 23%** of the homes' electricity. Homes in the audit had an average of 65 devices plugged in or wired in, and 43 of them drew more than 1 W while idle.
 
-**A good rule of thumb:** if it has a digital clock or display and you don't rely on that clock, it's a candidate for unplugging.
+### Worked example: what 1,300 kWh costs
 
-## The Home Office
+NRDC priced it at the national average rate it used, 12.5¢:
 
-- **Desktop computer and monitor.** Sleep mode still draws a few watts, more on older desktops. A full shutdown draws less, and modern computers start fast enough that the trade-off is small.
-- **Router and modem.** These need to stay on for internet access — one of the few devices that legitimately should run continuously.
-- **Printer.** Many sit in standby for weeks between uses. A switched power strip is an easy fix.
-- **Chargers left plugged in with nothing attached.** Modern chargers draw very little — under half a watt — so unplugging them is tidy but saves well under a dollar a year each.
+- 1,300 kWh × $0.125 = **about $165 a year**
 
-## The Bedroom and Bathroom
+At today's typical 17¢:
 
-- **Box fans, humidifiers, and space heaters with digital controls.** Anything seasonal that sits plugged in year-round after its season has passed is pure waste. Unplug it when you put it away — a good line to add to a [seasonal home maintenance checklist](https://www.hearth-habit.com/2026/07/10-home-maintenance-tasks-most-people.html).
-- **Electric toothbrush chargers and hair tools with standby lights.** Small draws, but the base often stays plugged in permanently for two minutes of daily use.
+- 1,300 kWh × $0.17 = **about $221 a year**
 
-## The Laundry Room and Garage
+NRDC says the cost could reach $440 a year for homes paying a utility's highest tier rate.
 
-- **Washer and dryer with electronic displays.** A small standby draw that's part of normal operation and not worth fighting.
-- **Garage door opener.** Needs to stay powered to work, so leave it be.
-- **Chargers for power tools, e-bikes, or lawn equipment.** Some keep drawing power after the battery is full. Unplugging once charging is done saves a little and is generally easier on the battery.
+### Where the big idle loads hide
 
-## How to Prioritize: Start With the Big Ones
+The surprise in NRDC's audit was which devices led the list. Average idle draw per device:
 
-Not every phantom load is worth chasing. The bigger returns come from:
+| Device | Average idle load | Cost/yr at 17¢ if it runs all year |
+|---|---|---|
+| Fishpond equipment | 110 W | about $164 |
+| Fans left running | 110 W | about $164 |
+| Hot-water recirculation pump | 70 W | about $104 |
+| Lights left on 24/7 | 27 W | about $40 |
+| Aquarium equipment | 19 W | about $28 |
+| Set-top boxes | 16 W | about $24 |
+| TVs | 13 W | about $19 |
+| Modems | 11 W | about $16 |
 
-1. **DVR and cable boxes** — often the largest single standby draw in a house.
-2. **Game consoles left in instant-on mode** — an easy settings change with a real impact.
-3. **AV receivers, soundbars, and rarely used gear with power bricks** — printers, spare monitors, extra speakers.
-4. **Seasonal devices left plugged in year-round** — space heaters, fans, holiday lighting transformers.
+These are averages from 10 audited homes, and they include older equipment. Consumer electronics as a group were still the biggest category, 51% of always-on use. But a single pump or fan that runs day and night can outweigh every charger and clock in the house. Berkeley Lab's advice for recirculation pumps is to put them on a timer so they run only at the times you need hot water fast.
 
-A switched power strip on these categories captures most of the realistic savings without unplugging your microwave clock every night. For perspective on the truly big loads — heating, cooling, and water heating — see [what uses the most electricity in a house](https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html).
+## How to find your own numbers
 
-The point isn't to unplug your whole house every night. It's to notice which devices are drawing power for no reason, give the biggest ones an easy off-switch, and let the small stuff go.
+**Device by device.** Plug a watt meter into the wall and the device into the meter, put the device in its normal "off" state, and read the watts. For gear that wakes on its own, like a DVR or a console downloading updates, leave the meter in for a day and read the kWh. Multiply by 365, then by your rate.
+
+Berkeley Lab notes that most consumer meters can't safely measure more than about 1,300 watts, so don't use one on a space heater or other big heating appliance. Some smart plugs and power strips now measure energy too.
+
+**Whole house.** If your utility has a smart meter, look at hourly usage in the early morning, when the fridge compressor may be off. Berkeley Lab says that low point approximates your standby. It can run high if a light, fan, or pump is on that you've forgotten about, and those are exactly the loads NRDC found at the top of its list. The same check helps when [a bill doubles with no change in usage](https://www.hearth-habit.com/2026/08/why-did-my-electric-bill-double-with-no.html).
+
+The wattage printed on a label is the maximum draw, not what the device uses while idle.
+
+## What to switch off, in order
+
+1. **Anything running 24/7 that doesn't need to:** a fan, a recirculation pump without a timer, lights left on. One of these can outweigh all your electronics.
+2. **Set-top boxes you rarely use**, such as a second box in a guest room. NRDC suggests unplugging rarely used TVs and boxes in guest rooms.
+3. **Console power settings.** Switch from an instant-on or rest mode to energy-saving or full off.
+4. **Clusters of AV or computer gear** on one switchable power strip. Berkeley Lab suggests a strip when you can control many devices from one spot.
+5. **Old, rarely used appliances.** Berkeley Lab ranks these as the highest priority to unplug, plus seasonal gear in its off-season. New products can use as much as 90% less standby power than the ones they replace.
+
+Skip the chargers unless it's convenient. At a median 0.52 W, a charger with nothing attached costs well under a dollar a year.
+
+Leave these on:
+
+- routers and modems, if you want internet
+- a DVR that's set to record
+- smoke and CO alarms
+- the furnace
+- medical equipment
+
+Berkeley Lab also warns not to plug and unplug devices with worn cords.
+
+For perspective on the truly big loads, see [which appliance uses the most electricity in a house](https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html). For habits that cost nothing, see [how to cut your electric bill without buying anything](https://www.hearth-habit.com/2026/07/how-to-cut-your-electric-bill-without.html).
 
 ## FAQ
 
-### Will unplugging everything actually show up on my electric bill?
+### Will this show up on my bill?
 
-One device, no. But cutting about 40 watts of always-on load — say, switching a console from rest mode to full power-off and returning a rarely used second DVR box to your provider — saves about 350 kWh, or roughly $60 a year at 17¢ per kWh. That's noticeable over a year, not in a single month.
+Unplugging one charger won't. Cutting a real always-on load will. Turning off a 57 W trio of set-top boxes saves about 500 kWh a year (57 × 8.76), about $85 at 17¢. Halving NRDC's average 1,300 kWh idle load would save about 650 kWh, or roughly $110 a year at 17¢.
 
-### Are smart plugs worth buying for this?
+### Are smart plugs worth it?
 
-For devices you want to fully cut off on a schedule — printers, TVs, game consoles — yes, they're a reasonable low-cost tool. Keep in mind a smart plug draws a little standby power itself, so use it on devices that draw more than it does. Avoid using them on anything that needs to stay live, like routers, DVR boxes, or the fridge.
+They help on devices you want fully off on a schedule, like a printer, a TV and soundbar cluster, or a console. Berkeley Lab's median for a smart plug's own standby is 0.25 W, with a high of about 1.4 W. Use one only on a device that draws more than the plug does.
 
-### Is phantom power worse with older electronics?
+### Is it bad for electronics to cut power at the wall?
 
-Generally yes. Newer devices are typically built to stricter standby-efficiency standards, so replacing a very old cable box, printer, or game console can reduce standby draw even before you unplug anything.
-
-### Does turning things off at the wall damage them?
-
-No, for the vast majority of consumer electronics. The main exception is anything mid-update or a DVR mid-recording — check before you cut power to those.
+For most consumer electronics, cutting power at the strip is how a switched outlet is meant to be used. Wait until updates or recordings have finished, and expect clocks to reset. Berkeley Lab's advice is to think before you unplug something, then watch what happens when you do.
 
 ## Sources
 
-- [Estimating Appliance and Home Electronic Energy Use — DOE Energy Saver](https://www.energy.gov/energysaver/estimating-appliance-and-home-electronic-energy-use) — the watts × hours ÷ 1,000 × rate formula and watt meters
-- [Average Price of Electricity to Ultimate Customers — EIA](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a) — the roughly 17–18¢ per kWh U.S. residential average
+- [Products that Use Standby Power | Lawrence Berkeley National Laboratory](https://standby.lbl.gov/standby-power-data-metering) — measured standby medians and maximums by device type
+- [Standby Power FAQ](https://standby.lbl.gov/frequently-asked-questions), [What Can I Unplug Now?](https://standby.lbl.gov/what-can-i-unplug-now) and [Meters to Measure Standby](https://standby.lbl.gov/meters-to-measure-standby-power) | Berkeley Lab — 9 kWh per watt-year, 5–10% share, what to unplug first, meter limits, smart-meter check
+- [Home Idle Load | NRDC](https://www.nrdc.org/sites/default/files/home-idle-load-IP.pdf) — 164 W average idle load, 1,300 kWh and 23%, $165 a year, top idle devices, set-top boxes at night
+- [The Latest-Generation Video Game Consoles | NRDC](https://www.nrdc.org/sites/default/files/video-game-consoles-IP.pdf) — connected-standby watts for Xbox One, PS4, and Wii U
+- [Estimating Appliance and Home Electronic Energy Use | DOE Energy Saver](https://www.energy.gov/energysaver/estimating-appliance-and-home-electronic-energy-use) — the watts × hours ÷ 1,000 × rate formula
+- [Average Price of Electricity to Ultimate Customers | EIA](https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a) — the roughly 17¢ per kWh US residential average and state range

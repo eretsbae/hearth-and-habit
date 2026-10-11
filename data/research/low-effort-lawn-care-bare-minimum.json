@@ -1,0 +1,116 @@
+{
+  "reader_situation": "Homeowners and renters in the US or Canada who have a lawn they don't care about but don't want it to look neglected. They want the shortest list of jobs that keeps it presentable, and the exact settings so they only have to decide once.",
+  "direct_answer": "Mow high (about 3 to 4 inches for northern tall fescue and bluegrass lawns, species-specific heights for southern grasses) and never take off more than a third of the blade, leave the clippings, and fertilize once in the right season: around Labor Day for cool-season lawns, after full spring green-up for warm-season lawns. A healthy lawn can go brown and dormant in summer without watering.",
+  "consensus": [
+    "Mow high and follow the one-third rule.",
+    "Leave grass clippings on the lawn.",
+    "Cool-season lawns are fed in fall; warm-season lawns in late spring and summer.",
+    "Brown summer grass is usually dormant, not dead.",
+    "Thick grass is the best long-term weed control.",
+    "Mow based on growth, not the calendar."
+  ],
+  "gaps": [
+    "Mowing height depends on the species, and warm-season grasses differ widely: Clemson lists common bermudagrass and zoysiagrass at 1 to 2 inches, centipedegrass at 1.5 to 2 inches, and St. Augustinegrass at 2.5 to 4 inches. The old article's 2 to 2.5 inches for bermuda and zoysia sits above Clemson's range.",
+    "The one-third rule gives a concrete trigger: grass may grow to 1.5 times the mower setting before the next cut (3 inches set means mow before 4.5 inches). Clemson's own example: keep centipede at 2 inches by mowing when it reaches about 3 inches.",
+    "Clippings are a small fertilizer dose: Clemson puts them at about 4% nitrogen, roughly a 4-1-3 fertilizer, and Wisconsin Extension says leaving them can save up to one fertilizer application a year.",
+    "A single cool-season feeding has a rate and a date: Wisconsin Extension says around Labor Day into early September, no more than 1 lb of actual nitrogen per 1,000 sq ft per application (half that in shade), with 25-50% slow-release nitrogen.",
+    "Product amount is arithmetic, not guesswork: Clemson's formula divides the nitrogen wanted by the label's nitrogen percentage (1 lb N from a 16-4-8 product = 6.25 lb per 1,000 sq ft). Clemson's per-application rate for low-maintenance lawns is half a pound of N.",
+    "Warm-season start date has a signal: Clemson says green-up begins when the soil at 4 inches reaches 65°F and to wait for nights around 70°F; centipede is hurt by too much nitrogen (no more than 2 lb N per 1,000 sq ft per year).",
+    "Dormancy has a time limit: a healthy Kentucky bluegrass lawn should survive at least 6 weeks without rain or irrigation; beyond that, about 1/4 inch of water every 2 weeks keeps it alive without waking it (University of Illinois). Purdue adds: limit traffic on dormant turf.",
+    "The old '1 inch of water a week' and '7 to 14 days between mows' figures have no source here; Wisconsin Extension says mowing may be more than once a week in a cool, wet spring and every 2 weeks or longer in dry summer weather."
+  ],
+  "evidence": [
+    {
+      "claim": "Warm-season and cool-season mowing heights",
+      "detail": "Clemson Table 1: tall fescue winter 2-3 in., summer 3-3.5 in.; common bermudagrass 1-2 in.; centipedegrass 1.5-2 in.; St. Augustinegrass 2.5-4 in.; zoysiagrass 1-2 in. Most rotary mowers cannot give a quality cut lower than 1 inch on most turfgrasses.",
+      "source_url": "https://hgic.clemson.edu/factsheet/mowing-lawns/",
+      "source_title": "Mowing Lawns (HGIC 1205) | Clemson Cooperative Extension"
+    },
+    {
+      "claim": "One-third rule with an example, and what breaking it does",
+      "detail": "Remove no more than one-third of the grass height at any one mowing; e.g. keep centipedegrass at 2 inches by mowing when it reaches about 3 inches. Removing more can stop root growth, and the lawn then needs frequent watering in dry summers. If grass gets too tall, raise the cutting height and lower it gradually.",
+      "source_url": "https://hgic.clemson.edu/factsheet/mowing-lawns/",
+      "source_title": "Mowing Lawns (HGIC 1205) | Clemson Cooperative Extension"
+    },
+    {
+      "claim": "Clipping nutrient value and dull blades",
+      "detail": "Clippings contain about 4 percent nitrogen, 0.5 to 1 percent phosphorus and 2 to 3 percent potassium, roughly a 4-1-3 fertilizer. A dull blade browns leaf tips and gives the lawn a brownish cast; torn leaves resist weeds, disease and insects less well.",
+      "source_url": "https://hgic.clemson.edu/factsheet/mowing-lawns/",
+      "source_title": "Mowing Lawns (HGIC 1205) | Clemson Cooperative Extension"
+    },
+    {
+      "claim": "Cool-season heights from Purdue",
+      "detail": "Optimum mowing height ranges: Kentucky bluegrass 2.0-3.5 in., fine fescue 2.0-3.5 in., perennial ryegrass 2.0-3.5 in., tall fescue 3.0-4.0 in. Mowing above the optimum tends to create a less dense turf with coarser leaf blades.",
+      "source_url": "https://turf.purdue.edu/turf-101-optimum-mowing-heights-for-turf/",
+      "source_title": "Turf 101: Optimum mowing heights for turf | Purdue Turfgrass Science"
+    },
+    {
+      "claim": "Purdue's low-maintenance lawn program",
+      "detail": "Mow at 3 to 4 inches and often enough not to remove more than 1/3 of the leaf area. Fertilize primarily in the fall, applying only as needed to limit dollar spot, rust, red thread and white clover. Irrigate deep and infrequently if you choose to irrigate; turf will easily survive typical summer dormancy as long as you limit traffic during dormancy. Turf-type tall fescue needs less N, water and insecticide than Kentucky bluegrass but needs more frequent mowing. Preemergence herbicide for crabgrass; spot-treat other pests only as needed.",
+      "source_url": "https://turf.purdue.edu/do-it-yourself-searching-for-that-low-maintenance-lawn/?cat=43",
+      "source_title": "Do it yourself: Searching for that low maintenance lawn? | Purdue Turfgrass Science"
+    },
+    {
+      "claim": "Mowing frequency follows the weather; ideal height; first spring mow; thatch",
+      "detail": "An ideal mowing height is around three inches. Cool, wet spring often means mowing more than once a week; intervals may lengthen to every 2 weeks or longer in drier summer weather. Lawns do not need to be cut shorter the first mowing of spring. Clippings returned do not cause thatch. Taller grass shades the soil and results in much less crabgrass. Sharpen blades preseason and again as needed.",
+      "source_url": "https://hort.extension.wisc.edu/mowing-can-make-or-break-lawns",
+      "source_title": "Mowing Can Make or Break Lawns | Wisconsin Horticulture (UW-Madison Extension)"
+    },
+    {
+      "claim": "Cool-season fall feeding: date, rate, slow release, clippings",
+      "detail": "The most important time to fertilize is around Labor Day into early September. Apply no more than one pound of actual nitrogen per 1000 square feet per application; one-half pound in shade. Select a product with at least 25-50% slow-release nitrogen. Leaving clippings can reduce fertilizer needs by up to one application per year.",
+      "source_url": "https://hort.extension.wisc.edu/nows-a-great-time-to-fertilize-your-lawn/",
+      "source_title": "Now's a great time to fertilize your lawn | Wisconsin Horticulture (UW-Madison Extension)"
+    },
+    {
+      "claim": "Warm-season feeding signal and centipede caution",
+      "detail": "Wait to fertilize warm-season grasses until nighttime temperatures are around 70°F. Green-up begins when soil reaches 65°F at a 4-inch depth. Fertilizing too early produces shoots at the expense of roots and can lead to dieback from late frosts. Centipedegrass has a low nitrogen requirement; too much fertilizer leads to decline and possibly disease.",
+      "source_url": "https://hgic.clemson.edu/when-should-you-fertilize-your-lawn/",
+      "source_title": "When should you fertilize your lawn? | Clemson HGIC"
+    },
+    {
+      "claim": "How much product to spread, and low-maintenance rates",
+      "detail": "Complete fertilizers supply about 1.0 lb N/1,000 sq ft per application for high-maintenance lawns and 1/2 lb for low-maintenance lawns. To get pounds of product for 1 lb N per 1,000 sq ft, divide 100 by the label nitrogen percentage (21% ammonium sulfate: about 4.75 lb), or divide the N wanted by the decimal (1 / 0.16 = 6.25 lb of 16-4-8). Centipedegrass: no more than 2 lb N/1,000 sq ft per year. Wait until warm-season grass has greened up and is growing.",
+      "source_url": "https://hgic.clemson.edu/factsheet/fertilizing-lawns/",
+      "source_title": "Fertilizing Lawns (HGIC 1201) | Clemson Cooperative Extension"
+    },
+    {
+      "claim": "Warm-season annual nitrogen ranges and months",
+      "detail": "Yearly N (lb/1,000 sq ft): bermuda 3-5 (Apr-Aug), zoysia 3-5 (Apr-Aug), St. Augustine 1-4, centipede 1/2-2 (e.g. May and Aug in the Piedmont). Phosphorus and potassium rates should be based on a soil test.",
+      "source_url": "https://hgic.clemson.edu/factsheet/fertilizing-lawns/",
+      "source_title": "Fertilizing Lawns (HGIC 1201) | Clemson Cooperative Extension"
+    },
+    {
+      "claim": "How long a dormant lawn survives without water",
+      "detail": "A healthy Kentucky bluegrass lawn should be able to survive at least 6 weeks without any rainfall or irrigation. If drought extends beyond six weeks, lightly irrigate with approximately 1/4 inch of water every 2 weeks; this keeps the lawn alive without bringing it out of dormancy. You can't tell dormant from dead by looking; grass with damaged roots (poor soils, insects, disease) tolerates less drought. In most summers dormancy can reduce the irrigation requirement to zero.",
+      "source_url": "https://hyg.ipm.illinois.edu/article.php?id=409",
+      "source_title": "The Drought of 2012--How Should I Water my Lawn? | University of Illinois Extension Home, Yard & Garden Newsletter"
+    }
+  ],
+  "real_questions": [
+    "What height do I set the mower to and can I just leave it there?",
+    "If I only fertilize once, when, and how much of the bag do I actually spread?",
+    "Is it OK to let the lawn go brown in summer, and for how long?",
+    "Do I need to bag clippings?",
+    "The grass got really tall while I was away. Do I just cut it down?"
+  ],
+  "original_asset": {
+    "type": "schedule",
+    "spec": "A side-by-side bare-minimum year for cool-season and warm-season lawns with the exact setting for each job (mower height by species from Clemson/Purdue, Labor Day feeding at up to 1 lb N per Wisconsin, warm-season start signal from Clemson), plus a worked example converting 1/2 lb and 1 lb of nitrogen per 1,000 sq ft into pounds of a 16-4-8 bag for a hypothetical 5,000 sq ft lawn using Clemson's formula, and the one-third trigger math (setting x 1.5)."
+  },
+  "cautions": [
+    "Warm-season lawns are not fertilized in fall (registry).",
+    "Do not overfeed centipedegrass.",
+    "Don't drive or play heavily on dormant turf."
+  ],
+  "sources": {
+    "https://hgic.clemson.edu/factsheet/mowing-lawns/": "Mowing Lawns (HGIC 1205) | Clemson Cooperative Extension",
+    "https://turf.purdue.edu/turf-101-optimum-mowing-heights-for-turf/": "Turf 101: Optimum mowing heights for turf | Purdue Turfgrass Science",
+    "https://turf.purdue.edu/do-it-yourself-searching-for-that-low-maintenance-lawn/?cat=43": "Do it yourself: Searching for that low maintenance lawn? | Purdue Turfgrass Science",
+    "https://hort.extension.wisc.edu/mowing-can-make-or-break-lawns": "Mowing Can Make or Break Lawns | Wisconsin Horticulture (UW-Madison Extension)",
+    "https://hort.extension.wisc.edu/nows-a-great-time-to-fertilize-your-lawn/": "Now's a great time to fertilize your lawn | Wisconsin Horticulture (UW-Madison Extension)",
+    "https://hgic.clemson.edu/when-should-you-fertilize-your-lawn/": "When should you fertilize your lawn? | Clemson HGIC",
+    "https://hgic.clemson.edu/factsheet/fertilizing-lawns/": "Fertilizing Lawns (HGIC 1201) | Clemson Cooperative Extension",
+    "https://hyg.ipm.illinois.edu/article.php?id=409": "The Drought of 2012--How Should I Water my Lawn? | University of Illinois Extension Home, Yard & Garden Newsletter"
+  }
+}

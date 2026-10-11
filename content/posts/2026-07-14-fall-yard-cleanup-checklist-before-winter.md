@@ -2,9 +2,9 @@
 title: 'Fall Yard Cleanup Checklist: What Actually Matters Before Winter'
 slug: fall-yard-cleanup-checklist-before-winter
 date: '2026-07-14'
-updated: '2026-09-29'
-description: Before winter, the fall yard jobs that matter are gutters and downspouts,
-  draining hoses and outdoor faucets, and risky branches. The rest is optional.
+updated: '2026-10-11'
+description: 'The fall yard jobs that prevent damage (gutters, outdoor faucets, risky
+  branches) versus the ones you can skip or mow over, with the research behind each.'
 tags:
 - fall yard cleanup
 - yard and outdoor
@@ -15,110 +15,120 @@ pillar: yard-outdoor
 hero_image: /images/fall-yard-cleanup-checklist-before-winter-hero.svg
 hero_alt: Rake leaning beside a pile of autumn leaves, with garden gloves and a coiled hose on a lawn under bare trees
 pin_hooks:
-- The 3 fall yard jobs that prevent real damage before winter
-- Leaves on the lawn? If you can still see green, you're fine
+- 'Before winter: gutters, outdoor faucets, risky branches'
+- Most leaves can be mowed into the lawn, not bagged
+enriched: '2026-10-11'
 ---
 
-The fall yard jobs that actually matter before winter are the ones that prevent damage: clearing gutters and making sure downspouts discharge at least 5 feet from the foundation, disconnecting and draining hoses from outdoor faucets, and dealing with branches that threaten the roof or power lines. Leaves, garden beds, and lawn feeding mostly affect appearance and next spring's head start.
+The fall yard jobs that matter are the ones that prevent damage. Clear gutters so downspouts discharge at least 5 feet from the foundation, shut off and drain outdoor faucets, and have a pro handle branches over the roof or near power lines. Most leaves can be mowed into the lawn, and flower beds can wait until spring.
 
-Fall yard cleanup has a reputation for being an all-or-nothing weekend project, but most of it isn't. Some tasks prevent expensive problems once the ground freezes. Others are cosmetic habits people repeat because their parents did. The trick is knowing which is which for your specific yard — so use this as a troubleshooting guide: find the situation that matches your yard, and do that.
+That's a shorter list than most fall checklists. The table below sorts each job by what happens if you skip it. The sections after it give the specifics: how many leaves a lawn can actually absorb, which faucets need attention, and when lawn feeding is worth the trip to the store.
 
-## If your lawn is covered in leaves
+## Do it or skip it: the fall decision table
 
-A thin scattering of leaves isn't an emergency. Grass can handle some cover for a few weeks. The problem starts when leaves mat down into a wet layer that blocks sunlight and traps moisture, which invites mold and can smother or thin your grass by spring.
+| Job | Do it if… | What skipping risks | Can you skip it? |
+|---|---|---|---|
+| Clear gutters, check downspouts | Every fall, after most leaves drop | Water dumped at the foundation | No |
+| Shut off and drain outdoor faucets, disconnect hoses | Every fall, before the first hard freeze | A frozen, cracked pipe or faucet | No |
+| Branches over the roof or near power lines | Any limb that could fall on the house or a line | Roof damage, downed lines | No; hire it out |
+| Leaves on the lawn | Mow them in; rake only where layers stay matted | Smothered grass in heavy, wet piles | Mostly |
+| Cut back perennial beds | Only seriously diseased plants | Disease carried over to next year | Yes, until spring |
+| Fall lawn feeding | Cool-season lawns only, around Labor Day | A slower spring green-up | Yes |
+| Overseed thin spots | Cool-season lawns with bare patches | Bare spots that stay bare | Yes |
 
-**The rule of thumb:** if you can still see green through the leaves, you're fine. If it's a solid brown carpet, deal with it.
+## 1. Gutters and downspouts: the job that actually causes damage
 
-- **Light coverage:** Mulch the leaves in place with a mower (most mowers handle this with a regular blade, no special attachment needed). Shredded leaves break down and actually feed the soil.
-- **Heavy coverage:** Rake or blow them off entirely, especially in shaded, damp areas where leaves stay wet longer. Compost them if you can — bagging for the curb is the last resort, not the default.
+Clogged gutters overflow at the corners and send roof water straight down the foundation wall. The Department of Energy's building-science guidance is to have downspouts discharge **at least 5 feet** from the foundation, onto ground that slopes away from the house. The usual target is about a 6-inch drop over the first 10 feet.
 
-This pairs with our [low-effort approach to lawn care](https://www.hearth-habit.com/2026/07/lawn-care-for-people-who-dont-care.html): the goal isn't a spotless yard, it's avoiding damage.
+The Insurance Institute for Business & Home Safety (IBHS), an insurer-funded research group, lists clearing gutters and downspouts among its winter-readiness steps.
 
-## If you haven't looked at your gutters since spring
+- **Timing:** after most leaves have dropped, so you do it once.
+- **Check:** run a hose in each gutter and watch where the water ends up, not just whether it flows. A downspout emptying at the base of the house is a bigger problem than a half-full gutter. It's also a common reason for [water pooling in one spot of the yard](https://www.hearth-habit.com/2026/08/why-does-water-pool-in-one-spot-in-my.html).
+- **Guards:** they shorten the job but don't remove it. Here's [what guarded gutters still need](https://www.hearth-habit.com/2026/08/do-you-still-need-to-clean-gutters-if.html).
+- **Ladder limit:** second-story gutters or a steep roofline are worth paying for.
 
-This is the one that actually causes damage, so it earns real attention. Clogged gutters don't just look neglected — they spill water over the sides and down along your foundation, and water sitting against the fascia board behind the gutter can rot it over time.
+Clean gutters won't stop ice dams. The University of Minnesota Extension explains that ice dams form when heat escaping into the attic melts roof snow, which refreezes at the colder eaves. The fix is attic air sealing, insulation, and ventilation.
 
-**Do this if:** you see leaves or debris sitting in the gutter, or you noticed water spilling over the edge during the last hard rain.
+![Must-do versus can-skip fall yard jobs: gutters with downspouts 5 feet out, outdoor faucets shut off, and risky branches versus leaves, beds, and feeding](/images/fall-yard-cleanup-checklist-before-winter-inline.svg)
 
-- Clear gutters after most leaves have dropped, not before — otherwise you're doing it twice. If you have gutter guards, they shorten the job but don't eliminate it; here's [what guarded gutters still need](https://www.hearth-habit.com/2026/08/do-you-still-need-to-clean-gutters-if.html).
-- Check that downspouts discharge at least 5 feet away from your foundation, onto ground that slopes away from the house (roughly 6 inches of drop over the first 10 feet). A downspout that dumps water right at the base of the house is a bigger issue than a full gutter, and a common reason for [water pooling in one spot of the yard](https://www.hearth-habit.com/2026/08/why-does-water-pool-in-one-spot-in-my.html).
-- If you have a single-story home and are comfortable on a ladder, this is a reasonable DIY job. Steep rooflines, second stories, or gutters you can't safely reach from a ladder are worth paying someone for — it's a low-cost service call compared to fixing water damage.
+## 2. Outdoor faucets and hoses
 
-![Side-by-side cutaway of a leaf-clogged gutter overflowing next to a clear gutter draining through its downspout](/images/fall-yard-cleanup-checklist-before-winter-inline.svg)
+Water left in a hose, a faucet, or the short pipe behind it can freeze, expand, and crack it. You may not find the crack until spring, when you turn the faucet on and water runs inside the wall.
 
-## If your garden beds still have summer plants in them
+IBHS's guidance is to **shut off and insulate the valves if you don't have frost-proof outdoor faucets**, and it notes that homes built before 2010 typically don't. A frost-proof faucet has a long stem that closes the valve inside the heated wall. A standard one closes right at the outside wall.
 
-Dead annuals and spent vegetable plants left in the ground over winter don't hurt much on their own, but they can shelter pests and disease that carry over to next year's plantings.
+1. Disconnect every hose and drain it. Store it out of the weather.
+2. If there's an indoor shutoff valve for the outdoor faucet, close it.
+3. Open the outdoor faucet so the water left in the line drains out.
+4. Disconnect hoses even from frost-proof faucets. An attached hose can keep water from draining out of the faucet.
 
-- **Pull out** anything visibly diseased (powdery mildew, blight, rot) rather than composting it — home compost piles usually don't get hot enough to kill off disease spores.
-- **Leave standing** perennial stems and seed heads if you like — many provide winter shelter for beneficial insects and food for birds. This is a case where "messy" is actually a legitimate low-effort choice, not laziness.
-- **Cut back** perennials that turn to mush when frozen (hostas are the classic example) since they'll just be a slimy mess to deal with in spring anyway.
+IBHS also points out that outdoor spigots are a particular weak spot in warmer southern regions, where people don't expect a hard freeze. For what happens to pipes in a cold snap, see [the temperature at which pipes actually freeze](https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html).
 
-## If you have a hose still connected to an outdoor faucet
+## 3. Branches over the roof or near power lines
 
-This one matters more than it sounds like. Water left in a hose or in the pipe behind an outdoor faucet can freeze, expand, and crack the pipe — often inside the wall, where you won't notice until it thaws and leaks.
+Limbs hanging over the roof scrape shingles, keep refilling the gutters all winter, and can snap under snow or ice. Small branches you can reach from the ground with loppers are a DIY job. Anything near a power line, or anything that needs a ladder near the roof edge, belongs to a professional tree service or your utility.
 
-- Disconnect and drain garden hoses, then store them somewhere they won't crack from cold (a garage or shed, not left coiled outside).
-- If your home has an old-style faucet (not a "frost-free" spigot), shut off the interior valve for that line if one exists, then open the outdoor faucet to drain it.
-- Frost-free spigots are designed to handle this better, but they still fail if a hose is left attached — the hose traps water in the spigot itself. Disconnect it regardless of what type you have.
+## 4. Leaves: a lawn can absorb far more than you'd think
 
-## If your deck or patio furniture is still out
+The usual advice is to mulch a "light layer" and rake the rest. Research from Michigan State University shows a lawn can take much more than that.
 
-Wood and wicker don't need to come inside for a light frost, but sustained freezing, snow load, and repeated freeze-thaw cycles will shorten their lifespan.
+Turf researcher Thomas Nikolai describes three MSU studies:
 
-- **Wood furniture:** A water-resistant cover is usually enough for most winters. If you're in a region with heavy snow, storing it in a garage or shed adds years to its life.
-- **Cushions and fabric:** These should come inside regardless of climate — they hold moisture and mildew fast.
-- **Decks:** Sweep off leaves and debris so they don't trap moisture against the boards. If your deck is due for a fresh coat of sealant, fall (before the first freeze) is a better window than waiting until spring mud season.
+- **Normal loads:** oak and maple leaves at 100 pounds of dry leaves per 1,000 square feet were mulched into Kentucky bluegrass with an ordinary rotary push mower over seven years. An earlier study at 50 and 100 pounds found no harmful effects. In this one, turf quality actually improved on the maple plots because fewer broadleaf weeds grew there. Soil pH didn't change, and soil organic matter went up.
+- **Excessive loads:** researchers mulched **150, 300, and 450 pounds per 1,000 square feet**, about **6-, 12-, and 18-inch layers** of leaves, into an unfertilized lawn of bluegrass, ryegrass, and fine fescue with a mulching mower. Some leaf litter was still visible the next spring, more at the heavier rates. It disappeared as the grass grew, and those plots tended to green up sooner.
+- **Deck height mattered:** mulching with the deck at **3 inches** left less visible litter in spring than at 1.5 inches.
 
-## If your lawn looks thin, patchy, or weedy
+Purdue's turf program adds that mulched leaves don't increase thatch or disease, and that dry leaves mulch more easily than wet ones. Its rule for when to rake is when layers are heavy enough to shade out and smother the grass. In practice, that's wet, matted piles that sit in one place, like the drift along a fence or under one big tree.
 
-For cool-season lawns (fescue, bluegrass, ryegrass — most of the North), fall is the best time to fix lawn problems, better than spring. Cooler air and still-warm soil help grass seed root before dormancy, and there's less weed competition. Warm-season lawns (Bermuda, St. Augustine, zoysia, centipede) are the exception: patch those in late spring to early summer instead.
+### Where the leaves go matters too
 
-- **Patchy spots:** Overseed in early fall, at least about 6 weeks (45 days) before your first expected hard frost. If you've missed that, you can still dormant-seed later in the season — see [how late you can seed grass in fall](https://www.hearth-habit.com/2026/07/how-late-can-you-seed-grass-in-fall-and.html).
-- **Compacted soil** (common in high-traffic areas): Aerating before overseeding helps seed and water reach the roots instead of running off.
-- If your lawn looks fine and you're not chasing a lush-green-carpet look, this is a skippable step.
+Don't blow or rake them into the street. A US Geological Survey study in Madison, Wisconsin, found that without leaf removal, fall leaf litter supplied **56%** of the year's phosphorus in urban stormwater. When streets were cleared of leaves before rain, that dropped to **16%**, and timely removal cut phosphorus concentrations by over 80%.
 
-## If you're not sure whether to fertilize
+Leaves mowed into the lawn never reach the storm drain at all. Purdue also says not to burn them. For the full rake-or-leave decision, see [whether to rake leaves or leave them over winter](https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html).
 
-It depends on your grass type. For cool-season lawns, a fall feeding (sometimes sold as a "winterizer") is the most useful one of the year: it helps grass build root reserves for spring green-up. Apply it while the grass is still green and growing, not after the ground has frozen.
+## 5. Garden beds: most of it can wait until spring
 
-For warm-season lawns, skip fall fertilizer. Southern extension services, including Clemson's, recommend feeding those grasses from late-spring green-up through summer, not in fall, when new growth is more likely to be damaged by cold.
+The University of Illinois Extension's advice is to leave dead perennial stems standing until spring instead of cutting them down in fall:
 
-Either way, it's optional if you're not invested in lawn appearance — skipping it won't kill a lawn, it'll just green up a bit slower next year.
+- Seed heads of black-eyed Susan, sedum, purple coneflower, and Joe-Pye weed feed finches through winter.
+- Hollow stems can shelter small carpenter bees, mason bees, and leaf-cutter bees.
+- Leaves left in beds give overwintering insects cover.
+- About 70% of native bee species nest in the ground, so leave some bare soil unmulched.
 
-## If tree branches are hanging near your roof or power lines
+The exception is serious disease. Remove plants with heavy disease problems, more than the occasional leaf spot, because disease organisms often overwinter on plant debris. Spent vegetable plants with blight or rot belong in that category.
 
-This is a safety-and-damage item, not cosmetic. Branches within a few feet of your roofline can scrape shingles, drop debris into gutters all winter, or snap under snow/ice load and cause real damage.
+## 6. Lawn feeding and seeding: optional, and only for cool-season grass
 
-- Branches you can reach safely from the ground with loppers: handle it yourself.
-- Anything near power lines, or requiring a ladder near the roofline: call a professional tree service. This is not a spot to improvise — it's dangerous work.
+**Cool-season lawns** (fescue, bluegrass, ryegrass, mostly in the North) get their most useful feeding in fall. The University of Wisconsin Extension's window is around Labor Day into early September, at no more than 1 pound of actual nitrogen per 1,000 square feet per application. If you're past that window and the lawn looks fine, skipping it costs you a slightly slower spring.
 
-## What you can safely skip
+**Warm-season lawns** (Bermuda, St. Augustine, zoysia, centipede) don't get fertilizer in fall. Clemson Extension's guidance is to feed them from late-spring green-up through summer.
 
-Not everything on a "traditional" fall checklist earns its place:
+For thin spots in a cool-season lawn, fall is the seeding season. The deadline depends on your first frost; here's [how late in fall you can still seed](https://www.hearth-habit.com/2026/07/how-late-can-you-seed-grass-in-fall-and.html). If you don't care about a perfect lawn, the [bare-minimum lawn schedule](https://www.hearth-habit.com/2026/07/lawn-care-for-people-who-dont-care.html) covers what's still worth doing.
 
-- **Raking every single leaf immediately as they fall** — waiting until most have dropped saves effort and repeat work.
-- **Winterizing an irrigation system you don't have or don't use in winter** — relevant mainly in colder climates with in-ground sprinkler systems; skip if this doesn't apply to you.
-- **Perfectly edging garden beds** — a nice-to-have, not a protective measure.
+## 7. Furniture and the deck
 
-**The key takeaway:** the jobs that actually prevent costly problems are gutters and downspouts, outdoor faucets/hoses, and hazardous branches. Everything else — leaves, garden cleanup, lawn feeding — is about appearance and next year's head start, so scale your effort to how much you care, not to what a checklist says you should do.
+Cushions and fabric come inside or under cover; they hold moisture and mildew. Sweep leaves off the deck so wet piles don't sit on the boards all winter. Wood furniture is fine under a water-resistant cover in most climates, or in a shed or garage where snow is heavy.
 
 ## FAQ
 
-### Do I really need to clean my gutters if I don't have many trees nearby?
-Yes, though less urgently. Even without overhanging trees, gutters collect windblown debris and granules from asphalt shingles. Check them at least once in fall — it takes a few minutes and keeps rain flowing away from your foundation. Clean gutters won't prevent ice dams, though: those form when attic heat melts roof snow that refreezes at the colder eaves, and the fix is attic air sealing, insulation, and ventilation.
+### Can I just mow all the leaves instead of raking?
 
-### What's the actual risk if I leave my hose connected all winter?
-The main risk is a cracked pipe or spigot from trapped water freezing and expanding, which often isn't visible until it thaws and starts leaking — sometimes inside a wall, making it a costly repair.
+For most yards, yes. MSU mulched layers up to about 18 inches deep into an unfertilized lawn with no lasting harm. The litter was gone once spring growth started, and a 3-inch mower deck worked better than a low one. Rake only the heavy, wet mats that stay in one spot, and keep leaves out of the street.
 
-### Is it too late to overseed if the first frost already happened?
-For conventional seeding, usually yes — cool-season seed needs about 6 weeks before the first hard frost to germinate and root. But you don't have to wait for spring: dormant seeding (spreading seed once the soil is too cold for it to sprout, up until the ground freezes) lets it sit over winter and germinate on its own as the soil warms in spring.
+### My outdoor faucet is frost-proof. Do I still need to do anything?
 
-### Should I cut my grass shorter for the last mow of the season?
-A slightly shorter final cut (roughly 2–2.5 inches, a bit lower than your summer height) helps prevent matting under snow, but avoid scalping the lawn — cutting it too short can stress the roots heading into winter.
+Disconnect the hose. An attached hose can keep water from draining out of a frost-proof faucet. If you're not sure which type you have, IBHS notes that homes built before 2010 usually don't have frost-proof faucets. In that case, shut off the indoor valve and drain the line.
+
+### Should I cut the grass shorter for the last mow?
+
+None of the sources here call for a special short final cut. MSU's leaf research found a 3-inch deck left less leaf litter than a low setting. If you're mowing leaves in on that last pass, keeping your usual height works in your favor.
 
 ## Sources
-- [A Brief Guide to Mold, Moisture and Your Home (EPA)](https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home) — draining water away from the foundation
-- [Dealing With and Preventing Ice Dams (University of Minnesota Extension)](https://extension.umn.edu/protecting-home-rain-and-ice/dealing-and-preventing-ice-dams) — what causes ice dams and how to fix them
-- [When Should You Fertilize Your Lawn? (Clemson HGIC)](https://hgic.clemson.edu/when-should-you-fertilize-your-lawn/) — no fall feeding for warm-season lawns
-- [Stormwater: Gutters and Downspouts (U.S. DOE Building Science Education)](https://bsesc.energy.gov/energy-basics/stormwater-gutters-downspouts) — downspouts ending at least 5 feet from the foundation
+
+- [When Leaves Turn Into Litter (Thomas Nikolai, Michigan State University)](https://archive.lib.msu.edu/tic/holen/article/2002oct11.pdf) — leaf-mulching studies: 100 to 450 lb per 1,000 sq ft, fewer weeds with maple leaves, 3-inch deck height
+- [What To Do With All Those Falling Leaves? | Purdue Turfgrass Science](https://turf.purdue.edu/what-to-do-with-all-those-falling-leaves/) — mulch moderate leaves, rake smothering layers, no thatch or disease increase, no burning
+- [Removal of Fallen Leaves Can Improve Urban Water Quality | USGS](https://www.usgs.gov/news/removal-fallen-leaves-can-improve-urban-water-quality) — 56% vs. 16% of annual stormwater phosphorus
+- [IBHS Winter Weather Ready guide](https://ibhs.org/ibhs-news-releases/ibhs-winter-weather-ready-guide-provides-easy-to-do-actions-to-help-prevent-property-damage-from-colder-temperatures/) — shut off and insulate non-frost-proof faucets, pre-2010 homes, clear gutters and downspouts
+- [Fall garden clean up with pollinators and other wildlife in mind | University of Illinois Extension](https://extension.illinois.edu/blogs/good-growing/2021-10-22-fall-garden-clean-pollinators-and-other-wildlife-mind) — leave stems and seed heads until spring, remove diseased plants
+- [Now's a great time to fertilize your lawn | UW-Madison Extension](https://hort.extension.wisc.edu/nows-a-great-time-to-fertilize-your-lawn/) and [When should you fertilize your lawn? | Clemson HGIC](https://hgic.clemson.edu/when-should-you-fertilize-your-lawn/) — cool-season fall feeding window and rate; no fall feeding for warm-season lawns
+- [Stormwater: Gutters and Downspouts | DOE Building Science](https://bsesc.energy.gov/energy-basics/stormwater-gutters-downspouts) and [Dealing with ice dams | UMN Extension](https://extension.umn.edu/protecting-home-rain-and-ice/dealing-and-preventing-ice-dams) — downspouts 5 feet out; ice dams start with attic heat loss

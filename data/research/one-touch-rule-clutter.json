@@ -1,0 +1,87 @@
+{
+  "reader_situation": "People whose counters, chairs and stair steps fill up with things set down 'for now'. They've heard of the one-touch rule and want to know if it actually works, how long until it's automatic, and what to do with the items (especially mail) that can't be put away instantly.",
+  "direct_answer": "The one-touch rule means putting an item where it belongs the first time you pick it up instead of setting it down for later. It works best tied to a fixed cue (walking in the door, finishing dinner) and repeated daily; habit research found automaticity plateaued after about 66 days on average, and an occasional missed day didn't derail it.",
+  "consensus": [
+    "Clutter builds from many small 'I'll deal with it later' decisions.",
+    "Give every item a home before expecting yourself to put it away.",
+    "Use landing zones (trays, hooks) for true exceptions and empty them on a schedule.",
+    "Pair the rule with a weekly reset.",
+    "Mail should be handled immediately, not piled."
+  ],
+  "gaps": [
+    "How long it takes: the common '21 days to form a habit' has no research basis (it traces to anecdotes about plastic-surgery patients); in Lally's study, automaticity plateaued after an average of 66 days, with considerable variation, and simple actions became automatic faster than elaborate routines.",
+    "Missed days: automaticity gains soon resumed after one missed performance, so a bad day doesn't reset the habit.",
+    "What makes it automatic: habits are actions triggered by contextual cues; the advice is to repeat the same action in the same context (time and place you meet every day), which means anchoring one-touch to specific cues like the front door rather than a general resolution.",
+    "Why 'I'll take it upstairs later' fails: Notre Dame psychologist Gabriel Radvansky found that walking through a doorway acts as an event boundary and makes decisions made in the other room harder to recall; the deferred second trip is easy to forget.",
+    "Mail needs a decision rule, not a tray: the FTC says shred documents with personal information before throwing them away (or black out account numbers), and to keep financial records and ID cards in a safe place; the IRS says keep records supporting a tax return 3 years in most cases, 7 years for worthless-securities or bad-debt claims, and property records until the limitations period runs out for the year you dispose of the property.",
+    "Visual clutter costs attention: Neuroscientists McMains and Kastner (Journal of Neuroscience, 2011) found that multiple visual stimuli compete for neural representation by mutually suppressing their activity in visual cortex (lab research, not a study of homes).",
+    "The old article's '15 seconds' threshold has no source and should go."
+  ],
+  "evidence": [
+    {
+      "claim": "Time for a daily action to become automatic",
+      "detail": "Daily ratings of automaticity showed an asymptotic increase that slowed to a plateau after an average of 66 days; there was considerable variation across participants and behaviours. The authors suggest telling people to expect habit formation to take around 10 weeks.",
+      "source_url": "https://bjgp.org/content/62/605/664",
+      "source_title": "Making health habitual: the psychology of 'habit-formation' and general practice | British Journal of General Practice (Gardner, Lally, Wardle, 2012)"
+    },
+    {
+      "claim": "Missing a day and simple vs elaborate actions",
+      "detail": "Missing the occasional opportunity to perform the behaviour did not seriously impair the habit formation process: automaticity gains soon resumed after one missed performance. Automaticity peaked more quickly for simple actions (drinking water) than for more elaborate routines (50 sit-ups).",
+      "source_url": "https://bjgp.org/content/62/605/664",
+      "source_title": "Making health habitual: the psychology of 'habit-formation' and general practice | British Journal of General Practice (Gardner, Lally, Wardle, 2012)"
+    },
+    {
+      "claim": "The 21-day myth and how habits form",
+      "detail": "The popular claim that habits take 21 days appears to have originated from anecdotal evidence of plastic-surgery patients adjusting to their appearance within 21 days. Habits are actions triggered automatically in response to contextual cues associated with their performance; advice: repeat a chosen behaviour in the same context until it becomes automatic. Box 1: plan when and where; choose a time and place you encounter every day; you can't form a habit for not doing something, so pick an action to do rather than one to avoid.",
+      "source_url": "https://bjgp.org/content/62/605/664",
+      "source_title": "Making health habitual: the psychology of 'habit-formation' and general practice | British Journal of General Practice (Gardner, Lally, Wardle, 2012)"
+    },
+    {
+      "claim": "Doorways make deferred tasks easier to forget",
+      "detail": "Radvansky argues a doorway acts as an 'event boundary'. In virtual and real-world experiments with college students, memory for objects was worse after passing through a doorway than after walking the same distance within one room; returning to the original room did not restore memory.",
+      "source_url": "https://news.nd.edu/news/walking-through-doorways-causes-forgetting-new-research-shows/",
+      "source_title": "Walking through doorways causes forgetting, new research shows | University of Notre Dame News (Nov. 16, 2011)"
+    },
+    {
+      "claim": "Visual items compete for the brain's attention",
+      "detail": "Multiple stimuli compete for neural representation by mutually suppressing their evoked activity throughout visual cortex; attentional modulation was constrained by how much bottom-up processes had already resolved that competition.",
+      "source_url": "https://www.jneurosci.org/content/31/2/587",
+      "source_title": "Interactions of Top-Down and Bottom-Up Mechanisms in Human Visual Cortex | Journal of Neuroscience (McMains & Kastner, 2011)"
+    },
+    {
+      "claim": "Handle mail with personal information promptly and shred it",
+      "detail": "Take mail with personal information out of the mailbox as soon as possible. When you get rid of documents, shred them before throwing them away; without a shredder, use a local shred day or a marker to block out account numbers. Keep financial records, Social Security and Medicare cards in a safe place.",
+      "source_url": "https://consumer.ftc.gov/articles/what-know-about-identity-theft",
+      "source_title": "What To Know About Identity Theft | FTC Consumer Advice"
+    },
+    {
+      "claim": "How long to keep tax-related papers",
+      "detail": "Keep records 3 years in the general case; 3 years from filing or 2 years from paying (whichever is later) for refund claims; 7 years for a loss from worthless securities or bad debt deduction; 6 years if unreported income exceeds 25% of gross income; indefinitely if no return or a fraudulent return was filed. Keep property records until the period of limitations expires for the year you dispose of the property.",
+      "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records",
+      "source_title": "How long should I keep records? | Internal Revenue Service"
+    }
+  ],
+  "real_questions": [
+    "How long until putting things away right away becomes automatic?",
+    "What if I'm carrying something and the right place is upstairs?",
+    "What do I do with mail I can't deal with yet?",
+    "Does one bad week ruin the habit?",
+    "How do I get the rest of the household to do it?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "A 'pick it up, then what?' decision flow: does it have a home -> is the home in this room (doorway effect, Notre Dame) -> if not, a single named landing spot emptied at a fixed daily cue; plus a mail flow (act now / file by IRS retention period / shred per FTC). Followed by a 10-week cue-based plan built on the BJGP Box 1 method (one cue, one simple action, same place daily; expect ~66 days on average, a missed day is fine)."
+  },
+  "cautions": [
+    "Shred, don't toss, mail with account numbers or personal information.",
+    "Don't present the 66-day figure as a fixed deadline; it's an average with wide variation.",
+    "The visual-competition finding is lab neuroscience, not a home study."
+  ],
+  "sources": {
+    "https://bjgp.org/content/62/605/664": "Making health habitual: the psychology of 'habit-formation' and general practice | British Journal of General Practice",
+    "https://news.nd.edu/news/walking-through-doorways-causes-forgetting-new-research-shows/": "Walking through doorways causes forgetting, new research shows | University of Notre Dame News",
+    "https://www.jneurosci.org/content/31/2/587": "Interactions of Top-Down and Bottom-Up Mechanisms in Human Visual Cortex | Journal of Neuroscience",
+    "https://consumer.ftc.gov/articles/what-know-about-identity-theft": "What To Know About Identity Theft | FTC Consumer Advice",
+    "https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records": "How long should I keep records? | Internal Revenue Service"
+  }
+}

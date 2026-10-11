@@ -1,0 +1,115 @@
+{
+  "reader_situation": "A homeowner or new buyer sees a yellow-brown ring on a ceiling with nothing dripping. They want to know whether the water event is over, whether it will come back, and whether they can just prime and paint.",
+  "direct_answer": "The stain means water reached the ceiling at some point and left minerals and wood stains behind as it dried. Before priming, prove the spot is dry with a moisture meter reading compared against a clean part of the same ceiling, then match the stain to its trigger (rain, showers, winter thaws, or AC season) so you fix the source. Prime with a stain-blocking primer only once both are done.",
+  "consensus": [
+    "Water stains come from roof leaks, plumbing leaks, or condensation.",
+    "Check whether the spot is soft or damp; use a moisture meter if unsure.",
+    "Find and fix the source before painting.",
+    "Regular paint will not hide a water stain; use a stain-blocking primer first.",
+    "Check the attic with a flashlight for damp sheathing or insulation."
+  ],
+  "gaps": [
+    "Moisture meters on drywall usually read on a relative scale, not percent moisture. Delmhorst says to take a reading on an unaffected, dry sample of the same material and compare; the numbers do not indicate a specific percentage of moisture content.",
+    "EPA's 24–48 hour figure is the window for drying clean-water damage to head off mold, not a waiting time before painting. EPA says wallboard may be dried in place only if there is no obvious swelling and the seams are intact; otherwise remove and replace. Ceiling tiles: discard and replace.",
+    "A stain under an attic air handler that appears in cooling season points to the condensate system. The IRC requires a secondary drain or auxiliary pan wherever an overflow or clogged condensate line would damage building components; the auxiliary pan's drain must discharge to a conspicuous point to alert occupants, or the pan needs a UL 508 water-level switch that shuts the equipment off.",
+    "North Carolina's State Fire Marshal interprets the auxiliary pan rule as 3 inches larger than the unit in overall width and length, placed to catch leakage from a blocked primary drain; with a horizontal furnace and coil fastened together, the pan goes under both.",
+    "Bath fan stains: the Building America Solution Center says fans must vent outdoors, never into the attic, the duct should be insulated, and the duct should slope down and away from the fan housing so condensation drains away from the fan.",
+    "Winter stains that show up without rain often come from attic condensation. Penn State's housing research center says air sealing the top-story ceiling drywall at seams and penetrations keeps warm humid air out of the attic, where it would otherwise condense on cool surfaces in winter, and that balanced ventilation slightly pressurizes the attic.",
+    "Before cutting out or scraping a stained ceiling, EPA lists textured paint and patching compounds used on walls and ceilings, and vermiculite attic insulation, as places asbestos may be found, and says not to saw, sand, scrape, or drill suspect material."
+  ],
+  "evidence": [
+    {
+      "claim": "Use a dry reference reading on the same material",
+      "detail": "One of the best ways to use a reference scale meter is to take a reading from an unaffected, dry sample of material and use it as the baseline; example: dry carpet reads 33 on a 0-100 scale, another sample of the same material reads 56, so the second is at least slightly damp.",
+      "source_url": "https://www.delmhorst.com/blog/moisture-meter-reference-scale",
+      "source_title": "What You Need to Know about the Moisture Meter Reference Scale | Delmhorst"
+    },
+    {
+      "claim": "Reference-scale numbers are not percent moisture",
+      "detail": "The numbers used in a reference scale are not indicative of a specific percentage of moisture content; meters are calibrated for specific materials such as wood or drywall.",
+      "source_url": "https://www.delmhorst.com/blog/moisture-meter-reference-scale",
+      "source_title": "What You Need to Know about the Moisture Meter Reference Scale | Delmhorst"
+    },
+    {
+      "claim": "When wet drywall can stay and ceiling tiles must go",
+      "detail": "Table 1 presents strategies to respond to water damage within 24-48 hours. Wallboard (drywall and gypsum board): may be dried in place if there is no obvious swelling and the seams are intact; if not, remove, discard, and replace; ventilate the wall cavity if possible. Ceiling tiles: discard and replace. Guidelines are for clean water.",
+      "source_url": "https://www.epa.gov/mold/mold-remediation-schools-and-commercial-buildings-guide-chapter-4",
+      "source_title": "Mold Remediation in Schools and Commercial Buildings Guide: Chapter 4 | US EPA"
+    },
+    {
+      "claim": "IRC secondary drain or auxiliary pan for AC coils",
+      "detail": "Required for each cooling or evaporator coil where overflow from the equipment drain pan or a condensate line stoppage would damage building components. Options: auxiliary pan with a separate drain discharging to a conspicuous point of disposal to alert occupants; a separate overflow line from the equipment pan; an auxiliary pan with a UL 508 water-level detection device that shuts off the equipment; or a UL 508 device in the drain line or equipment pan. Auxiliary pan at least 1.5 inches deep and at least 3 inches larger than the unit or coil in width and length.",
+      "source_url": "https://up.codes/s/auxiliary-and-secondary-drain-systems",
+      "source_title": "Auxiliary and Secondary Drain Systems | UpCodes"
+    },
+    {
+      "claim": "State interpretation of the pan size and placement (2018 IRC M1411.3.1)",
+      "detail": "The auxiliary drain pan must be sized three inches larger in overall width and length than the unit; three inches of clearance on each side is not required. It must be located so leakage from the unit housing caused by primary drain blockage is collected. For a horizontal furnace and cooling coil fastened together, the pan goes under the furnace and the coil.",
+      "source_url": "https://www.ncosfm.gov/residential/1411311-auxiliary-drain-pan-size-requirements/open",
+      "source_title": "Auxiliary Drain Pan Size and Location Requirements | NC Office of State Fire Marshal"
+    },
+    {
+      "claim": "Bath fan duct must go outdoors, insulated, sloped away from the fan",
+      "detail": "Vent directly outdoors, never into an attic, crawlspace, garage, interstitial floor space, or wall cavity. Insulate the duct to minimize condensation. Locate the side-wall terminal slightly below the fan so the duct slopes down and away from the housing, directing condensation away from the fan. If the fan is in an attic, enclose the housing in an airtight rigid foam box and cover with insulation. Use smooth duct; exterior cap should have a damper.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/bathroom-exhaust-fans",
+      "source_title": "Bathroom Exhaust Fans | Building America Solution Center (PNNL)"
+    },
+    {
+      "claim": "Bath fan airflow minimums",
+      "detail": "Intermittent operation: at least 50 cfm (ASHRAE 62.2 and IRC); continuous: at least 20 cfm.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/bathroom-exhaust-fans",
+      "source_title": "Bathroom Exhaust Fans | Building America Solution Center (PNNL)"
+    },
+    {
+      "claim": "Attic condensation comes from indoor air; air sealing the top ceiling is the fix",
+      "detail": "Moisture sources at the roof/attic include condensation and water vapor from occupants, cooking, and bathing. By air sealing the top-story ceiling drywall at seams and penetrations, warm interior air is less likely to enter the attic; with proper ventilation and air sealing, warm humid air is less likely to condense on cool attic surfaces in winter. Ventilation openings concentrated high in the attic depressurize it and induce air leakage from the house; a more balanced distribution slightly pressurizes the attic.",
+      "source_url": "https://www.phrc.psu.edu/assets/docs/Publications/PHRC%20MoistureRoofAttic%20BB%20FINAL.pdf",
+      "source_title": "Moisture Considerations for Insulated Roof/Attic Assemblies | Pennsylvania Housing Research Center (Penn State)"
+    },
+    {
+      "claim": "Ice dams form from snowmelt refreezing at the eaves",
+      "detail": "Ice dams result from snow melting on the roof surface and re-freezing at roof eaves, creating a dam behind which snowmelt can build up and penetrate the roof assembly and enter the attic.",
+      "source_url": "https://www.phrc.psu.edu/assets/docs/Publications/PHRC%20MoistureRoofAttic%20BB%20FINAL.pdf",
+      "source_title": "Moisture Considerations for Insulated Roof/Attic Assemblies | Pennsylvania Housing Research Center (Penn State)"
+    },
+    {
+      "claim": "Where asbestos may be found",
+      "detail": "Textured paint and patching compounds used on walls and ceilings; attic and wall insulation produced containing vermiculite.",
+      "source_url": "https://www.epa.gov/asbestos/learn-about-asbestos",
+      "source_title": "Learn About Asbestos | US EPA"
+    },
+    {
+      "claim": "Don't disturb suspect asbestos material",
+      "detail": "Usually the best thing is to leave asbestos-containing material alone if it is in good condition. You generally can't tell by looking unless it is labeled. Don't saw, sand, scrape, or drill holes in asbestos-containing materials.",
+      "source_url": "https://www.epa.gov/asbestos/protect-your-family-exposures-asbestos",
+      "source_title": "Protect Your Family from Exposures to Asbestos | US EPA"
+    }
+  ],
+  "real_questions": [
+    "Is this stain old (from a previous owner) or still active?",
+    "Can I just paint over it with stain-blocking primer?",
+    "Why does the stain only show up in winter or on sunny days after snow?",
+    "There's a stain under the attic AC unit only in summer; is that the AC?",
+    "Does a yellow stain mean there's mold?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "Trigger-to-source table: when the stain appears or darkens (after rain, after showers, winter thaws without rain, near the bath fan, cooling season under an attic air handler, exterior-wall corner in snow season) mapped to the likely source, the check, and the sourced fix (BASC duct rules, IRC aux pan, PHRC air sealing, UMN ice dams). Plus a dry-test procedure using the Delmhorst reference method and EPA's swelling/seams rule."
+  },
+  "cautions": [
+    "Don't saw, sand, scrape, or drill suspect textured ceilings or disturb vermiculite attic insulation (EPA).",
+    "Mold larger than about 10 square feet, or after contaminated water, warrants a professional (EPA, registry).",
+    "Walk only on framing in an attic; don't step between joists.",
+    "If water ever touched a ceiling light fixture, shut off that circuit and have it checked."
+  ],
+  "sources": {
+    "https://www.delmhorst.com/blog/moisture-meter-reference-scale": "What You Need to Know about the Moisture Meter Reference Scale | Delmhorst",
+    "https://www.epa.gov/mold/mold-remediation-schools-and-commercial-buildings-guide-chapter-4": "Mold Remediation in Schools and Commercial Buildings Guide: Chapter 4 | US EPA",
+    "https://up.codes/s/auxiliary-and-secondary-drain-systems": "Auxiliary and Secondary Drain Systems | UpCodes",
+    "https://www.ncosfm.gov/residential/1411311-auxiliary-drain-pan-size-requirements/open": "Auxiliary Drain Pan Size and Location Requirements | NC Office of State Fire Marshal",
+    "https://basc.pnnl.gov/resource-guides/bathroom-exhaust-fans": "Bathroom Exhaust Fans | Building America Solution Center (PNNL)",
+    "https://www.phrc.psu.edu/assets/docs/Publications/PHRC%20MoistureRoofAttic%20BB%20FINAL.pdf": "Moisture Considerations for Insulated Roof/Attic Assemblies | Pennsylvania Housing Research Center (Penn State)",
+    "https://www.epa.gov/asbestos/learn-about-asbestos": "Learn About Asbestos | US EPA",
+    "https://www.epa.gov/asbestos/protect-your-family-exposures-asbestos": "Protect Your Family from Exposures to Asbestos | US EPA"
+  }
+}

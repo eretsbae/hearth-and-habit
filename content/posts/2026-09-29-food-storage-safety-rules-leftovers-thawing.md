@@ -2,7 +2,7 @@
 title: 'Leftovers, Thawing, and Fridge Storage: The Food Safety Rules in One Place'
 slug: food-storage-safety-rules-leftovers-thawing
 date: '2026-09-29'
-description: Fridge at 40°F, food put away within 2 hours, leftovers eaten in 3 to 4 days, reheated to 165°F. The USDA rules for leftovers, thawing, and refreezing.
+description: "Fridge at 40°F by thermometer, food cold within 2 hours, leftovers 3–4 days, reheat to 165°F, plus FDA's power-outage limits and why dates don't decide."
 tags:
 - food safety
 - leftovers
@@ -14,70 +14,111 @@ hero_image: /images/food-storage-safety-rules-leftovers-thawing-hero.svg
 hero_alt: Flat illustration of an open fridge with stacked leftover containers and a crisper of greens, next to a dial thermometer and a small clock
 pin_hooks:
 - 'Leftovers: 3–4 days in the fridge, reheat to 165°F'
-- Refreeze thawed meat? It depends on how it thawed
+- 'Power out? Fridge holds about 4 hours, full freezer 48'
+updated: '2026-10-11'
+enriched: '2026-10-11'
 ---
 
-Keep the fridge at 40°F or below, get perishable food into it within 2 hours (1 hour when it's above 90°F), eat cooked leftovers within 3 to 4 days, and reheat them to 165°F. Those four USDA rules answer most "is this still okay?" questions in a home kitchen.
+Keep the fridge at 40°F or below (checked with a thermometer, not the dial), get perishables cold within 2 hours, eat cooked leftovers within 3 to 4 days, and reheat them to 165°F. After a power outage, an unopened fridge holds about 4 hours and a full freezer about 48.
 
-The rest of this page collects the rules that trip people up, like rice, thawing, refreezing, and bagged greens, and points to the full guide for each. Smell doesn't appear anywhere on the list, and that's on purpose.
+Those numbers come from USDA, FDA, and CDC, and the tables below put them in one place. The rest of the page covers the spots where people go wrong: trusting the dial, trusting the date on the package, and guessing after the power comes back. Smell isn't on the list anywhere, and that's on purpose.
 
-| If you notice… | Most likely cause | Quick check | Full guide |
-|---|---|---|---|
-| Leftovers from several days ago still look and smell fine | The safe window has run out even though nothing looks wrong | Count days from when it was cooked: 3–4 is the limit | [How long leftovers last](https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html) |
-| Rice sat out on the stove after dinner | *Bacillus cereus* spores that survive cooking | How long was it at room temperature? | [Why leftover rice is different](https://www.hearth-habit.com/2026/09/why-leftover-rice-makes-people-sick.html) |
-| Meat thawed in the fridge, then plans changed | Nothing yet; refreezing depends on the thaw method | How was it thawed, and how many days ago? | [Refreezing thawed meat](https://www.hearth-habit.com/2026/08/is-it-safe-to-refreeze-meat-that-thawed.html) |
-| Produce goes soft or moldy within days | The wrong spot: too cold, too humid, or next to ripening fruit | Which drawer is it in, and does it belong on the counter? | [Produce fridge map](https://www.hearth-habit.com/2026/07/how-to-store-produce-so-it-actually.html) |
-| Salad greens turn limp or slimy soon after shopping | Moisture trapped around the leaves | Is water pooling in the bag or container? | [Keeping greens from wilting](https://www.hearth-habit.com/2026/08/why-do-my-greens-wilt-two-days-after-i.html) |
-| Bread molds much faster in summer | Humid air trapped around the loaf | Where is the loaf kept, and in what? | [Summer bread mold](https://www.hearth-habit.com/2026/07/why-bread-goes-moldy-faster-in-summer.html) |
-| Onions or garlic sprout in the pantry | Warmth, humidity, or no airflow | Are they in plastic or near the stove? | [Onion and garlic storage](https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html) |
-| The fridge smells, but no food looks spoiled | Spills in the gasket, drawer tracks, or drip pan | Wipe inside the door gasket folds first | [Finding a hidden fridge smell](https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html) |
+## The rules at a glance
 
-## The Rules at a Glance
+| Situation | The rule | Whose rule |
+|---|---|---|
+| Fridge temperature | 40°F or below | FDA, CDC |
+| Freezer temperature | 0°F or below | FDA, CDC |
+| Perishables at room temperature | Fridge within 2 hours, 1 hour above 90°F; past that, throw it out, don't cook, refreeze, or rescue it | USDA |
+| Cooked leftovers | 3–4 days in the fridge; 3–4 months in the freezer for best quality | USDA |
+| Big pots of soup, stew, chili, or rice | Divide into shallow containers so they cool quickly | USDA, FDA |
+| Small portions of hot food | Can go straight into the fridge | CDC |
+| Cooked rice | Fridge within 1 hour if you can, never beyond 2 | CDC |
+| Raw ground meat and poultry | 1–2 days in the fridge | FoodSafety.gov |
+| Raw steaks, chops, roasts | 3–5 days in the fridge | FoodSafety.gov |
+| Reheating leftovers | 165°F on a food thermometer | USDA, CDC |
+| Thawing | Fridge, cold water, or microwave; never on the counter | FDA, CDC |
+| Thawed in cold water or microwave | Cook it right away | FDA |
+| Thawed in the fridge | Can be refrozen uncooked inside its fridge window (some quality loss) | USDA |
+| Marinating | Always in the fridge | FDA |
+| Bagged greens labeled "ready to eat," "washed," or "triple washed" | No re-washing needed | FDA |
 
-| Situation | The rule |
-|---|---|
-| Fridge temperature | 40°F or below |
-| Perishable food left at room temperature | Throw it out after 2 hours (1 hour above 90°F); don't cook, refreeze, or rescue it |
-| Cooked leftovers | 3–4 days in the fridge; 3–4 months in the freezer for best quality |
-| Big pots of soup, stew, chili, or rice | Divide into shallow containers so they cool quickly |
-| Cooked rice | Into the fridge within 1 hour if you can, never beyond 2 |
-| Raw ground meat and poultry | 1–2 days in the fridge |
-| Raw steaks, chops, and roasts | 3–5 days in the fridge |
-| Reheating leftovers | To 165°F, checked with a food thermometer |
-| Thawed in the fridge | Can be refrozen uncooked while still inside its fridge window (some quality loss) |
-| Thawed in cold water or the microwave | Cook it before refreezing |
-| Bagged greens labeled "ready to eat," "washed," or "triple washed" | No re-washing needed |
+## Your fridge dial isn't a thermometer
 
-## Why Smell Isn't a Safety Test
+The numbers 1 to 5 on a fridge control are settings, not degrees. FDA notes that few refrigerator controls show actual temperatures. It recommends an inexpensive freestanding appliance thermometer in the fridge and another in the freezer, checked often.
 
-USDA is clear on this point: the bacteria that cause food poisoning generally don't change how food looks, smells, or tastes. Your nose detects spoilage, the sourness and slime from a different set of microbes, and that's a separate question from whether food will make you sick. A container of chili can smell perfect on day six and still be past its safe window. Time and temperature are the only reliable test, which is why [the leftovers guide](https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html) counts days from cooking instead of trusting a sniff.
+Two placement details from FDA matter as much as the setting:
 
-The same logic makes big batches risky. A full pot of soup or chili cools slowly even in the fridge, and bacteria multiply while it does. Splitting it into shallow containers gets it cold fast.
+- **The door is the warmest spot.** FDA says to keep eggs in their carton on a shelf inside the fridge, not in the door.
+- **Packing it full works against you.** Cold air has to circulate around food to keep it chilled, so an overstuffed fridge can run warm in spots even when the thermometer in the middle reads fine.
 
-Rice is the special case. According to the CDC, *Bacillus cereus* spores survive cooking; if cooked rice sits at room temperature, they germinate and can form a toxin that reheating does not destroy. So getting rice into the fridge quickly matters more than how thoroughly you reheat it later. The [leftover rice guide](https://www.hearth-habit.com/2026/09/why-leftover-rice-makes-people-sick.html) explains why rice behaves differently from other leftovers.
+If the thermometer reads above 40°F, turn the control colder and recheck. FDA's thermometer guidance says food that was above 40°F for 2 hours or less should be safe. If you can't tell how long it's been warm, FDA's advice is to throw it out.
 
-## Thawing and Refreezing: The Method Decides
+## Don't let it cool on the counter
 
-Whether thawed meat can go back in the freezer depends on how it thawed:
+The 2-hour clock starts when cooking ends, not when the food feels cool. FDA's rule is to refrigerate perishables within 2 hours of cooking or buying them, 1 hour when it's above 90°F.
 
-- **In the fridge:** it can be refrozen without cooking, with some loss of texture, as long as it's still inside its fridge window: 1 to 2 days for ground meat and poultry, 3 to 5 days for steaks, chops, and roasts.
-- **In cold water or the microwave:** cook it first, then freeze the cooked dish.
-- **Past its fridge window, or left out more than 2 hours:** throw it out.
+CDC says small portions of hot food can go straight into the fridge. Larger amounts get divided into shallow containers first. A full pot of chili cools slowly, even in the fridge, and bacteria multiply while it does.
 
-The [refreezing guide](https://www.hearth-habit.com/2026/08/is-it-safe-to-refreeze-meat-that-thawed.html) walks through in-between cases, like meat that's still partly icy or meat you've already cooked.
+Rice is the special case. According to CDC, *Bacillus cereus* spores survive cooking. If cooked rice sits at room temperature, they germinate and can form a toxin that reheating doesn't destroy. Getting rice cold quickly matters more than how hot you reheat it later. Our [leftover rice guide](https://www.hearth-habit.com/2026/09/why-leftover-rice-makes-people-sick.html) explains why rice behaves differently.
 
-## Storing for Quality: Produce, Greens, Bread, and Bulbs
+## The leftover clock runs from cooking, not from the package date
 
-A lot of kitchen waste isn't a safety problem at all. It's food kept in the wrong place. Leafy greens want humidity without pooled water, and ethylene-releasing fruit like apples and bananas speeds up ripening in whatever sits next to it. The [produce fridge map](https://www.hearth-habit.com/2026/07/how-to-store-produce-so-it-actually.html) sorts what goes on the counter, in the high-humidity drawer, and in the low-humidity drawer, and the [greens storage guide](https://www.hearth-habit.com/2026/08/why-do-my-greens-wilt-two-days-after-i.html) covers the towel-lined container that keeps leaves crisp.
+USDA's 3-to-4-day window for cooked leftovers starts the day the food was cooked. The date on the package the ingredients came in doesn't change it.
 
-One safety rule does apply here, and it comes from the FDA: bagged greens labeled "ready to eat," "washed," or "triple washed" don't need re-washing. Rinsing them again adds a chance of picking up bacteria from the sink or colander rather than removing any.
+Package dates mean less than people think. FDA says a "use by" date is a quality guideline, not a food safety date. The exception is infant formula and some baby foods, which must be used by the date on the package.
 
-Bread molds faster when humid air gets trapped around the loaf, which is why [summer bread storage](https://www.hearth-habit.com/2026/07/why-bread-goes-moldy-faster-in-summer.html) needs a different setup. Onions and garlic sprout when they're kept warm, damp, or sealed in plastic, a sign of [storage conditions that feel like spring](https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html) rather than spoilage. And if the fridge itself smells, the source is typically a spill in a gasket fold or drawer track, not a forgotten container, so [check those spots in order](https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html).
+Here's how the clock runs for a pot of chili cooked Sunday night:
+
+- **Sunday, by bedtime:** split into shallow containers and refrigerated, within 2 hours of coming off the stove.
+- **Wednesday or Thursday:** the 3-to-4-day window closes. Eat it or freeze it by then.
+- **In the freezer:** safe indefinitely at 0°F, says FDA. USDA's 3-to-4-month figure is about quality, not safety.
+
+**Smell isn't a safety test.** USDA is clear that the bacteria that cause food poisoning generally don't change how food looks, smells, or tastes. That chili can smell perfect on day six and still be past its window. Our guide to [how long leftovers really last](https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html) goes deeper on the timing.
+
+## Thawing, refreezing, and the temperature to cook it to
+
+FDA lists three safe ways to thaw: in the refrigerator, in cold water, and in the microwave. CDC explains why the counter is off the list. Bacteria multiply quickly in the outer parts of the food that reach room temperature while the center is still frozen.
+
+What you can do next depends on how it thawed:
+
+- **Thawed in the fridge:** USDA says it can be refrozen without cooking, with some loss of texture, as long as it's still inside its fridge window. That's 1 to 2 days for ground meat and poultry, 3 to 5 days for steaks, chops, and roasts.
+- **Thawed in cold water or the microwave:** cook it right away, says FDA. Once it's cooked, you can freeze the dish.
+- **Past its fridge window, or left out over 2 hours:** throw it out.
+
+When "cook it first" applies, CDC's safe internal temperatures are:
+
+- 145°F, then a 3-minute rest, for whole cuts of beef, pork, veal, and lamb
+- 160°F for ground beef and pork
+- 165°F for all poultry, including ground chicken and turkey
+- 165°F for leftovers and casseroles
+
+Check with a food thermometer, especially when reheating in a microwave. The [refreezing guide](https://www.hearth-habit.com/2026/08/is-it-safe-to-refreeze-meat-that-thawed.html) covers in-between cases, like meat that's still partly icy.
+
+## After a power outage: what to keep
+
+FDA's outage guidance gives specific limits. Keep the doors closed while the power is out, and check thermometers before using anything once it's back.
+
+| Appliance | How long it holds with the door closed | When power returns |
+|---|---|---|
+| Refrigerator | About 4 hours, unopened | FDA: discard perishables (meat, poultry, seafood, milk, eggs, leftovers) that were above 40°F for 4 hours or more |
+| Full freezer | About 48 hours | Food with ice crystals, or at 40°F or below, can be refrozen or cooked |
+| Half-full freezer | About 24 hours | Same test: ice crystals or 40°F or below |
+| No thermometer, no idea how long | — | Throw out the perishables, and don't decide by appearance or odor |
+
+FDA's two pages draw the fridge line in different places. The outage page discards at 4 hours or more above 40°F. The thermometer page vouches only for 2 hours or less. This site follows the stricter line. If a thermometer shows perishables sat above 40°F for more than 2 hours, discard them. That matches the 2-hour rule everywhere else on this page.
+
+## One rule for produce
+
+Most produce questions are about quality, not safety. One safety rule does apply, and it comes from FDA. Bagged greens labeled "ready to eat," "washed," or "triple washed" don't need re-washing. Rinsing them again adds a chance of picking up bacteria from the sink or colander rather than removing any.
 
 ## Sources
 
-- [Leftovers and Food Safety (USDA FSIS)](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety) — 3–4 days in the fridge, reheating to 165°F, shallow containers
-- [Danger Zone 40°F–140°F (USDA FSIS)](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/danger-zone-40f-140f) — the 2-hour rule (1 hour above 90°F)
-- [Cold Food Storage Charts (FoodSafety.gov)](https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts) — fridge times for raw ground meat, poultry, steaks, chops, and roasts
-- [Freezing and Food Safety (USDA FSIS)](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety) — when thawed food can be refrozen, by thaw method
-- [Refrigeration and Food Safety (USDA FSIS)](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration) — food-poisoning bacteria don't change how food looks, smells, or tastes
+- [Leftovers and Food Safety (USDA FSIS)](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety) — 3–4 days in the fridge, 3–4 months frozen for quality, 165°F reheating, shallow containers
+- [Danger Zone 40°F–140°F (USDA FSIS)](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/danger-zone-40f-140f) and [Freezing and Food Safety (USDA FSIS)](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety) — the 2-hour rule; refreezing by thaw method
+- [Refrigerator Thermometers: Cold Facts about Food Safety (FDA)](https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety) — controls don't show temperature, appliance thermometers, overpacking, freezer safety
+- [Food and Water Safety During Power Outages (FDA)](https://www.fda.gov/food/buy-store-serve-safe-food/food-and-water-safety-during-power-outages-and-floods) — 4-hour fridge, 48- and 24-hour freezer, what to discard or refreeze
+- [Are You Storing Food Safely? (FDA)](https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely) and [Safe Food Handling (FDA)](https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling) — use-by dates, eggs off the door, safe thawing, marinating in the fridge
+- [Four Steps to Food Safety (CDC)](https://www.cdc.gov/food-safety/prevention/index.html) — hot food straight into the fridge, counter thawing, safe internal temperatures
+- [Cold Food Storage Charts (FoodSafety.gov)](https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts) and [Bacillus cereus and rice (CDC)](https://www.cdc.gov/mmwr/preview/mmwrhtml/00025744.htm) — raw meat fridge times; why rice needs prompt cooling
+- [Selecting and Serving Produce Safely (FDA)](https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely) — no re-washing of ready-to-eat bagged greens

@@ -1,0 +1,102 @@
+{
+  "reader_situation": "Someone ran a full cycle and the clothes or towels still smell musty or sour, either right out of the washer, after drying, or when they get damp again in use. They want to know if the machine or the laundry is the problem and how to fix it without damaging the washer.",
+  "direct_answer": "If the load smells musty the moment the cycle ends, the washer is usually the source: the door seal, detergent drawer, or a drain filter holding water. If it smells fine out of the wash but sour after drying or when a towel gets damp again, odor bacteria are living in the fabric itself, and the fix is in how you wash and dry those items. Clean the machine the way your brand's manual says, because Whirlpool, Samsung, and LG call for different cleaners.",
+  "consensus": [
+    "Front-load washers trap moisture in the door gasket and smell more often.",
+    "Wipe the gasket, clean the detergent drawer, and run a hot cleaning cycle.",
+    "Leave the door open between loads.",
+    "Use HE detergent and don't overdose.",
+    "Don't leave wet laundry sitting in the washer.",
+    "Never mix bleach and vinegar."
+  ],
+  "gaps": [
+    "The timing of the smell separates machine from fabric. A smell straight out of the wash points to the washer; a sour smell after drying or when re-wetted points to bacteria in the fabric. Kubota et al. (2012) traced laundry malodor (a 'wet-and-dirty-dustcloth' smell) to Moraxella osloensis, which produced the main odor compound on used towels but not new ones, and survived drying and UV better than E. coli or S. aureus.",
+    "Manufacturers disagree on what to put in a cleaning cycle, so a generic 'cup of vinegar' tip can be wrong for your machine. LG says to use an oxygen-based cleaner and avoid chlorine-based or acidic cleaners, which may cause discoloration or corrosion. Whirlpool's Clean Washer cycle uses affresh or liquid chlorine bleach, but not thickened, easy-pour, or no-splash bleach. Samsung puts liquid chlorine bleach in the detergent compartment up to the max line, never directly in the drum.",
+    "Cleaning intervals come from the manufacturers: LG says Tub Clean every 30 uses or when the display shows tcL, and monthly; if a musty smell is already present, run it weekly for 3 consecutive weeks. Whirlpool says run Clean Washer every month. Samsung says a tub-clean cycle about monthly and the pump filter at least monthly or about every 40 washes.",
+    "The door seal is where odor bacteria concentrate. A 13-machine study (Jacksch et al., 2019) found Moraxella osloensis most abundant on door seals (detected in up to 9 seal samples), while the detergent drawer had the highest bacterial diversity.",
+    "Cold-water washing can leave detergent undissolved, which LG says can cause buildup and odor; the washing-machine study authors note that low-temperature washing and bleach-free liquid detergents favor microbial survival.",
+    "A clogged drain pump filter leaves water in the drum, which LG says leads to odor over time. Drain it into a shallow pan, and let water cool first after a hot cycle (Samsung).",
+    "LG gives a gasket-cleaning mix of 3/4 cup liquid chlorine bleach per gallon of warm or hot water, or vinegar instead, never together, and never undiluted bleach, which can deteriorate the gasket."
+  ],
+  "evidence": [
+    {
+      "claim": "Whirlpool front-load odor guidance",
+      "detail": "Run the Clean Washer cycle every month. The cycle uses higher water volumes with affresh washer cleaner or liquid chlorine bleach. Do not use thickened, easy-pour, or no-splash bleach. Always use only HE detergent. Remove clothing as soon as possible when the cycle is complete. Leave the door open between loads to help avoid build-up of odor-causing residue. Remove and clean the dispenser drawer regularly.",
+      "source_url": "https://producthelp.whirlpool.com/Laundry/Washers/Front_Load_Washers/Wash_Performance_or_Clothing_Results/Cleaning_and_Maintenance/Removing_Odors_or_Smells_-_Front_Load_Washer",
+      "source_title": "Removing Odors or Smells - Front Load Washer | Whirlpool Product Help"
+    },
+    {
+      "claim": "LG Tub Clean interval and cleaner choice",
+      "detail": "Run the Tub Clean cycle after every 30 uses of the washer, or whenever the display shows tcL. Use an oxygen-based washing machine cleaner. Avoid chlorine-based or acidic cleaners; they may cause discoloration or corrosion inside the machine. Excessively foaming cleaners can cause leaks. Open the door and dispenser drawer after washing so the interior can dry.",
+      "source_url": "https://www.lg.com/us/support/help-library/lg-front-loader-how-to-clean-the-tub--20154844878056",
+      "source_title": "LG Front Loader - How to Clean the Tub | LG USA Support"
+    },
+    {
+      "claim": "LG maintenance: existing odor, gasket mix, drain pump filter",
+      "detail": "Run tub clean monthly and clean the drain pump filter, dispenser, inlet filters, and gasket then. If a musty smell is already present, run TUB CLEAN once a week for 3 consecutive weeks. Gasket: 3/4 cup (177 ml) liquid chlorine bleach in 1 gallon (3.8 L) of warm or hot water, or vinegar instead; never use the two together; don't use undiluted bleach, which can deteriorate the gasket. Remove foreign objects from the groove at the six o'clock position and pull back the lip. Drain pump filter: unplug, drain the hose into a shallow pan, twist the filter counterclockwise to remove.",
+      "source_url": "https://www.lg.com/us/support/help-library/lg-front-load-washer-maintenance--1400786418920",
+      "source_title": "LG Front Load Washer Maintenance | LG USA Support"
+    },
+    {
+      "claim": "LG odor causes: cold water, gasket, drain filter",
+      "detail": "If using cold water, the detergent may not completely dissolve, resulting in buildup and/or odor. Lint or hair in the gasket can trap water and cause mold and odor. A clogged drain pump filter causes poor draining, leaving water in the drum and leading to odor over time. If odor continues after multiple tub cleans, service is required.",
+      "source_url": "https://www.lg.com/us/support/help-library/lg-washer-troubleshooting-odor-buildup--1337716047757",
+      "source_title": "LG Washer Troubleshooting - Odor Buildup | LG USA Support"
+    },
+    {
+      "claim": "Samsung cleaning routine",
+      "detail": "Run a tub cleaning cycle (Self Clean or Pure Cycle) about once a month. For odor removal, add liquid chlorine bleach to the detergent compartment up to the max line, not directly into the drum, then run Self Clean. Front-load pump filter at least once a month or about every 40 washes; let water cool first after a hot cycle. Wipe inside the gasket folds and dry completely. Clean the dispenser about monthly. Leave the door and drawer open after every wash. Too much detergent or softener can contribute to odors.",
+      "source_url": "https://www.samsung.com/ca/support/home-appliances/samsung-washer-clean/",
+      "source_title": "How to clean your Samsung washer | Samsung Canada"
+    },
+    {
+      "claim": "The bacterium behind laundry malodor",
+      "detail": "Kubota et al., Applied and Environmental Microbiology, 2012: the major malodor component is 4-methyl-3-hexenoic acid; the dominant isolate group, identified as Moraxella osloensis, appeared in 87% of 30 malodorous samples from 15 homes. Consumers described the smell as a wet-and-dirty-dustcloth-like malodor. M. osloensis produced the compound on used towels but not on new towels, so soil in the laundry is essential.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3346475",
+      "source_title": "Moraxella Species Are Primarily Responsible for Generating Malodor in Laundry (Kubota et al., 2012) | PMC"
+    },
+    {
+      "claim": "Why the smell survives drying",
+      "detail": "M. osloensis showed high tolerance to desiccation and UV light, a possible reason it survives in laundry during and after drying; E. coli and S. aureus survived drying poorly. The strains did not show high tolerance to the surfactants tested. The authors note low-temperature, mild washing and drying conditions favor its survival.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3346475",
+      "source_title": "Moraxella Species Are Primarily Responsible for Generating Malodor in Laundry (Kubota et al., 2012) | PMC"
+    },
+    {
+      "claim": "Where odor bacteria live in the machine",
+      "detail": "Jacksch et al., Microorganisms, 2019: 13 domestic washing machines sampled at detergent drawer, door seal, sump, and fibers. Highest diversity in the detergent drawer. Moraxella osloensis (labelled Enhydrobacter) detected in up to 9 door-seal samples and relatively most abundant on door seals. Low-temperature washing and bleach-free liquid detergents facilitate microbial survival. Authors suggest regularly cleaning machine parts in direct contact with laundry, particularly to control M. osloensis on door seals.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7022543/",
+      "source_title": "Influence of Sampling Site and other Environmental Factors on the Bacterial Community Composition of Domestic Washing Machines (Jacksch et al., 2019) | PMC"
+    },
+    {
+      "claim": "Detergent with bleach helps control laundry malodor",
+      "detail": "The authors cite prior work recommending a detergent with disinfecting agents or bleach to control malodour, and suggest regular cleaning of machine parts in direct contact with laundry.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7022543/",
+      "source_title": "Influence of Sampling Site and other Environmental Factors on the Bacterial Community Composition of Domestic Washing Machines (Jacksch et al., 2019) | PMC"
+    }
+  ],
+  "real_questions": [
+    "Why do towels smell fine out of the dryer but sour after one use?",
+    "Can I run vinegar through my washer?",
+    "Bleach or a washer cleaner tablet: which one?",
+    "How often should I run the clean cycle?",
+    "Is it the washer or my clothes?"
+  ],
+  "original_asset": {
+    "type": "comparison_table",
+    "spec": "Brand-by-brand cleaning table (Whirlpool, Samsung, LG): cycle name, interval, what to add, what to avoid, filter interval, from the three manufacturer pages; plus a 'when does it smell' diagnostic that separates machine odor from fabric odor using Kubota 2012."
+  },
+  "cautions": [
+    "Never mix chlorine bleach with vinegar or other acids or ammonia (registry, poison.org).",
+    "LG warns chlorine-based or acidic cleaners may corrode its machines; check the manual before using bleach or vinegar.",
+    "Unplug before opening a drain pump filter and let hot water cool first."
+  ],
+  "sources": {
+    "https://producthelp.whirlpool.com/Laundry/Washers/Front_Load_Washers/Wash_Performance_or_Clothing_Results/Cleaning_and_Maintenance/Removing_Odors_or_Smells_-_Front_Load_Washer": "Removing Odors or Smells - Front Load Washer | Whirlpool Product Help",
+    "https://www.lg.com/us/support/help-library/lg-front-loader-how-to-clean-the-tub--20154844878056": "LG Front Loader - How to Clean the Tub | LG USA Support",
+    "https://www.lg.com/us/support/help-library/lg-front-load-washer-maintenance--1400786418920": "LG Front Load Washer Maintenance | LG USA Support",
+    "https://www.lg.com/us/support/help-library/lg-washer-troubleshooting-odor-buildup--1337716047757": "LG Washer Troubleshooting - Odor Buildup | LG USA Support",
+    "https://www.samsung.com/ca/support/home-appliances/samsung-washer-clean/": "How to clean your Samsung washer | Samsung Canada",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3346475": "Moraxella Species Are Primarily Responsible for Generating Malodor in Laundry (Kubota et al., 2012) | PMC",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7022543/": "Influence of Sampling Site and other Environmental Factors on the Bacterial Community Composition of Domestic Washing Machines (Jacksch et al., 2019) | PMC"
+  }
+}

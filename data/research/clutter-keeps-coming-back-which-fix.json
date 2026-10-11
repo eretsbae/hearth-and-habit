@@ -1,0 +1,80 @@
+{
+  "reader_situation": "Someone has decluttered or deep-tidied more than once and the same surfaces fill up again within days or weeks. They want to know what they're doing wrong and whether the problem is them, the house, or something bigger.",
+  "direct_answer": "Clutter comes back when its cause is still in place: things with no home, more things than the storage holds, or tidy-ups spaced too far apart (often with one person doing all of them). Sort what came back into those groups and fix the biggest group. If clutter makes rooms unusable or discarding causes real distress, it may be hoarding disorder, which needs a different kind of help.",
+  "consensus": [
+    "Give every item a home.",
+    "Declutter to reduce volume, starting small.",
+    "Do short daily or weekly resets instead of marathon cleanups.",
+    "Use a landing zone by the door and the one-touch habit.",
+    "Clutter causes stress."
+  ],
+  "gaps": [
+    "Most advice prescribes one fix for everyone. Sorting the returning pile by why each item is there (no home, home full, not put back, someone else's) tells you which fix applies.",
+    "The often-repeated Princeton claim that clutter overloads the brain comes from a 2011 Journal of Neuroscience lab study (McMains and Kastner) of ten subjects viewing shape stimuli in a scanner; it does not mention homes or household clutter.",
+    "Rhythm problems are often workload problems. BLS's 2025 American Time Use Survey found 87% of women and 75% of men did some household activities on an average day; on days they did, women spent 2.8 hours and men 2.1. More people did housework on weekend days (40%) than weekdays (35%).",
+    "Clearing volume through donation: the IRS says donated clothing and household items are not deductible unless in good used condition or better (an item claimed at more than $500 is the exception, with a qualified appraisal and Form 8283 Section B).",
+    "The line between clutter and hoarding disorder is specific. The APA defines hoarding disorder as persistent difficulty parting with possessions due to a perceived need to save them; prevalence about 2.6%, higher over age 60; onset usually 15 to 19. IOCDF says clutter alone is not HD; the concern is when living spaces can't be used for cooking, eating, sleeping, or moving around, exits are blocked, discarding causes distress, or acquisition causes financial strain.",
+    "IOCDF's self-check: rooms at the level of picture #4 or higher on the Clutter Image Rating may reflect an impact on daily life that could qualify for an HD diagnosis; answering yes to 1 or more of its eight questions suggests a person will benefit from seeking help."
+  ],
+  "evidence": [
+    {
+      "claim": "Definition and prevalence of hoarding disorder",
+      "detail": "Persistent difficulty getting rid of or parting with possessions due to a perceived need to save the items. Overall prevalence approximately 2.6%; higher in people over 60 and with anxiety or depression. Onset most often between 15 and 19 years of age; severity tends to increase with age. Accumulation congests active living areas and substantially compromises their intended use. Objects acquired lack a consistent theme, unlike collecting.",
+      "source_url": "https://www.psychiatry.org/patients-families/hoarding-disorder/what-is-hoarding-disorder",
+      "source_title": "What is Hoarding Disorder? | American Psychiatric Association"
+    },
+    {
+      "claim": "Clutter vs hoarding vs collecting",
+      "detail": "DSM-5 defines clutter as a large group of usually unrelated or marginally related objects piled together in a disorganized fashion. HD is only considered when the clutter results from excessive acquisition and difficulty getting rid of things. Normal clutter is usually stored in areas like attics or basements, may cause mild distress, and doesn't prevent the home from being used as intended. Warning signs: living spaces can't be used for cooking, eating, sleeping, or moving around; exits blocked; distress at discarding; financial strain from acquisition; family conflict or withdrawal.",
+      "source_url": "https://hoarding.iocdf.org/about-hoarding/is-it-hoarding-clutter-collecting-or-squalor/",
+      "source_title": "Is it Hoarding Disorder, Clutter, Collecting, or Squalor? | IOCDF Hoarding Center"
+    },
+    {
+      "claim": "Self-check and Clutter Image Rating threshold",
+      "detail": "Eight questions including difficulty getting rid of items, losing important items like money or bills in the clutter, difficulty refusing free items, buying for a bargain or to stock up, avoiding inviting people in, refusing repairs. Rooms that reach the level of picture #4 or higher on the Clutter Image Rating may reflect an impact on daily life that might qualify for an HD diagnosis. Yes to 1 or more questions: may benefit from seeking help; IOCDF Resource Directory lists specialists.",
+      "source_url": "https://hoarding.iocdf.org/about-hoarding/do-i-have-hoarding-disorder/",
+      "source_title": "Do I Have Hoarding Disorder? | IOCDF Hoarding Center"
+    },
+    {
+      "claim": "Who does household work on an average day",
+      "detail": "2025 American Time Use Survey: 87 percent of women and 75 percent of men spent some time doing household activities on an average day. On days they did, women spent an average of 2.8 hours and men 2.1 hours. More people engaged in housework on weekend days than weekdays, 40 percent compared with 35 percent.",
+      "source_url": "https://www.bls.gov/news.release/atus.nr0.htm",
+      "source_title": "American Time Use Survey Summary | US Bureau of Labor Statistics"
+    },
+    {
+      "claim": "The Princeton 'clutter and the brain' study",
+      "detail": "McMains and Kastner, Journal of Neuroscience 2011, 31(2):587-597: multiple stimuli present in the visual field at the same time compete for neural representation. Ten subjects; stimuli were Kanizsa-type pacman inducers in the upper right visual quadrant. The paper does not mention homes or household settings.",
+      "source_url": "https://www.jneurosci.org/content/31/2/587",
+      "source_title": "Interactions of Top-Down and Bottom-Up Mechanisms in Human Visual Cortex | Journal of Neuroscience"
+    },
+    {
+      "claim": "Deducting donated household items",
+      "detail": "You can't deduct donated clothing or household items unless they are in good used condition or better. An item not in good used condition can be deductible if you deduct more than $500 for it and include a qualified appraisal and a completed Form 8283, Section B. Household items include furniture, electronics, appliances, linens.",
+      "source_url": "https://www.irs.gov/publications/p526",
+      "source_title": "Publication 526, Charitable Contributions | IRS"
+    }
+  ],
+  "real_questions": [
+    "Why does my house get messy again right after I clean?",
+    "Do I own too much, or am I just disorganized?",
+    "Is my clutter a sign of hoarding?",
+    "How do I get the rest of the household to keep it up?",
+    "Does clutter really stress your brain?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "A pile audit: take the pile that keeps coming back, sort each item into four bins (no home, home is full, has a home with room but wasn't returned, someone else's), count, and read the biggest bin as the cause, with a hypothetical worked count showing the arithmetic. Each bin maps to a fix. Plus a 'more than clutter' checklist from IOCDF and APA."
+  },
+  "cautions": [
+    "Lithium-ion and button or coin batteries found in junk piles go to a battery drop-off, not the trash (registry, EPA).",
+    "Hoarding disorder is a mental health condition; forced clean-outs aren't a fix and specialist help is listed by IOCDF."
+  ],
+  "sources": {
+    "https://www.psychiatry.org/patients-families/hoarding-disorder/what-is-hoarding-disorder": "What is Hoarding Disorder? | American Psychiatric Association",
+    "https://hoarding.iocdf.org/about-hoarding/is-it-hoarding-clutter-collecting-or-squalor/": "Is it Hoarding Disorder, Clutter, Collecting, or Squalor? | IOCDF Hoarding Center",
+    "https://hoarding.iocdf.org/about-hoarding/do-i-have-hoarding-disorder/": "Do I Have Hoarding Disorder? | IOCDF Hoarding Center",
+    "https://www.bls.gov/news.release/atus.nr0.htm": "American Time Use Survey Summary | US Bureau of Labor Statistics",
+    "https://www.jneurosci.org/content/31/2/587": "Interactions of Top-Down and Bottom-Up Mechanisms in Human Visual Cortex | Journal of Neuroscience",
+    "https://www.irs.gov/publications/p526": "Publication 526, Charitable Contributions | IRS"
+  }
+}

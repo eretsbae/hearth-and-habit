@@ -22,7 +22,7 @@ enriched: '2026-10-11'
 
 Put produce where its temperature limit and its ethylene habits say it belongs: cold-sensitive crops on the counter or in the pantry, fruit in one crisper drawer, and vegetables in the other. Below is the map, plus the temperature lines behind it.
 
-The University of California, Davis postharvest researchers who wrote the most-cited home storage guide put it plainly. Home refrigerators usually run 38 to 42°F, and that is cold enough to damage many fruits and vegetables or keep them from ripening properly. So the question for each item is whether 38 to 42°F is below its damage line.
+The University of California, Davis postharvest researchers put it plainly in their home storage guide. Home refrigerators usually run 38 to 42°F, and that is cold enough to damage many fruits and vegetables or keep them from ripening properly. So the question for each item is whether 38 to 42°F is below its damage line.
 
 ## Your fridge vs. each crop's damage line
 
@@ -43,7 +43,7 @@ The University of California, Davis postharvest researchers who wrote the most-c
 
 ![Bar chart comparing the cold-damage line for tomatoes, sweet potatoes, cucumbers, peppers and potatoes with a home fridge's 38 to 42°F range](/images/how-to-store-produce-fridge-map-diagram.svg)
 
-The pattern: the fruit-type vegetables (tomatoes, peppers, cucumbers, eggplant), sweet potatoes, and winter squash all have damage lines above fridge temperature. Leafy greens, carrots, beets, and the cabbage family are on UC Davis's refrigerate list, which is why they belong in the crisper.
+The pattern: tomatoes, peppers, cucumbers, and sweet potatoes all have damage lines above fridge temperature, and winter squash's storage range sits above it too. Eggplant is on UC Davis's room-temperature list. Leafy greens, carrots, beets, and the cabbage family are on UC Davis's refrigerate list, which is why they belong in the crisper.
 
 ## The full storage map
 
@@ -60,8 +60,8 @@ These lists come from UC Davis's *Storing Fresh Fruits and Vegetables for Better
 
 Two items cause most of the arguments:
 
-- **Apples.** UC Davis keeps them on the counter if you'll eat them within 7 days and in the fridge if longer. Penn State says to refrigerate apples unless they're underripe, because cold makes them less sensitive to ethylene. Either way, a big bag of apples belongs in the fruit drawer.
-- **Peppers, carrots, and strawberries.** Samsung's crisper guide puts all three on the high-humidity setting. That fits Penn State's advice for carrots, since they're ethylene-sensitive vegetables. Strawberries are fruit, so if they share the high-humidity drawer, keep them away from heavy ethylene producers.
+- **Apples.** UC Davis keeps them on the counter if you'll eat them within 7 days and in the fridge if longer. Penn State says to refrigerate apples unless they're underripe, because cold makes them less sensitive to ethylene. Either way, a bag you won't finish within a week belongs in the fruit drawer.
+- **Peppers, carrots, and strawberries.** Samsung's crisper guide puts all three on the high-humidity setting. UC Davis, though, lists peppers as room-temperature produce with a 1–3 day fridge window. Carrots are no conflict: Penn State lists them as ethylene-sensitive vegetables, so they belong in the vegetable drawer anyway. Strawberries are fruit, so if they share the high-humidity drawer, keep them away from heavy ethylene producers.
 
 ## Why fruit and vegetables get separate drawers
 
@@ -92,7 +92,7 @@ So the vegetable drawer goes on high and the fruit drawer goes on low. Brands di
 
 Iowa State University Extension gives the two limits. Below 40°F, potatoes develop a sugary, sweet taste. Above 50°F, they may sprout within two to three months. A fridge running 38 to 42°F sits right on the low line.
 
-The sugar matters for more than taste. The FDA says storing potatoes in the refrigerator can increase acrylamide, a chemical that forms during high-heat cooking. It recommends keeping potatoes outside the fridge in a dark, cool place such as a closet or pantry.
+Cold storage matters for more than taste. The FDA says storing potatoes in the refrigerator can increase acrylamide, a chemical that forms during cooking. It recommends keeping potatoes outside the fridge in a dark, cool place such as a closet or pantry.
 
 Three more details from the sources:
 
@@ -100,7 +100,7 @@ Three more details from the sources:
 - **Away from fruit.** Iowa State says not to store potatoes with apples or other fruit, because ethylene from ripening fruit promotes sprouting. The same goes for winter squash.
 - **Ventilated.** UC Davis puts potatoes, sweet potatoes, onions, and garlic in a well-ventilated spot in the pantry.
 
-Onions and garlic are a different story. Iowa State's long-term storage temperature for cured garden onions is 32 to 40°F, so cold itself doesn't injure a whole dry onion. If yours keep sprouting anyway, see [why onions and garlic keep sprouting indoors](https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html).
+Onions and garlic are a different story. Iowa State's long-term storage temperature for cured garden onions is 32 to 40°F, not a warm range like the one for squash or sweet potatoes. If yours keep sprouting anyway, see [why onions and garlic keep sprouting indoors](https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html).
 
 ## Ripening on purpose: a worked example
 
@@ -125,7 +125,7 @@ If you're regularly losing produce past that window, the fix is usually buying l
 
 UC Davis says to wash whole produce under running water just before you prepare it, not before storing it. Soaking increases the chance of cross-contamination. The FDA says bagged greens labeled "ready to eat," "washed," or "triple washed" don't need re-washing at all.
 
-Once produce is cut or peeled, it goes in the fridge promptly. The USDA's rule for perishable food is no more than 2 hours at room temperature, or 1 hour above 90°F. USDA's leftover guidance also assumes a fridge at 40°F or below. Food that has sat out too long isn't safe even when it smells and looks fine, because the bacteria that cause food poisoning don't change how food looks or smells.
+Once produce is cut or peeled, it goes in the fridge promptly. The USDA's rule for perishable food is no more than 2 hours at room temperature, or 1 hour above 90°F. USDA's leftover guidance also assumes a fridge at 40°F or below. Food that has sat out too long isn't safe even when it smells and looks fine, because the bacteria that cause food poisoning generally don't change how food looks or smells.
 
 ## FAQ
 
@@ -139,7 +139,7 @@ Bananas give off ethylene once fully ripe, says Penn State, so a ripe bunch will
 
 ### Why do my carrots taste bitter?
 
-Ethylene exposure is a common cause. Penn State lists carrots and parsnips among the vegetables that turn bitter when stored near ethylene-producing fruit. Keep them in the vegetable drawer, away from apples and pears.
+Ethylene exposure is one cause. Penn State lists carrots and parsnips among the vegetables that turn bitter when stored near ethylene-producing fruit. Keep them in the vegetable drawer, away from apples and pears.
 
 ## Sources
 

@@ -25,13 +25,13 @@ Wiping shelves and washing clothes won't stop the smell, because it isn't a dirt
 
 ## Two closets, two causes
 
-University of Florida researchers found that bathrooms, closets and bedrooms are the three areas of a house that most often have mold problems. Their extension guide puts the closet problem simply: moisture gets into a closet much more easily than it gets out.
+University of Florida Extension lists bathrooms, closets and bedrooms as the three areas of a house that most commonly have mold problems. Its guide puts the closet problem simply: moisture gets into a closet much more easily than it gets out.
 
-Where that moisture comes from depends mostly on the season.
+Where that moisture comes from often depends on the season.
 
 **The winter closet on an outside wall.** North Dakota State University (NDSU) Extension says closets can encourage mold, especially those on exterior walls. In winter, the closet runs cooler than the rest of the house, so its air can reach a humidity level that grows mold even when the house itself is dry. NDSU says this typically happens near the outside wall.
 
-**The humid-season closet anywhere in the house.** University of Georgia Extension says mildew typically starts to grow when relative humidity stays at 60% and the temperature is 60°F or higher. In a humid summer, a closed closet with no air movement sits in that range for weeks.
+**The humid-season closet anywhere in the house.** University of Georgia Extension says mildew typically starts to grow when relative humidity stays at 60% and the temperature is 60°F or higher. In a humid summer, a closed closet with no air movement can sit in that range.
 
 ## Why the back wall gets wet: a worked example
 
@@ -49,21 +49,21 @@ Apply that to a closet. Your room is 70°F.
 | 70°F, 50% RH | 20°F | 70 − 20 = about 50°F |
 | 70°F, 80% RH | 7°F | 70 − 7 = about 63°F |
 
-An outside wall behind a rack of coats is shielded from the room's heat, so it can run well below room temperature in a cold snap. It doesn't have to reach the dew point to cause trouble. As it cools, the air touching it climbs in RH, toward the conditions where UGA says mildew starts.
+An outside wall behind a rack of coats is shielded from the room's heat, so it can run colder than the room in cold weather. It doesn't have to reach the dew point to cause trouble. As it cools, the air touching it climbs in RH, toward the humidity NDSU says is conducive to mold.
 
-The EPA describes the same thing with furniture. Its mold guide lists "the surface of walls behind furniture (where condensation forms)" as a place hidden mold grows. It says to suspect hidden mold when a building smells moldy but you can't see the source. A packed closet against a cold wall is that situation.
+The EPA describes the same thing with furniture. Its mold guide lists "the surface of walls behind furniture (where condensation forms)" as a place hidden mold grows. It says to suspect hidden mold when a building smells moldy but you can't see the source. A packed closet against a cold wall is a similar situation.
 
 ![Bar chart from NIH figures: room air at 50% humidity condenses on a wall 20°F colder; at 80% humidity a wall only 7°F colder gets wet](/images/why-does-my-closet-smell-musty-inline.svg)
 
 ## Diagnose it: when and where does it smell worst?
 
-The EPA says a humidity meter (hygrometer) costs about $10 to $50 at hardware stores. Put one on a closet shelf for a few days with the door closed as usual, and put a second one in the room, or move the same one over.
+The EPA says a humidity meter (hygrometer) costs about $10 to $50. Put one on a closet shelf for a few days with the door closed as usual, and put a second one in the room, or move the same one over.
 
 | What you notice | Likely cause | First fix |
 |---|---|---|
 | Smell worst in winter, closet on an outside wall, spots in back corners or along the baseboard | Cold wall cooling the closet air (NDSU) | Move clothes and bins off the outside wall; leave the door open in very cold weather |
-| Closet reads noticeably higher than the room | Trapped, still air | Louvered or open door, open shelving, nothing on the floor (UF) |
-| Room and closet both read above 60% | House-wide humidity | Lower humidity in the house, ideally to 30–50% (EPA). A closet product can't keep up (UF) |
+| Closet reads noticeably higher than the room, and it isn't on a cold outside wall | Trapped, still air | Louvered or open door, open shelving, nothing on the floor (UF) |
+| Room and closet both read above 60% | House-wide humidity | Lower humidity in the house, ideally to 30–50% (EPA). UF says desiccants are of little use in a closet then |
 | Smell near a wall shared with a bathroom or laundry, or a soft or stained spot | Possible leak | Find and fix the leak first; EPA says to fix water problems before cleanup |
 | Smell is in the clothes themselves, even after they leave the closet | Fabric has mildewed or was put away damp | Wash and fully dry them before they go back. See our guide on [laundry that still smells musty](https://www.hearth-habit.com/2026/09/why-does-my-laundry-still-smell-musty.html) |
 
@@ -73,7 +73,7 @@ When you empty the closet, NDSU says to check the corners and baseboards for spo
 
 These come from NDSU, the University of Florida (UF) and the EPA. Pick the ones that match your row in the table.
 
-- **Pull everything off the outside wall.** NDSU's first winter tip is to store things away from the outside wall so air can circulate and the closet stays warm. Coats and garment bags pressed flat against that wall act like insulation over it.
+- **Pull everything off the outside wall.** NDSU's winter tip is to store things away from the outside wall so air can circulate and the closet stays warm.
 - **Leave the door open in cold weather.** NDSU says to leave closet doors open during very cold weather. UF says to keep a solid closet door open whenever the closet smells musty.
 - **Swap the door or the shelves.** UF says louvered doors encourage air movement and keep a closet drier, and open wire shelving lets air circulate.
 - **Get things off the floor.** UF warns that moisture gets trapped under items sitting on the closet floor.
@@ -83,7 +83,7 @@ These come from NDSU, the University of Florida (UF) and the EPA. Pick the ones 
 
 ### What about moisture absorbers?
 
-Tubs of calcium chloride and silica packs are the most common fix online, and UF Extension is blunt about them. It says desiccants like calcium chloride are of little use in a closet when the rest of the house is humid. The space they'd have to dry is large compared with the amount of water they can hold.
+Tubs of calcium chloride and silica packs are a common fix online, and UF Extension is blunt about calcium chloride. It says desiccants like calcium chloride are of little use in a closet when the rest of the house is humid.
 
 In a humid house, lower the house humidity instead. That's the fix that reaches the closet.
 
@@ -91,9 +91,9 @@ In a humid house, lower the house humidity instead. That's the fix that reaches 
 
 Once the moisture source is handled, the EPA's method for hard surfaces is plain: scrub mold off with detergent and water, then dry completely. Let the closet dry with the door open before anything goes back in.
 
-A few details most guides skip:
+A few details worth knowing:
 
-- **Bleach isn't the routine answer.** The EPA says biocides such as chlorine bleach are not recommended as a routine part of mold cleanup. It notes that dead mold can still cause allergic reactions, so the point is to remove it, not just kill it. Leftover spores won't grow once the moisture problem is fixed. If you do use bleach, ventilate. Never mix it with ammonia or with acids like vinegar, because Poison Control warns the mix releases toxic gas. In a small closet that matters more.
+- **Bleach isn't the routine answer.** The EPA says biocides such as chlorine bleach are not recommended as a routine part of mold cleanup. It notes that dead mold can still cause allergic reactions, so the point is to remove it, not just kill it. Leftover spores won't grow once the moisture problem is fixed. UGA Extension says bleach solutions should be used with extreme caution. Never mix it with ammonia or with acids like vinegar, because Poison Control warns the mix releases toxic gas. In a small closet that matters more.
 - **Don't paint over it.** The EPA says not to paint or caulk moldy surfaces. Clean and dry them first, because paint over mold is likely to peel.
 - **Porous things may not come clean.** The EPA says absorbent materials like carpet may have to be thrown away if they've grown mold.
 - **Know the size limit.** The EPA says a homeowner can usually handle mold covering less than about 10 square feet, roughly a 3-by-3-foot patch. Bigger growth, mold after sewage or dirty water, or mold in HVAC ducts calls for a professional. Our guide to [when a repair is worth calling a pro for](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html) can help you decide.
@@ -102,11 +102,11 @@ A few details most guides skip:
 
 ### Do scented sachets or charcoal bags fix it?
 
-They change what you smell, but neither removes the moisture. The EPA's position is that mold won't grow once the moisture problem is resolved, so the fixes above are what stop the smell from coming back.
+They change what you smell, but neither removes the moisture. The EPA's position is that mold spores won't grow once the moisture problem is resolved, so the fixes above are what stop the smell from coming back.
 
 ### Does a musty closet mean there's mold inside the wall?
 
-Not necessarily, but the EPA says a moldy smell with no visible source is the classic sign of hidden mold. If the smell stays after you've cleared the outside wall, dried the closet and cleaned visible spots, check the shared walls for leaks. The EPA notes that opening up walls or pulling off wallpaper can release a lot of spores, and suggests an experienced professional for hidden mold.
+Not necessarily, but the EPA says to suspect hidden mold when a building smells moldy and you can't see the source. If the smell stays after you've cleared the outside wall, dried the closet and cleaned visible spots, check the shared walls for leaks. The EPA notes that removing wallpaper with mold growing underneath can release a massive amount of spores, and suggests considering an experienced professional if you believe you have hidden mold.
 
 ### My hygrometer says the room is fine. Why does the closet still smell?
 

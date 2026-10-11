@@ -45,14 +45,14 @@ Those numbers come from USDA, FDA, and CDC, and the tables below put them in one
 
 ## Your fridge dial isn't a thermometer
 
-The numbers 1 to 5 on a fridge control are settings, not degrees. FDA notes that few refrigerator controls show actual temperatures. It recommends an inexpensive freestanding appliance thermometer in the fridge and another in the freezer, checked often.
+The numbers on many fridge controls are settings, not degrees. FDA notes that few refrigerator controls show actual temperatures. It recommends an inexpensive freestanding appliance thermometer in the fridge and another in the freezer, checked often.
 
-Two placement details from FDA matter as much as the setting:
+Two placement details from FDA:
 
 - **The door is the warmest spot.** FDA says to keep eggs in their carton on a shelf inside the fridge, not in the door.
-- **Packing it full works against you.** Cold air has to circulate around food to keep it chilled, so an overstuffed fridge can run warm in spots even when the thermometer in the middle reads fine.
+- **Packing it full works against you.** Cold air has to circulate around refrigerated food to keep it chilled, so FDA says not to overpack.
 
-If the thermometer reads above 40°F, turn the control colder and recheck. FDA's thermometer guidance says food that was above 40°F for 2 hours or less should be safe. If you can't tell how long it's been warm, FDA's advice is to throw it out.
+If the thermometer reads above 40°F, turn the control colder and recheck. FDA's thermometer guidance says food that was above 40°F for 2 hours or less should be safe. If you can't tell how long it's been warm, FDA's advice is to throw it out. If it's been longer than 2 hours, throw it out too; the outage section below explains why this page uses the 2-hour line.
 
 ## Don't let it cool on the counter
 
@@ -60,13 +60,13 @@ The 2-hour clock starts when cooking ends, not when the food feels cool. FDA's r
 
 CDC says small portions of hot food can go straight into the fridge. Larger amounts get divided into shallow containers first. A full pot of chili cools slowly, even in the fridge, and bacteria multiply while it does.
 
-Rice is the special case. According to CDC, *Bacillus cereus* spores survive cooking. If cooked rice sits at room temperature, they germinate and can form a toxin that reheating doesn't destroy. Getting rice cold quickly matters more than how hot you reheat it later. Our [leftover rice guide](https://www.hearth-habit.com/2026/09/why-leftover-rice-makes-people-sick.html) explains why rice behaves differently.
+Rice is the special case. According to CDC, *Bacillus cereus* spores survive cooking. If cooked rice sits at room temperature, they germinate and can form a toxin that reheating doesn't destroy. Reheating can't undo slow cooling, so getting rice cold quickly is what counts; still reheat it to 165°F. Our [leftover rice guide](https://www.hearth-habit.com/2026/09/why-leftover-rice-makes-people-sick.html) explains why rice behaves differently.
 
 ## The leftover clock runs from cooking, not from the package date
 
 USDA's 3-to-4-day window for cooked leftovers starts the day the food was cooked. The date on the package the ingredients came in doesn't change it.
 
-Package dates mean less than people think. FDA says a "use by" date is a quality guideline, not a food safety date. The exception is infant formula and some baby foods, which must be used by the date on the package.
+Package dates mean less than people think. FDA says a "use by" date on most foods is a quality guideline, not a food safety date. The exception is infant formula and some baby foods, which must be used by the date on the package.
 
 Here's how the clock runs for a pot of chili cooked Sunday night:
 
@@ -78,11 +78,11 @@ Here's how the clock runs for a pot of chili cooked Sunday night:
 
 ## Thawing, refreezing, and the temperature to cook it to
 
-FDA lists three safe ways to thaw: in the refrigerator, in cold water, and in the microwave. CDC explains why the counter is off the list. Bacteria multiply quickly in the outer parts of the food that reach room temperature while the center is still frozen.
+FDA lists three safe ways to thaw: in the refrigerator, in cold water, and in the microwave. CDC explains why the counter is off the list. Bacteria multiply quickly in the parts of the food that reach room temperature.
 
 What you can do next depends on how it thawed:
 
-- **Thawed in the fridge:** USDA says it can be refrozen without cooking, with some loss of texture, as long as it's still inside its fridge window. That's 1 to 2 days for ground meat and poultry, 3 to 5 days for steaks, chops, and roasts.
+- **Thawed in the fridge:** USDA says it can be refrozen without cooking, with some loss of quality, as long as it's still inside its fridge window. That's 1 to 2 days for ground meat and poultry, 3 to 5 days for steaks, chops, and roasts.
 - **Thawed in cold water or the microwave:** cook it right away, says FDA. Once it's cooked, you can freeze the dish.
 - **Past its fridge window, or left out over 2 hours:** throw it out.
 
@@ -101,22 +101,22 @@ FDA's outage guidance gives specific limits. Keep the doors closed while the pow
 
 | Appliance | How long it holds with the door closed | When power returns |
 |---|---|---|
-| Refrigerator | About 4 hours, unopened | FDA: discard perishables (meat, poultry, seafood, milk, eggs, leftovers) that were above 40°F for 4 hours or more |
-| Full freezer | About 48 hours | Food with ice crystals, or at 40°F or below, can be refrozen or cooked |
-| Half-full freezer | About 24 hours | Same test: ice crystals or 40°F or below |
+| Refrigerator | About 4 hours, unopened | Discard perishables (meat, poultry, seafood, milk, eggs, leftovers) that were above 40°F for more than 2 hours (FDA's outage page says 4 hours or more; see below) |
+| Full freezer | About 48 hours | FDA: food that still has ice crystals, or reads 40°F or below, can be refrozen or cooked, as long as it hasn't sat thawed past its fridge window |
+| Half-full freezer | About 24 hours | Same test: ice crystals, or 40°F or below and still inside its fridge window |
 | No thermometer, no idea how long | — | Throw out the perishables, and don't decide by appearance or odor |
 
 FDA's two pages draw the fridge line in different places. The outage page discards at 4 hours or more above 40°F. The thermometer page vouches only for 2 hours or less. This site follows the stricter line. If a thermometer shows perishables sat above 40°F for more than 2 hours, discard them. That matches the 2-hour rule everywhere else on this page.
 
 ## One rule for produce
 
-Most produce questions are about quality, not safety. One safety rule does apply, and it comes from FDA. Bagged greens labeled "ready to eat," "washed," or "triple washed" don't need re-washing. Rinsing them again adds a chance of picking up bacteria from the sink or colander rather than removing any.
+One produce safety rule comes from FDA. Bagged greens labeled "ready to eat," "washed," or "triple washed" don't need re-washing. Rinsing them again adds a chance of picking up bacteria from the sink or colander.
 
 ## Sources
 
 - [Leftovers and Food Safety (USDA FSIS)](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety) — 3–4 days in the fridge, 3–4 months frozen for quality, 165°F reheating, shallow containers
 - [Danger Zone 40°F–140°F (USDA FSIS)](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/danger-zone-40f-140f) and [Freezing and Food Safety (USDA FSIS)](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety) — the 2-hour rule; refreezing by thaw method
-- [Refrigerator Thermometers: Cold Facts about Food Safety (FDA)](https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety) — controls don't show temperature, appliance thermometers, overpacking, freezer safety
+- [Refrigerator Thermometers: Cold Facts about Food Safety (FDA)](https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety) — controls don't show temperature, appliance thermometers, overpacking, freezer safety, food above 40°F for 2 hours or less
 - [Food and Water Safety During Power Outages (FDA)](https://www.fda.gov/food/buy-store-serve-safe-food/food-and-water-safety-during-power-outages-and-floods) — 4-hour fridge, 48- and 24-hour freezer, what to discard or refreeze
 - [Are You Storing Food Safely? (FDA)](https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely) and [Safe Food Handling (FDA)](https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling) — use-by dates, eggs off the door, safe thawing, marinating in the fridge
 - [Four Steps to Food Safety (CDC)](https://www.cdc.gov/food-safety/prevention/index.html) — hot food straight into the fridge, counter thawing, safe internal temperatures

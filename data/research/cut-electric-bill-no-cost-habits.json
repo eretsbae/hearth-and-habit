@@ -1,0 +1,115 @@
+{
+  "reader_situation": "Readers with a high or rising electric bill who want to lower it this month without buying a smart thermostat, new appliances, or insulation. Most have already heard 'turn off the lights' and want to know which free changes are worth the effort.",
+  "direct_answer": "Change settings on what you already own, aimed at the biggest slices of the bill: set the thermostat back 7-10°F for 8 hours a day (DOE: up to about 10% a year on heating and cooling), turn an electric water heater to 120°F, wash in cold water, unplug a second fridge, and measure standby loads instead of guessing. Savings depend on how your home is heated and cooled, so verify with kWh per day on your bill.",
+  "consensus": [
+    "Adjust the thermostat a few degrees when asleep or away.",
+    "Wash clothes in cold water and run full loads.",
+    "Unplug electronics or use power strips to cut phantom loads.",
+    "Clean the dryer lint screen and air-dry when possible.",
+    "Use blinds and curtains to manage sun.",
+    "Run appliances off-peak if you have time-of-use rates."
+  ],
+  "gaps": [
+    "Nationally, the biggest electric end uses in 2020 were air conditioning (19%), space heating (12%) and water heating (12%) of residential site electricity (EIA). The water heater is as large a slice as space heating, yet most no-cost lists skip its thermostat; DC's energy agency advises lowering an electric water heater to 120°F.",
+    "Standby power is 5-10% of residential electricity, but most products draw less than 0.5 W in standby (LBNL). At 0.5 W, a device uses 4.38 kWh a year, under $1 at 18¢/kWh, so unplugging chargers barely matters; the savings are in the few high-draw devices a plug-in meter finds.",
+    "Washer: water heating is about 90% of the energy to run a clothes washer; switching hot to warm can cut energy use in half and cold cuts more; washers use about the same energy regardless of load size (ENERGY STAR).",
+    "Dryer: a single towel dried for 30 minutes uses about as much energy as a full load for the same time; clean the lint filter every load and scrub it about monthly if you use dryer sheets, which leave a film (ENERGY STAR).",
+    "A second refrigerator in a basement or garage could be wasting about $90 a year (ENERGY STAR).",
+    "Thermostat setbacks are not universal: for heat pumps, Efficiency Maine says raising the temperature for a short period uses more energy than maintaining it (affinity law), so deep setbacks are a furnace strategy.",
+    "Ceiling fans cool people, not rooms: turn them off in empty rooms and adjust the thermostat when they run; in winter run them clockwise on low (ENERGY STAR).",
+    "The fridge setting has a floor and a ceiling: 37-40°F (DC DOEE); going above 40°F to save energy breaks the USDA food-safety limit.",
+    "Bills differ in billing-cycle length, so compare kWh per day, not bill totals."
+  ],
+  "evidence": [
+    {
+      "claim": "Largest residential electricity end uses",
+      "detail": "The three largest categories and their shares of residential site electricity consumption in 2020 were air conditioning 19%, space heating 12%, water heating 12%. Lighting and refrigerators are the next two largest.",
+      "source_url": "https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php",
+      "source_title": "Electricity use in homes | U.S. Energy Information Administration (EIA)"
+    },
+    {
+      "claim": "Average household consumption",
+      "detail": "In 2022, average annual electricity consumption for a US residential customer was 10,791 kWh, an average of about 899 kWh per month. Louisiana highest at 14,774 kWh; Hawaii lowest at 6,178 kWh.",
+      "source_url": "https://www.eia.gov/tools/faqs/faq.php?id=97&t=3",
+      "source_title": "How much electricity does an American home use? | EIA FAQ"
+    },
+    {
+      "claim": "Washer energy is mostly water heating",
+      "detail": "Water heating consumes about 90% of the energy it takes to operate a clothes washer. Switching from hot to warm can cut energy use in half; using the cold cycle reduces energy use even more. Clothes washers use about the same amount of energy regardless of load size, so run full loads.",
+      "source_url": "https://www.energystar.gov/products/clothes_washers",
+      "source_title": "Clothes Washers | ENERGY STAR"
+    },
+    {
+      "claim": "Dryer use habits",
+      "detail": "Clean the lint filter after every load; dryer sheets can leave a film that reduces airflow, so scrub the filter with a toothbrush about once a month. Smaller loads take longer to dry without the tumbling effect of a full load; drying a single towel for 30 minutes uses about as much energy as drying a full load for the same time. ENERGY STAR dryers use automatic termination (moisture sensing).",
+      "source_url": "https://www.energystar.gov/products/clothes_dryers",
+      "source_title": "Clothes Dryers | ENERGY STAR"
+    },
+    {
+      "claim": "Ceiling fan use",
+      "detail": "Ceiling fans cool people, not rooms. If the room is unoccupied, turn off the ceiling fan. Remember to adjust your thermostat when using your ceiling fan. In winter, reverse the motor and run the fan at low speed clockwise.",
+      "source_url": "https://www.energystar.gov/products/lighting_fans/ceiling_fans/installation_usage_tips",
+      "source_title": "Ceiling Fan Installation and Usage Tips | ENERGY STAR"
+    },
+    {
+      "claim": "Cost of a second refrigerator",
+      "detail": "By keeping a second refrigerator in your basement or garage, you could be wasting $90 per year. An old refrigerator uses approximately 20% more energy than a new ENERGY STAR refrigerator. Proper recycling prevents release of refrigerants and foams.",
+      "source_url": "https://www.energystar.gov/sites/default/files/2024-07/ES_Fridge_Factsheet_English_2024.pdf",
+      "source_title": "Flip Your Fridge & Save with ENERGY STAR (factsheet, 2024)"
+    },
+    {
+      "claim": "Size of standby power",
+      "detail": "Standby power together amounts to 5-10% of residential electricity use. Most products draw relatively little standby power, less than 0.5 watts; twenty years ago standby in typical products was 1-3 W.",
+      "source_url": "https://standby.lbl.gov/",
+      "source_title": "Standby Power | Lawrence Berkeley National Laboratory"
+    },
+    {
+      "claim": "Water heater and fridge settings, winter sun",
+      "detail": "Lower the temperature on your electric water heater to 120 degrees (F). Set refrigerator temperatures between 37 and 40 degrees (F). Older models can often use over three times the energy of newer models. During the heating season, open south-facing window coverings during the day.",
+      "source_url": "https://doee.dc.gov/service/home-energy-saving-tips",
+      "source_title": "Home Energy Saving Tips | DC Department of Energy & Environment"
+    },
+    {
+      "claim": "Heat pumps and setbacks",
+      "detail": "Efficiency Maine Trust, via its communications director, told the Concord Monitor the issue is the affinity (pump) law: recovering from a setback at a much higher flow rate takes disproportionately more power, so raising the temperature for a short period requires a heat pump to use more energy than maintaining it.",
+      "source_url": "https://granitegeek.concordmonitor.com/2025/01/14/why-is-it-ok-to-fiddle-with-the-thermostat-on-a-furnace-but-not-on-a-heat-pump/",
+      "source_title": "Why is it OK to fiddle with the thermostat on a furnace but not on a heat pump? | Concord Monitor (Granite Geek), Jan. 14, 2025"
+    },
+    {
+      "claim": "Current electricity price",
+      "detail": "US total average residential price 18.31 cents/kWh in July 2026 (preliminary), up from 17.45 in July 2025.",
+      "source_url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+      "source_title": "Electric Power Monthly Table 5.6.A | EIA"
+    }
+  ],
+  "real_questions": [
+    "Which of these actually moves the bill, and which is a rounding error?",
+    "Is unplugging chargers and appliances worth it?",
+    "Is it cheaper to keep the house at one temperature than to reheat it, and does that change with a heat pump?",
+    "How do I tell whether my changes worked when rates and seasons change?",
+    "Should I unplug the old fridge in the garage?"
+  ],
+  "original_asset": {
+    "type": "worked_example",
+    "spec": "A ranked table of the nine habits by the slice of the bill each one attacks (EIA end-use shares, ENERGY STAR, LBNL), plus worked arithmetic at the registry rate of 18¢/kWh on EIA's 899 kWh average month: standby slice 5-10% = 45-90 kWh = $8.10-$16.20 a month at most; one 0.5 W device = 0.5 × 8,760 ÷ 1000 = 4.38 kWh = about $0.79 a year; second fridge $90 a year = $7.50 a month; heating+cooling 31% of 899 = about 279 kWh, and DOE's up-to-10% setback = about 28 kWh = about $5 a month. Plus kWh-per-day comparison for verification."
+  },
+  "cautions": [
+    "Electric water heater thermostats sit behind access panels near live wiring; turn off the breaker first or have a pro adjust it. Registry water_heater_flush: power off before work.",
+    "Do not raise the fridge above 40°F to save energy (USDA food-safety limit, registry).",
+    "Heat pumps: do not recommend deep setbacks; the DOE setback figure is for conventional systems.",
+    "Savings figures are national averages and depend on whether the home heats with electricity or gas; label worked examples as hypothetical.",
+    "Research note: energy.gov pages (including the registry's programmable-thermostats URL) returned 404 to the fetch tool, and NRDC returned 403; the thermostat figure comes from the fact registry. The water-heater savings-per-10°F figure seen in search results could not be read on a fetched page and is not used. No Reddit thread surfaced in search."
+  ],
+  "sources": {
+    "https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php": "Electricity use in homes | U.S. Energy Information Administration (EIA)",
+    "https://www.eia.gov/tools/faqs/faq.php?id=97&t=3": "How much electricity does an American home use? | EIA FAQ",
+    "https://www.energystar.gov/products/clothes_washers": "Clothes Washers | ENERGY STAR",
+    "https://www.energystar.gov/products/clothes_dryers": "Clothes Dryers | ENERGY STAR",
+    "https://www.energystar.gov/products/lighting_fans/ceiling_fans/installation_usage_tips": "Ceiling Fan Installation and Usage Tips | ENERGY STAR",
+    "https://www.energystar.gov/sites/default/files/2024-07/ES_Fridge_Factsheet_English_2024.pdf": "Flip Your Fridge & Save with ENERGY STAR (factsheet, 2024)",
+    "https://standby.lbl.gov/": "Standby Power | Lawrence Berkeley National Laboratory",
+    "https://doee.dc.gov/service/home-energy-saving-tips": "Home Energy Saving Tips | DC Department of Energy & Environment",
+    "https://granitegeek.concordmonitor.com/2025/01/14/why-is-it-ok-to-fiddle-with-the-thermostat-on-a-furnace-but-not-on-a-heat-pump/": "Why is it OK to fiddle with the thermostat on a furnace but not on a heat pump? | Concord Monitor (Granite Geek)",
+    "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a": "Electric Power Monthly Table 5.6.A | EIA"
+  }
+}

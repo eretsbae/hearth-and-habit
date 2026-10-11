@@ -1,0 +1,102 @@
+{
+  "reader_situation": "Busy households who keep hitting the 'what's for dinner?' wall midweek, buy groceries that spoil, and want a short weekly planning routine that survives a real week.",
+  "direct_answer": "Spend 5 minutes checking what needs using up, 15 naming five familiar dinners from a running list, and 10 writing the grocery list with quantities; leave two nights open for leftovers. Then order the week by the food-safety clock: raw ground meat and poultry first (1-2 days), steaks and chops later (3-5 days), leftovers within 3-4 days, and freeze anything that won't make its window.",
+  "consensus": [
+    "Plan before you shop and shop from a list.",
+    "Check the fridge and pantry first.",
+    "Repeat familiar meals rather than inventing new ones.",
+    "Leave room for leftovers or flexible nights.",
+    "Prep ingredients ahead to save weeknight time."
+  ],
+  "gaps": [
+    "Most plans ignore the food-safety clock. Raw ground meat and poultry keep 1-2 days in the fridge and steaks/chops 3-5 (FoodSafety.gov chart, registry), so the cooking order matters: perishable proteins early, sturdier cuts and freezer meals late.",
+    "Batch-cooking Sunday for the whole week fails food safety: cooked leftovers keep 3-4 days in the fridge (USDA, registry), so Sunday's batch must be eaten by Wednesday or Thursday or frozen.",
+    "Freezer meals need lead time: refrigerator thawing takes at least one day (24 hours) per 5 pounds; after fridge thawing, ground meat, stew meat, poultry and seafood keep 1-2 days and red meat cuts 3-5 days; fridge-thawed food can be refrozen without cooking, while cold-water-thawed food (water changed every 30 minutes) and microwave-thawed food must be cooked immediately (Montana State University Extension).",
+    "The money at stake is concrete: EPA says the average family of four spends almost $3,000 a year on food that doesn't get eaten (about $58 a week).",
+    "EPA's own planning tips match the shorthand method: keep a running list of meals your household already enjoys, check the fridge, freezer and pantry first, and write quantities on the list with how many meals each item covers.",
+    "Evidence that planning helps is correlational: in 40,554 French adults, meal planners had higher odds of better diet quality (OR 1.13) and food variety (OR 1.25) and lower odds of obesity; the authors say causality can't be inferred.",
+    "The Sunday check should include the fridge thermometer: FDA says keep the fridge at or below 40°F and the freezer at 0°F, and check at least once a week with an appliance thermometer.",
+    "Frozen food is safe indefinitely at 0°F but loses quality over time (FDA); leftovers are best within 3-4 months frozen (USDA, registry). Label containers with contents and dates (EPA)."
+  ],
+  "evidence": [
+    {
+      "claim": "Cost of household food waste",
+      "detail": "The average family of four spends almost $3,000 per year on food that does not get eaten. One-third of all food in the US goes uneaten.",
+      "source_url": "https://www.epa.gov/recycle/preventing-wasted-food-home",
+      "source_title": "Preventing Wasted Food At Home | US EPA"
+    },
+    {
+      "claim": "EPA planning and shopping tips",
+      "detail": "Keep a running list of meals and their ingredients that your household already enjoys. Look in your refrigerator, freezer, and pantry first to avoid buying food you already have. Include quantities on your shopping list noting how many meals you'll make with each item to avoid overbuying.",
+      "source_url": "https://www.epa.gov/recycle/preventing-wasted-food-home",
+      "source_title": "Preventing Wasted Food At Home | US EPA"
+    },
+    {
+      "claim": "EPA storage tips",
+      "detail": "Freeze bread, sliced fruit, meat, or leftovers you know won't be eaten in time; label with the contents and dates. Refrigerate or freeze leftovers in clear, labeled containers with dates. Wilt-prone vegetables (leafy greens, carrots, cucumbers) go in the high-humidity drawer; most fruits and rot-prone vegetables (mushrooms, peppers) in the low-humidity drawer.",
+      "source_url": "https://www.epa.gov/recycle/preventing-wasted-food-home",
+      "source_title": "Preventing Wasted Food At Home | US EPA"
+    },
+    {
+      "claim": "Weekly fridge clean-out night",
+      "detail": "Designate a 'fridge clean out night' once a week where family members repurpose and consume leftovers. Include children in meal planning; have them write out contents of freezer, refrigerator, and pantry to cross-reference before going to the store.",
+      "source_url": "https://www.epa.gov/sustainable-management-food/educating-youth-about-wasted-food",
+      "source_title": "Educating Youth About Wasted Food | US EPA"
+    },
+    {
+      "claim": "Meal planning and diet quality",
+      "detail": "Cross-sectional study of 40,554 NutriNet-Santé adults; 57% planned meals at least occasionally (defined as planning ahead the foods to be eaten for the next few days). Planners had higher odds of top-quartile diet quality (OR 1.13, 95% CI 1.07-1.20) and food variety (OR 1.25, 1.18-1.32). Women: lower odds of overweight (OR 0.92) and obesity (OR 0.79); men: obesity only (OR 0.81). The cross-sectional design prevented any inference of causality.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5288891/",
+      "source_title": "Meal planning is associated with food variety, diet quality and body weight status in a large sample of French adults (Ducrot et al., 2017)"
+    },
+    {
+      "claim": "Refrigerator thawing time",
+      "detail": "Frozen foods require at least one day (24 hours) to thaw for every 5 pounds of weight in the refrigerator.",
+      "source_url": "https://www.montana.edu/extension/buyeatlivebetter/other_nep_resources/fact_sheets/safethawingpractices/",
+      "source_title": "Safe Thawing Practices | Montana State University Extension"
+    },
+    {
+      "claim": "After thawing and refreezing",
+      "detail": "After refrigerator thawing, ground meat, stew meat, poultry and seafood should be cooked within 1-2 days; red meat cuts within 3-5 days. Fridge-thawed food can be refrozen without cooking; this is the only method that allows safe refreezing without cooking. Cold water must be changed every 30 minutes and food cooked immediately once thawed; microwave-thawed food must be cooked immediately.",
+      "source_url": "https://www.montana.edu/extension/buyeatlivebetter/other_nep_resources/fact_sheets/safethawingpractices/",
+      "source_title": "Safe Thawing Practices | Montana State University Extension"
+    },
+    {
+      "claim": "Fridge and freezer temperatures",
+      "detail": "Keep the refrigerator at or below 40°F (4°C); the freezer at 0°F (-18°C). Appliance thermometers are the best way of knowing these temperatures; check at least once a week. Don't crowd the fridge so tightly that air can't circulate.",
+      "source_url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely",
+      "source_title": "Are You Storing Food Safely? | FDA"
+    },
+    {
+      "claim": "Freezer safety vs. quality",
+      "detail": "Though food will be safe indefinitely at 0°F, quality will decrease the longer the food is in the freezer. Perishables should not sit at room temperature more than two hours (one hour above 90°F), including leftovers.",
+      "source_url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely",
+      "source_title": "Are You Storing Food Safely? | FDA"
+    }
+  ],
+  "real_questions": [
+    "Why does my meal plan fall apart by Wednesday?",
+    "Can I cook everything on Sunday and eat it all week?",
+    "Which meals should go early in the week and which later?",
+    "How far ahead do I need to move frozen meat to the fridge?",
+    "How many nights should I actually plan?"
+  ],
+  "original_asset": {
+    "type": "schedule",
+    "spec": "A Sunday-shop week ordered by food-safety windows: Mon and Tue raw ground meat or poultry bought Sunday (registry 1-2 days); Wed steaks/chops (3-5 days) or freezer protein moved to the fridge at least a day ahead (MSU: 24 h per 5 lb; cook ground/poultry within 1-2 days of thawing); Thu leftovers night eating Monday's cooking at day 3 (registry 3-4 days; EPA fridge clean-out night); Fri-Sat open, freezer meals. Worked day-count arithmetic for each window and the waste cost: $3,000 ÷ 52 ≈ $58 a week (EPA)."
+  },
+  "cautions": [
+    "Food safety is time and temperature: never tell readers to judge raw meat or leftovers by smell (registry).",
+    "Raw ground meat and poultry 1-2 days; steaks/chops 3-5; leftovers 3-4 days; reheat to 165°F (registry).",
+    "Only fridge-thawed food may be refrozen uncooked (registry, MSU).",
+    "The meal-planning health study is correlational; don't claim planning causes weight loss.",
+    "Research note: FoodSafety.gov and FSIS pages returned 403 or DNS errors to the fetch tool, so storage times come from the fact registry. USDA Cost of Food PDFs returned 404 and are not used. No Reddit thread surfaced in search; real questions come from blog coverage of failed meal plans."
+  ],
+  "sources": {
+    "https://www.epa.gov/recycle/preventing-wasted-food-home": "Preventing Wasted Food At Home | US EPA",
+    "https://www.epa.gov/sustainable-management-food/educating-youth-about-wasted-food": "Educating Youth About Wasted Food | US EPA",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5288891/": "Meal planning is associated with food variety, diet quality and body weight status in a large sample of French adults (Ducrot et al., 2017)",
+    "https://www.montana.edu/extension/buyeatlivebetter/other_nep_resources/fact_sheets/safethawingpractices/": "Safe Thawing Practices | Montana State University Extension",
+    "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely": "Are You Storing Food Safely? | FDA"
+  }
+}

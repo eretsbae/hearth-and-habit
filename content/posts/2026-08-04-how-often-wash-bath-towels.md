@@ -14,7 +14,7 @@ hero_image: /images/how-often-wash-bath-towels-hero.svg
 hero_alt: "Open shelf of rolled and folded bath towels beside a woven laundry hamper with a used towel spilling over its rim"
 pin_hooks:
 - Workout towel? CDC says wash and machine-dry after each use
-- Hot to warm cuts washer energy in half, per ENERGY STAR
+- Hot to warm can cut washer energy in half, per ENERGY STAR
 enriched: '2026-10-11'
 ---
 
@@ -26,7 +26,7 @@ You'll often see "every three uses" or "once a week," but no US health agency pu
 
 A towel that dries in a few hours on a spread-out bar and one that stays damp all day on a crowded hook are not the same towel by day three. The counting rule people repeat assumes the first kind.
 
-A smell means the towel has been damp long enough for microbes to grow in it. That's why "wash it when it smells" runs behind. The useful question each morning is whether the towel dried completely since you last used it.
+A musty smell is a sign the towel stayed damp too long. That's why "wash it when it smells" runs behind. The useful question each morning is whether the towel dried completely since you last used it.
 
 ## Wash now or reuse? A decision table
 
@@ -38,7 +38,7 @@ A smell means the towel has been damp long enough for microbes to grow in it. Th
 | Shared with someone else | Stop sharing; give each person their own | CDC says avoid sharing towels and washcloths |
 | Someone in the house is sick | Wash, and consider hot water temporarily | ENERGY STAR notes this as a reason to switch to hot |
 | Someone has a skin infection | Their towels stay theirs; wash after use | CDC says MRSA can survive on towels for hours, days, or even weeks |
-| One user, fully dry, no smell | Fine to reuse for a few uses | No agency sets the exact count |
+| One user, fully dry, no smell, and no other row applies | Fine to reuse for a few uses | No agency sets the exact count |
 
 ![Decision chart: if the towel is still damp, used after a workout, or someone is sick, wash it now; if dry and used by one person, reuse it](/images/how-often-wash-bath-towels-inline.svg)
 
@@ -51,17 +51,17 @@ How fast a towel dries depends on the bathroom as much as the towel.
 - **Spread it out.** A towel folded double over a bar or bunched on a hook has a damp core long after the outside feels dry. Open it fully, with air space between towels on a shared rack.
 - **Move it if the room can't dry it.** If the bathroom has no fan or window, hang the towel in a drier room.
 
-For a sense of how long is too long: EPA's mold guidance says wet materials dried within 24–48 hours usually won't grow mold. That guidance is about water damage, not towels. Still, a towel that's damp the next morning, and the morning after, is on the wrong side of it.
+For a sense of how long is too long: EPA's mold guidance says to dry water-damaged items within 24–48 hours to prevent mold growth. That guidance is about water damage, not towels. Still, a towel that's damp the next morning, and the morning after, is on the wrong side of it.
 
 ## Workout towels and shared towels
 
-The CDC's advice for athletes is the most specific towel guidance any agency publishes. Wash towels, uniforms, and clothing after each use, and dry them completely in a dryer, not on a line or rack. Follow the care label. Shower right after exercise, and don't share towels or bar soap.
+The most specific towel guidance in these sources is the CDC's advice for athletes. Wash towels, uniforms, and clothing after each use, and dry them completely in a dryer, not on a line or rack. Follow the care label. Shower right after exercise, and don't share towels or bar soap.
 
-Sharing is the bigger risk at home than stretching a towel an extra day. The CDC tells everyone, not just athletes, to avoid sharing towels, washcloths, and razors. It says MRSA, a drug-resistant staph bacterium, can survive on towels for hours, days, or even weeks.
+At home, sharing is the towel risk the CDC actually addresses. It tells everyone, not just athletes, to avoid sharing towels, washcloths, and razors. It says MRSA, a drug-resistant staph bacterium, can survive on towels for hours, days, or even weeks.
 
 Give each person their own bath towel and a hook or bar spot they can recognize. Color-coding helps in houses with kids.
 
-For hands, the CDC's last handwashing step is to dry them with a clean towel or an air dryer. A hand towel the whole household uses is the shared towel most homes forget about, so it goes in the wash more often than a bath towel.
+For hands, the CDC's last handwashing step is to dry them with a clean towel or an air dryer. A hand towel the whole household uses is a shared towel too, so it's worth washing more often than a bath towel.
 
 ## Hot, warm, or cold water?
 
@@ -71,14 +71,14 @@ Towels don't need hot water for every load. ENERGY STAR's figures show what it c
 |---|---|---|
 | Hot | Highest: water heating is about 90% of a washer's energy use | Temporarily, when someone in the house is sick |
 | Sanitary cycle | Increases energy use significantly | Only when you need it |
-| Warm | Switching from hot to warm can cut energy use in half | Oily soil, like towels used to remove makeup or after heavy sweating |
+| Warm | Switching from hot to warm can cut energy use in half | Oily stains, which ENERGY STAR says may need warmer water |
 | Cold | Lower still | Most loads; ENERGY STAR says cold generally does a good job of cleaning |
 
 A few more ENERGY STAR points help towels in particular. Washers use about the same energy whether full or half full, so run full loads. Use a high spin speed: it pulls more water out of thick terry and shortens drying time.
 
 ## If towels smell musty right out of the wash
 
-That points to the washer, not your reuse habits. ENERGY STAR suggests leaving a front-loader's door ajar for an hour or two after each load so the drum and gasket dry out. Keep children away from the open machine.
+That often points to the washer, not your reuse habits. ENERGY STAR suggests leaving a front-loader's door ajar for an hour or two after each load so the drum and gasket dry out. Keep children away from the open machine.
 
 Follow your washer manufacturer's cleaning instructions. ENERGY STAR notes that some makers recommend a monthly normal cycle with bleach to limit mold and mildew.
 

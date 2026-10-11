@@ -22,9 +22,9 @@ That bang is water hammer: a valve stops moving water so abruptly that a pressur
 
 Flowing water has momentum. When a valve snaps shut, the moving column of water has nowhere to go, the pressure spikes, and the surge jolts the pipe against the framing. That jolt is what you hear.
 
-The National Plumbing Code of Canada sums up why it matters: the longer the pipe and the faster the water, the bigger the surge. The pressure can reach many times normal static pressure, enough to damage the piping system.
+The National Plumbing Code of Canada sums up why it matters: the longer the pipe and the faster the water, the bigger the surge. The pressure can reach many times normal static pressure.
 
-Sioux Chief, a manufacturer of water hammer arrestors, points out that the pipe usually isn't what fails first. The surge hits everything in its path, and its list of parts that fail early includes water heaters, temperature-and-pressure relief valves, pressure-reducing valves, backflow preventers, faucets, appliance solenoid valves, fittings, and pipe hangers. So the bang is worth fixing, not just tolerating.
+Sioux Chief, a manufacturer of water hammer arrestors, points out that the damage isn't limited to the pipe. Its list of parts that fail early includes water heaters, temperature-and-pressure relief valves, pressure-reducing valves, backflow preventers, faucets, appliance solenoid valves, fittings, and pipe hangers. So the bang is worth fixing, not just tolerating.
 
 ## Match the sound to the cause
 
@@ -39,9 +39,9 @@ Sioux Chief, a manufacturer of water hammer arrestors, points out that the pipe 
 
 ## Fix 1: Put an arrestor where the fast valve is
 
-Both of the major US model codes say the same thing. The International Residential Code (section P2903.5) and the International Plumbing Code (604.9) require a water-hammer arrestor **wherever quick-closing valves are used**. It must conform to the ASSE 1010 standard and be installed according to the manufacturer's instructions.
+The two International Code Council model codes say the same thing. The International Residential Code (section P2903.5) and the International Plumbing Code (604.9) require a water-hammer arrestor **wherever quick-closing valves are used**. It must conform to the ASSE 1010 standard and be installed according to the manufacturer's instructions.
 
-Quick-closing valves are the electric ones that snap shut on their own, in washing machines, dishwashers, and ice makers. A faucet you flick closed fast can do it too.
+Common quick-closing valves are the electric ones that snap shut on their own, in washing machines, dishwashers, and ice makers. A faucet you flick closed fast can do it too.
 
 **What size and where.** Sioux Chief's guideline for homes is a point-of-use **AA-size** ASSE 1010 arrestor on *both* the hot and cold lines at each ice maker, dishwasher, washing machine, and tub or shower valve. AA is the small residential size in that standard. The arrestor works by giving the surging water somewhere to go. Inside is a sealed cushion of air or gas, kept permanently separate from the water by a piston, diaphragm, or bellows, which compresses and absorbs the surge.
 
@@ -59,7 +59,7 @@ Look for "ASSE 1010" on the package. Codes accept nothing less.
 
 Higher pressure means faster water and a harder stop. The EPA's WaterSense program recommends **45 to 60 psi** at the house. The IRC (P2903.3.2) and IPC (604.8) cap static pressure at **80 psi** and require a pressure-reducing valve (PRV) above that. EPA notes that supply mains can run 100 psi or more, and Department of Energy building researchers at PNNL note that some exceed 200 psi.
 
-**How to measure it (the EPA's method):**
+**How to measure it (based on the EPA's method):**
 
 1. Screw a water pressure gauge onto an outdoor hose bibb, the cold-water washing machine hookup, or a first-floor cold faucet that takes one.
 2. Make sure nothing else in the house is using water.
@@ -69,21 +69,21 @@ Higher pressure means faster water and a harder stop. The EPA's WaterSense progr
 |---|---|---|
 | Under 45 psi | Below EPA's recommended range | Banging here is unlikely to be a pressure problem; focus on arrestors and supports |
 | 45–60 psi | EPA's recommended range | Pressure is fine; fix at the fixture |
-| 61–80 psi | Legal, but above EPA's range | If you have a PRV, set it to 45–60 psi, as EPA advises; if not, it's worth considering one |
-| Over 80 psi | Above the code maximum | A PRV is required (ASSE 1003 or CSA B356) |
+| 61–80 psi | Within the code limit, but above EPA's range | If you have a PRV, set it to 45–60 psi, as EPA advises; if not, it's worth considering one |
+| Over 80 psi, no PRV | Above the code maximum | A PRV is required (ASSE 1003 or CSA B356) |
 | Over 80 with a PRV already installed | The PRV is failing or set wrong | Have it adjusted or replaced |
 
 On a private well, the EPA's guidance is to set the pressure tank at 60 psi.
 
 **The PRV catch: thermal expansion.** A PRV turns your plumbing into a closed system. When the water heater warms a tank of water, that water expands and has nowhere to go, so pressure climbs.
 
-The IRC (P2903.4.1) requires a pressure-control device when thermal expansion pushes pressure downstream of the PRV above its setting. The same goes for homes with a check valve or backflow preventer (P2903.4.2). In practice that usually means a thermal expansion tank at the water heater.
+The IRC (P2903.4.1) requires a pressure-control device when thermal expansion pushes pressure downstream of the PRV above its setting. The same goes for homes with a check valve or backflow preventer (P2903.4.2). In practice that often means a thermal expansion tank at the water heater.
 
-A relief valve on the water heater that drips after a PRV goes in is the classic sign. Never cap or plug a dripping relief valve; fix the expansion problem instead.
+A relief valve on the water heater that drips after a PRV goes in is a warning sign. Never cap or plug a dripping relief valve; fix the expansion problem instead.
 
 ## Fix 3: Don't rely on the old drain-and-refill trick
 
-Older homes were often built with air chambers, short capped stubs of pipe near fixtures that trap a pocket of air. Over time that air dissolves into the water and the chamber fills up, which is why a house can go quiet for years and then start banging.
+Older homes were often built with air chambers, short capped stubs of pipe near fixtures that trap a pocket of air. Over time the chamber can fill with water, which is one reason a house can go quiet for years and then start banging.
 
 The common advice is to shut the main, open every faucet from the top floor down to drain the system, then refill. That can refill the chambers with air and quiet things for a while. Treat it as a test, not a fix.
 
@@ -98,9 +98,9 @@ Even with water hammer under control, a pipe that's free to move will knock. The
 | Copper tubing, 1¼ inch and smaller | 6 feet | 10 feet |
 | PEX, 1 inch and smaller | 32 inches | 10 feet, plus a guide midway |
 | CPVC, 1 inch and smaller | 3 feet | 10 feet, plus a guide midway |
-| PVC | 4 feet | 10 feet, plus a guide midway |
+| PVC | 4 feet | 10 feet, plus a guide midway for 2 inch and smaller |
 
-Walk the exposed runs in the basement or crawlspace with a tape measure. Check PEX first: it needs a support every 32 inches, far closer than copper's 6 feet. Cushioned clamps stop the knocking where a pipe rubs a joist.
+Walk the exposed runs in the basement or crawlspace with a tape measure. Check PEX first: on horizontal runs it needs a support every 32 inches, far closer than copper's 6 feet. Cushioned clamps help stop the knocking where a pipe rubs a joist.
 
 ## When to call a plumber
 
@@ -114,7 +114,7 @@ Walk the exposed runs in the basement or crawlspace with a tape measure. Check P
 
 ### Is water hammer dangerous or just loud?
 
-Usually not an emergency, but not harmless either. Each surge hits the whole system, and the arrestor maker Sioux Chief lists water heaters, relief valves, PRVs, faucets, and fittings among the parts that fail early from repeated hammer. That's the reason codes require arrestors at quick-closing valves.
+It's more than noise. Each surge hits the whole system, and the arrestor maker Sioux Chief lists water heaters, relief valves, PRVs, faucets, and fittings among the parts that fail early from repeated hammer. Codes also require arrestors at quick-closing valves.
 
 ### Why did it start suddenly in a house that was always quiet?
 

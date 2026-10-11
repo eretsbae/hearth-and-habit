@@ -14,14 +14,14 @@ pillar: yard-outdoor
 hero_image: /images/mosquito-control-that-actually-works-hero.svg
 hero_alt: Backyard patio with a tipped-over watering can, a bucket of water, and small puddles where mosquitoes can breed
 pin_hooks:
-- 'Scrub, don''t just dump: mosquito eggs survive 8 months dry'
-- One Bti dunk covers up to 100 sq ft for 30 days
+- 'Scrub, don''t just dump: mosquito eggs survive up to 8 months dry'
+- One Bti dunk covers up to 100 sq ft for at least 30 days
 enriched: '2026-10-11'
 ---
 
 What works is a weekly empty-and-scrub of every container that holds water, a Bti larvicide in water you can't empty, and an EPA-registered repellent on your skin. Zappers and ultrasonic plug-ins don't measurably help.
 
-That's the CDC's home routine, and the details are where most yards fall short. Here's why the routine is weekly, why scrubbing matters more than dumping, how to dose Bti, and a scorecard for the gadgets.
+The container and repellent steps come from the CDC's home routine, and the details are where many yards fall short. Here's why the routine is weekly, why scrubbing matters more than dumping, how to dose Bti, and a scorecard for the gadgets.
 
 ## Why it has to be weekly, and why you scrub
 
@@ -38,7 +38,7 @@ That second point is why dumping alone falls short. Tip out a bucket and the egg
 
 ## Most of your mosquitoes are from your block
 
-The Asian tiger mosquito is a container breeder. Delaware's state mosquito control section says it flies only about 300 feet from where it bred. "If they are biting you," it says, "their breeding habitat is close by." The American Mosquito Control Association (AMCA) also puts the range of mosquitoes that breed around houses at about 300 feet. The CDC says the Aedes mosquitoes it tracks fly only a few blocks in their lifetime.
+The Asian tiger mosquito is a container breeder. Delaware's state mosquito control section says it flies only about 300 feet from where it bred. "If they are biting you," it says, "their breeding habitat is close by." The American Mosquito Control Association (AMCA) also puts the range of mosquitoes that breed around houses at about 300 feet. The CDC says Aedes mosquitoes fly only a few blocks in their lifetime.
 
 So the source is usually your yard or a neighbor's. That's also why Delaware's program doesn't routinely spray for tiger mosquitoes. It calls source reduction the best option.
 
@@ -46,25 +46,25 @@ So the source is usually your yard or a neighbor's. That's also why Delaware's p
 
 | Item | What to do | Why |
 |---|---|---|
-| Buckets, watering cans, wheelbarrows, kids' toys | Empty, scrub, then store upside down or under cover | CDC's list; eggs cling above the waterline |
+| Buckets, watering cans, wheelbarrows, kids' toys | Empty, scrub, then store upside down or under cover | CDC names buckets and toys; eggs cling above the waterline |
 | Flowerpot saucers | Empty and scrub, or remove them in summer | Delaware says tiger mosquitoes breed in the small amount of water in saucers |
 | Birdbaths | Empty and scrub weekly, then refill | CDC and EPA both name birdbaths |
 | Tires | Throw out, or store covered and dry | CDC's list |
 | Trash and recycling bins | Keep lids closed; tip out water | CDC's list |
 | Tarps, grill and boat covers | Pull taut so no pocket of water forms | Delaware lists boats; any fold that holds water counts |
-| Gutters | Clear clogs so they drain | EPA's list starts with rain gutters |
-| Kiddie pools | Empty weekly or keep treated and circulating | EPA: keep pools treated and circulating |
+| Gutters | Clear clogs so they drain | A clogged gutter can hold standing water |
+| Kiddie pools | Empty and scrub weekly | CDC's list includes pools |
 | Rain barrels, ponds, tree holes | Treat with Bti (next section) | Water you can't or don't want to empty |
 
 Gutters that hold water through summer are covered in our [fall yard cleanup checklist](https://www.hearth-habit.com/2026/07/fall-yard-cleanup-checklist-what.html). If you've added guards, see [whether gutter guards still need cleaning](https://www.hearth-habit.com/2026/08/do-you-still-need-to-clean-gutters-if.html).
 
 ## Treating water you can't empty: dosing Bti
 
-Bti (*Bacillus thuringiensis israelensis*) is a naturally occurring soil bacterium. The EPA says its toxins target only the larvae of mosquitoes, black flies, and fungus gnats. It concludes Bti doesn't pose a risk to people and has minimal toxicity to honey bees. The EPA also calls the larval stage the most effective and least costly place to control mosquitoes.
+Bti (*Bacillus thuringiensis israelensis*) is a naturally occurring soil bacterium. The EPA says its toxins target only the larvae of mosquitoes, black flies, and fungus gnats. It concludes Bti doesn't pose a risk to people and has minimal toxicity to honey bees. The EPA also says larval control is generally the most effective and least costly way to control mosquitoes.
 
 The University of Kentucky's entomology department says Bti isn't harmful to fish, waterfowl, pets, or people when used according to the label.
 
-The most common homeowner form is the dunk, a slow-dissolving ring. Summit, its maker, gives the dose on its product page:
+A common homeowner form is the dunk, a slow-dissolving ring. Summit, its maker, gives the dose on its product page:
 
 - **One dunk per up to 100 square feet of water surface, regardless of depth.** Dose by area, not by gallons.
 - **Effective for at least 30 days.** Add a new one about once a month, or when the old one has completely disappeared.
@@ -94,31 +94,31 @@ Check the downspouts while you're at it. The Department of Energy's building-sci
 |---|---|---|
 | **Bug zapper** | Skip | University of Delaware researchers counted 13,789 insects killed by zappers. Only 31 were biting flies (13,789 ÷ 31 ≈ 1 in 445). 6,670, nearly half, were harmless aquatic insects, and 1,868 were predators and parasites (via Iowa State Extension). AMCA cites a Notre Dame study that found no significant difference in mosquito numbers between yards with and without zappers. |
 | **Ultrasonic repeller** | Skip | AMCA: "these devices just do not work"; ultrasound in the 20–70 kHz range had no effect on mosquito flight. Kentucky: studies repeatedly show negligible benefit. |
-| **"Mosquito-repellent" plants** | Skip | Kentucky: garlic and other advertised botanicals are generally ineffective. |
+| **"Mosquito-repellent" plants** | Skip | Kentucky: repellent plants generally are ineffective. |
 | **Citronella candles** | Minor help, up close | Kentucky: a degree of protection if you use several candles within a few feet of where people sit. AMCA: mild effect, little more than other smoke-producing candles. |
 | **Large fan on the deck** | Worth trying | AMCA calls it a low-tech solution, because mosquitoes are relatively weak fliers. |
-| **Scheduled misting system** | Skip | AMCA warns that these systems may needlessly broadcast pesticides into the environment and hit non-target insects. |
-| **Barrier spray on shady shrubs** | A supplement, with upkeep | Kentucky: pyrethroids on lower tree limbs and shaded areas work but must be reapplied periodically. EPA saves adult control for disease outbreaks or when removing water and larvicides have failed. |
+| **Scheduled misting system** | Skip | AMCA warns that these systems may needlessly broadcast pesticides into the environment. |
+| **Barrier spray on shady shrubs** | A supplement, with upkeep | Kentucky: pyrethroid sprays on shaded vegetation work but must be reapplied periodically. EPA justifies adult control during disease transmission, or when source reduction and larval control have failed or aren't feasible. |
 
 Why zappers miss mosquitoes: AMCA calls carbon dioxide the most universally recognized mosquito attractant. People breathe it out. A UV light doesn't.
 
-A monthly spray service sits in the last row. It treats the adults that already exist. The weekly walk and Bti stop new ones. If you hire a service, ask whether they also inspect for and treat breeding water, which is the part EPA ranks first.
+A monthly spray service sits in the last row. It treats the adults that already exist. The weekly walk and Bti cut down on new ones, though EPA notes neither is likely to be 100% effective. If you hire a service, ask whether they also inspect for and treat breeding water, which is the part EPA ranks first.
 
 ## Protecting people while the yard catches up
 
 The CDC recommends EPA-registered repellents with one of these active ingredients: DEET, picaridin, IR3535, oil of lemon eucalyptus (OLE), PMD, or 2-undecanone. Don't use OLE or PMD products on children under 3. The University of Kentucky rates DEET the most effective. It says other products may help, but generally less and for a shorter time.
 
-The EPA's repellent finder lets you search registered products by mosquitoes or ticks, hours of protection, and active ingredient. Indoors, the CDC and EPA both say to keep window and door screens bug-tight and repair any holes.
+The EPA's repellent finder lets you search registered products by mosquitoes or ticks, hours of protection, and active ingredient. Indoors, the CDC and EPA both point to bug-tight window and door screens.
 
 ## FAQ
 
 ### I empty everything and still get bitten. What am I missing?
 
-Check three things. First, are you scrubbing? Eggs glued above the waterline survive dumping. Second, look for hidden water, like saucers, tarp folds, clogged gutters, and tree holes. Third, the source may be next door. With a range of about 300 feet, a neighbor's buckets count. EPA suggests alerting neighbors and landlords to standing water you spot.
+Check three things. First, are you scrubbing? Eggs glued above the waterline survive dumping. Second, look for hidden water, like saucers, tarp folds, clogged gutters, and tree holes. Third, the source may be next door. With a range of about 300 feet, a neighbor's buckets count. It's worth telling neighbors about standing water you spot.
 
 ### How long until I notice fewer mosquitoes?
 
-None of these sources gives a timeline. Adult females typically live two to three weeks, per AMCA, and new adults emerge 7 to 10 days after eggs are laid. Expect improvement to build over a few weekly cycles rather than overnight. Any untreated sources within a few hundred feet will keep supplying some mosquitoes.
+None of these sources gives a timeline. Adult females typically live two to three weeks, per AMCA, and the CDC says an egg takes 7 to 10 days to develop into an adult. Expect improvement to build over a few weekly cycles rather than overnight. Any untreated sources within a few hundred feet will keep supplying some mosquitoes.
 
 ### Is a dunk in the birdbath safe for birds and pets?
 

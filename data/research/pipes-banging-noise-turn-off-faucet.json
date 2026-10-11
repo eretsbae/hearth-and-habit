@@ -34,7 +34,7 @@
     },
     {
       "claim": "Pipe support spacing",
-      "detail": "IRC Table P2605.1 maximum horizontal support spacing: copper or copper-alloy tubing 1-1/4 inch and smaller 6 feet (vertical 10 feet); PEX 1 inch and smaller 32 inches (vertical 10 feet); CPVC 1 inch and smaller 3 feet; PVC 4 feet. Footnote: for sizes 2 inches and smaller, a guide shall be installed midway between required vertical supports.",
+      "detail": "IRC Table P2605.1 maximum horizontal support spacing: copper or copper-alloy tubing 1-1/4 inch and smaller 6 feet (vertical 10 feet); PEX 1 inch and smaller 32 inches (vertical 10 feet); CPVC 1 inch and smaller 3 feet (vertical 10 feet); PVC 4 feet (vertical 10 feet). Footnote b (on the PEX, CPVC and PVC vertical spacing): for sizes 2 inches and smaller, a guide shall be installed midway between required vertical supports.",
       "source_url": "https://up.codes/viewer/texas/irc-2024/chapter/26/general-plumbing-requirements",
       "source_title": "IRC 2024 Chapter 26 General Plumbing Requirements | UpCodes"
     },

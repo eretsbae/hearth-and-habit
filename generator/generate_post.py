@@ -30,12 +30,14 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "generator"))
 
 import prompts  # noqa: E402
+import research  # noqa: E402
 
 SITE_CONFIG = ROOT / "config" / "site.yml"
 TOPICS_CONFIG = ROOT / "config" / "topics.yml"
 FACTS_CONFIG = ROOT / "config" / "facts.yml"
 POSTS_DIR = ROOT / "content" / "posts"
 IMAGES_DIR = ROOT / "content" / "images"
+RESEARCH_DIR = ROOT / "data" / "research"
 
 
 # ── helpers ──────────────────────────────────────────────────────────────────
@@ -173,9 +175,42 @@ SAFETY_TOPIC_RE = re.compile(
 TIC_LIMITS = {"genuinely": 1, "key takeaway": 1, "the good news": 1, "rule of thumb": 1}
 
 
-def programmatic_checks(cfg: dict, body: str, live_urls: set[str] | None = None) -> list[str]:
+MD_LINK_RE = re.compile(r"\]\((https?://[^)\s]+)\)")
+
+
+def registry_urls() -> set[str]:
+    if not FACTS_CONFIG.exists():
+        return set()
+    facts = (load_yaml(FACTS_CONFIG) or {}).get("facts", [])
+    return {research.normalize_url(f["source"]) for f in facts if f.get("source")}
+
+
+def source_checks(cfg: dict, body: str, dossier: dict) -> list[str]:
+    """A researched article may link outside the site only to pages the
+    research stage actually retrieved, or to registry pages. This is what
+    stops a confident-looking but invented citation from going live."""
+    allowed = {research.normalize_url(u) for u in dossier.get("sources") or {}} | registry_urls()
+    issues = []
+    for url in MD_LINK_RE.findall(body):
+        if re.match(r"https?://(?:www\.)?hearth-habit\.com/", url):
+            continue
+        if research.normalize_url(url) not in allowed:
+            issues.append(f"Links to {url}, which is not one of the dossier's citable sources or a registry URL; remove it or use a listed source.")
+    m = re.search(r"^## Sources\s*$([\s\S]*)", body, flags=re.M)
+    cited = {research.normalize_url(u) for u in MD_LINK_RE.findall(m.group(1))} & allowed if m else set()
+    min_sources = cfg["generation"].get("research", {}).get("min_sources", 3)
+    if len(cited) < min_sources:
+        issues.append(f'"## Sources" cites {len(cited)} allowed source(s); cite at least {min_sources} that the article actually relies on.')
+    return issues
+
+
+def programmatic_checks(
+    cfg: dict, body: str, live_urls: set[str] | None = None, dossier: dict | None = None
+) -> list[str]:
     """Fast, free, deterministic checks — run before spending an API call."""
     issues = []
+    if dossier is not None:
+        issues += source_checks(cfg, body, dossier)
     if PLACEHOLDER_LINK_RE.search(body):
         issues.append('Contains a placeholder link "(#)" or "(/)"; link the real post URL or remove the link.')
     for m in BRACKET_TITLE_RE.finditer(body):
@@ -207,15 +242,22 @@ def programmatic_checks(cfg: dict, body: str, live_urls: set[str] | None = None)
     return issues
 
 
-def quality_review(client, cfg: dict, meta: dict, body: str, pillar: dict, published_titles: list[str]) -> dict:
+def quality_review(
+    client, cfg: dict, meta: dict, body: str, pillar: dict, published_titles: list[str], dossier: dict
+) -> dict:
     user = prompts.QUALITY_USER.format(
         title=meta["title"],
         pillar_name=pillar["name"],
         recent_titles="\n".join(f"- {t}" for t in published_titles) or "- (none yet)",
         facts_block=facts_block(),
+        dossier_block=research.dossier_block(dossier),
         body=body,
     )
-    raw = call_claude(client, cfg["generation"]["model"], prompts.QUALITY_SYSTEM, user, max_tokens=1000)
+    gcfg = cfg["generation"]
+    raw = call_claude(
+        client, gcfg.get("critic_model") or gcfg["model"], prompts.QUALITY_SYSTEM, user,
+        max_tokens=16000, effort="high",
+    )
     match = re.search(r"\{[\s\S]*\}", raw)
     if not match:
         return {"score": 0, "pass": False, "issues": ["Quality reviewer returned no parseable JSON."]}
@@ -227,18 +269,20 @@ def quality_review(client, cfg: dict, meta: dict, body: str, pillar: dict, publi
     return verdict
 
 
-def revise_article(client, cfg: dict, body: str, issues: list[str]) -> str:
+def revise_article(client, cfg: dict, body: str, issues: list[str], dossier: dict) -> str:
     user = prompts.REVISE_USER.format(
         issues_block="\n".join(f"- {i}" for i in issues),
+        dossier_block=research.dossier_block(dossier),
+        facts_block=facts_block(),
         body=body,
     )
-    revised = call_claude(client, cfg["generation"]["model"], prompts.REVISE_SYSTEM, user)
+    revised = call_claude(client, cfg["generation"]["model"], prompts.REVISE_SYSTEM, user, effort="high")
     return revised.strip()
 
 
 def enforce_quality_gate(
     client, cfg: dict, meta: dict, body: str, pillar: dict, published_titles: list[str],
-    live_urls: set[str] | None = None,
+    live_urls: set[str] | None = None, dossier: dict | None = None,
 ) -> tuple[str, bool, int | None, list[str]]:
     """Returns (possibly-revised body, passed, last_score, remaining_issues).
 
@@ -264,8 +308,8 @@ def enforce_quality_gate(
     score = None
     issues: list[str] = []
     for attempt in range(max_rounds + 1):
-        prog_issues = programmatic_checks(cfg, body, live_urls)
-        verdict = quality_review(client, cfg, meta, body, pillar, published_titles)
+        prog_issues = programmatic_checks(cfg, body, live_urls, dossier)
+        verdict = quality_review(client, cfg, meta, body, pillar, published_titles, dossier or {})
         score = verdict.get("score")
         crit_issues = [i for i in verdict.get("issues", []) if i]
         issues = prog_issues + crit_issues
@@ -279,7 +323,9 @@ def enforce_quality_gate(
             return body, False, score, issues
 
         print(f"  quality gate: attempt {attempt + 1} failed (score={score}); revising...")
-        body = revise_article(client, cfg, body, issues)
+        for i in issues[:6]:
+            print(f"    - {i[:200]}")
+        body = revise_article(client, cfg, body, issues, dossier or {})
 
     return body, False, score, issues
 
@@ -322,27 +368,32 @@ def pick_next_topic(topics_data: dict, today: datetime.date | None = None) -> di
 
 # ── Claude calls ─────────────────────────────────────────────────────────────
 
-def call_claude(client, model: str, system: str, user: str, max_tokens: int = 12000) -> str:
-    # Claude Sonnet 5 turns on adaptive thinking by default when `thinking` is
-    # omitted (unlike Sonnet 4.6). Our prompts need a literal ===META===/
-    # ===BODY===/===END=== (or plain-JSON / plain-Markdown) response, not
-    # reasoning, and thinking tokens count against max_tokens — silently
-    # eating the budget meant for the actual output and truncating it before
-    # the closing delimiter. Disable thinking explicitly for these calls.
-    resp = client.messages.create(
+def call_claude(
+    client, model: str, system: str, user: str, max_tokens: int = 32000, effort: str = "medium"
+) -> str:
+    # Thinking stays on (Claude Opus 5.5 rejects disabling it); depth is set by
+    # effort instead. Thinking tokens count against max_tokens, which is why
+    # the budget is far above the ~3K-word article itself — an earlier 12K
+    # budget truncated drafts before the closing delimiter. Streaming keeps a
+    # long request under the SDK's HTTP timeout.
+    with client.messages.stream(
         model=model,
         max_tokens=max_tokens,
         system=system,
-        thinking={"type": "disabled"},
+        output_config={"effort": effort},
         messages=[{"role": "user", "content": user}],
-    )
+    ) as stream:
+        resp = stream.get_final_message()
     if resp.stop_reason == "max_tokens":
         raise ValueError(
             f"Response truncated at max_tokens={max_tokens} (stop_reason=max_tokens). "
             "Increase max_tokens for this call."
         )
+    if resp.stop_reason == "refusal":
+        raise ValueError(f"Model declined the request: {resp.stop_details}")
     text = "".join(b.text for b in resp.content if b.type == "text")
-    print(f"    [call_claude] model={model} stop_reason={resp.stop_reason} chars={len(text)}")
+    print(f"    [call_claude] model={model} effort={effort} stop_reason={resp.stop_reason} "
+          f"chars={len(text)} in={resp.usage.input_tokens} out={resp.usage.output_tokens}")
     return text
 
 
@@ -352,7 +403,8 @@ def pick_angle(published_count: int) -> str:
 
 
 def generate_article(
-    client, cfg: dict, topic: dict, pillar: dict, published_listing: str, angle_instruction: str
+    client, cfg: dict, topic: dict, pillar: dict, published_listing: str, angle_instruction: str,
+    dossier: dict,
 ) -> tuple[dict, str]:
     user = prompts.ARTICLE_USER.format(
         title=topic["title"],
@@ -362,8 +414,9 @@ def generate_article(
         angle_instruction=angle_instruction,
         published_titles=published_listing,
         facts_block=facts_block(),
+        dossier_block=research.dossier_block(dossier),
     )
-    raw = call_claude(client, cfg["generation"]["model"], prompts.ARTICLE_SYSTEM, user)
+    raw = call_claude(client, cfg["generation"]["model"], prompts.ARTICLE_SYSTEM, user, effort="high")
     return parse_article(raw)
 
 
@@ -373,7 +426,7 @@ def generate_svg(client, cfg: dict, brief: str, title: str, diagram: bool = Fals
     and several were unreadable (a mushroom ring that looked like a spider)."""
     user = prompts.SVG_USER.format(brief=brief, title=title)
     system = prompts.SVG_DIAGRAM_SYSTEM if diagram else prompts.SVG_SYSTEM
-    raw = call_claude(client, cfg["generation"]["model"], system, user, max_tokens=6000)
+    raw = call_claude(client, cfg["generation"]["model"], system, user, max_tokens=16000, effort="low")
     return sanitize_svg(raw)
 
 
@@ -392,7 +445,7 @@ def refill_topics(client, cfg: dict, topics_data: dict) -> int:
         pillars_block=pillars_block,
         existing_titles=existing,
     )
-    raw = call_claude(client, cfg["generation"]["model"], prompts.REFILL_SYSTEM, user, max_tokens=2000)
+    raw = call_claude(client, cfg["generation"]["model"], prompts.REFILL_SYSTEM, user, max_tokens=16000)
     match = re.search(r"\[[\s\S]*\]", raw)
     if not match:
         print("WARN: refill response had no JSON array; skipping refill")
@@ -439,15 +492,26 @@ DRY_SVG = (
 
 # ── main ─────────────────────────────────────────────────────────────────────
 
-def write_post(meta: dict, body: str, topic: dict, hero_svg: str, inline_svg: str | None) -> Path:
-    POSTS_DIR.mkdir(parents=True, exist_ok=True)
-    IMAGES_DIR.mkdir(parents=True, exist_ok=True)
+def save_dossier(dossier: dict, slug: str, research_dir: Path = RESEARCH_DIR) -> Path:
+    """Kept next to the post so any claim can be traced to what research found."""
+    research_dir.mkdir(parents=True, exist_ok=True)
+    out = research_dir / f"{slug}.json"
+    out.write_text(json.dumps(dossier, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    return out
+
+
+def write_post(
+    meta: dict, body: str, topic: dict, hero_svg: str, inline_svg: str | None,
+    posts_dir: Path = POSTS_DIR, images_dir: Path = IMAGES_DIR,
+) -> Path:
+    posts_dir.mkdir(parents=True, exist_ok=True)
+    images_dir.mkdir(parents=True, exist_ok=True)
 
     slug = slugify(meta.get("slug") or meta["title"])
     date = datetime.date.today().isoformat()
 
     hero_name = f"{slug}-hero.svg"
-    (IMAGES_DIR / hero_name).write_text(hero_svg, encoding="utf-8")
+    (images_dir / hero_name).write_text(hero_svg, encoding="utf-8")
 
     # Image alt text: the writer's dedicated alt fields, falling back to the
     # art-direction briefs. Descriptive alt is an image-SEO and accessibility
@@ -457,7 +521,7 @@ def write_post(meta: dict, body: str, topic: dict, hero_svg: str, inline_svg: st
 
     if inline_svg:
         inline_name = f"{slug}-inline.svg"
-        (IMAGES_DIR / inline_name).write_text(inline_svg, encoding="utf-8")
+        (images_dir / inline_name).write_text(inline_svg, encoding="utf-8")
         body = body.replace(
             "[INLINE_IMAGE]",
             f"![{inline_alt}](/images/{inline_name})",
@@ -479,7 +543,7 @@ def write_post(meta: dict, body: str, topic: dict, hero_svg: str, inline_svg: st
     if hooks:
         frontmatter["pin_hooks"] = hooks[:2]
     fm = yaml.safe_dump(frontmatter, allow_unicode=True, sort_keys=False).strip()
-    out = POSTS_DIR / f"{date}-{slug}.md"
+    out = posts_dir / f"{date}-{slug}.md"
     out.write_text(f"---\n{fm}\n---\n\n{body}\n", encoding="utf-8")
     return out
 
@@ -487,7 +551,10 @@ def write_post(meta: dict, body: str, topic: dict, hero_svg: str, inline_svg: st
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="Skip API calls; use fixtures")
+    ap.add_argument("--preview", metavar="DIR",
+                    help="Generate the next topic into DIR only; leave content/ and topics.yml untouched")
     args = ap.parse_args()
+    preview = Path(args.preview) if args.preview else None
 
     cfg = load_yaml(SITE_CONFIG)
     topics_data = load_yaml(TOPICS_CONFIG)
@@ -499,7 +566,7 @@ def main() -> int:
 
         client = Anthropic()  # uses ANTHROPIC_API_KEY
 
-    n_posts = 1 if args.dry_run else cfg["generation"].get("posts_per_run", 1)
+    n_posts = 1 if (args.dry_run or preview) else cfg["generation"].get("posts_per_run", 1)
     extra_attempts = cfg["generation"].get("quality_gate", {}).get("max_topic_attempts_extra", 3)
     max_attempts = n_posts + extra_attempts
     generated: list[Path] = []
@@ -525,12 +592,18 @@ def main() -> int:
             try:
                 angle_instruction = pick_angle(len(published_titles))
                 live_urls = {t["blogger_url"] for t in topics_data["topics"] if t.get("blogger_url")}
+                dossier = research.run_research(client, cfg, topic["title"], pillar)
                 meta, body = generate_article(
-                    client, cfg, topic, pillar, published_list(topics_data), angle_instruction
+                    client, cfg, topic, pillar, published_list(topics_data), angle_instruction, dossier
                 )
                 body, passed, score, issues = enforce_quality_gate(
-                    client, cfg, meta, body, pillar, published_titles, live_urls
+                    client, cfg, meta, body, pillar, published_titles, live_urls, dossier
                 )
+            except research.InsufficientEvidence as exc:
+                topic["status"] = "needs_review"
+                topic["quality_issues"] = [str(exc)]
+                print(f"  SKIPPED (parked as needs_review): {exc}")
+                continue
             except Exception as exc:  # malformed/unexpected model response, API hiccup, etc.
                 # Leave the topic's status untouched (still "pending") so a future
                 # scheduled run retries it automatically — this is a technical
@@ -539,7 +612,13 @@ def main() -> int:
                 print(f"  SKIPPED (generation error, will retry next run): {exc}")
                 continue
 
-            if not passed:
+            if not passed and preview:
+                # Keep the failed draft so it can be inspected.
+                (preview / "gate").mkdir(parents=True, exist_ok=True)
+                (preview / "gate" / "failed-issues.json").write_text(
+                    json.dumps({"score": score, "issues": issues}, indent=2), encoding="utf-8")
+                print(f"  PREVIEW: quality gate failed (score={score}); writing the draft anyway")
+            elif not passed:
                 topic["status"] = "needs_review"
                 topic["quality_score"] = score
                 topic["quality_issues"] = issues[:5]
@@ -557,7 +636,17 @@ def main() -> int:
                 print(f"  SKIPPED (image generation error, will retry next run): {exc}")
                 continue
 
+        if preview:
+            out = write_post(meta, body, topic, hero_svg, inline_svg,
+                             preview / "posts", preview / "images")
+            if not args.dry_run:
+                save_dossier(dossier, out.stem.split("-", 3)[-1], preview / "research")
+            generated.append(out)
+            print(f"  -> {out} (preview, score={score})")
+            break
         out = write_post(meta, body, topic, hero_svg, inline_svg)
+        if not args.dry_run:
+            save_dossier(dossier, slugify(meta.get("slug") or meta["title"]))
         generated.append(out)
         print(f"  -> {out.relative_to(ROOT)}")
 
@@ -566,7 +655,7 @@ def main() -> int:
         if not args.dry_run:
             topic["quality_score"] = score
 
-    if not args.dry_run and client is not None:
+    if not args.dry_run and client is not None and not preview:
         try:
             added = refill_topics(client, cfg, topics_data)
             if added:
@@ -574,7 +663,7 @@ def main() -> int:
         except Exception as exc:
             print(f"WARN: topic refill failed, skipping this run: {exc}")
 
-    if not args.dry_run:
+    if not args.dry_run and not preview:
         save_yaml(TOPICS_CONFIG, topics_data)
 
     if not generated:

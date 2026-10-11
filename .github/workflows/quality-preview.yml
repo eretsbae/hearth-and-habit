@@ -1,0 +1,62 @@
+# 생성 파이프라인 미리보기 — 아무것도 커밋·게시하지 않습니다.
+# - 새 글 1편(대기 주제 다음 순서)을 리서치→집필→품질 게이트까지 돌리고,
+#   slugs 를 주면 그 기존 글들을 보강(enrich)해 본 결과를 아티팩트로 올립니다.
+# - 프롬프트·품질 기준을 바꾼 뒤 실제 결과를 확인하는 용도. Claude API 비용이
+#   듭니다(글 1편당 대략 $1~2).
+
+name: Quality Preview
+
+on:
+  workflow_dispatch:
+    inputs:
+      new_post:
+        description: "Generate a preview of the next new post"
+        type: boolean
+        default: true
+      slugs:
+        description: "Space-separated slugs of existing posts to enrich (optional)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Preview a new post
+        if: inputs.new_post
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python generator/generate_post.py --preview _preview/new 2>&1 | tee _preview-new.log
+        continue-on-error: true
+
+      - name: Preview enriching existing posts
+        if: inputs.slugs != ''
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLUGS: ${{ inputs.slugs }}
+        run: |
+          mkdir -p _preview/enrich
+          python generator/enrich_post.py --slugs $SLUGS --preview _preview/enrich \
+            --report _preview/enrich/report.json 2>&1 | tee _preview-enrich.log
+        continue-on-error: true
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: quality-preview
+          path: |
+            _preview/
+            _preview-*.log
+          if-no-files-found: warn

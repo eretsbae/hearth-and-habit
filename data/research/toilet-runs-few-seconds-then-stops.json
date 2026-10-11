@@ -1,0 +1,88 @@
+{
+  "reader_situation": "Someone hears their toilet refill for a few seconds when nobody has flushed it, then go quiet, sometimes in the middle of the night. They want to know whether it's a problem, what part is failing, and whether they need a plumber.",
+  "direct_answer": "It's a slow leak out of the tank (a 'ghost flush'), and the fill valve is topping the tank back up. Most often the flapper or its seat is leaking into the bowl; a refill tube pushed too far into the overflow pipe can siphon water the same way, and a failed tank-to-bowl seal leaks outside the tank. The fill valve is usually not the faulty part.",
+  "consensus": [
+    "Ghost or phantom flushing means water is leaking from the tank.",
+    "The flapper is the usual culprit.",
+    "Do a food-coloring dye test.",
+    "Check the chain and the water level.",
+    "Replacing a flapper is a cheap DIY job."
+  ],
+  "gaps": [
+    "The dye test misses slow leaks. Fluidmaster says dye works well for faster leaks but does not always verify a slow leak; shut the water off, mark the level, check every 15 minutes until it stops dropping. If the flapper or seat is the problem, the level stops just below the flapper.",
+    "The refill sound is the fill valve doing its job. Fluidmaster calls ghost flushing the fill valve's way of letting you know water is leaking out of the tank, so replacing the fill valve doesn't fix it.",
+    "A refill tube inserted too far into the overflow pipe can cause the leak; Fluidmaster's fix is to reattach it to the outside of the overflow pipe.",
+    "Flapper age decides inspect-or-replace: Fluidmaster says if the flapper is more than 5 years old, simply change it; if under 5, clean it and the seat first, and feel the seat for nicks. Flapper sizes: 2-inch or 3-inch flush valves take different flappers.",
+    "Chlorine drop-in tablets warp flappers and void warranties: Fluidmaster links warping to chlorine tablets; Kohler warns calcium hypochlorite products seriously damage tank fittings and that use of in-tank cleaners voids its one-year warranty.",
+    "If the leak continues after a new flapper, the flush valve or its seal is next, not the fill valve (Fluidmaster). External leaks come from the fill valve locknut, supply line (replace if older than 5 years) or the tank-to-bowl gasket and bolts.",
+    "Cost of ignoring it can be estimated from your own refill time: EPA says the federal standard is 1.6 gallons per flush and WaterSense toilets use 1.28 or less, and household leaks can waste 180 gallons a week; most toilet leaks are worn flappers."
+  ],
+  "evidence": [
+    {
+      "claim": "Ghost flushing causes and internal-leak steps",
+      "detail": "Refill sounds without flushing mean water is escaping the tank, internally into the bowl or externally. The sound 'can happen intermittently and occur every few minutes or every few hours.' 'If refill tube is inserted too far into the overflow pipe, pull it out and reattach to outside of overflow pipe.' Wipe the flapper and flush valve surface clean; replace the flapper if it keeps running. 2-inch valves take a 502 flapper, 3-inch a 5403 (or a universal model). If those fail, replace the whole flush valve.",
+      "source_url": "https://fluidmaster.com/toilet-problems/solutions-toilet-making-refill-sounds/",
+      "source_title": "Toilet Flushing On Its Own | Toilet Ghost Flushing | Fluidmaster"
+    },
+    {
+      "claim": "External leak sources",
+      "detail": "Likely sources are the bottom of the fill valve, the water supply line, or the tank-to-bowl seals. Make sure the fill valve locknut is tight against the ceramic; hand-tighten. 'It is always a good idea to replace the water supply line if it's older than 5 years.' If water leaks from under the tank onto the bowl, replace the tank-to-bowl gasket and bolts with washers. Do not use in-tank drop-in cleaners containing bleach or chlorine.",
+      "source_url": "https://fluidmaster.com/toilet-problems/solutions-toilet-making-refill-sounds/",
+      "source_title": "Toilet Flushing On Its Own | Toilet Ghost Flushing | Fluidmaster"
+    },
+    {
+      "claim": "Slow-leak test and flapper decision",
+      "detail": "Dye tablets or food coloring confirm leaks but 'does not always verify a slow leak.' Slow-leak procedure: with the tank full, shut off water, mark the level, wait 15 minutes, repeat until it stops changing; do not flush. If the flapper is worn or the seat is damaged, 'the water level will stop just below the flapper.' Ghost flushing 'is merely a fill valve's way of letting you know you have water leaking out of your tank.' 'If the flapper is more than 5 years old, simply change it'; under 5, inspect and clean. Wipe slime and debris from the flapper underside and seat; run a finger around the seat rim for irregularities or nicks; a damaged brass seat means replacing the flush valve. Chlorine tablets in the tank cause warping. Chain slack about 1/4 to 1/2 inch.",
+      "source_url": "https://fluidmaster.com/toilet-problems/identify-fix-toilet-flapper-leaks/",
+      "source_title": "Leaking Toilet Flapper | Toilet Keeps Running | Fluidmaster"
+    },
+    {
+      "claim": "Pencil-mark test and water level in overflow",
+      "detail": "With the tank full, turn off the water and mark the water level. 'Wait a period of time 10-15 minutes and note if the water is draining down from your mark.' If it drains, replace the flapper first, 'the most common problem'; if it still drains, replace the flush valve. If water rises so high it drains into the overflow pipe, clean the fill valve; dirt and debris can lodge inside it.",
+      "source_url": "https://fluidmaster.com/toilet-problems/toilet-running-constantly/",
+      "source_title": "How To Fix Running Toilet | Fluidmaster"
+    },
+    {
+      "claim": "Kohler on in-tank cleaners",
+      "detail": "'Do not use in-tank cleaners in your toilet. Products containing chlorine (calcium hypochlorite) can seriously damage fittings in the tank. This damage can cause leakage and property damage.' One-year limited warranty: 'Use of in-tank toilet cleaners will void the warranty.' Tighten tank bolts evenly.",
+      "source_url": "https://techcomm.kohler.com/techcomm/pdf/1324739-2.pdf",
+      "source_title": "KOHLER toilet installation guide 1324739-2"
+    },
+    {
+      "claim": "Flush volumes and leak scale",
+      "detail": "Federal standard is 1.6 gallons per flush; WaterSense toilets use 1.28 gallons per flush or less; older toilets as much as 6 gallons per flush. 'Household leaks can waste 180 gallons per week.' 'Most toilet leaks are due to old or worn-out toilet flappers (e.g., valve seal).'",
+      "source_url": "https://www.epa.gov/watersense/residential-toilets",
+      "source_title": "Residential Toilets | US EPA WaterSense"
+    },
+    {
+      "claim": "Household leak totals",
+      "detail": "'The average family can waste 180 gallons per week, or 9,400 gallons of water annually, from household leaks.'",
+      "source_url": "https://www.epa.gov/watersense/statistics-and-facts",
+      "source_title": "Statistics and Facts | US EPA WaterSense"
+    }
+  ],
+  "real_questions": [
+    "Why does my toilet refill by itself in the middle of the night?",
+    "Is it the fill valve or the flapper?",
+    "The dye test was negative but it still refills. Now what?",
+    "How much water does a ghost flush waste?",
+    "Do toilet tank tablets cause this?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "A test-result-to-cause table (dye, pencil mark with supply off, where the level stops, refill tube position, wet bolts) from Fluidmaster's pages, plus a worked example estimating daily waste from a reader's own refill timing using the EPA 1.6 gpf figure, with arithmetic shown."
+  },
+  "cautions": [
+    "Don't over-tighten tank bolts or the fill valve locknut; Kohler says tighten bolts evenly and Fluidmaster says hand-tighten the locknut.",
+    "Bleach or chlorine drop-in tablets damage tank parts; never combine bleach products with acidic bowl cleaners.",
+    "Don't attribute a specific daily waste figure to the EPA."
+  ],
+  "sources": {
+    "https://fluidmaster.com/toilet-problems/solutions-toilet-making-refill-sounds/": "Toilet Flushing On Its Own | Toilet Ghost Flushing | Fluidmaster",
+    "https://fluidmaster.com/toilet-problems/identify-fix-toilet-flapper-leaks/": "Leaking Toilet Flapper | Toilet Keeps Running | Fluidmaster",
+    "https://fluidmaster.com/toilet-problems/toilet-running-constantly/": "How To Fix Running Toilet | Fluidmaster",
+    "https://techcomm.kohler.com/techcomm/pdf/1324739-2.pdf": "KOHLER toilet installation guide 1324739-2",
+    "https://www.epa.gov/watersense/residential-toilets": "Residential Toilets | US EPA WaterSense",
+    "https://www.epa.gov/watersense/statistics-and-facts": "Statistics and Facts | US EPA WaterSense"
+  }
+}

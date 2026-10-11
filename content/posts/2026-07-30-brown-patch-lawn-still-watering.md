@@ -2,9 +2,8 @@
 title: Why Does Part of My Lawn Stay Brown Even Though I Water It?
 slug: brown-patch-lawn-still-watering
 date: '2026-07-30'
-updated: '2026-09-29'
-description: Usually it's a sprinkler blind spot, compacted soil, grubs, dog urine,
-  or brown patch fungus that extra water makes worse. Here's how to find which one.
+updated: '2026-10-11'
+description: A brown spot that watering won't fix is usually a coverage gap, grubs, dog urine, or brown patch fungus. The tests and thresholds that tell which one.
 tags:
 - lawn care
 - yard maintenance
@@ -14,97 +13,172 @@ pillar: yard-outdoor
 hero_image: /images/brown-patch-lawn-still-watering-hero.svg
 hero_alt: Lawn with one stubborn brown patch in full sun while a sprinkler in the background sprays toward it
 pin_hooks:
-- The screwdriver test that shows if water reaches the roots
-- Night watering can make brown patch fungus worse
+- 'Catch-can test: find the dry spot your sprinkler misses'
+- 'Brown patch: water before sunrise, not every evening'
+enriched: '2026-10-11'
 ---
 
-Part of a lawn usually stays brown despite watering because the water isn't reaching the roots (a sprinkler blind spot or compacted soil), something is killing the grass (grubs, dog urine, de-icing salt, buried debris), or it's the fungal disease brown patch — which extra watering, especially at night, makes worse.
+Usually the water isn't reaching that spot's roots, or something other than drought is killing it: grubs, dog urine, or a fungus called brown patch that frequent evening watering makes worse. A screwdriver, a few tuna cans, and a tug on the grass will tell you which in about an hour.
 
-Here's how to work through the likely causes in order, from most common to least, and fix the one that's actually yours.
+The order matters. Watering harder fixes only the first cause, and it makes brown patch worse. Below is a diagnostic table, then the details and thresholds for each cause from university extension services.
 
-## Step 1: Check whether water is actually reaching that spot
+## The one-hour diagnosis
 
-Before assuming the grass itself is damaged, confirm the water is landing where you think it is. Run your sprinkler or irrigation system for its normal cycle, then walk the brown area and push a screwdriver or a long stick into the soil.
+Do these checks the morning after a normal watering.
 
-- **If it slides in easily** (6 inches or more without much resistance), water is getting through and the cause is likely something else — skip to Step 3.
-- **If it stops hard within an inch or two**, that spot isn't getting watered enough, even if the rest of the lawn looks fine.
+| Test | What you see | Likely cause | Go to |
+|---|---|---|---|
+| Push a long screwdriver into the brown spot | Hard to push, no soil sticks, soil doesn't feel cool | Water isn't getting there | Coverage, then compaction |
+| Same test | Slides in easily into moist soil | Water is fine; something else is wrong | Keep going |
+| Tug a handful of brown grass | Turf lifts loose, ground feels spongy | Grubs eating the roots | Grubs |
+| Look closely at single blades | Tan lesions with a dark brown border; cobwebby growth on humid mornings | Brown patch fungus | Brown patch |
+| Look at the spot's shape and surroundings | A small dead spot, maybe with dark green grass nearby, where the dog goes | Dog urine | Dog urine |
 
-This single test rules out half the guesswork. A lawn can look evenly watered from the porch and still have a dry pocket a sprinkler head just doesn't reach well.
+![Flow chart: push a screwdriver in, then tug the grass, then check single blades, to separate coverage gaps, grubs, and brown patch](/images/brown-patch-lawn-still-watering-inline.svg)
 
-## Step 2: Look for coverage gaps and pressure problems
+The screwdriver test comes from the University of Nebraska–Lincoln (UNL) water program: if it goes in easily to the depth where soil is moist, the soil is watered. For lawns, UNL says the soil should be moist to about six inches. Deeper than that wastes water.
 
-If the screwdriver test showed dry soil, the issue is almost always one of these:
+## Cause 1: the sprinklers miss the spot
 
-**Sprinkler coverage.** Fixed spray heads typically throw water 10 to 15 feet, and overlapping coverage is what keeps a lawn even. A head that's tilted, clogged, or set slightly wrong can leave a crescent-shaped dry zone right at the edge of its range — which is exactly the kind of brown patch people report. Turn the system on manually during daylight and watch each zone; look for heads blocked by tall grass, a sunken head that doesn't pop up fully, or a spray pattern that's clearly weaker than its neighbors.
+A lawn can look evenly watered from the porch and still have one dry zone. Measuring is quicker than guessing.
 
-**Slope and runoff.** On any incline, water runs downhill faster than it soaks in, so high spots and corners near driveways or slabs dry out first. These areas often need shorter, more frequent watering cycles rather than one long soak, so the water has time to absorb instead of running off.
+### The catch-can test
 
-**Shade versus sun mismatch.** A patch near a tree or fence that gets blasted with afternoon sun while the rest of the yard is shaded will dry out faster and show stress first, even with identical watering. This isn't usually fixable by watering harder — it's a sign that spot needs its own schedule, or a more shade/heat-tolerant grass mix over time.
+UNL's irrigation audit uses kitchen containers:
 
-**A rough fix while you diagnose:** hand-water the dry patch two or three times a week for 10–15 minutes with a hose while you sort out the sprinkler issue. It buys the grass time without wasting water on the whole lawn.
+1. Collect 10 to 15 flat-bottomed, straight-sided cans, like tuna or cat food cans.
+2. Spread them 10 to 15 feet apart (never more than 15) across one sprinkler zone. Put at least one in the brown spot.
+3. Run the zone for at least 15 minutes. Some systems need 30 to collect enough to measure.
+4. Measure the water in each can with a ruler, add the readings, and divide by the number of cans. That's the zone's average.
+5. Repeat for each zone.
 
-## Step 3: Rule out compacted soil
+### Worked example (hypothetical readings)
 
-If water is reaching the area (the screwdriver went in fine) but the grass is still struggling, compacted soil is a common next suspect — especially in spots near a walkway shortcut, a gate, a play area, or anywhere feet or tires regularly cross the lawn.
+Ten cans after a 30-minute run read, in inches: 0.30, 0.28, 0.32, 0.30, 0.25, 0.31, 0.29, 0.30, and, in the brown spot, 0.05 and 0.10.
 
-Compacted soil acts like a lid: water pools on top and runs off instead of soaking in, so the roots underneath stay dry even during a normal watering session. Grass over compacted soil also tends to have short, shallow roots — pull up a small clump from the brown patch and compare it to a clump from a healthy area. A noticeably thinner or shallower root system is a good sign compaction is the culprit.
+- Total: 2.50 inches
+- Average: 2.50 ÷ 10 = 0.25 inch per 30 minutes
+- UNL says lawns need about 1 inch a week. At the average rate, that's 1 ÷ 0.25 = 4 half-hour runs, or 2 hours a week.
+- In those same 2 hours, the 0.05 can gets 0.05 × 4 = 0.2 inch. That's a fifth of what the lawn needs.
 
-The fix is core aeration — pulling small plugs of soil out of the lawn to open up channels for water and air. Most homeowners rent a core aerator or hire it out once a year, and it's one of the higher-payoff, lower-effort lawn tasks available (in the same spirit as our [bare-minimum lawn schedule](https://www.hearth-habit.com/2026/07/lawn-care-for-people-who-dont-care.html)). Aerate cool-season lawns in early fall or spring and warm-season lawns in late spring to early summer, then follow with a good deep watering — you should see improvement over the next few weeks, not overnight.
+Now try fixing it by running longer. To get the dry spot to 1 inch you'd need 1 ÷ 0.05 = 20 half-hour runs, 10 hours a week. The rest of the lawn would get 0.25 × 20 = 5 inches. That's why a dry spot needs the sprinkler head fixed, not a longer run time.
 
-![Soil cutaway comparing deep-rooted healthy grass with shallow-rooted brown grass in compacted soil where water sits on top](/images/brown-patch-lawn-still-watering-inline.svg)
+Look at the head nearest the low cans. It may be tilted, sunken, clogged, or blocked by grass. Hand-water the spot while you fix it.
 
-## Step 4: Rule out brown patch disease — especially if you water often or at night
+UNL notes lawns may need up to 1.5 inches a week in the hottest part of summer. Water deeply and infrequently rather than a little every day.
 
-If the patch showed up during hot, humid weather and the soil under it is moist rather than dry, suspect the fungal disease actually named brown patch, caused by *Rhizoctonia solani*. It's common on tall fescue and perennial ryegrass in summer, and a close relative called large patch hits warm-season grasses like St. Augustine and zoysia in the cool, wet weather of spring and fall. The fungus thrives when grass blades stay wet for long stretches on warm nights — which is exactly what frequent, evening, or nighttime watering creates. This is the one cause where watering more makes things worse.
+## Cause 2: compacted soil
 
-**How to spot it:** roughly circular tan or brown patches from several inches to a few feet across, sometimes with a darker, grayish "smoke ring" at the edge on humid mornings, and individual blades with tan spots edged in dark brown. Unlike grub damage, the turf stays anchored — it won't roll back like a loose carpet.
+If the cans show the water arriving but the screwdriver still won't go in, the soil itself may be the problem. Hard-packed soil sheds water before it soaks in, which is common along shortcuts, gates, and play areas.
 
-**What to do:**
+The fix is core aeration, which pulls plugs of soil out so water and air can get in. Clemson University's guidance:
 
-- Water only in the early morning so blades dry during the day, and water deeply but less often (about an inch a week, rain included) instead of a little every evening.
-- Hold off on nitrogen fertilizer during hot, humid stretches; lush, heavily fed grass is more susceptible.
-- Don't mow while the grass is wet, since mowers can spread the fungus.
-- On tall fescue, brown patch often thins the grass without killing the roots, so it may recover once the weather cools. Fungicides are an option for lawns that get it badly every year, but they work best as prevention, not as a rescue.
+- **Timing:** fescue in fall; warm-season grasses (Bermuda, centipede, zoysia, St. Augustine) in late spring or early summer. Leave at least four weeks of good growing weather before cold or hot temperatures arrive.
+- **Soil:** moist, not wet.
+- **Depth:** cores about 2 to 3 inches deep. Leave the plugs; they break down on their own.
+- **Passes:** two, the second across the first.
+- **Avoid spike aerators:** solid spikes may cause more compaction later.
 
-## Step 5: Check for grubs and other hidden damage
+Aeration is one of the few jobs on our [bare-minimum lawn schedule](https://www.hearth-habit.com/2026/07/lawn-care-for-people-who-dont-care.html) that pays off this directly.
 
-If the patch pulls up like loose carpet with almost no roots holding it down, that's a strong sign of grub damage — the larvae of beetles that eat grass roots from below. A quick check: grab a handful of the dead grass and tug. Healthy grass resists; grub-damaged grass lifts away in a sheet because there's nothing left underneath to anchor it.
+## Cause 3: brown patch fungus, where more water makes it worse
 
-You can also cut a small square of turf, peel it back, and look for C-shaped white grubs in the top few inches of soil. Extension services typically put the treatment threshold at roughly 5 to 10 or more grubs per square foot; the exact number varies with the grub species and how healthy the lawn is, and fewer than that usually isn't what's killing your grass. Treatment options range from targeted lawn insecticides to beneficial nematodes, and timing matters: preventive products go down in late spring to early summer, while curative ones work best in late summer to early fall, when grubs are young and feeding near the surface. If you don't find grubs, don't treat for them — most grub products are unnecessary insurance if the actual cause is coverage or compaction.
+Brown patch is a fungal disease, mostly of tall fescue and other cool-season grasses in summer. It's the cause people miss most because the soil underneath is moist. The usual response, more water, feeds the fungus.
 
-## Step 6: Consider chemical damage — pet urine, fertilizer, or de-icing salt
+### The weather that sets it off
 
-A brown patch with a dark green, extra-lush ring around the edge is a classic sign of dog urine. The nitrogen in urine is so concentrated in one spot that it burns the grass in the center while over-fertilizing (and greening up) the ring around it. Watering more won't fix this — what helps is flushing the spot with extra water right after your dog uses it, to dilute the nitrogen before it scorches the roots, and reseeding the dead spot once it's stopped happening.
+The two extension sources give slightly different triggers. Both point to warm nights and leaves that stay wet:
 
-Fertilizer spills, gas or oil drips from equipment, and de-icing salt from a nearby driveway or sidewalk cause similar chemical burn (salt is the usual reason [the strip along a sidewalk dies every winter](https://www.hearth-habit.com/2026/09/why-does-grass-along-sidewalk-die-every.html)). These patches tend to have sharp, unnatural edges rather than the soft, irregular shape of a drought spot, which is a useful visual clue when you're trying to tell the causes apart.
+- **NC State:** brown patch can develop once nights are warmer than 60°F and is most severe when lows top 70°F and highs top 90°F. Leaves must stay wet for at least 10 to 12 hours for infection.
+- **Kansas State:** it thrives when night air stays above 68°F and leaves stay wet more than 8 hours in a row.
 
-## Step 7: Rule out buried debris
+An evening watering on a warm night does exactly that: it keeps the blades wet from dusk until the sun dries them.
 
-Old construction debris, a buried tree stump, a slab of concrete, or even a shallow layer of builder's sand under thin topsoil can all create a permanent dry, poor spot no amount of watering will fix. This is more common in newer construction or if the brown patch has been in the exact same spot, unchanged, for years despite every other fix.
+### How to confirm it
 
-Call 811 a few business days before you dig — it's free, and some utility lines are buried surprisingly shallow. Then dig down 6 to 12 inches in the worst part of the patch. If you hit something solid or the soil composition changes abruptly, that's your answer. The real fix is removing the debris if practical, or accepting that spot may need a raised planting bed, mulch, or a groundcover instead of grass.
+Both sources describe tan lesions with a dark brown border on individual blades. NC State says patches on lawns mowed above 1 inch range from 6 inches to several feet across. On humid mornings you may see cobwebby white or gray fungal growth.
 
-## Step 8: Reseed and give it time
+The dark "smoke ring" at the patch edge that many articles describe is mostly a feature of very short turf, like golf greens. NC State says it shows only when leaves are wet or humidity is near 100%. A home lawn without one can still have brown patch.
 
-Once you've addressed the actual cause — better coverage, aeration, better watering habits, grub treatment, or diluting urine spots — the dead grass itself usually needs help getting back. Rake out the dead material, loosen the top inch of soil, and overseed with a grass type that matches the rest of your lawn. Keep the area consistently moist (not soaked) for the first couple of weeks until you see new growth.
+### What to change
 
-Timing matters here: cool-season grasses generally establish best in early fall or spring, and warm-season grasses in late spring to early summer. If you're seeding late in the year, check [how late you can still seed in fall](https://www.hearth-habit.com/2026/07/how-late-can-you-seed-grass-in-fall-and.html) before it gets too cold for the seed to take.
+- **Water once, before sunrise.** NC State says not to irrigate daily and to water just before sunrise. K-State's window is 5:00 to 10:00 AM. Either way, the blades dry during the day.
+- **Hold the nitrogen.** NC State caps it at 0.5 lb of nitrogen per 1,000 sq ft while disease weather lasts. K-State says to skip summer nitrogen on tall fescue entirely and fertilize in fall.
+- **Don't count on a fungicide to bring it back.** K-State says curative sprays cannot restore dead tissue. NC State adds they may be ineffective in hot weather, because cool-season grass grows too slowly then to recover. Fungicides are a prevention tool, started when nights consistently stay above 60°F.
 
-**Key takeaway:** a brown patch is a symptom, not a diagnosis — the screwdriver test, a tug on the grass, and a look at the patch's shape and timing will usually tell you whether it's coverage, compaction, disease, grubs, or chemical damage before you spend another month just watering it more.
+## Cause 4: grubs eating the roots
+
+White grubs are C-shaped beetle larvae that eat grass roots. The University of Georgia (UGA) Extension lists the signs: yellowing or browning, turf loose enough to pull easily from the soil, and with heavy infestations, ground that feels spongy underfoot. Animals rooting up the turf to hunt the grubs are another clue.
+
+### Count them before you treat
+
+UGA notes that soap flushes don't bring grubs up, so you have to dig:
+
+1. If the soil is dry, water thoroughly the day before. That brings grubs back toward the surface.
+2. Cut three sides of a 1-foot square at the edge of the brown area and roll the sod back like a carpet.
+3. Count the grubs in the top 2 to 3 inches of soil and roots.
+4. Lay the sod back and water it in.
+
+Whether the count matters depends on the species:
+
+| Grub type | Treat at (per square foot) | Source |
+|---|---|---|
+| May/June beetle | More than 3–5 | K-State |
+| Green June beetle | An average of 6–8 | UGA |
+| Masked chafer | 8–10 | K-State |
+| Chafers in general | 10 or more may not cause significant decline | UGA |
+
+UGA and K-State don't agree exactly on chafers, so if your count lands in the 8–10 range, look at the turf as well. If you find two grubs and a brown spot, grubs aren't your answer.
+
+Timing matters too. K-State says young larvae feed from July through October, and preventive products work best June through mid-July. Grub insecticides have to be watered in. UGA says to apply 1/2 inch of water after treating.
+
+## Cause 5: dog urine
+
+Colorado State University (CSU) Extension says urine spots come from concentrated nitrogen and salts landing in a small area. On a lawn that isn't getting enough nitrogen, nearby spots can turn dark green, because the urine acts like fertilizer there.
+
+CSU's fact sheet clears up the common fixes:
+
+- **Not a pH problem.** Spots don't happen because urine is alkaline, so pH "neutralizers" miss the point.
+- **Water is the only real neutralizer.** CSU says it's the only product that undoes the effect. Hosing the spot dilutes the salts, and good watering keeps salts from building up in the soil.
+- **Skip baking soda and gypsum.** Both are salts and may make the damage worse.
+- **No proven supplement.** CSU says no dietary supplement has been scientifically shown to prevent spots.
+
+### Repairing the spot
+
+CSU says to remove the dead sod and 0.5 to 1 inch of soil first, so you're not seeding into salty ground. Then match the patch to the lawn:
+
+- **Kentucky bluegrass lawn:** perennial ryegrass works better than bluegrass for spot seeding. Don't use tall fescue or annual ryegrass.
+- **Tall fescue lawn:** turf-type tall fescue.
+- **Zoysia or Bermuda:** patch with sod.
+
+## After you've found the cause
+
+Reseed only once the cause is fixed, or the new grass will die the same way. For cool-season lawns, timing is the limit. Check [how late in fall you can still seed](https://www.hearth-habit.com/2026/07/how-late-can-you-seed-grass-in-fall-and.html) before you buy seed.
+
+If the brown strip runs along a sidewalk or driveway and shows up after winter, de-icing salt is the more likely culprit. Here's [why grass along the sidewalk dies every winter](https://www.hearth-habit.com/2026/09/why-does-grass-along-sidewalk-die-every.html).
+
+If you need to dig deeper than a sod sample to look for buried debris, call 811 a few business days ahead so utility lines get marked. It's free.
 
 ## FAQ
 
-### Could it just be a different grass type mixed in?
-Yes — if the "brown" patch actually turns brown at a different time than the rest of the lawn (say, going dormant earlier in fall or greening up later in spring) rather than looking dead and thin, you may have a patch of a different grass variety, like zoysia or bermuda mixed into a cool-season lawn. That's a cosmetic issue, not a health one, and doesn't need fixing unless you want a uniform look.
+### My sprinklers run every evening. Is that the problem?
 
-### How long should I give a fix before trying something else?
-Give any single fix (better watering coverage, aeration, grub treatment) a full 2 to 3 weeks before judging results, since grass recovery is gradual, not immediate. If there's zero change after a month during the growing season, move on to the next likely cause.
+It can be two problems at once. Short daily runs wet the surface without reaching six inches down, and evening runs keep blades wet overnight, the conditions NC State and K-State tie to brown patch. Switch to fewer, longer runs before sunrise.
 
-### Is it ever just old grass that needs to be cut differently?
-Sometimes — scalping (mowing too short) stresses grass and can cause patchy browning that looks like a watering problem. A good rule of thumb is never cutting more than about a third of the blade height at once, and raising your mower deck during hot, dry stretches.
+### Is the grass dead or just dormant from drought?
 
-### Should I just replace the patch with sod instead of reseeding?
-Sod gives you an instant fix and can be worth it for a small, high-visibility spot, but it costs meaningfully more per square foot than seed and won't fix an underlying issue like compaction or poor drainage — it'll just die again in the same spot if the cause isn't addressed first.
+K-State describes drought stress as wilting, thinning turf whose roots are still intact. If the turf resists your tug and the screwdriver says the soil is dry, water deeply and give it time. If it lifts loose with no roots, look for grubs.
+
+### Will a fungicide fix brown patch that's already there?
+
+No. K-State says curative applications cannot restore dead tissue. Change the watering and nitrogen. Then wait for cooler weather, when the grass can grow back, or reseed bare spots in fall.
 
 ## Sources
+
+- [Irrigation Audits Helpful (UNL Water)](https://water.unl.edu/article/lawns-gardens-landscapes/irrigation-audits-helpful) — catch-can test, screwdriver test, six-inch target, 1 to 1.5 inches a week
+- [Brown Patch in Turf (NC State TurfFiles)](https://www.turffiles.ncsu.edu/diseases-in-turf/brown-patch-in-turf/) — temperature and leaf-wetness triggers, symptoms, watering before sunrise, nitrogen limit, fungicide limits
+- [Summer Turf Wars, Part 2: Brown Patch and Insect Pests (K-State)](https://www.k-state.edu/news/turf/articles/2026/07/summer-turf-wars-battling-drought-heat-and-seasonal-pests-part-two-brown-patch-and-insect-pests.html) — 68°F nights and 8 hours of leaf wetness, 5–10 AM watering, grub thresholds and timing
+- [White Grub Pests of Turfgrass (UGA Extension)](https://fieldreport.caes.uga.edu/publications/C940/white-grub-pests-of-turfgrass/) — grub symptoms, the three-sided sod check, species thresholds
+- [Dog Urine Damage on Lawns (CSU Extension)](https://extension.colostate.edu/resource/dog-urine-damage-on-lawns-causes-cures-and-prevention) — nitrogen and salts, water as the only neutralizer, baking soda and gypsum, repair and seed choice
+- [Healthy lawns in South Carolina: Why aeration matters (Clemson)](https://news.clemson.edu/healthy-lawns-in-south-carolina-why-aeration-matters/) — aeration timing, core depth, spike aerators
 - [Call 811](https://call811.com/) — free utility-line marking before you dig

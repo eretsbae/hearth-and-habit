@@ -1,0 +1,109 @@
+{
+  "reader_situation": "A homeowner in late summer or fall has bare or thin patches and a bag of seed, and wants to know whether it is already too late to seed this year, or whether the seed will just wash away or die over winter.",
+  "direct_answer": "For tall fescue and Kentucky bluegrass the real cutoff is soil temperature, not the calendar: Rutgers turf researchers found these grasses do not form a seedling turf once soil drops to 50°F. In practice that means mid-August to mid-September in Nebraska-type climates, mid-September to early October in the North Carolina Piedmont, and no later than about October 15 for tall fescue in Kansas. Once soil is at or below 40°F, switch to dormant seeding. Warm-season grasses should not be seeded in fall; they need soil held at 65–70°F.",
+  "consensus": [
+    "Fall is the best time to seed cool-season grass (fescue, bluegrass, ryegrass).",
+    "Count back about 45 days or 6 weeks from the first frost.",
+    "Warm-season grasses are seeded in late spring or early summer.",
+    "Keep seed moist and get good seed-to-soil contact.",
+    "If you miss the window, dormant seeding is an option."
+  ],
+  "gaps": [
+    "The 45-day/6-week count-back is a commercial rule; extension services set the cutoff by soil temperature and regional dates. Rutgers: tall fescue and Kentucky bluegrass do not effectively develop a seedling turf once soil temperatures drop to 50°F.",
+    "Delay costs more than the calendar suggests. Nebraska Extension: each week of delay in seeding translates into 2–4 additional weeks for the grass to mature in fall.",
+    "Late seedings usually fail from drying out, not cold. K-State: freeze-thaw heaves poorly rooted plants out of the ground, where they dry and die, so watering until freeze-up matters.",
+    "Species changes the answer. Purdue: tall fescue germinates in 6–10 days, Kentucky bluegrass in 10–21. Rutgers has seen perennial ryegrass germinate below 40°F but above freezing.",
+    "Regional deadlines differ: Nebraska Extension says seed tall fescue no later than mid-September (window Aug 15–Sept 15); K-State says October 15 is generally the last safe day for tall fescue in Kansas; NC State targets mid-September to early October in the Piedmont, one to two weeks earlier in the mountains.",
+    "Frost-date averages are medians: SDSU Extension explains half of past first frosts came before the median date. A hard freeze or killing frost is often defined as 28°F.",
+    "Dormant seeding has its own rules the typical article blurs: soil must be 40°F or below; Nebraska's window is mid-December to mid-February, no later than March 15; do not seed on snow; Rutgers suggests raising the rate 30–50%; most crabgrass preventers will hurt the seed, so use siduron only, applied mid-April to early May.",
+    "Warm-season grasses need soil held at 65–70°F, which usually matches daytime air of 80°F or more (NC Extension), and full establishment from seed can take two to six months."
+  ],
+  "evidence": [
+    {
+      "claim": "Fall soil-temperature cutoff for tall fescue and Kentucky bluegrass",
+      "detail": "Observations of late-fall seedings indicate tall fescue and Kentucky bluegrass seed 'does not effectively develop a seedling turf once soil temperatures drop to 50° F.'",
+      "source_url": "https://turf.rutgers.edu/blog/mild-winter-what-does-it-mean-for-overseeding-of-turf-or-dormant-seeding/",
+      "source_title": "Mild winter, what does it mean for overseeding of turf or dormant seeding? (Rutgers Center for Turfgrass Science)"
+    },
+    {
+      "claim": "Perennial ryegrass germinates colder; dormant seeding rates and risks",
+      "detail": "Perennial ryegrass has been observed to germinate at temperatures below 40°F but above freezing and gives the fastest establishment. Dormant seed won't germinate until soil is consistently above 50°F; air will probably need to be 60°F or above for that. Increase seeding rates 30–50% for dormant seeding. Seedlings can die if seed germinates and a hard frost follows; washout and bird losses are greater. Fertilizer should never be applied to snow-covered or frozen soils.",
+      "source_url": "https://turf.rutgers.edu/blog/mild-winter-what-does-it-mean-for-overseeding-of-turf-or-dormant-seeding/",
+      "source_title": "Mild winter, what does it mean for overseeding of turf or dormant seeding? (Rutgers Center for Turfgrass Science)"
+    },
+    {
+      "claim": "Nebraska fall seeding window and the cost of delay",
+      "detail": "Best window for Kentucky bluegrass and tall fescue is August 15 to September 15. 'It is critical to seed tall fescue no later than mid-September.' 'Each week of delay in seeding translates into 2-4 additional weeks required for the grass to mature in fall.' Tall fescue seedlings need longer to develop cold hardiness.",
+      "source_url": "https://lancaster.unl.edu/time-fall-lawn-seeding/",
+      "source_title": "Time for Fall Lawn Seeding | Nebraska Extension in Lancaster County"
+    },
+    {
+      "claim": "Watering and seeding rates for new seedings",
+      "detail": "Irrigate 2 to 4 times a day during the first two weeks, keeping the top 1/2 to 1 inch of soil moist. Near mowing height, drop to 2–3 deeper waterings a week. Turf-type tall fescue 6–8 lb per 1,000 sq ft; Kentucky bluegrass 2–3 lb; overseeding an existing lawn, cut the rate in half. Overseeding requires more than 50% good turf.",
+      "source_url": "https://lancaster.unl.edu/time-fall-lawn-seeding/",
+      "source_title": "Time for Fall Lawn Seeding | Nebraska Extension in Lancaster County"
+    },
+    {
+      "claim": "Kansas tall fescue deadline and why late seedings fail",
+      "detail": "'October 15 is generally considered the last day for safely planting or overseeding a tall fescue lawn in the fall.' September is the best month. 'Late plantings that fail are usually not killed by cold temperatures but rather desiccation.' Freezing and thawing heave poorly rooted plants out of the soil, where they dry and die. Keeping plants watered maximizes root growth before freezing weather.",
+      "source_url": "https://www.k-state.edu/news/turf/articles/2014/09/cool-season-turfgrass-seeding-deadline-nears.html",
+      "source_title": "Cool-season turfgrass seeding deadline nears | K-State"
+    },
+    {
+      "claim": "North Carolina transition-zone window",
+      "detail": "Target fall seeding time for the NC Piedmont is usually mid-September to early October; one to two weeks earlier in the mountains. Wait until nighttime temperatures are in the mid-60s. Germination normally in 5 to 10 days with soil moisture and suitable soil temperatures. 'Wait too long and cool weather will reduce tall fescue (or Kentucky bluegrass) germination.' Typical uncoated tall fescue rate 5–6 lb per 1,000 sq ft.",
+      "source_url": "https://www.turffiles.ncsu.edu/2023/08/it-is-almost-time-for-fall-seeding-of-cool-season-grasses",
+      "source_title": "It Is (Almost) Time for Fall Seeding of Cool-Season Grasses | NC State TurfFiles"
+    },
+    {
+      "claim": "Days to germinate by species",
+      "detail": "Kentucky bluegrass 10–21 days; Kentucky bluegrass + perennial ryegrass 5–21; tall fescue 6 to 10; tall fescue + Kentucky bluegrass 6 to 21.",
+      "source_url": "https://turf.purdue.edu/still-time-for-spring-seeding/",
+      "source_title": "Still Time for Spring Seeding | Purdue Turfgrass Science"
+    },
+    {
+      "claim": "Dormant seeding conditions and window",
+      "detail": "'Soil temperatures must be 40 degrees F or below to ensure seeds will not germinate.' Ideal window mid-December through mid-February; no later than March 15. Don't seed over snow; seed needs soil contact. Seed germinates when soil warms in mid-April. Use only siduron (Tupersan) as a pre-emergent with new seedings, applied between mid-April and the first week of May, not with the seed. Water starting late April, 2–4 times a day. Warm spells can trigger germination and a later cold spell can kill seedlings.",
+      "source_url": "https://lancaster.unl.edu/dormant-lawn-seeding",
+      "source_title": "Dormant Lawn Seeding | Nebraska Extension in Lancaster County"
+    },
+    {
+      "claim": "Warm-season grass seeding conditions",
+      "detail": "Warm-season grasses germinate and develop best when soil is maintained at a constant 65°F to 70°F, which usually corresponds to daytime air of 80°F or more. Plant in late spring to early summer. Establishment from seed may take two to six months. Avoid cold wet soil and heavy rainfall for a few weeks after sowing.",
+      "source_url": "https://pender.ces.ncsu.edu/2022/02/planting-summer-grass/",
+      "source_title": "Planting Summer Grass | N.C. Cooperative Extension, Pender County"
+    },
+    {
+      "claim": "What a first-frost date means",
+      "detail": "Frost is commonly 32°F or colder; a hard freeze or killing frost is often defined as 28°F or lower. The median (50th percentile) date is when half of historical first frosts occurred before it; at the 30th percentile, 30% occurred before. Maps use NOAA 2021 climate normals and are not a forecast.",
+      "source_url": "https://extension.sdstate.edu/first-fall-frost-dates",
+      "source_title": "First Fall Frost Dates | SDSU Extension"
+    }
+  ],
+  "real_questions": [
+    "Is it too late to overseed in October?",
+    "Will frost kill grass seedlings that just came up?",
+    "Can I throw seed down before the first snow?",
+    "Should I put down more seed if I'm seeding late?",
+    "Can I seed Bermuda or zoysia in the fall?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "A 'where are you now' table by soil temperature and calendar (above 50°F and inside your regional window, near 50°F, between 40 and 50°F, at or below 40°F, warm-season grass) with the action for each, built from Rutgers, UNL, K-State, NC State and NC Extension. Plus a worked example of UNL's 2–4 weeks-per-week-of-delay arithmetic."
+  },
+  "cautions": [
+    "Most crabgrass preventers harm new seed; only siduron is labeled for use with new seedings, and not at the same time as the seed.",
+    "Never apply fertilizer to snow-covered or frozen soil.",
+    "Frost dates are historical medians, not forecasts."
+  ],
+  "sources": {
+    "https://turf.rutgers.edu/blog/mild-winter-what-does-it-mean-for-overseeding-of-turf-or-dormant-seeding/": "Mild winter, what does it mean for overseeding of turf or dormant seeding? (Rutgers Center for Turfgrass Science)",
+    "https://lancaster.unl.edu/time-fall-lawn-seeding/": "Time for Fall Lawn Seeding | Nebraska Extension in Lancaster County",
+    "https://lancaster.unl.edu/dormant-lawn-seeding": "Dormant Lawn Seeding | Nebraska Extension in Lancaster County",
+    "https://www.k-state.edu/news/turf/articles/2014/09/cool-season-turfgrass-seeding-deadline-nears.html": "Cool-season turfgrass seeding deadline nears | K-State",
+    "https://www.turffiles.ncsu.edu/2023/08/it-is-almost-time-for-fall-seeding-of-cool-season-grasses": "It Is (Almost) Time for Fall Seeding of Cool-Season Grasses | NC State TurfFiles",
+    "https://turf.purdue.edu/still-time-for-spring-seeding/": "Still Time for Spring Seeding | Purdue Turfgrass Science",
+    "https://pender.ces.ncsu.edu/2022/02/planting-summer-grass/": "Planting Summer Grass | N.C. Cooperative Extension, Pender County",
+    "https://extension.sdstate.edu/first-fall-frost-dates": "First Fall Frost Dates | SDSU Extension"
+  }
+}

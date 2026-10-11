@@ -3,8 +3,8 @@ title: Why Does My Toilet Run for a Few Seconds Then Stop? (Not the Same as a Ru
   Toilet)
 slug: toilet-runs-few-seconds-then-stops
 date: '2026-07-31'
-updated: '2026-09-29'
-description: A toilet that refills for a few seconds on its own has a phantom flush, a slow leak from tank to bowl, usually at the flapper. Here's how to find and fix it.
+updated: '2026-10-11'
+description: A toilet that refills for a few seconds on its own is leaking from the tank. How to tell flapper, refill tube, or seal, and what the leak wastes.
 tags:
 - toilet repair
 - plumbing
@@ -14,108 +14,130 @@ pillar: home-maintenance
 hero_image: /images/toilet-runs-few-seconds-then-stops-hero.svg
 hero_alt: Cutaway toilet tank with a closed flapper, float ball, and refill tube, with small ripples marking a brief phantom-flush refill
 pin_hooks:
-- Stop a phantom flush with a $6–$15 flapper swap
-- Brief refills can waste roughly 20–30 gallons a day
+- 'Ghost flush? Shut the water off and mark the tank level'
+- Flapper over 5 years old? Fluidmaster says just replace it
+enriched: '2026-10-11'
 ---
 
-A toilet that runs for a few seconds and then stops on its own — a "phantom flush" — is slowly leaking water from the tank into the bowl, and the fill valve is briefly topping the tank back up. It's almost always the flapper.
+Your toilet is leaking water out of the tank, and the fill valve is topping it back up. That's a "ghost flush," and the leak is usually at the flapper, sometimes at a misplaced refill tube or a failed seal under the tank.
 
-That short, ghostly refill cycle is different from the classic "running toilet" that hisses nonstop until you jiggle the handle. This one is intermittent — quiet for a while, then a brief gurgle or hiss, then quiet again. It's easy to ignore because it stops on its own. But "stops on its own" doesn't mean "fixed itself." It means the tank is slowly losing water (to the bowl, or occasionally onto the floor), and the fill valve is doing exactly what it's designed to do: topping the tank back up to the right level.
+The fill valve making the noise is rarely the broken part. Fluidmaster, which makes toilet repair parts, describes ghost flushing as the fill valve's way of letting you know water is leaking out of the tank. Replacing the fill valve because it's the part you hear is the most common wasted repair.
 
-**The key takeaway:** a phantom flush is a leak-and-refill cycle, not a stuck valve, and the fix depends on where the leak actually is. Most of the time that's a $6–$15 flapper and 15 minutes of work. Occasionally it points to something bigger.
+Below: a test that catches slow leaks the dye test misses, a table that turns each result into a fix, and a way to estimate what your leak is costing with a stopwatch.
 
-## What a Phantom Flush Is (and How It Differs From a Running Toilet)
+## How this differs from a running toilet
 
-If you've already read our guide to [fixing a running toilet in 15 minutes](https://www.hearth-habit.com/2026/07/how-to-fix-running-toilet-in-15-minutes.html), that post covers the toilet that never really stops — water hissing or trickling continuously because the fill valve won't shut off, the float is set too high, or the chain is holding the flapper open.
+A toilet that hisses or trickles nonstop has a different problem, usually a fill valve that won't shut off or water spilling into the overflow pipe. Our guide to [fixing a running toilet in 15 minutes](https://www.hearth-habit.com/2026/07/how-to-fix-running-toilet-in-15-minutes.html) covers that one.
 
-![Toilet tank cutaway: water leaks past the flapper, so the fill valve refills briefly; refill tube clipped above the overflow rim](/images/toilet-runs-few-seconds-then-stops-diagram.svg)
+Here the fill valve does shut off. Then the tank slowly drains, the float drops, and the valve runs again for a few seconds. Fluidmaster says this can happen every few minutes or every few hours, depending on the leak.
 
-This is a related but distinct problem. Here, the fill valve *does* shut off completely. The tank refills, reaches the right level, and stops. Then, minutes later, it dips just low enough to trigger the fill valve again for a few seconds. That's the signature of a slow leak out of the tank, not a valve that's stuck open.
+## Step 1: Find out whether the water goes inside or outside
 
-Think of it like a bathtub with the drain cracked open slightly: you can keep the water level steady by adding a trickle now and then, but you're never truly "full and done." Your toilet's fill valve is doing that trickle-topping automatically.
+Look at the floor behind the toilet and under the tank. Feel the bolt heads under the tank and the connection where the supply line meets the fill valve.
 
-## Where the Leak Is Actually Coming From
+- **Everything dry:** the water is leaking into the bowl. Go to Step 2.
+- **Wet under the tank, on the bowl, or at the bolts:** it's an external leak. Skip to "If the water is leaking out of the tank".
 
-Not every phantom flush has the same cause. Here's how to think through the options before you start replacing parts.
+## Step 2: Use the pencil test, not just dye
 
-### 1. The Flapper or Its Seat (most likely, by far)
+The usual advice is the dye test, and it's a good start. EPA WaterSense says to put a few drops of food coloring in the tank and wait 10 minutes without flushing. Color in the bowl means a leak.
 
-The flapper is the rubber (or foam-rubber) disc at the bottom of the tank that seals the drain hole between flushes. Over time — typically 3 to 5 years, faster if you use bleach tablets in the tank — it warps, cracks, or grows a thin film of mineral buildup along the seal, and the flush-valve seat it presses against can get pitted or crusted too. Water seeps past into the bowl, the tank level drops an inch or so, and the fill valve kicks on to compensate.
+Fluidmaster adds a catch: dye works well for faster leaks but does not always catch a slow one. A toilet that refills once every few hours may pass the dye test and still be leaking. The pencil test catches it:
 
-**How to confirm it:** Take the lid off the tank. Add a few drops of food coloring (or a dye tablet) to the tank water, then don't flush. Wait 10 minutes without touching anything (the EPA's WaterSense test). If color shows up in the bowl, tank water is getting into the bowl. Before blaming the flapper, rule out the other route into the bowl — the overflow tube, covered next. If the water level sits below the overflow rim and the refill tube is clipped above it, the flapper is your leak.
+1. Let the tank fill completely.
+2. Turn off the shutoff valve behind the toilet.
+3. Mark the water level on the inside of the tank with a pencil.
+4. Don't flush. Check after 15 minutes. If the level has dropped, mark it again and keep checking every 15 minutes until it stops dropping.
 
-- **Pros of it being the flapper:** cheap fix, no tools beyond your hands, most home centers carry universal replacements for under $15.
-- **Cons:** you need the right shape and size (2-inch vs. 3-inch flappers aren't interchangeable), and cheap universal flappers sometimes warp again within a year or two — buying a slightly better one (with a stainless steel ring instead of all rubber) tends to last longer.
+Where the water stops tells you where the leak is. Fluidmaster says that if the flapper is worn or its seat is damaged, the level will stop just below the flapper.
 
-### 2. The Refill Tube or Overflow Tube
+![Toilet tank cutaway: refill tube clipped outside the overflow pipe, a leak at the flapper seat, and a pencil mark showing where the level stops](/images/toilet-runs-few-seconds-then-stops-diagram.svg)
 
-The overflow tube (the open tube in the center of the tank) drains straight into the bowl, so anything that sends tank water into it will also turn a dye test positive. Two things to check:
+## What each result means
 
-- **A siphoning refill tube.** The thin tube from the fill valve should be clipped so its end sits above the overflow tube's rim. If it's been pushed down inside the overflow tube below the water line, it can slowly siphon tank water into the bowl between flushes — exactly the leak-and-refill cycle you're hearing. Pull it up and re-clip it; the fix is free.
-- **A water level at the overflow rim.** If the float is set so high that water reaches the top of the overflow tube, tank water spills into it. This more often causes a constant trickle than a brief refill every few minutes, but it's worth ruling out. Lowering the float so the water sits about an inch below the rim fixes it.
-
-Once the refill tube is clipped correctly, a pencil test separates the rest: shut off the supply valve behind the toilet, mark the water level on the inside of the tank, and check back in 20–30 minutes. If the level settles right at the top of the overflow tube, the water was set too high — lower the float. If it drops below the rim, water is escaping past the flapper or its seat (or, rarely, through a crack in the overflow tube, in which case the level stops at the crack).
-
-### 3. Tank Bolts or the Tank-to-Bowl Gasket (less common, worth ruling out)
-
-On a two-piece toilet, the tank sits on a rubber gasket and is held on by two or three bolts with rubber washers. If a washer or the gasket fails, tank water can seep out underneath, the level drops, and the fill valve cycles to top it up. Look for dampness on the bolt heads under the tank, around the gasket, or on the floor behind the toilet.
-
-A dripping supply line or shutoff valve can wet the same area, but it can't cause the refills — it's upstream of the fill valve, so it never drains the tank. Fix it too, just separately.
-
-- **Pros of this diagnosis:** once found, it's usually a bolt-tightening or washer replacement; a full tank-to-bowl kit is inexpensive.
-- **Cons:** it's the hardest of the three to spot, since the moisture can be subtle, and over-tightening tank bolts can crack the porcelain — snug is the goal, not maximum torque. Replacing the gasket means taking the tank off.
-
-## Quick Diagnosis at a Glance
-
-| What you see | What it means | Next step |
+| What you see | Most likely cause | Fix |
 |---|---|---|
-| Dye in the bowl; water below the overflow rim; refill tube clipped above it | Water is leaking past the flapper or its seat | Replace the flapper |
-| Refill tube end pushed down inside the overflow tube | The tube is siphoning tank water into the bowl | Re-clip it above the rim |
-| With the supply off, the level settles right at the overflow rim | Water level set too high | Lower the float |
-| Damp tank bolts, gasket, or floor behind the toilet | Tank water is escaping outside the tank | Tighten bolts or replace washers/gasket |
+| Refill tube pushed down inside the overflow pipe | The tube is siphoning tank water into the bowl | Pull it out and clip it to the outside of the overflow pipe (Fluidmaster) |
+| Level keeps dropping and stops just below the flapper | Worn flapper or damaged flapper seat | Clean the flapper and seat; replace the flapper if it's over 5 years old or the leak continues |
+| Leak continues after a new flapper | Flush valve seal or flush valve | Replace the seal, then the whole flush valve if it still drains (Fluidmaster) |
+| Dye test negative and the level doesn't move with the water off, yet it still refills | The water is leaving some other way | Recheck for wet spots and the external leaks below |
+| Wet bolts, or water on the bowl under the tank | Tank-to-bowl gasket or bolt seals | Replace the gasket, bolts, and washers |
 
-## What to Do Once You've Found It
+### The refill tube: check it first, it's free
 
-If it's the flapper, buy a replacement that matches your toilet brand if you can (Kohler, American Standard, and Toto all have slightly different flapper shapes), or a universal adjustable flapper if you're not sure. The swap takes 10–15 minutes: shut off the water, flush to drain the tank, unhook the old flapper and chain, and hook up the new one. The running toilet guide linked above has the full step-by-step for the flapper, float, and fill valve.
+The thin tube from the fill valve should spill into the overflow pipe from above. Fluidmaster says that if it's inserted too far into the overflow pipe, you should pull it out and reattach it to the outside of the pipe. That alone often stops a tank-to-bowl leak and the ghost flushing that comes with it.
 
-If it's the refill tube, re-clip it above the overflow rim and listen for a few hours — if the phantom refills stop, you're done.
+## If it's the flapper: inspect or replace?
 
-If it's the tank bolts or gasket, try snugging the bolts evenly first. If the seep continues, a tank-to-bowl kit (gasket, bolts, and washers) is a reasonable afternoon project, though many people hand it to a plumber since the tank has to come off.
+Fluidmaster's rule is simple:
 
-## When the Intermittent Run Isn't Worth Ignoring
+- **More than 5 years old:** just change it.
+- **Under 5 years old:** clean it first. Wipe the slime and debris off the underside of the flapper and off the flush valve seat it closes against. Run a finger around the seat rim and feel for nicks or rough spots.
 
-A toilet that runs for a few seconds every 5–10 minutes might not seem urgent, but it happens around the clock. Rough math: a fill valve typically flows a couple of gallons a minute, so a 5-second refill every 10 minutes adds up to about 12 minutes of flow a day — on the order of 20–30 gallons. That's far less than the hundreds of gallons a day a constantly running toilet can waste, but it's steady, invisible waste, and it can help explain a [water bill that spikes with no extra usage](https://www.hearth-habit.com/2026/09/why-does-my-water-bill-spike-in-winter.html).
+If the seat on a brass flush valve is pitted or nicked, Fluidmaster says a new flapper won't seal and the flush valve needs replacing. Plastic seats may be repairable.
 
-It's worth fixing within a week or two of noticing it, not because it's an emergency, but because the parts are cheap and the problem only gets worse — flappers don't heal themselves, and a slightly worn seal today can become a constantly running toilet in a few months.
+### Buy the right size
 
-## When to Call a Plumber Instead
+Flush valves come with 2-inch or 3-inch openings, and each takes its own size of flapper. Fluidmaster sells separate flappers for each, plus a universal model. Check your toilet's manual or measure the opening with the tank drained before you buy.
 
-Most of this is DIY territory. Call a plumber if:
+While the tank is open, check the chain. Fluidmaster recommends about 1/4 to 1/2 inch of slack. Too tight and the flapper can't seat; too loose and the chain can get caught under it.
 
-- You've replaced the flapper and fill valve and the toilet still runs intermittently.
-- You see water pooling around the base of the toilet itself (that's a wax ring or seal issue, a different repair entirely).
-- The tank or bowl has a hairline crack — no amount of new hardware fixes that.
-- Your shutoff valve behind the toilet is seized or won't turn, which needs to be addressed before any tank work.
+### If you use drop-in tank tablets
 
-If you're on the fence, the same test applies as for any repair: [is it worth calling a pro](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html) comes down to what a mistake would cost.
+Fluidmaster links warped flappers to chlorine tablets in the tank, and it warns against bleach or chlorine drop-in cleaners because they can damage tank parts and cause flooding.
+
+Kohler's installation guide goes further. It says chlorine products (calcium hypochlorite) can seriously damage the fittings in the tank, and that using in-tank toilet cleaners voids its one-year warranty. If you have a tablet in the tank and the flapper is leaking, take the tablet out when you replace the flapper.
+
+If you clean the bowl with a bleach product, never mix it with an acidic toilet-bowl or lime-scale cleaner. The combination releases toxic chlorine gas, according to Poison Control. Use one, flush, then use the other.
+
+## If the water is leaking out of the tank
+
+Fluidmaster lists three places tank water escapes outside the toilet:
+
+- **The bottom of the fill valve.** The locknut under the tank should be snug against the porcelain. Fluidmaster says to tighten it by hand.
+- **The supply line.** Fluidmaster suggests replacing any supply line older than 5 years.
+- **The tank-to-bowl seals.** Water running from under the tank onto the bowl means the gasket or bolt washers have failed. The fix is a new gasket, bolts, and washers. Kohler's instructions say to tighten the bolts evenly, not one side at a time.
+
+A wet floor around the base of the bowl, rather than under the tank, is usually a different repair (the seal between the toilet and the floor drain). If you're unsure whether to take on a tank removal yourself, here's [how to decide whether a repair is worth calling a pro for](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html).
+
+## What a ghost flush costs: work it out with a stopwatch
+
+There's no single figure for a ghost flush, because it depends on how fast your fill valve runs and how often it cycles. You can estimate your own with two timings.
+
+**What you need:**
+- Your toilet's gallons per flush (gpf), often marked on the porcelain or listed in the manual. EPA WaterSense says the federal standard is 1.6 gpf, and WaterSense-labeled toilets use 1.28 or less.
+- How long the tank takes to refill after a normal flush.
+- How long each ghost refill lasts and how often it happens.
+
+**Worked example (hypothetical):** a 1.6 gpf toilet refills in 60 seconds after a flush. The ghost refill runs 5 seconds every 10 minutes.
+
+- Fill rate: 1.6 gallons ÷ 60 seconds = about 0.027 gallon per second
+- Ghost refills per day: 6 per hour × 24 hours = 144
+- Seconds of refill per day: 144 × 5 = 720 seconds
+- Water per day: 720 × 0.027 = about 19 gallons
+- Water per week: 19 × 7 = about 133 gallons
+
+Swap in your own numbers. The estimate is rough, because part of each refill goes to the bowl and gpf ratings are maximums. It still gives a sense of scale. EPA WaterSense says household leaks can waste 180 gallons a week, and that most toilet leaks come from old or worn flappers. If your bill climbed for no obvious reason, see [why a water bill can spike with no extra usage](https://www.hearth-habit.com/2026/09/why-does-my-water-bill-spike-in-winter.html).
 
 ## FAQ
 
-### Is a toilet that runs for a few seconds every few minutes wasting a lot of water?
+### Should I replace the fill valve? It's the part making the noise.
 
-It adds up more than people expect. A brief refill every 10 minutes can come to roughly 20–30 gallons a day, since it's happening around the clock. That's far less than a fully running toilet, but it's not nothing — worth fixing within a couple of weeks.
+Not first. The fill valve runs because the tank lost water. Fluidmaster's order is: refill tube, then flapper and seat, then the flush valve. Replace the fill valve only if the water level rises high enough to spill into the overflow pipe and cleaning the valve doesn't stop it.
 
-### Can I just ignore it if it's not bothering me?
+### The dye test showed nothing, but it still refills. What now?
 
-You can, but the flapper or valve that's causing it will typically get worse, not better, over time. What starts as a 5-second trickle every 10 minutes often turns into a constantly running toilet within a few months.
+Do the pencil test with the water shut off. Fluidmaster notes that dye can miss slow leaks. If the level still doesn't drop, recheck the bolts, the gasket area, and the supply connection for an external leak.
 
-### Does the dye test work with any food coloring?
+### How long does a flapper last?
 
-Yes — a few drops of standard food coloring or a leak-detection dye tablet (sold at hardware stores) both work fine. The key is waiting a full 10 minutes without flushing before you check the bowl, and remembering that water entering the overflow tube also reaches the bowl, so check the water level and refill tube too.
-
-### Could hard water be causing this?
-
-Indirectly, yes. Mineral buildup from hard water is one of the more common reasons flappers and fill valve seals wear out faster than they should, since deposits keep the seal from closing fully flush.
+None of these sources gives a lifespan. Fluidmaster's rule is to replace any flapper over 5 years old instead of trying to clean it. Chlorine tablets in the tank warp them sooner.
 
 ## Sources
-- [Fix a Leak Week (EPA WaterSense)](https://www.epa.gov/watersense/fix-leak-week) — the 10-minute food-coloring dye test for toilet leaks
+
+- [Fix a Leak Week (EPA WaterSense)](https://www.epa.gov/watersense/fix-leak-week) — the 10-minute food-coloring dye test
+- [Toilet Flushing On Its Own (Fluidmaster)](https://fluidmaster.com/toilet-problems/solutions-toilet-making-refill-sounds/) and [Leaking Toilet Flapper (Fluidmaster)](https://fluidmaster.com/toilet-problems/identify-fix-toilet-flapper-leaks/) — refill tube fix, the slow-leak pencil test, the 5-year flapper rule, seat inspection, chain slack, external leak points, chlorine tablets
+- [How To Fix Running Toilet (Fluidmaster)](https://fluidmaster.com/toilet-problems/toilet-running-constantly/) — flapper first, then flush valve; water spilling into the overflow pipe
+- [KOHLER toilet installation guide](https://techcomm.kohler.com/techcomm/pdf/1324739-2.pdf) — chlorine cleaners damage tank fittings and void the warranty; tighten tank bolts evenly
+- [Residential Toilets (EPA WaterSense)](https://www.epa.gov/watersense/residential-toilets) — 1.6 and 1.28 gallons per flush, 180 gallons a week from household leaks, worn flappers as the usual toilet leak
+- [Chlorine gas (Poison Control)](https://www.poison.org/articles/chlorine-gas) — never mix bleach with acidic cleaners

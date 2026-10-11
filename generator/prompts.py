@@ -402,15 +402,13 @@ support, and what it is missing. List its unsupported or wrong claims under
 
 ENRICH_USER = """\
 Rewrite the live article below into a substantially better version, using the
-research dossier. The URL and title stay fixed, so keep the same topic and
-search intent.
+research dossier. The URL stays fixed, so keep the same topic and search intent.
 
-Title (fixed): {title}
+Current title: {title}
 Pillar: {pillar_name} — {pillar_description}
 
 Keep:
 - the direct answer in the first sentence, corrected if the evidence says otherwise;
-- {image_instruction}
 - internal links to other posts on this site where they still fit, using only
   these exact URLs:
 {published_titles}
@@ -420,7 +418,13 @@ Change:
   dossier nor the registry supports;
 - deliver the dossier's gaps and build its original asset;
 - answer the relevant real questions in the body or a FAQ;
-- rebuild "## Sources" from the dossier's citable sources and registry URLs only.
+- rebuild "## Sources" from the dossier's citable sources and registry URLs only;
+- the old inline diagram is discarded. If a diagram would teach something from the
+  NEW article (a decision chart, cutaway, flow), put the marker [INLINE_IMAGE]
+  alone on a line where it belongs and specify it in META; its labels may only
+  state what the new article states;
+- keep the title unless the new structure no longer fits it; a new title must
+  answer the same search query.
 
 The structure is yours to improve, but the result must read as one coherent
 article, not the old one with additions bolted on.
@@ -438,7 +442,10 @@ RESEARCH DOSSIER:
 Return the result in EXACTLY this format:
 
 ===META===
-{{"meta_description": "150-160 character meta description for the new version"}}
+{{"title": "the title (unchanged unless it no longer fits)",
+ "meta_description": "150-160 character meta description for the new version",
+ "inline_image_brief": "one-sentence spec for an informational diagram, listing the 3-8 short text labels it needs; or null",
+ "inline_alt": "alt text, max 140 characters, describing what the diagram explains (or null)"}}
 ===BODY===
 (the full revised article in Markdown, starting with the intro paragraph, no title heading)
 ===END===

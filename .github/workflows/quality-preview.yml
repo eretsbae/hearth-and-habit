@@ -42,7 +42,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Preview a new post
-        if: github.event_name == 'push' || inputs.new_post
+        if: github.event_name == 'workflow_dispatch' && inputs.new_post
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python generator/generate_post.py --preview _preview/new 2>&1 | tee _preview-new.log
@@ -52,7 +52,7 @@ jobs:
         if: github.event_name == 'push' || inputs.slugs != ''
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          SLUGS: ${{ github.event_name == 'push' && 'what-temperature-do-pipes-freeze-guide' || inputs.slugs }}
+          SLUGS: ${{ github.event_name == 'push' && 'what-temperature-do-pipes-freeze-guide furnace-filter-basics' || inputs.slugs }}
         run: |
           mkdir -p _preview/enrich
           python generator/enrich_post.py --slugs $SLUGS --preview _preview/enrich \

@@ -69,7 +69,7 @@ UNL notes lawns may need up to 1.5 inches a week in the hottest part of summer. 
 
 ## Cause 2: compacted soil
 
-If the cans show the water arriving but the screwdriver still won't go in, the soil itself may be the problem. Hard-packed soil sheds water before it soaks in, which is common along shortcuts, gates, and play areas.
+If the cans show the water arriving but the screwdriver still won't go in, the soil itself may be the problem. Hard-packed soil keeps water from soaking in.
 
 The fix is core aeration, which pulls plugs of soil out so water and air can get in. Clemson University's guidance:
 
@@ -83,7 +83,7 @@ Aeration is one of the few jobs on our [bare-minimum lawn schedule](https://www.
 
 ## Cause 3: brown patch fungus, where more water makes it worse
 
-Brown patch is a fungal disease, mostly of tall fescue and other cool-season grasses in summer. It's the cause people miss most because the soil underneath is moist. The usual response, more water, feeds the fungus.
+Brown patch is a fungal disease, mostly of tall fescue and other cool-season grasses in summer. It's easy to miss because the soil underneath is moist. The usual response, more water, feeds the fungus.
 
 ### The weather that sets it off
 
@@ -92,13 +92,13 @@ The two extension sources give slightly different triggers. Both point to warm n
 - **NC State:** brown patch can develop once nights are warmer than 60°F and is most severe when lows top 70°F and highs top 90°F. Leaves must stay wet for at least 10 to 12 hours for infection.
 - **Kansas State:** it thrives when night air stays above 68°F and leaves stay wet more than 8 hours in a row.
 
-An evening watering on a warm night does exactly that: it keeps the blades wet from dusk until the sun dries them.
+NC State lists late-day watering, along with shade, poor air movement, and dew, among the things that keep leaves wet longer.
 
 ### How to confirm it
 
 Both sources describe tan lesions with a dark brown border on individual blades. NC State says patches on lawns mowed above 1 inch range from 6 inches to several feet across. On humid mornings you may see cobwebby white or gray fungal growth.
 
-The dark "smoke ring" at the patch edge that many articles describe is mostly a feature of very short turf, like golf greens. NC State says it shows only when leaves are wet or humidity is near 100%. A home lawn without one can still have brown patch.
+The dark "smoke ring" at the patch edge that many articles describe is mostly a feature of very short turf, mowed at 1 inch or less. NC State says it shows only when leaves are wet or humidity is near 100%. A home lawn without one can still have brown patch.
 
 ### What to change
 
@@ -121,14 +121,14 @@ UGA notes that soap flushes don't bring grubs up, so you have to dig:
 
 Whether the count matters depends on the species:
 
-| Grub type | Treat at (per square foot) | Source |
+| Grub type | Threshold (per square foot) | Source |
 |---|---|---|
-| May/June beetle | More than 3–5 | K-State |
-| Green June beetle | An average of 6–8 | UGA |
-| Masked chafer | 8–10 | K-State |
+| May/June beetle | Treat above 3–5 | K-State |
+| Green June beetle | An average of 6–8 probably needs treatment | UGA |
+| Masked chafer | Treat at 8–10 | K-State |
 | Chafers in general | 10 or more may not cause significant decline | UGA |
 
-UGA and K-State don't agree exactly on chafers, so if your count lands in the 8–10 range, look at the turf as well. If you find two grubs and a brown spot, grubs aren't your answer.
+UGA and K-State don't agree exactly on chafers, so if your count lands in the 8–10 range, look at the turf as well. If you find two grubs and a brown spot, that's below every threshold here, so grubs probably aren't the main cause.
 
 Timing matters too. K-State says young larvae feed from July through October, and preventive products work best June through mid-July. Grub insecticides have to be watered in. UGA says to apply 1/2 inch of water after treating.
 
@@ -148,7 +148,6 @@ CSU's fact sheet clears up the common fixes:
 CSU says to remove the dead sod and 0.5 to 1 inch of soil first, so you're not seeding into salty ground. Then match the patch to the lawn:
 
 - **Kentucky bluegrass lawn:** perennial ryegrass works better than bluegrass for spot seeding. Don't use tall fescue or annual ryegrass.
-- **Tall fescue lawn:** turf-type tall fescue.
 - **Zoysia or Bermuda:** patch with sod.
 
 ## After you've found the cause
@@ -163,7 +162,7 @@ If you need to dig deeper than a sod sample to look for buried debris, call 811 
 
 ### My sprinklers run every evening. Is that the problem?
 
-It can be two problems at once. Short daily runs wet the surface without reaching six inches down, and evening runs keep blades wet overnight, the conditions NC State and K-State tie to brown patch. Switch to fewer, longer runs before sunrise.
+It can be two problems at once. Short daily runs can wet the surface without reaching six inches down, and evening runs keep blades wet overnight, the conditions NC State and K-State tie to brown patch. Switch to fewer, longer runs before sunrise.
 
 ### Is the grass dead or just dormant from drought?
 

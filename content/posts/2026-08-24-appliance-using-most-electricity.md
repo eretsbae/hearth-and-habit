@@ -3,7 +3,7 @@ title: "What Uses the Most Electricity in a House? Typical kWh and Cost by Appli
 slug: appliance-using-most-electricity
 date: '2026-08-24'
 updated: '2026-10-11'
-description: "EIA survey data on what uses the most electricity at home: water heaters, AC, and heat lead, but pool pumps, EVs, and dehumidifiers rival them. Costs inside."
+description: "EIA survey data on what uses the most electricity at home: water heaters, AC, and heat lead, pool pumps and EVs rival them, and dehumidifiers add up. Costs inside."
 tags:
 - energy savings
 - electric bill
@@ -14,14 +14,14 @@ hero_image: /images/appliance-using-most-electricity-hero.svg
 hero_alt: Cutaway house with a fridge, window AC, water heater, and clothes dryer in
   separate rooms, each glowing to show its energy draw
 pin_hooks:
-- A pool pump uses about as much power as central AC
+- A pool pump uses about as much electricity a year as AC
 - Dehumidifier running all summer? It's near 1,000 kWh a year
 enriched: '2026-10-11'
 ---
 
-Air conditioning, electric heat, and an electric water heater use the most electricity in most US homes, each averaging around 2,300 to 2,700 kWh a year where present. A pool pump or EV charger can match them.
+Nationally, air conditioning, electric heat, and electric water heating are the biggest uses of home electricity, each averaging around 2,300 to 2,700 kWh a year in homes that have them. A pool pump or EV charger can match them.
 
-Those figures come from the US Energy Information Administration's (EIA) Residential Energy Consumption Survey, which measured how much electricity homes used for each purpose in 2020. Nationally, EIA puts air conditioning at 19% of home electricity use, and space heating and water heating at 12% each. The average household used about 10,500 kWh for the year.
+Those figures come from the US Energy Information Administration's (EIA) Residential Energy Consumption Survey, which estimated how much electricity homes used for each purpose in 2020. Nationally, EIA puts air conditioning at 19% of home electricity use, and space heating and water heating at 12% each. The average household used about 10,500 kWh for the year.
 
 The survey also shows which machines most top-ten lists leave out: dehumidifiers, second fridges, hot tubs, and the furnace blower. Below is the full table with yearly costs, how climate reshuffles it, and the upgrades that move the needle.
 
@@ -53,12 +53,11 @@ The numbers below are EIA's averages *per household that has that item*. A home 
 
 ![Bar chart of EIA average yearly kWh: water heating 2,706, space heating 2,484, pool pump 2,384, AC 2,318, dehumidifier 999, all fridges 839](/images/appliance-using-most-electricity-diagram.svg)
 
-Two notes on reading this table:
+One note on reading this table:
 
-- **The space heating figure is an average across very different homes.** EIA's number includes households that use electricity as their main heat and households that only run a space heater now and then. If your whole house heats with electric baseboards or a furnace, expect to be well above 2,484 kWh.
-- **The dishwasher and washer numbers are motor and pump power only.** The hot water they use is counted under water heating.
+- **The space heating figure is an average across very different homes.** EIA's number includes households that use electricity as their main heat and households that only run a space heater now and then. If your whole house heats with electric baseboards or a furnace, your use is likely higher than 2,484 kWh.
 
-To check a single appliance, use the formula: watts × hours used ÷ 1,000 × your price per kWh. A 1,500-watt space heater running 6 hours a day uses 1,500 × 6 ÷ 1,000 = 9 kWh, or about $1.53 a day at 17¢. The wattage on the label is the *maximum* draw, though. Things that cycle on and off, like fridges, water heaters, and AC, use far less than label watts × 24 hours. A plug-in watt meter measures what a plug-in appliance actually uses. For a deeper dive, see [what a space heater costs for 8 hours](https://www.hearth-habit.com/2026/10/how-much-does-it-cost-to-run-space.html).
+To check a single appliance, use the formula: watts × hours used ÷ 1,000 × your price per kWh. A 1,500-watt space heater running 6 hours a day uses 1,500 × 6 ÷ 1,000 = 9 kWh, or about $1.53 a day at 17¢. The wattage on the label is the *maximum* draw, though. Things that cycle on and off, like fridges, water heaters, and AC, use less than label watts × 24 hours. A plug-in watt meter measures what a plug-in appliance actually uses. For a deeper dive, see [what a space heater costs for 8 hours](https://www.hearth-habit.com/2026/10/how-much-does-it-cost-to-run-space.html).
 
 ## Your climate reorders the top of the list
 
@@ -72,23 +71,23 @@ The national averages hide big regional swings. Here's the same EIA survey split
 | Hot-humid | 4,173 | 1,914 | 2,559 |
 | Marine | 902 | 2,696 | 3,073 |
 
-In hot-humid regions, AC averages 4,173 kWh, or 4,173 × $0.17 = $709 a year, and pulls far ahead. In cold regions the same AC averages 1,310 kWh ($223), while electric heat reaches 2,876 kWh ($489). In the mild, damp marine climate, where little cooling is needed, the water heater is the top electric user at 3,073 kWh ($522).
+In hot-humid regions, AC averages 4,173 kWh, or 4,173 × $0.17 = $709 a year, and pulls far ahead. In cold regions the same AC averages 1,310 kWh ($223), while electric heat reaches 2,876 kWh ($489). In the mild, damp marine climate, where little cooling is needed, the water heater leads these three at 3,073 kWh ($522).
 
 So "is the AC or the water heater my biggest cost?" depends mostly on where you live, and on whether your water heater runs on electricity or gas. A gas water heater takes that line off your electric bill entirely, though it shows up on the [gas bill](https://www.hearth-habit.com/2026/10/gas-bill-higher-this-winter-without.html) instead.
 
 ## The quiet ones that rival the big three
 
-**Pool pumps.** At 2,384 kWh a year on average, and 2,864 kWh in hot-humid regions, a pool pump uses about as much as central air. ENERGY STAR explains why speed matters so much: cutting a pump's speed in half lets it use just one-eighth as much energy. That's the case for variable-speed pumps that run slower for longer.
+**Pool pumps.** At 2,384 kWh a year on average, and 2,864 kWh in hot-humid regions, a pool pump uses about as much as air conditioning. ENERGY STAR explains why speed matters so much: cutting a pump's speed in half lets it use just one-eighth as much energy. That's the case for variable-speed pumps that run slower for longer.
 
 **Hot tubs.** The heater and pump together average 1,963 kWh, about $334 a year at 17¢.
 
 **EV charging.** Homes that charge an electric vehicle average 2,363 kWh a year. That's real money on the bill, but it replaces gasoline, so judge it against fuel costs rather than against the fridge.
 
-**Dehumidifiers.** These are the sleeper. The average household with one uses 999 kWh a year, and 1,368 kWh in hot-humid regions, more than all its refrigerators combined. ENERGY STAR says certified models use 20% less energy for the same moisture removal. Run it with the doors and windows to that space closed, and aim for the 30–50% humidity range ENERGY STAR describes as optimal rather than drying the air further. If you're running one to fight a smell, our guide to [a basement that smells musty only in summer](https://www.hearth-habit.com/2026/09/why-does-my-basement-smell-musty-only.html) covers the moisture sources worth fixing first.
+**Dehumidifiers.** These are the sleeper. The average household with one uses 999 kWh a year, and 1,368 kWh in hot-humid regions. Even the national figure is more than the 839 kWh average for all the refrigerators in a home. ENERGY STAR says certified models use 20% less energy than similarly sized conventional units. Run it with the doors and windows to that space closed, and aim for the 30–50% humidity range ENERGY STAR describes as optimal rather than drying the air further. If you're running one to fight a smell, our guide to [a basement that smells musty only in summer](https://www.hearth-habit.com/2026/09/why-does-my-basement-smell-musty-only.html) covers the moisture sources worth fixing first.
 
 **Second fridges and freezers.** A second refrigerator averages 494 kWh ($84), and a separate freezer 570 kWh ($97). ENERGY STAR says refrigerators over 15 years old can cost about $95 more a year to run than a new model, and that an old fridge uses about 20% more energy than an ENERGY STAR one.
 
-**The furnace and AC blower.** The fan that pushes air through your ducts averages 690 kWh a year between heating and cooling seasons, and almost no appliance list counts it. A clogged filter makes that fan work harder; see [furnace filter basics](https://www.hearth-habit.com/2026/07/furnace-filter-basics-how-often-to.html).
+**The furnace and AC blower.** The fan that pushes air through your ducts averages 690 kWh a year between heating and cooling seasons, and most appliance lists leave it out. For keeping its airflow clear, see [furnace filter basics](https://www.hearth-habit.com/2026/07/furnace-filter-basics-how-often-to.html).
 
 ## What the bigger upgrades are worth
 
@@ -98,11 +97,11 @@ At 17¢ the math is 3,760 × $0.17 = $639 a year. At your own rate, it's 3,760 �
 
 **Heat pump clothes dryer.** ENERGY STAR says heat pump dryers use around 70% less energy than conventional dryers. Applied to the 680 kWh average, that's 680 × 0.70 = about 476 kWh saved, or roughly $81 a year at 17¢. That's a meaningful saving, but it's a smaller lever than the water heater. Whatever dryer you have, clean the lint filter after every load to keep airflow up.
 
-**Replacing an old second fridge.** If you need the extra fridge year-round, ENERGY STAR's advice is to replace an old unit with a certified model and recycle the old one. If it mostly holds drinks, unplugging it saves the whole 494 kWh.
+**Replacing an old second fridge.** If you need the extra fridge year-round, ENERGY STAR's advice is to replace an old unit with a certified model and recycle the old one. If it mostly holds drinks, unplugging it saves its whole load, about 494 kWh a year for the average second fridge.
 
 ## What gets blamed but rarely matters
 
-The microwave has a scary nameplate wattage but averages 107 kWh a year ($18), because it only runs for minutes. The dishwasher's own motor and pump average 112 kWh ($19). Lighting is real at 654 kWh, but it's spread across every bulb in the house. Chargers and standby power add up in aggregate, which our [phantom power breakdown](https://www.hearth-habit.com/2026/07/phantom-power-how-much-your-idle.html) covers, but no single one competes with a water heater.
+The microwave has a scary nameplate wattage but averages 107 kWh a year ($18), because it only runs for minutes. The dishwasher averages 112 kWh ($19). Lighting is real at 654 kWh, but it's spread across every bulb in the house. Chargers and standby power add up in aggregate, which our [phantom power breakdown](https://www.hearth-habit.com/2026/07/phantom-power-how-much-your-idle.html) covers, but no single one competes with a water heater.
 
 ## How to find the culprit in your own home
 

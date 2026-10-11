@@ -36,19 +36,19 @@ Drying does the same thing in reverse. The Wood Database, a reference site on wo
 | Letting the board soak in the sink | Boos: soaking "will disrupt the moisture content causing the rails to split" | Wash it right away and lift it out |
 | Leaving it in a puddle, even briefly | Teakhaus: "even a few minutes of water pooling" can cause localized swelling and possible warping | Wipe the counter and the board dry |
 | Drying or storing it flat on a stone counter | Boos: lying flat for long periods on a cold stone countertop "can hinder airflow and lead to moisture imbalance" | Stand it on edge, away from direct sun (Boos) |
-| Running it through the dishwasher | Boos: wood boards are "NOT dishwasher safe." Teakhaus: heat, harsh detergent, and long water exposure damage boards. | Hand-wash only |
+| Running it through the dishwasher | Boos: wood boards are "NOT dishwasher safe." Teakhaus: never put it in the dishwasher; severe warping from dishwasher damage is usually permanent. | Hand-wash only |
 | Using antibacterial soap or harsh detergent | Teakhaus: antibacterial soaps can dry out the wood. Boos: no harsh detergents. | Mild dish soap and warm water |
 | Oiling only the top | Boos says to oil "all surfaces" | Oil every face and edge |
 
 ![Two drying setups compared: a board standing on edge with air reaching both faces, and a board lying flat on stone with its bottom face staying damp](/images/why-does-cutting-board-warp-after-washing-inline.svg)
 
-The drying-flat point catches people out because the board looks dry. The top face airs out in minutes. The bottom face, pressed against cool stone, stays damp much longer. Teakhaus allows flat storage only "in a well-ventilated area," and notes that vertical storage lets air reach both sides. Boos recommends standing the board on end to air dry.
+The drying-flat point catches people out because the board looks dry. The top face airs out. The bottom face, pressed against cool stone, gets little airflow and can stay damp longer. Teakhaus allows flat storage only "in a well-ventilated area," and notes that vertical storage lets air reach both sides. Boos recommends standing the board on end to air dry.
 
 The same thinking applies to other surfaces: each one has a product or habit that quietly damages it. Our guide to [which surfaces need their own cleaner](https://www.hearth-habit.com/2026/09/is-it-worth-buying-separate-cleaners.html) covers the rest of the kitchen.
 
 ## Why some boards move more than others
 
-Wood doesn't swell the same amount in every direction. The Wood Database puts typical shrinkage across the growth rings (tangential) at 6–10%. Shrinkage along the rays, from the center of the tree outward (radial), runs 3–5%. That makes tangential movement about double.
+Wood doesn't swell the same amount in every direction. The Wood Database puts typical shrinkage parallel to the growth rings (tangential) at 6–10%. Shrinkage across the rings, along the rays from the center of the tree outward (radial), runs 3–5%. That makes tangential movement about double.
 
 That difference shows up in how the board was sawn:
 
@@ -57,7 +57,7 @@ That difference shows up in how the board was sawn:
 
 The gap depends on the species' T/R ratio, its tangential-to-radial shrinkage ratio. Hard maple, a common cutting-board wood, has a T/R ratio of 2.1. For the same moisture change, its flat-sawn face moves about 2.1 times as much as a quartersawn face. At a ratio of 3, the high end, the Wood Database says the flat-sawn surface moves at triple the rate.
 
-A board glued up from narrow strips (edge grain) spreads that movement across many pieces instead of one wide slab. A wide single-slab, flat-sawn board is the one to dry most carefully.
+A wide flat-sawn board has the most face movement, so it is the one to dry most carefully.
 
 ## An oiling schedule that keeps water out
 
@@ -86,7 +86,7 @@ Then let it dry standing on edge before oiling all surfaces. Teakhaus says sever
 
 ### Is it safe to keep using a slightly warped board?
 
-The concern is stability, not the wood itself. A board that rocks can slide while you cut. If it wobbles, set a damp towel underneath to keep it from slipping (Teakhaus suggests the same), or retire it. A board split at the glue seams should be replaced.
+A board that rocks can slide while you cut, so don't cut on it until it sits stable. Try the flattening method above, or replace it. A board split at the glue seams should be replaced.
 
 ### Why did my new board warp after one wash?
 

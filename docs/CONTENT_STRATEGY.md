@@ -61,6 +61,9 @@
 4. **기존 글 보강**: `generator/enrich_post.py`가 게시된 글에 같은 과정을 돌려 다시 쓴다.
    `enrich-posts.yml`(수동 실행)이 결과를 PR로 올리고, 사람이 머지하면 sync-posts가 라이브에 반영한다.
    변경 없이 결과만 보려면 `quality-preview.yml`.
+5. **2026-10-11 실행 주체 변경**: API 크레딧 소진 후 위 1~4를 Claude Code 세션이 같은 기준으로 수행한다.
+   정기 글은 `generator/CLAUDE_RUN.md`(리서치 → 집필 → 하위 에이전트 독립 검증 → `claude_post.py finalize`),
+   기존 글 70편은 같은 날 세션 하위 에이전트로 재작성·문장 단위 대조를 마쳤다(PR #38).
 
 ## 품질 게이트 (발행 전 2중 자동 검증)
 

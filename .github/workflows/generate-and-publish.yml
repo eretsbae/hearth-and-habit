@@ -1,11 +1,11 @@
-# 자동 글 생성 + Blogger 발행 파이프라인
-# - 월/수/금 오전(북미 동부 기준)에 Claude로 새 글 1편(글 + SVG 일러스트)을
-#   생성해 이 리포에 커밋/푸시한 뒤, Blogger API로 www.hearth-habit.com에
-#   자동 게시합니다.
+# 정기 발행 파이프라인 (2026-10-11부터 게시 전용)
+# - 글은 오너 PC의 Claude Code 예약 작업이 월/수/금 20:43 KST에 써서 main에
+#   커밋한다(scripts/claude-publish.ps1 → generator/CLAUDE_RUN.md, API 크레딧 미사용).
+# - 이 워크플로우는 같은 날 22:17 KST에 그 글을 Blogger(www.hearth-habit.com)에
+#   게시하고 핀을 갱신한다. 커밋된 새 글이 없으면 실패해 ci-alerts 이슈가 열린다.
 # - Actions 탭에서 "Run workflow"로 수동 실행도 가능합니다.
 #
 # 필요한 리포지토리 시크릿 (Settings → Secrets and variables → Actions):
-#   ANTHROPIC_API_KEY     Claude API 키
 #   GOOGLE_CLIENT_ID      generator/blogger_auth.py 실행 결과
 #   GOOGLE_CLIENT_SECRET  generator/blogger_auth.py 실행 결과
 #   GOOGLE_REFRESH_TOKEN  generator/blogger_auth.py 실행 결과
@@ -47,8 +47,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # 인증이 죽어 있으면(만료된 refresh token 등) 글 생성에 Claude API 비용을
-      # 쓰기 전에 여기서 즉시 실패시킨다.
+      # 인증이 죽어 있으면(만료된 refresh token 등) 여기서 즉시 실패시킨다.
       - name: Verify Blogger credentials
         env:
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
@@ -56,19 +55,27 @@ jobs:
           GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
         run: python generator/blogger_publish.py --check-auth
 
-      - name: Generate new post with Claude
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python generator/generate_post.py
+      # 2026-10-11부터 글은 여기서 쓰지 않는다. API 크레딧이 바닥나서, 오너 PC의
+      # 예약 작업(scripts/claude-publish.ps1, 월/수/금 20:43 KST)이 Claude Code 세션
+      # 토큰으로 리서치·집필·검증한 뒤 main에 커밋한다(generator/CLAUDE_RUN.md).
+      # 이 단계는 그 글이 들어왔는지만 확인한다. 없으면 실패시켜 ci-alerts가 이슈를
+      # 열게 한다(PC가 꺼져 있었거나 세션이 글을 못 냈다는 뜻).
+      - name: Require a post from the Claude Code session
+        run: |
+          python - <<'EOF'
+          import sys, yaml
+          topics = yaml.safe_load(open("config/topics.yml", encoding="utf-8"))["topics"]
+          ready = [t["title"] for t in topics if t.get("status") == "published" and not t.get("blogger_url")]
+          if not ready:
+              sys.exit("No new post to publish: the Claude Code run (scripts/claude-publish.ps1) did not commit one. "
+                       "Check logs/claude-publish/ on the owner's PC.")
+          print("ready to publish:", *ready, sep="\n  ")
+          EOF
 
-      - name: Commit generated content
+      - name: Configure git
         run: |
           git config user.name "hearth-habit-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add content/ config/topics.yml data/research/
-          git diff --cached --quiet || git commit -m "content: add scheduled post ($(date -u +%Y-%m-%d))"
-          git pull --rebase --autostash origin "$GITHUB_REF_NAME"
-          git push
 
       - name: Publish to Blogger
         env:

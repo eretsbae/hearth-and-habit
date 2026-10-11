@@ -47,6 +47,8 @@ google_site_verification: ""
 
 # ── Content generation ──────────────────────────────────────
 generation:
+  # (API 경로 전용 — 2026-10-11부터 정기 글은 Claude Code 세션이 쓰므로 이 값은 쓰이지 않음.
+  #  아래 research·quality_gate 의 min_* 기준은 generator/check_post.py 가 그대로 쓴다.)
   # Claude 모델 (리서치·집필·크리틱·삽화 공통). 2026-10-11 Sonnet 5 → Opus 5.5:
   # 6번째 "가치 없는 콘텐츠" 거절 뒤, 기억에 의존한 일반론 대신 웹 리서치로 근거를
   # 모아 쓰는 구조로 바꾸면서 함께 올림. 글 1편당 대략 $1~2(검색 포함).

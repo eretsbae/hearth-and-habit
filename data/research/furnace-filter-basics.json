@@ -1,0 +1,138 @@
+{
+  "reader_situation": "Readers are North American homeowners or renters who just found a dirty filter, saw a filter reminder, or are standing in a store aisle comparing MERV 8, 11 and 13 filters at very different prices. They want a schedule they can trust, and they want to know whether a 'better' filter could hurt their furnace or AC.",
+  "direct_answer": "Check the filter every month and change it as soon as it looks dirty. ENERGY STAR says to change a filter at least every 3 months no matter how it looks, and manufacturers typically say 60–90 days for 1-inch filters. Thicker 4-inch media filters can usually last about 6 months, and some up to a year. Change sooner if the system runs 6–12 months a year or you have pets, four or more occupants, indoor smoking, allergies, or construction going on. For MERV, EPA says most systems can handle a MERV 13 filter if you replace it often. The real limit is pressure drop (airflow resistance), not the MERV number. That depends on filter depth and design, so check the resistance printed on the label or ask a tech to measure total static pressure, especially if you have a 1-inch slot.",
+  "consensus": [
+    "Change 1-inch filters every 1–3 months and 4–5-inch media filters every 6–12 months.",
+    "Change more often with pets, allergies, smokers, renovation work, or heavy system use.",
+    "Check monthly and replace when the filter looks gray or clogged.",
+    "The airflow arrow points toward the furnace/blower.",
+    "Higher MERV catches smaller particles but can restrict airflow, so 'check what your system can handle.'",
+    "A clogged filter raises energy use, reduces comfort, and can freeze AC coils or overheat the furnace."
+  ],
+  "gaps": [
+    "The article calls 'above 13' hospital territory and implies MERV 13 is a risky ceiling. EPA recommends upgrading to at least MERV 13, or as high as your system fan and filter slot can take. It also says most furnaces and HVAC systems can run a MERV 13 filter without equipment problems, as long as the filter is replaced often.",
+    "The article treats MERV alone as the airflow risk. PNNL says a higher MERV rating does not automatically mean higher pressure drop, because pleat depth and filter area matter more. In one manufacturer's example, three MERV 7 filters rated 0.20 in. WC (1-inch), 0.13 (2-inch) and 0.12 (4-inch) at 300 FPM. A 1-inch MERV 13 label PNNL shows reads just 0.08 in. WC at 410 CFM.",
+    "Missing: the actual threshold. PNNL says most residential systems work efficiently when total static pressure is no more than 0.4–0.5 in. WC, and a standard PSC-motor air handler moves its rated air at about 0.5 in. WC. A filter with 0.25 in. WC of pressure drop would use half of that budget on its own.",
+    "Missing: what overload actually does to each motor type. PSC motors 'fall off': airflow drops and run times get longer. ECM/variable-speed motors keep pushing harder to hold airflow and can burn out. Excess pressure drop can also overheat furnaces and freeze coils.",
+    "'The filter exists to protect equipment, not your lungs' is overstated. PNNL lists occupant respiratory health first among a filter's three purposes, especially during wildfire smoke. EPA guidance on reducing PM2.5 is built around HVAC filters.",
+    "'Two or more pets can halve the interval' and 'washable filters are roughly MERV 1–4' have no source. Cut them or replace them with what PNNL says. Contractors should advise replacement every 3 months or more often when equipment runs 6–12 months a year, or the home has four or more occupants, pets, indoor smoking, allergic occupants, or construction. Washable filters are usually electrostatic aluminum mesh or foam. They need cleaning every 1–3 months and full air-drying, because a damp filter can harbor mold.",
+    "Cost is unsourced at $5–25. Carrier (a manufacturer) puts filter replacement at $10–$50, with fiberglass at the low end and high-efficiency pleated at the high end. Present this as a typical range. The energy impact also needs a number: DOE says routinely replacing or cleaning filters can lower AC energy use by 5–15%.",
+    "Missing details on fit, sealing and when to replace early. EPA: filters come 1–5 inches thick, should fit snugly with no air leaking around the edges, and should never be bent or crushed to fit. PNNL: if the filter cover is left off or unsealed, the system pulls in unconditioned air, which matters most when the furnace is in a garage. Homes with an inaccessible furnace put a filter in each return grille. Replace immediately if the filter is collapsed, bangs when the system starts, or is damp or moldy. California has required filter labels to show MERV, particle-size efficiency and pressure drop since April 1, 2019."
+  ],
+  "evidence": [
+    {
+      "claim": "ENERGY STAR baseline schedule",
+      "detail": "Check your filter every month, especially in heavy-use months (winter and summer). If it looks dirty after a month, change it. At a minimum, change it every 3 months. A dirty filter slows airflow and makes the system work harder.",
+      "source_url": "https://www.energystar.gov/saveathome/heating-cooling",
+      "source_title": "Heat & Cool Efficiently | ENERGY STAR"
+    },
+    {
+      "claim": "Typical manufacturer interval and EPA's 'change more often' trigger",
+      "detail": "Replace filters according to the manufacturer's recommendations. Manufacturers typically recommend replacement every 60 to 90 days. If filters look heavily soiled when you replace them, consider changing them more often.",
+      "source_url": "https://www.epa.gov/indoor-air-quality-iaq/guide-air-cleaners-home",
+      "source_title": "Guide to Air Cleaners in the Home | US EPA"
+    },
+    {
+      "claim": "Most systems can handle MERV 13 if it's changed often",
+      "detail": "Most furnaces and HVAC systems can accommodate a MERV 13 filter without equipment problems, provided the filter is replaced frequently. HVAC systems are rarely labeled with filter recommendations, so consult a technician to be certain. A technician can also modify the system to take a higher-efficiency filter.",
+      "source_url": "https://www.epa.gov/indoor-air-quality-iaq/guide-air-cleaners-home",
+      "source_title": "Guide to Air Cleaners in the Home | US EPA"
+    },
+    {
+      "claim": "Filter thickness and fit",
+      "detail": "Filters commonly come 1 to 5 inches thick. Make sure the filter fits snugly so air does not leak around it, and do not bend or crush it to fit. FPR and MPR are proprietary rating methods; MERV is based on a national consensus standard.",
+      "source_url": "https://www.epa.gov/indoor-air-quality-iaq/guide-air-cleaners-home",
+      "source_title": "Guide to Air Cleaners in the Home | US EPA"
+    },
+    {
+      "claim": "What each MERV level actually captures",
+      "detail": "MERV ratings cover particles from 0.3 to 10 µm, using an ASHRAE test method. MERV 1–4: under 20% of 3.0–10.0 µm particles. MERV 8: at least 20% of 1.0–3.0 µm and at least 70% of 3.0–10.0 µm. MERV 11: at least 20% of 0.30–1.0 µm. MERV 13: at least 50% of 0.30–1.0 µm, 85% of 1.0–3.0 µm and 90% of 3.0–10.0 µm. MERV 16: at least 95% in all three size ranges. EPA recommends at least MERV 13 if upgrading, or as high as your system fan and filter slot can accommodate.",
+      "source_url": "https://www.epa.gov/indoor-air-quality-iaq/what-merv-rating",
+      "source_title": "What is a MERV rating? | US EPA"
+    },
+    {
+      "claim": "Static pressure budget for residential systems",
+      "detail": "Most residential HVAC systems operate efficiently when total pressure drop across the system is no higher than 0.4 or 0.5 in. WC. A standard PSC-motor air handler moves its required airflow at about 0.5 in. WC. ECM motors are most efficient at 0.3–0.5 in. WC. A filter with 0.25 in. WC of pressure drop on a PSC system uses half the available static pressure. The filter typically accounts for 20%–50% of total system pressure drop.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/high-merv-filters",
+      "source_title": "High-MERV Filters | Building America Solution Center (PNNL)"
+    },
+    {
+      "claim": "Filter depth matters more than MERV for airflow",
+      "detail": "A high MERV rating does not necessarily mean higher pressure drop. Deeper or more numerous pleats lower it, and 4-inch-deep pleats have twice the surface area of 2-inch pleats. Three MERV 7 filters from one manufacturer rated 0.20 in. WC (1-inch), 0.13 (2-inch) and 0.12 (4-inch) at 300 FPM. A 4-inch MERV 12 rated 0.2 in. WC at 300 FPM and 0.35 at 500 FPM. 500 FPM is the maximum desired face velocity for residential systems; 200–400 FPM is preferred.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/high-merv-filters",
+      "source_title": "High-MERV Filters | Building America Solution Center (PNNL)"
+    },
+    {
+      "claim": "How overload damages different blower motors",
+      "detail": "PSC motors can't adjust, so airflow 'falls off' as pressure rises and run time gets longer. ECM/BPM motors ramp up speed and power to hold airflow and can work harder 'until it burns itself out'; motor burnout is more likely with an ECM than a PSC. Excessive pressure drop can damage furnaces through overheating, freeze coils, and burn out blower motors. Clogging and filter collapse are more likely with higher-MERV filters.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/high-merv-filters",
+      "source_title": "High-MERV Filters | Building America Solution Center (PNNL)"
+    },
+    {
+      "claim": "Filter labels and washable filters",
+      "detail": "Since April 1, 2019, California has required HVAC filter labels to show MERV, particle-size efficiency in three size bins, and pressure drop at up to five airflow rates. Example 1-inch MERV 13 label: 62% efficiency at 0.30–1.0 µm, 0.08 IWC at 410 CFM, maximum rated airflow 1,390 CFM. PNNL advises avoiding manufacturers that won't provide static pressure figures. Disposable filters should be replaced every three months or sooner, especially if the system runs continually. Washable filters (usually electrostatic aluminum mesh or foam) should be cleaned every 1–3 months and air-dried; if not dried properly they can harbor mold.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/high-merv-filters",
+      "source_title": "High-MERV Filters | Building America Solution Center (PNNL)"
+    },
+    {
+      "claim": "Program minimums and what filters are for",
+      "detail": "ENERGY STAR new homes require MERV 6 or higher. DOE Zero Energy Ready Home and EPA Indoor airPLUS require MERV 8 or higher. MERV 13 or higher is recommended for virus control. Filters serve three purposes: occupant respiratory health (especially during wildfires), protecting HVAC equipment, and keeping dust off surfaces.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/high-merv-filters",
+      "source_title": "High-MERV Filters | Building America Solution Center (PNNL)"
+    },
+    {
+      "claim": "Conditions that shorten the interval, and when to replace immediately",
+      "detail": "Contractors should advise replacement every three months or more often, especially when equipment runs six to twelve months a year or the home has four or more occupants, pets, indoor smoking, allergic occupants, or construction inside or outside. Replace immediately if the filter is clogged, has collapsed fins, bangs when the system comes on, or is damp or moldy. Remove the plastic wrap but not the cardboard frame. The arrow points toward the HVAC equipment.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/proper-installation-furnace-and-air-handler-filters",
+      "source_title": "Proper Installation of Furnace and Air-Handler Filters | Building America Solution Center (PNNL)"
+    },
+    {
+      "claim": "Seal the access cover; don't over-spec MERV",
+      "detail": "The filter access panel should have a gasket and can be sealed with duct or magnetic tape. If the cover is left off or unsealed, the air handler can pull in unconditioned or unwanted air, which is a particular concern when the unit is in a garage. If the furnace is in an inaccessible crawlspace or attic, put a filter in each return grille. Do not install filters with a higher MERV than the system was designed for.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/proper-installation-furnace-and-air-handler-filters",
+      "source_title": "Proper Installation of Furnace and Air-Handler Filters | Building America Solution Center (PNNL)"
+    },
+    {
+      "claim": "Quantified energy effect of clean filters",
+      "detail": "Routinely replacing or cleaning air filters can lower an air conditioner's energy consumption by 5–15 percent. A clogged filter restricts airflow, reducing efficiency and cooling ability.",
+      "source_url": "https://www.energy.gov/sites/prod/files/HomeCooling101-final.pdf",
+      "source_title": "Energy Saver 101: Home Cooling (U.S. DOE)"
+    },
+    {
+      "claim": "Manufacturer guidance on intervals, cost and backward filters",
+      "detail": "Carrier generally recommends changing filters about every three months. A 1-inch filter may need changing about monthly, a 4-inch filter typically lasts around six months, and some high-capacity filters last up to a year. Filter replacement typically costs $10–$50. A backward filter puts the less porous side into the airflow and can quickly restrict it. Arrows should point toward the blower motor.",
+      "source_url": "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/changing-furnace-filters/",
+      "source_title": "Changing Furnace Filters: A Guide to Home Comfort & Efficiency | Carrier"
+    }
+  ],
+  "real_questions": [
+    "Will a MERV 13 filter damage my furnace or AC, especially in a 1-inch slot?",
+    "What happens if I put the filter in backwards, and which way does the arrow go in a horizontal or downflow unit?",
+    "Why doesn't my filter's actual size match the size printed on it (for example, nominal 20x25x1 vs. a slightly smaller actual size), and how do I measure for a replacement?",
+    "My filter gets gray in a few weeks. Is that the fan setting, leaky ducts, or a missing seal on the filter cover?",
+    "Are washable/permanent filters or FPR/MPR-rated filters (store brands) better than MERV-rated ones?",
+    "Is it OK to run the system for a day or two without a filter until I can buy one?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "Two parts. (A) Interval decision table. Rows: 1-inch fiberglass, 1-inch pleated, 2-inch pleated, 4–5-inch media. Columns: baseline interval (ENERGY STAR minimum 3 months; EPA's 60–90-day manufacturer norm; Carrier's 1-inch about monthly, 4-inch about 6 months, up to a year for some) and 'shorten if' triggers (PNNL: system runs 6–12 months a year, 4+ occupants, pets, indoor smoking, allergies, construction). Add a 'replace now regardless' row: collapsed, banging, damp or moldy (PNNL). (B) Worked pressure-budget example using PNNL numbers. A PSC system has about 0.5 in. WC total. A 1-inch MERV 7 at 0.20 in. WC uses 40% of it (0.20/0.5). A 4-inch MERV 7 at 0.12 uses 24% (0.12/0.5). A 0.25 in. WC filter uses 50%. The example 1-inch MERV 13 at 0.08 in. WC (at 410 CFM) uses 16%, which shows the label beats the MERV number for judging airflow. Close with an illustrative energy line labeled hypothetical: on a $150 cooling month, DOE's 5–15% equals $7.50–$22.50. Compare that with Carrier's $10–$50 filter cost range."
+  },
+  "cautions": [
+    "Turn the system off at the thermostat before removing the filter (PNNL, Carrier). Don't leave the access cover off or unsealed; it pulls unconditioned or garage air into the system (PNNL).",
+    "Don't present 'MERV 13 always safe' or 'MERV 13 always harmful.' EPA says most systems can handle it if it's changed often, while PNNL warns against exceeding the design pressure drop. Tell readers to check the label's pressure drop, compare with the old filter, or have a tech measure total static pressure (0.4–0.5 in. WC guideline).",
+    "Variable-speed (ECM) systems can burn out a motor under high static pressure without any obvious drop in airflow (PNNL). Don't tell readers that weak airflow is their only warning sign.",
+    "Washable filters must be completely air-dried before reinstalling, or they can harbor mold (PNNL).",
+    "Furnace attic or crawlspace access is a fall/safety issue. PNNL recommends permanent stairs and walkways for attic units. For inaccessible units, filters belong at the return grilles.",
+    "Warranty: no retrieved source ties filter choice to warranty terms. Don't claim a high-MERV filter voids a warranty; tell readers to check their furnace manual for the specified filter type and size.",
+    "Research note for the editor: the tool limits ran out before any forum thread (Reddit, HVAC-Talk) could be retrieved. real_questions come from the EPA and Carrier FAQ sections and search-result titles, so check them against forum threads before drafting. Cost figures are manufacturer-sourced (Carrier) and should be labeled as typical."
+  ],
+  "sources": {
+    "https://www.energystar.gov/saveathome/heating-cooling": "Heat & Cool Efficiently | ENERGY STAR",
+    "https://www.epa.gov/indoor-air-quality-iaq/guide-air-cleaners-home": "Guide to Air Cleaners in the Home | US EPA",
+    "https://www.epa.gov/indoor-air-quality-iaq/what-merv-rating": "What is a MERV rating? | US EPA",
+    "https://basc.pnnl.gov/resource-guides/high-merv-filters": "High-MERV Filters | Building America Solution Center (PNNL)",
+    "https://basc.pnnl.gov/resource-guides/proper-installation-furnace-and-air-handler-filters": "Proper Installation of Furnace and Air-Handler Filters | Building America Solution Center (PNNL)",
+    "https://www.energy.gov/sites/prod/files/HomeCooling101-final.pdf": "Energy Saver 101: Home Cooling (U.S. DOE)",
+    "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/changing-furnace-filters/": "Changing Furnace Filters: A Guide to Home Comfort & Efficiency | Carrier"
+  }
+}

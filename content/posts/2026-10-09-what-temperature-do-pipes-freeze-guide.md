@@ -2,8 +2,9 @@
 title: At What Temperature Do Pipes Freeze? A Symptom-by-Symptom Guide
 slug: what-temperature-do-pipes-freeze-guide
 date: '2026-10-09'
-description: Pipes start freezing when outdoor temps drop below 20°F, but wind, insulation,
-  and location change the risk. Match your situation to the fix.
+description: Pipes freeze at 32°F, but unheated-space pipes are most at risk below
+  20°F. Match tonight's low to your pipes, thaw safely, and know when to shut off
+  water.
 tags:
 - frozen pipes
 - winter home maintenance
@@ -17,101 +18,184 @@ hero_alt: Cutaway illustration of a house pipe near an exterior wall starting to
 pin_hooks:
 - The Exact Temperature Pipes Start to Freeze
 - 'Frozen Pipes: Symptom-by-Symptom Fix Guide'
+updated: '2026-10-11'
+enriched: '2026-10-11'
 ---
 
-Pipes generally start to freeze when outdoor temperatures drop to about 20°F (-7°C) or lower, though exposed or poorly insulated pipes can freeze even in the high 20s.
+Water in a pipe freezes at 32°F, but pipes in unheated spaces are most at risk below about 20°F outside. Here's what to do tonight, by forecast and symptom.
 
-That's a range, not a single trigger point, because freezing depends on more than the thermometer. Wind, how long the cold lasts, where the pipe is located, and how much heat is escaping your house all matter as much as the outdoor number. A pipe running through an insulated interior wall might be fine at 10°F for days. A hose bib on an exterior wall can freeze solid at 25°F overnight if the wind is cutting across it.
+Both numbers are correct because they measure different things. The first is the temperature of the pipe. The second is the outdoor temperature at which pipes in the worst locations start losing that battle. The rest of this guide connects the two to your house and tonight's weather.
 
-Rather than one rule for every house, it's more useful to work through your specific situation. Below are the scenarios homeowners actually run into, with what to check and what to do for each.
+## Why 32°F and 20°F are both right
 
-## If it's below 20°F outside tonight
+Water freezes when the pipe holding it reaches 32°F (0°C). Outdoor air has to pull the pipe down to that temperature, which takes time. Utah State University Extension notes that pipes freeze when they are exposed to freezing temperatures "for several hours." That's why a brief dip below freezing is less dangerous than a long, steady cold night.
 
-This is the threshold most plumbers and insurers treat as the real danger zone. At 20°F and below, pipes running through unheated or poorly insulated spaces — crawl spaces, attics, garages, exterior walls — can freeze within a matter of hours, especially if wind is hitting that side of the house.
+The 20°F (-7°C) figure comes from insurers, not physics. State Farm says pipes in uninsulated attics, crawl spaces, and exterior walls are most at risk, especially below 20°F. It is an alert line for unprotected pipes, not a rule for every pipe:
 
-What to do:
+- **Pipes inside heated, insulated rooms** usually stay safe well below 20°F, as long as the heat stays on.
+- **Exposed lines such as outdoor hose bibs** can freeze during any sustained stretch below 32°F.
+- **Everything else** falls somewhere in between, depending on insulation and drafts.
 
-- Open cabinet doors under sinks on exterior walls (kitchen and bathroom) so warm room air reaches the pipes.
-- Let faucets on vulnerable lines drip a thin, steady stream. Moving water is much harder to freeze than standing water, and the drip relieves pressure if ice does start to form elsewhere in the line.
-- Keep the thermostat at the same setting day and night during a cold snap — this isn't the night to use a deep setback. If you want the savings math on thermostat setbacks for normal nights, see [the right thermostat settings for every season](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html).
-- If you have a detached garage or unheated basement with any plumbing in it, add a space heater only with direct supervision — never left running unattended overnight.
+Where you live matters too. The Insurance Institute for Business & Home Safety (IBHS) points out that plumbing in exterior walls is common in warmer Southern homes. Arctic outbreaks reach places where extreme cold is rare. A house in Texas or Georgia can be more vulnerable at 20°F than a house in Minnesota is at 0°F.
 
-## If it's below 0°F
+## Wind chill doesn't change the freezing point
 
-Below 0°F, the clock moves faster. Exposed pipes — especially ones already marginal (old insulation, a drafty crawl space, a known cold spot in the house) — can freeze in a few hours rather than overnight. This is also the range where even well-insulated homes can get a surprise, because wind chill pulls heat out of exterior walls faster than still cold air does.
+Many people believe a "feels like" temperature of 10°F can freeze pipes on a 30°F night. The National Weather Service says this is not how wind chill works. Wind chill applies only to people and animals. For objects such as water pipes and car radiators, wind only speeds up cooling toward the actual air temperature.
 
-If you already know which room runs cold — maybe you've dealt with uneven heating before, see [why one room in your house is always colder than the rest](https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html) — that's your highest-risk pipe location tonight. Treat it as a priority: drip the faucet, open the cabinet, and consider a temporary heat source if the room is far from the furnace's reach.
+The Weather Service gives this example: at an air temperature of -5°F with a wind chill of -31°F, a car radiator will not drop below -5°F. The same holds for a pipe.
 
-## If a faucet suddenly has no water pressure or no water at all
+**Plan around the forecast's actual low and how many hours it will stay below freezing; treat wind as something that shortens the timeline, not something that lowers the danger temperature.** A windy 25°F night is riskier than a calm one because pipes reach 25°F sooner. It still can't make them colder than 25°F.
 
-This is the most common sign of a frozen line, not a clog, assuming nothing else changed (no shutoff valve was touched, no leak elsewhere). Try the faucet on the other side of the house first — if it works fine, the problem is isolated to one line, which points to a freeze rather than a whole-house issue like a shutoff valve or municipal supply problem.
+## Find your exposed pipes first
 
-What to do:
+According to the American Red Cross, the pipes that freeze most often fall into three groups:
 
-1. Leave the faucet open. When the ice clears, water needs somewhere to go.
-2. Trace the pipe to the coldest part of its run — under a sink against an exterior wall, through an unheated crawl space, or where it enters the house.
-3. Apply gentle heat: a hair dryer on low, a space heater a safe distance away, or towels soaked in hot water wrapped around the pipe. Never use a blowtorch, propane torch, or any open flame — pipes (especially plastic) can scorch, melt, or ignite nearby materials.
-4. Keep the heat moving and patient. Thawing a frozen section can take 30 minutes to a few hours depending on how long and how solidly it's frozen.
+- **Pipes exposed to severe cold**, such as outdoor hose bibs, pool supply lines, and sprinkler lines
+- **Supply pipes in unheated indoor areas**, such as basements, crawl spaces, attics, garages, and kitchen cabinets
+- **Pipes along exterior walls** with little or no insulation
 
-If you can't find the frozen section, or the pipe is inside a wall or ceiling you can't access, that's a point to call a plumber rather than guessing — see [how to know if a repair is actually worth calling a pro for](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html).
+If one room in your house always runs cold, check whether any plumbing passes through it. That room is likely your weak spot. The causes and fixes are covered in [why one room in your house is always colder than the rest](https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html).
 
-## If water is leaking or spraying when the ice thaws
+## Tonight's forecast × where your pipes run
 
-This means the pipe already cracked while frozen — ice expands as it forms, and the pressure splits the pipe wall even before anything is flowing. The leak only becomes visible once the ice inside melts and water can move again.
+Find the row for tonight's forecast low, using the actual air temperature rather than wind chill. Then read across to each place your pipes run. Every action below comes from Red Cross, IBHS, or State Farm guidance.
 
-Shut off the main water valve immediately, then call a plumber. This is not a DIY pipe-repair situation for anything beyond a temporary pipe clamp or epoxy patch to get you to the shutoff — a cracked section needs to be cut out and replaced properly, or it will fail again under normal pressure.
+| Forecast low (actual air temp) | Inside heated, insulated space | Under a sink on an exterior wall | Garage, crawl space, or attic | Outdoor hose bib |
+|---|---|---|---|---|
+| **33–40°F** | Minimal risk. No changes needed. | Low. No action needed unless the forecast is trending colder. | Low, but forecasts can miss. Use tonight to prepare. | Low tonight. Winterize now: close the inside valve and open the outside bib. |
+| **21–32°F** | Low. Keep the thermostat at the same setting day and night. | Moderate. Open the cabinet doors, move cleaners out of children's reach, and drip cold water. | Elevated if the cold lasts for hours. Close the garage door and drip the faucets these lines feed. | High. Any sustained cold below 32°F can freeze it. Inside valve closed, outside bib open. |
+| **20°F and below** | Low while the heat stays on. Never set it below 55°F, even when away. | High. Open the cabinets, drip cold water, and keep the thermostat steady. | Highest. This is State Farm's danger zone for uninsulated spaces. Take every step above, and remember that insulation alone won't hold through a long freeze. | It should already be shut off and drained. If it isn't, do that before dark. |
 
-## If your water bill jumped but you haven't seen a leak
+*Wind can't move you down a row, but it shortens the number of hours a pipe needs to reach that row's temperature (National Weather Service).*
 
-A pinhole crack from a partial freeze-thaw cycle earlier in the season can leak slowly inside a wall or crawl space for weeks before it's obvious. If your bill spiked without any change in household water use, it's worth ruling out a hidden leak before assuming it's just winter usage — the full troubleshooting rundown is in [why your water bill spikes in winter with no extra usage](https://www.hearth-habit.com/2026/09/why-does-my-water-bill-spike-in-winter.html).
+Some notes on the actions in the table:
 
-## If you're leaving the house for more than a day or two in winter
+- **Dripping.** The Red Cross says to drip cold water from faucets served by exposed pipes, because even a trickle helps prevent freezing. You don't need to drip faucets whose pipes stay in heated space.
+- **Thermostat.** This is not the night for a deep overnight setback. The Red Cross recommends keeping the same setting day and night during a cold snap.
+- **Hose bibs.** The Red Cross says to close the indoor valve that feeds each outdoor faucet and leave the outside faucet open. That way, any water left in the line has room to expand without breaking the pipe. IBHS notes that homes built before 2010 typically don't have frost-proof outdoor faucets, so in older homes, shutting off and insulating those valves matters most.
 
-An empty house loses its margin for error fast, because there's no one there to notice a dripping faucet has stopped or a room feels unusually cold. Before any trip of more than a day or two during freezing weather:
+## Symptom: one faucet trickles or gives nothing
 
-- Leave the thermostat no lower than 55°F (13°C) — low enough to save some energy, high enough to keep interior pipes safely above freezing.
-- Shut off the main water valve and drain the lines if you'll be gone a week or more, especially in a vacation home or cabin that won't have anyone checking on it.
-- Ask a neighbor or family member to check the house every few days if a pipe does fail while you're away, the damage from hours of running water is far worse than from a few hours of freezing.
+The Red Cross says a faucet that produces only a trickle suggests a frozen pipe. Work through these four steps in order.
 
-## If one specific pipe freezes every single cold snap
+![Flowchart for a faucet with no water: check other faucets, keep it open, thaw from the faucet end, call a plumber if you can't reach it](/images/what-temperature-do-pipes-freeze-guide-inline.svg)
 
-A pipe that freezes repeatedly, winter after winter, usually has a specific cause rather than just bad luck — and it's worth fixing once instead of thawing it every time. Common culprits:
+### 1. Check the other faucets
 
-- **No insulation on an exterior-wall run.** Pipe insulation sleeves (foam tubes from any hardware store) are a cheap, one-time fix for an exposed section.
-- **A gap letting outside air hit the pipe directly** — often around where a pipe passes through a rim joist, exterior wall, or foundation. Sealing these gaps is squarely in [caulking 101](https://www.hearth-habit.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html) territory, though larger gaps may need spray foam instead of caulk.
-- **A vent or gap left open in a crawl space** that should be closed for winter.
+If one pipe has frozen, others may have too, so the Red Cross advises checking every faucet. If only one faucet is affected, the freeze is somewhere on that line. If every faucet is dry, the freeze may be where the water service enters the house, which the Red Cross lists as a common spot. It could also be a problem with the utility, and asking a neighbor whether they have water can rule that out.
 
-If none of those apply and the pipe still freezes reliably, that recurring pattern is a good reason to have a plumber look at rerouting it or adding heat tape, rather than treating it as a one-off every year.
+### 2. Keep the faucet open, and decide about the main valve
 
-![Chart showing pipe freeze risk levels at different outdoor temperatures, from low risk above 32°F to high risk below 0°F](/images/what-temperature-do-pipes-freeze-guide-inline.svg)
+Leave the faucet open so water can flow again once the ice clears. Utah State Extension recommends shutting off the main water supply before thawing, in case the pipe has already cracked.
 
-## Why the "one temperature" answer doesn't really exist
+If you can see the pipe and it looks intact, keeping the main on lets you confirm success when full pressure returns. If the frozen section is hidden, or you suspect a crack, shut the main first. Then turn it back on slowly after thawing while you watch for leaks. Either way, keep buckets nearby.
 
-The 20°F figure is a reasonable planning number because it's the point where even average home insulation starts losing the fight against sustained cold. But three houses on the same street, hit by the same cold front, can have completely different outcomes:
+### 3. Thaw from the faucet end, with safe heat only
 
-- The house with attic insulation that's thin near the eaves loses more heat into exterior walls, keeping those pipes colder longer.
-- The house with a drafty crawl space vent left open all winter effectively has outdoor temperatures right under the floor.
-- The house where someone keeps cabinet doors shut and the thermostat set low overnight to save money is unknowingly removing its own safety margin.
+Start warming the pipe at the faucet and work back toward the frozen section. Both Utah State Extension and State Farm recommend this order. Warm the pipe gradually, because USU warns that fast heating can make trapped water boil and can melt plastic faucet parts. The Red Cross says to keep heating until full water pressure returns.
 
-None of that shows up on a weather app. It's why the practical approach is less "what's the freezing number" and more "which pipes in my house are exposed, and am I doing anything tonight to protect them."
+**Heat sources the Red Cross approves:**
+- An electric heating pad
+- A hair dryer
+- Hot, wet towels
+- A space heater kept away from anything flammable
+
+**Never use:**
+- A blowtorch or any other open flame
+- A kerosene or propane heater
+- A charcoal stove
+- Boiling water, which Utah State Extension specifically warns against
+
+Two more cautions apply. First, keep hair dryers, space heaters, and other electrical appliances away from standing water, which both State Farm and USU flag as a shock risk. Second, if you use a space heater, Iowa State University Extension advises choosing one with tip-over and overheat shutoff, plugged directly into a wall outlet with no extension cord.
+
+If the frozen pipe is a hot-water line or the main line, USU says it is often necessary to turn off the water heater.
+
+### 4. Call a plumber if you can't find or reach it
+
+If the frozen section is inside a wall or ceiling, or you can't locate it at all, the Red Cross says to call a licensed plumber. Guessing can mean cutting into drywall or overheating a hidden pipe. Use [how to know if a repair is worth calling a pro for](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html) if you're unsure where your limit is.
+
+## Symptom: water leaks or sprays as the pipe thaws
+
+This means the pipe cracked while it was frozen. The Red Cross explains that water expands as it freezes, which puts tremendous pressure on the pipe. A crack often stays hidden until the ice melts and water can move again. That's why a pipe can seem fine at 7 a.m. and be spraying by noon.
+
+State Farm's guidance is to shut off the main water valve and leave the faucets open, which drains the remaining pressure from the lines. Keep electrical devices out of any standing water, then call a plumber. A cracked section needs to be cut out and replaced so it holds up under normal water pressure.
+
+## Symptom: your water bill jumped, but you can't see a leak
+
+A crack from an earlier freeze can leak slowly inside a wall or crawl space for weeks. State Farm notes that even a small crack can release over 250 gallons a day. If your bill spiked and your household's water use hasn't changed, rule out a hidden leak before blaming the season. The full troubleshooting process is in [why your water bill spikes in winter with no extra usage](https://www.hearth-habit.com/2026/09/why-does-my-water-bill-spike-in-winter.html).
+
+## Symptom: the same pipe freezes every cold snap
+
+A pipe that freezes winter after winter has a specific cause. These are the usual fixes, along with their limits.
+
+### Insulate it properly, and know what insulation can't do
+
+Foam pipe sleeves help only when they are installed completely. Utah State Extension says insulation must:
+
+- Cover the pipe, the fittings, and the fixtures
+- Fit snugly and be taped in place
+- Go on only after any leaks are fixed, so the insulation doesn't get soaked
+
+Insulation is not a permanent fix on its own. USU warns that it won't protect pipes from prolonged freezing temperatures without some heat source, periodic water flow, or both. Insulate hot-water lines in cold spaces too. They freeze just like cold lines, and people rarely leave hot water dripping.
+
+### Seal the draft hitting the pipe
+
+Repeat freezes often trace back to outside air coming through a gap where a pipe passes through a rim joist, exterior wall, or foundation. Small gaps are a caulking job, covered in [caulking 101](https://www.hearth-habit.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html). Larger openings usually need spray foam instead.
+
+### Heat tape helps, but it is a fire risk if installed wrong
+
+The Red Cross suggests UL-listed heat tape or heat cable for pipes in unheated areas. The Consumer Product Safety Commission has warned about these products. In an older release (No. 89-088), it cited about 3,300 residential fires a year involving heat tapes or cables. That figure is decades old, but CPSC's installation rules still apply:
+
+- Use tape sized to the pipe's diameter and length.
+- Wrap the tape directly on the pipe, never over insulation. CPSC warns that over-insulating can cause a fire.
+- Don't overlap the tape unless the manufacturer says it's allowed.
+- Inspect it every fall. Replace any tape with cracked covering, bare wires, or charring.
+
+If a pipe still freezes after insulation, sealing, and properly installed heat tape, a plumber may need to reroute it into heated space.
+
+## Leaving home during a cold snap
+
+An empty house has no one to notice a faucet that stopped dripping or a cabinet left closed. These steps come from IBHS, State Farm, and the Red Cross.
+
+- **Thermostat:** set it to at least 55°F (13°C), even with no one home. IBHS, State Farm, and the Red Cross all give this same floor.
+- **Cabinets and hose bibs:** open the sink cabinets on exterior walls, and close the indoor valves to outdoor faucets before you leave.
+- **Trips longer than a week in subfreezing weather:** IBHS recommends closing the main valve slowly and letting a couple of faucets on the lowest floor drain the lines.
+- **Fire sprinklers:** State Farm warns that shutting off the water also disables home fire sprinklers. If your home has them, weigh that tradeoff, or ask your plumber or sprinkler installer about your options before you leave.
+- **Renters:** check with your landlord before shutting off or draining water. In many buildings the main valve serves more than one unit, and some leases require you to keep the heat at a set minimum.
+
+Arranging for someone to check the house every few days also helps, because a failure caught early does far less damage.
+
+### Worked example: why the shutoff matters
+
+Use State Farm's small-crack figure and a typical holiday trip:
+
+> 250 gallons per day × 4 days away = **1,000 gallons**
+
+That 1,000 gallons ends up in your walls, floors, or crawl space. It is also the small-crack case, since a larger split releases more water. To redo the math for your own trip, multiply the gallons per day by the number of days you'll be gone.
+
+The cost of the water itself is minor compared with the damage it causes. From 2024 through June 2025, State Farm paid more than 20,000 freeze-related claims totaling over $628 million, and the average payment was over $30,000. Shutting off the water before a long trip is free.
 
 ## FAQ
 
-### Can pipes freeze above 32°F?
+### Can PEX pipe still freeze?
 
-Not typically for water sitting in a pipe — water freezes at 32°F (0°C) regardless of what's happening outside. But wind chill and the difference between air temperature and the actual temperature at the pipe surface mean an exposed pipe can read colder than the forecast, especially overnight when ambient air temps are lowest. The forecast "feels like" temperature is often a better warning sign than the plain air temperature.
+Yes. Water freezes at the same temperature whether the pipe is copper, PVC, or PEX, and none of the guidance here makes an exception for plastic pipe. Protect PEX lines in cold spaces the same way you would metal ones. When thawing, use gentle, gradual heat, since USU warns that too much heat too fast can damage plastic parts.
 
-### How long does it take a pipe to freeze solid?
+### Should I drip hot or cold water, and what will it cost?
 
-It depends on exposure and duration, not just temperature. A well-insulated interior pipe might never freeze solid even at 0°F outside. An exposed exterior pipe in direct wind at 20°F or below can freeze in as little as 6 to 8 hours of sustained cold. There's no fixed countdown — that's why dripping faucets and open cabinets matter most during the first hard freeze of the season, before you know how your specific house behaves.
+The Red Cross recommends dripping cold water from faucets served by exposed pipes. Drip whenever those lines are exposed to below-freezing temperatures, which usually means overnight. If a hot-water line runs through the same cold wall, remember that USU notes hot lines freeze too.
 
-### Does letting a faucet drip actually help?
+To estimate the cost, catch the drip in a measuring cup for one minute. Convert that to gallons per hour, multiply by the hours you'll drip, and multiply by your utility's price per gallon. Whatever total you get, it will be tiny next to a crack leaking 250 gallons a day.
 
-Yes. Moving water resists freezing far better than standing water, and a slow, steady drip relieves pressure buildup in the line, which lowers the chance of a pipe splitting even if ice does form somewhere in the run. A trickle, not a full stream, is enough — the goal is motion, not volume.
+### Should I put antifreeze in my sprinkler or pool lines?
 
-### Is it worth insulating pipes if my house rarely freezes hard?
-
-For a one-time cold snap a year, pipe insulation sleeves are inexpensive enough that it's rarely not worth it for any exposed pipe on an exterior wall, in a garage, or in a crawl space. It's a low-cost, permanent fix compared to repeating the drip-and-pray routine every winter or risking a burst pipe during the one hard freeze that does hit.
+Not unless the manufacturer or installer tells you to. The Red Cross specifically warns against adding antifreeze to these lines without that direction.
 
 ## Sources
-- [Protecting Your Home from Ice and Snow (Ice Dams)](https://extension.umn.edu/protecting-home-rain-and-ice/dealing-and-preventing-ice-dams) — supports how heat loss and cold exposure interact with a home's structure in winter
+
+- [Understanding Wind Chill (National Weather Service)](https://www.weather.gov/safety/cold-wind-chill-chart) — wind chill cools pipes faster but never below the air temperature, including the -5°F / -31°F example
+- [Preventing & Thawing Frozen Pipes (American Red Cross)](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html) — which pipes freeze most, dripping, cabinets, garage door, 55°F, hose bib winterizing, safe and unsafe heat sources, checking other faucets, UL-listed heat tape, antifreeze warning
+- [Advice to Prevent Frozen Pipes (Utah State University Extension)](https://extension.usu.edu/preparedness/articles-and-research/advice-to-prevent-frozen-pipes) — "several hours" of exposure, limits of insulation, hot lines freezing, thaw-from-the-faucet procedure, no boiling water, water heater shutoff
+- [Check Heat Tapes, Cables For Possible Fire Hazards (CPSC)](https://www.cpsc.gov/Newsroom/News-Releases/1990/Check-Heat-Tapes-Cables-For-Possible-Fire-Hazards) — dated fire statistic and heat-tape installation and inspection rules
+- [Frozen Pipes? Not So Nice! Beat Winter Water Woes Before They Strike! (State Farm Newsroom)](https://newsroom.statefarm.com/frozen-pipes-not-so-nice-beat-winter-water-woes-before-they-strike/) — 20°F risk for uninsulated spaces, 250 gallons a day from a small crack, claim totals and average payment, burst-pipe steps, sprinkler shutoff warning
+- [IBHS Winter Weather Ready guide (IBHS)](https://ibhs.org/ibhs-news-releases/ibhs-winter-weather-ready-guide-provides-easy-to-do-actions-to-help-prevent-property-damage-from-colder-temperatures/) — Southern homes' exterior-wall plumbing, pre-2010 outdoor faucets, 55°F minimum, procedure for absences longer than a week

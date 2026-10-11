@@ -1,0 +1,126 @@
+{
+  "reader_situation": "A homeowner or renter in North America has a hard freeze in tonight's forecast and wants to know if the pipes are at risk. Or they are already dealing with a problem: a faucet that only trickles, a pipe that may have burst, or a trip coming up during a cold snap. Many live in the South or the middle of the country, where houses are less likely to be built for extreme cold.",
+  "direct_answer": "Water inside a pipe freezes when the pipe itself reaches 32°F (0°C). Outdoor air doesn't have to get that cold for this to happen, though. Pipes in uninsulated attics, crawl spaces, garages and exterior walls are most at risk once the outdoor temperature falls below about 20°F, especially if the cold lasts for hours. Pipes in heated, insulated space are usually safe well below that. Exposed lines such as hose bibs can freeze with any sustained temperature below 32°F. Wind makes a pipe cool faster, but it can never push the pipe below the actual air temperature.",
+  "consensus": [
+    "The usual 'danger' number is about 20°F outdoors, though water freezes at 32°F and location and insulation change the risk",
+    "When it's very cold, drip faucets that are fed by exposed pipes, and open the cabinet doors under sinks on exterior walls",
+    "Keep the thermostat at the same setting day and night, and no lower than 55°F if you go away",
+    "A faucet that gives only a trickle or nothing at all suggests a frozen pipe. Leave it open and thaw with gentle heat such as a hair dryer, heating pad or hot towels, never an open flame",
+    "Insulate exposed pipes with foam sleeves, seal air leaks, and disconnect and drain garden hoses before winter",
+    "If a pipe bursts, shut off the main water valve and call a plumber"
+  ],
+  "gaps": [
+    "WRONG: the current FAQ says the 'feels like' temperature is a better warning sign and that a pipe can 'read colder than the forecast.' The National Weather Service says wind chill only makes objects such as water pipes cool faster toward the air temperature. They never go below it: at -5°F air temperature with a -31°F wind chill, the object stays at -5°F or warmer. The article should tell readers to watch the actual low and how long the cold will last, and treat wind as something that speeds up the timeline.",
+    "WRONG/INCOMPLETE: the current article says ice expanding against the wall splits the pipe. Several insurer risk documents that cite IBHS and University of Illinois Building Research Council (BRC) research say something different. Once ice fully blocks the pipe, the water pressure builds downstream, between the ice and a closed faucet, and the pipe usually bursts where little or no ice has formed. That is why an open or dripping faucet works mainly by relieving pressure, not because 'moving water can't freeze.' VERIFY BEFORE PUBLISHING: I only saw this in search-result text from an insurer PDF (berkleyluxurygroup.com Freezing & Bursting Pipes) and could not fetch it. Red Cross, which I did fetch, says only that expansion puts tremendous pressure on pipes and that even a trickle helps prevent freezing.",
+    "UNSUPPORTED: '20°F is the threshold most plumbers and insurers treat as the danger zone' has no source in the current article. State Farm says pipes in uninsulated attics, crawl spaces and exterior walls are most at risk especially below 20°F. The 20°F 'temperature alert threshold' traces back to University of Illinois BRC research, and it applies to southern homes without built-in freeze protection and to uninsulated pipes, not to every house. The BRC origin appeared only in search snippets (municipal and insurer pages), so it needs a fetched source before it runs.",
+    "UNSUPPORTED: '6 to 8 hours' to freeze and '30 minutes to a few hours' to thaw have no authoritative source. Angi (a trade site) gives about 6 hours below 20°F and about 12 hours between 20 and 32°F for insulated pipes. If the article uses those figures it should present them as a trade estimate or drop them. USU Extension only says pipes freeze when exposed to freezing temperatures 'for several hours.'",
+    "OVERSTATED: the FAQ calls foam sleeves a 'permanent fix.' USU Extension says insulation won't protect pipes from prolonged freezing temperatures unless there is also a heat source and/or periodic water flow. Insulation has to cover the pipe completely, including fittings, and should go on only after any leaks are fixed so it doesn't get soaked. Hot-water lines freeze too.",
+    "MISSING thawing details: (1) Check every other faucet, because if one pipe has frozen others may have too (Red Cross). (2) Shut off the main first if you think the pipe may leak, open the faucet, and start thawing at the faucet end, working back toward the frozen section (USU, State Farm). (3) Turn off the water heater if a hot-water line or the main line freezes (USU). (4) Keep electrical appliances away from standing water (State Farm, USU). (5) Any space heater should have tip-over and overheat shutoff and plug straight into the wall, with no extension cord (Iowa State Extension). (6) Don't use boiling water.",
+    "MISSING heat-tape cautions: the current article recommends heat tape without any warning. CPSC has reported about 3,300 residential fires a year involving heat tapes or cables. That figure is from an old release (No. 89-088), so the article should date it. CPSC says to inspect tapes every fall and replace any with cracked covering, bare wires or charring. Wrap the tape directly on the pipe, never over insulation, and don't overlap it unless the manufacturer allows. Red Cross specifies UL-listed products.",
+    "MISSING away-from-home and outdoor-faucet details. IBHS says that for absences longer than a week with subfreezing temperatures, close the main valve slowly and let a couple of faucets on the lowest floor drain. State Farm warns that shutting off the water also disables fire sprinklers. Red Cross says to close the inside valve to each hose bib and leave the outside bib open to drain. IBHS says homes built before 2010 typically don't have frost-proof outdoor faucets. Stakes for the water-bill section: State Farm says a small crack can release over 250 gallons a day. Its average freeze-related claim payment was over $30,000 (more than 20,000 claims and $628M or more paid, 2024 through June 2025). The only source the current article lists is an ice-dam page that doesn't support any of its pipe claims."
+  ],
+  "evidence": [
+    {
+      "claim": "Wind chill does not cool pipes below the air temperature",
+      "detail": "NWS: wind chill applies only to people and animals. For inanimate objects such as car radiators and water pipes, it only cools them faster to the current air temperature. Example: at -5°F air temperature and a -31°F wind chill, a radiator won't drop below -5°F.",
+      "source_url": "https://www.weather.gov/safety/cold-wind-chill-chart",
+      "source_title": "Understanding Wind Chill (National Weather Service)"
+    },
+    {
+      "claim": "Which pipes freeze most often",
+      "detail": "Pipes exposed to severe cold (outdoor hose bibs, pool supply lines, sprinkler lines); supply pipes in unheated interior areas (basements, crawl spaces, attics, garages, kitchen cabinets); and pipes along exterior walls with little or no insulation.",
+      "source_url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html",
+      "source_title": "Preventing & Thawing Frozen Pipes (American Red Cross)"
+    },
+    {
+      "claim": "Prevention steps during a cold snap",
+      "detail": "Keep the garage door closed if supply lines run through the garage. Open sink cabinets and move chemicals out of children's reach. Drip cold water from faucets served by exposed pipes, since even a trickle helps. Keep the same thermostat setting day and night. If away, set the heat no lower than 55°F.",
+      "source_url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html",
+      "source_title": "Preventing & Thawing Frozen Pipes (American Red Cross)"
+    },
+    {
+      "claim": "How to thaw safely, and what to check next",
+      "detail": "A faucet giving only a trickle suggests a frozen pipe. Likely spots are exterior walls and where the water service enters through the foundation. Keep the faucet open. Heat with an electric heating pad, hair dryer, space heater kept away from flammables, or hot wet towels. No blowtorch, kerosene or propane heater, charcoal stove or open flame. Heat until full pressure returns. Call a licensed plumber if you can't find or reach the frozen section. Check all other faucets.",
+      "source_url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html",
+      "source_title": "Preventing & Thawing Frozen Pipes (American Red Cross)"
+    },
+    {
+      "claim": "Outdoor faucet winterizing and heat-tape products",
+      "detail": "Close the inside valves that feed hose bibs and leave the outside bibs open so leftover water can expand without breaking the pipe. Insulate both hot and cold pipes in unheated areas. Consider pipe sleeves or UL-listed heat tape or heat cable. Don't put antifreeze in pool or sprinkler lines unless directed.",
+      "source_url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html",
+      "source_title": "Preventing & Thawing Frozen Pipes (American Red Cross)"
+    },
+    {
+      "claim": "Insulation alone isn't enough in prolonged cold, and hot lines freeze too",
+      "detail": "Insulation must fully cover pipes, fittings and fixtures, fit snugly, be taped, and go on only after leaks are fixed. It won't protect pipes from prolonged freezing temperatures without some heat source and/or periodic water flow. Hot-water lines also freeze, and people rarely leave hot water running.",
+      "source_url": "https://extension.usu.edu/preparedness/articles-and-research/advice-to-prevent-frozen-pipes",
+      "source_title": "Advice to Prevent Frozen Pipes (Utah State University Extension)"
+    },
+    {
+      "claim": "DIY thawing procedure from extension guidance",
+      "detail": "Shut off the main supply first, then open the faucet on the frozen line and start thawing at the faucet. Warm the pipe gradually so trapped water doesn't boil and plastic faucet parts don't melt. Don't use boiling water or open flame. Be careful with electrical appliances in wet areas. If a hot-water or main line freezes, it is often necessary to turn the water heater off. Keep buckets nearby.",
+      "source_url": "https://extension.usu.edu/preparedness/articles-and-research/advice-to-prevent-frozen-pipes",
+      "source_title": "Advice to Prevent Frozen Pipes (Utah State University Extension)"
+    },
+    {
+      "claim": "Space heater requirements when adding supplemental heat",
+      "detail": "Keep the heater away from anything flammable. It should have tip-over and overheat shutoff and plug directly into the wall, with no extension cords. (Reviewed 12/2025)",
+      "source_url": "https://blogs.extension.iastate.edu/answerline/2015/01/19/preventing-and-thawing-frozen-pipes/",
+      "source_title": "Preventing and Thawing Frozen Pipes (Iowa State University Extension AnswerLine)"
+    },
+    {
+      "claim": "Heat tape fire risk and installation rules",
+      "detail": "CPSC cited about 3,300 residential fires a year involving heat tapes or cables (release 89-088, so dated). Inspect in fall and replace if the covering is cracked or there are bare wires or charring. Use tape sized to the pipe's diameter and length. Don't overlap unless the manufacturer permits. Wrap directly on the pipe, never over insulation. Over-insulating can cause a fire.",
+      "source_url": "https://www.cpsc.gov/Newsroom/News-Releases/1990/Check-Heat-Tapes-Cables-For-Possible-Fire-Hazards",
+      "source_title": "Check Heat Tapes, Cables For Possible Fire Hazards (CPSC)"
+    },
+    {
+      "claim": "Cost and scale of freeze damage",
+      "detail": "From 2024 through June 2025, more than 20,000 State Farm claims, over $628 million paid, average payment over $30,000. A small crack can release over 250 gallons a day. Uninsulated attics, crawl spaces and exterior walls are most at risk, especially below 20°F.",
+      "source_url": "https://newsroom.statefarm.com/frozen-pipes-not-so-nice-beat-winter-water-woes-before-they-strike/",
+      "source_title": "Frozen Pipes? Not So Nice! Beat Winter Water Woes Before They Strike! (State Farm Newsroom)"
+    },
+    {
+      "claim": "Insurer guidance on thawing and on shutting off water",
+      "detail": "If faucets run dry, keep them open and call a plumber. Use a hair dryer starting near the faucet and moving toward the frozen section, avoiding standing water. If a pipe bursts, shut off the main and leave faucets open. Shutting off water can prevent freezing but disables fire sprinklers. Heat the home to at least 55°F.",
+      "source_url": "https://newsroom.statefarm.com/frozen-pipes-not-so-nice-beat-winter-water-woes-before-they-strike/",
+      "source_title": "Frozen Pipes? Not So Nice! Beat Winter Water Woes Before They Strike! (State Farm Newsroom)"
+    },
+    {
+      "claim": "Regional risk, and the procedure for long absences",
+      "detail": "Plumbing along exterior walls is common in warmer Southern US homes, and arctic outbreaks hit areas where extreme cold is rare. Homes built before 2010 typically lack frost-proof outdoor faucets, so shut off and insulate those valves. Set the thermostat to at least 55°F even when no one is home. If away longer than a week with subfreezing temperatures, close the main valve slowly and let a couple of faucets on the lowest floor drain.",
+      "source_url": "https://ibhs.org/ibhs-news-releases/ibhs-winter-weather-ready-guide-provides-easy-to-do-actions-to-help-prevent-property-damage-from-colder-temperatures/",
+      "source_title": "IBHS Winter Weather Ready guide provides easy-to-do actions to help prevent property damage from colder temperatures (IBHS, Nov. 14, 2024)"
+    }
+  ],
+  "real_questions": [
+    "At what temperature do pipes actually freeze? I heard it's 20°F. Is that true? (Quora)",
+    "Does wind chill make my pipes freeze faster, or freeze at a higher temperature? (a recurring local-TV 'Good Question' topic)",
+    "Do I really need to drip faucets all night, which ones, hot or cold, and how much will the dripping cost me?",
+    "My house has PEX. Can it still freeze or burst? (DoItYourself and HeatingHelp forum threads)",
+    "The faucet only trickles. Is it frozen, and is it safe to thaw it myself or will it start spraying?",
+    "I'm leaving for the holidays. Should I shut off the water, and what temperature should the thermostat be set to?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "A 'Tonight's forecast × where the pipe runs' table. Rows are forecast actual lows (not wind chill): 33–40°F, 21–32°F, 20°F and below. Columns are pipe locations: inside the heated envelope; under a sink on an exterior wall; in a garage, crawl space or attic; outdoor hose bib. Each cell gives a risk level and specific actions taken only from the fetched evidence: open cabinets and drip cold water (Red Cross), keep the same thermostat setting and at least 55°F (Red Cross, IBHS, State Farm), close the garage door (Red Cross), shut the interior valve and open the outside bib (Red Cross), and treat 20°F as the alert line for uninsulated spaces (State Farm). Add a footnote that wind speeds up cooling but can't drive a pipe below the air temperature (NWS). Below the table, a 4-step diagnostic flow for 'no water at one faucet': check the other faucets (Red Cross); keep the faucet open and shut the main if a leak is possible (USU); thaw from the faucet end with approved heat sources only (USU, State Farm, Iowa State); call a plumber if you can't find or reach the frozen section (Red Cross). Finish with a worked example of why shutoff matters on a trip: a small crack at 250 gal/day (State Farm) × a 4-day absence = 1,000 gallons, with the reader told this is the small-crack case and that average freeze claim payments run over $30,000."
+  },
+  "cautions": [
+    "Never thaw pipes with an open flame, blowtorch, kerosene or propane heater, charcoal stove or boiling water (Red Cross, USU)",
+    "Electrical appliances near standing water can electrocute. Space heaters need tip-over and overheat shutoff, should plug straight into the wall with no extension cord, and need to be kept away from flammables (State Farm, Iowa State)",
+    "Heat tape: use UL-listed products, follow the manufacturer's instructions, never wrap it over insulation or overlap it unless permitted, and inspect it every fall. Date the CPSC fire statistic (release 89-088) rather than presenting it as current",
+    "Shutting off the main water valve also disables home fire sprinklers (State Farm). The article should tell readers to weigh this, and tell renters to check with their landlord before shutting off or draining building water (editorial advice, not a sourced fact)",
+    "Don't put antifreeze in supply lines unless the manufacturer or installer directs it (Red Cross)",
+    "Unverified claims that need a fetched authoritative source before publishing: the BRC origin of the 20°F threshold, the downstream-pressure burst mechanism, and IRC P2603.5 (which bans water pipes in exterior walls, attics, crawl spaces or outdoors where the winter design temperature is 32°F or below unless they're protected by insulation and/or heat). All three appeared only in search snippets (insurer PDF, up.codes, Cornell LII), not in pages I fetched, so they're left out of the evidence above",
+    "Present the Angi freeze-time estimates (about 6 h below 20°F, about 12 h at 20–32°F) and its roughly $500 average repair cost only as a labeled trade-publication estimate, or leave them out; neither was verified from a fetched page"
+  ],
+  "sources": {
+    "https://www.weather.gov/safety/cold-wind-chill-chart": "Understanding Wind Chill (National Weather Service)",
+    "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html": "Preventing & Thawing Frozen Pipes (American Red Cross)",
+    "https://extension.usu.edu/preparedness/articles-and-research/advice-to-prevent-frozen-pipes": "Advice to Prevent Frozen Pipes (Utah State University Extension)",
+    "https://blogs.extension.iastate.edu/answerline/2015/01/19/preventing-and-thawing-frozen-pipes/": "Preventing and Thawing Frozen Pipes (Iowa State University Extension AnswerLine)",
+    "https://www.cpsc.gov/Newsroom/News-Releases/1990/Check-Heat-Tapes-Cables-For-Possible-Fire-Hazards": "Check Heat Tapes, Cables For Possible Fire Hazards (CPSC)",
+    "https://newsroom.statefarm.com/frozen-pipes-not-so-nice-beat-winter-water-woes-before-they-strike/": "Frozen Pipes? Not So Nice! Beat Winter Water Woes Before They Strike! (State Farm Newsroom)",
+    "https://ibhs.org/ibhs-news-releases/ibhs-winter-weather-ready-guide-provides-easy-to-do-actions-to-help-prevent-property-damage-from-colder-temperatures/": "IBHS Winter Weather Ready guide provides easy-to-do actions to help prevent property damage from colder temperatures (IBHS, Nov. 14, 2024)"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "reader_situation": "Someone who feels paralyzed by clutter across the whole house and wants a first step small enough to finish today, but who usually stalls on the items that don't have an obvious place to go: dead batteries, old phones, expired medicine, papers.",
+  "direct_answer": "Pick one small drawer, empty it onto a cleared surface, sort everything into keep, relocate, and out, and finish that drawer before touching anything else. The items that stall most sessions have set exits: alkaline batteries can usually go in the trash, but rechargeable, lithium, and button batteries go to a drop-off with taped terminals (EPA); old medicine goes to a take-back site or, if none, mixed into the trash per FDA steps; phones get wiped before donation (EPA); tax paperwork generally needs keeping 3 years (IRS).",
+  "consensus": [
+    "Start with one small, contained space like a junk drawer.",
+    "Sort into keep, donate, trash, and relocate piles.",
+    "Use a timer to keep sessions short.",
+    "Skip sentimental items at first.",
+    "Don't buy organizers before you declutter."
+  ],
+  "gaps": [
+    "Batteries are not all the same: EPA says alkaline and zinc-carbon batteries can go in household trash in most communities, but rechargeable, button/coin, lithium single-use, and lead-acid batteries must not go in the trash or recycling bins. Tape terminals with non-conductive tape or bag each one, because a lithium battery may spark if terminals touch. Button cells are a swallowing hazard for young children.",
+    "Old medicines in vanity or kitchen drawers: FDA's first choice is a drug take-back site or mail-back envelope (DEA take-back locator, pharmacy kiosks). If none is available, most medicines (except those on the FDA flush list) go in household trash after removing them from the container, mixing with coffee grounds, dirt, or cat litter, sealing in a bag or can, and scratching out personal information on the label.",
+    "Sunscreen in the drawer: FDA says a sunscreen without an expiration date should be considered expired three years after purchase; if you don't know how old it is, discard it.",
+    "Old phones and electronics: EPA says delete all personal information first and remove batteries, which may need separate recycling; lithium-ion devices never go in household garbage or recycling bins.",
+    "Paper receipts and tax papers: IRS says keep tax records 3 years in most cases, 6 if income was underreported by more than 25%, 7 for worthless-securities or bad-debt claims, and property records until the limitations period ends for the year you dispose of the property.",
+    "When it isn't ordinary clutter: IOCDF says hoarding disorder is diagnosed when all three apply: collecting and keeping a lot of items, clutter that keeps rooms from being used as intended, and distress or problems in day-to-day life. That calls for professional help rather than a drawer-a-day plan."
+  ],
+  "evidence": [
+    {
+      "claim": "Battery disposal rules",
+      "detail": "In most communities, alkaline and zinc carbon batteries can be safely put in household trash (EPA still recommends recycling). Do not put rechargeable batteries in the trash or municipal recycling bins; button-cell/coin, lithium single-use, and lead-acid also stay out. Tape battery terminals and/or place batteries in separate plastic bags, using non-conductive tape such as electrical tape. A lithium battery may spark and cause fires if damaged or the terminal ends touch. Button-cell or coin batteries can be a swallowing hazard; store them out of reach of young children. Waste batteries can always be recycled or taken to household hazardous waste collection points; find locations via Earth911 or Call2Recycle.",
+      "source_url": "https://www.epa.gov/recycle/used-household-batteries",
+      "source_title": "Used Household Batteries (EPA)"
+    },
+    {
+      "claim": "Medicine disposal",
+      "detail": "Best: a drug take-back program, a take-back drop-off location, or a prepaid mail-back envelope. DEA sponsors National Prescription Drug Take Back Day and lists authorized collectors; some pharmacies have drop-off kiosks. If no take-back is available, almost all medicines except those on the FDA flush list can go in household trash: remove from original containers, mix with coffee grounds, dirt, or cat litter, put in something you can close (zip-top bag or empty can), throw it in the trash, and scratch out personal information on the empty packaging. Don't flush medicine unless it is on the flush list.",
+      "source_url": "https://www.fda.gov/consumers/consumer-updates/where-and-how-dispose-unused-medicines",
+      "source_title": "Where and How to Dispose of Unused Medicines (FDA)"
+    },
+    {
+      "claim": "Sunscreen expiration",
+      "detail": "FDA requires nonprescription drugs to have an expiration date unless stability testing shows they remain stable for at least three years. A sunscreen without an expiration date should be considered expired three years after purchase. Do not use sunscreen with no expiration date that wasn't bought within the last three years; if you don't know its age, discard it.",
+      "source_url": "https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun",
+      "source_title": "Sunscreen: How to Help Protect Your Skin from the Sun (FDA)"
+    },
+    {
+      "claim": "Electronics donation and recycling",
+      "detail": "Manufacturers and retailers offer options to donate or recycle electronics (search tools include Call2Recycle and Earth911; EPA doesn't endorse them). Delete all personal information from your electronics. Remove batteries, which may need to be recycled separately. Lithium-ion batteries and devices containing them should NOT go in household garbage or recycling bins.",
+      "source_url": "https://www.epa.gov/recycle/electronics-donation-and-recycling",
+      "source_title": "Electronics Donation and Recycling (EPA)"
+    },
+    {
+      "claim": "How long to keep tax records",
+      "detail": "Keep records 3 years if the special situations don't apply; 6 years if you do not report income you should report and it is more than 25% of the gross income shown on the return; 7 years if you file a claim for a loss from worthless securities or bad debt deduction; indefinitely if you do not file a return or file a fraudulent return. Keep property records until the period of limitations expires for the year in which you dispose of the property. Employment tax records at least 4 years.",
+      "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records",
+      "source_title": "How Long Should I Keep Records? (IRS)"
+    },
+    {
+      "claim": "Hoarding disorder criteria",
+      "detail": "Hoarding Disorder is a mental health disorder where people have difficulty getting rid of possessions that are no longer useful, all the time rather than occasionally. Diagnosis requires all three: a person collects and keeps a lot of items, even things that appear useless or of little value to most people; the items clutter living spaces and keep the person from using rooms as intended; and the items cause distress or problems in day-to-day activities.",
+      "source_url": "https://hoarding.iocdf.org/about-hoarding/",
+      "source_title": "About Hoarding (International OCD Foundation)"
+    }
+  ],
+  "real_questions": [
+    "What do I do with the dead batteries, old chargers, and phones in the junk drawer?",
+    "Can I throw old pills in the trash?",
+    "Which receipts and papers can I shred or toss?",
+    "Is the expired sunscreen in the bathroom drawer still good?",
+    "How do I know if this is more than ordinary clutter?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "A 'junk drawer exit table': item (alkaline batteries; rechargeable/lithium/button batteries; old phones and chargers; old medicines; undated sunscreen; tax receipts and papers; everything else) mapped to where it goes and the rule behind it (EPA batteries, EPA electronics, FDA medicines, FDA sunscreen, IRS records), plus a one-session plan for the drawer and an IRS keep-period table with its exceptions."
+  },
+  "cautions": [
+    "Never put rechargeable, lithium, button, or lead-acid batteries in the trash; tape terminals (EPA, registry).",
+    "Keep button cells away from young children (EPA). Poison Control 1-800-222-1222 per registry if swallowed (registry lists Poison Control).",
+    "Only flush medicines on FDA's flush list.",
+    "IRS periods have exceptions; the article must state them, not just '3 years'.",
+    "Hoarding disorder warrants professional help (IOCDF); don't present the drawer method as treatment.",
+    "Removed unsupported numbers from the old version: 15-20 minute timer, 15-30 minutes per drawer, 10-15 second deliberation limit, 'used in the last year'."
+  ],
+  "sources": {
+    "https://www.epa.gov/recycle/used-household-batteries": "Used Household Batteries (EPA)",
+    "https://www.fda.gov/consumers/consumer-updates/where-and-how-dispose-unused-medicines": "Where and How to Dispose of Unused Medicines (FDA)",
+    "https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun": "Sunscreen: How to Help Protect Your Skin from the Sun (FDA)",
+    "https://www.epa.gov/recycle/electronics-donation-and-recycling": "Electronics Donation and Recycling (EPA)",
+    "https://www.irs.gov/businesses/small-businesses-self-employed/how-long-should-i-keep-records": "How Long Should I Keep Records? (IRS)",
+    "https://hoarding.iocdf.org/about-hoarding/": "About Hoarding (International OCD Foundation)"
+  }
+}

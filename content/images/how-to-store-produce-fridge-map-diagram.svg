@@ -1,52 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
-  <rect width="1200" height="630" fill="#F6EFE6"/>
-  <text x="600" y="72" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="bold" fill="#2E2A24">Where each fruit and vegetable goes</text>
-
-  <!-- Row 1: out of the fridge -->
-  <g font-family="Helvetica, Arial, sans-serif" fill="#2E2A24">
-    <rect x="48" y="110" width="352" height="210" rx="18" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
-    <rect x="48" y="110" width="352" height="58" rx="18" fill="#D9A441"/>
-    <rect x="48" y="150" width="352" height="18" fill="#D9A441"/>
-    <text x="224" y="148" text-anchor="middle" font-size="28" font-weight="bold">Counter, out of sun</text>
-    <text x="72" y="212" font-size="25">Tomatoes, bananas,</text>
-    <text x="72" y="248" font-size="25">whole melons,</text>
-    <text x="72" y="284" font-size="25">unripe avocados</text>
-
-    <rect x="424" y="110" width="352" height="210" rx="18" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
-    <rect x="424" y="110" width="352" height="58" rx="18" fill="#2E2A24"/>
-    <rect x="424" y="150" width="352" height="18" fill="#2E2A24"/>
-    <text x="600" y="148" text-anchor="middle" font-size="28" font-weight="bold" fill="#F6EFE6">Cool, dark cupboard</text>
-    <text x="448" y="212" font-size="25">Potatoes in one bin,</text>
-    <text x="448" y="248" font-size="25">onions and garlic</text>
-    <text x="448" y="284" font-size="25">in another</text>
-
-    <rect x="800" y="110" width="352" height="210" rx="18" fill="#FFFDF9" stroke="#E4C7B2" stroke-width="3"/>
-    <rect x="800" y="110" width="352" height="58" rx="18" fill="#E4C7B2"/>
-    <rect x="800" y="150" width="352" height="18" fill="#E4C7B2"/>
-    <text x="976" y="148" text-anchor="middle" font-size="28" font-weight="bold">Counter, then fridge</text>
-    <text x="824" y="212" font-size="25">Avocados, stone fruit,</text>
-    <text x="824" y="248" font-size="25">pears: fridge once</text>
-    <text x="824" y="284" font-size="25">they give to pressure</text>
-  </g>
-
-  <!-- Row 2: the two crisper drawers -->
-  <g font-family="Helvetica, Arial, sans-serif" fill="#2E2A24">
-    <rect x="48" y="352" width="540" height="200" rx="18" fill="#FFFDF9" stroke="#5C6E58" stroke-width="3"/>
-    <rect x="48" y="352" width="540" height="58" rx="18" fill="#5C6E58"/>
-    <rect x="48" y="392" width="540" height="18" fill="#5C6E58"/>
-    <text x="318" y="390" text-anchor="middle" font-size="28" font-weight="bold" fill="#F6EFE6">Fridge: high-humidity drawer</text>
-    <text x="72" y="452" font-size="25">Leafy greens, broccoli, cabbage,</text>
-    <text x="72" y="488" font-size="25">carrots, celery, herbs</text>
-    <text x="72" y="530" font-size="24" fill="#5C6E58">Vent closed: keeps them from going limp</text>
-
-    <rect x="612" y="352" width="540" height="200" rx="18" fill="#FFFDF9" stroke="#B85C38" stroke-width="3"/>
-    <rect x="612" y="352" width="540" height="58" rx="18" fill="#B85C38"/>
-    <rect x="612" y="392" width="540" height="18" fill="#B85C38"/>
-    <text x="882" y="390" text-anchor="middle" font-size="28" font-weight="bold" fill="#F6EFE6">Fridge: low-humidity drawer</text>
-    <text x="636" y="452" font-size="25">Apples, ripe pears,</text>
-    <text x="636" y="488" font-size="25">ripe stone fruit, citrus</text>
-    <text x="636" y="530" font-size="24" fill="#B85C38">Vent open: ethylene stays off the greens</text>
-  </g>
-
-  <text x="600" y="596" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#5C6E58">Keep potatoes away from light and away from onions</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#F6EFE6"/>
+<text x="600" y="72" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="bold" fill="#2E2A24" text-anchor="middle">Cold-damage line vs. your fridge</text>
+<rect x="580" y="112" width="100" height="420" fill="#B85C38" fill-opacity="0.22"/>
+<line x1="580" y1="112" x2="580" y2="532" stroke="#B85C38" stroke-width="3" stroke-dasharray="8 6"/>
+<line x1="680" y1="112" x2="680" y2="532" stroke="#B85C38" stroke-width="3" stroke-dasharray="8 6"/>
+<g fill="#5C6E58">
+<rect x="1005" y="128" width="135" height="44" rx="6"/>
+<rect x="1005" y="208" width="135" height="44" rx="6"/>
+<rect x="880" y="288" width="260" height="44" rx="6"/>
+<rect x="755" y="368" width="385" height="44" rx="6"/>
+<rect x="630" y="448" width="510" height="44" rx="6"/>
+</g>
+<g fill="#E4C7B2">
+<rect x="380" y="128" width="625" height="44" rx="6"/>
+<rect x="380" y="208" width="625" height="44" rx="6"/>
+<rect x="380" y="288" width="500" height="44" rx="6"/>
+<rect x="380" y="368" width="375" height="44" rx="6"/>
+<rect x="380" y="448" width="250" height="44" rx="6"/>
+</g>
+<g font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24">
+<text x="60" y="159">Green tomatoes: 55°F</text>
+<text x="60" y="239">Sweet potatoes: 55°F</text>
+<text x="60" y="319">Cucumbers: 50°F</text>
+<text x="60" y="399">Peppers: 45°F</text>
+<text x="60" y="479">Potatoes: 40°F</text>
+<text x="630" y="580" text-anchor="middle" font-size="30" font-weight="bold">Home fridge: 38–42°F</text>
+</g>
 </svg>

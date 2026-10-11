@@ -1,0 +1,104 @@
+{
+  "reader_situation": "Home cooks who keep throwing out wilted greens, mealy tomatoes, or sprouting potatoes and want one clear map of what goes on the counter, in the pantry, and in which crisper drawer, plus the reasons so they can place produce that isn't on the list.",
+  "direct_answer": "Sort produce by three things: whether cold injures it (tomatoes, bananas, sweet potatoes, winter squash, potatoes stay out; home fridges run about 38-42°F per UC Davis), whether it still needs to ripen (avocados, peaches, pears, kiwi ripen on the counter, then go in the fridge), and whether it gives off or is hurt by ethylene (fruit in one crisper drawer, vegetables in the other, with leafy greens on the high-humidity setting).",
+  "consensus": [
+    "Keep fruits and vegetables apart because fruit gives off ethylene.",
+    "Leafy greens go in the high-humidity drawer, most fruit in the low-humidity drawer.",
+    "Tomatoes and bananas stay out of the fridge.",
+    "Potatoes, onions, and garlic go in a cool, dark, dry place.",
+    "Don't wash produce until you use it."
+  ],
+  "gaps": [
+    "The reason for 'no fridge' is a specific temperature line, and it differs by crop: home fridges run about 38-42°F (UC Davis); green tomatoes are injured below 55°F, peppers below 45°F, cucumbers held below 50°F for more than 2-3 days (Purdue Extension); sweet potatoes get off-flavors below 55°F and winter squash is stored at 50-55°F (Iowa State).",
+    "Potatoes: Iowa State says they turn sugary below 40°F and may sprout within 2-3 months above 50°F; FDA says refrigerator storage can increase acrylamide during cooking and recommends a dark, cool closet or pantry.",
+    "Several fridge-banned items have a short fridge window: cucumbers, eggplant, and peppers can go in the fridge 1-3 days if used soon after; ripe Bartlett pears 1-3 days without losing taste; watermelon loses flavor and color after more than 3 days (UC Davis).",
+    "Apples are a timing call: UC Davis keeps them at room temperature if eaten within 7 days and in the fridge for longer; Penn State says to refrigerate apples unless they're underripe because cold reduces their sensitivity to ethylene.",
+    "Ripening can be controlled: one ripe apple per 5-7 pieces of fruit in a bowl or paper bag speeds ripening, but Fuji and Granny Smith produce little ethylene and don't help (UC Davis).",
+    "Bags matter: never seal produce in plastic on the counter (CO2 builds up, off-odors and decay); in the fridge use perforated bags, about 20 pinholes per medium bag (UC Davis). Penn State suggests paper bags rolled shut for ethylene-sensitive vegetables.",
+    "Ethylene damage is specific: carrots and parsnips turn bitter, greens yellow and go limp, cucumbers get mushy spots, asparagus gets woody, iceberg lettuce gets rust-colored spots (Penn State).",
+    "Basil is the herb exception: room temperature in water; other herbs go in the fridge (UC Davis)."
+  ],
+  "evidence": [
+    {
+      "claim": "Home refrigerator temperature damages many fruits and vegetables",
+      "detail": "Refrigerator temperatures (usually 38° to 42°F [3.3° to 5.6°C]) damage many fruits and vegetables or prevent them from ripening to good flavor and texture. Bananas develop black skin and do not gain good sweetness; sweet potatoes take on off-flavors and a hard core when cooked after refrigeration; watermelons lose flavor and deep red color if stored longer than 3 days in the refrigerator; pink tomatoes don't turn red in the fridge and even red tomatoes lose flavor.",
+      "source_url": "https://ucanr.edu/sites/Mariposa/files/322291.pdf",
+      "source_title": "Storing Fresh Fruits and Vegetables for Better Taste (UC Davis Postharvest Technology Center / UC ANR Publication 21590)"
+    },
+    {
+      "claim": "UC Davis storage-location lists",
+      "detail": "Refrigerate: apples (>7 days), apricots, Asian pears, berries, cherries, cut fruits, figs, grapes; artichokes, asparagus, green beans, beets, broccoli, Brussels sprouts, cabbage, carrots, cauliflower, celery, cut vegetables, green onions, herbs (not basil), leafy vegetables, leeks, lettuce, mushrooms, peas, radishes, spinach, sprouts, summer squashes, sweet corn. Ripen on the counter, then refrigerate: avocados, kiwifruit, nectarines, peaches, pears, plums, plumcots. Room temperature only: apples (<7 days), bananas, citrus, mangoes, muskmelons, papayas, persimmons, pineapple, plantain, pomegranates, watermelons, basil (in water), cucumbers, dry onions, eggplant, garlic, ginger, jicama, peppers, potatoes, pumpkins, sweet potatoes, tomatoes, winter squashes. Store garlic, onions, potatoes, and sweet potatoes in a well-ventilated area in the pantry; protect potatoes from light to avoid greening. Cucumbers, eggplant, and peppers can be kept in the refrigerator 1 to 3 days if used soon after removal.",
+      "source_url": "https://ucanr.edu/sites/Mariposa/files/322291.pdf",
+      "source_title": "Storing Fresh Fruits and Vegetables for Better Taste (UC Davis Postharvest Technology Center / UC ANR Publication 21590)"
+    },
+    {
+      "claim": "Counter and fridge technique",
+      "detail": "Counter storage away from direct sunlight; counter produce keeps a few days. Reduce moisture loss with a vented plastic bowl or perforated plastic bag. Do not put produce in sealed plastic bags on the counter: it slows ripening and may increase off-odors and decay from carbon dioxide buildup and oxygen depletion. Ripening in a bowl or paper bag is enhanced by one ripe apple per 5 to 7 pieces of fruit; Fuji and Granny Smith don't produce much ethylene. In the fridge, keep produce in perforated plastic bags in the produce drawers (about 20 pin holes per medium-size bag). Separate fruits from vegetables, one drawer for each group. Use refrigerated produce within a few days. Bartlett pears ripened on the counter can be stored 1 to 3 days in the fridge without losing taste.",
+      "source_url": "https://ucanr.edu/sites/Mariposa/files/322291.pdf",
+      "source_title": "Storing Fresh Fruits and Vegetables for Better Taste (UC Davis Postharvest Technology Center / UC ANR Publication 21590)"
+    },
+    {
+      "claim": "Safe handling",
+      "detail": "Wash whole produce just before preparation, under running water; soaking increases cross-contamination and is not recommended. Refrigerate cut or prepared produce promptly; refrigerate leftovers within two hours. Keep produce separate from raw meat, poultry, and seafood.",
+      "source_url": "https://ucanr.edu/sites/Mariposa/files/322291.pdf",
+      "source_title": "Storing Fresh Fruits and Vegetables for Better Taste (UC Davis Postharvest Technology Center / UC ANR Publication 21590)"
+    },
+    {
+      "claim": "Ethylene producers, sensitive produce, and damage",
+      "detail": "Most tree fruits, especially apples and pears, plus apricots, avocados, cantaloupes, nectarines, papayas, and peaches are strong producers; bananas, peppers, and tomatoes produce ethylene only when fully ripe. Sensitive: carrots and parsnips (get very bitter), broccoli, Brussels sprouts, cabbage, cauliflower, celery, collards, kale, lettuce, spinach (turn yellow and go limp), cucumbers (soft, mushy spots), asparagus (tough/woody), iceberg lettuce (rust-colored spotting), squash, parsley, marjoram, mint; apples turn mealy with prolonged exposure. Put sensitive produce in paper bags rolled shut in one crisper drawer and bagged producers in the other. Refrigerate apples unless underripe; low temperature reduces their ethylene sensitivity.",
+      "source_url": "https://www.psu.edu/news/agricultural-sciences/story/your-produce-may-be-getting-gassed-refrigerator",
+      "source_title": "Your produce may be getting gassed in the refrigerator (Penn State College of Agricultural Sciences)"
+    },
+    {
+      "claim": "Chilling-injury thresholds for fruit-type vegetables",
+      "detail": "Tomato: mature green fruit 66 to 70°F; chilling injury can occur below 55°F; red tomatoes can be stored at 50°F but flavor and aroma may suffer. Pepper: 45 to 55°F; below 45°F may cause chilling injury; colored peppers less sensitive than green. Cucumber: 50 to 54°F; chilling injury if kept below 50°F for more than 2 or 3 days.",
+      "source_url": "https://vegcropshotline.org/article/optimal-storage-conditions-for-vegetables/",
+      "source_title": "Optimal Storage Conditions for Vegetables (Purdue University Vegetable Crops Hotline)"
+    },
+    {
+      "claim": "Potato, sweet potato, winter squash, onion storage temperatures",
+      "detail": "Potatoes: store dark (light turns them green); above 50°F tubers may sprout in two to three months; below 40°F they develop a sugary, sweet taste; do not store with apples or other fruit (ethylene promotes sprouting). Sweet potatoes 55 to 60°F; below 55°F off-flavor and discolored flesh. Winter squash 50 to 55°F; keep away from apples, pears, ripening fruit. Onions 32 to 40°F (cured, long-term).",
+      "source_url": "https://yardandgarden.extension.iastate.edu/how-to/storing-winter-storage-vegetables",
+      "source_title": "Storing Winter Storage Vegetables (Iowa State University Extension)"
+    },
+    {
+      "claim": "Refrigerated potatoes and acrylamide",
+      "detail": "Storing potatoes in the refrigerator can result in increased acrylamide during cooking. Store potatoes outside the refrigerator, preferably in a dark, cool place such as a closet or pantry, to prevent sprouting.",
+      "source_url": "https://www.fda.gov/food/process-contaminants-food/acrylamide-and-diet-food-storage-and-food-preparation",
+      "source_title": "Acrylamide and Diet, Food Storage, and Food Preparation (FDA)"
+    },
+    {
+      "claim": "Crisper humidity settings (manufacturer)",
+      "detail": "Humidity is set with a mechanical slider. High humidity for leafy greens and items prone to wilting or moisture loss: broccoli, lettuce, cucumbers, peppers, carrots, strawberries, herbs. Low humidity for fruits and vegetables less sensitive to moisture loss: apples, pears, mangoes, papayas, cantaloupes, avocados.",
+      "source_url": "https://www.samsung.com/ca/support/home-appliances/control-the-humidity-in-the-vegetable-crisper-drawers-of-your-samsung-refrigerator/",
+      "source_title": "Control the humidity in the vegetable crisper drawers of your Samsung refrigerator (Samsung Canada)"
+    }
+  ],
+  "real_questions": [
+    "Should the crisper vent be open or closed, and which drawer gets what?",
+    "Are tomatoes really ruined by the fridge, even ripe ones?",
+    "Can potatoes go in the fridge, and why does it matter?",
+    "Do apples belong in the fridge or the fruit bowl?",
+    "How do I make an avocado or pear ripen faster, or slow it down once it's ripe?",
+    "My fridge has no humidity sliders. What do I do?"
+  ],
+  "original_asset": {
+    "type": "comparison_table",
+    "spec": "A 'chilling line vs. your fridge' table: each cold-sensitive crop with the temperature below which damage starts (Purdue: tomato green <55°F, pepper <45°F, cucumber <50°F for 2-3+ days; Iowa State: sweet potato <55°F, winter squash stored 50-55°F, potato <40°F sugary) against UC Davis's 38-42°F home-fridge range, plus the short fridge windows UC Davis allows. Followed by a full placement map (counter / pantry / ripen-then-fridge / fruit drawer / vegetable drawer) and a ripening-bowl worked example (1 apple per 5-7 fruit: 12 pears / 6 = 2 apples, not Fuji or Granny Smith)."
+  },
+  "cautions": [
+    "Food safety is time and temperature, not smell: cut produce and leftovers go in the fridge within 2 hours (USDA registry); keep the fridge at 40°F or below.",
+    "Bagged greens labeled ready-to-eat/washed don't need re-washing (FDA registry).",
+    "Wash produce under running water just before use; don't soak (UC Davis).",
+    "Manufacturers disagree on some items (Samsung puts peppers, carrots, strawberries on high); tell readers to check their manual.",
+    "No source here supports specific day counts for herbs in water or a potato/onion moisture interaction; those claims from the old version were dropped."
+  ],
+  "sources": {
+    "https://ucanr.edu/sites/Mariposa/files/322291.pdf": "Storing Fresh Fruits and Vegetables for Better Taste (UC Davis Postharvest Technology Center / UC ANR Publication 21590)",
+    "https://www.psu.edu/news/agricultural-sciences/story/your-produce-may-be-getting-gassed-refrigerator": "Your produce may be getting gassed in the refrigerator (Penn State College of Agricultural Sciences)",
+    "https://vegcropshotline.org/article/optimal-storage-conditions-for-vegetables/": "Optimal Storage Conditions for Vegetables (Purdue University Vegetable Crops Hotline)",
+    "https://yardandgarden.extension.iastate.edu/how-to/storing-winter-storage-vegetables": "Storing Winter Storage Vegetables (Iowa State University Extension)",
+    "https://www.fda.gov/food/process-contaminants-food/acrylamide-and-diet-food-storage-and-food-preparation": "Acrylamide and Diet, Food Storage, and Food Preparation (FDA)",
+    "https://www.samsung.com/ca/support/home-appliances/control-the-humidity-in-the-vegetable-crisper-drawers-of-your-samsung-refrigerator/": "Control the humidity in the vegetable crisper drawers of your Samsung refrigerator (Samsung Canada)"
+  }
+}

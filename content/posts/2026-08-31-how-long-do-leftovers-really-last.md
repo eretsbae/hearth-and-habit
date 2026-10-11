@@ -19,13 +19,13 @@ pin_hooks:
 enriched: '2026-10-11'
 ---
 
-Cooked leftovers are safe for 3 to 4 days in a refrigerator at 40°F or below, counted from the day you cooked them. If you won't finish something in that window, freeze it before the window closes.
+Cooked leftovers keep 3 to 4 days in a refrigerator at 40°F or below, counted from the day you cooked them. If you won't finish something in that window, freeze it before the window closes.
 
 That's the USDA's rule, and it comes with two conditions people skip. The food has to reach the fridge within 2 hours of cooking, and the fridge has to actually be at 40°F. Below are the reasons the window is that short, a day-by-day clock with a worked example, and the cooling, freezing, and thawing details that decide whether the 3–4 days holds.
 
 ## Why the window is only 3 to 4 days
 
-Most bacteria that cause food poisoning slow to a crawl in the cold. Listeria is the exception. The US Food and Drug Administration (FDA) says that, unlike many other foodborne bacteria, *Listeria monocytogenes* can grow in cold temperatures, including inside refrigerators. The longer food sits in the fridge, the more chance it has to grow.
+Many bacteria that cause food poisoning slow down in the cold. Listeria is one that doesn't. The US Food and Drug Administration (FDA) says that, unlike many other foodborne bacteria, *Listeria monocytogenes* can grow in cold temperatures, including inside refrigerators. The longer food sits in the fridge, the more chance it has to grow.
 
 You also can't tell when it has. The USDA says the bacteria that cause food poisoning generally don't change how food looks, smells, or tastes. A sniff test catches spoilage, not safety, so count days instead.
 
@@ -42,7 +42,7 @@ The CDC lists four groups at higher risk from Listeria:
 - adults 65 and older
 - anyone with a weakened immune system
 
-The FDA says pregnant women are about 10 times more likely to get listeriosis than other healthy adults. For these households, the FDA's advice is to use ready-to-eat foods as soon as possible. The CDC says deli meats, cold cuts, and hot dogs should be eaten only when reheated to 165°F or until steaming hot.
+The FDA says pregnant women are about 10 times more likely to get listeriosis than other healthy adults. On its page for pregnant women, the FDA's advice is to use ready-to-eat foods as soon as possible. The CDC says deli meats, cold cuts, and hot dogs should be eaten only when reheated to 165°F or until steaming hot.
 
 ## Is your fridge actually at 40°F?
 
@@ -61,9 +61,9 @@ A fridge that runs warm can also smell. Temperature is the first thing to check 
 | Cooking day | Get it into the fridge within 2 hours, or 1 hour if it's above 90°F (a hot patio or picnic). Rice: within 1 hour is the safer target. | USDA; CDC (rice) |
 | Days 1–2 | Eat it, or decide now whether you'll finish it. | |
 | Days 3–4 | Last days to eat it. Anything you won't finish goes in the freezer now. | USDA; Illinois Extension |
-| After day 4 | Throw it out, however it looks or smells. | USDA |
+| After day 4, if it was never frozen | Throw it out, however it looks or smells. | USDA |
 | In the freezer at 0°F | Safe indefinitely. Quality fades, so eat it within the times in the freezer table below. | USDA; UNL Extension |
-| Thawed in the fridge | Use within 3–4 days, or refreeze. | UNL Extension |
+| Thawed in the fridge | Use within 3–4 days of thawing, or refreeze within those 3–4 days. Past that, throw it out. | UNL Extension |
 | Thawed in cold water or the microwave | Cook it before refreezing. Microwave-thawed food goes straight on to 165°F. | USDA; UNL Extension |
 | Left out over 2 hours (1 hour above 90°F) at any point | Throw it out. The fridge doesn't undo time spent warm. | USDA |
 
@@ -71,7 +71,7 @@ A fridge that runs warm can also smell. Temperature is the first thing to check 
 
 Say you make a big pot of chili Sunday evening.
 
-1. **By about two hours after the burner goes off,** it's divided into shallow containers and in the fridge (how to cool it is below).
+1. **Within two hours of the burner going off,** it's divided into shallow containers and in the fridge (how to cool it is below).
 2. **Sunday + 3 days = Wednesday. Sunday + 4 days = Thursday.** Plan to finish it by Wednesday; Thursday is the outer edge.
 3. **On Tuesday or Wednesday,** move what you won't eat into the freezer. Illinois Extension says to freeze cooked leftovers within the 3–4 day window, not after it.
 4. **Two months later,** you thaw a container in the fridge on Saturday. It now has a new 3–4 day window: eat it by Tuesday or Wednesday.
@@ -82,7 +82,7 @@ Write the cook date on the lid. Without a date, you're guessing, and the guidanc
 
 ## Cooling: the step that decides the first two hours
 
-A big pot of soup or chili holds its heat in the middle, and the USDA says large amounts should be split into shallow containers so they cool quickly. Extension services put different numbers on "shallow":
+A big pot of soup or chili cools slowly, and the USDA says large amounts should be split into shallow containers so they cool quickly. Extension services put different numbers on "shallow":
 
 | Guidance | Maximum depth |
 |---|---|
@@ -92,13 +92,13 @@ A big pot of soup or chili holds its heat in the middle, and the USDA says large
 
 For thick, dense food like chili, stew, or rice, go with the 2-inch figure. The University of Nebraska also says soup can be chilled in an ice or cold-water bath before it goes in the fridge.
 
-Cover containers loosely until the food is completely cool, then seal them, Nebraska Extension says. Illinois Extension adds never to cool or thaw food outside, in a garage, or in a basement.
+Nebraska Extension says to cover soup containers once the food has completely cooled. Illinois Extension adds never to thaw food outside, in a garage, in a basement, or on the counter.
 
-Rice is the one food where the 2-hour limit isn't enough. *Bacillus cereus* spores survive cooking. If rice sits warm, they can make a toxin that reheating won't destroy, the CDC says. Get it into the fridge within an hour. The full story is in [why leftover rice makes people sick](https://www.hearth-habit.com/2026/09/why-leftover-rice-makes-people-sick.html).
+Rice needs a tighter limit than 2 hours. *Bacillus cereus* spores survive cooking. If rice sits warm, they can make a toxin that reheating won't destroy, the CDC says. Get it into the fridge within an hour. The full story is in [why leftover rice makes people sick](https://www.hearth-habit.com/2026/09/why-leftover-rice-makes-people-sick.html).
 
 ## Freezing: how long it stays good
 
-Freezing at 0°F stops bacteria from growing, so frozen food stays safe indefinitely. What changes is quality: the University of Nebraska says frozen leftovers lose moisture and flavor the longer they're stored. The quality windows differ by food and by source:
+The University of Nebraska says leftovers kept frozen at 0°F stay safe indefinitely. What changes is quality: it says frozen leftovers lose moisture and flavor the longer they're stored. The quality windows differ by food and by source:
 
 | Food | Freezer time for best quality | Source |
 |---|---|---|
@@ -116,9 +116,9 @@ Reheat leftovers to 165°F measured with a food thermometer, the USDA says. For 
 Two method details from the extension services:
 
 - **Oven:** the University of Nebraska says don't set it lower than 325°F when reheating meat and poultry.
-- **Slow cooker:** both Nebraska and Illinois say not to reheat in one, because the food sits too long between 40°F and 140°F on the way up. Reheat on the stove or in the microwave. Illinois says you can then move it to a slow cooker to keep warm at 140°F or above.
+- **Slow cooker:** both Nebraska and Illinois say not to reheat in one, since food can sit too long between 40°F and 140°F as it slowly heats. Reheat on the stove or in the microwave. Illinois says you can then move it to a slow cooker to keep warm at 140°F or above.
 
-Reheat only the portion you're about to eat. Reheating doesn't restart the 3–4 day clock, and any toxin already made, like the rice toxin, survives the heat.
+Reheat only the portion you're about to eat. Reheating doesn't restart the 3–4 day clock, and some toxins, like the rice toxin, survive reheating.
 
 ## Raw meat runs on a different clock
 
@@ -137,19 +137,19 @@ For every storage, thawing, and reheating rule in one place, see our [food stora
 
 ### Is day 5 okay if it looks and smells fine?
 
-No. Listeria grows in the fridge without changing how food looks or smells, so "fine" tells you nothing about safety. Day 5 is past the USDA window. If you know on day 2 or 3 that you won't finish something, freeze it then.
+No. Listeria can grow in the fridge, and the bacteria that cause food poisoning generally don't change how food looks or smells, so "fine" tells you nothing about safety. Day 5 is past the USDA window. If you know on day 2 or 3 that you won't finish something, freeze it then.
 
 ### Does restaurant or takeout food get the same 3–4 days?
 
-Yes, and the 2-hour limit applies too. The University of Nebraska says to refrigerate food within 2 hours of cooking or being served at a restaurant. Count the days from when it was served, since you don't know when the kitchen made it.
+Yes, and the 2-hour limit applies too. The University of Nebraska says to refrigerate food within 2 hours of cooking or being served at a restaurant. Count the days from when it was served at the latest; the kitchen may have made parts of it earlier.
 
 ### Can I put hot food straight into the fridge?
 
-Yes, once it's divided into shallow containers. A single deep pot is the problem, because the middle stays warm for hours. Leave the lids loose until the food is cold, then seal them.
+Yes, once it's divided into shallow containers. A single deep pot is the problem, because a big pot cools slowly and lets bacteria multiply. Nebraska Extension says to cover soup once it has completely cooled.
 
 ### Does reheating reset the clock?
 
-No. Track leftovers from the day you first cooked them. Reheating kills some bacteria, but it doesn't restore the food to day one, and toxins already made aren't destroyed.
+No. Track leftovers from the day you first cooked them. Reheating kills some bacteria, but it doesn't restore the food to day one, and some toxins, like the one from rice, survive reheating.
 
 ## Sources
 
@@ -159,5 +159,5 @@ No. Track leftovers from the day you first cooked them. Reheating kills some bac
 - [Nobody likes the cold, including BACTERIA (Ohio State University)](https://foodsafety.osu.edu/news/nobody-likes-cold-including-bacteria) — 43% of observed home fridges above 41°F; few have thermometers
 - [Date Marking (Champaign-Urbana Public Health District)](https://c-uphd.org/date-marking.html) — the restaurant 7-day limit at 41°F and why it exists
 - [Leftover Food Safety](https://food.unl.edu/article/leftover-food-safety/) and [Serving Soup Safely](https://food.unl.edu/article/serving-soup-safely/) (University of Nebraska Extension) — container depth, thawing rules, oven and slow-cooker reheating, freezer times
-- [Leftovers (University of Illinois Extension)](https://extension.illinois.edu/food/leftovers) — freeze within 3–4 days, freezer times for casseroles and soups, 4-inch pans
+- [Leftovers (University of Illinois Extension)](https://extension.illinois.edu/food/leftovers) — freeze within 3–4 days, freezer times for casseroles and soups, 4-inch pans, no thawing outside or on the counter
 - ["Danger Zone" 40°F–140°F (USDA FSIS)](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/danger-zone-40f-140f) — the 2-hour (1-hour above 90°F) rule

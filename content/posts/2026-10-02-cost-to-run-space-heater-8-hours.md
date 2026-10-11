@@ -25,7 +25,7 @@ The heater's price tag isn't the useful number. The useful one is what the same 
 
 ## The math for your heater and your rate
 
-The formula, from the Department of Energy and in the site's fact registry, is:
+The formula, from the Department of Energy, is:
 
 **watts × hours ÷ 1,000 × price per kWh = cost**
 
@@ -38,8 +38,10 @@ US residential electricity averages roughly 17–18 cents per kWh, according to 
 
 | Setting | kWh in 8 hours | at 11¢ | at 17¢ | at 40¢ |
 |---|---|---|---|---|
-| 750 W (low) | 6 | $0.66 | $1.02 | $2.40 |
+| 750 W (illustrative low setting) | 6 | $0.66 | $1.02 | $2.40 |
 | 1,500 W (high) | 12 | $1.32 | $2.04 | $4.80 |
+
+The 750 W row is an illustrative input for a low setting, not a spec; check your heater's label for its actual wattage.
 
 Over a month of daily 8-hour sessions at 1,500 W, that's 12 × 30 = 360 kWh. At 17 cents, 360 × $0.17 = $61.20.
 
@@ -49,21 +51,21 @@ For a real-world reference point, BC Hydro estimates that a 1,400-watt heater us
 
 ## Does the type of heater change the cost?
 
-Not per kWh. Every electric resistance heater, whether ceramic, oil-filled, or infrared, turns electricity into heat at about 100% efficiency, as ElectriCities of North Carolina puts it. A 1,500-watt oil-filled radiator and a 1,500-watt ceramic fan heater produce the same heat from the same electricity.
+Not per kWh. Electric resistance heat is 100% efficient, as ElectriCities of North Carolina puts it, and ceramic, oil-filled, and infrared space heaters all heat with electric resistance. A 1,500-watt oil-filled radiator and a 1,500-watt ceramic fan heater produce the same heat from the same electricity.
 
 What differs is how the heat reaches you, and that changes how long you'll run it. BC Hydro's comparison:
 
 | Type | How it heats | Best fit |
 |---|---|---|
-| Convection (electric or ceramic) | Instant heat, none after it shuts off; fan can be noisy | Only effective in small spaces |
+| Convection (electric or ceramic) | Instant heat, none after it shuts off | Only effective in small spaces |
 | Radiant oil-filled | Slow to warm up; radiates heat long after it's turned off | A room you'll stay in for hours |
 | Infrared | Instant, focused heat on what's directly in front of it | Warming you at a desk, not the room |
 
-An infrared heater aimed at your desk can let you sit comfortably with it on low or for fewer hours. It isn't more efficient per kWh. It just heats you instead of the air.
+An infrared heater aimed at your desk may let you sit comfortably with it on low or for fewer hours. It isn't more efficient per kWh. It just heats you instead of the air.
 
 ## Space heater vs. furnace vs. heat pump: the same heat, priced three ways
 
-12 kWh of heat is 12 × 3,412 = 40,944 Btu, using EIA's conversion of 3,412 Btu per kWh. Here's what that much heat costs from each source.
+12 kWh of heat is 12 × 3,412 = 40,944 Btu, using EIA's conversion of 3,412 Btu per kWh. Here's what that much heat costs from each source. A note on dates: electricity is priced at 17 cents, the low end of EIA's 2025–26 US average of roughly 17–18 cents per kWh, and gas at EIA's February 2026 US residential average.
 
 **Space heater (electric resistance):** 12 kWh × $0.17 = **$2.04**
 
@@ -92,7 +94,7 @@ Per unit of heat, a space heater costs more than gas or a heat pump. The only wa
 - **It's one small, closed room.** BC Hydro says to use space heaters only for a small room or space, for short periods, with doors and windows closed.
 - **You'd otherwise run the whole system for one person.** A home office through a workday is the classic case.
 
-It doesn't pay off when you're running several heaters to cover a floor, or using one every day to make up for a room that's always cold. The [guide to why one room stays colder](https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html) covers the duct, insulation, and air-leak causes that a heater only covers up. If you have a heat pump, see the backup-heat section of [the electric bill checklist](https://www.hearth-habit.com/2026/09/why-is-my-electric-bill-so-high-step-by.html). A deep setback on a heat pump can trigger expensive strip heat.
+It doesn't pay off when you're running several heaters to cover a floor, or using one every day to make up for a room that's always cold. The [guide to why one room stays colder](https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html) covers the duct, insulation, and air-leak causes that a heater only covers up. If you have a heat pump, see the backup-heat section of [the electric bill checklist](https://www.hearth-habit.com/2026/09/why-is-my-electric-bill-so-high-step-by.html).
 
 ## If your 8 hours are overnight, read this first
 
@@ -107,7 +109,6 @@ The other rules from both agencies:
 - Keep anything that can burn at least 3 feet away (USFA).
 - Plug it directly into a wall outlet, not an extension cord (BC Hydro).
 - Choose a model with tip-over and overheat protection (BC Hydro).
-- Set it on a level, hard surface away from blankets and drapes (BC Hydro).
 
 To take the chill off a bedroom, run the heater while you're awake in the room, then switch it off at bedtime. For the hours you're asleep, the [thermostat settings guide](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html) covers night setbacks for the whole house.
 

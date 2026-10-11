@@ -20,7 +20,7 @@ pin_hooks:
 enriched: '2026-10-11'
 ---
 
-Yes. Meat that thawed in a refrigerator at 40°F or below can go back in the freezer raw, within 1–2 days of thawing for ground meat and poultry or 3–5 days for steaks and roasts. The one condition most people skip is checking that the fridge really is at 40°F.
+Yes. Meat that thawed in a refrigerator at 40°F or below can go back in the freezer raw, within 1–2 days of thawing for ground meat and poultry or 3–5 days for steaks and roasts. The condition many people skip is checking that the fridge really is at 40°F.
 
 USDA's rule allows refreezing fridge-thawed food without cooking it first, with some loss of quality. Montana State University Extension calls fridge thawing the only method that allows safe refreezing without cooking. The rest of this guide covers the details that decide the answer in real kitchens: how warm your fridge actually runs, when the clock starts, and what to do with meat that's half-thawed or caught in a power outage.
 
@@ -28,7 +28,7 @@ USDA's rule allows refreezing fridge-thawed food without cooking it first, with 
 
 The refreeze rule assumes the meat never got warmer than a properly cold fridge. That assumption fails more often than you'd think. Ohio State University's food safety program reports that 43% of observed homes had a refrigerator running too warm (above 41°F). Only 4–9% of home refrigerators had a thermometer in them.
 
-FDA says to keep the refrigerator at 40°F or below and the freezer at 0°F, and to keep a thermometer in each. If you've never checked yours, put an appliance thermometer on the shelf where you thaw meat before relying on this rule. If the fridge reads above 40°F, treat thawed meat as if it had been held too warm. Cook it within its window rather than refreezing it raw, and turn the fridge colder.
+FDA says to keep the refrigerator at 40°F or below and the freezer at 0°F. If you've never checked yours, put an appliance thermometer on the shelf where you thaw meat before relying on this rule. If the fridge reads above 40°F, the refreeze condition isn't met. Don't refreeze the meat raw, and don't count on the full window either, because those day counts assume 40°F or below. Cook it promptly, or throw it out if you can't tell how long it ran warm. Then turn the fridge colder.
 
 ## When the clock starts, and a worked timeline
 
@@ -51,12 +51,12 @@ Aim for the early end of each range. Write the thaw date on the package with a m
 | How it thawed | Refreeze raw? | What to do |
 |---|---|---|
 | In a fridge at 40°F or below | Yes, within the window | Refreeze raw, or cook it and freeze the cooked dish |
-| In a fridge you've never checked | Safer not to | Cook it within the window; check the fridge with a thermometer |
+| In a fridge you've never checked | Safer not to | Cook it promptly rather than counting on the full window; check the fridge with a thermometer |
 | In cold water | No | Montana State Extension says cook it immediately once thawed |
 | In the microwave | No | Cook it immediately; parts can reach 40–140°F while the center is still frozen |
-| Still has ice crystals, or reads 40°F or below | Yes | FDA says food in this state can be safely refrozen or cooked |
+| Partly thawed (in a power outage, say): still has ice crystals or reads 40°F or below, and still inside its fridge window | Yes | FDA says food in this state can be safely refrozen or cooked |
 | On the counter, or out of the fridge over 2 hours (1 hour above 90°F) | No | Throw it out. Don't cook it, refreeze it, or try to rescue it (USDA) |
-| Past its fridge window | No | Throw it out; cooking doesn't reset the clock |
+| Past its fridge window, even if it still reads 40°F or below | No | Throw it out; cooking doesn't reset the clock |
 
 ### Cold-water thawing, done right
 
@@ -70,7 +70,7 @@ If you aren't sure you'll cook the meat this week, leave it frozen. Montana Stat
 
 ## After a power outage
 
-Freezer meat that partly thawed during an outage follows the same test. FDA says that if the food still has ice crystals or is at 40°F or below, it's safe to refreeze or cook. If you kept a thermometer in the freezer and it reads 40°F or below when the power returns, the food is safe and can be refrozen.
+Freezer meat that partly thawed during an outage follows the same test. FDA says that if the food still has ice crystals or is at 40°F or below, it's safe to refreeze or cook. A freezer thermometer that reads 40°F or below when the power returns passes the same FDA test. That test covers food that was still frozen when the power went out. Meat that had already thawed in the fridge keeps its fridge window, and past that window it goes in the trash whatever its temperature.
 
 How long you have depends on keeping the doors shut. FDA says a full freezer holds its temperature for about 48 hours and a half-full one for about 24 hours. An unopened refrigerator keeps food cold for about 4 hours. In a longer outage, meat thawing in the fridge may warm above 40°F, and once it has, it no longer meets the refreeze condition.
 
@@ -79,7 +79,7 @@ How long you have depends on keeping the doors shut. FDA says a full freezer hol
 FDA says food kept at 0°F stays safe indefinitely, but quality declines the longer it's frozen. Tenderness, flavor, juiciness, and color can all suffer. USDA's refreeze rule also notes some quality loss from the thaw-and-refreeze cycle. To limit the damage:
 
 - **Rewrap before refreezing.** FDA says freezer burn, the grayish-brown leathery spots, comes from food that isn't wrapped airtight. It's a quality problem, not a safety one, but it's easy to prevent. Press the air out of a freezer bag or overwrap the store package.
-- **Cook first if the meat is near the end of its window.** Cooking it inside the window frees you from the raw clock. Divide it into shallow containers so it cools quickly. USDA gives cooked leftovers 3–4 months in the freezer for best quality and 3–4 days in the fridge once thawed. Reheat to 165°F.
+- **Cook first if the meat is near the end of its window.** Cooking it inside the window swaps the raw clock for the cooked-leftover clock. Divide it into shallow containers so it cools quickly. USDA gives cooked leftovers 3–4 days in the fridge at 40°F or below and 3–4 months in the freezer for best quality. Reheat to 165°F.
 
 For the full set of fridge and freezer rules in one place, see [leftovers, thawing, and fridge storage](https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html). For cooked food, see [how long leftovers really last](https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html). To thaw only what the week needs, plan it with the [30-minute Sunday meal plan](https://www.hearth-habit.com/2026/07/the-30-minute-sunday-meal-plan-that.html).
 
@@ -87,7 +87,7 @@ For the full set of fridge and freezer rules in one place, see [leftovers, thawi
 
 ### It smells fine. Can I go past the window?
 
-No. USDA notes that the bacteria that cause food poisoning generally don't change how food looks, smells, or tastes. An off smell or slimy surface is a reason to throw meat out sooner, but a normal smell doesn't extend the window. Go by the calendar.
+No. USDA notes that the bacteria that cause food poisoning generally don't change how food looks, smells, or tastes. An off smell is a reason to throw meat out sooner, but a normal smell doesn't extend the window. Go by the calendar.
 
 ### Does the same rule apply to fish and shellfish?
 

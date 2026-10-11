@@ -27,13 +27,13 @@ The heat gets the blame, but it's only half of it. How much moisture is in and a
 
 Food scientists measure how available a food's water is to microbes as *water activity* (aw), on a scale from 0 to 1. The baking reference BAKERpedia lists fresh pan bread at about 0.93, batter cakes at 0.81, and wheat flour at 0.65. Its rule is simple: the higher the water activity, the shorter the shelf life.
 
-That moisture is inside the loaf from the start. Bag it, and what evaporates from the crumb stays against the crust. In a cool winter kitchen, mold grows slowly enough that you finish the loaf first. In a warm summer kitchen, the same loaf in the same bag doesn't get that head start.
+That moisture is inside the loaf from the start. Bag it, and what evaporates from the crumb stays against the crust. In a cool winter kitchen, mold grows more slowly, so you're more likely to finish the loaf first. In a warm summer kitchen, the same loaf in the same bag molds sooner.
 
 ## Condensation: the mistake that happens on the way home
 
 Commercial bakers treat condensation as a mold problem. BAKERpedia's guide to bakery shelf life calls mold "the arch-nemesis of shelf life." It says bakeries use fast cooling and stable humidity and temperature to prevent condensation.
 
-At home, the condensation usually comes from bagging bread before it has cooled. That can be a loaf still warm from the bakery, one that rode home in a hot car, or homemade bread wrapped too soon. As it cools in the bag, moisture beads on the inside of the plastic. Let warm bread cool completely on a rack before it goes into anything airtight.
+At home, condensation often comes from bagging bread before it has cooled. That can be a loaf still warm from the bakery, one that rode home in a hot car, or homemade bread wrapped too soon. As it cools in the bag, moisture beads on the inside of the plastic. Let warm bread cool completely on a rack before it goes into anything airtight.
 
 ## Where the loaf sits matters as much as the bag
 
@@ -44,26 +44,26 @@ North Dakota State University (NDSU) Extension's food storage guide says to stor
 - **Above or beside the dishwasher**, which adds warmth and steam
 - **On a sunny counter or windowsill**
 
-The coolest cabinet on an inside wall is a better home for the loaf. A kitchen cooled by air conditioning helps too.
+The coolest cabinet, away from those appliances, is a better home for the loaf. A kitchen cooled by air conditioning helps too.
 
 ## Why bakery bread molds first
 
-Supermarket sandwich bread often lists **calcium propionate** among its ingredients. BAKERpedia describes it as a preservative commonly used in baked goods to target mold, typically at 0.1 to 0.3 percent of the flour's weight.
+One reason some loaves hold out longer is **calcium propionate**. BAKERpedia describes it as a preservative commonly used in baked goods to target mold, typically at 0.1 to 0.3 percent of the flour's weight.
 
 It isn't a cure-all. BAKERpedia notes it works best in more acidic doughs: at pH 5.5, only 19% of the calcium propionate is active, and dropping the pH to 5.0 doubles that. Some bakers have removed it to keep a "clean label." So a bakery or artisan loaf with no preservatives gives up that protection and needs more careful storage, which is where the fridge comes in.
 
 ## The fridge slows mold but doesn't stop staling
 
-Advice about the fridge tends to be absolute: never refrigerate bread. NDSU's storage chart is more specific. For baked breads with no preservatives, it recommends refrigeration to inhibit mold growth. A home fridge runs at 32–40°F.
+Advice about the fridge tends to be absolute: never refrigerate bread. NDSU's storage chart is more specific. For baked breads with no preservatives, it recommends refrigeration to inhibit mold growth. NDSU's chart assumes a refrigerator at 32–40°F.
 
-The catch is texture. Stale bread isn't simply dried-out bread. BAKERpedia explains that staling is the starch slowly recrystallizing, a process called retrogradation, and notes that the drying theory was disproved more than 150 years ago. Refrigeration doesn't halt that process. Freezing does: BAKERpedia says freezing stops the molecular motion that lets starch recrystallize after baking.
+The catch is texture. Stale bread isn't simply dried-out bread. BAKERpedia explains that staling is the starch slowly recrystallizing, a process called retrogradation, and notes that the drying theory was disproved more than 150 years ago. Freezing is what stops it: BAKERpedia says freezing stops the molecular motion that lets starch recrystallize after baking.
 
 So there are three tiers:
 
 | How soon you'll finish it | Store it | Why |
 |---|---|---|
-| Within about 3 days | Cool cupboard or bread box, away from heat | NDSU's cupboard time for bread and rolls is 3 days |
-| No-preservative loaf you'll finish in a few days, in a hot kitchen | Refrigerator | NDSU recommends it to inhibit mold growth |
+| Within about 3 days, and the loaf has preservatives | Cool cupboard or bread box, away from heat | NDSU's cupboard time for bread and rolls is 3 days |
+| Within a few days, and the loaf has no preservatives | Refrigerator | NDSU recommends it to inhibit mold growth |
 | Longer than that | Freezer, sliced first | Freezing stops the starch changes behind staling |
 
 ![Where to keep a loaf in summer: a cool cupboard for up to 3 days, the fridge for no-preservative bread, the freezer for anything longer](/images/why-bread-molds-faster-in-summer-inline.svg)
@@ -95,7 +95,7 @@ A bread box keeps the loaf in one spot away from the stove and sunlight, which h
 
 ### Why does homemade bread mold so fast?
 
-Homemade bread usually has no mold inhibitor, and it's easy to wrap it before it has fully cooled. Let it cool completely on a rack. Keep it in a cool spot for the first day or two, and slice and freeze what you won't eat soon. NDSU's advice for no-preservative bread is the fridge if you'd rather not freeze it.
+Homemade bread usually has no mold inhibitor, and it's easy to wrap it before it has fully cooled. Let it cool completely on a rack. For baked bread with no preservatives, NDSU recommends the fridge to inhibit mold growth, and slicing and freezing whatever you won't eat within a few days stops staling too.
 
 ## Sources
 

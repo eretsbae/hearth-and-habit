@@ -1,0 +1,100 @@
+{
+  "reader_situation": "A homeowner with central forced-air heat or AC wants to stop paying to condition a guest room or basement, and wonders whether shutting the floor or ceiling register helps or hurts. Some have heard the opposite from their utility.",
+  "direct_answer": "With a ducted forced-air system whose ducts run through an attic, crawlspace, or garage, closing registers in unused rooms tends to raise energy use, not cut it. Lawrence Berkeley National Laboratory found the savings from conditioning less of the house were more than offset by extra duct leakage. Closing more than 60% of registers also risks a furnace tripping its high-limit switch or an AC coil freezing. Rooms with their own heat (electric baseboard, a room unit) are different: turning those down in unused rooms does save.",
+  "consensus": [
+    "Closing vents raises duct pressure and doesn't reduce what the blower does.",
+    "Higher pressure pushes more air out through duct leaks.",
+    "Restricted airflow can freeze an AC coil or overheat a furnace.",
+    "Zoned systems are designed to shut off zones; single-zone systems aren't.",
+    "Close the door instead of the vent."
+  ],
+  "gaps": [
+    "The key study: LBNL's Iain Walker (2003) measured duct leakage in a lab as registers closed and modeled an 1,800 sq ft two-story house with ten registers and all ducts in the attic, heating at 68°F in three California climates. Closing registers increased energy use across every combination of climate, duct leakage, and number of closed registers. Its not-recommended verdict is specifically for houses with ducts outside conditioned space.",
+    "How big the leakage swing is: in the lab, supply boot leakage rose from 5% to 55% of air handler flow as registers closed, and supply plenum leakage from 10% to 35%. ENERGY STAR says a typical duct system already loses about 20 to 30% of the air it moves.",
+    "The safety threshold: LBNL says closing more than 60% of registers is not recommended; furnaces may operate on the high-limit switch and cooling coils may freeze. It treats about a 20% drop in air handler flow as the maximum acceptable.",
+    "If you close any, which ones matters: closing registers farthest from the air handler first limits the pressure rise to that branch; closing ones near the air handler raises pressure and leakage across the whole system.",
+    "The usual 'close the door instead' advice has its own problem in homes with a central return only. FSEC field tests in 70 Florida homes found closed bedrooms pressurized to an average +6.2 Pa versus outdoors (up to +37.3 Pa), the central zone depressurized to -2.9 Pa (as low as -14.7 Pa), and infiltration rose from 0.46 to 0.60 air changes per hour with all interior doors closed. Depressurization of about -5 to -10 Pa causes spillage and backdrafting in most atmospherically vented combustion appliances. Florida's code limits pressure across interior partitions to 2.5 Pa.",
+    "Room-by-room heat works when each room has its own heater: BC Hydro advises turning baseboard heaters on only in occupied rooms and closing bedroom and office doors when they're on; heating costs rise about 5% for each degree above 20°C (68°F).",
+    "Unsupported numbers in the old article should go: 'no more than 10–20% of vents' and 'a few thousand dollars' for zoning have no source. The supported thresholds are LBNL's 60% safety limit and its finding that any number increased energy use in the attic-duct house."
+  ],
+  "evidence": [
+    {
+      "claim": "Register closing increased energy use",
+      "detail": "Register closing led to increased energy use for a typical California house over a wide combination of climate, duct leakage and number of closed registers. The reduction in building thermal loads was offset by increased duct system losses, mostly due to increased duct leakage. Not recommended as a viable energy saving strategy for California houses with ducts located outside conditioned space.",
+      "source_url": "https://eta-publications.lbl.gov/sites/default/files/54005.pdf",
+      "source_title": "Register Closing Effects on Forced Air Heating System Performance (LBNL-54005), I.S. Walker, 2003"
+    },
+    {
+      "claim": "Close far registers first; never more than 60%",
+      "detail": "Energy penalty minimized if registers furthest from the air handler are closed first; closing registers nearer the air handler increases pressures and leakage for the whole system. Closing more than 60% of registers is not recommended: furnaces may operate on the high-limit switch and cooling systems may suffer from frozen coils.",
+      "source_url": "https://smartersmallbuildings.lbl.gov/publications/register-closing-effects-forced-air",
+      "source_title": "Register Closing Effects on Forced Air Heating System Performance | Berkeley Lab"
+    },
+    {
+      "claim": "Leakage rises sharply as registers close",
+      "detail": "Supply boot leakage went up by almost a factor of ten, from 5% to 55% of air handler flow (50 cfm to 500 cfm), as registers were closed; supply plenum leakage rose from 10% to 35%. California duct systems have typical leakage of 20% to 30% of air handler flow.",
+      "source_url": "https://eta-publications.lbl.gov/sites/default/files/54005.pdf",
+      "source_title": "Register Closing Effects on Forced Air Heating System Performance (LBNL-54005), I.S. Walker, 2003"
+    },
+    {
+      "claim": "Study house and airflow limit",
+      "detail": "Simulated house: 1,800 ft2 two-story Title 24 house, duct system in the attic (R4 flex), ten registers, single return, heating at 68°F setpoint, three California climate zones (coast, Central Valley, mountains). A maximum acceptable reduction in air handler flow of about 20% was set; with near registers closed first, a no-leak system hit that at six closed registers.",
+      "source_url": "https://eta-publications.lbl.gov/sites/default/files/54005.pdf",
+      "source_title": "Register Closing Effects on Forced Air Heating System Performance (LBNL-54005), I.S. Walker, 2003"
+    },
+    {
+      "claim": "Typical duct losses",
+      "detail": "In a typical house, about 20 to 30 percent of the air that moves through the duct system is lost due to leaks, holes, and poorly connected ducts. Ducts in attics, crawlspaces, and garages; signs include high bills and rooms that are hard to heat or cool.",
+      "source_url": "https://www.energystar.gov/saveathome/heating-cooling/duct-sealing",
+      "source_title": "Duct Sealing | ENERGY STAR"
+    },
+    {
+      "claim": "Closed doors pressurize rooms without returns",
+      "detail": "70 central Florida homes: return grilles almost always in the central zone. With interior doors closed, closed rooms averaged +6.2 Pa wrt outdoors (as high as +37.3 Pa), central zone -2.9 Pa (as low as -14.7 Pa). House infiltration rose from 0.46 to 0.60 ACH with all interior doors closed. Doors closed 11% of the time on average. Florida Building Code requires return air transfers so pressure across interior partitions does not exceed 2.5 Pa.",
+      "source_url": "https://publications.energyresearch.ucf.edu/wp-content/uploads/2018/06/FSEC-RR-140-06.pdf",
+      "source_title": "Unbalanced Return Air in Residences: Causes, Consequences, and Solutions (FSEC-RR-140-06)"
+    },
+    {
+      "claim": "Depressurization and combustion appliances",
+      "detail": "At approximately -5 to -10 Pa wrt outdoors, most atmospherically vented combustion devices experience spillage and backdrafting; fireplaces at even lower differentials. Negative pressure can draw in contaminants from crawl spaces and garages.",
+      "source_url": "https://publications.energyresearch.ucf.edu/wp-content/uploads/2018/06/FSEC-RR-140-06.pdf",
+      "source_title": "Unbalanced Return Air in Residences: Causes, Consequences, and Solutions (FSEC-RR-140-06)"
+    },
+    {
+      "claim": "Room heaters: heat only occupied rooms",
+      "detail": "Only turn on baseboard heaters in rooms that are occupied. Close doors to bedrooms and offices when baseboard heaters are on. Heating costs can increase about 5% for every degree above 20°C (68°F). Suggested settings: 16°C sleeping, 18°C housework, 21°C reading/TV.",
+      "source_url": "https://bchydro.com/powersmart/residential/tips-technologies/baseboard-heaters.html",
+      "source_title": "Electric baseboard heaters | BC Hydro"
+    },
+    {
+      "claim": "Utilities sometimes give the opposite advice",
+      "detail": "A homeowner's utility advised closing vents in unused rooms; GBA editor Martin Holladay called it bad advice, citing Walker's LBNL study.",
+      "source_url": "https://www.greenbuildingadvisor.com/question/closing-vents-in-unused-rooms",
+      "source_title": "Closing vents in unused rooms | GreenBuildingAdvisor"
+    }
+  ],
+  "real_questions": [
+    "Will closing one vent hurt anything?",
+    "How many vents can I close safely?",
+    "Should I close basement vents in summer to push cold air upstairs?",
+    "Is closing the door better than closing the vent?",
+    "My utility says to close vents. Who's right?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "Decision table by heating setup (ducts in attic/crawl, ducts in basement, zoned system, electric baseboard/room unit) with what to do and the source; plus a 'if you close one anyway' order (far first, under 60%, watch for signs) and a door check for homes with a central return."
+  },
+  "cautions": [
+    "Don't recommend closing many registers; >60% risks high-limit cycling and frozen coils.",
+    "Closed doors with no return path can depressurize the central zone; homes with atmospherically vented gas appliances should be careful.",
+    "LBNL modeled heating with attic ducts; don't claim measured results for basements or for cooling savings."
+  ],
+  "sources": {
+    "https://eta-publications.lbl.gov/sites/default/files/54005.pdf": "Register Closing Effects on Forced Air Heating System Performance (LBNL-54005), I.S. Walker, 2003",
+    "https://smartersmallbuildings.lbl.gov/publications/register-closing-effects-forced-air": "Register Closing Effects on Forced Air Heating System Performance | Berkeley Lab",
+    "https://www.energystar.gov/saveathome/heating-cooling/duct-sealing": "Duct Sealing | ENERGY STAR",
+    "https://publications.energyresearch.ucf.edu/wp-content/uploads/2018/06/FSEC-RR-140-06.pdf": "Unbalanced Return Air in Residences: Causes, Consequences, and Solutions (FSEC-RR-140-06)",
+    "https://bchydro.com/powersmart/residential/tips-technologies/baseboard-heaters.html": "Electric baseboard heaters | BC Hydro",
+    "https://www.greenbuildingadvisor.com/question/closing-vents-in-unused-rooms": "Closing vents in unused rooms | GreenBuildingAdvisor"
+  }
+}

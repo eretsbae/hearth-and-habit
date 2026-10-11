@@ -2,9 +2,8 @@
 title: What Happens If You Put Cast Iron in the Dishwasher Once?
 slug: cast-iron-in-dishwasher-once
 date: '2026-08-18'
-updated: '2026-09-29'
-description: One cycle won't ruin cast iron, but it will strip the seasoning. Here's
-  what actually happens, why the myths are wrong, and how to fix it fast.
+updated: '2026-10-11'
+description: One dishwasher cycle strips cast iron's seasoning and leaves rust, but the pan survives. Lodge's fix is a scour, a thin oil coat, and an hour at 450–500°F.
 tags:
 - cast iron care
 - kitchen appliances
@@ -15,79 +14,94 @@ hero_image: /images/cast-iron-in-dishwasher-once-hero.svg
 hero_alt: Cast iron skillet with a dull, stripped patch of seasoning sitting beside
   a dishwasher rack with a plate and water droplets
 pin_hooks:
-- Dishwashed cast iron? Reseason at 400–450°F for an hour
-- One dishwasher cycle strips seasoning but won't warp the pan
+- Dishwashed cast iron? Bake it 1 hour at 450–500°F
+- Sticky after reseasoning? You used too much oil
+enriched: '2026-10-11'
 ---
 
-One dishwasher cycle won't ruin cast iron — it strips the seasoning and can trigger surface rust, but a good scrub, dry, and reseasoning fixes it completely.
+One dishwasher cycle strips a cast iron pan's seasoning and usually leaves rust, but the pan survives. Lodge's fix is to scour, oil thinly, and bake upside down at 450–500°F for an hour.
 
-That's the real answer, and it's less dramatic than the warnings you've probably heard. Cast iron has a reputation for being fragile in ways it just isn't — it's a thick slab of iron, not a soufflé. But it does have one real weak point, and the dishwasher hits that weak point directly. Here's what's actually going on, myth by myth.
+Lodge, the cast iron maker, puts it plainly: a dishwasher "will remove the seasoning and likely cause rust." That's damage to the surface, not to the iron underneath. The steps below come from Lodge's own care and troubleshooting pages, along with two details most write-ups skip: what it does to your warranty, and why many home reseasoning jobs come out sticky.
 
-## Myth #1: "One cycle will crack or warp the pan"
+## What the cycle actually does
 
-This one is almost never true, and it's worth understanding why. Cast iron is dense, heavy, and slow to change temperature — that's exactly why it holds heat so well for searing. A dishwasher's water temperature (typically 120–150°F, or 49–66°C) is nowhere near hot enough to shock or warp solid iron. Warping is a risk for thin, lightweight metal — think cheap aluminum sheet pans — not for a pan that weighs 4-8 pounds.
+**Seasoning comes off.** Lodge describes seasoning as oil baked onto the pan through polymerization until it's bonded to the iron. A dishwasher cycle strips it. Lodge says ordinary dish soap is fine on cast iron, because today's dish soap is no longer strong enough to remove seasoning. Dishwasher detergent is the one it rules out.
 
-Cracking is even less likely. It would take a serious impact or a manufacturing flaw, not a wash cycle, to crack cast iron. So if your worry is structural damage, you can relax. **The pan itself will survive the dishwasher just fine. What doesn't survive is the seasoning.**
+**Rust follows.** Lodge's troubleshooting page names the rust recipe precisely: a pan "put in the dishwasher, allowed to air dry." Once the seasoning is gone, the bare iron sits wet in a closed, steamy tub. The orange you find the next morning comes as much from that wait as from the wash itself. Lodge gives the same reason for never soaking cast iron: it's "a recipe for rust."
 
-## Myth #2: "The seasoning is a coating that either stays or peels off"
+**The iron itself is fine.** Lodge's warping and cracking warnings are about heat: uneven burners, pans larger than the burner, and skipping a gradual preheat. A wash cycle isn't on that list.
 
-This is the misconception that actually matters, so it's worth slowing down on. Seasoning isn't a coating sitting on top of the metal like paint or a nonstick spray. It's a layer of polymerized oil — oil that's been baked on hot iron until it chemically bonds to the surface, layer after layer, forming that smooth black, slightly glossy finish. It's baked into the metal's surface, not just resting on it.
+## Before you start: the warranty
 
-Dishwasher detergent is engineered to do one job aggressively: break down grease. That's exactly what seasoning is, chemically — hardened oil. A single cycle of hot water and degreasing detergent, plus the extended soak time most dishwashers use, is enough to soften and lift a meaningful portion of that seasoning layer. You won't necessarily strip it down to bare gray metal in one go, especially if the pan was well-seasoned to begin with, but you'll almost always notice:
+Lodge's warranty says not to wash seasoned cast iron in the dishwasher, and doing so voids it. It also doesn't cover rust, pitting, roughness, sticky seasoning, flaking, or odors on seasoned cast iron, though Lodge notes most of these can be fixed with its troubleshooting steps. It does cover a pan that cracks or warps in normal household use.
 
-- A duller, patchier look instead of the smooth dark sheen
-- Some stickiness or roughness where seasoning partially lifted
-- Food starting to stick where it didn't before
+In practice, a dishwasher cycle is a do-it-yourself repair, not a warranty claim. A replacement isn't an option anyway: one cycle doesn't crack or warp the pan, it damages the surface, and that's fixable.
 
-So the myth isn't that nothing happens — something does happen, every time. The myth is that it's all-or-nothing. In reality, seasoning damage is a spectrum, and one cycle usually lands somewhere in the "noticeably worse" range rather than "back to raw metal."
+## What you're seeing and what to do
 
-## Myth #3: "If it doesn't look rusty right away, it's fine"
+| What you see | What it is | What to do (per Lodge unless noted) |
+|---|---|---|
+| Orange film or rusty spots | Bare iron that sat wet | Scour off in warm, soapy water with a metal scouring pad. Dry, oil thinly, bake one hour at 450–500°F. |
+| Dull gray or patchy, no rust | Thinned seasoning | Uneven color can be normal. Cook with fat to build it back, or do the oven reseason. |
+| Sticky or gummy after reseasoning | Too much oil | Bake upside down for one hour at 450–500°F. Use less oil next time. |
+| Small black flakes | Carbonized bits of oil | Harmless. Wash, scrub, dry, oil thinly, bake one hour at 450–500°F. |
+| Enameled piece (colored glass coating) | Different product | Lodge says it's technically dishwasher safe but prefers hand washing. Rust on a bare rim: nylon sponge, dish detergent, dry thoroughly. |
 
-This is the myth that causes the most long-term damage, because it delays action. Rust doesn't need the dishwasher itself to form — it needs bare iron plus moisture plus time, and the dishwasher sets up all three. Once seasoning is stripped or thinned, the exposed iron underneath is vulnerable. If the pan then sits damp in the dishwasher for even an hour after the cycle ends (completely normal, since most dishwashers don't fully dry the load), that's enough humidity and warmth for a light rust bloom to start, especially on unseasoned spots.
+## The full recovery, in order
 
-The rust that shows up is usually a light orange haze, not deep pitting. It looks worse than it is. But if you leave a stripped, damp pan sitting in the closed dishwasher overnight — which is the actual common scenario, since most people don't unload right away — you're much more likely to find that dull orange film the next morning.
+This is the rust version, which covers most dishwasher accidents. Plan on about an hour in the oven, plus cooling time.
 
-**The takeaway here isn't "your pan is ruined." It's "get it out and dry it promptly," which matters more after a dishwasher cycle than after normal use.**
+![Recovery steps for dishwashed cast iron: scour the rust, dry with heat, wipe on a thin coat of oil, bake upside down at 450–500°F for 1 hour, cool in the oven](/images/cast-iron-in-dishwasher-once-inline.svg)
 
-![Hand wiping a thin coat of oil onto a cast iron skillet on a stovetop burner to start reseasoning it](/images/cast-iron-in-dishwasher-once-inline.svg)
+1. **Get it out of the dishwasher now.** Every hour it sits damp is more rust.
+2. **Scour.** Wash in warm, soapy water with a metal scouring pad, as Lodge directs for rust. Smithey, another cast iron maker, says steel wool or a chainmail scrubber with soapy water works too, then rinse until the water runs clean.
+3. **Dry completely.** Lodge says to dry with a paper towel or lint-free cloth. Smithey adds a step: put the pan back on the stovetop over heat until any moisture is gone. Doing both is the surest way to keep fresh rust from forming before you oil it.
+4. **Preheat the oven to 450–500°F.** Put aluminum foil on the bottom rack to catch drips.
+5. **Oil it thinly, everywhere.** Lodge recommends a high-smoke-point oil and uses vegetable oil, melted shortening, or canola in its test kitchen. Apply a very thin layer inside and out. The test: tilt the pan, and the oil should not run or drip. If it does, wipe more off.
+6. **Bake upside down on the top rack for one hour.**
+7. **Turn off the oven and let the pan cool inside it.** Then it's ready to use.
 
-## What to actually do if it already happened
+**Most sticky reseasoning jobs come from too much oil, not too little.** Lodge's troubleshooting page traces sticky cookware to excess oil at the oiling step. The fix is another one-hour bake, with a thinner coat the next time you oil.
 
-If you've already run cast iron through a cycle, don't panic and don't throw it out. Here's the practical fix, and it takes about 20-30 minutes of hands-on time plus an hour of oven time.
+The old advice to reseason at 400–450°F is below the range Lodge gives. Its seasoning, rust, and stickiness fixes all say 450–500°F.
 
-1. **Dry it immediately and thoroughly.** Towel-dry, then set it on a stovetop burner on low heat for a few minutes to drive off any residual moisture in the pores of the metal. This step matters more than people think — air-drying alone often leaves enough dampness for rust to start.
-2. **Check for rust.** Light orange dust or haze is common and easy to deal with. Scrub it off with a stiff brush, steel wool, or a chainmail scrubber and a little water. No soap needed at this stage.
-3. **Assess the seasoning.** If it looks dull, patchy, or gray in spots, plan to re-season the whole pan rather than patching just the bad areas — you'll get a more even result.
-4. **Re-season.** Dry the pan completely, then rub a very thin layer of a high smoke-point oil (vegetable, canola, or flaxseed all work; avoid olive oil, which has a lower smoke point and can go gummy) over every surface, inside and out, including the handle. Wipe off what looks like excess — you want a film so thin it barely looks like there's oil there at all. A thick layer just turns sticky instead of hard.
-5. **Bake it.** Place it upside down in an oven at 400-450°F (about 200-230°C) for roughly an hour, with foil or a baking sheet on the rack below to catch drips. Let it cool in the oven.
-6. **Repeat if needed.** One round of re-seasoning is often enough to get a pan back to a usable, mostly nonstick state. Two or three rounds over the following weeks, as you cook with it normally, will build it back to where it was.
+## After the reseason
 
-A pan doesn't need to look brand-new to be usable again. Even a single seasoning pass will let you cook eggs and other delicate foods without major sticking, and it improves every time you cook with fat in the pan afterward.
+The pan will cook, though it may look patchier than before. Lodge says variations in seasoning coverage are normal, and that "each time you cook with oil or fat, you're adding another layer of seasoning."
 
-## Why the "never" rule still makes sense as a habit
+A few early meals of sautéed vegetables or anything cooked in fat rebuild it faster than repeated oven sessions. Lodge also notes acidic foods can break seasoning down. Hold off on a long tomato simmer until the surface is dark and even again.
 
-Given that one cycle is fixable, you might reasonably ask why cast iron owners are so strict about "never, ever" putting it in the dishwasher. The answer is really about accumulated risk, not single-event risk. One cycle means one round of stripping and one re-seasoning session. Doing it regularly means you're constantly fighting to rebuild a layer that keeps getting torn down — plus more chances for the pan to sit damp and actually rust through to pitting, which is harder to fully reverse than surface haze.
+Daily care that keeps you out of this situation, per Lodge:
 
-It's the same logic as leaving a car out in one hailstorm versus parking it outside every storm for a year. One event is a fixable inconvenience. Repeated exposure compounds.
+- Hand wash. Dish soap is okay.
+- Don't soak.
+- Dry completely, then rub on a thin layer of oil.
 
-The other reason cast iron and dishwashers don't mix well long-term: dishwasher racks and detergent don't discriminate between your cast iron and everything else in the load, which means the pan is also getting jostled against other cookware and sitting in standing water at the bottom of the tub for the full cycle length — conditions that are worse for rust risk than a quick hand wash and dry ever would be. Wooden cutting boards belong on the same hand-wash-only list for a related reason: [a long soak makes them warp](https://www.hearth-habit.com/2026/09/why-does-my-cutting-board-warp-after.html).
+## Keeping it from happening again
 
-## The bottom line
+If other people in the house load the dishwasher, a sticky note on the pan or a dedicated spot on the stove, away from the sink, tends to work better than a house rule nobody remembers.
 
-If a piece of cast iron accidentally went through the dishwasher once — someone unloading groceries didn't know the house rule, or it got mixed in with a load by mistake — you haven't ruined a family heirloom skillet. Dry it right away, deal with any rust with a quick scrub, and re-season it. It'll take an evening, and the pan will be back in rotation the next day.
-
-For everyday care, hand-washing with hot water and a stiff brush (mild soap is fine despite the old myth that soap ruins seasoning — modern dish soap isn't the lye-heavy stuff of decades past), drying immediately, and a light wipe of oil afterward is the routine that keeps cast iron in good shape for decades without ever needing a dishwasher rescue mission. For everything that does belong in the machine, [these loading fixes](https://www.hearth-habit.com/2026/07/your-dishwasher-is-probably-loaded.html) get it clean the first time.
+The same hand-wash-only habit protects wooden boards, which [warp after a long soak or a hot cycle](https://www.hearth-habit.com/2026/09/why-does-my-cutting-board-warp-after.html). For everything that does belong in the machine, these [loading fixes](https://www.hearth-habit.com/2026/07/your-dishwasher-is-probably-loaded.html) get it clean the first time. If the dishwasher itself has started to smell, see [why it smells even after an empty run](https://www.hearth-habit.com/2026/08/why-does-my-dishwasher-smell-even-after.html).
 
 ## FAQ
 
-### Will soap really ruin cast iron seasoning?
-No — that's an older myth based on harsher, more caustic soaps from decades ago. A small amount of modern dish soap and a scrub brush during regular hand-washing won't strip a well-built seasoning layer. Dishwasher detergent is a different story: it's formulated to be much more aggressive and is combined with prolonged soaking, which is the real problem, not soap in general.
+### Can enameled cast iron, like a Dutch oven, go in the dishwasher?
 
-### How can I tell if my cast iron needs re-seasoning without guessing?
-Look at the surface in good light. A healthy seasoning layer looks semi-glossy and dark, and food releases from it fairly easily. If you see dull gray patches, roughness, or food sticking noticeably more than usual, that's your sign to re-season, whether the cause was a dishwasher cycle or just years of wear.
+Lodge says its enameled cast iron is technically dishwasher safe, but it prefers hand washing to preserve the finish. Let it cool before washing, and dry it promptly. If the bare iron rim rusts, clean it with a nylon sponge and dish detergent and dry it thoroughly. Other brands set their own rules, so check the care card for yours.
 
-### Does this same risk apply to enameled cast iron, like Dutch ovens?
-No, and this is an important distinction. Enameled cast iron (the kind with a colored glass-like coating) has no bare metal exposed and no seasoning to strip, so many manufacturers say it can go in the dishwasher — though most still recommend hand-washing to keep the enamel looking its best, so check yours. The concerns in this article apply specifically to bare, seasoned cast iron like skillets and griddles.
+### Will a hot pan crack if I rinse it with cold water?
 
-### Can I speed up drying by leaving the pan in a hot dishwasher after the cycle?
-It's better than leaving it in a cool, closed dishwasher, but not as good as drying it yourself on the stovetop. Dishwashers often finish with a damp interior and residual humidity, which is exactly the environment that encourages rust on exposed iron. A few minutes on a stovetop burner is a faster and more reliable way to get it fully dry.
+Lodge's thermal-shock warnings are about sudden temperature changes. It advises a 3–5 minute preheat on medium-low, and for enameled pieces it says not to add cold ingredients to a hot, empty pan. It doesn't give a specific rule for rinsing a hot pan. Letting the pan cool before washing, as Lodge says for enameled ware, is the cautious choice for both kinds.
+
+### The pan smells or looks blotchy after reseasoning. Did I ruin it?
+
+No. Lodge treats sticky residue, flaking, and uneven color as fixable surface problems, and its warranty lists them as such rather than as defects. Sticky means too much oil: bake it again. Blotchy means thin seasoning: cook with fat.
+
+## Sources
+
+- [How to Clean – Lodge Cast Iron](https://www.lodgecastiron.com/pages/how-to-clean) — dishwasher removes seasoning and causes rust; soap is okay; don't soak; dry and oil
+- [How to Fix Common Cast Iron Concerns – Lodge](https://www.lodgecastiron.com/pages/cleaning-and-care-cast-iron-troubleshooting) and [How to Season – Lodge](https://www.lodgecastiron.com/pages/how-to-season) — rust steps, 450–500°F for one hour, too much oil causes stickiness, flakes are harmless, oils to use
+- [Made Right Warranty | Lodge](https://www.lodgecastiron.com/pages/lodge-promise) — dishwashing voids the warranty; rust and sticky seasoning not covered; cracks and warping covered
+- [How to Use Cast Iron Over Any Heat Source – Lodge](https://www.lodgecastiron.com/pages/how-use-cast-iron-over-any-heat-source) — uneven heat warps and cracks; 3–5 minute preheat prevents thermal shock
+- [Cleaning & Care: Lodge Enameled Cast Iron](https://www.lodgecastiron.com/pages/cleaning-care-enameled-cast-iron) — enameled ware technically dishwasher safe; rim rust care
+- [Care – Smithey Ironware](https://smithey.com/pages/care) — steel wool or chainmail for rust; dry on the stovetop over heat

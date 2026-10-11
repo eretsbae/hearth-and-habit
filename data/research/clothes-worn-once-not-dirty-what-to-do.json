@@ -1,0 +1,100 @@
+{
+  "reader_situation": "Someone has a chair, bed end, or doorknob piled with jeans, sweaters, and pajamas worn for a few hours. They aren't sure whether rewearing them is unhygienic, whether they can go back in the closet, and how many wears each item gets before washing.",
+  "direct_answer": "Give lightly worn clothes one small, visible holding spot (a hook or open shelf) where they can air out, and wash them on a wear count rather than a feeling. The American Cleaning Institute's schedule, as passed on by Utah State University Extension, is: exercise clothing, leggings, T-shirts, socks, and underwear after every wear; jeans, slacks, sweaters, skirts, dresses, bras, and pajamas every 3 to 4 wears; outerwear every 3 months. Polyester needs washing; wool and nylon often freshen by airing. Don't put sweat- or food-soiled wool or silk away for storage, because those stains attract clothes moths.",
+  "consensus": [
+    "Have a designated spot for worn-but-not-dirty clothes so they don't pile up on a chair.",
+    "Do a sniff-and-stain check before rewearing.",
+    "Jeans, sweaters, and outerwear can go several wears between washes.",
+    "Activewear and underwear get washed after each wear.",
+    "Air items out before putting them back in the closet."
+  ],
+  "gaps": [
+    "Wear counts in the old article (jeans 4-5 wears, sweaters and blazers 2-3) have no source. The American Cleaning Institute schedule passed on by USU Extension puts jeans, slacks, sweaters, skirts, dresses, bras, and pajamas at every 3 to 4 wears; outerwear and jackets every three months; heavy coats once or twice a year. Levi's own care page says about every 10 wears for its denim.",
+    "Fiber type decides whether airing works. University of Alberta research found polyester, nylon, and wool absorb more odor compounds from sweat than cotton or viscose, but nylon and wool released them faster and were close to cotton after 24 hours. Polyester held on. McQueen's advice: polyester needs washing; nylon and wool can often be freshened by airing.",
+    "Hygiene is less of a concern than people fear. In an informal University of Alberta test, jeans worn 15 months without washing carried mostly normal skin bacteria (no E. coli found), with counts highest in the crotch (8,000-10,000 CFU per square cm) versus 1,000-2,500 on front and back. The count was nearly the same two weeks after washing. The researcher still doesn't recommend going a year, and the result assumes healthy skin without cuts.",
+    "Freezing jeans doesn't clean them. A Stanford microbiologist's test for NBC Bay Area found bacteria counts about the same after freezing in a lab freezer colder than a home freezer.",
+    "The real risk of putting soiled clothes away is moths and mildew. Mississippi State Extension says wool, silk, fur, and other animal-origin fabrics are susceptible to clothes moths, and items soiled with sweat, dandruff, and other stains are especially attractive to egg-laying moths; clean susceptible clothing before storage. USU Extension says larvae prefer items stained with beverages, urine, oil, and sweat.",
+    "Closet humidity matters for anything put back slightly damp. EPA advises keeping indoor relative humidity below 60%, ideally 30-50%, to limit mold."
+  ],
+  "evidence": [
+    {
+      "claim": "Wash after every wear",
+      "detail": "Every time you wear them: tights, leggings, yoga pants, exercise clothing, T-shirts, socks, undershirts/underpants and swimming suits (American Cleaning Institute guidance, presented by USU Extension's Teresa Hunsaker).",
+      "source_url": "https://extension.usu.edu/news_sections/home_family_and_food/the-dirt-on-laundry-how-often-to-wash",
+      "source_title": "Ask an Expert – The Dirt on Laundry: How Often to Wash? | USU Extension"
+    },
+    {
+      "claim": "Every 3 to 4 wears",
+      "detail": "Every three to four times you wear or use them: bath towels, bras, slips, dresses, sweaters, skirts, pajamas, slacks and jeans.",
+      "source_url": "https://extension.usu.edu/news_sections/home_family_and_food/the-dirt-on-laundry-how-often-to-wash",
+      "source_title": "Ask an Expert – The Dirt on Laundry: How Often to Wash? | USU Extension"
+    },
+    {
+      "claim": "Outerwear and coats",
+      "detail": "Every three months: outerwear and jackets, vests. Monthly: bathrobes. Once or twice a year: heavy coats.",
+      "source_url": "https://extension.usu.edu/news_sections/home_family_and_food/the-dirt-on-laundry-how-often-to-wash",
+      "source_title": "Ask an Expert – The Dirt on Laundry: How Often to Wash? | USU Extension"
+    },
+    {
+      "claim": "Levi's denim interval and spot cleaning",
+      "detail": "Wash denim after approximately every 10 wears to help maintain shape and fit; spot clean small marks with a damp cloth, soft brush, and mild soap; wash inside out in cold water on gentle; air dry, avoid machine drying.",
+      "source_url": "https://help.levi.com/hc/en-us/articles/15463553339917-How-to-Wash-and-Care-for-Your-Levi-s-Denim",
+      "source_title": "Denim care and washing – Levi's Customer Service"
+    },
+    {
+      "claim": "Fiber type and odor",
+      "detail": "Cotton and viscose absorbed and released smaller amounts of odor compounds from simulated sweat. Polyester, nylon, and wool absorbed more and initially released more; nylon and wool dissipated odorants faster than polyester and after 24 hours were close to the cellulosic fibers. McQueen: polyester needs washing; nylon and wool may be freshened by airing instead of laundering after every wear.",
+      "source_url": "https://ualberta.ca/en/folio/2024/07/new-research-offers-fresh-insights-on-why-some-clothes-get-smellier.html",
+      "source_title": "New research offers fresh insights on why some clothes get smellier | Folio, University of Alberta"
+    },
+    {
+      "claim": "Unwashed jeans bacteria test",
+      "detail": "Jeans worn 15 months and one week unwashed: 8,000-10,000 CFU per square cm in the crotch, 1,500-2,500 on the back, 1,000-2,000 on the front; mostly normal skin bacteria, no E. coli. Nearly the same growth about two weeks after washing. Informal, one pair and one wearer; the researcher doesn't recommend waiting a year; assumes no cuts or abrasions. The wearer aired them about three times a week.",
+      "source_url": "https://www.ualberta.ca/en/folio/2011/01/jeans-remain-surprisingly-clean-after-a-year-of-wear.html",
+      "source_title": "Jeans remain surprisingly clean after a year of wear | Folio, University of Alberta"
+    },
+    {
+      "claim": "Freezing doesn't kill bacteria on jeans",
+      "detail": "Stanford microbiologist Adam Perez: the plate after freezing looked about the same as before; the lab freezer was much colder than a home freezer. 'Freezing your jeans does not kill the bacteria, at all.'",
+      "source_url": "https://www.nbcbayarea.com/news/local/cleaning-your-jeans-by-freezing-them/86427/",
+      "source_title": "Can You Really Clean Your Jeans By Freezing Them? | NBC Bay Area"
+    },
+    {
+      "claim": "Soiled animal-fiber clothes attract moths",
+      "detail": "Items made of wool, silk, fur, or any other animal-origin fabrics are susceptible; items soiled with sweat, dandruff, and other stains are especially attractive to egg-laying moths. Have susceptible clothing cleaned before placing into summer storage to kill any life stages.",
+      "source_url": "https://extension.msstate.edu/newsletters/bugs-eye-view/2016/webbing-clothes-moth-vol-2-no-3",
+      "source_title": "Webbing Clothes Moth | Mississippi State University Extension"
+    },
+    {
+      "claim": "Moth larvae prefer stained fabric; prevention",
+      "detail": "Clothes moths prefer items stained with beverages, urine, oil, and sweat; larvae are more likely to feed on soiled fabrics. Periodic dry cleaning (>120°F); freeze infested items for a few days; store in a clean, airtight container. Webbing clothes moth larvae feed for 35 days to 2.5 years.",
+      "source_url": "https://extension.usu.edu/planthealth/research/clothes-moth",
+      "source_title": "Clothes Moths | USU Extension"
+    }
+  ],
+  "real_questions": [
+    "Is it gross to hang worn clothes back next to clean ones?",
+    "How many times can I wear jeans, sweaters, or pajamas before washing?",
+    "Does airing out actually remove smell, or just hide it?",
+    "Does freezing jeans kill bacteria?",
+    "Will putting worn clothes away attract bugs?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "Garment-by-garment table: ACI wear count (USU), whether airing tends to work by fiber (U of Alberta), and the storage caution (moths for wool/silk, MSU/USU). Plus a wear-count tally system for the holding hook."
+  },
+  "cautions": [
+    "Do not claim airing kills bacteria; it lets odors dissipate on some fibers.",
+    "Freezing does not clean clothes.",
+    "Wash or clean wool and silk before long-term storage."
+  ],
+  "sources": {
+    "https://extension.usu.edu/news_sections/home_family_and_food/the-dirt-on-laundry-how-often-to-wash": "Ask an Expert – The Dirt on Laundry: How Often to Wash? | USU Extension",
+    "https://help.levi.com/hc/en-us/articles/15463553339917-How-to-Wash-and-Care-for-Your-Levi-s-Denim": "Denim care and washing – Levi's Customer Service",
+    "https://ualberta.ca/en/folio/2024/07/new-research-offers-fresh-insights-on-why-some-clothes-get-smellier.html": "New research offers fresh insights on why some clothes get smellier | Folio, University of Alberta",
+    "https://www.ualberta.ca/en/folio/2011/01/jeans-remain-surprisingly-clean-after-a-year-of-wear.html": "Jeans remain surprisingly clean after a year of wear | Folio, University of Alberta",
+    "https://www.nbcbayarea.com/news/local/cleaning-your-jeans-by-freezing-them/86427/": "Can You Really Clean Your Jeans By Freezing Them? | NBC Bay Area",
+    "https://extension.msstate.edu/newsletters/bugs-eye-view/2016/webbing-clothes-moth-vol-2-no-3": "Webbing Clothes Moth | Mississippi State University Extension",
+    "https://extension.usu.edu/planthealth/research/clothes-moth": "Clothes Moths | USU Extension"
+  }
+}

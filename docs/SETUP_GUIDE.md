@@ -13,7 +13,9 @@
 
 `eretsbae/hearth-and-habit` 리포지토리에 프로젝트가 이미 올라가 있습니다: https://github.com/eretsbae/hearth-and-habit
 
-## 2단계. Claude API 키 등록 (5분)
+## 2단계. Claude API 키 등록 (5분) — 2026-10-11부터 정기 발행에는 불필요
+
+> 2026-10-11 API 크레딧이 바닥난 뒤 오너 지시로 글 생성을 **Claude Code 세션 토큰**으로 옮겼다. 정기 글은 PC 예약 작업 `hearth_publish_mwf`가 쓴다(아래 "완료" 절). 이 단계는 API 경로(`generate_post.py`·`enrich-posts.yml`·`quality-preview.yml`)를 다시 쓸 때만 필요하다.
 
 1. https://console.anthropic.com 접속 → 가입/로그인 → 결제수단 등록 후 소액 크레딧 충전
    - (선택) Settings에서 월 사용 한도를 걸어두면 안전합니다. 예상 비용은 월 $1~5 수준입니다.
@@ -43,7 +45,9 @@
 
 ## 완료. 이후 자동으로 일어나는 일
 
-- **매주 월/수/금** GitHub Actions가 자동 실행되어: Claude가 새 글 1편(본문 + 일러스트) 작성 → 리포에 커밋 → Blogger에 자동 게시
+- **매주 월/수/금 20:43 KST** 오너 PC 예약 작업 `hearth_publish_mwf`가 headless Claude Code 세션을 띄움 → 웹 리서치·집필·독립 검증 → `claude_post.py finalize`가 검사 후 main에 커밋 (`generator/CLAUDE_RUN.md`, 로그 `logs/claude-publish/`)
+- **같은 날 22:17 KST** GitHub Actions(`generate-and-publish.yml`)가 그 글을 Blogger에 게시하고 핀을 갱신. 새 글이 없으면 실패해 `[CI]` 이슈가 열린다 — PC가 꺼져 있었는지, 로그의 `RESULT:` 줄부터 확인
+- PC가 꺼져 있으면 그 회차는 건너뛴다(밀린 회차를 따라잡지 않음). 수동 실행: `powershell -NoProfile -ExecutionPolicy Bypass -File scripts\claude-publish.ps1`
 - 대기 주제가 5개 미만이 되면 Claude가 고정된 5개 필러(주택관리/청소·정리/에너지절약/주방/마당) 안에서만 새 주제를 자동 보충 — 트렌드에 흔들리지 않는 니치 유지
 - 애드센스 광고는 이미 Blogger ↔ 애드센스 연동이 되어 있다면 **별도 코드 작업 없이** Blogger의 "수익" 탭 설정을 그대로 따릅니다
 
@@ -75,7 +79,7 @@
 
 | 증상 | 해결 |
 |---|---|
-| Actions "Generate new post" 단계 실패 | `ANTHROPIC_API_KEY` 시크릿 확인, 콘솔 크레딧 잔액 확인 |
+| Actions "Require a post from the Claude Code session" 단계 실패 | 그날 20:43 PC 예약 작업이 글을 못 냈다. `logs/claude-publish/<날짜>.log`의 `[exit]`·`RESULT:` 줄 확인(PC 꺼짐이면 로그 없음). 수동 실행 후 Actions "Run workflow"로 다시 게시 |
 | Actions "Publish to Blogger" 단계 실패 (401/403) | `GOOGLE_REFRESH_TOKEN` 등이 정확한지 확인. `generator/blogger_auth.py`를 다시 실행해 새 토큰 발급 |
 | `get_access_token` 단계에서 `400 Client Error` (`oauth2.googleapis.com/token`) | OAuth 동의 화면이 "테스트" 상태면 refresh token이 7일 뒤 자동 만료됩니다. `blogger/SETUP.md`의 B-5 참고 — Google Cloud Console에서 앱을 "게시(Publish)"하면 재발 방지, 아니면 `blogger_auth.py`로 토큰을 재발급해 `GOOGLE_REFRESH_TOKEN` 시크릿을 갱신하세요. 이미 생성된 글은 리포에 남아 있으니 재인증 후 다음 실행에서 자동으로 발행됩니다 |
 | 이미지가 블로그에서 깨져 보임 | raw.githubusercontent.com 반영에 수십 초~수 분 지연이 있을 수 있음. 잠시 후 새로고침 |

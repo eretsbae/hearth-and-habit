@@ -6,3 +6,6 @@ generator/client_secret.json
 generator/token.json
 # 에이전트 worktree
 .claude/worktrees/
+
+# claude-publish.ps1 run logs
+logs/

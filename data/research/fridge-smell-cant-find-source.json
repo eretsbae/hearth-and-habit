@@ -1,0 +1,97 @@
+{
+  "reader_situation": "Someone has emptied and wiped their fridge, found no spoiled food, and still smells something every time they open the door. They want to know where else the smell can come from and whether their food is still safe.",
+  "direct_answer": "A smell that survives a shelf-by-shelf clean usually comes from residue in places that don't look like storage (drawer channels, door gasket folds, the defrost drain and drip pan, the ice bin or an old water filter) or from outside the cabinet, such as a dead rodent behind the unit. Check that the fridge holds 40°F or below with an appliance thermometer, and judge food by time and temperature, never by smell.",
+  "consensus": [
+    "Throw out spoiled food and wipe down shelves and drawers.",
+    "Clean the door gasket and remove drawers to clean underneath.",
+    "Keep an open box of baking soda in the fridge to absorb odors.",
+    "Check the drip pan under the fridge.",
+    "Keep the fridge at 40°F or below."
+  ],
+  "gaps": [
+    "Smell is the wrong test for food safety: bacteria that cause food poisoning generally don't change how food smells (USDA registry fact), and FDA says during outages you can't rely on appearance or odor. Use an appliance thermometer and storage times instead.",
+    "FDA recommends an appliance thermometer checked at least once a week, fridge at or below 40°F and freezer at 0°F, and not packing the fridge so tightly that air can't circulate.",
+    "FDA ties regular cleaning and wiping spills immediately to limiting Listeria growth, which is a safety reason, not only an odor reason.",
+    "A drawer or shelf that held leaking raw meat juices needs sanitizing after cleaning (CDC), not just a deodorizing wipe.",
+    "Mold on hard surfaces such as a drip pan or gasket is scrubbed off with detergent and water and dried completely (EPA); drying is the step people skip.",
+    "Water and ice smells can come from the filter; GE says to change the refrigerator water filter every six months.",
+    "A smell strongest at the bottom grille or behind the fridge can be a dead rodent. CDC's cleanup: air out 30 minutes, wear rubber or plastic gloves, soak with 1.5 cups bleach per gallon of water for 5 minutes, never sweep or vacuum, double-bag the rodent, wash gloved hands before removing gloves.",
+    "The old article's '2 tablespoons baking soda per quart' and 'replace baking soda every 30 days' figures had no source and are removed. Never mix bleach with ammonia or acids (registry)."
+  ],
+  "evidence": [
+    {
+      "claim": "Fridge and freezer temperatures and how to check",
+      "detail": "Keep the refrigerator temperature at or below 40°F (4°C). The freezer temperature should be 0°F (-18°C). Appliance thermometers are the best way of knowing these temperatures and are generally inexpensive; check them at least once a week.",
+      "source_url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely",
+      "source_title": "Are You Storing Food Safely? | FDA"
+    },
+    {
+      "claim": "Clean regularly, wipe spills, don't overpack",
+      "detail": "Clean the refrigerator regularly and wipe spills immediately, which helps limit Listeria growth and stops drips from spreading bacteria between foods. Don't pack the fridge or freezer so tightly that air can't circulate. You can't rely on appearance or odor (power outage context).",
+      "source_url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely",
+      "source_title": "Are You Storing Food Safely? | FDA"
+    },
+    {
+      "claim": "Clean first, then sanitize surfaces raw meat juices touched",
+      "detail": "Cleaning removes most germs, dirt, and impurities; surfaces should be cleaned before they are sanitized or disinfected. Sanitize any surface that has touched or been contaminated by raw meat, poultry, or their juices. Do not mix products or chemicals with each other. Ensure good ventilation if using products indoors.",
+      "source_url": "https://www.cdc.gov/hygiene/about/when-and-how-to-clean-and-disinfect-your-home.html",
+      "source_title": "When and How to Clean and Disinfect Your Home | CDC"
+    },
+    {
+      "claim": "Dead rodent and droppings cleanup",
+      "detail": "Open all doors and windows for 30 minutes before cleaning. Wear rubber or plastic gloves. Mix 1.5 cups of household bleach in 1 gallon of water (1 part bleach to 9 parts water), fresh each time; let it sit 5 minutes or per the disinfectant label. Don't vacuum or sweep urine, droppings, or nesting materials; use disinfectant and paper towels. Put the rodent and traps in a plastic bag, knot it, place it in a second bag, knot it, and discard in a covered garbage can. Wash gloved hands with soap and water or disinfectant before removing gloves, then wash bare hands.",
+      "source_url": "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html",
+      "source_title": "Cleaning Up After Rodents | CDC"
+    },
+    {
+      "claim": "Water filter interval",
+      "detail": "Make sure the refrigerator water filter is changed every six months for the cleanest, freshest water and ice cubes.",
+      "source_url": "https://www.ge.com/news/press-releases/missed-spring-cleaning-ges-appliance-cleaning-tips-help-you-get-back-track-time",
+      "source_title": "Missed Spring Cleaning? GE's Appliance Cleaning Tips | GE"
+    },
+    {
+      "claim": "Odor eliminators vs source",
+      "detail": "GE suggests using an odor eliminator to remove unwanted smells; some models have an odor filter in the fresh food section.",
+      "source_url": "https://www.ge.com/news/press-releases/missed-spring-cleaning-ges-appliance-cleaning-tips-help-you-get-back-track-time",
+      "source_title": "Missed Spring Cleaning? GE's Appliance Cleaning Tips | GE"
+    },
+    {
+      "claim": "Mold on hard surfaces and drip pans",
+      "detail": "Scrub mold off hard surfaces with detergent and water, and dry completely. Absorbent or porous materials may have to be thrown away if they become moldy. Keep air conditioning drip pans clean and drain lines unobstructed and flowing properly.",
+      "source_url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+      "source_title": "A Brief Guide to Mold, Moisture and Your Home | US EPA"
+    },
+    {
+      "claim": "A musty smell can indicate hidden mold",
+      "detail": "You may suspect mold, even if you can't see it, if a building smells moldy.",
+      "source_url": "https://www.epa.gov/mold/mold-course-chapter-2",
+      "source_title": "Mold Course Chapter 2 | US EPA"
+    }
+  ],
+  "real_questions": [
+    "Why does my fridge still smell after I threw everything out and cleaned it?",
+    "Where is the drip pan and defrost drain, and can they smell?",
+    "Why does my ice or water taste or smell bad?",
+    "Is food in a smelly fridge still safe to eat?",
+    "What's that dead-animal smell near the bottom of the fridge?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "A table keyed to where the smell is strongest or what it smells like: inside on shelves/drawers (residue in channels; raw meat juice needs clean then sanitize), sour/musty at the bottom or grille (drip pan or defrost drain; scrub with detergent and dry completely), in ice or water (filter older than GE's six months; old ice), dead-animal smell near the floor or behind the unit (rodent; CDC cleanup steps with 1.5 cups bleach per gallon, 5 minutes, no sweeping), everything smells stronger and food spoils fast (temperature above 40°F; FDA weekly thermometer check, don't overpack)."
+  },
+  "cautions": [
+    "Never judge food safety by smell; use 40°F and storage times (USDA registry: leftovers 3-4 days).",
+    "Unplug the fridge before reaching under or behind it.",
+    "Never mix bleach with ammonia or acids such as vinegar; rinse between products (registry).",
+    "Use CDC's rodent cleanup steps; don't sweep or vacuum droppings.",
+    "No source supported a baking soda solution ratio or a baking soda box replacement interval; do not state them."
+  ],
+  "sources": {
+    "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely": "Are You Storing Food Safely? | FDA",
+    "https://www.cdc.gov/hygiene/about/when-and-how-to-clean-and-disinfect-your-home.html": "When and How to Clean and Disinfect Your Home | CDC",
+    "https://www.cdc.gov/healthy-pets/rodent-control/clean-up.html": "Cleaning Up After Rodents | CDC",
+    "https://www.ge.com/news/press-releases/missed-spring-cleaning-ges-appliance-cleaning-tips-help-you-get-back-track-time": "Missed Spring Cleaning? GE's Appliance Cleaning Tips | GE",
+    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home": "A Brief Guide to Mold, Moisture and Your Home | US EPA",
+    "https://www.epa.gov/mold/mold-course-chapter-2": "Mold Course Chapter 2 | US EPA"
+  }
+}

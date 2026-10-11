@@ -2,8 +2,8 @@
 title: How to Get Rid of Things You Spent Good Money On (Without the Guilt)
 slug: get-rid-of-things-you-spent-money-on
 date: '2026-08-21'
-updated: '2026-09-29'
-description: "Struggling to declutter expensive items? Ask what you'd get back, not what you paid. Compare returning, reselling, donating, and repurposing, plus the math."
+updated: '2026-10-11'
+description: "Decide by what an item can still return, not what it cost: return, sell after eBay's 13.6% fee, or donate, and why 2026's new tax break skips donated goods."
 tags:
 - decluttering
 - organization
@@ -13,114 +13,123 @@ pillar: cleaning-organization
 hero_image: /images/get-rid-of-things-you-spent-money-on-hero.svg
 hero_alt: "Open closet holding a barely used treadmill, a stand mixer on the shelf, and clothes with price tags still attached"
 pin_hooks:
-- Resell only if it would fetch roughly $50 or more used
-- 3 questions that decide return, resell, or donate
+- Return, sell, or donate? Do the net-proceeds math first
+- 2026's no-itemize tax break doesn't cover donated stuff
+enriched: '2026-10-11'
 ---
 
-To get rid of something expensive without the guilt, stop asking "what did I pay?" and ask "what will I actually get back?" — then return it if you still can, resell it if it would fetch roughly $50 or more used, and donate or give away the rest. For most things you've barely used, the honest answer to that question is little to nothing, and that's the moment to let go.
+Judge an expensive item by what it can still return, not what you paid: return it if the store will take it, sell it if the net after fees is worth your time, and otherwise donate it. One catch for US readers: the new 2026 tax break for people who don't itemize covers cash gifts only, not donated goods.
 
-That gap between what you paid and what an item is worth now is called a **sunk cost** — money already spent that you can't recover no matter what you decide today. Your brain doesn't like admitting a purchase was a mistake, so it keeps the item around as a kind of monument to the money, hoping you'll "use it eventually" and retroactively justify the price. That eventually rarely comes, and the item just keeps taking up space, guilt included.
+The price you paid is a sunk cost. That money is gone whether the treadmill stays in the spare room or leaves on Saturday. What's still in play is smaller and more concrete: a possible refund, a resale check minus fees, a tax benefit that may be zero, and the space the thing is taking up.
 
-**Key takeaway: the item's price tag is history. The only question worth asking is what it's costing you right now to keep it — space, time, mental clutter — versus what it's worth to move on.**
+The rest of this article puts real numbers on each of those, so the decision stops being about guilt and starts being about arithmetic.
 
-## Why This Feels So Much Harder Than Regular Decluttering
+## Why the price keeps you stuck
 
-Getting rid of a $4 takeout container is easy. Getting rid of a $400 treadmill you used six times is not, even though both are just objects taking up space. The difference is emotional, not practical.
+Getting rid of a $4 takeout container is easy. Getting rid of a treadmill you used six times is not, even though both just take up space. Three things usually get tangled together:
 
-A few things tend to be tangled up together:
+- **The loss feels final.** Keeping the item lets you avoid admitting the purchase didn't work out.
+- **It stands for a version of you.** The home-gym person, the bread baker, the person who uses a real camera. Letting go can feel like giving up on that.
+- **Someone else paid.** A gift adds a layer of obligation on top of the money.
 
-- **Loss aversion** — losing money (even money already gone) feels worse than gaining an equivalent amount feels good, so we avoid "admitting the loss" by keeping the item.
-- **Identity cost** — expensive purchases often represent a version of yourself you hoped to become (the home-gym person, the home-baker, the capsule-wardrobe person). Letting go can feel like giving up on that identity.
-- **"Someone paid for this" guilt** — if it was a gift, this adds a social layer on top of the financial one.
+None of these changes what the item is worth today. Naming which one is driving you helps, because "get some money back" and "make peace with the loss" are different problems with different exits.
 
-Recognizing which of these is driving the attachment helps you pick the right exit strategy below, because "get some money back" and "make peace with the loss" are actually two different problems.
+## The decision order
 
-## The Options, Side by Side
+Work through these in sequence. Each step either ends the decision or passes the item to the next one.
 
-There's no single right way to offload an expensive item — the right move depends on the item's resale value, how much effort you're willing to spend, and how fast you want it gone.
+![Flow for an unused expensive item: return it if eligible, check recalls, sell if net proceeds justify it, otherwise donate or recycle](/images/get-rid-of-things-you-spent-money-on-inline.svg)
 
-| Method | Best for | Money back | Effort | Speed |
-|---|---|---|---|---|
-| Resell (online marketplace) | Electronics, furniture, name-brand gear, tools | Medium–High | High | Slow (days–weeks) |
-| Consignment/resale shop | Clothing, kids' gear, home decor | Low–Medium | Low | Medium |
-| Return/exchange (if still eligible) | Recent purchases with receipt | Full–High | Low | Fast |
-| Donate | Almost anything usable | None (a US tax deduction is possible if you itemize) | Very low | Fast |
-| Give to a friend/family member | Sentimental or niche items | None | Very low | Fast |
-| Repurpose in place | Furniture, containers, fabric | None (saves future spend) | Medium | Fast |
-| Trash/recycle | Broken, unsafe, or unusable items | None | Very low | Fast |
+### 1. Can it still go back?
 
-### When Reselling Actually Makes Sense
+A return is the only path to your actual money, not a fraction of it. In the US, a store sets its own return policy, so check the policy printed on your receipt or order confirmation rather than assuming a window. Many retailers can look up a purchase from your account or order history even without the paper receipt. Unused items in original packaging get the easiest hearing.
 
-Reselling is worth the effort mainly when the item is worth more than roughly $50–75 and is something people specifically search for — think stand mixers, power tools, name-brand strollers, gaming consoles, or solid wood furniture. Below that price point, the time spent photographing, writing a listing, answering messages, and coordinating pickup usually isn't worth what you'll net.
+### 2. Has it been recalled?
 
-A useful gut check: estimate what the item is selling for used (search a marketplace app for the same model), then subtract shipping or the hassle of a home pickup. If what's left is less than what you'd pay yourself for an hour of your time, donating is the better trade even though the resale number looks like "free money" on paper.
+Check before you list or donate anything. The US Consumer Product Safety Commission (CPSC) says it is illegal to sell any recalled product. Section 19 of the Consumer Product Safety Act makes it unlawful to even offer one for sale. CPSC is explicit that this covers individuals reselling used items online or in person, and that knowing whether a product was recalled is the seller's responsibility. Search the model at cpsc.gov/recalls. If it was recalled, follow the recall notice's remedy instead of selling it.
 
-### When a Return Is Still on the Table
+### 3. Is it worth selling? Do the net-proceeds math
 
-If the item is recent, unused, or barely used, check the return window before doing anything else — this is the only option that gets your actual money back, not just partial resale value. Many retailers allow 30–90 days, and some credit cards extend that further as a purchase-protection perk. Look for the original receipt or check your email/account order history, since most stores can look up a purchase without a paper copy.
+A listing price is not what you keep. Using eBay as the example, because it publishes its fees:
 
-This is especially worth checking for:
-- Big-box store purchases (often 90-day windows)
-- Online orders (return windows are usually printed in the confirmation email)
-- Anything still in original packaging with tags attached
+- eBay charges a final value fee of **13.6 percent** in most categories.
+- That 13.6 percent applies to the *total* sale, which includes the item price plus any shipping the buyer pays and sales tax.
+- It adds a per-order fee of $0.30 on orders of $10 or less and $0.40 on orders over $10.
+- Your first 250 listings each month carry no listing fee.
 
-### When Donating Is the Right Call
+**Worked example (hypothetical item that sells for $150, with free shipping):**
 
-Donating wins when the item is usable but not valuable enough to justify reselling, or when you want it gone this week, not this month. It's also the best option emotionally — knowing something will be used by someone else softens the sting of the sunk cost in a way that a landfill trip doesn't.
+| Step | Math | Result |
+|---|---|---|
+| Final value fee | $150 × 0.136 | $20.40 |
+| Per-order fee | order over $10 | $0.40 |
+| Total fees | $20.40 + $0.40 | $20.80 |
+| What's left before shipping | $150 − $20.80 | $129.20 |
+| What you keep | $129.20 − your shipping cost | depends on box and distance |
 
-A few donation notes worth knowing:
+If you charge the buyer shipping instead, the fee grows with it: a $150 item plus $25 buyer-paid shipping is $175 × 0.136 = $23.80, plus $0.40.
 
-- In the US, donated goods are only deductible if you itemize (most households take the standard deduction instead). The deduction is the item's current thrift-store value, not what you paid, and clothing and household goods need to be in good used condition or better. Keep the receipt and a simple list of items and estimated values. Canada works differently: donations earn a tax credit rather than a deduction, and only with an official receipt from a registered charity, which many drop-off sites don't issue for used goods.
-- Some organizations (furniture banks, shelters, school programs) will pick up large items for free — worth a quick search before you rent a truck.
-- Call ahead for large electronics or furniture; not every donation center takes every category.
+Then ask the real question: is that last number worth the time to photograph, list, answer messages, pack, and ship? Look up what the same model has actually *sold* for, not what people are asking, and plug that in. If the result is small next to an afternoon of your time, the item belongs in step 4. A local pickup sale skips shipping but adds the back-and-forth of scheduling strangers.
 
-![Decision path linking three exits for pricey items you don't use: a price tag, a donation box, and a resale app on a phone](/images/get-rid-of-things-you-spent-money-on-inline.svg)
+### 4. Donate it, with the tax facts straight
 
-### When to Just Repurpose It Instead
+Donating is fast, and knowing someone will use the thing softens the sting. What it's worth on your taxes depends on how you file.
 
-Sometimes the best answer isn't removal at all — it's putting the item to a different use so the money wasn't wasted after all. A juicer that never got used for juice might work fine as a citrus reamer stand-in that lives in a drawer instead of on the counter. An expensive dress form or exercise bike that's become a clothes rack might just need an actual home in a closet instead of a hallway.
+**US, if you take the standard deduction.** Starting with tax year 2026, people who don't itemize can deduct up to $1,000 of charitable gifts ($2,000 filing jointly). The IRS says that deduction is available only for *cash* contributions. Bagging up a closet of designer clothes gives a non-itemizer no tax benefit, in 2026 or before.
 
-Repurposing is worth considering when:
-- The item still has months or years of useful life left
-- Storage space isn't the actual problem (visibility/guilt is)
-- No good donation or resale outlet exists for it locally
+**US, if you itemize.** You can generally deduct the fair market value of donated property, which is what it would sell for now, not what you paid. For used clothing, the IRS says to use the price buyers actually pay in thrift or consignment shops. Clothing and household items (furniture, electronics, appliances, linens) must be in good used condition or better to count at all.
 
-Be honest with yourself here, though — "I could repurpose this" is one of the most common ways clutter earns another six months on the shelf. If you've already had the "I'll repurpose it" thought once before and it didn't happen, that's a signal to skip to donating.
+The paperwork scales with the amount:
 
-### When It's Just Trash
+| Your deduction | What the IRS requires |
+|---|---|
+| Under $250 per contribution | A receipt with the charity's name and address, the date and location, and a description of the items |
+| $250 or more in a single contribution | A contemporaneous written acknowledgment from the charity |
+| Over $500 total in noncash gifts | Form 8283, Section A, attached to your return |
+| Over $5,000 for one item or a group of similar items | Form 8283, Section B, plus a qualified appraisal |
 
-Broken, expired, recalled, or unsafe items don't belong in any of the categories above, no matter how much they cost. Holding onto a broken $200 blender because "it was expensive" doesn't recover any value — it just adds a repair project to your to-do list indefinitely. If it's been broken for more than a season and you haven't fixed it, it's very unlikely you will.
+There's one more exception: an item *not* in good used condition can still be deducted if you claim more than $500 for it and attach a qualified appraisal with Section B. Weigh what an appraisal costs against the tax it would save before going that route.
 
-One caution: "trash" doesn't mean the household bin for everything. Dead electronics go to e-waste recycling, and anything with a lithium-ion or button battery — old phones, cordless tools, fitness trackers — needs a battery or e-waste drop-off, because those batteries can start fires in garbage trucks and sorting facilities. Tape the battery terminals if they're exposed.
+To estimate the tax benefit for an itemized donation, multiply the thrift-store value by your own top tax rate. A coat that sells for $40 in a thrift shop yields a deduction of $40, not the $400 you paid.
 
-## A Simple Way to Decide, Item by Item
+**Canada.** The Canada Revenue Agency (CRA) gives federal and provincial or territorial non-refundable tax *credits*, not a deduction. You need an official donation receipt from a qualified donee, and many drop-off bins don't issue them for used goods. The receipt amount is fair market value *before* the sales taxes you paid. If you bought the item less than 3 years before giving it, CRA deems its value to be the lower of fair market value and your cost, so a donation can't come out worth more than you paid.
 
-When you're stuck on a specific item, run it through these three quick questions in order:
+### 5. Recycle what can't be reused
 
-1. **Can I still return it?** If yes, do that first — it's the only path to full value.
-2. **Would someone pay real money for this used, right now?** If yes and it's worth more than roughly $50, list it. If yes but it's worth less, donate or consign it.
-3. **Am I keeping this for the item, or for the money I spent?** If it's the money, that value is already gone regardless of what you decide today — so choose based on what gets it out of your space fastest.
+Broken, unsafe, or recalled-and-unremedied items don't become worth keeping because they were expensive. If you haven't fixed something in a season, a repair is unlikely.
 
-This ties directly into the [one-touch rule](https://www.hearth-habit.com/2026/07/the-one-touch-rule-single-habit-that.html) many people use to stop new clutter from piling up: the same logic applies retroactively. Decide once, act once, don't let the item sit in limbo waiting for a "better" outcome that costs you more time than it's worth. If the expensive items are just the hardest part of a bigger clear-out, [start with one drawer](https://www.hearth-habit.com/2026/07/how-to-declutter-when-youre-overwhelmed.html) to build momentum before you tackle the treadmill.
+For electronics, the EPA says to delete all personal information before donating or recycling, and to remove batteries first because they may need to be recycled separately. Lithium-ion batteries, and devices that contain them, don't go in household trash or curbside recycling. Tape the terminals and take them to a battery drop-off. Many manufacturers and retailers run their own take-back programs, which are worth checking before you hunt for a recycler.
+
+## Questions to ask about one stubborn item
+
+When you're stuck, run the item through these, in order:
+
+1. **What's the refund, if any?** Check the receipt or order history today, not next month.
+2. **What has this exact model sold for used?** Then subtract eBay's 13.6 percent fee, the per-order fee, and shipping.
+3. **Am I keeping it for what it does or for what it cost?** If it's the cost, that money is already gone no matter what you decide.
+4. **If I donate it, is there any tax value?** For a US non-itemizer, the answer is no.
+
+The same logic powers the [one-touch rule](https://www.hearth-habit.com/2026/07/the-one-touch-rule-single-habit-that.html): decide once and act once, so items don't sit in a "maybe I'll sell it" pile. If the pricey items are only the hardest part of a bigger clear-out, [start with one drawer](https://www.hearth-habit.com/2026/07/how-to-declutter-when-youre-overwhelmed.html) to build momentum first. And if things keep piling back up after you clear them, [match the clutter problem to the fix](https://www.hearth-habit.com/2026/09/clutter-keeps-coming-back-match-problem.html).
 
 ## FAQ
 
-### Should I feel bad about losing money on something I barely used?
+### Should I sell items one by one or donate everything in a batch?
 
-No — the money is already spent whether the item sits in your closet for another year or leaves today. Keeping it doesn't recover any value; it only adds ongoing storage cost and visual clutter on top of the original price.
+Set a short deadline, like one weekend, to list only the items whose net-proceeds math clearly pays for your time. Donate the rest right away. The cost of a "maybe I'll sell it" pile is the space and attention it takes up for months.
 
-### Is it better to sell things individually or donate everything in a batch?
+### Can I deduct what I originally paid?
 
-A good rule of thumb: set aside a short window (a weekend, not a month) to list anything worth more than roughly $50–75, then donate the rest immediately rather than letting "maybe I'll sell it" items linger for months.
+No. In the US, the deduction for donated property is its fair market value at the time you give it, and for used clothing that means thrift-store prices. In Canada, the receipt reflects fair market value before taxes, and for something bought within the last 3 years it can't exceed your cost.
 
-### Can I actually claim a tax deduction for donated items?
+### What if the item was a gift and I feel guilty letting it go?
 
-In the US, only if you itemize deductions — if you take the standard deduction, donated goods don't lower your tax. If you do itemize, get a receipt, deduct the fair used (thrift-store) value of each item rather than the original price, and keep a simple written list with dates; larger non-cash donations come with extra IRS paperwork, so check the current rules or ask a tax preparer. In Canada, the rules differ: you claim a tax credit, and only with an official receipt from a registered charity.
-
-### What if the item was a gift and I feel guilty getting rid of it?
-
-The giver's intent was to make you happy, not to create an obligation to store something you don't use — most people would rather you pass it on than feel weighed down by it. If it helps, donate it rather than tossing it, so the original good intention carries forward to someone else.
+The giver meant to make you happy, not to give you something to store. Most people would rather you pass it on than feel weighed down by it. Donating it lets the original good intention carry on to someone who will use it.
 
 ## Sources
 
-- [Used Household Batteries (EPA)](https://www.epa.gov/recycle/used-household-batteries) — keeping lithium-ion and button batteries out of the trash
+- [Topic no. 506, Charitable contributions (IRS)](https://www.irs.gov/taxtopics/tc506) and [One, Big, Beautiful Bill provisions (IRS)](https://www.irs.gov/newsroom/one-big-beautiful-bill-provisions) — 2026 cash-only deduction of up to $1,000 ($2,000 joint) for non-itemizers; Form 8283 over $500
+- [Publication 526, Charitable Contributions (IRS)](https://www.irs.gov/publications/p526) — good used condition rule, thrift-store valuation, $250 acknowledgment, $500 and $5,000 thresholds, appraisal exception
+- [Selling fees (eBay)](https://www.ebay.com/help/selling/fees-credits-invoices/selling-fees?id=4822) — 13.6 percent final value fee on the total sale, $0.30/$0.40 per-order fee, 250 free listings
+- [Stop Online Sale of Recalled Products (CPSC)](https://www.cpsc.gov/Business--Manufacturing/Business-Education/ResaleThrift-Stores-Information-Center/Stop-Online-Sale-of-Recalled-Products) — selling recalled products is illegal, including for individual resellers
+- [Electronics Donation and Recycling (EPA)](https://www.epa.gov/recycle/electronics-donation-and-recycling) — wipe personal data and remove batteries before donating or recycling
+- [Gifts and Income Tax (Canada Revenue Agency)](https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/p113/p113-gifts-income-tax.html) and [Fair market value of donated item and taxes (CRA)](https://www.canada.ca/en/revenue-agency/services/charities-giving/charities/policies-guidance/policy-commentary-006-fair-market-value-donated-item-taxes.html) — tax credits, official receipts, 3-year deemed value rule, value before taxes

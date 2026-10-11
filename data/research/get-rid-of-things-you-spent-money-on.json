@@ -1,0 +1,105 @@
+{
+  "reader_situation": "Someone in the US or Canada is staring at an expensive item they barely use (a treadmill, stand mixer, camera, designer coat) and can't make themselves let it go because of what it cost. They want to know whether selling is worth the hassle, whether a donation gets them a tax break, and how to stop feeling guilty.",
+  "direct_answer": "Decide by what the item can still return, not what you paid: return it if the store still will, sell it if the net after fees and shipping is worth your time, and otherwise donate or recycle it. For US donations of goods, the tax value is the thrift-store price, and only itemizers get it; the new 2026 deduction for non-itemizers covers cash gifts only, not donated items.",
+  "consensus": [
+    "The money is a sunk cost: it is gone whether you keep the item or not.",
+    "Expensive purchases often represent an aspirational identity, which makes letting go feel like giving up.",
+    "Options are return, resell, consign, donate, give away, repurpose, or recycle.",
+    "Sell items that are in demand; donate the rest quickly instead of letting them linger.",
+    "Donations are only tax-deductible in the US if you itemize."
+  ],
+  "gaps": [
+    "The old article's '$50 resale threshold' has no source. The real test is net proceeds: eBay takes 13.6% of the total sale (item plus buyer-paid shipping and tax) in most categories, plus $0.30 or $0.40 per order, before your shipping cost.",
+    "Starting with tax year 2026, US taxpayers who don't itemize can deduct up to $1,000 ($2,000 joint) of charitable gifts, but IRS says this is for cash contributions only. Donated clothing, furniture, and gear still give a non-itemizer no tax benefit.",
+    "For itemizers, IRS sets the value of used clothing as the price buyers actually pay in thrift or consignment shops, and clothing or household items must be in good used condition or better to count at all.",
+    "IRS paperwork thresholds: a contemporaneous written acknowledgment for any single contribution of $250 or more; Form 8283 Section A when noncash deductions exceed $500; Section B and a qualified appraisal for an item or group of similar items over $5,000. Under $250 you still need a receipt with the charity's name, date, location, and a description.",
+    "Canada: donations produce non-refundable federal and provincial tax credits, need an official receipt from a qualified donee, and the receipt amount is fair market value before taxes. For property acquired less than 3 years before the gift, the deemed value is the lower of fair market value and your cost.",
+    "Selling a recalled product is illegal under Section 19 of the Consumer Product Safety Act, and CPSC says this covers individuals reselling online or in person. Check cpsc.gov/recalls before listing.",
+    "Electronics: EPA says to delete all personal information and remove batteries (which may need separate recycling) before donating or recycling a device.",
+    "The old claim that credit cards commonly extend return windows, and the '30–90 day' range, are unsourced; tell readers to check the retailer's stated policy and order history instead."
+  ],
+  "evidence": [
+    {
+      "claim": "2026 non-itemizer deduction is cash only",
+      "detail": "Beginning with tax year 2026, individuals who do not itemize may deduct up to $1,000 of cash contributions ($2,000 for married couples filing jointly). The deduction is available only for cash contributions made to eligible charitable organizations; donations to donor-advised funds and supporting organizations do not qualify; prior-year carryovers do not qualify.",
+      "source_url": "https://www.irs.gov/newsroom/one-big-beautiful-bill-provisions",
+      "source_title": "One, Big, Beautiful Bill provisions | Internal Revenue Service"
+    },
+    {
+      "claim": "Topic 506 restates the 2026 rule and the Form 8283 trigger",
+      "detail": "If you do not itemize, you may deduct up to $1,000 ($2,000 if filing jointly) of your cash contributions. You generally can deduct the fair market value of other property you donate. File Form 8283 if your deduction for noncash contributions is more than $500. Contributions of $250 or more need a contemporaneous written acknowledgment.",
+      "source_url": "https://www.irs.gov/taxtopics/tc506",
+      "source_title": "Topic no. 506, Charitable contributions | Internal Revenue Service"
+    },
+    {
+      "claim": "Good used condition rule for clothing and household items",
+      "detail": "You can't take a deduction for clothing or household items unless they are in good used condition or better. Exception: an item not in good used condition can be deducted if you deduct more than $500 for it and include a qualified appraisal and Form 8283 Section B. Household items include furniture and furnishings, electronics, appliances, linens and similar items.",
+      "source_url": "https://www.irs.gov/publications/p526",
+      "source_title": "Publication 526 (2025), Charitable Contributions | Internal Revenue Service"
+    },
+    {
+      "claim": "How used clothing is valued and what records are needed",
+      "detail": "Claim the price that buyers of used items actually pay in used clothing stores, such as consignment or thrift shops. For noncash contributions under $250 you need a receipt showing the organization's name and address, date and location, and a description of the property. $250 or more requires a contemporaneous written acknowledgment. Noncash deductions over $500 and up to $5,000: Form 8283 Section A. Over $5,000 for an item or group of similar items: Section B and a qualified appraisal.",
+      "source_url": "https://www.irs.gov/publications/p526",
+      "source_title": "Publication 526 (2025), Charitable Contributions | Internal Revenue Service"
+    },
+    {
+      "claim": "eBay selling fees",
+      "detail": "Final value fee for most categories is 13.6% of the total amount of the sale (per item, up to $7,500), plus a per-order fee of $0.30 for orders of $10 or less and $0.40 for orders over $10. The total amount includes item price, handling, buyer-paid shipping, sales tax and other applicable fees. 250 zero-insertion-fee listings a month; after that, $0.35 per listing in most categories.",
+      "source_url": "https://www.ebay.com/help/selling/fees-credits-invoices/selling-fees?id=4822",
+      "source_title": "Selling fees | eBay"
+    },
+    {
+      "claim": "Selling recalled products is illegal, including for individuals",
+      "detail": "It is illegal to sell any recalled product; Section 19 of the Consumer Product Safety Act (15 U.S.C. 2068) makes offering recalled products for sale unlawful. CPSC's laws cover any person who sells or offers for sale consumer products in the US, including individuals reselling used items online or in person. It is the seller's responsibility to know whether the product was recalled; check cpsc.gov/recalls.",
+      "source_url": "https://www.cpsc.gov/Business--Manufacturing/Business-Education/ResaleThrift-Stores-Information-Center/Stop-Online-Sale-of-Recalled-Products",
+      "source_title": "Stop Online Sale of Recalled Products | CPSC"
+    },
+    {
+      "claim": "Prepare electronics before donating or recycling",
+      "detail": "Delete all personal information from your electronics. Remove batteries before donating or recycling; they may need to be recycled separately. Lithium-ion batteries and devices containing them should not go in household trash or recycling bins. Manufacturers and retailers offer options to donate or recycle electronics.",
+      "source_url": "https://www.epa.gov/recycle/electronics-donation-and-recycling",
+      "source_title": "Electronics Donation and Recycling | US EPA"
+    },
+    {
+      "claim": "Canada: tax credit, official receipts, deemed value rule",
+      "detail": "Donors may claim federal and provincial or territorial non-refundable tax credits based on the eligible amount (fair market value minus any advantage). A qualified donee issues an official donation receipt. Appraisals for property under $1,000 are often not required but keep records supporting the value. If property was acquired less than 3 years before the gift, the deemed FMV is the lower of FMV and the donor's cost.",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/p113/p113-gifts-income-tax.html",
+      "source_title": "Gifts and Income Tax 2025 | Canada.ca"
+    },
+    {
+      "claim": "Canada: receipt value excludes sales tax",
+      "detail": "The amount entered on the official donation receipt should be the fair market value of the item before taxes. The fair market value of an item does not include taxes paid on purchasing the item.",
+      "source_url": "https://www.canada.ca/en/revenue-agency/services/charities-giving/charities/policies-guidance/policy-commentary-006-fair-market-value-donated-item-taxes.html",
+      "source_title": "Fair market value of donated item and taxes (CPC-006) | Canada.ca"
+    }
+  ],
+  "real_questions": [
+    "Is it worth selling something I paid a lot for, or should I just donate it?",
+    "Can I write off donated stuff now that there's a deduction for people who don't itemize?",
+    "How much can I claim for a donated item: what I paid or what it's worth now?",
+    "Do I need an appraisal or special form for a big donation?",
+    "Am I allowed to sell something that was recalled?",
+    "How do I stop feeling guilty about the money?"
+  ],
+  "original_asset": {
+    "type": "worked_example",
+    "spec": "A decision order (return, recall check, sell math, donate, recycle) plus a worked net-proceeds example: a hypothetical item selling for $150 on eBay with free shipping: 150 x 0.136 = 20.40, plus 0.40 per-order fee = 20.80 in fees, 129.20 before your shipping cost. Contrast with the donation side: for a 2026 non-itemizer the tax value of a donated item is $0 (cash only); for an itemizer it is the thrift-store value times their own tax rate, with the $250/$500/$5,000 paperwork thresholds in a table. Canada row: credit on FMV before tax, lesser of cost and FMV if bought within 3 years."
+  },
+  "cautions": [
+    "Not tax advice: give IRS/CRA rules as stated and point readers to the publications or a tax preparer for their own situation.",
+    "Do not invent used-market prices, shipping costs, tax brackets, or return windows; label the $150 example as hypothetical.",
+    "Recalled items cannot legally be sold; check before listing or donating.",
+    "Wipe personal data and remove batteries from electronics; lithium-ion batteries never go in household trash."
+  ],
+  "sources": {
+    "https://www.irs.gov/newsroom/one-big-beautiful-bill-provisions": "One, Big, Beautiful Bill provisions | Internal Revenue Service",
+    "https://www.irs.gov/taxtopics/tc506": "Topic no. 506, Charitable contributions | Internal Revenue Service",
+    "https://www.irs.gov/publications/p526": "Publication 526 (2025), Charitable Contributions | Internal Revenue Service",
+    "https://www.ebay.com/help/selling/fees-credits-invoices/selling-fees?id=4822": "Selling fees | eBay",
+    "https://www.cpsc.gov/Business--Manufacturing/Business-Education/ResaleThrift-Stores-Information-Center/Stop-Online-Sale-of-Recalled-Products": "Stop Online Sale of Recalled Products | CPSC",
+    "https://www.epa.gov/recycle/electronics-donation-and-recycling": "Electronics Donation and Recycling | US EPA",
+    "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/p113/p113-gifts-income-tax.html": "Gifts and Income Tax 2025 | Canada.ca",
+    "https://www.canada.ca/en/revenue-agency/services/charities-giving/charities/policies-guidance/policy-commentary-006-fair-market-value-donated-item-taxes.html": "Fair market value of donated item and taxes (CPC-006) | Canada.ca"
+  }
+}

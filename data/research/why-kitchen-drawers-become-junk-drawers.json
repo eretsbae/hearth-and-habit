@@ -1,0 +1,79 @@
+{
+  "reader_situation": "Someone whose kitchen junk drawer has been cleaned out before and filled back up, and who wants a version that stays organized, including what to do with the batteries, lighters, and odd items that end up there.",
+  "direct_answer": "Empty it, give the drawer one job with a written list of what belongs, sort the survivors by task into bins, and check it against the list on a fixed weekly cue. Take loose and spent batteries out of the jumble: EPA says to tape terminals or bag batteries separately because lithium cells can spark if the terminals touch, and button batteries need to be kept away from young children.",
+  "consensus": [
+    "Empty the drawer completely and wipe it out.",
+    "Toss, relocate, and keep only what belongs.",
+    "Use drawer dividers or modular bins.",
+    "Do regular quick resets."
+  ],
+  "gaps": [
+    "Batteries are the junk drawer's real hazard. EPA: a lithium battery may spark and cause fires if damaged or if the terminal ends touch; tape terminals and/or put batteries in separate plastic bags; cover coin and button cell terminals with non-conductive tape such as electrical tape and keep them away from young children.",
+    "Alkaline batteries are different: EPA says most communities allow alkaline and zinc-carbon batteries in household trash, though it recommends recyclers; lithium-ion should never go in the trash (USFA, registry).",
+    "Spare lithium-ion batteries should be stored away from anything that can burn, at room temperature when possible; stop using any that show odor, color change, heat, swelling, leaking, or odd noises (USFA).",
+    "Button batteries: more than 3,500 people in the US swallow them each year; one stuck in the esophagus can cause severe damage in just 2 hours. National Battery Ingestion Hotline 1-800-498-8666; Poison Control 1-800-222-1222 (Poison Control).",
+    "The weekly check sticks better tied to a fixed cue: habit research (BJGP 2012) shows repetition in a consistent context makes an action automatic, and it must be a doing behavior ('after I..., I...').",
+    "Harvard Health recommends designating a place for items you use often, which is what a keep-list formalizes."
+  ],
+  "evidence": [
+    {
+      "claim": "How to store used batteries; lithium fire risk; alkaline disposal",
+      "detail": "Tape battery terminals and/or place batteries in separate plastic bags. For button-cell and coin batteries, use separate bags or non-conductive tape such as electrical tape over the terminals, and keep them away from young children. A lithium battery may spark and cause fires if damaged or the terminal ends touch. In most communities, alkaline and zinc carbon batteries can be safely put in household trash; EPA recommends battery recyclers or checking with local solid waste authorities. Find recycling via Earth911 or Call2Recycle.",
+      "source_url": "https://www.epa.gov/recycle/used-household-batteries",
+      "source_title": "Used Household Batteries | US EPA"
+    },
+    {
+      "claim": "Lithium-ion storage and warning signs",
+      "detail": "Store spare lithium-ion batteries away from anything that can burn. Store them at room temperature when possible; don't keep them in direct sunlight or hot cars. Stop using lithium-ion batteries if you notice an odor, change in color, too much heat, change in shape, leaking or odd noises. Don't put lithium-ion batteries in the trash.",
+      "source_url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/batteries/",
+      "source_title": "Battery Fire Safety | U.S. Fire Administration"
+    },
+    {
+      "claim": "Button battery ingestion speed and hotline",
+      "detail": "Batteries stuck in the esophagus must be removed as quickly as possible as severe damage can occur in just 2 hours. National Battery Ingestion Hotline 1-800-498-8666 (24 hours), or Poison Control 1-800-222-1222. Do not induce vomiting. More than 3,500 people in the US swallow button batteries each year. Found in hearing aids, watches, toys, games, flashing jewelry, singing greeting cards, and remote controls.",
+      "source_url": "https://www.poison.org/battery",
+      "source_title": "Button Battery Ingestion | Poison Control (National Capital Poison Center)"
+    },
+    {
+      "claim": "Designate a place for everyday items",
+      "detail": "Designate a place at home for your glasses, purse, keys, and other items you use often. Remove clutter to cut down on distractions.",
+      "source_url": "https://www.health.harvard.edu/mind-and-mood/7-ways-to-keep-your-memory-sharp-at-any-age",
+      "source_title": "7 ways to keep your memory sharp at any age (Harvard Health Publishing)"
+    },
+    {
+      "claim": "Habits form by repeating an action after a consistent cue",
+      "detail": "Mere repetition of a simple action in a consistent context leads, through associative learning, to the action being activated by those cues. Plan when and where; choose a time and place you encounter regularly; it is not possible to form a habit for not doing something, so choose a new behaviour to do.",
+      "source_url": "https://bjgp.org/content/62/605/664",
+      "source_title": "Making health habitual: the psychology of 'habit-formation' and general practice (British Journal of General Practice, 2012)"
+    },
+    {
+      "claim": "Absentmindedness: items set down without attention aren't remembered",
+      "detail": "This type of forgetting occurs when you don't pay close enough attention; you didn't focus on where you put it in the first place, so your brain didn't encode the information securely.",
+      "source_url": "https://www.health.harvard.edu/mind-and-mood/forgetfulness-7-types-of-normal-memory-problems",
+      "source_title": "Forgetfulness: 7 types of normal memory problems (Harvard Health Publishing)"
+    }
+  ],
+  "real_questions": [
+    "Why does my junk drawer fill up again a few weeks after I clean it?",
+    "Is it safe to keep batteries loose in a drawer?",
+    "What should actually go in a kitchen junk drawer?",
+    "Can I throw old batteries in the trash?",
+    "Should I get rid of the junk drawer altogether?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "A junk-drawer item triage table: common item -> stays in drawer? -> how to store it or where it goes, with battery rows (button/coin, lithium-ion, alkaline, swollen) from EPA, USFA and Poison Control; plus a keep-list template and a cue-based weekly check."
+  },
+  "cautions": [
+    "Registry: lithium-ion and button batteries never in household trash; tape terminals; some states ban single-use batteries in trash.",
+    "No bin dimensions, time estimates, or item counts without a source."
+  ],
+  "sources": {
+    "https://www.epa.gov/recycle/used-household-batteries": "Used Household Batteries | US EPA",
+    "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/batteries/": "Battery Fire Safety | U.S. Fire Administration",
+    "https://www.poison.org/battery": "Button Battery Ingestion | Poison Control",
+    "https://www.health.harvard.edu/mind-and-mood/7-ways-to-keep-your-memory-sharp-at-any-age": "7 ways to keep your memory sharp at any age (Harvard Health Publishing)",
+    "https://bjgp.org/content/62/605/664": "Making health habitual: the psychology of 'habit-formation' and general practice (British Journal of General Practice, 2012)",
+    "https://www.health.harvard.edu/mind-and-mood/forgetfulness-7-types-of-normal-memory-problems": "Forgetfulness: 7 types of normal memory problems (Harvard Health Publishing)"
+  }
+}

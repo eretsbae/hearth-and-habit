@@ -1,0 +1,78 @@
+{
+  "reader_situation": "Someone who loses minutes every morning hunting for keys, wallet, phone, or a bag before leaving, and wants a fix that sticks rather than another round of 'trying harder'.",
+  "direct_answer": "Give the few items you hunt for one fixed spot by the door you actually use, and tie putting them there to a cue that happens every day (walking in the door). Harvard Health recommends a designated place for keys and other everyday items, and habit research shows a simple action repeated after the same daily cue becomes automatic in about 66 days on average, with occasional misses not derailing it.",
+  "consensus": [
+    "Create a drop zone or launch pad by the door.",
+    "Use hooks and trays so each item has a home.",
+    "Prepare the night before.",
+    "Get every household member on board."
+  ],
+  "gaps": [
+    "Why it happens: Harvard Health classes this as absentmindedness, forgetting caused by not paying close attention when you set something down, so the brain didn't encode the location securely. A fixed spot removes the need to encode it at all.",
+    "How long the habit takes: the 'three weeks' figure is not what research shows. Gardner, Lally and Wardle (British Journal of General Practice, 2012) report automaticity plateaued after an average of 66 days for a once-daily action tied to one cue, simple actions got there faster than elaborate routines, and their patient tool says to expect automaticity within 10 weeks.",
+    "Missing a day is fine: the same paper says missing the occasional opportunity did not seriously impair habit formation; gains resumed after one missed performance.",
+    "The cue must be specific and daily: the BJGP tool says to plan when and where, choose a time and place you encounter every day, and do the action every time you meet it (e.g., 'after I ...').",
+    "It must be a doing habit, not a not-doing habit: BJGP notes it is not possible to form a habit for not doing something, so 'stop dropping keys on the counter' should become 'hang keys on the hook when I walk in'.",
+    "When to worry: the Alzheimer's Association lists misplacing things and being unable to retrace steps, or putting things in unusual places, as a warning sign, while misplacing things from time to time and retracing steps to find them is typical."
+  ],
+  "evidence": [
+    {
+      "claim": "Habits form through context-dependent repetition; 66-day average plateau",
+      "detail": "Mere repetition of a simple action in a consistent context leads, through associative learning, to the action being activated by those contextual cues. Participants repeated a self-chosen behaviour in response to a single once-daily cue (e.g., after breakfast); automaticity slowed to a plateau after an average of 66 days. Missing the occasional opportunity did not seriously impair habit formation; automaticity gains soon resumed after one missed performance. Automaticity peaked more quickly for simple actions than for more elaborate routines. Once initiation transfers to external cues, dependence on conscious attention is reduced.",
+      "source_url": "https://bjgp.org/content/62/605/664",
+      "source_title": "Making health habitual: the psychology of 'habit-formation' and general practice (Gardner, Lally, Wardle, British Journal of General Practice, 2012)"
+    },
+    {
+      "claim": "Patient habit tool: plan when and where; within 10 weeks",
+      "detail": "Choose a simple action you can do daily. Plan when and where you will do it. Be consistent: choose a time and place you encounter every day of the week. Every time you encounter that time and place, do the action. Within 10 weeks you should find you are doing it automatically. Plan format: 'after I ...'. It is not possible to form a habit for not doing something; select a new behaviour rather than giving up an existing one.",
+      "source_url": "https://bjgp.org/content/62/605/664",
+      "source_title": "Making health habitual: the psychology of 'habit-formation' and general practice (Gardner, Lally, Wardle, British Journal of General Practice, 2012)"
+    },
+    {
+      "claim": "Absentmindedness is an attention problem",
+      "detail": "This type of forgetting occurs when you don't pay close enough attention. You forget where you just put your pen because you didn't focus on where you put it in the first place; you were thinking of something else, so your brain didn't encode the information securely. Absentmindedness also includes forgetting to do something at a prescribed time.",
+      "source_url": "https://www.health.harvard.edu/mind-and-mood/forgetfulness-7-types-of-normal-memory-problems",
+      "source_title": "Forgetfulness: 7 types of normal memory problems (Harvard Health Publishing)"
+    },
+    {
+      "claim": "Designate a place for keys and everyday items",
+      "detail": "Designate a place at home for your glasses, purse, keys, and other items you use often. Use calendars, planners, and lists; remove clutter to cut distractions. Not spending mental energy remembering where you put things leaves you better able to concentrate on new and important things.",
+      "source_url": "https://www.health.harvard.edu/mind-and-mood/7-ways-to-keep-your-memory-sharp-at-any-age",
+      "source_title": "7 ways to keep your memory sharp at any age (Harvard Health Publishing)"
+    },
+    {
+      "claim": "Normal misplacing vs a warning sign",
+      "detail": "Sign 7: Misplacing things and losing the ability to retrace steps. A person living with Alzheimer's or other dementia may put things in unusual places and be unable to go back over their steps to find them. Typical age-related change: misplacing things from time to time and retracing steps to find them.",
+      "source_url": "https://www.alz.org/alzheimers-dementia/10_signs",
+      "source_title": "10 Early Signs and Symptoms of Alzheimer's and Dementia | Alzheimer's Association"
+    },
+    {
+      "claim": "See a provider if worried",
+      "detail": "If you're worried about your forgetfulness, see your health care provider. Forgetting how to use your phone or find your way home may be signs of a more serious problem.",
+      "source_url": "https://medlineplus.gov/memory.html",
+      "source_title": "Memory | MedlinePlus"
+    }
+  ],
+  "real_questions": [
+    "Why do I keep losing my keys even though my house is tidy?",
+    "How long until putting keys on the hook becomes automatic?",
+    "What if I forget to use the drop zone for a day?",
+    "Is losing my keys all the time a sign of a memory problem?",
+    "How do I get my family to use it?"
+  ],
+  "original_asset": {
+    "type": "schedule",
+    "spec": "A 10-week setup-and-habit schedule (days 1-3 audit, day 4 build, weeks 1-10 one cue-action pair per item with a visible checklist, week 2 and week 6 adjustments) built on BJGP's 66-day average and 10-week tool, plus an 'escaping item' troubleshooting table."
+  },
+  "cautions": [
+    "Do not state how many items households lose or how much time; no source.",
+    "Do not claim 21 days or any habit figure other than BJGP's."
+  ],
+  "sources": {
+    "https://bjgp.org/content/62/605/664": "Making health habitual: the psychology of 'habit-formation' and general practice (British Journal of General Practice, 2012)",
+    "https://www.health.harvard.edu/mind-and-mood/forgetfulness-7-types-of-normal-memory-problems": "Forgetfulness: 7 types of normal memory problems (Harvard Health Publishing)",
+    "https://www.health.harvard.edu/mind-and-mood/7-ways-to-keep-your-memory-sharp-at-any-age": "7 ways to keep your memory sharp at any age (Harvard Health Publishing)",
+    "https://www.alz.org/alzheimers-dementia/10_signs": "10 Early Signs and Symptoms of Alzheimer's and Dementia | Alzheimer's Association",
+    "https://medlineplus.gov/memory.html": "Memory | MedlinePlus"
+  }
+}

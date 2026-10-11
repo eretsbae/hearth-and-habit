@@ -1,0 +1,82 @@
+{
+  "reader_situation": "A homeowner notices the basement smells musty from late spring through summer and fine in winter, with no obvious leak. They want to know why the season matters and what dehumidifier and habits actually fix it.",
+  "direct_answer": "In summer, warm, humid air reaches basement walls and floors that stay cold because they are in contact with the ground. Where those surfaces are below the air's dew point, moisture condenses, and damp concrete, cardboard, carpet, and wood grow mold and mildew that smell. Keep basement humidity below 60% (ideally 30-50%) with a correctly rated dehumidifier and keep humid outdoor air out.",
+  "consensus": [
+    "Summer humidity condenses on cool basement surfaces.",
+    "Use a dehumidifier and keep humidity under 50-60%.",
+    "Check for leaks, grading, and gutters.",
+    "Remove cardboard and damp storage.",
+    "Vent the dryer outside."
+  ],
+  "gaps": [
+    "Building Science Corporation's Joseph Lstiburek identifies summer as the main problem season for below-grade walls: warm moist air meets cold surfaces below the interior air's dewpoint, because the concrete is in direct contact with the ground.",
+    "Dehumidifier ratings changed in June 2019: DOE moved the portable test from 80°F to 65°F, conditions comparable to a basement. ENERGY STAR's table shows an old 50-pint portable is about 30 pints on the new scale (not 35, as many guides and the old article say).",
+    "ENERGY STAR sizes by dampness and area: under 2,000 sq ft, 20-30 pints/day (new rating) for 50-75% RH, 25-40 for 75-90%, 30-50 for 90-100%; it says it's better to oversize than undersize.",
+    "Cold-room limitation: ENERGY STAR says coils can frost when air drops below 65°F; switch off and let it defrost.",
+    "Running cost can be estimated from the efficiency rating: ENERGY STAR portable units of 25.01-50 pints must reach at least 2.01 liters per kWh, so kWh = liters removed / IEF.",
+    "Finishes matter: BSD-103 says impermeable interior finishes like vinyl floor coverings, oil (alkyd) paints, and vinyl wall coverings inhibit inward drying and should be avoided on basement walls and floors.",
+    "Insulate cold water pipes (EPA) and dry wet items within 24-48 hours to prevent mold growth (EPA); porous materials like carpet and ceiling tiles may have to be thrown away if moldy."
+  ],
+  "evidence": [
+    {
+      "claim": "Summer condensation is the main below-grade wall problem",
+      "detail": "The main problem with below grade walls comes during the summer when warm moist air comes in contact with basement cold surfaces that are below the dewpoint of the interior air. The structural elements of below grade walls are cold (concrete is in direct contact with the ground). Impermeable interior floor finishes such as vinyl floor coverings should be avoided; impermeable wall finishes such as oil (alkyd) paints and vinyl wall coverings inhibit inward drying. Moisture can be removed by ventilation or dehumidification.",
+      "source_url": "https://buildingscience.com/documents/digests/bsd-103-understanding-basements",
+      "source_title": "BSD-103: Understanding Basements (Building Science Corporation)"
+    },
+    {
+      "claim": "ENERGY STAR sizing chart and humidity target",
+      "detail": "Pints per 24 hours: slightly to moderately damp (50-75% RH): 20-30 for <2,000 sq ft, 30+ for >2,000; very damp (75-90%): 25-40, 40+; wet (90-100%): 30-50, 50+. Better to oversize than undersize. Optimum RH generally 30% to 50%. If frost forms on the coils (typically when air drops below 65°F), switch the unit off and let it defrost. ENERGY STAR units use about 20% less energy. Extend downspouts away from foundation, slope soil away, vent dryers outdoors.",
+      "source_url": "https://www.energystar.gov/products/dehumidifiers",
+      "source_title": "Dehumidifiers | ENERGY STAR"
+    },
+    {
+      "claim": "Capacity ratings dropped with the 2019 test change",
+      "detail": "DOE changed the test to cooler, more realistic conditions comparable to a basement: portable units tested at 80°F under the old procedure and 65°F under the new one, effective June 2019; lower ratings began appearing in early 2020. Approximate portable old to new: 30 to 20, 40 to 25, 50 to 30, 55 to 30-35, 60 to 35, 70 to 40-45, 90 to 55 pints/day. Actual changes vary by model.",
+      "source_url": "https://www.energystar.gov/products/dehumidifier_testing_and_capacity",
+      "source_title": "Dehumidifier Testing and Capacity | ENERGY STAR"
+    },
+    {
+      "claim": "Minimum efficiency (IEF) for ENERGY STAR portable dehumidifiers",
+      "detail": "Portable: capacity 25.00 pints/day or less, IEF at least 1.70 L/kWh; 25.01 to 50, at least 2.01; 50 or more, at least 3.30. IEF is liters of water removed per kWh under test conditions.",
+      "source_url": "https://www.energystar.gov/products/appliances/dehumidifiers/key_efficiency_criteria",
+      "source_title": "Dehumidifiers Key Efficiency Criteria | ENERGY STAR"
+    },
+    {
+      "claim": "Condensation on cold surfaces; dry within 24-48 hours",
+      "detail": "When warm, humid air contacts a cold surface, condensation may form. Mold is frequently found on walls in cold corners behind furniture where condensation forms. Indoor RH should be kept below 60 percent, ideally 30-50 percent. Wet items must be dried within 24-48 hours to avoid mold growth. Hidden moisture sites include the underside of carpets and pads.",
+      "source_url": "https://www.epa.gov/mold/mold-course-chapter-2",
+      "source_title": "Mold Course Chapter 2 | US EPA"
+    },
+    {
+      "claim": "EPA household moisture controls",
+      "detail": "Keep indoor humidity below 60 percent (ideally between 30 and 50 percent). Cover cold surfaces, such as cold water pipes, with insulation. Vent appliances that produce moisture, such as clothes dryers, to the outside. Use air conditioners and/or dehumidifiers when needed. Dry water-damaged areas and items within 24-48 hours. Absorbent or porous materials, such as ceiling tiles and carpet, may have to be thrown away if they become moldy. Make sure the ground slopes away from the foundation.",
+      "source_url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+      "source_title": "A Brief Guide to Mold, Moisture and Your Home | US EPA"
+    }
+  ],
+  "real_questions": [
+    "Should I open basement windows in summer to air it out?",
+    "What size dehumidifier do I need for my basement?",
+    "Why is my new 35-pint dehumidifier labeled smaller than my old 50-pint one?",
+    "What humidity should I set the dehumidifier to?",
+    "How much does it cost to run a basement dehumidifier?"
+  ],
+  "original_asset": {
+    "type": "worked_example",
+    "spec": "Dehumidifier sizing walk-through (hygrometer reading + area -> ENERGY STAR pints on the new scale -> old-scale equivalent) plus a running-cost example: pints -> liters -> kWh via the 2.01 L/kWh minimum IEF -> dollars at the registry's 17-18 cents/kWh. Also a symptom table (smell only in humid weather / after rain / near storage / near sump)."
+  },
+  "cautions": [
+    "Registry: humidity below 60%, ideally 30-50%; EPA 10 sq ft DIY mold limit; downspouts 5 ft.",
+    "Never mix bleach with ammonia cleaners.",
+    "Old article's '35-pint new = 50-pint old' is wrong per ENERGY STAR; correct it."
+  ],
+  "sources": {
+    "https://buildingscience.com/documents/digests/bsd-103-understanding-basements": "BSD-103: Understanding Basements (Building Science Corporation)",
+    "https://www.energystar.gov/products/dehumidifiers": "Dehumidifiers | ENERGY STAR",
+    "https://www.energystar.gov/products/dehumidifier_testing_and_capacity": "Dehumidifier Testing and Capacity | ENERGY STAR",
+    "https://www.energystar.gov/products/appliances/dehumidifiers/key_efficiency_criteria": "Dehumidifiers Key Efficiency Criteria | ENERGY STAR",
+    "https://www.epa.gov/mold/mold-course-chapter-2": "Mold Course Chapter 2 | US EPA",
+    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home": "A Brief Guide to Mold, Moisture and Your Home | US EPA"
+  }
+}

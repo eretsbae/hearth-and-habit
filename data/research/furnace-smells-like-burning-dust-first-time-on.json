@@ -1,0 +1,112 @@
+{
+  "reader_situation": "A homeowner or renter has just switched the heat on for the first time this fall, the house fills with a hot, dusty burning smell, and they want to know whether to let it run, open windows, or shut it off and call someone.",
+  "direct_answer": "Usually it's dust that settled on the burner and heat exchanger over the summer burning off. Carrier says that odor can last from about 30 minutes to a few hours on the first run of the season and should be investigated if it persists beyond a few hours or gets stronger. A smell that is electrical, plastic, oily, musty, comes from one room only, or smells like rotten eggs is a different problem, and a dust smell tells you nothing about carbon monoxide, which has no smell.",
+  "consensus": [
+    "Dust collects on furnace parts during the off-season and burns off when the heat first runs.",
+    "The smell should fade within roughly an hour or a few hours.",
+    "Change the filter if the smell lingers.",
+    "Burning plastic or electrical smells mean shut the system off and call a technician.",
+    "A rotten-egg smell can mean a gas leak.",
+    "A pre-season tune-up reduces the smell."
+  ],
+  "gaps": [
+    "The time windows differ by source and most articles pick one: Trane says to let the unit run about 10 minutes when you suspect dust and to get professional help if the smell persists over an hour despite troubleshooting; Carrier says the season's first dust odor can last about 30 minutes to a few hours and should be investigated if it persists beyond a few hours or becomes stronger. The useful signal is direction: a dust smell fades; one that grows stronger is not dust.",
+    "A burning smell you can pin to one room may be an object stuck in that room's vent; Trane says to access the vent and safely remove it, then see whether the smell subsides.",
+    "A brand-new furnace has its own first-run odor: Trane says it may emit a chemical odor that smells like burning plastic from the manufacturing process and protective coatings; run it a few hours with windows open and contact the installer if it doesn't dissipate after several hours.",
+    "Smell type changes the action: electrical or burning plastic means turn the system off and have it inspected (Carrier, Trane); an oily smell on an oil furnace can mean an oil leak, burner issue or heat exchanger failure (Carrier); a musty smell can mean mold or mildew in ductwork or the furnace-mounted cooling coil (Carrier) or dirty filters (Trane).",
+    "Gas leak procedure is specific and often wrong in blog posts: leave immediately, don't use phones, switches or electronics, don't turn lights or appliances on or off, leave doors open behind you only if you can do so without delay, and call the utility or 911 once you're safely away (Enbridge Gas).",
+    "Carbon monoxide is odorless and colorless (CDC), so a fading dust smell is not evidence the furnace is venting safely. CPSC recommends a CO alarm in the hallway near bedrooms in each sleeping area and notes CO symptoms resemble flu without the fever.",
+    "Pre-season checks that remove the usual causes: CPSC says birds, other animals and insects can build nests in vents over spring and summer; the Quincy Fire Department says to keep anything that can burn at least three feet from heating equipment; ENERGY STAR says check the heating system in the fall, including gas (or oil) connections, gas pressure, burner combustion and heat exchanger."
+  ],
+  "evidence": [
+    {
+      "claim": "Dust burn-off timeline and when to investigate",
+      "detail": "Dust settles on furnace components like the burner or heat exchanger over the summer. The burning dust odor can last anywhere from about 30 minutes to a few hours when the furnace is first turned on for the season. If the smell persists beyond a few hours or becomes stronger, it should be investigated.",
+      "source_url": "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/burning-smell-in-house/",
+      "source_title": "Burning Smell in House? Causes and Solutions for Furnace Odors | Carrier"
+    },
+    {
+      "claim": "Other furnace smells and what they indicate",
+      "detail": "Faulty wiring or an overheated appliance can smell like burning plastic; an electrical/burning-wire odor can indicate an overheating blower motor, damaged wiring or another electrical issue — turn off the HVAC system and have it inspected by a qualified professional; do not attempt to diagnose or repair electrical or combustion-related problems yourself. On an oil furnace, an oily smell could indicate an oil leak, burner issues or even a heat exchanger failure. A rotten egg/sulfur smell likely indicates a potential gas leak. A musty smell could indicate mold or mildew growth in the ductwork or the furnace-mounted cooling coil. For a persistent burning-plastic smell, turn on exhaust fans or crack windows for ventilation.",
+      "source_url": "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/burning-smell-in-house/",
+      "source_title": "Burning Smell in House? Causes and Solutions for Furnace Odors | Carrier"
+    },
+    {
+      "claim": "Dust test: run about 10 minutes; persistent smell over an hour needs a pro",
+      "detail": "A common reason for a burning smell when you initially turn on your heater is dust buildup; after the dust burns off, the smell typically dissipates. If you suspect dust, let the unit run for about 10 minutes. Inspect the unit but avoid touching it. If the odor persists or worsens, turn off the unit and seek an HVAC professional. If the burning smell persists for over an hour despite your troubleshooting efforts, get professional help.",
+      "source_url": "https://www.trane.com/residential/en/resources/blog/does-your-heat-smell-like-its-burning/",
+      "source_title": "Does Your Heat Smell Like It's Burning? | Trane"
+    },
+    {
+      "claim": "One-room smell, new-furnace odor, electrical smell, musty smell",
+      "detail": "If you can pinpoint the burning smell to a particular room, access that vent and safely remove the object if possible. A newly installed furnace may emit a chemical odor that smells like burning plastic, often from the manufacturing process and protective coatings on components; run it a few hours with windows open, and contact the installer if the odor doesn't dissipate after several hours of use. A burning electrical odor could indicate a severe electrical problem: turn the unit off immediately and contact a licensed HVAC professional. A musty odor can come from dirty filters or clogged vents. Pet hair and dander buildup can heat up and smell like burning. Furnace maintenance should occur at least once a year.",
+      "source_url": "https://www.trane.com/residential/en/resources/blog/does-your-heat-smell-like-its-burning/",
+      "source_title": "Does Your Heat Smell Like It's Burning? | Trane"
+    },
+    {
+      "claim": "What to do if you smell gas",
+      "detail": "Mercaptan is added to natural gas to make it smell like sulfur or rotten eggs; hissing or whistling near the meter, pipes or appliances is another sign. Leave immediately, leaving doors and windows open behind you if you can do so safely without delay. Do not use phones, switches or electronics; do not turn lights or appliances on or off or start a vehicle nearby; do not search for or repair the leak. Once you're safely away, call the utility's 24-hour emergency line or 911.",
+      "source_url": "https://enbridgegas.com/safety/smell-gas",
+      "source_title": "What to do if you smell a gas leak? | Enbridge Gas"
+    },
+    {
+      "claim": "Carbon monoxide is odorless; annual service",
+      "detail": "Carbon monoxide is an odorless, colorless gas that can cause sudden illness and death. Common symptoms are headache, dizziness, weakness, upset stomach, vomiting, chest pain and confusion, often described as flu-like. Household sources include gas- and oil-burning furnaces. Have heating systems and other gas, oil or coal-burning appliances serviced by a qualified technician every year. More than 400 Americans die each year from unintentional CO poisoning not linked to fires.",
+      "source_url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+      "source_title": "Carbon Monoxide Poisoning Basics | CDC"
+    },
+    {
+      "claim": "CPSC: annual inspection, nests in vents, CO alarm placement",
+      "detail": "CPSC urges a professional inspection of all fuel-burning heating systems, including furnaces, boilers and fireplaces, including checking chimneys, flues and vents for leakage and blockage by debris. Birds, other animals and insects can build nests in vents over spring and summer. CPSC recommends every home have a CO alarm in the hallway near bedrooms in each sleeping area. CO symptoms are similar to flu (but without the fever): headache, fatigue, shortness of breath, nausea and dizziness.",
+      "source_url": "https://www.cpsc.gov/Newsroom/News-Releases/2005/Install-a-carbon-monoxide-alarm-in-your-homeCPSC-Urges-Annual-Furnace-Inspection-to-Prevent-CO-Deaths",
+      "source_title": "CPSC Urges Annual Furnace Inspection to Prevent CO Deaths | CPSC"
+    },
+    {
+      "claim": "Three-foot clearance and annual cleaning (Quincy Fire Department)",
+      "detail": "Keep anything that can burn at least three feet away from heating equipment. Have heating equipment and chimneys cleaned and inspected annually by a qualified professional. Install and maintain carbon monoxide alarms. Almost half of home heating equipment fires are reported during December, January and February.",
+      "source_url": "https://www.quincyil.gov/Government/City-Departments/Quincy-Fire/Prevention/Heating-Safety-Tips",
+      "source_title": "Heating Safety Tips | Quincy Fire Department"
+    },
+    {
+      "claim": "Filter schedule",
+      "detail": "Check your filter every month, especially during heavy use months (winter and summer). At a minimum, change the filter every 3 months.",
+      "source_url": "https://www.energystar.gov/saveathome/heating-cooling",
+      "source_title": "Heat & Cool Efficiently | ENERGY STAR"
+    },
+    {
+      "claim": "Fall heating checkup contents",
+      "detail": "It's best to check the cooling system in the spring and the heating system in the fall. Heating items: check all gas (or oil) connections, gas pressure, burner combustion and heat exchanger. Improperly operating connections are a fire hazard; a dirty burner or cracked heat exchanger makes equipment less safe and efficient.",
+      "source_url": "https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist",
+      "source_title": "Maintenance Checklist | ENERGY STAR"
+    }
+  ],
+  "real_questions": [
+    "How long should the burning dust smell last before I worry?",
+    "Should I open windows or turn the furnace off?",
+    "Why does the burning smell come from only one vent or room?",
+    "My furnace is brand new — why does it smell like burning plastic?",
+    "Can the burning dust smell be carbon monoxide?",
+    "It still smells the next day — is that the filter?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "A first-hour checkpoint table: at about 10 minutes (Trane's dust test), at about an hour (Trane's call-a-pro point if it persists despite troubleshooting), and at a few hours (Carrier's outer bound), what a fading vs. stronger smell means. Plus a smell-type-to-action table: dusty (run and watch), one room only (check that vent), new furnace chemical/plastic (ventilate a few hours, installer if it lasts), electrical/burning-wire smell, or burning plastic that is not a new furnace's first hours (off, pro), oily on an oil furnace (pro), musty (filter, then ducts/coil), rotten egg or hissing (leave, call from outside)."
+  },
+  "cautions": [
+    "Gas smell: do not tell readers to shut off the furnace or open windows before leaving; Enbridge says leave immediately, and open doors/windows only if it causes no delay. No switches, phones or electronics inside.",
+    "Do not imply that a fading dust smell means no CO risk; CO is odorless (CDC). Recommend CO alarms and annual service.",
+    "Do not tell readers to touch or open the furnace while hot; Trane says inspect but avoid touching.",
+    "Electrical or combustion problems are not DIY (Carrier).",
+    "Research note: no manufacturer owner's manual or government page giving a dust burn-off duration was retrievable; the time windows are manufacturer guidance (Carrier, Trane) and should be attributed as such. The heat pump backup-heat-strip variant was only found on contractor blogs and is left out."
+  ],
+  "sources": {
+    "https://www.carrier.com/us/en/residential/hvac-resources/furnaces/burning-smell-in-house/": "Burning Smell in House? Causes and Solutions for Furnace Odors | Carrier",
+    "https://www.trane.com/residential/en/resources/blog/does-your-heat-smell-like-its-burning/": "Does Your Heat Smell Like It's Burning? | Trane",
+    "https://enbridgegas.com/safety/smell-gas": "What to do if you smell a gas leak? | Enbridge Gas",
+    "https://www.cdc.gov/carbon-monoxide/about/index.html": "Carbon Monoxide Poisoning Basics | CDC",
+    "https://www.cpsc.gov/Newsroom/News-Releases/2005/Install-a-carbon-monoxide-alarm-in-your-homeCPSC-Urges-Annual-Furnace-Inspection-to-Prevent-CO-Deaths": "CPSC Urges Annual Furnace Inspection to Prevent CO Deaths | CPSC",
+    "https://www.quincyil.gov/Government/City-Departments/Quincy-Fire/Prevention/Heating-Safety-Tips": "Heating Safety Tips | Quincy Fire Department",
+    "https://www.energystar.gov/saveathome/heating-cooling": "Heat & Cool Efficiently | ENERGY STAR",
+    "https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist": "Maintenance Checklist | ENERGY STAR"
+  }
+}

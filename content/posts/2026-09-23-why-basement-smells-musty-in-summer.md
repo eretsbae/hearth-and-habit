@@ -30,7 +30,7 @@ The fix is to get the basement's humidity down and keep it there. Here's how to 
 | What you notice | Most likely cause | First check |
 |---|---|---|
 | Musty only in humid weather, fine in winter | Summer condensation on cold surfaces | Hygrometer reading at or above 60% |
-| Worse within a day or two of heavy rain | Water getting in from outside | Damp patches or white chalky deposits low on walls; grading and downspouts |
+| Worse after heavy rain | Water getting in from outside | Damp patches low on walls; grading and downspouts |
 | Strongest near boxes, a rug, or stored furniture | Damp porous materials growing mildew | Underside of the rug or pad; bottom of boxes |
 | Strongest at cold wall corners behind furniture | Condensation where air can't circulate | Pull furniture away from the wall and look |
 | Dripping or wet cold-water pipes | Condensation on pipes | Pipes sweating on humid days |

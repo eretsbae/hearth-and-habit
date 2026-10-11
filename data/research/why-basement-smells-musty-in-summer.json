@@ -26,7 +26,7 @@
     },
     {
       "claim": "ENERGY STAR sizing chart and humidity target",
-      "detail": "Pints per 24 hours: slightly to moderately damp (50-75% RH): 20-30 for <2,000 sq ft, 30+ for >2,000; very damp (75-90%): 25-40, 40+; wet (90-100%): 30-50, 50+. Better to oversize than undersize. Optimum RH generally 30% to 50%. If frost forms on the coils (typically when air drops below 65°F), switch the unit off and let it defrost. ENERGY STAR units use about 20% less energy. Extend downspouts away from foundation, slope soil away, vent dryers outdoors.",
+      "detail": "Pints per 24 hours: slightly to moderately damp (50-75% RH): 20-30 for <2,000 sq ft, 30+ for >2,000; very damp (75-90%): 25-40, 40+; wet (90-100%): 30-50, 50+. Better to oversize than undersize. Optimum RH generally 30% to 50%. If frost forms on the coils (typically when air drops below 65°F), switch the unit off and let it defrost. ENERGY STAR units use about 20% less energy. Extend downspouts away from foundation, slope soil away, vent dryers outdoors. Confirmed on the page (2026-10-11): RH above the 30-50% range may promote mold growth; the Wet row notes high-load conditions such as laundry drying; when replacing a unit, judge capacity by how much water you empty each day; an ENERGY STAR unit uses 20% less energy than a similarly sized conventional unit removing the same moisture; other tips: keep gutters clear, avoid over-watering foundation plantings, repair leaking outdoor faucets, dry clothes outdoors instead of hanging them inside.",
       "source_url": "https://www.energystar.gov/products/dehumidifiers",
       "source_title": "Dehumidifiers | ENERGY STAR"
     },
@@ -50,7 +50,7 @@
     },
     {
       "claim": "EPA household moisture controls",
-      "detail": "Keep indoor humidity below 60 percent (ideally between 30 and 50 percent). Cover cold surfaces, such as cold water pipes, with insulation. Vent appliances that produce moisture, such as clothes dryers, to the outside. Use air conditioners and/or dehumidifiers when needed. Dry water-damaged areas and items within 24-48 hours. Absorbent or porous materials, such as ceiling tiles and carpet, may have to be thrown away if they become moldy. Make sure the ground slopes away from the foundation.",
+      "detail": "Keep indoor humidity below 60 percent (ideally between 30 and 50 percent). Cover cold surfaces, such as cold water pipes, with insulation. Vent appliances that produce moisture, such as clothes dryers, to the outside. Use air conditioners and/or dehumidifiers when needed. Dry water-damaged areas and items within 24-48 hours. Absorbent or porous materials, such as ceiling tiles and carpet, may have to be thrown away if they become moldy. Make sure the ground slopes away from the foundation. Never mix chlorine bleach solution with cleaning solutions or detergents that contain ammonia; toxic fumes can result.",
       "source_url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
       "source_title": "A Brief Guide to Mold, Moisture and Your Home | US EPA"
     }

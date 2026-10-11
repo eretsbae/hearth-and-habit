@@ -52,13 +52,13 @@ The EPA's instruction is to pay close attention to contact time, meaning how lon
 
 Clorox Disinfecting Wipes are a typical example. To disinfect, Clorox says to use enough wipes that the surface stays **visibly wet for 4 minutes**. Kept wet for 10 seconds, the same wipe only sanitizes. The disinfecting directions also cover only hard, nonporous, *non-food-contact* surfaces. Clorox tells you to keep the wipes off unsealed wood, untreated stone, mirrors, and the inside of appliances.
 
-So a canister of wipes isn't an everyday counter cleaner. Used the quick way most people use them, it's an expensive sanitizer. Used as directed, it means a surface left wet for four minutes.
+So a canister of wipes isn't an everyday counter cleaner. Used as a quick swipe, it doesn't disinfect. Used as directed, it means a surface left wet for four minutes.
 
 ![Decision flow: routine dirt gets cleaned with soap or all-purpose cleaner; when someone is sick, clean first, then disinfect and keep the surface wet for the label time](/images/cleaning-supplies-you-actually-need-inline.svg)
 
 ## One bottle of bleach replaces most disinfecting sprays
 
-If you want one disinfectant on the shelf, a disinfecting bleach diluted in water covers most hard surfaces. Clorox's dilution chart for its Disinfecting Bleach:
+If you want one disinfectant on the shelf, a disinfecting bleach diluted in water can stand in for most disinfecting sprays. Clorox's dilution chart for its Disinfecting Bleach:
 
 | Job | Mix | Keep wet for |
 |---|---|---|
@@ -79,7 +79,7 @@ Use the dilution printed on your own bottle if it differs, since bleach strength
 
 ## If you want a gentler general cleaner
 
-The EPA's Safer Choice label is the one shortcut on the shelf that means something specific. To earn it, the EPA reviews every chemical ingredient in the product, regardless of how small a share it is. The product must also meet pH limits that reduce skin and eye irritation, limit volatile organic compounds (VOCs), and perform comparably to conventional products. The EPA says nearly 2,000 products qualify, and it keeps a searchable list.
+The EPA's Safer Choice label is a shortcut on the shelf that means something specific. To earn it, the EPA reviews every chemical ingredient in the product, regardless of how small a share it is. The product must also meet pH limits that reduce skin and eye irritation, limit volatile organic compounds (VOCs), and perform comparably to conventional products. The EPA says nearly 2,000 products qualify, and it keeps a searchable list.
 
 ## 10 products you can skip
 
@@ -88,9 +88,9 @@ The EPA's Safer Choice label is the one shortcut on the shelf that means somethi
 3. **Separate bathroom and kitchen sprays.** Compare the ingredient lists. If they match, one bottle does both rooms.
 4. **Stainless-steel spray.** A few drops of dish soap in water, wiped with the grain and buffed dry with microfiber, handles routine smudges.
 5. **A disinfecting spray *and* a bleach jug *and* wipes.** Pick one disinfectant. Three products that do the same job just triple the label-reading.
-6. **Specialty dusting sprays.** A dry or barely damp microfiber cloth picks up dust without leaving residue on screens.
+6. **Specialty dusting sprays.** A dry or barely damp microfiber cloth picks up dust.
 7. **Air fresheners as a cleaning step.** They cover odors instead of removing the source. Find the source first. If you can't, our guide to [a fridge smell you can't trace](https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html) is a good model for the search.
-8. **A stain remover for every stain type.** Most fresh stains respond to cold water, a little dish soap, and not putting the item in the dryer until the stain is gone.
+8. **A stain remover for every stain type.** Many fresh stains come out with a little dish soap and water. Keep the item out of the dryer until the stain is gone.
 9. **Several floor cleaners for one floor.** One floor type needs one cleaner made for it.
 10. **A different sponge for every surface.** Two or three textures (soft, medium, stiff) cover everything from nonstick pans to grout.
 
@@ -115,7 +115,7 @@ Clorox's directions for its diluted Disinfecting Bleach end with rinsing in clea
 ## Sources
 
 - [What's the difference between products that disinfect, sanitize, and clean surfaces? (EPA)](https://www.epa.gov/coronavirus/whats-difference-between-products-disinfect-sanitize-and-clean-surfaces) — definitions, which products EPA registers, contact time
-- [Six Steps for Safe and Effective Disinfectant Use (EPA)](https://www.epa.gov/coronavirus/six-steps-safe-effective-disinfectant-use) — clean first, then disinfect with a registered product for its full contact time
+- [Six Steps for Safe and Effective Disinfectant Use (EPA)](https://www.epa.gov/coronavirus/six-steps-safe-effective-disinfectant-use) — soap and water cleans but doesn't disinfect; disinfecting takes an EPA-registered product used for its full label contact time
 - [Clorox Disinfecting Cleaning Wipes](https://www.clorox.com/products/clorox-disinfecting-wipes/) and [Bleach Dilution Ratio for Disinfecting](https://www.clorox.com/learn/bleach-dilution-ratio-chart/) (Clorox) — 4-minute wet time, 10-second sanitize, non-food-contact limit, surfaces to avoid; 1/3 cup per gallon, 6 and 10 minutes, rinse, mix fresh daily
 - [Skip the Antibacterial Soap; Use Plain Soap and Water (FDA)](https://www.fda.gov/consumers/consumer-updates/skip-antibacterial-soap-use-plain-soap-and-water) — no evidence of benefit, 19 ingredients banned in 2016
 - [Learn About the Safer Choice Label (EPA)](https://www.epa.gov/saferchoice/learn-about-safer-choice-label) — what the label requires, nearly 2,000 products

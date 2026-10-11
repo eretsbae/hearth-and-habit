@@ -24,7 +24,7 @@ The reason to bother: University of California researchers list *Chlorophyllum m
 
 ## Why rain sets them off
 
-The fungus is already in the soil, living as a web of fine threads called mycelium. UC's Integrated Pest Management program (UC IPM) says lawn mushrooms often grow from buried wood or dead roots, and that fungi fruit mainly after prolonged wet weather. A mushroom is the fungus's spore-producing body, so the flush you see is the visible tip of something that's been there for years.
+The fungus is already in the soil, living as a web of fine threads called mycelium. UC's Integrated Pest Management program (UC IPM) says lawn mushrooms often grow from buried wood or dead roots, and that fungi fruit mainly after prolonged wet weather. A mushroom is the fungus's spore-producing body, so the flush you see is the visible tip of something that may have been in the soil for years.
 
 Watering habits can do the same thing. UC IPM ties lawn mushrooms to overirrigation and poor drainage. On newly laid sod, it says mushrooms generally disappear once irrigation is cut back.
 
@@ -35,32 +35,32 @@ Watering habits can do the same thing. UC IPM ties lawn mushrooms to overirrigat
 | Scattered mushrooms after days of rain | Fungi fruiting on organic matter in the soil (UC IPM) | Nothing for the grass. Pick and bin them if kids or pets use the yard. |
 | Mushrooms in the same spot after every rain | A buried stump, roots, or scrap lumber feeding the fungus (UC IPM, Illinois) | Pick them as they appear, or dig out the wood. Call 811 first. |
 | Mushrooms in a circle or arc after heavy rain | Type III fairy ring (NC State) | Cosmetic. Check whether the spot is overwatered or poorly drained. |
-| A ring of darker green, faster-growing grass | Type II fairy ring (NC State) | Cosmetic. Fungi release nitrogen as they break down organic matter (Illinois). |
+| A ring of darker green, faster-growing grass | Type II fairy ring (NC State) | Cosmetic. |
 | A ring of dead or dry grass, soil that won't wet | Type I fairy ring: hydrophobic soil (NC State) | Deep watering and aeration; see below. |
 | A gooey yellow or white blob | Slime mold, not a mushroom (UC IPM) | Usually gone within about a week. You can rake, mow, or hose it off. |
-| Round balls about an inch across | Puffballs (UC IPM) | No treatment needed. Remove them if kids or pets might eat them. |
+| Round balls, usually an inch or less across | Puffballs (UC IPM) | No treatment needed. Remove them if kids or pets might eat them. |
 
 ![Fairy ring cross-section: mushrooms after rain, a dark green ring, a dead ring over water-repellent soil, and mycelium spreading outward from buried wood](/images/mushrooms-growing-in-lawn-after-rain-inline.svg)
 
 ## The safety part: kids and dogs
 
-Lawn mushrooms are an identification problem nobody at home can solve. UC IPM says there are no simple tests for poisonous mushrooms. University of Illinois Extension adds that young edible field mushrooms (*Agaricus*) can't be told apart from the poisonous *Chlorophyllum molybdites* until they mature. NAMA says that species causes severe gastrointestinal illness and that pets can be poisoned too.
+Lawn mushrooms are hard to identify safely at home. UC IPM says there are no simple tests for poisonous mushrooms. University of Illinois Extension adds that young edible field mushrooms (*Agaricus*) can't be told apart from the poisonous *Chlorophyllum molybdites* until they mature. NAMA says that species causes severe gastrointestinal illness and that pets can be poisoned too.
 
-The more dangerous mushroom toxins act slowly. NAMA says amatoxin symptoms are delayed 6 to 24 hours after eating. Pet Poison Helpline says signs in dogs can show up within 15 to 30 minutes or as much as 24 hours later. It also says only a small share of species are toxic, but that any mushroom a pet eats should be treated as toxic.
+Some mushroom toxins act slowly. NAMA says amatoxin symptoms are delayed 6 to 24 hours after eating. Pet Poison Helpline says signs in dogs can show up within 15 to 30 minutes or as much as 24 hours later. It also says only a small share of species are toxic, but that any mushroom a pet eats should be treated as toxic.
 
 What that means in practice:
 
 - **Before kids or dogs go out after a rain,** walk the yard, pick every mushroom, base included, and bag it for the trash. UC IPM and NAMA both advise removing yard mushrooms where children and pets play. Gloves keep it tidy.
 - **Don't count on mowing.** A mower scatters pieces across the grass rather than removing them.
-- **If a child eats one,** call Poison Control at 1-800-222-1222 (or poison.org) right away, even if the child seems fine. A delay before symptoms is exactly the dangerous pattern.
+- **If a child eats one,** call Poison Control at 1-800-222-1222 (or poison.org) right away, even if the child seems fine. Symptoms from some toxins don't show up for hours.
 - **If a dog eats one,** call your vet or the ASPCA Animal Poison Control Center at (888) 426-4435.
-- **Keep what you picked** and take a photo. Pet Poison Helpline says identification should be left to experts, not a look-alike picture online.
+- **Keep what you picked** and take a photo. Pet Poison Helpline says identification should be left to experts.
 
 ## Fairy rings: why they spread and how to fix a dead one
 
 A fairy ring starts at one point and grows outward. Illinois Extension says rings usually measure 2 to 15 feet across and can widen by 5 inches to 2 feet or more a year. The fungus grows 8 inches or deeper into the soil, and infection often starts at buried roots or lumber.
 
-The fungus doesn't eat grass. The damage comes from the fungal mat. In Type I rings, NC State Extension says the soil and thatch turn hydrophobic: they get so dry they shed water. Grass dies in a band even when you water. NC State says these symptoms are most common in hot, dry summer weather.
+The fungus doesn't eat grass. The damage comes from the fungal mat. In Type I rings, NC State Extension says the soil and thatch turn hydrophobic: they get so dry they shed water. Grass dies in a band even when you water. NC State says this type is most damaging in hot, dry summer weather.
 
 **How to bring a dead ring back:**
 
@@ -71,7 +71,7 @@ The fungus doesn't eat grass. The damage comes from the fungal mat. In Type I ri
 
 ## Why fungicide is the wrong tool
 
-UC IPM says cultural practices are faster and more effective than fungicides, and the products that do work aren't readily sold to homeowners. NC State says curative applications have little effect because the problem is the soil environment. Illinois reports that fungicide drenches have met with only moderate success. Spraying won't reach the stump or the fungal mat under the surface.
+UC IPM says cultural practices are faster and more effective than fungicides, and the products that do work aren't readily sold to homeowners. NC State says curative applications have little effect because the problem is the soil environment. Illinois reports that fungicide drenches have met with only moderate success.
 
 ## Repeat patches over buried wood
 
@@ -100,6 +100,6 @@ No. Illinois Extension says young *Agaricus*, the genus that includes store-boug
 - [Mushrooms and Other Nuisance Fungi in Lawns | UC IPM](https://ipm.ucanr.edu/home-and-landscape/mushrooms-and-other-nuisance-fungi-in-lawns/) — causes, common ring species, nitrogen and aeration, fungicides vs. cultural fixes, slime molds and puffballs
 - [Fairy Ring in Turf | NC State Extension TurfFiles](https://www.turffiles.ncsu.edu/diseases-in-turf/fairy-ring-in-turf/) — Types I–III, hydrophobic soil, wetting agents, curative fungicides' limits
 - [Fairy Rings, Mushrooms, and Puffballs | University of Illinois Extension](https://ipm.illinois.edu/diseases/series400/rpd403/) — ring size and growth, deep-watering method, look-alike *Agaricus*
-- [Mushroom Poisoning Syndromes | North American Mycological Association](https://namyco.org/mushroom-poisoning-syndromes/) and [Mushrooms | Pet Poison Helpline](https://www.petpoisonhelpline.com/poison/mushrooms/) — *Chlorophyllum molybdites* as the top poisoning cause; delayed symptoms in people and dogs
+- [Mushroom Poisoning Syndromes | North American Mycological Association](https://namyco.org/mushroom-poisoning-syndromes/) and [Mushrooms | Pet Poison Helpline](https://www.petpoisonhelpline.com/poison/mushrooms/) — *Chlorophyllum molybdites* as the top poisoning cause; symptom timing in people and dogs
 - [When Should You Fertilize Your Lawn? | Clemson HGIC](https://hgic.clemson.edu/when-should-you-fertilize-your-lawn/) — warm- vs. cool-season fertilizer timing
 - [Poison Control](https://www.poison.org/) and [Call 811](https://call811.com/) — poison hotline; utility marking before digging

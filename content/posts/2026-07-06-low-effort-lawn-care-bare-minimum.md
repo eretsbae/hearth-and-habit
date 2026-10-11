@@ -34,7 +34,7 @@ If you're not sure, a county extension office or a garden center can usually ide
 
 ## The setting that does most of the work: mowing height
 
-Mowing too short causes more lawn problems than skipping fertilizer does. University of Wisconsin Extension notes that taller grass shades the soil and results in much less crabgrass. Clemson Extension warns that cutting off more than a third of the blade at once can stop root growth. A lawn with shallow roots then needs frequent watering to survive a dry summer.
+University of Wisconsin Extension notes that taller grass shades the soil and results in much less crabgrass. Clemson Extension warns that cutting off more than a third of the blade at once can stop root growth. A lawn with shallow roots then needs frequent watering to survive a dry summer.
 
 Set the deck to your grass's height once and leave it there. These are the ranges from Clemson and Purdue Extension:
 
@@ -50,7 +50,7 @@ Set the deck to your grass's height once and leave it there. These are the range
 
 For a low-maintenance northern lawn, Purdue's advice is simple: mow at 3 to 4 inches. Wisconsin puts the ideal at around 3 inches.
 
-Southern grasses are where generic advice goes wrong. A single "mow at 3 inches" tip fits St. Augustine. It's well above Clemson's range for bermuda, zoysia, and centipede. Clemson also notes that most rotary mowers can't give a quality cut below 1 inch on most grasses, so if you have bermuda or zoysia, the bottom of the range isn't a realistic target for a homeowner's mower.
+Southern grasses are where generic advice goes wrong. A single "mow at 3 inches" tip fits St. Augustine. It's well above Clemson's range for bermuda, zoysia, and centipede. Clemson also notes that most rotary mowers can't give a quality cut below 1 inch on most grasses, so the bottom of the bermuda and zoysia range sits right at the limit of a typical rotary mower.
 
 Purdue adds that mowing above the optimum range tends to make turf less dense with coarser blades, so "higher" doesn't mean "as high as the deck goes."
 
@@ -88,7 +88,7 @@ The same thinking applies to the first mow of spring. Wisconsin Extension says l
 
 | Season | Cool-season lawn (North) | Warm-season lawn (South) |
 |---|---|---|
-| Spring | Start mowing at your set height; no scalping on the first cut | Wait for full green-up before feeding (soil 65°F at 4 inches, nights near 70°F) |
+| Spring | Start mowing at your set height; no scalping on the first cut | Wait for green-up before feeding (it starts at soil 65°F at 4 inches; feed once nights are near 70°F) |
 | Summer | Mow less often; let it go dormant if dry | Main growing and feeding season; mow at your set height |
 | Late summer to fall | **The one feeding: around Labor Day into early September** | No fertilizer in fall |
 | Winter | Nothing | Nothing; tan, dormant grass is normal |
@@ -119,7 +119,7 @@ Clemson's per-application rate for a low-maintenance lawn is half a pound of nit
 | St. Augustinegrass | 1 to 4 lb |
 | Centipedegrass | ½ to 2 lb, never more than 2 |
 
-Centipede is the one to be careful with. Clemson says too much fertilizer leads to decline and possibly disease. With a bare-minimum approach, a single low-rate feeding is the safe end.
+Centipede is the one to be careful with. Clemson says too much fertilizer leads to decline and possibly disease. With a bare-minimum approach, a single low-rate feeding keeps you at the low end of that range.
 
 Warm-season lawns don't get fertilizer in fall. Clemson's fertilizing guidance is clear on that.
 
@@ -132,7 +132,7 @@ Using Clemson's own example product, a 16-4-8 fertilizer (16% nitrogen), on a hy
 | Goal | Per 1,000 sq ft | For 5,000 sq ft |
 |---|---|---|
 | 1 lb nitrogen (Wisconsin's maximum per application) | 1 ÷ 0.16 = 6.25 lb | 6.25 × 5 = about 31 lb |
-| ½ lb nitrogen (Clemson's low-maintenance rate) | 0.5 ÷ 0.16 = about 3.1 lb | 3.1 × 5 = about 16 lb |
+| ½ lb nitrogen (Clemson's low-maintenance rate) | 0.5 ÷ 0.16 = about 3.1 lb | 3.125 × 5 = about 15.6 lb |
 
 Redo it with your bag's first number and your lawn's square footage. Measure length × width for each rectangle of lawn and add them up.
 
@@ -140,7 +140,7 @@ Clemson also says phosphorus and potassium (the second and third numbers) should
 
 ## Watering: the honest minimum is none
 
-A healthy lawn can go brown and dormant in a dry summer and green up again when rain returns. Bruce Branham, a turfgrass specialist at the University of Illinois, wrote that dormancy can reduce a lawn's watering needs to zero in most summers. He also gave the limit:
+A healthy lawn can go brown and dormant in a dry summer and green up again when rain returns. University of Illinois Extension notes that dormancy can reduce a lawn's watering needs to zero in most summers. He also gave the limit:
 
 - A healthy Kentucky bluegrass lawn should survive **at least 6 weeks** with no rain or irrigation.
 - If a drought runs past six weeks, give it about **¼ inch of water every 2 weeks**. That keeps it alive without waking it from dormancy. Let rain do that.
@@ -151,9 +151,9 @@ Purdue adds one more rule: keep foot traffic off a dormant lawn. If you do choos
 
 ## Thin spots and weeds
 
-The mowing height does most of the weed control: Wisconsin's point about taller grass meaning much less crabgrass. Purdue's low-maintenance plan adds a preemergence crabgrass product if crabgrass is a problem, with other weeds and pests spot-treated only as needed.
+Mowing height helps with weeds too: Wisconsin's point about taller grass meaning much less crabgrass. Purdue's low-maintenance plan adds a preemergence crabgrass product if crabgrass is a problem, with other weeds and pests spot-treated only as needed.
 
-For bare patches in a cool-season lawn, early fall is the window. Here's [how late in fall you can still seed](https://www.hearth-habit.com/2026/07/how-late-can-you-seed-grass-in-fall-and.html).
+For bare patches in a cool-season lawn, fall is the usual seeding season. Here's [how late in fall you can still seed](https://www.hearth-habit.com/2026/07/how-late-can-you-seed-grass-in-fall-and.html).
 
 If you're choosing seed for a new or rebuilt northern lawn, Purdue's low-maintenance pick is turf-type tall fescue. It needs less nitrogen, water, and insecticide than Kentucky bluegrass. The trade-off is that it has to be mowed more often.
 
@@ -171,7 +171,7 @@ Yes. Purdue's low-maintenance advice is a single 3-to-4-inch setting for norther
 
 ### Is a lawn that's brown in August dead?
 
-Probably not, but nobody can tell by looking. A healthy lawn usually rides out a dry spell dormant, and the Illinois guidance gives it at least six weeks. Whatever doesn't green up once fall rain returns was dead. That's the spot to reseed.
+Probably not, but nobody can tell by looking. A healthy lawn can ride out a dry spell dormant, and the Illinois guidance gives a healthy Kentucky bluegrass lawn at least six weeks. Patches that stay brown after rain returns are the likely dead spots, and those are the ones to reseed.
 
 ### Do I need a soil test for a bare-minimum lawn?
 

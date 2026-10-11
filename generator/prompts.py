@@ -6,11 +6,14 @@ for North American readers (US and Canada). Your writing is warm, direct, and \
 genuinely useful — the tone of a knowledgeable friend, never a content farm.
 
 Non-negotiable editorial rules:
-- Every claim must be practical and verifiable common knowledge. No invented \
-statistics, no fake studies, no made-up expert quotes. If you give a number \
-(cost, temperature, timeframe), use widely accepted typical ranges and say \
-"typically" or "roughly". Never state a suspiciously precise decimal statistic \
-(e.g. "37.4% of homeowners") — round to an honest range instead.
+- Every specific number, threshold, product spec, code requirement, or cost must \
+come from the RESEARCH DOSSIER's evidence or the FACT REGISTRY you are given. If \
+neither supports a number, do not state one — describe the decision instead. No \
+invented statistics, studies, or expert quotes. Never state a suspiciously precise \
+decimal statistic (e.g. "37.4% of homeowners").
+- When a claim rests on a specific source, say who found or requires it in plain \
+words ("University of Illinois building researchers found…", "the IRC \
+requires…") — attribution is what separates this site from unsourced listicles.
 - Write for a general audience: no jargon without a one-line explanation.
 - Use US units first (°F, feet, dollars) with metric in parentheses only when helpful.
 - Structure for scanability: short paragraphs (2-4 sentences), descriptive H2/H3 \
@@ -33,8 +36,10 @@ heading, so it can be extracted as FAQ structured data.
 contradict it. Where a sentence relies on a registry fact, name the agency in \
 plain words ("USDA's rule is…"). Food safety is time and temperature — never \
 tell readers to judge safety by smell or look.
-- If the article relies on any registry fact, end it with "## Sources": 1-4 \
-bullets "- [Page title](URL) — what it supports", using ONLY registry URLs.
+- End every article with "## Sources": 3-6 bullets "- [Page title](URL) — what it \
+supports", using ONLY URLs from the dossier's citable sources or the registry, \
+and only for claims the article actually makes. Never cite a page for something \
+it does not say. Any other external link is forbidden anywhere in the article.
 - Numbers must agree everywhere: the first sentence, the body math, tables, and \
 the FAQ must give the same figure. When a cost depends on an electricity or \
 water rate, show the formula with the registry's typical rate.
@@ -47,11 +52,16 @@ thumb", "Myth #1", "almost always". Use each at most once, preferably never.
 self-consciously, and never pad with filler like "In today's fast-paced world".
 - Do not fabricate personal anecdotes, testing, or experience. Frame advice as \
 general guidance ("most homeowners find", "a common fix is").
-- Write as genuine people-first content: assume a strict editorial reviewer will \
-reject anything that reads like a templated rewrite of existing SEO articles on \
-this topic. Every section should earn its place with specific, concrete detail \
-(real numbers with honest ranges, real decision criteria, real edge cases) that \
-makes this piece worth reading instead of a generic search result.
+- Information gain is the whole point. The dossier lists what typical articles \
+already say and what they miss. Spend little space on the consensus and most of \
+it on the gaps: the specific thresholds, the edge cases, the reasons common \
+advice fails, the decision criteria a reader cannot get from the first result. \
+A strict reviewer will reject anything that reads like a rewrite of the top \
+search results.
+- Build the dossier's "original asset" (a decision table, worked cost example, \
+diagnostic flow, comparison table, or schedule) inside the article from the \
+evidence. Show the arithmetic for any worked example so a reader can redo it with \
+their own numbers.
 """
 
 ARTICLE_USER = """\
@@ -74,6 +84,9 @@ re-explaining them):
 FACT REGISTRY (canonical numbers and safety rules — do not contradict; cite the
 URL in "## Sources" when you rely on one):
 {facts_block}
+
+RESEARCH DOSSIER (gathered from real sources for this article — your evidence base):
+{dossier_block}
 
 Return your answer in EXACTLY this format, with the three delimiters on their own lines:
 
@@ -196,11 +209,15 @@ rehash of one of them rather than covering genuinely distinct ground):
 FACT REGISTRY (the site's canonical numbers and safety rules):
 {facts_block}
 
+RESEARCH DOSSIER (the evidence the writer was given; numbers must trace to it or
+to the registry):
+{dossier_block}
+
 --- DRAFT BODY (Markdown) ---
 {body}
 --- END DRAFT ---
 
-Rubric (score 0-100, roughly equal weight per dimension):
+Rubric (score 0-100; dimension 7 carries double weight):
 1. Genuine usefulness — could a reader actually finish the task or make the \
 decision after reading this, without needing another source?
 2. Originality vs. the published titles above — real new substance, not a \
@@ -214,10 +231,16 @@ filled in section by section.
 procedure (wrong order of steps for gas, electric, water-heater or chemical work; \
 bleach alongside acids/ammonia without a never-mix warning; judging food safety \
 by smell); the first sentence, body math, tables and FAQ all give the same numbers.
+7. Information gain — does the article deliver the dossier's "gaps" and its
+original asset, so a reader learns specifics absent from the generic consensus?
+An accurate article that mostly restates the consensus scores below 75 here.
 
 HARD FAIL (score below 75 no matter how well written): any contradiction of the \
-FACT REGISTRY, any unsafe instruction, or a first-sentence answer that disagrees \
-with the article's own numbers. Quote the exact sentence in "issues".
+FACT REGISTRY, any unsafe instruction, a first-sentence answer that disagrees \
+with the article's own numbers, a specific number/threshold/spec/cost that \
+neither the dossier evidence nor the registry supports, a source cited for \
+something its dossier entry does not say, or an article that mostly restates \
+the consensus. Quote the exact sentence in "issues".
 
 Calibrate the score against a real published magazine article, not against an \
 imagined perfect piece — most genuinely fine articles score in the 75-90 range \
@@ -247,6 +270,17 @@ changing it.
 REVISE_USER = """\
 Revise the article body below to fix these issues:
 {issues_block}
+
+Stay inside this evidence: every specific number, spec, or cost must come from the
+dossier or the registry, and only the dossier's citable sources or registry URLs may
+be linked. If an issue says a number is unsupported, remove it or replace it with a
+supported one; do not invent a new one.
+
+RESEARCH DOSSIER:
+{dossier_block}
+
+FACT REGISTRY:
+{facts_block}
 
 --- CURRENT BODY (Markdown) ---
 {body}
@@ -295,4 +329,115 @@ Rules for each topic:
 Return ONLY a JSON array, no other text:
 [{{"title": "...", "pillar": "pillar-slug"}},
  {{"title": "...", "pillar": "pillar-slug", "season_months": [10, 11]}}, ...]
+"""
+
+RESEARCH_SYSTEM = """\
+You are the research editor for "Hearth & Habit", a practical home-and-living \
+blog for North American readers. Before anything is written, you build the \
+evidence base an article will be held to. Search the web and read the pages \
+that matter.
+
+Source priority for facts: government agencies (energy.gov, EPA, USDA/FSIS, \
+CPSC, NFPA, state agencies), university extension services and building-science \
+research groups, standards and code bodies (ICC/IRC, UL, ASHRAE, ENERGY STAR), \
+insurer research institutes (IBHS), and manufacturer installation manuals or \
+spec sheets. Trade publications are acceptable for typical cost ranges when the \
+article says so. Forums (Reddit, DIY forums, Q&A sites) are for learning what \
+real people ask, misunderstand, and struggle with — never the source of a fact.
+
+Read (fetch) the key pages rather than relying on search snippets; a number \
+belongs in the dossier only if a page you retrieved states it. Copy each URL \
+exactly as it appears in your search or fetch results.
+"""
+
+RESEARCH_USER = """\
+Research this article before it is written.
+
+Topic: {title}
+Pillar: {pillar_name} — {pillar_description}
+{existing_block}
+Do this:
+1. Search the topic the way a reader would and skim what the top results say —
+   that is the consensus this article must go beyond.
+2. Find what those results miss, blur, or get wrong: the precise threshold and
+   where it comes from, conditions that change the answer, real cost ranges,
+   code or manufacturer requirements, failure modes, what to check first.
+3. Look at forum or Q&A threads to find the questions real people ask and the
+   mistakes they make.
+4. Fetch and read the authoritative pages for the facts you will rely on.
+5. Propose one original asset the article can build from the evidence: a
+   decision table, a worked cost or time example with arithmetic, a diagnostic
+   flow, a comparison table, or a maintenance schedule.
+
+Then return ONLY this, with the JSON between the markers:
+
+===DOSSIER===
+{{"reader_situation": "who is searching this and what is happening to them, 1-2 sentences",
+ "direct_answer": "the honest short answer, with its condition",
+ "consensus": ["3-6 points the typical top results already cover"],
+ "gaps": ["4-8 specific things those results miss or get wrong, each stated as the correct detail"],
+ "evidence": [{{"claim": "what is true", "detail": "the exact number, range, spec, or condition as the page states it", "source_url": "exact URL you retrieved", "source_title": "page title"}}],
+ "real_questions": ["3-6 questions real people ask about this"],
+ "original_asset": {{"type": "decision_table | worked_example | diagnostic_flow | comparison_table | schedule", "spec": "what it contains and which evidence it uses"}},
+ "cautions": ["safety, code, or warranty points the article must respect"]}}
+===END===
+
+Give 6-15 evidence items, each tied to one retrieved URL. Leave out any
+evidence item you could not trace to a page you retrieved.
+"""
+
+RESEARCH_EXISTING = """\
+
+This topic already has a live article on the site (below). Your dossier is for a
+substantially better version: find what it leaves vague, what it states without
+support, and what it is missing. List its unsupported or wrong claims under
+"gaps" with the correct, sourced detail.
+
+--- CURRENT ARTICLE ---
+{body}
+--- END CURRENT ARTICLE ---
+"""
+
+ENRICH_USER = """\
+Rewrite the live article below into a substantially better version, using the
+research dossier. The URL and title stay fixed, so keep the same topic and
+search intent.
+
+Title (fixed): {title}
+Pillar: {pillar_name} — {pillar_description}
+
+Keep:
+- the direct answer in the first sentence, corrected if the evidence says otherwise;
+- {image_instruction}
+- internal links to other posts on this site where they still fit, using only
+  these exact URLs:
+{published_titles}
+
+Change:
+- correct or remove every number, threshold, spec, or cost that neither the
+  dossier nor the registry supports;
+- deliver the dossier's gaps and build its original asset;
+- answer the relevant real questions in the body or a FAQ;
+- rebuild "## Sources" from the dossier's citable sources and registry URLs only.
+
+The structure is yours to improve, but the result must read as one coherent
+article, not the old one with additions bolted on.
+
+FACT REGISTRY:
+{facts_block}
+
+RESEARCH DOSSIER:
+{dossier_block}
+
+--- CURRENT ARTICLE ---
+{body}
+--- END CURRENT ARTICLE ---
+
+Return the result in EXACTLY this format:
+
+===META===
+{{"meta_description": "150-160 character meta description for the new version"}}
+===BODY===
+(the full revised article in Markdown, starting with the intro paragraph, no title heading)
+===END===
 """

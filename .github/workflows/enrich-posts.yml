@@ -1,0 +1,85 @@
+# 이미 게시된 글을 리서치 근거로 다시 써서 PR 로 올립니다(generator/enrich_post.py).
+# - 수동 실행 전용. main 에 직접 쓰지 않고 enrich/<run id> 브랜치 + PR 을 만듭니다.
+#   사람이 PR 을 머지해야 sync-posts.yml 이 바뀐 글만 라이브에 반영합니다.
+# - 품질 게이트를 통과한 글만 바뀝니다. 통과 못 한 글은 그대로 두고 PR 본문에 남깁니다.
+# - Claude API 비용: 글 1편당 대략 $1~2.
+
+name: Enrich Published Posts
+
+on:
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "How many of the oldest not-yet-enriched posts to rewrite (ignored if slugs given)"
+        required: true
+        default: "3"
+      slugs:
+        description: "Space-separated slugs to rewrite instead (optional)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Rewrite posts on researched evidence
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          COUNT: ${{ inputs.count }}
+          SLUGS: ${{ inputs.slugs }}
+        run: |
+          if [ -n "$SLUGS" ]; then
+            python generator/enrich_post.py --slugs $SLUGS --report enrich-report.json
+          else
+            python generator/enrich_post.py --next "$COUNT" --report enrich-report.json
+          fi
+
+      - name: Open a PR with the rewritten posts
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ -f enrich-report.json ] || exit 0
+          git add content/posts data/research
+          if git diff --cached --quiet; then
+            echo "No post passed the gate; nothing to propose."
+            exit 0
+          fi
+          branch="enrich/${GITHUB_RUN_ID}"
+          git config user.name "hearth-habit-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout -b "$branch"
+          git commit -m "content: enrich posts with researched evidence ($(date -u +%Y-%m-%d))"
+          git push -u origin "$branch"
+          python - <<'EOF' > pr-body.md
+          import json
+          rows = json.load(open("enrich-report.json"))
+          print("리서치 근거로 다시 쓴 글입니다. 머지하면 sync-posts.yml 이 바뀐 글만 라이브에 반영합니다.\n")
+          print("| slug | 결과 | 점수 | 인용 출처 수 |\n|---|---|---|---|")
+          for r in rows:
+              print(f"| {r['slug']} | {'변경' if r.get('passed') else '변경 안 함'} | {r.get('score')} | {r.get('sources', '')} |")
+          failed = [r for r in rows if not r.get("passed")]
+          if failed:
+              print("\n변경 안 한 글의 사유:")
+              for r in failed:
+                  print(f"- {r['slug']}: {'; '.join(r.get('issues') or [])[:300]}")
+          print("\n근거 문서: `data/research/<slug>.json`")
+          EOF
+          gh pr create --base main --head "$branch" \
+            --title "content: enrich posts with researched evidence (run ${GITHUB_RUN_ID})" \
+            --body-file pr-body.md \
+            || echo "PR 생성 실패(저장소 설정상 Actions 의 PR 생성이 막혀 있을 수 있음). 브랜치 $branch 는 push 됨."

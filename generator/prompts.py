@@ -382,8 +382,10 @@ Then return ONLY this, with the JSON between the markers:
  "cautions": ["safety, code, or warranty points the article must respect"]}}
 ===END===
 
-Give 6-15 evidence items, each tied to one retrieved URL. Leave out any
-evidence item you could not trace to a page you retrieved.
+Give 6-15 evidence items, each tied to one retrieved URL, drawn from at least
+{min_sources} different authoritative pages — one or two pages is not research. You
+have up to {max_searches} searches and {max_fetches} page fetches; use most of them.
+Leave out any evidence item you could not trace to a page you retrieved.
 """
 
 RESEARCH_EXISTING = """\

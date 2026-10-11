@@ -77,6 +77,26 @@ def tool_result_urls(blocks) -> dict[str, tuple[str, str]]:
     return found
 
 
+def tool_usage(blocks) -> str:
+    """"web_search=5 web_fetch=4 errors=[max_uses_exceeded]" for the run log —
+    the first preview run stopped after a few calls and said its quota was
+    gone, which nothing in the log could confirm or refute."""
+    counts: dict[str, int] = {}
+    errors = []
+    for b in blocks:
+        btype = getattr(b, "type", "")
+        if btype == "server_tool_use":
+            counts[b.name] = counts.get(b.name, 0) + 1
+        elif btype.endswith("_tool_result"):
+            content = b.to_dict().get("content")
+            if isinstance(content, dict) and content.get("error_code"):
+                errors.append(content["error_code"])
+    parts = [f"{k}={v}" for k, v in sorted(counts.items())]
+    if errors:
+        parts.append(f"errors={errors}")
+    return " ".join(parts) or "no tool calls"
+
+
 def _final_text(blocks) -> str:
     return "".join(b.text for b in blocks if getattr(b, "type", "") == "text")
 
@@ -102,6 +122,9 @@ def run_research(client, cfg: dict, title: str, pillar: dict, existing_body: str
     else:
         existing = ""
     user = prompts.RESEARCH_USER.format(
+        max_searches=rcfg.get("max_searches", 8),
+        max_fetches=rcfg.get("max_fetches", 6),
+        min_sources=rcfg.get("min_distinct_sources", 4),
         title=title,
         pillar_name=pillar["name"],
         pillar_description=pillar["description"],
@@ -133,7 +156,7 @@ def run_research(client, cfg: dict, title: str, pillar: dict, existing_body: str
         raise ValueError("Research still paused after max continuations")
 
     sources = tool_result_urls(all_blocks)
-    print(f"    [research] model={model} retrieved_urls={len(sources)}")
+    print(f"    [research] model={model} retrieved_urls={len(sources)} {tool_usage(all_blocks)}")
     dossier = parse_dossier(_final_text(resp.content) or _final_text(all_blocks))
 
     kept, dropped = [], 0
@@ -152,6 +175,10 @@ def run_research(client, cfg: dict, title: str, pillar: dict, existing_body: str
         url, title = sources[normalize_url(e["source_url"])]
         dossier["sources"].setdefault(url, e.get("source_title") or title)
     min_ev = rcfg.get("min_evidence", 5)
+    min_src = rcfg.get("min_distinct_sources", 4)
+    if len(dossier["sources"]) < min_src:
+        raise InsufficientEvidence(
+            f"Research traced evidence to only {len(dossier['sources'])} distinct source(s) (need {min_src})")
     if len(kept) < min_ev:
         raise InsufficientEvidence(f"Research found only {len(kept)} traceable evidence items (need {min_ev})")
     return dossier

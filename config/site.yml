@@ -61,11 +61,13 @@ generation:
   # 근거 문서는 data/research/<slug>.json 에 남는다.
   research:
     effort: "high"
-    max_searches: 8
-    max_fetches: 6
+    max_searches: 15
+    max_fetches: 10
     max_content_tokens: 20000
-    # 추적 가능한 근거가 이보다 적으면 그 주제는 needs_review 로 보류
-    min_evidence: 5
+    # 추적 가능한 근거·서로 다른 출처가 이보다 적으면 그 주제는 needs_review 로 보류
+    # (기존 글 보강이면 글을 바꾸지 않음)
+    min_evidence: 6
+    min_distinct_sources: 4
     # "## Sources" 에 실제로 인용해야 하는 허용 출처 수
     min_sources: 3
   # 한 번 실행할 때 생성할 글 수

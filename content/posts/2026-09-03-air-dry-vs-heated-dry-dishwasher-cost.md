@@ -21,7 +21,7 @@ enriched: '2026-10-11'
 
 On an ENERGY STAR certified dishwasher, heated dry costs less than about 10 cents a load at the US average electricity rate, and probably well under that. Switching to air dry is free, but it won't move your bill much.
 
-You'll see exact per-load figures quoted online. None of the agency pages we checked publish one, because drying energy depends on the model. What you can pin down is a ceiling, built from federal efficiency limits, and your own model's exact number with a plug-in watt meter and two loads of dishes.
+You'll see exact per-load figures quoted online. None of the agency pages we checked publish one. What you can pin down is a ceiling, built from ENERGY STAR's efficiency cap, and your own model's exact number with a plug-in watt meter and two loads of dishes.
 
 ## The ceiling: why heated dry can't cost much on a certified machine
 
@@ -36,7 +36,7 @@ At the US average residential rate of roughly 17–18¢ per kWh (from the EIA, t
 - 1.12 kWh × $0.17 = about 19¢
 - 1.12 kWh × $0.18 = about 20¢
 
-That's the most an entire certified cycle can use in electricity terms, before you even split out the drying.
+That's the rated ceiling for an entire certified cycle, before you even split out the drying.
 
 ### Step 2: how much of that goes to drying
 
@@ -66,7 +66,7 @@ The Berkeley Lab model assumes 0.78 kWh per load of machine energy for older mac
 
 - 0.78 kWh × $0.17–$0.18 = about 13–14¢ a load for pumps and drying combined
 
-Heated dry is again only part of that. An older machine has more to gain from switching, but the per-load amount is still in the cents.
+Heated dry is again only part of that. An older machine may have more to gain from switching, but the per-load amount is still in the cents.
 
 ### If your electricity costs more
 
@@ -77,7 +77,7 @@ Rates range from about 11¢ to over 40¢ per kWh by state, the EIA reports. Redo
 
 ## Measure your own: the two-load test
 
-A plug-in watt meter measures what an appliance actually uses. The nameplate wattage is only its maximum draw, the Department of Energy notes. If your dishwasher plugs into an outlet, usually under the sink, you can measure the cost of heated dry yourself.
+A plug-in watt meter measures what an appliance actually uses. The nameplate wattage is only its maximum draw, the Department of Energy notes. If your dishwasher plugs into an outlet, you can measure the cost of heated dry yourself.
 
 1. **Plug the dishwasher into the meter.** If it's hardwired into a junction box instead of plugged in, skip this test. That connection is a job for an electrician, not a weekend experiment.
 2. **Run a full load on your usual cycle with heated dry on.** Write down the kWh reading at the end.
@@ -89,7 +89,7 @@ Then do the math:
 - **Cost per load** = (kWh with heated dry − kWh without) × your rate per kWh
 - **Cost per year** = cost per load × the loads you run a year (ENERGY STAR assumes 215)
 
-The meter reads only the electricity the dishwasher itself draws, not the energy your water heater uses to send it hot water. That's fine for this test, because drying uses no extra hot water. The difference between the two loads is all drying.
+The meter reads only the electricity the dishwasher itself draws, not the energy your water heater uses to send it hot water. That's fine for this test, because drying uses no extra hot water. As long as the wash portions match, the difference between the two loads comes down to drying.
 
 Run both loads on the same day, if you can. Your tap water's starting temperature can change the wash portion between days.
 
@@ -97,9 +97,9 @@ Run both loads on the same day, if you can. Your tap water's starting temperatur
 
 If heated dry is worth a few cents, where's the rest of the energy? Mostly in heating water, according to Berkeley Lab. These habits address that:
 
-- **Pick the eco cycle.** Natural Resources Canada says most people choose the same program every time, usually a high-temperature one. It recommends eco mode, which the dishwasher programs for lower energy and water use.
+- **Pick the eco cycle.** Natural Resources Canada says most people choose the same program every time, usually a high-temperature one. It recommends eco mode instead.
 - **Scrape, don't rinse.** ENERGY STAR and Natural Resources Canada both say there's no need to pre-rinse dishes. Rinsing under a hot tap uses water your water heater has to heat.
-- **Run full loads.** ENERGY STAR's advice: run full loads whenever possible, since energy use depends on the number of loads you wash.
+- **Run full loads.** That's ENERGY STAR's advice, and Berkeley Lab's model ties dishwasher energy directly to the number of loads washed.
 
 If you're shopping, ENERGY STAR lists the ability to turn off heated dry as a feature to look for. Natural Resources Canada says certified models use an average of 12% less energy and 30% less water than standard ones.
 
@@ -122,15 +122,15 @@ Plastic containers are the usual holdouts. If you need them dry right away, towe
 
 ### Does heated dry clean or sanitize dishes better?
 
-No. Cleaning happens during the wash and rinse with hot water and detergent. Heated dry only speeds up evaporation after the final rinse. Some models have a separate sanitize option. That's a different setting from heated dry, so check your manual for what it does.
+None of the sources here credit heated dry with cleaning or sanitizing; it's the drying stage, after the wash and final rinse. Some models have a separate sanitize option. That's a different setting from heated dry, so check your manual for what it does.
 
 ### Is it cheaper to wash by hand and let dishes air-dry on a rack?
 
-No. ENERGY STAR says a certified dishwasher uses less than half as much energy as washing by hand and saves about 8,400 gallons of water a year. It also estimates savings of about $220 a year and over 230 hours of your time. A dishwasher on air dry beats hand washing on every count.
+No. ENERGY STAR says a certified dishwasher uses less than half as much energy as washing by hand and saves about 8,400 gallons of water a year. It also estimates savings of about $220 a year and over 230 hours of your time. By ENERGY STAR's comparison, a certified dishwasher comes out ahead on energy, water, money, and time.
 
 ### What does it cost to run a dishwasher overall?
 
-ENERGY STAR says a standard certified dishwasher costs about $50 a year to run. The arithmetic above shows why heated dry is only a small part of that.
+ENERGY STAR says a standard certified dishwasher costs about $50 a year to run. By the ceiling above, pumps and drying together account for under about $20–22 of that, and heated dry is only part of that slice.
 
 ## Sources
 

@@ -16,13 +16,13 @@ pin_hooks:
 
 Change the settings on what you already own, starting with the biggest slices of the bill: the thermostat, the water heater, laundry, and a second fridge. Unplugging chargers barely registers.
 
-Most no-cost lists treat every tip as equal. They aren't. The US Energy Information Administration (EIA) found that in 2020 the three largest uses of home electricity nationally were air conditioning (19%), space heating (12%), and water heating (12%). The habits below are ranked by which of those slices they attack, with the arithmetic so you can redo it for your own home.
+Many no-cost lists treat every tip as equal. They aren't. The US Energy Information Administration (EIA) found that in 2020 the three largest uses of home electricity nationally were air conditioning (19%), space heating (12%), and water heating (12%). The habits below are ranked by which of those slices they attack, with the arithmetic so you can redo it for your own home.
 
 ## Where the money goes before you change anything
 
 ![Bar chart of home electricity end uses: air conditioning 19%, space heating 12%, water heating 12%, standby 5–10%](/images/cut-electric-bill-no-cost-habits-diagram.svg)
 
-These are national averages, and your split depends on what runs on electricity. If you heat with gas, space heating barely touches your electric bill. If you have an electric furnace, baseboard heat, or an electric water heater, those slices are bigger than average.
+These are national averages, and your split depends on what runs on electricity. If you heat with gas, most of your space heating shows up on the gas bill instead. If you have an electric furnace, baseboard heat, or an electric water heater, those slices are bigger than average.
 
 For the math below, the EIA's figures give a typical household about 899 kWh a month (10,791 kWh a year in 2022). The US average residential price is roughly 17–18¢ per kWh, from about 11¢ to over 40¢ depending on the state, so the examples use 18¢. Plug in the rate printed on your bill.
 
@@ -30,7 +30,7 @@ For the math below, the EIA's figures give a typical household about 899 kWh a m
 
 ## 1. Set the thermostat back, if you have a furnace or central AC
 
-The Department of Energy says turning the thermostat back 7–10°F for 8 hours a day can save up to about 10% a year on heating and cooling. Eight hours is the length of a night's sleep or a workday, so one setback period covers it. Your existing thermostat's schedule does this for free. See [the right thermostat settings for every season](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html) for targets.
+The Department of Energy says turning the thermostat back 7–10°F for 8 hours a day can save up to about 10% a year on heating and cooling. Eight hours is the length of a night's sleep or a workday, so one setback period covers it. If your existing thermostat has a schedule, it does this for free. See [the right thermostat settings for every season](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html) for targets.
 
 Worked example, using national shares:
 
@@ -40,13 +40,13 @@ Worked example, using national shares:
 
 In an all-electric house in a hard climate, the heating and cooling share is much larger and so is the payoff.
 
-**The exception is heat pumps.** Efficiency Maine, the state's efficiency program, has explained that a heat pump uses more energy to raise the temperature quickly after a setback than to hold it steady, because of how its power draw scales with output. With a heat pump, a steady setting is usually the cheaper habit. If you do set back, keep it small and check whether your thermostat has a heat-pump recovery setting.
+**The exception is heat pumps.** Efficiency Maine, the state's efficiency program, has explained that a heat pump uses more energy to raise the temperature quickly after a setback than to hold it steady, because of how its power draw scales with output. With a heat pump, a steady setting is usually the cheaper habit. If you do set back, keep it small.
 
 ## 2. Turn an electric water heater down to 120°F
 
-Water heating is as big a slice nationally as space heating, and almost no "free habits" list mentions its dial. The District of Columbia's Department of Energy & Environment advises lowering an electric water heater to 120°F.
+Water heating is as big a slice nationally as space heating, yet most "free habits" lists skip its dial. The District of Columbia's Department of Energy & Environment advises lowering an electric water heater to 120°F.
 
-- **Gas water heater:** the dial is on the front of the gas valve. Turning it down saves gas, not electricity, but it's the same habit.
+- **Gas water heater:** the dial is usually on the gas valve. Turning it down saves gas, not electricity, but it's the same habit.
 - **Electric water heater:** the thermostats usually sit behind access panels near live wiring. Turn off the water heater's breaker before removing a panel, or have a plumber or electrician make the change. Never work on it with the power on.
 
 If your dishwasher manual specifies a minimum inlet water temperature, check it before going lower.
@@ -59,11 +59,11 @@ This lands on your electric bill only if your water heater is electric. With a g
 
 ## 4. Stop paying the dryer to tumble one towel
 
-ENERGY STAR's dryer guidance has three free habits:
+Three free dryer habits, the first two straight from ENERGY STAR's dryer guidance:
 
 - **Clean the lint filter every load.** If you use dryer sheets, scrub the screen with a toothbrush about once a month, because the sheets leave a film that cuts airflow.
 - **Dry full loads.** Drying a single towel for 30 minutes uses about as much energy as drying a full load for the same 30 minutes.
-- **Use the sensor (automatic) cycle** instead of a timed one, so the machine stops when the clothes are dry.
+- **Use the sensor (automatic) cycle** instead of a timed one, if your dryer has one. ENERGY STAR dryers use moisture sensing to end the cycle automatically.
 
 A drying rack or clothesline costs nothing if you already own one.
 
@@ -73,7 +73,7 @@ ENERGY STAR estimates that a second refrigerator in a basement or garage could b
 
 > $90 ÷ 12 = **$7.50 a month**
 
-That's more than the thermostat example above, from one plug. If it's holding a few drinks and condiments, consolidate them into the kitchen fridge and unplug it with the door propped open so it doesn't grow mold. If you're done with it, many utilities will pick up and recycle an old fridge. ENERGY STAR notes that proper recycling keeps its refrigerant and foam out of the environment.
+That's more than the thermostat example above, from one plug. If it's holding a few drinks and condiments, consolidate them into the kitchen fridge and unplug it with the door propped open so it doesn't grow mold. If you're done with it, some utilities will pick up and recycle an old fridge. ENERGY STAR notes that proper recycling keeps its refrigerant and foam out of the environment.
 
 ## 6. Measure standby loads instead of unplugging everything
 
@@ -85,17 +85,17 @@ Here's what a single typical device costs, using the DOE's energy formula (watts
 
 So unplugging phone chargers one by one is close to pointless. The whole standby slice is still real money at most:
 
-> 5–10% × 899 kWh = 45–90 kWh × $0.18 = **$8.10–$16.20 a month**, if you could cut all of it, which you can't (the router and fridge stay on)
+> 5–10% × 899 kWh = 45–90 kWh × $0.18 = **$8.10–$16.20 a month**, if you could cut all of it, which you can't (some things, like the router, stay on)
 
-The savings are in the few devices drawing far more than 0.5 W, such as older game consoles, cable boxes, and anything warm to the touch when "off." A plug-in watt meter shows the real number, since nameplate wattage is only the maximum draw. Our [phantom power breakdown](https://www.hearth-habit.com/2026/07/phantom-power-how-much-your-idle.html) covers which devices tend to be the big ones.
+The savings, if any, are in the few devices a meter shows drawing far more than 0.5 W. A plug-in watt meter shows the real number, since nameplate wattage is only the maximum draw. Our [phantom power breakdown](https://www.hearth-habit.com/2026/07/phantom-power-how-much-your-idle.html) covers which devices tend to be the big ones.
 
 ## 7. Set the fridge to 37–40°F, not colder and never warmer
 
-DC's energy agency recommends setting refrigerators between 37 and 40°F. Colder than that wastes energy. Warmer than 40°F crosses the USDA's food-safety limit, which is why this habit has a floor as well as a ceiling. A cheap fridge thermometer tells you where yours really sits, since the dial's numbers aren't degrees.
+DC's energy agency recommends setting refrigerators between 37 and 40°F. Colder than that uses more energy than you need. Warmer than 40°F crosses the USDA's food-safety limit, which is why this habit has a floor as well as a ceiling. A cheap fridge thermometer tells you where yours really sits, since the control setting may not match the actual temperature.
 
 ## 8. Use fans and sun the way they actually work
 
-- **Fans cool people, not rooms.** ENERGY STAR says to turn a ceiling fan off when you leave the room, and to adjust the thermostat while it runs. A fan that runs while you also cool the house to the same setting saves nothing.
+- **Fans cool people, not rooms.** ENERGY STAR says to turn a ceiling fan off when you leave the room, and to adjust the thermostat while it runs. A fan saves money only if the thermostat setting changes while it runs.
 - **Winter fan setting:** ENERGY STAR recommends running the fan clockwise on low to push warm air down from the ceiling.
 - **Winter sun:** DC's energy agency advises opening south-facing curtains and blinds during the day in the heating season. In summer, closing them on the sunny side keeps that heat out.
 

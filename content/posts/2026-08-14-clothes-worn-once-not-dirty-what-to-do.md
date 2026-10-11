@@ -32,22 +32,22 @@ Here is the American Cleaning Institute's schedule as USU Extension presents it:
 - **Monthly:** bathrobes.
 - **Once or twice a year:** heavy coats.
 
-These are defaults, and denim is one place makers stretch them. Levi's care page says to wash its denim after approximately every 10 wears, mainly to keep the shape and fit, and to spot-clean small marks with a damp cloth, a soft brush, and mild soap in between. Read the 3-to-4 count as the general guideline and Levi's 10 as the maker's own upper figure for its denim.
+These are defaults, and denim is one place makers stretch them. Levi's care page says to wash its denim after approximately every 10 wears, mainly to keep the shape and fit, and to spot-clean small marks with a damp cloth, a soft brush, and mild soap in between. Read the 3-to-4 count as the general guideline and Levi's 10 as the maker's own figure for its denim.
 
 Neither source sets a count for blazers or suits. Treat them like the jackets they sit closest to, and send them out when they look or smell like they need it.
 
 ## Why airing works on wool but not on polyester
 
-Hanging a sweater over a chair overnight sometimes clears a smell and sometimes doesn't. Fiber explains most of that.
+Hanging a sweater over a chair overnight sometimes clears a smell and sometimes doesn't. Fiber is a big part of why.
 
-University of Alberta researchers led by textile scientist Rachel McQueen soaked different fibers in a simulated sweat solution. Here is what they found:
+University of Alberta textile scientist Rachel McQueen and colleagues exposed different fibers to odor compounds from simulated sweat. Here is what they found:
 
-- **Cotton and viscose** absorbed the least odor compounds and released the least.
+- **Cotton and viscose** absorbed and released smaller amounts of odor compounds.
 - **Polyester, nylon, and wool** absorbed more and gave off more at first.
 - **Nylon and wool** let the odor go faster. After 24 hours they were much lower and close to cotton.
 - **Polyester** held on.
 
-McQueen's practical read is that polyester needs washing, while nylon and wool garments can often be freshened by airing instead of laundering after every wear. So a wool sweater on an airing hook overnight is doing real work. A polyester gym top on the same hook is only waiting for the hamper.
+McQueen's practical read is that polyester needs washing, while nylon and wool garments can often be freshened by airing instead of laundering after every wear. So a wool sweater on an airing hook for a day is doing real work. A polyester gym top on the same hook is only waiting for the hamper.
 
 ## The garment table
 
@@ -55,7 +55,7 @@ This combines the wear counts with the fiber findings and the storage cautions c
 
 | Item | Wash after (ACI via USU) | Does a night of airing help? | Before it goes back in the closet |
 |---|---|---|---|
-| Jeans, cotton slacks | 3–4 wears (Levi's: about 10 for its denim) | Somewhat; cotton holds less odor to begin with | Spot-clean marks first |
+| Jeans, cotton slacks | 3–4 wears (Levi's: about 10 for its denim) | Less needed; cotton holds less odor to begin with | Spot-clean marks first |
 | Wool or nylon sweaters | 3–4 wears | Yes; odor near cotton levels after 24 hours (U of Alberta) | Clean before seasonal storage (moths) |
 | Polyester tops, fleece, activewear | Every wear for exercise clothes | Little; polyester holds odor | Straight to the hamper |
 | T-shirts, underwear, socks | Every wear | Not relevant | Hamper |
@@ -75,7 +75,7 @@ For a healthy wearer, less than it feels. In an informal University of Alberta t
 
 The bacteria were mostly normal skin bacteria, and the researchers found no E. coli. About two weeks after a wash, the count was nearly the same.
 
-The limits are stated plainly, too. It was one pair of jeans and one wearer, and the student aired them about three times a week. McQueen doesn't recommend waiting a year to wash, and the result assumes skin without cuts or abrasions. The useful takeaway is narrow: a lightly worn pair of jeans hung next to clean clothes won't contaminate them.
+The limits are stated plainly, too. It was one pair of jeans and one wearer, and the student aired them about three times a week. McQueen doesn't recommend waiting a year to wash, and the result assumes skin without cuts or abrasions. The useful takeaway is narrow: lightly worn jeans mostly carry the wearer's own normal skin bacteria.
 
 Freezing jeans, a common internet fix, doesn't help. A Stanford microbiologist tested it for NBC Bay Area and found about the same amount of bacteria after freezing. The lab freezer was much colder than a home freezer.
 
@@ -85,7 +85,7 @@ The problem with tucking worn clothes away is what they attract.
 
 **Clothes moths.** Mississippi State University Extension says wool, silk, fur, and other animal-origin fabrics are the ones at risk. Items soiled with sweat, dandruff, and other stains are especially attractive to egg-laying moths. USU Extension adds that the larvae, which do the damage, prefer fabric stained with beverages, oil, and sweat. Webbing clothes moth larvae can keep feeding for anywhere from 35 days to 2½ years.
 
-A worn sweater on an open hook that you'll wear again this week is fine. The same sweater folded into a bin for the summer is the risk. Both extension services say to clean susceptible clothing before storing it. USU adds that storage should be clean and airtight.
+The extension advice is aimed at storage: a sweater folded into a bin for the summer, not one on a hook you'll empty this week. Mississippi State says to clean susceptible clothing before storing it. USU adds that storage should be clean and airtight.
 
 **Damp.** Anything that goes back in the closet should be fully dry, because moisture is what mold needs. EPA advises keeping indoor relative humidity below 60%, ideally 30 to 50%, to limit mold. If yours already smells, start with [why a closet smells musty even when everything looks clean](https://www.hearth-habit.com/2026/09/why-does-my-closet-smell-musty-even.html).
 
@@ -107,11 +107,11 @@ Deciding once where things go is the same idea as [the one-touch rule](https://w
 
 ### My clothes still smell after washing. Is that the same problem?
 
-Not quite. Polyester holding onto body odor is part of it, as the Alberta research shows. A washer that leaves clothes smelling musty is a different issue, covered in [why laundry still smells musty after a full wash](https://www.hearth-habit.com/2026/09/why-does-my-laundry-still-smell-musty.html).
+Not quite. Polyester holding onto body odor can be part of it; the Alberta research found it held odor longer than wool or nylon. A washer that leaves clothes smelling musty is a different issue, covered in [why laundry still smells musty after a full wash](https://www.hearth-habit.com/2026/09/why-does-my-laundry-still-smell-musty.html).
 
 ### Does a fabric refresher spray count as a wash?
 
-None of these sources tested sprays, and they don't change the wear counts above. If a polyester top smells after one wear, the fiber research points to the washer, not a spray.
+None of these sources tested sprays, and they don't change the wear counts above. If a polyester top smells after one wear, the fiber research points to a wash, not a spray.
 
 ### How long should something air before it goes back in the closet?
 

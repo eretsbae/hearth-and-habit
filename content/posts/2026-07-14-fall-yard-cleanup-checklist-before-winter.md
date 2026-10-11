@@ -33,14 +33,14 @@ That's a shorter list than most fall checklists. The table below sorts each job 
 | Branches over the roof or near power lines | Any limb that could fall on the house or a line | Roof damage, downed lines | No; hire it out |
 | Leaves on the lawn | Mow them in; rake only where layers stay matted | Smothered grass in heavy, wet piles | Mostly |
 | Cut back perennial beds | Only seriously diseased plants | Disease carried over to next year | Yes, until spring |
-| Fall lawn feeding | Cool-season lawns only, around Labor Day | A slower spring green-up | Yes |
+| Fall lawn feeding | Cool-season lawns only, around Labor Day | Missing the year's main feeding | Yes |
 | Overseed thin spots | Cool-season lawns with bare patches | Bare spots that stay bare | Yes |
 
 ## 1. Gutters and downspouts: the job that actually causes damage
 
 Clogged gutters overflow at the corners and send roof water straight down the foundation wall. The Department of Energy's building-science guidance is to have downspouts discharge **at least 5 feet** from the foundation, onto ground that slopes away from the house. The usual target is about a 6-inch drop over the first 10 feet.
 
-The Insurance Institute for Business & Home Safety (IBHS), an insurer-funded research group, lists clearing gutters and downspouts among its winter-readiness steps.
+The Insurance Institute for Business & Home Safety (IBHS) lists clearing gutters and downspouts among its winter-readiness steps.
 
 - **Timing:** after most leaves have dropped, so you do it once.
 - **Check:** run a hose in each gutter and watch where the water ends up, not just whether it flows. A downspout emptying at the base of the house is a bigger problem than a half-full gutter. It's also a common reason for [water pooling in one spot of the yard](https://www.hearth-habit.com/2026/08/why-does-water-pool-in-one-spot-in-my.html).
@@ -53,7 +53,7 @@ Clean gutters won't stop ice dams. The University of Minnesota Extension explain
 
 ## 2. Outdoor faucets and hoses
 
-Water left in a hose, a faucet, or the short pipe behind it can freeze, expand, and crack it. You may not find the crack until spring, when you turn the faucet on and water runs inside the wall.
+Water left in a hose, a faucet, or the short pipe behind it can freeze, expand, and crack it.
 
 IBHS's guidance is to **shut off and insulate the valves if you don't have frost-proof outdoor faucets**, and it notes that homes built before 2010 typically don't. A frost-proof faucet has a long stem that closes the valve inside the heated wall. A standard one closes right at the outside wall.
 
@@ -62,7 +62,7 @@ IBHS's guidance is to **shut off and insulate the valves if you don't have frost
 3. Open the outdoor faucet so the water left in the line drains out.
 4. Disconnect hoses even from frost-proof faucets. An attached hose can keep water from draining out of the faucet.
 
-IBHS also points out that outdoor spigots are a particular weak spot in warmer southern regions, where people don't expect a hard freeze. For what happens to pipes in a cold snap, see [the temperature at which pipes actually freeze](https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html).
+IBHS also points out that exterior hose spigots are vulnerable when temperatures drop below freezing, particularly in warmer southern regions. For what happens to pipes in a cold snap, see [the temperature at which pipes actually freeze](https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html).
 
 ## 3. Branches over the roof or near power lines
 
@@ -74,7 +74,7 @@ The usual advice is to mulch a "light layer" and rake the rest. Research from Mi
 
 Turf researcher Thomas Nikolai describes three MSU studies:
 
-- **Normal loads:** oak and maple leaves at 100 pounds of dry leaves per 1,000 square feet were mulched into Kentucky bluegrass with an ordinary rotary push mower over seven years. An earlier study at 50 and 100 pounds found no harmful effects. In this one, turf quality actually improved on the maple plots because fewer broadleaf weeds grew there. Soil pH didn't change, and soil organic matter went up.
+- **Normal loads:** oak and maple leaves at 100 pounds of dry leaves per 1,000 square feet were mulched into Kentucky bluegrass with an ordinary rotary push mower from 1991 to 1998. An earlier study at 50 and 100 pounds found no harmful effects. In this one, turf quality actually improved on the maple plots because fewer broadleaf weeds grew there. Soil pH didn't change, and soil organic matter went up.
 - **Excessive loads:** researchers mulched **150, 300, and 450 pounds per 1,000 square feet**, about **6-, 12-, and 18-inch layers** of leaves, into an unfertilized lawn of bluegrass, ryegrass, and fine fescue with a mulching mower. Some leaf litter was still visible the next spring, more at the heavier rates. It disappeared as the grass grew, and those plots tended to green up sooner.
 - **Deck height mattered:** mulching with the deck at **3 inches** left less visible litter in spring than at 1.5 inches.
 
@@ -82,9 +82,9 @@ Purdue's turf program adds that mulched leaves don't increase thatch or disease,
 
 ### Where the leaves go matters too
 
-Don't blow or rake them into the street. A US Geological Survey study in Madison, Wisconsin, found that without leaf removal, fall leaf litter supplied **56%** of the year's phosphorus in urban stormwater. When streets were cleared of leaves before rain, that dropped to **16%**, and timely removal cut phosphorus concentrations by over 80%.
+Don't blow or rake them into the street. A US Geological Survey study in Madison, Wisconsin, found that without leaf removal, fall leaf litter supplied **56%** of the year's phosphorus in urban stormwater. When streets were cleared of leaves before rain, that dropped to **16%**, and timely removal can cut phosphorus concentrations by over 80%.
 
-Leaves mowed into the lawn never reach the storm drain at all. Purdue also says not to burn them. For the full rake-or-leave decision, see [whether to rake leaves or leave them over winter](https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html).
+Leaves mowed into the lawn stay out of the storm drain. Purdue also says not to burn them. For the full rake-or-leave decision, see [whether to rake leaves or leave them over winter](https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html).
 
 ## 5. Garden beds: most of it can wait until spring
 
@@ -92,14 +92,13 @@ The University of Illinois Extension's advice is to leave dead perennial stems s
 
 - Seed heads of black-eyed Susan, sedum, purple coneflower, and Joe-Pye weed feed finches through winter.
 - Hollow stems can shelter small carpenter bees, mason bees, and leaf-cutter bees.
-- Leaves left in beds give overwintering insects cover.
-- About 70% of native bee species nest in the ground, so leave some bare soil unmulched.
+- About 70% of native bee species nest in the ground, so leave some bare patches.
 
-The exception is serious disease. Remove plants with heavy disease problems, more than the occasional leaf spot, because disease organisms often overwinter on plant debris. Spent vegetable plants with blight or rot belong in that category.
+The exception is serious disease. Remove plants with heavy disease problems, more than the occasional leaf spot, because disease organisms often overwinter on plant debris.
 
 ## 6. Lawn feeding and seeding: optional, and only for cool-season grass
 
-**Cool-season lawns** (fescue, bluegrass, ryegrass, mostly in the North) get their most useful feeding in fall. The University of Wisconsin Extension's window is around Labor Day into early September, at no more than 1 pound of actual nitrogen per 1,000 square feet per application. If you're past that window and the lawn looks fine, skipping it costs you a slightly slower spring.
+**Cool-season lawns** (fescue, bluegrass, ryegrass, mostly in the North) get their most useful feeding in fall. The University of Wisconsin Extension's window is around Labor Day into early September, at no more than 1 pound of actual nitrogen per 1,000 square feet per application (half that in shade).
 
 **Warm-season lawns** (Bermuda, St. Augustine, zoysia, centipede) don't get fertilizer in fall. Clemson Extension's guidance is to feed them from late-spring green-up through summer.
 
@@ -107,13 +106,13 @@ For thin spots in a cool-season lawn, fall is the seeding season. The deadline d
 
 ## 7. Furniture and the deck
 
-Cushions and fabric come inside or under cover; they hold moisture and mildew. Sweep leaves off the deck so wet piles don't sit on the boards all winter. Wood furniture is fine under a water-resistant cover in most climates, or in a shed or garage where snow is heavy.
+Cushions and fabric come inside or under cover. Sweep leaves off the deck so wet piles don't sit on the boards all winter.
 
 ## FAQ
 
 ### Can I just mow all the leaves instead of raking?
 
-For most yards, yes. MSU mulched layers up to about 18 inches deep into an unfertilized lawn with no lasting harm. The litter was gone once spring growth started, and a 3-inch mower deck worked better than a low one. Rake only the heavy, wet mats that stay in one spot, and keep leaves out of the street.
+For most yards, yes. MSU mulched layers up to about 18 inches deep into an unfertilized lawn. The visible litter dissipated as the grass grew in spring, and a 3-inch mower deck left less of it than a 1.5-inch one. Rake only the heavy, wet mats that stay in one spot, and keep leaves out of the street.
 
 ### My outdoor faucet is frost-proof. Do I still need to do anything?
 
@@ -121,7 +120,7 @@ Disconnect the hose. An attached hose can keep water from draining out of a fros
 
 ### Should I cut the grass shorter for the last mow?
 
-None of the sources here call for a special short final cut. MSU's leaf research found a 3-inch deck left less leaf litter than a low setting. If you're mowing leaves in on that last pass, keeping your usual height works in your favor.
+None of the sources here call for a special short final cut. MSU's leaf research found a 3-inch deck left less leaf litter than a low setting. If you're mowing leaves in on that last pass, a higher deck works in your favor.
 
 ## Sources
 

@@ -21,13 +21,13 @@ enriched: '2026-10-11'
 
 Your toilet is leaking water out of the tank, and the fill valve is topping it back up. That's a "ghost flush," and the leak is usually at the flapper, sometimes at a misplaced refill tube or a failed seal under the tank.
 
-The fill valve making the noise is rarely the broken part. Fluidmaster, which makes toilet repair parts, describes ghost flushing as the fill valve's way of letting you know water is leaking out of the tank. Replacing the fill valve because it's the part you hear is the most common wasted repair.
+The fill valve making the noise is rarely the broken part. Fluidmaster, which makes toilet repair parts, describes ghost flushing as the fill valve's way of letting you know water is leaking out of the tank. Replacing the fill valve because it's the part you hear doesn't stop the leak.
 
 Below: a test that catches slow leaks the dye test misses, a table that turns each result into a fix, and a way to estimate what your leak is costing with a stopwatch.
 
 ## How this differs from a running toilet
 
-A toilet that hisses or trickles nonstop has a different problem, usually a fill valve that won't shut off or water spilling into the overflow pipe. Our guide to [fixing a running toilet in 15 minutes](https://www.hearth-habit.com/2026/07/how-to-fix-running-toilet-in-15-minutes.html) covers that one.
+A toilet that hisses or trickles nonstop needs a different set of checks, including whether water is rising high enough to spill into the overflow pipe. Our guide to [fixing a running toilet in 15 minutes](https://www.hearth-habit.com/2026/07/how-to-fix-running-toilet-in-15-minutes.html) covers that one.
 
 Here the fill valve does shut off. Then the tank slowly drains, the float drops, and the valve runs again for a few seconds. Fluidmaster says this can happen every few minutes or every few hours, depending on the leak.
 
@@ -60,12 +60,12 @@ Where the water stops tells you where the leak is. Fluidmaster says that if the 
 | Refill tube pushed down inside the overflow pipe | The tube is siphoning tank water into the bowl | Pull it out and clip it to the outside of the overflow pipe (Fluidmaster) |
 | Level keeps dropping and stops just below the flapper | Worn flapper or damaged flapper seat | Clean the flapper and seat; replace the flapper if it's over 5 years old or the leak continues |
 | Leak continues after a new flapper | Flush valve seal or flush valve | Replace the seal, then the whole flush valve if it still drains (Fluidmaster) |
-| Dye test negative and the level doesn't move with the water off, yet it still refills | The water is leaving some other way | Recheck for wet spots and the external leaks below |
+| Dye test negative and the level hasn't moved after 15 minutes with the water off, yet it still refills | A leak too slow to show yet, or water rising into the overflow pipe | Keep checking every 15 minutes until the level stops changing; if water spills into the overflow pipe, clean the fill valve (Fluidmaster) |
 | Wet bolts, or water on the bowl under the tank | Tank-to-bowl gasket or bolt seals | Replace the gasket, bolts, and washers |
 
 ### The refill tube: check it first, it's free
 
-The thin tube from the fill valve should spill into the overflow pipe from above. Fluidmaster says that if it's inserted too far into the overflow pipe, you should pull it out and reattach it to the outside of the pipe. That alone often stops a tank-to-bowl leak and the ghost flushing that comes with it.
+The thin tube from the fill valve should spill into the overflow pipe from above. Fluidmaster says that if it's inserted too far into the overflow pipe, you should pull it out and reattach it to the outside of the pipe. That can stop the siphoning and the ghost flushing that comes with it.
 
 ## If it's the flapper: inspect or replace?
 
@@ -74,7 +74,7 @@ Fluidmaster's rule is simple:
 - **More than 5 years old:** just change it.
 - **Under 5 years old:** clean it first. Wipe the slime and debris off the underside of the flapper and off the flush valve seat it closes against. Run a finger around the seat rim and feel for nicks or rough spots.
 
-If the seat on a brass flush valve is pitted or nicked, Fluidmaster says a new flapper won't seal and the flush valve needs replacing. Plastic seats may be repairable.
+If the seat on a brass flush valve is damaged, Fluidmaster says to replace the flush valve.
 
 ### Buy the right size
 
@@ -84,7 +84,7 @@ While the tank is open, check the chain. Fluidmaster recommends about 1/4 to 1/2
 
 ### If you use drop-in tank tablets
 
-Fluidmaster links warped flappers to chlorine tablets in the tank, and it warns against bleach or chlorine drop-in cleaners because they can damage tank parts and cause flooding.
+Fluidmaster links warped flappers to chlorine tablets in the tank, and it says not to use in-tank drop-in cleaners that contain bleach or chlorine.
 
 Kohler's installation guide goes further. It says chlorine products (calcium hypochlorite) can seriously damage the fittings in the tank, and that using in-tank toilet cleaners voids its one-year warranty. If you have a tablet in the tank and the flapper is leaking, take the tablet out when you replace the flapper.
 
@@ -98,7 +98,7 @@ Fluidmaster lists three places tank water escapes outside the toilet:
 - **The supply line.** Fluidmaster suggests replacing any supply line older than 5 years.
 - **The tank-to-bowl seals.** Water running from under the tank onto the bowl means the gasket or bolt washers have failed. The fix is a new gasket, bolts, and washers. Kohler's instructions say to tighten the bolts evenly, not one side at a time.
 
-A wet floor around the base of the bowl, rather than under the tank, is usually a different repair (the seal between the toilet and the floor drain). If you're unsure whether to take on a tank removal yourself, here's [how to decide whether a repair is worth calling a pro for](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html).
+A wet floor around the base of the bowl, rather than under the tank, isn't one of these tank leak points. If you're unsure whether to take on a tank removal yourself, here's [how to decide whether a repair is worth calling a pro for](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html).
 
 ## What a ghost flush costs: work it out with a stopwatch
 
@@ -123,21 +123,21 @@ Swap in your own numbers. The estimate is rough, because part of each refill goe
 
 ### Should I replace the fill valve? It's the part making the noise.
 
-Not first. The fill valve runs because the tank lost water. Fluidmaster's order is: refill tube, then flapper and seat, then the flush valve. Replace the fill valve only if the water level rises high enough to spill into the overflow pipe and cleaning the valve doesn't stop it.
+Not first. The fill valve runs because the tank lost water. Fluidmaster's order is: refill tube, then flapper and seat, then the flush valve. Look at the fill valve only if the water level rises high enough to spill into the overflow pipe; Fluidmaster's fix for that is to clean the valve, since dirt and debris can lodge inside it.
 
 ### The dye test showed nothing, but it still refills. What now?
 
-Do the pencil test with the water shut off. Fluidmaster notes that dye can miss slow leaks. If the level still doesn't drop, recheck the bolts, the gasket area, and the supply connection for an external leak.
+Do the pencil test with the water shut off, and keep checking every 15 minutes until the level stops changing. Fluidmaster notes that dye can miss slow leaks. Also look for wet spots at the bolts, the gasket area, and the fill valve locknut, and check whether the water level rises into the overflow pipe.
 
 ### How long does a flapper last?
 
-None of these sources gives a lifespan. Fluidmaster's rule is to replace any flapper over 5 years old instead of trying to clean it. Chlorine tablets in the tank warp them sooner.
+None of these sources gives a lifespan. Fluidmaster's rule is to replace any flapper over 5 years old instead of trying to clean it. Fluidmaster also links chlorine tablets in the tank to warped flappers.
 
 ## Sources
 
 - [Fix a Leak Week (EPA WaterSense)](https://www.epa.gov/watersense/fix-leak-week) — the 10-minute food-coloring dye test
 - [Toilet Flushing On Its Own (Fluidmaster)](https://fluidmaster.com/toilet-problems/solutions-toilet-making-refill-sounds/) and [Leaking Toilet Flapper (Fluidmaster)](https://fluidmaster.com/toilet-problems/identify-fix-toilet-flapper-leaks/) — refill tube fix, the slow-leak pencil test, the 5-year flapper rule, seat inspection, chain slack, external leak points, chlorine tablets
-- [How To Fix Running Toilet (Fluidmaster)](https://fluidmaster.com/toilet-problems/toilet-running-constantly/) — flapper first, then flush valve; water spilling into the overflow pipe
+- [How To Fix Running Toilet (Fluidmaster)](https://fluidmaster.com/toilet-problems/toilet-running-constantly/) — flapper first, then flush valve; clean the fill valve if water spills into the overflow pipe
 - [KOHLER toilet installation guide](https://techcomm.kohler.com/techcomm/pdf/1324739-2.pdf) — chlorine cleaners damage tank fittings and void the warranty; tighten tank bolts evenly
 - [Residential Toilets (EPA WaterSense)](https://www.epa.gov/watersense/residential-toilets) — 1.6 and 1.28 gallons per flush, 180 gallons a week from household leaks, worn flappers as the usual toilet leak
 - [Chlorine gas (Poison Control)](https://www.poison.org/articles/chlorine-gas) — never mix bleach with acidic cleaners

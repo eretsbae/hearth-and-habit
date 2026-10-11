@@ -21,23 +21,23 @@ enriched: '2026-10-11'
 
 If the smell survives a full clean-out, it's coming from residue somewhere that doesn't look like storage, or from outside the cabinet. Where it's strongest tells you which spot to check.
 
-The usual hiding places are drawer channels, door gasket folds, the defrost drain and drip pan, and the ice and water system. Outside the cabinet, the classic culprit is something that died behind the unit.
+The usual hiding places are drawer channels, door gasket folds, the defrost drain and drip pan, and the ice and water system. Outside the cabinet, it can be a rodent that died behind the unit.
 
 Before the hunt, one point that matters more than the smell itself: odor tells you nothing about whether your food is safe. USDA's food-safety service says the bacteria that cause food poisoning generally don't change how food looks, smells, or tastes. So the first check is temperature, not your nose.
 
 ## First, rule out a warm fridge
 
-A fridge running warm makes food spoil faster and everything smell stronger. It also shortens how long leftovers stay safe, which no amount of cleaning fixes.
+USDA's storage windows for leftovers assume a fridge at 40°F or below. A fridge running warm is a safety problem that no amount of cleaning fixes.
 
 The FDA's targets are **40°F (4°C) or below** in the fridge and **0°F (-18°C)** in the freezer. The FDA calls an appliance thermometer the best way to know those temperatures and suggests checking it at least once a week. The dial on the control panel is a setting, not a reading.
 
-Put the thermometer on a middle shelf and read it the next morning. If it's above 40°F:
+Put an appliance thermometer in the fridge and read it. If it's above 40°F:
 
-- **Make room for air to move.** The FDA warns against packing the fridge so tightly that air can't circulate. A crammed shelf in front of the vents is a common cause of warm spots.
-- **Check the door seal.** A gasket that doesn't close firmly lets warm, humid kitchen air in.
-- **Recheck after adjusting.** Give it a day before reading the thermometer again.
+- **Make room for air to move.** The FDA warns against packing the fridge so tightly that air can't circulate.
+- **Check the door seal.** A gasket that doesn't close firmly lets warm kitchen air in.
+- **Recheck after adjusting.** Read the thermometer again once the fridge has had time to settle.
 
-At 40°F or below, USDA's window for cooked leftovers is 3 to 4 days. Count the days rather than sniffing the container; here's [how long leftovers really last](https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html).
+At 40°F or below, USDA's window for cooked leftovers is 3 to 4 days. That window assumes the fridge held 40°F or below the whole time. Count the days rather than sniffing the container; here's [how long leftovers really last](https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html).
 
 ## Find the source by where the smell is strongest
 
@@ -65,7 +65,7 @@ Use one product at a time. Never mix bleach with ammonia or with acids like vine
 
 ### Door gasket
 
-The rubber seal has folds that trap crumbs and drips, and it's dark enough that grime doesn't show. Run a soft brush with detergent and water through every fold, then dry it. If you find mold on a hard or rubber surface, the EPA's method is to scrub it off with detergent and water and dry it completely. Drying is the step people skip, and damp folds simply grow it back.
+The rubber seal has folds that trap crumbs and drips, and it's dark enough that grime doesn't show. Run a soft brush with detergent and water through every fold, then dry it. If you find mold on a hard surface, the EPA's method is to scrub it off with detergent and water and dry it completely. Don't skip the drying.
 
 ### Defrost drain and drip pan
 
@@ -73,27 +73,27 @@ Frost-free fridges melt frost off the cooling coils on a schedule and send the w
 
 1. **Unplug the fridge** before you reach underneath or behind it.
 2. **Find the drain and pan in your owner's manual.** On many models the pan is reached from the front after removing the bottom grille; on others it's from the back.
-3. **Flush the drain** with warm water until it runs through freely.
+3. **Clear the drain** the way your manual describes, until water runs through freely.
 4. **Wash the pan** with detergent and water, then let it dry completely before sliding it back.
 
-A smell that comes back within days of a thorough clean points back to these spots. The EPA notes that a building can smell moldy even when no mold is visible, and the same logic applies inside a fridge.
+A smell that comes back soon after a thorough clean can point back to these spots. The EPA notes that you may suspect mold if a building smells moldy, even when you can't see any, and a similar logic can apply inside a fridge.
 
 ### Ice and water
 
 If the smell or taste is in the ice or the water rather than the air, look at the filter before anything else. GE says to change a refrigerator water filter every six months. If you can't remember the last change, assume it's due.
 
-Old ice also picks up freezer odors. Dump the bin, wash it, and let it dry before the ice maker refills it.
+Old ice can also pick up freezer odors. Dump the bin, wash it, and let it dry before the ice maker refills it.
 
 ### Behind and under the fridge
 
-If the smell is strongest at the bottom grille, along the sides, or from behind, unplug the fridge and pull it out (get help, because it's heavy). A dead mouse or rat in that warm, sheltered space is a classic source of a smell nobody can locate.
+If the smell is strongest at the bottom grille, along the sides, or from behind, unplug the fridge and pull it out (get help, because it's heavy). A dead mouse or rat in that sheltered space can be the source of a smell nobody can locate.
 
 The CDC's cleanup steps:
 
-1. **Air it out first.** Open doors and windows for 30 minutes before you start, and stay out of the area meanwhile.
+1. **Air it out first.** Open doors and windows for 30 minutes before you start.
 2. **Put on rubber or plastic gloves.**
-3. **Mix a fresh bleach solution.** Use 1.5 cups of household bleach per gallon of water (1 part bleach to 9 parts water). Use plain water for this, not any other cleaner.
-4. **Soak, then wait.** Spray the rodent, droppings, and surrounding area, and let it sit 5 minutes, or as long as the disinfectant's label says.
+3. **Mix a fresh bleach solution.** Use 1.5 cups of household bleach per gallon of water (1 part bleach to 9 parts water). Mix it fresh each time.
+4. **Soak, then wait.** Soak the rodent, droppings, and surrounding area, and let it sit 5 minutes, or as long as the disinfectant's label says.
 5. **Never sweep or vacuum droppings or nesting material.** Wipe them up with paper towels.
 6. **Double-bag it.** Put the rodent and any traps in a plastic bag and knot it, then knot that inside a second bag. Discard it in a covered garbage can.
 7. **Clean your hands twice.** Wash gloved hands with soap and water or disinfectant before taking the gloves off, then wash bare hands.
@@ -102,7 +102,7 @@ Then look for the gap where it got in.
 
 ## What baking soda can and can't do
 
-An open box of baking soda or an odor filter can soften a lingering smell in a fridge that's already clean. GE suggests an odor eliminator for that purpose, and some of its models have a built-in odor filter. None of these removes a source sitting in a drain, a gasket fold, or under a drawer. If a smell persists with an absorber in place, go back to the table above.
+An odor eliminator, or the usual open box of baking soda, is for a lingering smell in a fridge that's already clean. GE suggests an odor eliminator to remove unwanted smells, and some of its models have a built-in odor filter. None of these removes a source sitting in a drain, a gasket fold, or under a drawer. If a smell persists with an absorber in place, go back to the table above.
 
 A fridge also can't clean itself with a hot cycle the way a [dishwasher with a lingering smell](https://www.hearth-habit.com/2026/08/why-does-my-dishwasher-smell-even-after.html) can. Every one of these spots needs physical cleaning.
 
@@ -117,15 +117,15 @@ A fridge also can't clean itself with a hot cycle the way a [dishwasher with a l
 
 ### Is food in a smelly fridge still safe to eat?
 
-Go by time and temperature, not by odor. If the thermometer reads 40°F or below and a food is within its storage window, a smell in the cabinet doesn't make it unsafe. A food that smells fine isn't automatically safe either. Porous and uncovered foods like butter and open containers can pick up odors, so keep things sealed while you clean. Our [food safety rules in one place](https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html) cover storage windows by food.
+Go by time and temperature, not by odor. Check that the fridge has held 40°F or below and that each food is still within its storage window; the smell in the cabinet doesn't tell you either way. A food that smells fine isn't automatically safe, and anything past its window goes, however it smells. Keep food covered while you hunt for the source. Our [food safety rules in one place](https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html) cover storage windows by food.
 
 ### Why does the smell come back a few days after I clean?
 
-Usually because a wet spot was cleaned but not dried, or wasn't reached at all. The drip pan, the defrost drain, and gasket folds hold moisture. Clean them, dry them completely, and recheck the thermometer.
+A likely reason is a wet spot that was cleaned but not dried, or wasn't reached at all. The drip pan, the defrost drain, and gasket folds hold moisture. Clean them, dry them completely, and recheck the thermometer.
 
 ### Could the smell be coming from the freezer?
 
-Yes. In most fridges, air moves between the two compartments, so an uncovered package or old ice in the freezer can scent the whole unit. Search it with the same table.
+It can. In a fridge where air moves between the two compartments, an uncovered package or old ice in the freezer can scent the whole unit. Search it with the same table.
 
 ## Sources
 

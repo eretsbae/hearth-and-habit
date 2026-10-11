@@ -2,7 +2,7 @@
 title: 'Clutter Keeps Coming Back? Match the Problem to the Fix'
 slug: clutter-keeps-coming-back-which-fix
 date: '2026-09-29'
-description: "Clutter returns when things lack a home, storage is full, or resets are too far apart. A 10-minute pile audit shows which, plus when it's more than clutter."
+description: "Clutter returns when things lack a home, storage is full, or resets are too far apart. A quick pile audit shows which, plus when it's more than clutter."
 tags:
 - decluttering
 - home organization
@@ -21,7 +21,7 @@ enriched: '2026-10-11'
 
 Clutter keeps coming back because its cause is still in place: things with no home, more things than your storage holds, or tidy-ups too far apart, often with one person doing all of them. Sorting the pile that came back tells you which one you have.
 
-Cleaning harder treats all three the same way, which is why the pile returns. The audit below takes about ten minutes and turns "I'm just messy" into a specific fix. At the end is the short list of signs that it's more than clutter, which needs a different kind of help.
+Cleaning harder treats all three the same way, which is why the pile returns. The audit below is quick and turns "I'm just messy" into a specific fix. At the end is the short list of signs that it's more than clutter, which needs a different kind of help.
 
 ## The pile audit: sort what came back by why it's there
 
@@ -47,7 +47,7 @@ Here's a hypothetical counter pile of 24 items:
 
 No home is the biggest group: 11 ÷ 24 = 0.46, or about 46% of the pile. Not put back comes second at 8 ÷ 24 = 0.33, about 33%. Buying bins or doing a bigger purge wouldn't fix this counter. Giving mail and chargers a real address would, followed by a daily habit for the rest.
 
-Run the same count on your own pile. If one group is more than half, you have a single problem. If two groups are close, fix the larger one first and recount in two weeks.
+Run the same count on your own pile. If one group is more than half, you have a single problem. If two groups are close, fix the larger one first, then recount.
 
 ## If most of it has no home (Group A)
 
@@ -61,7 +61,7 @@ Old batteries often turn up in this pile. Keep lithium-ion and button or coin ba
 
 No system fits more than the storage holds. If Group B wins, reduce the volume of that one home: the stuffed cabinet, the closet, the overflowing drawer. Don't start on the whole house. If starting is the hard part, [begin with a single drawer](https://www.hearth-habit.com/2026/07/how-to-declutter-when-youre-overwhelmed.html) and finish it before moving on.
 
-If you plan to donate and deduct, know the IRS rule first. You can't deduct donated clothing or household items unless they're in "good used condition or better." The one exception is a single item you deduct more than $500 for, which needs a qualified appraisal and Form 8283, Section B. The IRS counts furniture, electronics, appliances, and linens as household items. Worn-out items you were planning to write off don't qualify.
+If you plan to donate and deduct, know the IRS rule first. You can't deduct donated clothing or household items unless they're in "good used condition or better." The one exception is a single item you deduct more than $500 for, which needs a qualified appraisal and Form 8283, Section B. The IRS counts furniture, electronics, appliances, and linens as household items. Outside that exception, worn-out items you were planning to write off don't qualify.
 
 ## If things have room but never go back (Group C)
 
@@ -71,9 +71,9 @@ If the house is tidy on Sunday night and messy again by Tuesday, the reset is to
 
 ## If a lot of it belongs to someone else (Group D)
 
-A big Group D often means the tidying falls to one person. National data shows how common that is. In the 2025 American Time Use Survey from the US Bureau of Labor Statistics, 87% of women and 75% of men did some household activities on an average day. That category covers more than tidying, including cooking, laundry, and yard work. On the days they did them, women averaged 2.8 hours and men 2.1.
+A big Group D can mean the tidying falls to one person. National data shows the work isn't split evenly. In the 2025 American Time Use Survey from the US Bureau of Labor Statistics, 87% of women and 75% of men did some household activities on an average day. That category covers more than tidying. On the days they did them, women averaged 2.8 hours and men 2.1.
 
-The same survey found more people doing housework on weekend days (40%) than on weekdays (35%). That fits the pattern of a weekday pileup followed by a weekend catch-up.
+The same survey found more people doing housework on weekend days (40%) than on weekdays (35%). That's consistent with a weekday pileup followed by a weekend catch-up.
 
 The fix is ownership, not more effort from the person already doing it. Each person's things go back to their own homes. Kids' items get homes they can reach. Shared spots, like the entry and the counter, get a named owner for the nightly reset, or a rotation.
 
@@ -85,7 +85,7 @@ The experiment scanned ten people looking at abstract shapes on a screen. The pa
 
 ## When it's more than clutter
 
-Most clutter that keeps coming back fits the four groups above. Sometimes it doesn't. The American Psychiatric Association defines hoarding disorder as persistent difficulty parting with possessions because of a perceived need to save them. It affects about 2.6 percent of people, with higher rates over age 60. It usually starts between ages 15 and 19 and tends to get more severe with age.
+The four groups above cover ordinary clutter. Sometimes it's something else. The American Psychiatric Association defines hoarding disorder as persistent difficulty parting with possessions because of a perceived need to save them. It affects about 2.6 percent of people, with higher rates over age 60. It usually starts between ages 15 and 19 and tends to get more severe with age.
 
 The International OCD Foundation (IOCDF) is clear that clutter alone isn't hoarding. Ordinary clutter may cause mild distress, but it doesn't stop the home from being used as intended. IOCDF lists these warning signs:
 
@@ -95,7 +95,7 @@ The International OCD Foundation (IOCDF) is clear that clutter alone isn't hoard
 - buying or collecting things causes financial strain
 - the clutter causes conflict with family or friends, or leads to pulling away from them
 
-IOCDF also points to the Clutter Image Rating, a set of photos showing rooms at increasing clutter levels. Rooms at the level of picture 4 or higher may reflect enough impact on daily life to qualify for a diagnosis. Its self-check includes questions like losing bills or money in the clutter, having trouble turning down free items, and avoiding having people over. A yes to even one of them suggests a person would benefit from help. IOCDF's resource directory lists specialists.
+IOCDF also points to the Clutter Image Rating, a set of photos showing rooms at increasing clutter levels. Rooms at the level of picture 4 or higher may reflect an impact on daily life that might qualify for a diagnosis. Its self-check includes questions like losing bills or money in the clutter, having trouble turning down free items, and avoiding having people over. A yes to even one of them suggests a person may benefit from seeking help. IOCDF's resource directory lists specialists.
 
 If that describes your home or someone you love, the audit above isn't the right tool, and neither is a forced clean-out.
 

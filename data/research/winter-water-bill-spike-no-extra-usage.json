@@ -1,0 +1,104 @@
+{
+  "reader_situation": "A homeowner opens a winter water bill that is noticeably higher than usual even though nobody is watering a lawn or doing anything new. They suspect a billing error and want to know whether it's a leak, the bill itself, or something seasonal.",
+  "direct_answer": "Usually it's water you can't see leaving through a leak (a toilet flapper, a dripping faucet, or a pipe that cracked in a freeze), or a billing change: an estimated read catching up, a January rate increase, or a sewer charge that is set from winter use. EPA's two checks sort it out: a two-hour meter test with no water running, and comparing your winter gallons with what a household your size should use.",
+  "consensus": [
+    "Check for running toilets with a dye test.",
+    "Do a meter test with all water off.",
+    "Estimated reads can produce catch-up bills.",
+    "Dripping faucets to prevent freezing adds water use.",
+    "Rates can change at the start of the year."
+  ],
+  "gaps": [
+    "Winter is EPA's own leak benchmark: look at usage in a colder month like January or February; if a family of four exceeds 12,000 gallons a month, there could be serious leaks. EPA's average is 82 gallons per person per day, about 10,000 gallons in 30 days for four people.",
+    "Bills are often in CCF: one CCF is 748 gallons (EPA). 12,000 gallons is about 16 CCF.",
+    "Leaks are common and sizable: EPA says the average household's leaks waste more than 9,300 gallons a year, nine percent of homes have leaks wasting 50 gallons or more a day, and fixing easy leaks saves about 10 percent on water bills. A faucet dripping once a second wastes more than 3,000 gallons a year. Flappers should be replaced at least every five years.",
+    "Winter-averaged sewer charges: in places like Austin, the wastewater charge for the next 12 months is set from water use in a three-month late-fall/winter window; conserving during that window lowers the wastewater volume billed each month for the next year, and Austin says wastewater costs more to treat than water. A leak during that window raises a year of sewer bills.",
+    "Rate changes on January 1 are real: Denver Water's 2026 residential rate changes took effect Jan. 1, 2026. Denver also uses tiered pricing (the more you use, the more you pay per unit).",
+    "Estimated bills: Pennsylvania's utility rules (which cover water utilities) let a utility estimate bills when extreme weather prevents meter reading, allow monthly-billed customers to report their own reading instead, and require an actual reading at least once every 12 months.",
+    "Dripping to prevent freezing works but costs water: the Red Cross says to let cold water drip from a faucet served by exposed pipes when it's very cold; Utah State University Extension says running water wastes water and should only be used when more permanent methods (insulation) can't be, and notes hot lines freeze too.",
+    "A frozen line can crack and leak after it thaws, often inside a wall or floor (USU). The old article's 'hundreds of gallons a day' toilet figure, 200 gal/day example and boiler/humidifier claims had no source."
+  ],
+  "evidence": [
+    {
+      "claim": "EPA leak checks and winter benchmark",
+      "detail": "Take a look at your water usage during a colder month, such as January or February. If a family of four exceeds 12,000 gallons per month, there could be serious leaks. Check your water meter before and after a two-hour period when no water is being used; if the meter changes at all, you probably have a leak. Dye test: a few drops of food coloring in the tank; color in the bowl after 10 minutes means a leak.",
+      "source_url": "https://www.epa.gov/watersense/fix-leak-week",
+      "source_title": "Fix a Leak Week | US EPA WaterSense"
+    },
+    {
+      "claim": "How much leaks waste and what fixing saves",
+      "detail": "The average household's leaks can account for more than 9,300 gallons wasted every year and nine percent of homes have leaks that waste 50 gallons or more per day. Common leaks are worn toilet flappers, dripping faucets and other leaking valves. Fixing easily corrected leaks can save about 10 percent on water bills. Flappers should be replaced at least every five years; a worn flapper can silently leak thousands of gallons a year. A faucet dripping one drip per second can waste more than 3,000 gallons per year.",
+      "source_url": "https://www.epa.gov/watersense/fix-leak-week",
+      "source_title": "Fix a Leak Week | US EPA WaterSense"
+    },
+    {
+      "claim": "Household water use and leak totals",
+      "detail": "Each American uses an average of 82 gallons of water a day at home. The average family can waste 180 gallons per week, or 9,400 gallons annually, from household leaks. The average family spends more than $1,000 per year in water costs.",
+      "source_url": "https://www.epa.gov/watersense/statistics-and-facts",
+      "source_title": "Statistics and Facts | US EPA WaterSense"
+    },
+    {
+      "claim": "Reading the bill: units, normal use, rate structures",
+      "detail": "The most common units are CCF (hundred cubic feet) and the gallon; one CCF equals 748 gallons. The average American uses around 82 gallons per day; a family of four would use around 10,000 gallons in a 30-day period. If your water use increases and you haven't been watering outdoors more than normal or at all, it could be the sign of a leak. Rate types include uniform, increasing block, seasonal (lower winter rates), drought and water-budget rates.",
+      "source_url": "https://www.epa.gov/watersense/understanding-your-water-bill",
+      "source_title": "Understanding Your Water Bill | US EPA WaterSense"
+    },
+    {
+      "claim": "Winter wastewater averaging",
+      "detail": "Wastewater averaging takes place during the late fall/winter months; the average is based on meter readings over three consecutive months and sets a fixed monthly wastewater fee that won't go up regardless of how much water you use the rest of the year. Conserving water during the averaging period will lower the volume of wastewater you will be billed for each month for the next year. Wastewater is costlier to treat than water. Read dates may be modified if meter read schedules change, e.g. weather conditions. Residential default average is 5,000 gallons if two of three months show zero use.",
+      "source_url": "https://www.austintexas.gov/department/wastewater-averaging",
+      "source_title": "Wastewater Averaging | Austin Water"
+    },
+    {
+      "claim": "January rate changes and tiered pricing",
+      "detail": "Residential customers are charged on a tiered structure: the more you use, the more you pay. 2026 residential water rate changes effective Jan. 1, 2026.",
+      "source_url": "https://www.denverwater.org/residential/billing-and-rates",
+      "source_title": "Billing & Rates | Denver Water"
+    },
+    {
+      "claim": "When utilities may estimate bills",
+      "detail": "A public utility shall bill on actual meter readings except as provided. Monthly-billed utilities may estimate every other month if the customer can read the meter and report usage instead. A utility may estimate if extreme weather conditions, emergencies, equipment failure or other circumstances prevent actual meter reading. When access is the problem, the utility must get an actual or customer reading at least every 6 months and an actual meter reading at least once every 12 months. Remote-read meters (water, gas, electric) must be verified by an actual reading at least once every 5 years.",
+      "source_url": "https://www.law.cornell.edu/regulations/pennsylvania/52-Pa-Code-SS-56-12",
+      "source_title": "52 Pa. Code § 56.12 - Meter reading; estimated billing; customer readings (LII)"
+    },
+    {
+      "claim": "Dripping a faucet to prevent freezing",
+      "detail": "When the weather is very cold outside, let the cold water drip from the faucet served by exposed pipes. Running water through the pipe, even at a trickle, helps prevent pipes from freezing. Likely places for frozen pipes include against exterior walls or where water service enters through the foundation.",
+      "source_url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html",
+      "source_title": "Preventing & Thawing Frozen Pipes | American Red Cross"
+    },
+    {
+      "claim": "Running water wastes water; frozen pipes crack and leak on thaw",
+      "detail": "Leaving a faucet running will work, but it wastes water and should only be done when other, more permanent methods can't be used; hot waterlines freeze too. As water freezes it expands and can crack or split pipes; when the pressurized line thaws, the leak can cause substantial damage, and a leak inside a wall, below the floor or above a ceiling can be difficult to reach and expensive to repair. Insulation won't protect pipes from prolonged freezing without some heat or periodic water flow.",
+      "source_url": "https://extension.usu.edu/preparedness/articles-and-research/advice-to-prevent-frozen-pipes",
+      "source_title": "Advice to Prevent Frozen Pipes | Utah State University Extension"
+    }
+  ],
+  "real_questions": [
+    "Is my winter bill high because of a leak or a billing error?",
+    "How do I read my water meter for a leak?",
+    "How much water should a family of four use in January?",
+    "Why does winter water use affect my sewer bill all year?",
+    "Does dripping faucets in a freeze cost much?",
+    "What if my bill was estimated?"
+  ],
+  "original_asset": {
+    "type": "worked_example",
+    "spec": "Winter usage benchmark table (82 gal/person/day × 30 days, converted to CCF at 748 gal) against EPA's 12,000-gallon red flag; leak arithmetic for a 50 gal/day leak (EPA's 9% of homes) and its effect on a winter-averaged sewer charge over 12 months (Austin); a diagnostic checklist: meter test, bill line items, estimated read, rate change."
+  },
+  "cautions": [
+    "Know where your main shutoff is (USU).",
+    "Don't thaw pipes with open flame or boiling water (USU).",
+    "Do not attribute a specific daily gallons figure for a running toilet to EPA (registry)."
+  ],
+  "sources": {
+    "https://www.epa.gov/watersense/fix-leak-week": "Fix a Leak Week | US EPA WaterSense",
+    "https://www.epa.gov/watersense/statistics-and-facts": "Statistics and Facts | US EPA WaterSense",
+    "https://www.epa.gov/watersense/understanding-your-water-bill": "Understanding Your Water Bill | US EPA WaterSense",
+    "https://www.austintexas.gov/department/wastewater-averaging": "Wastewater Averaging | Austin Water",
+    "https://www.denverwater.org/residential/billing-and-rates": "Billing & Rates | Denver Water",
+    "https://www.law.cornell.edu/regulations/pennsylvania/52-Pa-Code-SS-56-12": "52 Pa. Code § 56.12 - Meter reading; estimated billing; customer readings (LII)",
+    "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/winter-storm/frozen-pipes.html": "Preventing & Thawing Frozen Pipes | American Red Cross",
+    "https://extension.usu.edu/preparedness/articles-and-research/advice-to-prevent-frozen-pipes": "Advice to Prevent Frozen Pipes | Utah State University Extension"
+  }
+}

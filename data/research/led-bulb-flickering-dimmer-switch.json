@@ -1,0 +1,100 @@
+{
+  "reader_situation": "Someone screwed a new LED bulb into a fixture on a wall dimmer and it flickers, strobes, buzzes, or cuts out at the low end. They want to know if that's expected, whether it's dangerous, and whether to swap the bulb or the dimmer.",
+  "direct_answer": "It's common but it isn't how a good pairing should behave. Flicker on a dimmer means the bulb's driver and the dimmer aren't compatible, usually a dimmer that isn't rated for LEDs or a bulb that isn't dimmable or isn't on that dimmer's compatibility list. Confirm the bulb says dimmable, use an LED-rated dimmer (ideally marked NEMA SSL 7A), check the maker's compatibility list, and set the dimmer's low-end adjustment.",
+  "consensus": [
+    "Use bulbs labeled dimmable.",
+    "Old incandescent dimmers often cause LED flicker; replace with an LED-compatible dimmer.",
+    "Leading-edge vs trailing-edge dimmers behave differently with LEDs.",
+    "Check manufacturer compatibility lists.",
+    "Flicker across many fixtures points to wiring or voltage problems for an electrician."
+  ],
+  "gaps": [
+    "Why LEDs flicker when incandescents didn't: DOE explains incandescent filaments stay hot through the gaps in AC power, but LEDs have no persistence and depend on the driver; with a driver not designed to respond to a dimmer, an LED can flicker as much as 100 percent, from on to full off.",
+    "'Dimmable' on the box is narrower than people think: ENERGY STAR's lamp spec has dimmable bulbs tested on at least 5 dimmers from at least 2 manufacturers, requires only 80% of tested combinations to meet each dimming requirement, and asks packaging to put an asterisk by 'dimmable' pointing to an 'only compatible with…' statement.",
+    "There is a standard for this pairing: NEMA SSL 7A (2015) sets compatibility requirements for forward-phase (leading-edge) dimmers with dimmable LEDs; California's 2019 Title 24 requires forward-phase dimmers used with LEDs in new homes to comply. Look for 'SSL 7A' on the dimmer package. It does not cover reverse-phase (ELV) or 0-10V dimmers.",
+    "NEMA's LED Dimming Compatibility logo marks bulbs and dimmers that work together and dim down to 20% of maximum light; many LED bulbs go lower.",
+    "Low-end trim is a real fix: Leviton says to check the dimmer instruction sheet for an adjustment that sets the minimum light level, which helps smooth dimming if flicker or other glitches appear. Leviton notes changing it can take a dimmer out of SSL 7A compliance.",
+    "Trailing-edge (ELV/reverse-phase) dimmers need a neutral wire in the box (Leviton), which many older wall boxes lack. No-neutral dimmers that leak a little current to ground are allowed in retrofits but limited to 5 per branch circuit under NEC 2017, per Leviton.",
+    "LED dimmer capacity is printed separately: Leviton's LED dimmers are rated 150 W to 450 W of LED load, while its guide lists incandescent capacity as 600 W per dimmer; LED loads need no derating when dimmers share a box.",
+    "Flicker isn't only cosmetic: DOE says flicker can range from uncomfortable or distracting to harmful or, rarely, dangerous, and sensitivity varies widely between people. IEEE 1789 (2015), per DOE, sets a low-risk level of 0.08 × frequency in percent flicker (about 10% at 120 Hz).",
+    "The old article's 25–40 W minimum loads, 6–10 W LED draw, $3–10 and $15–40 prices, 600 W/150 W example and 'more than 10–15 years old' cutoff had no source and are removed."
+  ],
+  "evidence": [
+    {
+      "claim": "Why LEDs flicker on dimmers",
+      "detail": "Incandescent lamps keep delivering light through the zero points of the AC waveform because the filament stays hot; LEDs have no persistence and are basically on or off. Some drivers maintain LED output over time; if LEDs are not paired with a good driver, or a driver designed to respond to the output of a dimmer, they can flicker as much as 100 percent, from on to full off. Flicker can cause headaches and, in some cases, seizures; thresholds for different reactions are not known.",
+      "source_url": "https://www.energy.gov/cmei/ssl/flicker-basics",
+      "source_title": "Flicker Basics | Department of Energy"
+    },
+    {
+      "claim": "Flicker effects and individual variation",
+      "detail": "Temporal light modulation can cause visual effects ranging from uncomfortable or distracting to harmful or (rarely) dangerous. LEDs have little thermal or phosphor persistence, so they respond rapidly to the current from the driver/dimmer electronics. There is wide individual variation in responses; some see flicker clearly where others see none.",
+      "source_url": "https://www.energy.gov/cmei/ssl/flicker-research",
+      "source_title": "Flicker Research | Department of Energy"
+    },
+    {
+      "claim": "IEEE 1789 flicker guidance",
+      "detail": "IEEE published P1789 in 2015. Its no-observable-effect level: flicker frequency × 0.03 gives the maximum percent flicker; its low-risk level: frequency × 0.08 gives a maximum percent flicker very unlikely to cause problems in the general population. Lower frequencies are more likely to cause problems.",
+      "source_url": "https://www.energy.gov/cmei/ssl/flicker-measurement-and-standards",
+      "source_title": "Flicker Measurement and Standards | Department of Energy"
+    },
+    {
+      "claim": "What 'dimmable' means under ENERGY STAR",
+      "detail": "Dimmable lamp: capable of reducing light output to 20% or lower with a control. Phase-cut dimmable lamps must be tested with a minimum of 5 dimmers from at least 2 manufacturers (e.g., one LED/CFL-rated, one preset, one forward-phase 600 W, one reverse-phase). 80% of tested lamp/dimmer combinations must meet the maximum and minimum light output requirements. Packaging should put an asterisk next to 'dimmable' pointing to a statement like 'only compatible with…'. Percent flicker, flicker index and other flicker metrics must be reported. Lamps from NEMA LED Dimming Compatibility Program companies may be tested with an SSL 7A-compliant dimmer.",
+      "source_url": "https://www.energystar.gov/sites/default/files/ENERGY%20STAR%20Lamps%20V2.1%20Final%20Specification.pdf",
+      "source_title": "ENERGY STAR Program Requirements for Lamps (Light Bulbs), Version 2.1"
+    },
+    {
+      "claim": "NEMA SSL 7A, Title 24, and the NEMA compatibility logo",
+      "detail": "NEMA SSL 7A (2015) provides compatibility requirements when a forward phase-cut dimmer is combined with dimmable LED light engines, including screw-in LED lamps. 2019 California Title 24 section 150.0(k)2A: all forward phase-cut dimmers used with LED light sources shall comply with NEMA SSL 7A. Does not apply to reverse-phase ELV or 0-10V dimmers. NEMA's LED Dimming Compatibility Program logo identifies products that will dim down to 20% of maximum light level (many LED bulbs dim lower). Look for SSL 7A on the product or packaging. Leviton dimmers are SSL 7A compliant in factory default state; changes to the minimum adjustment may render them non-compliant. Leviton's listed LED dimmers are rated 150W, 300W, 400W or 450W LED.",
+      "source_url": "https://www.leviton.com/content/dam/leviton/residential/product_documents/application_note/NEMA_SSL_7A_Dimmer_Compliance_Application_Note.pdf",
+      "source_title": "NEMA Dimmer Compliance Application Note | Leviton"
+    },
+    {
+      "claim": "Neutral and no-neutral dimmers under NEC 2017",
+      "detail": "NEC 2017 prohibits current on the equipment grounding conductor during normal operation (effective January 1, 2020), with an exception for retrofit and replacement where no neutral is in the wallbox. Devices that introduce current to the grounding conductor or are listed for retrofit only are limited to 5 per branch circuit and 25 per feeder.",
+      "source_url": "https://www.leviton.com/content/dam/leviton/residential/product_documents/none/Dimmer-NEMA-SSL-7A-Solution-Sheet.pdf",
+      "source_title": "LED Dimmer Controls: Title 24 and NEC 2017 Solution Sheet | Leviton"
+    },
+    {
+      "claim": "Dimmer types and ratings",
+      "detail": "Incandescent/halogen dimmers are not designed to control LED bulbs and may give inconsistent or limited performance. LED dimmers work with dimmable LED bulbs; a poor pairing causes flickering, limited dimming range, slow start-up or inconsistent illumination. Be sure the bulb package indicates DIMMABLE; most bulb and dimmer makers list compatibility on their websites. ELV dimmers are also called trailing-edge or reverse-phase, require a neutral wire, and perform well with LED bulbs. Incandescent/halogen capacity 600W per dimmer (one dimmer in a box); derating is not required with dimmable LED or CFL bulbs. Some dimmers need a neutral wire for the additional electricity used to power the dimmer; some release small amounts through the ground.",
+      "source_url": "https://www.leviton.com/content/dam/leviton/residential/product_documents/none/leviton-dimmer-buying-guide.pdf",
+      "source_title": "Dimmer Buying Guide | Leviton"
+    },
+    {
+      "claim": "Symptoms and fixes from a dimmer manufacturer",
+      "detail": "Dimming glitches with LEDs include noise (buzzing or humming), flickering/strobing/flashing, pop on, drop out or poor/limited dimming range, and ghosting (light glows after being turned off). Fixes: use only LED bulbs labeled DIMMABLE; be certain the dimmer is rated to dim LED bulbs (older models may not be); check the dimmer's instruction sheet for an adjustment to set the minimum light level, which helps ensure smoother dimming; use the manufacturer's LED compatibility tool.",
+      "source_url": "https://www.leviton.com/support/literature/blogs/how-avoid-flickering-led-lights",
+      "source_title": "How to Avoid Flickering LED Lights | Leviton"
+    }
+  ],
+  "real_questions": [
+    "My LED says dimmable. Why does it still flicker?",
+    "Why does it only flicker at the bottom of the slider?",
+    "Why does my LED glow faintly when the dimmer is off?",
+    "Do I need a trailing-edge dimmer, and can I install one in an old house?",
+    "Is LED flicker bad for my eyes or a fire risk?",
+    "Should I replace the bulb or the dimmer first?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "Symptom-to-fix table (flicker at low end, pop-on, buzz, ghosting, flicker at all levels, many fixtures) and a four-check sequence: dimmable label and asterisk statement (ENERGY STAR), LED-rated dimmer with SSL 7A (NEMA/Leviton), compatibility list, low-end trim (Leviton). Plus a worked example of the IEEE 1789 low-risk level at 120 Hz (DOE)."
+  },
+  "cautions": [
+    "Turn off the breaker before replacing a dimmer.",
+    "A dimmer that is hot to the touch or smells like burning should be switched off and checked by an electrician.",
+    "Flicker on several circuits or non-dimmer switches is a wiring or supply issue for an electrician.",
+    "No-neutral dimmers are a retrofit exception with per-circuit limits; trailing-edge dimmers need a neutral."
+  ],
+  "sources": {
+    "https://www.energy.gov/cmei/ssl/flicker-basics": "Flicker Basics | Department of Energy",
+    "https://www.energy.gov/cmei/ssl/flicker-research": "Flicker Research | Department of Energy",
+    "https://www.energy.gov/cmei/ssl/flicker-measurement-and-standards": "Flicker Measurement and Standards | Department of Energy",
+    "https://www.energystar.gov/sites/default/files/ENERGY%20STAR%20Lamps%20V2.1%20Final%20Specification.pdf": "ENERGY STAR Program Requirements for Lamps (Light Bulbs), Version 2.1",
+    "https://www.leviton.com/content/dam/leviton/residential/product_documents/application_note/NEMA_SSL_7A_Dimmer_Compliance_Application_Note.pdf": "NEMA Dimmer Compliance Application Note | Leviton",
+    "https://www.leviton.com/content/dam/leviton/residential/product_documents/none/Dimmer-NEMA-SSL-7A-Solution-Sheet.pdf": "LED Dimmer Controls: Title 24 and NEC 2017 Solution Sheet | Leviton",
+    "https://www.leviton.com/content/dam/leviton/residential/product_documents/none/leviton-dimmer-buying-guide.pdf": "Dimmer Buying Guide | Leviton",
+    "https://www.leviton.com/support/literature/blogs/how-avoid-flickering-led-lights": "How to Avoid Flickering LED Lights | Leviton"
+  }
+}

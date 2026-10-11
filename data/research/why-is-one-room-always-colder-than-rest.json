@@ -51,7 +51,7 @@
     },
     {
       "claim": "Recommended insulation levels",
-      "detail": "Floor: R13 (zones 1-2), R19 (zones 3, 4A, 4B), R30 (zones 4C, 5, 6), R38 (zones 7-8). Attic if uninsulated: R30 (zone 1), R49 (zones 2-3), R60 (zones 4-8); if 3-4 inches already: R25 to R49.",
+      "detail": "Floor: R13 (zones 1-2), R19 (zones 3, 4A, 4B), R30 (zones 4C, 5, 6), R38 (zones 7-8). Attic if uninsulated: R30 (zone 1), R49 (zones 2-3), R60 (zones 4-8); if 3-4 inches already: R25 (zone 1), R38 (zones 2-3), R49 (zones 4-8).",
       "source_url": "https://www.energystar.gov/saveathome/seal_insulate/identify-problems-you-want-fix/diy-checks-inspections/insulation-r-values",
       "source_title": "Recommended Home Insulation R-Values | ENERGY STAR"
     },

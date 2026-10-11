@@ -22,11 +22,11 @@ enriched: '2026-10-11'
 
 Greens that go limp or slimy in two days are usually too warm, losing water to dry air, or sitting next to ripening fruit. Keep them at 32–34°F in high humidity, and away from apples and pears.
 
-A few degrees of fridge temperature matter more than most storage tricks. Cold-storage figures for bagged cut lettuce show a shelf life of about three weeks at 32°F, but only 5 to 10 days at 41°F. That gap explains most "it was fine on Sunday" complaints. The sections below show how to read what your greens are telling you and how to set up the fridge so the next batch lasts.
+A few degrees of fridge temperature matter more than most storage tricks. Cold-storage figures for bagged cut lettuce show a shelf life of about three weeks at 32°F, but only 5 to 10 days at 41°F. That gap explains many "it was fine on Sunday" complaints. The sections below show how to read what your greens are telling you and how to set up the fridge so the next batch lasts.
 
 ## Temperature decides most of the shelf life
 
-The Global Cold Chain Alliance publishes the WFLO Commodity Storage Manual, a warehouse guide reviewed by a University of Florida postharvest scientist. It gives these shelf lives for shredded lettuce sealed in the kind of breathable film used for bagged salad:
+The Global Cold Chain Alliance publishes the WFLO Commodity Storage Manual, a cold-storage reference for warehouses. It gives these shelf lives for shredded lettuce packed in modified-atmosphere film, the kind of bag used for bagged salad, and for prepackaged spinach:
 
 | Storage temperature | Bagged cut lettuce (WFLO) | Prepackaged spinach (WFLO) |
 |---|---|---|
@@ -40,13 +40,13 @@ Two points in this table catch most people out:
 - **The clock starts at packing, not at purchase.** These are shelf lives from the packing house onward. Greens you bring home have already used part of that time in trucks and on the shelf, so what's left depends on how cold they were kept.
 - **40°F is a food-safety ceiling, not a target for greens.** FDA says to keep produce in a refrigerator at 40°F or below. Greens last longer well below that ceiling. The manual's storage target for lettuce is 32–34°F at 95–100% relative humidity. NC State Extension uses 32°F and 90–95% humidity for leafy greens generally.
 
-Since you can't see your fridge's temperature, put an appliance thermometer next to the greens for a day. If it reads in the 40s°F, turn the control colder before you change anything else.
+Since you can't see your fridge's temperature, put an appliance thermometer next to the greens. If it reads in the 40s°F, turn the control colder before you change anything else.
 
 ![Bar chart of bagged lettuce shelf life by fridge temperature: 21 days at 32°F, 14–18 at 36°F, 5–10 at 41°F, 3–5 at 50°F](/images/why-greens-wilt-fast-how-to-store-them-diagram.svg)
 
 ### Too cold is a problem too
 
-The same manual puts the freezing point of iceberg lettuce at 31.3°F and other lettuces at 31.7°F. So the ideal range starts less than a degree above the point where lettuce freezes. Mississippi State University Extension notes that temperatures inside one fridge can range from 32°F at the back to 39°F near the door. Greens pressed against the back wall can freeze, while greens in the door shelves sit at the warm end. The middle of a high-humidity crisper drawer, not touching the back wall, is the most reliable spot.
+The same manual puts the freezing point of iceberg lettuce at 31.3°F and other lettuces at 31.7°F. So the ideal range starts less than a degree above the point where lettuce freezes. Mississippi State University Extension notes that temperatures inside one fridge can range from 32°F at the back to 39°F near the door. Greens pressed against the back wall can freeze, while greens in the door shelves sit at the warm end. The high-humidity crisper drawer, with greens not touching the back wall, is a safer spot.
 
 ## What your wilted greens are telling you
 
@@ -55,7 +55,7 @@ Different failures have different causes, and the fix depends on which one you'r
 | What you see | Likely cause | What to change |
 |---|---|---|
 | Limp, soft leaves that aren't slimy | Water loss in dry air | Use the high-humidity drawer and a loosely closed container |
-| Slimy, water-soaked, mushy patches | Bacterial soft rot, which starts at damaged leaves and grows faster when warm | Colder storage, and pick out bruised or torn leaves early |
+| Slimy, water-soaked, mushy patches | Bacterial soft rot, which starts at damaged leaves and is held back by cooling below 36°F | Colder storage, and pick out bruised or torn leaves early |
 | Small rust-brown spots on the ribs | Russet spotting from ethylene gas | Keep greens away from apples, pears, peaches, and melons |
 | Spinach turning yellow | Storage above 32°F | Colder storage, and eat spinach first |
 | Glassy or collapsed leaves after a few days | Frozen in a too-cold spot | Move them away from the back wall |
@@ -66,7 +66,7 @@ Leafy greens lose water through their leaves, and limp leaves have lost too much
 
 ### Slimy: soft rot is spreading
 
-The WFLO manual describes bacterial soft rot as water-soaked tissue that quickly turns wet and mushy. It starts where leaves were injured, and prompt cooling below 36°F holds it back. That's why one crushed leaf at the bottom of a bag can ruin the whole bag. When you open a bag or unpack a head, pick out torn or bruised leaves and drain any standing water.
+The WFLO spinach manual describes bacterial soft rot as water-soaked tissue that quickly turns wet and mushy. It starts where leaves were injured, and prompt cooling below 36°F holds it back. So when you open a bag or unpack a head, pick out torn or bruised leaves.
 
 Slimy greens go in the trash, not back in the drawer. FDA says to throw away any produce that looks rotten. Smell won't tell you if they're safe, because USDA notes that the bacteria that cause food poisoning generally don't change how food smells.
 
@@ -74,11 +74,11 @@ Slimy greens go in the trash, not back in the drawer. FDA says to throw away any
 
 Ripening fruit releases ethylene gas, and lettuce is sensitive to it. The WFLO manual calls the resulting damage russet spotting, small tan to olive-brown spots mostly on the midribs. It's worse at 38°F than at 32°F, and the manual's control is to keep lettuce near 32°F and away from apples, pears, cantaloupes, peaches, and honeydew. Mississippi State Extension's list of ethylene-sensitive vegetables includes lettuce, spinach, greens, and herbs, and its list of ethylene producers includes apples, avocados, peaches, pears, plums, and tomatoes.
 
-The manual describes russet spotting as a storage disorder. Once the spots appear, moving the lettuce won't undo them, but it will keep the next head clear.
+The manual notes the spots increase with storage time. Keeping lettuce cold and away from that fruit is prevention, so it helps the next head more than the one already spotted.
 
 ### Yellow spinach: it ran warm
 
-The WFLO manual says spinach should be stored as close to 32°F as possible and that it deteriorates rapidly at higher temperatures, turning yellow. NC State Extension gives spinach and arugula only 4 to 7 days even in commercial cold storage, compared with up to 2 weeks for kale and collards. A bag of spinach will never last as long as a head of romaine, so plan to use it first.
+The WFLO manual says spinach should be stored as close to 32°F as possible and that it deteriorates rapidly at higher temperatures, turning yellow. NC State Extension gives spinach and arugula only 4 to 7 days even at 32°F, compared with up to 2 weeks for kale and collards. Spinach is among the quickest greens to go, so plan to use it first.
 
 ## How long each green should last at home
 
@@ -92,20 +92,22 @@ These are commercial storage lives at ideal temperature and humidity. Expect les
 | Spinach, arugula | 4–7 days | NC State Extension |
 | Bagged spinach | 1–2 weeks at 32°F, about 1 week at 41°F | WFLO |
 
-If you shop once a week, plan meals so the spinach, arugula, and spring mix get eaten in the first half of the week, and the kale, cabbage, and romaine later. The [30-minute Sunday meal plan](https://www.hearth-habit.com/2026/07/the-30-minute-sunday-meal-plan-that.html) makes that easy to build in.
+The two spinach rows come from different sources and don't agree. At home, plan on the shorter NC State figure.
+
+If you shop once a week, plan meals so the spinach, arugula, and spring mix get eaten in the first half of the week, and the kale and romaine later. The [30-minute Sunday meal plan](https://www.hearth-habit.com/2026/07/the-30-minute-sunday-meal-plan-that.html) makes that easy to build in.
 
 ## Washing: what to do and when
 
 - **Bagged greens labeled "ready to eat," "washed," or "triple washed":** don't wash them again. FDA says you can use them without further washing. Re-washing adds a chance of cross-contamination from sinks and colanders.
-- **Loose heads and bunches:** FDA says to wash produce under running water before you prepare or eat it, then dry it with a clean cloth or paper towel. If you wash ahead of time, dry the leaves thoroughly with a salad spinner or towel before they go into the fridge. Damp leaves pressed together in a closed container are the ideal setting for the slime described above.
+- **Loose heads and bunches:** if you wash produce, FDA says to dry it with a clean cloth or paper towel. If you wash ahead of time, dry the leaves thoroughly with a salad spinner or towel before they go into the fridge.
 
-For the rest of the crisper drawer, see [how to store produce so it actually lasts](https://www.hearth-habit.com/2026/07/how-to-store-produce-so-it-actually.html). If the fridge also has a smell you can't place, slimy greens hiding in a back corner are a common source. See [why the fridge smells when you can't find the source](https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html).
+For the rest of the crisper drawer, see [how to store produce so it actually lasts](https://www.hearth-habit.com/2026/07/how-to-store-produce-so-it-actually.html). If the fridge also has a smell you can't place, slimy greens hiding in a back corner can be the source. See [why the fridge smells when you can't find the source](https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html).
 
 ## FAQ
 
 ### Is lettuce with rusty brown spots safe to eat?
 
-The spots are russet spotting, which the WFLO manual lists as a physiological disorder brought on by ethylene and made worse by warmth. It lists the rots separately. If the leaves are also slimy or mushy, that's rot, and they should be thrown away.
+The spots are russet spotting, which the WFLO manual says is induced by ethylene and worse at 38°F than at 32°F. The sources here describe its cause, not whether it's safe to eat. If the leaves are also slimy or mushy, that's rot, and they should be thrown away.
 
 ### Why does my lettuce freeze in the fridge?
 

@@ -35,15 +35,15 @@ Run these with the heat on and the furnace actively blowing.
 | 1. Hold your hand at the room's supply register | Weak or lukewarm air, compared with a register in a comfortable room | Not enough warm air arriving: a blockage or the duct run | Weak air at the register |
 | 1. Same check | Strong, warm air, but the room is still cold | The room loses heat faster than it's supplied | Strong, warm air but still cold |
 | 2. Leave the door open one evening and shut the next, heat on both times | Noticeably colder with the door shut | No return path for air when the door closes | Colder with the door shut |
-| 3. Touch the floor, outside walls, and ceiling; look at where the duct runs | Cold floor over a garage or crawlspace, drafts at trim, ducts in an attic or garage | Both causes are possible; many cold rooms have both | The sections below |
+| 3. Touch the floor, outside walls, and ceiling; look at where the duct runs | Cold floor over a garage or crawlspace, drafts at trim, ducts in an attic or garage | Both causes are possible, and a room can have both | The sections below |
 
-Before any of this, make sure the register is fully open and that no rug, bed, or dresser is sitting on or in front of it. It takes ten seconds and rules out the simplest cause.
+Before any of this, make sure the register is fully open and that no rug, bed, or dresser is sitting on or in front of it. It's quick and rules out the simplest cause.
 
-Don't close registers in other rooms to push more air to this one. Shut registers raise duct pressure and push air out through leaky seams instead. We cover that in [does closing vents in unused rooms save energy or cost more](https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html).
+Don't close registers in other rooms to push more air to this one. We cover why in [does closing vents in unused rooms save energy or cost more](https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html).
 
 ## Weak air at the register: the ducts
 
-ENERGY STAR says that in a typical house, about 20 to 30 percent of the air moving through the duct system is lost to leaks, holes, and poorly connected ducts. A room at the end of a long run loses the most along the way.
+ENERGY STAR says that in a typical house, about 20 to 30 percent of the air moving through the duct system is lost to leaks, holes, and poorly connected ducts. Long duct runs also reduce airflow, so a room at the end of one is more exposed.
 
 ENERGY STAR lists these signs that the ducts are the problem:
 
@@ -59,13 +59,13 @@ ENERGY STAR's sealing rule is short: use mastic sealant or metal tape, and **nev
 
 ### When to call a technician
 
-Call an HVAC technician if the ducts you can see look fine and the air is still weak. Much of the duct run is usually hidden in walls and ceilings. Ask specifically for the duct leakage to be checked and for airflow to be balanced between rooms. That's done with dampers in the duct branches, not by closing registers.
+Call an HVAC technician if the ducts you can see look fine and the air is still weak. Much of the duct run is usually hidden in walls and ceilings. Ask specifically for the duct leakage to be checked and for airflow to be balanced between rooms, rather than closing registers yourself.
 
 ## Colder with the door shut: the return path
 
 This cause rarely makes the lists, and it's common in bedrooms and home offices.
 
-Most forced-air houses have one or two large return grilles in a hallway or central room. Air blown into a bedroom has to get back to that central return. With the door shut, it can't, so pressure builds in the room and less warm air comes in. The Department of Energy's Building America program (run through the Pacific Northwest National Laboratory, PNNL) says this pressure imbalance causes drafts and temperature differences between rooms.
+Many forced-air houses rely on central return registers in a hallway or open area. Air blown into a bedroom has to get back to that central return. With the door shut, it can't, so pressure builds in the room. The Department of Energy's Building America program (run through the Pacific Northwest National Laboratory, PNNL) says this pressure imbalance can cause drafts and temperature differences between rooms.
 
 Building America's target is that a room shouldn't be pressurized or depressurized by more than 3 pascals compared with the rest of the house. A pascal is a tiny unit of air pressure, so that's a very small difference. Rooms supplied with 150 cfm (cubic feet per minute) of air or more get 5 pascals.
 
@@ -75,13 +75,13 @@ The common fix is cutting more off the bottom of the door. Building America says
 
 The fixes that work give air a dedicated path out:
 
-- **Transfer grille:** a grille through the wall or door, or above the door, connecting the room to the hallway.
-- **Jump duct:** a short insulated duct through the attic, from a ceiling register in the room to one in the hallway near the return.
+- **Transfer grille:** a grille through the wall or door, connecting the room to the hallway.
+- **Jump duct:** a duct through the ceiling, from a ceiling register in the room to a hallway or open area near the central return.
 - **Dedicated return duct:** a return in the room itself, ducted back to the system.
 
 ### Worked example: sizing a transfer grille
 
-Building America's rule for existing homes is at least 1 square inch of grille free area for each cfm of supply air to the room. Free area is the open area air can pass through, which grille makers list separately from the outside dimensions.
+Building America's rule for existing homes is at least 1 square inch of grille free area for each cfm of supply air to the room. Free area is the open area air can pass through, not the grille's outside dimensions.
 
 Say the bedroom's supply register delivers 80 cfm:
 
@@ -89,11 +89,11 @@ Say the bedroom's supply register delivers 80 cfm:
 
 Your actual cfm comes from the HVAC contractor's balancing report, or a technician can measure it at the register. Plug in your own number the same way.
 
-Until you add a path, leaving the door open a few inches at night is the free test. If the room warms up, you've confirmed the cause.
+Until you add a path, leaving the door open a few inches at night is the free test. If the room warms up, that points to the return path.
 
 ## Strong, warm air but still cold: heat loss
 
-If warm air is pouring in and the room still won't hold it, the room is losing heat faster than the rest of the house. The usual suspects are rooms over a garage or crawlspace, rooms under an attic, additions, and rooms with three outside walls.
+If warm air is pouring in and the room still won't hold it, the room is losing heat faster than the rest of the house. The usual suspects are rooms over a garage or crawlspace, rooms under an attic, and additions.
 
 ### Insulation targets
 
@@ -108,7 +108,7 @@ ENERGY STAR publishes recommended insulation levels by climate zone. R-value mea
 | 4C, 5, 6 | R30 | R60 | R49 |
 | 7, 8 | R38 | R60 | R49 |
 
-A bedroom over a garage in zone 5 should have about R30 under its floor. If you can see the garage ceiling framing and the insulation there is thin, missing, or sagging away from the floor above, that's your cold floor.
+A bedroom over a garage in zone 5 should have about R30 under its floor. If you can see the garage ceiling framing and the insulation there is thin, missing, or sagging away from the floor above, that's a likely cause of the cold floor.
 
 ### Finding the drafts
 
@@ -120,9 +120,9 @@ If the cold room is upstairs and you get ice dams on the roof above it, the Univ
 
 ## When the system can't reach the room
 
-Some rooms were never well served. Additions, bonus rooms, and converted garages often sit at the far end of the ductwork, or have no ductwork at all.
+Some rooms were never well served. Additions, bonus rooms, and converted garages may sit at the far end of the ductwork, or have no ductwork at all.
 
-ENERGY STAR says ductless mini-split heat pumps are designed for exactly this: sections of homes without ductwork, and additions where extending ducts is difficult. Certified models use up to 60% less energy than standard electric radiators. ENERGY STAR's cold-climate rating tests heat pumps down to 5°F, and it recommends a backup heat source for weather well below that.
+ENERGY STAR says ductless mini-split heat pumps suit this situation: sections of homes without ductwork, and additions where extending ducts is difficult. Certified models use up to 60% less energy than standard electric radiators. ENERGY STAR's cold-climate rating tests heat pumps down to 5°F, and it recommends a backup heat source for weather well below that.
 
 ## The space heater stopgap
 
@@ -131,7 +131,7 @@ A space heater warms the room but leaves the cause in place. If you use one, the
 - Keep anything that can burn at least 3 feet away.
 - Turn it off when you leave the room or go to bed.
 
-The USFA reports that portable heaters were involved in only 3% of home heating fires in 2017–2019, but 41% of the deadly ones. A heater running unattended in a cold bedroom overnight is the risk.
+The USFA reports that portable heaters were involved in only 3% of home heating fires in 2017–2019, but 41% of the deadly ones. A heater left running overnight in a cold bedroom is what the turn-it-off rule is there to prevent.
 
 The running cost adds up too. Here's [what a space heater costs to run for 8 hours](https://www.hearth-habit.com/2026/10/how-much-does-it-cost-to-run-space.html).
 
@@ -143,7 +143,7 @@ It can't fix a duct that's crushed, disconnected, or leaking, and it can't fix a
 
 ### Is it normal for an upstairs room to be colder in winter?
 
-Warm air rises, so upstairs rooms more often run warm in winter. A cold upstairs room points to something specific: ducts running through a cold attic, a long duct run, a ceiling with thin insulation (check for ice dams), or a floor over a garage.
+A cold upstairs room usually has a specific cause worth checking: ducts running through a cold attic, a long duct run, a ceiling with thin insulation (check for ice dams), or a floor over a garage.
 
 ### Could one cold room mean my furnace is failing?
 

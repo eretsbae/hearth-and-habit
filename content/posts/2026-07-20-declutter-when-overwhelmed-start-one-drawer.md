@@ -29,7 +29,7 @@ A drawer works as a first step because it ends. "Declutter the house" has no fin
 3. **Clear a surface and empty the drawer completely.** Sorting inside the drawer only shuffles things around.
 4. **Make three piles:** Keep, Relocate (belongs somewhere else in the house), and Out (trash, recycling, donation, or a drop-off).
 5. **Use the exit table below** for anything that doesn't have an obvious answer.
-6. **Wipe the drawer, put back only the Keep pile,** and leave some empty space. A drawer packed to the edges refills fastest.
+6. **Wipe the drawer, put back only the Keep pile,** and leave some empty space.
 7. **Clear the other piles today.** Carry Relocate items to where they belong. Put donations in the car and drop-offs by the door. A bag of "deal with later" is just the drawer's clutter in a new spot.
 
 For deciding on the ordinary items, a few quick questions do most of the work. Is it broken or dried out? Do you have duplicates? Would you buy it again? If what you paid is the sticking point, see [how to let go of things you spent good money on](https://www.hearth-habit.com/2026/08/how-to-get-rid-of-things-you-spent-good.html).
@@ -50,11 +50,11 @@ For deciding on the ordinary items, a few quick questions do most of the work. I
 
 ### Batteries: sort them before they leave the drawer
 
-Loose batteries are the most common junk-drawer item and the one most worth getting right. The EPA lists four kinds that never go in household trash or curbside recycling: rechargeable, button or coin cells, single-use lithium, and lead-acid. Check the battery for the word "lithium."
+Loose batteries turn up in many junk drawers, and they're worth getting right. The EPA lists four kinds that never go in household trash or curbside recycling: rechargeable, button or coin cells, single-use lithium, and lead-acid. Check the battery for the word "lithium."
 
 Before they go into a bag, cover the terminals with non-conductive tape such as electrical tape, or bag each one separately. EPA warns that a lithium battery may spark and start a fire if it's damaged or its terminals touch. A drawer full of loose batteries, keys, and coins is the kind of place where terminals touch.
 
-Button and coin batteries are also a swallowing hazard for young children, says EPA. Move them somewhere high until drop-off day. If a child may have swallowed one, call Poison Control at 1-800-222-1222.
+Button and coin batteries are also a swallowing hazard for young children, says EPA. Store them out of children's reach until drop-off day. If a child may have swallowed one, call Poison Control at 1-800-222-1222.
 
 To find a drop-off, EPA points to Call2Recycle and Earth911's search tools and to your local household hazardous waste collection.
 
@@ -67,7 +67,7 @@ FDA's preferred route is a take-back program. Options include a drop-off locatio
 3. Seal the mix in a zip-top bag or empty can and put it in the trash.
 4. Scratch out your personal information on the empty bottle before throwing it away.
 
-Don't flush medicine unless it's on FDA's flush list. The label or patient leaflet will say if it is.
+Don't flush medicine unless it's on FDA's flush list.
 
 ### Papers: what the IRS says to keep
 
@@ -92,7 +92,7 @@ If drawers keep turning back into junk drawers, our guide to [why kitchen drawer
 
 ## When it's more than clutter
 
-Most clutter is a backlog of small decisions, and the drawer method chips away at it. Hoarding disorder is different. The International OCD Foundation describes it as a mental health disorder in which getting rid of possessions is hard all the time, not just now and then. Diagnosis requires all three of these:
+Ordinary clutter can be chipped away a drawer at a time. Hoarding disorder is different. The International OCD Foundation describes it as a mental health disorder in which getting rid of possessions is hard all the time, not just now and then. Diagnosis requires all three of these:
 
 - collecting and keeping many items, including things that seem useless or of little value to most people
 - clutter that keeps rooms from being used for what they're meant for

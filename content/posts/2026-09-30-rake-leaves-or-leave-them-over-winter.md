@@ -16,24 +16,24 @@ hero_image: /images/rake-leaves-or-leave-them-over-winter-hero.svg
 hero_alt: Split-view illustration of a lawn with a light leaf layer on one side and
   a thick smothering leaf pile on the other
 pin_hooks:
-- 'Can you see the grass? The one leaf test that matters'
+- 'Can you see the grass? The simple leaf test'
 - Mow leaves into the lawn instead of raking them
 ---
 
 Don't leave whole leaves on the lawn if they hide the grass. Either shred them into the turf with the mower or move them off it. A light scattering can stay all winter, and the leaves you remove are more useful in your beds than in a bag.
 
-Advice on this splits into two camps: "rake everything" and "leave the leaves." University turf research supports a third option most people skip. Mowing leaves into the lawn handles far more leaf volume than raking advocates assume, without the smothering that the "leave them" camp ignores.
+Advice on this splits into two camps: "rake everything" and "leave the leaves." University turf research supports a third option most people skip. Mowing leaves into the lawn can handle more leaf volume than you might expect, without leaving a smothering mat on the grass.
 
 ## The test: can you see the grass?
 
-Extension turf specialists don't judge by inches of leaves. They ask how much grass is still visible.
+The extension guidance below doesn't use a fixed depth. It asks how much grass is still visible.
 
 | What you see | What to do | Who says so |
 |---|---|---|
 | Leaves cover only about 10–20% of the lawn | Leave them | University of Illinois Extension |
-| Grass clearly visible through a moderate layer | Mow the leaves into the lawn | Purdue; Colorado State ("if some grass is still visible, the layer is thin enough to mulch") |
+| More than light cover, but grass still visible through the layer | Mow the leaves into the lawn | Purdue; Colorado State ("if some grass is still visible, the layer is thin enough to mulch") |
 | So many leaves you can't see the turf underneath | Shred them with several passes or remove them. Whole leaves left here smother the grass. | Purdue |
-| Leaves piled in drifts against fences, beds, or the house | Move them into beds or out-of-the-way spots | Illinois Extension |
+| Leaves in garden beds or out-of-the-way spots | Leave them there until spring | Illinois Extension |
 | Leaves in the street, gutter line, or over a storm drain | Get them out of there | USGS water-quality research |
 
 Purdue turfgrass specialist Aaron Patton puts the risk plainly. When leaves are so thick you can't see the turf, they "shade out, smother, and kill turf."
@@ -42,24 +42,24 @@ Purdue turfgrass specialist Aaron Patton puts the risk plainly. When leaves are 
 
 ## Why shredding beats raking: what the trials found
 
-The usual advice says that a couple of inches of leaves is the limit. That's true for whole leaves sitting on top of the grass. Shredded leaves are a different story.
+Some advice sets a fixed depth limit. That makes sense for whole leaves sitting on top of the grass. Shredded leaves are a different story.
 
-Michigan State University ran three leaf-mulching studies at its Hancock Turfgrass Research Center, starting in 1990. MSU turfgrass specialist Thomas Nikolai summarized them:
+Michigan State University ran three leaf-mulching studies, starting in 1990. MSU turfgrass specialist Thomas Nikolai summarized them:
 
 - **Normal rates:** 50 and 100 pounds of dry leaves per 1,000 square feet, mowed into the turf, had no negative effects.
-- **Oak vs. maple:** At 100 pounds per 1,000 square feet on Kentucky bluegrass, from 1991 to 1998, maple plots had better turf quality because they had less broadleaf weed growth. Soil pH didn't change, and soil organic matter went up under both leaf types.
+- **Oak vs. maple:** At 100 pounds per 1,000 square feet on Kentucky bluegrass, from 1991 to 1998, maple plots had better turf quality because they had less broadleaf weed growth. Soil pH didn't change, and the mulched plots had more soil organic matter than the unmulched check plots.
 - **Extreme rates:** Starting in 1995, researchers mulched 150, 300, and 450 pounds per 1,000 square feet into sunny, mixed, never-fertilized turf. That's about 6-, 12-, and 18-inch layers of leaves. Some shredded leaf litter was still visible the next spring, more at the heavier rates. It all disappeared once the grass started growing, and those plots tended to green up quicker.
 
 The same trial tested mower deck heights. Mulching with the deck at 3 inches left less visible litter the next spring than mulching at 1.5 inches.
 
-Purdue's summary of this body of research answers the common worries:
+Purdue's guidance answers the common worries:
 
 - Mulched oak and maple leaves will not increase thatch or disease.
 - Leaves have no effect on soil pH, so oak leaves won't "sour" the lawn.
 - Mulching won't increase weed pressure. Colorado State Extension reports that MSU found fewer dandelions and less crabgrass after three years.
 - Leaves have no measurable effect on nutrient availability. Mowing them in doesn't replace fertilizer, but it doesn't rob the grass either.
 
-One caution about the extreme-rate plot: it was a sunny research lawn worked with a mulching mower. At home, treat those numbers as proof that shredded leaves are tolerated. Whole leaves at that depth would smother your lawn.
+One caution about the extreme-rate plot: it was a sunny research lawn worked with a mulching mower. At home, treat those numbers as evidence that shredded leaves can be tolerated, not as a target. Whole leaves at that depth would smother your lawn.
 
 ## How to mow leaves into the lawn
 
@@ -68,15 +68,15 @@ Colorado State Extension's method:
 1. **Raise the deck to its highest setting** and take the bagger off.
 2. **Make at least two passes.** The goal is shredded pieces that drop between the grass blades, not whole leaves on top.
 3. **Mow when the leaves are dry.** Purdue says dry leaves mulch "more easily and readily" than wet ones.
-4. **Keep up with it.** Mowing as the leaves fall is far easier than tackling a deep pile on one weekend. Purdue says regular fall mowing chops leaves small enough to filter into the turf.
+4. **Keep up with it.** Mowing as the leaves fall keeps each layer moderate, which is when Purdue says to mulch with the mower.
 
 If you can't see grass after two passes, you've hit the limit for that spot. Rake or blow the extra into beds, then mow again.
 
 ## The snow mold connection
 
-Snow mold is the reason "just leave them" goes wrong in snowy regions. Iowa State Extension describes two kinds. Gray snow mold leaves straw-colored patches from a few inches to a few feet across. Pink snow mold leaves smaller patches under six inches. Both show up as the snow melts, often with matted, wet grass.
+Snow mold is one reason "just leave them" can go wrong in snowy regions. Iowa State Extension describes two kinds. Gray snow mold leaves straw-colored patches from a few inches to a few feet across. Pink snow mold leaves smaller patches under six inches.
 
-According to Iowa State, the disease favors extended snow cover on ground that isn't completely frozen, and raking up fallen leaves is the first item on its fall prevention list:
+According to Iowa State, the disease favors extended snow cover on ground that isn't completely frozen, and raking up fallen leaves is on its fall prevention list:
 
 - Rake up fallen leaves in fall.
 - Keep mowing at the recommended height through fall.
@@ -94,7 +94,7 @@ If you're overseeding thin spots this fall, keep leaves off the new seed too. Ou
 
 **Compost.** Leaves are carbon-rich "browns." Colorado State says to combine them with nitrogen-rich "green" materials.
 
-**Not the street.** The US Geological Survey studied leaf removal in Madison, Wisconsin. Without leaf removal, fallen leaves and other organic debris supplied 56% of the year's phosphorus load in the neighborhood's stormwater. When streets were cleared before rain, that share fell to 16%. Leaves left in the street end up in that runoff. If your town collects leaves at the curb, follow its rules on where to pile them. Madison asked residents to pile leaves next to the street, not in it.
+**Not the street.** The US Geological Survey studied leaf removal in Madison, Wisconsin. Without leaf removal, fallen leaves and other organic debris supplied 56% of the year's phosphorus load in the urban stormwater studied. When streets were cleared before rain, that share fell to 16%. Leaves left in the street end up in that runoff. If your town collects leaves at the curb, follow its rules on where to pile them.
 
 **Not the fire pit.** Purdue advises against burning leaves, citing burn bans and air pollution.
 
@@ -121,7 +121,7 @@ Not when mowed in. In Michigan State's oak and maple trials, soil pH didn't chan
 
 ### Is mulching leaves as good as raking for the grass?
 
-For turf health, the trials found no downside. MSU's plots had more soil organic matter, and Purdue says mulching doesn't increase thatch, disease, or weeds. Raking is still the answer when there are more leaves than the mower can shred into the grass.
+For turf health, the trials found no harm at the rates tested. MSU's plots had more soil organic matter, and Purdue says mulching doesn't increase thatch, disease, or weeds. Raking is still the answer when there are more leaves than the mower can shred into the grass.
 
 ## Sources
 

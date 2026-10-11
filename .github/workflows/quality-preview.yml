@@ -1,3 +1,4 @@
+# DISABLED since 2026-10-12 by owner order: Anthropic API credits are not used any more. Preview or write posts in a Claude Code session instead (scripts/claude-publish.ps1, generator/CLAUDE_RUN.md).
 # 생성 파이프라인 미리보기 — 아무것도 커밋·게시하지 않습니다.
 # - 새 글 1편(대기 주제 다음 순서)을 리서치→집필→품질 게이트까지 돌리고,
 #   slugs 를 주면 그 기존 글들을 보강(enrich)해 본 결과를 아티팩트로 올립니다.

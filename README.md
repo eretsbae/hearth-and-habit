@@ -22,7 +22,7 @@
 ## 사용자가 해야 할 일 (전부 4단계, 이후는 완전 자동)
 
 1. ~~새 리포지토리 생성~~ ✅ 완료 (`eretsbae/hearth-and-habit`)
-2. **Anthropic API 키 등록** — Settings → Secrets → Actions → `ANTHROPIC_API_KEY`
+2. ~~Anthropic API 키 등록~~ — 2026-10-12 오너 지시로 API 경로 폐기. 글은 Claude Code 세션(`scripts/claude-publish.ps1` → `generator/CLAUDE_RUN.md`)이 쓴다
 3. **Blogger 연동** — 디자인 CSS 적용 + Google OAuth 1회 인증 ([blogger/SETUP.md](blogger/SETUP.md))
 4. **Actions에서 수동 1회 실행** → 이후 매주 월/수/금 완전 자동
 
@@ -35,11 +35,9 @@
 ```bash
 pip install -r requirements.txt
 
-# 생성 파이프라인 점검 (API 호출 없이 더미 글 생성)
-python generator/generate_post.py --dry-run
-
-# 실제 글 생성 (Claude API 호출)
-ANTHROPIC_API_KEY=sk-ant-... python generator/generate_post.py
+# 글 생성은 Claude Code 세션으로 (API 경로 generate_post.py 는 2026-10-12 폐기, ALLOW_ANTHROPIC_API=1 없이는 exit 2)
+powershell -NoProfile -ExecutionPolicy Bypass -File scripts\claude-publish.ps1   # generator/CLAUDE_RUN.md 를 따름
+python generator/check_post.py <slug>   # 글 결정적 검사 (API 없음)
 
 # 생성된 글 중 아직 Blogger에 안 올라간 것들을 실제로 게시
 GOOGLE_CLIENT_ID=... GOOGLE_CLIENT_SECRET=... GOOGLE_REFRESH_TOKEN=... \

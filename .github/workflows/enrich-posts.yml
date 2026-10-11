@@ -1,3 +1,4 @@
+# DISABLED since 2026-10-12 by owner order: Anthropic API credits are not used any more. Enrich posts in a Claude Code session instead (AGENTS.md, generator/CLAUDE_RUN.md).
 # 이미 게시된 글을 리서치 근거로 다시 써서 PR 로 올립니다(generator/enrich_post.py).
 # - 수동 실행 전용. main 에 직접 쓰지 않고 enrich/<run id> 브랜치 + PR 을 만듭니다.
 #   사람이 PR 을 머지해야 sync-posts.yml 이 바뀐 글만 라이브에 반영합니다.

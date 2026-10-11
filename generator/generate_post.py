@@ -20,6 +20,7 @@ from __future__ import annotations
 import argparse
 import datetime
 import json
+import os
 import re
 import sys
 from pathlib import Path
@@ -549,6 +550,11 @@ def write_post(
 
 
 def main() -> int:
+    if os.environ.get("ALLOW_ANTHROPIC_API") != "1":
+        print("generate_post.py is retired (2026-10-12, owner order: no Anthropic API credits). "
+              "Write posts with a Claude Code session: scripts/claude-publish.ps1 / generator/CLAUDE_RUN.md. "
+              "Set ALLOW_ANTHROPIC_API=1 to override.", file=sys.stderr)
+        return 2
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true", help="Skip API calls; use fixtures")
     ap.add_argument("--preview", metavar="DIR",

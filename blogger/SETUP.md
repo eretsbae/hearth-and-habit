@@ -62,7 +62,7 @@ GOOGLE_REFRESH_TOKEN = ...
 - `GOOGLE_CLIENT_SECRET`
 - `GOOGLE_REFRESH_TOKEN`
 
-(`ANTHROPIC_API_KEY`도 등록되어 있어야 합니다 — `docs/SETUP_GUIDE.md` 2단계 참고)
+(`ANTHROPIC_API_KEY`는 필요 없습니다 — 2026-10-12 API 경로 폐기. 글은 Claude Code 세션이 씁니다, `docs/SETUP_GUIDE.md` 2단계 참고)
 
 `generator/client_secret.json`은 `.gitignore`에 등록되어 있어 실수로 커밋되지 않습니다. 인증이 끝났다면 로컬에서 삭제해도 무방합니다.
 

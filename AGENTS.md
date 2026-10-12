@@ -4,7 +4,7 @@
 
 ## 글 생성은 Claude Code 토큰으로 (2026-10-11 오너 지시)
 - 정기 글은 오너 PC 예약 작업 `hearth_publish_mwf`(월/수/금 20:43 KST, `scripts/claude-publish.ps1`)가 headless `claude -p` 로 쓴다. 세션은 `generator/CLAUDE_RUN.md` 를 따르고 `generator/claude_post.py finalize` 로 main 에 커밋한다. `generate-and-publish.yml`(22:17 KST)은 **게시 전용**이고, 새 글이 없으면 실패해 ci-alerts 이슈가 뜬다.
-- **Anthropic API 크레딧을 쓰는 경로는 쓰지 않는다**: `generate_post.py`, `enrich_post.py`, `enrich-posts.yml`, `quality-preview.yml`. 기존 글 보강·수정도 Claude Code 세션(하위 에이전트 + WebSearch/WebFetch)으로 하고 `python generator/check_post.py <slug>` 로 검사한다.
+- **Anthropic API 크레딧을 쓰는 경로는 폐기했다(2026-10-12)**: `generate_post.py`·`enrich_post.py`는 `ALLOW_ANTHROPIC_API=1` 없이는 exit 2, `enrich-posts.yml`·`quality-preview.yml`은 GitHub 에서 비활성화. 다시 켜지 않는다. 기존 글 보강·수정도 Claude Code 세션(하위 에이전트 + WebSearch/WebFetch)으로 하고 `python generator/check_post.py <slug>` 로 검사한다.
 - 실행 로그: `logs/claude-publish/`(git 제외). 예약 등록·해제: `scripts/register-claude-publish.ps1 [-Unregister]`. 사람용 상세는 `README.md`, `docs/SETUP_GUIDE.md`, `docs/CONTENT_STRATEGY.md`, `blogger/SETUP.md` — 필요한 절만 grep 으로 읽는다.
 
 ## 원격이 정본
@@ -24,7 +24,7 @@
 pip install -r requirements.txt
 python generator/claude_post.py next                 # 다음 주제·각도·내부 링크 목록 (API 없음)
 python generator/check_post.py <slug>                # 글 결정적 검사 (API 없음)
-python generator/generate_post.py --dry-run          # (API 경로, 크레딧 소진으로 미사용) 파이프라인 점검
+python generator/generate_post.py --dry-run          # (API 경로, 2026-10-12 폐기 — ALLOW_ANTHROPIC_API=1 없이는 exit 2)
 python generator/blogger_publish.py                  # 미게시 글 발행 (GOOGLE_* 필요)
 python generator/build_site.py                       # (레거시) 정적 미리보기 _site/
 ```

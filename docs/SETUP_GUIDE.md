@@ -13,16 +13,9 @@
 
 `eretsbae/hearth-and-habit` 리포지토리에 프로젝트가 이미 올라가 있습니다: https://github.com/eretsbae/hearth-and-habit
 
-## 2단계. Claude API 키 등록 (5분) — 2026-10-11부터 정기 발행에는 불필요
+## 2단계. ~~Claude API 키 등록~~ — 2026-10-12 폐기(오너 지시: API 크레딧 미사용)
 
-> 2026-10-11 API 크레딧이 바닥난 뒤 오너 지시로 글 생성을 **Claude Code 세션 토큰**으로 옮겼다. 정기 글은 PC 예약 작업 `hearth_publish_mwf`가 쓴다(아래 "완료" 절). 이 단계는 API 경로(`generate_post.py`·`enrich-posts.yml`·`quality-preview.yml`)를 다시 쓸 때만 필요하다.
-
-1. https://console.anthropic.com 접속 → 가입/로그인 → 결제수단 등록 후 소액 크레딧 충전
-   - (선택) Settings에서 월 사용 한도를 걸어두면 안전합니다. 예상 비용은 월 $1~5 수준입니다.
-2. API 키 발급 (`sk-ant-...`)
-3. 리포지토리 → **Settings → Secrets and variables → Actions → New repository secret**
-   - Name: `ANTHROPIC_API_KEY`
-   - Value: 방금 발급받은 키
+> 2026-10-11 API 크레딧이 바닥난 뒤 오너 지시로 글 생성을 **Claude Code 세션 토큰**으로 옮겼고, 2026-10-12에 API 경로를 폐기했다. 정기 글은 PC 예약 작업 `hearth_publish_mwf`(`scripts/claude-publish.ps1` → `generator/CLAUDE_RUN.md`)가 쓴다(아래 "완료" 절). `enrich-posts.yml`·`quality-preview.yml`은 비활성화했고, `generate_post.py`·`enrich_post.py`는 `ALLOW_ANTHROPIC_API=1` 없이는 exit 2로 끝난다. 크레딧 충전·키 등록은 하지 않는다.
 
 ## 3단계. Blogger 연동 (25분, 최초 1회) ⭐ 핵심 단계
 

@@ -24,7 +24,9 @@ from __future__ import annotations
 import argparse
 import datetime
 import json
+import os
 import re
+import sys
 from pathlib import Path
 
 import yaml
@@ -125,6 +127,11 @@ def enrich_one(client, cfg: dict, topics_data: dict, path: Path, out_dir: Path |
 
 
 def main() -> int:
+    if os.environ.get("ALLOW_ANTHROPIC_API") != "1":
+        print("enrich_post.py is retired (2026-10-12, owner order: no Anthropic API credits). "
+              "Enrich posts with a Claude Code session: scripts/claude-publish.ps1 / generator/CLAUDE_RUN.md. "
+              "Set ALLOW_ANTHROPIC_API=1 to override.", file=sys.stderr)
+        return 2
     ap = argparse.ArgumentParser()
     ap.add_argument("--slugs", nargs="*", help="Posts to enrich, by slug")
     ap.add_argument("--next", type=int, default=1, help="Without --slugs: this many oldest un-enriched posts")

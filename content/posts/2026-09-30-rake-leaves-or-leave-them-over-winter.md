@@ -5,15 +5,17 @@ date: '2026-09-30'
 updated: '2026-10-11'
 enriched: '2026-10-11'
 description: 'Leave light leaf cover, mow a moderate layer into the grass, and remove whole leaves that hide it. University trial numbers, snow mold, and where leaves go instead.'
+hero_image: /images/rake-leaves-or-leave-them-over-winter-hero.jpg
+hero_alt: "Backyard lawn half raked, with a line of fallen leaves piled along the grass"
+hero_credit: "Photo: Dan4th via Flickr (CC BY 2.0)"
+hero_credit_url: "https://www.flickr.com/photos/43264265@N00/1657850829"
+hero_license_url: "https://creativecommons.org/licenses/by/2.0/"
 tags:
 - lawn care
 - fall and winter yard
 - outdoor maintenance
 - winter prep
 pillar: yard-outdoor
-hero_image: /images/rake-leaves-or-leave-them-over-winter-hero.svg
-hero_alt: Split-view illustration of a lawn with a light leaf layer on one side and
-  a thick smothering leaf pile on the other
 pin_hooks:
 - 'Can you see the grass? The simple leaf test'
 - Mow leaves into the lawn instead of raking them

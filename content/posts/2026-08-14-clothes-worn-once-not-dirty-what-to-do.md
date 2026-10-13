@@ -4,13 +4,16 @@ slug: clothes-worn-once-not-dirty-what-to-do
 date: '2026-08-14'
 updated: '2026-10-11'
 description: "Give worn-once clothes one airing hook and a wear count: jeans and sweaters every 3 to 4 wears, sweaty polyester after each. Garment table inside."
+hero_image: /images/clothes-worn-once-not-dirty-what-to-do-hero.jpg
+hero_alt: "Closet rod packed with shirts and jackets on mixed hangers"
+hero_credit: "Photo: Sofy Marquez via Flickr (CC BY 2.0)"
+hero_credit_url: "https://www.flickr.com/photos/69593795@N06/6334619144"
+hero_license_url: "https://creativecommons.org/licenses/by/2.0/"
 tags:
 - laundry
 - decluttering and storage
 - cleaning routines
 pillar: cleaning-organization
-hero_image: /images/clothes-worn-once-not-dirty-what-to-do-hero.svg
-hero_alt: "Bedroom chair with a worn-once sweater, shirt, and pants draped over it beside an open closet with a hook and folded shelf stacks"
 pin_hooks:
 - Jeans and sweaters every 3–4 wears, gym clothes every time
 - Wool airs out in a day. Polyester needs the wash.

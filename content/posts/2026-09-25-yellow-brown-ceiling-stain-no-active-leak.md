@@ -4,12 +4,15 @@ slug: yellow-brown-ceiling-stain-no-active-leak
 date: '2026-09-25'
 updated: '2026-10-11'
 description: "A yellow-brown ceiling stain with no drip: prove it's dry with a meter, match it to rain, showers, winter thaws or AC season, then fix the source."
+hero_image: /images/yellow-brown-ceiling-stain-no-active-leak-hero.jpg
+hero_alt: "Brown water stain spreading across a white drop-ceiling tile"
+hero_credit: "Photo: Atomicdragon136 via Wikimedia Commons (CC BY 3.0)"
+hero_credit_url: "https://commons.wikimedia.org/w/index.php?curid=67025365"
+hero_license_url: "https://creativecommons.org/licenses/by/3.0/"
 tags:
 - roof and gutters
 - plumbing
 pillar: home-maintenance
-hero_image: /images/yellow-brown-ceiling-stain-no-active-leak-hero.svg
-hero_alt: Living room ceiling corner with a spreading yellow-brown water stain, a ladder leaning below, and a flashlight on the floor
 pin_hooks:
 - When the stain darkens tells you where the water came from
 - Compare meter readings to a dry spot, not a magic number

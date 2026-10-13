@@ -34,7 +34,9 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "generator"))
 
-from blogger_publish import API_BASE, get_access_token, get_blog_id, load_yaml  # noqa: E402
+from blogger_publish import (  # noqa: E402
+    API_BASE, get_access_token, get_blog_id, hero_image_tag, load_yaml, rewrite_image_urls,
+)
 from build_site import parse_frontmatter, md_to_html  # noqa: E402
 
 SITE_CONFIG = ROOT / "config" / "site.yml"
@@ -127,8 +129,18 @@ def load_pages() -> list[dict]:
         fm, body = parse_frontmatter(path)
         if fm.get("pillar"):
             body = body.rstrip() + "\n" + pillar_post_list(fm["pillar"])
-        pages.append({"title": fm["title"], "slug": fm.get("slug") or path.stem, "body": body})
+        pages.append({"title": fm["title"], "slug": fm.get("slug") or path.stem, "body": body, "fm": fm})
     return pages
+
+
+def page_html(cfg: dict, page: dict, markdown: str) -> str:
+    """Hero photo (if the page frontmatter has one) + body, with /images/
+    paths rewritten to raw.githubusercontent.com exactly like posts."""
+    fm = page.get("fm", {})
+    hero = hero_image_tag(cfg, fm.get("hero_image", ""), fm.get("hero_alt", fm.get("title", "")),
+                          fm.get("hero_credit", ""), fm.get("hero_credit_url", ""),
+                          fm.get("hero_license_url", ""))
+    return hero + rewrite_image_urls(cfg, md_to_html(markdown))
 
 
 def main() -> int:
@@ -149,7 +161,7 @@ def main() -> int:
             continue
         resp = requests.post(
             pages_api,
-            json={"title": page["title"], "content": md_to_html(page["body"]),
+            json={"title": page["title"], "content": page_html(cfg, page, page["body"]),
                   "kind": "blogger#page"},
             headers=headers, timeout=30,
         )
@@ -169,7 +181,7 @@ def main() -> int:
         page_id = current[page["title"]]["id"]
         resp = requests.put(
             f"{pages_api}/{page_id}",
-            json={"id": page_id, "title": page["title"], "content": md_to_html(markdown),
+            json={"id": page_id, "title": page["title"], "content": page_html(cfg, page, markdown),
                   "kind": "blogger#page"},
             headers=headers, timeout=30,
         )

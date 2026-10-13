@@ -3,12 +3,15 @@ title: 'Leftovers, Thawing, and Fridge Storage: The Food Safety Rules in One Pla
 slug: food-storage-safety-rules-leftovers-thawing
 date: '2026-09-29'
 description: "Fridge at 40°F by thermometer, food cold within 2 hours, leftovers 3–4 days, reheat to 165°F, plus FDA's power-outage limits and why dates don't decide."
+hero_image: /images/food-storage-safety-rules-leftovers-thawing-hero.jpg
+hero_alt: "Refrigerator shelf holding leftovers in sealed containers, jars and a cut lemon"
+hero_credit: "Photo: USDAgov via Flickr (Public Domain)"
+hero_credit_url: "https://www.flickr.com/photos/41284017@N08/49975544287"
+hero_license_url: "https://creativecommons.org/publicdomain/mark/1.0/"
 tags:
 - food safety
 - food storage and leftovers
 pillar: kitchen-habits
-hero_image: /images/food-storage-safety-rules-leftovers-thawing-hero.svg
-hero_alt: Flat illustration of an open fridge with stacked leftover containers and a crisper of greens, next to a dial thermometer and a small clock
 pin_hooks:
 - 'Leftovers: 3–4 days in the fridge, reheat to 165°F'
 - 'Power out? Fridge holds about 4 hours, full freezer 48'

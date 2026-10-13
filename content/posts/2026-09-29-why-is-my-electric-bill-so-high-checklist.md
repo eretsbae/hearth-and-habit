@@ -5,14 +5,17 @@ date: '2026-09-29'
 updated: '2026-10-11'
 enriched: '2026-10-11'
 description: 'Split a high electric bill into billing days, price per kWh, and daily use, then adjust for weather. Worked example, heat pump aux-heat trap, meter tests.'
+hero_image: /images/why-is-my-electric-bill-so-high-checklist-hero.jpg
+hero_alt: "Close-up of an older residential electricity meter showing the kWh register"
+hero_credit: "Photo: Vince Alongi via Flickr (CC BY 2.0)"
+hero_credit_url: "https://www.flickr.com/photos/90963248@N00/2927254475"
+hero_license_url: "https://creativecommons.org/licenses/by/2.0/"
 tags:
 - electric bill
 - water and gas bills
 - heating and cooling costs
 - appliance efficiency
 pillar: energy-savings
-hero_image: /images/why-is-my-electric-bill-so-high-checklist-hero.svg
-hero_alt: Flat illustration of a utility bill with a bar chart and one tall bar under a magnifying glass, beside a light bulb and a thermostat
 pin_hooks:
 - 'Divide kWh by billing days before you blame anything'
 - Why a heat pump setback can raise your winter bill

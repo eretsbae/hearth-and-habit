@@ -5,13 +5,15 @@ date: '2026-10-07'
 updated: '2026-10-11'
 enriched: '2026-10-11'
 description: 'Allow a day per 4 pounds in a fridge at 40°F or below: 16 lb needs 4 days. Day-by-day Thanksgiving schedule, cold-water times, and what to do if it is still icy.'
+hero_image: /images/how-long-frozen-turkey-takes-to-thaw-in-fridge-hero.jpg
+hero_alt: "Wrapped frozen turkey in a roasting pan on the bottom shelf of an open refrigerator"
+hero_credit: "Photo: USDAgov via Flickr (Public Domain)"
+hero_credit_url: "https://www.flickr.com/photos/41284017@N08/6862201398"
+hero_license_url: "https://creativecommons.org/publicdomain/mark/1.0/"
 tags:
 - food safety
 - meal planning and food waste
 pillar: kitchen-habits
-hero_image: /images/how-long-frozen-turkey-takes-to-thaw-in-fridge-hero.svg
-hero_alt: A whole frozen turkey thawing on a tray inside a refrigerator, with calendar
-  days represented in the background
 pin_hooks:
 - 'Turkey thaw schedule: the day it goes in the fridge'
 - 'Still icy on Thanksgiving morning? Here is the fix'

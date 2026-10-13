@@ -100,15 +100,32 @@ def rewrite_image_urls(cfg: dict, html: str) -> str:
     return re.sub(r'src="(/images/[^"]+)"', repl, html)
 
 
-def hero_image_tag(cfg: dict, hero_image: str, alt: str = "") -> str:
+def hero_image_tag(cfg: dict, hero_image: str, alt: str = "", credit: str = "",
+                   credit_url: str = "", license_url: str = "") -> str:
+    """Hero <img>, plus an attribution caption when the hero is a licensed
+    stock photo (2026-10-13: hero_credit/hero_credit_url/hero_license_url in
+    the frontmatter, written by scripts/stock_photo.py). CC BY requires the
+    author, source and license to stay with the image; CC0 photos keep the
+    credit anyway so every photo on the site has a visible provenance."""
     if not hero_image:
         return ""
     url = raw_asset_url(cfg, "content" + hero_image)
     alt_esc = (alt or "").replace('"', "&quot;")
-    return (
+    img = (
         f'<img src="{url}" alt="{alt_esc}" '
         f'style="width:100%;max-width:900px;border-radius:14px;'
-        f'margin:0 0 24px;display:block;" /><br/>\n'
+        f'margin:0 0 {"6px" if credit else "24px"};display:block;" />'
+    )
+    if not credit:
+        return img + "<br/>\n"
+    text = credit.replace("&", "&amp;").replace("<", "&lt;")
+    if credit_url:
+        text = f'<a href="{credit_url}" rel="nofollow noopener" target="_blank" style="color:inherit;">{text}</a>'
+    if license_url:
+        text += f' &middot; <a href="{license_url}" rel="license nofollow noopener" target="_blank" style="color:inherit;">license</a>'
+    return (
+        img
+        + f'<p style="margin:0 0 24px;font-size:12px;color:#8a8078;">{text}</p>\n'
     )
 
 
@@ -411,7 +428,8 @@ def render_post_html(
     hero_url = raw_asset_url(cfg, "content" + fm["hero_image"]) if fm.get("hero_image") else ""
     return (
         json_ld_block(cfg, fm, hero_url, page_url, parse_faq(body))
-        + hero_image_tag(cfg, fm.get("hero_image", ""), fm.get("hero_alt", fm.get("title", "")))
+        + hero_image_tag(cfg, fm.get("hero_image", ""), fm.get("hero_alt", fm.get("title", "")),
+                         fm.get("hero_credit", ""), fm.get("hero_credit_url", ""), fm.get("hero_license_url", ""))
         + html
         + editorial_footer(cfg, fm)
         + related_posts_html(topics_data, pillar, slug, blog_url)

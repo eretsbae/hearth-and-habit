@@ -3,12 +3,15 @@ title: 'Clutter Keeps Coming Back? Match the Problem to the Fix'
 slug: clutter-keeps-coming-back-which-fix
 date: '2026-09-29'
 description: "Clutter returns when things lack a home, storage is full, or resets are too far apart. A quick pile audit shows which, plus when it's more than clutter."
+hero_image: /images/clutter-keeps-coming-back-which-fix-hero.jpg
+hero_alt: "Open kitchen cabinet crammed with mismatched containers, lids and bottles spilling toward the door"
+hero_credit: "Photo: Rubbermaid Products via Flickr (CC BY 2.0)"
+hero_credit_url: "https://www.flickr.com/photos/28040596@N08/2929131131"
+hero_license_url: "https://creativecommons.org/licenses/by/2.0/"
 tags:
 - decluttering and storage
 - cleaning routines
 pillar: cleaning-organization
-hero_image: /images/clutter-keeps-coming-back-which-fix-hero.svg
-hero_alt: Flat illustration of a tidy entryway with keys and a tote on wall hooks, a console table with a tray, a basket below, and a donation box
 pin_hooks:
 - Sort the pile that came back to see why it came back
 - No home, no room, or no reset? Each needs a different fix

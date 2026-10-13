@@ -5,13 +5,15 @@ date: '2026-10-02'
 updated: '2026-10-11'
 enriched: '2026-10-11'
 description: 'A 1,500-watt heater on high for 8 hours uses 12 kWh: about $2.04 at 17 cents. See the math, the same heat from gas or a heat pump, and the overnight safety rule.'
+hero_image: /images/cost-to-run-space-heater-8-hours-hero.jpg
+hero_alt: "Slim tower space heater standing on carpet beside a bedroom door"
+hero_credit: "Photo: goblinbox_(queen_of_ad_hoc_bento) via Flickr (CC BY 2.0)"
+hero_credit_url: "https://www.flickr.com/photos/25977089@N00/6502006829"
+hero_license_url: "https://creativecommons.org/licenses/by/2.0/"
 tags:
 - heating and cooling costs
 - electric bill
 pillar: energy-savings
-hero_image: /images/cost-to-run-space-heater-8-hours-hero.svg
-hero_alt: A space heater glowing in a room corner, representing the cost of running
-  it for 8 hours
 pin_hooks:
 - '8 hours at 1,500 W = 12 kWh. Here is the math'
 - Space heater vs. furnace vs. heat pump, priced out

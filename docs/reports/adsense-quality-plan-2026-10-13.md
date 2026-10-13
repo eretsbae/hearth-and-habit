@@ -54,7 +54,7 @@ PR 머지와 애드센스 제출 버튼 두 번으로 줄였다.
 | 축 | 할 일 | 상태 |
 |---|---|---|
 | B. 책임자 | About "Who runs this site"에 peter.bae, 글 하단 "Written and reviewed by peter.bae" 바이라인, JSON-LD author를 Person peter.bae로 | **구현 완료**(이 PR) |
-| C. 양산 티 제거 | ① Last reviewed 줄을 본문 끝 바이라인 옆으로 ② 라벨 170→22개(`config/labels.yml`, check_post가 강제) ③ FAQ 기본 해제 ④ 필러 허브 페이지 5개(필러 글 전체 목록 자동 생성) + About에서 링크 | **구현 완료**(이 PR) |
+| C. 양산 티 제거 | ① Last reviewed 줄을 본문 끝 바이라인 옆으로 ② 라벨 170→22개(`config/labels.yml`, check_post가 강제) ③ FAQ 기본 해제 ④ 필러 허브 페이지 5개(필러 글 전체 목록 자동 생성) + About에서 링크 ⑤ 히어로를 평면 SVG에서 오픈 라이선스 실사진으로(10-13 오너 승인) | **구현 완료**(이 PR) |
 | D. 깊이·유입 | ① 글마다 계산된 원본 자산 1개 의무(생성 규칙) ② 코너스톤 5편 ③ 노출 잡힌 주제 클러스터 4편 ④ 노출 상위 페이지 제목·설명 CTR 개선 | ①은 규칙 반영 완료, ②③④는 Phase 1 |
 
 ### 하지 않는 것
@@ -64,6 +64,8 @@ PR 머지와 애드센스 제출 버튼 두 번으로 줄였다.
 - 11-04 되자마자 제출. 게이트 미충족 제출은 10-05에 이미 한 번 써 버렸다.
 - 광고 켜기·지급 정보 등록(겸업 보류).
 - 오너에게 사진·메모·캡처 요청.
+- AI 이미지 생성으로 '사진'을 만드는 것. 실제 집·실제 사물이 아닌 것을 사진처럼 내는 순간 날조다.
+  대신 CC0·CC BY·CC BY-SA·퍼블릭 도메인 실사진만 쓰고, 사진 아래에 출처·라이선스를 적는다.
 
 ## 3. 실행 계획
 
@@ -77,6 +79,7 @@ PR 머지와 애드센스 제출 버튼 두 번으로 줄였다.
 | 0-4 | 필러 허브 페이지 5개(소개 + 해당 필러 글 전체 목록 자동 생성) | `content/pages/{home-maintenance,cleaning-organization,energy-savings,kitchen-habits,yard-outdoor}.md`, `generator/blogger_pages.py` |
 | 0-5 | About: "Who runs this site"(peter.bae), 필러 허브 링크, AI 고지 문구를 "편집자가 수치 전수 확인·서명"으로 | `content/pages/about.md` |
 | 0-6 | 생성 규칙: FAQ 기본 해제, 계산된 원본 자산 1개 의무, 측정값·일화 날조 금지, 본문에 서명 금지(발행 단계가 붙임) | `generator/prompts.py`, `generator/CLAUDE_RUN.md` |
+| 0-7 | 히어로 스톡 사진(10-13 오너 승인 "스톡 사진으로 교체하거나 추가"): Openverse(키 없음, 상업·수정 허용 라이선스만)에서 검색→대조표로 세션이 눈으로 고름→16:9 1200px JPG로 저장→frontmatter `hero_credit`·`hero_credit_url`·`hero_license_url`. 발행 단계가 사진 아래 12px 출처 캡션(작가·출처·라이선스 링크)을 붙인다. 적용: 노출 상위·최근 글 20편(노출 상위·최근 글; stop-losing-time-before-leaving-house는 맞는 사진이 없어 SVG 유지) + 필러 허브 5페이지. 나머지 글은 SVG 유지, 새 글은 생성 규칙에서 사진을 1순위로 | `scripts/stock_photo.py`, `blogger_publish.py` `hero_image_tag`, `blogger_pages.py` `page_html`, `content/images/*-hero.jpg`, `content/posts/*`, `content/pages/*`, `CLAUDE_RUN.md` |
 
 검증: `py_compile` 통과, `check_post` 2편 PASS, 렌더 테스트에서 첫 1,500자에 "Last reviewed" 없음·
 바이라인 본문 끝·JSON-LD author Person peter.bae·허브 5페이지에 글 목록 생성 확인.
@@ -127,8 +130,10 @@ PR 머지와 애드센스 제출 버튼 두 번으로 줄였다.
 
 ## 5. 리스크
 
-- 사진 없는 사이트라는 점은 그대로다. 계산 자산·책임자·구조 정리로 "요약 양산"과 구분되길 기대하지만,
-  심사자가 사진 부재만으로 거절하면 막을 수단이 없다. 그 경우 애드센스 경로를 접는다(규정대로).
+- 사진은 스톡(오픈 라이선스)이지 1인칭 사진이 아니다. 기대 효과는 "전 글이 같은 그림체"라는 외관 획일성 완화까지이며,
+  심사자가 1인칭 경험 부재를 이유로 거절하면 막을 수단이 없다. 그 경우 애드센스 경로를 접는다(규정대로).
+- 스톡 사진의 라이선스 표기는 사진 아래 캡션으로 고정 노출한다(CC BY/BY-SA 조건). 캡션을 지우는 편집은 금지.
+- Openverse 익명 한도(분 20·일 200)가 있어 글 1편당 검색 2~3회로 끝낸다. 맞는 사진이 없으면 SVG 유지.
 - 11-16 클릭 100 미만으로 발행이 멈추면 Phase 1 잔여 슬롯이 사라진다. 그래서 코너스톤을 10월 안에 앞당긴다.
 - 71편 재동기화와 라벨 교체로 Blogger 라벨 URL(`/search/label/…`)이 바뀐다. 검색 유입이 0이므로 실손은 없다.
 - 허브 페이지 글 목록은 발행 시점 스냅샷이다. 새 글이 나올 때마다 `publish-pages`를 다시 돌려야 하며,

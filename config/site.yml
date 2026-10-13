@@ -14,7 +14,8 @@ tagline: "Practical home care and everyday routines, made simple."
 
 language: "en"
 locale: "en_US"
-author: "Hearth & Habit Editorial"
+# 편집 책임자 표기(오너 결정 2026-10-13). 글 하단 바이라인, JSON-LD author(Person), About 에 같은 이름을 쓴다.
+author: "peter.bae"
 # 연락처 이메일은 content/pages/contact.md 에 직접 적혀 있습니다 (운영자 실제
 # 주소, 2026-09-11부터). AdSense 1차 심사에서 플레이스홀더(@example)가 감점
 # 요인이었고, 새 테마엔 연락처 양식 가젯이 없어 실제 이메일로 안내합니다.

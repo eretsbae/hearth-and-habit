@@ -8,10 +8,7 @@ description: Check your furnace filter monthly, change 1-inch filters by 3 month
   and learn why pressure drop, not MERV, decides if MERV 13 suits your system. Table
   inside.
 tags:
-- furnace filter
-- HVAC
-- MERV rating
-- home maintenance
+- heating and HVAC
 pillar: home-maintenance
 hero_image: /images/furnace-filter-basics-hero.svg
 hero_alt: Pleated furnace filter being slid into the furnace's filter slot, with arrows

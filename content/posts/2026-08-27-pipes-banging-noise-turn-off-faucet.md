@@ -6,9 +6,7 @@ updated: '2026-10-11'
 description: "Pipes bang when a valve stops moving water too fast. Codes call for an ASSE 1010 arrestor at quick-closing valves and 80 psi max; aim for 45–60. Fixes inside."
 tags:
 - plumbing
-- water hammer
-- home maintenance
-- DIY repair
+- DIY repair basics
 pillar: home-maintenance
 hero_image: /images/pipes-banging-noise-turn-off-faucet-hero.svg
 hero_alt: Wall cutaway of a copper supply pipe and shut-off valve with shockwave rings where water hammer jolts the line

@@ -7,9 +7,8 @@ enriched: '2026-10-11'
 description: 'Leave light leaf cover, mow a moderate layer into the grass, and remove whole leaves that hide it. University trial numbers, snow mold, and where leaves go instead.'
 tags:
 - lawn care
-- fall yard cleanup
-- leaves
-- yard maintenance
+- fall and winter yard
+- outdoor maintenance
 - winter prep
 pillar: yard-outdoor
 hero_image: /images/rake-leaves-or-leave-them-over-winter-hero.svg

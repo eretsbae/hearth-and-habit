@@ -5,11 +5,9 @@ date: '2026-09-02'
 updated: '2026-10-11'
 description: A spongy deck spot is rot where water sits and can't dry. Where it is tells you if it's one board or the frame, and soft wood has already lost much of its strength.
 tags:
-- deck maintenance
-- outdoor home care
-- wood rot
-- yard and outdoor basics
-- home safety
+- outdoor maintenance
+- roof and gutters
+- electrical and home safety
 pillar: yard-outdoor
 hero_image: /images/deck-feels-spongy-in-spots-hero.svg
 hero_alt: Deck boards seen from above with one darker, sunken board cut away to reveal the joist underneath

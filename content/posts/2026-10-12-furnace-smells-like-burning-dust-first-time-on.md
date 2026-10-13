@@ -5,11 +5,8 @@ date: '2026-10-12'
 description: A burning-dust smell on the furnace's first run is usually summer dust
   burning off. See how long Carrier and Trane say it lasts and which smells aren't dust.
 tags:
-- furnace
-- heating season
-- furnace smells
-- carbon monoxide
-- home maintenance
+- heating and HVAC
+- electrical and home safety
 pillar: home-maintenance
 hero_image: /images/furnace-smells-like-burning-dust-first-time-on-hero.svg
 hero_alt: Flat illustration of a furnace with faint wisps of warm air rising from a

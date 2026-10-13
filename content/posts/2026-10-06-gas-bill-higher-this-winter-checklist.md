@@ -6,11 +6,9 @@ updated: '2026-10-11'
 enriched: '2026-10-11'
 description: 'Same thermostat, bigger gas bill? Check billing days, price per therm, and therms per degree day against last winter. Worked example, CCF vs. therms, and fixes.'
 tags:
-- gas bill
-- winter heating costs
-- energy savings
-- furnace efficiency
-- home heating
+- water and gas bills
+- heating and cooling costs
+- heating and HVAC
 pillar: energy-savings
 hero_image: /images/gas-bill-higher-this-winter-checklist-hero.svg
 hero_alt: Cutaway illustration of a house losing heat in winter while the furnace

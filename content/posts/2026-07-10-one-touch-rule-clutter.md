@@ -6,10 +6,8 @@ updated: '2026-10-11'
 description: 'The one-touch rule: put things away the first time you pick them up. How
   long it takes to stick, why "later" fails, and what to do with mail.'
 tags:
-- decluttering
-- clutter control
-- home organization
-- cleaning habits
+- decluttering and storage
+- cleaning routines
 pillar: cleaning-organization
 hero_image: /images/one-touch-rule-clutter-hero.svg
 hero_alt: "Hand placing a mug straight onto a shelf inside an open cabinet instead of setting it down on a counter for later"

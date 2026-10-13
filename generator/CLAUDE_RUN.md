@@ -72,7 +72,8 @@ and dossier shape are in `RESEARCH_SYSTEM` and `RESEARCH_USER`. The fact registr
      - `slug`
      - `date` (today, quoted)
      - `description` (150–160 characters)
-     - `tags` (3–6)
+     - `tags` (1–4, each one an exact label from `config/labels.yml` under this post's pillar;
+       the pillar name itself is added at publish time, never as a tag)
      - `pillar` (the topic's pillar slug)
      - `hero_image: /images/<slug>-hero.svg`
      - `hero_alt` (max 140 characters)
@@ -84,7 +85,14 @@ and dossier shape are in `RESEARCH_SYSTEM` and `RESEARCH_USER`. The fact registr
    - Every number, threshold, spec, or cost must come from your evidence or the registry.
    - Attribute claims in plain words.
    - Include 2–4 internal links using exact URLs from step 1.
-   - An FAQ is optional, as `## FAQ` with `### ` questions.
+   - Default to no FAQ. Add `## FAQ` with `### ` questions only when at least two of the dossier's
+     `real_questions` could not be absorbed into the body. (68 of the first 71 posts had one; the
+     site must stop looking templated.)
+   - The original asset is mandatory and must be computed from cited figures with its arithmetic
+     or inputs visible (a cost table at the registry rate and three wattages, a thaw-time table from
+     the USDA rule, a freeze-risk table by overnight low). Never a made-up measurement or anecdote.
+   - Do not sign the post or mention the editor in the body. The publish step appends the byline
+     ("Written and reviewed by peter.bae") and the reviewed date after the body.
    - End with `## Sources`: 3–8 bullets in the form `- [Title](URL) — what it supports`, using only
      dossier sources or registry URLs. No other external links anywhere.
 

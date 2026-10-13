@@ -5,10 +5,9 @@ date: '2026-08-17'
 updated: '2026-10-11'
 description: Berkeley Lab found closing registers raised energy use in a house with attic ducts, and closing over 60% risks a frozen coil. What works instead, by heating type.
 tags:
-- energy savings
-- HVAC
-- heating and cooling
-- home efficiency
+- heating and HVAC
+- heating and cooling costs
+- appliance efficiency
 pillar: energy-savings
 hero_image: /images/closing-vents-unused-rooms-energy-hero.svg
 hero_alt: Cutaway house with attic ductwork feeding each room and a hand adjusting a

@@ -6,11 +6,7 @@ updated: '2026-10-11'
 enriched: '2026-10-11'
 description: 'A 30-minute Sunday meal plan: five familiar dinners, a list with quantities, and a week ordered by how long raw meat, thawed food, and leftovers stay safe.'
 tags:
-- meal planning
-- kitchen habits
-- food waste
-- weeknight dinners
-- grocery budgeting
+- meal planning and food waste
 pillar: kitchen-habits
 hero_image: /images/30-minute-sunday-meal-plan-hero.svg
 hero_alt: Notepad and pen on a kitchen counter beside a bowl of fresh produce and a

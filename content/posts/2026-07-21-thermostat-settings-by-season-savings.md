@@ -5,11 +5,9 @@ date: '2026-07-21'
 updated: '2026-10-11'
 description: 'Setbacks, not a magic number, do the saving: 7–10°F for 8 hours with a furnace, about 3.6°F with a heat pump, a 55°F winter floor, and the dollar math.'
 tags:
-- energy savings
-- thermostat
-- heating and cooling
-- utility bills
-- HVAC
+- heating and cooling costs
+- water and gas bills
+- heating and HVAC
 pillar: energy-savings
 hero_image: /images/thermostat-settings-by-season-savings-hero.svg
 hero_alt: Round wall thermostat between a sun icon for summer cooling and a snowflake

@@ -6,9 +6,8 @@ updated: '2026-10-11'
 description: Rice left at room temperature can grow a toxin that survives 250°F, so reheating can't save it. The cooling clock, a keep-or-toss table, and the rice-cooker trap.
 tags:
 - food safety
-- leftovers
-- kitchen habits
-- meal planning
+- food storage and leftovers
+- meal planning and food waste
 pillar: kitchen-habits
 hero_image: /images/leftover-rice-food-poisoning-risk-hero.svg
 hero_alt: Steaming bowl of cooked rice beside a clock and a refrigerator, a reminder

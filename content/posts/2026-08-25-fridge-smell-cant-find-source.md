@@ -5,10 +5,9 @@ date: '2026-08-25'
 updated: '2026-10-11'
 description: "Fridge still smells after a full clean? Find the source by where it's strongest: drawer channels, drip pan, water filter, or a rodent behind it. Plus a 40°F check."
 tags:
-- fridge maintenance
-- kitchen odors
-- food storage
-- appliance care
+- food storage and leftovers
+- appliance efficiency
+- odors and moisture
 pillar: kitchen-habits
 hero_image: /images/fridge-smell-cant-find-source-hero.svg
 hero_alt: Open refrigerator with shelves, door bins, and bottom drawers, with faint

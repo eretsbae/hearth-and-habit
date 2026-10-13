@@ -5,7 +5,9 @@ date: 2026-06-26
 updated: '2026-10-11'
 enriched: '2026-10-11'
 description: "A 15-minute weekly reset: one timed pass with a basket, a 4-week rotation for monthly safety checks, and what habit research says about missed weeks."
-tags: [cleaning routine, decluttering, weekly reset, home organization]
+tags:
+- cleaning routines
+- decluttering and storage
 pillar: cleaning-organization
 hero_image: /images/15-minute-weekly-home-reset-hero.svg
 hero_alt: "Wall clock with a 15-minute wedge highlighted beside a tidy couch, a folded blanket, and a laundry basket used as a relocation bin"

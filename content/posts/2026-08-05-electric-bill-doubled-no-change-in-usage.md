@@ -6,9 +6,8 @@ updated: '2026-10-11'
 description: 'Split the bill into days, kWh per day, and cents per kWh to see what doubled: an expired plan, a tier, an estimate catch-up, weather, or heat strips.'
 tags:
 - electric bill
-- energy savings
-- utility costs
-- home troubleshooting
+- water and gas bills
+- DIY repair basics
 pillar: energy-savings
 hero_image: /images/electric-bill-doubled-no-change-in-usage-hero.svg
 hero_alt: Electric meter beside an oversized bill with a red total and a warning stamp,

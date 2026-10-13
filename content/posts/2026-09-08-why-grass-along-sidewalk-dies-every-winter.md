@@ -6,10 +6,8 @@ updated: '2026-10-11'
 description: The dead strip is de-icing salt. Rock salt quits at 15°F, so cold-day salting lands in the grass. Doses, de-icer temperatures, and a repair schedule.
 tags:
 - lawn care
-- winter yard care
-- salt damage
-- grass repair
-- yard maintenance
+- fall and winter yard
+- outdoor maintenance
 pillar: yard-outdoor
 hero_image: /images/why-grass-along-sidewalk-dies-every-winter-hero.svg
 hero_alt: Snowy sidewalk with a bag of ice melt and scattered salt beside a strip of dead brown grass next to healthy lawn

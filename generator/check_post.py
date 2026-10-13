@@ -82,6 +82,16 @@ def check(slug: str, cfg: dict, live_urls: set[str]) -> list[str]:
             issues.append(f"frontmatter: missing '{key}'")
     if not 100 <= len(str(fm.get("description", ""))) <= 170:
         issues.append("frontmatter: description should be 100-170 characters")
+    labels_path = gp.ROOT / "config" / "labels.yml"
+    if labels_path.exists():
+        taxonomy = gp.load_yaml(labels_path)["labels"]
+        allowed = {label for labels in taxonomy.values() for label in labels}
+        tags = list(fm.get("tags") or [])
+        if not 1 <= len(tags) <= 4:
+            issues.append("frontmatter: tags must list 1-4 labels from config/labels.yml")
+        for tag in tags:
+            if tag not in allowed:
+                issues.append(f"frontmatter: tag '{tag}' is not in config/labels.yml")
     return issues
 
 

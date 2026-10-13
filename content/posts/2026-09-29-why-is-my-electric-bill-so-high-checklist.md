@@ -7,10 +7,9 @@ enriched: '2026-10-11'
 description: 'Split a high electric bill into billing days, price per kWh, and daily use, then adjust for weather. Worked example, heat pump aux-heat trap, meter tests.'
 tags:
 - electric bill
-- energy savings
-- utility bills
-- thermostat
-- appliances
+- water and gas bills
+- heating and cooling costs
+- appliance efficiency
 pillar: energy-savings
 hero_image: /images/why-is-my-electric-bill-so-high-checklist-hero.svg
 hero_alt: Flat illustration of a utility bill with a bar chart and one tall bar under a magnifying glass, beside a light bulb and a thermostat

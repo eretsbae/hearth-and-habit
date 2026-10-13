@@ -5,10 +5,9 @@ date: '2026-09-07'
 updated: '2026-10-11'
 description: Onions sprout anywhere from 41 to 68°F and garlic from 40 to 64°F, which covers most pantries. What sprouts, roots, and mold each mean, and where to store bulbs.
 tags:
-- food storage
-- kitchen habits
-- reduce food waste
-- pantry organization
+- food storage and leftovers
+- meal planning and food waste
+- decluttering and storage
 pillar: kitchen-habits
 hero_image: /images/why-onions-garlic-sprout-indoors-hero.svg
 hero_alt: Onions in a wire basket and garlic bulbs in a mesh bag on a wooden counter,

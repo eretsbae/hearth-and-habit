@@ -5,10 +5,8 @@ date: '2026-08-24'
 updated: '2026-10-11'
 description: "EIA survey data on what uses the most electricity at home: water heaters, AC, and heat lead, pool pumps and EVs rival them, and dehumidifiers add up. Costs inside."
 tags:
-- energy savings
 - electric bill
-- appliances
-- home efficiency
+- appliance efficiency
 pillar: energy-savings
 hero_image: /images/appliance-using-most-electricity-hero.svg
 hero_alt: Cutaway house with a fridge, window AC, water heater, and clothes dryer in

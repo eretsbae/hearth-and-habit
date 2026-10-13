@@ -6,11 +6,10 @@ updated: '2026-10-11'
 description: 'The fall yard jobs that prevent damage (gutters, outdoor faucets, risky
   branches) versus the ones you can skip or mow over, with the research behind each.'
 tags:
-- fall yard cleanup
-- yard and outdoor
+- fall and winter yard
 - winter prep
 - lawn care
-- gutters
+- roof and gutters
 pillar: yard-outdoor
 hero_image: /images/fall-yard-cleanup-checklist-before-winter-hero.svg
 hero_alt: Rake leaning beside a pile of autumn leaves, with garden gloves and a coiled hose on a lawn under bare trees

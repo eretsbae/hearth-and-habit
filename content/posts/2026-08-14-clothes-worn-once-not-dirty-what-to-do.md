@@ -6,8 +6,7 @@ updated: '2026-10-11'
 description: "Give worn-once clothes one airing hook and a wear count: jeans and sweaters every 3 to 4 wears, sweaty polyester after each. Garment table inside."
 tags:
 - laundry
-- decluttering
-- closet organization
+- decluttering and storage
 - cleaning routines
 pillar: cleaning-organization
 hero_image: /images/clothes-worn-once-not-dirty-what-to-do-hero.svg

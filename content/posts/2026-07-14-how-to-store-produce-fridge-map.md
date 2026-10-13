@@ -5,11 +5,8 @@ date: '2026-07-14'
 updated: '2026-10-11'
 description: 'A fridge-and-counter map built on real thresholds: the temperature below which tomatoes, peppers, and potatoes suffer, and which crisper drawer gets what.'
 tags:
-- food storage
-- kitchen habits
-- reduce food waste
-- fridge organization
-- produce tips
+- food storage and leftovers
+- meal planning and food waste
 pillar: kitchen-habits
 hero_image: /images/how-to-store-produce-fridge-map-hero.svg
 hero_alt: Open refrigerator with fruit on the top shelf, broccoli, carrots, and peppers

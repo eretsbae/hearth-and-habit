@@ -6,9 +6,8 @@ updated: '2026-10-11'
 description: Tall fescue and bluegrass stop establishing once soil falls to 50°F. Regional cutoffs, what each week of delay costs, and when to switch to dormant seeding.
 tags:
 - lawn care
-- fall yard work
-- grass seeding
-- seasonal outdoor prep
+- fall and winter yard
+- outdoor maintenance
 pillar: yard-outdoor
 hero_image: /images/how-late-can-you-seed-grass-in-fall-hero.svg
 hero_alt: Hand scattering grass seed over a bare patch of lawn with autumn leaves nearby, as the fall seeding window runs out

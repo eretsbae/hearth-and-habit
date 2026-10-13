@@ -41,7 +41,18 @@ SITE_CONFIG = ROOT / "config" / "site.yml"
 PAGES_DIR = ROOT / "content" / "pages"
 
 # Publish order = a sensible nav order if the user adds the Pages gadget.
-PAGE_FILES = ["about.md", "contact.md", "privacy-policy.md", "terms.md"]
+# The five pillar hubs (2026-10-13) are static pages with a `pillar:` key;
+# load_pages() appends the pillar's live posts to each, so a reader (or a
+# reviewer) can reach every article in a topic from one curated page instead
+# of the raw label archive.
+PAGE_FILES = [
+    "about.md", "contact.md",
+    "home-maintenance.md", "cleaning-organization.md", "energy-savings.md",
+    "kitchen-habits.md", "yard-outdoor.md",
+    "privacy-policy.md", "terms.md",
+]
+TOPICS_CONFIG = ROOT / "config" / "topics.yml"
+POSTS_DIR = ROOT / "content" / "posts"
 
 # Markdown link whose target is a root-relative path: ](/contact/) or ](/contact)
 _ROOT_LINK = re.compile(r"\]\(/([a-z0-9-]+)/?\)")
@@ -80,6 +91,32 @@ def existing_pages(access_token: str, blog_id: str) -> dict[str, dict]:
             for p in resp.json().get("items", [])}
 
 
+def pillar_post_list(pillar_slug: str) -> str:
+    """Markdown list of the pillar's live posts, newest first, each with its
+    one-line description, read from topics.yml + content/posts frontmatter."""
+    topics = load_yaml(TOPICS_CONFIG)["topics"]
+    rows = []
+    for t in topics:
+        if t.get("pillar") != pillar_slug or t.get("status") != "published" or not t.get("blogger_url"):
+            continue
+        slug = t.get("published_slug") or ""
+        matches = list(POSTS_DIR.glob(f"*-{slug}.md")) if slug else []
+        title, desc, date = t["title"], "", ""
+        if matches:
+            fm, _ = parse_frontmatter(matches[0])
+            title = fm.get("title") or title
+            desc = str(fm.get("description") or "").strip()
+            date = str(fm.get("date") or "")
+        rows.append((date, title, t["blogger_url"], desc))
+    rows.sort(reverse=True)
+    if not rows:
+        return ""
+    lines = ["", f"## All {len(rows)} guides in this topic", ""]
+    for _, title, url, desc in rows:
+        lines.append(f"- [{title}]({url})" + (f" \u2014 {desc}" if desc else ""))
+    return "\n".join(lines) + "\n"
+
+
 def load_pages() -> list[dict]:
     pages = []
     for name in PAGE_FILES:
@@ -88,6 +125,8 @@ def load_pages() -> list[dict]:
             print(f"WARN: {path} missing; skipping")
             continue
         fm, body = parse_frontmatter(path)
+        if fm.get("pillar"):
+            body = body.rstrip() + "\n" + pillar_post_list(fm["pillar"])
         pages.append({"title": fm["title"], "slug": fm.get("slug") or path.stem, "body": body})
     return pages
 

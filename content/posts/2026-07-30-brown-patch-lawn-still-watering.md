@@ -6,9 +6,7 @@ updated: '2026-10-11'
 description: A brown spot that watering won't fix is usually a coverage gap, grubs, dog urine, or brown patch fungus. The tests and thresholds that tell which one.
 tags:
 - lawn care
-- yard maintenance
-- grass problems
-- outdoor basics
+- outdoor maintenance
 pillar: yard-outdoor
 hero_image: /images/brown-patch-lawn-still-watering-hero.svg
 hero_alt: Lawn with one stubborn brown patch in full sun while a sprinkler in the background sprays toward it

@@ -5,10 +5,8 @@ date: '2026-09-04'
 updated: '2026-10-11'
 description: "Mostly no. Mild soap, glass cleaner, and a disinfectant cover most homes. Marble, wood floors, glass cooktops, and leather are the real exceptions."
 tags:
-- cleaning supplies
 - cleaning routines
-- home organization
-- budget cleaning
+- decluttering and storage
 pillar: cleaning-organization
 hero_image: /images/separate-cleaners-for-every-surface-worth-it-hero.svg
 hero_alt: "Cleaning shelf with three labeled bottles and a check mark above a long row of crossed-out single-surface cleaner bottles"

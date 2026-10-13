@@ -5,10 +5,7 @@ date: '2026-08-21'
 updated: '2026-10-11'
 description: "Decide by what an item can still return, not what it cost: return, sell after eBay's 13.6% fee, or donate, and why 2026's new tax break skips donated goods."
 tags:
-- decluttering
-- organization
-- minimalism
-- home organization
+- decluttering and storage
 pillar: cleaning-organization
 hero_image: /images/get-rid-of-things-you-spent-money-on-hero.svg
 hero_alt: "Open closet holding a barely used treadmill, a stand mixer on the shelf, and clothes with price tags still attached"

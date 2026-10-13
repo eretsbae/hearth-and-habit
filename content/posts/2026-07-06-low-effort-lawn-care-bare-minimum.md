@@ -7,8 +7,6 @@ description: 'Mow at the right height for your grass, leave the clippings, and f
   once at the right time. Extension heights, dates, and bag math inside.'
 tags:
 - lawn care
-- yard basics
-- low-effort home care
 - outdoor maintenance
 pillar: yard-outdoor
 hero_image: /images/low-effort-lawn-care-bare-minimum-hero.svg

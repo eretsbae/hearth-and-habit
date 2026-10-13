@@ -5,10 +5,8 @@ date: '2026-08-10'
 updated: '2026-10-11'
 description: An empty run won't clean the filter, door gaskets, or tub floor where the smell lives. Clean those by hand, then run a hot cycle with cleaner. Schedule inside.
 tags:
-- cleaning
-- kitchen
-- appliances
-- home maintenance
+- cleaning routines
+- appliance efficiency
 pillar: cleaning-organization
 hero_image: /images/why-does-dishwasher-smell-after-running-empty-hero.svg
 hero_alt: Open dishwasher with odor lines rising from the bottom rack beside a scrub

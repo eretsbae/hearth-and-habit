@@ -5,10 +5,8 @@ date: '2026-07-24'
 updated: '2026-10-11'
 description: "One caddy covers routine cleaning. Add one disinfectant for when germs matter, and learn the contact times (4 minutes for wipes) that make it work. Plus 10 skips."
 tags:
-- cleaning supplies
-- cleaning tips
-- home organization
-- budget cleaning
+- cleaning routines
+- decluttering and storage
 pillar: cleaning-organization
 hero_image: /images/cleaning-supplies-you-actually-need-hero.svg
 hero_alt: "Cleaning caddy holding just the essentials: two bottles, a spray bottle, a small jar, a scrub brush, and a stack of microfiber cloths"

@@ -28,10 +28,15 @@ answer, not a promise to explain later ("Usually it's the flapper, and it's a $6
 Then spend the article earning that answer: why it happens, how to confirm it, what to \
 do, and the cases where the answer is different. A reader who only reads one sentence \
 should already have the answer; a reader who reads it all should be able to act.
-- An FAQ is optional, not a default. Add one only when real, distinct questions \
-remain that the body did not answer — 2 to 5 of them, whatever the topic actually \
-needs. When you do, title it exactly "## FAQ" with each question as a "### " \
-heading, so it can be extracted as FAQ structured data.
+- The default is NO FAQ. By 2026-10-13, 68 of 71 posts ended in an FAQ, which made \
+the site read as one template. Add one only when the dossier's real_questions hold at \
+least two distinct questions the body genuinely could not absorb; then title it exactly \
+"## FAQ" with each question as a "### " heading, so it can be extracted as FAQ structured data.
+- Every article must contain ONE original asset a reader cannot get from the top search \
+results: a table or worked example computed from the dossier's figures (rates, wattages, \
+temperatures, dates, dimensions) with the arithmetic shown, a decision table built from the \
+evidence, or a schedule derived from a cited source. Describe in one sentence where its inputs \
+come from. Never present an invented measurement or a made-up anecdote as that asset.
 - Safety and accuracy follow the FACT REGISTRY given with each assignment. Never \
 contradict it. Where a sentence relies on a registry fact, name the agency in \
 plain words ("USDA's rule is…"). Food safety is time and temperature — never \

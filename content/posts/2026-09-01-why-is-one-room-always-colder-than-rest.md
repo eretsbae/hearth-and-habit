@@ -5,11 +5,9 @@ date: '2026-09-01'
 updated: '2026-10-11'
 description: A cold room is either short on warm air or losing heat faster. Three quick checks tell which, including the closed-door test most guides skip, and what fixes each.
 tags:
-- home maintenance
-- heating
-- insulation
-- HVAC
-- seasonal upkeep
+- heating and HVAC
+- heating and cooling costs
+- DIY repair basics
 pillar: home-maintenance
 hero_image: /images/why-is-one-room-always-colder-than-rest-hero.svg
 hero_alt: Cutaway house where the room under a closed ceiling vent is tinted cold blue

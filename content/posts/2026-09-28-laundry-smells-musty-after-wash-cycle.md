@@ -7,9 +7,8 @@ description: "Musty right out of the washer usually means the machine; sour afte
 tags:
 - laundry
 - cleaning routines
-- washing machine care
-- odor removal
-- home maintenance
+- appliance efficiency
+- odors and moisture
 pillar: cleaning-organization
 hero_image: /images/laundry-smells-musty-after-wash-cycle-hero.svg
 hero_alt: "Front-load washer with a damp towel half pulled from the drum and odor lines rising from the rubber door gasket"

@@ -5,10 +5,7 @@ date: '2026-09-29'
 description: "Fridge at 40°F by thermometer, food cold within 2 hours, leftovers 3–4 days, reheat to 165°F, plus FDA's power-outage limits and why dates don't decide."
 tags:
 - food safety
-- leftovers
-- fridge storage
-- thawing meat
-- kitchen habits
+- food storage and leftovers
 pillar: kitchen-habits
 hero_image: /images/food-storage-safety-rules-leftovers-thawing-hero.svg
 hero_alt: Flat illustration of an open fridge with stacked leftover containers and a crisper of greens, next to a dial thermometer and a small clock

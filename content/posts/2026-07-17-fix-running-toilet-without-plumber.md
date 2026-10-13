@@ -5,11 +5,9 @@ date: '2026-07-17'
 updated: '2026-10-11'
 description: 'Two quick tests tell you whether the fill valve, flapper, or flush valve is at fault, plus the exact water level, chain slack, and flapper size to get right.'
 tags:
-- home maintenance
 - plumbing
-- DIY repair
-- toilet repair
-- water bill
+- DIY repair basics
+- water and gas bills
 pillar: home-maintenance
 hero_image: /images/fix-running-toilet-without-plumber-hero.svg
 hero_alt: Open toilet tank showing the fill valve, float, refill tube, overflow tube, chain, and flapper behind most running toilets

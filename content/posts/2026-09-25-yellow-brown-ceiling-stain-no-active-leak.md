@@ -5,10 +5,7 @@ date: '2026-09-25'
 updated: '2026-10-11'
 description: "A yellow-brown ceiling stain with no drip: prove it's dry with a meter, match it to rain, showers, winter thaws or AC season, then fix the source."
 tags:
-- ceiling stains
-- water damage
-- home maintenance
-- roof leaks
+- roof and gutters
 - plumbing
 pillar: home-maintenance
 hero_image: /images/yellow-brown-ceiling-stain-no-active-leak-hero.svg

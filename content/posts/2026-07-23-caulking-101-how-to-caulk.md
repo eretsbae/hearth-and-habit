@@ -5,11 +5,8 @@ date: '2026-07-23'
 updated: '2026-10-11'
 description: "Caulk peels when the label doesn't fit the joint. Compare silicone, siliconized acrylic and painter's caulk, size deep gaps with backer rod, and time the cure."
 tags:
-- home maintenance
-- DIY repairs
-- caulking
-- weatherproofing
-- seasonal upkeep
+- DIY repair basics
+- winter prep
 pillar: home-maintenance
 hero_image: /images/caulking-101-how-to-caulk-hero.svg
 hero_alt: Caulking gun, tube of caulk, putty knife, and roll of painter's tape laid out below a window, ready to reseal the trim

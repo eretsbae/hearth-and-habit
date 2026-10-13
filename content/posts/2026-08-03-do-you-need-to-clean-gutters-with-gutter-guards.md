@@ -5,10 +5,7 @@ date: '2026-08-03'
 updated: '2026-10-11'
 description: 'Yes: guards cut debris but don''t end upkeep. What to check, why wildfire areas need metal guards and clear gutters, and the ladder math to do it safely.'
 tags:
-- gutters
-- gutter guards
-- home maintenance
-- yard and outdoor
+- roof and gutters
 pillar: yard-outdoor
 hero_image: /images/do-you-need-to-clean-gutters-with-gutter-guards-hero.svg
 hero_alt: House eave with a mesh gutter guard holding a few fallen leaves on top, a downspout, and a ladder leaning nearby

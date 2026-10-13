@@ -3,15 +3,15 @@ title: 'Musty Smell in the House? How to Find the Source, Room by Room'
 slug: musty-smell-in-house-find-the-source
 date: '2026-09-29'
 description: "A musty smell is usually gas from mold growing on something damp. Find it with your nose and a hygrometer, skip the test kit, and size a dehumidifier right."
+hero_image: /images/musty-smell-in-house-find-the-source-hero.jpg
+hero_alt: "Portable dehumidifier running on the floor of an unfinished basement"
+hero_credit: "Photo: Rex Roof via Flickr (CC BY 2.0)"
+hero_credit_url: "https://www.flickr.com/photos/18199354@N00/755466614"
+hero_license_url: "https://creativecommons.org/licenses/by/2.0/"
 tags:
-- musty smell
-- mold and mildew
-- indoor humidity
+- odors and moisture
 - cleaning routines
-- home maintenance
 pillar: cleaning-organization
-hero_image: /images/musty-smell-in-house-find-the-source-hero.svg
-hero_alt: Flat illustration of an open closet with hanging clothes, a humidity gauge, and a washing machine with a towel, faint odor lines drifting up
 pin_hooks:
 - Musty smell? Keep humidity below 60%, ideally 30–50%
 - Skip the mold test kit and find the damp spot instead

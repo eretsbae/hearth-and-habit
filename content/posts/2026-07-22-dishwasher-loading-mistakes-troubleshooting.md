@@ -5,10 +5,8 @@ date: '2026-07-22'
 updated: '2026-10-11'
 description: 'Dirty dishes after a cycle? Spin the spray arm, clean the filter, run the tap hot. A symptom table, the vinegar test for cloudy glass, and water hardness math.'
 tags:
-- dishwasher
-- kitchen tips
-- appliance care
-- cleaning
+- appliance efficiency
+- cleaning routines
 pillar: kitchen-habits
 hero_image: /images/dishwasher-loading-mistakes-troubleshooting-hero.svg
 hero_alt: Top-down view of a dishwasher rack with plates, glasses, bowls, and a utensil

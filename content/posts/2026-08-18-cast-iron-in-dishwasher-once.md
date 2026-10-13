@@ -5,10 +5,8 @@ date: '2026-08-18'
 updated: '2026-10-11'
 description: One dishwasher cycle strips cast iron's seasoning and leaves rust, but the pan survives. Lodge's fix is a scour, a thin oil coat, and an hour at 450–500°F.
 tags:
-- cast iron care
-- kitchen appliances
-- cookware maintenance
-- dishwasher tips
+- cookware and kitchen appliances
+- appliance efficiency
 pillar: kitchen-habits
 hero_image: /images/cast-iron-in-dishwasher-once-hero.svg
 hero_alt: Cast iron skillet with a dull, stripped patch of seasoning sitting beside

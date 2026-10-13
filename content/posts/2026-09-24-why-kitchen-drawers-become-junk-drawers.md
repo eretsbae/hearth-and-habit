@@ -5,10 +5,7 @@ date: '2026-09-24'
 updated: '2026-10-11'
 description: "Give the drawer one job, a written keep-list, and a weekly check tied to a set cue. Plus the battery storage rules junk drawers often break, per EPA."
 tags:
-- organization
-- kitchen
-- decluttering
-- home systems
+- decluttering and storage
 pillar: cleaning-organization
 hero_image: /images/why-kitchen-drawers-become-junk-drawers-hero.svg
 hero_alt: "Kitchen drawer split down the middle: neat divided trays on one side, loose batteries, rubber bands, twist ties, and clips on the other"

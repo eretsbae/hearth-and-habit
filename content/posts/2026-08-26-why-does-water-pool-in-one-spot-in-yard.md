@@ -5,11 +5,9 @@ date: '2026-08-26'
 updated: '2026-10-11'
 description: "A spot that puddles every rain is low, compacted, or fed by runoff. Use the 6-hour hole test, a pen test, and thin topdressing to find and fix which it is."
 tags:
-- yard drainage
+- pests and drainage
 - lawn care
 - outdoor maintenance
-- grading
-- landscaping
 pillar: yard-outdoor
 hero_image: /images/why-does-water-pool-in-one-spot-in-yard-hero.svg
 hero_alt: Backyard lawn with rainwater pooling in a low spot as a downspout empties runoff toward it near the house

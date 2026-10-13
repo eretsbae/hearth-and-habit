@@ -5,11 +5,8 @@ date: '2026-09-23'
 updated: '2026-10-11'
 description: "Humid summer air condenses on ground-cooled basement walls and feeds mildew. How to size a dehumidifier on the post-2019 ratings, what it costs, and what to change."
 tags:
-- basement
-- humidity
-- seasonal maintenance
-- mold prevention
-- home maintenance
+- odors and moisture
+- DIY repair basics
 pillar: home-maintenance
 hero_image: /images/why-basement-smells-musty-in-summer-hero.svg
 hero_alt: "Cutaway basement with moisture droplets and a damp patch on the concrete wall, a small window, and a dehumidifier drying the air"

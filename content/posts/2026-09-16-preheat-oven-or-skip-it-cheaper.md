@@ -5,11 +5,8 @@ date: '2026-09-16'
 updated: '2026-10-11'
 description: Skipping preheat saves a few cents at most. Price your own preheat per 1,000 watts, see when skipping is fine, and the free fixes that make preheat shorter.
 tags:
-- energy savings
-- kitchen
-- oven use
-- utility bills
-- cooking tips
+- cookware and kitchen appliances
+- water and gas bills
 pillar: energy-savings
 hero_image: /images/preheat-oven-or-skip-it-cheaper-hero.svg
 hero_alt: Oven glowing hot inside as it preheats, with a tray of cookies leaning beside

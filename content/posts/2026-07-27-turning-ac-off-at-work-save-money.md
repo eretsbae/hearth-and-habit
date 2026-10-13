@@ -5,10 +5,9 @@ date: '2026-07-27'
 updated: '2026-10-11'
 description: "Yes: a 7–10°F workday setback saves up to about 10%, per DOE. Work out your own dollars, and see when humidity, pets, or a 5–8 p.m. peak rate change the plan."
 tags:
-- energy savings
-- AC and cooling
-- thermostat tips
-- utility bills
+- heating and HVAC
+- heating and cooling costs
+- water and gas bills
 pillar: energy-savings
 hero_image: /images/turning-ac-off-at-work-save-money-hero.svg
 hero_alt: House cross-section with a wall thermostat linked to a dollar-sign icon while

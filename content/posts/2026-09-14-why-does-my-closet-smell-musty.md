@@ -5,11 +5,9 @@ date: '2026-09-14'
 updated: '2026-10-11'
 description: A musty closet usually means mildew on a cold outside wall or in humid, still air. Find which one with a dew-point example, then fix the moisture before you scrub.
 tags:
-- cleaning
-- odor removal
-- closet organization
-- home maintenance
-- moisture control
+- cleaning routines
+- odors and moisture
+- decluttering and storage
 pillar: cleaning-organization
 hero_image: /images/why-does-my-closet-smell-musty-hero.svg
 hero_alt: "Open closet with clothes on a rod, a small dehumidifier on the shelf below, and airflow lines moving through the space"

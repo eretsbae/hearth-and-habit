@@ -5,11 +5,10 @@ date: '2026-09-17'
 updated: '2026-10-11'
 description: A winter water bill spike is usually a hidden leak, an estimated read, a January rate change, or a winter-averaged sewer charge. EPA's benchmarks show which.
 tags:
-- water bill
-- utility savings
-- winter home maintenance
-- leaks
-- energy and utility savings
+- water and gas bills
+- electric bill
+- winter prep
+- plumbing
 pillar: energy-savings
 hero_image: /images/winter-water-bill-spike-no-extra-usage-hero.svg
 hero_alt: Winter house cutaway with frost-marked pipes running through the walls, a

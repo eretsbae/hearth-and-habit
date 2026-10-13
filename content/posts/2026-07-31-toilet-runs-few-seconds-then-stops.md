@@ -6,10 +6,8 @@ date: '2026-07-31'
 updated: '2026-10-11'
 description: A toilet that refills for a few seconds on its own is leaking from the tank. How to tell flapper, refill tube, or seal, and what the leak wastes.
 tags:
-- toilet repair
 - plumbing
-- home maintenance
-- DIY fixes
+- DIY repair basics
 pillar: home-maintenance
 hero_image: /images/toilet-runs-few-seconds-then-stops-hero.svg
 hero_alt: Cutaway toilet tank with a closed flapper, float ball, and refill tube, with small ripples marking a brief phantom-flush refill

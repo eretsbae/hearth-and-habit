@@ -100,15 +100,32 @@ def rewrite_image_urls(cfg: dict, html: str) -> str:
     return re.sub(r'src="(/images/[^"]+)"', repl, html)
 
 
-def hero_image_tag(cfg: dict, hero_image: str, alt: str = "") -> str:
+def hero_image_tag(cfg: dict, hero_image: str, alt: str = "", credit: str = "",
+                   credit_url: str = "", license_url: str = "") -> str:
+    """Hero <img>, plus an attribution caption when the hero is a licensed
+    stock photo (2026-10-13: hero_credit/hero_credit_url/hero_license_url in
+    the frontmatter, written by scripts/stock_photo.py). CC BY requires the
+    author, source and license to stay with the image; CC0 photos keep the
+    credit anyway so every photo on the site has a visible provenance."""
     if not hero_image:
         return ""
     url = raw_asset_url(cfg, "content" + hero_image)
     alt_esc = (alt or "").replace('"', "&quot;")
-    return (
+    img = (
         f'<img src="{url}" alt="{alt_esc}" '
         f'style="width:100%;max-width:900px;border-radius:14px;'
-        f'margin:0 0 24px;display:block;" /><br/>\n'
+        f'margin:0 0 {"6px" if credit else "24px"};display:block;" />'
+    )
+    if not credit:
+        return img + "<br/>\n"
+    text = credit.replace("&", "&amp;").replace("<", "&lt;")
+    if credit_url:
+        text = f'<a href="{credit_url}" rel="nofollow noopener" target="_blank" style="color:inherit;">{text}</a>'
+    if license_url:
+        text += f' &middot; <a href="{license_url}" rel="license nofollow noopener" target="_blank" style="color:inherit;">license</a>'
+    return (
+        img
+        + f'<p style="margin:0 0 24px;font-size:12px;color:#8a8078;">{text}</p>\n'
     )
 
 
@@ -162,7 +179,7 @@ def json_ld_block(cfg: dict, fm: dict, hero_url: str, page_url: str, faq_pairs: 
             "datePublished": str(fm.get("date", "")),
             "dateModified": str(fm.get("updated") or fm.get("date", "")),
             "image": [hero_url] if hero_url else [],
-            "author": {"@type": "Organization", "name": cfg.get("site_name", "Hearth & Habit")},
+            "author": {"@type": "Person", "name": cfg.get("author") or cfg.get("site_name", "Hearth & Habit")},
             "publisher": {"@type": "Organization", "name": cfg.get("site_name", "Hearth & Habit")},
             **({"mainEntityOfPage": page_url} if page_url else {}),
         }
@@ -370,20 +387,32 @@ def find_post_file(slug: str) -> Path | None:
     return matches[0] if matches else None
 
 
-def reviewed_line(fm: dict) -> str:
-    """Visible "Last reviewed" date for posts corrected after publication.
-    Readers (and Google) see the page was checked; it matches dateModified
-    in the JSON-LD."""
+def editorial_footer(cfg: dict, fm: dict) -> str:
+    """Byline block at the END of the post: who is accountable for the page
+    and when it was last reviewed.
+
+    Until 2026-10-13 the "Last reviewed" line sat at the top of the body, so
+    it became the first words of every homepage card, og:description and
+    search snippet on all 71 posts ("Last reviewed October 11, 2026 ...") and
+    read as a mass edit. The site also showed no named editor anywhere. The
+    reviewed date still matches dateModified in the JSON-LD."""
+    author = str(cfg.get("author") or "").strip()
+    parts = []
+    if author:
+        parts.append(f"Written and reviewed by <strong>{author}</strong> for {cfg.get('site_name', 'Hearth & Habit')}")
     updated = fm.get("updated")
-    if not updated:
-        return ""
-    try:
-        d = datetime.date.fromisoformat(str(updated))
-    except ValueError:
+    if updated:
+        try:
+            d = datetime.date.fromisoformat(str(updated))
+            parts.append(f'Last reviewed {d.strftime("%B")} {d.day}, {d.year}')
+        except ValueError:
+            pass
+    if not parts:
         return ""
     return (
-        f'<p style="margin:0 0 20px;font-size:14px;color:#8a8078;">'
-        f'Last reviewed {d.strftime("%B")} {d.day}, {d.year}</p>\n'
+        '<p style="margin:32px 0 0;font-size:14px;color:#8a8078;">'
+        + " &middot; ".join(parts)
+        + "</p>\n"
     )
 
 
@@ -399,9 +428,10 @@ def render_post_html(
     hero_url = raw_asset_url(cfg, "content" + fm["hero_image"]) if fm.get("hero_image") else ""
     return (
         json_ld_block(cfg, fm, hero_url, page_url, parse_faq(body))
-        + hero_image_tag(cfg, fm.get("hero_image", ""), fm.get("hero_alt", fm.get("title", "")))
-        + reviewed_line(fm)
+        + hero_image_tag(cfg, fm.get("hero_image", ""), fm.get("hero_alt", fm.get("title", "")),
+                         fm.get("hero_credit", ""), fm.get("hero_credit_url", ""), fm.get("hero_license_url", ""))
         + html
+        + editorial_footer(cfg, fm)
         + related_posts_html(topics_data, pillar, slug, blog_url)
     )
 

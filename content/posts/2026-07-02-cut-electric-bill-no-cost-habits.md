@@ -5,7 +5,10 @@ date: 2026-07-02
 updated: '2026-10-11'
 enriched: '2026-10-11'
 description: "Nine free habits ranked by the slice of the bill they attack, with the math: thermostat setbacks, a 120°F water heater, cold washes, and standby loads worth chasing."
-tags: [electric bill, energy savings, thermostat, utilities]
+tags:
+- electric bill
+- heating and cooling costs
+- water and gas bills
 pillar: energy-savings
 hero_image: /images/cut-electric-bill-no-cost-habits-hero.svg
 hero_alt: "House with one lit window and one dark window, a lightning-bolt badge, and coins falling beside a downward-trending arrow"

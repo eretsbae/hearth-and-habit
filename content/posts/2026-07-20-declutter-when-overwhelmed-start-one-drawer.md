@@ -5,10 +5,8 @@ date: '2026-07-20'
 updated: '2026-10-11'
 description: 'Start with one drawer, sort it into three piles, and finish it. Plus where the stuck items go: batteries, old pills, phones, sunscreen, and tax papers.'
 tags:
-- decluttering
-- organization
+- decluttering and storage
 - cleaning routines
-- home habits
 pillar: cleaning-organization
 hero_image: /images/declutter-when-overwhelmed-start-one-drawer-hero.svg
 hero_alt: "Open drawer with a few neatly organized items beside a loose pile of cords, a key, buttons, and odds and ends waiting to be sorted"

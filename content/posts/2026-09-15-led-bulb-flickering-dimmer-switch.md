@@ -5,11 +5,8 @@ date: '2026-09-15'
 updated: '2026-10-11'
 description: It's common, but it's a bulb-dimmer mismatch, not normal. How to read "dimmable" fine print, find an SSL 7A dimmer, and use the low-end trim to stop flicker.
 tags:
-- electrical
-- lighting
-- home maintenance
-- LED bulbs
-- dimmer switches
+- electrical and home safety
+- electric bill
 pillar: home-maintenance
 hero_image: /images/led-bulb-flickering-dimmer-switch-hero.svg
 hero_alt: Wall dimmer switch with its slider set low beside a hanging LED bulb with flicker lines radiating from its glow

@@ -5,11 +5,7 @@ date: '2026-09-18'
 updated: '2026-10-11'
 description: Bigleaf hydrangea buds form in late summer, so an August pruning, a fall freeze, or a spring frost after early leaf-out can erase a year of flowers.
 tags:
-- gardening
-- hydrangeas
-- yard care
-- pruning
-- landscaping
+- outdoor maintenance
 pillar: yard-outdoor
 hero_image: /images/hydrangea-bloom-one-year-not-next-hero.svg
 hero_alt: Hydrangea shrub split down the middle, one side covered in blue and pink blooms and the other leafy with no flowers

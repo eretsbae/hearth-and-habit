@@ -7,8 +7,6 @@ description: No agency sets a use count for towels. When a bath towel needs wash
 tags:
 - laundry
 - cleaning routines
-- home hygiene
-- bathroom cleaning
 pillar: cleaning-organization
 hero_image: /images/how-often-wash-bath-towels-hero.svg
 hero_alt: "Open shelf of rolled and folded bath towels beside a woven laundry hamper with a used towel spilling over its rim"

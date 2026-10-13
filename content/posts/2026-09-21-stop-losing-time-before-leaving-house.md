@@ -5,10 +5,7 @@ date: '2026-09-21'
 updated: '2026-10-11'
 description: "Give keys one spot by the door you use and tie it to walking in. Habit research puts automatic at about 66 days, and a missed day won't reset it. A 10-week plan."
 tags:
-- organization
-- declutter
-- home routines
-- entryway
+- decluttering and storage
 pillar: cleaning-organization
 hero_image: /images/stop-losing-time-before-leaving-house-hero.svg
 hero_alt: "Entryway drop zone with a bag on a wall hook, keys, sunglasses, and a wallet on a small shelf, and a catch-all bowl by the door"

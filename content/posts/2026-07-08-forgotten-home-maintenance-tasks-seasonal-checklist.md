@@ -6,10 +6,7 @@ updated: '2026-10-11'
 description: 'The 10 home jobs people skip most, with the real interval for each: dryer
   duct length limits, the water heater valve test, CO alarm age, and more.'
 tags:
-- home maintenance
-- seasonal checklist
-- diy home care
-- homeowner tips
+- DIY repair basics
 pillar: home-maintenance
 hero_image: /images/forgotten-home-maintenance-tasks-seasonal-checklist-hero.svg
 hero_alt: Cutaway house showing a water heater, dryer vent, and gutters, framed by spring, summer, fall, and winter maintenance icons

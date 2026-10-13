@@ -4,14 +4,16 @@ slug: garbage-disposal-hums-but-wont-spin
 date: '2026-09-11'
 updated: '2026-10-11'
 description: A humming disposal has power but a stuck flywheel. Turn it free with a 1/4-inch hex wrench, read the reset button, and know when the breaker or a new unit is next.
+hero_image: /images/garbage-disposal-hums-but-wont-spin-hero.jpg
+hero_alt: "Garbage disposal unit and white drain pipes mounted under a kitchen sink"
+hero_credit: "Photo: Tony Webster via Wikimedia Commons (CC BY 2.0)"
+hero_credit_url: "https://commons.wikimedia.org/w/index.php?curid=160081607"
+hero_license_url: "https://creativecommons.org/licenses/by/2.0/"
 tags:
-- garbage disposal
-- kitchen repair
-- home maintenance
-- appliance troubleshooting
+- plumbing
+- cookware and kitchen appliances
+- appliance efficiency
 pillar: home-maintenance
-hero_image: /images/garbage-disposal-hums-but-wont-spin-hero.svg
-hero_alt: Under-sink cutaway of a humming garbage disposal below the drain, with a wrench and flashlight ready on the counter
 pin_hooks:
 - Free a humming disposal with a 1/4-inch Allen wrench
 - Reset button won't stay up? Wait 10 minutes, then retry

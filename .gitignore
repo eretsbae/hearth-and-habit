@@ -9,3 +9,6 @@ generator/token.json
 
 # claude-publish.ps1 run logs
 logs/
+
+# scratch files for scripts/stock_photo.py contact sheets and Openverse cache
+.tmp/

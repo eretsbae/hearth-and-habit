@@ -5,10 +5,8 @@ date: '2026-08-07'
 updated: '2026-10-11'
 description: Popping usually means sediment is trapping steam bubbles, and the fix is a flush. Match crackling, screeching, humming, or banging to its cause and know when to replace.
 tags:
-- water heater maintenance
-- home maintenance
 - plumbing
-- appliance repair
+- appliance efficiency
 pillar: home-maintenance
 hero_image: /images/water-heater-popping-rumbling-sound-hero.svg
 hero_alt: Tank water heater in a basement corner with vibration lines around it, showing the popping and rumbling of sediment buildup

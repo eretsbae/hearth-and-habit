@@ -5,16 +5,16 @@ date: '2026-10-09'
 description: Pipes freeze at 32°F, but unheated-space pipes are most at risk below
   20°F. Match tonight's low to your pipes, thaw safely, and know when to shut off
   water.
+hero_image: /images/what-temperature-do-pipes-freeze-guide-hero.jpg
+hero_alt: "Ice pushing out of the open end of a frozen outdoor pipe"
+hero_credit: "Photo: Skakerman (Archive) via Flickr (CC BY 2.0)"
+hero_credit_url: "https://www.flickr.com/photos/27482959@N08/3324523470"
+hero_license_url: "https://creativecommons.org/licenses/by/2.0/"
 tags:
-- frozen pipes
-- winter home maintenance
+- winter prep
 - plumbing
-- cold weather prep
-- water bill
+- water and gas bills
 pillar: home-maintenance
-hero_image: /images/what-temperature-do-pipes-freeze-guide-hero.svg
-hero_alt: Cutaway illustration of a house pipe near an exterior wall starting to freeze
-  during a cold winter night
 pin_hooks:
 - The Exact Temperature Pipes Start to Freeze
 - 'Frozen Pipes: Symptom-by-Symptom Fix Guide'

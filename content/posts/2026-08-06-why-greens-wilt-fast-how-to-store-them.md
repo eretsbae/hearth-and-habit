@@ -5,11 +5,8 @@ date: '2026-08-06'
 updated: '2026-10-11'
 description: Greens keep best at 32–34°F in high humidity. Bagged lettuce lasts about 3 weeks at 32°F but 5–10 days at 41°F. Diagnose limp, slimy, or rusty greens.
 tags:
-- food storage
-- kitchen tips
-- reduce food waste
-- produce storage
-- meal planning
+- food storage and leftovers
+- meal planning and food waste
 pillar: kitchen-habits
 hero_image: /images/why-greens-wilt-fast-how-to-store-them-hero.svg
 hero_alt: Leafy greens bundled in a striped kitchen towel beside a glass container

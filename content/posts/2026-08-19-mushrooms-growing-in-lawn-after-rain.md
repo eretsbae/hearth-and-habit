@@ -6,9 +6,7 @@ updated: '2026-10-11'
 description: Rain makes soil fungi feeding on buried wood or roots fruit. They rarely hurt grass, but one common lawn species is North America's top poisoning mushroom.
 tags:
 - lawn care
-- yard maintenance
-- lawn problems
-- outdoor basics
+- outdoor maintenance
 pillar: yard-outdoor
 hero_image: /images/mushrooms-growing-in-lawn-after-rain-hero.svg
 hero_alt: Lawn after rain dotted with clusters of small mushrooms, with a garden rake leaning nearby

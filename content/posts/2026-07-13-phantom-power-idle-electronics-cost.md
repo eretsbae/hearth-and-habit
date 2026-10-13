@@ -6,10 +6,8 @@ updated: '2026-10-11'
 description: Each always-on watt costs about $1.50 a year at 17¢/kWh. Measured standby
   watts and dollars by device from Berkeley Lab, and where the real idle load hides.
 tags:
-- energy savings
 - electric bill
-- phantom power
-- home energy efficiency
+- appliance efficiency
 pillar: energy-savings
 hero_image: /images/phantom-power-idle-electronics-cost-hero.svg
 hero_alt: Living room at night with a TV standby light, a game console, and a router

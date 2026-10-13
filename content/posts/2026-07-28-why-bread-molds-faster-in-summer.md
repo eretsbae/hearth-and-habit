@@ -5,10 +5,9 @@ date: '2026-07-28'
 updated: '2026-10-11'
 description: "Warm kitchens speed mold on a moist food, and bagging warm bread adds condensation. Where to keep a loaf in summer: cupboard, fridge, or freezer, and when."
 tags:
-- food storage
-- kitchen habits
-- reducing food waste
-- summer tips
+- food storage and leftovers
+- meal planning and food waste
+- outdoor maintenance
 pillar: kitchen-habits
 hero_image: /images/why-bread-molds-faster-in-summer-hero.svg
 hero_alt: Loaf of bread with small mold spots beside a bread box near a steamy summer

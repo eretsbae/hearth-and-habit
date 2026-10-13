@@ -5,10 +5,9 @@ date: '2026-09-10'
 updated: '2026-10-11'
 description: One face of the board got wetter than the other, often from a soak, a puddle, or drying flat on stone. What board makers say to do, and how to flatten a mild warp.
 tags:
-- kitchen care
-- cutting boards
-- kitchen habits
-- cleaning
+- cookware and kitchen appliances
+- food safety
+- cleaning routines
 pillar: kitchen-habits
 hero_image: /images/why-does-cutting-board-warp-after-washing-hero.svg
 hero_alt: Wooden cutting board curved up at the edges on a kitchen counter, with water

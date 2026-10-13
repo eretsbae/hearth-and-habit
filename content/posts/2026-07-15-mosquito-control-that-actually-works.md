@@ -5,11 +5,8 @@ date: '2026-07-15'
 updated: '2026-10-11'
 description: 'Empty and scrub containers weekly, dose Bti by surface area, and skip zappers and ultrasonic plug-ins. The evidence behind each, plus a gadget scorecard.'
 tags:
-- mosquito control
-- yard care
-- outdoor living
-- pest control
-- summer prep
+- pests and drainage
+- outdoor maintenance
 pillar: yard-outdoor
 hero_image: /images/mosquito-control-that-actually-works-hero.svg
 hero_alt: Backyard patio with a tipped-over watering can, a bucket of water, and small puddles where mosquitoes can breed

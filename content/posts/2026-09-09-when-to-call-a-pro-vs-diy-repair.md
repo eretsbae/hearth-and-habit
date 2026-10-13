@@ -5,10 +5,7 @@ date: '2026-09-09'
 updated: '2026-10-11'
 description: Call a pro for gas, panel, structural, and hidden-water problems. If you can shut a problem off safely, it can often wait for weekday rates. 2026 costs and the math.
 tags:
-- home maintenance
-- DIY repairs
-- hiring contractors
-- home repair costs
+- DIY repair basics
 pillar: home-maintenance
 hero_image: /images/when-to-call-a-pro-vs-diy-repair-hero.svg
 hero_alt: Homeowner standing between a toolbox and a phone in front of a house cutaway showing pipes, wiring, and a furnace

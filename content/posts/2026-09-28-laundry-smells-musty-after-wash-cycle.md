@@ -4,15 +4,17 @@ slug: laundry-smells-musty-after-wash-cycle
 date: '2026-09-28'
 updated: '2026-10-11'
 description: "Musty right out of the washer usually means the machine; sour after drying, bacteria in the fabric. How to tell, and each brand's own cleaning rules."
+hero_image: /images/laundry-smells-musty-after-wash-cycle-hero.jpg
+hero_alt: "Looking into the stainless drum of a front-loading washing machine"
+hero_credit: "Photo: Petar Milo\u0161evi\u0107 via Wikimedia Commons (CC BY-SA 4.0)"
+hero_credit_url: "https://commons.wikimedia.org/w/index.php?curid=63459726"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/4.0/"
 tags:
 - laundry
 - cleaning routines
-- washing machine care
-- odor removal
-- home maintenance
+- appliance efficiency
+- odors and moisture
 pillar: cleaning-organization
-hero_image: /images/laundry-smells-musty-after-wash-cycle-hero.svg
-hero_alt: "Front-load washer with a damp towel half pulled from the drum and odor lines rising from the rubber door gasket"
 pin_hooks:
 - Musty out of the washer, or sour after drying? Two causes
 - LG, Samsung, Whirlpool clean cycles need different cleaners

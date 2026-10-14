@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 71개 준비됨 · 게시 완료 70개(수동 64 · API 6) · 대기 1개
+핀 72개 준비됨 · 게시 완료 71개(수동 64 · API 7) · 대기 1개
 
 ## 게시 방식
 
@@ -251,7 +251,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html
   - 설명: Pipes freeze at 32°F, but unheated-space pipes are most at risk below 20°F. Match tonight's low to your pipes, thaw safely, and know when to shut off water.
 
-- [ ] **Why Does My Furnace Smell Like Burning Dust the First Time I Turn It On?**
+- [x] **Why Does My Furnace Smell Like Burning Dust the First Time I Turn It On?**
   - 이미지: `content/pins/furnace-smells-like-burning-dust-first-time-on.png`
   - 링크: https://www.hearth-habit.com/2026/10/why-does-my-furnace-smell-like-burning.html
   - 설명: A burning-dust smell on the furnace's first run is usually summer dust burning off. See how long Carrier and Trane say it lasts and which smells aren't dust.
@@ -332,7 +332,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
 
 ## 보드: Yard & Outdoor Basics
 
-(12개)
+(13개)
 
 - [x] **Low-Maintenance Lawn Care: The Bare-Minimum Yearly Schedule**
   - 이미지: `content/pins/low-effort-lawn-care-bare-minimum.png`
@@ -393,3 +393,8 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 이미지: `content/pins/rake-leaves-or-leave-them-over-winter.png`
   - 링크: https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html
   - 설명: Leave light leaf cover, mow a moderate layer into the grass, and remove whole leaves that hide it. University trial numbers, snow mold, and where leaves go instead.
+
+- [ ] **Should You Shut Off the Outdoor Faucet From Inside Before Winter, and Where Is the Valve?**
+  - 이미지: `content/pins/outdoor-faucet-winter-shutoff-valve.png`
+  - 링크: https://www.hearth-habit.com/2026/10/should-you-shut-off-outdoor-faucet-from.html
+  - 설명: A standard outdoor faucet needs its inside valve closed and the line drained. A frost-free one mostly needs the hose off. How to tell which you have and find the valve.

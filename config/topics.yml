@@ -705,3 +705,58 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/09/clutter-keeps-coming-back-match-problem.html
   blogger_post_id: '5007016116155235174'
   pinterest_pin_id: '1132796112560160090'
+- title: Should You Shut Off the Outdoor Faucet From Inside Before Winter, and Where Is the Valve?
+  pillar: yard-outdoor
+  status: published
+  season_months:
+  - 10
+  - 11
+  published_slug: outdoor-faucet-winter-shutoff-valve
+  written_by: claude-code
+- title: How Low Should You Mow Grass on the Last Cut Before Winter?
+  pillar: yard-outdoor
+  status: pending
+  season_months:
+  - 10
+  - 11
+- title: Why Does Moss Keep Taking Over the Shady Part of My Lawn?
+  pillar: yard-outdoor
+  status: pending
+  season_months:
+  - 4
+  - 5
+  - 9
+- title: Is It Cheaper to Run a Dehumidifier or Just Use the AC in a Humid Basement?
+  pillar: energy-savings
+  status: pending
+  season_months:
+  - 6
+  - 7
+  - 8
+- title: Does Setting the Water Heater to 120°F Instead of 140°F Actually Save Money?
+  pillar: energy-savings
+  status: pending
+- title: How Much Does Leaving a Ceiling Fan On All Day Actually Cost?
+  pillar: energy-savings
+  status: pending
+  season_months:
+  - 6
+  - 7
+- title: Why Does My Freezer Build Up Frost So Fast Even Though It's Frost-Free?
+  pillar: kitchen-habits
+  status: pending
+- title: How Long Can Party Food Sit on the Buffet Table Before It Has to Be Tossed?
+  pillar: kitchen-habits
+  status: pending
+  season_months:
+  - 11
+  - 12
+- title: Why Does My Brown Sugar Turn Rock-Hard, and Can You Still Use It?
+  pillar: kitchen-habits
+  status: pending
+  season_months:
+  - 11
+  - 12
+- title: Why Does My Shower Grout Turn Pink or Black Again a Week After Cleaning?
+  pillar: cleaning-organization
+  status: pending

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+  <text x="600" y="78" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="bold" fill="#2E2A24">Which outdoor faucet do you have?</text>
+  <rect x="390" y="120" width="420" height="96" rx="18" fill="#E4C7B2"/>
+  <circle cx="440" cy="168" r="22" fill="none" stroke="#2E2A24" stroke-width="5"/>
+  <line x1="456" y1="184" x2="472" y2="200" stroke="#2E2A24" stroke-width="6" stroke-linecap="round"/>
+  <text x="620" y="178" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#2E2A24">Look inside the spout</text>
+  <path d="M520 216 L330 300" stroke="#2E2A24" stroke-width="4" fill="none"/>
+  <polygon points="318,305 340,288 344,306" fill="#2E2A24"/>
+  <path d="M680 216 L870 300" stroke="#2E2A24" stroke-width="4" fill="none"/>
+  <polygon points="882,305 856,306 860,288" fill="#2E2A24"/>
+  <rect x="90" y="310" width="460" height="100" rx="18" fill="#5C6E58"/>
+  <text x="320" y="354" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#F6EFE6">Only a metal stem:</text>
+  <text x="320" y="392" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="bold" fill="#F6EFE6">frost-free</text>
+  <rect x="650" y="310" width="460" height="100" rx="18" fill="#B85C38"/>
+  <text x="880" y="354" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#F6EFE6">Anything else:</text>
+  <text x="880" y="392" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="bold" fill="#F6EFE6">treat as standard</text>
+  <line x1="320" y1="410" x2="320" y2="460" stroke="#2E2A24" stroke-width="4"/>
+  <polygon points="308,456 332,456 320,474" fill="#2E2A24"/>
+  <line x1="880" y1="410" x2="880" y2="460" stroke="#2E2A24" stroke-width="4"/>
+  <polygon points="868,456 892,456 880,474" fill="#2E2A24"/>
+  <rect x="90" y="480" width="460" height="130" rx="18" fill="#FFFFFF" stroke="#5C6E58" stroke-width="4"/>
+  <text x="320" y="518" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24">Hose off every freeze;</text>
+  <text x="320" y="554" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24">check downward pitch;</text>
+  <text x="320" y="590" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="23" fill="#2E2A24">close inside valve if you have one</text>
+  <rect x="650" y="480" width="460" height="130" rx="18" fill="#FFFFFF" stroke="#B85C38" stroke-width="4"/>
+  <text x="880" y="536" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24">Close inside valve,</text>
+  <text x="880" y="572" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24">open faucet to drain</text>
+  <circle cx="1080" cy="150" r="30" fill="#D9A441"/>
+  <circle cx="120" cy="150" r="18" fill="#D9A441" opacity="0.6"/>
+</svg>

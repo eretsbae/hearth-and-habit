@@ -1,0 +1,127 @@
+{
+  "reader_situation": "A homeowner in a freezing climate is getting the house ready for winter, or has a hard freeze in the forecast, and isn't sure whether the outdoor faucet needs the indoor shutoff closed. Many don't know whether their faucet is frost-free, can't find an indoor valve, or have heard that frost-free faucets need nothing at all.",
+  "direct_answer": "If the faucet is a standard (non-frost-free) hose bib, yes: close its indoor valve, then open the outdoor faucet and drain the line. If it is a properly installed frost-free faucet, the hose removal is the step that matters most, but the model code still calls for an accessible indoor stop-and-waste valve unless the stem reaches heated space, and closing it costs nothing. The valve is usually on the inside of the same wall, near the ceiling of the basement or crawl space close to where the pipe goes out.",
+  "consensus": [
+    "Disconnect garden hoses before freezing weather",
+    "Close the indoor shutoff for each outdoor faucet and open the outside faucet to drain the line",
+    "Frost-free faucets shut off the water inside the wall so the outdoor part drains",
+    "Foam faucet covers are a cheap extra layer for standard faucets",
+    "Store drained hoses somewhere that stays above freezing"
+  ],
+  "gaps": [
+    "The model code doesn't treat frost-free faucets as exempt by default: IRC P2903.10 requires hose bibbs subject to freezing, 'including the frostproof type', to have an accessible stop-and-waste valve inside the building, with an exception only when the stem extends through the building insulation into an open heated or semiconditioned space. Most articles say frost-free means no valve needed.",
+    "Whether a frost-free faucet needs the indoor valve closed depends on where its stem ends. North Carolina's code interpretation lets stems ending in ventilated crawl spaces use the exception, but warns that leaked heat in older homes may not be practical to rely on and the permit holder has to judge local conditions.",
+    "A frost-free faucet only works if it can drain: the hose has to be off (Woodford's spec: the hose must be removed in freezing weather or the faucet may freeze and burst), the barrel must pitch down toward the outside, and the stem has to be long enough for the wall. A stem too short for the wall puts the shutoff in the cold zone.",
+    "You can't reliably tell a frost-free faucet by the handle. A home inspector's rule of thumb is a knob perpendicular to the house, but a boiler drain looks the same, and a Woodford non-frost-free model is indistinguishable except by model number. Looking up inside the spout is the better check: on a frost-free faucet you see only a metal stem.",
+    "A frost-free faucet that froze often doesn't leak until spring. The break is in the stem inside the house, and water sprays inside the first time the faucet is turned on.",
+    "Add-on vacuum breakers must be the self-draining or manually drainable kind; an undrained vacuum breaker can let the hose bib freeze (City of Ames). Woodford Model 17 has an integral backflow device and doesn't need an add-on.",
+    "Woodford's spec says the Model 17 is not for continuous use and shall not be subjected to more than 12 hours of continuous water pressure, which a hose with a shutoff nozzle left on overnight can exceed.",
+    "Older homes may have no separate indoor valve at all; IBHS says homes built before 2010 typically don't have frost-proof outdoor faucets."
+  ],
+  "evidence": [
+    {
+      "claim": "IRC P2903.10 hose bibb freeze protection text and exception",
+      "detail": "\"Hose bibbs subject to freezing, including the frostproof type, shall be equipped with an accessible stop-and-waste type valve inside the building so that they can be controlled and drained during cold periods. Exception: Frostproof hose bibbs installed such that the stem extends through the building insulation into an open heated or semiconditioned space need not be separately valved.\" (2018 NC Residential Code)",
+      "source_url": "https://ncosfm.gov/plumbing/03054-hose-bibbs/open",
+      "source_title": "Code interpretation: P2903.10 Hose bibb freeze protection (NC Office of State Fire Marshal)"
+    },
+    {
+      "claim": "Ventilated crawl spaces and exterior hose bibbs in North Carolina's interpretation",
+      "detail": "Frostproof hose bibbs with stems into ventilated crawl spaces may use the exception, since those spaces usually have enough residual ground heat, but this is not a blanket exemption; the permit holder must judge local conditions. Exterior-mounted hose bibbs are subject to freezing. In older houses with little floor insulation, it may not be practical to rely on leaked heat to a ventilated crawl space to prevent freezing hose bibbs.",
+      "source_url": "https://ncosfm.gov/plumbing/03054-hose-bibbs/open",
+      "source_title": "Code interpretation: P2903.10 Hose bibb freeze protection (NC Office of State Fire Marshal)"
+    },
+    {
+      "claim": "ICC on hose bibb and pipe freeze protection",
+      "detail": "Section P2903.10 covers freeze protection for hose bibbs including frost-proof types: an accessible valve inside the building so the water supply can be shut off and water drained during cold periods; exception for frost-proof hose bibbs whose stem extends through the building insulation into heated or semi-conditioned space. Insulation itself (without a heat source) cannot protect a pipe from freezing. Cites IBHS that freezing of unprotected pipes begins when outdoor temperatures drop to 20°F. Local jurisdictions may amend the code.",
+      "source_url": "https://media.iccsafe.org/news/eNews/2014v11n3/techsvcs.html",
+      "source_title": "Build It to Code to Minimize Damage from Frozen Water Pipes (International Code Council)"
+    },
+    {
+      "claim": "Woodford Model 17 freezeless faucet specifications",
+      "detail": "Will not rupture from freezing when the valve is shut off and the hose is removed. Must be installed with downward pitch toward nozzle and hose must be removed in freezing weather or faucet may freeze and burst. Integral backflow protection (ASSE 1019) up to 125 psi backpressure, so no add-on vacuum breaker required. Wall thickness options 4 in to 24 in in 2-in steps; total length = wall thickness + inlet length. Not intended for continuous use; shall not be subjected to more than 12 hours of continuous water pressure.",
+      "source_url": "https://www.nyrpcorp.com/woodford-model-17-freezeless-anti-siphon-wall-faucet-powder-coated-aluminum-handle/",
+      "source_title": "Woodford Model 17 Freezeless Anti-Siphon Wall Faucet (product specifications, NYRP distributor listing)"
+    },
+    {
+      "claim": "How a frost-free faucet works and why pitch matters; indoor valves in older homes",
+      "detail": "A frost-free faucet has a long stem and turns off the water well inside the wall. It should have a slight downward pitch so water drains when shut off; otherwise water sits inside the stem. Disconnect garden hoses first. Exterior faucets should have a separate shutoff valve inside the house, but not all do; in older homes these are typically at the ceiling close to the outside faucet. Close it, unscrew the bleeder cap to drain (water may drain through the cap or the outside faucet; keep a small bucket handy), replace the cap, and leave the outside faucet open. A burst frost-free faucet usually isn't discovered until first use in spring, when water sprays from the burst stem inside the house. Verbatim: \"water will sit inside the stem of the sillcock even when it's turned off.\" \"The fix for an improperly installed frost-free faucet is to have it re-installed with a slight downward pitch.\" \"Once they turn their faucet on, water starts shooting out of the burst stem inside the house.\" \"Depending on how the pipe is pitched, the water may drain through the bleeder cap or through the outside faucet.\"",
+      "source_url": "https://structuretech.com/how-to-prevent-outside-faucets-from-freezing-2/",
+      "source_title": "How to winterize your outside faucets (Reuben Saltzman, Structure Tech Home Inspections)"
+    },
+    {
+      "claim": "How to tell whether a faucet is frost-free",
+      "detail": "Rule of thumb: a knob perpendicular to the house suggests frost-free, but a boiler drain installed outside also has a perpendicular knob and is not frost-free; a Woodford model 101 is not frost-free yet is indistinguishable save for the model number. To know for sure, look up inside the spout: on a frost-free faucet all you see is a metal stem. The author also says a frost-free hose bib does not negate the need for a shut-off valve inside the house and it's still wise to have a separate valve.",
+      "source_url": "https://structuretech.com/how-to-prevent-outside-faucets-from-freezing-2/comment-page-1",
+      "source_title": "How to prevent outside faucets from freezing (Structure Tech Home Inspections, with author replies)"
+    },
+    {
+      "claim": "Real causes of frost-free bibb freeze failures (trade publication)",
+      "detail": "Most common: a hose left attached over winter blocks drainage, trapping water in the barrel where it freezes and cracks the housing. The barrel needs a slight downward pitch toward the outside; dead level or pitched back toward the house won't drain. An undersized stem places the shutoff in the cold zone; measure the actual wall assembly (insulation thickness, siding, retrofit) — a unit sized for a 2x4 wall won't work in a 2x6 wall or one with brick veneer added. Verbatim: \"It's the hose nobody disconnected in November.\" \"If it's dead level, or worse, pitched back toward the house, water won't fully drain after use.\" \"Incorrect stem length places the shutoff in the cold zone, leading to freeze damage.\"",
+      "source_url": "https://www.contractormag.com/plumbing/article/55401403/the-frost-free-bibb-isnt-the-problem-finding-the-real-cause-of-freeze-failures",
+      "source_title": "The Frost-Free Bibb Isn't the Problem: Finding the Real Cause of Freeze Failures (Contractor Magazine, Aug. 2026)"
+    },
+    {
+      "claim": "Hose bib vacuum breakers must drain",
+      "detail": "Many backflow incidents involved garden hoses on hose bibs without a vacuum breaker; backflow can occur with a sudden drop in water pressure. Each hose bib in the home should have a vacuum breaker. For outside faucets, the vacuum breaker must drain automatically or be manually drainable; if it isn't drained, freezing can damage the hose bib. Some drain automatically when the hose is removed; others drain by sliding a ring or pushing a stem.",
+      "source_url": "https://www.cityofames.org/My-Government/Departments/Water-Pollution-Control/Backflow-Prevention-Program/Backflow-Prevention-in-the-Home",
+      "source_title": "Backflow Prevention in the Home (City of Ames, Iowa)"
+    },
+    {
+      "claim": "Extension winterizing steps",
+      "detail": "Outdoors, disconnect garden hoses from exterior faucets, then shut off water to the faucet and drain the pipe.",
+      "source_url": "https://site.extension.uga.edu/forsyth/protect-water-pipes-from-freezing",
+      "source_title": "Protect Water Pipes from Freezing (UGA Cooperative Extension, Forsyth County)"
+    },
+    {
+      "claim": "Hoses in winter",
+      "detail": "Either leave hoses hanging outside disconnected from the faucets, or disconnect, drain, and store them somewhere with a constant temperature. If left undrained outside, don't move or touch them in freezing weather; frozen hoses are fragile. Backflow prevention valves for irrigation sit at ground level and can freeze; know the location of your main water cutoff.",
+      "source_url": "https://site.extension.uga.edu/fannin-gilmer/2020/12/winterizing-outdoor-pipes-and-sprinklers/",
+      "source_title": "Winterizing Outdoor Pipes and Sprinklers (UGA Cooperative Extension, Fannin & Gilmer Counties)"
+    },
+    {
+      "claim": "Older homes usually lack frost-proof outdoor faucets",
+      "detail": "Shut off and insulate valves if you don't have frostproof outdoor faucets. Homes built before 2010 typically don't. Know where your home's water shut-off valve is located and how to operate it.",
+      "source_url": "https://ibhs.org/ibhs-news-releases/ibhs-winter-weather-ready-guide-provides-easy-to-do-actions-to-help-prevent-property-damage-from-colder-temperatures/",
+      "source_title": "IBHS Winter Weather Ready guide (IBHS, Nov. 14, 2024)"
+    },
+    {
+      "claim": "Stakes of a cracked pipe",
+      "detail": "Disconnect garden hoses and drain outdoor pipes. A small crack in a pipe can release over 250 gallons of water daily. From 2024 through June 2025, more than 20,000 State Farm freeze claims totaling over $628 million; average claim payment exceeded $30,000. Pipes in uninsulated spaces are most at risk especially below 20°F.",
+      "source_url": "https://newsroom.statefarm.com/frozen-pipes-not-so-nice-beat-winter-water-woes-before-they-strike/",
+      "source_title": "Frozen Pipes? Not So Nice! Beat Winter Water Woes Before They Strike! (State Farm Newsroom)"
+    }
+  ],
+  "real_questions": [
+    "I have a frost-free spigot. Do I still need to turn off the valve inside? (GarageJournal, GreenBuildingAdvisor threads)",
+    "How do I know if my outside faucet is frost-free?",
+    "I can't find a shutoff valve for my outdoor faucet. Where is it, and what if there isn't one?",
+    "Should I leave the outdoor faucet open or closed after shutting off the inside valve?",
+    "My frost-free faucet sprayed water inside the wall the first time I used it in spring. What happened?",
+    "Can I leave the hose connected if the faucet is frost-free?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "A 'Which faucet do you have × what to do before the first freeze' table: rows for standard hose bib with an indoor valve, standard with no indoor valve, frost-free whose stem ends in heated space, frost-free whose stem ends in a crawl space/unconditioned area, and frost-free with an add-on vacuum breaker; columns for hose, indoor valve, outside faucet, and the failure each step prevents. Built from IRC P2903.10 (NC OSFM, ICC), Woodford spec, Structure Tech, Contractor Magazine, City of Ames, IBHS. Plus a worked stem-length check using Woodford's formula (total length = wall thickness + inlet length, wall sizes 4-24 in in 2-in steps) with the reader's own measured wall, and the State Farm 250 gal/day figure to show what a spring-only discovery costs per day."
+  },
+  "cautions": [
+    "Don't tell readers frost-free means no indoor valve is ever needed; the model code requires one unless the stem reaches heated space, and local codes vary",
+    "Don't present the handle-orientation test as reliable; give the look-in-the-spout check",
+    "Woodford figures are one manufacturer's spec (via a distributor listing); present them as Woodford's, not universal",
+    "If no indoor valve exists, adding one is a plumbing job; don't describe cutting into supply lines as DIY",
+    "The 20°F risk line is for unprotected pipes (IBHS via ICC, State Farm), not a safe threshold for exposed faucets"
+  ],
+  "sources": {
+    "https://ncosfm.gov/plumbing/03054-hose-bibbs/open": "Code interpretation: P2903.10 Hose bibb freeze protection (NC Office of State Fire Marshal)",
+    "https://media.iccsafe.org/news/eNews/2014v11n3/techsvcs.html": "Build It to Code to Minimize Damage from Frozen Water Pipes (International Code Council)",
+    "https://www.nyrpcorp.com/woodford-model-17-freezeless-anti-siphon-wall-faucet-powder-coated-aluminum-handle/": "Woodford Model 17 Freezeless Anti-Siphon Wall Faucet (product specifications, NYRP distributor listing)",
+    "https://structuretech.com/how-to-prevent-outside-faucets-from-freezing-2/": "How to winterize your outside faucets (Reuben Saltzman, Structure Tech Home Inspections)",
+    "https://structuretech.com/how-to-prevent-outside-faucets-from-freezing-2/comment-page-1": "How to prevent outside faucets from freezing (Structure Tech Home Inspections, with author replies)",
+    "https://www.contractormag.com/plumbing/article/55401403/the-frost-free-bibb-isnt-the-problem-finding-the-real-cause-of-freeze-failures": "The Frost-Free Bibb Isn't the Problem: Finding the Real Cause of Freeze Failures (Contractor Magazine, Aug. 2026)",
+    "https://www.cityofames.org/My-Government/Departments/Water-Pollution-Control/Backflow-Prevention-Program/Backflow-Prevention-in-the-Home": "Backflow Prevention in the Home (City of Ames, Iowa)",
+    "https://site.extension.uga.edu/forsyth/protect-water-pipes-from-freezing": "Protect Water Pipes from Freezing (UGA Cooperative Extension, Forsyth County)",
+    "https://site.extension.uga.edu/fannin-gilmer/2020/12/winterizing-outdoor-pipes-and-sprinklers/": "Winterizing Outdoor Pipes and Sprinklers (UGA Cooperative Extension, Fannin & Gilmer Counties)",
+    "https://ibhs.org/ibhs-news-releases/ibhs-winter-weather-ready-guide-provides-easy-to-do-actions-to-help-prevent-property-damage-from-colder-temperatures/": "IBHS Winter Weather Ready guide (IBHS, Nov. 14, 2024)",
+    "https://newsroom.statefarm.com/frozen-pipes-not-so-nice-beat-winter-water-woes-before-they-strike/": "Frozen Pipes? Not So Nice! Beat Winter Water Woes Before They Strike! (State Farm Newsroom)"
+  }
+}

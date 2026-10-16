@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 72개 준비됨 · 게시 완료 71개(수동 64 · API 7) · 대기 1개
+핀 73개 준비됨 · 게시 완료 72개(수동 64 · API 8) · 대기 1개
 
 ## 게시 방식
 
@@ -332,7 +332,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
 
 ## 보드: Yard & Outdoor Basics
 
-(13개)
+(14개)
 
 - [x] **Low-Maintenance Lawn Care: The Bare-Minimum Yearly Schedule**
   - 이미지: `content/pins/low-effort-lawn-care-bare-minimum.png`
@@ -394,7 +394,12 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html
   - 설명: Leave light leaf cover, mow a moderate layer into the grass, and remove whole leaves that hide it. University trial numbers, snow mold, and where leaves go instead.
 
-- [ ] **Should You Shut Off the Outdoor Faucet From Inside Before Winter, and Where Is the Valve?**
+- [x] **Should You Shut Off the Outdoor Faucet From Inside Before Winter, and Where Is the Valve?**
   - 이미지: `content/pins/outdoor-faucet-winter-shutoff-valve.png`
   - 링크: https://www.hearth-habit.com/2026/10/should-you-shut-off-outdoor-faucet-from.html
   - 설명: A standard outdoor faucet needs its inside valve closed and the line drained. A frost-free one mostly needs the hose off. How to tell which you have and find the valve.
+
+- [ ] **How Low Should You Mow Grass on the Last Cut Before Winter?**
+  - 이미지: `content/pins/last-mow-height-before-winter.png`
+  - 링크: https://www.hearth-habit.com/2026/10/how-low-should-you-mow-grass-on-last.html
+  - 설명: Cool-season lawns: mow at normal height until growth stops, then drop one notch at most. Warm-season lawns stay in range. Last-cut height table by setting.

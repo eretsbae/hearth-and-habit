@@ -1,0 +1,104 @@
+{
+  "reader_situation": "A homeowner in October or November is about to put the mower away and has read conflicting advice: cut it short so snow mold and voles stay away, or leave it long to insulate the crowns. They want one number for the last cut and to know when that last cut should happen.",
+  "direct_answer": "For a cool-season lawn, keep mowing at your normal height until the grass stops growing, then make the last cut no more than one notch (about half an inch) lower, landing around 2 to 2.5 inches if your normal height allows it without removing more than a third of the blade. Do not scalp it. For a warm-season lawn (Bermuda, zoysia, centipede, St. Augustine), keep the normal height for your grass, at the higher end of its range, rather than cutting lower. Never leave any lawn long and floppy for winter.",
+  "consensus": [
+    "Cut grass to about 2 to 2.5 inches for the final mow to prevent snow mold",
+    "Shorter grass discourages voles and mice",
+    "Keep mowing until the grass stops growing, usually after the first frosts",
+    "Don't scalp the lawn; follow the one-third rule",
+    "Warm-season grasses should not be cut short before winter"
+  ],
+  "gaps": [
+    "Extension services actually disagree on lowering the final cut. MSU's Ask Extension answer allows one notch (about half an inch) lower, only after top growth has essentially stopped. Purdue's turf program says to avoid the urge to set the mower down and scalp for the final mowing, calls the old mow-low-in-fall advice something to avoid, and explains that cool-season grass keeps photosynthesizing and storing carbohydrates in fall. Illinois and NDSU give a final height of about two inches. The real consensus is narrower: never leave it long, never scalp, and at most one notch down.",
+    "Timing matters more than the number. The 'lower it' advice (MSU) applies only once growth has essentially stopped; Purdue says to keep mowing as long as the grass grows, normally into late October or early November in Indiana, and Illinois says to mow until completely dormant.",
+    "The one-third rule (Clemson) caps how low the last cut can go: if a tall fescue lawn kept at 3.5 inches is cut to 2 inches, that removes 1.5 of 3.5 inches, more than a third. Popular blogs that suggest cutting by half on the last mow contradict this rule.",
+    "Long grass does not insulate. K-State says some people believe taller grass in winter insulates plant crowns but this causes problems when the blades fall over and create a matted environment perfect for winter diseases. NDSU says tall grass is more likely to be matted down and infected by snow mold; Purdue says unmowed grass encourages snow mold.",
+    "Warm-season grasses run the other way: K-State recommends mowing warm-season grasses at the higher end of their recommended height in late summer and early fall so they store more carbohydrates for winter. UGA Extension says to bring a summer-raised mower back to the normal 1 to 2 inches for Bermuda, centipede and zoysia in fall, i.e. stay inside the normal range, not below it.",
+    "Snow mold prevention is mostly not about the mower: Iowa State lists mowing at the recommended height through fall alongside avoiding excess fall nitrogen, keeping thatch at 1/2 inch or less, raking leaves and spreading snow piles. Purdue says heavy leaf debris left through winter raises snow mold risk."
+  ],
+  "evidence": [
+    {
+      "claim": "Ask Extension (Michigan question): final cut height and when to lower",
+      "detail": "For the final cut of the year the ideal grass height is around 2 to 2.5 inches. Once the grass's top growth has essentially stopped for the season, lower the mowing height no more than one notch on your mower (typically about a half inch) for the final mow. This height can reduce the risk of snow mold, discourage voles (field mice), and help the grass tolerate cold temperatures. (Ask Extension expert reply, November 9, 2025, Michigan question.)",
+      "source_url": "https://ask.extension.org/kb/faq.php?id=921623",
+      "source_title": "How short should I cut my grass in the fall in Michigan - Ask Extension"
+    },
+    {
+      "claim": "Purdue: keep mowing while grass grows; don't scalp for the final mowing",
+      "detail": "Keep mowing as long as the grass continues to grow, normally into late October or early November; frequency can decrease. Avoid the urge to set the mower down and scalp your lawn for the final mowing. Photosynthesis stays high in fall; cutting off leaves reduces carbohydrate storage for winter and spring. Past publications recommended mowing low in late fall; the article recommends avoiding the practice. Unmowed grass encourages snow mold. Leaves left on the lawn reduce photosynthesis when they cover the grass and should be mowed off. (Zac Reicher, Oct. 16, 2009)",
+      "source_url": "https://turf.purdue.edu/keep-mowing-and-dont-set-the-mower-down-2/?cat=44",
+      "source_title": "Keep mowing and don't set the mower down (Purdue Turfgrass Science)"
+    },
+    {
+      "claim": "Purdue: mow at recommended height until dormancy; leaves and snow mold",
+      "detail": "Homeowners should continue to mow lawns at the recommended height until the turf enters dormancy in late fall. Mulching leaves with a rotary mower several times throughout fall removes leaves. Lawns with heavy leaf debris remaining through winter are more susceptible to snow mold. (John Orick, Dec. 6, 2021)",
+      "source_url": "https://ag.purdue.edu/department/btny/ppdl/potw-dept-folder/2021/mowing-leaf-removal.html",
+      "source_title": "Mowing and Leaf Removal (Purdue Plant & Pest Diagnostic Lab, Picture of the Week)"
+    },
+    {
+      "claim": "Illinois Extension: mow until completely dormant; final height about two inches",
+      "detail": "Continue to mow lawns until grass is completely dormant in fall. Mow lawns at a final height of about two inches. Clean up excessive vegetation near lawns, which provides cover for voles.",
+      "source_url": "https://extension.illinois.edu/lawns/preventing-winter-damage-lawns",
+      "source_title": "Preventing Winter Damage to Lawns (University of Illinois Extension)"
+    },
+    {
+      "claim": "NDSU Extension: final fall mowing at two inches; tall grass mats and gets snow mold",
+      "detail": "The final mowing in fall should be at the height of two inches. Tall grass is more likely to be matted down and infected by snow mold. The best time to prevent snow mold is in fall. Late applications of lawn fertilizer make turfgrass more susceptible to disease. (Esther McGinnis, March 29, 2022)",
+      "source_url": "https://www.ag.ndsu.edu/news/columns/dakota-gardener/dakota-gardener-snow-mold-is-affecting-lawns-this-spring",
+      "source_title": "Dakota Gardener: Snow Mold Is Affecting Lawns this Spring (NDSU Extension)"
+    },
+    {
+      "claim": "K-State: fall heights by grass; tall grass does not insulate",
+      "detail": "Tall fescue 2.5 to 3.5 inches; Kentucky bluegrass 2 to 3 inches; Bermudagrass and zoysiagrass 1 to 2 inches; buffalograss 2 to 3 inches. Warm-season grasses can be mowed at the higher end of recommended heights in late summer and early fall so they store more carbohydrates for winter. Some people believe taller grass in winter insulates the crowns; this causes problems when blades fall over, creating a matted environment perfect for winter diseases. (Cynthia Domenghini, Oct. 3, 2024)",
+      "source_url": "https://extension.k-state.edu/news-and-publications/news/stories/2024/10/horticulture-fall-lawn-mowing.html",
+      "source_title": "Fall mowing will set lawn up for winter success, says K-State expert (K-State Research and Extension)"
+    },
+    {
+      "claim": "Clemson HGIC: mowing heights by grass and the one-third rule",
+      "detail": "Table 1: tall fescue 2 to 3 inches (winter), 3 to 3.5 (summer); common bermudagrass 1 to 2; hybrid bermudagrass 0.5 to 1.5; centipedegrass 1.5 to 2; St. Augustinegrass 2.5 to 4; zoysiagrass 1 to 2. Remove no more than one-third of the grass height at any one mowing. Mow turf under stress (heat, drought, shade) at a higher level of cut. (HGIC 1205, 1999)",
+      "source_url": "https://hgic.clemson.edu/factsheet/mowing-lawns/",
+      "source_title": "Mowing Lawns (Clemson Home & Garden Information Center)"
+    },
+    {
+      "claim": "UGA Extension: warm-season fall mowing and fertilizer timing",
+      "detail": "Recommended mowing height for bermudagrass, centipedegrass and zoysiagrass is 1-2 inches. If you raised mowing height by half an inch during summer heat, now is the time to lower the blade back to the normal mowing height. Fertilizing in September can delay dormancy long enough for warm-season turf to suffer cold injury; a final nitrogen application in August is fine. Let warm-season grasses go through the natural processes to enter dormancy.",
+      "source_url": "https://site.extension.uga.edu/forsyth/fall-care-for-warm-season-lawns/",
+      "source_title": "Fall Care for Warm-Season Lawns (UGA Extension Forsyth County)"
+    },
+    {
+      "claim": "Iowa State: snow mold prevention steps",
+      "detail": "Avoid excessive nitrogen fertilization in the fall; mow the lawn at the recommended height throughout the fall; keep the thatch layer to 1/2 inch or less; rake up fallen leaves in the fall; prevent excessive snow accumulation on problem areas by using snow fencing and spreading out large snow piles. Grass in snow mold patches may be matted and wet; gently rake affected areas to dry them.",
+      "source_url": "https://yardandgarden.extension.iastate.edu/encyclopedia/snow-mold",
+      "source_title": "Snow Mold (Iowa State University Extension, Yard and Garden)"
+    }
+  ],
+  "real_questions": [
+    "Should I cut my grass short for the last mow so it doesn't get snow mold?",
+    "Doesn't longer grass protect the lawn over winter?",
+    "When is the last mow, by date or by temperature?",
+    "My mower's lowest notch is 1.5 inches; can I drop it all the way for the final cut?",
+    "Does the same apply to Bermuda or zoysia in the South?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "A 'last-cut calculator' table: for each normal mowing height (2, 2.5, 3, 3.5 inches) show the final-cut height at one notch (0.5 inch) lower per MSU, the share of blade removed if the grass is at its normal height plus the regrowth the one-third rule allows (grass height before cut = final ÷ 2/3), and a flag for whether the result lands in the 2 to 2.5 inch MSU target. Arithmetic visible: e.g. final 2.5 in ÷ (2/3) = 3.75 in maximum height before the cut. A second small table by grass type (Clemson, K-State, UGA ranges) with what to do on the last cut."
+  },
+  "cautions": [
+    "Do not tell readers to cut by half or to scalp; that contradicts Clemson's one-third rule and Purdue's advice",
+    "Do not attribute a specific soil-temperature growth threshold; none was fetched from an authoritative page",
+    "Do not recommend fall nitrogen for warm-season lawns (registry and UGA)",
+    "Fungicides are not part of this advice; Iowa State lists them for golf courses and high-value turf only",
+    "Present the extension disagreement honestly rather than as a single rule"
+  ],
+  "sources": {
+    "https://ask.extension.org/kb/faq.php?id=921623": "How short should I cut my grass in the fall in Michigan - Ask Extension",
+    "https://turf.purdue.edu/keep-mowing-and-dont-set-the-mower-down-2/?cat=44": "Keep mowing and don't set the mower down (Purdue Turfgrass Science)",
+    "https://ag.purdue.edu/department/btny/ppdl/potw-dept-folder/2021/mowing-leaf-removal.html": "Mowing and Leaf Removal (Purdue Plant & Pest Diagnostic Lab, Picture of the Week)",
+    "https://extension.illinois.edu/lawns/preventing-winter-damage-lawns": "Preventing Winter Damage to Lawns (University of Illinois Extension)",
+    "https://www.ag.ndsu.edu/news/columns/dakota-gardener/dakota-gardener-snow-mold-is-affecting-lawns-this-spring": "Dakota Gardener: Snow Mold Is Affecting Lawns this Spring (NDSU Extension)",
+    "https://extension.k-state.edu/news-and-publications/news/stories/2024/10/horticulture-fall-lawn-mowing.html": "Fall mowing will set lawn up for winter success, says K-State expert (K-State Research and Extension)",
+    "https://hgic.clemson.edu/factsheet/mowing-lawns/": "Mowing Lawns (Clemson Home & Garden Information Center)",
+    "https://site.extension.uga.edu/forsyth/fall-care-for-warm-season-lawns/": "Fall Care for Warm-Season Lawns (UGA Extension Forsyth County)",
+    "https://yardandgarden.extension.iastate.edu/encyclopedia/snow-mold": "Snow Mold (Iowa State University Extension, Yard and Garden)"
+  }
+}

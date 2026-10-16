@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+  <text x="600" y="78" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="bold" fill="#2E2A24">The last mow before winter</text>
+  <rect x="440" y="120" width="320" height="90" rx="16" fill="#E4C7B2"/>
+  <text x="600" y="176" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#2E2A24">Before the last mow</text>
+  <path d="M520 210 L300 270" stroke="#2E2A24" stroke-width="4" fill="none"/>
+  <path d="M600 210 L600 270" stroke="#2E2A24" stroke-width="4" fill="none"/>
+  <path d="M680 210 L900 270" stroke="#2E2A24" stroke-width="4" fill="none"/>
+  <polygon points="300,270 316,256 322,276" fill="#2E2A24"/>
+  <polygon points="590,262 610,262 600,280" fill="#2E2A24"/>
+  <polygon points="900,270 878,276 884,256" fill="#2E2A24"/>
+  <rect x="60" y="280" width="340" height="150" rx="16" fill="#5C6E58" fill-opacity="0.25"/>
+  <text x="230" y="340" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Still growing: keep</text>
+  <text x="230" y="380" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">normal height</text>
+  <rect x="430" y="280" width="340" height="150" rx="16" fill="#D9A441" fill-opacity="0.35"/>
+  <text x="600" y="340" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Stopped, cool-season:</text>
+  <text x="600" y="380" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">up to one notch lower</text>
+  <rect x="800" y="280" width="340" height="150" rx="16" fill="#B85C38" fill-opacity="0.25"/>
+  <text x="970" y="340" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Warm-season:</text>
+  <text x="970" y="380" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">stay in normal range</text>
+  <rect x="160" y="480" width="880" height="100" rx="16" fill="#E4C7B2"/>
+  <text x="600" y="520" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Never more than 1/3 off</text>
+  <text x="600" y="560" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Never leave it long</text>
+</svg>

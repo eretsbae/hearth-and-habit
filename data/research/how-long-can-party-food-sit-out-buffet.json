@@ -1,0 +1,109 @@
+{
+  "reader_situation": "A host or guest is in the middle of a party, potluck, or holiday open house where platters have been on the table for a while, and they want to know whether the dip, deli tray, or casserole is still safe to serve or to pack up as leftovers. Some are also wondering why restaurant buffets seem to leave food out longer.",
+  "direct_answer": "At home, perishable buffet food that is not being kept hot (140°F or warmer) or cold (40°F or colder) should be thrown out after 2 hours at room temperature, or after 1 hour if the room or patio is above 90°F. The clock starts when the dish leaves the fridge or oven, not when guests arrive, and reheating does not reset it.",
+  "consensus": [
+    "Perishable food shouldn't sit at room temperature more than 2 hours, or 1 hour above 90°F",
+    "Keep hot food at 140°F or warmer with chafing dishes, slow cookers, or warming trays",
+    "Keep cold food at 40°F or colder, for example nested in ice",
+    "Refrigerate leftovers promptly and reheat them to 165°F",
+    "When in doubt, throw it out"
+  ],
+  "gaps": [
+    "The clock starts when the food leaves temperature control, not when the party starts. For a dish a guest brings, the Academy of Nutrition and Dietetics says the clock starts when the guest walks out their own door, so a 30-minute drive uses up a quarter of the 2 hours before the dish reaches the table.",
+    "The 'restaurants leave buffets out for 4 hours' idea is a misreading of the Food Code's time-as-a-public-health-control option. Minnesota's rule (adopting Food Code 3-501.19) allows 4 hours only for food that starts below 41°F or above 135°F and is marked with its 4-hour deadline, after which it must be served or discarded; a 6-hour option applies only to cold food that starts at 41°F or less and is monitored so it never exceeds 70°F. Unmarked food must be thrown out. Neither option is a way to keep leftovers.",
+    "Reheating does not rescue food that sat out too long. CDC's report on a 1986 country-club buffet in New Mexico (about 855 people served) traced illness to turkey that cooled 3 hours at room temperature and states that the staph toxin is heat stable, so reheating will not prevent illness. SDSU Extension adds that B. cereus toxin is heat stable up to 250°F and that home reheating will most likely never reach what is needed to destroy such toxins.",
+    "A warming tray is not automatically hot holding. FDA notes some warmers only hold food at 110°F to 120°F, below the 140°F hot-holding line, so food on such a warmer is effectively on the 2-hour clock unless a thermometer shows 140°F or higher.",
+    "Topping off a half-empty platter mixes fresh food with food that has been out (and touched by guests' hands). FDA's method is several small platters prepared ahead and swapped in fresh, with backups held in the fridge or in a 200°F to 250°F oven.",
+    "The foods most associated with staph from hands are the classic buffet items: egg, tuna, chicken, potato, and macaroni salads, cream-filled pastries and cream pies, and sliced meats (University of Nebraska–Lincoln). Staph multiplies rapidly at room temperature and its toxin resists heat, refrigeration, and freezing."
+  ],
+  "evidence": [
+    {
+      "claim": "The home 2-hour and 1-hour rules for buffets",
+      "detail": "Discard any perishables left out at room temperature for more than 2 hours, unless you're keeping it hot or cold. If the buffet is held in a place where the temperature is above 90°F, the safe holding time is reduced to 1 hour.",
+      "source_url": "https://www.fda.gov/food/buy-store-serve-safe-food/serving-safe-buffets",
+      "source_title": "Serving Up Safe Buffets (FDA)"
+    },
+    {
+      "claim": "Hot and cold holding temperatures, and a warning about warmers",
+      "detail": "Hot foods should be kept at an internal temperature of 140°F or warmer; serve or keep food hot in chafing dishes, slow cookers, and warming trays. Some warmers only hold food at 110°F to 120°F, so check the label. Cold foods should be kept at 40°F or colder; place plates of cold food on ice to retain the chill.",
+      "source_url": "https://www.fda.gov/food/buy-store-serve-safe-food/serving-safe-buffets",
+      "source_title": "Serving Up Safe Buffets (FDA)"
+    },
+    {
+      "claim": "Small platters swapped out, not topped off",
+      "detail": "Prepare a number of small platters and dishes ahead of time and replace the serving dishes with fresh ones throughout the party. Keep backup cold dishes in the refrigerator and hot dishes in an oven at 200°F to 250°F before serving. Don't add new food to a serving dish that is already filled; bacteria from people's hands can contaminate the food, and bacteria can multiply at room temperature.",
+      "source_url": "https://www.fda.gov/food/buy-store-serve-safe-food/serving-safe-buffets",
+      "source_title": "Serving Up Safe Buffets (FDA)"
+    },
+    {
+      "claim": "For dishes guests bring, the clock starts when they leave home",
+      "detail": "If guests are bringing food, the clock starts ticking when they walk out their door. Perishable food left out more than two hours (one hour above 90°F) should be discarded. Refresh the buffet every one to two hours. Cold dishes below 40°F, hot dishes above 140°F; pack cold food with ice or cooling packs in an insulated cooler and hot food in an insulated container.",
+      "source_url": "https://www.eatright.org/food/home-food-safety/safe-cooking-and-prep/beat-the-buffet-blues",
+      "source_title": "Beat the Buffet Blues (Academy of Nutrition and Dietetics)"
+    },
+    {
+      "claim": "Extension guidance repeats the 2-hour / 1-hour discard rule and hot-holding tools",
+      "detail": "Keep hot foods at 140°F or warmer using slow cookers, chafing dishes, and warming trays; keep cold food in a cooler with ice or gel packs until just before serving. Throw away perishable foods out at room temperature 2 hours or more; toss them after 1 hour at 90°F or hotter. Refrigerate leftovers at 40°F or below within two hours; reheat to at least 165°F.",
+      "source_url": "https://extension.purdue.edu/news/county/white/2020/09/Food-Safety-for-Buffets-and-Parties.html",
+      "source_title": "Food Safety for Buffets and Parties (Purdue Extension, 2020)"
+    },
+    {
+      "claim": "Restaurant 'time only' rule: 4 hours with strict conditions",
+      "detail": "Minnesota Rule 4626.0408 (Food Code 3-501.19): food must have an initial temperature below 41°F or above 135°F when removed from temperature control, be marked with the time 4 hours past removal, and be cooked and served, served if ready-to-eat, or discarded within 4 hours. Food in unmarked containers or marked to exceed 4 hours must be discarded.",
+      "source_url": "https://www.revisor.mn.gov/rules/4626.0408/version/2019-01-02T09:58:35-06:00",
+      "source_title": "4626.0408 Time as Public Health Control (Minnesota Administrative Rules)"
+    },
+    {
+      "claim": "Restaurant 6-hour option applies only to monitored cold food that stays at or below 70°F",
+      "detail": "Food must start at 41°F or less, must not exceed 70°F within a maximum of 6 hours, must be monitored and marked with removal time and the 6-hour end time, and is discarded if it exceeds 70°F or reaches the 6-hour limit.",
+      "source_url": "https://www.revisor.mn.gov/rules/4626.0408/version/2019-01-02T09:58:35-06:00",
+      "source_title": "4626.0408 Time as Public Health Control (Minnesota Administrative Rules)"
+    },
+    {
+      "claim": "A buffet outbreak shows reheating does not undo time at room temperature",
+      "detail": "Staphylococcal food poisoning followed a buffet served to approximately 855 people (New Mexico, March 30, 1986); turkey, dressing, and gravy were associated with illness; the turkey had cooled for 3 hours at room temperature after cooking. The toxin is heat stable, and reheating foods will not prevent the illness. Incubation 1.5 to 27.5 hours, median 4 hours.",
+      "source_url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00000825.htm",
+      "source_title": "Staphylococcal Food Poisoning from Turkey at a Country Club Buffet -- New Mexico (CDC MMWR)"
+    },
+    {
+      "claim": "Which buffet foods staph is tied to, and toxin resistance",
+      "detail": "Staph is part of normal human microflora (skin, nose, throat, infected cuts). Associated foods: salads such as egg, tuna, chicken, potato, or macaroni; cream-filled pastries, cream pies, eclairs; sliced meats. Staph can multiply rapidly in food held at room temperature; cooking kills the bacteria but the toxin is very resistant to heat, refrigeration, and freezing. Symptoms 30 minutes to 8 hours after eating.",
+      "source_url": "https://food.unl.edu/staphylococcus-aureus",
+      "source_title": "Staphylococcus aureus (University of Nebraska–Lincoln Food)"
+    },
+    {
+      "claim": "Home reheating cannot destroy heat-stable bacterial toxins",
+      "detail": "Assuming reheating makes food left out for an extended time safe is not a good or safe assumption. S. aureus toxin would not be inactivated under typical home conditions; B. cereus toxin is heat stable up to 121°C (250°F); the heat needed to destroy heat-stable toxins will most likely never be attained in a residential setting. Perishable food left between 41°F and 140°F for several hours is best discarded.",
+      "source_url": "https://extension.sdstate.edu/re-heating-and-re-eating-food",
+      "source_title": "Re-heating and Re-eating Food (SDSU Extension, Curtis Braun, 2023)"
+    }
+  ],
+  "real_questions": [
+    "Does the 2-hour clock start when the food comes out of the oven or when it hits the table?",
+    "Restaurants leave buffets out for hours, so why can't I?",
+    "If I microwave the leftover party food until it's steaming, is it safe again?",
+    "Does a chafing dish or warming tray mean the food can stay out all night?",
+    "Can I put the leftovers in the fridge after the party if they've been out about three hours?",
+    "Is it okay to refill a half-empty dip bowl with fresh dip?"
+  ],
+  "original_asset": {
+    "type": "schedule",
+    "spec": "A 'party clock' table for a sample party: food set out at 5:30 p.m. Rows by holding method (room temperature at or below 90°F: 2 h → 7:30 p.m.; room/patio above 90°F: 1 h → 6:30 p.m.; guest's dish with a 30-minute drive: 2 h minus 30 min = 90 min on the table → 7:00 p.m.; warmer that only reaches 110–120°F: same as room temperature; chafing dish verified at 140°F+ and cold platter on ice at 40°F or below: no 2-hour discard, but check temperature). Plus a worked swap plan: a 5:30–9:30 p.m. party is 4 hours, so 4 h ÷ 2 h = 2 platter rounds (one at 5:30, one at 7:30) for each room-temperature dish. Plus a comparison row showing the restaurant 4-hour and 6-hour rules and their conditions (Minnesota rule)."
+  },
+  "cautions": [
+    "Never tell readers to judge safety by smell or look (registry)",
+    "Do not present the restaurant 4-hour/6-hour rule as permission for home use; it requires a known starting temperature, time marking, and (for 6 hours) monitoring, and ends with discard",
+    "Do not claim reheating to 165°F makes food that sat out too long safe; 165°F applies to properly stored leftovers",
+    "The Minnesota rule is one state's adoption of the Food Code; local rules can differ",
+    "Hot food held at 140°F or above is outside the 2-hour discard rule per FDA wording, but only if it actually measures 140°F"
+  ],
+  "sources": {
+    "https://www.fda.gov/food/buy-store-serve-safe-food/serving-safe-buffets": "Serving Up Safe Buffets (FDA)",
+    "https://www.eatright.org/food/home-food-safety/safe-cooking-and-prep/beat-the-buffet-blues": "Beat the Buffet Blues (Academy of Nutrition and Dietetics)",
+    "https://extension.purdue.edu/news/county/white/2020/09/Food-Safety-for-Buffets-and-Parties.html": "Food Safety for Buffets and Parties (Purdue Extension, 2020)",
+    "https://www.revisor.mn.gov/rules/4626.0408/version/2019-01-02T09:58:35-06:00": "4626.0408 Time as Public Health Control (Minnesota Administrative Rules)",
+    "https://www.cdc.gov/mmwr/preview/mmwrhtml/00000825.htm": "Staphylococcal Food Poisoning from Turkey at a Country Club Buffet -- New Mexico (CDC MMWR)",
+    "https://food.unl.edu/staphylococcus-aureus": "Staphylococcus aureus (University of Nebraska–Lincoln Food)",
+    "https://extension.sdstate.edu/re-heating-and-re-eating-food": "Re-heating and Re-eating Food (SDSU Extension, Curtis Braun, 2023)"
+  }
+}

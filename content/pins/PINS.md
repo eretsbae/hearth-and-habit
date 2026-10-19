@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 73개 준비됨 · 게시 완료 72개(수동 64 · API 8) · 대기 1개
+핀 74개 준비됨 · 게시 완료 73개(수동 64 · API 9) · 대기 1개
 
 ## 게시 방식
 
@@ -258,7 +258,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
 
 ## 보드: Kitchen & Food Habits
 
-(14개)
+(15개)
 
 - [x] **How to Meal Plan for the Week in 30 Minutes (A Simple Sunday Routine)**
   - 이미지: `content/pins/30-minute-sunday-meal-plan.png`
@@ -330,6 +330,11 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/10/how-long-does-frozen-turkey-take-to.html
   - 설명: Allow a day per 4 pounds in a fridge at 40°F or below: 16 lb needs 4 days. Day-by-day Thanksgiving schedule, cold-water times, and what to do if it is still icy.
 
+- [ ] **How Long Can Party Food Sit on the Buffet Table Before It Has to Be Tossed?**
+  - 이미지: `content/pins/how-long-can-party-food-sit-out-buffet.png`
+  - 링크: https://www.hearth-habit.com/2026/10/how-long-can-party-food-sit-on-buffet.html
+  - 설명: Party food can sit out 2 hours, or 1 hour above 90°F, and the clock runs before guests arrive. Why reheating won't save it, plus a platter-swap schedule.
+
 ## 보드: Yard & Outdoor Basics
 
 (14개)
@@ -399,7 +404,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/10/should-you-shut-off-outdoor-faucet-from.html
   - 설명: A standard outdoor faucet needs its inside valve closed and the line drained. A frost-free one mostly needs the hose off. How to tell which you have and find the valve.
 
-- [ ] **How Low Should You Mow Grass on the Last Cut Before Winter?**
+- [x] **How Low Should You Mow Grass on the Last Cut Before Winter?**
   - 이미지: `content/pins/last-mow-height-before-winter.png`
   - 링크: https://www.hearth-habit.com/2026/10/how-low-should-you-mow-grass-on-last.html
   - 설명: Cool-season lawns: mow at normal height until growth stops, then drop one notch at most. Warm-season lawns stay in range. Last-cut height table by setting.

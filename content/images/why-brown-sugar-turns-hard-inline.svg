@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+  <text x="600" y="80" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="bold" fill="#2E2A24">Hard brown sugar: pick by deadline</text>
+  <!-- column 1 -->
+  <rect x="60" y="130" width="340" height="420" rx="20" fill="#E4C7B2"/>
+  <circle cx="230" cy="215" r="48" fill="#B85C38"/>
+  <rect x="222" y="185" width="16" height="36" rx="4" fill="#F6EFE6"/>
+  <rect x="222" y="221" width="30" height="12" rx="4" fill="#F6EFE6"/>
+  <text x="230" y="310" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="bold" fill="#2E2A24">Need it now</text>
+  <text x="230" y="360" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24">Oven or microwave</text>
+  <rect x="100" y="430" width="260" height="70" rx="14" fill="#B85C38"/>
+  <text x="230" y="475" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#F6EFE6">Re-hardens as it cools</text>
+  <!-- column 2 -->
+  <rect x="430" y="130" width="340" height="420" rx="20" fill="#E4C7B2"/>
+  <path d="M600 170 Q640 225 600 262 Q560 225 600 170 Z" fill="#5C6E58"/>
+  <text x="600" y="310" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="bold" fill="#2E2A24">Need it now</text>
+  <text x="600" y="360" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24">Knead in water</text>
+  <rect x="470" y="430" width="260" height="70" rx="14" fill="#5C6E58"/>
+  <text x="600" y="475" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#F6EFE6">Adds moisture back</text>
+  <!-- column 3 -->
+  <rect x="800" y="130" width="340" height="420" rx="20" fill="#E4C7B2"/>
+  <path d="M920 262 L920 210 Q920 175 970 175 Q1020 175 1020 210 L1020 262 Z" fill="#D9A441"/>
+  <text x="970" y="310" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="bold" fill="#2E2A24">Can wait 1-2 days</text>
+  <text x="970" y="360" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24">Bread or damp towel</text>
+  <rect x="840" y="430" width="260" height="70" rx="14" fill="#5C6E58"/>
+  <text x="970" y="475" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#F6EFE6">Should stay soft</text>
+</svg>

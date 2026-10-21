@@ -766,10 +766,12 @@ topics:
   pinterest_pin_id: '1132796112561632753'
 - title: Why Does My Brown Sugar Turn Rock-Hard, and Can You Still Use It?
   pillar: kitchen-habits
-  status: pending
+  status: published
   season_months:
   - 11
   - 12
+  published_slug: why-brown-sugar-turns-hard
+  written_by: claude-code
 - title: Why Does My Shower Grout Turn Pink or Black Again a Week After Cleaning?
   pillar: cleaning-organization
   status: pending

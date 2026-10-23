@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 75개 준비됨 · 게시 완료 74개(수동 64 · API 10) · 대기 1개
+핀 76개 준비됨 · 게시 완료 75개(수동 64 · API 11) · 대기 1개
 
 ## 게시 방식
 
@@ -21,7 +21,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
 
 ## 보드: Cleaning & Organization
 
-(16개)
+(17개)
 
 - [x] **The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control**
   - 이미지: `content/pins/15-minute-weekly-home-reset.png`
@@ -102,6 +102,11 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 이미지: `content/pins/musty-smell-in-house-find-the-source.png`
   - 링크: https://www.hearth-habit.com/2026/09/musty-smell-in-house-how-to-find-source.html
   - 설명: A musty smell is usually gas from mold growing on something damp. Find it with your nose and a hygrometer, skip the test kit, and size a dehumidifier right.
+
+- [ ] **How Do You Store Summer Clothes So They Don't Smell or Yellow by Spring?**
+  - 이미지: `content/pins/how-to-store-summer-clothes-smell-yellowing.png`
+  - 링크: https://www.hearth-habit.com/2026/10/how-do-you-store-summer-clothes-so-they.html
+  - 설명: Wash even clean-looking clothes, skip starch and softener, and pack them fully dry. A table rates dry-cleaning bags, bins, cardboard, cedar chests and suitcases.
 
 ## 보드: Energy & Utility Savings
 
@@ -335,7 +340,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/10/how-long-can-party-food-sit-on-buffet.html
   - 설명: Party food can sit out 2 hours, or 1 hour above 90°F, and the clock runs before guests arrive. Why reheating won't save it, plus a platter-swap schedule.
 
-- [ ] **Why Does My Brown Sugar Turn Rock-Hard, and Can You Still Use It?**
+- [x] **Why Does My Brown Sugar Turn Rock-Hard, and Can You Still Use It?**
   - 이미지: `content/pins/why-brown-sugar-turns-hard.png`
   - 링크: https://www.hearth-habit.com/2026/10/why-does-my-brown-sugar-turn-rock-hard.html
   - 설명: Hard brown sugar has dried out and is still usable. Which fixes re-harden as they cool, which restore moisture, and how much water to knead in per cup or bag.

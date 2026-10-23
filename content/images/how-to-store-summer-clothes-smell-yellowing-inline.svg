@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+  <text x="600" y="80" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="bold" fill="#2E2A24">What goes wrong in storage</text>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">
+    <rect x="60" y="130" width="460" height="90" rx="14" fill="#E4C7B2"/>
+    <text x="290" y="185" text-anchor="middle">Hidden residue oxidizes</text>
+    <rect x="680" y="130" width="460" height="90" rx="14" fill="#C9D3C5"/>
+    <text x="910" y="185" text-anchor="middle">Wash everything first</text>
+
+    <rect x="60" y="250" width="460" height="90" rx="14" fill="#E4C7B2"/>
+    <text x="290" y="305" text-anchor="middle">Moisture sealed in</text>
+    <rect x="680" y="250" width="460" height="90" rx="14" fill="#C9D3C5"/>
+    <text x="910" y="305" text-anchor="middle">Pack bone-dry, dry room</text>
+
+    <rect x="60" y="370" width="460" height="90" rx="14" fill="#E4C7B2"/>
+    <text x="290" y="425" text-anchor="middle">Acid vapors from wood</text>
+    <rect x="680" y="370" width="460" height="90" rx="14" fill="#C9D3C5"/>
+    <text x="910" y="425" text-anchor="middle">Acid-free box or dry bin</text>
+
+    <rect x="60" y="490" width="460" height="90" rx="14" fill="#E4C7B2"/>
+    <text x="290" y="545" text-anchor="middle">Silverfish prefer starch</text>
+    <rect x="680" y="490" width="460" height="90" rx="14" fill="#C9D3C5"/>
+    <text x="910" y="545" text-anchor="middle">Skip starch on storage wash</text>
+  </g>
+  <g stroke="#B85C38" stroke-width="6" fill="#B85C38">
+    <line x1="540" y1="175" x2="645" y2="175"/>
+    <polygon points="660,175 640,163 640,187" stroke="none"/>
+    <line x1="540" y1="295" x2="645" y2="295"/>
+    <polygon points="660,295 640,283 640,307" stroke="none"/>
+    <line x1="540" y1="415" x2="645" y2="415"/>
+    <polygon points="660,415 640,403 640,427" stroke="none"/>
+    <line x1="540" y1="535" x2="645" y2="535"/>
+    <polygon points="660,535 640,523 640,547" stroke="none"/>
+  </g>
+</svg>

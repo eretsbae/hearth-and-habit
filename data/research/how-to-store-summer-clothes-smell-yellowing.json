@@ -1,0 +1,110 @@
+{
+  "reader_situation": "Readers in the US and Canada are swapping closets in fall and packing away T-shirts, linen, light dresses and swimwear. Many have opened a bin in spring to find yellow spots on whites or a musty smell, and they want a packing routine that prevents it.",
+  "direct_answer": "Wash everything first, even pieces that look clean, with no starch or fabric softener, and make sure it is completely dry. Then pack it in something that breathes or a lidded polyethylene bin, never dry-cleaning bags or bare wood or ordinary cardboard, and keep it in a cool, dark, dry room instead of the attic, basement or garage. Yellow spots come mostly from residue that oxidizes over months; smells come from moisture and stale air.",
+  "consensus": [
+    "Wash clothes before storing them.",
+    "Avoid plastic bags; use breathable bags or bins.",
+    "Store in a cool, dry, dark place.",
+    "Use cedar or lavender to deter moths.",
+    "Air out clothes when you take them out."
+  ],
+  "gaps": [
+    "Yellow spots in storage are mostly invisible residue oxidizing: Clorox says the yellowing is the slow reaction of oxygen with residual stains left after washing, and that these stains can turn yellow or brown over months or years. 'Wore it once, looks clean' still goes in the wash.",
+    "Starch, sizing and fabric softener should be skipped before storage (FabricLink); starch is a food source for silverfish, which prefer linen and also feed on cotton, rayon and silk (UMD Extension). Summer fabrics are exactly the ones silverfish go after, while clothes moths mostly target wool.",
+    "Not all plastic is the same: the Canadian Conservation Institute says polyethylene and acid-free cardboard boxes are fine for storage but plastic garment bags are not, because there is no air circulation and moisture builds up. North Carolina Historic Sites warns against plastic dry-cleaning bags and plastic tote boxes for heirloom textiles because plasticizers can harm fibers and dyes.",
+    "Wood and ordinary cardboard yellow fabric: CCI says wooden drawers can emit acidic vapours that yellow fabric and make it brittle; NC Historic Sites says not to place textiles in direct contact with wood, including cedar chests, because the acid can cause yellowing.",
+    "Cedar is oversold: Utah State University Extension says cedar-lined closets and chests have limited value against clothes moths.",
+    "Location numbers: NC Historic Sites gives 68–75°F and 40–57% relative humidity as the ideal constant environment and says to avoid unfinished basements and attics; EPA's registry figure is below 60%, ideally 30–50%.",
+    "Moths prefer items stained with beverages, oil and sweat (USU), so the pre-storage wash is pest control too, mainly for wool and wool blends."
+  ],
+  "evidence": [
+    {
+      "claim": "Yellowing in storage is oxidation of residual stains left after washing",
+      "detail": "The yellowing results from oxidation, the slow reaction of oxygen in the air with residual stains; stains that looked gone turn yellow or brown over months or years; these stains often have a protein component that needs to be removed.",
+      "source_url": "https://www.clorox.com/learn/getting-rid-of-yellow-oxidation-stains/",
+      "source_title": "Getting Rid of Yellow Oxidation Stains | Clorox"
+    },
+    {
+      "claim": "Treatment for yellow oxidation stains",
+      "detail": "Presoak in a Clorox 2 for Colors solution (one scoop in 2 gallons of hot water); whites can soak up to 8 hours, darker items about 1 hour; then wash in the hottest water the care label allows, air dry, inspect, repeat if needed.",
+      "source_url": "https://www.clorox.com/learn/getting-rid-of-yellow-oxidation-stains/",
+      "source_title": "Getting Rid of Yellow Oxidation Stains | Clorox"
+    },
+    {
+      "claim": "Clean everything before storage and skip certain products",
+      "detail": "Garments should be cleaned before storage; many foods and beverages leave yellow stains behind as they age; stains can attract insects. Avoid soap, chlorine bleach, starch, garment sizing, or fabric softeners; rinse thoroughly; add softener after unpacking if needed.",
+      "source_url": "https://www.fabriclink.com/care/Sesonalstorage.cfm",
+      "source_title": "Seasonal Storage | FabricLink"
+    },
+    {
+      "claim": "Location, packing and unpacking advice",
+      "detail": "Avoid the heat of an attic, moisture of a basement, or the grease and fumes of a garage; clean and vacuum the storage area first; no sunlight or artificial light exposure; do not use plastic bags (no air circulation, moisture collects, mildew may form); pack with white tissue or clean sheets/pillowcases; don't overstuff; fold as little as necessary, on seams; suitcases work as temporary containers; air out clothes thoroughly when removed from storage. If using moth balls or moth crystals, suspend them in a mesh bag from the top of the storage container; never allow the clothes to touch the bag of moth balls; avoid inhaling the vapors, which may be toxic to humans.",
+      "source_url": "https://www.fabriclink.com/care/Sesonalstorage.cfm",
+      "source_title": "Seasonal Storage | FabricLink"
+    },
+    {
+      "claim": "Polyethylene boxes are fine; plastic garment bags are not; wood and cardboard emit acids",
+      "detail": "Textiles should be clean and dry, stored in a cool, dark, dry location with good ventilation. Polyethylene plastic and acid-free cardboard boxes are fine for storage; do not use plastic garment bags (no air circulation, moisture builds up). Avoid regular paper, cardboard, wood and wood products; wooden drawers can emit acidic vapours that will yellow the fabric and make it brittle. Excess humidity leads to mould and mildew. Pad folds with acid-free tissue or muslin; avoid stacking many textiles. Regularly check storage for damage such as holes or grazed surfaces on wool fabrics. To kill insects, place the item in a bag in a freezer that maintains -20°C for a week.",
+      "source_url": "https://www.canada.ca/en/conservation-institute/services/care-objects/textiles-costumes/basic-care-textiles.html",
+      "source_title": "Basic care – Textiles | Canadian Conservation Institute"
+    },
+    {
+      "claim": "Ideal environment, places to avoid, wood contact, plastic totes",
+      "detail": "Ideal environment is a constant 68°F to 75°F and constant humidity between 40% and 57%. Avoid unfinished basements or attics prone to the greatest changes in temperature and humidity. Do not place textiles in direct contact with wood, as in cedar chests or on wooden hangers; the acid can cause yellowing. Do not store textiles in plastic dry-cleaning bags or plastic tote boxes; plasticizers can harm fibers and change dye colors; plastic can trap moisture. A white or light-colored sheet can wrap textiles against light and dust. Check closets and storage boxes seasonally for insects.",
+      "source_url": "https://historicsites.nc.gov/resources/collections/artifact-care/caring-your-textiles",
+      "source_title": "Caring for Your Textiles | North Carolina Historic Sites"
+    },
+    {
+      "claim": "Clothes moths favor stained items; cedar has limited value; airtight storage",
+      "detail": "Moths favor items stained with beverages, urine, oil, and sweat; larvae are more likely to feed on soiled fabrics; fabrics such as cotton blended with wool are at risk. Store items in a clean, pest-free, airtight container to exclude egg-laying females. Cedar-lined closets and chests have limited value against clothes moths. Freezing infested fabrics for a few days kills eggs and larvae. Naphthalene moth products are toxic and should be used with caution.",
+      "source_url": "https://extension.usu.edu/planthealth/research/clothes-moth",
+      "source_title": "Clothes Moths | Utah State University Extension"
+    },
+    {
+      "claim": "Silverfish prefer linen and feed on silk, rayon and cotton; damp cool places",
+      "detail": "Their preferred fabric is linen, but they may also feed on silks, rayon, and cotton. Damage shows as feces, scales, irregular feeding marks on fibers, and yellowish stains on linens. Silverfish prefer damp, cool places such as basements, laundry rooms and under sinks. Eliminate dampness from leaky plumbing or condensation.",
+      "source_url": "https://extension.umd.edu/resource/silverfish-and-firebrats",
+      "source_title": "Silverfish and Firebrats | University of Maryland Extension"
+    },
+    {
+      "claim": "Silverfish prefer starchy materials and high humidity",
+      "detail": "Silverfish have a preference for starchy materials; reported feeding on sugars, cellulose, linens, silk, cotton. Typically found in high humidity environments at 72°F–81°F (22–27°C), indoors in bathrooms, attics and basements. Reducing humidity may reduce the population.",
+      "source_url": "https://ask.ifas.ufl.edu/publication/IN1211",
+      "source_title": "Silverfish Lepisma saccharina (EENY-705) | University of Florida IFAS Extension"
+    },
+    {
+      "claim": "Silverfish control centers on moisture and sealed storage",
+      "detail": "Silverfish eat paper, fabrics and similar materials; reduce moisture by fixing leaky plumbing; remove or store potential food sources in sealed containers; complete control is difficult.",
+      "source_url": "https://extension.usu.edu/planthealth/ipm/notes_nuisance/silverfish-firebrats",
+      "source_title": "Silverfish and Firebrats | Utah State University Extension"
+    }
+  ],
+  "real_questions": [
+    "Why do my white summer shirts have yellow spots after storage when they were clean?",
+    "Are plastic bins OK for storing clothes or do they cause mildew?",
+    "Do vacuum storage bags ruin clothes?",
+    "Is a cedar chest enough to keep bugs out?",
+    "Is the attic or basement OK for storing out-of-season clothes?",
+    "How do I get the storage smell out of clothes?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "Container and location decision table: each common choice (dry-cleaning bag, garment bag, polyethylene bin, ordinary cardboard box, wooden drawer/cedar chest, suitcase, fabric bag) and each common place (attic, unfinished basement, garage, interior closet) rated by what the sources say happens, with the source named. Plus a packing schedule: wash day, dry check, pack, seasonal check, unpack and air."
+  },
+  "cautions": [
+    "Never mix chlorine bleach with ammonia or acids (registry).",
+    "Naphthalene moth products are toxic; follow the label, keep vapors out of living spaces.",
+    "Keep indoor RH below 60%, ideally 30–50% (EPA registry).",
+    "Do not claim cedar kills or reliably repels moths."
+  ],
+  "sources": {
+    "https://www.clorox.com/learn/getting-rid-of-yellow-oxidation-stains/": "Getting Rid of Yellow Oxidation Stains | Clorox",
+    "https://www.fabriclink.com/care/Sesonalstorage.cfm": "Seasonal Storage | FabricLink",
+    "https://www.canada.ca/en/conservation-institute/services/care-objects/textiles-costumes/basic-care-textiles.html": "Basic care – Textiles | Canadian Conservation Institute",
+    "https://historicsites.nc.gov/resources/collections/artifact-care/caring-your-textiles": "Caring for Your Textiles | North Carolina Historic Sites",
+    "https://extension.usu.edu/planthealth/research/clothes-moth": "Clothes Moths | Utah State University Extension",
+    "https://extension.umd.edu/resource/silverfish-and-firebrats": "Silverfish and Firebrats | University of Maryland Extension",
+    "https://ask.ifas.ufl.edu/publication/IN1211": "Silverfish Lepisma saccharina (EENY-705) | University of Florida IFAS Extension",
+    "https://extension.usu.edu/planthealth/ipm/notes_nuisance/silverfish-firebrats": "Silverfish and Firebrats | Utah State University Extension"
+  }
+}

@@ -653,10 +653,12 @@ topics:
   pinterest_pin_id: '1132796112560581008'
 - title: How Do You Store Summer Clothes So They Don't Smell or Yellow by Spring?
   pillar: cleaning-organization
-  status: pending
+  status: published
   season_months:
   - 9
   - 10
+  published_slug: how-to-store-summer-clothes-smell-yellowing
+  written_by: claude-code
 - title: Why Is My Gas Bill Higher This Winter When I Haven't Touched the Thermostat?
   pillar: energy-savings
   status: published

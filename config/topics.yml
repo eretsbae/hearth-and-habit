@@ -748,7 +748,9 @@ topics:
   - 8
 - title: Does Setting the Water Heater to 120°F Instead of 140°F Actually Save Money?
   pillar: energy-savings
-  status: pending
+  status: published
+  published_slug: water-heater-120-vs-140-does-it-save-money
+  written_by: claude-code
 - title: How Much Does Leaving a Ceiling Fan On All Day Actually Cost?
   pillar: energy-savings
   status: pending

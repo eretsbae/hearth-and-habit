@@ -1,0 +1,123 @@
+{
+  "reader_situation": "A homeowner or renter has read that turning the water heater down from 140°F to 120°F saves money, and wants to know how much it really saves, whether it will make showers run cold sooner, and whether the Legionella warnings they have also seen make 120°F a bad idea.",
+  "direct_answer": "Yes, but modestly: the reliable savings come from smaller standby losses (We Energies says a tank at 140°F can waste $36 to $61 a year in excess heating) plus lower energy for loads that use hot water straight from the tank, such as dishwasher and hot laundry fills. Blended showers use about the same heat at either setting. Whether to go to 120°F depends on who lives in the house: CPSC recommends 120°F to prevent scalds, while WHO's Legionella guidance and Consumer Reports favor 140°F at the heater with anti-scald mixing at the taps for higher-risk households.",
+  "consensus": [
+    "DOE recommends 120°F for most households and says many heaters ship at 140°F.",
+    "Turning the setting down saves money mainly by cutting standby heat loss.",
+    "A lower setting reduces scald risk.",
+    "Some dishwashers need hotter water unless they have a booster heater.",
+    "Lower settings may allow Legionella growth, which matters for people with weak immune systems."
+  ],
+  "gaps": [
+    "Savings figures are quoted loosely ($36–$61, 9%, 4–22%) without saying they measure different things; the $36–$61 is standby loss only.",
+    "For a blended draw (shower, bath) the heat used depends on the mixed temperature and the cold inlet, not the tank setting, so the 'demand' savings mostly come from loads that use tank water unmixed.",
+    "At 120°F each gallon of stored hot water makes fewer gallons of shower-temperature water, so a lower setting can mean running out sooner; with a 55°F inlet, a tank at 140°F stretches about 85/65 ≈ 1.31 times as far as one at 120°F.",
+    "Per gallon of unmixed hot water, the 20°F difference is 8.3 × 20 = 166 BTU, about 0.049 kWh, or under a cent at the US average electric rate.",
+    "Scald time drops from about five minutes at 120°F to thirty seconds at 130°F and six seconds at 140°F (CPSC), so 130°F is not a safe compromise for scald risk.",
+    "WHO's Legionella figures (growth 20–50°C, water leaving the heater at or above 60°C) convert to roughly 68–122°F and 140°F, which is why 120°F sits inside the growth range.",
+    "The dial is not a thermometer: CPSC and We Energies say to measure at a tap and readjust; electric heaters have two thermostats that must match.",
+    "Dishwasher guidance conflicts: Whirlpool says 120°F incoming water performs best, while UGA Extension says set 140°F if the dishwasher lacks a booster heater."
+  ],
+  "evidence": [
+    {
+      "claim": "CPSC recommends 120°F to prevent tap water scalds",
+      "detail": "The U.S. Consumer Product Safety Commission urges users to lower their water heaters to 120 degrees Fahrenheit; a setting of 120°F may be necessary to reduce or eliminate the risk of most tap water scald injuries; this will also conserve energy and save money.",
+      "source_url": "https://www.cpsc.gov/s3fs-public/5098-Tap-Water-Scalds.pdf",
+      "source_title": "Avoiding Tap Water Scalds (CPSC Publication 5098)"
+    },
+    {
+      "claim": "Scald times by temperature",
+      "detail": "Most adults will suffer third-degree burns if exposed to 150°F water for two seconds; burns also occur with a six-second exposure to 140°F water or a thirty-second exposure to 130°F water; even at 120°F a five-minute exposure could result in third-degree burns. Most injuries and deaths are to the elderly and children under five.",
+      "source_url": "https://www.cpsc.gov/s3fs-public/5098-Tap-Water-Scalds.pdf",
+      "source_title": "Avoiding Tap Water Scalds (CPSC Publication 5098)"
+    },
+    {
+      "claim": "How to check and adjust",
+      "detail": "Hold a candy or meat thermometer under the faucet first thing in the morning or at least two hours after water use; adjust per the manufacturer's instructions and check again. Electric: shut off power at the breaker first; most electric heaters have two thermostats, both set to a common temperature, behind upper and lower access panels. Always hand-test before using, especially when bathing infants and young children; leaving a child unsupervised in the bathroom, even for a second, could cause serious injuries.",
+      "source_url": "https://www.cpsc.gov/s3fs-public/5098-Tap-Water-Scalds.pdf",
+      "source_title": "Avoiding Tap Water Scalds (CPSC Publication 5098)"
+    },
+    {
+      "claim": "Legionella growth range and heater outlet temperature",
+      "detail": "Legionella live and grow in water systems at 20 to 50°C (optimal 35°C). WHO recommends keeping hot water above 50°C, which requires water leaving the heating unit at or above 60°C; cold water below 25°C, ideally below 20°C.",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/legionellosis",
+      "source_title": "Legionellosis (WHO fact sheet)"
+    },
+    {
+      "claim": "Who is at higher Legionella risk",
+      "detail": "Adults over 50 are 75–80% of reported cases and men 60–70%; risk factors include smoking, heavy drinking, chronic lung or kidney disease; the most susceptible hosts are immunocompromised patients.",
+      "source_url": "https://www.who.int/news-room/fact-sheets/detail/legionellosis",
+      "source_title": "Legionellosis (WHO fact sheet)"
+    },
+    {
+      "claim": "Consumer Reports does not necessarily recommend 120°F",
+      "detail": "DOE suggests lowering from 140°F to 120°F, but a lower setting might invite opportunistic bacteria including Legionella; OSHA advocates setting domestic water heaters to 140°F and using anti-scald devices such as thermostatic mixing valves at each faucet; some shower fixtures let you set a lower maximum temperature.",
+      "source_url": "https://www.consumerreports.org/water-heaters/smart-ways-to-save-on-your-hot-water-bill",
+      "source_title": "Smart Ways to Save on Your Hot Water Bill (Consumer Reports)"
+    },
+    {
+      "claim": "Standby loss dollars and savings at 120°F",
+      "detail": "Storage water heaters set above 120°F use more energy without additional benefit; one set at 140°F can waste $36 to $61 annually in excess heating; keeping the heater at 120°F will save about 9% in water heating costs. Test with a thermometer at the sink closest to the heater, adjust, retest the next day.",
+      "source_url": "https://we-energies.com/savings/tips/water-heating-thermostat",
+      "source_title": "Lower water heater thermostat (We Energies)"
+    },
+    {
+      "claim": "Savings range for about a 20°F drop and share of energy",
+      "detail": "Many units are set around 140°F by default; for most households 120°F provides enough hot water; lowering by about 20°F can reduce annual water heating costs by roughly 4% to 22% depending on usage and system type; water heaters account for roughly 18% of residential energy use, second after heating and cooling.",
+      "source_url": "https://www.rheem.com/water-heating/articles/how-water-heaters-impact-your-energy-bill-and-how-to-cut-costs/",
+      "source_title": "How Water Heaters Impact Your Energy Bill, and How to Cut Costs (Rheem)"
+    },
+    {
+      "claim": "Energy to heat water",
+      "detail": "Q = m × Cp × ΔT; Cp of water is 1 BTU/lb°F; one gallon weighs 8.3 pounds; 1 kWh = 3412 BTU. Example: 700 gallons/week heated from 55°F to 120°F = 19,637,800 BTU/year or 5,755 kWh/year.",
+      "source_url": "https://courses.ems.psu.edu/egee102/node/2347",
+      "source_title": "7.3 Energy Required for Water Heating (Penn State EGEE 102)"
+    },
+    {
+      "claim": "120°F optimum; share of bill; dishwashers and washers",
+      "detail": "The optimum temperature for both energy efficiency and function is 120°F; higher temperatures increase energy costs and scalding risks; some illnesses and special hygiene conditions might require higher temperatures; most electric heaters have two thermostats; water heating is 14%-18% of the utility bill; most energy used by dishwashers and clothes washers goes to heating the water.",
+      "source_url": "https://ask.ifas.ufl.edu/publication/FY1025",
+      "source_title": "Energy Efficient Homes: Water Heaters (UF/IFAS FCS3277/FY1025)"
+    },
+    {
+      "claim": "Dishwasher without booster: 140°F",
+      "detail": "120°F is the Normal or Low setting and provides adequate hot water for most household purposes; if the dishwasher does not have a booster heater (preheater), set the water heater to 140°F. Electric heaters: turn off electricity, remove two thermostat covers, adjust both thermostats. Water heating can be 15 to 20 percent of home energy use.",
+      "source_url": "https://l-webserver-prod.fcs.uga.edu/docs/Energy_Efficient_Water_heating_HACE-E-60-05.pdf",
+      "source_title": "Energy-Efficient Water Heating (University of Georgia Cooperative Extension)"
+    },
+    {
+      "claim": "Whirlpool dishwashers perform best at 120°F incoming",
+      "detail": "Whirlpool dishwashers perform best with incoming hot water of 120°F (49°C); with cooler water, models with internal heaters run longer cycles while heating water; test by running the kitchen faucet 30–60 seconds and measuring a cupful with a thermometer.",
+      "source_url": "https://producthelp.whirlpool.com/Dishwashers/Product_Info/Dishwasher_Tips_and_Tricks/Dishwasher_Water_Temperature_Troubleshooting",
+      "source_title": "Dishwasher Water Temperature Troubleshooting (Whirlpool)"
+    }
+  ],
+  "real_questions": [
+    "Will I run out of hot water sooner at 120°F?",
+    "Is 120°F safe from Legionella?",
+    "Is 130°F a good compromise?",
+    "Why is my water hotter or colder than the dial says?",
+    "Does my dishwasher need 140°F?"
+  ],
+  "original_asset": {
+    "type": "comparison_table",
+    "spec": "A 120°F / 130°F / 140°F comparison: CPSC scald time, WHO Legionella range position (°C converted), dishwasher fit, standby-loss figure; plus a worked example of energy per gallon of unmixed hot water (8.3 lb × ΔT ÷ 3412 × registry electricity rate) and the blended-water stretch ratio (140−55)/(120−55) using Penn State's 55°F inlet."
+  },
+  "cautions": [
+    "Electric heaters: power off at the breaker before opening thermostat panels (CPSC, UGA).",
+    "Never judge water temperature by feel for infants; measure at the tap.",
+    "Do not present 120°F as Legionella-safe; WHO's growth range reaches 50°C (122°F).",
+    "Higher-risk occupants should talk to a plumber about 140°F storage plus thermostatic mixing valves rather than simply turning the heater up."
+  ],
+  "sources": {
+    "https://www.cpsc.gov/s3fs-public/5098-Tap-Water-Scalds.pdf": "Avoiding Tap Water Scalds (CPSC Publication 5098)",
+    "https://www.who.int/news-room/fact-sheets/detail/legionellosis": "Legionellosis (WHO fact sheet)",
+    "https://www.consumerreports.org/water-heaters/smart-ways-to-save-on-your-hot-water-bill": "Smart Ways to Save on Your Hot Water Bill (Consumer Reports)",
+    "https://we-energies.com/savings/tips/water-heating-thermostat": "Lower water heater thermostat (We Energies)",
+    "https://www.rheem.com/water-heating/articles/how-water-heaters-impact-your-energy-bill-and-how-to-cut-costs/": "How Water Heaters Impact Your Energy Bill, and How to Cut Costs (Rheem)",
+    "https://courses.ems.psu.edu/egee102/node/2347": "7.3 Energy Required for Water Heating (Penn State EGEE 102)",
+    "https://ask.ifas.ufl.edu/publication/FY1025": "Energy Efficient Homes: Water Heaters (UF/IFAS FCS3277/FY1025)",
+    "https://l-webserver-prod.fcs.uga.edu/docs/Energy_Efficient_Water_heating_HACE-E-60-05.pdf": "Energy-Efficient Water Heating (University of Georgia Cooperative Extension)",
+    "https://producthelp.whirlpool.com/Dishwashers/Product_Info/Dishwasher_Tips_and_Tricks/Dishwasher_Water_Temperature_Troubleshooting": "Dishwasher Water Temperature Troubleshooting (Whirlpool)"
+  }
+}

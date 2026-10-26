@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 76개 준비됨 · 게시 완료 75개(수동 64 · API 11) · 대기 1개
+핀 77개 준비됨 · 게시 완료 76개(수동 64 · API 12) · 대기 1개
 
 ## 게시 방식
 
@@ -103,14 +103,14 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/09/musty-smell-in-house-how-to-find-source.html
   - 설명: A musty smell is usually gas from mold growing on something damp. Find it with your nose and a hygrometer, skip the test kit, and size a dehumidifier right.
 
-- [ ] **How Do You Store Summer Clothes So They Don't Smell or Yellow by Spring?**
+- [x] **How Do You Store Summer Clothes So They Don't Smell or Yellow by Spring?**
   - 이미지: `content/pins/how-to-store-summer-clothes-smell-yellowing.png`
   - 링크: https://www.hearth-habit.com/2026/10/how-do-you-store-summer-clothes-so-they.html
   - 설명: Wash even clean-looking clothes, skip starch and softener, and pack them fully dry. A table rates dry-cleaning bags, bins, cardboard, cedar chests and suitcases.
 
 ## 보드: Energy & Utility Savings
 
-(13개)
+(14개)
 
 - [x] **How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work**
   - 이미지: `content/pins/cut-electric-bill-no-cost-habits.png`
@@ -176,6 +176,11 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 이미지: `content/pins/gas-bill-higher-this-winter-checklist.png`
   - 링크: https://www.hearth-habit.com/2026/10/gas-bill-higher-this-winter-without.html
   - 설명: Same thermostat, bigger gas bill? Check billing days, price per therm, and therms per degree day against last winter. Worked example, CCF vs. therms, and fixes.
+
+- [ ] **Does Setting the Water Heater to 120°F Instead of 140°F Actually Save Money?**
+  - 이미지: `content/pins/water-heater-120-vs-140-does-it-save-money.png`
+  - 링크: https://www.hearth-habit.com/2026/10/does-setting-water-heater-to-120f.html
+  - 설명: Yes, but modestly: 120°F trims excess tank heating and unmixed hot water, not showers. Scald, Legionella, dishwasher and cost compared at 120, 130, 140°F.
 
 ## 보드: Home Maintenance & Repairs
 

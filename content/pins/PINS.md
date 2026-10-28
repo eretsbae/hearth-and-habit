@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 77개 준비됨 · 게시 완료 76개(수동 64 · API 12) · 대기 1개
+핀 78개 준비됨 · 게시 완료 77개(수동 64 · API 13) · 대기 1개
 
 ## 게시 방식
 
@@ -177,14 +177,14 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/10/gas-bill-higher-this-winter-without.html
   - 설명: Same thermostat, bigger gas bill? Check billing days, price per therm, and therms per degree day against last winter. Worked example, CCF vs. therms, and fixes.
 
-- [ ] **Does Setting the Water Heater to 120°F Instead of 140°F Actually Save Money?**
+- [x] **Does Setting the Water Heater to 120°F Instead of 140°F Actually Save Money?**
   - 이미지: `content/pins/water-heater-120-vs-140-does-it-save-money.png`
   - 링크: https://www.hearth-habit.com/2026/10/does-setting-water-heater-to-120f.html
   - 설명: Yes, but modestly: 120°F trims excess tank heating and unmixed hot water, not showers. Scald, Legionella, dishwasher and cost compared at 120, 130, 140°F.
 
 ## 보드: Home Maintenance & Repairs
 
-(16개)
+(17개)
 
 - [x] **How Often Should You Change Your Furnace Filter? (And Which MERV Rating to Buy)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -265,6 +265,11 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 이미지: `content/pins/furnace-smells-like-burning-dust-first-time-on.png`
   - 링크: https://www.hearth-habit.com/2026/10/why-does-my-furnace-smell-like-burning.html
   - 설명: A burning-dust smell on the furnace's first run is usually summer dust burning off. See how long Carrier and Trane say it lasts and which smells aren't dust.
+
+- [ ] **Why Does My Circuit Breaker Trip Only When Two Specific Appliances Run Together?**
+  - 이미지: `content/pins/breaker-trips-when-two-appliances-run-together.png`
+  - 링크: https://www.hearth-habit.com/2026/10/why-does-my-circuit-breaker-trip-only.html
+  - 설명: Two appliances fine alone can trip a breaker together. Add nameplate watts, divide by 120 for amps, compare to the breaker, and use this checklist to fix it.
 
 ## 보드: Kitchen & Food Habits
 

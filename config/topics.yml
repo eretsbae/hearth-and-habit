@@ -550,7 +550,9 @@ topics:
   pinterest_pin_id: manual
 - title: Why Does My Circuit Breaker Trip Only When Two Specific Appliances Run Together?
   pillar: home-maintenance
-  status: pending
+  status: published
+  published_slug: breaker-trips-when-two-appliances-run-together
+  written_by: claude-code
 - title: Why Does My Front Door Stick Only in the Summer?
   pillar: home-maintenance
   status: pending

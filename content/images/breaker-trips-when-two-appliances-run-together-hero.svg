@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+  <rect x="0" y="470" width="1200" height="160" fill="#E4C7B2"/>
+  <rect x="0" y="462" width="1200" height="14" fill="#D9A441" opacity="0.6"/>
+  <!-- breaker panel -->
+  <rect x="120" y="90" width="260" height="340" rx="12" fill="#5C6E58"/>
+  <rect x="140" y="110" width="220" height="300" rx="6" fill="#7E8E7A"/>
+  <g fill="#F6EFE6">
+    <rect x="160" y="130" width="80" height="26" rx="4"/>
+    <rect x="260" y="130" width="80" height="26" rx="4"/>
+    <rect x="160" y="172" width="80" height="26" rx="4"/>
+    <rect x="260" y="172" width="80" height="26" rx="4"/>
+    <rect x="160" y="214" width="80" height="26" rx="4"/>
+    <rect x="260" y="256" width="80" height="26" rx="4"/>
+    <rect x="160" y="256" width="80" height="26" rx="4"/>
+    <rect x="160" y="298" width="80" height="26" rx="4"/>
+    <rect x="260" y="298" width="80" height="26" rx="4"/>
+    <rect x="160" y="340" width="80" height="26" rx="4"/>
+    <rect x="260" y="340" width="80" height="26" rx="4"/>
+  </g>
+  <rect x="260" y="214" width="80" height="26" rx="4" fill="#B85C38"/>
+  <rect x="300" y="219" width="34" height="16" rx="3" fill="#F6EFE6"/>
+  <g fill="#2E2A24" opacity="0.5">
+    <rect x="200" y="137" width="34" height="12" rx="2"/>
+    <rect x="300" y="137" width="34" height="12" rx="2"/>
+    <rect x="200" y="179" width="34" height="12" rx="2"/>
+    <rect x="300" y="179" width="34" height="12" rx="2"/>
+    <rect x="200" y="221" width="34" height="12" rx="2"/>
+    <rect x="200" y="263" width="34" height="12" rx="2"/>
+    <rect x="300" y="263" width="34" height="12" rx="2"/>
+    <rect x="200" y="305" width="34" height="12" rx="2"/>
+    <rect x="300" y="305" width="34" height="12" rx="2"/>
+    <rect x="200" y="347" width="34" height="12" rx="2"/>
+    <rect x="300" y="347" width="34" height="12" rx="2"/>
+  </g>
+  <!-- wire from panel to counter -->
+  <path d="M380 230 C 520 230, 520 330, 640 330 L 980 330" stroke="#D9A441" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- outlet -->
+  <rect x="770" y="290" width="70" height="100" rx="10" fill="#F6EFE6" stroke="#2E2A24" stroke-width="4"/>
+  <rect x="790" y="310" width="8" height="18" rx="2" fill="#2E2A24"/>
+  <rect x="812" y="310" width="8" height="18" rx="2" fill="#2E2A24"/>
+  <rect x="790" y="352" width="8" height="18" rx="2" fill="#2E2A24"/>
+  <rect x="812" y="352" width="8" height="18" rx="2" fill="#2E2A24"/>
+  <!-- microwave -->
+  <rect x="560" y="360" width="190" height="110" rx="10" fill="#B85C38"/>
+  <rect x="578" y="378" width="120" height="74" rx="6" fill="#2E2A24" opacity="0.75"/>
+  <rect x="710" y="380" width="26" height="70" rx="4" fill="#E4C7B2"/>
+  <circle cx="723" cy="396" r="6" fill="#B85C38"/>
+  <circle cx="723" cy="420" r="6" fill="#B85C38"/>
+  <!-- toaster -->
+  <rect x="880" y="380" width="170" height="90" rx="26" fill="#D9A441"/>
+  <rect x="910" y="372" width="40" height="14" rx="4" fill="#2E2A24"/>
+  <rect x="980" y="372" width="40" height="14" rx="4" fill="#2E2A24"/>
+  <rect x="1050" y="410" width="14" height="30" rx="4" fill="#5C6E58"/>
+  <!-- cords -->
+  <path d="M750 420 C 790 420, 795 400, 798 370" stroke="#2E2A24" stroke-width="5" fill="none"/>
+  <path d="M880 430 C 830 430, 820 400, 816 370" stroke="#2E2A24" stroke-width="5" fill="none"/>
+  <!-- spark marks near tripped breaker -->
+  <g stroke="#B85C38" stroke-width="6" stroke-linecap="round">
+    <line x1="400" y1="190" x2="430" y2="170"/>
+    <line x1="405" y1="226" x2="440" y2="226"/>
+    <line x1="400" y1="262" x2="430" y2="282"/>
+  </g>
+  <circle cx="1080" cy="120" r="46" fill="#D9A441" opacity="0.35"/>
+  <circle cx="1000" cy="170" r="22" fill="#5C6E58" opacity="0.25"/>
+</svg>

@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 78개 준비됨 · 게시 완료 77개(수동 64 · API 13) · 대기 1개
+핀 79개 준비됨 · 게시 완료 78개(수동 64 · API 14) · 대기 1개
 
 ## 게시 방식
 
@@ -266,14 +266,14 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/10/why-does-my-furnace-smell-like-burning.html
   - 설명: A burning-dust smell on the furnace's first run is usually summer dust burning off. See how long Carrier and Trane say it lasts and which smells aren't dust.
 
-- [ ] **Why Does My Circuit Breaker Trip Only When Two Specific Appliances Run Together?**
+- [x] **Why Does My Circuit Breaker Trip Only When Two Specific Appliances Run Together?**
   - 이미지: `content/pins/breaker-trips-when-two-appliances-run-together.png`
   - 링크: https://www.hearth-habit.com/2026/10/why-does-my-circuit-breaker-trip-only.html
   - 설명: Two appliances fine alone can trip a breaker together. Add nameplate watts, divide by 120 for amps, compare to the breaker, and use this checklist to fix it.
 
 ## 보드: Kitchen & Food Habits
 
-(16개)
+(17개)
 
 - [x] **How to Meal Plan for the Week in 30 Minutes (A Simple Sunday Routine)**
   - 이미지: `content/pins/30-minute-sunday-meal-plan.png`
@@ -354,6 +354,11 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 이미지: `content/pins/why-brown-sugar-turns-hard.png`
   - 링크: https://www.hearth-habit.com/2026/10/why-does-my-brown-sugar-turn-rock-hard.html
   - 설명: Hard brown sugar has dried out and is still usable. Which fixes re-harden as they cool, which restore moisture, and how much water to knead in per cup or bag.
+
+- [ ] **Why Does My Freezer Build Up Frost So Fast Even Though It's Frost-Free?**
+  - 이미지: `content/pins/frost-free-freezer-frost-buildup.png`
+  - 링크: https://www.hearth-habit.com/2026/10/why-does-my-freezer-build-up-frost-so.html
+  - 설명: A frost-free freezer still makes frost and melts it on a timer. Where the frost shows up tells you why it's winning, and why a colder dial setting can backfire.
 
 ## 보드: Yard & Outdoor Basics
 

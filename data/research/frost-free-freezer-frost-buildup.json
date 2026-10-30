@@ -1,0 +1,119 @@
+{
+  "reader_situation": "A North American homeowner or renter with a freezer they believe is frost-free keeps finding frost: a furry layer on the back wall, crystals on bags of frozen vegetables, ice in the ice bucket, or a slick sheet on the freezer floor. They scrape it off and it comes back within days. They want to know whether the freezer is broken, whether the food is still safe, and what they can fix themselves before paying for service.",
+  "direct_answer": "A frost-free freezer still makes frost; it just melts it off the hidden cooling coil on a schedule (LG says its models defrost every 4 to 16 hours). Frost you can see means moisture is getting in faster than that cycle can clear it, usually from a door or gasket that isn't sealing, long or frequent door openings, warm or wet food, or packages blocking the rear vents. GE says ice on the freezer wall is not expected in a frost-free unit and should clear within a few days once those causes are fixed. A sheet of ice on the floor points to a blocked drain, and frost that returns after you've fixed the air leaks, or a freezer fan that isn't running, needs service.",
+  "consensus": [
+    "Warm, humid air getting in is the root cause of freezer frost",
+    "Check and clean the door gasket and replace it if it's torn",
+    "Limit door openings and let hot food cool before freezing it",
+    "Don't overpack the freezer or block the air vents",
+    "If frost keeps coming back, the defrost system may have failed and needs a technician"
+  ],
+  "gaps": [
+    "MYTH: 'frost-free' means frost never forms. Frost still forms on the evaporator coil; the appliance melts it on a timed cycle. LG says its refrigerators automatically defrost every 4-16 hours. Embraco (a compressor manufacturer) describes frost-free as a scheduled temperature change that removes the ice. LG says a small amount of frost when the doors have been open is normal. Sub-Zero says small amounts of frost should disappear after a defrost cycle. The real question is whether frost survives the cycle.",
+    "MISSING: many standalone freezers are not frost-free at all. Whirlpool's upright-freezer help page says most freezers need to be manually defrosted and aren't equipped with an automatic defrost cycle, and tells owners to check the owner's manual. A reader with a garage upright or chest freezer may be chasing a fault that's actually normal behavior. For manual units, Whirlpool says defrost at about 1/4 inch (6 mm) and at least once a year; GE says 1/4 to 1/2 inch and never more than six months.",
+    "MYTH: turning the freezer colder fixes frost. LG says the opposite: if the freezer is set too low, earlier frost may not fully melt during automatic defrost, and if it's set below 0°F you may need to raise it for at least 24 hours. Iowa State Extension says to keep the freezer at 0°F or lower, so the target is 0°F, not colder.",
+    "MYTH: frost inside a package means the freezer is failing or the food is unsafe. Sub-Zero says frost or ice inside food packages comes from moisture locked in the package (freezer burn) and reflects how the food was packaged, not freezer performance; frost on the outside of all packages points to warm air getting in. Iowa State says freezer burn affects quality but not safety and food stored constantly at 0°F will always be safe.",
+    "MISSING location-based diagnosis: where the frost sits tells you the cause. Sheet of ice on the freezer floor = likely blocked drain line (LG). Ice in the ice bucket = air leaking in at the bucket seal, chute, or dispenser flap (Samsung). Frost on the rear wall = packages against the rear wall, door held open by packages, high humidity, warm food, or the freezer fan not running (GE). Most articles give one undifferentiated cause list.",
+    "MISSING concrete tests and limits: Whirlpool's dollar-bill test (bill should resist when pulled); Samsung's flashlight-inside-the-closed-door light-leak test; Samsung's targets of door openings under one minute and about once an hour, and about 2 inches of clearance in front of the rear vents; GE's 'a few days' for frost to go away once causes are fixed; LG's manual defrost of at least 8 hours with the doors open and 24-48 hours to return to normal operation.",
+    "MISSING placement causes: LG lists a freezer pushed too close to the wall, a unit that isn't level, and a location near a water heater or furnace. Samsung says front leveling legs should rest on the floor with the front wheels off it."
+  ],
+  "evidence": [
+    {
+      "claim": "Frost-free units defrost automatically on a schedule; small frost is normal",
+      "detail": "LG: 'LG refrigerators automatically defrosts every 4-16 hours which should resolve most frost buildup issues.' It's normal for a small amount of frost to accumulate when the doors are open; it is typically cleared during the automatic defrost cycle. Manual defrost: unplug, leave doors open, wait at least 8 hours; after plugging back in allow 24-48 hours to return to normal operation.",
+      "source_url": "https://www.lg.com/us/support/help-library/frost-buildup-refrigerator-CT10000021-1400774608218",
+      "source_title": "LG Refrigerator - Frost Buildup (LG USA Support)"
+    },
+    {
+      "claim": "Setting the freezer too cold can keep frost from melting",
+      "detail": "LG: if the freezer's temperature is set too low, previous frost buildup may not be able to fully melt. If set below 0°F, you may need to increase the temperature for at least 24 hours.",
+      "source_url": "https://www.lg.com/us/support/help-library/frost-buildup-refrigerator-CT10000021-1400774608218",
+      "source_title": "LG Refrigerator - Frost Buildup (LG USA Support)"
+    },
+    {
+      "claim": "Other frost causes, including drain, loading and placement",
+      "detail": "LG: a sheet of ice at the bottom of the freezer is likely caused by a blocked drain line; manually defrost, and if ice forms again a technician is needed. A relatively empty freezer has more air circulating; a tightly packed freezer can block the vents. Don't push the freezer too close to the wall; keep it away from a water heater or furnace; frost can occur when the unit isn't level. Also lists hot food, high-water-content vegetables added before reaching room temperature, and large packages not broken down or dried before freezing. Clean the gasket monthly with a soapy cloth; replace if torn.",
+      "source_url": "https://www.lg.com/us/support/help-library/frost-buildup-refrigerator-CT10000021-1400774608218",
+      "source_title": "LG Refrigerator - Frost Buildup (LG USA Support)"
+    },
+    {
+      "claim": "Ice on the freezer wall is not expected in a frost-free unit",
+      "detail": "GE: 'It is not expected to see ice accumulating on the freezer wall in a frost-free refrigerator or freezer.' Causes: high humidity, frequent door openings, warm food load, packages resting against the rear wall, packages keeping the door open. After correcting these, frost should go away in a few days. If not, check for gaskets not sealing or torn/split, and whether the freezer fan is running. If the fan isn't running or the suggestions didn't help, service is required. Unplug before maintenance or cleaning.",
+      "source_url": "https://products.geappliances.com/appliance/gea-support-search-content?contentId=16894",
+      "source_title": "Refrigerator & Freezer - Ice on Freezer Wall (GE Appliances)"
+    },
+    {
+      "claim": "Manual-defrost thresholds (GE)",
+      "detail": "GE: defrost manual-defrost freezers when frost is about 1/4 to 1/2 inch thick; more often with heavy use or humid rooms; never more than six months without a full defrost. Remove the contents and store them in a cooler or insulated container to slow thawing. Use a plastic scraper, not sharp or pointed tools, which could damage the refrigerating system.",
+      "source_url": "https://products.geappliances.com/appliance/gea-support-search-content?contentId=19685",
+      "source_title": "Refrigerator - Manual Defrosting (GE Appliances)"
+    },
+    {
+      "claim": "Most standalone freezers are manual defrost; dollar-bill seal test",
+      "detail": "Whirlpool: 'Most freezers need to be manually defrosted and are not equipped with an automatic defrost cycle.' See the owner's manual to tell whether yours is frost-free. Dollar-bill test: close the door on a bill or paper and pull; if it pulls out very easily with little to no tension, the door may not be sealing. Long or frequent door openings let in moisture that can form frost. Defrost at about 1/4 inch (6 mm); full defrost and cleaning at least once a year; more often in high humidity.",
+      "source_url": "https://producthelp.whirlpool.com/Refrigeration/Freezers/Upright_Freezer/Frost/Freezer_door_is_Sealing_-_Forming_Frost_-_Upright_Freezer",
+      "source_title": "Freezer door is Sealing - Forming Frost - Upright Freezer (Whirlpool Product Help)"
+    },
+    {
+      "claim": "Whirlpool prevention tips",
+      "detail": "Warm, moist air entering can lead to condensation that freezes, especially in hot weather or with frequent door openings. Damaged or poorly sealed gaskets let warm air in. Clean seals with warm, soapy water; replace cracked or torn seals. Avoid overpacking, which can obstruct airflow. Let food cool before freezing; get everything out at once.",
+      "source_url": "https://producthelp.whirlpool.com/Refrigeration/Freezers/Product_Info/Product_Assistance/How_to_Avoid_Frost_Build_Up",
+      "source_title": "How to Avoid Frost Build Up (Whirlpool Product Help)"
+    },
+    {
+      "claim": "Light-leak test, door-opening targets, vent clearance, ice bucket leaks",
+      "detail": "Samsung: warm moist air entering freezes into frost (door left open, warm or hot food, compartments not sealing). Overstuffing can keep the door from closing; blocked vents trap moisture. Put a flashlight inside and close the door to look for light leaks. Keep door openings under one minute and about once per hour. Keep about two inches of clearance in front of the rear vents. Clean the door gasket with warm soapy water and dry it; if it has pulled away from the door, push it back into the channel; a torn or split gasket needs service. Ice bucket frost: warm air leaking through the ice bucket seal, chute, or dispenser flap; check the flap sits flush. Front should rest on leveling legs with the front wheels off the floor. Do not use a hair dryer to speed defrosting (it will damage the refrigerator). Frost that returns after these steps needs service.",
+      "source_url": "https://www.samsung.com/us/support/troubleshoot/TSG10007222",
+      "source_title": "Frost forms in the Samsung freezer, refrigerator, or ice bucket (Samsung US Support)"
+    },
+    {
+      "claim": "Frost on packages vs. inside packages",
+      "detail": "Sub-Zero: frost or ice forms on food packages when warm air is introduced into the freezer; small amounts should disappear after a defrost cycle. Frost or ice inside packages results from moisture locked in the package (freezer burn) and reflects how the food was packaged, not freezer performance. The freezer also pulls moisture out of stored food, so ice inside packages can be frozen moisture removed from the food.",
+      "source_url": "https://www.subzero-wolf.com/assistance/answers/sub-zero/common/freezer-burn-on-food",
+      "source_title": "Freezer Burn on Food (Sub-Zero Quick Answers)"
+    },
+    {
+      "claim": "Freezer burn is quality, not safety; keep at 0°F",
+      "detail": "Iowa State Extension (2024): freezer burn is the result of air coming into contact with food; it affects quality but not safety. Food stored constantly at 0°F will always be safe. Keep the freezer at 0°F or lower. Use freezer-safe containers designed to keep air out. Steam turns to ice crystals. Foods near or in the door are for short-term storage. Mild freezer burn can be cut away.",
+      "source_url": "https://blogs.extension.iastate.edu/answerline/2024/03/19/freezer-burn-and-food-safety/",
+      "source_title": "Freezer Burn and Food Safety (Iowa State University Extension AnswerLine)"
+    },
+    {
+      "claim": "Defrost modes and energy trade-off (compressor maker)",
+      "detail": "Embraco (2014): in frost-free mode, at specific time intervals a temperature change occurs to eliminate the ice; it uses the most electricity of the modes. Manual defrost consumes about 40% less energy than frost-free.",
+      "source_url": "https://www.embraco.com/en/blog/general/defrost-modes-for-refrigerators.html",
+      "source_title": "Defrost Modes For Refrigerators (Embraco)"
+    }
+  ],
+  "real_questions": [
+    "My freezer is supposed to be frost-free, so why is there frost on everything? Is it broken?",
+    "Why is there a sheet of ice on the bottom of my freezer?",
+    "Is food with frost or ice crystals inside the bag still safe to eat?",
+    "Should I turn the freezer colder to stop the frost?",
+    "Can I use a hair dryer to melt the ice faster?",
+    "How do I know if it's the door seal or the defrost system?"
+  ],
+  "original_asset": {
+    "type": "decision_table_and_schedule",
+    "spec": "(1) A 'where the frost is → what it points to → test → who fixes it' table: rear wall (GE causes, fan check); along the door edge (Whirlpool dollar-bill test, Samsung flashlight test); sheet of ice on floor (LG drain); ice bucket/chute (Samsung flap and seal); on the outside of every package (Sub-Zero warm air); inside packages only (Sub-Zero/Iowa State freezer burn, quality not safety). (2) A reset schedule with arithmetic from LG's figures: manual defrost at least 8 h + 24-48 h return to normal = 32-56 h total, i.e. plan cold storage for the food for roughly 1.5 to 2.5 days; GE's 'a few days' to judge whether frost is clearing after fixing causes."
+  },
+  "cautions": [
+    "Unplug before cleaning or maintenance (GE)",
+    "Samsung warns not to use a hair dryer to speed defrosting; use a plastic scraper, not sharp tools (GE)",
+    "Food safety: keep the freezer at 0°F or lower; freezer burn is quality, not safety (Iowa State). Don't tell readers to judge safety by look or smell. Food held during a manual defrost must stay cold; the registry two-hour rule applies to perishable food left at room temperature",
+    "Model differences: defrost intervals and procedures vary; LG's 4-16 hour figure is for LG refrigerators. Tell readers to check the owner's manual.",
+    "Embraco's 40% energy figure is from a 2014 manufacturer blog; attribute and date it, or leave it out.",
+    "Repair-company cost figures from search snippets were not fetched and are excluded."
+  ],
+  "sources": {
+    "https://www.lg.com/us/support/help-library/frost-buildup-refrigerator-CT10000021-1400774608218": "LG Refrigerator - Frost Buildup (LG USA Support)",
+    "https://products.geappliances.com/appliance/gea-support-search-content?contentId=16894": "Refrigerator & Freezer - Ice on Freezer Wall (GE Appliances)",
+    "https://products.geappliances.com/appliance/gea-support-search-content?contentId=19685": "Refrigerator - Manual Defrosting (GE Appliances)",
+    "https://producthelp.whirlpool.com/Refrigeration/Freezers/Upright_Freezer/Frost/Freezer_door_is_Sealing_-_Forming_Frost_-_Upright_Freezer": "Freezer door is Sealing - Forming Frost - Upright Freezer (Whirlpool Product Help)",
+    "https://producthelp.whirlpool.com/Refrigeration/Freezers/Product_Info/Product_Assistance/How_to_Avoid_Frost_Build_Up": "How to Avoid Frost Build Up (Whirlpool Product Help)",
+    "https://www.samsung.com/us/support/troubleshoot/TSG10007222": "Frost forms in the Samsung freezer, refrigerator, or ice bucket (Samsung US Support)",
+    "https://www.subzero-wolf.com/assistance/answers/sub-zero/common/freezer-burn-on-food": "Freezer Burn on Food (Sub-Zero Quick Answers)",
+    "https://blogs.extension.iastate.edu/answerline/2024/03/19/freezer-burn-and-food-safety/": "Freezer Burn and Food Safety (Iowa State University Extension AnswerLine)",
+    "https://www.embraco.com/en/blog/general/defrost-modes-for-refrigerators.html": "Defrost Modes For Refrigerators (Embraco)"
+  }
+}

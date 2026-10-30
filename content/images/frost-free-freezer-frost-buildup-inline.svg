@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+  <text x="600" y="80" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="bold" fill="#2E2A24">Where the frost is points to the cause</text>
+  <!-- freezer -->
+  <rect x="460" y="130" width="280" height="420" rx="18" fill="#FFFFFF" stroke="#2E2A24" stroke-width="5"/>
+  <rect x="482" y="152" width="236" height="376" rx="10" fill="#E9F0EE" stroke="#5C6E58" stroke-width="3"/>
+  <rect x="482" y="300" width="236" height="8" fill="#5C6E58"/>
+  <rect x="510" y="250" width="80" height="50" rx="6" fill="#B85C38"/>
+  <rect x="610" y="255" width="70" height="45" rx="6" fill="#D9A441"/>
+  <rect x="482" y="155" width="236" height="22" fill="#FFFFFF"/>
+  <rect x="495" y="500" width="210" height="16" rx="7" fill="#FFFFFF" stroke="#5C6E58" stroke-width="2"/>
+  <rect x="640" y="380" width="60" height="70" rx="6" fill="#E4C7B2" stroke="#B85C38" stroke-width="3"/>
+  <rect x="460" y="130" width="280" height="420" rx="18" fill="none" stroke="#B85C38" stroke-width="5" stroke-dasharray="14 8"/>
+  <!-- callouts left -->
+  <g stroke="#2E2A24" stroke-width="3" fill="none">
+    <path d="M482 166 L380 166"/>
+    <path d="M460 340 L380 340"/>
+    <path d="M500 508 L380 508"/>
+    <path d="M700 415 L820 415"/>
+    <path d="M550 275 L820 220"/>
+  </g>
+  <g fill="#B85C38">
+    <circle cx="482" cy="166" r="7"/><circle cx="460" cy="340" r="7"/><circle cx="500" cy="508" r="7"/>
+    <circle cx="700" cy="415" r="7"/><circle cx="550" cy="275" r="7"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24">
+    <text x="365" y="160" text-anchor="end">Rear wall:</text>
+    <text x="365" y="190" text-anchor="end">blocked vents, warm air</text>
+    <text x="365" y="334" text-anchor="end">Door edge:</text>
+    <text x="365" y="364" text-anchor="end">gasket not sealing</text>
+    <text x="365" y="502" text-anchor="end">Floor ice sheet:</text>
+    <text x="365" y="532" text-anchor="end">likely blocked drain</text>
+    <text x="835" y="409">Ice bucket:</text>
+    <text x="835" y="439">air leak at flap or seal</text>
+    <text x="835" y="214">Inside packages:</text>
+    <text x="835" y="244">packaging (freezer burn)</text>
+  </g>
+</svg>

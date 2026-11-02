@@ -1,0 +1,114 @@
+{
+  "reader_situation": "A homeowner or renter has just put a fresh battery in a smoke alarm, often in the middle of the night, and it is still chirping. They want to know whether the alarm is broken, whether they did something wrong, and whether it is safe to just pull the battery and deal with it later.",
+  "direct_answer": "Usually one of four things: the alarm is old enough that its end-of-life warning is sounding (a new battery can't stop that), it is holding leftover charge and needs a reset, the battery isn't seated or the drawer isn't fully closed, or the chirp is coming from a different alarm than the one you changed. Check the manufacture date first. If the alarm is 10 years old or more, replace the whole unit.",
+  "consensus": [
+    "A single chirp every 30 to 60 seconds means a low battery",
+    "Make sure the new battery is installed correctly and the door is closed",
+    "Reset the alarm by holding the test button with the battery out",
+    "Smoke alarms should be replaced after 10 years",
+    "If it keeps chirping after a new battery, the alarm may need replacing"
+  ],
+  "gaps": [
+    "Most top results are thin content-farm pages. NFPA's own tip sheet is plainer than they are: chirping that continues after the battery has been replaced means the alarm is at the end of its life and the unit must be replaced. A reset only helps the leftover-charge case. First Alert says a reset will not fix end-of-life warnings or alarms that have reached the end of their usable service life.",
+    "The 10 years is counted from the manufacture date printed on the back, not from the day you installed it (USFA). An alarm bought on clearance or installed a few years after it was made reaches 10 years sooner than the owner thinks. First Alert says to replace it immediately if the label is missing or unreadable.",
+    "Sealed 10-year alarms can't take a new battery at all. Kidde says sealed-battery models chirp every 30 seconds at end of life. USFA says to replace sealed lithium-ion units according to the manufacturer's instructions.",
+    "Hush mode sounds like a low battery. On Kidde models with Hush, the alarm chirps every 30–40 seconds for about seven minutes after Hush is pressed, the same interval as Kidde's low-battery chirp. Someone who pressed the button to stop the chirp can mistake this for the battery still being low.",
+    "Combination smoke/CO alarms have their own clock. Kidde says its CO alarms start chirping every 30 seconds seven years after first power-up, the chirp won't stop until the unit is powered off, and the alarm no longer responds to carbon monoxide in that state.",
+    "Hardwired alarms need a different reset: First Alert says to turn off the breaker and remove both AC power and the backup battery before holding the Test button. USFA says the backup battery in hardwired alarms needs replacing at least once a year, and only qualified electricians should install hardwired alarms.",
+    "Middle-of-the-night chirps have a mechanism. Kidde says a battery nearing the end of its life has internal resistance that rises as the room cools, most homes are coolest between 2 a.m. and 6 a.m., and the chirp may stop when the home warms a few degrees. Its alarms are designed for 40–100°F, and cold below that can trigger a low-battery chirp. A night chirp that stopped by morning still means a battery change.",
+    "A malfunction looks different from a low battery on Kidde smoke alarms: the chirp comes between flashes of the red LED. Kidde says to hold Test for at least two seconds, and if it doesn't sound, the unit likely has a defective battery or other failure."
+  ],
+  "evidence": [
+    {
+      "claim": "NFPA's meaning of chirps, and what continued chirping after a new battery means",
+      "detail": "A single chirp every 30 or 60 seconds means the battery is low and must be changed. All smoke alarms must be replaced after 10 years. Chirping that continues after the battery has been replaced means the alarm is at the end of its life and the unit must be replaced. CO alarms: a single chirp every 30 or 60 seconds means low battery; CO alarms also have end-of-life sounds that vary by manufacturer. A continued set of three loud beeps means smoke or fire; four loud beeps means carbon monoxide. Get out, call 9-1-1, stay out. (NFPA Fire Prevention Week 2021 'Learn the Sounds' tip sheet, as republished by Windsor Fire)",
+      "source_url": "https://www.windsorfire.com/wp-content/uploads/FPW21-Theme-Safety-Tip-Sheet.pdf",
+      "source_title": "Learn the Sounds of Fire Safety tip sheet (NFPA, Fire Prevention Week 2021)"
+    },
+    {
+      "claim": "Replacement is counted from the manufacture date; battery replacement intervals by alarm type",
+      "detail": "Smoke alarms need to be replaced 10 years from the manufacture date. 9-volt alarms: replace the batteries at least once every year; replace the entire alarm every 10 years. Hardwired alarms usually have a backup battery; replace it at least once every year; replace the entire alarm every 10 years. 10-year lithium-ion ('long-life') alarms: nonreplaceable battery; replace the entire alarm according to the manufacturer's instructions. Test monthly.",
+      "source_url": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/",
+      "source_title": "Smoke alarms (U.S. Fire Administration)"
+    },
+    {
+      "claim": "Don't disable the alarm; hardwired installs are for electricians",
+      "detail": "A smoke alarm with a dead or missing battery is the same as having no smoke alarm at all. Disabling a smoke alarm or removing the battery can be a deadly mistake. Only qualified electricians should install hardwired smoke alarms.",
+      "source_url": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/",
+      "source_title": "Smoke alarms (U.S. Fire Administration)"
+    },
+    {
+      "claim": "Kidde chirp meanings for smoke alarms",
+      "detail": "Low battery: chirps every 30–40 seconds (every 60 seconds for some alarms) for a minimum of seven days; replace the battery, then test. Malfunction: the alarm chirps between flashes of the red LED; press and hold Test for at least two seconds; if it doesn't sound, the unit likely has a defective battery or other failure. Hush (models with Hush): chirps every 30–40 seconds for approximately seven minutes while Hush is active. End of life (sealed battery models only): chirps every 30 seconds to indicate it is time to replace the alarm.",
+      "source_url": "https://www.kidde.com/support/smoke-alarms/consistent-chirping-causes",
+      "source_title": "What Causes Consistent Chirping? (Kidde)"
+    },
+    {
+      "claim": "Kidde CO alarm end of life",
+      "detail": "Low battery on CO alarms: chirp once every 60 seconds. Seven years after initial power up, a Kidde CO alarm will begin chirping every 30 seconds. The chirp will not stop until the unit is powered off. The alarm will not respond to carbon monoxide in this condition.",
+      "source_url": "https://www.kidde.com/support/smoke-alarms/consistent-chirping-causes",
+      "source_title": "What Causes Consistent Chirping? (Kidde)"
+    },
+    {
+      "claim": "Why chirps start in the middle of the night",
+      "detail": "As a battery nears the end of its life, it has internal resistance; a drop in room temperature increases this resistance. Most homes are coolest between 2 a.m. and 6 a.m. The chirp may stop when the home warms up a few degrees. Kidde recommends replacing all smoke alarms, battery and hardwired, every 10 years. Its smoke and CO alarms perform between 40 and 100 degrees Fahrenheit.",
+      "source_url": "https://kidde.com/support/smoke-alarms/nighttime-alarm-chirps",
+      "source_title": "Why Do Smoke Alarms Always Chirp in the Middle of the Night? (Kidde)"
+    },
+    {
+      "claim": "Operating temperature range",
+      "detail": "Alarms are designed to perform optimally within 40 to 100 degrees Fahrenheit. Cold can weaken the battery and trigger a low-battery chirp. Kidde does not recommend operating the alarms at or outside these limits.",
+      "source_url": "https://kidde.com/support/smoke-alarms/temperature-effect-on-alarm",
+      "source_title": "Do Hot or Cold Temperatures Affect My Alarm? (Kidde)"
+    },
+    {
+      "claim": "First Alert reset procedure and its limits",
+      "detail": "If it still chirps, the unit could be at end-of-life; confirm the battery is installed correctly and the door is closed; replace the battery with a fresh recommended battery. Battery models: press and hold Test/Silence for 15 to 20 seconds (with the battery removed). Plug-in models: same hold after unplugging. Hardwired: turn off power at the breaker; on many hardwired models remove AC power and the backup battery before holding Test. A reset will not fix end-of-life warnings, physical damage, or alarms that have reached the end of their usable service life. If the alarm still chirps or fails testing after these steps, replacement may be the best solution. Signs replacement is needed: the warning returns immediately after a full reset and battery replacement, if it repeatedly fails testing, or if the sounder is weak or inconsistent.",
+      "source_url": "https://www.firstalertstore.com/store/product-support/how-to-reset-first-alert-smoke-or-co-alarms.htm",
+      "source_title": "How to Reset First Alert Smoke or CO Alarms (First Alert)"
+    },
+    {
+      "claim": "First Alert checklist for chirping after a battery change",
+      "detail": "Check the battery's positive and negative ends are aligned correctly. Confirm the battery drawer is snapped completely shut. Hold the Test button for 15 seconds while the battery is removed to discharge residual power. A fresh battery cannot fix an expired sensor. Replace the battery with the recommended type. Dust, insects, or debris inside the sensing chamber can cause chirps. Hardwired units: power surges, outages, or loose wiring. Most units signal for replacement after 10 years; find the manufacture date on the back label; if the label is missing or unreadable, replace the alarm immediately. Beep and light patterns vary by model.",
+      "source_url": "https://firstalertstore.com/store/product-support/why-is-my-smoke-alarm-chirping-beep-patterns.htm",
+      "source_title": "Why Is My Smoke Alarm Chirping? Beep Patterns (First Alert)"
+    },
+    {
+      "claim": "Dust and wiring as chirp causes",
+      "detail": "A buildup of dust or debris can sometimes trigger chirping; gently cleaning with a soft brush or compressed air may resolve this. For hardwired alarms, loose wiring could also be a potential cause. Three chirps per minute often point to a malfunction in a combination smoke and CO alarm, requiring immediate replacement.",
+      "source_url": "https://www.firstalertstore.com/store/news/first-alert-alarm-chirping-2025.htm",
+      "source_title": "First Alert Smoke Alarm Chirping? Here's What You Should Check (First Alert)"
+    }
+  ],
+  "real_questions": [
+    "I just put a brand-new battery in and it's still chirping. Is the new battery bad?",
+    "Why does it always start chirping at 3 a.m.?",
+    "My alarm is hardwired. Why does it chirp if it's connected to the house power?",
+    "How do I tell which alarm is chirping when they're all interconnected?",
+    "Can I just take the battery out until morning?",
+    "How old is my smoke alarm, and where is the date?"
+  ],
+  "original_asset": {
+    "type": "diagnostic_flow",
+    "spec": "A 'what the chirp is telling you' table: what you hear or see (interval, how long it lasts, LED) × alarm type → most likely cause → what to do, built from Kidde's intervals (low battery 30–40 s for at least 7 days; Hush 30–40 s for about 7 minutes; sealed end-of-life every 30 s; CO end-of-life every 30 s from year 7; malfunction chirp between red LED flashes), NFPA (continued chirping after a new battery = end of life) and First Alert reset steps. Plus an age check worked from the label: current year minus manufacture year, compared against USFA's 10 years from the manufacture date and Kidde's 7-year CO clock, with two example labels."
+  },
+  "cautions": [
+    "Never leave an alarm disabled or the battery out: USFA says a dead or missing battery is the same as having no alarm and removing it can be a deadly mistake. If the unit must come down, replace it the same day.",
+    "Three loud beeps (smoke) or four (CO) is not a chirp: get out and call 911 (NFPA).",
+    "Hardwired: turn off the breaker before removing the alarm from its bracket; USFA says only qualified electricians should install hardwired alarms, so replacement of a hardwired unit may need one.",
+    "A combo alarm at CO end of life no longer detects CO (Kidde) — replace, don't silence.",
+    "Reset hold times differ by brand (15 seconds vs 15–20 seconds); follow the model's manual.",
+    "Lithium-ion batteries in sealed alarms do not go in household trash (registry, EPA).",
+    "Don't present First Alert's '7 to 10 years' or 'every 6 months' battery advice as the standard; USFA says yearly battery and 10 years from manufacture."
+  ],
+  "sources": {
+    "https://www.windsorfire.com/wp-content/uploads/FPW21-Theme-Safety-Tip-Sheet.pdf": "Learn the Sounds of Fire Safety tip sheet (NFPA, Fire Prevention Week 2021)",
+    "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/": "Smoke alarms (U.S. Fire Administration)",
+    "https://www.kidde.com/support/smoke-alarms/consistent-chirping-causes": "What Causes Consistent Chirping? (Kidde)",
+    "https://kidde.com/support/smoke-alarms/nighttime-alarm-chirps": "Why Do Smoke Alarms Always Chirp in the Middle of the Night? (Kidde)",
+    "https://kidde.com/support/smoke-alarms/temperature-effect-on-alarm": "Do Hot or Cold Temperatures Affect My Alarm? (Kidde)",
+    "https://www.firstalertstore.com/store/product-support/how-to-reset-first-alert-smoke-or-co-alarms.htm": "How to Reset First Alert Smoke or CO Alarms (First Alert)",
+    "https://firstalertstore.com/store/product-support/why-is-my-smoke-alarm-chirping-beep-patterns.htm": "Why Is My Smoke Alarm Chirping? Beep Patterns (First Alert)",
+    "https://www.firstalertstore.com/store/news/first-alert-alarm-chirping-2025.htm": "First Alert Smoke Alarm Chirping? Here's What You Should Check (First Alert)"
+  }
+}

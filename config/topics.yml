@@ -564,7 +564,9 @@ topics:
   - 6
 - title: Why Does My Smoke Detector Chirp Even With a New Battery Installed?
   pillar: home-maintenance
-  status: pending
+  status: published
+  published_slug: smoke-detector-chirping-new-battery
+  written_by: claude-code
 - title: Why Do My Kitchen Drawers Always End Up as Junk Drawers Again?
   pillar: cleaning-organization
   status: published

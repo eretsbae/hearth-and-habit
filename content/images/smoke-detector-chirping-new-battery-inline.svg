@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+  <text x="600" y="80" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="bold" fill="#2E2A24">Still chirping after a new battery?</text>
+  <!-- step 1 -->
+  <rect x="400" y="120" width="400" height="80" rx="16" fill="#E4C7B2"/>
+  <text x="600" y="171" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#2E2A24">Check date on back</text>
+  <!-- arrows -->
+  <path d="M520 200 L300 280" stroke="#2E2A24" stroke-width="4" fill="none"/>
+  <polygon points="300,280 316,264 322,282" fill="#2E2A24"/>
+  <path d="M680 200 L900 280" stroke="#2E2A24" stroke-width="4" fill="none"/>
+  <polygon points="900,280 878,282 884,264" fill="#2E2A24"/>
+  <!-- left branch -->
+  <rect x="80" y="290" width="440" height="90" rx="16" fill="#B85C38"/>
+  <text x="300" y="347" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#F6EFE6">10+ years: replace unit</text>
+  <!-- right branch -->
+  <rect x="680" y="290" width="440" height="90" rx="16" fill="#5C6E58"/>
+  <text x="900" y="347" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#F6EFE6">Under 10: reseat battery</text>
+  <path d="M900 380 L900 425" stroke="#2E2A24" stroke-width="4" fill="none"/>
+  <polygon points="900,440 888,420 912,420" fill="#2E2A24"/>
+  <rect x="680" y="445" width="440" height="70" rx="16" fill="#D9A441"/>
+  <text x="900" y="490" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Reset: battery out, hold Test</text>
+  <path d="M680 480 L540 540" stroke="#2E2A24" stroke-width="4" fill="none"/>
+  <polygon points="526,546 542,530 548,548" fill="#2E2A24"/>
+  <rect x="80" y="520" width="440" height="70" rx="16" fill="#B85C38"/>
+  <text x="300" y="565" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#F6EFE6">Still chirps: replace unit</text>
+</svg>

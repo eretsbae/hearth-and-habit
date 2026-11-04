@@ -53,13 +53,13 @@ Run the same count on your own pile. If one group is more than half, you have a 
 
 Group A clutter gathers where things stop moving: by the door, on the kitchen counter, in one drawer. Each item needs one specific address, picked where you actually use it, not where it looks tidiest. Mail gets a tray or a slot by where you open it. Chargers get one spot near an outlet. Keys, wallet, and bag get one landing place by the door you really use.
 
-Then keep the address working with the [one-touch rule](https://www.hearth-habit.com/2026/07/the-one-touch-rule-single-habit-that.html). When you pick something up, take it all the way home instead of setting it down "for now."
+Then keep the address working with the one-touch rule. When you pick something up, take it all the way home instead of setting it down "for now."
 
 Old batteries often turn up in this pile. Keep lithium-ion and button or coin batteries out of the household trash, since the EPA flags them as a fire hazard. Tape the terminals and take them to a battery drop-off.
 
 ## If the homes are full (Group B)
 
-No system fits more than the storage holds. If Group B wins, reduce the volume of that one home: the stuffed cabinet, the closet, the overflowing drawer. Don't start on the whole house. If starting is the hard part, [begin with a single drawer](https://www.hearth-habit.com/2026/07/how-to-declutter-when-youre-overwhelmed.html) and finish it before moving on.
+No system fits more than the storage holds. If Group B wins, reduce the volume of that one home: the stuffed cabinet, the closet, the overflowing drawer. Don't start on the whole house. If starting is the hard part, begin with a single drawer and finish it before moving on.
 
 If you plan to donate and deduct, know the IRS rule first. You can't deduct donated clothing or household items unless they're in "good used condition or better." The one exception is a single item you deduct more than $500 for, which needs a qualified appraisal and Form 8283, Section B. The IRS counts furniture, electronics, appliances, and linens as household items. Outside that exception, worn-out items you were planning to write off don't qualify.
 

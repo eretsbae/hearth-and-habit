@@ -62,10 +62,10 @@ For a dehumidifier to work, keep the doors and windows to that space closed. Set
 EPA says mold may be hidden on the back side of drywall, wallpaper, or paneling, on top of ceiling tiles, under carpet pads, around pipes, inside walls, and in ductwork. MDH adds the spaces under vinyl flooring and inside sink cabinets. Here's how that maps onto a room-by-room search:
 
 - **Kitchen and bathrooms:** inside the sink cabinets, especially the back wall and floor of the cabinet, and around the supply and drain pipes.
-- **Closets:** the floor and back corners, especially on an exterior wall or one shared with a bathroom. Our [musty closet guide](https://www.hearth-habit.com/2026/09/why-does-my-closet-smell-musty-even.html) covers emptying, drying, and airing the space.
-- **Basement:** cool concrete walls, carpet and pad laid over concrete, and any spot that darkens after rain. If the smell peaks on muggy days instead of after storms, humidity is more likely than a leak. The [summer basement checklist](https://www.hearth-habit.com/2026/09/why-does-my-basement-smell-musty-only.html) shows how to tell them apart.
-- **Ceilings:** stains or old water marks, with ceiling tiles checked from above. A [yellow-brown ceiling stain](https://www.hearth-habit.com/2026/09/yellow-brown-ceiling-stain-with-no.html) can mean wet material above it.
-- **Appliances that hold water:** the washer's door gasket and detergent drawer, the dishwasher filter, and the fridge's door gasket and drip pan. If laundry comes out musty, [the washer is often the source](https://www.hearth-habit.com/2026/09/why-does-my-laundry-still-smell-musty.html). A fridge smell tells you where to clean, not whether food is safe. Food safety is judged by time and temperature.
+- **Closets:** the floor and back corners, especially on an exterior wall or one shared with a bathroom.
+- **Basement:** cool concrete walls, carpet and pad laid over concrete, and any spot that darkens after rain. If the smell peaks on muggy days instead of after storms, humidity is more likely than a leak.
+- **Ceilings:** stains or old water marks, with ceiling tiles checked from above. A yellow-brown ceiling stain can mean wet material above it.
+- **Appliances that hold water:** the washer's door gasket and detergent drawer, the dishwasher filter, and the fridge's door gasket and drip pan. If laundry comes out musty, the washer is often the source. A fridge smell tells you where to clean, not whether food is safe. Food safety is judged by time and temperature.
 - **Towels:** a towel reused while still damp sours quickly. Hang towels spread out rather than bunched on a hook.
 
 **Don't peel or pry to look.** EPA warns that removing wallpaper over suspected growth can release a massive amount of spores. If the smell points inside a wall or under flooring, that's a job for a professional.

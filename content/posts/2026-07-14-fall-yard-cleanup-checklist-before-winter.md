@@ -42,8 +42,8 @@ Clogged gutters overflow at the corners and send roof water straight down the fo
 The Insurance Institute for Business & Home Safety (IBHS) lists clearing gutters and downspouts among its winter-readiness steps.
 
 - **Timing:** after most leaves have dropped, so you do it once.
-- **Check:** run a hose in each gutter and watch where the water ends up, not just whether it flows. A downspout emptying at the base of the house is a bigger problem than a half-full gutter. It's also a common reason for [water pooling in one spot of the yard](https://www.hearth-habit.com/2026/08/why-does-water-pool-in-one-spot-in-my.html).
-- **Guards:** they shorten the job but don't remove it. Here's [what guarded gutters still need](https://www.hearth-habit.com/2026/08/do-you-still-need-to-clean-gutters-if.html).
+- **Check:** run a hose in each gutter and watch where the water ends up, not just whether it flows. A downspout emptying at the base of the house is a bigger problem than a half-full gutter. It's also a common reason for water pooling in one spot of the yard.
+- **Guards:** they shorten the job but don't remove it. Guarded gutters still need the hose check above.
 - **Ladder limit:** second-story gutters or a steep roofline are worth paying for.
 
 Clean gutters won't stop ice dams. The University of Minnesota Extension explains that ice dams form when heat escaping into the attic melts roof snow, which refreezes at the colder eaves. The fix is attic air sealing, insulation, and ventilation.

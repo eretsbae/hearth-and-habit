@@ -87,7 +87,7 @@ Whichever you choose, judge doneness by temperature, not by look, smell or the c
 
 ## Gas ovens
 
-Whirlpool's preheat page above covers its ranges, and its voltage note applies to electric ones. A gas oven also has to heat its empty cavity, so the rack, door, and foil habits are worth trying there too. To price a preheat, you need the burner's rating from the manual and the gas rate on your bill. The sources here don't give gas preheat times, so time your own oven once. If your gas bill jumped this winter, see [why a gas bill climbs without a thermostat change](https://www.hearth-habit.com/2026/10/gas-bill-higher-this-winter-without.html).
+Whirlpool's preheat page above covers its ranges, and its voltage note applies to electric ones. A gas oven also has to heat its empty cavity, so the rack, door, and foil habits are worth trying there too. To price a preheat, you need the burner's rating from the manual and the gas rate on your bill. The sources here don't give gas preheat times, so time your own oven once.
 
 ## FAQ
 

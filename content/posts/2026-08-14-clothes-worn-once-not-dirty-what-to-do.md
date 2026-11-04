@@ -89,7 +89,7 @@ The problem with tucking worn clothes away is what they attract.
 
 The extension advice is aimed at storage: a sweater folded into a bin for the summer, not one on a hook you'll empty this week. Mississippi State says to clean susceptible clothing before storing it. USU adds that storage should be clean and airtight.
 
-**Damp.** Anything that goes back in the closet should be fully dry, because moisture is what mold needs. EPA advises keeping indoor relative humidity below 60%, ideally 30 to 50%, to limit mold. If yours already smells, start with [why a closet smells musty even when everything looks clean](https://www.hearth-habit.com/2026/09/why-does-my-closet-smell-musty-even.html).
+**Damp.** Anything that goes back in the closet should be fully dry, because moisture is what mold needs. EPA advises keeping indoor relative humidity below 60%, ideally 30 to 50%, to limit mold.
 
 ## Set up the airing spot so it doesn't become the chair
 
@@ -103,13 +103,13 @@ The chair pile forms because a worn item has no assigned place, so it lands on w
 4. **Empty it once a week.** Fold this into your [15-minute weekly home reset](https://www.hearth-habit.com/2026/07/the-15-minute-weekly-home-reset-simple.html). Anything still on the hook after a week either goes back in the closet or into the hamper.
 5. **Hamper first for these:** anything polyester you sweated in, anything with a food or drink spot, and wool or silk headed into storage.
 
-Deciding once where things go is the same idea as [the one-touch rule](https://www.hearth-habit.com/2026/07/the-one-touch-rule-single-habit-that.html), applied to the gray zone between closet and hamper.
+Deciding once where things go is the same idea as handling an item only once, applied to the gray zone between closet and hamper.
 
 ## FAQ
 
 ### My clothes still smell after washing. Is that the same problem?
 
-Not quite. Polyester holding onto body odor can be part of it; the Alberta research found it held odor longer than wool or nylon. A washer that leaves clothes smelling musty is a different issue, covered in [why laundry still smells musty after a full wash](https://www.hearth-habit.com/2026/09/why-does-my-laundry-still-smell-musty.html).
+Not quite. Polyester holding onto body odor can be part of it; the Alberta research found it held odor longer than wool or nylon. A washer that leaves clothes smelling musty is a different issue.
 
 ### Does a fabric refresher spray count as a wash?
 

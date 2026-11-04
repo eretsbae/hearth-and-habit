@@ -79,7 +79,7 @@ Daily care that keeps you out of this situation, per Lodge:
 
 If other people in the house load the dishwasher, a sticky note on the pan or a dedicated spot on the stove, away from the sink, can work better than a house rule nobody remembers.
 
-The same hand-wash-only habit protects wooden boards, which [warp after a long soak or a hot cycle](https://www.hearth-habit.com/2026/09/why-does-my-cutting-board-warp-after.html). For everything that does belong in the machine, these [loading fixes](https://www.hearth-habit.com/2026/07/your-dishwasher-is-probably-loaded.html) get it clean the first time. If the dishwasher itself has started to smell, see [why it smells even after an empty run](https://www.hearth-habit.com/2026/08/why-does-my-dishwasher-smell-even-after.html).
+The same hand-wash-only habit protects wooden boards, which warp after a long soak or a hot cycle. For everything that does belong in the machine, these loading fixes get it clean the first time. If the dishwasher itself has started to smell, see [why it smells even after an empty run](https://www.hearth-habit.com/2026/08/why-does-my-dishwasher-smell-even-after.html).
 
 ## FAQ
 

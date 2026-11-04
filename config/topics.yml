@@ -25,12 +25,13 @@ topics:
   pinterest_pin_id: manual
 - title: The 10 Home Maintenance Tasks Most People Forget (Seasonal Checklist)
   pillar: home-maintenance
-  status: published
+  status: drafted
   published_slug: forgotten-home-maintenance-tasks-seasonal-checklist
   quality_score: 82
-  blogger_url: https://www.hearth-habit.com/2026/07/10-home-maintenance-tasks-most-people.html
+  drafted_url: https://www.hearth-habit.com/2026/07/10-home-maintenance-tasks-most-people.html
   blogger_post_id: '880409074145836535'
   pinterest_pin_id: manual
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: How to Fix a Running Toilet in 15 Minutes Without Calling a Plumber
   pillar: home-maintenance
   status: published
@@ -56,20 +57,22 @@ topics:
   pinterest_pin_id: manual
 - title: 'The One-Touch Rule: The Single Habit That Ends Clutter Pile-Up'
   pillar: cleaning-organization
-  status: published
+  status: drafted
   published_slug: one-touch-rule-clutter
   quality_score: 84
-  blogger_url: https://www.hearth-habit.com/2026/07/the-one-touch-rule-single-habit-that.html
+  drafted_url: https://www.hearth-habit.com/2026/07/the-one-touch-rule-single-habit-that.html
   blogger_post_id: '6145450311814424002'
   pinterest_pin_id: manual
+  draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
 - title: 'How to Declutter When You''re Overwhelmed: Start With One Drawer'
   pillar: cleaning-organization
-  status: published
+  status: drafted
   published_slug: declutter-when-overwhelmed-start-one-drawer
   quality_score: 84
-  blogger_url: https://www.hearth-habit.com/2026/07/how-to-declutter-when-youre-overwhelmed.html
+  drafted_url: https://www.hearth-habit.com/2026/07/how-to-declutter-when-youre-overwhelmed.html
   blogger_post_id: '6224473847764059253'
   pinterest_pin_id: manual
+  draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
 - title: Cleaning Supplies You Actually Need (and 10 You Can Skip)
   pillar: cleaning-organization
   status: published
@@ -103,28 +106,31 @@ topics:
   pinterest_pin_id: manual
 - title: The 30-Minute Sunday Meal Plan That Ends the 'What's for Dinner?' Spiral
   pillar: kitchen-habits
-  status: published
+  status: drafted
   published_slug: 30-minute-sunday-meal-plan
   quality_score: 82
-  blogger_url: https://www.hearth-habit.com/2026/07/the-30-minute-sunday-meal-plan-that.html
+  drafted_url: https://www.hearth-habit.com/2026/07/the-30-minute-sunday-meal-plan-that.html
   blogger_post_id: '2188836539659591013'
   pinterest_pin_id: manual
+  draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
 - title: 'How to Store Produce So It Actually Lasts: A Fridge Map'
   pillar: kitchen-habits
-  status: published
+  status: drafted
   published_slug: how-to-store-produce-fridge-map
   quality_score: 84
-  blogger_url: https://www.hearth-habit.com/2026/07/how-to-store-produce-so-it-actually.html
+  drafted_url: https://www.hearth-habit.com/2026/07/how-to-store-produce-so-it-actually.html
   blogger_post_id: '8989987011885463449'
   pinterest_pin_id: manual
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: 'Your Dishwasher Is Probably Loaded Wrong: The Method That Gets Everything Clean'
   pillar: kitchen-habits
-  status: published
+  status: drafted
   published_slug: dishwasher-loading-mistakes-troubleshooting
   quality_score: 85
-  blogger_url: https://www.hearth-habit.com/2026/07/your-dishwasher-is-probably-loaded.html
+  drafted_url: https://www.hearth-habit.com/2026/07/your-dishwasher-is-probably-loaded.html
   blogger_post_id: '3375765176388233441'
   pinterest_pin_id: manual
+  draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
 - title: 'Lawn Care for People Who Don''t Care About Lawns: The Bare Minimum That Looks Good'
   pillar: yard-outdoor
   status: published
@@ -147,7 +153,7 @@ topics:
   pinterest_pin_id: manual
 - title: Mosquito Control That Actually Works (and the Gimmicks That Don't)
   pillar: yard-outdoor
-  status: published
+  status: drafted
   season_months:
   - 4
   - 5
@@ -155,25 +161,28 @@ topics:
   - 7
   published_slug: mosquito-control-that-actually-works
   quality_score: 85
-  blogger_url: https://www.hearth-habit.com/2026/07/mosquito-control-that-actually-works.html
+  drafted_url: https://www.hearth-habit.com/2026/07/mosquito-control-that-actually-works.html
   blogger_post_id: '3522779672896905417'
   pinterest_pin_id: manual
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: Why Does My Toilet Run for a Few Seconds Then Stop on Its Own?
   pillar: home-maintenance
-  status: published
+  status: drafted
   published_slug: toilet-runs-few-seconds-then-stops
   quality_score: 82
-  blogger_url: https://www.hearth-habit.com/2026/07/why-does-my-toilet-run-for-few-seconds.html
+  drafted_url: https://www.hearth-habit.com/2026/07/why-does-my-toilet-run-for-few-seconds.html
   blogger_post_id: '4804160931433309712'
   pinterest_pin_id: manual
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: Is It Normal for a Water Heater to Make a Popping or Rumbling Sound?
   pillar: home-maintenance
-  status: published
+  status: drafted
   published_slug: water-heater-popping-rumbling-sound
   quality_score: 84
-  blogger_url: https://www.hearth-habit.com/2026/08/water-heater-popping-or-rumbling-heres.html
+  drafted_url: https://www.hearth-habit.com/2026/08/water-heater-popping-or-rumbling-heres.html
   blogger_post_id: '523214778718667147'
   pinterest_pin_id: manual
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: Why Is One Room in My House Always Colder Than the Rest?
   pillar: home-maintenance
   status: published
@@ -209,12 +218,13 @@ topics:
   pinterest_pin_id: manual
 - title: Why Do My Pipes Make a Banging Noise When I Turn Off the Faucet?
   pillar: home-maintenance
-  status: published
+  status: drafted
   published_slug: pipes-banging-noise-turn-off-faucet
   quality_score: 84
-  blogger_url: https://www.hearth-habit.com/2026/08/why-do-my-pipes-bang-when-i-turn-off.html
+  drafted_url: https://www.hearth-habit.com/2026/08/why-do-my-pipes-bang-when-i-turn-off.html
   blogger_post_id: '5355884231715672604'
   pinterest_pin_id: manual
+  draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
 - title: How Do I Know If a Repair Is Actually Worth Calling a Pro For?
   pillar: home-maintenance
   status: published
@@ -238,12 +248,13 @@ topics:
   pinterest_pin_id: '1132796112560753619'
 - title: How Often Should You Really Wash Bath Towels Before They Smell?
   pillar: cleaning-organization
-  status: published
+  status: drafted
   published_slug: how-often-wash-bath-towels
   quality_score: 82
-  blogger_url: https://www.hearth-habit.com/2026/08/how-often-should-you-really-wash-bath.html
+  drafted_url: https://www.hearth-habit.com/2026/08/how-often-should-you-really-wash-bath.html
   blogger_post_id: '4976012345012102284'
   pinterest_pin_id: manual
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: Why Does My Dishwasher Smell Even After I Run It Empty?
   pillar: cleaning-organization
   status: published
@@ -262,12 +273,13 @@ topics:
   pinterest_pin_id: manual
 - title: How Do You Get Rid of Things You Spent Good Money On?
   pillar: cleaning-organization
-  status: published
+  status: drafted
   published_slug: get-rid-of-things-you-spent-money-on
   quality_score: 82
-  blogger_url: https://www.hearth-habit.com/2026/08/how-to-get-rid-of-things-you-spent-good.html
+  drafted_url: https://www.hearth-habit.com/2026/08/how-to-get-rid-of-things-you-spent-good.html
   blogger_post_id: '3807829291445731801'
   pinterest_pin_id: manual
+  draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
 - title: Why Does My House Get Messy Again Two Days After I Clean It?
   pillar: cleaning-organization
   status: published
@@ -331,12 +343,13 @@ topics:
   pinterest_pin_id: '1132796112560160087'
 - title: Does Closing Vents in Unused Rooms Save Energy or Cost More?
   pillar: energy-savings
-  status: published
+  status: drafted
   published_slug: closing-vents-unused-rooms-energy
   quality_score: 84
-  blogger_url: https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html
+  drafted_url: https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html
   blogger_post_id: '552547310808485878'
   pinterest_pin_id: manual
+  draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
 - title: Which Appliance in My House Is Quietly Using the Most Electricity?
   pillar: energy-savings
   status: published
@@ -399,12 +412,13 @@ topics:
   pinterest_pin_id: manual
 - title: Why Are Mushrooms Suddenly Growing All Over My Lawn After Rain?
   pillar: yard-outdoor
-  status: published
+  status: drafted
   published_slug: mushrooms-growing-in-lawn-after-rain
   quality_score: 84
-  blogger_url: https://www.hearth-habit.com/2026/08/why-are-mushrooms-suddenly-growing-all.html
+  drafted_url: https://www.hearth-habit.com/2026/08/why-are-mushrooms-suddenly-growing-all.html
   blogger_post_id: '2473422950160080775'
   pinterest_pin_id: manual
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: How Late in the Fall Can You Still Seed Grass and Have It Take?
   pillar: yard-outdoor
   status: published
@@ -419,24 +433,26 @@ topics:
   pinterest_pin_id: manual
 - title: Do You Still Need to Clean Gutters If You Have Gutter Guards?
   pillar: yard-outdoor
-  status: published
+  status: drafted
   season_months:
   - 9
   - 10
   - 11
   published_slug: do-you-need-to-clean-gutters-with-gutter-guards
   quality_score: 84
-  blogger_url: https://www.hearth-habit.com/2026/08/do-you-still-need-to-clean-gutters-if.html
+  drafted_url: https://www.hearth-habit.com/2026/08/do-you-still-need-to-clean-gutters-if.html
   blogger_post_id: '1413287008714781218'
   pinterest_pin_id: manual
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: Why Does Water Pool in One Spot in My Yard Every Time It Rains?
   pillar: yard-outdoor
-  status: published
+  status: drafted
   published_slug: why-does-water-pool-in-one-spot-in-yard
   quality_score: 82
-  blogger_url: https://www.hearth-habit.com/2026/08/why-does-water-pool-in-one-spot-in-my.html
+  drafted_url: https://www.hearth-habit.com/2026/08/why-does-water-pool-in-one-spot-in-my.html
   blogger_post_id: '4661519540843224160'
   pinterest_pin_id: manual
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: Why Does Part of My Lawn Stay Brown Even Though I Water It?
   pillar: yard-outdoor
   status: published
@@ -451,13 +467,14 @@ topics:
   pinterest_pin_id: manual
 - title: Why Does My Deck Feel Spongy in Some Spots But Not Others?
   pillar: yard-outdoor
-  status: published
+  status: drafted
   published_slug: deck-feels-spongy-in-spots
   quality_score: 85
-  blogger_url: https://www.hearth-habit.com/2026/09/why-does-my-deck-feel-spongy-in-some.html
+  drafted_url: https://www.hearth-habit.com/2026/09/why-does-my-deck-feel-spongy-in-some.html
   blogger_post_id: '1824543489022940150'
   pinterest_pin_id: manual
   pinterest_batch: pins09
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: Why Does My Garbage Disposal Hum But Not Spin?
   pillar: home-maintenance
   status: published
@@ -469,40 +486,44 @@ topics:
   pinterest_pin_id: manual
 - title: Is It Normal for a New LED Bulb to Flicker With a Dimmer Switch?
   pillar: home-maintenance
-  status: published
+  status: drafted
   published_slug: led-bulb-flickering-dimmer-switch
   quality_score: 84
-  blogger_url: https://www.hearth-habit.com/2026/09/is-it-normal-for-new-led-bulb-to.html
+  drafted_url: https://www.hearth-habit.com/2026/09/is-it-normal-for-new-led-bulb-to.html
   blogger_post_id: '3133183491112944067'
   pinterest_batch: pins11
   pinterest_pin_id: manual
+  draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
 - title: Why Does My Basement Smell Musty Only in the Summer?
   pillar: home-maintenance
-  status: published
+  status: drafted
   published_slug: why-basement-smells-musty-in-summer
   quality_score: 84
-  blogger_url: https://www.hearth-habit.com/2026/09/why-does-my-basement-smell-musty-only.html
+  drafted_url: https://www.hearth-habit.com/2026/09/why-does-my-basement-smell-musty-only.html
   blogger_post_id: '8007787295530798000'
   pinterest_batch: pins13
   pinterest_pin_id: manual
+  draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
 - title: Why Does My Onion and Garlic Storage Keep Sprouting Indoors?
   pillar: kitchen-habits
-  status: published
+  status: drafted
   published_slug: why-onions-garlic-sprout-indoors
   quality_score: 84
-  blogger_url: https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html
+  drafted_url: https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html
   blogger_post_id: '2932230788507467073'
   pinterest_pin_id: manual
   pinterest_batch: pins09
+  draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
 - title: Why Does My Cutting Board Warp After Washing It?
   pillar: kitchen-habits
-  status: published
+  status: drafted
   published_slug: why-does-cutting-board-warp-after-washing
   quality_score: 84
-  blogger_url: https://www.hearth-habit.com/2026/09/why-does-my-cutting-board-warp-after.html
+  drafted_url: https://www.hearth-habit.com/2026/09/why-does-my-cutting-board-warp-after.html
   blogger_post_id: '5935207484200728519'
   pinterest_batch: pins10
   pinterest_pin_id: manual
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: Is It Cheaper to Air-Dry Dishes or Use the Dishwasher's Heated Dry?
   pillar: energy-savings
   status: published
@@ -514,13 +535,14 @@ topics:
   pinterest_pin_id: manual
 - title: Why Does My Closet Smell Musty Even Though Everything Looks Clean?
   pillar: cleaning-organization
-  status: published
+  status: drafted
   published_slug: why-does-my-closet-smell-musty
   quality_score: 82
-  blogger_url: https://www.hearth-habit.com/2026/09/why-does-my-closet-smell-musty-even.html
+  drafted_url: https://www.hearth-habit.com/2026/09/why-does-my-closet-smell-musty-even.html
   blogger_post_id: '3452985446076300314'
   pinterest_batch: pins11
   pinterest_pin_id: manual
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: Why Do I Keep Losing the Same 15 Minutes to Finding Things Before I Leave the House?
   pillar: cleaning-organization
   status: published
@@ -541,13 +563,14 @@ topics:
   pinterest_pin_id: manual
 - title: Why Does My Ceiling Have a Yellow-Brown Stain but No Active Leak?
   pillar: home-maintenance
-  status: published
+  status: drafted
   published_slug: yellow-brown-ceiling-stain-no-active-leak
   quality_score: 84
-  blogger_url: https://www.hearth-habit.com/2026/09/yellow-brown-ceiling-stain-with-no.html
+  drafted_url: https://www.hearth-habit.com/2026/09/yellow-brown-ceiling-stain-with-no.html
   blogger_post_id: '7817794298991265014'
   pinterest_batch: pins13
   pinterest_pin_id: manual
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: Why Does My Circuit Breaker Trip Only When Two Specific Appliances Run Together?
   pillar: home-maintenance
   status: published
@@ -564,31 +587,34 @@ topics:
   - 6
 - title: Why Does My Smoke Detector Chirp Even With a New Battery Installed?
   pillar: home-maintenance
-  status: published
+  status: drafted
   published_slug: smoke-detector-chirping-new-battery
   written_by: claude-code
-  blogger_url: https://www.hearth-habit.com/2026/11/why-does-my-smoke-detector-chirp-even.html
+  drafted_url: https://www.hearth-habit.com/2026/11/why-does-my-smoke-detector-chirp-even.html
   blogger_post_id: '4023978401890873781'
   pinterest_pin_id: '1132796112562930824'
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: Why Do My Kitchen Drawers Always End Up as Junk Drawers Again?
   pillar: cleaning-organization
-  status: published
+  status: drafted
   published_slug: why-kitchen-drawers-become-junk-drawers
   quality_score: 79
-  blogger_url: https://www.hearth-habit.com/2026/09/why-do-my-kitchen-drawers-always-end-up.html
+  drafted_url: https://www.hearth-habit.com/2026/09/why-do-my-kitchen-drawers-always-end-up.html
   blogger_post_id: '3175543942789392710'
   pinterest_batch: pins13
   pinterest_pin_id: manual
+  draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
 - title: Why Does My Laundry Still Smell Musty After a Full Wash Cycle?
   pillar: cleaning-organization
-  status: published
+  status: drafted
   published_slug: laundry-smells-musty-after-wash-cycle
   quality_score: 82
-  blogger_url: https://www.hearth-habit.com/2026/09/why-does-my-laundry-still-smell-musty.html
+  drafted_url: https://www.hearth-habit.com/2026/09/why-does-my-laundry-still-smell-musty.html
   blogger_post_id: '1155075927943709904'
   pinterest_batch: pins14
   pinterest_pin_id: manual
   pinterest_bulk_pin_id: '1132796112559991968'
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: Is It Cheaper to Preheat the Oven or Skip It for Weeknight Meals?
   pillar: energy-savings
   status: published
@@ -618,13 +644,14 @@ topics:
   pinterest_pin_id: manual
 - title: Why Does My Hydrangea Bloom Great One Year and Barely Flower the Next?
   pillar: yard-outdoor
-  status: published
+  status: drafted
   published_slug: hydrangea-bloom-one-year-not-next
   quality_score: 85
-  blogger_url: https://www.hearth-habit.com/2026/09/why-does-my-hydrangea-bloom-great-one.html
+  drafted_url: https://www.hearth-habit.com/2026/09/why-does-my-hydrangea-bloom-great-one.html
   blogger_post_id: '2586986532845632118'
   pinterest_batch: pins12
   pinterest_pin_id: manual
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: Why Does My Furnace Smell Like Burning Dust the First Time I Turn It On?
   pillar: home-maintenance
   status: published
@@ -663,27 +690,29 @@ topics:
   pinterest_pin_id: '1132796112560581008'
 - title: How Do You Store Summer Clothes So They Don't Smell or Yellow by Spring?
   pillar: cleaning-organization
-  status: published
+  status: drafted
   season_months:
   - 9
   - 10
   published_slug: how-to-store-summer-clothes-smell-yellowing
   written_by: claude-code
-  blogger_url: https://www.hearth-habit.com/2026/10/how-do-you-store-summer-clothes-so-they.html
+  drafted_url: https://www.hearth-habit.com/2026/10/how-do-you-store-summer-clothes-so-they.html
   blogger_post_id: '269253456707077636'
   pinterest_pin_id: '1132796112562006697'
+  draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
 - title: Why Is My Gas Bill Higher This Winter When I Haven't Touched the Thermostat?
   pillar: energy-savings
-  status: published
+  status: drafted
   season_months:
   - 11
   - 12
   - 1
   published_slug: gas-bill-higher-this-winter-checklist
   quality_score: 82
-  blogger_url: https://www.hearth-habit.com/2026/10/gas-bill-higher-this-winter-without.html
+  drafted_url: https://www.hearth-habit.com/2026/10/gas-bill-higher-this-winter-without.html
   blogger_post_id: '3228651333799588881'
   pinterest_pin_id: '1132796112560497438'
+  draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
 - title: Musty Smell in the House? How to Find the Source, Room by Room
   pillar: cleaning-organization
   status: published
@@ -733,15 +762,16 @@ topics:
   pinterest_pin_id: '1132796112561177405'
 - title: How Low Should You Mow Grass on the Last Cut Before Winter?
   pillar: yard-outdoor
-  status: published
+  status: drafted
   season_months:
   - 10
   - 11
   published_slug: last-mow-height-before-winter
   written_by: claude-code
-  blogger_url: https://www.hearth-habit.com/2026/10/how-low-should-you-mow-grass-on-last.html
+  drafted_url: https://www.hearth-habit.com/2026/10/how-low-should-you-mow-grass-on-last.html
   blogger_post_id: '2616706771269922025'
   pinterest_pin_id: '1132796112561358340'
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: Why Does Moss Keep Taking Over the Shady Part of My Lawn?
   pillar: yard-outdoor
   status: pending
@@ -791,15 +821,16 @@ topics:
   pinterest_pin_id: '1132796112561632753'
 - title: Why Does My Brown Sugar Turn Rock-Hard, and Can You Still Use It?
   pillar: kitchen-habits
-  status: published
+  status: drafted
   season_months:
   - 11
   - 12
   published_slug: why-brown-sugar-turns-hard
   written_by: claude-code
-  blogger_url: https://www.hearth-habit.com/2026/10/why-does-my-brown-sugar-turn-rock-hard.html
+  drafted_url: https://www.hearth-habit.com/2026/10/why-does-my-brown-sugar-turn-rock-hard.html
   blogger_post_id: '4337676477671340499'
   pinterest_pin_id: '1132796112561806558'
+  draft_reason: not indexed, 0 impressions / 90 days
 - title: Why Does My Shower Grout Turn Pink or Black Again a Week After Cleaning?
   pillar: cleaning-organization
   status: pending

@@ -51,7 +51,7 @@ The EPA's test takes two hours and no tools:
 
 If it moved, start with the toilets. The EPA's dye test is a few drops of food coloring in the tank. If color shows up in the bowl after 10 minutes without flushing, there's a leak, usually the flapper. The EPA says flappers wear out and should be replaced at least every five years. A worn one can silently leak thousands of gallons a year.
 
-Our guide to [fixing a running toilet](https://www.hearth-habit.com/2026/07/how-to-fix-running-toilet-in-15-minutes.html) covers the swap. A toilet that refills for a few seconds on its own can point to a similar leak; see [why a toilet runs for a few seconds, then stops](https://www.hearth-habit.com/2026/07/why-does-my-toilet-run-for-few-seconds.html).
+Our guide to [fixing a running toilet](https://www.hearth-habit.com/2026/07/how-to-fix-running-toilet-in-15-minutes.html) covers the swap. A toilet that refills for a few seconds on its own can point to a similar leak; see why a toilet runs for a few seconds, then stops.
 
 Then check faucets, the water heater, and any pipe in an unheated space. Utah State University Extension explains why winter matters here. Water expands as it freezes and can crack or split a pipe. When that line thaws under pressure, it leaks, and a leak inside a wall, under a floor or above a ceiling can be hard to reach and expensive to repair.
 

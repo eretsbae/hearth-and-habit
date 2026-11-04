@@ -110,7 +110,7 @@ The trade-off for skipping heat is time and damp plastics, not money. A few habi
 1. **Open the door a few inches once the cycle ends,** so the warm, humid air can escape instead of condensing back onto the dishes.
 2. **Time the cycle to end when you're around** to open the door, rather than letting it finish overnight and sit closed.
 3. **Use rinse aid** if your dishes come out spotty or wet. Your owner's manual says where the dispenser is and how to set it.
-4. **Load for drainage.** Tip cups and bowls so water runs off rather than pooling, and don't crowd the racks. The same [loading habits that get dishes cleaner](https://www.hearth-habit.com/2026/07/your-dishwasher-is-probably-loaded.html) help them dry.
+4. **Load for drainage.** Tip cups and bowls so water runs off rather than pooling, and don't crowd the racks. The same loading habits that get dishes cleaner help them dry.
 
 Plastic containers are the usual holdouts. If you need them dry right away, towel them off. That's still cheaper than running the heat for a whole load.
 

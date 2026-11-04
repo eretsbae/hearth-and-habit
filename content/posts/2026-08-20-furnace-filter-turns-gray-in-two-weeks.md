@@ -101,7 +101,7 @@ Return ducts carry air back to the furnace, and the return side is under suction
 
 Leaks you can't reach, inside walls, ceilings, or tight crawlspaces, are a job for a contractor. Other signs ENERGY STAR links to leaky ducts include high summer and winter bills, rooms that are hard to heat or cool, and [one room that never keeps up](https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html).
 
-While you're at it, leave the registers open. Here's [whether closing vents in unused rooms saves anything](https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html).
+While you're at it, leave the registers open. Here's whether closing vents in unused rooms saves anything.
 
 ## What to change once you know the cause
 

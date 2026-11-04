@@ -124,8 +124,8 @@ The first few resets often run long because you're catching up on old mess. If i
 
 Two things lower the baseline it returns you to:
 
-- **Fewer things landing in the basket.** The [one-touch rule](https://www.hearth-habit.com/2026/07/the-one-touch-rule-single-habit-that.html), putting things all the way away the first time you pick them up, shrinks the basket during the week.
-- **Fewer things, period.** A separate decluttering effort, [starting with one drawer](https://www.hearth-habit.com/2026/07/how-to-declutter-when-youre-overwhelmed.html), keeps the reset from just shuffling excess around.
+- **Fewer things landing in the basket.** The one-touch rule, putting things all the way away the first time you pick them up, shrinks the basket during the week.
+- **Fewer things, period.** A separate decluttering effort, starting with one drawer, keeps the reset from just shuffling excess around.
 
 ## FAQ
 

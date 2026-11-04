@@ -37,7 +37,7 @@ Run these with the heat on and the furnace actively blowing.
 
 Before any of this, make sure the register is fully open and that no rug, bed, or dresser is sitting on or in front of it. It's quick and rules out the simplest cause.
 
-Don't close registers in other rooms to push more air to this one. We cover why in [does closing vents in unused rooms save energy or cost more](https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html).
+Don't close registers in other rooms to push more air to this one. We cover why in does closing vents in unused rooms save energy or cost more.
 
 ## Weak air at the register: the ducts
 

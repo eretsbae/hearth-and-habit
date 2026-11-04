@@ -74,7 +74,7 @@ That's SMUD's estimate for its own customers, so treat it as a ballpark. The poi
 
 DOE explains that an air conditioner's cooling coils remove both heat and humidity, and that one reason AC makes you feel cooler is the drier air. Switch it off for a whole humid workday and nothing is pulling that moisture out. The EPA wants indoor humidity below 60%, ideally 30–50%, to limit mold.
 
-A setback keeps the system cycling now and then, which keeps some drying going. If you're unsure how your house behaves, a cheap hygrometer will show whether humidity climbs past 60% while you're gone. If your basement already turns musty by August, see [why a basement smells musty only in summer](https://www.hearth-habit.com/2026/09/why-does-my-basement-smell-musty-only.html).
+A setback keeps the system cycling now and then, which keeps some drying going. If you're unsure how your house behaves, a cheap hygrometer will show whether humidity climbs past 60% while you're gone. If your basement already turns musty by August, see why a basement smells musty only in summer.
 
 ### Time-of-use rates: when you cool down matters
 

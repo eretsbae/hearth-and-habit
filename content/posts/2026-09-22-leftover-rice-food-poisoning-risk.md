@@ -118,7 +118,7 @@ US and UK guidance differ here. USDA gives cooked leftovers, rice included, 3 to
 
 The two rules don't conflict on the cooling step. Both want rice chilled fast: Food Standards Scotland says ideally within 1 hour, and the US 2-hour limit is the outer edge. The UK adds a much shorter eating window.
 
-If you batch-cook rice for a [weekly meal plan](https://www.hearth-habit.com/2026/07/the-30-minute-sunday-meal-plan-that.html), the US window allows it, as long as the rice was chilled fast. If you want the UK's margin without the waste, freeze the portions you won't eat within 24 hours. N.C. Cooperative Extension notes that freezing stops growth but doesn't kill the bacteria, so growth resumes once the rice thaws. Thaw it in the fridge, not on the counter.
+If you batch-cook rice for a weekly meal plan, the US window allows it, as long as the rice was chilled fast. If you want the UK's margin without the waste, freeze the portions you won't eat within 24 hours. N.C. Cooperative Extension notes that freezing stops growth but doesn't kill the bacteria, so growth resumes once the rice thaws. Thaw it in the fridge, not on the counter.
 
 ## Reheat only what you'll eat
 

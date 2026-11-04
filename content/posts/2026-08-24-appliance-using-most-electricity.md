@@ -71,7 +71,7 @@ The national averages hide big regional swings. Here's the same EIA survey split
 
 In hot-humid regions, AC averages 4,173 kWh, or 4,173 × $0.17 = $709 a year, and pulls far ahead. In cold regions the same AC averages 1,310 kWh ($223), while electric heat reaches 2,876 kWh ($489). In the mild, damp marine climate, where little cooling is needed, the water heater leads these three at 3,073 kWh ($522).
 
-So "is the AC or the water heater my biggest cost?" depends mostly on where you live, and on whether your water heater runs on electricity or gas. A gas water heater takes that line off your electric bill entirely, though it shows up on the [gas bill](https://www.hearth-habit.com/2026/10/gas-bill-higher-this-winter-without.html) instead.
+So "is the AC or the water heater my biggest cost?" depends mostly on where you live, and on whether your water heater runs on electricity or gas. A gas water heater takes that line off your electric bill entirely, though it shows up on the gas bill instead.
 
 ## The quiet ones that rival the big three
 
@@ -81,7 +81,7 @@ So "is the AC or the water heater my biggest cost?" depends mostly on where you 
 
 **EV charging.** Homes that charge an electric vehicle average 2,363 kWh a year. That's real money on the bill, but it replaces gasoline, so judge it against fuel costs rather than against the fridge.
 
-**Dehumidifiers.** These are the sleeper. The average household with one uses 999 kWh a year, and 1,368 kWh in hot-humid regions. Even the national figure is more than the 839 kWh average for all the refrigerators in a home. ENERGY STAR says certified models use 20% less energy than similarly sized conventional units. Run it with the doors and windows to that space closed, and aim for the 30–50% humidity range ENERGY STAR describes as optimal rather than drying the air further. If you're running one to fight a smell, our guide to [a basement that smells musty only in summer](https://www.hearth-habit.com/2026/09/why-does-my-basement-smell-musty-only.html) covers the moisture sources worth fixing first.
+**Dehumidifiers.** These are the sleeper. The average household with one uses 999 kWh a year, and 1,368 kWh in hot-humid regions. Even the national figure is more than the 839 kWh average for all the refrigerators in a home. ENERGY STAR says certified models use 20% less energy than similarly sized conventional units. Run it with the doors and windows to that space closed, and aim for the 30–50% humidity range ENERGY STAR describes as optimal rather than drying the air further. If you're running one to fight a smell, our guide to a basement that smells musty only in summer covers the moisture sources worth fixing first.
 
 **Second fridges and freezers.** A second refrigerator averages 494 kWh ($84), and a separate freezer 570 kWh ($97). ENERGY STAR says refrigerators over 15 years old can cost about $95 more a year to run than a new model, and that an old fridge uses about 20% more energy than an ENERGY STAR one.
 

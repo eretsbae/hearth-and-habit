@@ -1,0 +1,144 @@
+{
+  "reader_situation": "A North American home cook stands at an open fridge holding a container, a package of lunch meat, or a bag of frozen chicken and wants one place that says how long each kind of food keeps in the fridge and the freezer, and when it has to go. Some are cleaning out after a power outage and need a keep-or-toss answer item by item. Many have seen different numbers on different charts and don't know which to trust.",
+  "direct_answer": "In a fridge at 40°F or below, raw ground meat, poultry, and fish keep 1 to 3 days, steaks, chops, and roasts 3 to 5 days, cooked leftovers 3 to 4 days, opened lunch meat 3 to 5 days, and eggs in the shell 3 to 5 weeks. At 0°F the freezer keeps food safe indefinitely; its months are quality limits. Toss perishables left out more than 2 hours, and after an outage use the 4-hour fridge and 24/48-hour freezer hold times plus a thermometer.",
+  "consensus": [
+    "Top results reproduce the FoodSafety.gov cold storage chart: fridge days and freezer months by food",
+    "Keep the fridge at 40°F or below and the freezer at 0°F",
+    "Cooked leftovers last 3 to 4 days in the fridge",
+    "Freezer times are about quality, because food kept at 0°F stays safe",
+    "When in doubt, throw it out"
+  ],
+  "gaps": [
+    "Every chart's fridge times assume 40°F or below, but Ohio State food-safety researchers report that 43% of observed home fridges ran too warm (above 41°F) and only 4-9% had a thermometer. FDA notes few refrigerator controls show actual temperatures. The chart is only as good as the thermometer behind it.",
+    "Charts disagree on numbers, and readers don't know why. Freezer figures are quality guidance, so they vary: the federal chart gives steaks, chops and roasts 4 to 12 months, while Oregon State Extension's frozen food guide gives pork chops 4 months and beef roasts/steaks 12 months, and says outright its times are for quality, not safety. Fridge figures also drift: Minnesota Department of Health's chart (revised 2007) gives soups and stews and deli salads 3 to 5 days; the current federal chart gives 3 to 4. When charts disagree on a fridge time, use the shorter one.",
+    "Packaged foods have two clocks: unopened and opened. Lunch meat goes from 2 weeks unopened to 3 to 5 days once opened or deli-sliced; hot dogs from 2 weeks to 1 week. The opened date matters more than the printed date, which FDA says on most foods is a quality date (infant formula is the exception).",
+    "Nobody tells home cooks how to count days. The Food Code date-marking rule used by local health departments counts the day food was prepared (or opened) as day one, and freezing stops that clock without resetting it. Home guidance (UNL Extension) gives 3 to 4 days after a fridge thaw. A label with the cook date and freeze date makes either rule usable.",
+    "Freeze decisions must happen inside the fridge window: Illinois Extension says freeze cooked leftovers within 3 to 4 days. UNL says freeze only the amount that will freeze within 24 hours, and use shallow containers 3 inches deep or less (Illinois says no more than 4 inches).",
+    "Power-outage advice usually stops at '4 hours fridge, 48 hours full freezer'. The FoodSafety.gov chart goes item by item for food above 40°F for more than 2 hours: hard cheeses, processed cheese, butter, uncut fruit, opened fruit juice, peanut butter, jelly, mustard, ketchup, vinegar-based dressings and bread can be kept; shredded and low-fat cheese, soft cheeses, milk and yogurt, cooked pasta, rice and potatoes, cut fruit and vegetables, pre-washed greens, opened spaghetti sauce, creamy dressings and garlic in oil are discarded. For thawed freezer food, ice cream is discarded even with ice crystals, while hard cheese, juices, breads, flour and nuts can be refrozen even after 2 hours above 40°F.",
+    "Oregon State Extension notes that the small freezer compartment on top of a refrigerator is not made for long-term storage, so the long freezer times on charts fit a stand-alone or well-sealed freezer.",
+    "For higher-risk people (pregnant, newborns, 65 and older, weakened immune systems), CDC says to heat deli meat and hot dogs to 165°F or until steaming hot and avoid cut melon kept in the fridge more than a week. A storage time alone doesn't cover Listeria risk for these groups."
+  ],
+  "evidence": [
+    {
+      "claim": "Federal cold storage chart: fridge (40°F or below) and freezer (0°F or below) times by food",
+      "detail": "Salads (egg, chicken, ham, tuna, macaroni) 3-4 days, does not freeze well. Hot dogs opened 1 week, unopened 2 weeks, freezer 1-2 months. Luncheon meat opened or deli sliced 3-5 days, unopened 2 weeks, freezer 1-2 months. Bacon 1 week, 1 month. Sausage raw 1-2 days, 1-2 months; fully cooked 1 week, 1-2 months. Ground meats and ground poultry 1-2 days, 3-4 months. Steaks, chops, roasts 3-5 days, 4-12 months. Ham fresh uncured uncooked 3-5 days, 6 months. Ham cooked store-wrapped whole 1 week, 1-2 months. Ham cooked store-wrapped slices/half/spiral 3-5 days, 1-2 months. Ham fully cooked vacuum-sealed at plant, unopened 2 weeks or use-by date, 1-2 months. Chicken or turkey whole 1-2 days, 1 year; pieces 1-2 days, 9 months. Fin fish 1-3 days; fatty fish (salmon, tuna, catfish, mackerel) freezer 2-3 months; lean fish (cod, flounder, haddock, halibut, sole) 6-8 months. Fresh crab meat and lobster 2-4 days, 2-4 months. Shrimp, crayfish 3-5 days, 6-18 months. Shucked clams, mussels, oysters, scallops 3-10 days, 3-4 months. Raw eggs in shell 3-5 weeks, do not freeze in shell; beat yolks and whites together, then freeze. Squid 1-3 days, 6-18 months. Raw whites and yolks 2-4 days, 12 months. Hard-cooked eggs 1 week, do not freeze. Egg substitutes, liquid, opened 3 days, do not freeze. Eggnog commercial 3-5 days, 6 months; homemade 2-4 days, do not freeze. Casseroles with eggs 3-4 days, 2-3 months. Pumpkin or pecan pie 3-4 days, 1-2 months. Custard and chiffon pies 3-4 days, do not freeze. Quiche 3-5 days, 2-3 months. Soups and stews 3-4 days, 2-3 months. Leftover cooked meat or poultry 3-4 days, 2-6 months. Chicken nuggets or patties 3-4 days, 1-3 months. Pizza 3-4 days, 1-2 months. Date last reviewed September 20, 2021.",
+      "source_url": "https://www.vdh.virginia.gov/content/uploads/sites/6/2023/07/Cold_Food_Storage_Chart.pdf",
+      "source_title": "Cold Food Storage Chart (FoodSafety.gov chart, Virginia Department of Health copy)"
+    },
+    {
+      "claim": "Outage hold times and the item-by-item refrigerated keep/discard chart",
+      "detail": "Refrigerator keeps food safe for up to 4 hours during an outage; keep the door closed; discard refrigerated perishable food such as meat, poultry, fish, eggs and leftovers after 4 hours without power. Never taste food to determine its safety. Chart column: exposed to 40°F or above for more than 2 hours. Discard: raw or leftover cooked meat, poultry, fish, seafood, soy meat substitutes; thawing meat; meat, tuna, shrimp, chicken or egg salad; gravy, stuffing, broth; lunchmeats, hot dogs, bacon, sausage; pizza; opened canned meats and fish; casseroles, soups, stews; soft cheeses (blue, Brie, cottage, cream, Monterey Jack, ricotta, mozzarella, queso fresco and others); shredded cheeses; low-fat cheeses; milk, cream, sour cream, buttermilk, yogurt, eggnog, soy milk; opened baby formula; shell eggs, hard-cooked eggs, egg dishes; custards, puddings, quiche; cut fresh fruit; sliced or shredded coconut; opened mayonnaise, tartar sauce, horseradish (if above 50°F for more than 8 hours); fish sauce, oyster sauce; opened creamy dressings; opened spaghetti sauce; refrigerator biscuits and cookie dough; cooked pasta, rice, potatoes; pasta salads; fresh pasta; cheesecake; cream-filled pastries and pies with egg or milk fillings; cut fresh vegetables; pre-cut pre-washed packaged greens; cooked vegetables; cooked tofu; opened vegetable juice; baked potatoes; commercial garlic in oil; potato salad. Keep: hard cheeses (cheddar, Colby, Swiss, Parmesan, provolone, Romano); processed cheeses; grated Parmesan/Romano in can or jar; butter, margarine; uncut fresh fruit; opened fruit juices; opened canned fruits; dried fruits; peanut butter; jelly, relish, taco sauce, mustard, ketchup, olives, pickles; Worcestershire, soy, barbecue, hoisin sauces; opened vinegar-based dressings; bread, rolls, cakes, muffins, tortillas; waffles, pancakes, bagels; fruit pies; uncut fresh vegetables; fresh mushrooms, herbs, spices.",
+      "source_url": "https://www.in.gov/localhealth/portercounty/files/Food-Safety-During-Power-Outage-_-FoodSafety.gov.pdf",
+      "source_title": "Food Safety During Power Outage (FoodSafety.gov page, Porter County Health Department, Indiana copy)"
+    },
+    {
+      "claim": "Frozen food after an outage: refreeze or discard",
+      "detail": "A full freezer holds a safe temperature about 48 hours (24 hours if half full and the door stays closed). Food may be refrozen if it still contains ice crystals or is at 40°F or below; quality may suffer. Columns: contains ice crystals and feels cold as if refrigerated / exposed to 40°F or above for more than 2 hours. Meat, poultry, seafood: refreeze / discard. Stews, soups: refreeze / discard. Milk: refreeze (some texture loss) / discard. Ice cream, frozen yogurt: discard / discard. Hard cheeses: refreeze / refreeze. Shredded cheese, soft cheese, cheesecake: refreeze / discard. Fruit juices and packaged fruit: refreeze / refreeze (discard if mold, yeasty smell or sliminess develops). Vegetables: refreeze / discard after held above 40°F for 6 hours. Breads, rolls, muffins, cakes without custard: refreeze / refreeze. Cakes and pies with custard or cheese filling: refreeze / discard. Casseroles (pasta, rice-based): refreeze / discard. Flour, cornmeal, nuts: refreeze / refreeze. Waffles, pancakes, bagels: refreeze / refreeze. Frozen meals, pizza, convenience foods: refreeze / discard. Date last reviewed August 8, 2024.",
+      "source_url": "https://www.in.gov/localhealth/portercounty/files/Food-Safety-During-Power-Outage-_-FoodSafety.gov.pdf",
+      "source_title": "Food Safety During Power Outage (FoodSafety.gov page, Porter County Health Department, Indiana copy)"
+    },
+    {
+      "claim": "FDA outage guidance: hold times, discard line, refreezing, dry ice",
+      "detail": "The refrigerator will keep food cold for about 4 hours if it is unopened. A full freezer will keep the temperature for approximately 48 hours (24 hours if it is half full) if the door remains closed. Discard refrigerated perishable food (meat, poultry, seafood, milk, eggs, leftovers) that has been above 40°F for 4 hours or more. If the freezer thermometer reads 40°F or below, or food still contains ice crystals, it is safe to refreeze or cook. Fifty pounds of dry ice should keep an 18-cubic-foot, fully stocked freezer cold for two days. Have appliance thermometers in fridge and freezer. You can't rely on appearance or odor.",
+      "source_url": "https://www.fda.gov/food/buy-store-serve-safe-food/food-and-water-safety-during-power-outages-and-floods",
+      "source_title": "Food and Water Safety During Power Outages and Floods (FDA)"
+    },
+    {
+      "claim": "Fridge 40°F, freezer 0°F; freezer food safe indefinitely; controls don't show temperature",
+      "detail": "Keep the refrigerator at 40°F or below; the freezer should be at 0°F. Foods will stay safe indefinitely in the freezer, but quality/taste may be affected. Few refrigerator controls show actual temperatures; buy a thermometer for the fridge and one for the freezer and check them often. Food above 40°F for only 2 hours or less should be safe. Don't overpack: cold air must circulate. Listeria can grow at refrigerated temperatures.",
+      "source_url": "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety",
+      "source_title": "Refrigerator Thermometers: Cold Facts about Food Safety (FDA)"
+    },
+    {
+      "claim": "Use-by dates are quality dates; freezer burn is quality, not safety",
+      "detail": "A 'use by' date means the manufacturer recommends using the product by this date for best flavor or quality; the date is not a food safety date. Infant formula and some baby foods must be used by the use-by date. Store eggs in their carton inside the fridge, not on the door. Food will be safe indefinitely at 0°F, but quality decreases the longer it is frozen. Freezer burn is a food-quality issue, not a food safety issue; it occurs when food isn't wrapped in air-tight packaging. Leftovers should be stored in tight containers.",
+      "source_url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely",
+      "source_title": "Are You Storing Food Safely? (FDA Consumer Update)"
+    },
+    {
+      "claim": "Dairy storage times (Keep It Cool chart)",
+      "detail": "Recommendations assume refrigerators set below 40°F and freezers at 0°F. Hard or processed cheese: opened 3-4 weeks, unopened 6 months in the fridge; 6 months frozen. Soft cheese 1 week, 6 months frozen. Cottage/ricotta 1 week, do not freeze. Cream cheese 2 weeks, do not freeze. Butter 1-3 months fridge, 6-9 months freezer. Pepperoni, sliced 2-3 weeks fridge, 1-2 months freezer. Perishable foods should never sit out of refrigeration more than two hours.",
+      "source_url": "https://workspace.oregonstate.edu/hubfs/Extension/KeepItCool%20Refrigerator%20Storage%20Chart.pdf",
+      "source_title": "Keep It Cool: Refrigerator/Freezer Food Storage Chart (Oregon State University Extension)"
+    },
+    {
+      "claim": "Freezer times are for quality, not safety; top-of-fridge freezers aren't for long-term storage",
+      "detail": "Oregon State University Extension Frozen Food Storage Guide (SP 50-711, updated March 2013): the recommendations are for quality, not safety; items will be safe if frozen longer but texture, flavor and color will be poorer; quality lasts longer if properly wrapped. The small freezers located on top of the refrigerator are not made for long-term storage. Best-quality times include beef roasts/steaks 12 months, hamburger 4 months, fresh pork chops 4 months, pork roasts 8 months, chicken and turkey 12 months, bacon/wieners 1 month, cooked beef and pork 2-3 months.",
+      "source_url": "https://oc4h.ucanr.edu/sites/default/files/2020-12/340573.pdf",
+      "source_title": "Frozen Food Storage Guide (Oregon State University Extension, SP 50-711)"
+    },
+    {
+      "claim": "Older state chart gives longer fridge times for some foods; gravy and broth 1-2 days",
+      "detail": "Minnesota Department of Health Refrigerator and Freezer Storage Chart (revised April 2007): soups and stews 3-5 days; deli salads (egg, tuna, macaroni) 3-5 days; gravy, broth 1-2 days fridge, 2-3 months freezer; mayonnaise 60 days in the fridge, don't freeze; fresh poultry 6-9 months frozen; pork 4-8 months frozen; beef 3-5 days fridge, 6-12 months frozen. Times are short and conservative. Product dates aren't a reliable guide to safety.",
+      "source_url": "https://www.health.mn.gov/people/foodsafety/store/cold.html",
+      "source_title": "Refrigerator and Freezer Storage Chart (Minnesota Department of Health)"
+    },
+    {
+      "claim": "Food Code date marking: prep day is day one; freezing stops but doesn't reset the clock",
+      "detail": "Refrigerated ready-to-eat TCS food held more than 24 hours must be date-marked and consumed, sold or discarded within 7 days when held at 41°F or below. The day the food was prepared, or the day commercially processed food was opened, counts as day one. Freezing food stops the date marking clock but does not reset it; label how long the food was refrigerated before freezing; after removal it must be used within 7 days minus the time before freezing.",
+      "source_url": "https://c-uphd.org/date-marking.html",
+      "source_title": "Date Marking (Champaign-Urbana Public Health District)"
+    },
+    {
+      "claim": "Leftover handling at home: 3 inches deep, label, thawed leftovers 3-4 days",
+      "detail": "Leftovers can be kept in the refrigerator 3 to 4 days or frozen. Refrigerate within 2 hours of cooking. Food in each pan or storage container needs to be 3 inches deep or less. Mark containers with the food's name and the preparation date or a discard-by date. After thawing in the refrigerator, the food should be used within 3 to 4 days or can be refrozen. Reheat to 165°F. Keep frozen at 0°F. Store only the amount of food that will freeze within 24 hours.",
+      "source_url": "https://food.unl.edu/article/leftover-food-safety/",
+      "source_title": "Leftover Food Safety (University of Nebraska-Lincoln Extension)"
+    },
+    {
+      "claim": "Freeze cooked leftovers within 3-4 days; label with the day prepared",
+      "detail": "Store cooked leftovers in the refrigerator and eat within 3-4 days; freeze cooked leftovers within 3-4 days. Label the item with the day the food is prepared; freezer labels should include the current date and recommended storage time. Place hot leftovers in shallow pans, no more than 4 inches deep. Reheat to 165°F measured with a food thermometer.",
+      "source_url": "https://extension.illinois.edu/food/leftovers",
+      "source_title": "Leftovers (University of Illinois Extension)"
+    },
+    {
+      "claim": "Listeria precautions for higher-risk groups",
+      "detail": "Higher risk: pregnant women, newborns, people 65 or older, people with weakened immune systems. Avoid unheated deli meat, cold cuts, hot dogs and fermented or dry sausages; choose them reheated to 165°F or until steaming hot. Avoid refrigerated smoked fish. Avoid cut melon left out more than 2 hours (1 hour above 90°F) or kept in the refrigerator for more than a week.",
+      "source_url": "https://www.cdc.gov/listeria/prevention/index.html",
+      "source_title": "Preventing Listeria Infection (CDC)"
+    },
+    {
+      "claim": "Home fridges often run too warm; few have thermometers",
+      "detail": "Almost half (43%) of observed homes had a refrigerator that was too warm (>41°F). Just 4-9% of domestic refrigerators were observed to have a thermometer. Predicted listeriosis cases would be reduced by more than 70% if all home refrigerator temperatures stayed at 40°F or below. Keep the home refrigerator at or below 40°F as measured with a thermometer.",
+      "source_url": "https://foodsafety.osu.edu/news/nobody-likes-cold-including-bacteria",
+      "source_title": "Nobody likes the cold, including bacteria (Ohio State University Food Safety)"
+    }
+  ],
+  "real_questions": [
+    "How long is lunch meat good once I open it, versus the date on the package?",
+    "Is the freezer time a safety limit? I found chicken that's been frozen 18 months.",
+    "Why does one chart say 3 to 4 days and another say 3 to 5 for soup?",
+    "Power was out overnight. Which things in the fridge can I keep?",
+    "If I freeze leftovers on day 3, do I get a fresh 3 to 4 days after thawing?",
+    "Do I count the day I cooked it as day one?"
+  ],
+  "original_asset": {
+    "type": "compiled_chart_plus_decision_tables",
+    "spec": "(1) One consolidated fridge/freezer chart by food category (raw meat and poultry, processed meats, seafood, eggs, dairy, cooked foods and leftovers) with a source per row: federal FoodSafety.gov chart (VDH copy) for meat, seafood, eggs and cooked foods; Oregon State Keep It Cool for dairy; Minnesota DH for gravy/broth and mayonnaise. Freezer column labeled as quality-only. A short 'which charts disagree and why' table comparing federal vs Oregon State vs Minnesota numbers. (2) A power-outage decision table computed from the 4-hour fridge, 24-hour half-full and 48-hour full freezer hold times for an outage starting 6:00 p.m., with three restoration times (3, 13 and 30 hours out), plus a compiled keep/discard table by category from the FoodSafety.gov chart for food above 40°F more than 2 hours, and the freezer refreeze/discard exceptions. (3) A 'label your leftovers' worked example: roast chicken cooked Sun 11/1, counted with the cook day as day one (the Food Code convention) for a 4-day window ending Wed 11/4; frozen Tue 11/3 with a registry 3-4 month quality window (Feb 3 to Mar 3, 2027); thawed in the fridge Mon 1/11/2027 and used by Thu 1/14 per UNL's 3-4 days."
+  },
+  "cautions": [
+    "Fridge times are safety limits only at 40°F or below; freezer months are quality limits at 0°F. Never present a freezer month as a safety deadline or a fridge day count as valid in a warm fridge.",
+    "Never suggest smell, look or taste as a safety test (registry; FoodSafety.gov: never taste food to determine its safety).",
+    "Where charts disagree on fridge days, use the shorter figure. Leftovers in the fridge follow the registry's 3 to 4 days; leftovers in the freezer use the registry's 3 to 4 months for best quality.",
+    "Outage: FDA's page discards fridge perishables at 4 hours or more above 40°F; FoodSafety.gov discards after 4 hours without power and its item chart uses more than 2 hours at 40°F or above. Follow the stricter lines, consistent with the site's 2-hour rule.",
+    "The Food Code 7-day/41°F rule is for licensed food establishments, not home guidance; use it only to explain day counting and the freeze-stops-the-clock idea.",
+    "CDC's deli meat and cut melon advice is aimed at higher-risk groups; say so.",
+    "No milk or yogurt fridge-day figure was found on a fetched authoritative page; don't state one.",
+    "The fin-fish fridge figure (1-3 days) is printed once for the fin fish group on the federal chart."
+  ],
+  "sources": {
+    "https://www.vdh.virginia.gov/content/uploads/sites/6/2023/07/Cold_Food_Storage_Chart.pdf": "Cold Food Storage Chart (FoodSafety.gov chart, Virginia Department of Health copy)",
+    "https://www.in.gov/localhealth/portercounty/files/Food-Safety-During-Power-Outage-_-FoodSafety.gov.pdf": "Food Safety During Power Outage (FoodSafety.gov page, Porter County Health Department, Indiana copy)",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/food-and-water-safety-during-power-outages-and-floods": "Food and Water Safety During Power Outages and Floods (FDA)",
+    "https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety": "Refrigerator Thermometers: Cold Facts about Food Safety (FDA)",
+    "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely": "Are You Storing Food Safely? (FDA Consumer Update)",
+    "https://workspace.oregonstate.edu/hubfs/Extension/KeepItCool%20Refrigerator%20Storage%20Chart.pdf": "Keep It Cool: Refrigerator/Freezer Food Storage Chart (Oregon State University Extension)",
+    "https://oc4h.ucanr.edu/sites/default/files/2020-12/340573.pdf": "Frozen Food Storage Guide (Oregon State University Extension, SP 50-711)",
+    "https://www.health.mn.gov/people/foodsafety/store/cold.html": "Refrigerator and Freezer Storage Chart (Minnesota Department of Health)",
+    "https://c-uphd.org/date-marking.html": "Date Marking (Champaign-Urbana Public Health District)",
+    "https://food.unl.edu/article/leftover-food-safety/": "Leftover Food Safety (University of Nebraska-Lincoln Extension)",
+    "https://extension.illinois.edu/food/leftovers": "Leftovers (University of Illinois Extension)",
+    "https://www.cdc.gov/listeria/prevention/index.html": "Preventing Listeria Infection (CDC)",
+    "https://foodsafety.osu.edu/news/nobody-likes-cold-including-bacteria": "Nobody likes the cold, including bacteria (Ohio State University Food Safety)"
+  }
+}

@@ -815,7 +815,9 @@ topics:
   written_by: claude-code
 - title: 'Fridge and Freezer Storage Chart: How Long Food Really Lasts and When to Toss It'
   pillar: kitchen-habits
-  status: pending
+  status: published
+  published_slug: fridge-freezer-storage-chart-how-long-food-lasts
+  written_by: claude-code
 - title: 'House Cleaning Schedule by Room: What to Clean Daily, Weekly, Monthly, and Yearly'
   pillar: cleaning-organization
   status: pending

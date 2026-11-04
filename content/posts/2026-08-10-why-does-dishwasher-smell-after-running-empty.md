@@ -77,7 +77,7 @@ Brands differ on intervals, so your manual wins over this table. Where they disa
 | Monthly (Whirlpool) or every 4–6 months (Bosch) | Cleaning cycle with a dishwasher cleaner; Bosch's runs at 149°F or higher | Whirlpool, Bosch |
 | Occasionally, not as a habit | 2-cup vinegar rinse | Whirlpool |
 
-Loading also affects how much food ends up in the filter. See [the dishwasher loading mistakes worth fixing](https://www.hearth-habit.com/2026/07/your-dishwasher-is-probably-loaded.html).
+Loading also affects how much food ends up in the filter. See the dishwasher loading mistakes worth fixing.
 
 ## When the smell comes with a white film
 

@@ -100,9 +100,9 @@ Buy one more for test beads and mistakes. Red Devil gives its siliconized acryli
 
 ## When caulk isn't the fix
 
-If the same seam reopens every few months, or the wall behind it is soft, water may be getting behind it. A failed tub or shower seal upstairs can show up as a [yellow-brown stain on the ceiling below](https://www.hearth-habit.com/2026/09/yellow-brown-ceiling-stain-with-no.html). For deciding whether a hidden problem needs a pro, see [how to tell if a repair is worth calling someone for](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html).
+If the same seam reopens every few months, or the wall behind it is soft, water may be getting behind it. A failed tub or shower seal upstairs can show up as a yellow-brown stain on the ceiling below. For deciding whether a hidden problem needs a pro, see [how to tell if a repair is worth calling someone for](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html).
 
-Old caulk turns brittle and wears out over time, and Arkansas Extension recommends checking it periodically. A fall walk-around, as part of a [seasonal maintenance checklist](https://www.hearth-habit.com/2026/07/10-home-maintenance-tasks-most-people.html), catches cracked exterior beads before winter.
+Old caulk turns brittle and wears out over time, and Arkansas Extension recommends checking it periodically. A fall walk-around, as part of a seasonal maintenance checklist, catches cracked exterior beads before winter.
 
 ## FAQ
 

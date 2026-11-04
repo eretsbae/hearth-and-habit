@@ -76,7 +76,7 @@ Say you buy a 20-slice sandwich loaf and your household eats about 4 slices a da
 
 Freeze those 8 in a zipper bag, and pull out what you need. Toast slices straight from frozen, or let them sit out until soft. If your household eats only 2 slices a day, the math flips. Six slices fit the 3-day window and 14 go in the freezer. In summer, buying a smaller loaf or a half loaf may waste less than splitting a big one.
 
-Matching purchases to real use is the same idea behind a [30-minute Sunday meal plan](https://www.hearth-habit.com/2026/07/the-30-minute-sunday-meal-plan-that.html). Bread is one of the easiest things to over-buy out of habit.
+Matching purchases to real use is the same idea behind a 30-minute Sunday meal plan. Bread is one of the easiest things to over-buy out of habit.
 
 ## Other summer moisture traps
 

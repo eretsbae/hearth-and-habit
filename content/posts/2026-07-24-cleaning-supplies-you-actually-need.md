@@ -94,7 +94,7 @@ The EPA's Safer Choice label is a shortcut on the shelf that means something spe
 
 ## Building and storing the kit
 
-Buy the reusable items first, the cloths and brushes. Add the liquids as you run through jobs that need them. A caddy you can carry from room to room beats a packed cabinet where half the bottles are forgotten duplicates. That's the same logic as [keeping a kitchen drawer edited down](https://www.hearth-habit.com/2026/09/why-do-my-kitchen-drawers-always-end-up.html) to what you'll actually reach for.
+Buy the reusable items first, the cloths and brushes. Add the liquids as you run through jobs that need them. A caddy you can carry from room to room beats a packed cabinet where half the bottles are forgotten duplicates. That's the same logic as keeping a kitchen drawer edited down to what you'll actually reach for.
 
 ## FAQ
 

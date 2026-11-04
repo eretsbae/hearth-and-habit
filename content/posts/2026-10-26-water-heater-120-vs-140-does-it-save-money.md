@@ -28,7 +28,7 @@ The figures you'll see quoted measure different things, so they look contradicto
 - **$36 to $61 a year.** The utility We Energies says a tank set at 140°F can waste this much annually in excess heating. That is a dollar figure for keeping water hotter than you need, not a percentage of your bill.
 - **About 9% of water heating costs.** We Energies' estimate for keeping the heater at 120°F.
 
-To put the 9% in perspective, University of Georgia Extension says water heating can be 15% to 20% of home energy use. Nine percent of that share (0.09 × 15 up to 0.09 × 20) works out to very roughly 1 to 2 percent of your home's energy use. That is worth having for a free dial turn, but it won't transform a bill. If yours jumped suddenly, the cause is probably elsewhere; this [step-by-step electric bill checklist](https://www.hearth-habit.com/2026/09/why-is-my-electric-bill-so-high-step-by.html) and the guide to a [gas bill that rose without a thermostat change](https://www.hearth-habit.com/2026/10/gas-bill-higher-this-winter-without.html) cover the bigger suspects.
+To put the 9% in perspective, University of Georgia Extension says water heating can be 15% to 20% of home energy use. Nine percent of that share (0.09 × 15 up to 0.09 × 20) works out to very roughly 1 to 2 percent of your home's energy use. That is worth having for a free dial turn, but it won't transform a bill. If yours jumped suddenly, the cause is probably elsewhere; this [step-by-step electric bill checklist](https://www.hearth-habit.com/2026/09/why-is-my-electric-bill-so-high-step-by.html) and the guide to a gas bill that rose without a thermostat change cover the bigger suspects.
 
 ## Why your shower barely changes
 
@@ -85,7 +85,7 @@ The dial setting is a starting point, not a reading, and CPSC says to verify at 
 
 On an electric heater, CPSC says to shut off power at the breaker before opening the access panels, and UGA Extension likewise says to turn off the electricity first. Most electric tanks have two thermostats, upper and lower, and both must be set to the same temperature. Put the covers back on before you restore power. On gas heaters, CPSC says to follow the manufacturer's instructions for the dial, since controls differ.
 
-While you're at the tank, a [popping or rumbling sound](https://www.hearth-habit.com/2026/08/water-heater-popping-or-rumbling-heres.html) is a separate sediment problem worth reading about before you assume the setting is to blame.
+While you're at the tank, a popping or rumbling sound is a separate sediment problem worth reading about before you assume the setting is to blame.
 
 ## Sources
 

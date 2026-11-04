@@ -99,7 +99,7 @@ If you're overseeding thin spots this fall, keep leaves off the new seed too. Ou
 
 **Not the fire pit.** Purdue advises against burning leaves, citing burn bans and air pollution.
 
-Leaves also clog gutters, downspouts, and low spots where water needs to drain. That job is separate from the lawn, and it's covered in the [fall yard cleanup checklist](https://www.hearth-habit.com/2026/07/fall-yard-cleanup-checklist-what.html). If leaves pile up in [a spot in your yard where water pools](https://www.hearth-habit.com/2026/08/why-does-water-pool-in-one-spot-in-my.html), clear them so you can see what's going on underneath.
+Leaves also clog gutters, downspouts, and low spots where water needs to drain. That job is separate from the lawn, and it's covered in the [fall yard cleanup checklist](https://www.hearth-habit.com/2026/07/fall-yard-cleanup-checklist-what.html). If leaves pile up in a spot in your yard where water pools, clear them so you can see what's going on underneath.
 
 ## A low-effort plan for the whole season
 

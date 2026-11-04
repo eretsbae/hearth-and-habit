@@ -47,7 +47,7 @@ The EPA says "it is important to dry water-damaged areas and items within 24-48 
 - **If you can't stop it, or it's coming from somewhere you can't see,** call now. Hidden water keeps wetting materials you can't reach to dry.
 - **If mold has already grown,** the EPA says a homeowner can usually handle less than about 10 square feet. Larger areas, and any damage from sewage or other contaminated water, call for a professional.
 
-Some water problems look urgent and aren't. A toilet that refills for a few seconds on its own is often a slow flapper leak, a DIY fix explained in our post on a toilet that runs, then stops. A rumbling water heater can be a sign of sediment. Flushing it can be a DIY job if you follow the safe order the Department of Energy lays out: turn the power or gas off, let the water cool, drain and flush, then refill the tank completely before turning it back on. Our guide to water heater popping and rumbling walks through it. If you see leaks, hear hissing, or the relief valve is discharging, call a plumber.
+Some water problems look urgent and aren't. A toilet that refills for a few seconds on its own is often a slow flapper leak, usually a DIY fix. A rumbling water heater can be a sign of sediment. Flushing it can be a DIY job if you follow the safe order the Department of Energy lays out: turn the power or gas off, let the water cool, drain and flush, then refill the tank completely before turning it back on. If you see leaks, hear hissing, or the relief valve is discharging, call a plumber.
 
 ## Heating and cooling: where ENERGY STAR draws the line
 

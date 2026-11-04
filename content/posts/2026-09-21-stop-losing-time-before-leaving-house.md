@@ -97,7 +97,7 @@ The outgoing basket handles the "forgot to do it on the day" kind of absentminde
 
 A quick reset helps on days the zone gets messy. Fold it into the [15-minute weekly home reset](https://www.hearth-habit.com/2026/07/the-15-minute-weekly-home-reset-simple.html) rather than adding another chore. The same principle is behind the one-touch rule: handle an item once, putting it where it lives instead of somewhere for now.
 
-If the zone sits in a cluttered entryway, start with one shelf or one drawer rather than reorganizing the whole area at once. Here's how to start with one drawer when you're overwhelmed.
+If the zone sits in a cluttered entryway, start with one shelf or one drawer rather than reorganizing the whole area at once.
 
 ## FAQ
 

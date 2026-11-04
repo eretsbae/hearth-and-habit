@@ -185,7 +185,7 @@ The DOE figure covers cooling. These sources don't put a number on heating savin
 
 If your bill jumped and the filter isn't the explanation, here's [why an electric bill can double with no change in usage](https://www.hearth-habit.com/2026/08/why-did-my-electric-bill-double-with-no.html).
 
-To make the monthly check stick, pair it with the other easy-to-miss jobs on our seasonal home maintenance checklist.
+To make the monthly check stick, pair it with the other easy-to-miss seasonal home maintenance jobs.
 
 ## FAQ
 

@@ -4,14 +4,16 @@ slug: turning-ac-off-at-work-save-money
 date: '2026-07-27'
 updated: '2026-10-11'
 description: "Yes: a 7–10°F workday setback saves up to about 10%, per DOE. Work out your own dollars, and see when humidity, pets, or a 5–8 p.m. peak rate change the plan."
+hero_image: /images/turning-ac-off-at-work-save-money-hero.jpg
+hero_alt: "Window air conditioner on a support bracket in the sash window of a pale green clapboard house"
+hero_credit: "Photo: Infrogmation via Wikimedia Commons (CC BY-SA 4.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Royal_Street,_Bywater,_New_Orleans_Sept_2024_-_air_conditioner.jpg"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/4.0"
 tags:
 - heating and HVAC
 - heating and cooling costs
 - water and gas bills
 pillar: energy-savings
-hero_image: /images/turning-ac-off-at-work-save-money-hero.svg
-hero_alt: House cross-section with a wall thermostat linked to a dollar-sign icon while
-  a hot sun beats down outside
 pin_hooks:
 - A 7–10°F workday setback saves up to about 10% on cooling
 - On a 5–8 p.m. peak rate, finish cooling down before 5

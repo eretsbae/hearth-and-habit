@@ -5,13 +5,16 @@ date: 2026-07-02
 updated: '2026-10-11'
 enriched: '2026-10-11'
 description: "Nine free habits ranked by the slice of the bill they attack, with the math: thermostat setbacks, a 120°F water heater, cold washes, and standby loads worth chasing."
+hero_image: /images/cut-electric-bill-no-cost-habits-hero.jpg
+hero_alt: "White rocker light switch mounted on whitewashed wood paneling beside a door frame"
+hero_credit: "Photo: Santeri Viinam\u00e4ki via Wikimedia Commons (CC BY-SA 4.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:White_light_switch.jpg"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/4.0"
 tags:
 - electric bill
 - heating and cooling costs
 - water and gas bills
 pillar: energy-savings
-hero_image: /images/cut-electric-bill-no-cost-habits-hero.svg
-hero_alt: "House with one lit window and one dark window, a lightning-bolt badge, and coins falling beside a downward-trending arrow"
 pin_hooks:
 - 9 free electric-bill habits, ranked by what they cut
 - Wash cold, since roughly 90% of washer energy heats water

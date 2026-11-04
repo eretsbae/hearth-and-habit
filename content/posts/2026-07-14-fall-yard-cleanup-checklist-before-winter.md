@@ -5,14 +5,17 @@ date: '2026-07-14'
 updated: '2026-10-11'
 description: 'The fall yard jobs that prevent damage (gutters, outdoor faucets, risky
   branches) versus the ones you can skip or mow over, with the research behind each.'
+hero_image: /images/fall-yard-cleanup-checklist-before-winter-hero.jpg
+hero_alt: "Green leaf rake lying on the grass beside a pile of brown fallen leaves next to a sidewalk"
+hero_credit: "Photo: David Goehring via Wikimedia Commons (CC BY 2.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Leaf_rake_and_leaves.jpg"
+hero_license_url: "https://creativecommons.org/licenses/by/2.0"
 tags:
 - fall and winter yard
 - winter prep
 - lawn care
 - roof and gutters
 pillar: yard-outdoor
-hero_image: /images/fall-yard-cleanup-checklist-before-winter-hero.svg
-hero_alt: Rake leaning beside a pile of autumn leaves, with garden gloves and a coiled hose on a lawn under bare trees
 pin_hooks:
 - 'Before winter: gutters, outdoor faucets, risky branches'
 - Most leaves can be mowed into the lawn, not bagged

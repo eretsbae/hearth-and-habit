@@ -4,14 +4,16 @@ slug: electric-bill-doubled-no-change-in-usage
 date: '2026-08-05'
 updated: '2026-10-11'
 description: 'Split the bill into days, kWh per day, and cents per kWh to see what doubled: an expired plan, a tier, an estimate catch-up, weather, or heat strips.'
+hero_image: /images/electric-bill-doubled-no-change-in-usage-hero.jpg
+hero_alt: "Close-up of an analog residential electric meter showing five kWh dials behind a glass cover"
+hero_credit: "Photo: NellieBly via Wikimedia Commons (CC BY-SA 3.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Electric_meter.jpg"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/3.0"
 tags:
 - electric bill
 - water and gas bills
 - DIY repair basics
 pillar: energy-savings
-hero_image: /images/electric-bill-doubled-no-change-in-usage-hero.svg
-hero_alt: Electric meter beside an oversized bill with a red total and a warning stamp,
-  with a magnifying glass checking the charges
 pin_hooks:
 - 'Bill doubled? Check days, kWh per day, and price'
 - A 1,500 W heater run 8 hours a day costs roughly $61 a month

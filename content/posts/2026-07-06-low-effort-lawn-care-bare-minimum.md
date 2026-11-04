@@ -5,12 +5,15 @@ date: '2026-07-06'
 updated: '2026-10-11'
 description: 'Mow at the right height for your grass, leave the clippings, and fertilize
   once at the right time. Extension heights, dates, and bag math inside.'
+hero_image: /images/low-effort-lawn-care-bare-minimum-hero.jpg
+hero_alt: "Orange gas push mower on a green lawn in a backyard beside a white fence"
+hero_credit: "Photo: Shixart1985 via Wikimedia Commons (CC BY 2.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Lawn_mower_on_the_grass_closeup.jpg"
+hero_license_url: "https://creativecommons.org/licenses/by/2.0"
 tags:
 - lawn care
 - outdoor maintenance
 pillar: yard-outdoor
-hero_image: /images/low-effort-lawn-care-bare-minimum-hero.svg
-hero_alt: Push mower parked on an imperfect lawn beside a coiled hose and work gloves, the basic kit for low-effort lawn care
 pin_hooks:
 - 'Set the mower once: the right height for your grass'
 - Mow before the grass hits 1.5x your mower setting

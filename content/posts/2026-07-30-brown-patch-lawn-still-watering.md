@@ -4,12 +4,15 @@ slug: brown-patch-lawn-still-watering
 date: '2026-07-30'
 updated: '2026-10-11'
 description: A brown spot that watering won't fix is usually a coverage gap, grubs, dog urine, or brown patch fungus. The tests and thresholds that tell which one.
+hero_image: /images/brown-patch-lawn-still-watering-hero.jpg
+hero_alt: "Lawn turned mostly tan and straw-colored with scattered patches of green grass beside a brick path"
+hero_credit: "Photo: Famartin via Wikimedia Commons (CC BY-SA 4.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:2022-07-26_11_50_47_Brown,_dry_lawn_after_an_extended_period_of_hot_and_dry_weather_along_Aquetong_Lane_in_the_Mountainview_section_of_Ewing_Township,_Mercer_County,_New_Jersey.jpg"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/4.0"
 tags:
 - lawn care
 - outdoor maintenance
 pillar: yard-outdoor
-hero_image: /images/brown-patch-lawn-still-watering-hero.svg
-hero_alt: Lawn with one stubborn brown patch in full sun while a sprinkler in the background sprays toward it
 pin_hooks:
 - 'Catch-can test: find the dry spot your sprinkler misses'
 - 'Brown patch: water before sunrise, not every evening'

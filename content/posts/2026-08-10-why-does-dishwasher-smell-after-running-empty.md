@@ -4,13 +4,15 @@ slug: why-does-dishwasher-smell-after-running-empty
 date: '2026-08-10'
 updated: '2026-10-11'
 description: An empty run won't clean the filter, door gaskets, or tub floor where the smell lives. Clean those by hand, then run a hot cycle with cleaner. Schedule inside.
+hero_image: /images/why-does-dishwasher-smell-after-running-empty-hero.jpg
+hero_alt: "Inside of an open, empty dishwasher with stainless steel tub, wire racks, and a cutlery basket"
+hero_credit: "Photo: BrokenSphere via Wikimedia Commons (CC BY-SA 3.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Asko_D3112_dishwasher_open.JPG"
+hero_license_url: "http://creativecommons.org/licenses/by-sa/3.0/"
 tags:
 - cleaning routines
 - appliance efficiency
 pillar: cleaning-organization
-hero_image: /images/why-does-dishwasher-smell-after-running-empty-hero.svg
-hero_alt: Open dishwasher with odor lines rising from the bottom rack beside a scrub
-  brush, a vinegar bottle, and a bowl of baking soda
 pin_hooks:
 - 'Dishwasher smell? The filter has to come out by hand'
 - Some water under the filter is normal. Here's how much

@@ -7,12 +7,14 @@ updated: '2026-10-11'
 description: Check your furnace filter monthly, change 1-inch filters by 3 months,
   and learn why pressure drop, not MERV, decides if MERV 13 suits your system. Table
   inside.
+hero_image: /images/furnace-filter-basics-hero.jpg
+hero_alt: "White mesh air filter held up beside a gas furnace in a basement utility area"
+hero_credit: "Photo: Wikideas1 via Wikimedia Commons (CC0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:HVAC_air_filter.webp"
+hero_license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
 tags:
 - heating and HVAC
 pillar: home-maintenance
-hero_image: /images/furnace-filter-basics-hero.svg
-hero_alt: Pleated furnace filter being slid into the furnace's filter slot, with arrows
-  showing return air flowing toward the blower
 pin_hooks:
 - Check monthly; change 1-inch filters at least every 3 months
 - Most systems can run MERV 13 if you change it often

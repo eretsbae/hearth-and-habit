@@ -4,12 +4,15 @@ slug: why-house-gets-messy-again-after-cleaning
 date: '2026-08-28'
 updated: '2026-10-11'
 description: "A clean house re-messes because new stuff arrives daily with nowhere to go. Find your gap by where it lands, then cut the inflow and trade the big clean for short resets."
+hero_image: /images/why-house-gets-messy-again-after-cleaning-hero.jpg
+hero_alt: "Green futon heaped with jackets, a backpack, magazines, and books, with boxes and bags piled nearby"
+hero_credit: "Photo: Yinan Chen via Wikimedia Commons (Public Domain)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Gfp-messy-couch.jpg"
+hero_license_url: "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/"
 tags:
 - cleaning routines
 - decluttering and storage
 pillar: cleaning-organization
-hero_image: /images/why-house-gets-messy-again-after-cleaning-hero.svg
-hero_alt: "Living room split in two: tidy sofa, rug, and paired shoes on one side; scattered mail, toys, cups, and kicked-off shoes on the other"
 pin_hooks:
 - Where the mess lands tells you which fix you need
 - Same weekly minutes, split daily, stops the 2-day relapse

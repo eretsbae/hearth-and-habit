@@ -4,14 +4,16 @@ slug: refreeze-thawed-meat-fridge-safety
 date: '2026-08-12'
 updated: '2026-10-11'
 description: 'Yes, if your fridge holds 40°F and you refreeze within 1–2 days (ground meat, poultry) or 3–5 days (steaks) of thawing. Cold-water or microwave thaws: cook first.'
+hero_image: /images/refreeze-thawed-meat-fridge-safety-hero.jpg
+hero_alt: "Raw marbled beef steak lying on a green plastic cutting board"
+hero_credit: "Photo: Jellaluna via Wikimedia Commons (CC BY 2.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Raw_beef_steak,_2011.jpg"
+hero_license_url: "https://creativecommons.org/licenses/by/2.0"
 tags:
 - food safety
 - food storage and leftovers
 - meal planning and food waste
 pillar: kitchen-habits
-hero_image: /images/refreeze-thawed-meat-fridge-safety-hero.svg
-hero_alt: Package of raw meat thawing on a refrigerator shelf next to a thermometer,
-  showing the meat stayed fridge-cold
 pin_hooks:
 - Refreeze fridge-thawed ground meat within 1–2 days
 - Thawed in cold water or the microwave? Cook before freezing

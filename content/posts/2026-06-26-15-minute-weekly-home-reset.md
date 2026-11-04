@@ -5,12 +5,15 @@ date: 2026-06-26
 updated: '2026-10-11'
 enriched: '2026-10-11'
 description: "A 15-minute weekly reset: one timed pass with a basket, a 4-week rotation for monthly safety checks, and what habit research says about missed weeks."
+hero_image: /images/15-minute-weekly-home-reset-hero.jpg
+hero_alt: "Blue plastic dustpan with a black-bristled hand brush resting on a white carpet"
+hero_credit: "Photo: Santeri Viinam\u00e4ki via Wikimedia Commons (CC BY-SA 4.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Blue_broom_and_dustpan.jpg"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/4.0"
 tags:
 - cleaning routines
 - decluttering and storage
 pillar: cleaning-organization
-hero_image: /images/15-minute-weekly-home-reset-hero.svg
-hero_alt: "Wall clock with a 15-minute wedge highlighted beside a tidy couch, a folded blanket, and a laundry basket used as a relocation bin"
 pin_hooks:
 - Reset 5 main rooms in 15 minutes with one laundry basket
 - Still running long after a month? Declutter first

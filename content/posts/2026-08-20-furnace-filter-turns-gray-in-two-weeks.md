@@ -4,13 +4,15 @@ slug: furnace-filter-turns-gray-in-two-weeks
 date: '2026-08-20'
 updated: '2026-10-11'
 description: A filter gray in two weeks usually means a fan set to On, a heavier dust load, or a leaky filter slot or return duct pulling in attic dust. The math and checks.
+hero_image: /images/furnace-filter-turns-gray-in-two-weeks-hero.jpg
+hero_alt: "Air filter screen caked with thick gray dust and lint, lying on a granite countertop"
+hero_credit: "Photo: Gerardolagunes via Wikimedia Commons (CC BY-SA 4.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Dirty_AC_filters_2023_(1)_03.jpg"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/4.0"
 tags:
 - heating and HVAC
 - odors and moisture
 pillar: home-maintenance
-hero_image: /images/furnace-filter-turns-gray-in-two-weeks-hero.svg
-hero_alt: Furnace filter split down the middle, one half clean and white, the other
-  gray and clogged with dust after two weeks
 pin_hooks:
 - Fan on On? Your filter sees at least 4x the air
 - A loose filter-slot cover can pull in garage air

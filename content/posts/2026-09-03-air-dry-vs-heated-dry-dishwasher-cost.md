@@ -4,13 +4,15 @@ slug: air-dry-vs-heated-dry-dishwasher-cost
 date: '2026-09-03'
 updated: '2026-10-11'
 description: On an ENERGY STAR dishwasher, heated dry costs under about 10¢ a load at 17–18¢ per kWh. The math behind that ceiling, and a two-load test to measure your own.
+hero_image: /images/air-dry-vs-heated-dry-dishwasher-cost-hero.jpg
+hero_alt: "Looking down into an open dishwasher with dark plates, pans, and glasses loaded in the wire racks"
+hero_credit: "Photo: Piotrus (assumed author) via Wikimedia Commons (CC BY-SA 3.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Dishwasher_with_dishes.JPG"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/3.0"
 tags:
 - appliance efficiency
 - water and gas bills
 pillar: energy-savings
-hero_image: /images/air-dry-vs-heated-dry-dishwasher-cost-hero.svg
-hero_alt: Dishwasher rack split down the middle, plates glowing with heated-dry warmth
-  on one side and air-drying by a breeze icon on the other
 pin_hooks:
 - Heated dry costs under about 10 cents a load
 - Measure it yourself with two loads and a watt meter

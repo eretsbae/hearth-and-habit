@@ -4,13 +4,16 @@ slug: fix-running-toilet-without-plumber
 date: '2026-07-17'
 updated: '2026-10-11'
 description: 'Two quick tests tell you whether the fill valve, flapper, or flush valve is at fault, plus the exact water level, chain slack, and flapper size to get right.'
+hero_image: /images/fix-running-toilet-without-plumber-hero.jpg
+hero_alt: "Inside a toilet tank: the overflow tube rising above a gray rubber flapper seated on the flush valve"
+hero_credit: "Photo: Ranch9613 via Wikimedia Commons (CC0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Resident_Flush_valve_KOHLER_-_20260808.jpg"
+hero_license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
 tags:
 - plumbing
 - DIY repair basics
 - water and gas bills
 pillar: home-maintenance
-hero_image: /images/fix-running-toilet-without-plumber-hero.svg
-hero_alt: Open toilet tank showing the fill valve, float, refill tube, overflow tube, chain, and flapper behind most running toilets
 pin_hooks:
 - Set tank water 1/2 inch below the overflow pipe
 - Orange-size drain = 2-inch flapper, grapefruit = 3-inch

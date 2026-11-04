@@ -4,13 +4,15 @@ slug: cast-iron-in-dishwasher-once
 date: '2026-08-18'
 updated: '2026-10-11'
 description: One dishwasher cycle strips cast iron's seasoning and leaves rust, but the pan survives. Lodge's fix is a scour, a thin oil coat, and an hour at 450–500°F.
+hero_image: /images/cast-iron-in-dishwasher-once-hero.jpg
+hero_alt: "Empty black cast iron skillet with a worn, uneven seasoning on a white countertop"
+hero_credit: "Photo: NMorales (WMF) via Wikimedia Commons (CC BY-SA 4.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Griswold_cast_iron_skillet.jpg"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/4.0"
 tags:
 - cookware and kitchen appliances
 - appliance efficiency
 pillar: kitchen-habits
-hero_image: /images/cast-iron-in-dishwasher-once-hero.svg
-hero_alt: Cast iron skillet with a dull, stripped patch of seasoning sitting beside
-  a dishwasher rack with a plate and water droplets
 pin_hooks:
 - Dishwashed cast iron? Bake it 1 hour at 450–500°F
 - Sticky after reseasoning? You used too much oil

@@ -4,13 +4,15 @@ slug: appliance-using-most-electricity
 date: '2026-08-24'
 updated: '2026-10-11'
 description: "EIA survey data on what uses the most electricity at home: water heaters, AC, and heat lead, pool pumps and EVs rival them, and dehumidifiers add up. Costs inside."
+hero_image: /images/appliance-using-most-electricity-hero.jpg
+hero_alt: "White clothes dryer with its door open, showing the empty drum and lint filter slot, next to a washer"
+hero_credit: "Photo: FASTILY via Wikimedia Commons (CC BY-SA 4.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Clothes_dryer_1_2018-09-29.jpg"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/4.0"
 tags:
 - electric bill
 - appliance efficiency
 pillar: energy-savings
-hero_image: /images/appliance-using-most-electricity-hero.svg
-hero_alt: Cutaway house with a fridge, window AC, water heater, and clothes dryer in
-  separate rooms, each glowing to show its energy draw
 pin_hooks:
 - A pool pump uses about as much electricity a year as AC
 - Dehumidifier running all summer? It's near 1,000 kWh a year

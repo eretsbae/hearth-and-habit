@@ -4,11 +4,14 @@ slug: when-to-call-a-pro-vs-diy-repair
 date: '2026-09-09'
 updated: '2026-10-11'
 description: Call a pro for gas, panel, structural, and hidden-water problems. If you can shut a problem off safely, it can often wait for weekday rates. 2026 costs and the math.
+hero_image: /images/when-to-call-a-pro-vs-diy-repair-hero.jpg
+hero_alt: "Open blue metal cantilever toolbox holding wrenches, a hammer, a level, and tape on an outdoor table"
+hero_credit: "Photo: Rieul Techer via Wikimedia Commons (CC BY-SA 4.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Caisse_%C3%A0_outils_avec_petit_outillage.JPG"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/4.0"
 tags:
 - DIY repair basics
 pillar: home-maintenance
-hero_image: /images/when-to-call-a-pro-vs-diy-repair-hero.svg
-hero_alt: Homeowner standing between a toolbox and a phone in front of a house cutaway showing pipes, wiring, and a furnace
 pin_hooks:
 - Shut it off, then wait for weekday rates
 - What a plumber or electrician costs in 2026

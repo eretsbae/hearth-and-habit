@@ -4,14 +4,16 @@ slug: why-is-one-room-always-colder-than-rest
 date: '2026-09-01'
 updated: '2026-10-11'
 description: A cold room is either short on warm air or losing heat faster. Three quick checks tell which, including the closed-door test most guides skip, and what fixes each.
+hero_image: /images/why-is-one-room-always-colder-than-rest-hero.jpg
+hero_alt: "Ornate cream-painted cast-iron radiator standing against a pale green wall on a bare floor"
+hero_credit: "Photo: Dominic Alves via Wikimedia Commons (CC BY 2.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Ornate_Cast_Iron_Radiator_-_Brian_Eno_Speaker_Flowers_Sound_Installation_at_Marlborough_House.jpg"
+hero_license_url: "https://creativecommons.org/licenses/by/2.0"
 tags:
 - heating and HVAC
 - heating and cooling costs
 - DIY repair basics
 pillar: home-maintenance
-hero_image: /images/why-is-one-room-always-colder-than-rest-hero.svg
-hero_alt: Cutaway house where the room under a closed ceiling vent is tinted cold blue
-  while rooms with open vents glow warm yellow
 pin_hooks:
 - Colder only with the door shut? It's the return air path
 - Feel the vent to tell a duct problem from heat loss

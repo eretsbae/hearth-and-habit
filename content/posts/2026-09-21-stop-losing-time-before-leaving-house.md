@@ -4,11 +4,14 @@ slug: stop-losing-time-before-leaving-house
 date: '2026-09-21'
 updated: '2026-10-11'
 description: "Give keys one spot by the door you use and tie it to walking in. Habit research puts automatic at about 66 days, and a missed day won't reset it. A 10-week plan."
+hero_image: /images/stop-losing-time-before-leaving-house-hero.jpg
+hero_alt: "Assorted house keys, key rings, and a small padlock hanging from hooks on a wooden wall board"
+hero_credit: "Photo: Andreas Praefcke via Wikimedia Commons (Public Domain)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Schl%C3%BCsselbrett_Pension_Hindelang_Ravensburg_MHQ.jpg"
+hero_license_url: ""
 tags:
 - decluttering and storage
 pillar: cleaning-organization
-hero_image: /images/stop-losing-time-before-leaving-house-hero.svg
-hero_alt: "Entryway drop zone with a bag on a wall hook, keys, sunglasses, and a wallet on a small shelf, and a catch-all bowl by the door"
 pin_hooks:
 - One hook by the door you use, tied to walking in
 - New habits took about 66 days on average, not 21

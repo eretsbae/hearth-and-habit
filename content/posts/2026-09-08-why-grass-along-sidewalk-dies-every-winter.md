@@ -4,13 +4,16 @@ slug: why-grass-along-sidewalk-dies-every-winter
 date: '2026-09-08'
 updated: '2026-10-11'
 description: The dead strip is de-icing salt. Rock salt quits at 15°F, so cold-day salting lands in the grass. Doses, de-icer temperatures, and a repair schedule.
+hero_image: /images/why-grass-along-sidewalk-dies-every-winter-hero.jpg
+hero_alt: "Close-up of coarse road salt crystals scattered across a wet concrete sidewalk"
+hero_credit: "Photo: Gogerr via Wikimedia Commons (CC BY-SA 4.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Road_Salt_on_a_Sidewalk_in_Canada.jpg"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/4.0"
 tags:
 - lawn care
 - fall and winter yard
 - outdoor maintenance
 pillar: yard-outdoor
-hero_image: /images/why-grass-along-sidewalk-dies-every-winter-hero.svg
-hero_alt: Snowy sidewalk with a bag of ice melt and scattered salt beside a strip of dead brown grass next to healthy lawn
 pin_hooks:
 - Rock salt stops working at 15°F. Here's what to use instead
 - A coffee mug of salt treats about 10 sidewalk squares

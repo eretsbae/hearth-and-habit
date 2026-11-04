@@ -4,13 +4,15 @@ slug: how-long-do-leftovers-really-last
 date: '2026-08-31'
 updated: '2026-10-11'
 description: Cooked leftovers keep 3–4 days at 40°F or below, counted from the day you cooked them. Why the clock is that short, how to cool and freeze, and who should go shorter.
+hero_image: /images/how-long-do-leftovers-really-last-hero.jpg
+hero_alt: "Lidded plastic containers of peas, potatoes, melon, and other leftovers on a refrigerator shelf"
+hero_credit: "Photo: USDAgov via Wikimedia Commons (Public Domain)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Food_Safety_-_Cut_Waste_in_Refrigerators_(20200608-FSIS-LSC-0179).jpg"
+hero_license_url: ""
 tags:
 - food storage and leftovers
 - food safety
 pillar: kitchen-habits
-hero_image: /images/how-long-do-leftovers-really-last-hero.svg
-hero_alt: Fridge shelf of glass jars of leftovers beside a small calendar and a thermometer,
-  for tracking how long food keeps
 pin_hooks:
 - Most cooked leftovers keep 3–4 days at 40°F or below
 - Refrigerate leftovers within 2 hours, or 1 hour above 90°F

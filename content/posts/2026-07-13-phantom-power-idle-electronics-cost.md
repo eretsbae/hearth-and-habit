@@ -5,13 +5,15 @@ date: '2026-07-13'
 updated: '2026-10-11'
 description: Each always-on watt costs about $1.50 a year at 17¢/kWh. Measured standby
   watts and dollars by device from Berkeley Lab, and where the real idle load hides.
+hero_image: /images/phantom-power-idle-electronics-cost-hero.jpg
+hero_alt: "White power strip with a red switch, filled with plugs and a black AC adapter, cords tangled on a blue carpet"
+hero_credit: "Photo: Unknown photographer via Wikimedia Commons (CC BY-SA 3.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:German_power_strip.JPG"
+hero_license_url: "http://creativecommons.org/licenses/by-sa/3.0/"
 tags:
 - electric bill
 - appliance efficiency
 pillar: energy-savings
-hero_image: /images/phantom-power-idle-electronics-cost-hero.svg
-hero_alt: Living room at night with a TV standby light, a game console, and a router
-  glowing, and dollar signs drifting up from wall outlets
 pin_hooks:
 - Each always-on watt costs about $1.50 a year at 17¢/kWh
 - 'Cable boxes: a median 8 W in standby, about $12 a year'

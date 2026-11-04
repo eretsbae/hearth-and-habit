@@ -3,12 +3,15 @@ title: Why Does My Freezer Build Up Frost So Fast Even Though It's Frost-Free?
 slug: frost-free-freezer-frost-buildup
 date: '2026-10-30'
 description: A frost-free freezer still makes frost and melts it on a timer. Where the frost shows up tells you why it's winning, and why a colder dial setting can backfire.
+hero_image: /images/frost-free-freezer-frost-buildup-hero.jpg
+hero_alt: "Thick layer of white frost and ice built up on the walls and shelf of a freezer compartment"
+hero_credit: "Photo: User:Piotrus via Wikimedia Commons (CC BY-SA 3.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Iced_freezer,_defrosting.JPG"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/3.0"
 tags:
 - cookware and kitchen appliances
 - food storage and leftovers
 pillar: kitchen-habits
-hero_image: /images/frost-free-freezer-frost-buildup-hero.svg
-hero_alt: Flat illustration of an open freezer with frosted shelves, a gasket edge, and food packages
 pin_hooks:
 - Frost in a Frost-Free Freezer? Read Where It Forms
 - Why a Colder Freezer Setting Can Mean More Frost

@@ -4,13 +4,15 @@ slug: preheat-oven-or-skip-it-cheaper
 date: '2026-09-16'
 updated: '2026-10-11'
 description: Skipping preheat saves a few cents at most. Price your own preheat per 1,000 watts, see when skipping is fine, and the free fixes that make preheat shorter.
+hero_image: /images/preheat-oven-or-skip-it-cheaper-hero.jpg
+hero_alt: "Unbaked pizza with shredded cheese, tomato slices, and basil on a parchment-lined tray inside an oven"
+hero_credit: "Photo: Miia Ranta from Finland via Wikimedia Commons (CC BY-SA 2.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:To_oven_(2952226850).jpg"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/2.0"
 tags:
 - cookware and kitchen appliances
 - water and gas bills
 pillar: energy-savings
-hero_image: /images/preheat-oven-or-skip-it-cheaper-hero.svg
-hero_alt: Oven glowing hot inside as it preheats, with a tray of cookies leaning beside
-  it and an oven mitt hanging nearby
 pin_hooks:
 - Unused oven racks make every preheat longer
 - A preheat costs about 4–6¢ per 1,000 W of oven

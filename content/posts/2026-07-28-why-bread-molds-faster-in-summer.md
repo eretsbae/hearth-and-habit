@@ -4,14 +4,16 @@ slug: why-bread-molds-faster-in-summer
 date: '2026-07-28'
 updated: '2026-10-11'
 description: "Warm kitchens speed mold on a moist food, and bagging warm bread adds condensation. Where to keep a loaf in summer: cupboard, fridge, or freezer, and when."
+hero_image: /images/why-bread-molds-faster-in-summer-hero.jpg
+hero_alt: "Bread roll covered in blue-green and white mold on a white countertop"
+hero_credit: "Photo: Muldoonsamuel55 via Wikimedia Commons (CC0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:A_Moldy_Loaf_of_Bread.jpg"
+hero_license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
 tags:
 - food storage and leftovers
 - meal planning and food waste
 - outdoor maintenance
 pillar: kitchen-habits
-hero_image: /images/why-bread-molds-faster-in-summer-hero.svg
-hero_alt: Loaf of bread with small mold spots beside a bread box near a steamy summer
-  window, a magnifying glass over the mold
 pin_hooks:
 - Bread keeps about 3 days in a cool cupboard; freeze the rest
 - No-preservative loaf in summer? The fridge slows mold

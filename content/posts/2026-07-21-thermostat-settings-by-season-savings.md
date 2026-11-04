@@ -4,14 +4,16 @@ slug: thermostat-settings-by-season-savings
 date: '2026-07-21'
 updated: '2026-10-11'
 description: 'Setbacks, not a magic number, do the saving: 7–10°F for 8 hours with a furnace, about 3.6°F with a heat pump, a 55°F winter floor, and the dollar math.'
+hero_image: /images/thermostat-settings-by-season-savings-hero.jpg
+hero_alt: "White digital wall thermostat in heat mode showing 66\u00b0F on a textured beige wall"
+hero_credit: "Photo: Ente75 via Wikimedia Commons (CC0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Robertshaw_Non-Programmable_Digital_Thermostat.JPG"
+hero_license_url: "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
 tags:
 - heating and cooling costs
 - water and gas bills
 - heating and HVAC
 pillar: energy-savings
-hero_image: /images/thermostat-settings-by-season-savings-hero.svg
-hero_alt: Round wall thermostat between a sun icon for summer cooling and a snowflake
-  icon for winter heating settings
 pin_hooks:
 - A 7–10°F setback for 8 hours saves up to ~10% a year
 - 'Heat pump? Keep setbacks to about 3.6°F (2°C)'

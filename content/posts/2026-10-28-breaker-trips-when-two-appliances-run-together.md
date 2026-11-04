@@ -3,12 +3,15 @@ title: Why Does My Circuit Breaker Trip Only When Two Specific Appliances Run To
 slug: breaker-trips-when-two-appliances-run-together
 date: '2026-10-28'
 description: Two appliances fine alone can trip a breaker together. Add nameplate watts, divide by 120 for amps, compare to the breaker, and use this checklist to fix it.
+hero_image: /images/breaker-trips-when-two-appliances-run-together-hero.jpg
+hero_alt: "Open residential circuit breaker panel with two columns of numbered breakers and a labeled door"
+hero_credit: "Photo: BrokenSphere via Wikimedia Commons (CC BY-SA 3.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Eaton_circuit_breaker_panel_open.JPG"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/3.0"
 tags:
 - electrical and home safety
 - DIY repair basics
 pillar: home-maintenance
-hero_image: /images/breaker-trips-when-two-appliances-run-together-hero.svg
-hero_alt: Flat illustration of a breaker panel beside a toaster and a microwave on a kitchen counter
 pin_hooks:
 - Add Two Nameplates, Find Your Breaker Problem
 - 'Microwave Plus Toaster Trips the Breaker? Do the Math'

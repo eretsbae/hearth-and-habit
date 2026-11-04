@@ -4,12 +4,15 @@ slug: separate-cleaners-for-every-surface-worth-it
 date: '2026-09-04'
 updated: '2026-10-11'
 description: "Mostly no. Mild soap, glass cleaner, and a disinfectant cover most homes. Marble, wood floors, glass cooktops, and leather are the real exceptions."
+hero_image: /images/separate-cleaners-for-every-surface-worth-it-hero.jpg
+hero_alt: "Close-up of a plain yellow plastic trigger spray bottle against a gray background"
+hero_credit: "Photo: Frank C. M\u00fcller, Frankfurt am Main via Wikimedia Commons (CC BY-SA 4.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Spruehflasche_02_(fcm).jpg"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/4.0"
 tags:
 - cleaning routines
 - decluttering and storage
 pillar: cleaning-organization
-hero_image: /images/separate-cleaners-for-every-surface-worth-it-hero.svg
-hero_alt: "Cleaning shelf with three labeled bottles and a check mark above a long row of crossed-out single-surface cleaner bottles"
 pin_hooks:
 - Sealing marble doesn't stop vinegar etching
 - Why disinfecting wipes don't belong on stainless steel

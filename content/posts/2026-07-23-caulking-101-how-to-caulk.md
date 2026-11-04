@@ -4,12 +4,15 @@ slug: caulking-101-how-to-caulk
 date: '2026-07-23'
 updated: '2026-10-11'
 description: "Caulk peels when the label doesn't fit the joint. Compare silicone, siliconized acrylic and painter's caulk, size deep gaps with backer rod, and time the cure."
+hero_image: /images/caulking-101-how-to-caulk-hero.jpg
+hero_alt: "Blue caulking gun loaded with a tube of sealant, its white nozzle cut to a point, on a beige mat"
+hero_credit: "Photo: Frank C. M\u00fcller, Baden-Baden via Wikimedia Commons (CC BY-SA 3.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Silikonpistole_(fcm).jpg"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/3.0"
 tags:
 - DIY repair basics
 - winter prep
 pillar: home-maintenance
-hero_image: /images/caulking-101-how-to-caulk-hero.svg
-hero_alt: Caulking gun, tube of caulk, putty knife, and roll of painter's tape laid out below a window, ready to reseal the trim
 pin_hooks:
 - Silicone can take water in 30 minutes; some acrylics need 72 hours
 - Deep gap? Backer rod first, caulk half as deep as wide

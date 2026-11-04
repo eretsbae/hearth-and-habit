@@ -9,7 +9,9 @@ attribution in the frontmatter (`hero_credit`, `hero_credit_url`,
 
 Source: the Openverse API (https://api.openverse.org), no key needed. It
 indexes Flickr, Wikimedia Commons and others and exposes the license per
-result.
+result. `--source commons` queries the Wikimedia Commons API directly (added
+2026-11-04 when the Openverse API stopped answering); results are normalised
+to the same shape and ids look like `commons-<pageid>`.
 
 Usage (run from the repo root):
     python scripts/stock_photo.py search "furnace filter" --n 8 --sheet .tmp/furnace.png
@@ -23,6 +25,7 @@ from __future__ import annotations
 import argparse
 import io
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -61,6 +64,53 @@ def search(query: str, n: int) -> list[dict]:
         if r.get("license") not in ALLOWED_LICENSES or (r.get("width") or 0) < 800:
             continue
         out.append(r)
+        if len(out) >= n:
+            break
+    CACHE.mkdir(parents=True, exist_ok=True)
+    for r in out:
+        (CACHE / f"{r['id']}.json").write_text(json.dumps(r), encoding="utf-8")
+    return out
+
+
+COMMONS = "https://commons.wikimedia.org/w/api.php"
+
+
+def commons_license(short: str) -> tuple[str, str] | None:
+    """Map Commons' LicenseShortName to (openverse-style license, version)."""
+    t = short.strip().lower()
+    if t in {"cc0", "cc0 1.0"}:
+        return "cc0", "1.0"
+    if t.startswith("public domain") or t == "pd":
+        return "pdm", ""
+    for key, code in (("cc by-sa ", "by-sa"), ("cc-by-sa-", "by-sa"), ("cc by ", "by"), ("cc-by-", "by")):
+        if t.startswith(key):
+            return code, t[len(key):].strip()
+    return None
+
+
+def search_commons(query: str, n: int) -> list[dict]:
+    resp = requests.get(COMMONS, params={
+        "action": "query", "format": "json", "generator": "search", "gsrsearch": f"{query} filetype:bitmap",
+        "gsrnamespace": 6, "gsrlimit": 30, "prop": "imageinfo",
+        "iiprop": "url|size|extmetadata", "iiurlwidth": 1600,
+    }, headers={"User-Agent": UA}, timeout=30)
+    resp.raise_for_status()
+    pages = sorted((resp.json().get("query") or {}).get("pages", {}).values(), key=lambda p: p.get("index", 0))
+    out = []
+    for pg in pages:
+        info = (pg.get("imageinfo") or [{}])[0]
+        meta = info.get("extmetadata") or {}
+        lic = commons_license((meta.get("LicenseShortName") or {}).get("value", ""))
+        if not lic or (info.get("width") or 0) < 800 or info.get("mime", "image/jpeg") not in {"image/jpeg", "image/png"}:
+            continue
+        artist = re.sub(r"<[^>]+>", "", (meta.get("Artist") or {}).get("value", "")).strip()
+        out.append({
+            "id": f"commons-{pg['pageid']}", "title": pg.get("title", "").removeprefix("File:"),
+            "url": info.get("thumburl") or info.get("url"), "width": info.get("width"), "height": info.get("height"),
+            "license": lic[0], "license_version": lic[1], "creator": artist or None, "source": "wikimedia",
+            "foreign_landing_url": info.get("descriptionurl"),
+            "license_url": (meta.get("LicenseUrl") or {}).get("value", ""),
+        })
         if len(out) >= n:
             break
     CACHE.mkdir(parents=True, exist_ok=True)
@@ -139,6 +189,7 @@ def main() -> int:
     s.add_argument("query")
     s.add_argument("--n", type=int, default=8)
     s.add_argument("--sheet", type=Path)
+    s.add_argument("--source", choices=["openverse", "commons"], default="openverse")
     f = sub.add_parser("fetch")
     f.add_argument("image_id")
     f.add_argument("--slug", required=True)
@@ -146,7 +197,7 @@ def main() -> int:
     args = ap.parse_args()
 
     if args.cmd == "search":
-        results = search(args.query, args.n)
+        results = (search_commons if args.source == "commons" else search)(args.query, args.n)
         for i, r in enumerate(results):
             print(f"[{i}] {r['id']} | {r.get('title') or '-'} | {r.get('creator') or '-'} | "
                   f"{r['license']} {r.get('license_version') or ''} | {r.get('source')} | "

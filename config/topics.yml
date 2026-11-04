@@ -810,7 +810,9 @@ topics:
   written_by: claude-code
 - title: 'Fall-to-Spring Yard Calendar: Month-by-Month Lawn Tasks for Cool-Season and Warm-Season Grass'
   pillar: yard-outdoor
-  status: pending
+  status: published
+  published_slug: fall-to-spring-yard-calendar-cool-warm-season-grass
+  written_by: claude-code
 - title: 'Fridge and Freezer Storage Chart: How Long Food Really Lasts and When to Toss It'
   pillar: kitchen-habits
   status: pending

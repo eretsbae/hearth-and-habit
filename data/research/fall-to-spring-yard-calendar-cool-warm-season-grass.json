@@ -1,0 +1,123 @@
+{
+  "reader_situation": "A North American homeowner wants one plan for the lawn from September through May: what to do each month, and whether to do it at all. Many don't know whether their grass is cool-season (tall fescue, Kentucky bluegrass, ryegrass) or warm-season (bermuda, zoysia, centipede, St. Augustine), and generic calendars from retailers mix the two, so they fertilize bermuda in fall, put crabgrass preventer down on new seed, or seed fescue in November.",
+  "direct_answer": "Cool-season lawns get their big jobs in fall: seed in September while nights are in the mid-60s and before soil drops to 50°F, fertilize around Labor Day and again near the last mowing in early November, and spray broadleaf weeds in fall. In spring they mostly need crabgrass preventer down before soil averages 55°F at 2 inches, a light feeding in April or May, and no summer fertilizer. Warm-season lawns are the mirror image: no nitrogen in fall, a fall pre-emergent for winter weeds in September, dormancy over winter, and the first fertilizer only after full green-up, when soil reaches 65°F at 4 inches and nights are around 70°F (early to mid-May in South Carolina).",
+  "consensus": [
+    "Cool-season grasses are seeded and fed mainly in fall; warm-season grasses are fed in late spring and summer",
+    "Apply crabgrass preventer in early spring before crabgrass germinates",
+    "Keep mowing until the grass stops growing and do a final cleanup of leaves",
+    "Winter is for mower maintenance and buying supplies",
+    "Timing shifts with your region, so check your local extension office"
+  ],
+  "gaps": [
+    "MISSING: top calendars give months, not triggers. Extension sources give measurable triggers: crabgrass preventer before soil averages 55°F at 2 inches for 3-5 days (NDSU), most crabgrass germinating at 60-70°F soil (NDSU), tall fescue and Kentucky bluegrass seed not forming a seedling turf once soil drops to 50°F (Rutgers), warm-season shoots emerging at 65°F soil at 4 inches and fertilizing when nights are around 70°F (Clemson), winter-weed pre-emergent on warm-season lawns before nights drop below 60°F (UGA), bermuda mower raised once nights fall below 70°F (Clemson), broadleaf spray in November on a day at least 50°F (K-State).",
+    "WRONG IN RETAIL ADVICE: 'winterizer' nitrogen in fall for every lawn. Clemson's bermudagrass program says no nitrogen September through December, potash only if a soil test shows low potassium; UGA says September fertilizing can delay dormancy long enough for cold injury and sets up spring dead spot. The registry also says warm-season lawns are not fertilized in fall.",
+    "MISSING: the conflict between crabgrass preventer and seeding. NDSU says not to apply a standard crabgrass preventer to newly seeded or overseeded lawns; siduron is the exception. Oklahoma State says not to apply preemergents prior to seeding and that siduron is the only preemergent usable at seeding time on cool-season turf. A spring seeding plan and a spring preventer plan must be chosen between.",
+    "MISSING: the second pre-emergent application. Clemson schedules warm-season pre-emergent in mid-February (coastal/central SC) or mid-March (Piedmont/mountains) and again in September, each with a second application 8 to 10 weeks later. Calendars rarely show the resulting dates; they can be computed.",
+    "MISSING: how many feedings a cool-season lawn needs. Iowa State: a minimally maintained lawn is fertilized only in late October/early November, a moderate program adds mid-September, a high-quality lawn adds spring (April or May). Purdue sets the November rate at 0.5-1.0 lb N per 1,000 sq ft, applied near or after the last mowing while the lawn is still green, using a soluble source.",
+    "MISSING: fertilizer arithmetic. Clemson gives the conversion: for 1/2 lb N per 1,000 sq ft, divide 50 by the first number on the bag; for 1 lb, divide 100 by it. Potash at 1 lb K2O per 1,000 sq ft is 1.6 lb of 0-0-60 or 2 lb of 0-0-50.",
+    "REGIONAL: Oklahoma State's transition-zone calendar feeds cool-season lawns in late February/early March and late April/very early May; Iowa's spring feeding is April or May. Same grass, different month, which is why soil-temperature triggers beat calendar months.",
+    "MISSING winter tasks for dormant warm-season lawns: Clemson says to water during dormancy if there is no measurable rain for 3 to 4 weeks, especially before days forecast in the low 20s or colder."
+  ],
+  "evidence": [
+    {
+      "claim": "Crabgrass preventer timing by soil temperature",
+      "detail": "Crabgrass seeds germinate when the average soil temperature at a depth of 2 inches reaches 55°F for three to five days; the majority germinate at soil temperatures between 60 and 70°F. Apply a crabgrass pre-emergent before the soil reaches an average of 55°F. About 1/2 inch of water is needed to dissolve the granules. Most pre-emergent herbicides will not provide effective control after germination; dithiopyr can control seedlings at the one- to three-leaf stage. Do not apply a standard crabgrass preventer to newly seeded or overseeded lawns; products containing siduron (Tupersan) can be used in that situation. (Esther McGinnis, NDSU Extension, April 28, 2020)",
+      "source_url": "https://www.ag.ndsu.edu/news/columns/dakota-gardener/dakota-gardener-prevent-crabgrass-this-spring",
+      "source_title": "Dakota Gardener: Prevent Crabgrass This Spring (NDSU Extension)"
+    },
+    {
+      "claim": "Bermudagrass January-April program",
+      "detail": "Mow at about 1 inch just before green-up (late April or early May), avoid scalping. Pre-emergent: mid-February in coastal and central areas, mid-March in the Piedmont and mountains, with a second application 8 to 10 weeks later. No post-emergent herbicide during spring green-up. Dethatch if thatch exceeds 1/2 inch. Aerate once frost danger passes. No nitrogen in this period except coastal lawns when no frost is predicted. Monitor grubs by peeling back a one-square-foot section; treat if more than six. Water during dormancy if there is no measurable rain for 3 to 4 weeks, especially before days forecast to be in the low 20s or colder.",
+      "source_url": "https://hgic.clemson.edu/factsheet/bermudagrass-maintenance-calendar/",
+      "source_title": "Bermudagrass Yearly Maintenance Program, HGIC 1216 (Clemson Home & Garden Information Center)"
+    },
+    {
+      "claim": "Bermudagrass May-August fertilizer and mowing",
+      "detail": "Start mowing at 1 1/4 to 1 1/2 inches then lower gradually; ideal range 1 to 2 inches; raise during heat or drought. Early May after full green-up: 1/2 to 1 lb actual N per 1,000 sq ft; June or July: same with high potassium (e.g., 15-0-15); before August 15: same, the last nitrogen of the season. Annual total 2 to 4 lb N per 1,000 sq ft. For 1/2 lb N divide 50 by the first number on the bag; for 1 lb N divide 100 by that number. Replant large bare areas in May with sod, plugs, or sprigs.",
+      "source_url": "https://hgic.clemson.edu/factsheet/bermudagrass-maintenance-calendar/",
+      "source_title": "Bermudagrass Yearly Maintenance Program, HGIC 1216 (Clemson Home & Garden Information Center)"
+    },
+    {
+      "claim": "Bermudagrass September-December program",
+      "detail": "Keep normal mowing height until cooling begins; once nighttime temperatures fall below 70°F, raise the mower slightly. No nitrogen. Potash (1 lb K2O per 1,000 sq ft) 4 to 6 weeks before the first expected frost if a soil test shows low potassium: 1.6 lb muriate of potash (0-0-60) or 2 lb potassium sulfate (0-0-50). Pre-emergent in September with a second application 8 to 10 weeks later; water granular products in. Spot-treat cool-season broadleaf weeds, reduced rates for 2,4-D. Fungicide before dormancy for large patch; where recurrent, preventive applications may start in early October. Keep watering until dormancy; after dormancy water as needed, especially before cold snaps.",
+      "source_url": "https://hgic.clemson.edu/factsheet/bermudagrass-maintenance-calendar/",
+      "source_title": "Bermudagrass Yearly Maintenance Program, HGIC 1216 (Clemson Home & Garden Information Center)"
+    },
+    {
+      "claim": "Warm-season green-up and first fertilizer triggers",
+      "detail": "Warm-season grasses grow when air temperatures are between 75 and 95°F. New shoots begin to emerge once soil temperatures reach 65°F at a 4-inch depth. Wait to fertilize warm-season grass until nighttime temperatures are around 70°F. Fertilizing too early produces shoots at the expense of roots and can set the lawn up for dieback from late frosts. Most warm-season grasses are actively growing by early to mid-May. (Jackie Jordan, Clemson Extension, April 8, 2021)",
+      "source_url": "https://hgic.clemson.edu/when-should-you-fertilize-your-lawn/",
+      "source_title": "When should you fertilize your lawn? (Clemson HGIC)"
+    },
+    {
+      "claim": "Warm-season fall care: no September nitrogen, fall pre-emergent trigger",
+      "detail": "The August 1 article says: make your last application of nitrogen. Fertilizing in September can delay dormancy long enough for warm-season turfgrass to suffer cold injury, and nitrogen in fall sets lawns up for spring dead spot. Apply pre-emergents for winter weeds in September, before nighttime temperatures drop below 60°F, when soil becomes cool enough for winter weed seeds to germinate. A pre-emergent containing potassium (e.g., 0-0-7) enhances winter hardiness in bermudagrass. Recommended mowing height for bermuda, centipede and zoysia is 1-2 inches. Water 1 inch per week (rain plus irrigation) in dry weeks, preferably in two applications. (Heather Kolich, UGA Extension Forsyth County, August 1, 2020)",
+      "source_url": "https://site.extension.uga.edu/forsyth/fall-care-for-warm-season-lawns/",
+      "source_title": "Fall Care for Warm-Season Lawns (UGA Extension Forsyth County)"
+    },
+    {
+      "claim": "Cool-season seeding temperature limits",
+      "detail": "Tall fescue and Kentucky bluegrass seed does not effectively develop a seedling turf once soil temperatures drop to 50°F. Perennial ryegrass has been observed to germinate below 40°F but above freezing. For cool-season grasses, seed will not germinate until soil temperatures are consistently above 50°F; air temperature will probably need to be 60°F or above before soil is consistently above 50°F. (Jim Murphy, Rutgers, Feb 20, 2023)",
+      "source_url": "https://turf.rutgers.edu/blog/mild-winter-what-does-it-mean-for-overseeding-of-turf-or-dormant-seeding/",
+      "source_title": "Mild winter, what does it mean for overseeding of turf or dormant seeding? (Rutgers Center for Turfgrass Science)"
+    },
+    {
+      "claim": "Cool-season fall seeding window and start trigger",
+      "detail": "Target fall seeding for the North Carolina Piedmont is mid-September to early October, one to two weeks earlier in the mountains. Wait until nighttime temperatures are in the mid-60s. Tall fescue seeding rate 5 to 6 lb per 1,000 sq ft (uncoated). Germination normally in 5 to 10 days. Core aerify before seeding. Spring-established tall fescue is more susceptible to drought, heat, disease and weeds. Fall-seeded grass should get no herbicides until it is extensively tillered. (Grady Miller, NC State, Aug 30, 2023)",
+      "source_url": "https://www.turffiles.ncsu.edu/2023/08/it-is-almost-time-for-fall-seeding-of-cool-season-grasses",
+      "source_title": "It Is (Almost) Time for Fall Seeding of Cool-Season Grasses (NC State TurfFiles)"
+    },
+    {
+      "claim": "Late-fall nitrogen for cool-season lawns",
+      "detail": "Cool-season turfgrass should be fertilized mainly in autumn; in addition to September, a November nitrogen fertilization helps. Timing: near or after the last mowing of the year while the lawn is still green, generally the first few weeks of November. A soluble nitrogen source (urea, ammonium nitrate, calcium nitrate, ammonium sulfate) is most effective; nitrogen must be taken up before winter. Rate 0.5 to 1.0 lb N per 1,000 sq ft. Benefits seen next spring and summer: earlier green-up, improved density, better tolerance of spring diseases. (Aaron Patton, Purdue, Nov 2, 2010)",
+      "source_url": "https://turf.purdue.edu/late-fall-fertilization/",
+      "source_title": "Late Fall Fertilization (Purdue Turfgrass Science)"
+    },
+    {
+      "claim": "How many times to fertilize a cool-season lawn",
+      "detail": "In Iowa, cool-season lawns can be fertilized in spring (April or May), mid-September, and late October/early November. High-quality lawns are fertilized all three times; moderate programs in mid-September and late October/early November; a minimally maintained lawn only in late October/early November. Do not fertilize Kentucky bluegrass and other cool-season grasses in June, July and August. (Updated June 24, 2025)",
+      "source_url": "https://yardandgarden.extension.iastate.edu/faq/when-should-i-fertilize-my-lawn",
+      "source_title": "When should I fertilize my lawn? (Iowa State University Extension Yard and Garden)"
+    },
+    {
+      "claim": "Fall calendar for cool-season lawns in Kansas",
+      "detail": "September: fertilize around Labor Day, the most important fertilization of the year; water it in. November: fertilize; this fertilizer is taken up by the roots but not used until the following spring. November: spray broadleaf weeds even if they are small, on a day that is at least 50 degrees; rain or irrigation within 24 hours reduces effectiveness; use label rates. Late July-August: curative grub control with Dylox watered in within 24 hours. (Jared Hoyle, K-State, Aug 23, 2017)",
+      "source_url": "https://www.k-state.edu/news/turf/articles/2017/08/monthly-calendar-for-cool-season-lawns-for-the-rest-of-2017.html",
+      "source_title": "Monthly calendar for cool-season lawns for the rest of 2017 (K-State Turfgrass)"
+    },
+    {
+      "claim": "Oklahoma (transition zone) cool-season calendar",
+      "detail": "Tall fescue, Kentucky bluegrass, perennial ryegrass: establishment best time fall, second choice spring. Mow at 2.5-3 inches, remove no more than 1/3 of top growth; calendar heights 2.5 inches in fall, winter and spring months and 2.5-3 inches June-September. Fertilize up to 1 lb actual N per 1,000 sq ft in late February or early March, late April or very early May, late September, and mid to late November; avoid fertilizing June through August; soil test every three years. Do not apply preemergent prior to seeding; siduron is the only preemergent usable at seeding time on cool-season turf. Preventive grub products late April to mid-May only where there is a history of grub problems; curative mid-August through mid-September. Weekly water need if watering: 1 inch every 2 weeks in December-February, 1 inch/week in March-April and October-November. (Martin, Moss, Rebek, Hillock; OSU L-442)",
+      "source_url": "https://pods.okstate.edu/fact-sheets/L-442-Cool-Season-Lawn-Management-Calendar.pdf",
+      "source_title": "L-442 Cool-Season Lawn Management Calendar (Oklahoma State University Extension)"
+    }
+  ],
+  "real_questions": [
+    "Should I put winterizer fertilizer on my bermuda lawn in fall?",
+    "Can I put down crabgrass pre-emergent and seed at the same time?",
+    "Is it too late to overseed fescue in October or November?",
+    "When should I fertilize a fescue lawn: fall, spring, or both?",
+    "When is the second pre-emergent application due?",
+    "Do I need to water a dormant lawn in winter?"
+  ],
+  "original_asset": "(1) A September-to-May month x grass-type task calendar compiled from Clemson HGIC 1216, UGA, NC State, Rutgers, Purdue, Iowa State, K-State and Oklahoma State, each cell tagged with its source. (2) A temperature-trigger table listing each task's threshold, how it is measured (soil depth vs. night air), and the source. (3) Computed second pre-emergent dates from Clemson's 8-10 week interval. (4) Fertilizer product math from Clemson's 50/100 divided-by-bag-number rule, applied to a 5,000 sq ft lawn. (5) A printable checklist.",
+  "cautions": [
+    "Clemson's program is for bermudagrass; centipede, zoysia and St. Augustine have their own Clemson calendars with lower fertilizer needs. Present bermuda as the documented example.",
+    "OSU calendar X-mark positions for aerification and preemergent were lost in PDF text extraction; use only the text notes.",
+    "Pre-emergent herbicides: follow label rates; do not apply to new seeding.",
+    "Months are regional (Iowa vs Oklahoma vs South Carolina); lead with triggers.",
+    "No invented soil temperatures or dates; computed dates use the 15th as 'mid-month' and say so."
+  ],
+  "sources": {
+    "https://www.ag.ndsu.edu/news/columns/dakota-gardener/dakota-gardener-prevent-crabgrass-this-spring": "Dakota Gardener: Prevent Crabgrass This Spring (NDSU Extension)",
+    "https://hgic.clemson.edu/factsheet/bermudagrass-maintenance-calendar/": "Bermudagrass Yearly Maintenance Program, HGIC 1216 (Clemson Home & Garden Information Center)",
+    "https://hgic.clemson.edu/when-should-you-fertilize-your-lawn/": "When should you fertilize your lawn? (Clemson HGIC)",
+    "https://site.extension.uga.edu/forsyth/fall-care-for-warm-season-lawns/": "Fall Care for Warm-Season Lawns (UGA Extension Forsyth County)",
+    "https://turf.rutgers.edu/blog/mild-winter-what-does-it-mean-for-overseeding-of-turf-or-dormant-seeding/": "Mild winter, what does it mean for overseeding of turf or dormant seeding? (Rutgers Center for Turfgrass Science)",
+    "https://www.turffiles.ncsu.edu/2023/08/it-is-almost-time-for-fall-seeding-of-cool-season-grasses": "It Is (Almost) Time for Fall Seeding of Cool-Season Grasses (NC State TurfFiles)",
+    "https://turf.purdue.edu/late-fall-fertilization/": "Late Fall Fertilization (Purdue Turfgrass Science)",
+    "https://yardandgarden.extension.iastate.edu/faq/when-should-i-fertilize-my-lawn": "When should I fertilize my lawn? (Iowa State University Extension Yard and Garden)",
+    "https://www.k-state.edu/news/turf/articles/2017/08/monthly-calendar-for-cool-season-lawns-for-the-rest-of-2017.html": "Monthly calendar for cool-season lawns for the rest of 2017 (K-State Turfgrass)",
+    "https://pods.okstate.edu/fact-sheets/L-442-Cool-Season-Lawn-Management-Calendar.pdf": "L-442 Cool-Season Lawn Management Calendar (Oklahoma State University Extension)"
+  }
+}

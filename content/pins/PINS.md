@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 80개 준비됨 · 게시 완료 79개(수동 64 · API 15) · 대기 1개
+핀 85개 준비됨 · 게시 완료 80개(수동 64 · API 16) · 대기 5개
 
 ## 게시 방식
 
@@ -21,7 +21,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
 
 ## 보드: Cleaning & Organization
 
-(17개)
+(18개)
 
 - [x] **The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control**
   - 이미지: `content/pins/15-minute-weekly-home-reset.png`
@@ -108,9 +108,14 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/10/how-do-you-store-summer-clothes-so-they.html
   - 설명: Wash even clean-looking clothes, skip starch and softener, and pack them fully dry. A table rates dry-cleaning bags, bins, cardboard, cedar chests and suitcases.
 
+- [ ] **House Cleaning Schedule by Room: What to Clean Daily, Weekly, Monthly, and Yearly**
+  - 이미지: `content/pins/house-cleaning-schedule-by-room-frequency.png`
+  - 링크: https://www.hearth-habit.com/2026/11/house-cleaning-schedule-by-room-what-to.html
+  - 설명: A room-by-room cleaning schedule where every interval has a reason, plus a weekly time budget with the math shown and a printable checklist you can keep.
+
 ## 보드: Energy & Utility Savings
 
-(14개)
+(15개)
 
 - [x] **How to Cut Your Electric Bill Without Buying Anything: 9 No-Cost Habits That Work**
   - 이미지: `content/pins/cut-electric-bill-no-cost-habits.png`
@@ -182,9 +187,14 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/10/does-setting-water-heater-to-120f.html
   - 설명: Yes, but modestly: 120°F trims excess tank heating and unmixed hot water, not showers. Scald, Legionella, dishwasher and cost compared at 120, 130, 140°F.
 
+- [ ] **DIY Home Energy Audit: A Room-by-Room Walkthrough to Find Where Your Money Goes**
+  - 이미지: `content/pins/diy-home-energy-audit-room-by-room.png`
+  - 링크: https://www.hearth-habit.com/2026/11/diy-home-energy-audit-room-by-room.html
+  - 설명: A room-by-room DIY home energy audit: what to check in each room, what typical loads cost a year at 18 cents per kWh, and which fixes pay back within months.
+
 ## 보드: Home Maintenance & Repairs
 
-(18개)
+(19개)
 
 - [x] **How Often Should You Change Your Furnace Filter? (And Which MERV Rating to Buy)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -271,14 +281,19 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/10/why-does-my-circuit-breaker-trip-only.html
   - 설명: Two appliances fine alone can trip a breaker together. Add nameplate watts, divide by 120 for amps, compare to the breaker, and use this checklist to fix it.
 
-- [ ] **Why Does My Smoke Detector Chirp Even With a New Battery Installed?**
+- [x] **Why Does My Smoke Detector Chirp Even With a New Battery Installed?**
   - 이미지: `content/pins/smoke-detector-chirping-new-battery.png`
   - 링크: https://www.hearth-habit.com/2026/11/why-does-my-smoke-detector-chirp-even.html
   - 설명: A new battery can't stop an alarm's end-of-life chirp. Check the date on the back, then the drawer, the reset, Hush mode, and the CO clock, symptom by symptom.
 
+- [ ] **Winter Home Prep Checklist: What to Do Before the First Hard Freeze**
+  - 이미지: `content/pins/winter-home-prep-checklist-before-first-freeze.png`
+  - 링크: https://www.hearth-habit.com/2026/11/winter-home-prep-checklist-what-to-do.html
+  - 설명: Winter prep in lead-time order: what to book six weeks before your first 32°F freeze, what waits for the last weekend, and what skipping each task can cost.
+
 ## 보드: Kitchen & Food Habits
 
-(17개)
+(18개)
 
 - [x] **How to Meal Plan for the Week in 30 Minutes (A Simple Sunday Routine)**
   - 이미지: `content/pins/30-minute-sunday-meal-plan.png`
@@ -365,9 +380,14 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/10/why-does-my-freezer-build-up-frost-so.html
   - 설명: A frost-free freezer still makes frost and melts it on a timer. Where the frost shows up tells you why it's winning, and why a colder dial setting can backfire.
 
+- [ ] **Fridge and Freezer Storage Chart: How Long Food Really Lasts and When to Toss It**
+  - 이미지: `content/pins/fridge-freezer-storage-chart-how-long-food-lasts.png`
+  - 링크: https://www.hearth-habit.com/2026/11/fridge-and-freezer-storage-chart-how.html
+  - 설명: Fridge days and freezer months for meat, seafood, eggs, dairy and leftovers in one chart, plus a power-outage keep-or-toss table and a dated label example.
+
 ## 보드: Yard & Outdoor Basics
 
-(14개)
+(15개)
 
 - [x] **Low-Maintenance Lawn Care: The Bare-Minimum Yearly Schedule**
   - 이미지: `content/pins/low-effort-lawn-care-bare-minimum.png`
@@ -438,3 +458,8 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 이미지: `content/pins/last-mow-height-before-winter.png`
   - 링크: https://www.hearth-habit.com/2026/10/how-low-should-you-mow-grass-on-last.html
   - 설명: Cool-season lawns: mow at normal height until growth stops, then drop one notch at most. Warm-season lawns stay in range. Last-cut height table by setting.
+
+- [ ] **Fall-to-Spring Yard Calendar: Month-by-Month Lawn Tasks for Cool-Season and Warm-Season Grass**
+  - 이미지: `content/pins/fall-to-spring-yard-calendar-cool-warm-season-grass.png`
+  - 링크: https://www.hearth-habit.com/2026/11/fall-to-spring-yard-calendar-month-by.html
+  - 설명: Fall-to-spring lawn tasks by month for cool- and warm-season grass, plus the soil temperatures extension services use to time seeding, feeding, and weeds.

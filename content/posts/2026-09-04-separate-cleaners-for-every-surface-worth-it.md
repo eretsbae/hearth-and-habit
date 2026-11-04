@@ -129,20 +129,6 @@ A smaller shelf still holds chemicals that must never meet. Poison Control warns
 
 Use one product, rinse the surface, then use the other. The CDC puts it more simply: "Do not mix products or chemicals with each other." If someone is exposed, call Poison Control at 1-800-222-1222.
 
-## FAQ
-
-### Can I use disinfecting wipes on my granite every day?
-
-You rarely need to. The CDC says regular cleaning is enough in most situations. The Natural Stone Institute warns that improper cleaners can break down granite's sealer. Wipe daily with a neutral cleaner or mild soap and water, and save the disinfectant for when someone in the house is sick or has a weakened immune system, which is when the CDC says disinfecting is likely needed.
-
-### Is vinegar safe on sealed granite?
-
-Granite resists most kitchen acids, but the Natural Stone Institute still advises against acidic cleaners, partly because some granites contain acid-sensitive minerals. On marble, sealing makes no difference to etching. In both cases, skip vinegar.
-
-### Can I use Windex on my glass stovetop?
-
-Check the label first. Whirlpool lists ammonia among the products to keep off ceramic glass cooktops. For burned-on residue, Whirlpool's method is a ceramic-glass scraper and ceramic cooktop cleaner.
-
 ## Sources
 
 - [Natural Stone Institute: Cleaning Products for Natural Stone](https://naturalstoneinstitute.org/consumers/care/) — acids on calcareous vs. siliceous stone, hydrofluoric acid in rust and toilet cleaners, neutral cleaner or mild detergent

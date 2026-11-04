@@ -81,20 +81,6 @@ If other people in the house load the dishwasher, a sticky note on the pan or a 
 
 The same hand-wash-only habit protects wooden boards, which warp after a long soak or a hot cycle. If the dishwasher itself has started to smell, see [why it smells even after an empty run](https://www.hearth-habit.com/2026/08/why-does-my-dishwasher-smell-even-after.html).
 
-## FAQ
-
-### Can enameled cast iron, like a Dutch oven, go in the dishwasher?
-
-Lodge says its enameled cast iron is technically dishwasher safe, but it prefers hand washing to preserve the finish. Let it cool before washing, and dry it promptly. If the bare iron rim rusts, clean it with a nylon sponge and dish detergent and dry it thoroughly. Other brands set their own rules, so check the care card for yours.
-
-### Will a hot pan crack if I rinse it with cold water?
-
-Lodge's thermal-shock warnings are about sudden temperature changes. It advises a 3–5 minute preheat on medium-low, and for enameled pieces it says not to add cold ingredients to a hot, empty pan. It doesn't give a specific rule for rinsing a hot pan. Letting the pan cool before washing, as Lodge says for enameled ware, is the cautious choice for both kinds.
-
-### The pan looks sticky or blotchy after reseasoning. Did I ruin it?
-
-Probably not. Lodge's troubleshooting page gives fixes for sticky spots and dull or uneven color, and says black flakes are carbonized oil and not harmful. Sticky means too much oil: bake it again. Blotchy means thin seasoning: cook with fat.
-
 ## Sources
 
 - [How to Clean – Lodge Cast Iron](https://www.lodgecastiron.com/pages/how-to-clean) — dishwasher removes seasoning and likely causes rust; soap is okay; don't soak; dry and oil

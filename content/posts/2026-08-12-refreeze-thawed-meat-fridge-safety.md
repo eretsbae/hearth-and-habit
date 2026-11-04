@@ -81,16 +81,6 @@ FDA says food kept at 0°F stays safe indefinitely, but quality declines the lon
 
 For the full set of fridge and freezer rules in one place, see [leftovers, thawing, and fridge storage](https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html). For cooked food, see [how long leftovers really last](https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html). To thaw only what the week needs, plan it with a simple weekly meal plan.
 
-## FAQ
-
-### It smells fine. Can I go past the window?
-
-No. USDA notes that the bacteria that cause food poisoning generally don't change how food looks, smells, or tastes. An off smell is a reason to throw meat out sooner, but a normal smell doesn't extend the window. Go by the calendar.
-
-### Does the same rule apply to fish and shellfish?
-
-Yes. Montana State Extension groups seafood with ground meat and poultry: 1–2 days in the fridge after thawing. Refreeze or cook it within that window.
-
 ## Sources
 
 - [Safe Thawing Practices (Montana State University Extension)](https://www.montana.edu/extension/buyeatlivebetter/other_nep_resources/fact_sheets/safethawingpractices/) — fridge thawing is the only method that allows refreezing without cooking; 1–2 and 3–5 day windows after thawing; 24 hours per 5 pounds; cold-water and microwave rules; cooking from frozen takes about 50% longer

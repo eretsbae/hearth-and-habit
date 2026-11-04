@@ -161,20 +161,6 @@ If you're choosing seed for a new or rebuilt northern lawn, Purdue's low-mainten
 2. **Leave the clippings** and keep the blade sharp.
 3. **Feed once**: around Labor Day for cool-season lawns at up to 1 lb of nitrogen per 1,000 sq ft, or after full green-up for warm-season lawns at Clemson's low-maintenance ½ lb.
 
-## FAQ
-
-### Can I just set the mower once and never change it?
-
-Yes. Purdue's low-maintenance advice is a single 3-to-4-inch setting for northern lawns. The exception is catching up after the grass got too tall. Raise the deck for that cut, then step it back down.
-
-### Is a lawn that's brown in August dead?
-
-Probably not, but nobody can tell by looking. A healthy lawn can ride out a dry spell dormant, and the Illinois guidance gives a healthy Kentucky bluegrass lawn at least six weeks. Patches that stay brown after rain returns are the likely dead spots, and those are the ones to reseed.
-
-### Do I need a soil test for a bare-minimum lawn?
-
-You don't need one for nitrogen. The rates above cover that. Clemson says phosphorus and potassium should be based on a soil test, so a test is how you'd know whether a bag with those nutrients is needed at all.
-
 ## Sources
 
 - [Mowing Lawns (HGIC 1205) | Clemson Cooperative Extension](https://hgic.clemson.edu/factsheet/mowing-lawns/) — mowing heights by grass, one-third rule and example, catching up on tall grass, clipping nutrients, dull blades

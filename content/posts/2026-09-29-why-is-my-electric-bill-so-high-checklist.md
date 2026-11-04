@@ -138,20 +138,6 @@ Outside Maryland, search your state utility commission's site for "billing dispu
 | kWh per day up, degree days flat | A device that won't shut off | Night baseline, then the suspect table |
 | Everything checks out | Possibly the meter | Ask for a meter test |
 
-## FAQ
-
-### My bill is high but the weather felt normal. Where do I start?
-
-Start with Step 1. A longer billing period or a catch-up from estimated readings can raise a bill with no change in weather or habits. Then check the price per kWh before looking for a device.
-
-### Can I just turn the heat pump to emergency heat when it's very cold?
-
-Not as a routine cold-weather setting. ElectriCities of North Carolina says emergency or AUX mode is electric resistance heat that can significantly increase your bill compared with regular Heat mode, and to switch to emergency heat manually only if the heat pump is malfunctioning. If you're switching to emergency mode because the heat pump isn't heating, have it serviced rather than running on strip heat for weeks.
-
-### Does a second fridge in the garage matter?
-
-It can, and broken door seals make it worse. SaskPower lists bad fridge and freezer seals among the equipment problems behind large bills. Price it with the watts × hours formula, or measure it with a plug-in watt meter.
-
 ## Sources
 
 - [Why is my bill higher than normal? | SaskPower](https://saskpower.com/accounts/billing/understanding-power-use/bill-higher-than-normal) — 28–33-day billing periods, catch-up after estimates, and equipment faults (water heaters, thermostats, well pumps, fridge seals)

@@ -134,16 +134,6 @@ Other signs it lists include:
 
 The rating is a screening guide, not a diagnosis. If that sounds familiar, consider talking with a mental health professional who treats hoarding; a new routine alone may not be enough.
 
-## FAQ
-
-### Should I clean a little every day or do one big clean a week?
-
-For keeping the house tidy, a little every day. The time works out about the same: seven 10–15 minute resets add up to 70–105 minutes, close to the roughly 85-minute cleaning days in the federal time survey. Spread out, the mess never has more than a day to build. Save a longer weekly block for actual cleaning, like floors and bathrooms. The [15-minute weekly home reset](https://www.hearth-habit.com/2026/07/the-15-minute-weekly-home-reset-simple.html) covers what goes in it.
-
-### Do I declutter before I organize?
-
-Yes, when the storage is full. Organizing things you're about to get rid of wastes time, and the container method only works once the category fits its space. If storage has room and the problem is the same three landing spots, skip ahead and give those items a home first.
-
 ## Sources
 
 - [Average hours per day spent in selected household activities (BLS)](https://www.bls.gov/charts/american-time-use/activity-by-hldh.htm) and [Percent of the population engaging in selected household activities (BLS)](https://www.bls.gov/charts/american-time-use/activity-by-hldp.htm) — 2025 time spent on and share doing interior cleaning and laundry, by sex

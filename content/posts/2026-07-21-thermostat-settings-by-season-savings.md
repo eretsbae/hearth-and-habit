@@ -85,20 +85,6 @@ Treat that as a ceiling. "Up to" means a smaller setback, fewer hours, or a heat
 
 Shoulder seasons are also when to [change the furnace filter](https://www.hearth-habit.com/2026/07/furnace-filter-basics-how-often-to.html), before the system has to work hard again.
 
-## FAQ
-
-### Is a smart thermostat worth it if I already adjust a manual one?
-
-The savings come from the setback, not the device. ENERGY STAR ties its estimate of about $100 a year to the thermostat adjusting to energy-saving temperatures when you're asleep or away. If you already turn the dial down every night and every workday, a smart thermostat may mostly add convenience. For heat pumps, a thermostat that starts recovery early is what lets you set back without the backup heat running.
-
-### Should I just leave a heat pump at one temperature?
-
-You don't have to. Natural Resources Canada says a moderate setback of up to 2°C (about 3.6°F) works, and heat-pump programmable thermostats save during unoccupied hours and overnight. Your installer can tell you what your system handles.
-
-### Does closing vents in unused rooms work like a setback?
-
-It isn't the same thing. A setback lowers the thermostat setting for the whole house; closing registers leaves the setting where it was.
-
 ## Sources
 
 - [Programmable Thermostats (DOE Energy Saver)](https://www.energy.gov/energysaver/programmable-thermostats) — a 7–10°F setback for 8 hours a day can save up to about 10% a year

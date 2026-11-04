@@ -89,16 +89,6 @@ Here's the order of work, drawn from MDH and EPA.
 
 The EPA says a homeowner can usually clean mold covering less than about 10 square feet, roughly a 3-by-3-foot patch. Larger areas, mold in HVAC ducts, or mold after sewage or other contaminated water call for a professional. A smell that lingers after humidity has stayed below 60% for a while is also worth a professional look, since the source may be hidden.
 
-## FAQ
-
-### My hygrometer reads 55%. Is that a problem?
-
-It's under EPA's 60% line but above the ideal 30–50% range. If there's a musty smell, bringing it down is worth doing. In a cold-climate winter, 55% is high. ENERGY STAR recommends 30–40% in the heating season to prevent window condensation.
-
-### Are the musty smells themselves harmful?
-
-EPA says the health effects of breathing mVOCs are largely unknown. The smell matters more as a sign that mold is growing. Treat it as the clue that leads you to the damp spot.
-
 ## Sources
 
 - [Mold Course, Chapter 1 (US EPA)](https://www.epa.gov/mold/mold-course-chapter-1) — mVOCs as the source of musty odor; a moldy odor should be investigated

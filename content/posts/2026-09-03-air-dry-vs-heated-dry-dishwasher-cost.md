@@ -116,20 +116,6 @@ Plastic containers are the usual holdouts. If you need them dry right away, towe
 
 **Choose air dry** if you can open the door after the cycle and your loads are mostly glass, ceramic, and metal. **Keep heated dry** if you run the dishwasher overnight and need dry dishes in the morning. At a few cents a load, convenience is a fair reason either way.
 
-## FAQ
-
-### Does heated dry clean or sanitize dishes better?
-
-None of the sources here credit heated dry with cleaning or sanitizing; it's the drying stage, after the wash and final rinse. Some models have a separate sanitize option. That's a different setting from heated dry, so check your manual for what it does.
-
-### Is it cheaper to wash by hand and let dishes air-dry on a rack?
-
-No. ENERGY STAR says a certified dishwasher uses less than half as much energy as washing by hand and saves about 8,400 gallons of water a year. It also estimates savings of about $220 a year and over 230 hours of your time. By ENERGY STAR's comparison, a certified dishwasher comes out ahead on energy, water, money, and time.
-
-### What does it cost to run a dishwasher overall?
-
-ENERGY STAR says a standard certified dishwasher costs about $50 a year to run. By the ceiling above, pumps and drying together account for under about $20–22 of that, and heated dry is only part of that slice.
-
 ## Sources
 
 - [Dishwashers Key Product Criteria (ENERGY STAR)](https://www.energystar.gov/products/dishwashers/key_product_criteria) — 240 kWh/year cap, 215 cycles a year, drying included in the energy total

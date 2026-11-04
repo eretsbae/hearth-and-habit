@@ -99,20 +99,6 @@ A quick reset helps on days the zone gets messy. Fold it into the [15-minute wee
 
 If the zone sits in a cluttered entryway, start with one shelf or one drawer rather than reorganizing the whole area at once.
 
-## FAQ
-
-### Is constantly losing my keys a sign of a memory problem?
-
-The Alzheimer's Association describes misplacing things from time to time and retracing your steps to find them as a typical age-related change. The warning sign it lists is different: putting things in unusual places and being unable to retrace steps to find them. MedlinePlus advises seeing a health care provider if you're worried about forgetfulness.
-
-### Why did the drop zone work for two weeks and then stop?
-
-Two weeks is early. In the study Gardner and colleagues describe, automaticity kept climbing well past that on average, leveling off after an average of 66 days. Keep doing the action at the same cue, and treat a slip as a missed day, not a failure.
-
-### How do I get the rest of the household to use it?
-
-Give each person their own hook or tray so it's clearly theirs, and keep each person's habit to one action at first. The same habit rules apply to everyone: one cue, one simple action, repeated daily.
-
 ## Sources
 
 - [Making health habitual: the psychology of habit-formation and general practice (British Journal of General Practice, 2012)](https://bjgp.org/content/62/605/664) — context-dependent repetition, 66-day average, missed days, simple vs. complex actions, the 10-week planning tool

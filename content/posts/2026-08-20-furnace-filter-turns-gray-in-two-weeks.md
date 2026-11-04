@@ -116,20 +116,6 @@ While you're at it, leave the registers open.
 
 A deeper 4- or 5-inch filter needs a cabinet that holds it, so it's a contractor conversation if your furnace has a 1-inch slot. If you're weighing whether a duct problem justifies a service call, our checklist on [when a repair is worth calling a pro for](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html) can help.
 
-## FAQ
-
-### Does a gray filter mean my air is bad?
-
-Not necessarily. A grayer filter is catching more. The bigger worry is air that skips the filter through a loose slot cover or leaky return ducts, which carries unfiltered dust to the blower and into the house.
-
-### Can I wash a disposable filter and reuse it?
-
-PNNL says a filter clogged with debris should be replaced right away. Washable filters are a separate product. PNNL says they're cleaned every one to three months, and they must dry completely or they can grow mold.
-
-### Should I go back to a cheaper, coarser filter?
-
-Only if the finer one is causing airflow problems. The EPA says most systems can run a MERV 13 filter as long as it's replaced frequently. A coarser filter grays slower partly because it lets more fine dust through to the equipment.
-
 ## Sources
 
 - [Guide to Air Cleaners in the Home | US EPA](https://www.epa.gov/indoor-air-quality-iaq/guide-air-cleaners-home) — filters clean only while the system runs; systems usually run under 25% of the time; 60–90-day norm; snug fit

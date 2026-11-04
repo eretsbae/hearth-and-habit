@@ -156,20 +156,6 @@ If the brown strip runs along a sidewalk or driveway and shows up after winter, 
 
 If you need to dig deeper than a sod sample to look for buried debris, call 811 a few business days ahead so utility lines get marked. It's free.
 
-## FAQ
-
-### My sprinklers run every evening. Is that the problem?
-
-It can be two problems at once. Short daily runs can wet the surface without reaching six inches down, and evening runs keep blades wet overnight, the conditions NC State and K-State tie to brown patch. Switch to fewer, longer runs before sunrise.
-
-### Is the grass dead or just dormant from drought?
-
-K-State describes drought stress as wilting, thinning turf whose roots are still intact. If the turf resists your tug and the screwdriver says the soil is dry, water deeply and give it time. If it lifts loose with no roots, look for grubs.
-
-### Will a fungicide fix brown patch that's already there?
-
-No. K-State says curative applications cannot restore dead tissue. Change the watering and nitrogen. Then wait for cooler weather, when the grass can grow back, or reseed bare spots in fall.
-
 ## Sources
 
 - [Irrigation Audits Helpful (UNL Water)](https://water.unl.edu/article/lawns-gardens-landscapes/irrigation-audits-helpful) — catch-can test, screwdriver test, six-inch target, 1 to 1.5 inches a week

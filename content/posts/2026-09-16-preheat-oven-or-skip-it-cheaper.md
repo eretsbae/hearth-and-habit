@@ -89,20 +89,6 @@ Whichever you choose, judge doneness by temperature, not by look, smell or the c
 
 Whirlpool's preheat page above covers its ranges, and its voltage note applies to electric ones. A gas oven also has to heat its empty cavity, so the rack, door, and foil habits are worth trying there too. To price a preheat, you need the burner's rating from the manual and the gas rate on your bill. The sources here don't give gas preheat times, so time your own oven once.
 
-## FAQ
-
-### Is it safe to start food in a cold oven?
-
-The sources here don't address cold starts directly. What you can control is the end point: cook or reheat to a safe internal temperature checked with a food thermometer, which is 165°F for leftovers, per USDA. Expect the cook time to run longer than the recipe says, and don't judge doneness by the clock.
-
-### Why does my new oven take longer to preheat than my old one?
-
-Whirlpool's figures suggest the element type is a common reason. Hidden-element ovens, with a smooth floor, take about 20 minutes to reach 350°F, against 12–15 minutes for a visible coil. Extra racks and a 208-volt supply also slow it down.
-
-### Does opening the door once to put the food in waste much?
-
-Whirlpool's guidance is to wait for the preheat tone, put the food in, and then keep the door closed, using the oven light to check. The heat lost when you load the dish is part of normal use. What adds up is repeated peeking during preheat and cooking.
-
 ## Sources
 
 - [Long Preheat Times - Range | Whirlpool Product Help](https://producthelp.whirlpool.com/Cooking/Wall_Ovens_and_Ranges/Ranges/Bake_Performance/Long_Preheat_Times/Long_Preheat_Times_-_Range) — 12–15 and 20-minute preheat times, unused racks, door opening, foil, 208 V vs 240 V

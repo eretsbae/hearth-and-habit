@@ -119,20 +119,6 @@ Skip chemical drain cleaner. GE lists it among the things never to put into a di
 
 If your dishwasher drains through the disposal, a partial clog here can leave dirty water sitting in the dishwasher too. That's one of the quieter reasons a [dishwasher smells even after you run it empty](https://www.hearth-habit.com/2026/08/why-does-my-dishwasher-smell-even-after.html).
 
-## FAQ
-
-### I pressed reset and it still hums. What did I miss?
-
-The reset button only restores power. If the plate is still wedged, the motor hums again and the button trips again. Go back to the wrench and keep working until the plate turns complete circles in both directions. Then look into the chamber with a flashlight before you reset a second time.
-
-### My disposal trips the GFCI outlet under the sink. Is that the jam?
-
-The manufacturer pages here don't say. Free the plate first with the power off, then reset the GFCI and the disposal. If the outlet trips again as soon as a clear disposal starts, stop there and have an electrician check it. Test that GFCI monthly with its TEST and RESET buttons, as the Consumer Product Safety Commission advises.
-
-### How do I know if my disposal is batch-feed or continuous-feed?
-
-If a wall switch runs it, it's continuous-feed. If it only runs when you push a stopper down into the drain, it's batch-feed. GE's batch-feed manual explains that the stopper works the switch, so taking the stopper out is how you turn that type off.
-
 ## Sources
 
 - [Fixing a Jammed Garbage Disposal | InSinkErator](https://www.insinkerator.com/en-us/support/fixing-a-jammed-garbage-disposal) and [Resetting a Garbage Disposal | InSinkErator](https://www.insinkerator.com/en-us/support/resetting-a-garbage-disposal) — wrench location and size, using force until it turns full circles, models without a socket, 1/4-inch button drop, ten-minute and 20-minute cooldowns, checking breakers and fuses

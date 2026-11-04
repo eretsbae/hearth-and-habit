@@ -82,20 +82,6 @@ Matching purchases to real use is the same idea behind a 30-minute Sunday meal p
 
 The bag isn't the only place trapped moisture spoils food. Greens in a sealed clamshell go slimy for the same reason, as we explain in [why greens wilt two days after you buy them](https://www.hearth-habit.com/2026/08/why-do-my-greens-wilt-two-days-after-i.html). If the fridge starts smelling after a few weeks of summer storage, see [how to track down a fridge smell you can't find](https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html).
 
-## FAQ
-
-### Can I cut off the moldy spot and eat the rest?
-
-Don't. With soft bread, play it safe and throw out the whole loaf instead of trimming around the spots. Don't sniff it to decide, either: USDA's point is that smell and appearance tell you about spoilage, not safety.
-
-### Does a bread box help?
-
-A bread box keeps the loaf in one spot away from the stove and sunlight, which helps if that spot is cool. It doesn't change the 3-day cupboard window. Anything you won't finish by then still belongs in the freezer, or in the fridge for a no-preservative loaf.
-
-### Why does homemade bread mold so fast?
-
-Homemade bread usually has no mold inhibitor, and it's easy to wrap it before it has fully cooled. Let it cool completely on a rack. For baked bread with no preservatives, NDSU recommends the fridge to inhibit mold growth, and slicing and freezing whatever you won't eat within a few days stops staling too.
-
 ## Sources
 
 - [Food Storage Guide Answers the Question, FN579 (NDSU Extension)](https://www.ndsu.edu/agriculture/sites/default/files/2025-09/fn579.pdf) — 3-day cupboard time for bread and rolls, cool cabinets away from heat, refrigerating preservative-free bread to inhibit mold, 32–40°F fridge

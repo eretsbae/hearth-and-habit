@@ -104,20 +104,6 @@ If the same seam reopens every few months, or the wall behind it is soft, water 
 
 Old caulk turns brittle and wears out over time, and Arkansas Extension recommends checking it periodically. A fall walk-around, as part of a seasonal maintenance checklist, catches cracked exterior beads before winter.
 
-## FAQ
-
-### Can I put new caulk over old caulk?
-
-Not with these products. Red Devil's directions start with removing old caulking, its painter's caulk sheet calls for a joint free of old caulking, and GE lists old sealant among the things to clear from the joint.
-
-### How long before I can shower?
-
-It depends on the tube. GE's silicone says 30 minutes before water exposure. Red Devil's acrylics say 72 hours. The label wins over any general rule, including this article.
-
-### Why did my new caulk crack down the middle?
-
-The joint moved more than the caulk could stretch. Two likely causes are a low-movement product (painter's caulk on a working exterior joint) and a bead that is too deep or stuck to the back of the gap. Use a C920-rated product with a higher class number, and backer rod in deep gaps.
-
 ## Sources
 
 - [Advanced Silicone 2 Kitchen & Bath Sealant (GE Sealants)](https://gesealants.ca/products/advanced-silicone-2-kitchen-bath-sealant/) — 30-minute water exposure, backer rod over 1/2 in × 1/2 in, prep list, non-paintable, ASTM C920 Class 35

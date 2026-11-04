@@ -96,20 +96,6 @@ The EPA's Safer Choice label is a shortcut on the shelf that means something spe
 
 Buy the reusable items first, the cloths and brushes. Add the liquids as you run through jobs that need them. A caddy you can carry from room to room beats a packed cabinet where half the bottles are forgotten duplicates. That's the same logic as keeping a kitchen drawer edited down to what you'll actually reach for.
 
-## FAQ
-
-### Is vinegar a disinfectant?
-
-It's a cleaner, and a good one for mineral deposits and soap scum. By the EPA's definitions, disinfecting takes a registered product used for its full label contact time. When you need to kill germs, reach for the registered disinfectant or the bleach solution, never both together.
-
-### Do I need disinfectant if I have kids or pets?
-
-Not for routine messes. Soap and water or an all-purpose cleaner removes everyday dirt and germs. Save disinfecting for when someone in the house is sick, and follow the label's contact time when you do.
-
-### Can I use the bleach solution on kitchen counters?
-
-Clorox's directions for its diluted Disinfecting Bleach end with rinsing in clean water and air-drying. Follow that rinse step on any surface food touches. Don't use it on natural stone or anything the counter maker says to avoid.
-
 ## Sources
 
 - [What's the difference between products that disinfect, sanitize, and clean surfaces? (EPA)](https://www.epa.gov/coronavirus/whats-difference-between-products-disinfect-sanitize-and-clean-surfaces) — definitions, which products EPA registers, contact time

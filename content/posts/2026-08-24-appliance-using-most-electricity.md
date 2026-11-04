@@ -108,20 +108,6 @@ The microwave has a scary nameplate wattage but averages 107 kWh a year ($18), b
 3. **Put a plug-in watt meter on anything that plugs into a regular outlet.** That covers fridges, freezers, dehumidifiers, and window AC units. Leave it for a full week, since cycling appliances vary day to day, then multiply the weekly kWh by 52 and by your rate.
 4. **For hard-wired equipment** like water heaters, central AC, and pool pumps, compare months with and without heavy use, or ask your utility about an energy audit.
 
-## FAQ
-
-### Is my air conditioner or my water heater the bigger electric cost?
-
-Nationally they're close: 2,318 kWh for AC versus 2,706 kWh for an electric water heater, among homes that have them. In hot-humid regions AC wins easily at 4,173 kWh. In cold and marine regions, the electric water heater usually comes out ahead. With a gas water heater, AC is the bigger *electric* cost.
-
-### Does an old freezer in the garage really cost that much?
-
-A separate freezer averages 570 kWh a year, about $97 at 17¢, and a second fridge averages 494 kWh, about $84. ENERGY STAR estimates a fridge over 15 years old costs about $95 more a year to run than a new one. A week on a plug-in watt meter will tell you where yours falls.
-
-### Will unplugging appliances make a big difference?
-
-Only for the ones you don't need. Unplugging a mostly empty second fridge saves its whole load. Unplugging small electronics helps a little. Major appliances like the main fridge and water heater have to stay on.
-
 ## Sources
 
 - [Electricity use in homes (EIA)](https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php) — AC 19%, space heating and water heating 12% each; about 10,500 kWh average household use

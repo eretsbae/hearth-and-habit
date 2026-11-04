@@ -131,24 +131,6 @@ Even then, the extension service says establishment from seed can take two to si
 
 If the same spot keeps dying no matter when you seed it, the timing may not be the problem. Here's [why part of a lawn stays brown even when you water it](https://www.hearth-habit.com/2026/07/why-does-part-of-my-lawn-stay-brown.html).
 
-## FAQ
-
-### Will frost kill grass seedlings that just came up?
-
-A hard frost can kill seedlings that sprouted during a warm spell, which is the risk Rutgers flags for dormant seeding. For fall seedings, K-State says failures usually come from freeze-thaw heaving and drying out rather than cold itself. Watering until freeze-up helps more than worrying about one frosty night.
-
-### Should I put down extra seed if I'm late?
-
-Not for a late fall seeding. Extra seed doesn't make cold soil any warmer, and tall fescue and bluegrass won't establish once it drops to 50°F. A higher rate makes sense only for dormant seeding, where Rutgers suggests 30–50% more to make up for losses over winter.
-
-### Can I seed right before the first snow?
-
-Spread seed on bare, cold soil (40°F or below), not on top of snow. Nebraska Extension says the seed needs soil contact. Once seed is down, Nebraska Extension says continuous snow cover gives it the best protection.
-
-### Is early October too late in the transition zone?
-
-Not necessarily. NC State's Piedmont window runs into early October, and K-State treats October 15 as the last safe day for tall fescue in Kansas. Check your soil temperature, and seed only if you can keep watering.
-
 ## Sources
 
 - [Mild winter, what does it mean for overseeding of turf or dormant seeding? (Rutgers Center for Turfgrass Science)](https://turf.rutgers.edu/blog/mild-winter-what-does-it-mean-for-overseeding-of-turf-or-dormant-seeding/) — the 50°F cutoff for tall fescue and bluegrass, ryegrass germinating below 40°F, the 30–50% dormant rate increase, no fertilizer on frozen soil

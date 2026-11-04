@@ -96,20 +96,6 @@ What not to do: put it on the counter, in the sink without water, or in the gara
 
 The same time-and-temperature rules carry on. Refrigerate leftovers within 2 hours, divide the carcass meat and big pots of stuffing or gravy into shallow containers so they cool fast, and reheat to 165°F. Our guide to [how long leftovers really last](https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html) has the storage windows, and [the fridge storage and thawing rules in one place](https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html) covers the rest of the holiday food.
 
-## FAQ
-
-### Can I refreeze a turkey that thawed in the fridge if plans change?
-
-Yes, if it thawed in a fridge at 40°F or below and is still within the 1-to-2-day window for thawed poultry. Montana State Extension says fridge-thawed food may be refrozen without cooking, though USDA notes some quality loss. Past that window, throw it out rather than refreezing it. A turkey thawed in cold water or the microwave has to be cooked first. The details are in [is it safe to refreeze meat that thawed in the fridge?](https://www.hearth-habit.com/2026/08/is-it-safe-to-refreeze-meat-that-thawed.html)
-
-### Can I speed up a fridge thaw by unwrapping the turkey?
-
-Butterball's method keeps the wrapper on, both in the fridge and in cold water. If time is short, switch to cold water rather than changing the fridge method.
-
-### How do I know it's fully thawed?
-
-None of these sources gives a doneness test for thawing. If you find ice in the cavity or aren't sure, finish it in cold water or cook it as partly frozen, and rely on the thermometer reaching 165°F.
-
 ## Sources
 
 - [How to Thaw a Turkey | Butterball](https://www.butterball.com/how-to/thaw-a-turkey) — 1 day per 4 lb in the fridge, 40°F or below, breast-side-up on a tray, cold water at 30 min per lb with water changes

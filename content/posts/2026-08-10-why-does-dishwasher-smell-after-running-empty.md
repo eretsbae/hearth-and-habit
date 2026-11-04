@@ -87,16 +87,6 @@ Heated hard water forms calcium carbonate deposits. The U.S. Geological Survey c
 
 If the kitchen smells even when the dishwasher hasn't run, check the sink drain and disposal before you blame the machine. A smell that's strongest at the sink points there, not to the dishwasher.
 
-## FAQ
-
-### I cleaned everything and it still smells. Now what?
-
-Check whether water is sitting above the halfway point of the filter area after a cycle. If it is, the filter, the drain hose, or the pump isn't letting water out, and the smell will keep returning until that's fixed. If the filter and hose are clear, a blocked pump is the remaining cause on Bosch's list.
-
-### Can I just use bleach?
-
-Not on top of vinegar or an acidic cleaner, ever. The combination releases chlorine gas. None of the manufacturer steps above call for bleach.
-
 ## Sources
 
 - [How to Clean the Dishwasher Filters](https://producthelp.whirlpool.com/Dishwashers/Product_Info/Dishwasher_Cleaning_and_Care/How_to_Clean_the_Dishwasher_Filters) and [Water Remains in Filter Area (Whirlpool)](https://producthelp.whirlpool.com/Dishwashers/Dishwasher/Cycle_Concerns/Not_Draining%2F%2FWater_Remains/Water_Remains_In_Filter_Area_-_Dishwasher) — filter interval and steps, odor as a filter sign, normal standing-water level

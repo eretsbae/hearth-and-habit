@@ -141,20 +141,6 @@ Berkeley Lab also warns not to plug and unplug devices with worn cords.
 
 For perspective on the truly big loads, see [which appliance uses the most electricity in a house](https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html). For habits that cost nothing, see [how to cut your electric bill without buying anything](https://www.hearth-habit.com/2026/07/how-to-cut-your-electric-bill-without.html).
 
-## FAQ
-
-### Will this show up on my bill?
-
-Unplugging one charger won't. Cutting a real always-on load will. Turning off a 57 W trio of set-top boxes saves about 500 kWh a year (57 × 8.76), about $85 at 17¢. Halving NRDC's average 1,300 kWh idle load would save about 650 kWh, or roughly $110 a year at 17¢.
-
-### Are smart plugs worth it?
-
-They help on devices you want fully off on a schedule, like a printer, a TV and soundbar cluster, or a console. Berkeley Lab's median for a smart plug's own standby is 0.25 W, with a high of about 1.4 W. Use one only on a device that draws more than the plug does.
-
-### Is it bad for electronics to cut power at the wall?
-
-Berkeley Lab suggests switchable power strips for clusters of computer or video gear, and warns against plugging and unplugging devices with worn cords. Wait until updates or recordings have finished, and expect clocks to reset. Keep the devices listed above, like routers, alarms, and medical equipment, on.
-
 ## Sources
 
 - [Products that Use Standby Power | Lawrence Berkeley National Laboratory](https://standby.lbl.gov/standby-power-data-metering) — measured standby medians and maximums by device type

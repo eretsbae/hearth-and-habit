@@ -139,20 +139,6 @@ EPA puts the average family's water spending at more than $1,000 a year, so a le
 
 For the general decision, see [how to tell when a repair is worth calling a pro for](https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html).
 
-## FAQ
-
-### I replaced the flapper and it still runs. What now?
-
-Repeat both tests. If water goes into the overflow pipe, the fill valve or water level is the problem, not the flapper. If the tank still drains with the supply off, clean the flush-valve rim, check the new flapper's size and chain slack, then replace the flush valve.
-
-### Can I use a universal flapper on any toilet?
-
-It has to match your opening: 2-inch or 3-inch. Adjustable flappers fit both. Check the drain opening against the size table above, or measure it with the water off.
-
-### Are blue drop-in tank tablets okay?
-
-Fluidmaster says not to use in-tank cleaners that contain bleach or chlorine. They wear out flappers faster, can damage tank parts and cause flooding, and void its warranty.
-
 ## Sources
 
 - [Toilet Running Constantly (Fluidmaster)](https://fluidmaster.com/toilet-problems/toilet-running-constantly/) and [Toilet Flappers (Fluidmaster)](https://fluidmaster.com/toilet/part-type/flapper/) — overflow and shutoff tests, fill valve cleaning, flush valve as the next step, bleach-tablet warning, flappers as the leading cause

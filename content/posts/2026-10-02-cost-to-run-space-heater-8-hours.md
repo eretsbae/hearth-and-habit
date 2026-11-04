@@ -112,20 +112,6 @@ The other rules from both agencies:
 
 To take the chill off a bedroom, run the heater while you're awake in the room, then switch it off at bedtime. For the hours you're asleep, the [thermostat settings guide](https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html) covers night setbacks for the whole house.
 
-## FAQ
-
-### Is eco mode or the heater's thermostat worth using?
-
-Yes. The cost table assumes the heater draws full power for all 8 hours. Any time the thermostat cycles it off cuts the bill in proportion. A watt meter will show your real kWh.
-
-### Will a space heater show up on my electric bill?
-
-Yes, plainly. At 1,500 W for 8 hours a day, the math above comes to 360 kWh a month. If you're trying to work out what else is driving a high bill, the guide to [which appliance is quietly using the most electricity](https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html) ranks the other big users.
-
-### My house has electric baseboard heat. Is a space heater cheaper?
-
-Both are electric resistance heat at the same price per kWh, so neither makes heat more cheaply. A space heater only saves money if it lets you turn the baseboards down in the rest of the house.
-
 ## Sources
 
 - [British thermal units (Btu) | U.S. EIA](https://www.eia.gov/energyexplained/units-and-calculators/british-thermal-units.php) and [Natural Gas Prices | U.S. EIA](https://www.eia.gov/dnav/ng/ng_pri_sum_dcu_nus_m.htm) — Btu per kWh, therm, and cubic foot; 2026 residential gas prices by month

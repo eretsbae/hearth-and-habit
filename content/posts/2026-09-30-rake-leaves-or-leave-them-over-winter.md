@@ -110,20 +110,6 @@ Leaves also clog gutters, downspouts, and low spots where water needs to drain. 
 
 That routine fits the [bare-minimum lawn care approach](https://www.hearth-habit.com/2026/07/lawn-care-for-people-who-dont-care.html): no bagging, no hauling, and the leaves feed the soil instead of the landfill.
 
-## FAQ
-
-### Will leaves left on the lawn all winter kill the grass?
-
-A light scattering won't. Illinois Extension says leaves covering about 10–20% of the turf can stay. A layer that hides the grass can kill it, and it raises the risk of snow mold under snow cover.
-
-### Do oak leaves make the soil acidic?
-
-Not when mowed in. In Michigan State's oak and maple trials, soil pH didn't change. Purdue states that leaves have no effect on soil pH.
-
-### Is mulching leaves as good as raking for the grass?
-
-For turf health, the trials found no harm at the rates tested. MSU's plots had more soil organic matter, and Purdue says mulching doesn't increase thatch, disease, or weeds. Raking is still the answer when there are more leaves than the mower can shred into the grass.
-
 ## Sources
 
 - [What To Do With All Those Falling Leaves? | Purdue Turfgrass Science](https://turf.purdue.edu/what-to-do-with-all-those-falling-leaves/) — rake when you can't see turf; mulching doesn't increase thatch, disease, weeds, or change pH; dry leaves mulch more easily; don't burn

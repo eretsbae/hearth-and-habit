@@ -131,24 +131,6 @@ Raw meat thawed in the fridge can be refrozen without cooking while it's still i
 
 For every storage, thawing, and reheating rule in one place, see our [food storage safety guide](https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html).
 
-## FAQ
-
-### Is day 5 okay if it looks and smells fine?
-
-No. Listeria can grow in the fridge, and the bacteria that cause food poisoning generally don't change how food looks or smells, so "fine" tells you nothing about safety. Day 5 is past the USDA window. If you know on day 2 or 3 that you won't finish something, freeze it then.
-
-### Does restaurant or takeout food get the same 3–4 days?
-
-Yes, and the 2-hour limit applies too. The University of Nebraska says to refrigerate food within 2 hours of cooking or being served at a restaurant. Count the days from when it was served at the latest; the kitchen may have made parts of it earlier.
-
-### Can I put hot food straight into the fridge?
-
-Yes, once it's divided into shallow containers. A single deep pot is the problem, because a big pot cools slowly and lets bacteria multiply. Nebraska Extension says to cover soup once it has completely cooled.
-
-### Does reheating reset the clock?
-
-No. Track leftovers from the day you first cooked them. Reheating kills some bacteria, but it doesn't restore the food to day one, and some toxins, like the one from rice, survive reheating.
-
 ## Sources
 
 - [Leftovers and Food Safety (USDA FSIS)](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety) — 3–4 day fridge window, 165°F reheating, shallow containers for large batches, 3–4 month freezer quality

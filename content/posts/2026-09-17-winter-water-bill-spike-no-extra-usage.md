@@ -106,20 +106,6 @@ The Red Cross says to let cold water drip from a faucet served by exposed pipes 
 
 For scale, the EPA says a leak of one drip per second wastes more than 3,000 gallons a year, or about 250 gallons a month. A deliberate trickle can run faster than that. Drip only during hard freezes, only at faucets on exposed or outside-wall pipes, and stop once the cold breaks. USU points to more permanent methods such as insulation, though it notes insulation alone won't protect pipes from prolonged freezing without some heat or periodic water flow. Our guide to [the temperature when pipes actually freeze](https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html) helps you decide which nights need it.
 
-## FAQ
-
-### Can cold weather make my water meter read high?
-
-The meter test answers that for your home. If the meter doesn't move during two hours of no use, it isn't recording water while none is being used. Then look at the bill for an estimated read or a rate change. Pennsylvania's rules, for example, require utilities with remote-read meters to verify them with an actual reading at least once every five years.
-
-### My bill went up while we were away for the holidays. Why?
-
-Your use should have dropped, so a higher bill points to water running while nobody was there. That might be a toilet flapper, or a pipe that froze and cracked and then leaked after it thawed, which USU warns can happen inside walls. Run the meter test when you're back. Make sure everyone in the house knows where the main shutoff is, as USU advises.
-
-### Is a slightly higher winter bill normal?
-
-A small change can come from a rate increase, a longer billing period, or an estimate catching up, none of which is a leak. Use the table above and your own history. If you're well above the benchmark for your household size, or the meter moves during the two-hour test, it's worth hunting further.
-
 ## Sources
 
 - [Fix a Leak Week | EPA WaterSense](https://www.epa.gov/watersense/fix-leak-week) — the January/February 12,000-gallon benchmark, two-hour meter test, dye test, flapper replacement, leak statistics, one-drip-per-second figure

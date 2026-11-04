@@ -91,20 +91,6 @@ UConn gives August 15 through mid-September as the best seeding window in Connec
 
 Earlier versions of this article suggested gypsum and a compost top-dressing. The extension and agency sources we checked don't address either for de-icing damage, so we've left them out. A soil test is the better way to find out what your strip needs.
 
-## FAQ
-
-### Will the dead strip come back on its own?
-
-Sometimes partly, if the soil drains well. The Morton Arboretum says salt leaches out of well-drained soils, while damage can be severe where drainage is poor. A strip that stays bare after spring watering needs the aerate-and-reseed sequence above in late summer.
-
-### Are "pet-safe" ice melts better for the lawn?
-
-Not by label alone. The Nine Mile Creek Watershed District says de-icer labels aren't regulated and every product has an impact. Check the ingredients against the table above, and use less of whatever you buy. For pets, the MPCA says de-icers can be toxic to animals that eat them, lick their paws, or drink the melt, and can irritate and crack paw pads. It advises keeping de-icers away from pets.
-
-### Does sand help?
-
-For grip, yes. For melting, no. The MPCA and the watershed district both say sand doesn't melt ice. The district also says not to mix sand and salt. On days below rock salt's 15°F cutoff, sand for traction is a reasonable swap.
-
 ## Sources
 
 - [Too much salt this winter | Minnesota Pollution Control Agency](https://www.pca.state.mn.us/news-and-stories/help-save-minnesota-waters-your-pets-and-your-wallet-from-too-much-salt-this-winter) and [Chloride | MPCA](https://www.pca.state.mn.us/pollutants-and-contaminants/chloride) — 15°F cutoff, coffee-mug dose, shovel first, sweep up, sand; salt's effect on soil and pets

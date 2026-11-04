@@ -175,22 +175,6 @@ That 1,000 gallons ends up in your walls, floors, or crawl space. It is also the
 
 The bigger cost is the damage the water causes. From 2024 through June 2025, State Farm paid more than 20,000 freeze-related claims totaling over $628 million, and the average payment was over $30,000. Shutting off the water before a long trip is free.
 
-## FAQ
-
-### Can PEX pipe still freeze?
-
-Yes. Water freezes at the same temperature whether the pipe is copper, PVC, or PEX, and none of the guidance here makes an exception for plastic pipe. Protect PEX lines in cold spaces the same way you would metal ones. When thawing, use gentle, gradual heat, since USU warns that too much heat too fast can damage plastic parts.
-
-### Should I drip hot or cold water, and what will it cost?
-
-The Red Cross recommends dripping cold water from faucets served by exposed pipes. Drip whenever those lines are exposed to below-freezing temperatures, which usually means overnight. If a hot-water line runs through the same cold wall, remember that USU notes hot lines freeze too.
-
-To estimate the cost, catch the drip in a measuring cup for one minute. Convert that to gallons per hour, multiply by the hours you'll drip, and multiply by your utility's price per gallon. Compare that total with a small crack's 250 gallons a day.
-
-### Should I put antifreeze in my sprinkler or pool lines?
-
-Not unless the manufacturer or installer tells you to. The Red Cross specifically warns against adding antifreeze to these lines without that direction.
-
 ## Sources
 
 - [Understanding Wind Chill (National Weather Service)](https://www.weather.gov/safety/cold-wind-chill-chart) — wind chill cools pipes faster but never below the air temperature, including the -5°F / -31°F example

@@ -133,20 +133,6 @@ The USFA reports that portable heaters were involved in only 3% of home heating 
 
 The running cost adds up too. Here's [what a space heater costs to run for 8 hours](https://www.hearth-habit.com/2026/10/how-much-does-it-cost-to-run-space.html).
 
-## FAQ
-
-### Will a register booster fan fix a cold room?
-
-It can't fix a duct that's crushed, disconnected, or leaking, and it can't fix a room with no return path. In a closed room, pushing more air in doesn't help when the air has no way out. Run the three checks first. If the duct is intact and sealed and the room has a return path, a technician can tell you whether the run itself is undersized.
-
-### Is it normal for an upstairs room to be colder in winter?
-
-A cold upstairs room usually has a specific cause worth checking: ducts running through a cold attic, a long duct run, a ceiling with thin insulation (check for ice dams), or a floor over a garage.
-
-### Could one cold room mean my furnace is failing?
-
-One cold room points to that room's air supply or heat loss. If every room is cooler than it used to be, that's a system problem. Start by [checking your furnace filter](https://www.hearth-habit.com/2026/07/furnace-filter-basics-how-often-to.html), then have the furnace looked at.
-
 ## Sources
 
 - [Duct Sealing (ENERGY STAR)](https://www.energystar.gov/saveathome/heating-cooling/duct-sealing) — 20–30% of duct air lost to leaks; signs of duct problems; mastic or metal tape, never duct tape; insulating ducts

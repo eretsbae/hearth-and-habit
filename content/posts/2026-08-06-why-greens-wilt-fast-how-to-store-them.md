@@ -100,16 +100,6 @@ If you shop once a week, plan meals so the spinach, arugula, and spring mix get 
 
 If the fridge also has a smell you can't place, slimy greens hiding in a back corner can be the source. See [why the fridge smells when you can't find the source](https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html).
 
-## FAQ
-
-### Is lettuce with rusty brown spots safe to eat?
-
-The spots are russet spotting, which the WFLO manual says is induced by ethylene and worse at 38°F than at 32°F. The sources here describe its cause, not whether it's safe to eat. If the leaves are also slimy or mushy, that's rot, and they should be thrown away.
-
-### Why does my lettuce freeze in the fridge?
-
-Lettuce freezes at about 31.3–31.7°F, so a spot that runs just below 32°F can damage it. Mississippi State Extension notes the back of the fridge is the coldest part. Keep greens in the crisper drawer, and if the whole fridge is near 32°F, turn it up slightly.
-
 ## Sources
 
 - [WFLO Commodity Storage Manual: Lettuce](https://www.gcca.org/system/files/WFLO-Commodity-Storage-Manual-2018-Lettuce.pdf) and [Spinach](https://www.gcca.org/system/files/WFLO-Commodity-Storage-Manual-2018-Spinach.pdf) (Global Cold Chain Alliance) — shelf life by temperature, 32–34°F and 95–100% humidity, freezing points, russet spotting and ethylene, spinach yellowing and soft rot

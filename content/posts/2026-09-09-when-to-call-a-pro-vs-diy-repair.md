@@ -114,20 +114,6 @@ The Federal Trade Commission's checklist for hiring a contractor:
 - **Don't pay everything up front.** Some states limit down payments. Hold the final payment until the work is done.
 - **Walk away from** door-to-door "we're in the area" offers, "leftover materials" deals, pressure to decide now, and cash-only demands.
 
-## FAQ
-
-### Can I replace an outlet or light switch myself?
-
-A like-for-like swap on existing wiring is common DIY. Turn off the breaker and confirm the wires are dead with a voltage tester before touching them. If you replace a GFCI outlet, test it monthly with its TEST and RESET buttons, as the Consumer Product Safety Commission recommends. New circuits, panel work, and wiring for new appliances belong to a licensed electrician.
-
-### Will DIY work cause problems with insurance or selling the house?
-
-The sources here don't address insurance directly. Work that needs a permit and doesn't get one may surface later in an inspection. If you're unsure whether a job needs a permit, ask your local building department before starting, and ask your insurer if it's major work.
-
-### What should I do first in any repair emergency?
-
-Make it safe before deciding who fixes it. For gas, leave and call from outside. For water, close the nearest valve or the main. For electrical, turn off the breaker if you can reach the panel from a dry spot. Once the problem is safe, there's time to compare a DIY fix, a weekday call, and an emergency call.
-
 ## Sources
 
 - [Gas Safety | PG&E](https://www.pge.com/en/outages-and-safety/safety/gas-safety.html) — what to do if you smell gas

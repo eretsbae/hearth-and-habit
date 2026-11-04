@@ -107,20 +107,6 @@ For thin spots in a cool-season lawn, fall is the seeding season. The deadline d
 
 Cushions and fabric come inside or under cover. Sweep leaves off the deck so wet piles don't sit on the boards all winter.
 
-## FAQ
-
-### Can I just mow all the leaves instead of raking?
-
-For most yards, yes. MSU mulched layers up to about 18 inches deep into an unfertilized lawn. The visible litter dissipated as the grass grew in spring, and a 3-inch mower deck left less of it than a 1.5-inch one. Rake only the heavy, wet mats that stay in one spot, and keep leaves out of the street.
-
-### My outdoor faucet is frost-proof. Do I still need to do anything?
-
-Disconnect the hose. An attached hose can keep water from draining out of a frost-proof faucet. If you're not sure which type you have, IBHS notes that homes built before 2010 usually don't have frost-proof faucets. In that case, shut off the indoor valve and drain the line.
-
-### Should I cut the grass shorter for the last mow?
-
-None of the sources here call for a special short final cut. MSU's leaf research found a 3-inch deck left less leaf litter than a low setting. If you're mowing leaves in on that last pass, a higher deck works in your favor.
-
 ## Sources
 
 - [When Leaves Turn Into Litter (Thomas Nikolai, Michigan State University)](https://archive.lib.msu.edu/tic/holen/article/2002oct11.pdf) — leaf-mulching studies: 100 to 450 lb per 1,000 sq ft, fewer weeds with maple leaves, 3-inch deck height

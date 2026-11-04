@@ -112,20 +112,6 @@ A fridge also can't clean itself with a hot cycle the way a [dishwasher with a l
 - **Put the filter change on the calendar,** six months out.
 - **Fold a quick fridge check into a routine you already keep,** like a [15-minute weekly home reset](https://www.hearth-habit.com/2026/07/the-15-minute-weekly-home-reset-simple.html).
 
-## FAQ
-
-### Is food in a smelly fridge still safe to eat?
-
-Go by time and temperature, not by odor. Check that the fridge has held 40°F or below and that each food is still within its storage window; the smell in the cabinet doesn't tell you either way. A food that smells fine isn't automatically safe, and anything past its window goes, however it smells. Keep food covered while you hunt for the source. Our [food safety rules in one place](https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html) cover storage windows by food.
-
-### Why does the smell come back a few days after I clean?
-
-A likely reason is a wet spot that was cleaned but not dried, or wasn't reached at all. The drip pan, the defrost drain, and gasket folds hold moisture. Clean them, dry them completely, and recheck the thermometer.
-
-### Could the smell be coming from the freezer?
-
-It can. In a fridge where air moves between the two compartments, an uncovered package or old ice in the freezer can scent the whole unit. Search it with the same table.
-
 ## Sources
 
 - [Are You Storing Food Safely? (FDA)](https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely) — 40°F and 0°F targets, weekly appliance-thermometer checks, wiping spills to limit Listeria, not overpacking

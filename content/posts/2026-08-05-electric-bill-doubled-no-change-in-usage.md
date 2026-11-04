@@ -139,16 +139,6 @@ That's one heater on one schedule. For other run times, see [what a space heater
 
 If the month was mild and there's no heater, check your utility's hourly data for the middle of the night. High overnight use can mean something is running constantly, such as a pump that won't shut off, a water heater, or a heater in an unused room. To find the appliance, follow [which appliance is quietly using the most electricity](https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html). For a full room-by-room process, use the [step-by-step high-bill checklist](https://www.hearth-habit.com/2026/09/why-is-my-electric-bill-so-high-step-by.html).
 
-## FAQ
-
-### My kWh is the same as last year. Why is the bill double?
-
-Then the price changed. Divide the total by the kWh. If that average price roughly doubled, look for an expired fixed rate, a tier change, or a settle-up line. Also check that last year's bill was based on an actual read and not an estimate.
-
-### Do I have to stay on the higher rate after my plan expired?
-
-In Texas, no. The default month-to-month product can be cancelled at any time without a fee, so you can sign a new plan right away. Elsewhere, read the renewal terms in your contract or ask your regulator.
-
 ## Sources
 
 - [H.B. No. 16, Texas Legislature (enrolled text)](https://capitol.texas.gov/tlodocs/87R/billtext/html/HB00016F.HTM) — fixed-rate expiration notices, default month-to-month product, no-fee cancellation, ban on wholesale-indexed residential plans

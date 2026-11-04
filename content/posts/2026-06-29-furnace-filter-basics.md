@@ -187,32 +187,6 @@ If your bill jumped and the filter isn't the explanation, here's [why an electri
 
 To make the monthly check stick, pair it with the other easy-to-miss seasonal home maintenance jobs.
 
-## FAQ
-
-### Is it OK to run the system without a filter for a day or two?
-
-None of these sources gives a safe filter-free duration. PNNL lists protecting the HVAC equipment as one of a filter's three purposes, and an open slot can also pull in unwanted air.
-
-If the old filter is intact and not clogged, leave it in until the replacement arrives. If it has collapsed or is damp or moldy, PNNL says it needs to come out now. In that case, get a replacement the same day or keep the system off if the weather allows.
-
-### Are washable or permanent filters better?
-
-PNNL describes washable filters as usually electrostatic aluminum mesh or foam. They need cleaning every 1–3 months and must air-dry completely before going back in, because a damp filter can harbor mold.
-
-Judge one the way you'd judge a disposable: by its MERV rating and its pressure drop, if the maker publishes them.
-
-### What about FPR or MPR ratings on store-brand filters?
-
-The EPA notes that FPR and MPR are proprietary rating systems created by individual retailers and manufacturers. MERV is based on a national consensus standard. To compare filters across brands, look for the MERV rating.
-
-### Why doesn't my tape measure match the size printed on the filter?
-
-The printed dimensions are a rounded "nominal" size, so the filter itself often measures a bit smaller. Buy by the size printed on the old filter or listed in your furnace manual. Whatever you buy should slide in snugly with no gaps and no bending, which is the EPA's fit test.
-
-### Will a high-MERV filter void my furnace warranty?
-
-None of the sources here connects filter choice to warranty terms. Your furnace manual lists the filter type and size the manufacturer specifies, so check there before upgrading.
-
 ## Sources
 
 - [Heat & Cool Efficiently | ENERGY STAR](https://www.energystar.gov/saveathome/heating-cooling) — monthly filter checks and changing at least every 3 months

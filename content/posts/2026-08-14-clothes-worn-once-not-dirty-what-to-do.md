@@ -105,20 +105,6 @@ The chair pile forms because a worn item has no assigned place, so it lands on w
 
 Deciding once where things go is the same idea as handling an item only once, applied to the gray zone between closet and hamper.
 
-## FAQ
-
-### My clothes still smell after washing. Is that the same problem?
-
-Not quite. Polyester holding onto body odor can be part of it; the Alberta research found it held odor longer than wool or nylon. A washer that leaves clothes smelling musty is a different issue.
-
-### Does a fabric refresher spray count as a wash?
-
-None of these sources tested sprays, and they don't change the wear counts above. If a polyester top smells after one wear, the fiber research points to a wash, not a spray.
-
-### How long should something air before it goes back in the closet?
-
-The Alberta study measured odor on wool and nylon after 24 hours, and both were close to cotton by then. A full day on an open hook is a reasonable window for those fibers. Polyester didn't clear that way.
-
 ## Sources
 
 - [Ask an Expert – The Dirt on Laundry: How Often to Wash? | USU Extension](https://extension.usu.edu/news_sections/home_family_and_food/the-dirt-on-laundry-how-often-to-wash) — American Cleaning Institute wear counts by garment

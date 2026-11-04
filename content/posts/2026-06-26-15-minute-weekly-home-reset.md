@@ -127,16 +127,6 @@ Two things lower the baseline it returns you to:
 - **Fewer things landing in the basket.** The one-touch rule, putting things all the way away the first time you pick them up, shrinks the basket during the week.
 - **Fewer things, period.** A separate decluttering effort, starting with one drawer, keeps the reset from just shuffling excess around.
 
-## FAQ
-
-### Is once a week really enough?
-
-For things being out of place, it works for many households, especially paired with dishes and a counter wipe after dinner most days. Homes with young kids may do better with two shorter passes, for example Wednesday and Sunday. Two passes a week also double the repetitions, which may help the habit form sooner.
-
-### How do I get the rest of the household to do it?
-
-Give each person a zone and the same start time, and keep the timer short enough that it isn't a negotiation. Kids can own the basket run at minute 15. The ATUS figures show women spend more time on household activities than men on the days they do them (2.8 hours vs. 2.1), so a split reset is also a fairer one.
-
 ## Sources
 
 - [How to form a habit (British Psychological Society)](https://bps.org.uk/research-digest/how-form-habit) — 66-day average and 18–254-day range, minimal effect of a single missed day, longer plateau for exercise than for eating or drinking behaviors, self-report limitation

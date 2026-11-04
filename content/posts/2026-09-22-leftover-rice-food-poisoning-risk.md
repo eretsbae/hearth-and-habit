@@ -132,20 +132,6 @@ Yes. UF IFAS lists pasta alongside boiled and fried rice among the foods involve
 
 For the general fridge rules on everything else, see [how long leftovers really last](https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html) and our [leftovers and fridge storage rules in one place](https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html).
 
-## FAQ
-
-### How fast would I get sick, and how long does it last?
-
-The vomiting form comes on quickly. NDSU Extension puts it at 30 minutes to five hours, and UF IFAS says about 1 to 6 hours. In the CDC's Virginia outbreak, the median was 2 hours. NDSU says symptoms usually clear within a day or two, but they can be more serious for young children and older adults.
-
-### Is rice eaten cold, like a rice salad, riskier than reheated rice?
-
-What matters most is how it was cooled and how long it's been stored. Reheating can't remove toxin that formed during slow cooling, so a cold rice salad needs the same cooling clock and storage window as rice you'll reheat.
-
-### Can I make fried rice from day-old rice?
-
-Use rice that was spread out and refrigerated within an hour of cooking and is still inside its storage window, and eat the fried rice hot rather than holding it at room temperature. Rice that cooled at room temperature before going into the fridge is the setup in the CDC's Virginia outbreak, and frying it won't destroy the toxin.
-
 ## Sources
 
 - [Bacillus cereus Food Poisoning Associated with Fried Rice at Two Child Day Care Centers, Virginia, 1993 (CDC MMWR)](https://www.cdc.gov/mmwr/preview/mmwrhtml/00025744.htm) — outbreak timeline, incubation, toxin surviving stir-frying, fried rice as a leading cause

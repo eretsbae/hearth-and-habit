@@ -90,20 +90,6 @@ ENERGY STAR says certified smart thermostats can use geofencing (your phone's lo
 
 If the setback isn't moving your bill, the system itself may be wasting energy. DOE's cooling guide says routinely replacing or cleaning the air filter can lower AC energy use by 5–15%. It also says air lost through ducts can account for about 30% of a cooling system's energy. Leaky window and door trim lets hot air in all day too. Our [caulking guide](https://www.hearth-habit.com/2026/07/caulking-101-where-to-caulk-what-to-buy.html) covers where those gaps hide. These [no-cost habits for a lower electric bill](https://www.hearth-habit.com/2026/07/how-to-cut-your-electric-bill-without.html) stack on top of a setback rather than replacing it.
 
-## FAQ
-
-### Doesn't the AC have to work harder later, cancelling the savings?
-
-The cool-down does use energy, but DOE's estimate of up to about 10% is for the routine of setting back and returning to normal every day. The house gains less heat while it's warmer inside, and that's where the savings come from. Timing matters more than the cool-down itself, especially on a time-of-use plan.
-
-### Is it safe to leave pets in the house with the AC off?
-
-On a hot day, a closed house with the AC off can get uncomfortable fast, and that's a risk for pets, babies, and anyone heat-sensitive. Use a moderate setback instead of switching it off when someone, human or animal, stays home.
-
-### What setting should I use while I'm home?
-
-SMUD recommends 78°F or higher in summer, and DOE says ceiling fans let you raise the setting about 4°F without losing comfort. Start there and adjust in 2-degree steps.
-
 ## Sources
 
 - [Programmable Thermostats (DOE Energy Saver)](https://www.energy.gov/energysaver/programmable-thermostats) — a 7–10°F setback for 8 hours a day saves up to about 10% a year

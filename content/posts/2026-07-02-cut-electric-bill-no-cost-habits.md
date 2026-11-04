@@ -130,16 +130,6 @@ Don't compare bill totals. Rates change and billing cycles run different lengths
 
 Compare that with the same month last year, which many utilities print on the statement, so weather is roughly matched. Pick two or three habits from the top of the table, run them for a full cycle, and check. If usage jumped and none of this explains it, work through our [step-by-step checklist for a high electric bill](https://www.hearth-habit.com/2026/09/why-is-my-electric-bill-so-high-step-by.html).
 
-## FAQ
-
-### Isn't it cheaper to keep the house at one temperature than to reheat it?
-
-For a furnace or central AC, no. That's the basis of the DOE's setback figure. For a heat pump, often yes, because, as Efficiency Maine explains, a heat pump uses more energy to catch up quickly than to hold steady.
-
-### What should I buy once the free habits are done?
-
-A plug-in watt meter is the cheapest next step, because it tells you which standby loads are worth chasing. After that, look at sealing drafts, then bigger-ticket upgrades.
-
 ## Sources
 
 - [Electricity use in homes (EIA)](https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php) and [How much electricity does an American home use? (EIA)](https://www.eia.gov/tools/faqs/faq.php?id=97&t=3) — 2020 end-use shares (air conditioning 19%, space heating 12%, water heating 12%); about 899 kWh a month (2022)

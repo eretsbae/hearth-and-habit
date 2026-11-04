@@ -59,7 +59,7 @@ There are two ways to see a leak from tank to bowl.
 
 Before replacing a flush valve, run a finger around the rim the flapper seals against. Korky says to clean off mineral deposits so the flapper can seal. Replace the flush valve if it's cracked or warped.
 
-If yours refills for a few seconds every so often and then stops, that's often a slow tank-to-bowl leak. Our guide to why a toilet runs for a few seconds then stops covers that pattern in detail.
+If yours refills for a few seconds every so often and then stops, that's often a slow tank-to-bowl leak.
 
 ## Flapper fixes
 

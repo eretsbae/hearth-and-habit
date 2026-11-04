@@ -79,7 +79,7 @@ FDA says food kept at 0°F stays safe indefinitely, but quality declines the lon
 - **Rewrap before refreezing.** FDA says freezer burn, the grayish-brown leathery spots, comes from food that isn't wrapped airtight. It's a quality problem, not a safety one, but it's easy to prevent. Press the air out of a freezer bag or overwrap the store package.
 - **Cook first if the meat is near the end of its window.** Cooking it inside the window swaps the raw clock for the cooked-leftover clock. Divide it into shallow containers so it cools quickly. USDA gives cooked leftovers 3–4 days in the fridge at 40°F or below and 3–4 months in the freezer for best quality. Reheat to 165°F.
 
-For the full set of fridge and freezer rules in one place, see [leftovers, thawing, and fridge storage](https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html). For cooked food, see [how long leftovers really last](https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html). To thaw only what the week needs, plan it with the 30-minute Sunday meal plan.
+For the full set of fridge and freezer rules in one place, see [leftovers, thawing, and fridge storage](https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html). For cooked food, see [how long leftovers really last](https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html). To thaw only what the week needs, plan it with a simple weekly meal plan.
 
 ## FAQ
 

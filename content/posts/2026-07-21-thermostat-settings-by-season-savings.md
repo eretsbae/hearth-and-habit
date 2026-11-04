@@ -81,7 +81,7 @@ For your own numbers, add up a year of heating and cooling costs from your bills
 
 - **your annual heating and cooling cost × 0.10 = the most a full DOE-style setback is likely to save**
 
-Treat that as a ceiling. "Up to" means a smaller setback, fewer hours, or a heat pump held to 3.6°F will save less. If your gas bill has jumped and the thermostat hasn't moved, the setback isn't the explanation. See why a gas bill climbs when you haven't touched the thermostat.
+Treat that as a ceiling. "Up to" means a smaller setback, fewer hours, or a heat pump held to 3.6°F will save less. If your gas bill has jumped and the thermostat hasn't moved, the setback isn't the explanation.
 
 Shoulder seasons are also when to [change the furnace filter](https://www.hearth-habit.com/2026/07/furnace-filter-basics-how-often-to.html), before the system has to work hard again.
 
@@ -97,7 +97,7 @@ You don't have to. Natural Resources Canada says a moderate setback of up to 2°
 
 ### Does closing vents in unused rooms work like a setback?
 
-It isn't the same thing. Our breakdown of whether closing vents in unused rooms saves energy explains what the research found and what to do instead.
+It isn't the same thing. A setback lowers the thermostat setting for the whole house; closing registers leaves the setting where it was.
 
 ## Sources
 

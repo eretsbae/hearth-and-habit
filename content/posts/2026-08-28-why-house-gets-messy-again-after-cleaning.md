@@ -70,7 +70,7 @@ N.C. Cooperative Extension suggests carrying a small basket during the reset. An
 
 A home works when it's at least as easy to use as the counter it's competing with. A hook by the door for keys, a tray for mail, and a bin for shoes work for exactly that reason. The one-touch rule, putting things all the way away the first time, works only once that home exists.
 
-Drawers and catch-all spots are where homeless items pile up first. Here's why kitchen drawers turn back into junk drawers and how to set one up so it stays organized.
+Drawers and catch-all spots are where homeless items pile up first.
 
 ## Fix the volume: let the space set the limit
 
@@ -82,7 +82,7 @@ If storage is already full, bins and hooks just make neater piles. UGA Extension
 
 Two more points from the same experts. Start with duplicates and unused items before sentimental ones, because those decisions are fast. And get the donate bag out of the house promptly, because a bag by the door is just clutter with a plan.
 
-If the whole house feels like too much, N.C. Cooperative Extension says to start with one drawer, one stack of papers, or one closet rack. Our guide on decluttering when you're overwhelmed walks through that first drawer.
+If the whole house feels like too much, N.C. Cooperative Extension says to start with one drawer, one stack of papers, or one closet rack.
 
 ## Fix the inflow: the paper pile
 

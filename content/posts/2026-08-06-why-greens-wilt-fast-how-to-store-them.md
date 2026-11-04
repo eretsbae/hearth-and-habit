@@ -91,14 +91,14 @@ These are commercial storage lives at ideal temperature and humidity. Expect les
 
 The two spinach rows come from different sources and don't agree. At home, plan on the shorter NC State figure.
 
-If you shop once a week, plan meals so the spinach, arugula, and spring mix get eaten in the first half of the week, and the kale and romaine later. The 30-minute Sunday meal plan makes that easy to build in.
+If you shop once a week, plan meals so the spinach, arugula, and spring mix get eaten in the first half of the week, and the kale and romaine later. A weekly meal plan makes that easy to build in.
 
 ## Washing: what to do and when
 
 - **Bagged greens labeled "ready to eat," "washed," or "triple washed":** don't wash them again. FDA says you can use them without further washing. Re-washing adds a chance of cross-contamination from sinks and colanders.
 - **Loose heads and bunches:** if you wash produce, FDA says to dry it with a clean cloth or paper towel. If you wash ahead of time, dry the leaves thoroughly with a salad spinner or towel before they go into the fridge.
 
-For the rest of the crisper drawer, see how to store produce so it actually lasts. If the fridge also has a smell you can't place, slimy greens hiding in a back corner can be the source. See [why the fridge smells when you can't find the source](https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html).
+If the fridge also has a smell you can't place, slimy greens hiding in a back corner can be the source. See [why the fridge smells when you can't find the source](https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html).
 
 ## FAQ
 

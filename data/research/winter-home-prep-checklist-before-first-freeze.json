@@ -1,0 +1,138 @@
+{
+  "reader_situation": "A North American homeowner or renter (often in a climate with real winters, but also in the South, where hard freezes are rare and houses are less protected) knows winter is coming and wants one list that says what to do before the first hard freeze. Many find the list late: the first freeze has already happened or is in this week's forecast, and they need to know what to do first. Others are early enough to plan, but every checklist they find is an unordered list of 20 to 50 tasks with no dates, no sense of which jobs need a contractor appointment, and no idea what skipping each one actually costs.",
+  "direct_answer": "Do the work in order of lead time, counted back from your area's median first 32°F freeze date (not the hard-freeze date): book furnace and chimney service and check alarms first, because those need a pro or a purchase; seal air leaks, insulate exposed pipes and replace old washer hoses next; clear gutters once the leaves are down; and in the last weekend before the median freeze, disconnect hoses, drain outdoor faucets, and blow out irrigation lines. On the first freeze night itself, keep the heat at 55°F or more, open sink cabinets on exterior walls, and drip faucets fed by exposed pipes. If the freeze already came, do the outdoor water steps today, then the heating safety checks.",
+  "consensus": [
+    "Service the furnace and change its filter before heating season; have the chimney inspected if you burn wood",
+    "Clean gutters and downspouts; check the roof for missing shingles",
+    "Disconnect garden hoses, shut off and drain outdoor faucets, and winterize the sprinkler system",
+    "Insulate exposed pipes and seal drafts with caulk and weatherstripping",
+    "Test smoke and carbon monoxide alarms",
+    "Stock ice melt, a shovel and emergency supplies",
+    "Most lists say 'before the first frost' or 'before the first hard freeze' and stop there"
+  ],
+  "gaps": [
+    "NO ORDER, NO DATES: top lists are unordered bullets. The real constraint is lead time: jobs that need a technician (furnace, boiler, chimney) or a purchase (alarms, washer hoses, pipe insulation) have to start weeks before the freeze, while outdoor-water jobs have to wait until the hose and sprinklers are done for the year. A schedule counted back from a local freeze date is the missing asset.",
+    "WRONG TARGET DATE: 'before the first hard freeze' is the wrong deadline for water lines. NWS St. Louis defines a freeze as 32°F or lower and a hard freeze as 28°F or lower. Water freezes at 32°F (Colorado State Extension). In St. Louis the median first freeze is Nov. 1 but the median first hard freeze is Nov. 15, two weeks later, so a reader working to the hard-freeze date would leave hose bibs and sprinkler lines full through a typical two weeks of freezes.",
+    "MEDIANS ARE COIN FLIPS: a median first-freeze date means about half of years freeze earlier. NWS St. Louis's 1991–2020 tables show St. Louis's earliest first freeze on 9/28 against a median of 11/1, and stations an hour apart differ by 10 days (Columbia, Mo. median first freeze 10/22). Readers need to use their nearest station and finish outdoor-water work before the median, not on it.",
+    "COST OF SKIPPING IS NEVER QUANTIFIED: Triple-I's 2019–2023 data give water damage and freezing a frequency of 1.50 claims per 100 insured house-years and an average claim of $15,400. Multiplying gives an expected cost of about $231 per insured home per year, more than fire and lightning (0.23 × $88,170 ÷ 100 ≈ $203). State Farm's freeze-specific average claim was over $30,000 (2024 through June 2025). Heating fires average 34,200 a year in residential buildings, 77% confined to chimneys, flues or fuel burners (USFA 2017–2019), and CO not linked to fire kills more than 400 people a year (CDC).",
+    "IRRIGATION DETAIL MISSING: generic lists say 'blow out sprinklers'. Colorado State Extension says pressure vacuum breaker and reduced-pressure backflow devices must never be blown out with compressed air (heat from the air can melt the seals), ball valves and test cocks should be left half-open for winter, pressures of 40–80 psi with 80 psi max for rigid PVC and 50 psi for polyethylene pipe, two short cycles per zone instead of one long one, and eye protection. It also says not to trust manual or automatic drain valves.",
+    "MISSED TASKS: IBHS says to replace washing-machine and dishwasher supply hoses more than 10 years old, and to know where the main water shutoff is and how to operate it. CDC says CO detectors belong near every sleeping area and that generators run outdoors more than 20 feet from windows, doors and vents. State Farm says shutting off the water disables fire sprinklers, and says to drain pool equipment and turn off freeze guards.",
+    "OVERSTATED FIXES: foam pipe sleeves are sold as the answer, but USU Extension says insulation must cover pipes, fittings and fixtures completely and won't protect against prolonged freezing without some heat source or periodic water flow. Gutter cleaning is often listed as ice-dam prevention, but the fix is attic air sealing, insulation and ventilation (registry, UMN Extension); State Farm lists sealing attic hatches, adding attic-floor insulation and IC-rated sealed recessed lights.",
+    "LATE READERS: most lists assume you're early. A triage order for readers whose first freeze already passed (outdoor water and heating safety first, comfort and efficiency later) is missing."
+  ],
+  "evidence": [
+    {
+      "claim": "Freeze and hard freeze definitions",
+      "detail": "NWS St. Louis Frost & Freeze page: Frost is thin ice forming when the temperature falls to or below 32°F with moisture; Freeze is when the temperature falls to or below 32°F, which can significantly damage nearly all seasonal plants; Hard Freeze is when the temperature falls to or below 28°F, which can kill nearly all seasonal plants. Climatology uses 1991–2020 data.",
+      "source_url": "https://www.weather.gov/lsx/frostfreezepage",
+      "source_title": "Frost & Freeze Decision Support Page (National Weather Service St. Louis)"
+    },
+    {
+      "claim": "First freeze dates vary by year and by station",
+      "detail": "St. Louis (KSTL) first freeze ≤32°F: earliest 9/28 (1942), median 11/1, average 11/2, latest 11/27 (2009). First hard freeze ≤28°F: earliest 10/18 (1976), median 11/15, average 11/15, latest 12/14 (1923). Columbia (KCOU) first freeze: earliest 9/18 (1901), median 10/22, average 10/23, latest 11/20 (2015); first hard freeze median 11/1. Quincy (KUIN) first freeze median 10/19, first hard freeze median 10/31.",
+      "source_url": "https://www.weather.gov/lsx/frostfreezepage",
+      "source_title": "Frost & Freeze Decision Support Page (National Weather Service St. Louis)"
+    },
+    {
+      "claim": "Homeowners claim frequency and severity by cause",
+      "detail": "Triple-I, average homeowners losses 2019–2023 (weighted average): water damage and freezing 1.50 claims per 100 house-years, average claim $15,400; fire and lightning 0.23 per 100 house-years, $88,170; wind and hail 2.80 per 100 house-years, $14,747. In 2023, 5.3 percent of insured homes had a claim.",
+      "source_url": "https://www.iii.org/fact-statistic/facts-statistics-homeowners-and-renters-insurance",
+      "source_title": "Facts + Statistics: Homeowners and renters insurance (Triple-I)"
+    },
+    {
+      "claim": "Freeze claim costs and prevention steps from an insurer",
+      "detail": "State Farm, 2024 through June 2025: more than 20,000 freeze claims, over $628 million paid, average claim payment over $30,000. Highest total claim costs: Illinois, Oregon, Washington, Texas, Tennessee. A small crack can release over 250 gallons a day. Pipes in uninsulated attics, crawl spaces and exterior walls are most at risk, especially below 20°F. Tips: drip faucets on cold nights, open cabinet doors under sinks on exterior walls, seal leaks that let cold air in, disconnect garden hoses and drain outdoor pipes, winterize pools by draining equipment and turning off freeze guards, keep the home heated to at least 55°F. Shutting off water can prevent freezing but disables fire sprinklers.",
+      "source_url": "https://newsroom.statefarm.com/frozen-pipes-not-so-nice-beat-winter-water-woes-before-they-strike/",
+      "source_title": "Frozen Pipes? Not So Nice! Beat Winter Water Woes Before They Strike! (State Farm Newsroom)"
+    },
+    {
+      "claim": "Insurer ice-dam prevention steps",
+      "detail": "State Farm: ventilate eaves and ridges; seal attic hatches and whole-house fans; add insulation to the attic floor; replace recessed lights with sealed IC-rated fixtures; flash chimneys with steel and fire-stop sealant; seal and insulate HVAC ducts with mastic and foil-faced fiberglass; caulk around cables, vents and other spots where air escapes.",
+      "source_url": "https://newsroom.statefarm.com/frozen-pipes-not-so-nice-beat-winter-water-woes-before-they-strike/",
+      "source_title": "Frozen Pipes? Not So Nice! Beat Winter Water Woes Before They Strike! (State Farm Newsroom)"
+    },
+    {
+      "claim": "IBHS pre-winter actions",
+      "detail": "IBHS (Nov. 14, 2024): insulate pipes in attics, crawl spaces and along exterior walls; shut off and insulate valves if you don't have frostproof outdoor faucets (homes built before 2010 typically don't); know where the home's water shut-off valve is and how to operate it; thermostat at least 55°F even when no one is home; if away longer than a week with subfreezing temperatures, consider closing the main valve slowly and letting a couple of faucets on the lowest floor drain; caulk and seal exterior cracks and gaps including around windows and doors; change washing-machine and dishwasher supply hoses more than 10 years old; clear gutters and downspouts; frozen pipes and leaky roofs are among the most common causes of insured losses; ice dams form when attic heat warms the upper roof deck.",
+      "source_url": "https://ibhs.org/ibhs-news-releases/ibhs-winter-weather-ready-guide-provides-easy-to-do-actions-to-help-prevent-property-damage-from-colder-temperatures/",
+      "source_title": "IBHS Winter Weather Ready guide provides easy-to-do actions to help prevent property damage from colder temperatures (IBHS, Nov. 14, 2024)"
+    },
+    {
+      "claim": "Carbon monoxide prevention and toll",
+      "detail": "CDC: have the heating system, water heater and other gas, oil or coal appliances serviced by a qualified technician every year; install battery-operated or battery back-up CO detectors near every sleeping area; check CO detector batteries when you change the clocks each spring and fall; operate generators outdoors more than 20 feet from windows, doors and vents; have the chimney checked or cleaned every year. Each year more than 400 people die from unintentional CO poisoning not linked to fires, more than 100,000 visit an emergency department, and more than 14,000 are hospitalized.",
+      "source_url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+      "source_title": "Carbon Monoxide (CO) Poisoning Basics (CDC)"
+    },
+    {
+      "claim": "Heating fire safety guidance",
+      "detail": "USFA: heating fires remained the second leading cause of home fires in 2021; an estimated 32,200 home heating fires, 190 deaths, 625 injuries and $442 million in property loss (2021). Portable heater fires were 3% of home heating fires (2017–2019) but 41% of fatal home heating fires. Keep anything that can burn at least 3 feet from all heat sources; turn space heaters off when leaving the room or going to bed; have heating equipment and chimneys cleaned and inspected each year by a professional; never use an oven to heat the home.",
+      "source_url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/heating",
+      "source_title": "Heating Fire Safety (U.S. Fire Administration)"
+    },
+    {
+      "claim": "Residential heating fire statistics, 2017–2019",
+      "detail": "USFA topical report (Dec. 2021): an estimated average of 34,200 heating fires in residential buildings each year, 165 deaths, 600 injuries, $367 million property loss. Fires confined to chimneys, flues or fuel burners accounted for 77%. Incidence peaked in January at 20% and was lowest in June–August; daily peak 5 to 9 p.m.",
+      "source_url": "https://usfa.fema.gov/statistics/reports/fire-causes/heating-fires-residential-buildings-v21i10.html",
+      "source_title": "Heating Fires in Residential Buildings (2017-2019) (U.S. Fire Administration)"
+    },
+    {
+      "claim": "Irrigation winterization procedure",
+      "detail": "Colorado State University Extension: prepare the system in the fall; it's much less costly than spring repairs. Turn off the supply at the stop-and-waste valve and don't force it. Blow out with compressed air; don't trust manual or automatic drain valves. Ideal compressor pressure 40–80 psi, 80 psi maximum for rigid PVC and 50 psi for polyethylene pipe. Blow out each zone with two short cycles rather than one long one. PVB or RP backflow devices must never be blown out with compressed air; rubber seals can melt from the heat of the air. Leave ball valves and test cocks half-open for winter. Wear eye protection. Water expands by one-eleventh on freezing (11 cubic feet of water makes about 12 of ice); water freezes at 32°F.",
+      "source_url": "https://extension.colostate.edu/topic-areas/yard-garden/home-sprinkler-systems-preparing-your-sprinkler-system-for-winter-4-719",
+      "source_title": "Home Sprinkler Systems: Preparing Your Sprinkler System for Winter (Colorado State University Extension)"
+    },
+    {
+      "claim": "Limits of pipe insulation, and knowing the main shutoff",
+      "detail": "USU Extension: insulation must completely cover the pipes, fittings and fixtures exposed to cold, and leaks must be fixed first so insulation isn't saturated; insulation will not protect pipes from prolonged freezing temperatures unless there is some source of heat and/or periodic water flow; hot water lines freeze too; running water should only be done when more permanent methods can't be used; teach adults and older children where the main water shutoff is and how to shut it off.",
+      "source_url": "https://extension.usu.edu/preparedness/articles-and-research/advice-to-prevent-frozen-pipes",
+      "source_title": "Advice to Prevent Frozen Pipes (Utah State University Extension)"
+    },
+    {
+      "claim": "Air sealing and insulation savings",
+      "detail": "ENERGY STAR: sealing air leaks and adding insulation can provide up to a 10% savings on annual energy bills.",
+      "source_url": "https://www.energystar.gov/saveathome/seal_insulate",
+      "source_title": "Seal and Insulate with ENERGY STAR (ENERGY STAR)"
+    },
+    {
+      "claim": "Winter storm readiness",
+      "detail": "Ready.gov: prepare the home to keep out the cold with insulation, caulking and weather stripping; gather supplies in case you need to stay home for several days without power, including medication and pet needs and extra batteries; install and test smoke alarms and CO detectors with battery backups; car kit with jumper cables, sand, flashlight, warm clothes, blankets, water and snacks, and keep a full tank of gas; generators and fuel used outdoors at least 20 feet from windows, doors and attached garages.",
+      "source_url": "https://www.ready.gov/winter-weather",
+      "source_title": "Winter Weather (Ready.gov)"
+    }
+  ],
+  "real_questions": [
+    "When exactly should I winterize: first frost, first freeze or first hard freeze? (recurring Reddit r/HomeImprovement question)",
+    "The first freeze already happened and my hose is still connected. Did I wreck the faucet, and what should I do first now?",
+    "Do I really need a furnace tune-up every year, or is changing the filter enough?",
+    "Can I blow out my own sprinklers with a pancake compressor, and how much pressure is safe?",
+    "Should I shut off the main water when I leave for the holidays?",
+    "Which of these winter chores actually prevents expensive damage, and which are nice-to-haves?"
+  ],
+  "original_asset": {
+    "type": "schedule_and_cost_table",
+    "spec": "(1) A lead-time task table ordered by how far ahead of the median first 32°F freeze each job must start (6 weeks out: needs a pro or a purchase; 4 weeks: supplies and DIY sealing; 2 weeks: after leaf drop; last weekend: outdoor water; freeze night), with a why/cost-of-skipping column drawn only from cited figures (Triple-I $15,400 average water/freezing claim, State Farm >$30,000 freeze claims and 250 gal/day, USFA 34,200 heating fires and 77% confined to chimney/flue/burner, CDC >400 CO deaths and >100,000 ED visits, Colorado State 1/11 expansion, IBHS 10-year hoses). (2) An expected-loss calculation from Triple-I frequency × severity: water/freezing 1.50/100 × $15,400 = $231 per insured home-year; fire/lightning 0.23/100 × $88,170 ≈ $203; wind/hail 2.80/100 × $14,747 ≈ $413; 100 ÷ 1.50 ≈ 1 in 67 homes per year. (3) A printable checklist grouped by weekend, with a worked date example counting back from NWS medians for St. Louis (first freeze 11/1 → Sep 20, Oct 4, Oct 18, Oct 25) and Columbia, Mo. (10/22 → Sep 10, Sep 24, Oct 8, Oct 15), noting the earliest recorded first freezes (9/28 and 9/18) and the 14-day gap to St. Louis's median hard freeze (11/15)."
+  },
+  "cautions": [
+    "Do not present the 32°F/28°F St. Louis climatology as national; tell readers to look up their own nearest NWS station or climate center",
+    "Expected-loss figures are simple frequency × severity arithmetic on Triple-I averages for all water damage and freezing claims (not freezing alone) and for insured homes; label them as such",
+    "State Farm's >$30,000 average is freeze-specific and from one insurer; Triple-I's $15,400 covers all water damage and freezing; don't conflate them",
+    "Never blow out PVB or RP backflow devices with compressed air; eye protection during blowout (Colorado State)",
+    "Shutting off the main disables fire sprinklers (State Farm); renters should ask the landlord before shutting off or draining building water (editorial advice)",
+    "Generators outdoors only, more than 20 feet from windows, doors and vents (CDC) and attached garages (Ready.gov); never use an oven to heat the home (USFA)",
+    "The USFA 2021 and 2017–2019 heating-fire figures are different datasets (home heating fires vs residential-building heating fires); keep their years attached",
+    "Red Cross frozen-pipe page returned 403 on this fetch; its advice is not cited here. Ice dams and downspouts rely on registry entries (UMN Extension, DOE), smoke alarm replacement on the registry NFPA entry, thermostat setback on the registry DOE entry"
+  ],
+  "sources": {
+    "https://www.weather.gov/lsx/frostfreezepage": "Frost & Freeze Decision Support Page (National Weather Service St. Louis)",
+    "https://www.iii.org/fact-statistic/facts-statistics-homeowners-and-renters-insurance": "Facts + Statistics: Homeowners and renters insurance (Triple-I)",
+    "https://newsroom.statefarm.com/frozen-pipes-not-so-nice-beat-winter-water-woes-before-they-strike/": "Frozen Pipes? Not So Nice! Beat Winter Water Woes Before They Strike! (State Farm Newsroom)",
+    "https://ibhs.org/ibhs-news-releases/ibhs-winter-weather-ready-guide-provides-easy-to-do-actions-to-help-prevent-property-damage-from-colder-temperatures/": "IBHS Winter Weather Ready guide provides easy-to-do actions to help prevent property damage from colder temperatures (IBHS, Nov. 14, 2024)",
+    "https://www.cdc.gov/carbon-monoxide/about/index.html": "Carbon Monoxide (CO) Poisoning Basics (CDC)",
+    "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/heating": "Heating Fire Safety (U.S. Fire Administration)",
+    "https://usfa.fema.gov/statistics/reports/fire-causes/heating-fires-residential-buildings-v21i10.html": "Heating Fires in Residential Buildings (2017-2019) (U.S. Fire Administration)",
+    "https://extension.colostate.edu/topic-areas/yard-garden/home-sprinkler-systems-preparing-your-sprinkler-system-for-winter-4-719": "Home Sprinkler Systems: Preparing Your Sprinkler System for Winter (Colorado State University Extension)",
+    "https://extension.usu.edu/preparedness/articles-and-research/advice-to-prevent-frozen-pipes": "Advice to Prevent Frozen Pipes (Utah State University Extension)",
+    "https://www.energystar.gov/saveathome/seal_insulate": "Seal and Insulate with ENERGY STAR (ENERGY STAR)",
+    "https://www.ready.gov/winter-weather": "Winter Weather (Ready.gov)"
+  }
+}

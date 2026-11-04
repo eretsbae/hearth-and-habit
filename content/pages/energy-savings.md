@@ -12,11 +12,15 @@ hero_license_url: "https://creativecommons.org/licenses/by/2.0/"
 
 This hub is about the bills: electricity, gas, and water. The guides show the arithmetic behind each claim, using published utility rates and appliance wattages, so you can rerun the numbers for your own home instead of trusting a national average.
 
+## Start here
+
+If you read one guide in this section, make it [DIY Home Energy Audit: A Room-by-Room Walkthrough to Find Where Your Money Goes](https://www.hearth-habit.com/2026/11/diy-home-energy-audit-room-by-room.html). It walks through the house room by room so you know which of the guides below applies to your bill before you spend anything.
+
 ## How to use this section
 
-- **A bill jumped:** start with the step-by-step checklists for an electric, gas, or water bill that rose without a change in habits. They work from the meter and the rate structure, not from guesses.
+- **A bill jumped:** start with the step-by-step checklists for an electric or water bill that rose without a change in habits. They work from the meter and the rate structure, not from guesses.
 - **What does this cost to run?** Space heaters, phantom loads, dishwasher dry cycles, the oven preheat. Each guide shows the formula and a worked example you can copy.
-- **Settings and habits:** thermostat settings by season, closing vents, turning the AC off at work, and the free habits ranked by what they actually cut.
+- **Settings and habits:** thermostat settings by season, the water heater dial, turning the AC off at work, and the free habits ranked by what they actually cut.
 
 ## What you can expect from these guides
 

@@ -31,7 +31,7 @@ DRY_RUN = "--dry-run" in sys.argv
 # 최소 간격"보다 작게 잡았다(예약 실행이 GitHub 쪽에서 수 시간 늦는 것 감안).
 # 예약을 멈추면(중단 기준 등) 여기서도 빼야 매일 알림이 뜨지 않는다.
 WATCH = {
-    "generate-and-publish.yml": 6 * 24,  # 월/수/금: 1회 누락 최대 5일, 2회 누락 최소 7일
+    # generate-and-publish.yml: 2026-11-04 예약 중단(수동 게시만)이라 감시에서 뺐다.
     "pinterest-publish.yml": 60,         # 매일: 1회 누락 48시간, 2회 누락 72시간
     "weekly-report.yml": 17 * 24,        # 매주: 1회 누락 14일, 2회 누락 21일
 }

@@ -1,0 +1,44 @@
+# 글별 색인 상태 점검 (읽기 전용). Search Console URL Inspection API로 게시 글마다
+# 구글 색인 판정을 받고 90일 검색 실적과 합쳐 docs/reports/index-status-*.md 로 남긴다.
+# 정리(초안 전환) 대상 선정과 AdSense 제출 게이트 측정용. 수동 실행만.
+
+name: Index Status
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-write
+  cancel-in-progress: false
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Inspect published posts
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+        run: python generator/index_status.py
+
+      - name: Commit report
+        run: |
+          git config user.name "hearth-habit-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/index_status.json docs/reports/
+          git diff --cached --quiet || git commit -m "report: index status ($(date -u +%Y-%m-%d))"
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME"
+          git push

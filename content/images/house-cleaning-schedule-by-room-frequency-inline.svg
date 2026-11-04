@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+  <text x="60" y="86" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="bold" fill="#2E2A24">How often, and the main job at each step</text>
+  <rect x="60" y="130" width="1080" height="80" rx="14" fill="#B85C38" opacity="0.18"/>
+  <rect x="60" y="130" width="16" height="80" rx="6" fill="#B85C38"/>
+  <text x="100" y="182" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#2E2A24">Every load: clean the dryer lint screen</text>
+  <rect x="60" y="225" width="1080" height="80" rx="14" fill="#D9A441" opacity="0.22"/>
+  <rect x="60" y="225" width="16" height="80" rx="6" fill="#D9A441"/>
+  <text x="100" y="277" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#2E2A24">Daily: wipe kitchen counters and bathroom sink</text>
+  <rect x="60" y="320" width="1080" height="80" rx="14" fill="#5C6E58" opacity="0.18"/>
+  <rect x="60" y="320" width="16" height="80" rx="6" fill="#5C6E58"/>
+  <text x="100" y="372" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#2E2A24">Weekly: sinks, bathroom, floors, sheets</text>
+  <rect x="60" y="415" width="1080" height="80" rx="14" fill="#E4C7B2" opacity="0.6"/>
+  <rect x="60" y="415" width="16" height="80" rx="6" fill="#B85C38"/>
+  <text x="100" y="467" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#2E2A24">Monthly: test smoke and CO alarms, GFCIs</text>
+  <rect x="60" y="510" width="1080" height="80" rx="14" fill="#5C6E58" opacity="0.10"/>
+  <rect x="60" y="510" width="16" height="80" rx="6" fill="#2E2A24"/>
+  <text x="100" y="562" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#2E2A24">Every 3 months at minimum: change the HVAC filter</text>
+</svg>

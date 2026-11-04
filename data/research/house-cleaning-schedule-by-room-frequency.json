@@ -1,0 +1,160 @@
+{
+  "reader_situation": "A North American adult who wants one cleaning schedule for the whole house and is tired of lists that say 'monthly' or 'yearly' with no reason behind the number. They want to know which tasks have a real safety or manufacturer basis, which are just habit, and how much time the whole thing takes per week.",
+  "direct_answer": "Wipe kitchen and bathroom surfaces daily; scrub sinks, bathrooms and floors and change sheets weekly; rinse appliance filters and test smoke/CO alarms and GFCIs monthly; change or check HVAC filters at least every 3 months; and handle vents, coils and fridge deep-cleans a few times a year. Some intervals are per use, not per calendar: the dryer lint screen every load, a front-load washer tub clean every 30 uses (LG), a coffeemaker descale every 40 to 80 cycles or monthly (Illinois Extension).",
+  "consensus": [
+    "Top results publish room-by-room daily/weekly/monthly lists with no source for any interval.",
+    "Most lists put dryer lint 'monthly' or 'regularly' and treat the dryer vent as a once-a-year chore with a fixed date.",
+    "Most lists say clean refrigerator coils every 6 months for everyone.",
+    "Sheets weekly is common advice; towel and pillow intervals are stated as fact with no source.",
+    "Lists rarely estimate total time, and never amortize monthly or yearly jobs into a weekly figure."
+  ],
+  "gaps": [
+    "The lint screen is a per-load task (CPSC, USFA), not a monthly one. The vent and exhaust duct have no fixed federal interval; CPSC says 'periodically' and gives symptoms (damp clothes after a typical cycle, longer drying times, no exhaust at the outside hood).",
+    "Whirlpool says routine condenser-coil cleaning is not typically needed in a normal home; inspect every 3 to 6 months only with pets, heavy kitchen traffic or construction dust.",
+    "Sponge cleaning: in the USDA ARS test, microwaving and the dishwasher killed far more bacteria than a 3-minute 10 percent bleach soak or lemon juice. The microwave method only works on a wet sponge (Illinois Extension warns a dry sponge can catch fire).",
+    "Usage-based intervals (washer: every 30 uses; coffeemaker: every 40 to 80 cycles) convert to very different calendar dates depending on household use.",
+    "Manufacturers disagree: Whirlpool says dishwasher filter monthly (every two weeks with heavy use); GE's press tips say every other month. The owner's manual for the specific model wins.",
+    "Amortized, the monthly-to-yearly jobs add only about 10 minutes a week to a schedule; daily and weekly basics are about nine-tenths of the time.",
+    "BLS 2025 ATUS: interior cleaning averages 0.33 hours per day for persons 15 and over, about 139 minutes a week."
+  ],
+  "evidence": [
+    {
+      "claim": "Clean the lint screen/filter before or after drying each load; clean the vent and exhaust duct periodically; damp clothes after a typical cycle or longer drying times may mean a blocked screen or duct.",
+      "detail": "CPSC Publication 5022 also says to check that exhaust air escapes at the outside vent while the dryer runs, to replace plastic or foil accordion duct with rigid or corrugated semi-rigid metal duct, to clean behind the dryer, and to have a qualified service person clean the chassis interior periodically. No interval is given for the vent.",
+      "source_url": "https://www.cpsc.gov/s3fs-public/5022.pdf",
+      "source_title": "Overheated Clothes Dryers Can Cause Fires (CPSC Publication 5022)"
+    },
+    {
+      "claim": "USFA: clean the lint filter before and after each cycle; do not use the dryer without a lint filter; clean the back of the dryer where lint builds up; make sure the outdoor vent covering opens when the dryer operates.",
+      "detail": "USFA also says you are at higher risk of a dryer fire if you don't clean the lint filter and dryer vents, and to check the venting system behind the dryer is not damaged, crushed or restricted.",
+      "source_url": "https://www.usfa.fema.gov/downloads/pdf/publications/clothes_dryer_fire_safety_flyer.pdf",
+      "source_title": "Clothes Dryer Fire Safety (U.S. Fire Administration)"
+    },
+    {
+      "claim": "USDA ARS (2007): microwaving a sponge for one minute killed 99.99999 percent of bacteria; the dishwasher with a drying cycle killed 99.9998 percent; a 3-minute soak in 10 percent bleach, a 1-minute soak in lemon juice or deionized water, and no treatment killed between 37 and 87 percent and left enough bacteria to potentially cause disease.",
+      "detail": "Between 6.7 and 63 percent of yeasts and molds survived the other methods. Study by the ARS Food Technology and Safety Laboratory, Beltsville, Md.",
+      "source_url": "https://www.ars.usda.gov/news-events/news/research-news/2007/best-ways-to-clean-kitchen-sponges/",
+      "source_title": "Best Ways to Clean Kitchen Sponges (USDA Agricultural Research Service)"
+    },
+    {
+      "claim": "Illinois Extension: wash and disinfect the kitchen sink once or twice a week (disinfectant cleaner or 1 tablespoon unscented bleach per 1 gallon of water); wash sink strainers weekly; sanitize drains and disposals monthly with 1 tablespoon bleach in 1 quart of water.",
+      "detail": "Also: launder dishcloths and potholders on the hot cycle; microwave a WET sponge 2 minutes (a dry sponge can cause a fire), never metallic sponges; dishwasher method ideally 155°F with heated dry.",
+      "source_url": "https://extension.illinois.edu/sites/default/files/cleaning-sanitizing-kitchen2021.pdf",
+      "source_title": "Clean and Sanitize the Kitchen (University of Illinois Extension, 2021)"
+    },
+    {
+      "claim": "Illinois Extension: clean a coffeemaker every 40 to 80 cycles or once a month: 4 cups vinegar, let stand 30 minutes, then run 2 to 3 cycles of fresh water.",
+      "detail": "Fridge: wash shelves and drawers in hot soapy water, wipe interior with 2 teaspoons baking soda per 1 quart water, leave door open 15 minutes to air-dry, keep perishables in a cooler meanwhile. Do not use oven cleaner on self-cleaning ovens.",
+      "source_url": "https://extension.illinois.edu/sites/default/files/cleaning-sanitizing-kitchen2021.pdf",
+      "source_title": "Clean and Sanitize the Kitchen (University of Illinois Extension, 2021)"
+    },
+    {
+      "claim": "Cleveland Clinic dermatologist Jennifer Lucas, MD: wash sheets at least once a week, on the hot cycle.",
+      "detail": "Reason given: shed skin cells and bacteria, plus dust, pet dander and pollen. Also: dry hair before bed. No frequency is given for pillows or comforters.",
+      "source_url": "https://newsroom.clevelandclinic.org/2025/11/20/how-often-should-you-wash-your-sheets",
+      "source_title": "How Often Should You Wash Your Sheets? (Cleveland Clinic Newsroom, 2025)"
+    },
+    {
+      "claim": "BLS American Time Use Survey 2025 annual averages, persons 15 and over: interior cleaning 0.33 hours per day (men 0.20, women 0.45); laundry 0.17 hours per day; all household activities 1.99 hours per day.",
+      "detail": "Computed: 0.33 x 60 = 19.8 min/day x 7 = 138.6 min/week (about 2.3 hours). Laundry 0.17 x 60 = 10.2 min/day, about 71 min/week. Men 0.20 -> 84 min/week; women 0.45 -> 189 min/week.",
+      "source_url": "https://www.bls.gov/charts/american-time-use/activity-by-hldh.htm",
+      "source_title": "Time spent in household activities (BLS American Time Use Survey charts)"
+    },
+    {
+      "claim": "ENERGY STAR: check your HVAC filter every month, especially during heavy-use months (winter and summer); if it looks dirty after a month, change it; at a minimum change it every 3 months; tune up HVAC equipment yearly.",
+      "detail": "",
+      "source_url": "https://www.energystar.gov/saveathome/heating-cooling",
+      "source_title": "Heating & Cooling (ENERGY STAR)"
+    },
+    {
+      "claim": "Whirlpool: clean the dishwasher filter once a month, particularly with frequent use; every two weeks with heavy use. Rinse under running water with a soft brush, not a wire brush.",
+      "detail": "",
+      "source_url": "https://producthelp.whirlpool.com/Dishwashers/Product_Info/Dishwasher_Cleaning_and_Care/How_to_Clean_the_Dishwasher_Filters",
+      "source_title": "How to Clean the Dishwasher Filters (Whirlpool)"
+    },
+    {
+      "claim": "Whirlpool: in a normal home operating environment, routine condenser cleaning is not typically needed; with pets, heavy kitchen traffic or construction dust, inspect and clean every 3 to 6 months. Unplug the refrigerator or switch off the breaker first.",
+      "detail": "Clean coils help the refrigerator cool efficiently and hold steady temperatures.",
+      "source_url": "https://producthelp.whirlpool.com/Refrigeration/Full-size_Refrigerators/Cleaning_and_Care/How_and_When_to_Safely_Clean_the_Condenser_Coils",
+      "source_title": "How and When to Safely Clean the Condenser Coils (Whirlpool)"
+    },
+    {
+      "claim": "GE appliance tips: change the refrigerator water filter every six months; clean dishwasher filters every other month; run a washer cleaning cycle monthly.",
+      "detail": "The dishwasher interval conflicts with Whirlpool's monthly; the model's manual wins.",
+      "source_url": "https://www.ge.com/news/press-releases/missed-spring-cleaning-ges-appliance-cleaning-tips-help-you-get-back-track-time",
+      "source_title": "GE's appliance cleaning tips (GE press release)"
+    },
+    {
+      "claim": "LG front-loader: run the Tub Clean cycle after every 30 uses of the washer, or whenever the display shows 'tcL'. Use an oxygen-based washer cleaner; avoid chlorine-based or acidic cleaners.",
+      "detail": "Computed: 30 uses / loads per week = weeks between tub cleans (3 loads -> 10 weeks; 5 -> 6; 8 -> about 3.75; 12 -> 2.5).",
+      "source_url": "https://www.lg.com/us/support/help-library/lg-front-loader-how-to-clean-the-tub--20154844878056",
+      "source_title": "LG Front Loader: How to Clean the Tub (LG)"
+    },
+    {
+      "claim": "CDC: clean high-touch surfaces (light switches, doorknobs, countertops) regularly; disinfect when someone is sick; sanitize surfaces that touched raw meat, poultry or their juices; do not mix products or chemicals with each other.",
+      "detail": "",
+      "source_url": "https://www.cdc.gov/hygiene/about/when-and-how-to-clean-and-disinfect-your-home.html",
+      "source_title": "When and How to Clean and Disinfect Your Home (CDC)"
+    },
+    {
+      "claim": "FDA: clean the refrigerator regularly and wipe spills immediately; keep the fridge at or below 40°F and the freezer at 0°F; check appliance thermometers at least once a week.",
+      "detail": "",
+      "source_url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely",
+      "source_title": "Are You Storing Food Safely? (FDA)"
+    },
+    {
+      "claim": "GE JVM1840 microwave-hood manual: grease filters should be cleaned once a month or as needed; soak and swish in hot water and detergent; do not use ammonia (it darkens the metal).",
+      "detail": "",
+      "source_url": "https://www.manualslib.com/manual/555191/Ge-Jvm1840.html?page=37",
+      "source_title": "GE JVM1840 Owner's Manual, p. 37 (ManualsLib)"
+    },
+    {
+      "claim": "GE JVM3150 manual: replace the charcoal filter when noticeably dirty or discolored, usually after 6 to 12 months depending on hood usage.",
+      "detail": "",
+      "source_url": "https://www.manualslib.com/manual/984436/Ge-Jvm3150.html?page=33",
+      "source_title": "GE JVM3150 Owner's Manual, p. 33 (ManualsLib)"
+    },
+    {
+      "claim": "EPA: run the bathroom fan or open the window when showering; use exhaust fans or open windows whenever cooking, running the dishwasher or dishwashing; dry wet materials within 24 to 48 hours to prevent mold in most cases; keep AC drip pans clean and drain lines flowing; vent dryers and stoves outside.",
+      "detail": "For showers and other bathing areas: increase ventilation and clean more frequently. A hygrometer costs about $10 to $50. Keep indoor humidity below 60%, ideally 30 to 50% (registry).",
+      "source_url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+      "source_title": "A Brief Guide to Mold, Moisture and Your Home (EPA)"
+    }
+  ],
+  "real_questions": [
+    "What should I clean every day versus every week?",
+    "How long should cleaning the house take each week?",
+    "How often do I really need to clean the dryer vent / lint trap?",
+    "Do I need to clean refrigerator coils every 6 months?",
+    "How often should sheets and towels be washed?",
+    "How do I clean a kitchen sponge so it doesn't stink?",
+    "How often should I clean the washing machine and dishwasher filter?"
+  ],
+  "original_asset": "1) Room-by-frequency matrix where every interval carries its cited basis (fire safety, germs, manufacturer, moisture, or our assumption). 2) Weekly time budget: assumption-labelled minutes per task, monthly jobs amortized x12/52 and yearly jobs /52, summed with visible arithmetic and compared with the BLS 0.33 h/day interior-cleaning average (138.6 min/week). 3) Usage-to-calendar converter for per-use intervals (washer every 30 uses; coffeemaker every 40 to 80 cycles). 4) Printable checklist.",
+  "cautions": [
+    "Never mix chlorine bleach with ammonia or acids (vinegar, many toilet-bowl and lime-scale cleaners): use one, rinse, then the other (registry, Poison Control).",
+    "Soap and water cleans; disinfection needs an EPA-registered disinfectant for its full label contact time (registry).",
+    "Microwave only a wet, non-metallic sponge.",
+    "Unplug the refrigerator or switch off the breaker before cleaning coils.",
+    "Do not use oven cleaner on a self-cleaning oven.",
+    "Mold larger than about 10 sq ft: professional (registry)."
+  ],
+  "sources": {
+    "https://www.cpsc.gov/s3fs-public/5022.pdf": "Overheated Clothes Dryers Can Cause Fires (CPSC Publication 5022)",
+    "https://www.usfa.fema.gov/downloads/pdf/publications/clothes_dryer_fire_safety_flyer.pdf": "Clothes Dryer Fire Safety (U.S. Fire Administration)",
+    "https://www.ars.usda.gov/news-events/news/research-news/2007/best-ways-to-clean-kitchen-sponges/": "Best Ways to Clean Kitchen Sponges (USDA Agricultural Research Service)",
+    "https://extension.illinois.edu/sites/default/files/cleaning-sanitizing-kitchen2021.pdf": "Clean and Sanitize the Kitchen (University of Illinois Extension, 2021)",
+    "https://newsroom.clevelandclinic.org/2025/11/20/how-often-should-you-wash-your-sheets": "How Often Should You Wash Your Sheets? (Cleveland Clinic Newsroom, 2025)",
+    "https://www.bls.gov/charts/american-time-use/activity-by-hldh.htm": "Time spent in household activities (BLS American Time Use Survey charts)",
+    "https://www.energystar.gov/saveathome/heating-cooling": "Heating & Cooling (ENERGY STAR)",
+    "https://producthelp.whirlpool.com/Dishwashers/Product_Info/Dishwasher_Cleaning_and_Care/How_to_Clean_the_Dishwasher_Filters": "How to Clean the Dishwasher Filters (Whirlpool)",
+    "https://producthelp.whirlpool.com/Refrigeration/Full-size_Refrigerators/Cleaning_and_Care/How_and_When_to_Safely_Clean_the_Condenser_Coils": "How and When to Safely Clean the Condenser Coils (Whirlpool)",
+    "https://www.ge.com/news/press-releases/missed-spring-cleaning-ges-appliance-cleaning-tips-help-you-get-back-track-time": "GE's appliance cleaning tips (GE press release)",
+    "https://www.lg.com/us/support/help-library/lg-front-loader-how-to-clean-the-tub--20154844878056": "LG Front Loader: How to Clean the Tub (LG)",
+    "https://www.cdc.gov/hygiene/about/when-and-how-to-clean-and-disinfect-your-home.html": "When and How to Clean and Disinfect Your Home (CDC)",
+    "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely": "Are You Storing Food Safely? (FDA)",
+    "https://www.manualslib.com/manual/555191/Ge-Jvm1840.html?page=37": "GE JVM1840 Owner's Manual, p. 37 (ManualsLib)",
+    "https://www.manualslib.com/manual/984436/Ge-Jvm3150.html?page=33": "GE JVM3150 Owner's Manual, p. 33 (ManualsLib)",
+    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home": "A Brief Guide to Mold, Moisture and Your Home (EPA)"
+  }
+}

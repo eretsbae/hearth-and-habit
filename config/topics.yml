@@ -820,7 +820,9 @@ topics:
   written_by: claude-code
 - title: 'House Cleaning Schedule by Room: What to Clean Daily, Weekly, Monthly, and Yearly'
   pillar: cleaning-organization
-  status: pending
+  status: published
+  published_slug: house-cleaning-schedule-by-room-frequency
+  written_by: claude-code
 - title: 'Winter Home Prep Checklist: What to Do Before the First Hard Freeze'
   pillar: home-maintenance
   status: pending

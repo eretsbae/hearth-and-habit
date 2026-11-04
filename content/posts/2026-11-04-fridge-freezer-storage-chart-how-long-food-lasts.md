@@ -106,7 +106,7 @@ Read across the chart and the fridge column falls into a few tiers. Raw ground m
 
 Milk and yogurt are missing on purpose: none of the official sources used here gives a fridge-day figure for them, so this guide doesn't make one up. Check the package label, keep them cold, and treat them as perishable during an outage, as the table further down does.
 
-Produce follows different rules, mostly about humidity and ethylene, and is covered in the guide on how to store produce so it actually lasts and the one on [why greens wilt two days after you buy them](https://www.hearth-habit.com/2026/08/why-do-my-greens-wilt-two-days-after-i.html).
+Produce follows different rules, mostly about humidity and ethylene; for leafy greens, see [why greens wilt two days after you buy them](https://www.hearth-habit.com/2026/08/why-do-my-greens-wilt-two-days-after-i.html).
 
 ## The chart only works if the fridge is actually at 40°F
 

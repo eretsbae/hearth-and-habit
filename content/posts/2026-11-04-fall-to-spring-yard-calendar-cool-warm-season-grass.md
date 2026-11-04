@@ -85,7 +85,7 @@ Seeding has a start trigger and a stop trigger. NC State's Grady Miller suggests
 
 Weeds are the other fall job. K-State's November advice is to spray broadleaf weeds even when they are small, on a day of at least 50°F. Rain or irrigation within 24 hours reduces how well it works. Follow the product label for rates.
 
-Leaves and mowing round out the season. Keep mowing as long as the grass grows; how low to mow on the last cut before winter covers the final height and why scalping backfires. Leaves that cover the grass need to be mulched or moved, and [whether to rake leaves or leave them](https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html) explains where the line falls.
+Leaves and mowing round out the season. Keep mowing as long as the grass grows; [the bare-minimum lawn guide](https://www.hearth-habit.com/2026/07/lawn-care-for-people-who-dont-care.html) has the mowing height for each grass type. Leaves that cover the grass need to be mulched or moved, and [whether to rake leaves or leave them](https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html) explains where the line falls.
 
 ### Fall: why a warm-season lawn gets no "winterizer"
 
@@ -208,7 +208,6 @@ Each of these covers one step of the calendar in more detail:
 
 - Fall cleanup priorities: [fall yard cleanup checklist](https://www.hearth-habit.com/2026/07/fall-yard-cleanup-checklist-what.html)
 - Leaves on the lawn: [rake leaves or leave them over winter](https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html)
-- The final mowing: how low to mow on the last cut before winter
 - Seeding cutoffs: [how late in the fall you can still seed grass](https://www.hearth-habit.com/2026/07/how-late-can-you-seed-grass-in-fall-and.html)
 - Salt-burned edges: [why grass along the sidewalk dies every winter](https://www.hearth-habit.com/2026/09/why-does-grass-along-sidewalk-die-every.html)
 - Hose bibs: [shutting off the outdoor faucet before winter](https://www.hearth-habit.com/2026/10/should-you-shut-off-outdoor-faucet-from.html)

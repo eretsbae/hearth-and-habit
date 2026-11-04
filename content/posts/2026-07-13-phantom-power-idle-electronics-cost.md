@@ -7,7 +7,7 @@ description: Each always-on watt costs about $1.50 a year at 17¢/kWh. Measured 
   watts and dollars by device from Berkeley Lab, and where the real idle load hides.
 hero_image: /images/phantom-power-idle-electronics-cost-hero.jpg
 hero_alt: "White power strip with a red switch, filled with plugs and a black AC adapter, cords tangled on a blue carpet"
-hero_credit: "Photo: Unknown photographer via Wikimedia Commons (CC BY-SA 3.0)"
+hero_credit: "Photo: Jarlhelm via Wikimedia Commons (CC BY-SA 3.0)"
 hero_credit_url: "https://commons.wikimedia.org/wiki/File:German_power_strip.JPG"
 hero_license_url: "http://creativecommons.org/licenses/by-sa/3.0/"
 tags:

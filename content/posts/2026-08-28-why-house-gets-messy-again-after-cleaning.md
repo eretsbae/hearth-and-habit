@@ -71,7 +71,7 @@ N.C. Cooperative Extension suggests carrying a small basket during the reset. An
 
 ## Fix the homes: make the right spot the easy spot
 
-A home works when it's at least as easy to use as the counter it's competing with. A hook by the door for keys, a tray for mail, and a bin for shoes work for exactly that reason. The one-touch rule, putting things all the way away the first time, works only once that home exists.
+A home works when it's at least as easy to use as the counter it's competing with. A hook by the door for keys, a tray for mail, and a bin for shoes work for exactly that reason. Putting things all the way away the first time you pick them up only works once that home exists.
 
 Drawers and catch-all spots are where homeless items pile up first.
 

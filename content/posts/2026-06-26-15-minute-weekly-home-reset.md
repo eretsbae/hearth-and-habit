@@ -127,8 +127,8 @@ The first few resets often run long because you're catching up on old mess. If i
 
 Two things lower the baseline it returns you to:
 
-- **Fewer things landing in the basket.** The one-touch rule, putting things all the way away the first time you pick them up, shrinks the basket during the week.
-- **Fewer things, period.** A separate decluttering effort, starting with one drawer, keeps the reset from just shuffling excess around.
+- **Fewer things landing in the basket.** Putting things all the way away the first time you pick them up (sometimes called the one-touch rule) shrinks the basket during the week.
+- **Fewer things, period.** Decluttering, one drawer at a time, keeps the reset from just shuffling excess around.
 
 ## Sources
 

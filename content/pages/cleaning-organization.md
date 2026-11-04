@@ -10,7 +10,7 @@ hero_credit_url: "https://www.flickr.com/photos/168245564@N05/48231489301"
 hero_license_url: "https://creativecommons.org/licenses/by/2.0/"
 ---
 
-This hub collects the cleaning and organizing guides: weekly routines you can actually keep, laundry and towel questions, musty smells, and the reasons a tidy room slides back into chaos within a month.
+This hub collects the cleaning and organizing guides: weekly routines you can actually keep, the cleaning products worth buying, clothes worn once but not yet dirty, musty smells, and the reasons a tidy room slides back into chaos within a month.
 
 ## Start here
 

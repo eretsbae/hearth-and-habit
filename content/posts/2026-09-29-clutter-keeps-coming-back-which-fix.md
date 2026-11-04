@@ -53,7 +53,7 @@ Run the same count on your own pile. If one group is more than half, you have a 
 
 Group A clutter gathers where things stop moving: by the door, on the kitchen counter, in one drawer. Each item needs one specific address, picked where you actually use it, not where it looks tidiest. Mail gets a tray or a slot by where you open it. Chargers get one spot near an outlet. Keys, wallet, and bag get one landing place by the door you really use.
 
-Then keep the address working with the one-touch rule. When you pick something up, take it all the way home instead of setting it down "for now."
+Then keep the address working: when you pick something up, take it all the way home instead of setting it down "for now."
 
 Old batteries often turn up in this pile. Keep lithium-ion and button or coin batteries out of the household trash, since the EPA flags them as a fire hazard. Tape the terminals and take them to a battery drop-off.
 

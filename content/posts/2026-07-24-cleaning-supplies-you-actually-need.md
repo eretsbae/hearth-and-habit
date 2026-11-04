@@ -5,10 +5,10 @@ date: '2026-07-24'
 updated: '2026-10-11'
 description: "One caddy covers routine cleaning. Add one disinfectant for when germs matter, and learn the contact times (4 minutes for wipes) that make it work. Plus 10 skips."
 hero_image: /images/cleaning-supplies-you-actually-need-hero.jpg
-hero_alt: "Gloved hand wiping a round wooden coffee table with a green microfiber cloth while holding a spray bottle"
-hero_credit: "Photo: Shixart1985 via Wikimedia Commons (CC BY 2.0)"
-hero_credit_url: "https://commons.wikimedia.org/wiki/File:Cleaning_a_coffee_table_at_home_with_cleaning_supplies_and_worn_furniture.jpg"
-hero_license_url: "https://creativecommons.org/licenses/by/2.0"
+hero_alt: "Red mop bucket with mops, green and red plastic buckets, jugs of liquid cleaner, push brooms and straw brooms on a tiled floor"
+hero_credit: "Photo: Rwebogora via Wikimedia Commons (CC BY-SA 4.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Cleaning_facilities.jpg"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/4.0"
 tags:
 - cleaning routines
 - decluttering and storage

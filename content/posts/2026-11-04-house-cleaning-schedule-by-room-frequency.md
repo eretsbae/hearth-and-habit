@@ -99,7 +99,7 @@ Toilet-bowl cleaners are often acidic, which brings back the bleach rule. Don't 
 
 In a 2025 Cleveland Clinic article, dermatologist Jennifer Lucas, MD, recommends washing sheets at least once a week, on the hot cycle to help kill bacteria. Use hot if the care label allows. Her reason is what builds up on sheets: shed skin cells, bacteria, dust, pet dander and pollen. She also suggests drying your hair before bed. The article gives no interval for pillows or comforters, so this schedule doesn't invent one.
 
-Towels are different. We found no towel interval from a health agency or manufacturer in our research, so towels aren't in the weekly row. The right interval depends on how fast a towel dries and who uses it. The bath towel guide covers the conditions that matter.
+Towels are different. We found no towel interval from a health agency or manufacturer in our research, so towels aren't in the weekly row. The right interval depends on how fast a towel dries and who uses it.
 
 ## Laundry room: the fire-safety tasks
 
@@ -113,7 +113,7 @@ The vent and exhaust duct are the opposite case. CPSC says to clean them "period
 
 CPSC also says to clean behind the dryer, where lint collects. It recommends replacing plastic or foil accordion duct with rigid or corrugated semi-rigid metal duct, and having a qualified service person clean the inside of the dryer cabinet periodically. The matrix puts a yearly look at the duct and outside hood on the calendar as our assumption, so it doesn't get forgotten. The symptoms above override the calendar: if they show up in March, don't wait for the yearly date.
 
-For washers, LG says to run the Tub Clean cycle on its front-loaders after every 30 uses, or whenever the display shows "tcL". It recommends an oxygen-based washer cleaner and says to avoid chlorine-based or acidic cleaners. If laundry comes out of a clean washer still smelling sour, the musty laundry guide covers the usual causes.
+For washers, LG says to run the Tub Clean cycle on its front-loaders after every 30 uses, or whenever the display shows "tcL". It recommends an oxygen-based washer cleaner and says to avoid chlorine-based or acidic cleaners.
 
 ## Whole house: safety checks and the HVAC filter
 

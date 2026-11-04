@@ -94,7 +94,7 @@ If you burn wood or have any fuel-burning appliance venting through a chimney, t
 
 Test every smoke alarm and CO alarm now (the NFPA's standing advice is to test monthly and replace a smoke alarm every 10 years). The CDC adds two placement and timing points that many checklists skip: CO detectors should be battery-operated or have battery backup, they belong near every sleeping area, and their batteries get checked when the clocks change each spring and fall.
 
-Look at the date on the back of each smoke alarm before you test it. If it's due for replacement, you need to buy one, which is why this sits in weekend 1. If an alarm keeps chirping, this guide to a chirping smoke detector walks through the causes.
+Look at the date on the back of each smoke alarm before you test it. If it's due for replacement, you need to buy one, which is why this sits in weekend 1.
 
 ### The main water shutoff
 
@@ -119,7 +119,7 @@ IBHS explains that ice dams form when attic heat warms the upper roof deck, so t
 - Caulk around cables, vents and other spots where air escapes
 - Ventilate eaves and ridges so cold air circulates under the roof
 
-If a past winter left a stain on an upper-floor ceiling near an outside wall, that's worth reading as a clue; why a ceiling has a yellow-brown stain with no active leak covers the detective work.
+If a past winter left a stain on an upper-floor ceiling near an outside wall, treat it as a clue worth following up before the next freeze.
 
 ### Exterior gaps, windows and doors
 
@@ -137,7 +137,7 @@ USU Extension says insulation must completely cover the pipes, fittings and fixt
 
 Leaves have to be mostly down before a gutter cleaning lasts, which is why this job sits late. IBHS's goal is simple: clear debris from gutters and downspouts so water flows away from the home. Then check where it lands. The Department of Energy's building-science guidance is to discharge downspouts at least 5 feet from the foundation, onto ground that slopes away from the house; about a 6-inch drop over the first 10 feet is the usual target.
 
-If your gutters have guards, they still need a look; gutter guards and cleaning covers what guards change and what they leave. For the rest of the yard, [the fall yard cleanup checklist](https://www.hearth-habit.com/2026/07/fall-yard-cleanup-checklist-what.html) sorts which jobs matter before winter and which can wait until spring.
+If your gutters have guards, they still need a look. For the rest of the yard, [the fall yard cleanup checklist](https://www.hearth-habit.com/2026/07/fall-yard-cleanup-checklist-what.html) sorts which jobs matter before winter and which can wait until spring.
 
 ### Generator placement and outage nights
 
@@ -163,7 +163,7 @@ Generic lists say "blow out the sprinklers." Colorado State Extension's procedur
 6. Leave the backflow device's ball valves and test cocks half-open for winter. Fully open or fully closed valves trap water, which expands and causes damage.
 7. Wear eye protection.
 
-If you don't know your pipe type or backflow device, hire the blowout; Colorado State notes that fall preparation costs much less than spring repairs. While you're out there, the last lawn mow is a fall job too; how low to mow on the last cut has the height.
+If you don't know your pipe type or backflow device, hire the blowout; Colorado State notes that fall preparation costs much less than spring repairs. While you're out there, the last lawn mow is a fall job too; [the fall-to-spring yard calendar](https://www.hearth-habit.com/2026/11/fall-to-spring-yard-calendar-month-by.html) shows when it falls for your grass type.
 
 ### Pools
 

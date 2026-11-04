@@ -64,7 +64,7 @@ Simple actions become automatic faster, so make each drop a single motion:
 | Daily shoes | A mat or low rack at the door | Only shoes in use this week |
 | Items that leave tomorrow | A separate "outgoing" basket | Emptied every day, so it can't fill up |
 
-A single big bowl for "door stuff" tends to turn into a junk pile, for the same reason kitchen drawers keep becoming junk drawers: anything can go in, so everything does.
+A single big bowl for "door stuff" tends to turn into a junk pile, for the same reason a catch-all kitchen drawer does: anything can go in, so everything does.
 
 ![Habit loop for a drop zone: the cue of walking in the door leads to hanging keys on the hook, repeated daily until it runs automatically after about 66 days](/images/stop-losing-time-before-leaving-house-inline.svg)
 
@@ -98,7 +98,7 @@ The outgoing basket handles the "forgot to do it on the day" kind of absentminde
 
 ## Keeping it working
 
-A quick reset helps on days the zone gets messy. Fold it into the [15-minute weekly home reset](https://www.hearth-habit.com/2026/07/the-15-minute-weekly-home-reset-simple.html) rather than adding another chore. The same principle is behind the one-touch rule: handle an item once, putting it where it lives instead of somewhere for now.
+A quick reset helps on days the zone gets messy. Fold it into the [15-minute weekly home reset](https://www.hearth-habit.com/2026/07/the-15-minute-weekly-home-reset-simple.html) rather than adding another chore. The same principle applies all day: handle an item once, putting it where it lives instead of somewhere for now.
 
 If the zone sits in a cluttered entryway, start with one shelf or one drawer rather than reorganizing the whole area at once.
 

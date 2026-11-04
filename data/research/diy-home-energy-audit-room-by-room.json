@@ -1,0 +1,161 @@
+{
+  "reader_situation": "A North American homeowner or renter whose electric (and sometimes gas) bills feel too high wants to find where the money goes without paying for a professional audit first. They have a free weekend afternoon, a flashlight and a tape measure, and want to know which rooms and devices to check, what each one typically costs to run, and which fixes pay back fastest.",
+  "direct_answer": "A DIY home energy audit takes about 2 to 4 hours (Durham County's guide): start with 12 months of bills and an overnight idle-load reading, then walk the house room by room checking air leaks, attic insulation depth against the floor joists, HVAC filters and ducts, the water heater, standby electronics, lighting and second refrigerators. Price each finding with watts x hours / 1000 x your rate (about 18 cents per kWh nationally) and do the zero-cost and fast-payback fixes first.",
+  "consensus": [
+    "Look for drafts around windows, doors and outlets, often with incense or tissue",
+    "Check attic insulation; add more if it's thin",
+    "Change or check the furnace filter and get HVAC serviced",
+    "Swap incandescent bulbs for LEDs and unplug idle electronics",
+    "Turn the water heater down to 120F",
+    "Hire a professional auditor for a blower-door test if you want precision"
+  ],
+  "gaps": [
+    "Most DIY audit articles say 'check the attic insulation' without telling the reader how to turn a tape-measure reading into an R-value. ENERGY STAR gives per-inch multipliers by material (loose fiberglass 2.5, rock wool 2.8, cellulose 3.7, batts 3.2) and the joist rule, so a reader can compute their R-value and the depth needed to reach R-38 or R-49.",
+    "Checklists list rooms but never put a dollar figure on what each room's loads typically cost. EIA's RECS 2020 tables give average kWh per household for each end use (water heating 2,706, space heating 2,484, pool pump 2,384, AC 2,318, dehumidifier 999, second fridge 494, etc.) which can be priced at the registry rate.",
+    "Idle (always-on) load is a big hidden category: NRDC's analysis of 70,000 homes found 164 W always-on, about 1,300 kWh a year and nearly 23% of use; consumer electronics, not the big appliances, made up 51% of it. LBNL explains how to read whole-house idle from smart-meter data at a quiet hour such as 3 am, with the caveat that an overlooked light or pump inflates it.",
+    "Plug-in watt meters are recommended everywhere, but LBNL notes most consumer meters can't safely measure more than about 1,300 W, so they are the wrong tool for space heaters, dryers or other high-draw loads.",
+    "Water heater blanket savings are oversold: Advanced Energy calls the popular 'up to $200 a year' claim unrealistic and cites DOE's overall 5-9% range, with roughly a one-year payback on a $20 blanket.",
+    "Heat pump water heater payback depends on the electricity rate: ENERGY STAR's table assumes 14.6 cents; at 18 cents the payback on the $1,503 incremental cost shortens.",
+    "The smoke/draft test that most guides describe can depressurize the house; ENERGY STAR says to turn off combustion appliances such as gas furnaces and water heaters before running exhaust fans for it.",
+    "Vermiculite attic insulation may contain asbestos and should not be disturbed until lab-tested (ENERGY STAR); few DIY audit articles flag this."
+  ],
+  "evidence": [
+    {
+      "claim": "DIY assessment scope, time and tools",
+      "detail": "Durham County Sustainability Office (2026): DIY home energy assessment, difficulty easy to moderate, time commitment 2 to 4 hours, involves climbing ladders and crawling into attics. Materials: checklist of areas, screwdriver (to pop off outlet covers), N95 mask and gloves, flashlight (attic corners and basement rim joists), incense stick or tissue paper, notebook, tape measure. Purpose: pinpoint where the house is losing energy and identify low-cost fixes; prioritize upgrades by initial cost, estimated savings over time and difficulty.",
+      "source_url": "https://dconc.gov/Engineering-and-Environmental1/Documents/Sustainability/DIY-guides/Home-Energy-Assessment.pdf",
+      "source_title": "Home Energy Assessment (Durham County Sustainability Office)"
+    },
+    {
+      "claim": "DIY assessment directions and tips",
+      "detail": "Draft test: close all windows, turn on exhaust fans, pass lit incense or tissue around window and door frames. Inspect the attic and measure insulation depth (DOE and ENERGY STAR recommend a cost-optimal target of R-49 to R-60 for attic insulation). Check exterior doors for daylight around edges. Attic access: shine a light at the hatch and look for light around the edges. HVAC: check filter cleanliness, look for unsealed duct joints, keep the exterior unit free from debris. Lighting: count incandescent and CFL bulbs to upgrade to LEDs. Review utility bills for unusual spikes. Tips: do the assessment on windy days; photograph problem areas; add foam gaskets behind outlet faceplates on exterior-facing walls; lower the water heater to 120F (49C) to save standby energy.",
+      "source_url": "https://dconc.gov/Engineering-and-Environmental1/Documents/Sustainability/DIY-guides/Home-Energy-Assessment.pdf",
+      "source_title": "Home Energy Assessment (Durham County Sustainability Office)"
+    },
+    {
+      "claim": "Attic insulation joist rule and R-value per inch by material",
+      "detail": "ENERGY STAR: if insulation is level with or below the attic floor joists, you probably need to add more; if you can't see joists because insulation is well above them, you probably have enough and adding more may not be cost-effective. Insulation should be evenly distributed with no low spots. R-value = depth (inches) x factor: loose fiberglass 2.5, rock wool 2.8, cellulose 3.7, vermiculite or perlite 2.7, fiberglass batts 3.2. Recommended attic R-values for uninsulated attics: Zone 1 R30-R49; Zones 2-3 R30-R60; Zone 4 R38-R60; Zones 5-8 R49-R60.",
+      "source_url": "https://www.energystar.gov/saveathome/seal_insulate/identify-problems-you-want-fix/diy-checks-inspections",
+      "source_title": "What to Look For: DIY Checks and Inspections (ENERGY STAR)"
+    },
+    {
+      "claim": "Wall insulation, air-leak tests and attic safety",
+      "detail": "ENERGY STAR: check exterior walls for insulation by looking into an outlet box after turning off the power and confirming no power with a voltage tester; check outlets on all floors and old and new parts of the home. Air leak methods: visual; flashlight at night while a partner watches from outside; paper test (if you can pull paper out of a closed door or window without tearing it, there is a leak); smoke test: turn off all combustion appliances such as gas furnaces and water heaters on a cool, very windy day, shut windows, exterior doors and fireplace flues, run exhaust fans, use incense; a damp hand also works. Safety: vermiculite insulation may contain asbestos, do not disturb it unless tested by an approved lab; watch for nails; walk on joists or truss chords, not drywall or insulation; wear head protection, safety glasses, gloves and a dust mask.",
+      "source_url": "https://www.energystar.gov/saveathome/seal_insulate/identify-problems-you-want-fix/diy-checks-inspections",
+      "source_title": "What to Look For: DIY Checks and Inspections (ENERGY STAR)"
+    },
+    {
+      "claim": "Attic check steps, regional minimums and savings",
+      "detail": "ENERGY STAR Ask the Experts: most common insulation types have about R-3 to R-3.5 per inch; take depth in inches x 3 for an estimate. South: minimum R-38, about 13-14 inches. North: minimum R-49, about 16-18 inches. If levels are more than 4-6 inches below the recommended level, or joists are not buried, consider adding more. A poorly insulated home could easily have utility bills that are 10% higher; sealing and insulating can save up to 10% on annual energy bills. Homes with insulation against the roof deck (cathedral ceiling): hire an energy auditor or insulation contractor.",
+      "source_url": "https://energystar.gov/products/ask-the-experts/how-check-your-homes-attic-insulation-level",
+      "source_title": "How to Check Your Home's Attic Insulation Level (ENERGY STAR)"
+    },
+    {
+      "claim": "Average kWh per household using each end use, part 1",
+      "detail": "EIA RECS 2020 Table CE5.3a (kWh per household using the end use, all homes): space heating 2,484 (includes main and secondary heating); air handlers for heating 233; air conditioning 2,318; air handlers for cooling 457; ceiling fans 226; dehumidifiers 999; humidifiers 139; water heating 2,706; clothes washers 69; clothes dryers 680; lighting 654; electric vehicle charging 2,363. Solar generation is included in consumption.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/c&e/pdf/ce5.3a.pdf",
+      "source_title": "RECS 2020 Table CE5.3a: Household site electricity end-use consumption, part 1 (EIA)"
+    },
+    {
+      "claim": "Average kWh per household using each end use, part 2",
+      "detail": "EIA RECS 2020 Table CE5.3b (kWh per household using the end use, all homes): all refrigerators 839; most-used refrigerator 617; second refrigerators 494; separate freezers 570; cooking 290; microwaves 107; dishwashers 112; all TVs and related 632; most-used TV 210; second TVs 106; third TVs 82; pool pumps 2,384; hot tub pumps 484; hot tub heaters 1,479.",
+      "source_url": "https://www.eia.gov/consumption/residential/data/2020/c&e/pdf/ce5.3b.pdf",
+      "source_title": "RECS 2020 Table CE5.3b: Household site electricity end-use consumption, part 2 (EIA)"
+    },
+    {
+      "claim": "National end-use shares and average consumption",
+      "detail": "EIA: the three largest categories of residential site electricity consumption in 2020 were air conditioning 19%, space heating 12%, water heating 12%; lighting and refrigerators are the next two largest. The average U.S. household consumes about 10,500 kWh of electricity per year.",
+      "source_url": "https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php",
+      "source_title": "Use of electricity in homes (EIA Energy Explained)"
+    },
+    {
+      "claim": "Standby watts to kWh, share, and what to unplug",
+      "detail": "LBNL: a device drawing 1 watt constantly for a year uses 9 kWh/yr. Standby is typically 5-10% of residential electricity use in most developed countries. Watt meters can be bought online for under $50; accuracy drops below about 1 W. New products can use up to 90% less standby power than those they replace. Unplug devices you don't use often; the older the appliance, the greater the likely savings; put clusters of computer or video equipment on a switchable power strip. Devices with external power supplies, remote controls, continuous displays or network connections likely draw standby power.",
+      "source_url": "https://standby.lbl.gov/frequently-asked-questions",
+      "source_title": "Standby Power: Frequently Asked Questions (Lawrence Berkeley National Laboratory)"
+    },
+    {
+      "claim": "Meter limits and whole-house idle reading",
+      "detail": "LBNL: most consumer-grade meters can't safely measure more than about 1,300 watts. Whole-house standby can be estimated from a smart meter during a quiet period such as 3 am when the refrigerator compressor is off; this is susceptible to overestimates because it is easy to overlook a light, small fan or pump. IEC 62301-compliant meters are the most accurate and more expensive.",
+      "source_url": "https://standby.lbl.gov/meters-to-measure-standby-power",
+      "source_title": "Meters to Measure Standby Power (Lawrence Berkeley National Laboratory)"
+    },
+    {
+      "claim": "Always-on idle load in homes",
+      "detail": "NRDC Home Idle Load issue paper: average always-on load across 70,000 northern California homes (Stanford/PG&E smart-meter data) was 164 watts; over 22 hours of inactive use per day this adds up to about 1,300 kWh a year, nearly 23% of household electricity consumption. At the national average rate the report used (12.5 cents/kWh, EIA January 2015), always-on but inactive devices cost about $165 a year. 10-home audit: average 65 devices per home, 43 drawing more than 1 W idle. Heating and cooling, lighting and refrigeration were just 15% of always-on consumption; consumer electronics 51%; other miscellaneous loads 34% (recirculation pumps, fishponds, aquariums, GFCI outlets). Printers idled at 2 to 26 W per home. Suggested actions: unplug devices not in use; power strips, timers or smart outlets; adjust power settings.",
+      "source_url": "https://www.nrdc.org/sites/default/files/home-idle-load-IP.pdf",
+      "source_title": "Home Idle Load: Devices Wasting Huge Amounts of Electricity When Not in Active Use (NRDC)"
+    },
+    {
+      "claim": "Heat pump water heater savings and payback assumptions",
+      "detail": "ENERGY STAR table: household of 2: 1,880 kWh/yr savings, $270/yr, payback 5.5 years, lifetime savings $2,050; household of 3: 2,820 kWh, $410, 3.7 years, $3,830; household of 4: 3,760 kWh, $550, 2.7 years, $5,610. Assumes $0.146/kWh, incremental cost $1,503, 13-year lifespan.",
+      "source_url": "https://www.energystar.gov/products/heat_pump_water_heaters/benefits-savings",
+      "source_title": "Heat Pump Water Heaters: Benefits and Savings (ENERGY STAR)"
+    },
+    {
+      "claim": "Water heater blanket cost and realistic savings",
+      "detail": "Advanced Energy (Raleigh, NC, 2013): blankets sell for about $20 at hardware stores; installation takes 20 or 30 minutes. The popular 'up to $200 a year' claim is unrealistic. Insulation can reduce standby heat losses by 25%-45%, but standby loss is a small part of water heating energy; DOE puts overall savings in the 5%-9% range. For a household spending up to $450 a year on water heating, realistic savings are $20 to $40. Payback about one year. Tanks that feel hot on the outside and heaters in locations that get very cold benefit most; newer heaters have more factory insulation; heaters older than about 15 years may be better replaced with a more efficient model. Insulating the first few feet of hot and cold pipe near the tank can also save a little.",
+      "source_url": "https://www.advancedenergy.org/news/electric-blankets-for-water-heaters",
+      "source_title": "Electric Blankets for Water Heaters (Advanced Energy)"
+    },
+    {
+      "claim": "WaterSense showerheads",
+      "detail": "EPA WaterSense: standard showerheads use 2.5 gallons per minute; WaterSense labeled models use no more than 2.0 gpm. The average family could save 2,700 gallons per year and more than 330 kWh of electricity annually, since less hot water is needed. Showering is nearly 17 percent of residential indoor water use.",
+      "source_url": "https://www.epa.gov/watersense/showerheads",
+      "source_title": "Showerheads (EPA WaterSense)"
+    },
+    {
+      "claim": "Old and second refrigerators",
+      "detail": "ENERGY STAR: refrigerators over 15 years old could be costing about $95 more per year to run; an old refrigerator uses about 20% more energy than an ENERGY STAR model. If you need a second refrigerator year-round, replace the old one with an ENERGY STAR certified model; recycle the old one. Keep the refrigerator at 35 to 38F.",
+      "source_url": "https://www.energystar.gov/products/refrigerators",
+      "source_title": "Refrigerators (ENERGY STAR)"
+    },
+    {
+      "claim": "Duct leakage and sealing",
+      "detail": "ENERGY STAR: in a typical house about 20 to 30 percent of the air that moves through the duct system is lost to leaks, holes and poorly connected ducts. Signs: high summer and winter bills, rooms difficult to heat or cool, stuffy rooms, ducts in attic, crawlspace or garage, tangled or kinked flex duct. Seal with mastic sealant or metal tape; never use duct tape. Insulate ducts you can access in attics, crawlspaces, unfinished basements and garages.",
+      "source_url": "https://www.energystar.gov/saveathome/heating-cooling/duct-sealing",
+      "source_title": "Duct Sealing (ENERGY STAR)"
+    },
+    {
+      "claim": "HVAC maintenance checklist",
+      "detail": "ENERGY STAR: inspect, clean or change air filters once a month for central AC, furnace and heat pump; annual pre-season check-ups by a contractor (cooling in spring, heating in fall); check thermostat settings; check the condensate drain (a clog can cause water damage and affect indoor humidity); tighten electrical connections (contractor task).",
+      "source_url": "https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist",
+      "source_title": "Maintenance Checklist (ENERGY STAR)"
+    }
+  ],
+  "real_questions": [
+    "Can I do an energy audit myself or do I need a blower door test?",
+    "What should I check first, and what tools do I need?",
+    "How do I know if my attic has enough insulation?",
+    "Which appliances cost the most to run per year?",
+    "How do I find out what my house uses when nothing is on?",
+    "Is a water heater blanket worth it?",
+    "Is a heat pump water heater worth the extra cost?"
+  ],
+  "original_asset": "Three computed assets: (1) an annual-cost table, grouped by room, pricing EIA RECS 2020 average kWh per household for each end use at the registry rate of 18 cents/kWh (kWh x 0.18); (2) a fix-payback table: cited fix cost divided by cited savings priced at 18 cents (months to pay back), plus break-even budgets for fixes without a cited price; (3) an attic insulation depth table: inches needed to reach R-38 and R-49 for each material from ENERGY STAR's per-inch factors (R target / factor). Plus a printable room-by-room checklist from Durham County's and ENERGY STAR's DIY guidance.",
+  "cautions": [
+    "Turn off combustion appliances (gas furnace, water heater) before an exhaust-fan smoke test (ENERGY STAR).",
+    "Do not disturb vermiculite attic insulation until it is lab-tested for asbestos (ENERGY STAR).",
+    "Walk only on joists or truss chords in the attic; wear head protection, glasses, gloves and a mask (ENERGY STAR).",
+    "Turn off power and confirm with a voltage tester before looking into an outlet box (ENERGY STAR).",
+    "Consumer plug-in meters can't safely measure more than about 1,300 W (LBNL).",
+    "RECS figures are national averages per household that has the end use; individual homes vary widely."
+  ],
+  "sources": {
+    "https://dconc.gov/Engineering-and-Environmental1/Documents/Sustainability/DIY-guides/Home-Energy-Assessment.pdf": "Home Energy Assessment (Durham County Sustainability Office)",
+    "https://www.energystar.gov/saveathome/seal_insulate/identify-problems-you-want-fix/diy-checks-inspections": "What to Look For: DIY Checks and Inspections (ENERGY STAR)",
+    "https://energystar.gov/products/ask-the-experts/how-check-your-homes-attic-insulation-level": "How to Check Your Home's Attic Insulation Level (ENERGY STAR)",
+    "https://www.eia.gov/consumption/residential/data/2020/c&e/pdf/ce5.3a.pdf": "RECS 2020 Table CE5.3a: Household site electricity end-use consumption, part 1 (EIA)",
+    "https://www.eia.gov/consumption/residential/data/2020/c&e/pdf/ce5.3b.pdf": "RECS 2020 Table CE5.3b: Household site electricity end-use consumption, part 2 (EIA)",
+    "https://www.eia.gov/energyexplained/use-of-energy/electricity-use-in-homes.php": "Use of electricity in homes (EIA Energy Explained)",
+    "https://standby.lbl.gov/frequently-asked-questions": "Standby Power: Frequently Asked Questions (Lawrence Berkeley National Laboratory)",
+    "https://standby.lbl.gov/meters-to-measure-standby-power": "Meters to Measure Standby Power (Lawrence Berkeley National Laboratory)",
+    "https://www.nrdc.org/sites/default/files/home-idle-load-IP.pdf": "Home Idle Load: Devices Wasting Huge Amounts of Electricity When Not in Active Use (NRDC)",
+    "https://www.energystar.gov/products/heat_pump_water_heaters/benefits-savings": "Heat Pump Water Heaters: Benefits and Savings (ENERGY STAR)",
+    "https://www.advancedenergy.org/news/electric-blankets-for-water-heaters": "Electric Blankets for Water Heaters (Advanced Energy)",
+    "https://www.epa.gov/watersense/showerheads": "Showerheads (EPA WaterSense)",
+    "https://www.energystar.gov/products/refrigerators": "Refrigerators (ENERGY STAR)",
+    "https://www.energystar.gov/saveathome/heating-cooling/duct-sealing": "Duct Sealing (ENERGY STAR)",
+    "https://www.energystar.gov/saveathome/heating-cooling/maintenance-checklist": "Maintenance Checklist (ENERGY STAR)"
+  }
+}

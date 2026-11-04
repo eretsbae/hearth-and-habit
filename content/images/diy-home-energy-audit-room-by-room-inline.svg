@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect x="0" y="0" width="1200" height="630" fill="#F6EFE6"/>
+  <text x="60" y="88" font-family="Helvetica, Arial, sans-serif" font-size="38" font-weight="bold" fill="#2E2A24">Yearly cost at 18¢ per kWh</text>
+  <line x1="470" y1="125" x2="470" y2="580" stroke="#2E2A24" stroke-width="2"/>
+  <text x="60" y="171" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Water heating $487</text>
+  <rect x="472" y="140" width="630" height="46" rx="4" fill="#B85C38"/>
+  <text x="60" y="245" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Space heating $447</text>
+  <rect x="472" y="214" width="578" height="46" rx="4" fill="#B85C38"/>
+  <text x="60" y="319" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Pool pump $429</text>
+  <rect x="472" y="288" width="555" height="46" rx="4" fill="#D9A441"/>
+  <text x="60" y="393" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Air conditioning $417</text>
+  <rect x="472" y="362" width="540" height="46" rx="4" fill="#B85C38"/>
+  <text x="60" y="467" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Always-on (NRDC)* $234</text>
+  <rect x="472" y="436" width="303" height="46" rx="4" fill="#5C6E58"/>
+  <text x="60" y="541" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#2E2A24">Dehumidifier $180</text>
+  <rect x="472" y="510" width="233" height="46" rx="4" fill="#D9A441"/>
+  <text x="60" y="610" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#2E2A24">*NRDC northern California estimate, a different kind of figure than the EIA RECS averages</text>
+</svg>

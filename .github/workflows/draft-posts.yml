@@ -1,0 +1,60 @@
+# config/topics.yml 에서 status: drafted 로 표시된 글을 Blogger 초안으로 되돌립니다
+# (posts.revert — 삭제 아님, 공개 사이트에서만 내려감). 같은 필러의 나머지 글에서
+# 관련글 링크를 다시 씁니다. AdSense 심사 전 정리(prune)용.
+# - 수동 실행 전용. 먼저 topics.yml 해당 항목을 status: drafted, blogger_url →
+#   drafted_url 로 옮기고 draft_reason 을 적은 커밋을 main 에 올린 뒤 실행합니다.
+# - restore 에 slug 를 넣으면 그 글 하나를 다시 발행하고 기록을 되돌립니다.
+# - 정리 후 허브 페이지 목록 갱신은 publish-pages.yml 을 따로 실행합니다.
+
+name: Draft Posts
+
+on:
+  workflow_dispatch:
+    inputs:
+      restore:
+        description: "Slug to publish back (leave empty to revert pending drafted posts)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-write
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Revert or restore on Blogger
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          RESTORE: ${{ inputs.restore }}
+        run: |
+          if [ -n "$RESTORE" ]; then
+            python generator/blogger_draft.py --restore "$RESTORE"
+          else
+            python generator/blogger_draft.py
+          fi
+
+      - name: Commit records
+        if: always()
+        run: |
+          git config user.name "hearth-habit-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add config/topics.yml
+          git diff --cached --quiet || git commit -m "chore: record drafted posts ($(date -u +%Y-%m-%d))"
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME"
+          git push

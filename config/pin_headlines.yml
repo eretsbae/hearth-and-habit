@@ -1,0 +1,26 @@
+# Big headline on each post's pin image (make_pin.py). Default when a post is
+# not listed here: its first frontmatter pin_hook. Entries below exist where
+# that hook only restated the title, used Title Case, or read vaguer than the
+# post. Every headline must be a claim the post itself makes, in the post's
+# own plain, sourced voice: no "you won't believe", no promise the article
+# does not keep. Kept out of post frontmatter on purpose: editing a post file
+# re-syncs it to Blogger.
+diy-home-energy-audit-room-by-room: Find the rooms that run up your electric bill
+fall-to-spring-yard-calendar-cool-warm-season-grass: The soil temperatures that time every lawn task
+fridge-freezer-storage-chart-how-long-food-lasts: The fridge and freezer chart worth taping inside a cabinet
+winter-home-prep-checklist-before-first-freeze: "Before the first freeze: the jobs to do, in order"
+house-cleaning-schedule-by-room-frequency: A cleaning schedule with a reason behind every interval
+what-temperature-do-pipes-freeze-guide: Pipes in unheated spaces are most at risk below 20°F
+outdoor-faucet-winter-shutoff-valve: Frost-free faucet? The hose still has to come off
+how-long-can-party-food-sit-out-buffet: The 2-hour party food clock starts before guests arrive
+breaker-trips-when-two-appliances-run-together: Microwave plus toaster trips the breaker? Do the math
+frost-free-freezer-frost-buildup: Frost in a frost-free freezer? Read where it forms
+water-heater-120-vs-140-does-it-save-money: Why 120°F saves less on showers than you think
+how-long-frozen-turkey-takes-to-thaw-in-fridge: "Thawing a turkey: allow 1 day per 4 pounds in the fridge"
+cost-to-run-space-heater-8-hours: "A space heater for 8 hours: about $2.04 at 17¢/kWh"
+furnace-smells-like-burning-dust-first-time-on: Burning smell from the furnace? Fading or getting stronger?
+why-is-my-electric-bill-so-high-checklist: Divide kWh by billing days before you blame anything
+food-storage-safety-rules-leftovers-thawing: "Leftovers: 3–4 days in the fridge, reheat to 165°F"
+musty-smell-in-house-find-the-source: Skip the mold test kit and find the damp spot instead
+clutter-keeps-coming-back-which-fix: Sort the pile that came back to see why it came back
+when-to-call-a-pro-vs-diy-repair: "Shut it off, then wait for weekday rates"

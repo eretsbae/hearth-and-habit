@@ -29,6 +29,7 @@ import re
 import os
 import sys
 from pathlib import Path
+from urllib.parse import urlsplit
 
 import yaml
 
@@ -36,12 +37,13 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "generator"))
 
 import pinterest_client as pc  # noqa: E402
-from make_pin import parse_front  # noqa: E402
+from make_pin import PIN_DESIGN, parse_front  # noqa: E402
 
 SITE_CONFIG = ROOT / "config" / "site.yml"
 TOPICS_CONFIG = ROOT / "config" / "topics.yml"
 POSTS_DIR = ROOT / "content" / "posts"
 PINS_DIR = ROOT / "content" / "pins"
+HUB_PAGES = ROOT / "content" / "pages"
 
 
 def load_yaml(path: Path) -> dict:
@@ -68,9 +70,38 @@ def step_summary(markdown: str) -> None:
 
 
 def pin_image_url(cfg: dict, slug: str) -> str:
+    # ?v=<design>: raw.githubusercontent ignores the query, but it gives a
+    # re-rendered pin a URL Pinterest has not fetched before, so a refresh
+    # pin can't be served a cached copy of the old picture.
     gh = cfg["github"]
     return (f"https://raw.githubusercontent.com/{gh['owner']}/{gh['repo']}/"
-            f"{gh['branch']}/content/pins/{slug}.png")
+            f"{gh['branch']}/content/pins/{slug}.png?v={PIN_DESIGN}")
+
+
+def pin_text(fm: dict, fallback_title: str) -> tuple[str, str, str]:
+    """Title, description and alt text for a pin.
+
+    The title is the article's own title, so the pin says exactly which page
+    it opens. The description is the article's meta description, plus the
+    hero photo's credit line: the photo is someone else's licensed work and
+    the pin is a new place it appears."""
+    title = fm.get("title") or fallback_title
+    description = (fm.get("description") or "").strip() or title
+    credit = str(fm.get("hero_credit") or "").strip()
+    if credit and credit not in description:
+        description = f"{description}\n\n{credit}"
+    return title, description, str(fm.get("hero_alt") or "").strip()
+
+
+def start_here_paths() -> list[str]:
+    """URL paths the hub pages send new readers to first ("Start here"):
+    the pillar cornerstones, which get the new design before anything else."""
+    out = []
+    for page in sorted(HUB_PAGES.glob("*.md")):
+        for line in page.read_text(encoding="utf-8").splitlines():
+            if "start here" in line.casefold():
+                out += [m.lower() for m in re.findall(r"/\d{4}/\d{2}/[\w-]+\.html", line)]
+    return out
 
 
 def post_meta(slug: str) -> dict:
@@ -135,6 +166,44 @@ def candidates(topics_data: dict) -> list[dict]:
             if not q:
                 queues.remove(q)
     return out
+
+
+def refresh_candidates(topics_data: dict) -> list[dict]:
+    """Live posts pinned before the current pin design, cornerstones first.
+
+    Pinterest copies a pin's image when the pin is created, so posts that
+    were rewritten after pinning still show the old picture and wording.
+    Each gets exactly one new pin in the current design (recorded as
+    pinterest_refresh_pin_id); the old pin stays, with its text brought up to
+    date by pinterest_maintain.py."""
+    first = start_here_paths()
+    todo = []
+    for t in topics_data.get("topics", []):
+        slug = t.get("published_slug")
+        if (t.get("status") != "published" or not slug or not t.get("blogger_url")
+                or not t.get("pinterest_pin_id") or t.get("pinterest_refresh_pin_id")
+                or int(t.get("pinterest_pin_design") or 1) >= PIN_DESIGN
+                or not (PINS_DIR / f"{slug}.png").exists()):
+            continue
+        todo.append(t)
+
+    def rank(t: dict) -> int:
+        path = urlsplit(t["blogger_url"]).path.lower()
+        return first.index(path) if path in first else len(first)
+
+    # Cornerstones first, then the rest interleaved across pillars like the
+    # new-pin queue, newest posts first within a pillar.
+    head = sorted((t for t in todo if rank(t) < len(first)), key=rank)
+    by_pillar: dict[str, list[dict]] = {}
+    for t in reversed([t for t in todo if rank(t) >= len(first)]):
+        by_pillar.setdefault(t.get("pillar", ""), []).append(t)
+    queues = list(by_pillar.values())
+    while queues:
+        for q in list(queues):
+            head.append(q.pop(0))
+            if not q:
+                queues.remove(q)
+    return head
 
 
 def sandbox_access_token(app_id: str, app_secret: str, passphrase: str) -> str:
@@ -253,17 +322,27 @@ def main() -> int:
         print(f"{len(held)} post(s) held back: in bulk batch {', '.join(names)} awaiting "
               "upload; record it with --mark-pinned, or drop its pinterest_batch lines "
               "in config/topics.yml to hand the posts to the API.")
-    if not todo and not args.whoami:
-        print("Nothing to pin; every live post with a pin image is already on Pinterest.")
+    # New posts first; whatever is left of the daily limit goes to one fresh
+    # pin, in the current design, for a post pinned under an older one.
+    refresh = [] if args.sandbox else refresh_candidates(topics_data)
+    if not todo and not refresh and not args.whoami:
+        print("Nothing to pin; every live post with a pin image is already on Pinterest "
+              "in the current design.")
         return 0
     batch = todo[: args.limit]
+    refresh_batch = refresh[: max(0, args.limit - len(batch))]
+    # Kept outside the topic dicts: those are saved to topics.yml after
+    # every pin, and a marker on them would be written out mid-batch.
+    refreshing = {id(t) for t in refresh_batch}
+    batch = batch + refresh_batch
     if not args.whoami:
-        print(f"{len(todo)} post(s) awaiting a pin; publishing {len(batch)} this run.")
+        print(f"{len(todo)} post(s) awaiting a first pin, {len(refresh)} awaiting a "
+              f"design-{PIN_DESIGN} refresh pin; publishing {len(batch)} this run.")
 
     if args.dry_run:
         for t in batch:
             slug = t["published_slug"]
-            print(f"  [dry-run] {t['title']}")
+            print(f"  [dry-run] {'REFRESH ' if id(t) in refreshing else ''}{t['title']}")
             print(f"            board={pillars.get(t['pillar'], {}).get('name', '?')}")
             print(f"            image={pin_image_url(cfg, slug)}")
             print(f"            link={t['blogger_url']}")
@@ -339,14 +418,14 @@ def main() -> int:
                                    pillar.get("description", ""), board_cache)
 
         fm = post_meta(slug)
-        title = fm.get("title") or topic["title"]
-        description = (fm.get("description") or "").strip() or title
+        title, description, alt_text = pin_text(fm, topic["title"])
+        is_refresh = id(topic) in refreshing
 
-        print(f"Pinning: {title}")
+        print(f"Pinning{' (refresh)' if is_refresh else ''}: {title}")
         try:
             result = pc.create_pin(
                 access_token, board_id, title, description,
-                topic["blogger_url"], pin_image_url(cfg, slug),
+                topic["blogger_url"], pin_image_url(cfg, slug), alt_text,
             )
         except pc.TrialAccessOnly as e:
             # Expected state until Pinterest grants Standard access. Same
@@ -372,8 +451,12 @@ def main() -> int:
             print(f"     link  {result.get('link')}")
             print(f"     title {result.get('title')}")
             continue
-        topic["pinterest_pin_id"] = result.get("id", "")
-        print(f"  -> pin {topic['pinterest_pin_id']} on '{board_name}'")
+        if is_refresh:
+            topic["pinterest_refresh_pin_id"] = result.get("id", "")
+        else:
+            topic["pinterest_pin_id"] = result.get("id", "")
+        topic["pinterest_pin_design"] = PIN_DESIGN
+        print(f"  -> pin {result.get('id', '')} on '{board_name}'")
         pinned_any = True
         # Save after each pin: a mid-batch API error must not lose the record
         # of pins already created, or the next run would duplicate them.
@@ -383,12 +466,14 @@ def main() -> int:
         print("Sandbox run complete; topics.yml untouched.")
         return 0
     if pinned_any:
-        remaining = len(todo) - len(batch)
+        remaining = len(todo) + len(refresh) - len(batch)
         print(f"Done. {remaining} post(s) still queued for future runs.")
         step_summary(
             f"## 📌 핀 {len(batch)}개 게시\n\n"
-            + "".join(f"- {t['title']}\n" for t in batch)
-            + f"\n남은 대기: **{remaining}편**\n"
+            + "".join(f"- {'(새 디자인 재핀) ' if t.get('pinterest_refresh_pin_id') else ''}"
+                      f"{t['title']}\n" for t in batch)
+            + f"\n남은 대기: **{remaining}편** (신규 {max(0, len(todo) - args.limit)}"
+            f" · 재핀 {len(refresh) - len(refresh_batch)})\n"
         )
     return 0
 

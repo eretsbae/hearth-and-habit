@@ -169,52 +169,130 @@ def hero_band(slug: str) -> Image.Image | None:
     return art.crop((left, top, left + W, top + ART_H))
 
 
+PHOTO_H = 660  # height of the photo band (design 2)
+MUTED = "#6B625A"
+HEADLINES_CONFIG = ROOT / "config" / "pin_headlines.yml"
+
+# Bumped whenever the pin layout changes enough that already-pinned posts
+# deserve a fresh pin (pinterest_publish.py records it per post as
+# pinterest_pin_design, and queues older designs for one refresh pin).
+PIN_DESIGN = 2
+
+
+def hook_text(h) -> str:
+    """A pin_hooks entry as text. YAML turns an unquoted 'Fix: thing' into a
+    one-key mapping, and several posts carry hooks written that way."""
+    if isinstance(h, dict):
+        return " ".join(f"{k}: {v}" for k, v in h.items()).strip()
+    return str(h).strip() if h else ""
+
+
+def pin_headline(fm: dict, slug: str) -> str:
+    """The big text on the pin: config/pin_headlines.yml, else the post's
+    first pin hook, else its title. See that file for the tone rule."""
+    overrides = {}
+    if HEADLINES_CONFIG.exists():
+        overrides = yaml.safe_load(HEADLINES_CONFIG.read_text(encoding="utf-8")) or {}
+    if overrides.get(slug):
+        return str(overrides[slug]).strip()
+    for h in fm.get("pin_hooks") or []:
+        if hook_text(h):
+            return hook_text(h)
+    return fm.get("title", "")
+
+
+def photo_band(slug: str, height: int) -> Image.Image | None:
+    """The post's hero photo (content/images/<slug>-hero.jpg), cover-cropped
+    to the pin width. Same photo the reader sees at the top of the article,
+    so the pin and the page it opens look like one thing."""
+    for ext in ("jpg", "jpeg", "png", "webp"):
+        path = IMAGES_DIR / f"{slug}-hero.{ext}"
+        if path.exists():
+            break
+    else:
+        return None
+    try:
+        art = Image.open(path).convert("RGB")
+    except Exception as e:
+        print(f"  WARN: could not open {path.name} ({e})")
+        return None
+    scale = max(W / art.width, height / art.height)
+    art = art.resize((max(W, round(art.width * scale)), max(height, round(art.height * scale))),
+                     Image.LANCZOS)
+    left = (art.width - W) // 2
+    top = int((art.height - height) * 0.45)
+    return art.crop((left, top, left + W, top + height))
+
+
 def render_pin(title: str, pillar_name: str, out_path: Path,
-               slug: str = "", pillar_slug: str = "") -> None:
+               slug: str = "", pillar_slug: str = "", headline: str = "",
+               credit: str = "") -> None:
+    """Design 2 (2026-11-05): the article's hero photo on top, one short
+    claim from the article as the headline, the article's real title under
+    it. Same palette and serif as the blog, so a reader who taps through
+    lands on a page that matches the pin."""
     img = Image.new("RGB", (W, H), CREAM)
     d = ImageDraw.Draw(img)
 
-    art = hero_band(slug) if slug else None
+    art = photo_band(slug, PHOTO_H) if slug else None
+    if art is None:
+        legacy = hero_band(slug) if slug else None  # illustration-era posts
+        if legacy is not None:
+            art = legacy.resize((W, PHOTO_H))
     if art is not None:
         img.paste(art, (0, 0))
     else:
-        draw_motif(d)
+        band = Image.new("RGB", (W, ART_H), CREAM)
+        draw_motif(ImageDraw.Draw(band))
+        img.paste(band.resize((W, PHOTO_H)), (0, 0))
 
-    # Title card overlaps the artwork slightly so the two read as one layout.
-    card_top, card_bottom = ART_H - 40, 1290
-    d.rounded_rectangle([56, card_top, W - 56, card_bottom], radius=28,
+    card_top, card_bottom = PHOTO_H - 50, H - 78
+    d.rounded_rectangle([48, card_top, W - 48, card_bottom], radius=28,
                         fill=CARD, outline=CLAY, width=3)
 
-    # category chip
-    chip_font = load_font(SANS_BOLD, 26)
+    chip_font = load_font(SANS_BOLD, 24)
     label = pillar_name.upper()
     tw = d.textlength(label, font=chip_font)
-    d.rounded_rectangle([(W - tw) / 2 - 26, card_top + 44, (W + tw) / 2 + 26, card_top + 102],
-                        radius=29, fill=CHIP_COLORS.get(pillar_slug, TERRACOTTA))
-    d.text((W / 2, card_top + 73), label, font=chip_font, fill=CREAM, anchor="mm")
+    d.rounded_rectangle([(W - tw) / 2 - 24, card_top + 36, (W + tw) / 2 + 24, card_top + 90],
+                        radius=27, fill=CHIP_COLORS.get(pillar_slug, TERRACOTTA))
+    d.text((W / 2, card_top + 63), label, font=chip_font, fill=CREAM, anchor="mm")
 
-    # Title box stops well clear of the gold rule at card_bottom-150, so even a
-    # six-line title can't collide with the wordmark block below it.
-    box_top, box_bottom = card_top + 150, card_bottom - 190
-    box_w, box_h = W - 200, box_bottom - box_top
-    font, lines, line_h = fit_title(d, title, box_w, box_h)
-    block_h = len(lines) * line_h
-    y = box_top + max(0, (box_h - block_h) // 2)
+    # Headline (the claim, serif bold like the blog's headings), a gold rule,
+    # then the article's own title so the pin names the page it opens. The
+    # block is centred between the chip and the masthead.
+    head = headline or title
+    font, lines, line_h = fit_lines(d, head, SERIF_BOLD, W - 190, 340, range(76, 41, -2), 5)
+    sub = headline and headline.strip().casefold() != title.strip().casefold()
+    if sub:
+        sfont, slines, sline_h = fit_lines(d, title, SANS, W - 220, 120, range(30, 21, -1), 3)
+    else:
+        slines, sline_h = [], 0
+    block_h = len(lines) * line_h + 26 + 4 + (30 + len(slines) * sline_h if sub else 0)
+    area_top, area_bottom = card_top + 112, card_bottom - 120
+    y = area_top + max(0, (area_bottom - area_top - block_h) // 2)
     for line in lines:
         d.text((W / 2, y), line, font=font, fill=INK, anchor="ma")
         y += line_h
+    y += 26
+    d.rectangle([W / 2 - 60, y, W / 2 + 60, y + 4], fill=GOLD)
+    y += 4 + 30
+    for line in slines:
+        d.text((W / 2, y), line, font=sfont, fill=MUTED, anchor="ma")
+        y += sline_h
 
-    # rule + wordmark inside the card
-    d.rectangle([W / 2 - 70, card_bottom - 148, W / 2 + 70, card_bottom - 144], fill=GOLD)
-    d.text((W / 2, card_bottom - 108), "HEARTH & HABIT",
-           font=load_font(SANS_BOLD, 30), fill=SAGE, anchor="ma")
-    d.text((W / 2, card_bottom - 64), site_domain(),
-           font=load_font(SANS, 24), fill="#8A8078", anchor="ma")
+    d.text((W / 2, card_bottom - 92), "HEARTH & HABIT",
+           font=load_font(SANS_BOLD, 28), fill=SAGE, anchor="ma")
+    d.text((W / 2, card_bottom - 52), site_domain(),
+           font=load_font(SANS, 23), fill="#8A8078", anchor="ma")
 
-    # footer band
-    d.rectangle([0, H - 160, W, H], fill=TERRACOTTA)
-    d.text((W / 2, H - 80), "Practical home care, made simple.",
-           font=load_font(SANS, 30), fill=CREAM, anchor="mm")
+    if credit:
+        cfont = load_font(SANS, 17)
+        text = credit
+        while d.textlength(text, font=cfont) > W - 80 and len(text) > 20:
+            text = text[:-2]
+        if text != credit:
+            text = text.rstrip(" ,(") + "…"
+        d.text((W / 2, H - 38), text, font=cfont, fill="#8A8078", anchor="mm")
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     img.save(out_path, optimize=True)
@@ -300,7 +378,7 @@ def build_hook_pins() -> int:
         fm = parse_front(path)
         slug = fm.get("slug") or path.stem[11:]
         topic = by_slug.get(slug)
-        hooks = [h for h in fm.get("pin_hooks") or [] if isinstance(h, str) and h.strip()][:2]
+        hooks = [hook_text(h) for h in fm.get("pin_hooks") or [] if hook_text(h)][:2]
         if not topic or not topic.get("blogger_url") or not hooks:
             continue
         for i, hook in enumerate(hooks, 1):
@@ -355,7 +433,8 @@ def pin_for_post(path: Path, names: dict) -> Path | None:
     slug = fm.get("slug") or path.stem[11:]
     out = PINS_DIR / f"{slug}.png"
     render_pin(fm["title"], names.get(fm.get("pillar"), "Home & Living"), out,
-               slug=slug, pillar_slug=fm.get("pillar", ""))
+               slug=slug, pillar_slug=fm.get("pillar", ""),
+               headline=pin_headline(fm, slug), credit=str(fm.get("hero_credit") or ""))
     return out
 
 

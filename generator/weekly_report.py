@@ -213,9 +213,43 @@ def fmt_delta(cur: int | None, prev: int | None) -> str:
     return f" ({'+' if d >= 0 else ''}{d})"
 
 
+PINTEREST_STATS = ROOT / "data" / "pinterest_stats.json"
+
+
+def load_pinterest_stats(today: datetime.date) -> dict | None:
+    """The latest 28-day Pinterest snapshot (pinterest_stats.py, daily), and
+    the one from about a week earlier for the delta. None when there is no
+    snapshot or it is more than 10 days old (the daily job stopped)."""
+    if not PINTEREST_STATS.exists():
+        return None
+    try:
+        data = json.loads(PINTEREST_STATS.read_text(encoding="utf-8"))
+        end = datetime.date.fromisoformat(data["window"]["end"])
+    except (ValueError, KeyError, TypeError):
+        return None
+    if (today - end).days > 10:
+        return None
+    week_ago = (end - datetime.timedelta(days=7)).isoformat()
+    older = [h for h in data.get("history", []) if h.get("date", "") <= week_ago]
+    return {"cur": data["summary"], "prev": older[-1] if older else None, "window": data["window"]}
+
+
+def pinterest_section(pin: dict | None) -> list[str]:
+    if not pin:
+        return ["", "## Pinterest (최근 28일)", "", "- 통계 없음 (`data/pinterest_stats.json` 없음 또는 10일 이상 갱신 안 됨)"]
+    cur, prev = pin["cur"], pin["prev"] or {}
+    rows = [("노출", "IMPRESSION"), ("사이트 클릭(아웃바운드)", "OUTBOUND_CLICK"),
+            ("핀 클릭", "PIN_CLICK"), ("저장", "SAVE")]
+    out = ["", f"## Pinterest (최근 28일: {pin['window']['start']} ~ {pin['window']['end']})", "",
+           "| 지표 | 28일 합계 | 1주 전 대비 |", "|---|---|---|"]
+    out += [f"| {label} | {cur.get(key, 0)} | {fmt_delta(cur.get(key, 0), prev.get(key)).strip() or '—'} |"
+            for label, key in rows]
+    return out
+
+
 def build_report_md(
     today: datetime.date, pv: dict, stats: dict, prev: dict | None, comments: list[dict] | None = None,
-    gsc: dict | None = None,
+    gsc: dict | None = None, pin: dict | None = None,
 ) -> str:
     prev_pv = (prev or {}).get("pageviews", {})
     lines = [
@@ -239,6 +273,7 @@ def build_report_md(
         lines += ["", "### 이번 주 발행"]
         lines += [f"- [{t['title']}]({t['blogger_url']})" for t in stats["new_this_week"]]
     lines += gsc_section(gsc)
+    lines += pinterest_section(pin)
     if comments:
         lines += ["", "## 새 댓글 — 답변해주세요 (Blogger 글에서 직접)", ""]
         lines += [
@@ -256,7 +291,8 @@ def build_report_md(
 
 
 def build_kakao_text(
-    today: datetime.date, pv: dict, stats: dict, prev: dict | None, comments: list[dict] | None = None
+    today: datetime.date, pv: dict, stats: dict, prev: dict | None, comments: list[dict] | None = None,
+    pin: dict | None = None,
 ) -> str:
     prev_pv = (prev or {}).get("pageviews", {})
     return (
@@ -265,6 +301,8 @@ def build_kakao_text(
         f"30일: {pv['pv_30d']} · 누적: {pv['pv_all']}\n"
         f"발행 {stats['live_posts']}편 (신규 {len(stats['new_this_week'])}) · 대기 {stats['pending']}"
         + (f"\n⚠️ 미발행 {stats['unsynced']}편" if stats["unsynced"] else "")
+        + (f"\n📌 핀 28일: 노출 {pin['cur'].get('IMPRESSION', 0)} · "
+           f"사이트 클릭 {pin['cur'].get('OUTBOUND_CLICK', 0)}" if pin else "")
         + (f"\n💬 새 댓글 {len(comments)}개 — 답변 필요!" if comments else "")
     )
 
@@ -301,7 +339,8 @@ def main() -> int:
 
     REPORTS_DIR.mkdir(parents=True, exist_ok=True)
     report_path = REPORTS_DIR / f"weekly-{today.isoformat()}.md"
-    report_path.write_text(build_report_md(today, pv, stats, prev, comments, gsc), encoding="utf-8")
+    pin = load_pinterest_stats(today)
+    report_path.write_text(build_report_md(today, pv, stats, prev, comments, gsc, pin), encoding="utf-8")
     print(f"Report written: {report_path.relative_to(ROOT)}")
 
     gh = cfg["github"]
@@ -309,7 +348,7 @@ def main() -> int:
         f"https://github.com/{gh['owner']}/{gh['repo']}/blob/{gh['branch']}/"
         f"docs/reports/weekly-{today.isoformat()}.md"
     )
-    text = build_kakao_text(today, pv, stats, prev, comments)
+    text = build_kakao_text(today, pv, stats, prev, comments, pin)
     print("--- kakao text ---\n" + text + "\n------------------")
     send_kakao(text, report_url)
     return 0

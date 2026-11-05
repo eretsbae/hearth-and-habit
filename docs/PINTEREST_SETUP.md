@@ -136,6 +136,23 @@ Energy & Utility Savings / Kitchen & Food Habits / Yard & Outdoor Basics).
 - **토큰 자동 갱신** — Pinterest refresh token은 약 1년 유효하고, 갱신 시 교체되면
   워크플로우가 재암호화해 자동 커밋합니다.
 
+## 핀 디자인 2 (2026-11-05)와 기존 핀 정리
+
+- **디자인**: 글의 대표 실사 사진(`content/images/<slug>-hero.jpg`) + 큰 문구 + 실제 글 제목 +
+  사진 출처 한 줄. 큰 문구는 `config/pin_headlines.yml` → 글의 `pin_hooks[0]` → 제목 순으로
+  정합니다. **글 본문에 그대로 있는 주장만** 씁니다(숫자·조건까지 본문과 일치, 낚시 문구 금지).
+- **재핀 큐**: Pinterest는 핀을 만들 때 이미지를 복사하므로, PNG를 다시 그려도 기존 핀은 그대로입니다.
+  그래서 이전 디자인으로 핀된 살아 있는 글마다 새 디자인 핀을 **1개씩** 더 올립니다
+  (`pinterest_refresh_pin_id`, `pinterest_pin_design: 2`). 하루 3개 한도를 신규 글과 나눠 쓰고,
+  허브의 "Start here" 대표 글 5편이 먼저입니다. 핀 설명에는 사진 출처를, alt text에는 `hero_alt`를 넣습니다.
+- **기존 핀 정리**: Actions → *Pinterest maintenance* (기본은 점검만, `apply=true`로 실제 반영).
+  살아 있는 글의 핀은 제목·설명을 현재 글 기준으로 갱신하고, 정리·통합된 글의 핀은
+  같은 질문에 답하는 글로 링크를 옮기거나(`RELINKS`, `redirect_to`) 비공개 보드
+  **Archived pins**로 옮깁니다(삭제 안 함). 결과는 `topics.yml`의 `pinterest_relinked_to` /
+  `pinterest_archived_at`에 남습니다.
+- **통계**: 매일 `pinterest_stats.py`가 최근 28일 노출·아웃바운드 클릭·핀 클릭·저장을
+  `data/pinterest_stats.json`에 남기고, 주간 리포트에 Pinterest 표가 붙습니다.
+
 ## 헤드라인 변형 핀 (`content/pins/hooks/`) — API 대상 아님
 
 글마다 `pin_hooks` 2개로 만든 **추가 핀**(레이아웃이 다른 헤드라인 핀)과

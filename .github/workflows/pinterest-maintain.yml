@@ -1,0 +1,54 @@
+# 이미 올라간 핀을 현재 블로그와 맞춥니다 (generator/pinterest_maintain.py).
+# - 살아 있는 글의 핀: 제목·설명을 현재 글 제목·메타 설명으로 갱신 (핀 이미지 문구와 같은 hook 제목은 유지)
+# - 정리(drafted)·통합(retired)된 글의 핀: 같은 질문에 답하는 글로 링크 재연결,
+#   대체 글이 없으면 비공개 보드 "Archived pins"로 이동 (삭제 안 함, 되돌릴 수 있음)
+# 기본은 점검만(dry run). apply=true로 실행해야 실제로 바꿉니다.
+
+name: Pinterest maintenance
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "true면 실제 변경, false면 점검만"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-write
+  cancel-in-progress: false
+
+jobs:
+  maintain:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Sync existing pins with the site
+        env:
+          PINTEREST_APP_ID: ${{ secrets.PINTEREST_APP_ID }}
+          PINTEREST_APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+          PINTEREST_TOKEN_PASSPHRASE: ${{ secrets.PINTEREST_TOKEN_PASSPHRASE }}
+        run: python generator/pinterest_maintain.py ${{ github.event.inputs.apply == 'true' && '--apply' || '' }}
+
+      - name: Commit records and the rotated token
+        # always(): the refresh token rotates on every refresh (see pinterest-publish.yml).
+        if: always()
+        run: |
+          git config user.name "hearth-habit-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add config/topics.yml
+          [ -d .secrets ] && git add .secrets
+          git diff --cached --quiet || git commit -m "chore: Pinterest maintenance ($(date -u +%Y-%m-%d))"
+          git pull --rebase --autostash origin "$GITHUB_REF_NAME"
+          git push

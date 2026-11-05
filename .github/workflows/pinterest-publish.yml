@@ -2,6 +2,8 @@
 # - 매일 소량(기본 3개)씩만 올립니다. Pinterest는 꾸준한 활동을 선호하고,
 #   신규 계정이 한 번에 수십 개를 올리면 스팸으로 취급합니다.
 # - 각 글은 한 번만 핀됩니다 (config/topics.yml의 pinterest_pin_id로 추적).
+#   예외: 핀 디자인이 바뀌면(make_pin.PIN_DESIGN) 이전 디자인으로 핀된 글마다 새 디자인 핀을
+#   1개씩 더 만듭니다(pinterest_refresh_pin_id). 하루 한도는 신규 글과 공유, 대표 글(Start here) 먼저.
 # - 설정 방법: docs/PINTEREST_SETUP.md
 #
 # - Standard access 전까지는 bulk-upload/pinsNN.csv를 사람이 "콘텐츠 가져오기"로
@@ -69,6 +71,16 @@ jobs:
           KAKAO_TOKEN_PASSPHRASE: ${{ secrets.KAKAO_TOKEN_PASSPHRASE }}
         run: python generator/pinterest_bulk_sync.py
 
+      - name: Snapshot Pinterest stats for the weekly report
+        # 28-day impressions / outbound clicks / saves -> data/pinterest_stats.json,
+        # read by weekly_report.py. Never fails the run.
+        if: always()
+        env:
+          PINTEREST_APP_ID: ${{ secrets.PINTEREST_APP_ID }}
+          PINTEREST_APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
+          PINTEREST_TOKEN_PASSPHRASE: ${{ secrets.PINTEREST_TOKEN_PASSPHRASE }}
+        run: python generator/pinterest_stats.py
+
       - name: Commit pin records
         # always(): Pinterest rotates the refresh token on every refresh, and
         # pinterest_publish.py re-encrypts it to disk before it creates any pin.
@@ -79,6 +91,7 @@ jobs:
           git config user.name "hearth-habit-bot"
           git config user.email "actions@users.noreply.github.com"
           git add config/topics.yml
+          [ -f data/pinterest_stats.json ] && git add data/pinterest_stats.json
           for d in bulk-upload .secrets; do [ -d "$d" ] && git add "$d"; done
           git diff --cached --quiet || git commit -m "chore: Pinterest bookkeeping ($(date -u +%Y-%m-%d))"
           git pull --rebase --autostash origin "$GITHUB_REF_NAME"

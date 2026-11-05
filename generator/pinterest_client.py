@@ -178,10 +178,11 @@ def list_pins(access_token: str) -> list[dict]:
             return pins
 
 
-def create_board(access_token: str, name: str, description: str) -> dict:
+def create_board(access_token: str, name: str, description: str,
+                 privacy: str = "PUBLIC") -> dict:
     resp = requests.post(
         f"{API}/boards",
-        json={"name": name, "description": description[:500], "privacy": "PUBLIC"},
+        json={"name": name, "description": description[:500], "privacy": privacy},
         headers=_auth_headers(access_token), timeout=30,
     )
     if resp.status_code == 400 and '"code":58' in resp.text.replace(" ", ""):
@@ -202,7 +203,8 @@ def board_index(boards: list[dict]) -> dict[str, str]:
     return {board_key(b["name"]): b["id"] for b in boards}
 
 
-def ensure_board(access_token: str, name: str, description: str, cache: dict) -> str:
+def ensure_board(access_token: str, name: str, description: str, cache: dict,
+                 privacy: str = "PUBLIC") -> str:
     """Board id for `name`, creating the board on first use. `cache` is the
     board_index() map and is updated in place.
 
@@ -214,7 +216,7 @@ def ensure_board(access_token: str, name: str, description: str, cache: dict) ->
     if key in cache:
         return cache[key]
     try:
-        board = create_board(access_token, name, description)
+        board = create_board(access_token, name, description, privacy)
     except BoardNameTaken:
         if API != API_SANDBOX:
             raise
@@ -248,7 +250,7 @@ class TrialAccessOnly(SystemExit):
 
 
 def create_pin(access_token: str, board_id: str, title: str, description: str,
-               link: str, image_url: str) -> dict:
+               link: str, image_url: str, alt_text: str = "") -> dict:
     """Create a pin from a publicly reachable image URL.
 
     We pass the raw.githubusercontent.com URL of the committed pin PNG rather
@@ -262,6 +264,8 @@ def create_pin(access_token: str, board_id: str, title: str, description: str,
         "link": link,
         "media_source": {"source_type": "image_url", "url": image_url},
     }
+    if alt_text:
+        payload["alt_text"] = alt_text[:500]
     resp = requests.post(f"{API}/pins", json=payload,
                          headers=_auth_headers(access_token), timeout=60)
     if resp.status_code == 403 and '"code":29' in resp.text.replace(" ", ""):
@@ -271,4 +275,35 @@ def create_pin(access_token: str, board_id: str, title: str, description: str,
             f"ERROR: pin creation failed ({resp.status_code}): {resp.text[:400]}\n"
             "If this says the app lacks permission, confirm the app has pins:write."
         )
+    return resp.json()
+
+
+def update_pin(access_token: str, pin_id: str, **fields) -> dict:
+    """PATCH /pins/{id}: title, description, link, alt_text, board_id.
+
+    The image cannot be changed: Pinterest copies it when the pin is created,
+    so a pin whose picture is out of date needs a new pin, not an edit."""
+    body = {k: v for k, v in fields.items() if v is not None}
+    for key, limit in (("title", 100), ("description", 500), ("alt_text", 500)):
+        if key in body:
+            body[key] = str(body[key])[:limit]
+    resp = requests.patch(f"{API}/pins/{pin_id}", json=body,
+                          headers=_auth_headers(access_token), timeout=30)
+    if not resp.ok:
+        raise SystemExit(f"ERROR: could not update pin {pin_id} ({resp.status_code}): {resp.text[:300]}")
+    return resp.json()
+
+
+def account_analytics(access_token: str, start_date: str, end_date: str,
+                      metrics: str = "IMPRESSION,OUTBOUND_CLICK,PIN_CLICK,SAVE") -> dict:
+    """GET /user_account/analytics for a date range (YYYY-MM-DD, at most 90
+    days back). Returns the raw payload; callers read ["all"]["summary_metrics"]
+    and ["all"]["daily_metrics"]."""
+    resp = requests.get(
+        f"{API}/user_account/analytics",
+        params={"start_date": start_date, "end_date": end_date, "metric_types": metrics},
+        headers=_auth_headers(access_token), timeout=30,
+    )
+    if not resp.ok:
+        raise SystemExit(f"ERROR: could not read account analytics ({resp.status_code}): {resp.text[:300]}")
     return resp.json()

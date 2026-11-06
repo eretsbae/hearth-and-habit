@@ -1,0 +1,22 @@
+{
+  "updated": "2026-11-06",
+  "window": {
+    "start": "2026-10-09",
+    "end": "2026-11-05"
+  },
+  "summary": {
+    "IMPRESSION": 122,
+    "OUTBOUND_CLICK": 3,
+    "PIN_CLICK": 5,
+    "SAVE": 0
+  },
+  "history": [
+    {
+      "date": "2026-11-05",
+      "IMPRESSION": 122,
+      "OUTBOUND_CLICK": 3,
+      "PIN_CLICK": 5,
+      "SAVE": 0
+    }
+  ]
+}

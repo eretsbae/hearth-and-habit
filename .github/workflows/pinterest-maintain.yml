@@ -3,6 +3,10 @@
 # - 정리(drafted)·통합(retired)된 글의 핀: 같은 질문에 답하는 글로 링크 재연결,
 #   대체 글이 없으면 비공개 보드 "Archived pins"로 이동 (삭제 안 함, 되돌릴 수 있음)
 # 기본은 점검만(dry run). apply=true로 실행해야 실제로 바꿉니다.
+# delete_dead=true: 앱에 pin_edit 권한이 없을 때, 위 정리·통합 글의 핀을 수정 대신 삭제합니다
+#   (소유자 승인 2026-11-09, 되돌릴 수 없음). 재연결 대상은 같은 제목·이미지로 대체 글에
+#   다시 올리도록 topics.yml에 큐(pinterest_repin_queue)를 남기고, pinterest-publish가 하루 한도 안에서 올립니다.
+#   limit=1로 먼저 시험합니다.
 
 name: Pinterest maintenance
 
@@ -13,6 +17,14 @@ on:
         description: "true면 실제 변경, false면 점검만"
         required: false
         default: "false"
+      delete_dead:
+        description: "true면 죽은 링크 핀을 수정 대신 삭제(재연결 대상은 재업로드 큐에 등록)"
+        required: false
+        default: "false"
+      limit:
+        description: "delete_dead일 때 삭제할 최대 개수 (0 = 전부)"
+        required: false
+        default: "0"
 
 permissions:
   contents: write
@@ -39,7 +51,11 @@ jobs:
           PINTEREST_APP_ID: ${{ secrets.PINTEREST_APP_ID }}
           PINTEREST_APP_SECRET: ${{ secrets.PINTEREST_APP_SECRET }}
           PINTEREST_TOKEN_PASSPHRASE: ${{ secrets.PINTEREST_TOKEN_PASSPHRASE }}
-        run: python generator/pinterest_maintain.py ${{ github.event.inputs.apply == 'true' && '--apply' || '' }}
+          LIMIT: ${{ github.event.inputs.limit || '0' }}
+        run: >-
+          python generator/pinterest_maintain.py
+          ${{ github.event.inputs.apply == 'true' && '--apply' || '' }}
+          ${{ github.event.inputs.delete_dead == 'true' && '--delete-dead --limit "$LIMIT"' || '' }}
 
       - name: Commit records and the rotated token
         # always(): the refresh token rotates on every refresh (see pinterest-publish.yml).

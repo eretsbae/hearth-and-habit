@@ -87,8 +87,15 @@ def plan(topics_data: dict, pins: list[dict]) -> tuple[list[dict], list[dict]]:
         for u in old_urls(t):
             by_path.setdefault(link_key(u), t)
 
+    # Re-pins of deleted dead-link pins keep the old pin's title (it is on
+    # the image) while linking to the replacement post; retexting them to
+    # the target's title would break that.
+    repins = {r.get("pin_id") for t in topics for r in t.get("pinterest_repin_queue") or []
+              if r.get("pin_id")}
     actions, unmatched = [], []
     for pin in pins:
+        if pin.get("id") in repins:
+            continue
         t = by_path.get(link_key(pin.get("link")))
         if t is None:
             unmatched.append(pin)
@@ -135,10 +142,78 @@ def plan(topics_data: dict, pins: list[dict]) -> tuple[list[dict], list[dict]]:
     return actions, unmatched
 
 
+def delete_dead(token: str, topics_data: dict, actions: list[dict], apply: bool,
+                limit: int) -> int:
+    """Delete pins that lead to a 404, recording each one first.
+
+    Every deleted pin is logged on its (pruned) topic under
+    pinterest_deleted_pins. A relink case also gets a pinterest_repin_queue
+    entry: the same title and image, pointed at the replacement post, which
+    pinterest_publish.py posts as a new pin within its daily limit. Archive
+    cases have no live post to point at, so they are only deleted."""
+    dead = [a for a in actions if a["kind"] in ("relink", "archive")]
+    if limit > 0:
+        dead = dead[:limit]
+    by_slug = {t.get("published_slug"): t for t in topics_data.get("topics", [])}
+    today = datetime.date.today().isoformat()
+    lines, done = [], {"relink": 0, "archive": 0}
+    for a in dead:
+        pin, t = a["pin"], by_slug.get(a["slug"])
+        what = f"재업로드 대기 → {a['target']}" if a["kind"] == "relink" else "삭제만"
+        print(f"  [delete/{a['kind']}] {pin.get('id')} {a['slug']}: {pin.get('title')}")
+        lines.append(f"- {what}: `{a['slug']}` (pin {pin.get('id')})")
+        if not apply or t is None:
+            continue
+        record = {"id": pin.get("id"), "title": pin.get("title") or "",
+                  "kind": a["kind"], "deleted": today}
+        repin = None
+        if a["kind"] == "relink":
+            repin = {"from_pin": pin.get("id"), "title": pin.get("title") or "",
+                     "description": a["fields"].get("description") or pin.get("description") or "",
+                     "target": a["target"], "image_url": pc.pin_image(pin),
+                     "alt_text": pin.get("alt_text") or ""}
+        # Record before deleting: a crash after the delete must not lose the
+        # only copy of what the pin said.
+        t.setdefault("pinterest_deleted_pins", []).append(record)
+        if repin:
+            t.setdefault("pinterest_repin_queue", []).append(repin)
+        save_yaml(TOPICS_CONFIG, topics_data)
+        try:
+            pc.delete_pin(token, pin["id"])
+        except SystemExit:
+            t["pinterest_deleted_pins"].remove(record)
+            if repin:
+                t["pinterest_repin_queue"].remove(repin)
+            save_yaml(TOPICS_CONFIG, topics_data)
+            raise
+        done[a["kind"]] += 1
+        time.sleep(0.4)
+
+    head = "## 🗑️ Pinterest 죽은 링크 핀 삭제 " + ("(적용)" if apply else "(점검만, 변경 없음)")
+    step_summary(
+        f"{head}\n\n"
+        f"- 대상: 재연결 대상 {sum(a['kind'] == 'relink' for a in dead)} · "
+        f"보관 대상 {sum(a['kind'] == 'archive' for a in dead)}\n"
+        + (f"- 삭제함: {done}\n" if apply else "")
+        + "\n" + "\n".join(lines) + "\n"
+    )
+    print(f"{'Deleted' if apply else 'Would delete'}: {len(dead)} pin(s) {done if apply else ''}")
+    return 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--apply", action="store_true", help="Make the changes (default: report only)")
+    ap.add_argument("--delete-dead", action="store_true",
+                    help="Instead of editing, DELETE the pins that point at pruned or "
+                         "retired posts (relink + archive cases). For apps without "
+                         "pin_edit. Relink cases are queued for re-pinning toward the "
+                         "replacement post by pinterest_publish.py. Owner-approved "
+                         "2026-11-09; irreversible")
+    ap.add_argument("--limit", type=int, default=0,
+                    help="With --delete-dead: delete at most this many (0 = all). "
+                         "Use 1 for a trial run")
     args = ap.parse_args()
 
     token = production_access_token()
@@ -155,6 +230,8 @@ def main() -> int:
 
     actions, unmatched = plan(topics_data, pins)
     actions = [a for a in actions if not (a["kind"] == "archive" and a["pin"].get("id") in already_archived)]
+    if args.delete_dead:
+        return delete_dead(token, topics_data, actions, args.apply, args.limit)
     print(f"{len(pins)} pins on the account; {len(actions)} to change; "
           f"{len(unmatched)} not linked to any known post.")
 

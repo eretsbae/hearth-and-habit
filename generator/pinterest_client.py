@@ -295,6 +295,28 @@ def update_pin(access_token: str, pin_id: str, **fields) -> dict:
     return resp.json()
 
 
+def delete_pin(access_token: str, pin_id: str) -> None:
+    """DELETE /pins/{id}. Irreversible: callers record what they delete
+    (and anything to re-pin) before calling this. A pin that is already
+    gone (404) counts as deleted, so a re-run after a partial batch is safe."""
+    resp = requests.delete(f"{API}/pins/{pin_id}",
+                           headers=_auth_headers(access_token), timeout=30)
+    if resp.status_code == 404:
+        return
+    if not resp.ok:
+        raise SystemExit(f"ERROR: could not delete pin {pin_id} ({resp.status_code}): {resp.text[:300]}")
+
+
+def pin_image(pin: dict) -> str:
+    """The largest image URL Pinterest serves for an existing pin, or ''."""
+    images = (pin.get("media") or {}).get("images") or {}
+    for key in ("originals", "1200x", "600x", "400x300"):
+        url = (images.get(key) or {}).get("url")
+        if url:
+            return url
+    return ""
+
+
 def account_analytics(access_token: str, start_date: str, end_date: str,
                       metrics: str = "IMPRESSION,OUTBOUND_CLICK,PIN_CLICK,SAVE") -> dict:
     """GET /user_account/analytics for a date range (YYYY-MM-DD, at most 90

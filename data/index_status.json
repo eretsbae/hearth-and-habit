@@ -1,5 +1,5 @@
 {
- "date": "2026-11-04",
+ "date": "2026-11-09",
  "posts": [
   {
    "slug": "furnace-filter-basics",
@@ -13,19 +13,6 @@
    "clicks": 0,
    "impressions": 5,
    "best_position": 78.4
-  },
-  {
-   "slug": "forgotten-home-maintenance-tasks-seasonal-checklist",
-   "title": "The 10 Home Maintenance Tasks Most People Forget (Seasonal Checklist)",
-   "pillar": "home-maintenance",
-   "url": "https://www.hearth-habit.com/2026/07/10-home-maintenance-tasks-most-people.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
-   "clicks": 0,
-   "impressions": 1,
-   "best_position": 10
   },
   {
    "slug": "fix-running-toilet-without-plumber",
@@ -67,32 +54,6 @@
    "best_position": null
   },
   {
-   "slug": "one-touch-rule-clutter",
-   "title": "The One-Touch Rule: The Single Habit That Ends Clutter Pile-Up",
-   "pillar": "cleaning-organization",
-   "url": "https://www.hearth-habit.com/2026/07/the-one-touch-rule-single-habit-that.html",
-   "verdict": "PASS",
-   "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-13T23:01:14Z",
-   "google_canonical": "https://www.hearth-habit.com/2026/07/the-one-touch-rule-single-habit-that.html",
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
-   "slug": "declutter-when-overwhelmed-start-one-drawer",
-   "title": "How to Declutter When You're Overwhelmed: Start With One Drawer",
-   "pillar": "cleaning-organization",
-   "url": "https://www.hearth-habit.com/2026/07/how-to-declutter-when-youre-overwhelmed.html",
-   "verdict": "PASS",
-   "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-13T23:14:15Z",
-   "google_canonical": "https://www.hearth-habit.com/2026/07/how-to-declutter-when-youre-overwhelmed.html",
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
    "slug": "cleaning-supplies-you-actually-need",
    "title": "Cleaning Supplies You Actually Need (and 10 You Can Skip)",
    "pillar": "cleaning-organization",
@@ -128,8 +89,8 @@
    "last_crawl": "2026-10-31T13:39:13Z",
    "google_canonical": "https://www.hearth-habit.com/2026/07/phantom-power-how-much-your-idle.html",
    "clicks": 0,
-   "impressions": 3,
-   "best_position": 6.3
+   "impressions": 6,
+   "best_position": 7.3
   },
   {
    "slug": "thermostat-settings-by-season-savings",
@@ -140,45 +101,6 @@
    "coverage": "Submitted and indexed",
    "last_crawl": "2026-10-13T09:28:47Z",
    "google_canonical": "https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html",
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
-   "slug": "30-minute-sunday-meal-plan",
-   "title": "The 30-Minute Sunday Meal Plan That Ends the 'What's for Dinner?' Spiral",
-   "pillar": "kitchen-habits",
-   "url": "https://www.hearth-habit.com/2026/07/the-30-minute-sunday-meal-plan-that.html",
-   "verdict": "PASS",
-   "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-12T11:06:58Z",
-   "google_canonical": "https://www.hearth-habit.com/2026/07/the-30-minute-sunday-meal-plan-that.html",
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
-   "slug": "how-to-store-produce-fridge-map",
-   "title": "How to Store Produce So It Actually Lasts: A Fridge Map",
-   "pillar": "kitchen-habits",
-   "url": "https://www.hearth-habit.com/2026/07/how-to-store-produce-so-it-actually.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
-   "slug": "dishwasher-loading-mistakes-troubleshooting",
-   "title": "Your Dishwasher Is Probably Loaded Wrong: The Method That Gets Everything Clean",
-   "pillar": "kitchen-habits",
-   "url": "https://www.hearth-habit.com/2026/07/your-dishwasher-is-probably-loaded.html",
-   "verdict": "PASS",
-   "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-12T19:13:39Z",
-   "google_canonical": "https://www.hearth-habit.com/2026/07/your-dishwasher-is-probably-loaded.html",
    "clicks": 0,
    "impressions": 0,
    "best_position": null
@@ -210,45 +132,6 @@
    "best_position": null
   },
   {
-   "slug": "mosquito-control-that-actually-works",
-   "title": "Mosquito Control That Actually Works (and the Gimmicks That Don't)",
-   "pillar": "yard-outdoor",
-   "url": "https://www.hearth-habit.com/2026/07/mosquito-control-that-actually-works.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
-   "slug": "toilet-runs-few-seconds-then-stops",
-   "title": "Why Does My Toilet Run for a Few Seconds Then Stop on Its Own?",
-   "pillar": "home-maintenance",
-   "url": "https://www.hearth-habit.com/2026/07/why-does-my-toilet-run-for-few-seconds.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
-   "slug": "water-heater-popping-rumbling-sound",
-   "title": "Is It Normal for a Water Heater to Make a Popping or Rumbling Sound?",
-   "pillar": "home-maintenance",
-   "url": "https://www.hearth-habit.com/2026/08/water-heater-popping-or-rumbling-heres.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
    "slug": "why-is-one-room-always-colder-than-rest",
    "title": "Why Is One Room in My House Always Colder Than the Rest?",
    "pillar": "home-maintenance",
@@ -271,21 +154,8 @@
    "last_crawl": "2026-10-13T09:43:02Z",
    "google_canonical": "https://www.hearth-habit.com/2026/08/furnace-filter-turns-gray-in-two-weeks.html",
    "clicks": 1,
-   "impressions": 5,
-   "best_position": 7
-  },
-  {
-   "slug": "pipes-banging-noise-turn-off-faucet",
-   "title": "Why Do My Pipes Make a Banging Noise When I Turn Off the Faucet?",
-   "pillar": "home-maintenance",
-   "url": "https://www.hearth-habit.com/2026/08/why-do-my-pipes-bang-when-i-turn-off.html",
-   "verdict": "PASS",
-   "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-13T06:51:58Z",
-   "google_canonical": "https://www.hearth-habit.com/2026/08/why-do-my-pipes-bang-when-i-turn-off.html",
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
+   "impressions": 7,
+   "best_position": 5.9
   },
   {
    "slug": "when-to-call-a-pro-vs-diy-repair",
@@ -297,8 +167,8 @@
    "last_crawl": "2026-10-14T10:50:47Z",
    "google_canonical": "https://www.hearth-habit.com/2026/09/how-do-i-know-if-repair-is-actually.html",
    "clicks": 0,
-   "impressions": 2,
-   "best_position": 8
+   "impressions": 3,
+   "best_position": 9
   },
   {
    "slug": "what-temperature-do-pipes-freeze-guide",
@@ -312,19 +182,6 @@
    "clicks": 0,
    "impressions": 79,
    "best_position": 75.4
-  },
-  {
-   "slug": "how-often-wash-bath-towels",
-   "title": "How Often Should You Really Wash Bath Towels Before They Smell?",
-   "pillar": "cleaning-organization",
-   "url": "https://www.hearth-habit.com/2026/08/how-often-should-you-really-wash-bath.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
   },
   {
    "slug": "why-does-dishwasher-smell-after-running-empty",
@@ -353,19 +210,6 @@
    "best_position": 6.3
   },
   {
-   "slug": "get-rid-of-things-you-spent-money-on",
-   "title": "How Do You Get Rid of Things You Spent Good Money On?",
-   "pillar": "cleaning-organization",
-   "url": "https://www.hearth-habit.com/2026/08/how-to-get-rid-of-things-you-spent-good.html",
-   "verdict": "PASS",
-   "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-13T23:41:47Z",
-   "google_canonical": "https://www.hearth-habit.com/2026/08/how-to-get-rid-of-things-you-spent-good.html",
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
    "slug": "why-house-gets-messy-again-after-cleaning",
    "title": "Why Does My House Get Messy Again Two Days After I Clean It?",
    "pillar": "cleaning-organization",
@@ -375,7 +219,7 @@
    "last_crawl": "2026-10-13T06:55:13Z",
    "google_canonical": "https://www.hearth-habit.com/2026/08/why-does-my-house-get-messy-again-two.html",
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 4,
    "best_position": 1
   },
   {
@@ -401,8 +245,8 @@
    "last_crawl": "2026-10-13T06:26:37Z",
    "google_canonical": "https://www.hearth-habit.com/2026/07/does-turning-ac-off-while-youre-at-work.html",
    "clicks": 0,
-   "impressions": 1,
-   "best_position": 9
+   "impressions": 2,
+   "best_position": 9.5
   },
   {
    "slug": "electric-bill-doubled-no-change-in-usage",
@@ -414,8 +258,8 @@
    "last_crawl": "2026-10-13T21:42:30Z",
    "google_canonical": "https://www.hearth-habit.com/2026/08/why-did-my-electric-bill-double-with-no.html",
    "clicks": 0,
-   "impressions": 6,
-   "best_position": 8.2
+   "impressions": 11,
+   "best_position": 7.1
   },
   {
    "slug": "cost-to-run-space-heater-8-hours",
@@ -431,19 +275,6 @@
    "best_position": null
   },
   {
-   "slug": "closing-vents-unused-rooms-energy",
-   "title": "Does Closing Vents in Unused Rooms Save Energy or Cost More?",
-   "pillar": "energy-savings",
-   "url": "https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html",
-   "verdict": "PASS",
-   "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-13T07:11:58Z",
-   "google_canonical": "https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html",
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
    "slug": "appliance-using-most-electricity",
    "title": "Which Appliance in My House Is Quietly Using the Most Electricity?",
    "pillar": "energy-savings",
@@ -453,8 +284,8 @@
    "last_crawl": "2026-10-13T06:41:36Z",
    "google_canonical": "https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html",
    "clicks": 0,
-   "impressions": 5,
-   "best_position": 77.4
+   "impressions": 7,
+   "best_position": 58
   },
   {
    "slug": "why-bread-molds-faster-in-summer",
@@ -466,7 +297,7 @@
    "last_crawl": "2026-10-11T09:50:47Z",
    "google_canonical": "https://www.hearth-habit.com/2026/07/why-bread-goes-moldy-faster-in-summer.html",
    "clicks": 0,
-   "impressions": 23,
+   "impressions": 31,
    "best_position": 8.5
   },
   {
@@ -518,8 +349,8 @@
    "last_crawl": "2026-10-09T22:32:21Z",
    "google_canonical": "https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html",
    "clicks": 0,
-   "impressions": 5,
-   "best_position": 8.8
+   "impressions": 6,
+   "best_position": 7.5
   },
   {
    "slug": "how-long-do-leftovers-really-last",
@@ -530,19 +361,6 @@
    "coverage": "Submitted and indexed",
    "last_crawl": "2026-10-08T22:21:21Z",
    "google_canonical": "https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html",
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
-   "slug": "mushrooms-growing-in-lawn-after-rain",
-   "title": "Why Are Mushrooms Suddenly Growing All Over My Lawn After Rain?",
-   "pillar": "yard-outdoor",
-   "url": "https://www.hearth-habit.com/2026/08/why-are-mushrooms-suddenly-growing-all.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
    "clicks": 0,
    "impressions": 0,
    "best_position": null
@@ -561,32 +379,6 @@
    "best_position": null
   },
   {
-   "slug": "do-you-need-to-clean-gutters-with-gutter-guards",
-   "title": "Do You Still Need to Clean Gutters If You Have Gutter Guards?",
-   "pillar": "yard-outdoor",
-   "url": "https://www.hearth-habit.com/2026/08/do-you-still-need-to-clean-gutters-if.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
-   "slug": "why-does-water-pool-in-one-spot-in-yard",
-   "title": "Why Does Water Pool in One Spot in My Yard Every Time It Rains?",
-   "pillar": "yard-outdoor",
-   "url": "https://www.hearth-habit.com/2026/08/why-does-water-pool-in-one-spot-in-my.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
    "slug": "brown-patch-lawn-still-watering",
    "title": "Why Does Part of My Lawn Stay Brown Even Though I Water It?",
    "pillar": "yard-outdoor",
@@ -595,19 +387,6 @@
    "coverage": "Submitted and indexed",
    "last_crawl": "2026-10-13T19:46:06Z",
    "google_canonical": "https://www.hearth-habit.com/2026/07/why-does-part-of-my-lawn-stay-brown.html",
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
-   "slug": "deck-feels-spongy-in-spots",
-   "title": "Why Does My Deck Feel Spongy in Some Spots But Not Others?",
-   "pillar": "yard-outdoor",
-   "url": "https://www.hearth-habit.com/2026/09/why-does-my-deck-feel-spongy-in-some.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
    "clicks": 0,
    "impressions": 0,
    "best_position": null
@@ -626,58 +405,6 @@
    "best_position": 75.7
   },
   {
-   "slug": "led-bulb-flickering-dimmer-switch",
-   "title": "Is It Normal for a New LED Bulb to Flicker With a Dimmer Switch?",
-   "pillar": "home-maintenance",
-   "url": "https://www.hearth-habit.com/2026/09/is-it-normal-for-new-led-bulb-to.html",
-   "verdict": "PASS",
-   "coverage": "Submitted and indexed",
-   "last_crawl": "2026-11-02T11:55:13Z",
-   "google_canonical": "https://www.hearth-habit.com/2026/09/is-it-normal-for-new-led-bulb-to.html",
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
-   "slug": "why-basement-smells-musty-in-summer",
-   "title": "Why Does My Basement Smell Musty Only in the Summer?",
-   "pillar": "home-maintenance",
-   "url": "https://www.hearth-habit.com/2026/09/why-does-my-basement-smell-musty-only.html",
-   "verdict": "PASS",
-   "coverage": "Submitted and indexed",
-   "last_crawl": "2026-11-02T11:56:37Z",
-   "google_canonical": "https://www.hearth-habit.com/2026/09/why-does-my-basement-smell-musty-only.html",
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
-   "slug": "why-onions-garlic-sprout-indoors",
-   "title": "Why Does My Onion and Garlic Storage Keep Sprouting Indoors?",
-   "pillar": "kitchen-habits",
-   "url": "https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html",
-   "verdict": "PASS",
-   "coverage": "Submitted and indexed",
-   "last_crawl": "2026-11-03T07:12:18Z",
-   "google_canonical": "https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html",
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
-   "slug": "why-does-cutting-board-warp-after-washing",
-   "title": "Why Does My Cutting Board Warp After Washing It?",
-   "pillar": "kitchen-habits",
-   "url": "https://www.hearth-habit.com/2026/09/why-does-my-cutting-board-warp-after.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
    "slug": "air-dry-vs-heated-dry-dishwasher-cost",
    "title": "Is It Cheaper to Air-Dry Dishes or Use the Dishwasher's Heated Dry?",
    "pillar": "energy-savings",
@@ -687,21 +414,8 @@
    "last_crawl": "2026-11-02T23:22:51Z",
    "google_canonical": "https://www.hearth-habit.com/2026/09/air-dry-or-heated-dry-which-one.html",
    "clicks": 0,
-   "impressions": 16,
-   "best_position": 20.6
-  },
-  {
-   "slug": "why-does-my-closet-smell-musty",
-   "title": "Why Does My Closet Smell Musty Even Though Everything Looks Clean?",
-   "pillar": "cleaning-organization",
-   "url": "https://www.hearth-habit.com/2026/09/why-does-my-closet-smell-musty-even.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
+   "impressions": 17,
+   "best_position": 19.8
   },
   {
    "slug": "stop-losing-time-before-leaving-house",
@@ -730,19 +444,6 @@
    "best_position": null
   },
   {
-   "slug": "yellow-brown-ceiling-stain-no-active-leak",
-   "title": "Why Does My Ceiling Have a Yellow-Brown Stain but No Active Leak?",
-   "pillar": "home-maintenance",
-   "url": "https://www.hearth-habit.com/2026/09/yellow-brown-ceiling-stain-with-no.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
    "slug": "breaker-trips-when-two-appliances-run-together",
    "title": "Why Does My Circuit Breaker Trip Only When Two Specific Appliances Run Together?",
    "pillar": "home-maintenance",
@@ -756,45 +457,6 @@
    "best_position": 10
   },
   {
-   "slug": "smoke-detector-chirping-new-battery",
-   "title": "Why Does My Smoke Detector Chirp Even With a New Battery Installed?",
-   "pillar": "home-maintenance",
-   "url": "https://www.hearth-habit.com/2026/11/why-does-my-smoke-detector-chirp-even.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
-   "slug": "why-kitchen-drawers-become-junk-drawers",
-   "title": "Why Do My Kitchen Drawers Always End Up as Junk Drawers Again?",
-   "pillar": "cleaning-organization",
-   "url": "https://www.hearth-habit.com/2026/09/why-do-my-kitchen-drawers-always-end-up.html",
-   "verdict": "PASS",
-   "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-13T23:38:04Z",
-   "google_canonical": "https://www.hearth-habit.com/2026/09/why-do-my-kitchen-drawers-always-end-up.html",
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
-   "slug": "laundry-smells-musty-after-wash-cycle",
-   "title": "Why Does My Laundry Still Smell Musty After a Full Wash Cycle?",
-   "pillar": "cleaning-organization",
-   "url": "https://www.hearth-habit.com/2026/09/why-does-my-laundry-still-smell-musty.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
    "slug": "preheat-oven-or-skip-it-cheaper",
    "title": "Is It Cheaper to Preheat the Oven or Skip It for Weeknight Meals?",
    "pillar": "energy-savings",
@@ -804,8 +466,8 @@
    "last_crawl": "2026-09-30T02:48:37Z",
    "google_canonical": "https://www.hearth-habit.com/2026/09/is-it-cheaper-to-preheat-oven-or-skip.html",
    "clicks": 0,
-   "impressions": 37,
-   "best_position": 7.6
+   "impressions": 45,
+   "best_position": 7.5
   },
   {
    "slug": "winter-water-bill-spike-no-extra-usage",
@@ -832,19 +494,6 @@
    "clicks": 0,
    "impressions": 3,
    "best_position": 34.7
-  },
-  {
-   "slug": "hydrangea-bloom-one-year-not-next",
-   "title": "Why Does My Hydrangea Bloom Great One Year and Barely Flower the Next?",
-   "pillar": "yard-outdoor",
-   "url": "https://www.hearth-habit.com/2026/09/why-does-my-hydrangea-bloom-great-one.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
   },
   {
    "slug": "furnace-smells-like-burning-dust-first-time-on",
@@ -881,32 +530,6 @@
    "coverage": "Submitted and indexed",
    "last_crawl": "2026-10-08T03:51:25Z",
    "google_canonical": "https://www.hearth-habit.com/2026/10/how-long-does-frozen-turkey-take-to.html",
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
-   "slug": "how-to-store-summer-clothes-smell-yellowing",
-   "title": "How Do You Store Summer Clothes So They Don't Smell or Yellow by Spring?",
-   "pillar": "cleaning-organization",
-   "url": "https://www.hearth-habit.com/2026/10/how-do-you-store-summer-clothes-so-they.html",
-   "verdict": "PASS",
-   "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-23T21:27:27Z",
-   "google_canonical": "https://www.hearth-habit.com/2026/10/how-do-you-store-summer-clothes-so-they.html",
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
-  },
-  {
-   "slug": "gas-bill-higher-this-winter-checklist",
-   "title": "Why Is My Gas Bill Higher This Winter When I Haven't Touched the Thermostat?",
-   "pillar": "energy-savings",
-   "url": "https://www.hearth-habit.com/2026/10/gas-bill-higher-this-winter-without.html",
-   "verdict": "PASS",
-   "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-13T23:45:53Z",
-   "google_canonical": "https://www.hearth-habit.com/2026/10/gas-bill-higher-this-winter-without.html",
    "clicks": 0,
    "impressions": 0,
    "best_position": null
@@ -970,24 +593,11 @@
    "url": "https://www.hearth-habit.com/2026/10/should-you-shut-off-outdoor-faucet-from.html",
    "verdict": "PASS",
    "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-29T09:57:05Z",
+   "last_crawl": "2026-11-05T23:59:31Z",
    "google_canonical": "https://www.hearth-habit.com/2026/10/should-you-shut-off-outdoor-faucet-from.html",
    "clicks": 2,
-   "impressions": 31,
+   "impressions": 50,
    "best_position": 10.4
-  },
-  {
-   "slug": "last-mow-height-before-winter",
-   "title": "How Low Should You Mow Grass on the Last Cut Before Winter?",
-   "pillar": "yard-outdoor",
-   "url": "https://www.hearth-habit.com/2026/10/how-low-should-you-mow-grass-on-last.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
-   "clicks": 0,
-   "impressions": 0,
-   "best_position": null
   },
   {
    "slug": "water-heater-120-vs-140-does-it-save-money",
@@ -1025,21 +635,73 @@
    "last_crawl": "2026-10-19T21:01:29Z",
    "google_canonical": "https://www.hearth-habit.com/2026/10/how-long-can-party-food-sit-on-buffet.html",
    "clicks": 0,
-   "impressions": 5,
-   "best_position": 16.4
+   "impressions": 15,
+   "best_position": 10.4
   },
   {
-   "slug": "why-brown-sugar-turns-hard",
-   "title": "Why Does My Brown Sugar Turn Rock-Hard, and Can You Still Use It?",
-   "pillar": "kitchen-habits",
-   "url": "https://www.hearth-habit.com/2026/10/why-does-my-brown-sugar-turn-rock-hard.html",
-   "verdict": "NEUTRAL",
-   "coverage": "Discovered - currently not indexed",
-   "last_crawl": null,
-   "google_canonical": null,
+   "slug": "diy-home-energy-audit-room-by-room",
+   "title": "DIY Home Energy Audit: A Room-by-Room Walkthrough to Find Where Your Money Goes",
+   "pillar": "energy-savings",
+   "url": "https://www.hearth-habit.com/2026/11/diy-home-energy-audit-room-by-room.html",
+   "verdict": "PASS",
+   "coverage": "Submitted and indexed",
+   "last_crawl": "2026-11-04T02:14:36Z",
+   "google_canonical": "https://www.hearth-habit.com/2026/11/diy-home-energy-audit-room-by-room.html",
    "clicks": 0,
    "impressions": 0,
    "best_position": null
+  },
+  {
+   "slug": "fall-to-spring-yard-calendar-cool-warm-season-grass",
+   "title": "Fall-to-Spring Yard Calendar: Month-by-Month Lawn Tasks for Cool-Season and Warm-Season Grass",
+   "pillar": "yard-outdoor",
+   "url": "https://www.hearth-habit.com/2026/11/fall-to-spring-yard-calendar-month-by.html",
+   "verdict": "PASS",
+   "coverage": "Submitted and indexed",
+   "last_crawl": "2026-11-04T09:54:51Z",
+   "google_canonical": "https://www.hearth-habit.com/2026/11/fall-to-spring-yard-calendar-month-by.html",
+   "clicks": 0,
+   "impressions": 1,
+   "best_position": 7
+  },
+  {
+   "slug": "fridge-freezer-storage-chart-how-long-food-lasts",
+   "title": "Fridge and Freezer Storage Chart: How Long Food Really Lasts and When to Toss It",
+   "pillar": "kitchen-habits",
+   "url": "https://www.hearth-habit.com/2026/11/fridge-and-freezer-storage-chart-how.html",
+   "verdict": "PASS",
+   "coverage": "Submitted and indexed",
+   "last_crawl": "2026-11-04T02:11:17Z",
+   "google_canonical": "https://www.hearth-habit.com/2026/11/fridge-and-freezer-storage-chart-how.html",
+   "clicks": 0,
+   "impressions": 0,
+   "best_position": null
+  },
+  {
+   "slug": "house-cleaning-schedule-by-room-frequency",
+   "title": "House Cleaning Schedule by Room: What to Clean Daily, Weekly, Monthly, and Yearly",
+   "pillar": "cleaning-organization",
+   "url": "https://www.hearth-habit.com/2026/11/house-cleaning-schedule-by-room-what-to.html",
+   "verdict": "PASS",
+   "coverage": "Submitted and indexed",
+   "last_crawl": "2026-11-04T02:36:48Z",
+   "google_canonical": "https://www.hearth-habit.com/2026/11/house-cleaning-schedule-by-room-what-to.html",
+   "clicks": 0,
+   "impressions": 0,
+   "best_position": null
+  },
+  {
+   "slug": "winter-home-prep-checklist-before-first-freeze",
+   "title": "Winter Home Prep Checklist: What to Do Before the First Hard Freeze",
+   "pillar": "home-maintenance",
+   "url": "https://www.hearth-habit.com/2026/11/winter-home-prep-checklist-what-to-do.html",
+   "verdict": "PASS",
+   "coverage": "Submitted and indexed",
+   "last_crawl": "2026-11-04T02:19:59Z",
+   "google_canonical": "https://www.hearth-habit.com/2026/11/winter-home-prep-checklist-what-to-do.html",
+   "clicks": 0,
+   "impressions": 1,
+   "best_position": 77
   }
  ]
 }

@@ -48,7 +48,8 @@ def use_sandbox() -> None:
     global API
     API = API_SANDBOX
 
-SCOPES = "boards:read,boards:write,pins:read,pins:write,user_accounts:read"
+SCOPES = ("boards:read,boards:write,boards:read_secret,boards:write_secret,"
+          "pins:read,pins:write,pins:read_secret,pins:write_secret,user_accounts:read")
 
 TOKEN_FILE = token_store.SECRETS_DIR / "pinterest_token.enc"
 _HINT = "Re-create it with: python generator/pinterest_auth.py"

@@ -159,8 +159,10 @@ def main() -> int:
           f"{len(unmatched)} not linked to any known post.")
 
     counts = {"retext": 0, "relink": 0, "archive": 0}
+    applied: set[int] = set()
+    archive_blocked = None  # reason, when the secret board can't be made
     lines = []
-    for a in actions:
+    for i, a in enumerate(actions):
         pin = a["pin"]
         label = {"retext": "문구 갱신", "relink": f"재연결 → {a.get('target')}",
                  "archive": "보관 보드로 이동"}[a["kind"]]
@@ -170,20 +172,34 @@ def main() -> int:
             continue
         fields = dict(a["fields"])
         if a["kind"] == "archive":
+            if archive_blocked:
+                continue
             if archive_id is None:
-                archive_id = pc.ensure_board(
-                    token, ARCHIVE_BOARD,
-                    "Pins whose articles were retired from the site. Kept, not deleted.",
-                    board_cache, privacy="SECRET")
+                try:
+                    archive_id = pc.ensure_board(
+                        token, ARCHIVE_BOARD,
+                        "Pins whose articles were retired from the site. Kept, not deleted.",
+                        board_cache, privacy="SECRET")
+                except SystemExit as e:
+                    # A secret board needs boards:write_secret; tokens issued
+                    # before that scope was requested get 403 (code 29). Do
+                    # the retext/relink work anyway and leave archiving for
+                    # after a re-auth (python generator/pinterest_auth.py).
+                    archive_blocked = str(e)
+                    print(f"::warning::archive skipped: {e}")
+                    continue
             fields["board_id"] = archive_id
         pc.update_pin(token, pin["id"], **fields)
+        applied.add(i)
         counts[a["kind"]] += 1
         time.sleep(0.4)
 
     if args.apply:
         today = datetime.date.today().isoformat()
         by_slug = {t.get("published_slug"): t for t in topics_data.get("topics", [])}
-        for a in actions:
+        for i, a in enumerate(actions):
+            if i not in applied:
+                continue
             t = by_slug.get(a["slug"])
             if t is None:
                 continue
@@ -203,8 +219,10 @@ def main() -> int:
         f"- 변경 대상: 문구 갱신 {sum(a['kind'] == 'retext' for a in actions)} · "
         f"재연결 {sum(a['kind'] == 'relink' for a in actions)} · "
         f"보관 {sum(a['kind'] == 'archive' for a in actions)}\n"
-        f"- 알 수 없는 링크의 핀: {len(unmatched)}개\n\n"
-        + "\n".join(lines[:200]) + "\n"
+        f"- 알 수 없는 링크의 핀: {len(unmatched)}개\n"
+        + ("- ⚠️ 보관 이동 건너뜀: 토큰에 비밀 보드 권한 없음 — `python generator/pinterest_auth.py` 재인증 필요\n"
+           if archive_blocked else "")
+        + "\n" + "\n".join(lines[:200]) + "\n"
     )
     if args.apply:
         print(f"Applied: {counts}")

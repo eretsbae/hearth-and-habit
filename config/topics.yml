@@ -33,6 +33,20 @@ topics:
   pinterest_pin_id: manual
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112557534135'
+    title: 10 Home Maintenance Tasks Most People Forget (Seasonal Checklist)
+    kind: relink
+    deleted: '2026-11-09'
+  pinterest_repin_queue:
+  - from_pin: '1132796112557534135'
+    title: 10 Home Maintenance Tasks Most People Forget (Seasonal Checklist)
+    description: 'Answered in our guide “Winter Home Prep Checklist: What to Do Before the First Hard
+      Freeze”: Winter prep in lead-time order: what to book six weeks before your first 32°F freeze, what
+      waits for the last weekend, and what skipping each task can cost.'
+    target: winter-home-prep-checklist-before-first-freeze
+    image_url: https://i.pinimg.com/1200x/bb/cc/74/bbcc74cfe2b42508f8211e3bf0b2e52c.jpg
+    alt_text: ''
 - title: How to Fix a Running Toilet in 15 Minutes Without Calling a Plumber
   pillar: home-maintenance
   status: published
@@ -66,6 +80,11 @@ topics:
   pinterest_pin_id: manual
   draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112557534137'
+    title: 'The One-Touch Rule: The Single Habit That Ends Clutter Pile-Up'
+    kind: archive
+    deleted: '2026-11-09'
 - title: 'How to Declutter When You''re Overwhelmed: Start With One Drawer'
   pillar: cleaning-organization
   status: drafted
@@ -76,6 +95,11 @@ topics:
   pinterest_pin_id: manual
   draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112554664801'
+    title: 'How to Declutter When You''re Overwhelmed: Start With One Drawer'
+    kind: archive
+    deleted: '2026-11-09'
 - title: Cleaning Supplies You Actually Need (and 10 You Can Skip)
   pillar: cleaning-organization
   status: published
@@ -117,6 +141,11 @@ topics:
   pinterest_pin_id: manual
   draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112557534139'
+    title: The 30-Minute Sunday Meal Plan That Ends the 'What's for Dinner?' Spiral
+    kind: archive
+    deleted: '2026-11-09'
 - title: 'How to Store Produce So It Actually Lasts: A Fridge Map'
   pillar: kitchen-habits
   status: drafted
@@ -127,6 +156,20 @@ topics:
   pinterest_pin_id: manual
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112554664848'
+    title: 'How to Store Produce So It Actually Lasts: A Fridge Map'
+    kind: relink
+    deleted: '2026-11-09'
+  pinterest_repin_queue:
+  - from_pin: '1132796112554664848'
+    title: 'How to Store Produce So It Actually Lasts: A Fridge Map'
+    description: 'Answered in our guide “How to Keep Lettuce and Greens From Wilting in the Fridge”: Greens
+      keep best at 32–34°F in high humidity. Bagged lettuce lasts about 3 weeks at 32°F but 5–10 days
+      at 41°F. Diagnose limp, slimy, or rusty greens.'
+    target: why-greens-wilt-fast-how-to-store-them
+    image_url: https://i.pinimg.com/1200x/36/ff/ac/36ffacd9391c4c6ac36ae0fff92021f5.jpg
+    alt_text: ''
 - title: 'Your Dishwasher Is Probably Loaded Wrong: The Method That Gets Everything Clean'
   pillar: kitchen-habits
   status: drafted
@@ -137,6 +180,11 @@ topics:
   pinterest_pin_id: manual
   draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112557685705'
+    title: 'Your Dishwasher Is Probably Loaded Wrong: A Troubleshooting Guide'
+    kind: archive
+    deleted: '2026-11-09'
 - title: 'Lawn Care for People Who Don''t Care About Lawns: The Bare Minimum That Looks Good'
   pillar: yard-outdoor
   status: published
@@ -172,6 +220,11 @@ topics:
   pinterest_pin_id: manual
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112554664882'
+    title: Mosquito Control That Actually Works (and the Gimmicks That Don't)
+    kind: archive
+    deleted: '2026-11-09'
 - title: Why Does My Toilet Run for a Few Seconds Then Stop on Its Own?
   pillar: home-maintenance
   status: drafted
@@ -182,6 +235,20 @@ topics:
   pinterest_pin_id: manual
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112557685708'
+    title: Why Does My Toilet Run for a Few Seconds Then Stop? (Not the Same as a Running Toilet)
+    kind: relink
+    deleted: '2026-11-09'
+  pinterest_repin_queue:
+  - from_pin: '1132796112557685708'
+    title: Why Does My Toilet Run for a Few Seconds Then Stop? (Not the Same as a Running Toilet)
+    description: 'Answered in our guide “How to Fix a Running Toilet Without a Plumber: Find the Leak,
+      Then the Part”: Two quick tests tell you whether the fill valve, flapper, or flush valve is at fault,
+      plus the exact water level, chain slack, and flapper size to get right.'
+    target: fix-running-toilet-without-plumber
+    image_url: https://i.pinimg.com/1200x/0f/8d/ed/0f8ded50f002fabb6376fa935d68d145.jpg
+    alt_text: ''
 - title: Is It Normal for a Water Heater to Make a Popping or Rumbling Sound?
   pillar: home-maintenance
   status: drafted
@@ -192,6 +259,11 @@ topics:
   pinterest_pin_id: manual
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112557863317'
+    title: Water Heater Popping or Rumbling? Here's What It Means
+    kind: archive
+    deleted: '2026-11-09'
 - title: Why Is One Room in My House Always Colder Than the Rest?
   pillar: home-maintenance
   status: published
@@ -217,6 +289,32 @@ topics:
   retire_reason: 'near-duplicate of Caulking 101: Where to Caulk, What to Buy, and How to Get a Clean
     Line'
   retired_at: '2026-09-11'
+  pinterest_deleted_pins:
+  - id: '1132796112558206975'
+    title: Can You Caulk Over Old Caulk, or Do You Have to Remove It First?
+    kind: relink
+    deleted: '2026-11-09'
+  - id: '1132796112558033404'
+    title: Can You Caulk Over Old Caulk, or Do You Have to Remove It First?
+    kind: relink
+    deleted: '2026-11-09'
+  pinterest_repin_queue:
+  - from_pin: '1132796112558206975'
+    title: Can You Caulk Over Old Caulk, or Do You Have to Remove It First?
+    description: 'Answered in our guide “How to Caulk So It Doesn''t Peel: Choosing the Right Caulk and
+      Getting a Clean Line”: Caulk peels when the label doesn''t fit the joint. Compare silicone, siliconized
+      acrylic and painter''s caulk, size deep gaps with backer rod, and time the cure.'
+    target: caulking-101-how-to-caulk
+    image_url: https://i.pinimg.com/1200x/88/46/60/884660b775288aff215cb421d3be0608.jpg
+    alt_text: ''
+  - from_pin: '1132796112558033404'
+    title: Can You Caulk Over Old Caulk, or Do You Have to Remove It First?
+    description: 'Answered in our guide “How to Caulk So It Doesn''t Peel: Choosing the Right Caulk and
+      Getting a Clean Line”: Caulk peels when the label doesn''t fit the joint. Compare silicone, siliconized
+      acrylic and painter''s caulk, size deep gaps with backer rod, and time the cure.'
+    target: caulking-101-how-to-caulk
+    image_url: https://i.pinimg.com/1200x/88/46/60/884660b775288aff215cb421d3be0608.jpg
+    alt_text: ''
 - title: What Does It Mean When My Furnace Filter Turns Gray in Two Weeks?
   pillar: home-maintenance
   status: published
@@ -235,6 +333,11 @@ topics:
   pinterest_pin_id: manual
   draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112558381815'
+    title: Why Do My Pipes Bang When I Turn Off the Faucet?
+    kind: archive
+    deleted: '2026-11-09'
 - title: How Do I Know If a Repair Is Actually Worth Calling a Pro For?
   pillar: home-maintenance
   status: published
@@ -266,6 +369,20 @@ topics:
   pinterest_pin_id: manual
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112557685711'
+    title: How Often Should You Really Wash Bath Towels Before They Smell?
+    kind: relink
+    deleted: '2026-11-09'
+  pinterest_repin_queue:
+  - from_pin: '1132796112557685711'
+    title: How Often Should You Really Wash Bath Towels Before They Smell?
+    description: 'Answered in our guide “House Cleaning Schedule by Room: What to Clean Daily, Weekly,
+      Monthly, and Yearly”: A room-by-room cleaning schedule where every interval has a reason, plus a
+      weekly time budget with the math shown and a printable checklist you can keep.'
+    target: house-cleaning-schedule-by-room-frequency
+    image_url: https://i.pinimg.com/1200x/16/06/83/1606836332cf89aa391bb6ee35137e71.jpg
+    alt_text: ''
 - title: Why Does My Dishwasher Smell Even After I Run It Empty?
   pillar: cleaning-organization
   status: published
@@ -292,6 +409,11 @@ topics:
   pinterest_pin_id: manual
   draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112558207073'
+    title: How to Get Rid of Things You Spent Good Money On (Without the Guilt)
+    kind: archive
+    deleted: '2026-11-09'
 - title: Why Does My House Get Messy Again Two Days After I Clean It?
   pillar: cleaning-organization
   status: published
@@ -340,6 +462,20 @@ topics:
   redirect_to: thermostat-settings-by-season-savings
   retire_reason: near-duplicate of The Right Thermostat Settings for Every Season (and How Much They Save)
   retired_at: '2026-09-11'
+  pinterest_deleted_pins:
+  - id: '1132796112557863311'
+    title: Is It Cheaper to Hold One Thermostat Setting All Day or Adjust It?
+    kind: relink
+    deleted: '2026-11-09'
+  pinterest_repin_queue:
+  - from_pin: '1132796112557863311'
+    title: Is It Cheaper to Hold One Thermostat Setting All Day or Adjust It?
+    description: 'Answered in our guide “The Right Thermostat Settings for Every Season (and What They
+      Really Save)”: Setbacks, not a magic number, do the saving: 7–10°F for 8 hours with a furnace, about
+      3.6°F with a heat pump, a 55°F winter floor, and the dollar math.'
+    target: thermostat-settings-by-season-savings
+    image_url: https://i.pinimg.com/1200x/89/d0/a7/89d0a7c9dace36ce0f9490c13b526adc.jpg
+    alt_text: ''
 - title: How Much Does It Actually Cost to Run a Space Heater for 8 Hours?
   pillar: energy-savings
   status: published
@@ -363,6 +499,20 @@ topics:
   pinterest_pin_id: manual
   draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112557983149'
+    title: Does Closing Vents in Unused Rooms Save Energy or Cost More?
+    kind: relink
+    deleted: '2026-11-09'
+  pinterest_repin_queue:
+  - from_pin: '1132796112557983149'
+    title: Does Closing Vents in Unused Rooms Save Energy or Cost More?
+    description: 'Answered in our guide “Why Is One Room in My House Always Colder Than the Rest?”: A
+      cold room is either short on warm air or losing heat faster. Three quick checks tell which, including
+      the closed-door test most guides skip, and what fixes each.'
+    target: why-is-one-room-always-colder-than-rest
+    image_url: https://i.pinimg.com/1200x/92/a6/68/92a66832b78ac65ce51c77c5d9c372b0.jpg
+    alt_text: ''
 - title: Which Appliance in My House Is Quietly Using the Most Electricity?
   pillar: energy-savings
   status: published
@@ -433,6 +583,11 @@ topics:
   pinterest_pin_id: manual
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112557685706'
+    title: Why Are Mushrooms Suddenly Growing All Over My Lawn After Rain?
+    kind: archive
+    deleted: '2026-11-09'
 - title: How Late in the Fall Can You Still Seed Grass and Have It Take?
   pillar: yard-outdoor
   status: published
@@ -459,6 +614,20 @@ topics:
   pinterest_pin_id: manual
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112557983151'
+    title: Do You Still Need to Clean Gutters If You Have Gutter Guards?
+    kind: relink
+    deleted: '2026-11-09'
+  pinterest_repin_queue:
+  - from_pin: '1132796112557983151'
+    title: Do You Still Need to Clean Gutters If You Have Gutter Guards?
+    description: 'Answered in our guide “Fall Yard Cleanup Checklist: What Actually Matters Before Winter”:
+      The fall yard jobs that prevent damage (gutters, outdoor faucets, risky branches) versus the ones
+      you can skip or mow over, with the research behind each.'
+    target: fall-yard-cleanup-checklist-before-winter
+    image_url: https://i.pinimg.com/1200x/13/db/9f/13db9f9d85b294239879e18115316dd4.jpg
+    alt_text: ''
 - title: Why Does Water Pool in One Spot in My Yard Every Time It Rains?
   pillar: yard-outdoor
   status: drafted
@@ -469,6 +638,11 @@ topics:
   pinterest_pin_id: manual
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112558207070'
+    title: Why Does Water Pool in One Spot in My Yard Every Time It Rains?
+    kind: archive
+    deleted: '2026-11-09'
 - title: Why Does Part of My Lawn Stay Brown Even Though I Water It?
   pillar: yard-outdoor
   status: published
@@ -492,6 +666,11 @@ topics:
   pinterest_batch: pins09
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112558528593'
+    title: Why Does My Deck Feel Spongy in Some Spots But Not Others?
+    kind: archive
+    deleted: '2026-11-09'
 - title: Why Does My Garbage Disposal Hum But Not Spin?
   pillar: home-maintenance
   status: published
@@ -512,6 +691,11 @@ topics:
   pinterest_pin_id: manual
   draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112558986303'
+    title: Is It Normal for a New LED Bulb to Flicker With a Dimmer Switch?
+    kind: archive
+    deleted: '2026-11-09'
 - title: Why Does My Basement Smell Musty Only in the Summer?
   pillar: home-maintenance
   status: drafted
@@ -523,6 +707,20 @@ topics:
   pinterest_pin_id: manual
   draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112559584816'
+    title: Why Does My Basement Smell Musty Only in the Summer?
+    kind: relink
+    deleted: '2026-11-09'
+  pinterest_repin_queue:
+  - from_pin: '1132796112559584816'
+    title: Why Does My Basement Smell Musty Only in the Summer?
+    description: 'Answered in our guide “Musty Smell in the House? How to Find the Source, Room by Room”:
+      A musty smell is usually gas from mold growing on something damp. Find it with your nose and a hygrometer,
+      skip the test kit, and size a dehumidifier right.'
+    target: musty-smell-in-house-find-the-source
+    image_url: https://i.pinimg.com/1200x/f6/58/f5/f658f54d1b9c032f48d30fcc5bc8f92d.jpg
+    alt_text: ''
 - title: Why Does My Onion and Garlic Storage Keep Sprouting Indoors?
   pillar: kitchen-habits
   status: drafted
@@ -534,6 +732,11 @@ topics:
   pinterest_batch: pins09
   draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112558528594'
+    title: Why Onions and Garlic Keep Sprouting Indoors (and How to Actually Stop It)
+    kind: archive
+    deleted: '2026-11-09'
 - title: Why Does My Cutting Board Warp After Washing It?
   pillar: kitchen-habits
   status: drafted
@@ -565,6 +768,20 @@ topics:
   pinterest_pin_id: manual
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112558986300'
+    title: Why Does My Closet Smell Musty Even Though Everything Looks Clean?
+    kind: relink
+    deleted: '2026-11-09'
+  pinterest_repin_queue:
+  - from_pin: '1132796112558986300'
+    title: Why Does My Closet Smell Musty Even Though Everything Looks Clean?
+    description: 'Answered in our guide “Musty Smell in the House? How to Find the Source, Room by Room”:
+      A musty smell is usually gas from mold growing on something damp. Find it with your nose and a hygrometer,
+      skip the test kit, and size a dehumidifier right.'
+    target: musty-smell-in-house-find-the-source
+    image_url: https://i.pinimg.com/1200x/1b/25/9c/1b259c68aa8d19120c8fc22e1570b875.jpg
+    alt_text: ''
 - title: Why Do I Keep Losing the Same 15 Minutes to Finding Things Before I Leave the House?
   pillar: cleaning-organization
   status: published
@@ -594,6 +811,11 @@ topics:
   pinterest_pin_id: manual
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112559584819'
+    title: 'Yellow-Brown Ceiling Stain With No Active Leak: What It Means'
+    kind: archive
+    deleted: '2026-11-09'
 - title: Why Does My Circuit Breaker Trip Only When Two Specific Appliances Run Together?
   pillar: home-maintenance
   status: published
@@ -634,6 +856,11 @@ topics:
   pinterest_pin_id: manual
   draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112559584817'
+    title: Why Do My Kitchen Drawers Always End Up as Junk Drawers Again?
+    kind: archive
+    deleted: '2026-11-09'
 - title: Why Does My Laundry Still Smell Musty After a Full Wash Cycle?
   pillar: cleaning-organization
   status: drafted
@@ -646,6 +873,11 @@ topics:
   pinterest_bulk_pin_id: '1132796112559991968'
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112559991968'
+    title: Why Does My Laundry Still Smell Musty After a Full Wash Cycle?
+    kind: archive
+    deleted: '2026-11-09'
 - title: Is It Cheaper to Preheat the Oven or Skip It for Weeknight Meals?
   pillar: energy-savings
   status: published
@@ -684,6 +916,11 @@ topics:
   pinterest_pin_id: manual
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112559272632'
+    title: Why Does My Hydrangea Bloom Great One Year and Barely Flower the Next?
+    kind: archive
+    deleted: '2026-11-09'
 - title: Why Does My Furnace Smell Like Burning Dust the First Time I Turn It On?
   pillar: home-maintenance
   status: published
@@ -733,6 +970,11 @@ topics:
   pinterest_pin_id: '1132796112562006697'
   draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112562006697'
+    title: How Do You Store Summer Clothes So They Don't Smell or Yellow by Spring?
+    kind: archive
+    deleted: '2026-11-09'
 - title: Why Is My Gas Bill Higher This Winter When I Haven't Touched the Thermostat?
   pillar: energy-savings
   status: drafted
@@ -747,6 +989,11 @@ topics:
   pinterest_pin_id: '1132796112560497438'
   draft_reason: indexed, 0 impressions / 90 days, not linked by cornerstone
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112560497438'
+    title: Gas Bill Higher This Winter Without Touching the Thermostat? Run This Checklist
+    kind: archive
+    deleted: '2026-11-09'
 - title: Musty Smell in the House? How to Find the Source, Room by Room
   pillar: cleaning-organization
   status: published
@@ -815,6 +1062,20 @@ topics:
   pinterest_pin_id: '1132796112561358340'
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112561358340'
+    title: How Low Should You Mow Grass on the Last Cut Before Winter?
+    kind: relink
+    deleted: '2026-11-09'
+  pinterest_repin_queue:
+  - from_pin: '1132796112561358340'
+    title: How Low Should You Mow Grass on the Last Cut Before Winter?
+    description: 'Answered in our guide “Low-Maintenance Lawn Care: The Bare-Minimum Yearly Schedule”:
+      Mow at the right height for your grass, leave the clippings, and fertilize once at the right time.
+      Extension heights, dates, and bag math inside.'
+    target: low-effort-lawn-care-bare-minimum
+    image_url: https://i.pinimg.com/1200x/26/4f/c7/264fc7d61ee02f3c28f65d4e9b947cee.jpg
+    alt_text: ''
 - title: Why Does Moss Keep Taking Over the Shady Part of My Lawn?
   pillar: yard-outdoor
   status: pending
@@ -881,6 +1142,11 @@ topics:
   pinterest_pin_id: '1132796112561806558'
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112561806558'
+    title: Why Does My Brown Sugar Turn Rock-Hard, and Can You Still Use It?
+    kind: archive
+    deleted: '2026-11-09'
 - title: Why Does My Shower Grout Turn Pink or Black Again a Week After Cleaning?
   pillar: cleaning-organization
   status: pending

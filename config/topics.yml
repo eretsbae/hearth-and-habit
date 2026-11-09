@@ -760,6 +760,8 @@ topics:
   pinterest_batch: pins14
   pinterest_pin_id: manual
   pinterest_bulk_pin_id: '1132796112559991972'
+  pinterest_refresh_pin_id: '1132796112563444671'
+  pinterest_pin_design: 2
 - title: 'Leftovers, Thawing, and Fridge Storage: The Food Safety Rules in One Place'
   pillar: kitchen-habits
   status: published
@@ -770,6 +772,8 @@ topics:
   pinterest_batch: pins14
   pinterest_pin_id: manual
   pinterest_bulk_pin_id: '1132796112559991974'
+  pinterest_refresh_pin_id: '1132796112563444670'
+  pinterest_pin_design: 2
 - title: Clutter Keeps Coming Back? Match the Problem to the Fix
   pillar: cleaning-organization
   status: published
@@ -778,6 +782,8 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/09/clutter-keeps-coming-back-match-problem.html
   blogger_post_id: '5007016116155235174'
   pinterest_pin_id: '1132796112560160090'
+  pinterest_refresh_pin_id: '1132796112563444667'
+  pinterest_pin_design: 2
 - title: Should You Shut Off the Outdoor Faucet From Inside Before Winter, and Where Is the Valve?
   pillar: yard-outdoor
   status: published

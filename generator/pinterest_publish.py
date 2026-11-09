@@ -25,6 +25,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import datetime
 import re
 import os
 import sys
@@ -206,6 +207,21 @@ def refresh_candidates(topics_data: dict) -> list[dict]:
     return head
 
 
+def repin_candidates(topics_data: dict) -> list[tuple[dict, dict, dict]]:
+    """(pruned topic, queue entry, live target topic) for dead-link pins that
+    pinterest_maintain.py --delete-dead removed and queued for re-pinning:
+    the original title and image, linked to the replacement post."""
+    live = {t.get("published_slug"): t for t in topics_data.get("topics", [])
+            if t.get("status") == "published" and t.get("blogger_url")}
+    out = []
+    for t in topics_data.get("topics", []):
+        for entry in t.get("pinterest_repin_queue") or []:
+            target = live.get(entry.get("target"))
+            if target and not entry.get("pin_id"):
+                out.append((t, entry, target))
+    return out
+
+
 def sandbox_access_token(app_id: str, app_secret: str, passphrase: str) -> str:
     """An access token the sandbox host accepts.
 
@@ -325,21 +341,30 @@ def main() -> int:
     # New posts first; whatever is left of the daily limit goes to one fresh
     # pin, in the current design, for a post pinned under an older one.
     refresh = [] if args.sandbox else refresh_candidates(topics_data)
-    if not todo and not refresh and not args.whoami:
+    # Re-pins of deleted dead-link pins come after new posts and before
+    # design refreshes: they replace pins that already had an audience.
+    repins = [] if args.sandbox else repin_candidates(topics_data)
+    if not todo and not refresh and not repins and not args.whoami:
         print("Nothing to pin; every live post with a pin image is already on Pinterest "
               "in the current design.")
         return 0
     batch = todo[: args.limit]
-    refresh_batch = refresh[: max(0, args.limit - len(batch))]
+    repin_batch = repins[: max(0, args.limit - len(batch))]
+    refresh_batch = refresh[: max(0, args.limit - len(batch) - len(repin_batch))]
     # Kept outside the topic dicts: those are saved to topics.yml after
     # every pin, and a marker on them would be written out mid-batch.
     refreshing = {id(t) for t in refresh_batch}
     batch = batch + refresh_batch
     if not args.whoami:
-        print(f"{len(todo)} post(s) awaiting a first pin, {len(refresh)} awaiting a "
-              f"design-{PIN_DESIGN} refresh pin; publishing {len(batch)} this run.")
+        print(f"{len(todo)} post(s) awaiting a first pin, {len(repins)} re-pin(s) of deleted "
+              f"dead-link pins, {len(refresh)} awaiting a design-{PIN_DESIGN} refresh pin; "
+              f"publishing {len(batch) + len(repin_batch)} this run.")
 
     if args.dry_run:
+        for src, entry, target in repin_batch:
+            print(f"  [dry-run] REPIN {entry.get('title')}")
+            print(f"            image={entry.get('image_url') or pin_image_url(cfg, src['published_slug'])}")
+            print(f"            link={target['blogger_url']}")
         for t in batch:
             slug = t["published_slug"]
             print(f"  [dry-run] {'REFRESH ' if id(t) in refreshing else ''}{t['title']}")
@@ -462,10 +487,31 @@ def main() -> int:
         # of pins already created, or the next run would duplicate them.
         save_yaml(TOPICS_CONFIG, topics_data)
 
+    for src, entry, target in repin_batch:
+        pillar = pillars.get(target["pillar"], {})
+        board_name = pillar.get("name") or "Home & Living"
+        board_id = pc.ensure_board(access_token, board_name,
+                                   pillar.get("description", ""), board_cache)
+        print(f"Re-pinning: {entry.get('title')} -> {target['published_slug']}")
+        result = pc.create_pin(
+            access_token, board_id, entry.get("title") or target["title"],
+            entry.get("description") or "", target["blogger_url"],
+            entry.get("image_url") or pin_image_url(cfg, src["published_slug"]),
+            entry.get("alt_text") or "",
+        )
+        entry["pin_id"] = result.get("id", "")
+        entry["pinned"] = datetime.date.today().isoformat()
+        print(f"  -> pin {entry['pin_id']} on '{board_name}'")
+        pinned_any = True
+        save_yaml(TOPICS_CONFIG, topics_data)
+
     if args.sandbox:
         print("Sandbox run complete; topics.yml untouched.")
         return 0
     if pinned_any:
+        if repin_batch:
+            step_summary(f"## 📌 죽은 링크 핀 재업로드 {len(repin_batch)}개 "
+                         f"(남은 대기 {len(repins) - len(repin_batch)}개)\n")
         remaining = len(todo) + len(refresh) - len(batch)
         print(f"Done. {remaining} post(s) still queued for future runs.")
         step_summary(

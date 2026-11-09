@@ -72,7 +72,7 @@ Some notes on the actions in the table:
 
 - **Dripping.** The Red Cross says to drip cold water from faucets served by exposed pipes, because even a trickle helps prevent freezing. The advice is aimed at faucets served by exposed pipes.
 - **Thermostat.** This is not the night for a deep overnight setback. The Red Cross recommends keeping the same setting day and night during a cold snap.
-- **Hose bibs.** The Red Cross says to close the indoor valve that feeds each outdoor faucet and leave the outside faucet open. That way, any water left in the line has room to expand without breaking the pipe. IBHS notes that homes built before 2010 typically don't have frost-proof outdoor faucets, so in older homes, IBHS says to shut off and insulate those valves.
+- **Hose bibs.** The Red Cross says to close the indoor valve that feeds each outdoor faucet and leave the outside faucet open. That way, any water left in the line has room to expand without breaking the pipe. IBHS notes that homes built before 2010 typically don't have frost-proof outdoor faucets, so in older homes, IBHS says to shut off and insulate those valves. To tell which kind you have and find the indoor valve, see [should you shut off the outdoor faucet from inside](https://www.hearth-habit.com/2026/10/should-you-shut-off-outdoor-faucet-from.html).
 
 ## Symptom: one faucet trickles or gives nothing
 
@@ -163,7 +163,7 @@ An empty house has no one to notice a faucet that stopped dripping or a cabinet 
 - **Fire sprinklers:** State Farm warns that shutting off the water also disables home fire sprinklers. If your home has them, weigh that tradeoff, or ask your plumber or sprinkler installer about your options before you leave.
 - **Renters:** check with your landlord before shutting off or draining water. In many buildings the main valve serves more than one unit, and some leases require you to keep the heat at a set minimum.
 
-Arranging for someone to check the house every few days also helps, because a failure caught early does far less damage.
+Arranging for someone to check the house every few days also helps, because a failure caught early does far less damage. For the rest of the house before the first hard freeze, the [winter home prep checklist](https://www.hearth-habit.com/2026/11/winter-home-prep-checklist-what-to-do.html) lays out air sealing, gutters, outdoor water, and freeze-night steps week by week.
 
 ### Worked example: why the shutoff matters
 

@@ -1,11 +1,13 @@
 # 글별 색인 상태 점검 (읽기 전용). Search Console URL Inspection API로 게시 글마다
 # 구글 색인 판정을 받고 90일 검색 실적과 합쳐 docs/reports/index-status-*.md 로 남긴다.
-# 정리(초안 전환) 대상 선정과 AdSense 제출 게이트 측정용. 수동 실행만.
+# 정리(초안 전환) 대상 선정과 AdSense 제출 게이트(개편 후 재크롤 비율) 측정용. 매주 월요일 + 수동.
 
 name: Index Status
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "53 1 * * 1" # Mon 01:53 UTC, weekly-report(00:23) 다음
 
 permissions:
   contents: write

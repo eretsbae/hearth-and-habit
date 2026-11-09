@@ -618,6 +618,11 @@ topics:
   pinterest_pin_id: '1132796112562930824'
   draft_reason: not indexed, 0 impressions / 90 days
   drafted_at: '2026-11-04'
+  pinterest_deleted_pins:
+  - id: '1132796112562930824'
+    title: Why Does My Smoke Detector Chirp Even With a New Battery Installed?
+    kind: archive
+    deleted: '2026-11-09'
 - title: Why Do My Kitchen Drawers Always End Up as Junk Drawers Again?
   pillar: cleaning-organization
   status: drafted

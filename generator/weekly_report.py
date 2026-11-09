@@ -40,6 +40,7 @@ SITE_CONFIG = ROOT / "config" / "site.yml"
 TOPICS_CONFIG = ROOT / "config" / "topics.yml"
 POSTS_DIR = ROOT / "content" / "posts"
 HISTORY_FILE = ROOT / "data" / "traffic_history.json"
+GSC_SNAPSHOT = ROOT / "data" / "gsc_snapshot.json"  # latest raw 28-day rows, for title/intro work
 REPORTS_DIR = ROOT / "docs" / "reports"
 
 RANGE_KEYS = {"SEVEN_DAYS": "pv_7d", "THIRTY_DAYS": "pv_30d", "ALL_TIME": "pv_all"}
@@ -70,15 +71,21 @@ def fetch_search_console(access_token: str, blog_url: str, today: datetime.date)
         end = today - datetime.timedelta(days=3)  # GSC data lags ~2-3 days
         start = end - datetime.timedelta(days=27)
         out: dict = {"site": site, "start": start.isoformat(), "end": end.isoformat()}
-        for dim in ("query", "page"):
+        url = f"{GSC_API}/sites/{requests.utils.quote(site, safe='')}/searchAnalytics/query"
+        # The API orders rows by clicks; with almost no clicks a 15-row limit
+        # returned an arbitrary (alphabetical) slice of zero-click queries and
+        # hid the totals. Pull everything, rank by impressions locally.
+        for key, dims in (("total", []), ("query", ["query"]), ("page", ["page"]),
+                          ("page_query", ["page", "query"])):
             r = requests.post(
-                f"{GSC_API}/sites/{requests.utils.quote(site, safe='')}/searchAnalytics/query",
+                url,
                 json={"startDate": out["start"], "endDate": out["end"],
-                      "dimensions": [dim], "rowLimit": 15},
+                      "dimensions": dims, "rowLimit": 1000},
                 headers=headers, timeout=30,
             )
             r.raise_for_status()
-            out[dim] = r.json().get("rows", [])
+            rows = r.json().get("rows", [])
+            out[key] = sorted(rows, key=lambda x: (-x["impressions"], -x["clicks"]))
         return out
     except requests.exceptions.RequestException as e:
         print(f"WARN: Search Console fetch failed ({e})")
@@ -111,12 +118,36 @@ def gsc_section(gsc: dict | None) -> list[str]:
                        f"{r['ctr'] * 100:.1f}% | {r['position']:.1f} |")
         return out
 
+    tot = (gsc.get("total") or [{}])[0]
     lines += [f"기간 {gsc['start']} ~ {gsc['end']} · 속성 `{gsc['site']}`", ""]
-    lines += table(gsc.get("query", []), "검색어") + [""]
-    lines += table(gsc.get("page", []), "페이지")
+    lines += [f"- 합계: 클릭 **{int(tot.get('clicks', 0))}** · 노출 {int(tot.get('impressions', 0))}"
+              f" · 노출 있는 페이지 {len(gsc.get('page', []))}개 · 검색어 {len(gsc.get('query', []))}개", ""]
+    lines += table(gsc.get("query", [])[:15], "검색어 (노출 상위 15)") + [""]
+    lines += table(gsc.get("page", [])[:15], "페이지 (노출 상위 15)")
+    lines += striking_distance(gsc)
     lines += ["", "> 노출은 많은데 CTR이 낮은 글 = 제목·첫 문장 개선 후보. "
                   "순위 8~20위 글 = 내용 보강 1순위."]
     return lines
+
+
+def striking_distance(gsc: dict, max_pos: float = 20.0, min_impr: int = 5) -> list[str]:
+    """Pages ranking on page 1-2 with enough impressions to act on, each with
+    its top queries, so a title/intro rewrite targets what searchers typed."""
+    pages = [r for r in gsc.get("page", [])
+             if r["position"] <= max_pos and r["impressions"] >= min_impr]
+    if not pages:
+        return []
+    by_page: dict[str, list[dict]] = {}
+    for r in gsc.get("page_query", []):
+        by_page.setdefault(r["keys"][0], []).append(r)
+    out = ["", f"### 개선 후보 (평균 순위 {max_pos:.0f}위 이내 · 노출 {min_impr}+)", "",
+           "| 페이지 | 클릭 | 노출 | 순위 | 주요 검색어 (노출) |", "|---|---|---|---|---|"]
+    for r in pages:
+        qs = ", ".join(f"{q['keys'][1]} ({int(q['impressions'])})" for q in by_page.get(r["keys"][0], [])[:3])
+        path = re.sub(r"^https?://[^/]+", "", r["keys"][0])
+        out.append(f"| {path} | {int(r['clicks'])} | {int(r['impressions'])} | "
+                   f"{r['position']:.1f} | {qs.replace('|', '/') or '—'} |")
+    return out
 
 
 def fetch_pageviews(access_token: str, blog_id: str) -> dict:
@@ -257,6 +288,8 @@ def build_report_md(
         "",
         "## 조회수 (Blogger 집계)",
         "",
+        "> 봇·크롤러 포함 수치라 실제 독자 지표가 아님. 유입 판단은 아래 Search Console 클릭으로.",
+        "",
         "| 구간 | 조회수 | 전주 대비 |",
         "|---|---|---|",
         f"| 최근 7일 | {pv['pv_7d']} | {fmt_delta(pv['pv_7d'], prev_pv.get('pv_7d')) or '—'} |",
@@ -326,8 +359,10 @@ def main() -> int:
     comments = fetch_recent_comments(access_token, blog_id, topics_data, since)
     gsc = fetch_search_console(access_token, blog_url, today)
     history = load_history()
-    prev = history[-1] if history else None
+    older = [h for h in history if h.get("date") != today.isoformat()]
+    prev = older[-1] if older else None
 
+    history = [h for h in history if h.get("date") != today.isoformat()]  # same-day rerun
     history.append({
         "date": today.isoformat(),
         "pageviews": pv,
@@ -342,6 +377,8 @@ def main() -> int:
     pin = load_pinterest_stats(today)
     report_path.write_text(build_report_md(today, pv, stats, prev, comments, gsc, pin), encoding="utf-8")
     print(f"Report written: {report_path.relative_to(ROOT)}")
+    if gsc and not gsc.get("error"):
+        GSC_SNAPSHOT.write_text(json.dumps(gsc, indent=1) + "\n", encoding="utf-8")
 
     gh = cfg["github"]
     report_url = (

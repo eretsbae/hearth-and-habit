@@ -81,6 +81,13 @@ def inspect(headers: dict, url: str) -> dict:
     return {"verdict": "ERROR", "coverage": "rate-limited"}
 
 
+# 11-04 overhaul (prune, cornerstones, FAQ removal, stock heroes). AdSense
+# submission gate: >= RECRAWL_GATE of live posts crawled on/after this date,
+# so the reviewer and Google see the rewritten pages, not October copies.
+OVERHAUL_DATE = "2026-11-04"
+RECRAWL_GATE = 0.8
+
+
 def main() -> int:
     today = datetime.date.today()
     headers = {"Authorization": f"Bearer {get_access_token()}"}
@@ -109,14 +116,19 @@ def main() -> int:
              f"게시 글 {len(rows)}편 중 색인 {len(indexed)}편 (URL Inspection API, 속성 `{SITE}`).", "",
              "| 상태 | 글 수 |", "|---|---|"]
     lines += [f"| {k} | {v} |" for k, v in sorted(counts.items(), key=lambda kv: -kv[1])]
-    lines += ["", "| 글 | 필러 | 상태 | 90일 클릭 | 90일 노출 | 최고 순위 |", "|---|---|---|---|---|---|"]
+    recrawled = sum(1 for r in rows if (r.get("last_crawl") or "") >= OVERHAUL_DATE)
+    share = recrawled / len(rows) if rows else 0.0
+    lines += ["", f"**개편({OVERHAUL_DATE}) 후 재크롤: {recrawled}/{len(rows)}편 ({share:.0%})** — "
+              f"애드센스 제출 게이트 {RECRAWL_GATE:.0%} 이상: {'충족' if share >= RECRAWL_GATE else '미충족'}"]
+    lines += ["", "| 글 | 필러 | 상태 | 마지막 크롤 | 90일 클릭 | 90일 노출 | 최고 순위 |",
+              "|---|---|---|---|---|---|---|"]
     for r in sorted(rows, key=lambda r: (r.get("verdict") == "PASS", r["impressions"])):
         lines.append(f"| [{r['slug']}]({r['url']}) | {r['pillar']} | {r.get('coverage')} | "
-                     f"{r['clicks']} | {r['impressions']} | {r['best_position'] or '-'} |")
+                     f"{(r.get('last_crawl') or '-')[:10]} | {r['clicks']} | {r['impressions']} | {r['best_position'] or '-'} |")
     lines += ["", "자동 생성: `.github/workflows/index-status.yml` → `generator/index_status.py`."]
     REPORTS.mkdir(parents=True, exist_ok=True)
     (REPORTS / f"index-status-{today.isoformat()}.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(f"{len(indexed)}/{len(rows)} indexed; {counts}")
+    print(f"{len(indexed)}/{len(rows)} indexed; recrawled since {OVERHAUL_DATE}: {recrawled}; {counts}")
     return 0
 
 

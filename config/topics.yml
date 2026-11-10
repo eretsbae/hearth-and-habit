@@ -47,6 +47,8 @@ topics:
     target: winter-home-prep-checklist-before-first-freeze
     image_url: https://i.pinimg.com/1200x/bb/cc/74/bbcc74cfe2b42508f8211e3bf0b2e52c.jpg
     alt_text: ''
+    pin_id: '1132796112563529927'
+    pinned: '2026-11-10'
 - title: How to Fix a Running Toilet in 15 Minutes Without Calling a Plumber
   pillar: home-maintenance
   status: published
@@ -170,6 +172,8 @@ topics:
     target: why-greens-wilt-fast-how-to-store-them
     image_url: https://i.pinimg.com/1200x/36/ff/ac/36ffacd9391c4c6ac36ae0fff92021f5.jpg
     alt_text: ''
+    pin_id: '1132796112563529929'
+    pinned: '2026-11-10'
 - title: 'Your Dishwasher Is Probably Loaded Wrong: The Method That Gets Everything Clean'
   pillar: kitchen-habits
   status: drafted
@@ -249,6 +253,8 @@ topics:
     target: fix-running-toilet-without-plumber
     image_url: https://i.pinimg.com/1200x/0f/8d/ed/0f8ded50f002fabb6376fa935d68d145.jpg
     alt_text: ''
+    pin_id: '1132796112563529930'
+    pinned: '2026-11-10'
 - title: Is It Normal for a Water Heater to Make a Popping or Rumbling Sound?
   pillar: home-maintenance
   status: drafted

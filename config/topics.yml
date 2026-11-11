@@ -313,6 +313,8 @@ topics:
     target: caulking-101-how-to-caulk
     image_url: https://i.pinimg.com/1200x/88/46/60/884660b775288aff215cb421d3be0608.jpg
     alt_text: ''
+    pin_id: '1132796112563603172'
+    pinned: '2026-11-11'
   - from_pin: '1132796112558033404'
     title: Can You Caulk Over Old Caulk, or Do You Have to Remove It First?
     description: 'Answered in our guide “How to Caulk So It Doesn''t Peel: Choosing the Right Caulk and
@@ -321,6 +323,8 @@ topics:
     target: caulking-101-how-to-caulk
     image_url: https://i.pinimg.com/1200x/88/46/60/884660b775288aff215cb421d3be0608.jpg
     alt_text: ''
+    pin_id: '1132796112563603172'
+    pinned: '2026-11-11'
 - title: What Does It Mean When My Furnace Filter Turns Gray in Two Weeks?
   pillar: home-maintenance
   status: published
@@ -389,6 +393,8 @@ topics:
     target: house-cleaning-schedule-by-room-frequency
     image_url: https://i.pinimg.com/1200x/16/06/83/1606836332cf89aa391bb6ee35137e71.jpg
     alt_text: ''
+    pin_id: '1132796112563603175'
+    pinned: '2026-11-11'
 - title: Why Does My Dishwasher Smell Even After I Run It Empty?
   pillar: cleaning-organization
   status: published

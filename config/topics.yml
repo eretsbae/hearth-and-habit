@@ -488,6 +488,8 @@ topics:
     target: thermostat-settings-by-season-savings
     image_url: https://i.pinimg.com/1200x/89/d0/a7/89d0a7c9dace36ce0f9490c13b526adc.jpg
     alt_text: ''
+    pin_id: '1132796112563684912'
+    pinned: '2026-11-12'
 - title: How Much Does It Actually Cost to Run a Space Heater for 8 Hours?
   pillar: energy-savings
   status: published
@@ -525,6 +527,8 @@ topics:
     target: why-is-one-room-always-colder-than-rest
     image_url: https://i.pinimg.com/1200x/92/a6/68/92a66832b78ac65ce51c77c5d9c372b0.jpg
     alt_text: ''
+    pin_id: '1132796112563684913'
+    pinned: '2026-11-12'
 - title: Which Appliance in My House Is Quietly Using the Most Electricity?
   pillar: energy-savings
   status: published
@@ -640,6 +644,8 @@ topics:
     target: fall-yard-cleanup-checklist-before-winter
     image_url: https://i.pinimg.com/1200x/13/db/9f/13db9f9d85b294239879e18115316dd4.jpg
     alt_text: ''
+    pin_id: '1132796112563684914'
+    pinned: '2026-11-12'
 - title: Why Does Water Pool in One Spot in My Yard Every Time It Rains?
   pillar: yard-outdoor
   status: drafted

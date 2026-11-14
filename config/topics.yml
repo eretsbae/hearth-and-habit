@@ -968,6 +968,8 @@ topics:
   pinterest_batch: pins14
   pinterest_pin_id: manual
   pinterest_bulk_pin_id: '1132796112559991969'
+  pinterest_refresh_pin_id: '1132796112563837878'
+  pinterest_pin_design: 2
 - title: How Long Does a Frozen Turkey Take to Thaw in the Fridge Before Thanksgiving?
   pillar: kitchen-habits
   status: published
@@ -979,6 +981,8 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/10/how-long-does-frozen-turkey-take-to.html
   blogger_post_id: '1846874685806823979'
   pinterest_pin_id: '1132796112560581008'
+  pinterest_refresh_pin_id: '1132796112563837876'
+  pinterest_pin_design: 2
 - title: How Do You Store Summer Clothes So They Don't Smell or Yellow by Spring?
   pillar: cleaning-organization
   status: drafted
@@ -1024,6 +1028,8 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/09/musty-smell-in-house-how-to-find-source.html
   blogger_post_id: '7170772140788856572'
   pinterest_pin_id: '1132796112560160088'
+  pinterest_refresh_pin_id: '1132796112563837874'
+  pinterest_pin_design: 2
 - title: Why Is My Electric Bill So High? A Step-by-Step Checklist to Find the Cause
   pillar: energy-savings
   status: published

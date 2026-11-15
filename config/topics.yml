@@ -918,6 +918,8 @@ topics:
   blogger_post_id: '161590455633342521'
   pinterest_batch: pins12
   pinterest_pin_id: manual
+  pinterest_refresh_pin_id: '1132796112563924083'
+  pinterest_pin_design: 2
 - title: Why Does Leftover Rice Sometimes Make People Sick When Other Leftovers Don't?
   pillar: kitchen-habits
   status: published
@@ -927,6 +929,8 @@ topics:
   blogger_post_id: '5875178891537767998'
   pinterest_batch: pins13
   pinterest_pin_id: manual
+  pinterest_refresh_pin_id: '1132796112563924080'
+  pinterest_pin_design: 2
 - title: Why Does My Hydrangea Bloom Great One Year and Barely Flower the Next?
   pillar: yard-outdoor
   status: drafted
@@ -955,6 +959,8 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/10/why-does-my-furnace-smell-like-burning.html
   blogger_post_id: '1592854928947981559'
   pinterest_pin_id: '1132796112561019915'
+  pinterest_refresh_pin_id: '1132796112563924078'
+  pinterest_pin_design: 2
 - title: Should You Rake Leaves Off the Lawn or Leave Them There Over Winter?
   pillar: yard-outdoor
   status: published

@@ -822,6 +822,8 @@ topics:
   blogger_post_id: '4105977501687940514'
   pinterest_batch: pins10
   pinterest_pin_id: manual
+  pinterest_refresh_pin_id: '1132796112564008527'
+  pinterest_pin_design: 2
 - title: Why Does My Ceiling Have a Yellow-Brown Stain but No Active Leak?
   pillar: home-maintenance
   status: drafted
@@ -846,6 +848,8 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/10/why-does-my-circuit-breaker-trip-only.html
   blogger_post_id: '699230912556372001'
   pinterest_pin_id: '1132796112562484590'
+  pinterest_refresh_pin_id: '1132796112564008525'
+  pinterest_pin_design: 2
 - title: Why Does My Front Door Stick Only in the Summer?
   pillar: home-maintenance
   status: pending
@@ -909,6 +913,8 @@ topics:
   blogger_post_id: '1679143409704833833'
   pinterest_batch: pins11
   pinterest_pin_id: manual
+  pinterest_refresh_pin_id: '1132796112564008524'
+  pinterest_pin_design: 2
 - title: Why Does My Water Bill Spike in Winter With No Extra Usage?
   pillar: energy-savings
   status: published

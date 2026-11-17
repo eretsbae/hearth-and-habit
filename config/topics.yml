@@ -698,6 +698,8 @@ topics:
   blogger_post_id: '5095901597762802554'
   pinterest_batch: pins11
   pinterest_pin_id: manual
+  pinterest_refresh_pin_id: '1132796112564095016'
+  pinterest_pin_design: 2
 - title: Is It Normal for a New LED Bulb to Flicker With a Dimmer Switch?
   pillar: home-maintenance
   status: drafted
@@ -777,6 +779,8 @@ topics:
   blogger_post_id: '8198266816540097629'
   pinterest_batch: pins10
   pinterest_pin_id: manual
+  pinterest_refresh_pin_id: '1132796112564095014'
+  pinterest_pin_design: 2
 - title: Why Does My Closet Smell Musty Even Though Everything Looks Clean?
   pillar: cleaning-organization
   status: drafted
@@ -813,6 +817,8 @@ topics:
   blogger_post_id: '740661434432483702'
   pinterest_batch: pins12
   pinterest_pin_id: manual
+  pinterest_refresh_pin_id: '1132796112564095012'
+  pinterest_pin_design: 2
 - title: Why Does Grass Along the Sidewalk Die Every Winter but Grow Back Everywhere Else?
   pillar: yard-outdoor
   status: published

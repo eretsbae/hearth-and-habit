@@ -1,11 +1,11 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "window": {
-    "start": "2026-10-19",
-    "end": "2026-11-15"
+    "start": "2026-10-20",
+    "end": "2026-11-16"
   },
   "summary": {
-    "IMPRESSION": 218,
+    "IMPRESSION": 217,
     "OUTBOUND_CLICK": 2,
     "PIN_CLICK": 4,
     "SAVE": 0
@@ -84,6 +84,13 @@
     {
       "date": "2026-11-15",
       "IMPRESSION": 218,
+      "OUTBOUND_CLICK": 2,
+      "PIN_CLICK": 4,
+      "SAVE": 0
+    },
+    {
+      "date": "2026-11-16",
+      "IMPRESSION": 217,
       "OUTBOUND_CLICK": 2,
       "PIN_CLICK": 4,
       "SAVE": 0

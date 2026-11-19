@@ -31,9 +31,15 @@ DRY_RUN = "--dry-run" in sys.argv
 # 최소 간격"보다 작게 잡았다(예약 실행이 GitHub 쪽에서 수 시간 늦는 것 감안).
 # 예약을 멈추면(중단 기준 등) 여기서도 빼야 매일 알림이 뜨지 않는다.
 WATCH = {
-    # generate-and-publish.yml: 2026-11-04 예약 중단(수동 게시만)이라 감시에서 뺐다.
+    "generate-and-publish.yml": 6 * 24,  # 월/수/금: 1회 누락 최대 5일, 2회 누락 최소 7일
     "pinterest-publish.yml": 60,         # 매일: 1회 누락 48시간, 2회 누락 72시간
     "weekly-report.yml": 17 * 24,        # 매주: 1회 누락 14일, 2회 누락 21일
+}
+
+# 멈췄던 예약을 다시 켠 시각. 재개 직후에는 마지막 성공이 중단 전 것이라 곧바로
+# '멈춤'으로 잡히므로, 그보다 늦은 재개 시각부터 잰다.
+RESUMED_AT = {
+    "generate-and-publish.yml": "2026-11-19T00:00:00+00:00",  # 11-04 중단 → 11-19 재개
 }
 
 
@@ -120,6 +126,8 @@ def check_stale() -> None:
             print(f"{wf}: 성공 이력 없음 — 건너뜀")
             continue
         ended = datetime.fromisoformat(last["updated_at"].replace("Z", "+00:00"))
+        if wf in RESUMED_AT:
+            ended = max(ended, datetime.fromisoformat(RESUMED_AT[wf]))
         age = (now - ended).total_seconds() / 3600
         print(f"{wf}: 마지막 성공 {age:.0f}시간 전 (기준 {max_hours}시간)")
         if age > max_hours:

@@ -1027,6 +1027,8 @@ topics:
     title: How Do You Store Summer Clothes So They Don't Smell or Yellow by Spring?
     kind: archive
     deleted: '2026-11-09'
+  pinterest_refresh_pin_id: '1132796112564325479'
+  pinterest_pin_design: 2
 - title: Why Is My Gas Bill Higher This Winter When I Haven't Touched the Thermostat?
   pillar: energy-savings
   status: drafted
@@ -1130,6 +1132,8 @@ topics:
     alt_text: ''
     pin_id: '1132796112563760134'
     pinned: '2026-11-13'
+  pinterest_refresh_pin_id: '1132796112564325477'
+  pinterest_pin_design: 2
 - title: Why Does Moss Keep Taking Over the Shady Part of My Lawn?
   pillar: yard-outdoor
   status: pending
@@ -1199,6 +1203,8 @@ topics:
     title: Why Does My Brown Sugar Turn Rock-Hard, and Can You Still Use It?
     kind: archive
     deleted: '2026-11-09'
+  pinterest_refresh_pin_id: '1132796112564325475'
+  pinterest_pin_design: 2
 - title: Why Does My Shower Grout Turn Pink or Black Again a Week After Cleaning?
   pillar: cleaning-organization
   status: pending

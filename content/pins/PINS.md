@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 54개 준비됨 · 게시 완료 52개(수동 38 · API 14) · 대기 2개
+핀 59개 준비됨 · 게시 완료 58개(수동 38 · API 20) · 대기 1개
 
 ## 게시 방식
 
@@ -21,7 +21,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
 
 ## 보드: Cleaning & Organization
 
-(10개)
+(12개)
 
 - [x] **The 15-Minute Weekly Home Reset: A Simple Routine That Keeps Your House Under Control**
   - 이미지: `content/pins/15-minute-weekly-home-reset.png`
@@ -68,10 +68,20 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/09/musty-smell-in-house-how-to-find-source.html
   - 설명: A musty smell is usually gas from mold growing on something damp. Find it with your nose and a hygrometer, skip the test kit, and size a dehumidifier right.
 
-- [ ] **House Cleaning Schedule by Room: What to Clean Daily, Weekly, Monthly, and Yearly**
+- [x] **How Do You Store Summer Clothes So They Don't Smell or Yellow by Spring?**
+  - 이미지: `content/pins/how-to-store-summer-clothes-smell-yellowing.png`
+  - 링크: https://www.hearth-habit.com/2026/10/how-do-you-store-summer-clothes-so-they.html
+  - 설명: Wash even clean-looking clothes, skip starch and softener, and pack them fully dry. A table rates dry-cleaning bags, bins, cardboard, cedar chests and suitcases.
+
+- [x] **House Cleaning Schedule by Room: What to Clean Daily, Weekly, Monthly, and Yearly**
   - 이미지: `content/pins/house-cleaning-schedule-by-room-frequency.png`
   - 링크: https://www.hearth-habit.com/2026/11/house-cleaning-schedule-by-room-what-to.html
   - 설명: A room-by-room cleaning schedule where every interval has a reason, plus a weekly time budget with the math shown and a printable checklist you can keep.
+
+- [ ] **Why Does My Shower Grout Turn Pink or Black Again a Week After Cleaning?**
+  - 이미지: `content/pins/shower-grout-pink-black-comes-back.png`
+  - 링크: https://www.hearth-habit.com/2026/11/why-does-my-shower-grout-turn-pink-or.html
+  - 설명: Pink grout film is a bacterium that feeds on soap residue, and black spots are mold. Here's why both return within days and the fan and drying fixes that work.
 
 ## 보드: Energy & Utility Savings
 
@@ -144,7 +154,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
 
 ## 보드: Home Maintenance & Repairs
 
-(11개)
+(12개)
 
 - [x] **How Often Should You Change Your Furnace Filter? (And Which MERV Rating to Buy)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -196,14 +206,19 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/10/why-does-my-circuit-breaker-trip-only.html
   - 설명: Two appliances fine alone can trip a breaker together. Add nameplate watts, divide by 120 for amps, compare to the breaker, and use this checklist to fix it.
 
-- [ ] **Winter Home Prep Checklist: What to Do Before the First Hard Freeze**
+- [x] **Why Does My Smoke Detector Chirp Even With a New Battery Installed?**
+  - 이미지: `content/pins/smoke-detector-chirping-new-battery.png`
+  - 링크: https://www.hearth-habit.com/2026/11/why-does-my-smoke-detector-chirp-even.html
+  - 설명: A new battery can't stop an alarm's end-of-life chirp. Check the date on the back, then the drawer, the reset, Hush mode, and the CO clock, symptom by symptom.
+
+- [x] **Winter Home Prep Checklist: What to Do Before the First Hard Freeze**
   - 이미지: `content/pins/winter-home-prep-checklist-before-first-freeze.png`
   - 링크: https://www.hearth-habit.com/2026/11/winter-home-prep-checklist-what-to-do.html
   - 설명: Winter prep in lead-time order: what to book six weeks before your first 32°F freeze, what waits for the last weekend, and what skipping each task can cost.
 
 ## 보드: Kitchen & Food Habits
 
-(12개)
+(13개)
 
 - [x] **Why Bread Goes Moldy Faster in Summer (It's Not the Heat Alone)**
   - 이미지: `content/pins/why-bread-molds-faster-in-summer.png`
@@ -255,6 +270,11 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/10/how-long-can-party-food-sit-on-buffet.html
   - 설명: Party food can sit out 2 hours, or 1 hour above 90°F, and the clock runs before guests arrive. Why reheating won't save it, plus a platter-swap schedule.
 
+- [x] **Why Does My Brown Sugar Turn Rock-Hard, and Can You Still Use It?**
+  - 이미지: `content/pins/why-brown-sugar-turns-hard.png`
+  - 링크: https://www.hearth-habit.com/2026/10/why-does-my-brown-sugar-turn-rock-hard.html
+  - 설명: Hard brown sugar has dried out and is still usable. Which fixes re-harden as they cool, which restore moisture, and how much water to knead in per cup or bag.
+
 - [x] **Why Does My Freezer Build Up Frost So Fast Even Though It's Frost-Free?**
   - 이미지: `content/pins/frost-free-freezer-frost-buildup.png`
   - 링크: https://www.hearth-habit.com/2026/10/why-does-my-freezer-build-up-frost-so.html
@@ -267,7 +287,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
 
 ## 보드: Yard & Outdoor Basics
 
-(8개)
+(9개)
 
 - [x] **Low-Maintenance Lawn Care: The Bare-Minimum Yearly Schedule**
   - 이미지: `content/pins/low-effort-lawn-care-bare-minimum.png`
@@ -303,6 +323,11 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 이미지: `content/pins/outdoor-faucet-winter-shutoff-valve.png`
   - 링크: https://www.hearth-habit.com/2026/10/should-you-shut-off-outdoor-faucet-from.html
   - 설명: A standard outdoor faucet needs its inside valve closed and the line drained. A frost-free one mostly needs the hose off. How to tell which you have and find the valve.
+
+- [x] **How Low Should You Mow Grass on the Last Cut Before Winter?**
+  - 이미지: `content/pins/last-mow-height-before-winter.png`
+  - 링크: https://www.hearth-habit.com/2026/10/how-low-should-you-mow-grass-on-last.html
+  - 설명: Cool-season lawns: mow at normal height until growth stops, then drop one notch at most. Warm-season lawns stay in range. Last-cut height table by setting.
 
 - [x] **Fall-to-Spring Yard Calendar: Month-by-Month Lawn Tasks for Cool-Season and Warm-Season Grass**
   - 이미지: `content/pins/fall-to-spring-yard-calendar-cool-warm-season-grass.png`

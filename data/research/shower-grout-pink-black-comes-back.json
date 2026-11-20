@@ -1,0 +1,150 @@
+{
+  "reader_situation": "Readers scrubbed their shower grout (often with bleach), it looked clean, and within about a week pink film or black specks are back in the same corners and grout lines. They want to know what the stuff actually is, why cleaning doesn't stick, and what changes the outcome.",
+  "direct_answer": "It comes back because cleaning removes the growth but not the conditions. Pink film is usually Serratia marcescens, a bacterium (not mold) that feeds on soap residue in damp spots where tap-water chlorine has evaporated; utilities say it usually can't be eliminated entirely, only controlled. Black spots are usually mold, and EPA says damp bathrooms are hard to keep completely mold-free; more ventilation and more frequent cleaning usually keep it from recurring. The fixes are drying surfaces after each shower, running an outdoor-vented fan long enough after the shower (HVI: 20 minutes; PNNL: one hour), a fan sized for the room, and removing residue rather than only bleaching.",
+  "consensus": [
+    "Pink stuff is 'pink mold'; black stuff is 'black mold'.",
+    "Scrub with baking soda paste or a cleaner, then spray bleach.",
+    "Squeegee or wipe after showers and run the exhaust fan.",
+    "Wash the shower curtain and liner.",
+    "Seal grout periodically."
+  ],
+  "gaps": [
+    "The pink film is a bacterium, Serratia marcescens, not a mold. It feeds on phosphorus-containing and fatty residues (soap), and thrives where tap water sits long enough for chlorine to dissipate — so the food supply, not only the organism, has to go.",
+    "Utilities say once established it usually cannot be eliminated entirely; the realistic goal is control: repeat cleaning and disinfection whenever the film reappears.",
+    "EPA does not recommend chlorine bleach as a routine practice in mold cleanup, and says dead mold can still cause allergic reactions, so it must be removed, not just killed. Many articles lead with bleach for black grout spots.",
+    "For pink Serratia film, utilities do recommend a strong chlorine bleach solution with 10–20 minutes of contact time after scrubbing — a different organism, a different recommendation.",
+    "Abrasives that scratch fixtures make them more susceptible to the bacteria, per Gwinnett County's water department.",
+    "Activated carbon filters that strip chlorine from water can make the pink film more likely.",
+    "Fan run time: HVI says 20 minutes after use; PNNL's Building America guide says one hour after a shower for effective humidity control. Most articles give one number without noting the range.",
+    "Fan sizing: code-level minimum is 50 cfm intermittent or 20 cfm continuous; ENERGY STAR recommends buying a fan rated at least 70 cfm to actually deliver 50 cfm intermittent. HVI sizes small bathrooms at 1 cfm per square foot and larger ones by fixture.",
+    "A fan must exhaust outdoors, not into the attic, crawlspace or wall cavities; operable windows shouldn't be relied on for consistent bathroom ventilation."
+  ],
+  "evidence": [
+    {
+      "claim": "Pink film is a bacterium, Serratia marcescens.",
+      "detail": "NDSU Extension's water quality associate identifies the red substance in tubs and toilets as the bacteria Serratia marcescens.",
+      "source_url": "https://www.ag.ndsu.edu/news/newsreleases/2010/aug-9-2010/red-substance-in-tub-toilet-is-bacteria/",
+      "source_title": "Red Substance in Tub, Toilet is Bacteria (NDSU Extension)"
+    },
+    {
+      "claim": "It grows where phosphorus or fatty residues collect, including soap residue in tubs, showers and sinks.",
+      "detail": "'The bacteria will grow in places with materials containing phosphorus or fatty substances such as ... soap residue in ... the bathtub, shower and sink.' It survives because water sits and the chlorine dissipates.",
+      "source_url": "https://www.ag.ndsu.edu/news/newsreleases/2010/aug-9-2010/red-substance-in-tub-toilet-is-bacteria/",
+      "source_title": "Red Substance in Tub, Toilet is Bacteria (NDSU Extension)"
+    },
+    {
+      "claim": "Activated carbon filters remove chlorine and may support growth; film shows up more with windows open in summer and after construction or remodeling.",
+      "detail": "NDSU: 'If you have an activated carbon filter on your water line, you are removing the chlorine and may be supporting the growth of the bacteria.' Also more common with windows open in summer and during/after construction or remodeling.",
+      "source_url": "https://www.ag.ndsu.edu/news/newsreleases/2010/aug-9-2010/red-substance-in-tub-toilet-is-bacteria/",
+      "source_title": "Red Substance in Tub, Toilet is Bacteria (NDSU Extension)"
+    },
+    {
+      "claim": "Hard to remove completely; stains come off easily with a chlorine bleach cleanser; prevent by wiping down and drying tubs and sinks.",
+      "detail": "NDSU: bacteria 'are difficult to remove completely from your home, although the stains are removed easily with a general-purpose cleanser containing chlorine bleach.' Scrub, then strong bleach solution in contact 10 to 20 minutes, rinse well. Prevent by wiping down and drying sinks and bathtubs after use.",
+      "source_url": "https://www.ag.ndsu.edu/news/newsreleases/2010/aug-9-2010/red-substance-in-tub-toilet-is-bacteria/",
+      "source_title": "Red Substance in Tub, Toilet is Bacteria (NDSU Extension)"
+    },
+    {
+      "claim": "Once established, it usually cannot be eliminated entirely; repeat cleaning and disinfection when the film reappears.",
+      "detail": "Gwinnett County: 'Once established, the organism usually cannot be eliminated entirely.' Chlorine cleaning 'will help to control these bacteria.' 'Whenever a pink film starts to reappear, repeat the cleaning and disinfection process.' Found in dust, soil and surface waters; described as airborne.",
+      "source_url": "https://www.gwinnettcounty.com/government/departments/water/what-we-do/drinking-water/quality/facts-serratia-marcescens",
+      "source_title": "Facts About Serratia marcescens (Gwinnett County Water)"
+    },
+    {
+      "claim": "Leave bleach solution 10–20 minutes, rinse; abrasives that scratch fixtures make them more susceptible.",
+      "detail": "Gwinnett: 'Leave the disinfectant solution on the affected surface(s) for 10 – 20 minutes before thoroughly rinsing away with clean water.' 'Use care with abrasives to avoid scratching the fixtures, which will make them even more susceptible to the bacteria.' Keep tubs and sinks wiped down and dry.",
+      "source_url": "https://www.gwinnettcounty.com/government/departments/water/what-we-do/drinking-water/quality/facts-serratia-marcescens",
+      "source_title": "Facts About Serratia marcescens (Gwinnett County Water)"
+    },
+    {
+      "claim": "Not known to cause waterborne disease; infections occur in a small share of people in hospital settings.",
+      "detail": "Gwinnett: not known to cause waterborne diseases; has caused urinary tract infections, wound infections and pneumonia in hospital environments in a small percentage of people.",
+      "source_url": "https://www.gwinnettcounty.com/government/departments/water/what-we-do/drinking-water/quality/facts-serratia-marcescens",
+      "source_title": "Facts About Serratia marcescens (Gwinnett County Water)"
+    },
+    {
+      "claim": "Removing chlorine with an activated carbon filter can make the airborne bacteria worse.",
+      "detail": "Gwinnett: 'These airborne bacteria can be made worse by removing chlorine with an activated carbon filter.' Serratia has appeared more frequently in homes using chlorine filtration.",
+      "source_url": "https://www.gwinnettcounty.com/government/departments/water/what-we-do/drinking-water/quality/facts-serratia-marcescens",
+      "source_title": "Facts About Serratia marcescens (Gwinnett County Water)"
+    },
+    {
+      "claim": "Chlorine in tap water evaporates when water sits on grout or a shower curtain; soapy deposits are its food; pigment is prodigiosin.",
+      "detail": "McGill OSS: 'when tap water sits around, like in a toilet bowl, or on grout, or on a shower curtain, the chlorine evaporates and bacteria can take root and multiply, especially if soapy deposits are present which they use as food.' A household cleaner with bleach or hydrogen peroxide usually solves the problem.",
+      "source_url": "https://mcgill.ca/oss/article/health-you-asked/what-pink-deposit-sometimes-seen-toilets-and-around-sinks-and-bathtubs",
+      "source_title": "What is the pink deposit that is sometimes seen in toilets and around sinks and bathtubs? (McGill Office for Science and Society)"
+    },
+    {
+      "claim": "Recurring bathroom mold: more ventilation and more frequent cleaning usually prevent recurrence.",
+      "detail": "EPA: 'Places that are often or always damp can be hard to maintain completely free of mold. If there's some mold in the shower or elsewhere in the bathroom that seems to reappear, increasing ventilation (running a fan or opening a window) and cleaning more frequently will usually prevent mold from recurring, or at least keep the mold to a minimum.' Scrub hard surfaces with detergent and water and dry completely. Do not paint or caulk moldy surfaces. Porous materials may be difficult or impossible to clean completely. Under about 10 sq ft is usually a DIY job.",
+      "source_url": "https://www.epa.gov/mold/mold-cleanup-your-home",
+      "source_title": "Mold Cleanup in Your Home (US EPA)"
+    },
+    {
+      "claim": "Bleach is not recommended as a routine mold-cleanup practice; dead mold must be removed; never mix bleach with ammonia; humidity below 60%, ideally 30–50%.",
+      "detail": "EPA: 'The use of a chemical or biocide that kills organisms such as mold (chlorine bleach, for example) is not recommended as a routine practice during mold cleanup.' 'Dead mold may still cause allergic reactions in some people, so it is not enough to simply kill the mold, it must also be removed.' Ventilate when using biocides. 'Run the bathroom fan or open the window when showering.' Humidity below 60 percent, ideally 30–50 percent.",
+      "source_url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+      "source_title": "A Brief Guide to Mold, Moisture and Your Home (US EPA)"
+    },
+    {
+      "claim": "Fan capacity: at least 50 cfm intermittent or 20 cfm continuous; ENERGY STAR recommends a fan rated at least 70 cfm for the 50 cfm intermittent rate.",
+      "detail": "PNNL Building America Solution Center: 'bathroom fans should have a mechanical exhaust capacity of ≥ 50 cfm for intermittent operation or ≥ 20 cfm of ventilation when operated continuously.' 'For an intermittent rate of ≥ 50 cfm, ENERGY STAR recommends selecting a fan with a rating of at least 70 cfm.'",
+      "source_url": "https://basc.pnnl.gov/resource-guides/bathroom-exhaust-fans",
+      "source_title": "Bathroom Exhaust Fans (Building America Solution Center, PNNL)"
+    },
+    {
+      "claim": "Run the fan one hour after a shower; use a timer; duct it outdoors; don't rely on windows.",
+      "detail": "PNNL: 'It is recommended to leave the fan running for one hour after a shower for effective humidity control.' Timer switch recommended over standard wall switch. 'The fan should be ducted to exhaust outside of the home, not into the attic, crawlspace, garage, interstitial floor space, or wall cavities.' 'Operable windows should not be relied on for consistent bathroom ventilation.' Fans help keep humidity down, discouraging mold and mildew.",
+      "source_url": "https://basc.pnnl.gov/resource-guides/bathroom-exhaust-fans",
+      "source_title": "Bathroom Exhaust Fans (Building America Solution Center, PNNL)"
+    },
+    {
+      "claim": "HVI: 1 cfm per square foot up to 100 sq ft; above 100 sq ft, 50 cfm each for toilet, shower and tub (100 for jetted tub); leave fan on 20 minutes after use.",
+      "detail": "HVI: 'For bathrooms up to 100 square feet in area, HVI recommends that an exhaust fan provide 1 CFM per square foot.' Above 100 sq ft: Toilet 50, Shower 50, Bath Tub 50, Jetted Tub 100 CFM. 'HVI recommends that the fan be left on for 20 minutes after use of the bathroom.' Exhaust points over or near the shower or tub; undercut doors for makeup air.",
+      "source_url": "https://hvi.org/resources/publications/bathroom-ventilation/",
+      "source_title": "Bathroom Ventilation (Home Ventilating Institute)"
+    },
+    {
+      "claim": "Serratia cannot survive in chlorinated water; pigment made as it multiplies; infections mostly in hospitals among immunocompromised people.",
+      "detail": "McGill: 'Serratia marcescens love a moist environment but cannot survive in chlorinated water.' 'When they multiply, Serratia marcescens produces a reddish pigment called prodigiosin.' 'They can cause infections, but that generally happens in hospitals and affects people with compromised immune systems.'",
+      "source_url": "https://mcgill.ca/oss/article/health-you-asked/what-pink-deposit-sometimes-seen-toilets-and-around-sinks-and-bathtubs",
+      "source_title": "What is the pink deposit that is sometimes seen in toilets and around sinks and bathtubs? (McGill Office for Science and Society)"
+    },
+    {
+      "claim": "No mold grows without water or moisture.",
+      "detail": "EPA: 'There are many types of mold, and none of them will grow without water or moisture.'",
+      "source_url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+      "source_title": "A Brief Guide to Mold, Moisture and Your Home (US EPA)"
+    },
+    {
+      "claim": "Mold can fill crevices of porous materials such as ceiling tiles and carpet, which may be difficult or impossible to clean completely.",
+      "detail": "EPA: 'Absorbent or porous materials, such as ceiling tiles and carpet, may have to be thrown away if they become moldy. Mold can grow on or fill in the empty spaces and crevices of porous materials, so the mold may be difficult or impossible to remove completely.'",
+      "source_url": "https://www.epa.gov/mold/mold-cleanup-your-home",
+      "source_title": "Mold Cleanup in Your Home (US EPA)"
+    }
+  ],
+  "real_questions": [
+    "Is the pink stuff mold, and is it dangerous?",
+    "Why does it come back a week after I bleach it?",
+    "How long should the bathroom fan run after a shower?",
+    "Is my bathroom fan big enough?",
+    "Do I need to replace the grout or caulk?",
+    "Does a water filter cause it?"
+  ],
+  "original_asset": "A fan-sizing worked example for three bathroom sizes using HVI's 1 cfm/sq ft rule (and fixture rule above 100 sq ft), the 50 cfm intermittent floor, and ENERGY STAR's 70 cfm rated-fan recommendation, plus a pink-vs-black comparison table of what each is, what feeds it, and what the sources recommend.",
+  "cautions": [
+    "Never mix chlorine bleach with ammonia or acids (registry never_mix_bleach).",
+    "EPA: bleach is not a routine mold-cleanup practice; ventilate when using any biocide.",
+    "Mold over about 10 sq ft, or growth that spreads beyond the shower, goes beyond a DIY cleanup per EPA's 10 sq ft guidance.",
+    "No source here gives a grout-sealing interval; don't state one."
+  ],
+  "sources": {
+    "https://www.ag.ndsu.edu/news/newsreleases/2010/aug-9-2010/red-substance-in-tub-toilet-is-bacteria/": "Red Substance in Tub, Toilet is Bacteria (NDSU Extension)",
+    "https://www.gwinnettcounty.com/government/departments/water/what-we-do/drinking-water/quality/facts-serratia-marcescens": "Facts About Serratia marcescens (Gwinnett County Water)",
+    "https://mcgill.ca/oss/article/health-you-asked/what-pink-deposit-sometimes-seen-toilets-and-around-sinks-and-bathtubs": "What is the pink deposit that is sometimes seen in toilets and around sinks and bathtubs? (McGill Office for Science and Society)",
+    "https://www.epa.gov/mold/mold-cleanup-your-home": "Mold Cleanup in Your Home (US EPA)",
+    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home": "A Brief Guide to Mold, Moisture and Your Home (US EPA)",
+    "https://basc.pnnl.gov/resource-guides/bathroom-exhaust-fans": "Bathroom Exhaust Fans (Building America Solution Center, PNNL)",
+    "https://hvi.org/resources/publications/bathroom-ventilation/": "Bathroom Ventilation (Home Ventilating Institute)"
+  }
+}

@@ -1207,7 +1207,9 @@ topics:
   pinterest_pin_design: 2
 - title: Why Does My Shower Grout Turn Pink or Black Again a Week After Cleaning?
   pillar: cleaning-organization
-  status: pending
+  status: published
+  published_slug: shower-grout-pink-black-comes-back
+  written_by: claude-code
 - title: 'DIY Home Energy Audit: A Room-by-Room Walkthrough to Find Where Your Money Goes'
   pillar: energy-savings
   status: published

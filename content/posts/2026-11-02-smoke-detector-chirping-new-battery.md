@@ -103,7 +103,7 @@ Sealed 10-year alarms run on a nonreplaceable lithium-ion battery, and USFA says
 
 ## Keep it from happening at 3 a.m. again
 
-USFA's schedule is simple: test every alarm monthly, replace 9-volt and backup batteries at least once a year, and replace every alarm 10 years from its manufacture date. Write the replacement year on the alarm or in your home records the day you install it. A yearly battery swap fits naturally into [the home maintenance tasks most people forget](https://www.hearth-habit.com/2026/07/10-home-maintenance-tasks-most-people.html).
+USFA's schedule is simple: test every alarm monthly, replace 9-volt and backup batteries at least once a year, and replace every alarm 10 years from its manufacture date. Write the replacement year on the alarm or in your home records the day you install it. A yearly battery swap is easy to fold into whatever once-a-year home maintenance round you already do.
 
 ## Sources
 

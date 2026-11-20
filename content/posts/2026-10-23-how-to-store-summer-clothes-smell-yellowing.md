@@ -40,7 +40,7 @@ Clothes moths are the bigger risk for wool. Utah State University Extension says
 
 The Canadian Conservation Institute (CCI), part of the Government of Canada, says textiles should be clean *and dry* before storage. Excess humidity leads to mold and mildew. Give thick items extra time on a drying rack before they go in.
 
-If your laundry already smells sour coming out of the washer, fix that before you pack. Our guide to [laundry that smells musty after a full wash](https://www.hearth-habit.com/2026/09/why-does-my-laundry-still-smell-musty.html) walks through the washer-side causes.
+If your laundry already smells sour coming out of the washer, fix that before you pack. Our [room-by-room guide to finding a musty smell](https://www.hearth-habit.com/2026/09/musty-smell-in-house-how-to-find-source.html) covers the washer-side causes, starting with the door gasket and detergent drawer.
 
 ## Step 3: Pick the room before the box
 
@@ -56,7 +56,7 @@ That leaves a closet or shelf in the lived-in part of the house, as long as it s
 - EPA's ideal: 30–50%
 - Overlap: the higher of the two lower limits (40%) to the lower of the two upper limits (50%) = **40–50% relative humidity**
 
-A humidity gauge on the closet shelf tells you whether you're in that band. If the closet already smells musty, see [why a closet smells musty even when everything looks clean](https://www.hearth-habit.com/2026/09/why-does-my-closet-smell-musty-even.html) before you load it up.
+A humidity gauge on the closet shelf tells you whether you're in that band. If the closet already smells musty, find and dry the damp surface before you load it up.
 
 ![Diagram matching four storage problems to their fixes: hidden residue, moisture sealed in, acid from wood, and silverfish drawn to starch](/images/how-to-store-summer-clothes-smell-yellowing-inline.svg)
 

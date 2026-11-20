@@ -6,8 +6,11 @@ description: "Hard brown sugar has dried out and is still usable. Which fixes re
 tags:
 - food storage and leftovers
 pillar: kitchen-habits
-hero_image: /images/why-brown-sugar-turns-hard-hero.svg
-hero_alt: Flat illustration of a brown sugar canister with a lid, a measuring cup, and a slice of bread on a kitchen counter
+hero_image: /images/why-brown-sugar-turns-hard-hero.jpg
+hero_alt: "Two piles of light brown sugar and one pile of dark brown sugar on a white plate"
+hero_credit: "Photo: Moe Rubenzahl via Wikimedia Commons (CC BY-SA 4.0)"
+hero_credit_url: "https://commons.wikimedia.org/wiki/File:Brown_sugar_examples.JPG"
+hero_license_url: "https://creativecommons.org/licenses/by-sa/4.0"
 pin_hooks:
 - Hard Brown Sugar? Pick the Fix That Won't Re-Harden
 - How Much Water to Knead Into Hard Brown Sugar
@@ -94,7 +97,7 @@ Two things that seem helpful aren't:
 
 If you live somewhere very dry or will keep the sugar a long time, Domino suggests the freezer. Thaw it for two to three hours before using. If ice crystals formed during long storage, stir the sugar gently as soon as it thaws so pockets of moisture don't cause damage.
 
-Not every pantry staple wants a sealed container, though. Onions and garlic need the opposite, as [why onion and garlic storage keeps sprouting indoors](https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html) explains.
+Not every pantry staple wants a sealed container, though. Onions and garlic need the opposite: a dry, dark spot with air moving around them.
 
 ## If it's white sugar or powdered sugar that went lumpy
 

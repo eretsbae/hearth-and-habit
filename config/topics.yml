@@ -577,6 +577,8 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/08/what-happens-if-you-put-cast-iron-in.html
   blogger_post_id: '2800411118827623395'
   pinterest_pin_id: manual
+  pinterest_refresh_pin_id: '1132796112564403302'
+  pinterest_pin_design: 2
 - title: Why Does My Fridge Have a Smell I Can't Find the Source Of?
   pillar: kitchen-habits
   status: published
@@ -887,6 +889,8 @@ topics:
     title: Why Does My Smoke Detector Chirp Even With a New Battery Installed?
     kind: archive
     deleted: '2026-11-09'
+  pinterest_refresh_pin_id: '1132796112564403299'
+  pinterest_pin_design: 2
 - title: Why Do My Kitchen Drawers Always End Up as Junk Drawers Again?
   pillar: cleaning-organization
   status: drafted
@@ -1212,6 +1216,8 @@ topics:
   written_by: claude-code
   blogger_url: https://www.hearth-habit.com/2026/11/why-does-my-shower-grout-turn-pink-or.html
   blogger_post_id: '4814258490237114798'
+  pinterest_pin_id: '1132796112564403295'
+  pinterest_pin_design: 2
 - title: 'DIY Home Energy Audit: A Room-by-Room Walkthrough to Find Where Your Money Goes'
   pillar: energy-savings
   status: published

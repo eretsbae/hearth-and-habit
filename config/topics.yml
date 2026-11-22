@@ -443,6 +443,8 @@ topics:
   blogger_post_id: '1850391199733675021'
   pinterest_pin_id: manual
   pinterest_batch: pins09
+  pinterest_refresh_pin_id: '1132796112564484341'
+  pinterest_pin_design: 2
 - title: Does Turning the AC Off While You're at Work Actually Save Money?
   pillar: energy-savings
   status: published
@@ -463,6 +465,8 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/08/why-did-my-electric-bill-double-with-no.html
   blogger_post_id: '8431706365230902095'
   pinterest_pin_id: manual
+  pinterest_refresh_pin_id: '1132796112564484339'
+  pinterest_pin_design: 2
 - title: Is It Cheaper to Hold One Thermostat Setting All Day or Adjust It?
   pillar: energy-savings
   status: retired
@@ -569,6 +573,8 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/08/is-it-safe-to-refreeze-meat-that-thawed.html
   blogger_post_id: '1685997837434237533'
   pinterest_pin_id: manual
+  pinterest_refresh_pin_id: '1132796112564484338'
+  pinterest_pin_design: 2
 - title: What Actually Happens If You Put Cast Iron in the Dishwasher Once?
   pillar: kitchen-habits
   status: published

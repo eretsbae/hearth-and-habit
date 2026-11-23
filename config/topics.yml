@@ -1152,11 +1152,13 @@ topics:
   pinterest_pin_design: 2
 - title: Why Does Moss Keep Taking Over the Shady Part of My Lawn?
   pillar: yard-outdoor
-  status: pending
+  status: published
   season_months:
   - 4
   - 5
   - 9
+  published_slug: moss-taking-over-shady-lawn
+  written_by: claude-code
 - title: Is It Cheaper to Run a Dehumidifier or Just Use the AC in a Humid Basement?
   pillar: energy-savings
   status: pending
@@ -1280,3 +1282,58 @@ topics:
   pinterest_pin_id: '1132796112563099273'
   pinterest_refresh_pin_id: '1132796112563181060'
   pinterest_pin_design: 2
+- title: Why Does My Garage Floor Get Wet and Sweaty on Warm Winter Days?
+  pillar: home-maintenance
+  status: pending
+  season_months:
+  - 1
+  - 2
+  - 3
+- title: Why Do My Windows Fog Up on the Inside Every Winter Morning?
+  pillar: home-maintenance
+  status: pending
+  season_months:
+  - 12
+  - 1
+  - 2
+- title: How Cold Can It Get Before Ice Dams Start Forming on My Roof?
+  pillar: home-maintenance
+  status: pending
+  season_months:
+  - 12
+  - 1
+- title: Why Does My Bathroom Exhaust Fan Leave the Mirror Fogged Anyway?
+  pillar: cleaning-organization
+  status: pending
+- title: How Often Should You Actually Clean the Dryer Vent, Not Just the Lint Trap?
+  pillar: cleaning-organization
+  status: pending
+- title: Is It Cheaper to Run a Heated Mattress Pad or Turn Up the Thermostat at Night?
+  pillar: energy-savings
+  status: pending
+  season_months:
+  - 11
+  - 12
+  - 1
+- title: How Much Do Holiday Lights Actually Add to the Electric Bill?
+  pillar: energy-savings
+  status: pending
+  season_months:
+  - 11
+  - 12
+- title: How Long Can Cooked Food Stay in a Cooler When the Power Goes Out?
+  pillar: kitchen-habits
+  status: pending
+- title: Is It Safe to Use Rock Salt Near the Lawn and Garden Beds?
+  pillar: yard-outdoor
+  status: pending
+  season_months:
+  - 11
+  - 12
+  - 1
+- title: Why Does My Lawn Have Brown Circles After the Snow Melts?
+  pillar: yard-outdoor
+  status: pending
+  season_months:
+  - 3
+  - 4

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+  <text x="600" y="80" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="38" fill="#2E2A24">Mossy shade? Count full-sun hours</text>
+  <rect x="450" y="120" width="300" height="90" rx="16" fill="#D9A441"/>
+  <text x="600" y="176" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#2E2A24">Sun hours per day</text>
+  <path d="M520 210 L230 330" stroke="#2E2A24" stroke-width="4" fill="none"/>
+  <path d="M600 210 L600 330" stroke="#2E2A24" stroke-width="4" fill="none"/>
+  <path d="M680 210 L970 330" stroke="#2E2A24" stroke-width="4" fill="none"/>
+  <polygon points="230,330 246,310 252,326" fill="#2E2A24"/>
+  <polygon points="600,334 590,314 610,314" fill="#2E2A24"/>
+  <polygon points="970,330 948,326 954,310" fill="#2E2A24"/>
+  <rect x="60" y="340" width="340" height="230" rx="16" fill="#B85C38"/>
+  <text x="230" y="395" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#F6EFE6">Under 4 hours</text>
+  <text x="230" y="460" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#F6EFE6">More light, or</text>
+  <text x="230" y="500" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#F6EFE6">groundcover or mulch</text>
+  <rect x="430" y="340" width="340" height="230" rx="16" fill="#E4C7B2"/>
+  <text x="600" y="395" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#2E2A24">4 to under 6</text>
+  <text x="600" y="460" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24">Shade-tolerant grass,</text>
+  <text x="600" y="500" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24">mow high, feed less</text>
+  <rect x="800" y="340" width="340" height="230" rx="16" fill="#5C6E58"/>
+  <text x="970" y="395" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="32" fill="#F6EFE6">6 hours or more</text>
+  <text x="970" y="460" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#F6EFE6">Check compaction,</text>
+  <text x="970" y="500" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#F6EFE6">drainage, soil test</text>
+</svg>

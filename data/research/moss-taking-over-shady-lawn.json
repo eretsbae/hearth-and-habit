@@ -1,0 +1,122 @@
+{
+  "reader_situation": "A homeowner keeps killing or raking out moss under trees or on the north side of the house, reseeds, and watches the moss return within a season. They want to know why it keeps winning and whether lime, moss killer, or new seed will finally fix it.",
+  "direct_answer": "Moss keeps returning because the shady spot is a better place for moss than for grass: too little sun (Clemson says under four hours of full sun a day is too shady for lawn grasses), often with compacted, damp, or infertile soil. Moss fills in where grass thins rather than pushing out healthy turf, so killers and lime alone don't last; you either change the light and soil or replace the grass with a shade groundcover or mulch.",
+  "consensus": [
+    "Moss is a symptom of shade, compaction, poor drainage, low fertility, or acidic soil",
+    "Iron sulfate (ferrous sulfate) products kill moss",
+    "Rake out dead moss, then reseed",
+    "Test the soil before liming",
+    "Prune trees to let in more light"
+  ],
+  "gaps": [
+    "Moss does not invade vigorous turf; it develops as grass thins in conditions that favor moss (Wisconsin Extension), so killing moss without fixing why the grass thinned guarantees a repeat",
+    "Lime does not kill moss; it only helps grass if the soil test shows acidity (UAF, Clemson), Wisconsin calls lime usually not effective and warns against routine liming without a test",
+    "Moss killers are temporary: Clemson says any solution attempted will only be temporary, Wisconsin calls the effects short-lived, OSU says moss returns unless conditions change",
+    "There is a light threshold: Clemson says under four hours of full sun per day is too shady for grasses; southern warm-season grasses such as centipede need 6 to 8 hours",
+    "Shade turf needs different care: mow about 3 inches high (Wisconsin 2024) or 3 to 4 inches (Wisconsin 2010), and use less nitrogen, about 1/2 lb per 1,000 sq ft (Wisconsin)",
+    "Moss killers made for roofs will kill or damage grass (UAF); iron stains concrete and painted surfaces (UAF)",
+    "Clemson's iron sulfate rate is 5 oz in 4 gallons of water per 1,000 sq ft, applied December through April when moss is actively growing, with 24 rain-free hours after application",
+    "When grass will not grow, extension services recommend shade groundcovers, mulch out to the tree dripline, or keeping the moss as a groundcover"
+  ],
+  "evidence": [
+    {
+      "claim": "Conditions that favor moss over grass",
+      "detail": "The conditions that favor mosses over grass include excessive shade, acidic soil, poor drainage, compacted soil, excessive irrigation, low soil fertility; Once the moss is dead, remove it by raking; recommendations are written for South Carolina",
+      "source_url": "https://hgic.clemson.edu/factsheet/moss-algae-control-in-lawns/",
+      "source_title": "Moss & Algae Control in Lawns (Clemson HGIC)"
+    },
+    {
+      "claim": "Light threshold for lawn grasses",
+      "detail": "an area receiving less than four hours of full sunlight per day is too shady for grasses",
+      "source_url": "https://hgic.clemson.edu/factsheet/moss-algae-control-in-lawns/",
+      "source_title": "Moss & Algae Control in Lawns (Clemson HGIC)"
+    },
+    {
+      "claim": "Preferred pH and lime does not kill moss",
+      "detail": "most lawn grasses prefer a pH of 6.0 to 6.5; Centipede prefers 5.5 to 6.0; raise pH with pelletized dolomitic limestone if below recommended; The higher soil pH will not kill the moss but will favor the growth of the grass",
+      "source_url": "https://hgic.clemson.edu/factsheet/moss-algae-control-in-lawns/",
+      "source_title": "Moss & Algae Control in Lawns (Clemson HGIC)"
+    },
+    {
+      "claim": "Iron sulfate rate, timing, and limits",
+      "detail": "copper sulfate or ferrous sulfate mixed at the rate of 5 ounces in 4 gallons of water sprayed over 1000 square feet; during winter through early spring (December through April) when moss is actively growing, temperatures are cool, and the lawn soil is moist; need a 24-hour rain-free period after application; any solution that is attempted will only be temporary; copper sulfate may be toxic to grass seedlings before reseeding",
+      "source_url": "https://hgic.clemson.edu/factsheet/moss-algae-control-in-lawns/",
+      "source_title": "Moss & Algae Control in Lawns (Clemson HGIC)"
+    },
+    {
+      "claim": "Cultural fixes and alternatives",
+      "detail": "Core aeration helps alleviate compaction, for some lawns repeated annually; prune lower limbs of shrubs and trees to allow more light; plant a more shade-tolerant grass; plant a shade-tolerant groundcover rather than grass; enjoy the moss as a low-maintenance groundcover; mow shade grass at the top of its recommended height range",
+      "source_url": "https://hgic.clemson.edu/factsheet/moss-algae-control-in-lawns/",
+      "source_title": "Moss & Algae Control in Lawns (Clemson HGIC)"
+    },
+    {
+      "claim": "Southern warm-season grasses need more sun; mulch and groundcover options",
+      "detail": "Most southern warm-season turfgrasses, such as centipedegrass, need 6 to 8 hours of full sun to perform well; remove some lower tree branches (but NOT by topping); cover the ground with mulch (pine straw, hardwood mulch or pine bark nuggets) out to the tree dripline; shade groundcovers liriope, mondograss, hardy ferns",
+      "source_url": "https://hgic.clemson.edu/moss-is-not-the-boss/",
+      "source_title": "Moss is Not the Boss (Clemson HGIC)"
+    },
+    {
+      "claim": "Moss fills thinning turf rather than invading it",
+      "detail": "moss does not invade vigorous turf. Instead, it develops as turfgrasses thin out, but growing conditions are favorable for moss; shade locations typically see the most moss as lawn grasses, even shade tolerant species, do not thrive in shade; lawn grasses, even shade tolerant species, do not thrive in shade, but moss does; some selective tree pruning may allow more light to reach the soil; Increasing air circulation over dense shade areas can also be helpful",
+      "source_url": "https://hort.extension.wisc.edu/managing-moss-problems-in-lawns/",
+      "source_title": "Managing Moss Problems in Lawns (UW-Madison Extension)"
+    },
+    {
+      "claim": "Soil test before liming; shade lawn care",
+      "detail": "Do not assume moss is always growing on acidic soil; use a soil test; routine limestone applications are not suggested without determining if acidic soil is present; reseed next spring with a shade mix containing fine fescues (creeping red, chewings, hard fescues); mow shade lawns about 3 inches high; shade lawns need lower nutrient amounts, especially nitrogen; selective tree pruning; replacing grass with shade tolerant ground covers",
+      "source_url": "https://hort.extension.wisc.edu/managing-moss-problems-in-lawns/",
+      "source_title": "Managing Moss Problems in Lawns (UW-Madison Extension)"
+    },
+    {
+      "claim": "Moss killer effects are short-lived; lime usually ineffective; shade mowing and nitrogen",
+      "detail": "products usually contain iron sulfate; The effects of these products are short-lived though, and long-term control requires changing the environment; Lime is usually not effective; Cut turf in shaded sites to between three and four inches; use a lower rate of nitrogen on shaded turf (about 1/2 lb nitrogen per 1000 square feet); fine fescue, rough bluegrass, or supina bluegrass for shade",
+      "source_url": "https://hort.extension.wisc.edu/articles/moss-lawn/",
+      "source_title": "Moss in Lawn (Wisconsin Horticulture)"
+    },
+    {
+      "claim": "Moss returns unless the environment changes; shade fix is thinning trees",
+      "detail": "There's a misconception that once moss is killed, it won't come back. But it will if you don't change the environment; The only lasting solution for shade-related moss is to thin or remove trees; sulfate products work best spot-applied as soon as moss appears; test soil before applying lime; aeration usually needed only in high-traffic areas; Once sunlight reaches the lawn, turfgrass can compete again",
+      "source_url": "https://extension.oregonstate.edu/news/if-you-mind-moss-get-board-preventative-measures",
+      "source_title": "How to manage moss in Oregon lawns (Oregon State University Extension)"
+    },
+    {
+      "claim": "Iron rate, staining, roof products, and reseeding rate",
+      "detail": "Apply the iron at a rate of 0.5 to 1.5 pounds of iron per 1,000 square feet; Iron will stain concrete and painted surfaces; Most moss killers made for roofs will kill or damage grass; Lime will not kill moss; wait a few weeks then overseed at 1 to 1.5 pounds per 1,000 square feet; red fescue is shade tolerant; deeply shaded areas can become a rock and fern garden; moss grows in lawns that have excessive surface moisture, low fertility, poor drainage, extremely acid soil, too much shade or compacted soils; Deeply shaded mossy areas where grass simply will not grow can be developed into a rock and fern garden; make the best use of these damp, cool spots",
+      "source_url": "https://www.uaf.edu/ces/publications/database/gardening/moss-control-lawns.php",
+      "source_title": "Moss Control in Lawns (University of Alaska Fairbanks Cooperative Extension)"
+    },
+    {
+      "claim": "Raking is temporary; drainage fixes",
+      "detail": "Moss can be temporarily removed by raking, which may be necessary every few weeks or so, especially if conditions for healthy turf are not able to be resolved; filling depressions, redirecting downspouts and installing tile are possible drainage solutions; removal of excess growth on overhanging shade trees; shade-tolerant ground covers: lily of the valley, bishop's goutweed, Japanese spurge, lamium and lady's mantle",
+      "source_url": "https://water.unl.edu/article/lawns-gardens-landscapes/moss-lawns-and-landscapes/",
+      "source_title": "Moss in Lawns and Landscapes (Nebraska Extension)"
+    }
+  ],
+  "real_questions": [
+    "Will lime get rid of moss?",
+    "I killed the moss and reseeded, why is it back?",
+    "Can I use roof moss killer on the lawn?",
+    "How much sun does grass need under a tree?",
+    "Should I just give up and let the moss grow?"
+  ],
+  "original_asset": {
+    "type": "decision_table",
+    "spec": "Sun-hours decision table (under 4 hours, 4 to 6, 6 to 8+) built from Clemson's four-hour floor and 6-8 hour warm-season figure, plus a worked iron sulfate mixing example scaling Clemson's 5 oz / 4 gal / 1,000 sq ft rate to a 250 sq ft patch."
+  },
+  "cautions": [
+    "Follow the product label over any extension rate",
+    "Iron stains concrete and painted surfaces",
+    "Roof moss killers damage grass",
+    "Copper sulfate may harm grass seedlings; do not use it right before reseeding",
+    "Do not top trees; lime only on a soil test result"
+  ],
+  "sources": {
+    "https://hgic.clemson.edu/factsheet/moss-algae-control-in-lawns/": "Moss & Algae Control in Lawns (Clemson HGIC)",
+    "https://hgic.clemson.edu/moss-is-not-the-boss/": "Moss is Not the Boss (Clemson HGIC)",
+    "https://hort.extension.wisc.edu/managing-moss-problems-in-lawns/": "Managing Moss Problems in Lawns (UW-Madison Extension)",
+    "https://hort.extension.wisc.edu/articles/moss-lawn/": "Moss in Lawn (Wisconsin Horticulture)",
+    "https://extension.oregonstate.edu/news/if-you-mind-moss-get-board-preventative-measures": "How to manage moss in Oregon lawns (Oregon State University Extension)",
+    "https://www.uaf.edu/ces/publications/database/gardening/moss-control-lawns.php": "Moss Control in Lawns (University of Alaska Fairbanks Cooperative Extension)",
+    "https://water.unl.edu/article/lawns-gardens-landscapes/moss-lawns-and-landscapes/": "Moss in Lawns and Landscapes (Nebraska Extension)"
+  }
+}

@@ -1,13 +1,13 @@
 {
  "site": "sc-domain:hearth-habit.com",
- "start": "2026-10-17",
- "end": "2026-11-13",
+ "start": "2026-10-24",
+ "end": "2026-11-20",
  "total": [
   {
-   "clicks": 3,
-   "impressions": 496,
-   "ctr": 0.006048387096774193,
-   "position": 27.590725806451612
+   "clicks": 4,
+   "impressions": 599,
+   "ctr": 0.00667779632721202,
+   "position": 13.559265442404007
   }
  ],
  "query": [
@@ -16,81 +16,18 @@
     "running toilet"
    ],
    "clicks": 0,
-   "impressions": 35,
+   "impressions": 12,
    "ctr": 0,
-   "position": 88.57142857142857
+   "position": 94.33333333333333
   },
   {
    "keys": [
     "what temperature do pipes freeze"
    ],
    "clicks": 0,
-   "impressions": 12,
+   "impressions": 6,
    "ctr": 0,
-   "position": 73.25
-  },
-  {
-   "keys": [
-    "musty smell in house"
-   ],
-   "clicks": 0,
-   "impressions": 8,
-   "ctr": 0,
-   "position": 83
-  },
-  {
-   "keys": [
-    "at what temperature do pipes freeze"
-   ],
-   "clicks": 0,
-   "impressions": 4,
-   "ctr": 0,
-   "position": 61.75
-  },
-  {
-   "keys": [
-    "what temp do pipes freeze"
-   ],
-   "clicks": 0,
-   "impressions": 4,
-   "ctr": 0,
-   "position": 87.5
-  },
-  {
-   "keys": [
-    "at what temperature can pipes freeze"
-   ],
-   "clicks": 0,
-   "impressions": 3,
-   "ctr": 0,
-   "position": 83.66666666666667
-  },
-  {
-   "keys": [
-    "at what temperature does the pipes freeze"
-   ],
-   "clicks": 0,
-   "impressions": 3,
-   "ctr": 0,
-   "position": 90
-  },
-  {
-   "keys": [
-    "at what temperature would pipes freeze"
-   ],
-   "clicks": 0,
-   "impressions": 3,
-   "ctr": 0,
-   "position": 91.66666666666667
-  },
-  {
-   "keys": [
-    "heat dry vs air dry dishwasher"
-   ],
-   "clicks": 0,
-   "impressions": 3,
-   "ctr": 0,
-   "position": 63.333333333333336
+   "position": 72.5
   },
   {
    "keys": [
@@ -100,42 +37,6 @@
    "impressions": 3,
    "ctr": 0,
    "position": 98.33333333333333
-  },
-  {
-   "keys": [
-    "what is pipe freezing temperature"
-   ],
-   "clicks": 0,
-   "impressions": 3,
-   "ctr": 0,
-   "position": 55.666666666666664
-  },
-  {
-   "keys": [
-    "what temp would pipes freeze"
-   ],
-   "clicks": 0,
-   "impressions": 3,
-   "ctr": 0,
-   "position": 85.33333333333333
-  },
-  {
-   "keys": [
-    "damp smell in house"
-   ],
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 97
-  },
-  {
-   "keys": [
-    "is mowing leaves good for your lawn"
-   ],
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 68.5
   },
   {
    "keys": [
@@ -157,39 +58,21 @@
   },
   {
    "keys": [
-    "running toilet repair"
-   ],
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 76.5
-  },
-  {
-   "keys": [
-    "when does water freeze in pipes"
-   ],
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 78
-  },
-  {
-   "keys": [
-    "at what outside temp do pipes freeze"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 95
-  },
-  {
-   "keys": [
     "at what temp does pipes freeze"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
    "position": 92
+  },
+  {
+   "keys": [
+    "at what temperature do pipes freeze"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 86
   },
   {
    "keys": [
@@ -202,12 +85,21 @@
   },
   {
    "keys": [
-    "can you leave leaves on grass over winter"
+    "at what temperature does the pipes freeze"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 45
+   "position": 95
+  },
+  {
+   "keys": [
+    "at what temperature would pipes freeze"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 93
   },
   {
    "keys": [
@@ -220,48 +112,12 @@
   },
   {
    "keys": [
-    "how cold does it have to be to freeze pipes"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 48
-  },
-  {
-   "keys": [
-    "how to find a smell in a room"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 44
-  },
-  {
-   "keys": [
     "how to fix a running toilet without a flapper"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
    "position": 98
-  },
-  {
-   "keys": [
-    "humidity smell in house"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 94
-  },
-  {
-   "keys": [
-    "is it better to rake or mow leaves"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 54
   },
   {
    "keys": [
@@ -274,30 +130,12 @@
   },
   {
    "keys": [
-    "leaving leaves on grass over winter"
+    "is mowing leaves good for your lawn"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 44
-  },
-  {
-   "keys": [
-    "merv 13 filter replacement frequency"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 78
-  },
-  {
-   "keys": [
-    "mowing over leaves instead of raking"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 53
+   "position": 68
   },
   {
    "keys": [
@@ -310,6 +148,15 @@
   },
   {
    "keys": [
+    "musty smell in house"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 95
+  },
+  {
+   "keys": [
     "pipe freeze temperature"
    ],
    "clicks": 0,
@@ -319,39 +166,12 @@
   },
   {
    "keys": [
-    "pipe freezing temp"
+    "running toilet repair"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 53
-  },
-  {
-   "keys": [
-    "pipes freezing temperature"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 48
-  },
-  {
-   "keys": [
-    "repair running toilets"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 66
-  },
-  {
-   "keys": [
-    "should i leave outside taps open in winter"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 34
+   "position": 78
   },
   {
    "keys": [
@@ -364,39 +184,30 @@
   },
   {
    "keys": [
-    "should you leave leaves on your lawn over winter"
+    "what is pipe freezing temperature"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 46
+   "position": 33
   },
   {
    "keys": [
-    "should you leave outside taps open in winter"
+    "what temp do pipes freeze"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 35
+   "position": 92
   },
   {
    "keys": [
-    "what happens if you don t rake leaves before winter"
+    "what temp would pipes freeze"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 96
-  },
-  {
-   "keys": [
-    "what is freezing temperature for pipes"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 84
+   "position": 86
   },
   {
    "keys": [
@@ -427,30 +238,12 @@
   },
   {
    "keys": [
-    "when do pipes in a house freeze"
+    "when does water freeze in pipes"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 93
-  },
-  {
-   "keys": [
-    "why is my water bill so high in winter"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 74
-  },
-  {
-   "keys": [
-    "why rake leaves off lawn"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 61
+   "position": 81
   }
  ],
  "page": [
@@ -458,118 +251,109 @@
    "keys": [
     "https://www.hearth-habit.com/2026/10/should-you-shut-off-outdoor-faucet-from.html"
    ],
-   "clicks": 2,
-   "impressions": 94,
-   "ctr": 0.02127659574468085,
-   "position": 8.904255319148936
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html"
-   ],
-   "clicks": 0,
-   "impressions": 61,
-   "ctr": 0,
-   "position": 74.49180327868852
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/is-it-cheaper-to-preheat-oven-or-skip.html"
-   ],
-   "clicks": 0,
-   "impressions": 56,
-   "ctr": 0,
-   "position": 7.178571428571429
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/07/how-to-fix-running-toilet-in-15-minutes.html"
-   ],
-   "clicks": 0,
-   "impressions": 44,
-   "ctr": 0,
-   "position": 86.22727272727273
+   "clicks": 1,
+   "impressions": 229,
+   "ctr": 0.004366812227074236,
+   "position": 6.851528384279476
   },
   {
    "keys": [
     "https://www.hearth-habit.com/2026/07/why-bread-goes-moldy-faster-in-summer.html"
    ],
    "clicks": 0,
-   "impressions": 41,
+   "impressions": 51,
    "ctr": 0,
-   "position": 8.146341463414634
+   "position": 7.686274509803922
   },
   {
    "keys": [
-    "https://www.hearth-habit.com/2026/10/how-long-can-party-food-sit-on-buffet.html"
+    "https://www.hearth-habit.com/2026/09/is-it-cheaper-to-preheat-oven-or-skip.html"
    ],
-   "clicks": 0,
-   "impressions": 24,
-   "ctr": 0,
-   "position": 9.666666666666666
+   "clicks": 1,
+   "impressions": 50,
+   "ctr": 0.02,
+   "position": 6.82
   },
   {
    "keys": [
     "https://www.hearth-habit.com/2026/11/fridge-and-freezer-storage-chart-how.html"
    ],
    "clicks": 0,
-   "impressions": 20,
+   "impressions": 38,
    "ctr": 0,
-   "position": 5.95
+   "position": 6
   },
   {
    "keys": [
-    "https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html"
+    "https://www.hearth-habit.com/2026/10/how-long-can-party-food-sit-on-buffet.html"
+   ],
+   "clicks": 0,
+   "impressions": 33,
+   "ctr": 0,
+   "position": 8.151515151515152
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html"
+   ],
+   "clicks": 0,
+   "impressions": 25,
+   "ctr": 0,
+   "position": 76.48
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/2026/07/how-to-fix-running-toilet-in-15-minutes.html"
    ],
    "clicks": 0,
    "impressions": 19,
    "ctr": 0,
-   "position": 49.89473684210526
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/air-dry-or-heated-dry-which-one.html"
-   ],
-   "clicks": 0,
-   "impressions": 17,
-   "ctr": 0,
-   "position": 19.823529411764707
+   "position": 88.6842105263158
   },
   {
    "keys": [
     "https://www.hearth-habit.com/2026/08/why-did-my-electric-bill-double-with-no.html"
    ],
    "clicks": 0,
-   "impressions": 15,
+   "impressions": 17,
    "ctr": 0,
-   "position": 7
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/musty-smell-in-house-how-to-find-source.html"
-   ],
-   "clicks": 0,
-   "impressions": 14,
-   "ctr": 0,
-   "position": 82.21428571428571
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html"
-   ],
-   "clicks": 0,
-   "impressions": 11,
-   "ctr": 0,
-   "position": 6.454545454545454
+   "position": 7.294117647058823
   },
   {
    "keys": [
     "https://www.hearth-habit.com/2026/08/furnace-filter-turns-gray-in-two-weeks.html"
    ],
    "clicks": 1,
+   "impressions": 13,
+   "ctr": 0.07692307692307693,
+   "position": 4.3076923076923075
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/2026/09/air-dry-or-heated-dry-which-one.html"
+   ],
+   "clicks": 0,
+   "impressions": 13,
+   "ctr": 0,
+   "position": 9.923076923076923
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html"
+   ],
+   "clicks": 0,
+   "impressions": 10,
+   "ctr": 0,
+   "position": 42.1
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/p/about-hearth-habit.html"
+   ],
+   "clicks": 1,
    "impressions": 9,
    "ctr": 0.1111111111111111,
-   "position": 3.7777777777777777
+   "position": 3.6666666666666665
   },
   {
    "keys": [
@@ -585,9 +369,27 @@
     "https://www.hearth-habit.com/2026/07/phantom-power-how-much-your-idle.html"
    ],
    "clicks": 0,
-   "impressions": 6,
+   "impressions": 8,
    "ctr": 0,
-   "position": 7.333333333333333
+   "position": 6.625
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html"
+   ],
+   "clicks": 0,
+   "impressions": 8,
+   "ctr": 0,
+   "position": 4.875
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/2026/08/why-does-my-house-get-messy-again-two.html"
+   ],
+   "clicks": 0,
+   "impressions": 7,
+   "ctr": 0,
+   "position": 7.857142857142857
   },
   {
    "keys": [
@@ -596,79 +398,97 @@
    "clicks": 0,
    "impressions": 5,
    "ctr": 0,
-   "position": 6
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/07/does-turning-ac-off-while-youre-at-work.html"
-   ],
-   "clicks": 0,
-   "impressions": 5,
-   "ctr": 0,
-   "position": 8.4
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/08/why-does-my-house-get-messy-again-two.html"
-   ],
-   "clicks": 0,
-   "impressions": 5,
-   "ctr": 0,
-   "position": 7
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/p/about-hearth-habit.html"
-   ],
-   "clicks": 0,
-   "impressions": 5,
-   "ctr": 0,
    "position": 5.8
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/p/contact.html"
-   ],
-   "clicks": 0,
-   "impressions": 5,
-   "ctr": 0,
-   "position": 6
   },
   {
    "keys": [
     "https://www.hearth-habit.com/2026/08/is-it-safe-to-refreeze-meat-that-thawed.html"
    ],
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 5,
    "ctr": 0,
-   "position": 6
+   "position": 5
   },
   {
    "keys": [
-    "https://www.hearth-habit.com/2026/08/what-to-do-with-clothes-you-wore-once.html?m=1"
+    "https://www.hearth-habit.com/2026/07/does-turning-ac-off-while-youre-at-work.html"
    ],
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 4,
    "ctr": 0,
-   "position": 3
+   "position": 8.25
   },
   {
    "keys": [
-    "https://www.hearth-habit.com/2026/09/clutter-keeps-coming-back-match-problem.html"
+    "https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html"
    ],
    "clicks": 0,
-   "impressions": 3,
+   "impressions": 4,
    "ctr": 0,
-   "position": 13
+   "position": 8.5
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 7.25
   },
   {
    "keys": [
     "https://www.hearth-habit.com/2026/09/why-does-my-water-bill-spike-in-winter.html"
    ],
    "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 5.5
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 8.5
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/p/contact.html"
+   ],
+   "clicks": 0,
+   "impressions": 4,
+   "ctr": 0,
+   "position": 4.75
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/2026/08/what-to-do-with-clothes-you-wore-once.html"
+   ],
+   "clicks": 0,
    "impressions": 3,
    "ctr": 0,
-   "position": 31
+   "position": 9
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/2026/08/why-do-my-greens-wilt-two-days-after-i.html"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 9
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/2026/09/musty-smell-in-house-how-to-find-source.html"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 89.66666666666667
   },
   {
    "keys": [
@@ -690,6 +510,24 @@
   },
   {
    "keys": [
+    "https://www.hearth-habit.com/2026/10/why-does-my-freezer-build-up-frost-so.html"
+   ],
+   "clicks": 0,
+   "impressions": 3,
+   "ctr": 0,
+   "position": 10.333333333333334
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html"
+   ],
+   "clicks": 0,
+   "impressions": 2,
+   "ctr": 0,
+   "position": 7.5
+  },
+  {
+   "keys": [
     "https://www.hearth-habit.com/2026/08/does-closing-vents-in-unused-rooms-save.html"
    ],
    "clicks": 0,
@@ -699,39 +537,21 @@
   },
   {
    "keys": [
-    "https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html"
+    "https://www.hearth-habit.com/2026/08/what-happens-if-you-put-cast-iron-in.html"
    ],
    "clicks": 0,
    "impressions": 2,
    "ctr": 0,
-   "position": 9.5
+   "position": 5
   },
   {
    "keys": [
-    "https://www.hearth-habit.com/2026/08/why-do-my-greens-wilt-two-days-after-i.html"
+    "https://www.hearth-habit.com/2026/09/clutter-keeps-coming-back-match-problem.html"
    ],
    "clicks": 0,
    "impressions": 2,
    "ctr": 0,
-   "position": 10
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/is-it-worth-buying-separate-cleaners.html"
-   ],
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 8
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html"
-   ],
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 8
+   "position": 7
   },
   {
    "keys": [
@@ -741,15 +561,6 @@
    "impressions": 2,
    "ctr": 0,
    "position": 5
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/10/why-does-my-freezer-build-up-frost-so.html"
-   ],
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 7.5
   },
   {
    "keys": [
@@ -771,12 +582,12 @@
   },
   {
    "keys": [
-    "https://www.hearth-habit.com/2026/07/10-home-maintenance-tasks-most-people.html?m=1"
+    "https://www.hearth-habit.com/2026/07/cleaning-supplies-you-actually-need-and.html"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 10
+   "position": 11
   },
   {
    "keys": [
@@ -785,16 +596,16 @@
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 78
+   "position": 11
   },
   {
    "keys": [
-    "https://www.hearth-habit.com/2026/07/how-to-cut-your-electric-bill-without.html"
+    "https://www.hearth-habit.com/2026/07/the-15-minute-weekly-home-reset-simple.html"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 44
+   "position": 4
   },
   {
    "keys": [
@@ -807,12 +618,30 @@
   },
   {
    "keys": [
-    "https://www.hearth-habit.com/2026/08/what-to-do-with-clothes-you-wore-once.html"
+    "https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 11
+   "position": 7
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/2026/08/what-to-do-with-clothes-you-wore-once.html?m=1"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 1
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/2026/09/is-it-worth-buying-separate-cleaners.html"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 10
   },
   {
    "keys": [
@@ -822,15 +651,6 @@
    "impressions": 1,
    "ctr": 0,
    "position": 3
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/why-leftover-rice-makes-people-sick.html"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 10
   },
   {
    "keys": [
@@ -876,9 +696,9 @@
     "running toilet"
    ],
    "clicks": 0,
-   "impressions": 35,
+   "impressions": 12,
    "ctr": 0,
-   "position": 88.57142857142857
+   "position": 94.33333333333333
   },
   {
    "keys": [
@@ -886,39 +706,9 @@
     "what temperature do pipes freeze"
    ],
    "clicks": 0,
-   "impressions": 12,
+   "impressions": 6,
    "ctr": 0,
-   "position": 73.25
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/musty-smell-in-house-how-to-find-source.html",
-    "musty smell in house"
-   ],
-   "clicks": 0,
-   "impressions": 8,
-   "ctr": 0,
-   "position": 83
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
-    "at what temperature do pipes freeze"
-   ],
-   "clicks": 0,
-   "impressions": 4,
-   "ctr": 0,
-   "position": 61.75
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
-    "what temp do pipes freeze"
-   ],
-   "clicks": 0,
-   "impressions": 4,
-   "ctr": 0,
-   "position": 87.5
+   "position": 72.5
   },
   {
    "keys": [
@@ -933,102 +723,12 @@
   {
    "keys": [
     "https://www.hearth-habit.com/2026/09/air-dry-or-heated-dry-which-one.html",
-    "heat dry vs air dry dishwasher"
-   ],
-   "clicks": 0,
-   "impressions": 3,
-   "ctr": 0,
-   "position": 63.333333333333336
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
-    "at what temperature can pipes freeze"
-   ],
-   "clicks": 0,
-   "impressions": 3,
-   "ctr": 0,
-   "position": 83.66666666666667
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
-    "at what temperature does the pipes freeze"
-   ],
-   "clicks": 0,
-   "impressions": 3,
-   "ctr": 0,
-   "position": 90
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
-    "at what temperature would pipes freeze"
-   ],
-   "clicks": 0,
-   "impressions": 3,
-   "ctr": 0,
-   "position": 91.66666666666667
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
-    "what is pipe freezing temperature"
-   ],
-   "clicks": 0,
-   "impressions": 3,
-   "ctr": 0,
-   "position": 55.666666666666664
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
-    "what temp would pipes freeze"
-   ],
-   "clicks": 0,
-   "impressions": 3,
-   "ctr": 0,
-   "position": 85.33333333333333
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/07/how-to-fix-running-toilet-in-15-minutes.html",
-    "running toilet repair"
-   ],
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 76.5
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/air-dry-or-heated-dry-which-one.html",
     "portable ac vs dish rack"
    ],
    "clicks": 0,
    "impressions": 2,
    "ctr": 0,
    "position": 13.5
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/musty-smell-in-house-how-to-find-source.html",
-    "damp smell in house"
-   ],
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 97
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html",
-    "is mowing leaves good for your lawn"
-   ],
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 68.5
   },
   {
    "keys": [
@@ -1039,26 +739,6 @@
    "impressions": 2,
    "ctr": 0,
    "position": 89.5
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
-    "when does water freeze in pipes"
-   ],
-   "clicks": 0,
-   "impressions": 2,
-   "ctr": 0,
-   "position": 78
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/07/furnace-filter-basics-how-often-to.html",
-    "merv 13 filter replacement frequency"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 78
   },
   {
    "keys": [
@@ -1073,32 +753,12 @@
   {
    "keys": [
     "https://www.hearth-habit.com/2026/07/how-to-fix-running-toilet-in-15-minutes.html",
-    "repair running toilets"
+    "running toilet repair"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 66
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/musty-smell-in-house-how-to-find-source.html",
-    "how to find a smell in a room"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 44
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/musty-smell-in-house-how-to-find-source.html",
-    "humidity smell in house"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 94
+   "position": 78
   },
   {
    "keys": [
@@ -1112,13 +772,13 @@
   },
   {
    "keys": [
-    "https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html",
-    "can you leave leaves on grass over winter"
+    "https://www.hearth-habit.com/2026/09/musty-smell-in-house-how-to-find-source.html",
+    "musty smell in house"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 45
+   "position": 95
   },
   {
    "keys": [
@@ -1133,16 +793,6 @@
   {
    "keys": [
     "https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html",
-    "is it better to rake or mow leaves"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 54
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html",
     "is it ok to leave leaves on the lawn over winter"
    ],
    "clicks": 0,
@@ -1153,22 +803,12 @@
   {
    "keys": [
     "https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html",
-    "leaving leaves on grass over winter"
+    "is mowing leaves good for your lawn"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 44
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html",
-    "mowing over leaves instead of raking"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 53
+   "position": 68
   },
   {
    "keys": [
@@ -1179,56 +819,6 @@
    "impressions": 1,
    "ctr": 0,
    "position": 75
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html",
-    "should you leave leaves on your lawn over winter"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 46
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html",
-    "what happens if you don t rake leaves before winter"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 96
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html",
-    "why rake leaves off lawn"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 61
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/09/why-does-my-water-bill-spike-in-winter.html",
-    "why is my water bill so high in winter"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 74
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
-    "at what outside temp do pipes freeze"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 95
   },
   {
    "keys": [
@@ -1243,6 +833,16 @@
   {
    "keys": [
     "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
+    "at what temperature do pipes freeze"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 86
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
     "at what temperature do pipes unfreeze"
    ],
    "clicks": 0,
@@ -1253,12 +853,22 @@
   {
    "keys": [
     "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
-    "how cold does it have to be to freeze pipes"
+    "at what temperature does the pipes freeze"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 48
+   "position": 95
+  },
+  {
+   "keys": [
+    "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
+    "at what temperature would pipes freeze"
+   ],
+   "clicks": 0,
+   "impressions": 1,
+   "ctr": 0,
+   "position": 93
   },
   {
    "keys": [
@@ -1273,32 +883,32 @@
   {
    "keys": [
     "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
-    "pipe freezing temp"
+    "what is pipe freezing temperature"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 53
+   "position": 33
   },
   {
    "keys": [
     "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
-    "pipes freezing temperature"
+    "what temp do pipes freeze"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 48
+   "position": 92
   },
   {
    "keys": [
     "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
-    "what is freezing temperature for pipes"
+    "what temp would pipes freeze"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 84
+   "position": 86
   },
   {
    "keys": [
@@ -1333,32 +943,12 @@
   {
    "keys": [
     "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
-    "when do pipes in a house freeze"
+    "when does water freeze in pipes"
    ],
    "clicks": 0,
    "impressions": 1,
    "ctr": 0,
-   "position": 93
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/10/should-you-shut-off-outdoor-faucet-from.html",
-    "should i leave outside taps open in winter"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 34
-  },
-  {
-   "keys": [
-    "https://www.hearth-habit.com/2026/10/should-you-shut-off-outdoor-faucet-from.html",
-    "should you leave outside taps open in winter"
-   ],
-   "clicks": 0,
-   "impressions": 1,
-   "ctr": 0,
-   "position": 35
+   "position": 81
   }
  ]
 }

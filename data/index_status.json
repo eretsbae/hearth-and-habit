@@ -1,5 +1,5 @@
 {
- "date": "2026-11-16",
+ "date": "2026-11-23",
  "posts": [
   {
    "slug": "furnace-filter-basics",
@@ -8,11 +8,11 @@
    "url": "https://www.hearth-habit.com/2026/07/furnace-filter-basics-how-often-to.html",
    "verdict": "PASS",
    "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-13T08:44:09Z",
+   "last_crawl": "2026-11-21T12:02:40Z",
    "google_canonical": "https://www.hearth-habit.com/2026/07/furnace-filter-basics-how-often-to.html",
    "clicks": 0,
-   "impressions": 5,
-   "best_position": 78.4
+   "impressions": 6,
+   "best_position": 67.2
   },
   {
    "slug": "fix-running-toilet-without-plumber",
@@ -50,8 +50,8 @@
    "last_crawl": "2026-10-12T23:42:53Z",
    "google_canonical": "https://www.hearth-habit.com/2026/07/the-15-minute-weekly-home-reset-simple.html",
    "clicks": 0,
-   "impressions": 0,
-   "best_position": null
+   "impressions": 1,
+   "best_position": 4
   },
   {
    "slug": "cleaning-supplies-you-actually-need",
@@ -63,8 +63,8 @@
    "last_crawl": "2026-10-13T15:41:16Z",
    "google_canonical": "https://www.hearth-habit.com/2026/07/cleaning-supplies-you-actually-need-and.html",
    "clicks": 0,
-   "impressions": 0,
-   "best_position": null
+   "impressions": 1,
+   "best_position": 11
   },
   {
    "slug": "cut-electric-bill-no-cost-habits",
@@ -89,8 +89,8 @@
    "last_crawl": "2026-10-31T13:39:13Z",
    "google_canonical": "https://www.hearth-habit.com/2026/07/phantom-power-how-much-your-idle.html",
    "clicks": 0,
-   "impressions": 7,
-   "best_position": 7
+   "impressions": 9,
+   "best_position": 6.4
   },
   {
    "slug": "thermostat-settings-by-season-savings",
@@ -102,8 +102,8 @@
    "last_crawl": "2026-10-13T09:28:47Z",
    "google_canonical": "https://www.hearth-habit.com/2026/07/the-right-thermostat-settings-for-every.html",
    "clicks": 0,
-   "impressions": 0,
-   "best_position": null
+   "impressions": 2,
+   "best_position": 7.5
   },
   {
    "slug": "low-effort-lawn-care-bare-minimum",
@@ -138,7 +138,7 @@
    "url": "https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html",
    "verdict": "PASS",
    "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-13T16:15:57Z",
+   "last_crawl": "2026-11-21T23:23:22Z",
    "google_canonical": "https://www.hearth-habit.com/2026/09/why-is-one-room-in-my-house-always.html",
    "clicks": 0,
    "impressions": 22,
@@ -154,8 +154,8 @@
    "last_crawl": "2026-10-13T09:43:02Z",
    "google_canonical": "https://www.hearth-habit.com/2026/08/furnace-filter-turns-gray-in-two-weeks.html",
    "clicks": 1,
-   "impressions": 11,
-   "best_position": 4.9
+   "impressions": 15,
+   "best_position": 5.1
   },
   {
    "slug": "when-to-call-a-pro-vs-diy-repair",
@@ -180,8 +180,8 @@
    "last_crawl": "2026-11-01T01:52:37Z",
    "google_canonical": "https://www.hearth-habit.com/2026/10/at-what-temperature-do-pipes-freeze.html",
    "clicks": 0,
-   "impressions": 79,
-   "best_position": 75.4
+   "impressions": 80,
+   "best_position": 74.6
   },
   {
    "slug": "why-does-dishwasher-smell-after-running-empty",
@@ -206,7 +206,7 @@
    "last_crawl": "2026-10-24T03:10:52Z",
    "google_canonical": "https://www.hearth-habit.com/2026/08/what-to-do-with-clothes-you-wore-once.html",
    "clicks": 0,
-   "impressions": 13,
+   "impressions": 15,
    "best_position": 6.3
   },
   {
@@ -219,8 +219,8 @@
    "last_crawl": "2026-10-13T06:55:13Z",
    "google_canonical": "https://www.hearth-habit.com/2026/08/why-does-my-house-get-messy-again-two.html",
    "clicks": 0,
-   "impressions": 6,
-   "best_position": 6
+   "impressions": 8,
+   "best_position": 7
   },
   {
    "slug": "separate-cleaners-for-every-surface-worth-it",
@@ -229,7 +229,7 @@
    "url": "https://www.hearth-habit.com/2026/09/is-it-worth-buying-separate-cleaners.html",
    "verdict": "PASS",
    "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-13T22:02:59Z",
+   "last_crawl": "2026-11-20T23:16:08Z",
    "google_canonical": "https://www.hearth-habit.com/2026/09/is-it-worth-buying-separate-cleaners.html",
    "clicks": 0,
    "impressions": 2,
@@ -258,8 +258,8 @@
    "last_crawl": "2026-10-13T21:42:30Z",
    "google_canonical": "https://www.hearth-habit.com/2026/08/why-did-my-electric-bill-double-with-no.html",
    "clicks": 0,
-   "impressions": 16,
-   "best_position": 6.9
+   "impressions": 21,
+   "best_position": 7.2
   },
   {
    "slug": "cost-to-run-space-heater-8-hours",
@@ -284,8 +284,8 @@
    "last_crawl": "2026-10-13T06:41:36Z",
    "google_canonical": "https://www.hearth-habit.com/2026/08/which-appliance-in-your-house-is.html",
    "clicks": 0,
-   "impressions": 7,
-   "best_position": 58
+   "impressions": 9,
+   "best_position": 46.8
   },
   {
    "slug": "why-bread-molds-faster-in-summer",
@@ -297,8 +297,8 @@
    "last_crawl": "2026-10-11T09:50:47Z",
    "google_canonical": "https://www.hearth-habit.com/2026/07/why-bread-goes-moldy-faster-in-summer.html",
    "clicks": 0,
-   "impressions": 45,
-   "best_position": 8.3
+   "impressions": 60,
+   "best_position": 7.8
   },
   {
    "slug": "why-greens-wilt-fast-how-to-store-them",
@@ -310,7 +310,7 @@
    "last_crawl": "2026-10-13T20:12:09Z",
    "google_canonical": "https://www.hearth-habit.com/2026/08/why-do-my-greens-wilt-two-days-after-i.html",
    "clicks": 0,
-   "impressions": 4,
+   "impressions": 5,
    "best_position": 8
   },
   {
@@ -323,8 +323,8 @@
    "last_crawl": "2026-11-02T23:04:07Z",
    "google_canonical": "https://www.hearth-habit.com/2026/08/is-it-safe-to-refreeze-meat-that-thawed.html",
    "clicks": 0,
-   "impressions": 3,
-   "best_position": 6
+   "impressions": 5,
+   "best_position": 5
   },
   {
    "slug": "cast-iron-in-dishwasher-once",
@@ -336,8 +336,8 @@
    "last_crawl": "2026-10-12T23:36:36Z",
    "google_canonical": "https://www.hearth-habit.com/2026/08/what-happens-if-you-put-cast-iron-in.html",
    "clicks": 0,
-   "impressions": 2,
-   "best_position": 76.5
+   "impressions": 4,
+   "best_position": 40.8
   },
   {
    "slug": "fridge-smell-cant-find-source",
@@ -346,11 +346,11 @@
    "url": "https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html",
    "verdict": "PASS",
    "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-09T22:32:21Z",
+   "last_crawl": "2026-11-20T11:34:56Z",
    "google_canonical": "https://www.hearth-habit.com/2026/08/why-does-my-fridge-smell-but-i-cant.html",
    "clicks": 0,
-   "impressions": 11,
-   "best_position": 6.5
+   "impressions": 12,
+   "best_position": 6
   },
   {
    "slug": "how-long-do-leftovers-really-last",
@@ -362,8 +362,8 @@
    "last_crawl": "2026-10-08T22:21:21Z",
    "google_canonical": "https://www.hearth-habit.com/2026/08/how-long-do-leftovers-really-last.html",
    "clicks": 0,
-   "impressions": 0,
-   "best_position": null
+   "impressions": 1,
+   "best_position": 7
   },
   {
    "slug": "how-late-can-you-seed-grass-in-fall",
@@ -414,8 +414,8 @@
    "last_crawl": "2026-11-02T23:22:51Z",
    "google_canonical": "https://www.hearth-habit.com/2026/09/air-dry-or-heated-dry-which-one.html",
    "clicks": 0,
-   "impressions": 17,
-   "best_position": 19.8
+   "impressions": 19,
+   "best_position": 18.9
   },
   {
    "slug": "stop-losing-time-before-leaving-house",
@@ -424,7 +424,7 @@
    "url": "https://www.hearth-habit.com/2026/09/why-you-keep-losing-15-minutes-before.html",
    "verdict": "PASS",
    "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-31T09:46:28Z",
+   "last_crawl": "2026-11-21T19:28:03Z",
    "google_canonical": "https://www.hearth-habit.com/2026/09/why-you-keep-losing-15-minutes-before.html",
    "clicks": 0,
    "impressions": 1,
@@ -457,6 +457,19 @@
    "best_position": 10
   },
   {
+   "slug": "smoke-detector-chirping-new-battery",
+   "title": "Why Does My Smoke Detector Chirp Even With a New Battery Installed?",
+   "pillar": "home-maintenance",
+   "url": "https://www.hearth-habit.com/2026/11/why-does-my-smoke-detector-chirp-even.html",
+   "verdict": "NEUTRAL",
+   "coverage": "URL is unknown to Google",
+   "last_crawl": null,
+   "google_canonical": null,
+   "clicks": 0,
+   "impressions": 0,
+   "best_position": null
+  },
+  {
    "slug": "preheat-oven-or-skip-it-cheaper",
    "title": "Is It Cheaper to Preheat the Oven or Skip It for Weeknight Meals?",
    "pillar": "energy-savings",
@@ -465,9 +478,9 @@
    "coverage": "Submitted and indexed",
    "last_crawl": "2026-09-30T02:48:37Z",
    "google_canonical": "https://www.hearth-habit.com/2026/09/is-it-cheaper-to-preheat-oven-or-skip.html",
-   "clicks": 0,
-   "impressions": 57,
-   "best_position": 7.2
+   "clicks": 1,
+   "impressions": 65,
+   "best_position": 7.1
   },
   {
    "slug": "winter-water-bill-spike-no-extra-usage",
@@ -476,11 +489,11 @@
    "url": "https://www.hearth-habit.com/2026/09/why-does-my-water-bill-spike-in-winter.html",
    "verdict": "PASS",
    "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-15T13:13:43Z",
+   "last_crawl": "2026-11-20T23:54:52Z",
    "google_canonical": "https://www.hearth-habit.com/2026/09/why-does-my-water-bill-spike-in-winter.html",
    "clicks": 0,
-   "impressions": 4,
-   "best_position": 24.5
+   "impressions": 7,
+   "best_position": 16
   },
   {
    "slug": "leftover-rice-food-poisoning-risk",
@@ -518,8 +531,8 @@
    "last_crawl": "2026-10-14T10:25:58Z",
    "google_canonical": "https://www.hearth-habit.com/2026/09/should-you-rake-leaves-or-leave-them-on.html",
    "clicks": 0,
-   "impressions": 22,
-   "best_position": 50.2
+   "impressions": 24,
+   "best_position": 47.6
   },
   {
    "slug": "how-long-frozen-turkey-takes-to-thaw-in-fridge",
@@ -528,8 +541,21 @@
    "url": "https://www.hearth-habit.com/2026/10/how-long-does-frozen-turkey-take-to.html",
    "verdict": "PASS",
    "coverage": "Submitted and indexed",
-   "last_crawl": "2026-10-08T03:51:25Z",
+   "last_crawl": "2026-11-20T01:45:11Z",
    "google_canonical": "https://www.hearth-habit.com/2026/10/how-long-does-frozen-turkey-take-to.html",
+   "clicks": 0,
+   "impressions": 0,
+   "best_position": null
+  },
+  {
+   "slug": "how-to-store-summer-clothes-smell-yellowing",
+   "title": "How Do You Store Summer Clothes So They Don't Smell or Yellow by Spring?",
+   "pillar": "cleaning-organization",
+   "url": "https://www.hearth-habit.com/2026/10/how-do-you-store-summer-clothes-so-they.html",
+   "verdict": "PASS",
+   "coverage": "Submitted and indexed",
+   "last_crawl": "2026-10-23T21:27:27Z",
+   "google_canonical": "https://www.hearth-habit.com/2026/10/how-do-you-store-summer-clothes-so-they.html",
    "clicks": 0,
    "impressions": 0,
    "best_position": null
@@ -544,8 +570,8 @@
    "last_crawl": "2026-10-13T21:22:25Z",
    "google_canonical": "https://www.hearth-habit.com/2026/09/musty-smell-in-house-how-to-find-source.html",
    "clicks": 0,
-   "impressions": 17,
-   "best_position": 82.7
+   "impressions": 18,
+   "best_position": 82.4
   },
   {
    "slug": "why-is-my-electric-bill-so-high-checklist",
@@ -570,8 +596,8 @@
    "last_crawl": "2026-10-09T18:35:37Z",
    "google_canonical": "https://www.hearth-habit.com/2026/09/leftovers-thawing-and-fridge-storage.html",
    "clicks": 0,
-   "impressions": 0,
-   "best_position": null
+   "impressions": 4,
+   "best_position": 7.2
   },
   {
    "slug": "clutter-keeps-coming-back-which-fix",
@@ -593,11 +619,24 @@
    "url": "https://www.hearth-habit.com/2026/10/should-you-shut-off-outdoor-faucet-from.html",
    "verdict": "PASS",
    "coverage": "Submitted and indexed",
-   "last_crawl": "2026-11-05T23:59:31Z",
+   "last_crawl": "2026-11-16T12:19:25Z",
    "google_canonical": "https://www.hearth-habit.com/2026/10/should-you-shut-off-outdoor-faucet-from.html",
-   "clicks": 2,
-   "impressions": 94,
-   "best_position": 8.9
+   "clicks": 3,
+   "impressions": 241,
+   "best_position": 7.4
+  },
+  {
+   "slug": "last-mow-height-before-winter",
+   "title": "How Low Should You Mow Grass on the Last Cut Before Winter?",
+   "pillar": "yard-outdoor",
+   "url": "https://www.hearth-habit.com/2026/10/how-low-should-you-mow-grass-on-last.html",
+   "verdict": "NEUTRAL",
+   "coverage": "Discovered - currently not indexed",
+   "last_crawl": null,
+   "google_canonical": null,
+   "clicks": 0,
+   "impressions": 0,
+   "best_position": null
   },
   {
    "slug": "water-heater-120-vs-140-does-it-save-money",
@@ -619,11 +658,11 @@
    "url": "https://www.hearth-habit.com/2026/10/why-does-my-freezer-build-up-frost-so.html",
    "verdict": "PASS",
    "coverage": "Submitted and indexed",
-   "last_crawl": "2026-11-02T11:54:38Z",
+   "last_crawl": "2026-11-20T10:31:50Z",
    "google_canonical": "https://www.hearth-habit.com/2026/10/why-does-my-freezer-build-up-frost-so.html",
    "clicks": 0,
-   "impressions": 2,
-   "best_position": 7.5
+   "impressions": 3,
+   "best_position": 10.3
   },
   {
    "slug": "how-long-can-party-food-sit-out-buffet",
@@ -635,8 +674,34 @@
    "last_crawl": "2026-10-19T21:01:29Z",
    "google_canonical": "https://www.hearth-habit.com/2026/10/how-long-can-party-food-sit-on-buffet.html",
    "clicks": 0,
-   "impressions": 24,
-   "best_position": 9.7
+   "impressions": 35,
+   "best_position": 9.3
+  },
+  {
+   "slug": "why-brown-sugar-turns-hard",
+   "title": "Why Does My Brown Sugar Turn Rock-Hard, and Can You Still Use It?",
+   "pillar": "kitchen-habits",
+   "url": "https://www.hearth-habit.com/2026/10/why-does-my-brown-sugar-turn-rock-hard.html",
+   "verdict": "NEUTRAL",
+   "coverage": "Discovered - currently not indexed",
+   "last_crawl": null,
+   "google_canonical": null,
+   "clicks": 0,
+   "impressions": 0,
+   "best_position": null
+  },
+  {
+   "slug": "shower-grout-pink-black-comes-back",
+   "title": "Why Does My Shower Grout Turn Pink or Black Again a Week After Cleaning?",
+   "pillar": "cleaning-organization",
+   "url": "https://www.hearth-habit.com/2026/11/why-does-my-shower-grout-turn-pink-or.html",
+   "verdict": "PASS",
+   "coverage": "Submitted and indexed",
+   "last_crawl": "2026-11-20T22:20:06Z",
+   "google_canonical": "https://www.hearth-habit.com/2026/11/why-does-my-shower-grout-turn-pink-or.html",
+   "clicks": 0,
+   "impressions": 0,
+   "best_position": null
   },
   {
    "slug": "diy-home-energy-audit-room-by-room",
@@ -674,8 +739,8 @@
    "last_crawl": "2026-11-04T02:11:17Z",
    "google_canonical": "https://www.hearth-habit.com/2026/11/fridge-and-freezer-storage-chart-how.html",
    "clicks": 0,
-   "impressions": 20,
-   "best_position": 6.0
+   "impressions": 38,
+   "best_position": 6
   },
   {
    "slug": "house-cleaning-schedule-by-room-frequency",

@@ -411,6 +411,8 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/08/what-to-do-with-clothes-you-wore-once.html
   blogger_post_id: '8180329699747089612'
   pinterest_pin_id: manual
+  pinterest_refresh_pin_id: '1132796112564653308'
+  pinterest_pin_design: 2
 - title: How Do You Get Rid of Things You Spent Good Money On?
   pillar: cleaning-organization
   status: drafted
@@ -561,6 +563,8 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/07/why-bread-goes-moldy-faster-in-summer.html
   blogger_post_id: '2816077396686897103'
   pinterest_pin_id: manual
+  pinterest_refresh_pin_id: '1132796112564653307'
+  pinterest_pin_design: 2
 - title: Why Do My Greens Wilt Two Days After I Buy Them?
   pillar: kitchen-habits
   status: published
@@ -1161,6 +1165,8 @@ topics:
   written_by: claude-code
   blogger_url: https://www.hearth-habit.com/2026/11/why-does-moss-keep-taking-over-shady.html
   blogger_post_id: '7503316970599387821'
+  pinterest_pin_id: '1132796112564653306'
+  pinterest_pin_design: 2
 - title: Is It Cheaper to Run a Dehumidifier or Just Use the AC in a Humid Basement?
   pillar: energy-savings
   status: pending

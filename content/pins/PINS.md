@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 59개 준비됨 · 게시 완료 58개(수동 38 · API 20) · 대기 1개
+핀 60개 준비됨 · 게시 완료 59개(수동 38 · API 21) · 대기 1개
 
 ## 게시 방식
 
@@ -78,7 +78,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/11/house-cleaning-schedule-by-room-what-to.html
   - 설명: A room-by-room cleaning schedule where every interval has a reason, plus a weekly time budget with the math shown and a printable checklist you can keep.
 
-- [ ] **Why Does My Shower Grout Turn Pink or Black Again a Week After Cleaning?**
+- [x] **Why Does My Shower Grout Turn Pink or Black Again a Week After Cleaning?**
   - 이미지: `content/pins/shower-grout-pink-black-comes-back.png`
   - 링크: https://www.hearth-habit.com/2026/11/why-does-my-shower-grout-turn-pink-or.html
   - 설명: Pink grout film is a bacterium that feeds on soap residue, and black spots are mold. Here's why both return within days and the fan and drying fixes that work.
@@ -287,7 +287,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
 
 ## 보드: Yard & Outdoor Basics
 
-(9개)
+(10개)
 
 - [x] **Low-Maintenance Lawn Care: The Bare-Minimum Yearly Schedule**
   - 이미지: `content/pins/low-effort-lawn-care-bare-minimum.png`
@@ -333,3 +333,8 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 이미지: `content/pins/fall-to-spring-yard-calendar-cool-warm-season-grass.png`
   - 링크: https://www.hearth-habit.com/2026/11/fall-to-spring-yard-calendar-month-by.html
   - 설명: Fall-to-spring lawn tasks by month for cool- and warm-season grass, plus the soil temperatures extension services use to time seeding, feeding, and weeds.
+
+- [ ] **Why Does Moss Keep Taking Over the Shady Part of My Lawn?**
+  - 이미지: `content/pins/moss-taking-over-shady-lawn.png`
+  - 링크: https://www.hearth-habit.com/2026/11/why-does-moss-keep-taking-over-shady.html
+  - 설명: Moss returns because shade lets it beat thin grass, and killers or lime alone don't change that. Count your sun hours, then fix the spot or switch to a groundcover.

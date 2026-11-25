@@ -1340,11 +1340,13 @@ topics:
   status: pending
 - title: Is It Safe to Use Rock Salt Near the Lawn and Garden Beds?
   pillar: yard-outdoor
-  status: pending
+  status: published
   season_months:
   - 11
   - 12
   - 1
+  published_slug: rock-salt-near-lawn-and-garden-beds
+  written_by: claude-code
 - title: Why Does My Lawn Have Brown Circles After the Snow Melts?
   pillar: yard-outdoor
   status: pending

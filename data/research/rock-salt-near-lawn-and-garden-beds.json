@@ -1,0 +1,114 @@
+{
+  "reader_situation": "A homeowner in a snowy climate is about to salt a walk or driveway that borders a lawn, perennial bed, or foundation shrubs, or is seeing brown, scorched plants along those edges in spring, and wants to know whether rock salt is safe there and what to do about it.",
+  "direct_answer": "Not really. Rock salt (sodium chloride) reaches plants two ways, as spray on stems and needles and as salty meltwater that soaks into the soil, and both can scorch or kill nearby plants. It can be used near beds only with limits: keep salted snow off the root zone, shield sensitive plants from spray in late fall, avoid salting as plants break dormancy, and flush the soil with at least 6 inches of water in early spring.",
+  "consensus": [
+    "Rock salt can damage lawns and garden plants near walks and drives.",
+    "Use less salt and keep it off plants.",
+    "Water the area in spring to flush salt out.",
+    "Burlap can shield shrubs.",
+    "Switch to a plant-safer ice melt or use sand for traction.",
+    "Choose salt-tolerant plants near salted pavement."
+  ],
+  "gaps": [
+    "Spray and soil salt are two different problems with different defenses and different timing: spray injury shows quickly in late winter to early spring, while soil salt injury is slow and builds over several years (Wisconsin Extension, UConn IPM).",
+    "Distance: Wisconsin Extension says most soil-salt damage occurs within 30 feet of a road and most spray damage within 60 feet; UConn and Wisconsin advise keeping salt-sensitive plants 30-40 feet from streets (and sidewalks and parking lots, per UConn) where salt runoff into soil is common.",
+    "Flushing has a number: at least 6 inches of water in early spring (Wisconsin Extension, UConn IPM). Maryland Extension's alternative, three to four 1-inch soakings, adds up to only 3-4 inches. UVM notes that in a wet spring, rain may do the job and one or two waterings may be enough in a dry spring, but warns against overwatering a bed into erosion.",
+    "Soil testing has a timing rule: collect samples in early spring before rain leaches the salts out of the sampling area (Wisconsin Extension).",
+    "Gypsum helps only on heavy clay soils high in salt, where it swaps sodium for calcium; lime is not a substitute (UConn IPM, Wisconsin Extension).",
+    "Anti-desiccant and anti-transpirant sprays and dormant oils do not prevent salt spray injury (UConn IPM, Wisconsin Extension).",
+    "Barriers work better as a separate screen than as a tight wrap; if wrapping, use only burlap, loosely, with air space (Chicago Botanic Garden). Wisconsin says to put them up in late fall.",
+    "Late winter and early spring salting is the riskiest because plants are coming out of dormancy and young buds are most susceptible to spray (UConn IPM, Wisconsin Extension).",
+    "Never use lawn fertilizer as an ice melt; it burns plant roots (Wisconsin Extension)."
+  ],
+  "evidence": [
+    {
+      "claim": "Two routes: soil accumulation and aerosol spray; spray travels farther",
+      "detail": "Salt may accumulate in the soil along streets or sidewalks from melted, salt-laden snow or become dispersed in an aerosol spray by fast-moving traffic and high winds along wet, salted roads. Salt runoff is typically limited to areas bordering salted roadways; salt spray can travel hundreds and even thousands of feet from the road. Spray: most damage occurs within 60 feet of road; sensitive plants show symptoms as far as 1,000 feet or more from major highways. Soil: most damage occurs within 30 feet of road.",
+      "source_url": "https://hort.extension.wisc.edu/articles/winter-salt-injury-and-salt-tolerant-landscape-plants",
+      "source_title": "Winter Salt Injury and Salt-tolerant Landscape Plants | Wisconsin Horticulture (UW-Madison Extension)"
+    },
+    {
+      "claim": "Timing of symptoms and the late-winter risk",
+      "detail": "Deciduous spray injury appears in early spring; evergreen injury evident in late winter to early spring. Unlike salt spray injury, soil salt injury is slow to develop and progresses over several years. Symptoms include outer edges of leaves turning brown and delayed budbreak. If possible, avoid application of salt in late winter and early spring as plants are coming out of dormancy.",
+      "source_url": "https://hort.extension.wisc.edu/articles/winter-salt-injury-and-salt-tolerant-landscape-plants",
+      "source_title": "Winter Salt Injury and Salt-tolerant Landscape Plants | Wisconsin Horticulture (UW-Madison Extension)"
+    },
+    {
+      "claim": "Prevention and recovery steps",
+      "detail": "Avoid shoveling salt-laden snow over the root zones of sensitive plants. Protect plants from salt spray with physical barriers such as plastic, burlap, or snow fencing around or near plants in late fall. During a warm spell in winter, rinse off plants to eliminate residual salt before budbreak. In early spring, water soil heavily (at least 6 inches) to flush salt out of the root zone. Planting on berms (raised, mounded beds) keeps salty runoff from moving into root zones. Gypsum on heavy clay soils high in salt displaces sodium with calcium, improving aeration and drainage. Anti-transpirants and dormant oil sprays are ineffective against salt spray injury. Collect soil samples in early spring before rain leaches salts out of the sampling area. Plant salt-sensitive plants at least 60-100 feet from highways and 30-40 feet from city streets where salt runoff into soil is common. Do not use commercial fertilizers as a deicing salt; they burn plant roots. Calcium magnesium acetate does not harm plants.",
+      "source_url": "https://hort.extension.wisc.edu/articles/winter-salt-injury-and-salt-tolerant-landscape-plants",
+      "source_title": "Winter Salt Injury and Salt-tolerant Landscape Plants | Wisconsin Horticulture (UW-Madison Extension)"
+    },
+    {
+      "claim": "Soil effects, symptom timing, and the 6-inch flush",
+      "detail": "Salt percolates through the soil from melting, salt-packed snow or is dispersed by plowing, runoff, splash and aerial spray. Accumulated sodium destroys soil structure and porosity, raises soil pH, and reduces water infiltration. Spray symptoms appear quickly; soil salt injury is slow and may progress over several years. Young, tender buds in late winter and early spring are more susceptible as plants break dormancy. Scorched leaf margins on deciduous plants become more evident in hot, dry summer weather. Avoid shoveling or plowing salt-contaminated snow onto plants. In spring, if irrigation is an option, flush the soil thoroughly with water (at least 6 inches). In late winter and early spring avoid application of salt. Gypsum on heavy clay soils high in salt displaces sodium with calcium; do not apply lime. Use snow fencing, burlap or landscape fabric against aerial spray. Raised, mounded beds (berms) reduce salty runoff into planted areas. Keep salt-sensitive plants at least 60-100 feet from highways and 30-40 feet from streets, sidewalks and parking lots when salt runoff into soil is common. Commercial anti-desiccant products have not proven effective against salt spray injury. Foliar analysis or soil tests can confirm the diagnosis; contact your county extension office. Direct water runoff away from landscape beds. Plants tend to be more salt tolerant in sandy, well-drained soil than in heavy clay. Sensitive plants include barberry, crabapple, hemlock, roses, boxwood, eastern redbud, privet, viburnum, burning bush, European beech, red maple, white pine.",
+      "source_url": "https://ipm.cahnr.uconn.edu/salt-injury-schools/",
+      "source_title": "Preventing and Reducing Salt Injury On School Properties | UConn Extension IPM"
+    },
+    {
+      "claim": "Snow placement, spring flush timing, symptoms, tolerant plants",
+      "detail": "Avoid piling salt-laden snow and ice around trees and shrubs. As soon as the ground thaws in early spring, heavily water areas where salt accumulates over winter; a thorough soaking should help flush salt from the root zone. Deciduous symptoms: stunted growth, marginal leaf scorch, early fall coloration, twig dieback. Evergreens: yellowing or browning of needles and twig dieback; spray damage is most severe on the side nearest the highway. Salt accumulation in soil over several years may result in progressive decline and death.",
+      "source_url": "https://yardandgarden.extension.iastate.edu/how-to/using-deicing-salts-home-landscape",
+      "source_title": "Using Deicing Salts in the Home Landscape | Iowa State University Extension Yard and Garden"
+    },
+    {
+      "claim": "Salt-tolerant trees, shrubs and perennials",
+      "detail": "Salt-tolerant shrubs and trees include juniper, shrubby cinquefoil, staghorn sumac, rugosa rose, summersweet, Siberian peashrub, mugo pine, eastern red-cedar. Salt-tolerant perennials: blanket flower, daylily, feather reed grass, yarrow, sea thrift, tall stonecrop, columbine, catmint, butterfly weed, Russian sage, cranesbill.",
+      "source_url": "https://yardandgarden.extension.iastate.edu/faq/how-can-i-prevent-damage-trees-and-shrubs-deicing-salts",
+      "source_title": "How can I prevent damage to trees and shrubs from deicing salts? | Iowa State University Extension Yard and Garden"
+    },
+    {
+      "claim": "Spray vs soil mechanism; spring flushing may need only one or two waterings in a dry spring",
+      "detail": "Salt spray coats stems or leaves, is corrosive and can burn leaves, stems and buds, impacting spring flowering. Salt on the soil surface soaks in and is absorbed, pulling moisture from plant tissues. Spring rains may leach the salt naturally, but watering the bed one or two times in a dry spring might be all that is needed. Be careful not to overwater the bed to avoid soil erosion. Perennials such as daylilies, catmint and yarrow perform well with exposure to salt; winterberry, black chokeberry and nannyberry have some salt tolerance.",
+      "source_url": "https://www.uvm.edu/extension/news/managing-salt-landscape",
+      "source_title": "Managing Salt in the Landscape | University of Vermont Extension"
+    },
+    {
+      "claim": "Barrier construction",
+      "detail": "Some protection can be obtained by placing barriers of burlap, plastic, or wood between the spray source and the shrubs. Separate barriers are preferable to wrapping individual plants; if plants must be wrapped, use only burlap, do not wrap too tightly, and leave some air space. Pay attention to the grade around shrubs to prevent salt spray from pooling.",
+      "source_url": "https://www.chicagobotanic.org/plant-information/salt-damage-protection",
+      "source_title": "Salt Damage Protection | Chicago Botanic Garden"
+    },
+    {
+      "claim": "Symptoms, a smaller flushing regimen, gypsum, soil test",
+      "detail": "Salts draw water out of roots, leaves, and needles. Damage appears as marginal leaf browning or leaf scorch on deciduous plants; on evergreens needle tips turn brown and brittle. Repeated exposure can cause deformed growth and bud, twig, and branch dieback. Soaking the soil with one-inch applications of water three to four times in the spring can often improve plant damage. Gypsum may be added to reduce high sodium levels from rock salt; soil replacement may be an option for small beds. Have your soil analyzed by a soil-testing laboratory for soluble salts if you suspect salt damage. Use sand, ashes, or kitty litter for traction.",
+      "source_url": "https://extension.umd.edu/resource/salt-or-fertilizer-damage-trees",
+      "source_title": "Salt or Fertilizer Damage on Trees | University of Maryland Extension"
+    },
+    {
+      "claim": "Runoff vs spray; save salt for leftover ice patches",
+      "detail": "Salts move either as runoff in meltwater or as aerosol sprays from fast-moving vehicles and wind. Evergreen foliage is most at risk from sprays, which can move as far as several hundred feet from highways. A less common but often more serious ailment occurs if salt-laden meltwater infiltrates the soil profile. Save the salt for the tiny patches of ice left after shoveling; apply a small amount and wait.",
+      "source_url": "https://extension.illinois.edu/blogs/garden-scoop/2021-01-09-how-winter-salt-can-damage-landscape-plants",
+      "source_title": "How winter salt can damage landscape plants | University of Illinois Extension"
+    }
+  ],
+  "real_questions": [
+    "Is rock salt safe to use on a walkway next to a flower bed?",
+    "Will my shrubs come back after salt damage?",
+    "How much water does it take to flush salt out of a garden bed?",
+    "Does gypsum fix salt damage?",
+    "Where should I put the snow I shovel off a salted driveway?",
+    "Which plants survive next to a salted sidewalk?"
+  ],
+  "original_asset": {
+    "type": "worked_example",
+    "spec": "Flush-water table: gallons needed to put the extension-recommended 6 inches (Wisconsin, UConn) on common bed sizes, versus Maryland's three to four 1-inch soakings, using 1 inch over 1 sq ft = 144 cubic inches / 231 cubic inches per US gallon = about 0.62 gallon. Plus a season schedule (late fall barriers, each storm, warm spells, early spring flush and soil sample, spring gypsum on clay only) built from Wisconsin, UConn, Iowa State, and Chicago Botanic Garden."
+  },
+  "cautions": [
+    "Do not recommend mixing sand and salt; the site's sidewalk post cites a watershed district that says not to.",
+    "Do not state de-icer working temperatures here; sources conflict (Illinois says rock salt is ineffective below 10°F, the site's earlier post cites 15°F). Link the sidewalk post instead.",
+    "Do not promise recovery; soil salt injury builds over years and can kill plants.",
+    "No lime as a substitute for gypsum; gypsum only for heavy clay high in salt.",
+    "Avoid overwatering into erosion (UVM)."
+  ],
+  "sources": {
+    "https://hort.extension.wisc.edu/articles/winter-salt-injury-and-salt-tolerant-landscape-plants": "Winter Salt Injury and Salt-tolerant Landscape Plants | Wisconsin Horticulture (UW-Madison Extension)",
+    "https://ipm.cahnr.uconn.edu/salt-injury-schools/": "Preventing and Reducing Salt Injury On School Properties | UConn Extension IPM",
+    "https://yardandgarden.extension.iastate.edu/how-to/using-deicing-salts-home-landscape": "Using Deicing Salts in the Home Landscape | Iowa State University Extension",
+    "https://yardandgarden.extension.iastate.edu/faq/how-can-i-prevent-damage-trees-and-shrubs-deicing-salts": "How can I prevent damage to trees and shrubs from deicing salts? | Iowa State University Extension",
+    "https://www.uvm.edu/extension/news/managing-salt-landscape": "Managing Salt in the Landscape | University of Vermont Extension",
+    "https://www.chicagobotanic.org/plant-information/salt-damage-protection": "Salt Damage Protection | Chicago Botanic Garden",
+    "https://extension.umd.edu/resource/salt-or-fertilizer-damage-trees": "Salt or Fertilizer Damage on Trees | University of Maryland Extension",
+    "https://extension.illinois.edu/blogs/garden-scoop/2021-01-09-how-winter-salt-can-damage-landscape-plants": "How winter salt can damage landscape plants | University of Illinois Extension"
+  }
+}

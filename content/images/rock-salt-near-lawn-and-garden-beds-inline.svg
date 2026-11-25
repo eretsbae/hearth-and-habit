@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#F6EFE6"/>
+  <text x="600" y="70" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="38" fill="#2E2A24">Two ways salt reaches a bed</text>
+  <!-- ground -->
+  <rect x="0" y="430" width="1200" height="200" fill="#E4C7B2"/>
+  <!-- pavement -->
+  <rect x="60" y="410" width="380" height="30" fill="#2E2A24" opacity="0.75"/>
+  <circle cx="120" cy="404" r="5" fill="#F6EFE6"/>
+  <circle cx="170" cy="403" r="5" fill="#F6EFE6"/>
+  <circle cx="230" cy="405" r="5" fill="#F6EFE6"/>
+  <circle cx="300" cy="404" r="5" fill="#F6EFE6"/>
+  <circle cx="370" cy="403" r="5" fill="#F6EFE6"/>
+  <!-- bed + shrub -->
+  <rect x="640" y="418" width="420" height="22" fill="#B85C38" opacity="0.35"/>
+  <ellipse cx="850" cy="340" rx="130" ry="95" fill="#5C6E58"/>
+  <rect x="840" y="400" width="20" height="30" fill="#2E2A24"/>
+  <!-- roots -->
+  <path d="M850 440 L800 500 M850 440 L850 515 M850 440 L900 500" stroke="#5C6E58" stroke-width="6" fill="none"/>
+  <!-- barrier -->
+  <rect x="580" y="300" width="14" height="130" fill="#D9A441"/>
+  <!-- spray arrow -->
+  <path d="M300 380 Q450 220 560 300" stroke="#B85C38" stroke-width="6" fill="none" stroke-dasharray="14 10"/>
+  <polygon points="560,300 538,286 545,310" fill="#B85C38"/>
+  <!-- meltwater arrow -->
+  <path d="M400 470 Q600 520 790 500" stroke="#B85C38" stroke-width="6" fill="none"/>
+  <polygon points="790,500 766,488 768,512" fill="#B85C38"/>
+  <text x="80" y="170" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#2E2A24">Spray on stems and buds</text>
+  <text x="80" y="580" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#2E2A24">Salty meltwater in root zone</text>
+  <text x="500" y="250" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24">Barrier in late fall</text>
+  <text x="760" y="580" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#2E2A24">Flush soil in early spring</text>
+  <text x="80" y="470" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#2E2A24">Salted walk</text>
+</svg>

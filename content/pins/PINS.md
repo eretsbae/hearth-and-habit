@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 60개 준비됨 · 게시 완료 59개(수동 38 · API 21) · 대기 1개
+핀 61개 준비됨 · 게시 완료 60개(수동 38 · API 22) · 대기 1개
 
 ## 게시 방식
 
@@ -287,7 +287,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
 
 ## 보드: Yard & Outdoor Basics
 
-(10개)
+(11개)
 
 - [x] **Low-Maintenance Lawn Care: The Bare-Minimum Yearly Schedule**
   - 이미지: `content/pins/low-effort-lawn-care-bare-minimum.png`
@@ -334,7 +334,12 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/11/fall-to-spring-yard-calendar-month-by.html
   - 설명: Fall-to-spring lawn tasks by month for cool- and warm-season grass, plus the soil temperatures extension services use to time seeding, feeding, and weeds.
 
-- [ ] **Why Does Moss Keep Taking Over the Shady Part of My Lawn?**
+- [x] **Why Does Moss Keep Taking Over the Shady Part of My Lawn?**
   - 이미지: `content/pins/moss-taking-over-shady-lawn.png`
   - 링크: https://www.hearth-habit.com/2026/11/why-does-moss-keep-taking-over-shady.html
   - 설명: Moss returns because shade lets it beat thin grass, and killers or lime alone don't change that. Count your sun hours, then fix the spot or switch to a groundcover.
+
+- [ ] **Is It Safe to Use Rock Salt Near the Lawn and Garden Beds?**
+  - 이미지: `content/pins/rock-salt-near-lawn-and-garden-beds.png`
+  - 링크: https://www.hearth-habit.com/2026/11/is-it-safe-to-use-rock-salt-near-lawn.html
+  - 설명: Not really. Rock salt hurts plants as spray and as salty meltwater in the soil. Six steps keep it out of beds, plus how many gallons a 6-inch spring flush takes.

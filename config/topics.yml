@@ -197,6 +197,8 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/07/lawn-care-for-people-who-dont-care.html
   blogger_post_id: '795620399306360578'
   pinterest_pin_id: manual
+  pinterest_refresh_pin_id: '1132796112564798144'
+  pinterest_pin_design: 2
 - title: 'Fall Yard Cleanup Checklist: What Actually Matters Before Winter'
   pillar: yard-outdoor
   status: published
@@ -359,6 +361,8 @@ topics:
   blogger_post_id: '6408153902215791594'
   pinterest_batch: pins10
   pinterest_pin_id: manual
+  pinterest_refresh_pin_id: '1132796112564798142'
+  pinterest_pin_design: 2
 - title: At What Outdoor Temperature Do Pipes Actually Start to Freeze?
   pillar: home-maintenance
   status: published
@@ -1349,6 +1353,8 @@ topics:
   written_by: claude-code
   blogger_url: https://www.hearth-habit.com/2026/11/is-it-safe-to-use-rock-salt-near-lawn.html
   blogger_post_id: '3738591339041076068'
+  pinterest_pin_id: '1132796112564798138'
+  pinterest_pin_design: 2
 - title: Why Does My Lawn Have Brown Circles After the Snow Melts?
   pillar: yard-outdoor
   status: pending

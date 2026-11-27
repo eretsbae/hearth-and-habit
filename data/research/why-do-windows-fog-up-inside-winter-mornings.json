@@ -1,0 +1,113 @@
+{
+  "reader_situation": "A homeowner or renter in a cold part of the US or Canada finds the inside of the windows wet or fogged most winter mornings, often worst at the bottom of the glass and on the sills. They want to know whether the windows are failing, whether the humidifier is to blame, and which fix is worth the money: wiping, a dehumidifier, plastic film or storm windows, opening the blinds, or new windows.",
+  "direct_answer": "Indoor window fog is condensation: the inside surface of the glass has dropped below the dew point of the room air. Glass is coldest at the end of the coldest part of the night, and closed curtains or blinds keep room air from warming it, so mornings are worst. Each window has a maximum indoor humidity it can carry at a given outdoor temperature; when the forecast drops, that ceiling drops, and the same humidity that was fine in November fogs the glass in January. The fix is to lower indoor humidity to what your windows can carry, warm the glass (storm panel or film, air movement), or both.",
+  "consensus": [
+    "Condensation forms when warm, moist indoor air touches glass colder than its dew point",
+    "Lower indoor humidity: use bath and kitchen exhaust fans, vent the dryer outside",
+    "Open blinds or curtains and let air circulate over the glass",
+    "Keep humidity around 30 to 50 percent",
+    "Wipe windows to prevent mold and rot on sills and frames",
+    "Fog between panes of sealed glass means a failed seal"
+  ],
+  "gaps": [
+    "Most articles give one humidity target for all winter. The National Research Council Canada tables show the safe ceiling depends on the outdoor temperature and the window: at 70°F indoors with a 15 mph wind, double glazing carries 53% RH at 20°F outside but only 41% at 0°F and 32% at -20°F. Single glazing carries 24%, 12% and 6% at the same temperatures. That is why fog appears 'suddenly' on the first very cold morning.",
+    "Articles rarely explain why the bottom of the glass fogs first. NRC CBD-4: convection inside a double window makes the air space several degrees colder at the bottom than the top, and window stools interfere with air flow at the bottom.",
+    "Advice on curtains contradicts itself. Montana State Extension says close drapes at night to keep moist air from the glass; the University of Minnesota publication says curtains, blinds and interior screens that restrict air currents can cause condensation at lower humidity; NRC says coverings may increase or decrease condensation depending on their location relative to the window and the heating outlet. The honest answer is it depends on whether the covering seals.",
+    "Many articles recommend a dehumidifier. NDSU Extension says dehumidifiers generally lower humidity only to about 50 percent, so they are not adequate for limiting window condensation in winter; shut off humidifiers and use exhaust fans instead.",
+    "Rated window tables are center-of-glass calculations. The University of Minnesota publication warns they neglect spacers and frames, and its own table puts sealed double glazing at 32–37% RH at 0°F, lower than NRC's center-of-glass 41%. NRC also notes aluminum frames without thermal breaks condense at roughly single-glass humidity limits.",
+    "Moisture sources are rarely quantified. Montana State Extension lists a family of four adding 55.9 lbs (6.7 gallons) a day, of which an unvented dryer is 26.4 lbs and breathing and perspiring 16.8 lbs."
+  ],
+  "evidence": [
+    {
+      "claim": "Condensation forms on inside window surfaces when surface temperature falls below the room's dew point; the window sets the practical humidity limit",
+      "detail": "\"Condensation occurs on inside window surfaces whenever surface temperature falls below the dew-point temperature of the room.\" \"Window surfaces usually determine the maximum room relative humidity that can be carried without condensation.\"",
+      "source_url": "https://web.mit.edu/parmstr/Public/NRCan/CanBldgDigests/cbd004_e.html",
+      "source_title": "CBD-4. Condensation on Inside Window Surfaces (National Research Council Canada)"
+    },
+    {
+      "claim": "Maximum indoor RH for no window condensation at 70°F indoors, with inside glass surface temperatures (Table I)",
+      "detail": "Outdoor 40°F: single 44% (15 mph wind) / 59% (no wind); double 68% / 73%; triple 78% / 81%. Outdoor 20°F: single 24% / 41%; double 53% / 61%; triple 68% / 71%. Outdoor 0°F: single 12% / 27%; double 41% / 49%; triple 57% / 61%. Outdoor -20°F: single 6% / 17%; double 32% / 39%; triple 49% / 53%. Outdoor -40°F: single 2% / 10%; double 23% / 31%; triple 41% / 46%. Glass surface at 0°F outdoors, 15 mph: single 17°F, double 45°F, triple 54°F. Values are for periods of no solar radiation.",
+      "source_url": "https://web.mit.edu/parmstr/Public/NRCan/CanBldgDigests/cbd004_e.html",
+      "source_title": "CBD-4. Condensation on Inside Window Surfaces (National Research Council Canada)"
+    },
+    {
+      "claim": "Bottom of double windows condenses first; stools interfere with air flow",
+      "detail": "\"The temperature of the air space at the bottom will be several degrees lower than that at the top ... It explains why condensation on inside surfaces of double windows usually occurs first at the bottom.\" \"Window stools interfere with air flow at the bottom of the window and tend to lower temperatures in this region.\"",
+      "source_url": "https://web.mit.edu/parmstr/Public/NRCan/CanBldgDigests/cbd004_e.html",
+      "source_title": "CBD-4. Condensation on Inside Window Surfaces (National Research Council Canada)"
+    },
+    {
+      "claim": "Drapes can increase or decrease condensation; heat under the window helps; aluminum frames need thermal breaks",
+      "detail": "\"Drapes and curtains can affect both the air temperature adjacent to a window and the inside convection condition. These may increase or decrease surface temperatures and condensation, depending on their location with respect to the window and heating outlet.\" Locating the heat source beneath the window can counteract the cold bottom to some extent. \"Thermal breaks are absolutely necessary with multiple glazing ... Otherwise, condensation will occur on the frame at approximately the limiting relative humidities for single glass.\" Aluminum conductivity is about 800 to 1400 times that of wood.",
+      "source_url": "https://web.mit.edu/parmstr/Public/NRCan/CanBldgDigests/cbd004_e.html",
+      "source_title": "CBD-4. Condensation on Inside Window Surfaces (National Research Council Canada)"
+    },
+    {
+      "claim": "Dew point example and why forcing humidity higher is pointless; frost; concealed condensation is worse",
+      "detail": "Room air at 75°F and 40 percent RH becomes saturated when cooled to 49°F on a window surface. \"There is little point in attempting to force the relative humidity in a building above the point at which visible condensation begins to occur, since the moisture added will be transferred to the cold surfaces and will accumulate there.\" Surfaces below freezing for long periods accumulate condensation as frost. \"Visible condensation, although common on windows in winter, is not as troublesome as concealed condensation which can occur in roofs, attic spaces, and in walls.\"",
+      "source_url": "https://web.mit.edu/parmstr/Public/NRCan/CanBldgDigests/cbd001_e.html",
+      "source_title": "CBD-1. Humidity in Canadian Buildings (National Research Council Canada)"
+    },
+    {
+      "claim": "Indoor winter RH most desirable around 40%, maintainable without excessive window condensation with three or more glazings; coverings restricting air raise condensation; table values must be interpreted with caution",
+      "detail": "Restrictive coverings that may increase condensation include curtains, blinds, and interior screens. If the sash is not tightly weatherstripped and/or a storm window is very tight, condensation can occur on the storm window at lower RH. Short-term condensation may occur with cold weather and high wind until indoor humidity falls. Popular calculations focus on center of glass and neglect spacers and frames. Table (70°F indoors, 15 mph wind): sealed double glazing 47-50% at +20°F, 40-43% at +10°F, 32-37% at 0°F, 28-30% at -10°F, 24-28% at -20°F; window plus tight storm 58% at +20°F, 47% at 0°F, 37% at -20°F. Also: \"Window condensation is frequently cited as the key visible indicator of excessive indoor relative humidity.\" \"Concealed condensation within wall and ceiling can take place at these or lower levels of relative humidity.\" Condensation on the storm window can occur at lower RH \"if a window sash is not tightly weatherstripped and/or a storm window is very tight\".",
+      "source_url": "https://www.aivc.org/sites/default/files/airbase_3401.pdf",
+      "source_title": "Indoor Winter Relative Humidity: What is Acceptable? (William J. Angell, University of Minnesota, Minnesota Extension Service, 1988)"
+    },
+    {
+      "claim": "Household moisture: family of four can add over six gallons a day; itemized pounds per day",
+      "detail": "Mopping floors 2.4 lbs/day; drying clothes with dryer unvented into house 26.4; washing clothes 4.3; cooking with electric range without exhaust vent on 2.0; shower or bath 2.0; dishwashing by hand 1.0; individual breathing and perspiring 16.8; house plants 1.0; total 55.9 lbs/day or 6.7 gallons/day. Keep heating-season indoor humidity around 30 to 45 percent. Original wording: \"It is possible for an average family of four to add over six gallons of moisture to the air each day.\"",
+      "source_url": "https://www.montana.edu/extension/housing/documents/CONTROLLINGCONDENSATION.pdf",
+      "source_title": "Controlling Condensation in the Home (Montana State University Extension)"
+    },
+    {
+      "claim": "Fixes: exhaust vents to outside, never vent dryer inside, cover pots; storm windows with at least 1/2 inch space sealed on edges; air circulation; drapes",
+      "detail": "Installing a plastic or glass storm window increases surface temperature; it must be installed with at least a ½ inch space between the two windows and sealed on the edges. Adding a storm to a double-paned window allows higher RH without condensation, though it may not be cost-effective. Do not cover furnace supply or return registers; use a ceiling fan; during the day leave drapes open; during the night close drapes to prevent warm moist air from reaching the cold window surface. Condensation can cause paint to peel, wood to rot and mildew to grow. Original wording: \"While cooking, bathing and laundering, use an exhaust vent. Make sure the exhaust is vented to the outside and not into the attic or crawl-space.\" \"excessive moisture can condense on walls, the ceiling and other cold surfaces causing paint to peel, wood to rot and mildew to grow.\"",
+      "source_url": "https://www.montana.edu/extension/housing/documents/CONTROLLINGCONDENSATION.pdf",
+      "source_title": "Controlling Condensation in the Home (Montana State University Extension)"
+    },
+    {
+      "claim": "Lower winter humidity under 40 percent, cover window with plastic; dehumidifiers only reach about 50 percent; shut off humidifiers; below 30 percent causes dry skin",
+      "detail": "\"you can warm the window's surface by covering the window with plastic. You will also want to lower the humidity in the home to under 40 percent in the winter.\" \"Dehumidifiers generally lower the humidity level to only about 50 percent, so they are not adequate for limiting condensation during the winter. To help lower humidity levels, shut off humidifiers.\" \"low humidity (below 30 percent) can lead to dry skin and irritate nasal passages\"",
+      "source_url": "https://www.ndsu.edu/agriculture/node/11102",
+      "source_title": "Eliminate Condensation on Windows (NDSU Extension)"
+    },
+    {
+      "claim": "Act quickly on condensation; keep humidity below 60%, ideally 30-50%; humidity meters cost $10-$50; vent moisture appliances; exhaust fans",
+      "detail": "\"If you see condensation or moisture collecting on windows, walls or pipes act quickly to dry the wet surface and reduce the moisture/water source. Condensation can be a sign of high humidity.\" Meter \"a small, inexpensive ($10-$50) instrument\". Combustion appliances such as kerosene heaters produce water vapor unless vented outside. Run the bathroom fan when showering.",
+      "source_url": "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home",
+      "source_title": "A Brief Guide to Mold, Moisture and Your Home (US EPA)"
+    },
+    {
+      "claim": "Morning condensation after the coldest part of the night; worst at frame edges; a smart humidistat with outdoor sensor lowers setpoint in colder weather",
+      "detail": "Condensation forms \"in the morning, after the coldest part of the night, because the internal relative humidity of the house is too high and the outside winter temperatures are too low.\" \"It's typically worst around the frame edges.\" A smart humidistat with an outdoor sensor can \"decrease the setpoint during colder weather to avoid window condensation.\" Trade publication; author case study.",
+      "source_url": "https://www.greenbuildingadvisor.com/article/indoor-relative-humidity-and-window-condensation",
+      "source_title": "Indoor Relative Humidity and Window Condensation (GreenBuildingAdvisor)"
+    }
+  ],
+  "real_questions": [
+    "Why only in the morning, and why mostly at the bottom of the glass?",
+    "Is my humidifier set too high, and what should it be when it's below zero outside?",
+    "Will a dehumidifier fix it?",
+    "Should I close the curtains at night or leave them open?",
+    "Do I need new windows?",
+    "Is it causing mold or rot on the sills?"
+  ],
+  "original_asset": "Decision table: tonight's outdoor low vs. the maximum indoor humidity each window type carries before the glass fogs (NRC CBD-4, 70°F indoors, 15 mph wind and calm), plus a fix-comparison table (what each fix does, its limit, which source) and a worked example of a family's daily moisture with and without an unvented dryer (Montana State Extension: 55.9 − 26.4 = 29.5 lbs ≈ 3.5 gallons at 8.34 lbs/gallon implied by 55.9 lbs = 6.7 gallons).",
+  "cautions": [
+    "NRC tables date from 1960 and assume 70°F indoors and center-of-glass; real windows (spacers, frames) fog at lower humidity, per the University of Minnesota publication",
+    "Do not tell readers to raise heat or run humidifiers higher; do not promise a specific humidity eliminates fog",
+    "Do not state anything about fog between panes of sealed glass: no fetched source covers it",
+    "Use registry humidity: below 60%, ideally 30-50% (EPA)",
+    "GreenBuildingAdvisor is a trade publication case study; use only for morning timing and smart humidistat"
+  ],
+  "sources": {
+    "https://web.mit.edu/parmstr/Public/NRCan/CanBldgDigests/cbd004_e.html": "CBD-4. Condensation on Inside Window Surfaces (National Research Council Canada)",
+    "https://web.mit.edu/parmstr/Public/NRCan/CanBldgDigests/cbd001_e.html": "CBD-1. Humidity in Canadian Buildings (National Research Council Canada)",
+    "https://www.aivc.org/sites/default/files/airbase_3401.pdf": "Indoor Winter Relative Humidity: What is Acceptable? (University of Minnesota, Minnesota Extension Service)",
+    "https://www.montana.edu/extension/housing/documents/CONTROLLINGCONDENSATION.pdf": "Controlling Condensation in the Home (Montana State University Extension)",
+    "https://www.ndsu.edu/agriculture/node/11102": "Eliminate Condensation on Windows (NDSU Extension)",
+    "https://www.epa.gov/mold/brief-guide-mold-moisture-and-your-home": "A Brief Guide to Mold, Moisture and Your Home (US EPA)",
+    "https://www.greenbuildingadvisor.com/article/indoor-relative-humidity-and-window-condensation": "Indoor Relative Humidity and Window Condensation (GreenBuildingAdvisor)"
+  }
+}

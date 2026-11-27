@@ -2,7 +2,7 @@
 
 이 파일은 자동 생성됩니다 (`generator/make_pin.py --manifest`). 수동 편집해도 다음 실행 때 덮어써집니다.
 
-핀 61개 준비됨 · 게시 완료 60개(수동 38 · API 22) · 대기 1개
+핀 62개 준비됨 · 게시 완료 61개(수동 38 · API 23) · 대기 1개
 
 ## 게시 방식
 
@@ -154,7 +154,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
 
 ## 보드: Home Maintenance & Repairs
 
-(12개)
+(13개)
 
 - [x] **How Often Should You Change Your Furnace Filter? (And Which MERV Rating to Buy)**
   - 이미지: `content/pins/furnace-filter-basics.png`
@@ -215,6 +215,11 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 이미지: `content/pins/winter-home-prep-checklist-before-first-freeze.png`
   - 링크: https://www.hearth-habit.com/2026/11/winter-home-prep-checklist-what-to-do.html
   - 설명: Winter prep in lead-time order: what to book six weeks before your first 32°F freeze, what waits for the last weekend, and what skipping each task can cost.
+
+- [ ] **Why Do My Windows Fog Up on the Inside Every Winter Morning?**
+  - 이미지: `content/pins/why-do-windows-fog-up-inside-winter-mornings.png`
+  - 링크: https://www.hearth-habit.com/2026/11/why-do-my-windows-fog-up-on-inside.html
+  - 설명: Morning window fog means the glass is colder than your room air's dew point. See how much humidity your windows can carry at tonight's low, and which fix works.
 
 ## 보드: Kitchen & Food Habits
 
@@ -339,7 +344,7 @@ API 대상이 아니며 손으로 올리는 선택 사항입니다(docs/PINTERES
   - 링크: https://www.hearth-habit.com/2026/11/why-does-moss-keep-taking-over-shady.html
   - 설명: Moss returns because shade lets it beat thin grass, and killers or lime alone don't change that. Count your sun hours, then fix the spot or switch to a groundcover.
 
-- [ ] **Is It Safe to Use Rock Salt Near the Lawn and Garden Beds?**
+- [x] **Is It Safe to Use Rock Salt Near the Lawn and Garden Beds?**
   - 이미지: `content/pins/rock-salt-near-lawn-and-garden-beds.png`
   - 링크: https://www.hearth-habit.com/2026/11/is-it-safe-to-use-rock-salt-near-lawn.html
   - 설명: Not really. Rock salt hurts plants as spray and as salty meltwater in the soil. Six steps keep it out of beds, plus how many gallons a 6-inch spring flush takes.

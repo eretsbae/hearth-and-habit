@@ -127,6 +127,8 @@ topics:
   blogger_url: https://www.hearth-habit.com/2026/07/phantom-power-how-much-your-idle.html
   blogger_post_id: '2644869432849979589'
   pinterest_pin_id: manual
+  pinterest_refresh_pin_id: '1132796112564954455'
+  pinterest_pin_design: 2
 - title: The Right Thermostat Settings for Every Season (and How Much They Save)
   pillar: energy-savings
   status: published
@@ -291,6 +293,8 @@ topics:
   blogger_post_id: '2865993573681148622'
   pinterest_pin_id: manual
   pinterest_batch: pins09
+  pinterest_refresh_pin_id: '1132796112564954454'
+  pinterest_pin_design: 2
 - title: Can You Caulk Over Old Caulk, or Do You Have to Remove It First?
   pillar: home-maintenance
   status: retired
@@ -1324,6 +1328,8 @@ topics:
   written_by: claude-code
   blogger_url: https://www.hearth-habit.com/2026/11/why-do-my-windows-fog-up-on-inside.html
   blogger_post_id: '6158633484900500396'
+  pinterest_pin_id: '1132796112564954453'
+  pinterest_pin_design: 2
 - title: How Cold Can It Get Before Ice Dams Start Forming on My Roof?
   pillar: home-maintenance
   status: pending

@@ -94,7 +94,7 @@ Two things that seem helpful aren't:
 
 If you live somewhere very dry or will keep the sugar a long time, Domino suggests the freezer. Thaw it for two to three hours before using. If ice crystals formed during long storage, stir the sugar gently as soon as it thaws so pockets of moisture don't cause damage.
 
-Not every pantry staple wants a sealed container, though. Onions and garlic need the opposite, as [why onion and garlic storage keeps sprouting indoors](https://www.hearth-habit.com/2026/09/why-onions-and-garlic-keep-sprouting.html) explains.
+Not every pantry staple wants a sealed container, though. Onions and garlic need the opposite: moving air around them, not a sealed lid.
 
 ## If it's white sugar or powdered sugar that went lumpy
 
